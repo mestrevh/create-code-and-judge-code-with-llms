@@ -1,0 +1,23 @@
+Título: Números ordenados
+
+Descrição:
+
+Imagine que um número ordenado possui seus dígitos em ordem não decrescente, como 8, 123, 555 e 224488.
+Números que não possuem essa propriedade são chamados de não ordenados. Imagine que alguém contou todos os valores inteiros de 1 até N.
+Qual o último número ordenado que foi contado?
+
+Formato da entrada:
+
+A primeira linha dá o número de casos de teste, T.
+Então se seguem T linhas, cada qual com um inteiro N, o último número inteiro contado para aquele caso de teste.
+
+1 <= T <= 100
+1 <= N <= 10^18
+
+Formato da saída:
+
+Para cada caso de teste, imprima uma linha seguindo o formato:
+
+    Caso #x, y
+
+onde x é o número do caso de teste (começando em 1) e y é o último número ordenado contado para aquele caso.
