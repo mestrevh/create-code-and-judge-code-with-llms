@@ -1,0 +1,5 @@
+Título: Referência bibliográfica
+Topicos do problema: array; função; string; 
+Descrição: <p>Faça um programa que leia o nome de uma pessoa e retorne como ficaria esse nome em uma referência bibliográfica.</p><p> Exemplo: <span>Carlos Drumound de Andrade</span></p><p><span>referência: ANDRADE, Carlos Drumound de.</span></p><p><span>Lembre-se da vírgula, do ponto final e não esqueça dos nomes que tenham de, do, da, das, dos, e.  </span></p><p><span><br/></span></p><p><span>obs.: Utilize função para fazer a referência. O nome da função deve ser referencia</span></p>
+Formato da entrada: <p>Nome completo de uma pessoa</p>
+Formato da saída: <p>Nome da entrada em formato de referência bibliográfica</p>

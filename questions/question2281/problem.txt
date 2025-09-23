@@ -1,0 +1,5 @@
+Título: Quantidade de dígitos (função recursiva)
+Topicos do problema: função; recursão; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Crie um programa que tenha uma única função, além da principal, que receberá como parâmetro um natural</span><i style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span> </span></i><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><i>n (0&lt;=n&lt;=2^30)</i><span> </span></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">e devolverá a quantidade de dígitos de<span> </span></span><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><i>n</i></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">. O programa exibirá o retorno da função. Observações: (a) sem laços de repetição; (b) sem matrizes; (c) função recursiva.</span><br/></p>
+Formato da entrada: <p>Um número natural.</p>
+Formato da saída: <p>A quantidade de dígitos do número da entrada.</p>

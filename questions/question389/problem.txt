@@ -1,0 +1,5 @@
+Título: Melhorando o Desempenho
+Topicos do problema: decisão; 
+Descrição: <p><span style="font-size: small;">Talita est&aacute; preocupada com o desempenho de seu filho na escola. No semestre passado, o boletim estava cheio de notas baixas e ele corre o risco de repetir de ano.<br /><br />Para motiv&aacute;-lo, ela prop&ocirc;s um desafio: se ele conseguir melhorar de desempenho <br />a cada avalia&ccedil;&atilde;o mensal, ganhar&aacute; um brinquedo novo! Ou seja, para mostrar que ele est&aacute; se esfor&ccedil;ando, cada nota ter&aacute; que ser superior &agrave; anterior.<br /><br />Escreva um programa que receba como entrada as 6 notas do filho de Talita e exiba uma mensagem informando se ele ganhar&aacute; brinquedo ou n&atilde;o.</span></p>
+Formato da entrada: <p>Seis n&uacute;meros reais</p>
+Formato da saída: <p><span style="font-size: small;">Um String com a mensagem "Ganha brinquedo" ou com a mensagem "Sem brinquedo" </span></p>

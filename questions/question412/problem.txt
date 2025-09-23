@@ -1,0 +1,38 @@
+Título: Feed de notícias
+Topicos do problema: estrutura de dados; ordenação; 
+Descrição: <p>Voc&ecirc; foi contratado para melhorar o seu feed de not&iacute;cias do facebook.</p>
+<p>No sua feed de not&iacute;cias deve aparecer as atualiza&ccedil;&otilde;es dos seus amigos. Por&eacute;m, voc&ecirc; deve escolher quais delas deve mostrar.</p>
+<p>Voc&ecirc; vai mostrar primeiro as atualiza&ccedil;&otilde;es mais recentes e dos amigos mais pr&oacute;ximos a voc&ecirc;. Ent&atilde;o, voc&ecirc; resolveu usar uma f&oacute;rmula</p>
+<p>para ponderar esses dois aspectos:</p>
+<p>0.8 * grau de proximidade do seu amigo + 0.2 * tempo que a atualiza&ccedil;&atilde;o foi realizada</p>
+<p>&nbsp;</p>
+<p>O grau de proximidade do seu amigo &eacute; calculado por outro algoritmo e tem sempre o valor entre 0 e 1.</p>
+<p>O tempo de atualiza&ccedil;&atilde;o tamb&eacute;m &eacute; calculado por um outro algoritmo e tem sempre o valor entre 0 e 1. Nesse caso, 1 significa que acabou de ser postado e 0 que faz muito tempo.</p>
+<p>&nbsp;</p>
+<p>Voc&ecirc; ir&aacute; receber, uma lista de atualiza&ccedil;&otilde;es de cada amigo e deve montar a sua feed de not&iacute;cias.</p>
+Formato da entrada: <p>Voc&ecirc; ir&aacute; receber:</p>
+<p>linha 1: um inteiro n indicando o tamanho do seu feed de not&iacute;cias. Considere 1 &lt;= n &lt;= 10000000</p>
+<p>linha 2: um inteiro m indicando a quantidade de amigos que voc&ecirc; possui. Considere 1 &lt;= m &lt;= 10000000</p>
+<p>pr&oacute;ximas m linhas: o identificador do amigo e o grau de proximidade</p>
+<p>pr&oacute;xima linha: um inteiro x indicando a quantidade de atualiza&ccedil;&otilde;es que voc&ecirc; receber&aacute;</p>
+<p>pr&oacute;ximas x linhas: um inteiro i indicando qual &eacute; o amigo que fez a atualiza&ccedil;&atilde;o, um n&uacute;mero real indicando o tempo que a atualiza&ccedil;&atilde;o foi realizada e uma frase representando a atualiza&ccedil;&atilde;o</p>
+<p>&nbsp;</p>
+<p>Por exemplo:</p>
+<p>2</p>
+<p>4</p>
+<p>1 0.5</p>
+<p>2 0.3</p>
+<p>3 0.8</p>
+<p>4 0.2</p>
+<p>5</p>
+<p>1 0.9 Estou adorando programar hoje!</p>
+<p>1 0.95 Droga, errei. Mas vou tentar mais um pouco.</p>
+<p>4 0.71 Eu topo!! Depois a gente estuda</p>
+<p>3 0.7 Alguem afim de uma cerveja?</p>
+<p>2 0.8 To fora! Prefiro programar</p>
+Formato da saída: <p>Voc&ecirc; deve imprimir o feed de not&iacute;cias contendo exatamente as n not&iacute;cias ordenadas de acordo com a f&oacute;rmula dada na descri&ccedil;&atilde;o.</p>
+<p>Cada linha deve conter o identificador do amigo, seguido de um espa&ccedil;o em branco, e depois a frase da atualiza&ccedil;&atilde;o.</p>
+<p>&nbsp;</p>
+<p>Exemplo de sa&iacute;da para a entrada dada:</p>
+<p>3 Alguem afim de uma cerveja?</p>
+<p>1 Droga, errei. Mas vou tentar mais um pouco.</p>

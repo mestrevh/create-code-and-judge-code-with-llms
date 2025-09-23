@@ -1,0 +1,5 @@
+Título: Inverte nomes
+Topicos do problema: 
+Descrição: <p>Escreve um programa que lê dois nomes (String), um por linha, inverta a ordem dos caracteres dos mesmos, e imprima os strings resultantes na ordem inversa em que foram lidos (em uma única linha).</p><p><br/></p><p>DICA - Como acessar informações de String em Java:</p><p>String s = &#34;Testar&#34;;</p><p>s.charAt(0); // retorna o char 'T'</p><p>s.charAt(5); // retorna o char 'r'<br/></p><p>s.<span>length(); // retorna o int 6</span></p>
+Formato da entrada: <p>Dois valores do tipo String (A e B), um por linha.<br/></p>
+Formato da saída: <p>Os valores String A e B, com a ordem dos seus caracteres invertidos e impressos na ordem inversa que foram lidos, numa única linha:</p><p>B A</p>

@@ -1,0 +1,5 @@
+Título: Q1 - Preço na semana
+Topicos do problema: array; 
+Descrição: <p>Durante uma semana é muito comum o preço dos produtos mudarem a cada dia. Para saber qual o melhor dia de comprar, a mãe de Marquinhos pediu para ele ir todo dia no supermercado verificar o preço do quilograma do tomate. Para ajudá-lo, crie um programa que guarde em uma lista o preço dos sete dias da semana e a imprima. </p>
+Formato da entrada: <p>7 números reais.</p>
+Formato da saída: <p>Uma lista com os 7 números.</p>

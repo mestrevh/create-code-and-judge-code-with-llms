@@ -1,0 +1,5 @@
+Título: Ordenação Ingênua
+Topicos do problema: array; ordenação; formatação; 
+Descrição: <p>Dado um conjunto de n valores inteiros, ordene-os em ordem crescente.</p>
+Formato da entrada: <p>Um inteiro n indicando quantos n&uacute;meros ser&atilde;o fornecidos, seguidos de n inteiros separados por um final de linha</p>
+Formato da saída: <p>A sequ&ecirc;ncia de n n&uacute;meros ordenada em ordem crescente, obedecendo ao seguinte formato:<br />[numero][numero][numero][numero]<br />Onde depois do &uacute;ltimo n&uacute;mero existe um final de linha.</p>

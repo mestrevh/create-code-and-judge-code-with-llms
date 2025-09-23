@@ -1,0 +1,5 @@
+Título: Listas - exibindo nota e posição
+Topicos do problema: array; repetição; 
+Descrição: <p>O objetivo dessa tarefa é aprender a manipular listas em Python. Deve-se apresentar um programa que leia até 5 notas de um determinado aluno e as guarde em uma lista.</p><p>Em seguida, o programa deve exibir cada nota lida indicando sua posição na lista.</p>
+Formato da entrada: <p>Um número inteiro n indicando o número de notas a ser lido ( 0 &lt; n &lt;=5).</p><p>As n notas do aluno. As notas devem ser do tipo float.</p>
+Formato da saída: <p>O programa deve exibir cada nota com sua posição da seguinte forma:</p><p>Nota 1: 10.0</p><p>Nota 2: 9.0</p><p>Em seguida, a média das notas lidas, com duas casas decimais.</p><p>9.50</p><p>A mensagem &#34;Número de notas inválido.&#34; deve ser exibida caso o valor de n não obedeça ao critério estabelecido.</p>

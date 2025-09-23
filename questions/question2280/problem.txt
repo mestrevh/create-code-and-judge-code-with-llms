@@ -1,0 +1,5 @@
+Título: Quantidade de caracteres (função recursiva)
+Topicos do problema: função; recursão; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Crie um programa que tenha uma única função, além da principal, que receberá como parâmetro uma string não vazia </span><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><i>s</i></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"> (com no máximo 50 caracteres de conteúdo)<span> </span>e devolverá a quantidade de caracteres de<span> </span><b><i>s</i></b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">. Observações: (a) sem laços de repetição; (b) sem matrizes auxiliares; (c) não usar funções prontas; (d) a função terá apenas um parâmetro, que será a string; (e) função recursiva.</span><br/></p>
+Formato da entrada: <p>Uma string com no máximo 50 caracteres, podendo conter letras alfabéticas maiúsculas, minúsculas e espaços.</p>
+Formato da saída: <p>A quantidade de caracteres lidos.</p>

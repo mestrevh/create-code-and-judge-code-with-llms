@@ -1,0 +1,5 @@
+Título: Fahrenheit para Celsius
+Topicos do problema: 
+Descrição: <p>Converter uma temperatura dada em graus Fahrenheit para graus Celsius.</p>
+Formato da entrada: <p>A temperatura em Fahrenheit &eacute; dada como um n&uacute;mero real.</p>
+Formato da saída: <p>Um n&uacute;mero real, formatado com duas casas decimais, seguido de um final de&nbsp;linha.</p>

@@ -1,0 +1,6 @@
+Título: Igual ou diferente
+Topicos do problema: decisão; 
+Descrição: <p>Fa&ccedil;a um programa que leia 3 n&uacute;meros inteiros e imprima um (e apenas um) dos seguintes n&uacute;meros:</p>
+<p>1 (Se todos os n&uacute;meros s&atilde;o iguais)<br />2 (Se todos os n&uacute;meros s&atilde;o diferentes)<br />3 (Se apenas dois n&uacute;meros s&atilde;o iguais)</p>
+Formato da entrada: <p>Consiste de 3 n&uacute;meros inteiros.</p>
+Formato da saída: <p>Consiste de um n&uacute;mero indicando uma das 3 situa&ccedil;&otilde;es de igualdade entre os valores de entrada conforme demonstrado na descri&ccedil;&atilde;o</p>

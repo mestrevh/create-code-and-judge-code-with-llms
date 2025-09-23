@@ -1,0 +1,5 @@
+Título: Pares de parênteses
+Topicos do problema: recursão; 
+Descrição: <p>Faça todas as possíveis combinações com <b>N</b> parênteses esquerdo e <b>N</b> parênteses direito que estejam devidamente balanceados.<br/></p>
+Formato da entrada: <p>Um único inteiro <b>N</b> que indica a quantidade de parênteses esquerdos e direitos.</p><p><br/></p><p>0 &lt;= <b>N</b> &lt;= 8<br/></p>
+Formato da saída: <p>Imprima uma linha contendo todas as combinações entre cochetes, se tiver mais de uma combinação separe por &#34;,&#34;.<br/></p>

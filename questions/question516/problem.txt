@@ -1,0 +1,63 @@
+Título: BST
+Topicos do problema: estrutura de dados; 
+Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Neste exercício devem ser implementadas as seguintes operações sobre Árvores de Busca Binária (BST) simples, sem rotações.
+
+1) Inserir X
+  Se X já existe na árvore, retorna o nível em que X está, sem inseri-lo novamente.
+  Se X não existe na árvore, insere X e retorna em qual nível ele ficou.
+
+2) Remover X
+  Se X estiver na árvore, remove X e retorna o nível em que X estava.
+  Se X não estiver na árvore, retorna -1.
+
+3) Maiores X
+  Retorna a quantidade de valores que estão na árvore e que são maiores do que X.
+
+4) Kth K
+  Retorna o K-ésimo valor que se encontra na árvore, em ordem crescente.
+
+OBS1: Quando X for removido, e possuir DOIS filhos, deve ser colocado o menor valor maior do que X em seu lugar. (O sucessor de X).
+OBS2: A raiz está no nível 0, os filhos da raiz no nível 1, os netos no nível 2, etc.</pre>
+Formato da entrada: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">A primeira linha da entrada possui T, o número de casos de teste.
+Seguem-se T casos de teste. Cada caso tem a seguinte forma:
+
+N
+C1 X1
+C2 X2
+...
+CN XN
+
+onde
+N é o número de operações executadas
+Ci (i=1,..,N) é o Código da operação:
+  -&gt; Ci == 1:
+    Deve ser executado "Inserir Xi"
+  -&gt; Ci == 2:
+    Deve ser executado "Remover Xi"
+  -&gt; Ci == 3:
+    Deve ser executado "Maiores Xi"
+  -&gt; Ci == 4:
+    Deve ser executado "Kth Xi"
+Xi é o argumento (operando) da operação i.
+
+Limites:
+1 &lt;= T &lt;= 100
+1 &lt;= N &lt;= 200000
+1 &lt;= Ci &lt;= 4, (i=1,...,N)
+Se Ci=1,2 ou 3:
+  -10^9 &lt;= Xi &lt;= 10^9,
+Se Ci == 4:
+  1 &lt;= Xi &lt;= no. de elementos na BST.
+
+OBS: Em cada caso, a BST está inicialmente vazia.</pre>
+Formato da saída: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Para cada caso imprima:
+
+R1
+R2
+...
+RN
+
+onde
+Ri é o retorno quando se executa "Ci Xi".
+
+Imprima uma linha em branco após cada caso.</pre>

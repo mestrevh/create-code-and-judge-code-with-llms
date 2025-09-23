@@ -1,0 +1,5 @@
+Título: Diferença
+Topicos do problema: 
+Descrição: <p>Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferen&ccedil;a do produto de A e B pelo produto de C e D.</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m 4 valores inteiros.</p>
+Formato da saída: <p>Imprima a mensagem DIFERENCA com todas as letras mai&uacute;sculas, conforme exemplo abaixo, com um espa&ccedil;o em branco antes e depois da igualdade e o valor da diferen&ccedil;a dos produtos.</p>

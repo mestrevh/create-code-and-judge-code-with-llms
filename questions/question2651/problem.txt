@@ -1,0 +1,5 @@
+Título: Preenchimento de caracteres
+Topicos do problema: repetição; 
+Descrição: <p>Crie um programa que receba como entrada um número de linhas L (L &gt; 0), um número de colunas C (C&gt;0) e um caractere X. O programa deverá exibir L linhas com C colunas preenchidas com o caractere X.&#13;<br/></p>
+Formato da entrada: <p>A primeira linha contém o número de linhas L; a linha seguinte contém o número de colunas C; a linha seguinte contém o caractere X.<br/></p>
+Formato da saída: <p>O programa deverá exibir L linhas com C colunas preenchidas com o caractere X.<br/></p>

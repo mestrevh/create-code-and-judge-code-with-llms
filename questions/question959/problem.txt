@@ -1,0 +1,5 @@
+Título: Sequência Lógica III
+Topicos do problema: array; acumulador; decisão; repetição; string; 
+Descrição: <p>Escreva um programa que lê 3 números X, Y e Z (X &lt; Y e Z &gt;= 1). Em seguida, o programa exibe uma seqüência de 1 a Y, com valores incrementados pelo valor de Z, passando para a próxima linha a cada X números serem impressos na linha.<br/></p>
+Formato da entrada: <p>A entrada contém três números inteiros X (1 &lt; X &lt; 20), Y (X &lt; Y &lt; 100000) e Z (Z &gt;= 1).<br/></p>
+Formato da saída: <p>Cada seqüência deverá ser impressa em uma linha, com um espaço em branco entre cada número, como o exemplo de saída.<br/></p>

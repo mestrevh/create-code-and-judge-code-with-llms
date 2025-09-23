@@ -1,0 +1,5 @@
+Título: Espaços excedentes
+Topicos do problema: acumulador; repetição; string; 
+Descrição: <p>Escreva um programa que retire os espaços excedentes de uma string.</p><p>obs: considere que não haverá espaços no começo da string.<br/></p>
+Formato da entrada: <p>Uma string<i> </i><b><i>S</i></b>, tamanho da string é no máximo 300 caracteres.<b><br/></b></p>
+Formato da saída: <p>A string <b>S</b> formatada corretamente.<br/></p>

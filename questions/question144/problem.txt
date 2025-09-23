@@ -1,0 +1,10 @@
+Título: Álbum
+Topicos do problema: geometria computacional; 
+Descrição: <p>Clara está organizando as fotos da sua última viagem num álbum de fotos. Como ela tem muitas fotos, para economizar páginas do álbum ela quer colar duas fotos por página do álbum.<br/>Como as fotos são retangulares, as fotos podem ser coladas giradas (mas sempre com lados paralelos aos da página do álbum, para preservar o equilíbrio estético do álbum), mas elas devem sempre ficar inteiramente contidas no interior da página, e não devem se sobrepor.<br/>Em geral, das muitas formas de posicionar as fotos do álbum só algumas (ou nenhuma) satisfazem estas restrições, então pode ser difícil decidir se é possível colar as duas fotos em uma mesma página do álbum, e por isso Clara pediu a sua ajuda para escrever um programa que, dadas as dimensões da página e das fotos, decide se é possível colar as fotos na página.<br/>Por exemplo, cada página pode ser 5 X 7, e duas fotos são 3 X 4. Nesse caso, é possível colar as duas fotos:<a href="../../data/images/app/problems/9596f1555da6f398a730287a72a4d6e8.png" target="_blank"></a></p>&#13;<p><a href="../../data/images/app/problems/9596f1555da6f398a730287a72a4d6e8.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/9596f1555da6f398a730287a72a4d6e8.png" border="0" width="170" height="170"/></a></p><p><br/></p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m dois inteiros X e Y , indicando a largura e a altura da p&aacute;gina do &aacute;lbum.<br />Cada uma das duas linhas seguintes cont&eacute;m dois inteiros L e H, indicando a largura e a altura das fotos.<br />Suponha:</p>
+<p>&nbsp;</p>
+<ul>
+<li>1 &lt;= X,Y &lt;= 1000</li>
+<li>1 &lt;= L,H &lt;= 1000</li>
+</ul>
+Formato da saída: <p>Imprima uma &uacute;nica linha, contendo um &uacute;nico caractere: &lsquo;S&rsquo;, se &eacute; poss&iacute;vel colar as duas fotos na p&aacute;gina do &aacute;lbum, e &lsquo;N&rsquo;, caso contr&aacute;rio.</p>

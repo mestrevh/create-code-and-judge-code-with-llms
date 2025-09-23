@@ -1,0 +1,6 @@
+Título: Revistas em ordem
+Topicos do problema: multiplas entradas; decisão; repetição; 
+Descrição: <p>Margarida assina revistas sobre viagens h&aacute; muitos anos e tem uma cole&ccedil;&atilde;o enorme. Fazendo uma arruma&ccedil;&atilde;o, ela teve a curiosidade de observar se as revistas estavam guardadas na ordem em que foram recebidas. Escreva um programa que receba como entrada o n&uacute;mero de s&eacute;rie de v&aacute;rias revistas, at&eacute; que seja informado o n&uacute;mero zero, e exiba uma mensagem indicando se estavam todas em ordem ou n&atilde;o.</p>
+<p>Dica: para que uma sequ&ecirc;ncia de n&uacute;meros esteja ordenada, &eacute; necess&aacute;rio que todos os n&uacute;meros sejam menores que seus sucessores</p>
+Formato da entrada: <p>V&aacute;rios n&uacute;meros inteiros at&eacute; que seja informado o n&uacute;mero zero.</p>
+Formato da saída: <p>Um String "EM ORDEM" caso as revistas estejam organizadas da menor para a maior, ou um String "FORA DE ORDEM" caso elas n&atilde;o estejam arrumadas assim</p>

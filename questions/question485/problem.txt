@@ -1,0 +1,7 @@
+Título: Medindo as crianças
+Topicos do problema: multiplas entradas; decisão; string; 
+Descrição: <p>Sandra &eacute; professora de jardim de inf&acirc;ncia e resolveu fazer uma brincadeira com seus alunos. Ela levou uma fita m&eacute;trica para medir a altura das crian&ccedil;as da turma. Escreva um programa que receba como entrada o nome e a altura de v&aacute;rias crian&ccedil;as, at&eacute; que todas tenham sido informadas, e exiba o nome da crian&ccedil;a mais baixa e o nome da crian&ccedil;a mais alta.</p>
+Formato da entrada: <p>Para cada crian&ccedil;a, um valor String e um valor real.</p>
+<p>Ap&oacute;s os dados de cada crian&ccedil;a, o usu&aacute;rio informar&aacute; se ainda h&aacute; outros dados para informar. A entrada de dados deve encerrar quando for informada a palavra FIM escrita de qualquer maneira</p>
+<p>Dica: considere que sempre ser&atilde;o informados os dados de pelo menos uma crian&ccedil;a</p>
+Formato da saída: <p>Dois valores String em letras mai&uacute;sculas, sendo o primeiro da crian&ccedil;a mais baixa, e o segundo da crian&ccedil;a mais alta</p>

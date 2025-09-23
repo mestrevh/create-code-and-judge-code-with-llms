@@ -1,0 +1,5 @@
+Título: P2 - Média de alunos
+Topicos do problema: decisão; repetição; lógica matemática; 
+Descrição: <p>Marcos é um professor bem curioso. Ele gostaria de saber qual é a média de alunos por turma dada a quantidade de turmas, sabendo que cada turma não pode ter mais do que 40 alunos. Faça um programa que peça a quantidade de turmas e a quantidade de alunos em cada turma e mostre a média de alunos por turma.</p>
+Formato da entrada: <p>um número n que representa a quantidade de turmas e n2 entradas que serão a quantidade de alunos de cada turma.</p><p>Caso seja fornecido um número de alunos maior que 40, exiba a mensagem &#34;O numero de alunos nao pode ser maior do que 40&#34; e releia a quantidade de alunos até que a quantidade de alunos seja válida.</p>
+Formato da saída: <p>A média da quantidade de alunos por turma, com valor arredondado.</p>

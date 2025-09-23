@@ -1,0 +1,24 @@
+Título: Colisão no Mapa
+Topicos do problema: array bidimensional; 
+Descrição: <p>Voc&ecirc; est&aacute; produzindo um jogo de labirinto, ou seja, as colis&otilde;es com as paredes s&atilde;o muito importante.<br />Para lidar com elas, voc&ecirc; construiu um vetor bidimensional de 0s e 1s, onde "0" representa parede, e "1" representa o caminho por onde voc&ecirc; pode se movimentar.</p>
+<p>Vamos testar se voc&ecirc; construiu o programa para lidar com isso precisamente.</p>
+<p>Dadas as seguintes entradas:&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+<li>N&uacute;mero de linhas;</li>
+<li>N&uacute;mero de colunas;</li>
+<li>Vetor bidimensional com 0s e 1s;</li>
+<li>A quantidade e sequ&ecirc;ncia de comandos, informando a movimenta&ccedil;&atilde;o do seu personagem dentro do "mapa";</li>
+<li>Posi&ccedil;&atilde;o (linha e coluna) inicial do personagem.&nbsp;</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>informe em que posi&ccedil;&atilde;o ele estar&aacute; ao fim do programa.</p>
+<p><br />Os comandos de dire&ccedil;&atilde;o ser&atilde;o representados por:<br />Direita: <strong>D</strong><br />Esquerda: <strong>E</strong><br />Cima: <strong>C</strong><br />Baixo: <strong>B</strong></p>
+Formato da entrada: <p>Dois inteiros: N (representando quantidade de linhas do vetor bidimensional) &nbsp;e M (representando quantidade de colunas do vetor bidimensional).</p>
+<p>Vetor bidimensional com 0s e 1s;</p>
+<p>Um inteiro C representando a quantidade de comandos.</p>
+<p>Uma sequencia de C caracteres, representando os comandos.</p>
+<p>Dois inteiros X e Y representando a linha e coluna iniciais do personagem.</p>
+Formato da saída: <p>A posi&ccedil;&atilde;o dele no array, representada por (x,y).</p>

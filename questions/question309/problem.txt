@@ -1,0 +1,20 @@
+Título: Estiagem
+Topicos do problema: multiplas entradas; array; acumulador; alocação dinâmica; estruturas; 
+Descrição: <p>Devido &agrave;s constantes estiagens que aconteceram nos &uacute;ltimos tempos em algumas regi&otilde;es do Brasil, o governo federal criou um &oacute;rg&atilde;o para a avalia&ccedil;&atilde;o do consumo destas regi&otilde;es com finalidade de verificar o comportamento da popula&ccedil;&atilde;o na &eacute;poca de racionamento. Este &oacute;rg&atilde;o respons&aacute;vel ir&aacute; pegar algumas cidades (por amostragem) e verificar&aacute; como est&aacute; sendo o consumo de cada uma das pessoas da cidade e o consumo m&eacute;dio de cada cidade por habitante.</p>
+Formato da entrada: <p>A entrada cont&eacute;m v&aacute;rios casos de teste. A primeira linha de cada caso de teste cont&eacute;m um inteiro N (1 &le; N &le; 1*(10^6)), indicando a quantidade de im&oacute;veis. As N linhas cont&eacute;m um par de valores X (1 &le; X &le; 10) e Y (1 &le; Y &le; 20000), indicando a quantidade de moradores de cada im&oacute;vel e o respectivo consumo total de cada im&oacute;vel (em m3). Com certeza, nenhuma resid&ecirc;ncia consome mais do que 20000 m3 por m&ecirc;s. O final da entrada &eacute; representado pelo n&uacute;mero zero.</p>
+Formato da saída: <p>Para cada entrada, deve-se apresentar a mensagem &ldquo;Cidade# n:&rdquo;, onde n &eacute; o n&uacute;mero da cidade seguindo a sequ&ecirc;ncia (1, 2, 3, ...) e em seguida deve-se listar, por ordem crescente de consumo, a quantidade de pessoas seguido de um h&iacute;fen e o consumo destas pessoas, arredondando o valor para baixo.</p>
+<p>Lembre-se que o objetivo &eacute; identificar quantas pessoas est&atilde;o consumindo aquela quantidade de &aacute;gua. Sendo assim, a sua listagem deve agrupar a quantidade de pessoas de acordo com suas m&eacute;dias de consumo. Para ilustrar, considere a segunda cidade do exemplo de entrada e sa&iacute;da. Nela existem 05 resid&ecirc;ncias:</p>
+<p>5</p>
+<p>1 25</p>
+<p>2 20</p>
+<p>3 31</p>
+<p>2 40</p>
+<p>6 70</p>
+<p>, ou seja, na primeira casa mora um "gastador" que consome em m&eacute;dia 25. Na segunda moram duas pessoas, logo a m&eacute;dia de consumo &eacute; de 10. Na terceira moram 03 pessoas e a m&eacute;dia de consumo arredondada para baixo &eacute; de 10 por pessoa. Na quarta, 2 pessoas com m&eacute;dia de 20 e na quinta, 6 pessoas com m&eacute;dia de 11. Sendo assim, ter&iacute;amos:</p>
+<p>1-25&nbsp;2-10&nbsp;3-10 2-20 e 6-11</p>
+<p>Como o objetivo &eacute; agrupar por consumo, existem duas casas em que a m&eacute;dia por pessoas &eacute; de 10, ou seja, existem 5 pessoas que consomem em m&eacute;dia 10.</p>
+<p>Logo, ordenando pelo consumo, voc&ecirc; dever&aacute; imprimir:&nbsp;</p>
+<p>5-10 6-11 2-20 1-25</p>
+<p>Finalmente, na terceira linha da sa&iacute;da deve-se mostrar o consumo m&eacute;dio por pessoa da cidade, com 2 casas decimais sem arredondamento, considerando o consumo real total. Imprimir uma linha em branco entre dois casos de teste consecutivos.</p>
+<p>No fim da sa&iacute;da lembre-se da quebra de linha.</p>
+<p>DICA: use o tipo com precis&atilde;o dupla (double na maioria das linguagens) para evitar erros com o ponto flutuante.</p>

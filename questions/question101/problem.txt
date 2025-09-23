@@ -1,0 +1,5 @@
+Título: Alinhados
+Topicos do problema: geometria computacional; multiplas entradas; array; 
+Descrição: <p>Esquisildo &eacute; completamente obcecado por organiza&ccedil;&atilde;o, agora ele quer saber&nbsp;se todos os seus pendrives est&atilde;o perfeitamente enfileirados. Para extinguir essa&nbsp;d&uacute;vida ele pediu a sua ajuda.<br />Fa&ccedil;a um programa que dada as coordenadas X, Y de todos os pendrives, diga&nbsp;se est&atilde;o alinhados ou n&atilde;o.</p>
+Formato da entrada: <p>A primeira linha cont&eacute;m um n&uacute;mero inteiro positivo N &gt;= 3 de pendrives,&nbsp;cada uma das N linhas seguintes cont&eacute;m dois inteiros X Y representando as&nbsp;posi&ccedil;&otilde;es dos pendrives sobre a mesa, para cada caso de teste as posi&ccedil;&otilde;es X Y de&nbsp;cada pendrive n&atilde;o coincidem(n&atilde;o h&aacute; pendrives empilhados).<br />A entrada termina quando N = 0.</p>
+Formato da saída: <p>Para cada fileira de pendrives escreva ALINHADOS se todos estiverem&nbsp;alinhados ou NAO_ALINHADOS em caso contr&aacute;rio</p>

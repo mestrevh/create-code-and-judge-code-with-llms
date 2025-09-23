@@ -1,0 +1,5 @@
+Título: Somar 2 números ou raiz quadrada de 1 número
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <pre>Escreva um programa que receba 1 para somar dois números ou 2 para calcular a raiz quadrada de um número, bem como os dados necessários para a execução de cada operação.</pre>
+Formato da entrada: <pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">Consiste do número inteiro 1 ou 2 na primeira linha e do(s) dado(s) necessário(s) para a execução da operação na segunda linha; esse(s) dado(s) deve(m) ser do tipo real.</pre>
+Formato da saída: <pre>Consiste de um número real formatado com duas casas decimais, representando o resultado da operação.<br/></pre>

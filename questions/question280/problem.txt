@@ -1,0 +1,6 @@
+Título: Salário com Bônus
+Topicos do problema: ponto flutuante; lógica matemática; 
+Descrição: <p>Fa&ccedil;a um programa que leia o nome de um vendedor, o seu sal&aacute;rio fixo e o total de vendas efetuadas por ele no m&ecirc;s (em dinheiro). Sabendo que este vendedor ganha 15% de comiss&atilde;o sobre suas vendas efetuadas, informar o total a receber no final do m&ecirc;s, com duas casas decimais.</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m um texto (primeiro nome do vendedor) e 2 n&uacute;meros com duas casas decimais, representando o sal&aacute;rio fixo do vendedor e montante total das vendas efetuadas por este vendedor, respectivamente.</p>
+Formato da saída: <p>Imprima o total que o funcion&aacute;rio dever&aacute; receber, conforme exemplo fornecido.</p>
+<p>Voc&ecirc; deve sempre arredondar. Por exemplo, se o resultado for 57.347, voc&ecirc; deve imprimir 57.35 e n&atilde;o 57.34</p>

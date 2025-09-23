@@ -1,0 +1,7 @@
+Título: Investimento
+Topicos do problema: ponto flutuante; acumulador; repetição; lógica matemática; 
+Descrição: <p>Uma pessoa aplicou seu capital a juros e deseja saber, trimestralmente, a posi&ccedil;&atilde;o de seu investimento C inicial. Chamando de i a taxa de juros do trimestre,<br />escreva uma tabela que, para cada trimestre, d&ecirc; o rendimento auferido e o saldo acumulado durante um per&iacute;odo de X anos, supondo-se que nenhuma retirada tenha sido feita.</p>
+Formato da entrada: <p>Dois n&uacute;meros de ponto flutuante separados por espa&ccedil;o contendo o investimento inicial, a taxa de juros trimestral e um inteiro indicando o per&iacute;odo em anos.</p>
+Formato da saída: <p>Uma tabela, cada linha &eacute; escrita na forma:</p>
+<p>Rendimento: R Montante: M</p>
+<p><br />onde R e M s&atilde;o n&uacute;meros de ponto flutuante formatado com duas casas decimais.</p>

@@ -1,0 +1,14 @@
+Título: Lanchonete da Ambrosina
+Topicos do problema: array; acumulador; caractere; string; dicionário; estruturas; 
+Descrição: <p>Ambrosina &eacute; de lua. Quase todo dia ela quer mudar o card&aacute;pio de sua lanchonete. Ambr&oacute;sio, o programador do sistema, n&atilde;o ag&uuml;enta mais alterar o c&oacute;digo do programa todas as vezes que Ambrosina muda o humor. Ent&atilde;o Ambr&oacute;sio resolveu mudar o software de forma que Ambrosina possa cadastrar o card&aacute;pio todas as manh&atilde;s, ao iniciar o software.</p>
+<p>O software l&ecirc; a quantidade de produtos a serem cadastrados, e depois o c&oacute;digo de LED instalada na lanchonete seguidos pela descri&ccedil;&atilde;o e pre&ccedil;o do produto. Os clientes escolhem os produtos pelo c&oacute;digo.</p>
+<p>Se o cliente pede um produto n&atilde;o cadastrado ou uma quantidade negativa o pedido &eacute; considerado inv&aacute;lido.</p>
+<p>O sistema calcula quantos itens o cliente escolheu de cada c&oacute;digo e imprime o total da conta, sem descontos! Eita Ambrosina sovina !!</p>
+Formato da entrada: <p>Consiste de um inteiro n, representando o n&uacute;mero de produtos a serem cadastrados.</p>
+<p>Depois, segue o cadastro dos n produtos, onde ser&atilde;o lidos para cada produto:</p>
+<p>um inteiro representando o c&oacute;digo de LED,</p>
+<p>uma descri&ccedil;&atilde;o do produto</p>
+<p>e um n&uacute;mero real representando o pre&ccedil;o.</p>
+<p>Depois, s&atilde;o lidos os pedidos.</p>
+<p>O pedido consiste do c&oacute;digo do produto e da quantidade de itens daquele produto que ser&aacute; pedido. O pedido se encerra quando o c&oacute;digo lido &eacute; igual a 0.</p>
+Formato da saída: <p>O valor que o cliente deve pagar, formatado com duas casas decimais. Pedidos inv&aacute;lidos s&atilde;o ignorados.</p>

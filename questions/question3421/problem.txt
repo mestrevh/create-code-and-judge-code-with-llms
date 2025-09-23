@@ -1,0 +1,5 @@
+Título: Função exponencial natural
+Topicos do problema: repetição; lógica matemática; 
+Descrição: <pre>Implementar um programa para calcular o valor de e elevado a x (ex). O valor de ex será calculado pela soma dos n primeiros termos da série a seguir:<br/></pre><p><img src="https://www.thehuxley.com/api/v1/problems/image/acda53002e1704ddbe1d881adfa3c8d5c71a371b1.png"/><br/></p>
+Formato da entrada: <p>Um número real seguido de um número inteiro, correspondente ao valor de x e o número de elementos da série, respectivamente.</p>
+Formato da saída: <p>Um número real formatado com 5 casas decimais correspondente ao valor de e elevado a x.</p>

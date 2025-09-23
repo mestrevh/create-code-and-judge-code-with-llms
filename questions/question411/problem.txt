@@ -1,0 +1,23 @@
+Título: Anagramas a partir de pilhas
+Topicos do problema: busca completa; pilha; backtracking; 
+Descrição: <p>Como &eacute; poss&iacute;vel gerar anagramas a partir de uma sequ&ecirc;ncia se opera&ccedil;&otilde;es de pilha?</p>
+<p>Por exemplo, existem duas sequ&ecirc;ncias de opera&ccedil;&otilde;es de pilha que permitem converter TROT em TORT:</p>
+<p>[</p>
+<p>i i i i o o o o</p>
+<p>i o i i o o i o</p>
+<p>]</p>
+<p>onde i significa "push" e o significa "pop".&nbsp;</p>
+<p>Seu programa deve, dado um par de palavras, produzir sequ&ecirc;ncias de opera&ccedil;&otilde;es de pilhas que convertam a primeira palavra na segunda.</p>
+Formato da entrada: <p>A entrada consiste de v&aacute;rias linhas.</p>
+<p>A primeira linha de cada par de linhas &eacute; considerada a palavra de origem. A segunda linha de cada par de linhas &eacute; a palavra de destino.</p>
+Formato da saída: <p>Para cada par de linhas da entrada, voc&ecirc; deve imprimir uma lista ordenada de sequ&ecirc;ncias v&aacute;lidas de 'i' e 'o' que produzem a palavra destino a partir da palavra de origem. Cada lista deve ser delimitada por:</p>
+<p>[</p>
+<p>]</p>
+<p>As sequ&ecirc;ncias devem ser impressas em ordem alfab&eacute;tica. Dentro de cada sequ&ecirc;ncia, cada i e cada &oacute; &eacute; seguido por um espa&ccedil;o em branco e cada sequ&ecirc;ncia &eacute; terminada por um final de linha.</p>
+<p><strong>ATEN&Ccedil;&Atilde;O:</strong></p>
+<p>
+<ul>
+<li><strong>Depois do &uacute;ltimo elemento da sequ&ecirc;ncia, n&atilde;o existe um espa&ccedil;o em branco, mas sim um final de linha</strong></li>
+<li><strong>A sequ&ecirc;ncia em si, n&atilde;o deve ser ordenada. Voc&ecirc; deve ordenar a lista de sequ&ecirc;ncias, caso mais de uma seja poss&iacute;vel.</strong></li>
+</ul>
+</p>

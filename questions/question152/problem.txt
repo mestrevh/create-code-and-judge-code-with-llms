@@ -1,0 +1,12 @@
+Título: Brincando com Arrays
+Topicos do problema: array; array circular; ordenação; 
+Descrição: <p>Fa&ccedil;a um programa que leia n n&uacute;meros inteiros dados em um array e os imprime:</p>
+<p>a) na ordem inversa dos n&uacute;meros dados</p>
+<p>b) com um deslocamento para a esquerda</p>
+<p>c) ordenado em ordem decrescente</p>
+Formato da entrada: <p>&nbsp;</p>
+<p>Consiste de um n&uacute;mero n indicando a quantidade de n&uacute;meros a serem passados na entrada, seguido de n n&uacute;meros separados por um espa&ccedil;o em branco.</p>
+<p>Suponha que o maior n dado &eacute; 10000.</p>
+<p>&nbsp;</p>
+Formato da saída: <p>Consiste de 3 sequ&ecirc;ncias de n&uacute;meros, separados por um espa&ccedil;o em branco. Ap&oacute;s cada sequ&ecirc;ncia, existe um final de linha. A primeira sequ&ecirc;ncia cont&eacute;m os n&uacute;meros na ordem inversa, a segunda com o deslocamento para a esquerda e a terceira cont&eacute;m os n&uacute;meros ordenados em ordem decrescente. Lembre-se que depois do &uacute;ltimo n&uacute;mero de cada sequ&ecirc;ncia n&atilde;o existe espa&ccedil;o.</p>
+<p>&nbsp;</p>

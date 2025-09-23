@@ -1,0 +1,18 @@
+Subarray: 12 11 15 10 9 2 1 19 6 8 
+Pivo: 8
+Array: 2 1 6 8 9 12 11 19 15 10 
+Subarray: 2 1 6 
+Pivo: 6
+Array: 2 1 6 8 9 12 11 19 15 10 
+Subarray: 2 1 
+Pivo: 1
+Array: 1 2 6 8 9 12 11 19 15 10 
+Subarray: 9 12 11 19 15 10 
+Pivo: 10
+Array: 1 2 6 8 9 10 11 19 15 12 
+Subarray: 11 19 15 12 
+Pivo: 12
+Array: 1 2 6 8 9 10 11 12 15 19 
+Subarray: 15 19 
+Pivo: 19
+Array: 1 2 6 8 9 10 11 12 15 19 

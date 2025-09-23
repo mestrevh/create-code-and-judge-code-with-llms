@@ -1,0 +1,5 @@
+Título: Diagonais de um polígono
+Topicos do problema: lógica matemática; 
+Descrição: <p>A diagonal de um polígono é um segmento de linha que liga 2 vértices não adjacentes</p><p>Faça um programa que calcula a quantidade de diagonais de um polígono baseado na quantidade de lados desse polígono<br/></p>
+Formato da entrada: <p>Um valor inteiro que representa a quantidade de lados do polígono.</p>
+Formato da saída: <p>Um valor inteiro que representa a quantidade de diagonais do polígono.</p>

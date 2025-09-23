@@ -1,0 +1,5 @@
+Título: Bubble Sort Passo a passo
+Topicos do problema: array; repetição; ordenação; 
+Descrição: <p>Crie um programa que recebe um array de tamanho variável e ordena o array de forma crescente. A ordenação deve ser feita utilizando uma função bubble sort. O algoritmo deve parar caso em uma dar iterações não seja realizada nenhuma troca.<br/></p>
+Formato da entrada: <p>A entrada é uma sequencia de números. A leitura deve encerrar no fim do arquivo (EOF);<br/></p>
+Formato da saída: <p>A saída deve ser a exibição do passo a passo da ordenação. A cada passagem completa do algoritmo pelo array, deve-se exibir o estado atual do array.<br/></p>

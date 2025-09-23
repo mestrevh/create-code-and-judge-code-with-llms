@@ -1,0 +1,5 @@
+Título: Sala da professora Asbeksa
+Topicos do problema: decisão; repetição; 
+Descrição: <p>Na sala de aula da professora Asbeksa os alunos estavam discutindo e a professora Asbeksa logo foi entender o motivo da discussão, os alunos queriam saber qual era o mais alto da sala, e para isso a professora  quer a sua ajuda.</p><p>Faça um programa que leia as alturas dos alunos até que seja digitado &#34;parar&#34; e ao final diga a altura do aluno mais alto da turma, junto ao seu nome.</p>
+Formato da entrada: <p>Nome do aluno e a sua altura.</p><p>* A entrada para quando for digitado &#34;parar&#34;.</p>
+Formato da saída: <p>A altura do aluno mais alto junto ao seu nome.</p>

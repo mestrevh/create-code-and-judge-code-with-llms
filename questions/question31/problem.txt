@@ -1,0 +1,5 @@
+Título: Quantos minutos se passaram
+Topicos do problema: acumulador; datas/horas; 
+Descrição: <p>Fa&ccedil;a um programa que leia dois valores inteiros representando, respectivamente,&nbsp;um valor de hora e um de minutos e informe quantos minutos se passaram deste&nbsp;o in&iacute;cio do dia.</p>
+Formato da entrada: <p>Ser&atilde;o fornecidos dois n&uacute;meros inteiros separados por um final de linha.</p>
+Formato da saída: <p>Seja x o total de minutos decorridos desde o in&iacute;cio do dia, a sua sa&iacute;da deve estar&nbsp;no seguinte formato:<br />x minutos.<br />Perceba que a sua sa&iacute;da deve ser seguida de um final de linha.</p>

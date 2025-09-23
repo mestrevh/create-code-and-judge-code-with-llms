@@ -1,0 +1,5 @@
+Título: Printando a Entrada
+Topicos do problema: entrada formatada; 
+Descrição: <p>Você receberá um número real. Seu programa deve printá-lo com 8 casas decimais com precisão.</p>
+Formato da entrada: <p>Um número real.</p>
+Formato da saída: <p>O número real da entrada, com 8 casas decimais de precisão.</p>

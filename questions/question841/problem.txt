@@ -1,0 +1,5 @@
+Título: Acima da média
+Topicos do problema: decisão; 
+Descrição: <p>Dados três números em ponto flutuante queremos saber quantos deles estão acima da média aritmética.</p><p><br/></p>
+Formato da entrada: <p></p><span style="color: rgb(147, 149, 152);float: none;background-color: rgb(255, 255, 255);">Três números positivos, menores ou iguais a 10.0 e com <span style="color: rgb(147, 149, 152);float: none;background-color: rgb(255, 255, 255);">dois decimais</span>, no máximo.</span><p></p>
+Formato da saída: <p>A quantidade dos que estão acima da média.</p>

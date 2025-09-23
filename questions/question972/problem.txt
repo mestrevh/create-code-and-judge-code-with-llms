@@ -1,0 +1,5 @@
+Título: É um número primo? (versão iniciante)
+Topicos do problema: multiplas entradas; decisão; repetição; números primos; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Faça um programa que dado um número indique se ele é um primo ou não. Nesta versão iniciante não se preocupe com a eficiência. Se você consegue cumprir essa missão de forma eficiente, já tentou o problema 260 - É um número primo? ;-) Boa sorte!!</span><br/></p>
+Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Você irá receber uma sequência de números separados por um final de linha. A entrada termina quando o número lido for -1.</span><br/></p>
+Formato da saída: <p></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Para cada número lido você deve imprimir 0 caso o número não seja primo ou 1 caso seja.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Depois de cada 0 ou 1 impresso, coloque um final de linha.</p>

@@ -1,0 +1,5 @@
+Título: Antecessor e Sucessor
+Topicos do problema: 
+Descrição: <p>Fa&ccedil;a um programa que leia um n&uacute;mero inteiro e imprima o seu antecessor (inteiro anterior) e o seu sucessor (inteiro posterior).</p>
+Formato da entrada: <p>Um n&uacute;mero inteiro.</p>
+Formato da saída: <p>O inteiro anterior e o sucessor, separados por um espa&ccedil;o.</p>

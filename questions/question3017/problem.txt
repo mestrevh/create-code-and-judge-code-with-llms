@@ -1,0 +1,5 @@
+Título: Quantos dias você já viveu?
+Topicos do problema: multiplas entradas; 
+Descrição: <p>Escreva um programa para ler o nome e a idade de uma pessoa. Exiba em seguida o nome da pessoa e quantos dias de vida ela possui. Considere sempre anos completos, e que um ano possui 365 dias. Ex: uma pessoa com 20 anos em  possui 7300 dias de vida.<br/></p>
+Formato da entrada: <p>O programa deverá receber o nome da pessoa e sua idade.</p>
+Formato da saída: <p>O programa deverá imprimir o nome e a quantidade de dias vivido conforme exemplo abaixo para o nome José e a idade 20 anos:</p><p><i><b>José, você já viveu 7300 dias!</b></i><br/></p>

@@ -1,0 +1,5 @@
+Título: Impressão de ímpares
+Topicos do problema: decisão; 
+Descrição: <p>Dado um número natural n (n &gt; 1), exiba os n primeiros números ímpares.<br/></p>
+Formato da entrada: <p>5<br/></p>
+Formato da saída: <p>1</p><p>3</p><p>5</p><p>7</p><p>9<br/></p>

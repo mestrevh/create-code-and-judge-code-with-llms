@@ -1,0 +1,5 @@
+Título: Conversao Dolar Euro
+Topicos do problema: multiplas entradas; lógica matemática; 
+Descrição: <p>Escreva um programa que realize a conversão de real para dolar e real para euro: para cada valor lido em reais da entrada padrão, será exibido o correspondente em dolar (1 dólar = 3.87 reais) e em euro (1 euro = 4.35 reais).<br/></p>
+Formato da entrada: <p>O usuario deve digitar o valor em reais<br/></p>
+Formato da saída: <p>O programa deve exibir os valores convertidos em dolar e em euro, com 2 casas decimais, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite o valor em reais:<br/></p><p>Valor convertido em dolar: n</p><p>Valor convertido em euro: n</p>

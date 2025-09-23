@@ -1,0 +1,5 @@
+Título: Q07 - É ano Bissexto?
+Topicos do problema: lógica matemática; função; 
+Descrição: <p>Crie um procedimento chamado &#34;eh_bissexto&#34; que receba como parâmetro um ano e indique se ele é bissexto ou não.<br/></p><p>Para descobrirmos se um ano é bissexto, fazemos o seguinte cálculo:</p><p>se o ano for divisível por 4 mas não por 100, ele é bissexto.</p><p>Ou</p><p>Se o ano for divisível por 4, por 100 e por 400, ele também é bissexto.</p>
+Formato da entrada: <p>Um número inteiro representando o ano</p>
+Formato da saída: <p>&#34;bissexto&#34; se o ano for bissexto e &#34;nao bissexto&#34; caso contrário.</p>

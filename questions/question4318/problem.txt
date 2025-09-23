@@ -1,0 +1,5 @@
+Título: Lulu está Adotando!
+Topicos do problema: array; 
+Descrição: <p>Lulu é sempre quem manda no grupo, e por isso decidiu que já está pronta para ser mãe!</p><p>Entretanto, ela tem preferências um pouco...estranhas. E você a ajudará a decidir quem serão seus filhos!</p><p>Será dada uma lista de <b>n </b>opções, um número <b>m </b>de filhos que ela irá adotar, e um número mágico <b>X</b>. Logo em seguida, <b>n </b>linhas, com <b>nome</b>, <b>idade </b>e <b>altura</b>. <br/></p><p>Ela adotará aqueles em que a multiplicação da <b>altura </b>vezes a <b>idade </b>vezes a <b>quantidade de letras do nome</b> for mais próxima de <b>x</b>.</p><p>Mostre o nome dos que serão adotados (dos em que a multiplicação da mais perto de x para os que dão menos perto).<br/></p>
+Formato da entrada: <p>4</p><p>2</p><p>600</p><p>Danilo 8 1.99</p><p>Arthur 19 2.88</p><p>Aline 22 9.99</p><p>Alice 12 4.44<br/></p>
+Formato da saída: <pre class="msg" style="color: rgb(51, 51, 51);background-color: white;">Arthur&#10;Alice</pre>

@@ -1,0 +1,5 @@
+Título: inverta a ordem de um número de n digitos
+Topicos do problema: multiplas entradas; acumulador; repetição; lógica matemática; 
+Descrição: <p>receba um numero inteiro positivo com n digitos e reescreva-o na ordem inversa</p>
+Formato da entrada: <p>um inteiro n com o tamanho do inteiro</p><p>I o inteiro a ser invertido</p>
+Formato da saída: <p>o inteiro I na ordem inversa</p>

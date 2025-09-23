@@ -1,0 +1,8 @@
+Título: Festa da Marilda
+Topicos do problema: multiplas entradas; array; caractere; string; ordenação; 
+Descrição: <p>Marilda &eacute; uma menina bem desorganizada, avessa aos computadores mas bastante festeira. Por isso, toda festa que Marilda organiza &eacute; uma confus&atilde;o, n&atilde;o sabe direito quem convidou, uma bagun&ccedil;a s&oacute;. Seu irm&atilde;o, aluno do curso de computa&ccedil;&atilde;o est&aacute; tentando convenc&ecirc;-la que ela deve se organizar melhor e deve utilizar um computador para registrar a lista de convidados da sua festa. Por&eacute;m, os convidados podem chegar a 300 pessoas e achar um nome dentre esses trezentos pode ser complicado.</p>
+<p>Ent&atilde;o a sua fun&ccedil;&atilde;o &eacute; escrever um programa que receba a lista de convidados de Marilda e a imprima em ordem alfab&eacute;tica.</p>
+<p>Por&eacute;m, Marilda organiza v&aacute;rias festas e, portanto, voc&ecirc; ter&aacute; que ordenar v&aacute;rias listas de convidados diferentes.</p>
+Formato da entrada: <p>Voc&ecirc; ir&aacute; organizar v&aacute;rias listas de convidados. Cada lista de convidado consiste de um inteiro n, indicando quantos convidados devem ser lidos e uma sequencia de n nomes, representando os convidados.</p>
+<p>A entrada termina quando n=0, ou seja, n&atilde;o existe uma nova lista de convidados a ser ordenada.</p>
+Formato da saída: <p>A lista de convidados impressa em ordem alfab&eacute;tica</p>

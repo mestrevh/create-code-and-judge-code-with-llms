@@ -1,0 +1,5 @@
+Título: listar descendentemente 4
+Topicos do problema: ordenação; 
+Descrição: <p>Faça um programa que receba três números em ordem crescente, obrigatoriamente, e um quarto número que não siga essa regra. Mostre, em seguida, os quatro números em ordem decrescente. Suponha que o usuário digitará números diferentes.<br/></p>
+Formato da entrada: <p>Quatro números inteiros. Os três primeiros são diferentes entre si e são dados em ordem crescente. O quarto é um número inteiro qualquer diferente dos três iniciais.</p>
+Formato da saída: <p>Os quatro números da entrada listados em ordem decrescente.</p>

@@ -1,0 +1,5 @@
+Título: Desvio padrão
+Topicos do problema: array; repetição; lógica matemática; 
+Descrição: <p class="inserted">Faça um programa que calcule o desvio padrao de um vetor v de tamanho arbitrário n.<br/></p><p class="inserted"><img src="https://www.thehuxley.com/api/v1/problems/image/304d613e84fbe10df9a2c7c469ec32ea8d0c5474o.png"/><br/></p><p class="inserted">Onde:</p><p class="inserted">n é o tamanho do vetor</p><p class="inserted">m = é a média dos valores do vetor</p>
+Formato da entrada: <ul class="inserted"><li>Um inteiro que indica o tamanho do vetor</li><li class="inserted">Uma linha que contém os valores que devem ser colocados no vetor</li></ul>
+Formato da saída: <p class="inserted">O valor (float) do desvio padrão dos valores contidos no vetor.</p>

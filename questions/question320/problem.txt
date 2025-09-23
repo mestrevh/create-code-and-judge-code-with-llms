@@ -1,0 +1,19 @@
+Título: Futebol
+Topicos do problema: array; acumulador; array bidimensional; ordenação; 
+Descrição: <p><span><span>Seu
+ time de futebol favorito &eacute; jogar um torneio de caridade, que &eacute; parte de
+ um esfor&ccedil;o de angaria&ccedil;&atilde;o de fundos em todo o mundo para ajudar as 
+crian&ccedil;as com defici&ecirc;ncia.</span></span></p>
+<p><span><span> </span><span>Como em um torneio normal, 3 pontos s&atilde;o concedidos para a equipe ganhar uma partida, 0 pontos para a equipe perdedora. </span><span>Se a partida acaba empatada, cada equipe recebe 1 ponto.</span></span></p>
+<p><span><span> </span><span>Seu time jogou N partidas durante a primeira fase do torneio, que acabou de terminar.</span></span></p>
+<p><span><span></span><span>Apenas algumas equipes, as &uacute;nicos com mais pontos acumulados, v&atilde;o avan&ccedil;ar para a segunda fase do torneio.</span></span></p>
+<p><span><span> </span><span>No
+ entanto, como o principal objetivo do torneio &eacute; arrecadar dinheiro, 
+antes dos jogo das equipes que passar&atilde;o para a segunda fase serem determinados, para
+ cada equipe &eacute; permitido comprar gols adicionais. </span><span>Esses novos gols contar&atilde;o como gols normalmente marcados, e podem ser usados 
+para alterar o resultado de qualquer um dos jogos o time jogou. </span><span></span></span></p>
+<p><span><span>Or&ccedil;amento da sua equipe &eacute; suficiente para comprar at&eacute; L gols. </span><span>Voc&ecirc;
+ pode dizer o n&uacute;mero m&aacute;ximo total de pontos de sua equipe pode obter 
+depois de comprar os gols, supondo que os outros times n&atilde;o v&atilde;o comprar gols?</span></span></p>
+Formato da entrada: <p><span><span class="hps">A primeira linha</span> <span class="hps">cont&eacute;m dois</span> <span class="hps">inteiros N</span> <span class="hps atn">(</span><span class="atn">1 &lt;</span><span>= N</span> <span class="hps atn">&lt;</span><span>= 100</span><span class="hps"></span><span class="atn">) e G (</span><span class="atn">0 &lt;</span><span>= G</span> <span class="hps atn">&lt;</span><span>=</span> <span class="hps">100</span><span>), representando</span><span>, respectivamente,</span> <span class="hps">o n&uacute;mero de jogos que</span> <span class="hps">seu</span> <span class="hps">time jogou</span> <span class="hps">e o</span> <span class="hps">n&uacute;mero de gols</span> <span class="hps">que sua equipe pode</span> <span class="hps">comprar.</span> <span class="hps">Cada uma das</span> <span class="hps">pr&oacute;ximas N linhas</span> <span class="hps">descreve um</span> <span class="hps">resultado da partida</span> <span class="hps">com</span> <span class="hps">dois inteiros</span> <span class="hps">S</span> <span class="hps">e</span> <span class="hps atn">R (</span><span class="atn">0 &lt;</span><span>=</span> <span class="hps">S</span><span>, R,</span> <span class="hps">&lt;= 100</span><span>), indicando</span><span>, respectivamente, os gols</span><span class="hps"> que</span> <span class="hps">sua</span> <span class="hps">equipe marcou, e os gols que sua equipe levou em cada jogo.</span><span class="hps"></span></span></p>
+Formato da saída: <p><span>U<span class="hps">ma linha contendo</span> <span class="hps">um inteiro que representa</span> <span class="hps">o n&uacute;mero total</span> <span class="hps">m&aacute;ximo de pontos de</span> <span class="hps">sua equipe pode</span><br /><span class="hps">obter</span> <span class="hps">depois de comprar</span> os gols, depois uma quebra de linha.<span class="hps"> </span></span></p>

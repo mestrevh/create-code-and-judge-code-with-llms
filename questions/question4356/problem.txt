@@ -1,0 +1,5 @@
+Título: Fatores primos
+Topicos do problema: array; lógica matemática; 
+Descrição: <p>Crie um programa que transforme um número n em todos os seus fatores primos n1,n2,n3,n4...</p><p>Lembrando que n1*n2*n3*n4... == n<br/></p>
+Formato da entrada: <p>um inteiro positivo n </p><p>     50<br/></p>
+Formato da saída: <p>todos os fatores primos de n (use print(*lista) para apresentar os valores) em ordem crescente </p><p>     2 5 5<br/></p>

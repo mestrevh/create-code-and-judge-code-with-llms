@@ -1,0 +1,9 @@
+Título: Carnaval
+Topicos do problema: acumulador; decisão; ordenação; 
+Descrição: <p>O Carnaval &eacute; um feriado celebrado normalmente em fevereiro, em muitas cidades brasileiras,<br />a principal atra&ccedil;&atilde;o s&atilde;o os desfiles de escolas de samba. As v&aacute;rias agremia&ccedil;&otilde;es desfilam ao<br />som de seus sambas-enredos e s&atilde;o julgadas pela liga das escolas de samba para determinar<br />a campe&atilde; do Carnaval.</p>
+<p>Cada agremia&ccedil;&atilde;o &eacute; avaliada em v&aacute;rios quesitos; em cada quesito, cada escola recebe cinco<br />notas que variam de 5,0 a 10,0. A nota final da escola em um dado quesito &eacute; a soma das<br />tr&ecirc;s notas centrais recebidas pela escola, excluindo a maior e a menor das cinco notas.</p>
+<p>Como existem muitas escolas de samba e muitos quesitos, o presidente da liga pediu que<br />voc&ecirc; escrevesse um programa que, dadas as notas da agremia&ccedil;&atilde;o, calcula a sua nota final<br />num dado quesito.</p>
+Formato da entrada: <p>A entrada cont&eacute;m uma &uacute;nica linha, contendo cinco n&uacute;meros Ni (1 &lt;= i &lt;= 5), todos com uma<br />casa decimal, indicando as notas recebidas pela agremia&ccedil;&atilde;o em um dos quesitos.</p>
+<p>Considere:</p>
+<p>5.0 &lt;= Ni &lt;= 10.0</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha, contendo um &uacute;nico n&uacute;mero com exatamente<br />uma casa decimal, a nota final da escola de samba no quesito considerado.</p>

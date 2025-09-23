@@ -1,0 +1,5 @@
+Título: Maior valor entre inteiros lidos
+Topicos do problema: repetição; 
+Descrição: <title></title><span>Escreva um programa que encontre o maior valor entre vários inteiros lidos e a sua posição. Admita que o primeiro valor lido especifica o número de valores de entrada.</span><br/>
+Formato da entrada: <p>N - Quantidade de numeros a ser lido. </p><p>Xn - Números Lidos, para encontrar, entre eles o maior valor. </p>
+Formato da saída: <p>Maior valor e sua posição. </p>

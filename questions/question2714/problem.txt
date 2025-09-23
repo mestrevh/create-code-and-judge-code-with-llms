@@ -1,0 +1,5 @@
+Título: Soma 100 primeiros inteiros
+Topicos do problema: repetição; 
+Descrição: <p>Apresentar o valor da soma dos cem primeiros números inteiros (1+2+3+... +97+98+99+100).<br/></p>
+Formato da entrada: <p>Não há entradas no algoritmo<br/></p>
+Formato da saída: <p>O programa deve exibir a soma dos 100 primeiros números inteiros, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Soma dos 100 primeiros inteiros: n<br/></p>

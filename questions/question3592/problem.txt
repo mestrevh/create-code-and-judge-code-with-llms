@@ -1,0 +1,5 @@
+Título: Gênero
+Topicos do problema: decisão; 
+Descrição: <p><span>Escreva um programa que leia um caractere especificando o gênero </span><b style="color: rgb(0, 0, 0);">(M, m, F, f)</b><span> e imprima o gênero por extenso. Caso o caractere não represente um gênero, imprimir uma mensagem de erro.</span><br/></p>
+Formato da entrada: <p>X: onde X é um caracter que representa um gênero (M, m, F ou f).</p>
+Formato da saída: <p>Masculino - para X = 'M' ou 'm'</p><p>Feminino - para X = 'F' ou 'f'<br/></p><p>&#34;Genero nao especificado&#34; - para X = qualquer outra letra<br/></p>

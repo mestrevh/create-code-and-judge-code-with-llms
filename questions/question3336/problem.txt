@@ -1,0 +1,5 @@
+Título: O troco de Heleno
+Topicos do problema: acumulador; repetição; 
+Descrição: <p>Heleno tem uma venda que só dispõe de moedas de notas de 1, 5, 10. Ele deseja sempre passar o troco com a menor quantidade de notas possível. Ajude Heleno a escrever um programa que diga a menor quantidade de notas e quantas de cada uma ele vai dar de troco aos seus clientes. Você fará isso para vários clientes diferentes. Quando o pagamento for 0 o programa encerra.<br/></p>
+Formato da entrada: <p>O pagamento <b>P </b>do cliente, que sempre será um inteiro.<br/></p>
+Formato da saída: <p>Na primeira linha o menor número de notas,</p><p> a quantidade de notas de 1, 5 e 10 respectivamente.<br/></p>

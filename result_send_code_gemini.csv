@@ -1,0 +1,2249 @@
+id,name,level,time,evaluation
+2,3 Numeros em Ordem Crescente,1,0.001998,CORRECT
+3,Soma de uma sequência de números,1,0.003443,CORRECT
+4,Figurinhas dos Irmãos,5,0.00425,WRONG_ANSWER
+5,Fila de banco,6,0.007243,WRONG_ANSWER
+6,Equação do Segundo Grau,2,0.002427,WRONG_ANSWER
+7,Calculadora,3,-1.0,COMPILATION_ERROR
+8,Matrizes,8,0.002053,WRONG_ANSWER
+9,Caracteres,2,0.002199,WRONG_ANSWER
+10,Festa da Marilda,2,0.001683,CORRECT
+11,Tradução,6,0.001503,CORRECT
+12,Lanchonete da Ambrosina,2,0.001963,CORRECT
+13,MSX,4,0.001929,CORRECT
+14,Posições Livres,9,0.00224,CORRECT
+15,Seja Bem Vindo!,1,0.002196,CORRECT
+16,Bingo,1,0.001852,CORRECT
+17,Antecessor e Sucessor,1,0.001894,CORRECT
+18,Menor de 3,1,0.001958,CORRECT
+19,Média dos alunos,1,0.001649,CORRECT
+20,Loop de inteiros,1,0.001758,CORRECT
+21,Loop de ímpares,1,0.001915,CORRECT
+22,Tabuada,1,0.00188,CORRECT
+23,Múltiplos de Cinco,1,0.001815,CORRECT
+24,Fatorial,2,0.001761,CORRECT
+25,Propriedade do Invertido,2,0.002059,CORRECT
+27,Jogo de Cartas-WAR,5,-1.0,TIME_LIMIT_EXCEEDED
+28,Inverter com 2 algarismos,1,0.003822,WRONG_ANSWER
+29,Inverter com 4 algarismos,3,0.002005,CORRECT
+31,Quantos minutos se passaram,1,0.002187,CORRECT
+32,Fahrenheit para Celsius,1,0.001628,CORRECT
+33,Soma Frações,3,-1.0,COMPILATION_ERROR
+34,Saque de banco,1,0.001767,CORRECT
+35,Invertido,1,0.003766,CORRECT
+36,Maior Múltiplo,1,0.001998,CORRECT
+37,Segundos,1,0.001697,CORRECT
+38,Perímetro,1,0.001986,CORRECT
+39,Aprovado,1,0.001478,CORRECT
+40,Coma bem,1,0.001987,CORRECT
+41,Decrescente 3,1,0.001866,WRONG_ANSWER
+42,Eleitor,1,0.00186,CORRECT
+43,Igual ou diferente,1,0.002943,CORRECT
+44,Intermediário 3,1,0.001945,CORRECT
+45,Sistema horário,1,0.001884,CORRECT
+46,Dias entre datas,4,-1.0,COMPILATION_ERROR
+47,Propriedade do 3025,2,0.001957,CORRECT
+48,Propriedade do Divisor,1,0.002336,CORRECT
+49,Classificação de Triângulos,1,0.00216,CORRECT
+50,Foto de Família,1,0.002167,CORRECT
+51,Mercearia do Ambrósio,1,0.002216,WRONG_ANSWER
+52,Números perfeitos,1,0.015978,CORRECT
+53,Séries divergentes,2,0.001688,WRONG_ANSWER
+54,Banda,5,0.004523,WRONG_ANSWER
+55,Sequência de 10,1,0.001505,CORRECT
+56,Matrículas Duplas,1,0.001956,WRONG_ANSWER
+57,Média de n números,1,0.002034,WRONG_ANSWER
+58,Olimpíadas,5,0.002482,CORRECT
+61,Dama,3,0.008614,CORRECT
+62,Revisão de Contrato,5,-1.0,COMPILATION_ERROR
+63,Leitura Ótica,4,0.002031,CORRECT
+64,O Salão do Clube,5,0.049659,WRONG_ANSWER
+65,Série Fatorial,1,0.002193,WRONG_ANSWER
+66,Investimento,1,0.001761,CORRECT
+67,Interior da área,1,0.002164,WRONG_ANSWER
+68,Frigorífico,2,0.002053,CORRECT
+69,Regressão Linear,3,0.002365,WRONG_ANSWER
+70,Operação com Fatoriais,3,-1.0,COMPILATION_ERROR
+71,Controle de estoque,2,0.001698,WRONG_ANSWER
+72,Inverso,1,0.002067,CORRECT
+73,Características Físicas,5,0.001995,CORRECT
+74,Iguais a n,2,0.0021,CORRECT
+75,Reserva de passagens,3,0.001742,WRONG_ANSWER
+76,Correção de Provas,4,0.002038,WRONG_ANSWER
+77,Ordenação Ingênua,4,0.004006,CORRECT
+78,Contar caracteres,1,-1.0,COMPILATION_ERROR
+79,Multiplicação da Diagonal de uma Matriz,2,0.001984,WRONG_ANSWER
+80,Fábrica de motores,8,0.002873,WRONG_ANSWER
+84,Tráfego,3,0.001527,WRONG_ANSWER
+85,Adivinhe,3,0.001476,WRONG_ANSWER
+86,Ordenação de DNA,7,0.001919,CORRECT
+87,Clones,4,0.001931,WRONG_ANSWER
+90,TeX,5,0.001884,WRONG_ANSWER
+92,Reverso e soma,3,0.002731,CORRECT
+93,Gato no Chapéu,7,0.0014,WRONG_ANSWER
+94,Análise Criptográfica,6,0.002124,CORRECT
+95,Materiais para ambrósio,6,0.002211,CORRECT
+98,Macarronada,3,0.002464,WRONG_ANSWER
+99,Incendio,3,0.002062,WRONG_ANSWER
+100,Avaliador de Jogo da Velha,3,0.002035,WRONG_ANSWER
+101,Alinhados,3,0.002147,CORRECT
+102,Cofre automático,3,0.001963,WRONG_ANSWER
+103,Jolly Jumpers,3,0.005023,CORRECT
+104,Forma canônica,6,0.001911,CORRECT
+105,Crypt kicker,8,0.001749,WRONG_ANSWER
+106,Fibonacci,4,0.001921,CORRECT
+107,Inverte digitos,4,0.001987,WRONG_ANSWER
+108,Histograma 02,4,0.001482,RUNTIME_ERROR
+109,Histograma 03,6,-1.0,RUNTIME_ERROR
+110,Histograma 04,6,-1.0,COMPILATION_ERROR
+112,Histograma 05,5,-1.0,RUNTIME_ERROR
+123,Mega Damas,8,0.001441,WRONG_ANSWER
+124,Campo Minado,5,0.001976,CORRECT
+126,Árvore Genealógica,6,0.001869,WRONG_ANSWER
+129,Guerra nas estrelas,10,-1.0,COMPILATION_ERROR
+130,Inversão de pontos,4,0.005481,WRONG_ANSWER
+131,Colar,7,0.001868,WRONG_ANSWER
+132,Robolândia,8,0.034891,CORRECT
+133,Intercâmbio,4,-1.0,COMPILATION_ERROR
+134,Botas perdidas,3,0.021075,CORRECT
+135,Guarda costeira,3,0.002191,WRONG_ANSWER
+136,Ácido Ribonucléico Alienígena,10,0.001856,WRONG_ANSWER
+137,Desvio de Rua,9,0.163177,WRONG_ANSWER
+138,Estacionamento,8,0.084722,CORRECT
+140,Incidente em Atlântida,10,-1.0,COMPILATION_ERROR
+141,Fórmula 1,6,0.010119,CORRECT
+142,Plágio Musical,10,-1.0,COMPILATION_ERROR
+143,Ir e Vir,9,0.059108,CORRECT
+144,Álbum,4,0.001942,CORRECT
+145,Demora na fila do banco,5,0.005156,CORRECT
+146,Velocidade Máxima,8,-1.0,COMPILATION_ERROR
+147,Soma das casas,3,0.032652,CORRECT
+148,Buracos no texto,3,0.001872,CORRECT
+149,Infixo para pós-fixo,6,0.002847,CORRECT
+150,Ache o P1 dessa árvore,6,0.001946,CORRECT
+151,Sim City,8,0.00148,CORRECT
+152,Brincando com Arrays,4,0.375711,PRESENTATION_ERROR
+153,Pesquisa de intenção de voto,2,0.002094,CORRECT
+154,Auto-estrada,2,0.024179,CORRECT
+155,Pão a metro,4,0.005212,CORRECT
+156,Repositório,5,0.00357,CORRECT
+157,Sacoleiro,9,0.001747,WRONG_ANSWER
+159,Sociedade Brasileira das Cores,5,0.004222,CORRECT
+160,Gincana,4,0.003183,CORRECT
+161,Palíndromo,3,0.00177,CORRECT
+162,Hotel da Senhora Ambrosina,4,0.001993,CORRECT
+163,Pastas da Floripes,4,0.002403,WRONG_ANSWER
+164,Barra de chocolate,3,0.001663,CORRECT
+165,Quadrado Mágico,3,0.00189,CORRECT
+166,Algarismo da casa das unidades,2,0.002149,CORRECT
+167,Eleições em Ambrolândia,3,0.002119,CORRECT
+168,Pastelaria da Ambrosina,4,0.002005,CORRECT
+169,Tamanho de uma frase,1,0.002028,CORRECT
+170,Produto dos primos,4,0.001926,CORRECT
+171,Reduzindo Mapas,8,0.059694,CORRECT
+172,Simulador,10,0.194889,CORRECT
+173,Cadeiras do auditório,8,-1.0,COMPILATION_ERROR
+174,Conta de Água,2,0.001878,WRONG_ANSWER
+175,Pedágio,4,0.001901,CORRECT
+176,Times,5,0.01012,CORRECT
+178,Cometa,3,0.001686,WRONG_ANSWER
+179,Batalha Naval,7,0.136074,WRONG_ANSWER
+180,Elevador,3,0.002476,CORRECT
+181,Reunião,8,0.005728,CORRECT
+182,Pneu,1,0.001801,CORRECT
+183,Garçom,3,0.002053,CORRECT
+184,Sedex,2,0.002459,CORRECT
+185,Marciano,3,0.001698,CORRECT
+186,Fusão,5,0.05775,CORRECT
+187,Lista de chamada,5,0.001876,CORRECT
+188,Dança Indígena,7,0.001943,WRONG_ANSWER
+189,Floresta,7,0.002013,WRONG_ANSWER
+190,Altas aventuras,9,-1.0,COMPILATION_ERROR
+191,Tradutor alienígena,6,0.002029,RUNTIME_ERROR
+192,Matrizes do Tutu,8,0.001987,WRONG_ANSWER
+193,Telescópio,5,0.002646,CORRECT
+194,O mar não está pra peixe,6,0.002081,WRONG_ANSWER
+195,Caça ao tesouro,7,-1.0,COMPILATION_ERROR
+197,Matriz caracol,7,0.001748,WRONG_ANSWER
+198,Escada,3,0.002436,CORRECT
+199,Tacógrafo,3,0.002244,CORRECT
+200,Dentista,4,0.005983,CORRECT
+201,Corrida,4,0.003841,CORRECT
+202,Progressões Aritméticas,4,0.026077,WRONG_ANSWER
+203,Pulo do Sapo,4,0.00223,CORRECT
+204,Triângulos,3,0.001953,CORRECT
+205,Desafio Cartográfico,7,-1.0,COMPILATION_ERROR
+206,Transporte de Contêineres,2,0.001916,WRONG_ANSWER
+207,A corrida da escola,3,0.003782,CORRECT
+208,Selos,3,0.002451,WRONG_ANSWER
+209,Expressões,7,0.002132,CORRECT
+210,Escalonamento Ótimo,8,0.038228,CORRECT
+211,Chuva,4,0.008976,WRONG_ANSWER
+212,Carnaval,3,0.00205,CORRECT
+213,Costa,5,0.016476,CORRECT
+214,Guerra por Território,5,0.018452,CORRECT
+215,Vice-Campeão,2,0.00203,CORRECT
+216,Pista de Atletismo,2,0.002271,CORRECT
+217,Consecutivos,3,0.006122,CORRECT
+218,Colchão,3,0.002004,CORRECT
+219,Tabuleiro Esburacado,5,0.00204,WRONG_ANSWER
+220,Frequência na aula,6,0.037067,CORRECT
+221,Tarzan,7,0.002913,CORRECT
+222,Campeonato,2,0.002211,CORRECT
+223,Busca na internet,2,0.002114,CORRECT
+224,Desafio do maior número,2,0.002039,CORRECT
+225,Balé,4,0.002508,WRONG_ANSWER
+226,Soma dos Múltiplos,2,0.002138,CORRECT
+227,Paciência em linha,7,0.002056,RUNTIME_ERROR
+228,Movendo Blocos,5,0.001508,RUNTIME_ERROR
+229,Jogo da Vida,5,0.030551,PRESENTATION_ERROR
+230,Os Colonos de Catam,7,-1.0,RUNTIME_ERROR
+231,Somando Árvores,7,0.001887,WRONG_ANSWER
+232,Rotação,7,0.001603,WRONG_ANSWER
+233,Pontos de feno,9,0.002861,CORRECT
+234,Resto entre números,3,0.00192,CORRECT
+235,Arrays de pares e ímpares,4,0.002129,CORRECT
+236,Contagem de dígitos,6,0.003931,CORRECT
+237,Completando palavras no telefone,8,0.043892,WRONG_ANSWER
+238,Caminho no tabuleiro,9,0.001585,WRONG_ANSWER
+239,Camisetas,5,0.001919,CORRECT
+240,Bolhas e Baldes,6,0.001335,TIME_LIMIT_EXCEEDED
+241,Onde está o Mármore?,5,0.031565,CORRECT
+242,Hash Tables,7,0.002046,WRONG_ANSWER
+244,Contar um caracter na string,3,0.001684,CORRECT
+245,Posição do caracter na string,4,0.001878,CORRECT
+246,Substituição de caracteres em uma string,4,0.002077,CORRECT
+247,Inverter uma string,3,0.001476,CORRECT
+248,Última palavra de uma frase,4,0.001444,CORRECT
+249,Concatenar palavras,3,0.001924,CORRECT
+250,Índices de um caracter na string,5,0.001475,CORRECT
+251,Remover caracteres de uma string,5,0.00187,CORRECT
+252,Contar uma substring na string,6,0.002079,CORRECT
+253,As duas strings são iguais?,1,0.001896,CORRECT
+254,O dobro dos elementos,1,0.001957,CORRECT
+255,"O dobro dos elementos, só que invertido!",3,0.002002,CORRECT
+256,Intercalar um array,3,0.001707,CORRECT
+257,Quantos dígitos existem na string?,1,0.001919,CORRECT
+259,Ponteiros do relógio,4,0.001732,WRONG_ANSWER
+260,É um número primo?,4,0.051406,CORRECT
+261,Conteúdo de Duas Listas Encadeadas,2,0.001941,CORRECT
+262,Q3 - Quantos números são maiores ou menores que uma variação da média?,4,0.001528,CORRECT
+263,Interseção entre listas,3,0.001813,CORRECT
+264,Inverter uma Lista Encadeada em uma só passada,5,0.001591,CORRECT
+265,Frequência de um texto em uma Lista Encadeada,5,0.001558,WRONG_ANSWER
+266,Ordenar Lista Encadeada em ordem crescente,3,0.002201,CORRECT
+268,Ambrosio's Bus Company,3,0.001464,TIME_LIMIT_EXCEEDED
+269,Meses do Ano por extenso,1,0.002217,CORRECT
+270,Extremamente Básico,2,0.001882,CORRECT
+271,Área do Círculo,2,0.001526,CORRECT
+272,Produto Simples,4,0.001623,CORRECT
+273,Média 1,2,0.001879,CORRECT
+274,Média 2,2,0.001735,CORRECT
+275,Passadas do Relógio,3,0.00212,WRONG_ANSWER
+276,Padrões de soma.,7,0.001664,WRONG_ANSWER
+277,Subconjuntos de Soma Única,4,-1.0,COMPILATION_ERROR
+278,Diferença,2,0.001573,CORRECT
+279,Salário,2,0.001885,CORRECT
+280,Salário com Bônus,4,0.001656,CORRECT
+281,Permutador de Trem,4,0.001491,WRONG_ANSWER
+282,Joana e os numeros impares,4,0.001907,WRONG_ANSWER
+283,Saltando Primos,4,0.003874,CORRECT
+284,Produto dos Digitos,6,0.002178,CORRECT
+285,"Pares, Ímpares, Positivos e Negativos.",1,0.002197,CORRECT
+286,Zerinho ou Um,3,0.002409,WRONG_ANSWER
+287,Garagem,5,0.001866,WRONG_ANSWER
+288,Apresentação do Trabalho,6,0.002098,CORRECT
+289,Brinquedos do Parque,6,0.001504,CORRECT
+290,Cálculo Simples,4,0.001522,CORRECT
+291,Esfera,4,0.002197,CORRECT
+292,Área,4,0.001878,CORRECT
+293,O Maior,5,0.002014,CORRECT
+294,Consumo,4,0.001964,CORRECT
+295,Distância entre dois pontos,3,0.001801,CORRECT
+296,Decisão dos Ministros,6,-1.0,COMPILATION_ERROR
+297,Anos Bissextos,3,0.00227,CORRECT
+298,Estoque de Celular,3,0.001961,WRONG_ANSWER
+299,Penaltis,4,0.001606,CORRECT
+300,Festival de Baloes,4,0.001956,WRONG_ANSWER
+301,Distribuicao de Mercadorias,5,0.002006,CORRECT
+302,Distância,4,0.001663,CORRECT
+303,Gasto de Combustível,3,0.001541,CORRECT
+304,Cédulas,4,0.002077,WRONG_ANSWER
+305,Conversão de tempo,2,0.002865,CORRECT
+306,Idade em Dias,2,0.001947,CORRECT
+307,Notas e Moedas,4,-1.0,COMPILATION_ERROR
+309,Estiagem,7,0.001873,PRESENTATION_ERROR
+310,Criptografia,7,0.003677,WRONG_ANSWER
+311,Teste de Seleção 1,3,0.001926,CORRECT
+312,Intervalo,4,0.00185,CORRECT
+313,Linha da Matriz,4,0.001483,CORRECT
+314,Suprimento de Comida,2,0.001871,CORRECT
+315,Nomes que produzem cores,7,0.005334,WRONG_ANSWER
+316,Array Hash,4,0.007618,CORRECT
+317,Teclado Quebrado,7,0.001944,WRONG_ANSWER
+318,Og,2,0.001956,CORRECT
+319,Foco nas Fotografias,6,0.001498,CORRECT
+320,Futebol,5,0.001663,WRONG_ANSWER
+321,Frutas,4,-1.0,COMPILATION_ERROR
+322,Menor Valor e Posição,2,0.001962,CORRECT
+323,Matriz Quadrada I,6,0.001502,CORRECT
+324,Idades,2,0.002192,CORRECT
+325,Quadrado e Cubo,4,0.003943,CORRECT
+326,Sequencia Lógica II,2,0.001934,CORRECT
+327,Sequencia Lógica I,3,0.001741,WRONG_ANSWER
+328,Quadrante,1,0.00183,CORRECT
+330,Sistema de matrícula,6,0.001674,WRONG_ANSWER
+331,Banco de Dados,3,0.002151,CORRECT
+332,Tudo em Maiusculo,4,0.001725,CORRECT
+333,Letra Maiuscula,6,0.001918,WRONG_ANSWER
+334,Excedendo,2,0.002318,CORRECT
+337,Lua Cheia,4,0.001971,WRONG_ANSWER
+338,Imprima o número real formatado,2,0.001849,WRONG_ANSWER
+339,Números no meio da frase,1,0.00161,CORRECT
+340,Copiando,4,0.001966,WRONG_ANSWER
+341,Preço dos Jogos,6,0.002115,WRONG_ANSWER
+342,Divisível por 3,6,0.003198,CORRECT
+343,Romano dividido por 5,6,0.00187,CORRECT
+344,Conversão real - fração,6,-1.0,COMPILATION_ERROR
+345,Calculadora Diferente,4,0.001778,CORRECT
+346,Coleta Seletiva,5,0.001926,WRONG_ANSWER
+347,Números triangulares,4,0.001452,CORRECT
+348,Converta um número Romano para Arábico,6,0.003382,CORRECT
+349,Quantidade de dias de um mês/ano,3,0.001967,CORRECT
+350,Imprensadinho,6,0.003944,WRONG_ANSWER
+351,Somas sucessivas como multiplicação,3,0.001469,CORRECT
+352,Calcular MDC de forma recursiva,5,0.002103,CORRECT
+353,Índice de Massa Corpórea,2,0.001911,CORRECT
+354,Sequência de inteiros pares (crescente) recursivo,4,0.001404,CORRECT
+355,Sequência de inteiros pares (decrescente) recursivo,3,0.001961,CORRECT
+356,Transformar Decimal para Binário (recursivo),4,0.003862,CORRECT
+357,Entrada e prestações,2,0.001501,WRONG_ANSWER
+358,Prestação para amortização de financiamento,2,0.001821,WRONG_ANSWER
+359,Receita de Bolo,3,0.002004,CORRECT
+360,Vestibular,6,0.001681,CORRECT
+361,Números de Envelopes,3,0.001729,CORRECT
+362,Copa do Mundo,5,-1.0,COMPILATION_ERROR
+363,Overflow,3,0.001855,RUNTIME_ERROR
+364,Tira-teima,3,0.001497,CORRECT
+365,Tomadas,3,0.001816,CORRECT
+366,Saldo do Vovô,5,0.001913,WRONG_ANSWER
+368,Aumento dos Trabalhadores,2,0.002096,CORRECT
+369,Biblioteca Rio Tinto,2,0.001936,CORRECT
+370,Férias na Europa,3,0.002172,CORRECT
+371,Torneio de Futsal,3,0.001522,CORRECT
+372,Pagamento Hora Extra,1,0.00165,WRONG_ANSWER
+373,Capital,3,0.002119,WRONG_ANSWER
+374,Bônus de Viagem,1,0.001451,CORRECT
+375,Método de Leverrier,5,0.001614,WRONG_ANSWER
+376,Conceito MEC,1,0.002005,CORRECT
+377,Líder do Grupo da Copa,1,0.001531,CORRECT
+378,Classificação no Mundial,2,0.001566,CORRECT
+379,Treino de Ciclismo,2,0.002101,CORRECT
+380,Escolhendo o passeio,2,0.003202,WRONG_ANSWER
+381,Livros na Mochila,2,0.00141,CORRECT
+382,Monitorando A Glicose,2,0.001975,CORRECT
+383,Média de 3 inteiros,3,0.001849,CORRECT
+384,Reformando a sala,1,0.001374,TIME_LIMIT_EXCEEDED
+385,Analisando o CRE,1,0.001378,WRONG_ANSWER
+386,Economia Diária,3,0.001964,CORRECT
+387,Cartas,3,0.003266,CORRECT
+388,Matriz escada,5,0.053031,WRONG_ANSWER
+389,Melhorando o Desempenho,3,0.001836,CORRECT
+390,Método de Euler,5,0.004927,WRONG_ANSWER
+391,Método das Potências,6,0.001443,WRONG_ANSWER
+392,Pacote de Telefonia,3,0.001758,WRONG_ANSWER
+393,Comprando Pregos,4,0.001429,WRONG_ANSWER
+394,Soma de Divisores,2,0.001581,CORRECT
+395,Promoção de Cinema,1,0.001804,CORRECT
+396,Abaixo a poluição,1,0.001949,CORRECT
+397,Festa de Formatura,2,0.001875,WRONG_ANSWER
+398,Conta Múltiplos,1,0.00195,CORRECT
+399,Hospedagem na Praia,1,0.001904,WRONG_ANSWER
+400,Limite de Velocidade,2,0.002985,CORRECT
+401,Soma dos Dígitos,3,0.001881,CORRECT
+402,Estações do Ano,1,0.001955,CORRECT
+404,Escola de Música,1,0.00161,CORRECT
+405,Contando os Dígitos Pares,3,0.002189,CORRECT
+406,Somando Positivos no Intervalo,2,0.00167,CORRECT
+407,3n +1,4,0.013913,CORRECT
+408,Display de LCD,7,0.001703,WRONG_ANSWER
+409,Série de Miguelito,2,0.001587,WRONG_ANSWER
+410,A melhor compra de ações,8,0.021364,CORRECT
+411,Anagramas a partir de pilhas,7,0.001392,TIME_LIMIT_EXCEEDED
+412,Feed de notícias,6,0.001493,CORRECT
+413,Jogando Cartas Fora,7,0.001964,PRESENTATION_ERROR
+414,Fila do Recreio,5,-1.0,COMPILATION_ERROR
+415,Balanceamento de Parênteses,6,-1.0,COMPILATION_ERROR
+416,Conversor de bases genérico (nem tão genérico assim),6,0.001935,CORRECT
+417,Quantos zeros tem no final de um número fatorial,5,0.001923,CORRECT
+418,Todas as permutações,7,0.004383,CORRECT
+419,Todos os subconjuntos,7,0.071649,WRONG_ANSWER
+420,Crypt Kicker II,8,0.002072,WRONG_ANSWER
+421,Divisão,8,0.065113,WRONG_ANSWER
+422,8 rainhas,8,0.003448,WRONG_ANSWER
+423,Jogo do Bicho,7,0.001673,WRONG_ANSWER
+424,Handebol,4,0.004376,CORRECT
+425,Cai fora,6,-1.0,RUNTIME_ERROR
+426,Palavras 2,9,0.001971,WRONG_ANSWER
+427,Países em Guerra,9,0.203504,WRONG_ANSWER
+428,Formatando endereço,3,0.001351,CORRECT
+429,Soma Dois Números,1,0.001649,CORRECT
+430,CD,8,-1.0,COMPILATION_ERROR
+431,Palavras,3,0.012202,WRONG_ANSWER
+433,Pagamento IPVA,1,0.001891,CORRECT
+434,Futura Formanda,1,0.001956,WRONG_ANSWER
+435,Analisando processos,1,0.001475,CORRECT
+436,Presentes na Empresa,2,0.002001,CORRECT
+437,Distância de Hamming,8,0.005402,CORRECT
+439,Vendendo Jogos Educativos,2,0.001597,CORRECT
+440,Os suspeitos,7,0.052978,WRONG_ANSWER
+441,Guerra sazonal,7,0.001527,WRONG_ANSWER
+442,Comprando laranjas,1,0.002078,CORRECT
+443,Lanche para os escoteiros,5,0.001459,CORRECT
+444,Comprando medicamentos,5,0.001844,CORRECT
+445,Alugando um veículo,1,0.001991,CORRECT
+446,Escovas de dente,3,0.001837,CORRECT
+447,Capacidade Estacionamento,3,0.001982,CORRECT
+448,Quantos caminhos simples existem?,3,-1.0,RUNTIME_ERROR
+449,Almoço na Cantina,1,0.004628,CORRECT
+450,Roupa alugada,1,0.002272,CORRECT
+451,Garantia Estendida,1,0.001992,CORRECT
+452,Editora Fronteira,1,0.001975,WRONG_ANSWER
+453,Sorveteria Tropical,1,0.002171,WRONG_ANSWER
+454,Restaurante do Vladimir,1,0.002417,WRONG_ANSWER
+455,Excesso de bagagem,1,0.002258,WRONG_ANSWER
+456,Viagem de Amigos,3,0.001805,WRONG_ANSWER
+457,Easy Jet,1,0.001956,CORRECT
+458,TV por assinatura,2,0.002153,WRONG_ANSWER
+459,Idade Canina,1,0.001832,WRONG_ANSWER
+462,Rede de telecomunicações,8,0.039126,WRONG_ANSWER
+463,Vacinação,1,0.0021,CORRECT
+464,Natal Solidário,5,0.002063,WRONG_ANSWER
+465,Vaquinha para Valquíria,2,0.001916,CORRECT
+466,Vai pra onde?,1,-1.0,COMPILATION_ERROR
+467,Elevador seguro,2,0.001622,CORRECT
+468,Descontos Black Friday,1,0.001405,CORRECT
+469,Jogando dados,1,0.002167,WRONG_ANSWER
+470,Maior Primo,1,0.001955,CORRECT
+471,"Pedra, Papel e Tesoura",1,0.001712,WRONG_ANSWER
+472,Fraldas no Atacado,3,0.001819,WRONG_ANSWER
+473,Aprovados no Concurso,1,0.001911,CORRECT
+474,Rotas de Entrega,8,2.957869,WRONG_ANSWER
+475,Seleção de nomes,7,0.001433,CORRECT
+476,Banco dos Inimigos,5,0.001589,WRONG_ANSWER
+477,Escolhendo a Vocação,5,0.001942,CORRECT
+478,Regeneração de Vida,7,0.001951,WRONG_ANSWER
+479,Colisão no Mapa,6,0.002161,WRONG_ANSWER
+480,Faturamento do Salão,1,0.001355,CORRECT
+481,Divisores de X,1,0.001486,CORRECT
+482,Entregando correspondências,1,0.001799,CORRECT
+483,Plebiscito,1,0.001433,CORRECT
+484,Animais no Zoológico,1,-1.0,WRONG_ANSWER
+485,Medindo as crianças,1,0.001462,TIME_LIMIT_EXCEEDED
+486,Segundo Maior,1,0.001886,CORRECT
+487,Revistas em ordem,1,0.004454,WRONG_ANSWER
+488,Organizando a confraternização,1,0.001681,CORRECT
+489,Dividindo as despesas,1,0.0019,CORRECT
+490,Árvore de Natal,1,0.00197,WRONG_ANSWER
+491,Playlist de Verão,1,0.001847,CORRECT
+492,Cápsulas de Café,1,0.00176,WRONG_ANSWER
+493,Clima Frio,1,0.001634,CORRECT
+494,Troca de presentes,1,0.00194,CORRECT
+495,Grampos,1,0.001385,CORRECT
+496,Classificação de Hotéis,1,0.00154,WRONG_ANSWER
+497,Medindo a audiência,1,0.001997,WRONG_ANSWER
+498,Leitor Voraz,1,0.001869,CORRECT
+499,Somando Múltiplos e Divisores,1,0.001471,CORRECT
+500,Números Primos No Intervalo,1,0.001405,CORRECT
+501,Plano de Saúde,1,0.001674,CORRECT
+502,Agência de Publicidade,1,0.001638,WRONG_ANSWER
+503,Lava-Jato,1,0.002079,WRONG_ANSWER
+504,Soma de Fatoriais,1,0.001774,CORRECT
+505,Rotacionar um array,6,0.115953,CORRECT
+506,Passeios turísticos,1,0.001953,CORRECT
+508,Corrigindo Provas,1,0.001825,CORRECT
+509,Comparador de Números Inteiros,1,0.001426,CORRECT
+510,Ingresso no Cinema,1,0.001948,CORRECT
+511,Critério do Seguro,1,0.003842,CORRECT
+512,Decompondo cubos,6,0.002204,WRONG_ANSWER
+513,Quem sou eu?,4,0.008484,CORRECT
+514,Trosegrem,7,0.036286,WRONG_ANSWER
+515,Índice remissivo,6,-1.0,RUNTIME_ERROR
+516,BST,7,-1.0,COMPILATION_ERROR
+517,aMAZEing!,7,0.001478,WRONG_ANSWER
+518,aMAZEing! - Pt.2,7,-1.0,COMPILATION_ERROR
+519,Diversão dinâmica,6,2.550034,WRONG_ANSWER
+520,BoB,6,0.045821,CORRECT
+521,MaxMin,7,0.054508,CORRECT
+522,A permutação,5,0.001726,CORRECT
+523,Novo Teclado,4,0.003454,CORRECT
+524,Quais os números que estão faltando?,1,0.001614,CORRECT
+525,Onde estão meus genes?,3,-1.0,COMPILATION_ERROR
+526,Some dois números grandes!!,7,0.001934,CORRECT
+527,Insertion Sort,3,0.001548,WRONG_ANSWER
+528,Pílula do Zé,3,0.001481,WRONG_ANSWER
+529,Zé de Tindera,3,0.00192,WRONG_ANSWER
+530,Piui-Piui,4,0.03157,WRONG_ANSWER
+531,Selection Sort,3,0.002453,WRONG_ANSWER
+532,Caça-palavras,1,0.042315,WRONG_ANSWER
+533,Hashset,1,-1.0,COMPILATION_ERROR
+534,CPF do Zé,6,0.001897,WRONG_ANSWER
+535,Ampulheta de Caracteres,4,0.002247,WRONG_ANSWER
+538,Soma máxima,4,0.005617,CORRECT
+540,Onde está o pivô?,1,-1.0,TIME_LIMIT_EXCEEDED
+541,Extremos e meio,1,0.002947,CORRECT
+545,Exercitando BSTs,1,0.168139,WRONG_ANSWER
+546,Árvore de Busca Binária,4,0.001826,WRONG_ANSWER
+547,Profundidade de um nó em uma árvore binária,5,0.001833,WRONG_ANSWER
+548,Pilhas com Listas,6,0.001825,PRESENTATION_ERROR
+549,Soma de custo mínimo,1,0.507909,CORRECT
+550,Maior elemento pseudo aleatório,3,0.001947,WRONG_ANSWER
+552,Algoritmo de Euclides,1,0.006083,CORRECT
+553,Soma e multiplicação de número grande,4,1.340344,CORRECT
+554,Pedrinhas,1,-1.0,RUNTIME_ERROR
+555,Texto justificado,8,0.002297,WRONG_ANSWER
+556,Ciclos,1,0.073433,CORRECT
+557,Multiplicação de Matrizes de Forma Ótima,9,-1.0,COMPILATION_ERROR
+558,Distância de edição,9,-1.0,COMPILATION_ERROR
+559,Grande Promoção,9,0.059509,WRONG_ANSWER
+560,Reposição de equipamentos,9,-1.0,COMPILATION_ERROR
+561,Vania e os livros,3,0.00347,CORRECT
+562,Pizzaria,1,-1.0,COMPILATION_ERROR
+563,Somas no array,1,1.810555,CORRECT
+564,"Devagar, devagar, olhe o radar!!",1,0.00193,WRONG_ANSWER
+565,Calcula Número de Algarismos,1,-1.0,COMPILATION_ERROR
+566,Par de pontos mais perto (closest pair of points),5,-1.0,COMPILATION_ERROR
+567,"Crescei, transformai-vos e multiplicai-vos",1,0.089236,WRONG_ANSWER
+568,Ano Bissexto,3,0.001981,CORRECT
+570,Descobrindo dígitos de um número,1,0.00138,CORRECT
+571,Restaurante Universitário,1,0.001847,WRONG_ANSWER
+572,Matrix,1,0.001542,WRONG_ANSWER
+574,Calculadora de Imposto Totais,3,-1.0,COMPILATION_ERROR
+575,Semi-aberto,1,0.287634,WRONG_ANSWER
+576,Colorindo em duas cores,7,0.00384,CORRECT
+577,Heapsort,7,0.002225,WRONG_ANSWER
+578,Construir Heap Máxima,4,0.001974,WRONG_ANSWER
+579,Quicksort,6,0.001955,WRONG_ANSWER
+580,Mania de Par,6,0.004305,WRONG_ANSWER
+581,Bolsa de Valores,6,0.018337,WRONG_ANSWER
+582,Jogo da Memória,5,0.867128,CORRECT
+583,Empilhando Dominó,2,0.002015,CORRECT
+584,Exercitando BSTs v2,6,-1.0,COMPILATION_ERROR
+585,Dona Minhoca,7,0.011157,WRONG_ANSWER
+588,Ecologia,9,0.030554,WRONG_ANSWER
+590,Min-Med-Max,1,-1.0,COMPILATION_ERROR
+592,A Loja Mágica,5,0.004185,WRONG_ANSWER
+593,Rodrigo e seus estagiários,4,0.054739,CORRECT
+594,Reino dos Macacos,5,0.383473,CORRECT
+595,Duas Extremidades,5,-1.0,COMPILATION_ERROR
+596,Ambrósio e as Ilhas,5,0.24659,CORRECT
+597,Embaralhando,5,0.001547,CORRECT
+598,Embaralhando de novo,9,0.003232,CORRECT
+599,Ambrósio e a escolha dos números,5,0.004338,CORRECT
+600,Ambrósio e a diferença,5,0.015242,WRONG_ANSWER
+601,Rotterdam City Tours,7,0.001995,TIME_LIMIT_EXCEEDED
+602,Adega de Vinhos,7,0.00198,CORRECT
+603,Orkut,8,0.002737,PRESENTATION_ERROR
+604,Pizza do vô Pepe,6,0.00384,WRONG_ANSWER
+605,Contar eficientemente uma substring na string,8,0.095897,CORRECT
+606,No máximo duas vezes,6,0.002132,WRONG_ANSWER
+607,Mantenha-se energizado,10,-1.0,COMPILATION_ERROR
+608,Cercado,1,-1.0,WRONG_ANSWER
+609,Grupos sanguíneos,10,-1.0,COMPILATION_ERROR
+610,Corte do bolo,10,0.10816,WRONG_ANSWER
+611,Mapa de altura,8,0.00616,WRONG_ANSWER
+612,Não seja guloso (D as in Daedalus),7,0.002711,WRONG_ANSWER
+613,Expondo a corrupção,9,-1.0,COMPILATION_ERROR
+614,Cercando os vegetais,10,0.221446,TIME_LIMIT_EXCEEDED
+615,Taxas galáticas,10,0.194341,CORRECT
+616,Identificando chás,2,0.002091,CORRECT
+617,Só um pouco ordenado,9,0.281393,WRONG_ANSWER
+618,Ambrósio e os Palíndromos,8,0.00477,WRONG_ANSWER
+619,Ambrósio e os números especiais,8,0.070866,EMPTY_ANSWER
+620,Rotacionar um ponto em relação à origem,3,0.002206,CORRECT
+621,Equação da reta,4,0.002029,WRONG_ANSWER
+622,O Monge Confuso,5,-1.0,COMPILATION_ERROR
+623,Interseção entre retas,5,0.001929,WRONG_ANSWER
+624,Duas Bases,5,0.003216,WRONG_ANSWER
+625,Ajude Ambrósio,5,0.236936,CORRECT
+627,Inserção em Árvores AVL,6,0.002135,WRONG_ANSWER
+628,Árvore geradora máxima,2,0.132114,CORRECT
+629,Planejar para faturar,1,0.001766,WRONG_ANSWER
+630,Curso universitário,9,0.002747,WRONG_ANSWER
+631,Redução de pena,10,-1.0,COMPILATION_ERROR
+632,Cubos coloridos,8,-1.0,COMPILATION_ERROR
+633,Gerente de espaço,10,-1.0,COMPILATION_ERROR
+634,Tecle & Some,9,0.002023,WRONG_ANSWER
+635,Regata de cientistas,10,-1.0,COMPILATION_ERROR
+636,Piscina,7,0.001766,WRONG_ANSWER
+637,Circuito bioquímico digital,7,0.137699,CORRECT
+638,O problema da parada,10,-1.0,RUNTIME_ERROR
+639,Energia x Tempo,10,-1.0,COMPILATION_ERROR
+640,Copa do Mundo (Maratona),7,0.0048,WRONG_ANSWER
+641,Rota crítica,9,-1.0,COMPILATION_ERROR
+642,Amigos ou inimigos?,9,0.12016,WRONG_ANSWER
+643,Vôlei Marciano,10,-1.0,COMPILATION_ERROR
+644,Rouba-monte,6,0.001357,WRONG_ANSWER
+645,Série de tubos,8,-1.0,COMPILATION_ERROR
+646,Mário,7,0.176951,WRONG_ANSWER
+647,Histórico de comandos,6,-1.0,RUNTIME_ERROR
+648,Desempilhando caixas,6,0.003564,WRONG_ANSWER
+649,Onde estão as bolhas?,10,0.001359,WRONG_ANSWER
+650,Jogo de varetas,6,0.002651,CORRECT
+651,Zak Galou,9,0.001328,WRONG_ANSWER
+652,Olimpíadas (Maratona),10,-1.0,COMPILATION_ERROR
+653,Apagando e ganhando,7,-1.0,COMPILATION_ERROR
+654,Babel,7,-1.0,TIME_LIMIT_EXCEEDED
+655,Loop musical,6,0.008056,CORRECT
+656,Set,10,0.001872,WRONG_ANSWER
+657,Divisão da Nlogônia,6,0.004267,CORRECT
+658,Maior subsequência crescente,10,0.002107,TIME_LIMIT_EXCEEDED
+659,Vampiros,10,-1.0,RUNTIME_ERROR
+660,Ataque fulminante,10,0.004978,WRONG_ANSWER
+661,Alarme despertador,6,0.001795,CORRECT
+662,Troca de cartas,7,0.053822,WRONG_ANSWER
+663,Sub-prime,6,0.00651,WRONG_ANSWER
+664,Dragster,8,1.025687,WRONG_ANSWER
+665,Torres de telefonia celular,10,-1.0,COMPILATION_ERROR
+666,Registrador de deslocamento,10,0.001391,WRONG_ANSWER
+667,Escultura a laser,10,0.016391,WRONG_ANSWER
+668,N primeiros primos,4,-1.0,COMPILATION_ERROR
+669,Atirando em Ouros,6,0.001291,WRONG_ANSWER
+670,Ângulo entre pontos,5,0.001572,CORRECT
+671,Bom Amigo Secreto,4,0.002098,WRONG_ANSWER
+672,Comida de Graça é Bom ou Ruim?,4,0.020729,CORRECT
+673,Done Is Better Than Perfect,2,0.004622,CORRECT
+674,Estudo de Sequências,4,0.313017,WRONG_ANSWER
+675,Ambrósio pescador,5,0.002006,WRONG_ANSWER
+676,Distribuição de Camisas,5,0.003195,WRONG_ANSWER
+677,Grandes Atalhos,2,0.002425,CORRECT
+678,High-primes,3,-1.0,TIME_LIMIT_EXCEEDED
+679,"Ih, errou de novo",3,-1.0,TIME_LIMIT_EXCEEDED
+680,Ferrovia,6,0.001688,WRONG_ANSWER
+681,Montanhas ensolaradas,7,0.002178,WRONG_ANSWER
+682,Ambrósio e os Aliens,4,0.00148,CORRECT
+683,DFS: imprimindo as folhas,6,-1.0,COMPILATION_ERROR
+684,Carteiro,6,0.0494,WRONG_ANSWER
+685,Pacman,7,0.005623,CORRECT
+686,Fechadura,4,0.002475,CORRECT
+687,Triângulo de Pascal,3,0.00224,CORRECT
+688,Existe solução?,4,-1.0,COMPILATION_ERROR
+690,Exponenciação de matrizes,7,0.005221,CORRECT
+691,2 números em ordem crescente,1,0.003624,CORRECT
+693,Bombons,1,0.001414,CORRECT
+694,O dobro do maior,3,0.00153,CORRECT
+696,Quantas vezes x apareceu?,2,0.001958,CORRECT
+697,Sistema de equação de primeiro grau,4,-1.0,RUNTIME_ERROR
+698,Presenteando,2,0.001462,CORRECT
+699,Vacinação Infantil,1,0.00198,CORRECT
+700,"Converter segundos em horas, min e segundos",1,0.001621,CORRECT
+701,Detecção e Classificação de Triângulo,3,0.002027,CORRECT
+702,Hipotenusa,1,0.001594,CORRECT
+703,Desvio padrão,3,0.004161,CORRECT
+707,Prateek e seus amigos,5,0.001654,CORRECT
+708,A transportadora,1,-1.0,COMPILATION_ERROR
+709,Jogo do sapo,4,0.001688,CORRECT
+713,Múltiplos de N num Intervalo,3,0.001935,CORRECT
+714,Primeira Ocorrência de Caractere em String,4,0.001532,CORRECT
+715,Períodos da História,3,0.001399,EMPTY_ANSWER
+716,BOING,1,0.001502,TIME_LIMIT_EXCEEDED
+717,Ordenação de matrizes,3,0.003843,PRESENTATION_ERROR
+728,Menor velocidade final de 3 carros,3,0.002283,CORRECT
+729,Correção de Provas Objetivas,3,0.001775,CORRECT
+731,Álibi,5,0.111631,WRONG_ANSWER
+732,Bar do Pinto,5,0.891837,CORRECT
+738,Horário dos Ônibus,6,0.34032,CORRECT
+741,Somatório e Produtório,3,0.002358,WRONG_ANSWER
+742,Inverte nomes,1,0.001521,CORRECT
+746,Multiplicação de Matrizes,6,0.0015,PRESENTATION_ERROR
+747,Chandu e letras consecutiva,4,0.001706,CORRECT
+749,AVLMap,1,-1.0,COMPILATION_ERROR
+758,"Felicitações, Fidel!",5,0.01821,WRONG_ANSWER
+759,Leonardo de Pisa,3,-1.0,COMPILATION_ERROR
+763,Tamanho Palíndromo,1,0.002237,WRONG_ANSWER
+764,Sequência misteriosa,3,0.001489,WRONG_ANSWER
+765,Média de um Conjunto de Inteiros,1,0.001882,CORRECT
+766,Moda de Conjunto de Inteiros,3,0.00159,CORRECT
+767,Mediana de um Conjunto de Inteiros,3,0.002139,CORRECT
+768,Soma números grandes utilizando arrays,5,0.001945,CORRECT
+771,O ponto é interno?,5,0.001982,CORRECT
+772,Hex,1,-1.0,TIME_LIMIT_EXCEEDED
+773,Lista Ordenada,3,0.002037,CORRECT
+774,Snake,6,-1.0,COMPILATION_ERROR
+775,Índice de Massa Corporal,2,0.001947,CORRECT
+776,Períodos da História Numéricos,3,0.001982,CORRECT
+777,Análise de Molde de DNA,4,0.001449,CORRECT
+778,Teclado com Problemas,6,0.002118,WRONG_ANSWER
+779,Ambrósio e a cidade grande,4,0.001418,WRONG_ANSWER
+780,Pedindo um galeto,5,0.001571,CORRECT
+781,Matriz Aleatória,4,0.001942,WRONG_ANSWER
+783,Inserção em Árvores de Busca Binária,5,0.006294,WRONG_ANSWER
+785,TeleZika,1,-1.0,RUNTIME_ERROR
+786,Mas que árvore estranha,7,-1.0,RUNTIME_ERROR
+787,Exponenciação rápida,3,0.00142,CORRECT
+788,Resolva um Sudoku,7,0.001526,CORRECT
+789,Esta solução do Sudoku está correta?,4,0.001872,CORRECT
+790,Mochila,4,0.001978,CORRECT
+791,Superdígito,5,0.003908,CORRECT
+793,Roteamento,1,-1.0,RUNTIME_ERROR
+794,Trama,8,-1.0,COMPILATION_ERROR
+795,Números hexagonais incompletos,4,0.455217,WRONG_ANSWER
+796,Compotência,3,0.617026,WRONG_ANSWER
+797,Fortaleza digital,2,0.010389,CORRECT
+798,Hipercubo,5,0.001428,RUNTIME_ERROR
+799,Quebrando o tabuleiro,5,-1.0,COMPILATION_ERROR
+800,Diagramas de Euler,8,0.001711,WRONG_ANSWER
+801,Média Ponderada de 4 notas,4,0.003352,CORRECT
+802,Triângulo de Número em Ordem Crescente,2,0.001994,CORRECT
+803,Vogais no texto,1,0.001443,CORRECT
+805,Busca em Largura,5,0.00194,WRONG_ANSWER
+806,Contar letras em um texto,4,-1.0,COMPILATION_ERROR
+807,Tradução de Texto,5,0.002009,CORRECT
+808,Loucos por compras,1,0.161865,WRONG_ANSWER
+810,A partilha,1,0.044499,CORRECT
+811,Quermesse,2,0.007932,CORRECT
+812,Saldo de gols,4,0.066407,CORRECT
+813,Macaco prego,6,0.018986,WRONG_ANSWER
+814,Dominó,4,0.002049,WRONG_ANSWER
+815,Lâmpadas do hotel,2,0.002171,WRONG_ANSWER
+816,Chaves,4,0.006205,CORRECT
+817,Chuva (OBI),3,0.05036,CORRECT
+818,Nova avenida,3,-1.0,COMPILATION_ERROR
+819,Direção,2,0.004791,CORRECT
+821,Bitmap,6,0.00137,WRONG_ANSWER
+822,Exame,3,0.001557,WRONG_ANSWER
+826,Conversão de m para cm.,1,0.00144,WRONG_ANSWER
+827,Dobro da área do quadrado.,1,0.001407,WRONG_ANSWER
+828,Cálculo do salário.,1,0.001443,WRONG_ANSWER
+829,Sequencia do Alfabeto,3,0.001722,CORRECT
+830,Peso ideal.,1,0.001522,WRONG_ANSWER
+831,Conversão de °F em °C.,1,0.001552,CORRECT
+832,Caracteres de Centro,2,0.002188,WRONG_ANSWER
+833,Palíndromo Simples,2,0.001732,CORRECT
+834,Porta Criptografada,4,0.00211,WRONG_ANSWER
+837,Corrida do IC,3,0.001773,CORRECT
+841,Acima da média,2,0.00194,CORRECT
+842,Mínimo múltiplo comum,2,0.001838,CORRECT
+843,Contar palavras,2,0.002029,CORRECT
+844,Maior item de uma lista de compras,2,0.002169,CORRECT
+845,Willy Ecológico,4,0.001891,CORRECT
+847,Contar palavras de texto inglês,3,0.001807,CORRECT
+848,Área da Superfície e Volume da Esfera,2,0.001653,CORRECT
+849,Volume da Esfera,3,0.005313,CORRECT
+850,Identificando Região de Procedência,3,0.001925,CORRECT
+851,Espaços demais,3,0.001473,CORRECT
+852,Sistemas Planetários,4,-1.0,COMPILATION_ERROR
+853,Desenhando Retângulos,3,0.001447,WRONG_ANSWER
+856,Comutação,1,-1.0,WRONG_ANSWER
+857,Número informado.,1,0.002402,WRONG_ANSWER
+858,Soma de dois números.,1,0.001577,WRONG_ANSWER
+860,Cavalos em um haras.,1,0.001802,CORRECT
+861,Comparação numérica.,1,0.001803,WRONG_ANSWER
+862,Maior Sequência,7,0.001839,WRONG_ANSWER
+863,Mozilla Spring Camp,6,0.002795,CORRECT
+865,Intersecção de arrays,5,0.003844,CORRECT
+866,Somatório em um array circular,5,0.002549,CORRECT
+867,Quais letras aparecem,3,0.002081,CORRECT
+868,5 maiores do sorteio,3,0.002083,CORRECT
+869,Carrossel,4,0.001615,WRONG_ANSWER
+870,Maior soma sequencial,5,0.0027,WRONG_ANSWER
+871,Elementos de uma matriz,3,0.001857,CORRECT
+872,Tancredo e suas pizzas,4,-1.0,COMPILATION_ERROR
+873,Almoço,1,-1.0,COMPILATION_ERROR
+874,Corte de hastes,5,0.054776,CORRECT
+876,Cálculo da Idade,1,0.001978,CORRECT
+890,Brincando com Ambrosinho,4,0.006182,WRONG_ANSWER
+891,A Floresta de Binágoras,1,-1.0,COMPILATION_ERROR
+892,Tower defense,3,0.002485,WRONG_ANSWER
+893,Dados da sorte,1,0.118553,CORRECT
+894,Cara ou coroa,6,0.002281,CORRECT
+896,Notas de 0 a 10.,1,0.004622,WRONG_ANSWER
+899,Maior número.,1,0.001441,WRONG_ANSWER
+900,Média dos números.,1,0.001702,WRONG_ANSWER
+902,Base e expoente.,1,-1.0,WRONG_ANSWER
+903,Nota do aluno.,1,0.014668,CORRECT
+905,Valores digitados.,1,0.002605,CORRECT
+906,Ordem Inversa.,1,0.001493,WRONG_ANSWER
+907,Posições ímpares.,1,0.001751,WRONG_ANSWER
+908,Quadrado da posição.,1,0.001929,CORRECT
+915,Média de um aluno.,1,0.001515,CORRECT
+916,Quantidade de números.,1,0.001944,WRONG_ANSWER
+917,Número maior.,1,0.001963,WRONG_ANSWER
+918,Canal de TV.,1,0.001949,CORRECT
+919,Saldo do cliente.,1,0.002065,WRONG_ANSWER
+922,Aumento de salário.,1,0.001368,CORRECT
+923,Crime.,1,0.002152,WRONG_ANSWER
+924,Maior Dominó,2,0.002081,TIME_LIMIT_EXCEEDED
+925,Triângulo.,1,0.001548,CORRECT
+926,Sorvete,5,0.004104,CORRECT
+928,Campo de Minhocas,5,0.003495,CORRECT
+929,Pais das Folhas,3,-1.0,COMPILATION_ERROR
+930,Frequência de um caracterer na página,5,0.002244,CORRECT
+931,Campanha Eleitoral,5,0.002077,WRONG_ANSWER
+932,Formatando Nomes,4,0.002284,CORRECT
+933,Próximos da Média,5,0.001749,CORRECT
+935,Aprovação.,1,0.001949,CORRECT
+936,Fatorial.,1,0.001756,CORRECT
+938,5 valores para a.,1,0.003665,CORRECT
+939,Intervalo de números.,1,0.00187,CORRECT
+940,Média Aritmética.,1,0.00161,WRONG_ANSWER
+941,Substitui no array,2,0.002211,CORRECT
+942,Tabela de vendas,5,0.001713,WRONG_ANSWER
+943,Comparação multicritério,1,-1.0,COMPILATION_ERROR
+944,Maior submatriz,7,0.015875,WRONG_ANSWER
+945,Nota de História,7,0.003465,WRONG_ANSWER
+946,Soma de grupos divisíveis por D,7,0.003028,WRONG_ANSWER
+947,Remoção de strings,7,0.001932,WRONG_ANSWER
+948,Encaixando blocos,4,0.002055,CORRECT
+949,Em cada nível da árvore,3,0.001633,CORRECT
+950,Descriptografia,4,0.001959,WRONG_ANSWER
+951,Satélite,3,-1.0,TIME_LIMIT_EXCEEDED
+952,Vou Passar em P1,3,-1.0,COMPILATION_ERROR
+953,Quadro de Medalhas,6,0.009294,CORRECT
+954,Alunos acima da média,4,0.001764,WRONG_ANSWER
+955,O Labirinto do Kruskaltauro,1,0.003301,WRONG_ANSWER
+956,Desafio do menor e maior número,4,0.002007,CORRECT
+957,Triângulo com uma String,4,0.002245,CORRECT
+958,Formatando número real como moeda,4,-1.0,RUNTIME_ERROR
+959,Sequência Lógica III,4,0.005213,PRESENTATION_ERROR
+960,Alunos abaixo e acima da média,6,0.002066,CORRECT
+961,Piscamos tanto assim?,6,0.416464,CORRECT
+962,Matriz diferente,4,0.004081,CORRECT
+963,Submatriz,3,0.002432,WRONG_ANSWER
+964,Critério das linhas,3,0.001887,CORRECT
+967,Desenhando Árvores de Natal,3,0.002107,WRONG_ANSWER
+968,Da raiz até uma folha,5,0.001755,CORRECT
+970,Onde estão as substrings?,5,0.00252,WRONG_ANSWER
+971,Um problema de logística,1,0.302082,CORRECT
+972,É um número primo? (versão iniciante),2,0.002051,CORRECT
+974,Organizando as cartas,1,0.001694,WRONG_ANSWER
+975,Mensagem codificada,5,0.002092,WRONG_ANSWER
+977,A soma de todos os medos,1,0.037235,WRONG_ANSWER
+978,Mais um problema de logística,1,-1.0,COMPILATION_ERROR
+979,listar descendentemente 4,2,0.001591,CORRECT
+980,Aumento salarial,1,0.001556,CORRECT
+981,Trocar o conteúdo de duas variáveis,2,0.001187,CORRECT
+984,Os Extremos e os Múltiplos.,1,0.004436,CORRECT
+990,Petris,1,-1.0,COMPILATION_ERROR
+991,Unindo células,5,0.002012,RUNTIME_ERROR
+1001,Ixats vs Rebus,3,0.122387,WRONG_ANSWER
+1003,Loteria,4,0.001519,WRONG_ANSWER
+1005,Bloom,1,-1.0,COMPILATION_ERROR
+1006,A Diferença dos Quadrados,2,0.012233,CORRECT
+1007,Pi de Leibniz,3,0.003202,WRONG_ANSWER
+1009,Palíndromo,1,0.002275,CORRECT
+1010,Pi Leibniz,3,0.003487,CORRECT
+1011,Amizade,4,0.001996,CORRECT
+1014,Os quase primos de Fada,3,0.004265,WRONG_ANSWER
+1015,Método dos mínimos quadrados,2,0.291811,CORRECT
+1016,Partição do espaço,1,-1.0,COMPILATION_ERROR
+1017,Brincando com Fibonacci,2,0.001657,WRONG_ANSWER
+1021,Super Sales,1,0.062942,CORRECT
+1022,Palíndromo,1,0.001401,RUNTIME_ERROR
+1023,Grid Colouring,1,0.002089,WRONG_ANSWER
+1024,Critical Links,3,0.001902,WRONG_ANSWER
+1025,Passeio de Jipeiros,5,-1.0,COMPILATION_ERROR
+1027,Gerencia fiado,3,0.001818,CORRECT
+1032,Quantas tocas existem?,3,0.005463,CORRECT
+1034,Oi!,1,0.002989,WRONG_ANSWER
+1035,Área do retângulo,1,0.001669,CORRECT
+1036,Aprendi FFT,3,0.004245,CORRECT
+1037,Resolva o sistema,3,0.141056,CORRECT
+1040,Decifre o Eheapma,3,0.462557,WRONG_ANSWER
+1041,Tamanho de uma String,3,0.002192,CORRECT
+1042,Idade em segundos.,1,0.001893,CORRECT
+1043,Conversão para dólar,1,0.002001,CORRECT
+1045,Eficiência de equipe de desenvolvimento,1,0.00194,CORRECT
+1046,Capacidade canal de transmissão,1,0.001909,CORRECT
+1047,Várias médias de um conjunto de notas,1,0.002112,CORRECT
+1048,Horas extras,1,0.002181,WRONG_ANSWER
+1049,Cálculo do IMC,1,0.002408,CORRECT
+1050,Contração de arestas,3,0.001439,RUNTIME_ERROR
+1051,Volume de uma esfera,1,0.002788,WRONG_ANSWER
+1052,Diagonais de um polígono,1,0.002045,CORRECT
+1053,Volume e área de um cilindro,1,0.002333,WRONG_ANSWER
+1054,Comprimento de um arco e área do setor.,1,0.002045,CORRECT
+1055,Traço de uma matriz,1,0.001973,WRONG_ANSWER
+1057,Teorema de Pitágoras,1,0.003797,CORRECT
+1058,Velocidade média de um gás.,1,0.001882,CORRECT
+1060,Maior de 2 números.,1,0.006693,CORRECT
+1061,Áreas de 2 círculos.,1,0.002057,CORRECT
+1062,Acidez de uma solução,1,0.002085,CORRECT
+1063,Notas em ordem crescente,1,0.057219,CORRECT
+1065,Múltiplo de 5,1,0.00309,CORRECT
+1066,Examine o paciente,1,0.002934,CORRECT
+1067,É vogal?,1,0.002078,CORRECT
+1069,Formas geométricas,1,0.00457,CORRECT
+1070,Supermercado otimista,1,0.003095,WRONG_ANSWER
+1076,Justificar,3,0.388911,WRONG_ANSWER
+1077,Gêmeos,3,0.384289,CORRECT
+1078,Situação de um aluno.,1,0.054144,CORRECT
+1080,"Conversão Celsius, Fahrenheit e Kelvin",1,0.002044,CORRECT
+1082,Ordenação da Rita,1,0.002131,CORRECT
+1083,Desconto na conta de energia,1,0.002156,WRONG_ANSWER
+1085,Polinômio de 3o. grau,1,0.006917,CORRECT
+1086,Aluguel de carro,1,0.002808,CORRECT
+1087,100 primeiros números naturais,1,0.001551,CORRECT
+1088,Leia vários números.,1,0.002007,CORRECT
+1089,Calcule a série,1,0.002205,CORRECT
+1090,Peregrino das Galáxias,3,0.40658,TIME_LIMIT_EXCEEDED
+1091,Calcule a série 2,1,0.00252,CORRECT
+1092,Estatísticas de um conjunto de pessoas,1,0.002634,WRONG_ANSWER
+1093,Conhecendo o cliente,1,0.0022,WRONG_ANSWER
+1094,Eleição,2,-1.0,TIME_LIMIT_EXCEEDED
+1095,Perfil dos alunos,2,0.0021,CORRECT
+1096,Série de Burrier,1,0.002302,WRONG_ANSWER
+1097,Peso ideal.,1,0.005578,CORRECT
+1098,Categorias de nadadores.,1,0.002224,CORRECT
+1099,Área de um trapézio.,1,0.002182,CORRECT
+1100,Volume do tronco de uma pirâmide,1,-1.0,COMPILATION_ERROR
+1101,O inverno está chegando.,3,-1.0,COMPILATION_ERROR
+1102,criptografia maluca,2,0.002126,WRONG_ANSWER
+1104,Soma de vetores,1,0.002002,CORRECT
+1105,Prova Final 2017.1,1,0.001894,CORRECT
+1106,Jantar de Torcedores,3,0.002766,WRONG_ANSWER
+1107,Matriz de permutação,1,0.002132,WRONG_ANSWER
+1108,Formato de uma lista de emails,1,0.00196,CORRECT
+1109,Programador Dedicado,1,0.001926,CORRECT
+1113,Data válida,2,0.002113,CORRECT
+1114,Cálculo de Série,1,0.001601,WRONG_ANSWER
+1115,O parque de diversões,1,0.04277,TIME_LIMIT_EXCEEDED
+1116,Data por extenso,3,0.002046,WRONG_ANSWER
+1117,Carros de João e Maria,1,0.002743,CORRECT
+1118,Sequência Genética,1,0.002013,WRONG_ANSWER
+1120,Série,2,0.001918,WRONG_ANSWER
+1124,Simples multiplicação,3,0.001902,WRONG_ANSWER
+1125,Pares de parênteses,3,0.00192,CORRECT
+1127,Ordem das vilas,1,0.006295,WRONG_ANSWER
+1128,Gerar strings binárias sem 1s consecutivos,3,0.023537,CORRECT
+1130,Quantos dias?,1,0.001749,WRONG_ANSWER
+1131,Temer preocupado,2,0.004441,WRONG_ANSWER
+1136,Batata Quente,3,0.797891,WRONG_ANSWER
+1137,Containers,3,-1.0,TIME_LIMIT_EXCEEDED
+1138,Divisores,3,0.001965,WRONG_ANSWER
+1140,Fundindo Árvores,3,0.018642,WRONG_ANSWER
+1141,GO --,3,0.107401,CORRECT
+1142,huaauhahhuahau,3,0.004366,CORRECT
+1143,Isósceles,3,0.718775,WRONG_ANSWER
+1146,Ladrilhos,3,0.986658,TIME_LIMIT_EXCEEDED
+1149,Escolha o brega,1,0.001413,CORRECT
+1152,Jornada Pokémon,1,0.001942,CORRECT
+1154,Primeira Batalha,1,0.001364,CORRECT
+1155,z.Horário da Pokédex,2,0.001944,CORRECT
+1156,Nickname,1,0.00192,CORRECT
+1157,Tamanho da caverna,1,0.00239,CORRECT
+1158,Quantas ticks?,1,0.002989,WRONG_ANSWER
+1159,Doação,1,0.001753,CORRECT
+1160,Distância das vilas,1,0.001571,CORRECT
+1161,Competição,1,0.001692,CORRECT
+1162,Desafio Pokémon,1,0.001727,CORRECT
+1163,Problemas na Pokedex,1,0.00253,WRONG_ANSWER
+1164,Oferenda,1,0.002081,CORRECT
+1165,Brincando de Leet,1,0.001998,WRONG_ANSWER
+1166,Criptografia de Naruto,1,0.001878,CORRECT
+1168,Tamanho do Voltorb,1,-1.0,COMPILATION_ERROR
+1169,Choque Elétrico,1,0.002984,CORRECT
+1170,z.Falha nos Códigos,1,0.00196,CORRECT
+1171,Count Sort,1,0.578815,CORRECT
+1172,L1Q6 - Batalha,1,0.001947,CORRECT
+1173,L1Q1 - Jornada Pokémon,1,0.001798,CORRECT
+1174,L1Q2 - Problemas na Pokedex,1,0.002632,CORRECT
+1175,L1Q3 - Falha nos códigos,1,0.001479,CORRECT
+1176,L1Q4 - Desafio Pokémon,1,0.002015,CORRECT
+1177,L1Q5 - Primeira batalha,1,0.001749,WRONG_ANSWER
+1178,L1Q7 - Tamanho do Voltorb,1,0.001788,CORRECT
+1179,L1Q8 - Choque elétrico,1,0.001899,CORRECT
+1180,L1Q9 - Horário da Pokédex,1,0.00203,CORRECT
+1181,Médico Atencioso,1,0.002173,WRONG_ANSWER
+1182,L1Q10 - Encontro lendário,2,0.001915,WRONG_ANSWER
+1183,Anagrama de uma frase,1,0.002297,WRONG_ANSWER
+1184,O roteador estrangeiro,2,0.02044,WRONG_ANSWER
+1186,Matriciando,1,0.004784,WRONG_ANSWER
+1189,L2Q5 - Rains of Castamere,1,0.001643,CORRECT
+1190,L2Q4 - Valar Morghulis,1,0.001459,CORRECT
+1192,L2Q1 - Winter is Coming,1,0.001821,CORRECT
+1193,"L2Q7 - Oh, my sweet summer child",2,0.001977,CORRECT
+1194,L2Q10 - The Long Night,2,0.001485,CORRECT
+1214,L2Q8 - The keeper of the Gates,2,0.002166,WRONG_ANSWER
+1216,L2Q2 - Watchers on the Wall,1,0.002055,CORRECT
+1217,Shinobu's Saga II,3,0.00859,WRONG_ANSWER
+1218,P2Q1 - Bruxa dos Doces,1,0.001621,WRONG_ANSWER
+1219,L6Q3 - Jarvis,3,0.052667,CORRECT
+1220,"L2Q6 - Night is dark, and full of terrors.",1,0.001863,WRONG_ANSWER
+1223,L2Q9 - Inn at the Crossroads,2,0.002416,WRONG_ANSWER
+1225,Maior elemento,1,0.001399,WRONG_ANSWER
+1226,Maior par,1,0.001474,WRONG_ANSWER
+1228,Média dos elementos ímpares,1,0.001635,WRONG_ANSWER
+1229,,2,0.002051,WRONG_ANSWER
+1231,L3Q1 - Loja de Varinhas,1,0.004792,WRONG_ANSWER
+1243,A conjectura de Serra,3,0.002173,CORRECT
+1244,Gemialidades Weasley,1,0.001329,WRONG_ANSWER
+1246,Os triângulos de Izabella,2,0.003004,WRONG_ANSWER
+1248,P2Q2 - Trivialus,2,0.001683,WRONG_ANSWER
+1250,Batalha Pokemon,3,0.005538,WRONG_ANSWER
+1253,Caça-penetras,3,0.00202,WRONG_ANSWER
+1255,Shinobu's Saga III,5,0.002014,WRONG_ANSWER
+1257,L3Q3 - Gemialidade Weasley,1,0.00159,WRONG_ANSWER
+1260,L3Q5 - Organizando a biblioteca,4,0.001881,CORRECT
+1261,L3Q6 - Torneio de Quadribol,1,0.002795,RUNTIME_ERROR
+1262,L3Q2 - NOMs,1,0.001492,CORRECT
+1265,Resumo de figuras geométricas,3,0.002081,WRONG_ANSWER
+1267,L3Q4 - Seleção das casas,1,0.002018,CORRECT
+1268,Os diamantes são para sempre.,2,0.001464,WRONG_ANSWER
+1269,Diamante embutido,2,-1.0,RUNTIME_ERROR
+1270,Binary Search File System,3,0.001918,WRONG_ANSWER
+1271,Matriz com N números em M colunas,2,0.001616,CORRECT
+1272,Persistência multiplicativa,3,0.001367,WRONG_ANSWER
+1273,Matriz e suas diagonais,1,0.00141,PRESENTATION_ERROR
+1277,L4Q6 - Matriz triangular,1,0.001604,CORRECT
+1279,L4Q2 - Soma Divina,1,0.001553,CORRECT
+1280,L4Q5 - Construa a Matriz,1,0.003477,WRONG_ANSWER
+1281,L4Q1 - Traço de uma matriz.,1,0.001888,CORRECT
+1282,L4Q4 - O Quadrado Mágico,2,0.002034,CORRECT
+1283,L4Q3 - Matriz Inversa,2,0.002163,CORRECT
+1285,Avaliação das notas de uma turma,2,-1.0,COMPILATION_ERROR
+1286,L5Q1 - Euclides and Morty,1,0.00157,CORRECT
+1287,L5Q5 - O Produto Perdido,2,0.00195,CORRECT
+1288,P3Q1 - Caixa de Meeseeks,3,0.002997,CORRECT
+1290,L5Q2 - Rickception,1,0.001877,WRONG_ANSWER
+1292,L5Q4 - Pickle Rick!,1,0.001534,CORRECT
+1293,L5Q3 - Dimensão das Árvores Estranhas,1,0.00185,WRONG_ANSWER
+1294,L5Q6 - Rickslator,2,0.00147,WRONG_ANSWER
+1295,L5Q7 - O Mergesort,3,0.002047,WRONG_ANSWER
+1299,Escalonador,3,0.171715,WRONG_ANSWER
+1301,Promoção do colégio,3,0.002135,CORRECT
+1302,Brincando com matrizes II,1,-1.0,COMPILATION_ERROR
+1303,Made in Abyss,3,0.005526,WRONG_ANSWER
+1309,Masculino e Feminino,1,0.001969,CORRECT
+1310,Pesquisa eleitoral,2,0.001953,CORRECT
+1311,Dias da semana,1,0.002161,CORRECT
+1312,Muitas Paçocas,3,0.001911,RUNTIME_ERROR
+1313,Produto mais barato,1,0.002382,CORRECT
+1314,Triângulo,1,0.001696,CORRECT
+1315,Bissexto,1,0.001912,CORRECT
+1368,Variáveis e I/O 1,1,-1.0,CORRECT
+1412,Variáveis e I/O 9,1,-1.0,CORRECT
+1443,Arquivos 5,1,-1.0,CORRECT
+1526,L6Q1 - Ache a Mark,1,0.002068,CORRECT
+1528,Volume da Esfera,1,0.003674,CORRECT
+1529,L6Q2 - Gavião Arqueiro e suas flechas,1,0.001692,WRONG_ANSWER
+1530,L6Q4 - As Joias do Infinito,4,-1.0,COMPILATION_ERROR
+1531,Estatisticas de basquete,2,0.00146,CORRECT
+1533,Rebu,3,0.001939,RUNTIME_ERROR
+1753,Funções 1,1,-1.0,CORRECT
+1781,Funções 5,1,-1.0,CORRECT
+1787,Funções 6,1,-1.0,CORRECT
+1836,Digitação Amigável de Inteiros,1,0.002026,WRONG_ANSWER
+1841,Jogadores de basquete,2,-1.0,COMPILATION_ERROR
+1842,Distância entre Coordenadas,1,0.00159,CORRECT
+1843,"Maior, Menor e Média",1,0.002021,CORRECT
+1845,Nome ao contrário,1,0.001474,WRONG_ANSWER
+1846,Nome em escada,1,0.001622,WRONG_ANSWER
+1852,Luz para todos,3,0.260551,WRONG_ANSWER
+1853,"P3Q2 - Olá, sou o Mr. Meeseeks!",2,-1.0,COMPILATION_ERROR
+1857,"Kaori, Asuna e Kirito",5,-1.0,COMPILATION_ERROR
+1858,Maior e menor elemento de um array,1,0.001553,CORRECT
+1862,"Steve, o explorador",3,0.0044,WRONG_ANSWER
+1980,Labirinto 3D,3,0.024772,WRONG_ANSWER
+1994,Organizando a Escola,1,0.001905,WRONG_ANSWER
+1995,TCG,3,0.001941,EMPTY_ANSWER
+1996,Em nome de Esparta,1,-1.0,COMPILATION_ERROR
+1997,Frete,2,0.002677,CORRECT
+1998,Impressão de tabuadas.,1,0.001982,WRONG_ANSWER
+1999,Atribuindo notas aos questionários,1,0.001591,CORRECT
+2003,Eleven,1,0.003307,CORRECT
+2045,Inversion Count,3,0.257888,CORRECT
+2046,Série com funções,2,0.002076,WRONG_ANSWER
+2054,Soma não tão simples,2,0.008165,WRONG_ANSWER
+2056,Pares e Ímpares,2,0.002342,CORRECT
+2066,Somando Valores,1,0.001985,CORRECT
+2067,Frequência de um número,1,0.001786,CORRECT
+2068,Factsoma,1,0.002701,CORRECT
+2069,Viagem Distante,1,0.002033,WRONG_ANSWER
+2070,Dígitos do titio Willy,1,0.001728,CORRECT
+2071,O mais forte do pacote,2,0.001953,CORRECT
+2072,A muralha infinita,2,0.009881,WRONG_ANSWER
+2073,Amo Matemática Discreta,2,0.121898,WRONG_ANSWER
+2074,Strong Number,1,0.002008,WRONG_ANSWER
+2075,Soma de somas,1,0.875251,WRONG_ANSWER
+2076,Divisão de doces,1,0.005866,CORRECT
+2077,É um número triangular?,2,0.001636,CORRECT
+2078,L3Q5 - Quase Lá,1,0.001935,WRONG_ANSWER
+2079,L3Q4 - Homem Ser,2,0.002056,CORRECT
+2080,Prime Holes,2,0.004857,CORRECT
+2084,Diamantes para Shiro,2,0.002128,WRONG_ANSWER
+2086,1000 Números do Tio Willy,2,0.013606,CORRECT
+2089,Happy Number,1,0.003794,CORRECT
+2090,Teoria da branca de neve,2,0.00152,WRONG_ANSWER
+2091,L3Q2 - Teoria da Branca de Neve,1,0.001889,WRONG_ANSWER
+2092,L3Q6 - Sentimentos São,2,0.003884,WRONG_ANSWER
+2093,L3Q3 - Dreams Come True,1,0.001512,CORRECT
+2095,P1Q2 - The Citadel,2,0.001901,WRONG_ANSWER
+2096,L4Q3 - O Gladiador das galáxias,2,-1.0,RUNTIME_ERROR
+2098,L3Q1 - Bibbidi Bobbidi Boo,1,0.002031,CORRECT
+2099,Direito à isenção no Enem 2018,2,0.001576,WRONG_ANSWER
+2100,Conversão de Binário para Decimal,1,0.001698,CORRECT
+2101,L4Q4 - Reconstruindo a comunicação,2,0.001823,WRONG_ANSWER
+2102,R2D2 em apuros!,1,0.002128,CORRECT
+2103,L4Q1 - Duelo familiar,1,0.005264,WRONG_ANSWER
+2104,L4Q2 - Han Solo e o quadrado mágico,1,0.001955,CORRECT
+2105,Aventura na Millenium Falcon,1,0.00138,WRONG_ANSWER
+2106,Jogo do Pulador,2,-1.0,COMPILATION_ERROR
+2108,Arrays,2,0.002306,CORRECT
+2109,Pega ladrão!,1,0.002103,WRONG_ANSWER
+2110,Delação premiada,1,0.003431,CORRECT
+2111,Média dos elementos pares,2,0.001648,CORRECT
+2112,Critério das colunas,3,0.002171,CORRECT
+2113,Critério de Sassenfeld,3,0.001858,WRONG_ANSWER
+2114,Matriz de Vandermonde,3,-1.0,COMPILATION_ERROR
+2115,Função sinal,1,0.002047,WRONG_ANSWER
+2116,Calculadora de churrasco de Seu Coisado,1,0.001499,WRONG_ANSWER
+2117,Um velho fazendeiro,2,0.001961,WRONG_ANSWER
+2118,L3 2017.2 - Gemialidade Weasley,3,0.001447,WRONG_ANSWER
+2119,P2 2017.2 - Bruxa dos Doces,2,0.001572,WRONG_ANSWER
+2120,Quase Snake,2,0.002082,WRONG_ANSWER
+2121,P2 2017.2 - Trivialus,1,0.001925,WRONG_ANSWER
+2122,L5Q1 - O Desafio do Monge,2,0.040901,WRONG_ANSWER
+2123,L5Q2 - A Dúvida de Mike,2,0.00207,CORRECT
+2124,"L5Q3 - Enxuga o nariz, se não a princesa cai",2,0.003182,CORRECT
+2125,L5Q4 - CUIDADO!Sujeito a ataque de Demogorgon,3,0.002047,WRONG_ANSWER
+2126,L5Q6 - The Upside Down,3,0.003802,WRONG_ANSWER
+2127,L5Q7 - The Upside Down II,3,0.002085,WRONG_ANSWER
+2128,L5Q8 - The Upside Down III,4,0.001968,WRONG_ANSWER
+2129,L5Q9 - The Upside Down IV,4,0.009529,WRONG_ANSWER
+2130,L5Q10 - The Upside Down V,5,0.031703,WRONG_ANSWER
+2131,Matriz de votação,1,0.001863,CORRECT
+2132,O império ressurge,1,0.001937,CORRECT
+2133,L5Q5 - O Livro Upside Down,3,0.00227,CORRECT
+2134,Listas - exibindo nota e posição,1,0.001873,WRONG_ANSWER
+2135,Unindo listas,1,0.001812,WRONG_ANSWER
+2137,Sequência de Marsenne,2,0.001436,WRONG_ANSWER
+2138,A matriz dos pares!,3,0.001477,PRESENTATION_ERROR
+2139,Prefixo Negativo,1,0.001952,CORRECT
+2140,Conjugação,1,0.001576,CORRECT
+2141,Caracteres Ímpares,1,0.001694,CORRECT
+2142,Sufixo Adjetivo,1,0.003576,WRONG_ANSWER
+2143,Vending Machine,3,0.002039,WRONG_ANSWER
+2144,Sérgio Pistolou?,3,0.001839,WRONG_ANSWER
+2145,Controle de armas,1,0.001678,WRONG_ANSWER
+2146,Controle de várias armas,1,0.001782,WRONG_ANSWER
+2147,Hora do Almoço,1,0.00357,WRONG_ANSWER
+2148,Lista de pré-requisitos,1,0.00204,WRONG_ANSWER
+2149,"SIG@ em frente, olhe para o lado",1,0.002019,WRONG_ANSWER
+2154,Tabelas Hash,3,0.002252,WRONG_ANSWER
+2156,Marina e o volume da TV,1,0.003791,WRONG_ANSWER
+2157,Determinante sem cálculo direto,3,-1.0,COMPILATION_ERROR
+2158,Palavras repetidas,3,-1.0,RUNTIME_ERROR
+2166,Equalizando Torres,2,0.003178,CORRECT
+2169,Manipulando listas,1,-1.0,RUNTIME_ERROR
+2171,Resto da divisão,1,0.001733,CORRECT
+2172,P3Q1 - Corrida das Toupeiras,1,0.00172,WRONG_ANSWER
+2173,P3Q2 - Cadastro de partidas,1,0.001496,CORRECT
+2174,Conta de Água e Esgoto,1,0.001831,CORRECT
+2175,Imposto de Renda,2,0.001895,CORRECT
+2176,Comparação de Cotações de Gasolina,2,0.001525,CORRECT
+2178,Desvio padrão,1,0.001942,WRONG_ANSWER
+2179,Selecionando os titulares do ataque,1,0.001541,WRONG_ANSWER
+2180,O macaco e o bambu oleoso,3,0.004672,WRONG_ANSWER
+2184,Impressão de ímpares,1,0.001385,CORRECT
+2185,Contando Caracteres,2,0.001712,CORRECT
+2186,Vogais Alienígenas,2,0.001936,WRONG_ANSWER
+2192,Ambrósio e a gasolina,2,0.001968,WRONG_ANSWER
+2194,Encontro da Entidade,1,0.00363,CORRECT
+2195,Copa de Ambrolândia,1,0.001943,WRONG_ANSWER
+2197,Ambrósio desastrado,1,0.001515,CORRECT
+2198,Número de Armstrong,1,0.002969,WRONG_ANSWER
+2199,Brincadeira no IC,1,0.001668,CORRECT
+2201,Piso,1,0.002104,WRONG_ANSWER
+2208,Série de Euler,1,0.001677,CORRECT
+2209,Madd Code,3,-1.0,RUNTIME_ERROR
+2210,Ambrósio e as pirâmides,1,0.002098,CORRECT
+2219,Oh No!!,1,0.001964,CORRECT
+2220,"Yoshi, o Melhor Amigo",1,0.00185,EMPTY_ANSWER
+2221,Entrando pelo Cano,1,0.001892,WRONG_ANSWER
+2222,Pegue-a se Puder,2,0.001487,CORRECT
+2223,L1Q2 - That's what I need!,1,0.002063,CORRECT
+2224,L1Q5 - Coin Box Misteriosa,2,0.001996,CORRECT
+2225,"L1Q3 - Yoshi, o Melhor Amigo",2,0.001771,WRONG_ANSWER
+2226,L1Q1 - Oh No!!,1,0.001598,CORRECT
+2227,L1Q4 - Entrando pelo Cano,2,0.001991,WRONG_ANSWER
+2228,L1Q6 - Pegue-a se Puder,2,0.00207,WRONG_ANSWER
+2229,L1Q8 - Party at the castle,2,0.001947,WRONG_ANSWER
+2231,L1Q7 - Batalha Final,2,0.002088,WRONG_ANSWER
+2234,Inversion Count (iniciante),1,0.002931,CORRECT
+2237,Hello World,1,0.001375,CORRECT
+2240,L1Q9 - Mario Tennis,2,0.002472,WRONG_ANSWER
+2241,L2Q2 - Só quer vrau,1,0.002183,CORRECT
+2243,L2Q1 - Baile Funk,1,0.001707,WRONG_ANSWER
+2244,L2Q3 - Sorteio,1,0.001593,CORRECT
+2245,L1Q10 - A Comemoração,2,-1.0,COMPILATION_ERROR
+2246,L2Q4 - Escama só de peixe,2,0.001958,CORRECT
+2247,L2Q5 - Proximo Show,3,0.002169,CORRECT
+2248,L2Q6 - A Fórmula Perfeita,3,0.001932,WRONG_ANSWER
+2249,L2Q8 - 18+,3,-1.0,COMPILATION_ERROR
+2250,L2Q7 - Controle de lotação,3,-1.0,COMPILATION_ERROR
+2251,Deslocando números,2,0.006667,WRONG_ANSWER
+2252,Média Final com Prova de Reposição,2,0.002084,CORRECT
+2254,Soma dos dígitos (função iterativa),3,0.001635,CORRECT
+2255,Quantidade de dígitos (função iterativa),3,0.002,CORRECT
+2256,Quantidade de ocorrências (função iterativa),3,0.004235,CORRECT
+2257,Predecessor ou Sucessor (função iterativa),3,0.001783,CORRECT
+2258,Quantidade de caracteres (função iterativa),3,0.002058,CORRECT
+2259,L3Q3 - Treinamento especial,2,0.002562,WRONG_ANSWER
+2260,L3Q2 - Exame Chunnin,2,0.001505,WRONG_ANSWER
+2261,L3Q4 - Kuchiyose no Jutsu,2,-1.0,COMPILATION_ERROR
+2262,L3Q6 - Treinamento Uchiha,3,0.002816,WRONG_ANSWER
+2264,Xadrez de Ambrolândia,2,0.034468,CORRECT
+2266,Imagem,2,0.00194,WRONG_ANSWER
+2268,L3Q5 - Atividade da Himawari,3,0.001981,TIME_LIMIT_EXCEEDED
+2269,L3Q1 - O tratado do Ramen,2,0.001946,CORRECT
+2271,P1Q1 - Gasto do Baile Funk,1,0.002129,CORRECT
+2272,Destruindo células,2,0.147634,WRONG_ANSWER
+2274,P1Q2 - Corrida da Peach,1,0.002107,CORRECT
+2275,Salto com obstáculos,2,0.007958,CORRECT
+2277,L3Q7 - Perseguição,4,0.002042,WRONG_ANSWER
+2279,Predecessor ou Sucessor (função recursiva),3,0.001515,CORRECT
+2280,Quantidade de caracteres (função recursiva),3,0.002577,CORRECT
+2281,Quantidade de dígitos (função recursiva),3,0.002348,CORRECT
+2282,Quantidade de ocorrências (função recursiva),3,0.001947,WRONG_ANSWER
+2283,Soma dos dígitos (função recursiva),3,0.001995,CORRECT
+2285,L4Q2 - 100% atualizado,2,0.002508,CORRECT
+2288,L4Q3 - Você tem sorte?,2,0.002395,WRONG_ANSWER
+2289,A Fuga III,4,0.002055,WRONG_ANSWER
+2290,L4Q4 - Snake,3,0.002119,WRONG_ANSWER
+2291,L4Q1 - Quem vai vencer essa batalha?,1,0.003187,CORRECT
+2292,Decimal para Hexadecimal (usando pilha),3,0.002083,CORRECT
+2293,Lucas e Yuki,3,0.015416,WRONG_ANSWER
+2294,Remoção de caracteres repetidos (usando fila),3,0.002035,CORRECT
+2295,Pilha dupla,4,0.00216,CORRECT
+2306,Calcula média do aluno,2,0.001811,CORRECT
+2307,Quem gostou deixa o like e se inscreve,3,0.002349,WRONG_ANSWER
+2312,L4Q5 (extra) - Peças capturadas,3,0.003644,WRONG_ANSWER
+2315,Naruto e as fichas,2,-1.0,COMPILATION_ERROR
+2316,L5Q6 - Controle de Produção,4,0.002208,WRONG_ANSWER
+2317,Vença os Ninjas,1,0.002356,CORRECT
+2318,L5Q1 - Start of Something New,1,0.001994,CORRECT
+2320,L5Q2 - WildCats,2,0.00194,CORRECT
+2321,L5Q3 - Audition,3,0.002391,WRONG_ANSWER
+2322,L5Q4 - Treasure Hunt,4,0.002926,WRONG_ANSWER
+2325,Divisível (função com retorno de valor),2,0.001959,CORRECT
+2326,Subtrações (função com retorno de valor),2,0.004278,CORRECT
+2327,Menor (função com retorno de valor),2,0.001998,CORRECT
+2328,Maior (função com retorno de valor),2,0.002059,CORRECT
+2329,L5Q5 - Let's eat!,4,0.002194,WRONG_ANSWER
+2330,Eh par ou ímpar?,1,0.001778,CORRECT
+2331,L5Q7 - A Fuga I,4,-1.0,COMPILATION_ERROR
+2332,Tamanho da string,1,0.001868,CORRECT
+2333,Calculadora Rústica,1,0.002079,CORRECT
+2334,L5Q6 - Together,4,0.005519,CORRECT
+2336,L6Q4 - Armazenando Veículos,3,0.002026,WRONG_ANSWER
+2337,L6Q3 - Pedidos de Big Smoke,2,0.002108,CORRECT
+2338,Troca de valores (usando macros),3,0.001923,CORRECT
+2339,Troca de valores (usando funções e ponteiros),3,0.002041,CORRECT
+2340,Incrementa 1 ou 2 (função recursiva),4,0.001974,CORRECT
+2341,Decrementa 3 ou 4 (função recursiva),4,0.00647,WRONG_ANSWER
+2342,Reduz (usando funções e ponteiros),3,0.001977,WRONG_ANSWER
+2343,Exibe Múltiplos (função sem retorno de valor),2,0.002459,CORRECT
+2344,Sequência de Fibonacci (função sem devolução),3,0.001886,CORRECT
+2345,Forma retângulo (função sem devolução),3,0.002784,WRONG_ANSWER
+2346,Contagem regressiva (função sem devolução),3,0.002515,CORRECT
+2347,Contagem progressiva (função sem devolução),3,0.002023,CORRECT
+2348,Busca em sequência (implementado em lista),2,0.001949,CORRECT
+2349,Ocorrências (implementado em lista),2,0.002391,CORRECT
+2350,Valor máximo (implementado em lista),2,0.002006,CORRECT
+2351,Média dos valores (implementado em lista),2,0.001963,CORRECT
+2352,Transforma pares (implementado em lista),2,0.001879,CORRECT
+2355,L6Q5 - Visitas de Catalina,4,0.002015,CORRECT
+2356,L6Q1 - Montanha Russa no Del Perro Pier,2,0.003267,CORRECT
+2357,L6Q2 - Livro de Rimas,2,0.005167,WRONG_ANSWER
+2362,Quantos segundos em um horário?,2,0.00325,CORRECT
+2364,O Grande Golpe,2,0.036388,CORRECT
+2367,The Game,2,0.002055,WRONG_ANSWER
+2369,Cavidades em uma matriz,2,0.001764,WRONG_ANSWER
+2372,[Matrizes] Contando itens pares,2,0.001776,CORRECT
+2378,Operações com números complexos,3,0.002199,CORRECT
+2379,Busca em largura,4,0.001849,WRONG_ANSWER
+2380,Busca em profundidade,4,0.004429,WRONG_ANSWER
+2388,Bruna e os quadrados,3,0.006154,CORRECT
+2389,Planejando a expedição,3,0.002052,CORRECT
+2390,Viagem para Marte,3,0.002484,WRONG_ANSWER
+2391,Bitmap II,4,0.002729,WRONG_ANSWER
+2392,A grande estreia,4,-1.0,COMPILATION_ERROR
+2393,A festa dos Expendables,5,-1.0,COMPILATION_ERROR
+2394,Pilha Antigo,3,-1.0,COMPILATION_ERROR
+2395,Entrada e Saída CPF,1,-1.0,COMPILATION_ERROR
+2396,Fuso Horário,1,0.002932,WRONG_ANSWER
+2397,MacPRONALTS,1,-1.0,COMPILATION_ERROR
+2398,Entrada e Saída de Data,1,0.001956,CORRECT
+2399,Tempo de Jogo com Minutos,1,0.002076,CORRECT
+2400,Experiências,1,0.00214,CORRECT
+2402,Avaliação financeira,2,0.003173,CORRECT
+2404,PROGCOMP - Sequência - C,1,0.002135,CORRECT
+2409,Concatenação de nomes,1,0.001542,CORRECT
+2410,Tabuleiro de Ambrósio,1,0.001967,CORRECT
+2411,Raiz Digital,2,0.00461,CORRECT
+2412,Ambrósio Romântico,1,0.017404,CORRECT
+2417,L1Q3 - Ramen Artesanal,1,0.002192,CORRECT
+2418,L1Q1 - Hotel? Trivago,1,0.002176,CORRECT
+2419,L1Q6 - Celulares Japoneses,1,0.002055,CORRECT
+2420,L1Q2 - Rodízio de Sushi,1,0.001628,CORRECT
+2421,L1Q7 - Moedas infinitas,1,0.002117,CORRECT
+2422,L1Q5 - O dinheiro do Hackathon,1,0.002192,WRONG_ANSWER
+2423,L1Q4 - Karaoke,1,0.002446,WRONG_ANSWER
+2424,L1Q8 - Posto Ipiranga,1,0.001989,CORRECT
+2425,L1Q10 - Qual assento?,2,0.00248,WRONG_ANSWER
+2427,L1Q9 - Trem Bala,2,0.002593,WRONG_ANSWER
+2428,Inversão de número (3 algarismos),1,-1.0,COMPILATION_ERROR
+2429,Intercalação,1,0.222839,CORRECT
+2430,Playlist,2,0.002321,WRONG_ANSWER
+2431,Vamos ao Cinema,3,0.001774,WRONG_ANSWER
+2432,Pilha de Recursão,3,0.002154,WRONG_ANSWER
+2439,"L2Q3 - Olá, Jasmine!",2,0.002237,CORRECT
+2440,L2Q4 - Encontre a Lâmpada Mágica!,1,0.003223,WRONG_ANSWER
+2441,A Fuga V,5,0.002172,CORRECT
+2444,L2Q1 - A luta de Tarzan,1,0.003095,WRONG_ANSWER
+2445,L2Q2 - Esteja preparado,1,0.00216,WRONG_ANSWER
+2446,L2Q5 - Quantos dias para o casamento?,3,0.002178,CORRECT
+2447,Connect Four,2,0.007534,WRONG_ANSWER
+2448,L2Q6 - Controle de Lotação,2,0.002337,WRONG_ANSWER
+2449,L2Q7 - Fuga do Tarzan,2,0.001923,WRONG_ANSWER
+2457,A escadinha mágica,2,0.003089,PRESENTATION_ERROR
+2458,O desejo de Kinho,3,0.198155,CORRECT
+2464,Mario de Ambrolândia,3,0.002834,WRONG_ANSWER
+2469,Aquele do Central Perk,2,0.017842,WRONG_ANSWER
+2470,Aquele dos CDs do Chandler (Extra),3,0.010637,WRONG_ANSWER
+2471,Aquele do gato de Ross e Julie (Extra),3,-1.0,COMPILATION_ERROR
+2472,Soma dois inteiros,1,0.001665,CORRECT
+2473,Subtrai dois inteiros,1,0.001889,CORRECT
+2474,Multiplica dois inteiros,1,0.001917,CORRECT
+2475,Divide dois inteiros,1,0.002209,WRONG_ANSWER
+2476,Fila Hospitalar,3,0.001767,WRONG_ANSWER
+2484,Catálogo de Filmes,3,0.002399,WRONG_ANSWER
+2488,Árvore Binária,3,0.002026,CORRECT
+2489,Aquele com a lista de desejos da Phoebe,1,0.002035,CORRECT
+2490,Distância entre três pontos,1,0.001974,CORRECT
+2492,Palíndromo,1,0.002078,CORRECT
+2493,Par com maior produto,2,0.002043,CORRECT
+2494,Cavalos e ferraduras,1,0.002135,CORRECT
+2495,Tornar Vetor Consecutivo,2,0.00199,CORRECT
+2496,Robôs Supersticiosos,2,0.0022,WRONG_ANSWER
+2498,Ticket da sorte,2,0.002109,CORRECT
+2499,Pilha,3,-1.0,COMPILATION_ERROR
+2500,Aquele dos ossos de dinossauro,3,0.002023,CORRECT
+2501,Scar planeja seu ataque,1,0.002059,CORRECT
+2502,O hospital do Zelda,3,0.079537,WRONG_ANSWER
+2503,A Fuga II,4,-1.0,COMPILATION_ERROR
+2504,Senha secreta,1,0.002062,WRONG_ANSWER
+2505,Aquele da partida de totó,3,0.002115,WRONG_ANSWER
+2507,Aquele com a bola,3,0.005117,WRONG_ANSWER
+2508,Lista de Compras,2,0.002334,CORRECT
+2509,LED,2,0.002222,CORRECT
+2510,Presentes de Natal,2,0.002459,CORRECT
+2511,Aquele com as Compras de Rachel,2,0.00198,CORRECT
+2512,Área da Circunferência,1,0.001877,WRONG_ANSWER
+2513,Forma triângulo,1,0.002419,CORRECT
+2514,Diferença Octave,1,0.002089,CORRECT
+2515,IMC Octave,1,0.002001,CORRECT
+2521,IMC,1,0.002046,CORRECT
+2522,Conjuntos - Intersecção,2,0.001708,CORRECT
+2523,Somando em C++;,1,0.001242,CORRECT
+2526,MP IP-EC 2019.1,1,0.004071,WRONG_ANSWER
+2528,Dia da semana,1,0.00244,CORRECT
+2529,"Maior, menor ou igual",1,0.001877,CORRECT
+2530,Par ou Impar Octave - T1,1,0.001558,CORRECT
+2531,Maior que 10 Octave - T1,1,0.001515,CORRECT
+2532,Maior numero Octave - T1,1,0.001696,CORRECT
+2533,Baskhara Octave - T1,3,0.001977,WRONG_ANSWER
+2534,Lucro no produto Octave - T1,2,0.002043,WRONG_ANSWER
+2535,"Positivo, Negativo ou Nulo Octave - T1",1,0.002169,CORRECT
+2536,Linha de Credito Octave - T1,3,0.00188,CORRECT
+2537,Senha Octave - T1,1,0.001752,CORRECT
+2538,Maças Octave - T1,2,0.001794,WRONG_ANSWER
+2539,Poligonos Octave - T1,3,0.002329,CORRECT
+2540,Função POP - sua versão,2,0.002227,WRONG_ANSWER
+2541,Torneio de Futsal Octave - T1,2,0.001962,WRONG_ANSWER
+2542,Conversao Dolar Euro Octave - T1,1,0.001668,WRONG_ANSWER
+2543,Pesquisa Eleitoral Octave - T1,2,0.002046,WRONG_ANSWER
+2550,Entrada Saida - T1 ME,1,-1.0,CORRECT
+2568,ComandosLinux - T1 ME,1,-1.0,CORRECT
+2594,Implementando Algoritmos de ordenação #1,3,0.001456,CORRECT
+2596,Quantidade de Tinta,1,0.001459,WRONG_ANSWER
+2598,Função REMOVE - sua versão,2,0.002362,CORRECT
+2599,L4Q2 - Capture um Charmander!,1,0.002207,WRONG_ANSWER
+2600,L4Q4 - Frost Dragon Quest,2,0.002119,WRONG_ANSWER
+2601,L4Q1 - Cansou de perder?,1,0.004928,PRESENTATION_ERROR
+2602,L4Q6 - O Confronto dos piratas,3,0.002,WRONG_ANSWER
+2603,L4Q3 - Runeterra World,2,0.002452,WRONG_ANSWER
+2604,Ordenação I,3,0.002094,CORRECT
+2605,Ordenação II,3,-1.0,COMPILATION_ERROR
+2606,Substring,4,0.001957,CORRECT
+2607,Paradoxo do Aniversário,5,-1.0,COMPILATION_ERROR
+2608,L4Q5 - Chega de Puzzles!!,3,0.002261,WRONG_ANSWER
+2609,Função INSERT - sua versão,2,0.002095,CORRECT
+2610,Mais uma de lista,1,0.001935,WRONG_ANSWER
+2612,Isenção Enem 2020,1,0.00215,WRONG_ANSWER
+2613,Intervalo fechado crescente,1,0.001587,CORRECT
+2614,Intervalo aberto decrescente,1,0.002064,CORRECT
+2615,Pague sua dívida!,1,0.001883,CORRECT
+2616,HUDP,3,-1.0,COMPILATION_ERROR
+2618,Jogos de Ambrósio,1,0.006117,CORRECT
+2620,O Forte de Joey,1,0.004539,RUNTIME_ERROR
+2621,Chandler vs. Phoebe,1,0.001961,CORRECT
+2626,É de ladinho na leitura!,1,0.002008,CORRECT
+2629,Triangulos Octave - T2,2,0.001975,CORRECT
+2630,Angulo de Triangulos Octave - T2,1,0.002982,CORRECT
+2631,Zerinho ou Um Octave - T2,3,0.002313,CORRECT
+2632,Hipotenusa Octave - T2,2,0.001895,WRONG_ANSWER
+2633,Ingresso Octave - T2,1,0.002197,CORRECT
+2634,Conta Agua Octave - T2,4,0.002139,WRONG_ANSWER
+2635,L5Q5 - A Ovelhinha,3,0.002402,WRONG_ANSWER
+2636,Conceito MEC Octave - T2,2,0.002194,WRONG_ANSWER
+2637,Tiro ao Alvo Octave - T2,2,0.002011,CORRECT
+2638,Acidez de solucao Octave - T2,2,0.002133,CORRECT
+2639,L5Q2 - Communication,2,0.002063,WRONG_ANSWER
+2640,Parque de Diversoes Octave - T2,3,0.002373,CORRECT
+2641,L5Q3 - Quantas horas?,2,0.002108,WRONG_ANSWER
+2642,L5Q1 - Quantos disparos?,2,0.002015,WRONG_ANSWER
+2648,L5Q4 - Soma ao contrário,2,-1.0,COMPILATION_ERROR
+2649,intervalo fechado passo 3,1,0.002005,CORRECT
+2650,Frequência,3,0.002058,CORRECT
+2651,Preenchimento de caracteres,1,0.001975,CORRECT
+2652,Linhas alfabéticas,1,0.001866,CORRECT
+2653,Intervalo de não-primos,1,0.002374,CORRECT
+2657,A Fuga IV,5,0.00403,WRONG_ANSWER
+2708,Prejudicando o adversário,1,0.001803,PRESENTATION_ERROR
+2709,Nosedive,2,-1.0,COMPILATION_ERROR
+2710,Hang the DJ,2,0.006401,WRONG_ANSWER
+2711,Bandersnatch,3,0.001711,WRONG_ANSWER
+2712,Viagem no tempo,2,0.004258,WRONG_ANSWER
+2713,Simple Nosedive,2,0.001677,CORRECT
+2714,Soma 100 primeiros inteiros,1,0.001332,CORRECT
+2715,Soma pares de 0 a 500,1,0.001553,CORRECT
+2716,Preço do ingresso,3,0.00143,WRONG_ANSWER
+2719,PROGCOMP - Matrizes - B,1,0.002143,CORRECT
+2720,PROGCOMP - Matrizes - D,1,0.001812,CORRECT
+2721,PROGCOMP - Matrizes - E,1,0.001589,CORRECT
+2722,Interrogatório,1,0.002558,CORRECT
+2723,Distribuição do Roubo,1,-1.0,COMPILATION_ERROR
+2724,PROGCOMP - Matrizes - U,1,0.001431,CORRECT
+2725,PROGCOMP - Estruturas - B,1,0.002165,CORRECT
+2729,PROGCOMP - Funções - B,1,0.001766,CORRECT
+2730,PROGCOMP - Funções - C,1,0.001518,CORRECT
+2731,PROGCOMP - Funções - F,1,0.002069,CORRECT
+2732,PROGCOMP - Funções - G,1,0.00223,CORRECT
+2733,PROGCOMP - Funções - L,1,0.001958,CORRECT
+2734,PROGCOMP - Passagem de Parâmetros - D,1,0.005641,CORRECT
+2735,PROGCOMP - Passagem de Parâmetros - G,1,0.002323,CORRECT
+2738,Mineirin vs Cubano I,2,0.00544,WRONG_ANSWER
+2741,Assuma o Controle,2,0.001954,WRONG_ANSWER
+2742,Sr. Indeciso e o evento,2,0.255001,CORRECT
+2745,Sr. Indeciso e o evento II,3,0.264836,CORRECT
+2746,A Entidade e o Boneco,3,0.005125,WRONG_ANSWER
+2747,Mutante multiplicando matrizes,3,-1.0,COMPILATION_ERROR
+2748,Escolha Difícil,1,0.003857,CORRECT
+2749,Og,1,0.001964,CORRECT
+2750,Número Perfeito,2,0.001826,CORRECT
+2797,Zerinho ou Um,1,0.002022,CORRECT
+2798,Divisores I,1,0.002261,CORRECT
+2799,Jogo do Maior,2,0.001717,CORRECT
+2805,Área do trapézio,1,0.004198,CORRECT
+2806,Cálculo do IMC,1,0.001844,CORRECT
+2807,Aluguel de carros,1,0.002073,CORRECT
+2808,Gasto de Combustível,1,0.002028,WRONG_ANSWER
+2809,Algarismo das Unidades,1,0.001488,CORRECT
+2810,Cédulas,1,0.001828,CORRECT
+2812,PR1_Easy Jet,1,0.002272,CORRECT
+2813,PR1_Media_Loop,1,0.001987,WRONG_ANSWER
+2814,PR1_Alugando um veiculo,1,0.001939,CORRECT
+2817,Numeros em Ordem Crescente,1,0.001617,CORRECT
+2818,Acidez de uma solução,1,0.002394,CORRECT
+2819,Apresentação de Trabalho,1,0.001988,CORRECT
+2820,Treinamento de Ciclismo,1,0.002266,CORRECT
+2821,Supermercado otimista,1,0.004352,CORRECT
+2822,Peso Ideal,3,0.002037,CORRECT
+2823,Jogo dos numeros,3,0.001868,WRONG_ANSWER
+2824,Viagem de amigos,1,0.001588,CORRECT
+2825,Tira-Teima Tênis,2,0.002261,CORRECT
+2826,Conversão de medidas: Galões para Litros,1,0.002028,WRONG_ANSWER
+2829,Quantidade de estudantes,1,0.001735,CORRECT
+2830,Diferença da quantidade de estudantes,1,0.001776,CORRECT
+2831,Fila,2,0.001903,EMPTY_ANSWER
+2834,Amigos do Habay,2,0.001666,WRONG_ANSWER
+2835,Contando frequência de caracteres,2,0.002003,CORRECT
+2842,Divisivel por três,1,0.002167,CORRECT
+2843,Frequencia de um numero,1,0.001956,CORRECT
+2844,Vaquinha para Valquíria,2,0.002091,CORRECT
+2845,Livros na Mochila,2,0.001837,CORRECT
+2846,Troca de presentes,3,0.002144,CORRECT
+2847,Buracos de minhoca,3,-1.0,COMPILATION_ERROR
+2848,Distância entre dois carros,1,0.001806,CORRECT
+2849,Ordem de instalação,3,0.016173,CORRECT
+2851,Pares de trás para frente,1,0.002038,CORRECT
+2852,Reserva de passagens,2,0.001587,CORRECT
+2853,Matriz Transposta,3,0.002012,CORRECT
+2854,Matrículas duplas,1,0.001995,CORRECT
+2855,Quadrado Mágico,2,0.00183,CORRECT
+2884,Iguais a n,1,0.001782,CORRECT
+2885,Pastelaria da Ambrosina,2,0.001957,CORRECT
+2886,Matrizes,3,0.001628,WRONG_ANSWER
+2887,Evolucao das especies,4,0.001551,CORRECT
+2888,Fornecimento de Energia,1,0.002184,WRONG_ANSWER
+2889,Lista Telefonica,1,0.001813,WRONG_ANSWER
+2891,Lucro do comerciante,1,0.001556,CORRECT
+2892,Criando a matriz,1,0.001401,WRONG_ANSWER
+2893,Amostragem de sinal,2,0.001452,WRONG_ANSWER
+2894,O cruzamento,1,0.001586,WRONG_ANSWER
+2895,L2Q6 - O novato,3,0.001997,CORRECT
+2896,L2Q5 - Festa do ramen!,3,0.001477,WRONG_ANSWER
+2898,L2Q1 - Alimentem o capitão!,1,0.001433,CORRECT
+2899,Histograma,1,-1.0,TIME_LIMIT_EXCEEDED
+2900,L2Q3 - Controle da incubadora,2,0.001903,WRONG_ANSWER
+2904,Rico para Diabo!,3,0.003036,WRONG_ANSWER
+2906,L2Q? - Capturem o Titã,1,0.004737,WRONG_ANSWER
+2907,L2Q4 - Dia da morte,2,0.001939,WRONG_ANSWER
+2908,L2Q7 - Faça elevar,4,0.002253,CORRECT
+2909,Aninha cirandinha,5,0.0029,WRONG_ANSWER
+2910,"Pô, que mão",2,0.002173,CORRECT
+2911,L2Q2 - Hora da caçada,1,0.128323,WRONG_ANSWER
+2922,Primos sexy de Aninha,5,0.001787,WRONG_ANSWER
+2923,Aninha e os Triângulos,5,0.001791,WRONG_ANSWER
+2926,Acerte o Presente,2,-1.0,COMPILATION_ERROR
+2927,Os primos gêmeos de Josué,3,0.003368,CORRECT
+2939,Qual o CP?,1,0.002412,WRONG_ANSWER
+2942,L4Q6 - Ru12?,4,0.001969,WRONG_ANSWER
+2943,"My coffee, please!",2,0.002122,WRONG_ANSWER
+2944,L4Q2 - Batalha naval 3000,2,0.001489,CORRECT
+2946,L4Q3 - Campeonato de batalha naval 3000,3,0.003417,WRONG_ANSWER
+2948,L4Q1 - Grad 3,1,0.002266,CORRECT
+2949,As estatísticas do Buel,5,0.007877,WRONG_ANSWER
+2950,L4Q4 - Todo mundo odeia Xadrez,3,0.002023,WRONG_ANSWER
+2951,L4Q7 - Todo mundo odeia Felipe,4,-1.0,COMPILATION_ERROR
+2952,L4Q5 - Onde sentar?,3,-1.0,COMPILATION_ERROR
+2957,Soma de 2 inteiros,1,0.001608,CORRECT
+2958,Média simples,1,0.001478,WRONG_ANSWER
+2959,Conversão polegadas -> mm,1,0.001488,WRONG_ANSWER
+2960,Escalas de temperatura,1,0.001941,WRONG_ANSWER
+2961,Área de um hexágono regular,1,0.001435,WRONG_ANSWER
+2963,Operações aritméticas,1,0.002027,WRONG_ANSWER
+2964,Expressões aritméticas,2,0.00157,WRONG_ANSWER
+2965,Loja de tintas,2,0.002399,CORRECT
+2968,Farol Aceso,2,0.003951,CORRECT
+2970,Quantos zeros e quantos dígitos,2,-1.0,COMPILATION_ERROR
+2971,Ordenação,1,0.003789,CORRECT
+2972,Notação Científica,1,0.002266,CORRECT
+2975,Melancia,1,0.002198,CORRECT
+2976,Entidade e as Pedras de Granizo,2,0.001765,WRONG_ANSWER
+2977,Os retângulos estão nos cercando,2,0.014578,CORRECT
+2978,Bit a Bit,2,0.007826,WRONG_ANSWER
+2979,Rede Celular,3,0.086109,CORRECT
+2980,Batalha de Fluxos,4,-1.0,TIME_LIMIT_EXCEEDED
+2982,Contando notas e moedas,2,0.002191,WRONG_ANSWER
+2983,Calculando a contribuição do INSS,2,0.001598,WRONG_ANSWER
+2984,Média e critério de aprovação,2,0.003995,CORRECT
+2985,Consumo de combustível,1,0.001797,CORRECT
+2986,L6Q1 - Muitos Anos de Vida,1,0.002636,WRONG_ANSWER
+2987,L6Q3 - Casamento Nobre,3,0.004045,CORRECT
+2988,L6Q4 - The Pandorica Opens,4,0.01116,WRONG_ANSWER
+2989,L6Q2 - It’s Bigger On The Inside,2,0.001924,WRONG_ANSWER
+2990,L6Q5 - A Mente Do Doctor,4,0.002428,WRONG_ANSWER
+2991,Some os termos da série I,2,0.002183,WRONG_ANSWER
+2992,Some os termos da série II,2,0.002219,CORRECT
+2993,Contando múltiplos I,1,0.001944,CORRECT
+2994,Somatória de PA,1,0.001456,CORRECT
+2995,Venda de selos automatizada - parte I,3,-1.0,COMPILATION_ERROR
+2996,Venda de selos automatizada - parte II,3,0.001658,WRONG_ANSWER
+2997,A Lista de Compras,1,0.001579,WRONG_ANSWER
+2998,Multiplicação de 3 números,1,0.001548,CORRECT
+2999,Média de 2 Notas,1,0.001595,CORRECT
+3000,A Grande Amizade,2,0.001941,WRONG_ANSWER
+3004,Devorador de Mentes,1,0.001977,CORRECT
+3007,Pontos no Ruxley,3,0.004149,CORRECT
+3008,Discretolândia,4,0.005776,WRONG_ANSWER
+3009,Fake News,3,0.002078,WRONG_ANSWER
+3010,Escape Room,3,0.007491,WRONG_ANSWER
+3011,Corte Diagonal,5,0.002182,WRONG_ANSWER
+3013,Dimensões Terreno,1,0.001414,CORRECT
+3014,Ferraduras,1,0.001886,CORRECT
+3015,Padaria,1,0.001873,CORRECT
+3017,Quantos dias você já viveu?,1,0.00202,CORRECT
+3018,Enchendo o Tanque,1,0.001398,WRONG_ANSWER
+3019,Valor da Refeição,1,0.001621,CORRECT
+3020,Média Ponderada,1,0.001746,CORRECT
+3038,Bob Conduíte,1,0.002039,CORRECT
+3039,Feijão,1,0.002116,CORRECT
+3040,Ho Ho Ho,1,0.001558,CORRECT
+3041,Notas da Prova,1,0.003307,WRONG_ANSWER
+3042,Bem-vindos e Bem-vindas ao Inverno!,2,0.001997,CORRECT
+3043,Bem-vindos e Bem-vindas ao Verão!,2,0.002917,WRONG_ANSWER
+3046,Teste de seleção 1,2,0.002205,CORRECT
+3048,Módulo 2 - Área do retângulo,1,-1.0,RUNTIME_ERROR
+3055,Módulo 3 - Quadrado,1,0.001482,CORRECT
+3058,Arithmetic Key,5,0.002769,WRONG_ANSWER
+3063,k-Tree,3,0.002215,WRONG_ANSWER
+3064,Módulo 3 - Antecessor e Sucessor,1,0.002036,CORRECT
+3065,Módulo 3 - Diagonal,2,0.001589,WRONG_ANSWER
+3084,Potência de 2,3,0.115971,TIME_LIMIT_EXCEEDED
+3085,Another Meme Problem,3,0.001994,WRONG_ANSWER
+3110,Red-Blue Graph,5,0.002313,CORRECT
+3115,Próximo número,1,0.001837,CORRECT
+3116,Competição,1,0.00307,CORRECT
+3117,Distância das vilas,1,0.004408,CORRECT
+3118,Doação,1,0.001879,CORRECT
+3119,Nickname,1,0.001966,CORRECT
+3120,Oferenda,1,0.001515,CORRECT
+3121,Tamanho da caverna,1,0.002886,CORRECT
+3122,Quantas ticks?,2,0.001835,WRONG_ANSWER
+3126,Distância entre duas coordenadas,1,0.001829,WRONG_ANSWER
+3127,Altura máxima - movimento oblíquo,1,0.001857,WRONG_ANSWER
+3128,"Cadastro de pessoas e idades (soma, médias)",1,0.001849,CORRECT
+3131,Primeiro Dicionário de Andy,2,0.002084,WRONG_ANSWER
+3132,Lista de Chamada 2,2,0.002111,CORRECT
+3135,Os presentes de Aninha,4,0.001996,WRONG_ANSWER
+3145,Competição de Chocolate,1,0.001588,WRONG_ANSWER
+3147,Troca,1,0.001475,CORRECT
+3148,Corona: Ep 6,3,0.001477,WRONG_ANSWER
+3149,Distribuindo Adesivos,4,0.009644,WRONG_ANSWER
+3150,Corona: Ep 9,3,0.001454,WRONG_ANSWER
+3151,Corona: Ep 10,4,1.895287,WRONG_ANSWER
+3152,Corona: Ep 8,3,0.00197,CORRECT
+3153,Corona: Ep 3,3,0.001484,WRONG_ANSWER
+3154,Corona: EP 1,3,0.001435,TIME_LIMIT_EXCEEDED
+3155,Todos os caminhos,3,-1.0,COMPILATION_ERROR
+3156,Corona: Ep 5,3,0.063893,EMPTY_ANSWER
+3157,Corona: Ep 7,3,0.001739,WRONG_ANSWER
+3158,Corona: Ep 4,3,0.002056,WRONG_ANSWER
+3159,Corona: Ep 2,3,0.003391,CORRECT
+3160,Maior de três,1,0.001818,CORRECT
+3161,Distância entre dois pontos,1,0.002769,CORRECT
+3162,Par ou ímpar,1,0.001928,CORRECT
+3163,Raiz enésima,1,0.001482,WRONG_ANSWER
+3165,Triângulo,1,0.00202,CORRECT
+3166,Gráfico,1,0.001977,CORRECT
+3167,Maior sem if,1,0.001952,CORRECT
+3168,Operador ternário,1,0.001611,CORRECT
+3169,Salário,1,0.002046,CORRECT
+3196,[C3] LAB - 7,1,0.002918,CORRECT
+3197,[C3] LAB - 8,1,0.001681,WRONG_ANSWER
+3198,[C3] LAB - 1,1,0.001675,WRONG_ANSWER
+3199,[C3] LAB - 2/3,1,0.002065,WRONG_ANSWER
+3200,[C3] LAB - 4,1,0.001871,WRONG_ANSWER
+3201,[C3] LAB - 5,1,0.001933,WRONG_ANSWER
+3202,[C3] LAB - 6,1,-1.0,COMPILATION_ERROR
+3203,[C3] LAB - 9,1,0.001455,WRONG_ANSWER
+3204,[C3] LAB - 12,1,0.001556,WRONG_ANSWER
+3205,[C3] LAB - 11,1,0.001484,WRONG_ANSWER
+3206,[C3] LAB - 10,1,0.001511,WRONG_ANSWER
+3207,inversao dos digitos de um numero inteiro,1,0.0014,CORRECT
+3208,Cálculo do IMC,2,0.00208,WRONG_ANSWER
+3209,Restos dos Produtos,2,0.001637,WRONG_ANSWER
+3214,AC2 - Ex. 5,1,0.002113,CORRECT
+3215,AJA café,3,0.00955,WRONG_ANSWER
+3216,Cálculo da contribuição do INSS,1,0.004331,WRONG_ANSWER
+3217,Seno e cosseno a partir de séries de Taylor,3,0.002062,WRONG_ANSWER
+3218,A = B,2,0.002043,WRONG_ANSWER
+3219,Contando ocorrências (função iterativa),2,0.002034,CORRECT
+3220,Inverta os dígitos de um inteiro de 5 dígitos,1,0.001347,CORRECT
+3221,Qual o numero de dígitos de um numero inteiro,1,0.001856,CORRECT
+3222,Inverter os dígitos um numero inteiro,1,0.001692,CORRECT
+3223,Cerca,3,0.508085,CORRECT
+3231,[AC3.2] - Divisibilidade,1,0.003379,CORRECT
+3241,Flipping Game,4,0.142292,TIME_LIMIT_EXCEEDED
+3246,Ayallinha e o City Tour,3,0.002924,WRONG_ANSWER
+3251,Operação simples,1,0.001758,CORRECT
+3269,Common Prefixes,4,0.357167,CORRECT
+3272,Palavras com fatiamento e concatenação,2,0.001997,WRONG_ANSWER
+3276,Par ou Impar,1,0.001569,CORRECT
+3277,Nota válida,1,0.00192,CORRECT
+3278,Classificando notas,1,0.001771,CORRECT
+3279,IMC,1,0.001622,CORRECT
+3280,Aumento de salário,1,0.001731,CORRECT
+3281,PIT03 - Ordem Inversa,1,0.001317,CORRECT
+3282,PIT03 - Aumento salário funcionário,1,0.001567,CORRECT
+3283,Calculando áreas,2,0.001509,WRONG_ANSWER
+3284,Dispensador de cédulas,3,0.001479,CORRECT
+3285,IMC,1,0.001411,CORRECT
+3286,Loja de cerâmicas,1,0.001575,WRONG_ANSWER
+3287,Pirâmide de Números,1,0.002401,PRESENTATION_ERROR
+3288,Soma 3 números,1,0.003076,CORRECT
+3289,Conversão de Horas,1,0.002157,WRONG_ANSWER
+3297,Litros de refrigerante dietético.,1,0.002096,WRONG_ANSWER
+3318,UACSA - Raiz quarta,1,0.001488,CORRECT
+3319,UACSA - Fração,1,0.001472,CORRECT
+3323,Expressão Lógica,2,0.001963,WRONG_ANSWER
+3324,A Sequência de Josué,2,0.002168,CORRECT
+3326,Futebol de robôs,2,0.001673,WRONG_ANSWER
+3327,A disputa final,1,0.002018,WRONG_ANSWER
+3328,Conta de energia de Rafinha,2,0.002736,CORRECT
+3329,Ajude o Leo,1,0.056829,WRONG_ANSWER
+3331,Os Ímpares de Josué,3,0.008011,CORRECT
+3332,Os primos de Zeca,3,0.053854,WRONG_ANSWER
+3333,Triangulo do Vinicius,3,0.002853,WRONG_ANSWER
+3334,Datas entre dias,3,0.002006,CORRECT
+3335,O pi de zeca,2,0.002205,WRONG_ANSWER
+3336,O troco de Heleno,3,0.001448,CORRECT
+3337,Ajude o Mateus,3,-1.0,COMPILATION_ERROR
+3338,A Internet do Zeca Urubu,4,0.00204,CORRECT
+3341,As peças de Aninha,4,-1.0,TIME_LIMIT_EXCEEDED
+3342,Futebol de robôs: o retorno,3,-1.0,COMPILATION_ERROR
+3343,Maior sequência decrescente,2,0.00197,WRONG_ANSWER
+3344,Datas entre dias: o retorno,2,0.002086,CORRECT
+3345,Calibrando Sensores,3,-1.0,COMPILATION_ERROR
+3351,Matrizes da internet do Zeca,2,0.002239,PRESENTATION_ERROR
+3353,Matriz transposta,1,0.00243,PRESENTATION_ERROR
+3354,O amor de Elias,2,0.017004,WRONG_ANSWER
+3356,Próximo dia,2,0.002849,WRONG_ANSWER
+3357,Convite para Treinamento,1,0.001852,CORRECT
+3359,Algoritmo do Cubo Mágico,1,0.002091,CORRECT
+3360,N primeiros números naturais,1,0.00197,CORRECT
+3361,Contar pulando múltiplos,1,0.002038,CORRECT
+3362,A fórmula de Janaína,1,0.001559,CORRECT
+3363,Espaços excedentes,1,0.001994,CORRECT
+3365,O campeonato de Kinho,2,0.001694,CORRECT
+3366,CRUD CREDO,3,0.002149,CORRECT
+3367,Par ou Ímpar - Python3,1,0.00187,WRONG_ANSWER
+3373,Hello World,1,0.001401,CORRECT
+3374,Média de 3 Números Reais,1,0.001468,CORRECT
+3375,Latas de Tinta para Pintar Cilindro,2,0.001501,CORRECT
+3377,Maior de Idade,1,0.001382,CORRECT
+3378,Funções Math.h,1,0.001489,WRONG_ANSWER
+3379,Maior Idade,1,0.001365,CORRECT
+3381,Faixa etária idade,1,0.001769,WRONG_ANSWER
+3387,Carteira Habilitacao,1,0.00138,CORRECT
+3389,Meia Entrada Cinema,1,0.00192,CORRECT
+3399,Raiz de uma equação do primeiro grau,1,0.001381,CORRECT
+3400,Área de um anel circular,1,0.001949,CORRECT
+3401,Volume de um cilindro,1,0.001404,CORRECT
+3402,Ponto de interseção entre duas retas,1,0.004035,CORRECT
+3403,Distância entre dois pontos no espaço 3D,1,0.001694,CORRECT
+3404,Raizes reais de uma equação do segundo grau,1,0.001459,CORRECT
+3406,Divisores de um número,1,0.001903,CORRECT
+3407,Somar 2 números ou raiz quadrada de 1 número,1,0.001726,CORRECT
+3408,Salário mais bonificação e auxílio-escola,2,0.002038,CORRECT
+3409,Ponto dentro de um retângulo,2,0.001887,CORRECT
+3410,Ponto dentro de dois círculos,3,0.00149,CORRECT
+3411,Consumo de combustível por tipo de carro,1,0.001971,WRONG_ANSWER
+3412,MDC,1,0.00149,CORRECT
+3413,Números pares de 1 até n,1,0.001944,CORRECT
+3414,A Saga do Protagonista: Parte 1,1,0.00199,WRONG_ANSWER
+3415,Arithmetic Debt,2,0.002025,WRONG_ANSWER
+3417,10 Números do Tio Willy sem array,1,-1.0,WRONG_ANSWER
+3418,MDC como combinação linear,1,0.001803,WRONG_ANSWER
+3419,Série de Fibonacci,1,0.001799,CORRECT
+3420,Série de Fetuccine,1,0.00156,WRONG_ANSWER
+3421,Função exponencial natural,1,0.001467,CORRECT
+3422,Valor aproximado de pi,1,0.001554,WRONG_ANSWER
+3423,Raiz quadrada de um número,2,0.001989,WRONG_ANSWER
+3424,Maior valor entre inteiros lidos,1,0.001872,CORRECT
+3425,"Menor, maior, percentual de pares e média",2,0.001793,WRONG_ANSWER
+3426,Vetor de fatoriais,3,0.001407,PRESENTATION_ERROR
+3427,Produto dos elementos da diagonal principal,2,0.001477,WRONG_ANSWER
+3428,Múltiplos de x da diagonal principal,2,0.001948,CORRECT
+3429,Média e situação de n alunos,2,0.002087,PRESENTATION_ERROR
+3431,Trabalhando com listas,3,0.001835,CORRECT
+3432,Está em ordem crescente?,2,0.001508,CORRECT
+3434,Função menor elemento,1,0.001449,WRONG_ANSWER
+3435,Produto interno (com funções),1,0.001905,WRONG_ANSWER
+3436,Funções para a área e o perímetro do círculo,2,0.004042,CORRECT
+3437,Função para conversão de graus para radianos,2,0.001489,CORRECT
+3438,Supermercado,1,0.001514,WRONG_ANSWER
+3440,Compras de Fim de Ano,1,0.002115,WRONG_ANSWER
+3441,Matriz fantasma,3,0.001627,PRESENTATION_ERROR
+3442,Batalha Pokemon (Hard Version),3,0.398906,WRONG_ANSWER
+3446,Contagem em string,1,0.002723,CORRECT
+3547,A nave de Bilu,1,0.002392,WRONG_ANSWER
+3549,Esfiha do Zildão,1,0.001955,CORRECT
+3550,Os códigos de Josué,1,0.001632,CORRECT
+3551,É triângulo é?,1,0.001713,CORRECT
+3552,Prática de estruturas de repetição,1,0.001514,CORRECT
+3554,Os primos de Fibonacci,2,0.002016,WRONG_ANSWER
+3555,Primo de 4,4,0.160437,CORRECT
+3556,Big Problem Brasil,1,0.00141,TIME_LIMIT_EXCEEDED
+3557,Quociente de uma divisão inteira,1,0.001455,CORRECT
+3561,Conversão de temperatura,1,0.001367,CORRECT
+3562,Funções da biblioteca math.h,1,0.001767,CORRECT
+3564,Os arrays de Kinho,3,0.002048,WRONG_ANSWER
+3565,Diferença entre vetores,2,0.00257,WRONG_ANSWER
+3566,Trena Dobrável,4,0.001786,WRONG_ANSWER
+3567,Os vetores de Samuel,1,0.001517,CORRECT
+3569,3o ângulo  do triângulo,1,0.002011,CORRECT
+3571,Latas de Tinta,1,0.001386,CORRECT
+3572,Anos semanas e dias,1,0.001367,CORRECT
+3574,O berçário de Kinho,4,0.002342,WRONG_ANSWER
+3575,Link chateado,2,0.001574,WRONG_ANSWER
+3576,Cifra do Zeca,3,0.002198,WRONG_ANSWER
+3577,O Robô do Zeca,3,0.001969,CORRECT
+3578,As 4 operações,1,0.00206,CORRECT
+3579,Resposta bem explicadinha,1,0.001951,CORRECT
+3584,Ordenação ensaio do método da bolha,1,0.002732,WRONG_ANSWER
+3585,Tipos de Média,2,0.002162,CORRECT
+3588,Ordenação ensaio do método da seleção,1,0.001557,WRONG_ANSWER
+3589,Processo seletivo.,2,0.001527,WRONG_ANSWER
+3590,Desafio dos números primos 1,2,0.002038,TIME_LIMIT_EXCEEDED
+3591,Vogal ou Consoante,1,0.001567,WRONG_ANSWER
+3592,Gênero,1,0.001901,CORRECT
+3593,Quantidade de dias do mês,1,0.001393,PRESENTATION_ERROR
+3594,Desafio dos números primos 2,1,0.00191,CORRECT
+3595,Senha,2,0.001491,WRONG_ANSWER
+3596,Dominó,2,0.005488,WRONG_ANSWER
+3597,Do you like trees?,5,0.066857,WRONG_ANSWER
+3598,Idade,2,0.002033,WRONG_ANSWER
+3599,Sequência Secreta,3,0.001507,WRONG_ANSWER
+3600,Nota cortada,2,0.003758,WRONG_ANSWER
+3601,Distância entre amigos,3,0.082723,WRONG_ANSWER
+3603,Intercala,1,0.001868,CORRECT
+3604,Pivot Mediana,1,-1.0,COMPILATION_ERROR
+3605,Mediana de 3,1,0.002138,WRONG_ANSWER
+3611,Lista de contatos,2,0.001456,WRONG_ANSWER
+3612,Cadeiras na coluna,1,-1.0,COMPILATION_ERROR
+3613,Site de vendas,2,0.001667,CORRECT
+3620,Gabi adora desafios!,2,0.002095,WRONG_ANSWER
+3622,Calculando a média com ponteiros,1,0.002055,WRONG_ANSWER
+3623,Analisando vendedores,3,0.002189,WRONG_ANSWER
+3624,Compra de smartphone,3,-1.0,COMPILATION_ERROR
+3625,RPG-combat_help,3,0.001472,CORRECT
+3626,Promoção lanchonete,1,0.001881,EMPTY_ANSWER
+3628,Academia,1,0.001879,CORRECT
+3629,Código de César,2,0.001583,WRONG_ANSWER
+3632,Índice de poluição,1,0.001676,CORRECT
+3633,"Pedra, papel e tesoura",1,0.002016,CORRECT
+3634,Ideia da Nini,2,-1.0,COMPILATION_ERROR
+3638,Substituindo palavras no texto,2,0.001521,CORRECT
+3639,Vogais na frase,2,0.001475,WRONG_ANSWER
+3640,Senha da empresa Calculaí,2,0.001347,WRONG_ANSWER
+3641,Par e ímpar - lista,3,0.00145,CORRECT
+3653,Verificar anterior e próximo,1,0.00262,CORRECT
+3655,Gerenciador de user/senha,3,0.00191,WRONG_ANSWER
+3657,compra/venda de ações,3,0.001413,WRONG_ANSWER
+3658,Calculando cesta básica,2,0.001925,WRONG_ANSWER
+3662,Mais uma de matriz?,2,0.001632,CORRECT
+3665,Sopa de letrinhas,1,0.005892,WRONG_ANSWER
+3666,Festa da Marilda 2,2,0.001802,CORRECT
+3667,Festa da Marilda 3,2,0.001835,CORRECT
+3671,Inversões na Flixrede,2,0.001796,CORRECT
+3672,Sairam as notas do Enem,2,0.061917,CORRECT
+3673,Teclado velho,1,0.001425,WRONG_ANSWER
+3674,Teh Adventujrs of Meme Man: Ida ao Mercado,2,0.001996,WRONG_ANSWER
+3675,Fibonacci invertido,1,0.001956,WRONG_ANSWER
+3676,Geraldo não sabe pra onde ir.,2,0.002068,WRONG_ANSWER
+3677,Sherliro Wars,2,0.003392,WRONG_ANSWER
+3678,A Festa do Japa,1,0.001712,WRONG_ANSWER
+3679,Professor maluco?,1,0.001984,CORRECT
+3687,O terrível macakinho,3,0.002178,CORRECT
+3688,Imprimindo cartazes,2,0.001743,WRONG_ANSWER
+3689,Os Primos do Sherliro,3,0.001694,WRONG_ANSWER
+3690,Quem ganhou?,2,0.185136,WRONG_ANSWER
+3724,Escala Franjinha de pH,1,0.001453,CORRECT
+3726,Verificar Ordem em Lista,2,0.002051,CORRECT
+3727,Escola de Artes,1,0.001432,CORRECT
+3728,Fazenda do João,1,0.001477,WRONG_ANSWER
+3731,A Biblioteca de Dorian,3,0.00168,WRONG_ANSWER
+3732,Organizando provas,2,0.003878,WRONG_ANSWER
+3733,Exercício de Busca - DFS,2,0.00146,WRONG_ANSWER
+3734,Exercício de Busca - UCS,3,-1.0,COMPILATION_ERROR
+3735,Viciada em 'a',2,0.002361,WRONG_ANSWER
+3738,Exercício de Busca - BFS,2,0.001457,WRONG_ANSWER
+3739,Exercício de Busca - Greedy,3,-1.0,COMPILATION_ERROR
+3741,Rachel e o troco do Central Perk,2,0.001984,WRONG_ANSWER
+3742,Fahrenheit para Celsius,1,0.002247,WRONG_ANSWER
+3743,Médias entre 3 notas,1,0.001683,CORRECT
+3745,Exercício de Busca - A Star,3,-1.0,WRONG_ANSWER
+3752,Equação reduzida da elipse,2,0.00199,WRONG_ANSWER
+3761,O Prédio,2,0.002005,WRONG_ANSWER
+3762,Soma de números não tão grandes,3,-1.0,RUNTIME_ERROR
+3763,Matrix Ninja,3,0.001931,WRONG_ANSWER
+3764,Acidez de várias soluções,1,0.001726,CORRECT
+3765,O novo jogo de Kaz,2,0.002149,WRONG_ANSWER
+3766,A Mumba de Kamyamoto (Powered by Kinho),3,0.027719,WRONG_ANSWER
+3767,"Jaiminho, o Carteiro",3,-1.0,RUNTIME_ERROR
+3769,O duelo de JOJOão,2,0.002028,WRONG_ANSWER
+3770,!PalindromoomordnilaP!,2,0.001505,WRONG_ANSWER
+3771,Tempo Viagem,1,0.001761,CORRECT
+3772,Socorro da prova,1,0.001897,CORRECT
+3773,Traquinagens do Saci,2,0.001645,WRONG_ANSWER
+3774,Equação do segundo grau,1,0.001682,CORRECT
+3775,A prova na Escola Salvatore,1,0.001604,WRONG_ANSWER
+3776,"Maior, menor e média",1,0.002115,WRONG_ANSWER
+3815,Condicional - validação de data de nascimento,1,0.001583,WRONG_ANSWER
+3820,Contas por categoria,3,0.001355,CORRECT
+3826,Teste,1,0.001398,CORRECT
+3831,Lista - Achar posição do maior/menor item,2,0.001534,CORRECT
+3832,Investimentos N1,2,0.002028,WRONG_ANSWER
+3833,Investimentos N2,2,0.002004,WRONG_ANSWER
+3834,Investimentos N3,3,0.002024,WRONG_ANSWER
+3835,O Campeonato de Vôlei do CIn,1,0.002058,WRONG_ANSWER
+3836,Teh Adventujrs of Meme Man: Volta do Mercado,2,0.002009,WRONG_ANSWER
+3838,Sherliro impede The Wrath of Khanmerer,2,0.00142,WRONG_ANSWER
+3840,Ajude a dudinha!,3,0.057977,WRONG_ANSWER
+3841,Teclado com problema,2,0.002124,WRONG_ANSWER
+3842,Teh Adventujrs of Meme Man: Loop do Mercado,2,0.001762,CORRECT
+3847,Referência bibliográfica,1,0.001949,WRONG_ANSWER
+3850,Iniciando com listas,1,0.002037,CORRECT
+3855,Os registradores de Kammera Man,2,0.001364,WRONG_ANSWER
+3856,Os novos prédios,2,0.001928,CORRECT
+3857,Zeca (não) quer trabalhar,2,0.00157,CORRECT
+3859,A Linha de montagem do Dr. Zululu,2,0.001966,WRONG_ANSWER
+3861,Faixa etária,2,0.002034,CORRECT
+3862,Verificação de eleitor,1,0.002446,CORRECT
+3863,Dudinha's password,3,0.001508,WRONG_ANSWER
+3864,Teh Adventujrs of Meme Man: Cybermarket 2077,2,0.002219,WRONG_ANSWER
+3865,Sherlirow quer dormir,3,0.001517,WRONG_ANSWER
+3866,Kammera Man Corrompeu suas Matrizes,2,0.00209,WRONG_ANSWER
+3868,Um novo jogo,3,-1.0,COMPILATION_ERROR
+3869,Ressacassembly e Mariozin,2,0.001965,WRONG_ANSWER
+3870,Sopa de Letrinhas,2,0.001837,WRONG_ANSWER
+3871,"Por favor, salvem o futebol brasileiro",3,0.002388,WRONG_ANSWER
+3872,Dudinha's delivery service,3,-1.0,COMPILATION_ERROR
+3873,Faturas & Sofrimento,2,0.003723,WRONG_ANSWER
+3874,A Guerra dos CinCabeças,2,0.001545,CORRECT
+3886,AB1.P1.Nasa,1,0.00152,WRONG_ANSWER
+3891,3 tipos de média,1,0.001384,CORRECT
+3892,Distância entre 2 pontos,1,0.001986,CORRECT
+3903,Notas das provas,2,0.002035,CORRECT
+3904,Escolha dos Presentes,3,0.001355,CORRECT
+3906,P3-Q2,1,0.001465,CORRECT
+3907,P3.Q3,2,0.001468,WRONG_ANSWER
+3911,Teh Adventujrs of Meme Man: Sanduíche,1,0.001876,WRONG_ANSWER
+3913,Estratégia de Batalha,1,0.001899,CORRECT
+3914,Rebeka e a volta para casa,2,0.002003,WRONG_ANSWER
+3915,Estudante Vitores,1,-1.0,COMPILATION_ERROR
+3919,20 Números do Tio Willy,5,0.001466,CORRECT
+3921,O elevador tridimensional do Yee,3,0.00194,WRONG_ANSWER
+3924,Bonxai foi para forca,1,0.001999,CORRECT
+3925,Marquinhos e o telefone borrado,1,0.001996,WRONG_ANSWER
+3926,A Jornada da Prosperidade do Kinhas,3,0.00166,WRONG_ANSWER
+3927,Dominó área 2,3,0.001912,WRONG_ANSWER
+3928,Sherliro salva o Khamniverso,2,0.001735,EMPTY_ANSWER
+3929,Cifra de Bonxai,1,0.001564,CORRECT
+3930,Marquinhos e a goteira,2,0.001885,WRONG_ANSWER
+3931,CountingSort,2,0.004251,WRONG_ANSWER
+3932,Lukkity vs Os Textos Napoleônicos,3,0.003142,WRONG_ANSWER
+3933,Quem matou o Jefteson?,3,-1.0,COMPILATION_ERROR
+3934,Par vs Ímpar,2,0.001932,WRONG_ANSWER
+3935,Sorteio,2,0.004923,CORRECT
+3940,Fábrica,2,0.002039,CORRECT
+3945,O estagiário do professor carvalho,1,0.001803,CORRECT
+3946,Novo Ranking da CBF,2,0.002011,WRONG_ANSWER
+3948,Monitoria bonus,2,-1.0,RUNTIME_ERROR
+3949,Quaqs ao resgate das compras de Sherliro,2,0.00152,WRONG_ANSWER
+3979,Motores a Diesel,2,0.002409,CORRECT
+3980,Questão_01_A,3,0.001328,CORRECT
+4007,Baskhara,3,0.001431,CORRECT
+4008,Conversao Dolar Euro,1,0.00145,CORRECT
+4009,Lucro no produto,1,0.001639,CORRECT
+4010,Maças,1,0.001595,CORRECT
+4011,Pesquisa Eleitoral,2,0.001502,CORRECT
+4012,Poligonos,3,0.001957,CORRECT
+4017,Conta Número,1,0.001723,CORRECT
+4019,Fatorial simples,1,0.001977,CORRECT
+4025,Sede de Shake no Puro Hell,2,0.00216,WRONG_ANSWER
+4026,Teh Adventujrs of Meme Man: Confiança,1,0.001975,WRONG_ANSWER
+4027,Aventuras pela UFPE,2,0.002428,WRONG_ANSWER
+4028,Piratas encantam sereias,1,0.001969,EMPTY_ANSWER
+4032,Nova propriedade,2,0.001976,CORRECT
+4033,As notas de cálculo I,1,0.001922,WRONG_ANSWER
+4035,Caio's Clash Cafe,3,0.002067,WRONG_ANSWER
+4036,Aproximação exponencial,1,0.000997,CORRECT
+4039,Batalha Naval Para Horas Vagas,2,-1.0,COMPILATION_ERROR
+4040,Pipi e Mariozito vão afetar o Grêmio,2,0.001607,WRONG_ANSWER
+4042,A Fuga de Rebeka,2,0.001876,CORRECT
+4043,Exponential Expansion,3,-1.0,WRONG_ANSWER
+4044,O Plano Infalível,3,0.001492,WRONG_ANSWER
+4045,Protótipo de Ctrl+F,2,0.001639,EMPTY_ANSWER
+4046,Rebeka vai ser uma foragida,2,0.109254,TIME_LIMIT_EXCEEDED
+4047,Brincadeira das Listas,1,0.003461,CORRECT
+4049,Anhixoc,2,-1.0,COMPILATION_ERROR
+4050,Identificador de idade,1,0.002065,CORRECT
+4051,Calculadora dos calouros - inteiros,1,0.002864,CORRECT
+4052,Printando a Entrada,1,0.001939,CORRECT
+4053,Calculadora dos calouros - decimais,1,0.002077,CORRECT
+4054,Números Negativos?,1,0.001574,CORRECT
+4055,Missão da South Gate Station,1,0.001902,CORRECT
+4067,Update da Pokédex,2,0.002134,WRONG_ANSWER
+4068,Corrida Maluca ablublebuelbue,2,0.002032,WRONG_ANSWER
+4082,Exportações do Seu Lobato,3,0.001908,WRONG_ANSWER
+4087,Water Supply Collapse,1,0.001701,CORRECT
+4090,A disputa pelo brownie de café,1,-1.0,COMPILATION_ERROR
+4093,Busca Binária Detalhada,2,0.002044,WRONG_ANSWER
+4095,Raizes da equacao,3,0.00152,CORRECT
+4096,Lanchonete da Ambrosina Modificado,3,0.001684,CORRECT
+4097,Banco de Dados - Modificado,3,0.001484,CORRECT
+4103,Excursão do IC,1,0.001415,CORRECT
+4114,Lab 7 - Exercício 1,1,0.001968,CORRECT
+4117,Acesso restrito à piscina,1,0.002341,WRONG_ANSWER
+4120,Ajuda Vendedores,1,0.002042,WRONG_ANSWER
+4122,Counting Pairs,5,0.02227,WRONG_ANSWER
+4136,Produto e a razão de dois números,1,0.001899,CORRECT
+4137,Área de figuras,1,0.001973,WRONG_ANSWER
+4138,Calculadora do Rildo,1,0.001559,CORRECT
+4139,As horas de Danerd Ramanujan,1,0.001943,CORRECT
+4140,Área e Volume de Corpos Sólidos,1,0.003838,CORRECT
+4141,Classificando as raízes,1,0.001801,WRONG_ANSWER
+4142,De 400 a 0 em segundos,1,0.001586,CORRECT
+4143,Operações,1,0.001674,CORRECT
+4145,Bate essa pule pae!,1,0.001668,CORRECT
+4146,Xupenio Bordões,2,0.001701,CORRECT
+4147,Copa das Cadeiras,1,0.001804,CORRECT
+4148,O Encontro de Lulu Pathy,1,0.001556,CORRECT
+4149,Número Mágico de Ltop,1,0.001715,WRONG_ANSWER
+4150,posição no plano cartesiano,1,0.001783,CORRECT
+4151,A Fuga do Paffocan,3,-1.0,RUNTIME_ERROR
+4152,Letra na Frase,3,0.001798,CORRECT
+4153,Soneca Passa em Cálculo 1!,1,0.001814,CORRECT
+4154,Lulupalooza,3,0.001876,WRONG_ANSWER
+4155,Operadores,1,0.002129,WRONG_ANSWER
+4157,Índice de Aprendizado Federal,1,-1.0,COMPILATION_ERROR
+4158,Navegação autônoma,2,-1.0,COMPILATION_ERROR
+4159,Engenharia Civil 101,2,0.001526,WRONG_ANSWER
+4160,Trabalhos da Bia,1,0.002767,WRONG_ANSWER
+4161,Soma da área dos retângulos na função X^2,2,0.001554,CORRECT
+4163,Ana Paula Cigana no modo Xadrez!,1,0.002722,WRONG_ANSWER
+4165,Um Garoto Ixpertinho,1,0.002064,CORRECT
+4166,Gol contra no Fantástico,2,-1.0,COMPILATION_ERROR
+4170,Jogo entre amigos,1,0.001846,WRONG_ANSWER
+4171,Triângulo de Pascal,1,0.001721,PRESENTATION_ERROR
+4172,O Quarteto Fantástico da Matemática,1,0.001876,CORRECT
+4173,O Cubo LeMarchand colorido!,5,0.004441,WRONG_ANSWER
+4174,Garagem da ᵈᵘᵈᶦⁿʰᵃ,2,0.001586,CORRECT
+4175,Rebeka encontra o assassino,1,-1.0,RUNTIME_ERROR
+4177,Números de Ícaro,1,0.00157,WRONG_ANSWER
+4180,Projeção Ortogonal,2,0.001639,CORRECT
+4185,Array de Pares e Ímpares,2,0.001638,CORRECT
+4186,Par de pontos mais próximo,3,0.001969,CORRECT
+4188,MDC ou MDC?,2,0.001967,CORRECT
+4189,Soma das Recursivas,1,0.001385,CORRECT
+4197,O psicopata do CPF,2,0.001512,CORRECT
+4198,O Drone da Imitação,2,0.001856,CORRECT
+4199,Empire Business,1,0.00141,CORRECT
+4204,Bolhas e Baldes Jr.,1,0.006348,CORRECT
+4232,mdc de uma sequência,2,0.003566,CORRECT
+4240,Qual o terceiro ângulo?,1,0.001928,PRESENTATION_ERROR
+4241,Oficina do Miguelito,3,0.001738,CORRECT
+4242,Mensagem Espacial,1,-1.0,COMPILATION_ERROR
+4243,Calculadora de IMC,1,0.002086,WRONG_ANSWER
+4244,Notas da Área 2,2,0.002097,WRONG_ANSWER
+4245,Transporte de Caixas,2,0.002765,CORRECT
+4246,Triângulos de Bonifácio,4,0.001549,CORRECT
+4249,Conta de luz,1,0.001643,CORRECT
+4250,Área da Superfície e Volume da Esfera,1,0.001805,CORRECT
+4253,Área de figuras geométricas,1,0.002465,EMPTY_ANSWER
+4255,2 números em ordem crescente - Adp.,1,0.002016,CORRECT
+4256,Oi ! Adp.,1,0.002056,CORRECT
+4257,3o ângulo do triângulo adaptado,1,0.001674,CORRECT
+4258,Lista de Strings,5,0.001753,WRONG_ANSWER
+4259,AB1.P1.Lanchonete Adp.,1,0.00201,CORRECT
+4260,Teorema de Pitágoras Adp.,1,0.002095,CORRECT
+4261,Área de um trapézio adaptada.,1,0.002585,WRONG_ANSWER
+4264,Raizes da equacao Adp.,1,0.002047,WRONG_ANSWER
+4269,Conversão para dólar adaptado.,1,0.001718,WRONG_ANSWER
+4270,"Conversão Celsius, Fahrenheit e Kelvin adp.",1,0.001974,WRONG_ANSWER
+4277,Área de um trapézio adap. p/a autismo.,1,0.002056,WRONG_ANSWER
+4278,3o ângulo do triângulo adap. p/a autismo,1,0.001994,WRONG_ANSWER
+4279,10 primeiros multiplos,2,0.002014,CORRECT
+4280,Aeroporto - Lista de checagem,3,0.003842,WRONG_ANSWER
+4281,Sala da professora Asbeksa,1,0.001554,CORRECT
+4282,Teclado,1,0.003177,WRONG_ANSWER
+4285,Ajudando Adryan na atividade de português,2,-1.0,COMPILATION_ERROR
+4291,[AC5.4] - Media de notas adp.,1,0.002428,WRONG_ANSWER
+4292,Processamento de uma fila de mensagens,3,0.131277,CORRECT
+4302,Criptografia,1,0.002081,WRONG_ANSWER
+4305,Uninho do povo,1,0.001632,CORRECT
+4306,Torresmo e as bombas da Shopee,2,0.004225,WRONG_ANSWER
+4307,Caminhada estratégica,1,0.002604,WRONG_ANSWER
+4308,Sistema do Detran,2,0.001821,WRONG_ANSWER
+4309,Alfabeto,1,0.002011,CORRECT
+4310,Primos de Alice,1,0.001947,CORRECT
+4311,Multiplicadora de Matriz,1,0.002574,PRESENTATION_ERROR
+4312,Índice de plágio,1,-1.0,COMPILATION_ERROR
+4313,As senhas de Neg,1,0.005339,WRONG_ANSWER
+4314,faísca e fumaça,2,0.004563,WRONG_ANSWER
+4315,inverta a ordem,1,0.002174,PRESENTATION_ERROR
+4316,inverta a ordem de um número de n digitos,3,0.002066,CORRECT
+4317,Sorteio de CDs,2,-1.0,COMPILATION_ERROR
+4318,Lulu está Adotando!,1,0.002373,CORRECT
+4320,Lulupalooza 2.0,1,-1.0,COMPILATION_ERROR
+4325,Teclado,3,0.001968,WRONG_ANSWER
+4327,A Fuga (parte 2),1,0.341927,CORRECT
+4355,MMC de n números,3,0.001568,CORRECT
+4356,Fatores primos,2,0.002385,CORRECT
+4359,Biblioteca,1,0.002128,CORRECT
+4360,É uma nota válida?,1,0.00234,CORRECT
+4362,Restaurante a beira mar,1,0.001633,WRONG_ANSWER
+4367,Print(input()),1,0.00152,CORRECT
+4376,Árvore de Natal,3,0.002104,CORRECT
+4377,Figuras,3,0.001824,WRONG_ANSWER
+4385,Ônibus,1,0.002182,CORRECT
+4386,Lanche na Maratona,1,0.003644,CORRECT
+4387,Planetas,1,0.002306,CORRECT
+4388,Emplacamento,1,0.001955,WRONG_ANSWER
+4411,Problema Teste,1,0.002305,CORRECT
+4413,nunca duvide de uma swiftie.,2,-1.0,COMPILATION_ERROR
+4415,Octante mais proximo,1,0.002241,WRONG_ANSWER
+4416,Xupenio Transportes,1,0.001865,WRONG_ANSWER
+4417,Menino epilef - uma ficção sobre o trabalho,1,0.002052,WRONG_ANSWER
+4418,AAAAAAAAAAerro,1,0.001696,WRONG_ANSWER
+4419,Bebeka e o Mapa para Casa,1,0.001757,WRONG_ANSWER
+4420,Ingressos do Lulupalooza,2,-1.0,COMPILATION_ERROR
+4421,Apenas um código,1,0.001691,CORRECT
+4422,A Viagem Dos Gêmeos,1,0.002033,WRONG_ANSWER
+4423,Noites de Vinhos,2,0.001475,CORRECT
+4424,Prezete no paraíso dos hamsters,1,0.001435,TIME_LIMIT_EXCEEDED
+4425,O menino Epilef e mais um emulador,1,0.002695,WRONG_ANSWER
+4426,Aposta duvidosa,2,0.001639,CORRECT
+4427,Estatistica das notas,1,0.001868,WRONG_ANSWER
+4428,Homem Sino e Ford,2,0.001922,WRONG_ANSWER
+4429,RPG da Mia,1,0.001901,WRONG_ANSWER
+4430,Alice no País das Maravilhas,2,0.00178,CORRECT
+4431,Gabigol e o óleo de Dendê,2,0.002336,WRONG_ANSWER
+4432,Binários no Lulupalooza,2,-1.0,RUNTIME_ERROR
+4433,Ajude a CBF,2,0.006147,CORRECT
+4434,Estoque da Epilef,2,0.005923,WRONG_ANSWER
+4435,Sapo no Parque,2,0.001678,WRONG_ANSWER
+4436,Compras para o Lulupalooza,1,0.001959,WRONG_ANSWER
+4437,Envoltória Convexa por Força Bruta,1,0.002407,CORRECT
+4438,Celebridade por força bruta,1,0.001388,CORRECT
+4534,Inversões,2,0.011908,CORRECT
+4535,Mergesort bottom up,2,0.001454,CORRECT
+4541,Interseção de Intervalos,2,0.001531,WRONG_ANSWER
+4543,Posicionamento de números,1,0.001392,CORRECT
+4545,Igual à soma de dois elementos,3,0.001425,CORRECT
+4546,Ordena vértices de polígono convexo,2,0.001773,WRONG_ANSWER
+4547,Valor total conta de energia,1,0.001464,WRONG_ANSWER
+4548,Status da impressão,1,0.001347,CORRECT
+4549,Administradora de cartão,1,0.001612,CORRECT
+4551,Contagem do insertion sort,1,0.001396,CORRECT
+4552,I-ésimo Maior,1,0.001957,CORRECT
+4553,"Média, Mediana e Moda",1,0.001988,WRONG_ANSWER
+4565,figurinha repetida,1,0.00164,WRONG_ANSWER
+4566,Vozes de Apspsps,1,0.001925,CORRECT
+4567,Multi multi,1,0.001552,PRESENTATION_ERROR
+4568,Operações com matrizes!,1,-1.0,COMPILATION_ERROR
+4569,Academia do Saulinho Bigode,2,0.013768,CORRECT
+4570,Sapo apoS,2,0.001442,WRONG_ANSWER
+4579,A melhor sala,2,0.001556,CORRECT
+4583,Terror na última volta,2,0.002063,WRONG_ANSWER
+4594,operações em conta,1,0.001503,CORRECT
+4603,Desempenho do insertion sort,1,0.00148,WRONG_ANSWER
+4623,Q5 - Alunos em recuperação,1,0.002028,WRONG_ANSWER
+4624,Q1 - Preço na semana,1,0.001525,CORRECT
+4625,Q2 - Quantas vezes x apareceu?,1,0.001441,CORRECT
+4626,Q7 - Computadores Defeituosos,1,0.002018,WRONG_ANSWER
+4627,Cálculo da Sequência de Fibonacci,1,0.001781,TIME_LIMIT_EXCEEDED
+4628,UPA,1,0.477344,TIME_LIMIT_EXCEEDED
+4629,Q6 - Quem é o maior?,1,0.001614,CORRECT
+4630,"Q4 - Fora, repetidos!",1,0.001976,WRONG_ANSWER
+4631,"Q9 - Fora, repetidos! v2",1,0.001918,CORRECT
+4632,Q8 - Último da fila,1,0.002068,CORRECT
+4633,P1 - Média das idades,1,0.001823,WRONG_ANSWER
+4634,P2 - Média de alunos,1,-1.0,COMPILATION_ERROR
+4635,Cifra de César - Criptografia,1,0.001497,WRONG_ANSWER
+4637,Soma - Inteiros em linha,1,0.001497,CORRECT
+4638,Senhas - Validador de Senhas,1,0.002838,CORRECT
+4640,Monitoria especial,2,0.001528,PRESENTATION_ERROR
+4641,Somador de horas,1,0.001491,CORRECT
+4643,Força de uma palavra,1,0.001398,CORRECT
+4645,Q01 - Quantas letras há na frase,1,0.001947,WRONG_ANSWER
+4646,Q04 - Frase boa,1,0.001443,CORRECT
+4647,Q02 - Palavra existe na frase?,1,0.002081,WRONG_ANSWER
+4648,Q08 - Poema de uma letra só,1,0.001692,CORRECT
+4649,Q03 - Primeira Posição na Frase,1,0.002123,WRONG_ANSWER
+4650,Q12 - Manipulando Verbos,1,0.001567,CORRECT
+4651,Q05 - Nomes errados,1,0.001982,WRONG_ANSWER
+4652,Q06 - Removendo espaços,1,0.001363,CORRECT
+4653,Q07 - Colocando vírgulas,1,0.002033,WRONG_ANSWER
+4654,Q09 - Números Invasores,1,0.002067,CORRECT
+4655,Q10 - Ajude os Números a Invadir,1,0.001636,WRONG_ANSWER
+4656,Q11 - Palavras cruzadas,1,0.001979,CORRECT
+4663,Descanso de Leafar,2,0.002024,WRONG_ANSWER
+4664,Boxes of Good Good,2,0.002824,CORRECT
+4668,Davi e a maratona de inverno,5,0.002037,WRONG_ANSWER
+4669,Epilef e a SpaceY,3,-1.0,COMPILATION_ERROR
+4670,A busca por vaga,2,-1.0,COMPILATION_ERROR
+4671,Compromisso com a verdade,2,0.001777,WRONG_ANSWER
+4672,Registrando os Alunos,2,0.001776,CORRECT
+4676,Gerenciador de fila,3,0.001588,CORRECT
+4677,Números de Armstrong,1,0.001992,WRONG_ANSWER
+4678,A escolha de Poatan,1,0.002233,CORRECT
+4679,Adicionando valores,2,0.00199,WRONG_ANSWER
+4680,A enrascada do papai noel,1,0.002016,WRONG_ANSWER
+4681,Dominó IV,2,-1.0,RUNTIME_ERROR
+4682,Cadastro de Alunos,3,-1.0,COMPILATION_ERROR
+4683,Projeção de Polita,2,0.00206,WRONG_ANSWER
+4684,Redenção de Polita,1,-1.0,COMPILATION_ERROR
+4685,Lista de Tarefas organizada,2,0.001456,WRONG_ANSWER
+4686,Fila de números,2,0.002023,CORRECT
+4687,Pilha de números,2,0.002074,PRESENTATION_ERROR
+4688,Busca de números,3,0.002043,WRONG_ANSWER
+4689,Bubble Sort Passo a passo,2,0.003812,WRONG_ANSWER
+4690,Insertion sort passo a passo,2,0.001856,WRONG_ANSWER
+4692,Selection Sort passo a passo,2,0.001981,CORRECT
+4693,Merge Sort Passo a Passo,3,0.00148,WRONG_ANSWER
+4694,Levantando fundos para o Lulupalloza,3,0.001774,WRONG_ANSWER
+4695,Quick sorte passo a passo,3,0.001825,WRONG_ANSWER
+4697,Q01 - Soma de dois numeros,1,0.001572,CORRECT
+4698,Q02 - Soma de dois numeros V2,1,0.001906,CORRECT
+4699,Q03 - Maior entre dois numeros,1,0.00201,WRONG_ANSWER
+4700,Q04 - Maior entre dois numeros V2,1,0.001483,CORRECT
+4701,Q06 - Contando palavras na frase,1,0.001539,WRONG_ANSWER
+4702,Q05 - Par ou Ímpar,1,0.001423,CORRECT
+4703,Q07 - Contagem de Vogais em uma Palavra,1,0.001411,CORRECT
+4704,Q08 - Inversão de Strings,1,0.001732,WRONG_ANSWER
+4705,Q09 - É um palíndromo?,1,0.0016,CORRECT
+4706,Q10 - Odenação de Lista de números,1,0.002095,CORRECT
+4707,Q01 - Exibição de Boas Vindas,1,0.002014,CORRECT
+4708,Q02 - Amado e eterno professor,1,0.001391,CORRECT
+4709,Q03 - Tabuada de um Número,1,0.001895,CORRECT
+4710,Q04 - Média de Três Notas,1,0.001544,CORRECT
+4711,Q05 - Conversão de Moeda,1,0.004767,WRONG_ANSWER
+4712,Q06 - Operações entre dois números,1,0.001552,WRONG_ANSWER
+4713,Q07 - É ano Bissexto?,1,0.001951,CORRECT
+4714,Q08 - Desenhe o retângulo,1,0.001463,CORRECT
+4715,Q09 - Exibição de Sequência Aritmética,1,0.001378,CORRECT
+4716,Q10 - Pirâmide Numérica,1,0.001585,CORRECT
+4718,Funções 1 - Subtração,1,0.001515,CORRECT
+4719,Listas 1 - Lista de Cores,1,0.001875,CORRECT
+4721,Funções 3 - Somar Lista,1,0.001463,CORRECT
+4722,Funções 2 - Quadrado do número,1,0.001421,CORRECT
+4723,Listas 2 - Lista de Mercado,1,0.001462,CORRECT
+4724,Tuplas 1 - Tupla de Frutas,1,0.001499,CORRECT
+4726,Condicionais - Par ou Ímpar?,1,0.001403,CORRECT
+4727,GAME OF THE ANIMAL,2,-1.0,COMPILATION_ERROR
+4728,Invertor de frases,1,0.001937,CORRECT
+4729,BALL BLASTERS 2.0,1,0.001603,WRONG_ANSWER
+4733,Converta as Expressões,2,0.001426,WRONG_ANSWER
+4734,Conversor de expressões,2,0.002044,CORRECT
+4735,Vamos fazer um minHeapSort,3,0.001847,WRONG_ANSWER
+4739,Fila de materias com pilhas de atividades,3,-1.0,COMPILATION_ERROR
+4740,Sequencial_1,1,0.001436,WRONG_ANSWER
+4741,Sequencial_2,1,0.001482,CORRECT
+4742,Sequencial_3,1,0.002,CORRECT
+4743,Celsius para Fahrenheit,1,0.001437,CORRECT
+4744,Fábrica CG-cola,1,0.001785,WRONG_ANSWER
+4745,Ordenando Funcionários,2,0.00201,WRONG_ANSWER
+4749,Nota esquecida,1,0.00165,CORRECT
+4750,Duplas de tênis,1,0.001702,CORRECT
+4751,Competição,1,0.001504,CORRECT
+4752,Área - OPI 2024,1,0.002075,CORRECT
+4760,Gangorra,1,0.001849,WRONG_ANSWER
+4761,Sequência de figuras,1,0.001445,WRONG_ANSWER
+4763,O verdadeiro maior campeão de Pernambuco,1,0.00145,WRONG_ANSWER
+4764,Missão de Cabeça & Papa: O Furto da Coca Café,1,0.001982,CORRECT
+4766,Soma de números positivos,1,0.001829,CORRECT
+4767,Um típico domingo,1,0.001822,WRONG_ANSWER
+4771,Astolfo e seu amigo esquisito,1,0.001997,WRONG_ANSWER
+4772,Ayrinho caracteres,2,0.001645,WRONG_ANSWER
+4773,Monstros Energia,2,0.001802,WRONG_ANSWER
+4774,1 contra todos,2,0.001868,WRONG_ANSWER
+4775,Azeik palavras,2,0.001705,WRONG_ANSWER
+4776,Promoção de energético,2,0.002029,WRONG_ANSWER
+4777,Rodrigo e os carros,3,-1.0,COMPILATION_ERROR
+4782,Duracell,2,0.001637,CORRECT
+4784,Decifrando senhas,2,0.002098,CORRECT
+4787,Pokefusão,3,0.001511,CORRECT
+4788,Evento de Tilou,2,0.00181,WRONG_ANSWER
+4789,Petris,3,0.005289,WRONG_ANSWER
+4790,Beiju Text,1,0.002279,CORRECT
+4793,Matemática 2: O retorno,1,0.002209,WRONG_ANSWER
+4794,Corrida de Sorvetes da Sanrio,1,0.004245,CORRECT
+4795,Trêsberto e a média mais média já medida,1,0.002072,CORRECT
+4797,"Tipos, tipos e mais tipos",1,0.002042,CORRECT
+4801,Explorando a Math.h,1,0.001917,CORRECT

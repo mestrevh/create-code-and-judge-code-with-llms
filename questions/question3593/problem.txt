@@ -1,0 +1,5 @@
+Título: Quantidade de dias do mês
+Topicos do problema: decisão; 
+Descrição: <p class="subHead" style="color: rgb(0, 0, 0);background-color: rgb(241, 241, 241);">Escreva um programa em C que leia o valor do mês e imprima o total de dias deste mês.</p><p class="subHead" style="color: rgb(0, 0, 0);background-color: rgb(241, 241, 241);"><br/></p>
+Formato da entrada: <p>Mês - de 1 a 12</p>
+Formato da saída: <p>Numero de dias do mes: X </p><p><span>- onde X é a quantidade de dias do mês. </span><br/></p><p><span><br/></span></p><p><span>ou </span></p><p><span><br/></span></p><p><span>Voce entrou com um mes invalido!</span></p><p><span>- para um valor de mês diferente de 1 - 12</span></p>

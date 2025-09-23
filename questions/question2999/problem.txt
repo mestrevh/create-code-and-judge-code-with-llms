@@ -1,0 +1,5 @@
+Título: Média de 2 Notas
+Topicos do problema: multiplas entradas; 
+Descrição: <p>Faça um programa para calcular a média aritmética entre duas notas de um aluno. Apresente o resultado com duas casas decimais.<br/></p>
+Formato da entrada: <p></p>O arquivo de entrada contém dois valores: um valor real X representando representando a 1a nota e um valor real Y representando a 2a nota.<p></p>
+Formato da saída: <p>Apresente o valor que representa média das duas notas com 2 casas após a vírgula.</p>

@@ -1,0 +1,5 @@
+Título: Média de n números
+Topicos do problema: ponto flutuante; multiplas entradas; array; 
+Descrição: <p>Fa&ccedil;a um programa que calcule a m&eacute;dia, o desvio padr&atilde;o e a quantidade de n&uacute;meros maiores que&nbsp;a m&eacute;dia de n n&uacute;meros reais dados. O n&uacute;mero m&aacute;ximo de n&uacute;meros dados &eacute; 10000.</p>
+Formato da entrada: <p>Uma sequ&ecirc;ncia de n, onde n&lt;=10000, n&uacute;meros reais separados por um final de linha. A entrada&nbsp;se encerra quando o n&uacute;mero lido for -1</p>
+Formato da saída: <p>A m&eacute;dia formatada com duas casas decimais.<br />O desvio padr&atilde;o formatado com duas casas decimais<br />Um inteiro indicando a quantidade de notas maiores que a m&eacute;dia.<br />Cada um dos tr&ecirc;s n&uacute;meros acimas deve ser seguido de um final de linha.</p>

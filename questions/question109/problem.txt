@@ -1,0 +1,7 @@
+Título: Histograma 03
+Topicos do problema: multiplas entradas; formatação; 
+Descrição: <p>Neste exerc&iacute;cio deve ser gerado um histograma representado por asteriscos.</p>
+<p>Dever&aacute; ser computada a frequ&ecirc;ncia de valores em 10 intervalos regulares. Esta frequ&ecirc;ncia ser&aacute; usada para calcular o tamanho da barra de cada intervalo no histograma, cujo tamanho m&aacute;ximo ser&aacute; de 20 asteriscos, correspondente ao intervalo com maior n&uacute;meros de ocorr&ecirc;ncias. Os tamanhos das demais barras ser&atilde;o calculados proporcionalmente com truncamento.</p>
+<p>Todos os intervalos, com excess&atilde;o do primeiro, ser&atilde;o abertos no limite inferior e fechados no limite superior. O primeiro intervalo, [0.0, 1.0], ser&aacute; fechado nos dois limites.</p>
+Formato da entrada: <p>Um n&uacute;mero correspondente &agrave; quantidade de valores com uma casa decimal entre 0.0 e 10.0 que seguir&atilde;o.</p>
+Formato da saída: <p>Cada intervalo ser&aacute; representado por uma barra de asteriscos horizontal representando a frequ&ecirc;ncia de valores no mesmo. O histograma ser&aacute; delimitado por eixos formados pelos caracteres '^', '|', '+' e '&gt;'. No eixo vertical dever&atilde;o ser numerados os intervalos 0, 5 e 10 (at&eacute; 4 posi&ccedil;&otilde;es) e no eixo horizontal as posi&ccedil;&otilde;es correspondentes ao zero, um quarto, um meio, tr&ecirc;s quartos e uma vez a frequ&ecirc;ncia m&aacute;xima.</p>

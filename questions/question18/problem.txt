@@ -1,0 +1,5 @@
+Título: Menor de 3
+Topicos do problema: decisão; ordenação; 
+Descrição: <p>Fa&ccedil;a um programa que leia 3 n&uacute;meros inteiros e imprima o menor deles.</p>
+Formato da entrada: <p>03 n&uacute;meros inteiros separados por um final de linha.</p>
+Formato da saída: <p>O menor dos n&uacute;meros digitados.</p>

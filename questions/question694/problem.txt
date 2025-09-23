@@ -1,0 +1,5 @@
+Título: O dobro do maior
+Topicos do problema: ponto flutuante; decisão; 
+Descrição: <p>Escreva um programa que receba dois números reais e imprima o dobro do maior dos números recebidos.</p><p>Para responder essa questão, procure fazer uma função que recebe os dois números reais e retorna o dobro do maior entre eles.</p><p><br/></p>
+Formato da entrada: <p>Dois números reais separados por um final de linha.</p>
+Formato da saída: <p>Um número real formatado com 2 casas decimais.</p>

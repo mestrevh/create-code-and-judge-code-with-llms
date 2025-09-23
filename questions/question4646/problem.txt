@@ -1,0 +1,5 @@
+Título: Q04 - Frase boa
+Topicos do problema: string; 
+Descrição: <p>Eduardo gosta de conversar com seus amigos na internet, entretanto, ele só gosta de mandar mensagens que tenham quantidades pares de palavras (Ex.: &#34;Bom dia&#34; -&gt; 2 palavras). Faça um programa que veja a quantidade de palavras e diga se é uma mensagem boa para Eduardo ou não.</p>
+Formato da entrada: <p>Uma string com no mínimo um caractere.</p>
+Formato da saída: <p>&#34;SIM&#34;, caso seja uma mensagem boa ou &#34;NÃO&#34;, caso seja uma mensagem ruim.</p>

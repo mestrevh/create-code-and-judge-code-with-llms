@@ -1,0 +1,5 @@
+Título: Eleitor
+Topicos do problema: decisão; 
+Descrição: <p>Faça um programa que leia a idade (valor inteiro) de uma pessoa e informe sua classe eleitoral:</p><ul><li>nao eleitor (abaixo de 16 anos)</li><li>eleitor obrigatorio (maior ou igual a 18 e menor ou igual a 65 anos)</li><li>eleitor facultativo (entre 16 e 18 anos (18 não incluso) ou acima dos 65 anos)</li></ul>
+Formato da entrada: <p>Consiste de um n&uacute;mero inteiro indicando a idade da pessoa.</p>
+Formato da saída: <p>Uma linha escrita como:</p>&#13;<p>&#34;nao eleitor&#34;, &#34;eleitor obrigatorio&#34; ou &#34;eleitor facultativo&#34; (sem as aspas) de acordo com o critério da descrição.</p>

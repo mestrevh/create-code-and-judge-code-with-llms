@@ -1,0 +1,5 @@
+Título: As horas de Danerd Ramanujan
+Topicos do problema: datas/horas; decisão; entrada formatada; 
+Descrição: <p>Danerd Ramanujan, apesar de ser muito bom em cálculo diferencial e integral, possui grande dificuldades em realizar operações simples, como calcular o horário de suas aulas. Ajude Danerd criando para ele uma calculadora de horário.</p><p>Seu programa deverá obter como entrada um horário inicial no formato HORA:MINUTO e a quantidade de minutos que deverão ser somados ao horário inicial.</p><p>Imprima na tela o resultado dessa soma no formato HORA:MINUTO<br/></p>
+Formato da entrada: <p>Horário incial no formato HH:MM</p><p>Quantidade de minutos a ser somada</p>
+Formato da saída: <p>Horário final no formato HH:MM</p>

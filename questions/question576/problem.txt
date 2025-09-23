@@ -1,0 +1,20 @@
+Título: Colorindo em duas cores
+Topicos do problema: grafo bipartido; 
+Descrição: <p>Em 1976 o "Teorema do mapa de quatro cores" foi provado com o aux&iacute;lio de um computador. Esse teorema diz que todo mapa pode ser coloerido usando apenas 4 cores de ta forma que nenhuma regi&atilde;o colorida usa a mesma cor que uma regi&atilde;o vizinha.</p>
+<p>Nesse problema, voc&ecirc; deve resolver uma vers&atilde;o simplificada. Voc&ecirc; tem que decidir se um grafo conectado pode ser pintado com duas cores. Isto &eacute;, se &eacute; poss&iacute;vel atribuir cores (somente duas) para os n&oacute;s de tal forma que nenhum n&oacute; adjacente tenha a mesma cor. Para simplificar o problema voc&ecirc; deve assumir:</p>
+<ul>
+<li>nenhum n&oacute; conter&aacute; uma aresta para si pr&oacute;prio;</li>
+<li>o grafo &eacute; n&atilde;o direcionado.</li>
+<li>o grafo &eacute; fortemente conectado. Ou seja, existe sempre um caminho de qualquer n&oacute; para qualquer n&oacute;<br /></li>
+</ul>
+Formato da entrada: <p>A entrada consiste de v&aacute;rios casos de teste.</p>
+<p>Cada caso de teste inicia com uma linha contendo um n&uacute;mero n (1&lt;n&lt;200) indicando a quantidade de n&oacute;s.</p>
+<p>A segunda linha cont&ccedil;em o n&uacute;mero de arestas "e". Depois disso, "e" linhas ser&atilde;o daddas, cada uma contendo 2 n&uacute;meros que indicam uma aresta entre os n&oacute;s que eles representam.</p>
+<p>Cada n&oacute; &eacute; representado por um n&uacute;mero a ( 0 &lt;= a&lt; n).</p>
+<p>A entrada termina quando n=0. Essa entrada n&atilde;o deve ser processada.</p>
+Formato da saída: <p>Voc&ecirc; deve decidir se o grafo pode ser pintado com as duas cores satisfazendo as condi&ccedil;&otilde;es. Caso seja poss&iacute;vel, voc&ecirc; deve imprimir:</p>
+<p>BICOLORABLE.</p>
+<p>Caso n&atilde;o seja poss&iacute;vel:</p>
+<p>NOT BICOLORABLE.</p>
+<p>&nbsp;</p>
+<p>obs: n&atilde;o esque&ccedil;a o ponto final.</p>

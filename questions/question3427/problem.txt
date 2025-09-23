@@ -1,0 +1,5 @@
+Título: Produto dos elementos da diagonal principal
+Topicos do problema: repetição; array bidimensional; 
+Descrição: <pre>Fazer um programa que leia os elementos de uma matriz inteira n x n e escreva o produto dos elementos da diagonal principal.<br/></pre>
+Formato da entrada: <pre>Um número inteiro na primeira linha correspondente à ordem da matriz.</pre><pre>n * n números reais em coluna correspondentes aos elementos da matriz, seguindo a ordem: linha 1 da matriz, linha 2 da matriz, ..., linha n da matriz.</pre>
+Formato da saída: <pre>Número real correspondente ao produto calculado.</pre>

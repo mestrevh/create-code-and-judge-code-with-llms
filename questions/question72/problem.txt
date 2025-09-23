@@ -1,0 +1,5 @@
+Título: Inverso
+Topicos do problema: array; repetição; 
+Descrição: <p>Seu programa deve receber um vetor de N valores inteiros e imprimir na ordem inversa.</p>
+Formato da entrada: <p>Na primeira linha de entrada o programa recebe um valor inteiro N de entrada. A segunda linha cont&eacute;m N inteiros separados por espa&ccedil;o contendo os valores do array.</p>
+Formato da saída: <p>Uma linha contendo os n&uacute;meros do vetor em ordem invertida separados por espa&ccedil;os em branco, seguida de um final de linha.<br />Depois do &uacute;ltimo n&uacute;mero, n&atilde;o deve existir um espa&ccedil;o em branco.</p>

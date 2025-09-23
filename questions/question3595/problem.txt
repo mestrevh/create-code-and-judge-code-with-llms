@@ -1,0 +1,5 @@
+Título: Senha
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p>Uma senha de acesso a um programa  deve ser definida por 4 algarismos, todos diferentes de zero. Elabore um programa que recebe um valor inteiro e verifica se este número pode ou não ser uma senha.&#13;<br/></p>
+Formato da entrada: <p>9999</p>
+Formato da saída: <p>Pode</p>

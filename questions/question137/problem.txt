@@ -1,0 +1,20 @@
+Título: Desvio de Rua
+Topicos do problema: grafo; maratona; 
+Descrição: <p>A prefeitura de uma grande cidade da Nlog&ocirc;nia iniciou um programa de recupera&ccedil;&atilde;o do asfalto de suas ruas. Na Nlog&ocirc;nia, cada rua liga diretamente dois cruzamentos, e pode ter m&atilde;o &uacute;nica ou m&atilde;o dupla. Por determina&ccedil;&atilde;o de um antigo decreto real, sempre existe ao menos um caminho entre dois pontos quaisquer da cidade.<br />No programa de recupera&ccedil;&atilde;o, uma &uacute;nica rua ser&aacute; recuperada por vez, e para isso a rua ser&aacute; fechada para o tr&aacute;fego. Esse fechamento pode causar caos no tr&acirc;nsito local ao violar o decreto real, impedindo v&aacute;rios cidad&atilde;os de voltarem para casa dos seus trabalhos e vice-versa.<br />A prefeitura pode converter algumas das ruas de m&atilde;o &uacute;nica em m&atilde;o dupla, mas prefere evit&aacute;-lo pois ruas de m&atilde;o dupla tendem a causar acidentes mais graves; a prefeitura prefere criar desvios apenas invertendo as m&atilde;os das ruas de m&atilde;o &uacute;nica j&aacute; existentes.<br />O Rei da Nlog&ocirc;nia solicitou seus pr&eacute;stimos para escrever um programa que, dada a descri&ccedil;&atilde;o das ruas de uma cidade, determine se, quando uma dada rua &eacute; interditada para recupera&ccedil;&atilde;o, continua existindo um caminho entre entre quaisquer dois pontos da cidade, mesmo que seja necess&aacute;rio alterar as m&atilde;os de dire&ccedil;&atilde;o de outras ruas.</p>
+Formato da entrada: <p>A entrada &eacute; composta por diversos casos de teste. A primeira linha de um caso de teste cont&eacute;m dois inteiros N e M, representando respectivamente o n&uacute;mero de cruzamentos e o n&uacute;mero de ruas da cidade. Os cruzamentos s&atilde;o identificados por inteiros de 1 a N e as ruas s&atilde;o identificadas por n&uacute;meros inteiros de 1 a M. Cada uma das M linhas seguintes descreve uma rua e cont&eacute;m<br />tr&ecirc;s inteiros A, B e T, onde A e B s&atilde;o os cruzamentos que a rua liga diretamente, e T indica a m&atilde;o de dire&ccedil;&atilde;o da rua: se T = 1 a rua tem m&atilde;o &uacute;nica na dire&ccedil;&atilde;o de A para B; se T = 2, a rua tem m&atilde;o dupla. A primeira rua descrita ser&aacute; interditada para recupera&ccedil;&atilde;o.</p>
+<p>&nbsp;</p>
+<p>A entrada termina quando N e M s&atilde;o iguais a -1</p>
+Formato da saída: <p>Para cada caso de teste seu programa deve imprimir uma linha contendo um caractere que descreve o que a prefeitura deve fazer para respeitar o decreto real ap&oacute;s o fechamento da rua para reformas:</p>
+<ul>
+<li>'-': n&atilde;o &eacute; necess&aacute;rio qualquer tipo de altera&ccedil;&atilde;o nas outras ruas.</li>
+<li>'*': &eacute; imposs&iacute;vel respeitar o decreto real, independente de quaisquer mudan&ccedil;as nas outras ruas.</li>
+<li>'1': &eacute; poss&iacute;vel cumprir o decreto real apenas invertendo as m&atilde;os de algumas das ruas de m&atilde;o &uacute;nica.</li>
+<li>'2': &eacute; poss&iacute;vel cumprir o decreto real, mas &eacute; necess&aacute;rio converter algumas ruas de m&atilde;o &uacute;nica para m&atilde;o dupla.</li>
+</ul>
+<p>Suponha:</p>
+<p>1 &lt;= N &lt;= 1000</p>
+<p>1 &lt;= M &lt;= 100000</p>
+<p>1 &lt;= A</p>
+<p>B &lt;= N</p>
+<p>T pertence a {1,2}</p>
+<p>&nbsp;</p>

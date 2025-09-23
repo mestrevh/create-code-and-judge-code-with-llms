@@ -1,0 +1,5 @@
+Título: Par e ímpar - lista
+Topicos do problema: estrutura de dados; array; decisão; ordenação; 
+Descrição: <p>Dada uma lista com nomes de pessoas de tamanho N e um número identificador G, ordene a lista de modo que todas as pessoas com identificador <b>par</b> sejam mostradas primeiro, seguidas das pessoas com identificador <b>ímpar</b>.</p><p>A primeira linha será formada por um inteiro N. As N linhas seguintes receberão o nome da pessoa seguido de um espaço e o seu número G. Sabe-se que os nomes serão escritos em minúsculo, sem espaços e sem acentos.</p><p>A saída será formada por N nomes ordenados de acordo com o critério acima.</p><p>( 1 &lt;= N &lt;= 100)</p><p>( 1 &lt;= G &lt;= 9 )</p>
+Formato da entrada: <h6>10</h6><h6>ana 1</h6><h6>pedro 6</h6><h6>carol 4</h6><h6>maria 3</h6><h6>joao 2</h6><h6>bia 3</h6><h6>felipe 7</h6><h6>mateus 8</h6><h6>helena 9</h6><h6>marcos 2</h6>
+Formato da saída: <p>pedro</p><p>carol</p><p>joao</p><p>mateus</p><p>marcos</p><p><br/></p><p>ana</p><p>maria</p><p>bia</p><p>felipe</p><p>helena</p>

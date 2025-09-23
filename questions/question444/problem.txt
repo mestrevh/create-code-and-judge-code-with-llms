@@ -1,0 +1,6 @@
+Título: Comprando medicamentos
+Topicos do problema: 
+Descrição: <p>Heriberto tem um problema cr&ocirc;nico de est&ocirc;mago e precisa tomar medicamentos todos os dias. O m&eacute;dico receitou dois comprimidos no caf&eacute; da manh&atilde; e mais dois no jantar.</p>
+<p>Sabendo que cada caixa vem com 35 comprimidos, escreva um programa que receba como entrada a quantidade de caixas compradas por ele e exiba quantos dias seu estoque vai durar, e quantos comprimidos sobrar&atilde;o ap&oacute;s esses dias.</p>
+Formato da entrada: <p>Um n&uacute;mero inteiro</p>
+Formato da saída: <p>Dois valores inteiros, sendo o primeiro a quantidade de dias, e o segundo a quantidade de comprimidos que sobraram.<br />Os valores devem ser separados por uma quebra de linha (use dois prints)</p>

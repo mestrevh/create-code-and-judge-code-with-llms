@@ -1,0 +1,5 @@
+Título: Distância entre amigos
+Topicos do problema: obi; 
+Descrição: <p><img src="https://www.thehuxley.com/api/v1/problems/image/c857e61239ee34672fd9f9a0ef1080269a52a5b11.PNG"/><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/5dc33142cd9dc9bc7c936c2bcadf9d798b5fa2bd2.PNG"/><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/9a4bc2366494e01e85c65b5524860be3520e3e9d3.PNG"/><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/e20b442465d06a6787efd5d44cef9f1735b1ec9e4.PNG"/><br/></p>
+Formato da entrada: <p>14</p><p>2 3 1 6 4 3 7 5 6 4 5 3 1 1<br/></p>
+Formato da saída: <p>18</p>

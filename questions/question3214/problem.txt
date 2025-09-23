@@ -1,0 +1,5 @@
+Título: AC2 - Ex. 5
+Topicos do problema: lógica matemática; 
+Descrição: <p>Faça programa que recebe um tempo dado em segundos e calcula quantos dias, horas, minutos e segundos ele representa.<br/></p>
+Formato da entrada: <p>Número total de segundos</p>
+Formato da saída: <p>Número de dias<br/>Número de horas<br/><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Número de minutos<br/></span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Número de segundos</span><br/></p>

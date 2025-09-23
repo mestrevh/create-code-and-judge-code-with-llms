@@ -1,0 +1,7 @@
+Título: Índice de Massa Corpórea
+Topicos do problema: decisão; 
+Descrição: <p class="p1">Crie um programa que calcule o IMC de uma pessoa e classifique a pessoa de acordo com seu IMC:&nbsp;</p>
+<p>&nbsp;</p>
+<p class="p1">Formula: IMC = P/A*A, onde P &eacute; o peso e A &eacute; a altura.</p>
+Formato da entrada: <p>Dois inteiros, um representando o peso (primeiro par&acirc;metro), e o outro a altura (segundo par&acirc;metro).</p>
+Formato da saída: <p>Uma mensagem descrevendo a classificação a partir do resultado do IMC.</p>&#13;<p class="p1">IMC abaixo de 17, a saída deve ser: “muito abaixo do peso”; </p>&#13;<p class="p1">IMC entre 17 e 18,49, a saída deve ser: “abaixo do peso”; </p>&#13;<p class="p1">IMC entre 18,5 e 24,99, a saída deve ser: “peso normal”; </p>&#13;<p class="p1">IMC entre 25 e 29,99, a saída deve ser: “acima do peso”;</p>&#13;<p class="p1">IMC entre 30 e 34,99, a saída deve ser: “obesidade”; </p>&#13;<p class="p1">IMC entre 35 e 39,99, a saída deve ser: “obesidade severa”;</p>&#13;<p class="p1">IMC a partir de 40, a saída deve ser: “obesidade morbida&#34; :  </p>

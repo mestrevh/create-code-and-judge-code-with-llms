@@ -1,0 +1,5 @@
+Título: Gasto de Combustível
+Topicos do problema: lógica matemática; 
+Descrição: <p>Joaozinho quer calcular e mostrar a quantidade de litros de combust&iacute;vel gastos em uma viagem, ao utilizar um autom&oacute;vel que faz 12 KM/L. Para isso, ele gostaria que voc&ecirc; o auxiliasse atrav&eacute;s de um simples programa. Para efetuar o c&aacute;lculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade m&eacute;dia durante a mesma (em km/h). Assim pode-se obter dist&acirc;ncia percorrida e em seguida calcular quantos litros seriam necess&aacute;rios. Mostre o valor com 3 casas decimais ap&oacute;s o ponto.</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m dois inteiros. O primeiro &eacute; o tempo gasto na viagem (em horas) e o segundo &eacute; a velocidade m&eacute;dia durante a mesma (em km/h).</p>
+Formato da saída: <p>Imprima a quantidade de litros necess&aacute;ria para realizar a viagem, com tr&ecirc;s d&iacute;gitos ap&oacute;s o ponto decimal.</p>

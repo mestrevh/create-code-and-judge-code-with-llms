@@ -1,0 +1,5 @@
+Título: Inversion Count (iniciante)
+Topicos do problema: array; repetição; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Seja <b>A</b> um array de inteiros positivos, e <b>i </b>e<b> j </b>posições desse array, é dito que um par (i, j) é inversível caso i &lt; j e A[i] &gt; A[j]. Você deve descobrir quantos pares inversíveis existem em A.</span></p><p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"><br/></span></p><p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Neste problema você não deve se preocupar com a eficiência do algoritmo. <br/></span><span style="color: rgb(0, 0, 0);">Caso queira um desafio maior, procure a questão 2045</span></p>
+Formato da entrada: <p><font color="#000000">Um inteiro <b>N</b> representando o tamanho do array, seguido de <b>N</b> inteiros <b>M </b>contendo seus elementos.<br/></font></p><p><font color="#000000">0 &lt; <b>N</b> &lt; 500<br/>0 &lt;= <b>M</b> &lt; 10^6</font></p><p><font color="#000000"><br/></font></p>
+Formato da saída: <p><font color="#000000">O número de inversões no array.</font></p>

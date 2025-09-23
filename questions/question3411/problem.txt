@@ -1,0 +1,5 @@
+Título: Consumo de combustível por tipo de carro
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <pre>Fazer um programa que leia um percurso em quilômetros, o tipo do carro (A, B ou C) e informe o consumo estimado de combustível, sabendo que o tipo A faz 12 Km com um litro, o tipo B 9 Km e o tipo C, 8 Km por litro. Caso o tipo não seja A, B ou C, escrever 'Tipo inválido!'.<br/></pre>
+Formato da entrada: <pre>Um número real seguido de A, B ou C para identificar o tipo de carro.</pre>
+Formato da saída: <pre>Um número real com 2 casas decimais representando o consumo em litros de combustível, ou 'Tipo inválido!'.</pre>

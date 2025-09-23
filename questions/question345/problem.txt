@@ -1,0 +1,16 @@
+Título: Calculadora Diferente
+Topicos do problema: entrada formatada; 
+Descrição: <p>O pequeno menino Tobias estava brincando em casa e resolveu criar</p>
+<p>opera&ccedil;&otilde;es matem&aacute;ticas diferentes e como ele n&atilde;o sabia como pediu&nbsp;</p>
+<p>a voc&ecirc; para fazer um programa para facilitar a brincadeira dele.</p>
+<p>&nbsp;</p>
+<p>Ele te disse que as opera&ccedil;&otilde;es eram:</p>
+<p>&nbsp;</p>
+<p># onde o resultado de # &eacute; o primeiro elemento elevado ao segundo elemento vezes o segundo elemento elevado ao primeiro.</p>
+<p>@ onde o resultado de @ &eacute; o primeiro elemento elevado ao segundo elemento dividio pelo segundo elemento elevado ao primeiro.</p>
+<p>&amp; onde o resultado de &amp; &eacute; o segundo elemento vezes a raiz do primeiro elemento mais o primeiro elemento &nbsp;vezes a raiz do segundo elemento .</p>
+<p>% onde o resultado de % &eacute; o segundo elemento vezes a raiz do primeiro elemento menos o primeiro elemento vezes a raiz do segundo elemento .</p>
+Formato da entrada: <p>N casos de teste.</p>
+<p>Em cada caso de teste teremos 2 inteiros A e B.</p>
+<p>Separados por um caracter C.(simbolo da opera&ccedil;&atilde;o).</p>
+Formato da saída: <p>O resultado de cada opera&ccedil;&atilde;o(com duas casas decimais) seguido de um final de linha.</p>

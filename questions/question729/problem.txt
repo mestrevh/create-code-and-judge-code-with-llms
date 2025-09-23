@@ -1,0 +1,5 @@
+Título: Correção de Provas Objetivas
+Topicos do problema: 
+Descrição: <p>Escreva um programa para calcular as notas dos alunos em uma prova objetiva. Nesta prova, o gabarito contém a resposta das questões dentre 5 alternativas possíveis: A, B, C, D ou E. Para cada questão correta o aluno ganha um ponto. A resposta de cada um desses alunos pode conter um das alternativas A, B, C, D ou E. A nota mínima é zero e a máxima é igual ao número de questões da prova.<br/></p>
+Formato da entrada: <p>A entrada contém na primeira linha o número de questões, na segunda linha o gabarito, na terceira linha o número de alunos que responderam e em cada uma das linhas seguintes a resposta de um destes alunos.<br/></p>
+Formato da saída: <p>O programa deve imprimir em cada linha a nota (número inteiro) de um aluno.<br/></p>

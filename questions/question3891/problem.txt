@@ -1,0 +1,5 @@
+Título: 3 tipos de média
+Topicos do problema: lógica matemática; 
+Descrição: <div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p>Escreva um programa que recebe 3 notas de prova e calcula:<br/><br/>- A média delas</p><p>- A média ponderada delas, considerando pesos 2, 2 e 3</p><p><span>- A média ponderada delas, considerando pesos 1, 2 e 2</span></p><p><br/></p></div></div>
+Formato da entrada: <p>Nota 1<br style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"/>Nota 2<br style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"/>Nota 3<br/></p>
+Formato da saída: <p>Média<br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/>Média ponderada, considerando pesos 2, 2 e 3<br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/>Média ponderada, considerando pesos 1, 2 e 2<br/></p><p><span><br/></span></p><p><span>obs.: Médias com 2 casas decimais.</span><br/></p>

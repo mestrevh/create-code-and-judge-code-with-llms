@@ -1,0 +1,5 @@
+Título: Professor maluco?
+Topicos do problema: recursão; 
+Descrição: <p>Será que o professor de Programação Imperativa está maluco? Ele disse que é possível ler uma sequência indefinida de números inteiros e os imprimir na ordem invertida em que foram dados na entrada <b>sem usar nenhuma estrutura de dados, incluindo listas ou arrays<i>,</i></b> para armazenar a sequência. Você vai provar que seu professor realmente não é doido definindo uma <b>função recursiva</b> que lê uma sequência de números e os imprime na ordem inversa sem, de fato, usar nenhuma estrutura de dados.</p>
+Formato da entrada: <p>Uma sequência de números inteiros, um em cada linha, terminada com zero.</p>
+Formato da saída: <p>A mesma sequência, com um número por linha, porém na ordem inversa em que aparecem na entrada.</p>

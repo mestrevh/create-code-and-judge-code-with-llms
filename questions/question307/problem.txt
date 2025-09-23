@@ -1,0 +1,5 @@
+Título: Notas e Moedas
+Topicos do problema: lógica matemática; formatação; 
+Descrição: <p>Leia um valor de ponto flutuante com duas casas decimais. Este valor representa um valor monet&aacute;rio. A seguir, calcule o menor n&uacute;mero de notas e moedas poss&iacute;veis no qual o valor pode ser decomposto. As notas consideradas s&atilde;o de 100, 50, 20, 10, 5, 2. As moedas poss&iacute;veis s&atilde;o de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. A seguir mostre a rela&ccedil;&atilde;o de notas necess&aacute;rias.</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m um valor de ponto flutuante N (0 &le; N &le; 1000000.00).</p>
+Formato da saída: <p>Imprima a quantidade m&iacute;nima de notas e moedas necess&aacute;rias para trocar o valor inicial, conforme exemplo fornecido.</p>

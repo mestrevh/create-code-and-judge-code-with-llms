@@ -1,0 +1,5 @@
+Título: Sequencia do Alfabeto
+Topicos do problema: decisão; caractere; 
+Descrição: <p>Você receberá uma sequência de 5 caracteres (todos minúsculos) e deverá informar se eles formam uma sequencia contínua em relação a suas posições no alfabeto. Digamos que as letras sejam (h, j, i, l, k) a resposta seria sim , pois elas formam uma sequência contínua no alfabeto (h, i, j, k, l). Já a sequencia (a, i, j, k, l) não é contínua.<br/></p>
+Formato da entrada: <p>5 caracteres minúsculos do alfabeto(não necessariamente ordenados alfabeticamente), 1 por linha.<br/></p>
+Formato da saída: <p>sim , caso a ordem no alfabeto forme uma sequência contínua.<br/>nao,  caso contrário<br/></p>

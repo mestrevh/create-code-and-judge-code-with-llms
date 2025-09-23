@@ -1,0 +1,5 @@
+Título: Q05 - Par ou Ímpar
+Topicos do problema: lógica matemática; função; 
+Descrição: <p>Crie uma função chamada &#34;par_ou_impar&#34; que recebe um número inteiro e retorna se ele é par ou ímpar.<br/></p>
+Formato da entrada: <p>um número inteiro</p>
+Formato da saída: <p>exiba a mensagem &#34;Par&#34; se o número digitado for par ou &#34;Ímpar&#34; caso contrário</p>

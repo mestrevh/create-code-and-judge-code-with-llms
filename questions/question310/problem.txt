@@ -1,0 +1,9 @@
+Título: Criptografia
+Topicos do problema: array; decisão; caractere; 
+Descrição: <p>Solicitaram para que voc&ecirc; construisse um programa simples de criptografia. Este programa deve possibilitar enviar mensagens codificadas sem que algu&eacute;m consiga l&ecirc;-las. O processo &eacute; muito simples. S&atilde;o feitas tr&ecirc;s passadas em todo o texto.&nbsp;</p>
+<p>&nbsp;</p>
+<p>Na primeira passada, n&uacute;meros e caracteres especiais n&atilde;o devem ser alterados. Cada um dos caracteres restantes deve ser deslocado 3 posi&ccedil;&otilde;es para a direita, segundo a tabela ASCII: letra 'a' deve virar letra 'd', letra 'y' deve virar caractere '|' e assim sucessivamente. Na segunda passada, a linha dever&aacute; ser invertida. Na terceira e &uacute;ltima passada, os caracteres a partir da metade em diante (truncada) devem ser deslocados uma posi&ccedil;&atilde;o para a esquerda na tabela ASCII. Neste caso, 'b' vira 'a' e 'a' vira '`'.</p>
+<p>&nbsp;</p>
+<p>Por exemplo, se a entrada for &ldquo;Texto #3&rdquo;, o primeiro processamento sobre esta entrada dever&aacute; produzir &ldquo;Wh{wr #3&rdquo;. O resultado do segundo processamento inverte os caracteres e produz &ldquo;3# rw{hW&rdquo;. Por &uacute;ltimo, com o deslocamento dos caracteres da metade em diante, o resultado final deve ser &ldquo;3# rvzgV&rdquo;.</p>
+Formato da entrada: <p>A entrada cont&eacute;m v&aacute;rios casos de teste. A primeira linha de cada caso de teste cont&eacute;m um inteiro N (1 &le; N &le; 1*104), indicando a quantidade de linhas que o problema deve tratar. As N linhas cont&eacute;m cada uma delas M (1 &le; M &le; 1*103) caracteres.</p>
+Formato da saída: <p>Para cada entrada, deve-se apresentar a mensagem criptografada.</p>

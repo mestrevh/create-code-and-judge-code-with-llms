@@ -1,0 +1,7 @@
+Título: Quadrado e Cubo
+Topicos do problema: repetição; 
+Descrição: <p><span><span class="hps">Escreva um programa que</span> <span class="hps">l&ecirc;</span> <span class="hps">um inteiro</span> <span class="hps atn">N (</span><span class="atn">1 &lt;</span><span>N</span> <span class="hps">&lt;1000)</span><span>.</span> <span class="hps">Este</span> <span class="hps">N</span> <span class="hps">&eacute; o n&uacute;mero de</span> <span class="hps">linhas de sa&iacute;da</span> <span class="hps">impressos</span> <span class="hps">por este programa.</span></span></p>
+Formato da entrada: <div id="gt-res-content" class="almost_half_cell">
+<div style="zoom: 1;" dir="ltr"><span class="short_text"><span class="hps">O arquivo de entrada</span> <span class="hps">cont&eacute;m um</span> <span class="hps">n&uacute;mero inteiro</span> <span class="hps">N.</span></span></div>
+</div>
+Formato da saída: <p><span class="short_text"><span class="hps">Imprima a</span> <span class="hps">sa&iacute;da de acordo com</span> <span class="hps">o exemplo dado</span><span>.</span></span></p>

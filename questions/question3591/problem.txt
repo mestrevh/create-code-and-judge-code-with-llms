@@ -1,0 +1,5 @@
+Título: Vogal ou Consoante
+Topicos do problema: decisão; 
+Descrição: <p><span>Escreva um programa em C que receba uma letra do alfabeto e imprima uma mensagem indicando se ela é uma vogal ou uma consoante. </span><br/></p><p><span>Informar se a entrada não for nem vogal nem consoante.</span></p>
+Formato da entrada: <p>caractere X</p>
+Formato da saída: <p>A letra X é uma vogal -  se a entrada/variável X for uma vogal</p><p>A letra X é uma consoante  -  se a entrada/variável X for uma consoante<br/></p><p>O caractere X nao eh nem consoante nem vogal - para os outros casos. <br/></p>

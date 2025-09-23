@@ -1,0 +1,138 @@
+Título: aMAZEing!
+Topicos do problema: estrutura de dados; 
+Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;"><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">Consideramos um labirinto de tamanho N como uma grade de NxN células, numeradas em sequência de cima para baixo e da esquerda para a direita de 0 até N-1.
+
+Por exemplo, para N=3, temos:
+
+</span><span style="font-family: 'courier new', courier;"><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">
+         _________________
+</span><span style="font-family: 'courier new', courier;">  |     |     |     |
+  |  0  |  1  |  2  |
+  |     |     |     |
+  |-----+-----+-----|
+  |     |     |     |
+  |  3  |  4  |  5  |
+  |     |     |     |
+  |-----+-----+-----|
+  |     |     |     |
+  |  6  |  7  |  8  |
+  |     |     |     |
+   -----------------</span><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">
+</span></span><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">
+
+Cada célula do labirinto é delimitada por, no máximo, quatro paredes. As paredes interiores são numeradas também da esquerda para direita, de cima para baixo de 0 até 2*(N^2-N)-1.
+
+Por exemplo, para N=3, temos:
+
+
+</span><span style="font-family: 'courier new', courier;">   _________________
+  |     |     |     |
+  |     0     1     |
+  |     |     |     |
+  |--2--+--3--+--4--|
+  |     |     |     |
+  |     5     6     |
+  |     |     |     |
+  |--7--+--8--+--9--|
+  |     |     |     |
+  |     10    11    |
+  |     |     |     |
+   -----------------
+</span><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">
+
+
+Obviamente, num labirinto que se preze, algumas dessas paredes não estão presentes. Por exemplo, um labirinto de tamanho N=7 poderia ser algo como:
+
+</span><span style="font-family: 'courier new', courier;">
+ ___ ___ ___ ___ ___ ___ ___
+|   |       |       |   |   |
+|   |       |       |   |   |
+|   |___ ___|___    |___|   |
+|           |       |   |   |
+|           |       |   |   |
+|___ ___    |___ ___|___|___|
+|   |   |       |       |   |
+|   |   |       |       |   |
+|   |   |    ___|___ ___|___|
+|           |           |   |
+|           |           |   |
+|___ ___ ___|___ ___    |___|
+|   |   |   |       |       |
+|   |   |   |       |       |
+|   |___|___|    ___|___ ___|
+|       |       |   |       |
+|       |       |   |       |
+|___    |    ___|   |___    |
+|   |                   |   |
+|   |                   |   |
+|___|___ ___ ___ ___ ___|___|
+
+</span><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">
+Duas células X e Y de um labirinto são ditas </span><strong style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">conectadas</strong><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;"> quando é possível encontrar um caminho entre elas. Por exemplo, no labirinto acima, as células X=0 e Y=15 são conectadas, conforme ilustra a figura abaixo. Já as células X=0 e Z=48 não são conectadas.
+
+
+</span><span style="font-family: 'courier new', courier;">
+ ___ ___ ___ ___ ___ ___ ___
+|   |       |       |   |   |
+| X |       |       |   |   |
+| * |___ ___|___    |___|   |
+| *         |       |   |   |
+| ********* |       |   |   |
+|___ ___  * |___ ___|___|___|
+|   |   | *     |       |   |
+|   | Y | *     |       |   |
+|   | * | *  ___|___ ___|___|
+|     *   * |           |   |
+|     ***** |           |   |
+|___ ___ ___|___ ___    |___|
+|   |   |   |       |       |
+|   |   |   |       |       |
+|   |___|___|    ___|___ ___|
+|       |       |   |       |
+|       |       |   |       |
+|___    |    ___|   |___    |
+|   |                   |   |
+|   |                   | Z |
+|___|___ ___ ___ ___ ___|___|
+</span><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">
+
+Neste exercício, seu trabalho é determinar se células de labirintos são conectadas.</span></pre>
+Formato da entrada: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">O arquivo de entrada é composto de vários casos, cada caso correspondente a um labirinto.
+
+Cada caso possui a seguinte forma:
+
+N M Q
+W1
+W1
+...
+WM
+A1 B1
+A2 B2
+...
+AQ BQ
+// Linha em branco
+
+onde
+
+N = Tamanho do labirinto
+M = Quantidade de paredes internas removidas
+Wi (i=1,...,M) = Paredes removidas  
+Aj Bj (j=1,...,Q) = Pares de células consultadas 
+
+
+LIMITES:
+1 &lt;= N &lt;= 100
+0 &lt;= M &lt;= 2*(N^2-N)
+1 &lt;= Q &lt;= N^4/2</pre>
+Formato da saída: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Para cada caso no arquivo de entrada (com Q consultas), o programa deve imprimir uma lista 
+
+1.C1
+2.C2
+...
+3.CQ
+// Linha em branco
+
+onde, para cada j=1,...,Q,
+
+Cj=1, se Aj e Bj são conectados no labirinto correspondente ou
+Cj=0, se Aj e Bj não são conectados.</pre>

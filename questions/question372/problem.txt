@@ -1,0 +1,8 @@
+Título: Pagamento Hora Extra
+Topicos do problema: lógica matemática; 
+Descrição: <p><span style="font-size: 13px; font-family: arial,sans,sans-serif; text-align: center;">Sam &eacute; diretor na empresa XYZ e um de seus projetos est&aacute; atrasado. Para conseguir conclu&iacute;-lo no tempo estimado, ele decidiu pagar a cada funcion&aacute;rio 5% de seu sal&aacute;rio por cada hora extra trabalhada. Crie um programa que receba como entrada o sal&aacute;rio de um funcion&aacute;rio e a quantidade de horas extras que ele trabalhou, calcule e exiba o valor total que dever&aacute; ser pago a ele.</span></p>
+Formato da entrada: <p><span style="font-size: 13px; font-family: arial,sans,sans-serif;">Um n&uacute;mero real com duas casas decimais representando o sal&aacute;rio.<br />Um n&uacute;mero inteiro representando as horas extras. </span></p>
+<p><span style="font-size: 13px; font-family: arial,sans,sans-serif;">Dica: n&atilde;o use mensagens no input.<br /></span></p>
+<p>&nbsp;</p>
+Formato da saída: <p><span style="font-size:13px;font-family:arial,sans,sans-serif;">Um n&uacute;mero real com duas casas decimais </span><br /><span style="font-size:13px;font-family:arial,sans,sans-serif;"><br />Dica: N&atilde;o use mensagens no print e lembre-se de formatar o n&uacute;mero. <br />Exemplo: print("%.2f" %variavel) vai exibir a vari&aacute;vel com duas casas decimais.<br /><br /></span></p>
+&nbsp;

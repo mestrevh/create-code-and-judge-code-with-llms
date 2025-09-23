@@ -1,0 +1,11 @@
+Título: 3n +1
+Topicos do problema: decisão; repetição; 
+Descrição: <p>Considere o seguinte algoritmo para gerar uma sequ&ecirc;ncia de n&uacute;meros. Comece com um inteiro n. Se n for par, divida por 2. Se n for &iacute;mpar, multiplique por 3 e some 1. Repita esse processo com o novo valor de n, terminando quando n = 1. Por exemplo, a seguinte sequ&ecirc;ncia de n&uacute;meros ser&aacute; gerada quando n &eacute; 22:</p>
+<p>22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1</p>
+<p>Embora ainda n&atilde;o exista uma prova, os matem&aacute;ticos acreditam que esse algoritmo sempre termina com n=1, para qualquer inteiro n. Bem, para este problema aqui no Huxley, essa propriedade se mant&eacute;m para qualquer inteiro menor que 1.000.000.</p>
+<p>Para uma entrada n, o "tamanho do ciclo" de n &eacute; a quantidade de n&uacute;meros gerados at&eacute; o 1 (incluindo o pr&oacute;prio 1). No exemplo acima, o "tamanho do ciclo" de 22 &eacute; 16.&nbsp;</p>
+<p>Dado dois n&uacute;meros i e j, determine o m&aacute;ximo "tamanho do ciclo" dentre todos os n&uacute;meros entre i e j, incluindo tanto i quanto j.</p>
+Formato da entrada: <p>A entrada consiste de uma s&eacute;rie de pares de inteiros i e j, um par de inteiros por linha. Todos os inteiros ser&atilde;o menores que 1.000.000 e maiores que 0.</p>
+<p>Perceba que a entrada s&oacute; termina quando n&atilde;o houveram mais n&uacute;meros. Descubra como fazer o seu programa funcionar nesse caso. Cada linguagem tem uma forma diferente de ler enquanto ainda houver entrada a ser lida.</p>
+Formato da saída: <p>Para cada par de inteiros i e j, imprima i e j na mesma ordem na qual eles aparecem na entrada e ent&atilde;o imprima o m&aacute;ximo "tamanho de ciclo" encontrado. Esses 3 n&uacute;meros devem ser separados por um espa&ccedil;o, com todos os 3 n&uacute;meros em uma linha e sendo uma linha de sa&iacute;da para cada linha da entrada.</p>
+<p>Veja o arquivo de exemplo para entender melhor o formato da entrada e da sa&iacute;da.</p>

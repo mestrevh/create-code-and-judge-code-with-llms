@@ -1,0 +1,9 @@
+Subarray: -8 4 0 -2 7 1 
+Pivo: 1
+Array: -8 0 -2 1 7 4 
+Subarray: -8 0 -2 
+Pivo: -2
+Array: -8 -2 0 1 7 4 
+Subarray: 7 4 
+Pivo: 4
+Array: -8 -2 0 1 4 7 

@@ -1,0 +1,5 @@
+Título: Um Garoto Ixpertinho
+Topicos do problema: repetição; 
+Descrição: <p>Marsaro é um homem da noite, boemia e os prazeres carnais o dominam. Certo dia Ícaro (enquanto não estava na ufpe) resolveu estimar quantos dias de vida Marsaro ainda tem. Para isso ele pensará em uma quantidade de números N, que ele sorteará aleatoriamente. Esses números devem ser somados para obter-se uma quantidade X de dias restantes, se um número for um primo ímpar ele não deverá ser somado, e sim subtraído.<br/></p><p>Se o resultado for positivo, a resposta esperada será &#34;Ele ainda tem x dias de vida&#34;</p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Se o resultado for negativo, a resposta esperada será &#34;Foi de base</span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">&#34;</span><br/></p><p><br/></p>
+Formato da entrada: <p>4</p><p>8</p><p>8</p><p>8</p><p>3</p>
+Formato da saída: <p>Ele ainda tem 21 dias de vida</p>

@@ -1,0 +1,5 @@
+Título: Distância entre dois pontos
+Topicos do problema: geometria computacional; 
+Descrição: <p>Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcule a dist&acirc;ncia entre eles, mostrando 4 casas decimais ap&oacute;s a v&iacute;rgula.</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m duas linhas de dados. Na primeira linha cont&eacute;m os valores inteiros: x1, y1 e na segunda linha cont&eacute;m os valores inteiros x2, y2.</p>
+Formato da saída: <p>Calcule e imprima o valor da dist&acirc;ncia segundo a f&oacute;rmula fornecida, com 4 casas ap&oacute;s o ponto decimal.</p>

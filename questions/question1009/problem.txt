@@ -1,0 +1,5 @@
+Título: Palíndromo
+Topicos do problema: ad-hoc; decisão; 
+Descrição: <b id="docs-internal-guid-c51025ae-4623-40eb-30a7-945653695506"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Um número é palíndromo se ele pode ser lido de trás para frente e ainda assim obtermos o mesmo valor. Por exemplo:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">10301 é palíndromo, já 12342 não é.</span></p><span style="color: #000000;background-color: transparent;">Então, dado um número de 5 algarismos, você deve determinar se ele é palíndromo.</span>
+Formato da entrada: <p><span id="docs-internal-guid-c51025ae-4623-6cb0-0a73-fd00e8b03a71"><span style="color: rgb(0, 0, 0);background-color: transparent;">Um número inteiro de 5 algarismos. </span></span><br/></p>
+Formato da saída: <b id="docs-internal-guid-c51025ae-4623-a714-970b-8485d7cf0942"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">S se o número é palíndromo e N se ele não é.</span></p>

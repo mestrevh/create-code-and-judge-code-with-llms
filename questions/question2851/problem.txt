@@ -1,0 +1,5 @@
+Título: Pares de trás para frente
+Topicos do problema: array; decisão; lógica matemática; 
+Descrição: <p><span class="fontstyle0">Faça um programa que leia um array com dez números inteiros e imprima todos os números pares na ordem inversa em que foram lidos. Por exemplo, se os números forem 2, 4, 6, 5, 3, 2, 5, 8, 9 e 1, o programa deve imprimir 8, 2, 6, 4, 2. O programa deve mostrar as mensagens “Digite os 10 numeros inteiros:” e “Numeros pares na ordem inversa:</span><span class="fontstyle0">”.</span><br/></p>
+Formato da entrada: <p>O usuário deve digitar 10 números inteiros<br/></p>
+Formato da saída: <p>O programa deve exibir <span class="fontstyle0">úmeros pares na ordem inversa em que foram lidos</span>, imprimindo na tela os valores abaixo:</p><p><br/></p><p><span class="fontstyle0">Digite os 10 numeros inteiros:</span></p><p><span class="fontstyle0">Numeros pares na ordem inversa:</span><span class="fontstyle0"></span></p><p>n n n n<br/></p>

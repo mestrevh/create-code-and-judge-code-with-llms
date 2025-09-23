@@ -1,0 +1,5 @@
+Título: Cadeiras na coluna
+Topicos do problema: decisão; recursão; 
+Descrição: <p>Você é responsável por arrumar as cadeiras de um auditório. Com isso, usando suas habilidades em programação, você resolveu desenvolver um programa para te mostrar os números das cadeiras da coluna.</p><p>Por exemplo, se o total de cadeiras é 12, e a quantidade de cadeiras por linha é 4, as cadeiras da coluna 2 serão: 2, 6, 10.</p>
+Formato da entrada: <p>Você vai receber três inteiros, que correspondem ao total de cadeiras, a quantidade de cadeiras por linha e o número da coluna a ser impressa.</p>
+Formato da saída: <p>Os números das respectivas cadeiras na coluna, um número em cada linha.</p>

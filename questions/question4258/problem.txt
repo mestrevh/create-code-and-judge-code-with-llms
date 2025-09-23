@@ -1,0 +1,5 @@
+Título: Lista de Strings
+Topicos do problema: array; string; 
+Descrição: <p>Faça um programa que leia uma String de numeros e mostre a sua ordem inversa, separando os números com uma virgula e um espaço em branco.</p><p style="text-align: center;">Obs: não pode usar o end='' e nem o método .reverse()<br/></p>
+Formato da entrada: <p>Uma String de inteiros</p>
+Formato da saída: <p>Uma lista de inteiros</p>

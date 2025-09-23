@@ -1,0 +1,5 @@
+Título: Pesquisa Eleitoral Octave - T1
+Topicos do problema: multiplas entradas; lógica matemática; 
+Descrição: <p>Construa um programa que recebe como entrada a quantidade de votos (alcançados na pesquisa) de 3 candidatos e a quantidade de votos nulos. O programa deverá imprimir a porcentagem de votos dos 3 candidatos e de votos nulos.<br/></p>
+Formato da entrada: <p>O usuario deve digitar o número de votos de cada candidato e o numero de votos nulos.<br/></p>
+Formato da saída: <p>O programa deve exibir o percentual de votos de cada candidato e o percentual de votos nulos, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a quantidade de votos do candidato A: (impresso pela funcao input)</p><p>Digite a quantidade de votos do candidato B: (impresso pela funcao input)</p><p>Digite a quantidade de votos do candidato C: (impresso pela funcao input)</p><p>Digite a quantidade de votos nulos: (impresso pela funcao input)<br/></p><p>Candidato A: n %</p><p>Candidato B: n %</p><p>Candidato C: n %</p><p>Votos Nulos: n %<br/></p>

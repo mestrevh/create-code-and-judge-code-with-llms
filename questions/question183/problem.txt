@@ -1,0 +1,9 @@
+Título: Garçom
+Topicos do problema: array; acumulador; 
+Descrição: <p>
+<p>Parte do treinamento de um novo gar&ccedil;om &eacute; carregar uma grande bandeja com v&aacute;rias latas de bebidas e copos e entreg&aacute;-las todas numa mesa do restaurante. Durante o treinamento &eacute; comum que os gar&ccedil;ons deixem cair as bandejas, quebrando todos os copos.&nbsp;</p>
+<p>A SBC &mdash; Sociedade Brasileira de Copos &mdash; analisou estat&iacute;sticas do treinamento de diversos gar&ccedil;ons e descobriu que os gar&ccedil;ons em treinamento deixam cair apenas bandejas que t&ecirc;m mais latas de bebidas que copos. Por exemplo, se uma bandeja tiver 10 latas e 4 copos, certamente o gar&ccedil;om em treinamento a deixar&aacute; cair, quebrando os 4 copos. J&aacute; se a bandeja tiver 5 latas e 6 copos, ele conseguir&aacute; entreg&aacute;-la sem deixar cair.</p>
+<p>Escreva um programa que, dado o n&uacute;mero de latas e copos em cada bandeja que o gar&ccedil;om tentou entregar, imprime o total de copos que ele quebrou.&nbsp;</p>
+</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m um inteiro N (1 &lt;= N &lt;= 100) representando o n&uacute;mero de bandejas que o gar&ccedil;om tentou entregar. As N linhas seguintes representam as N bandejas. Cada linha cont&eacute;m dois inteiros L e C, indicando o n&uacute;mero de latas e o n&uacute;mero de copos naquela bandeja, respectivamente (0 &lt;= L, C &lt;= 100).</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha, contendo um &uacute;nico inteiro, indicando o n&uacute;mero total de copos que o gar&ccedil;om quebrou.</p>

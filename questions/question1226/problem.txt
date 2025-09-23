@@ -1,0 +1,5 @@
+Título: Maior par
+Topicos do problema: array; função; 
+Descrição: <p>Elabore uma função para calcular o maior elemento par de uma lista passada por parâmetro.</p>
+Formato da entrada: <p>Uma lista com valores inteiros</p>
+Formato da saída: <p>O maior elemento par da lista</p>

@@ -1,0 +1,7 @@
+Título: O Maior
+Topicos do problema: função; 
+Descrição: <p>Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula:</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/4344ab77dcb602d4c811da8c227fa5ea.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/4344ab77dcb602d4c811da8c227fa5ea.png" border="0" width="163" height="64"/></a></p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m tr&ecirc;s valores inteiros.</p>
+Formato da saída: <p><span style="font-family: 'Trebuchet MS', Helvetica, Jamrul, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">Imprima o maior dos tr&ecirc;s valores seguido por um espa&ccedil;o e a mensagem "eh o maior".</span></p>
+<p><span style="font-family: 'Trebuchet MS', Helvetica, Jamrul, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">Desafio voc&ecirc; fazer sem usar "if".</span></p>
+<p><span style="font-family: 'Trebuchet MS', Helvetica, Jamrul, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">hahahahaha (Risada do mal!)</span></p>

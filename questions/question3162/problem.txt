@@ -1,0 +1,5 @@
+Título: Par ou ímpar
+Topicos do problema: lógica matemática; função; 
+Descrição: <p>Crie uma função que recebe um inteiro (x) e retorna 1 se x for par ou -1 se x for ímpar.<br/></p>
+Formato da entrada: <p>2</p>
+Formato da saída: <p>1</p>

@@ -1,0 +1,5 @@
+Título: Entrada e Saída de Data
+Topicos do problema: entrada formatada; formatação; 
+Descrição: <p>O seu professor gostaria de fazer um programa que executasse os seguintes passos:<br/></p><ol><li>Ler uma data no formato DD/MM/AA; <br/></li><li>Imprimir a data no formato MM/DD/AA;</li><li>    Imprimir a data no formato AA/MM/DD;</li><li>Imprimir a data no formato DD-MM-AA.<br/></li></ol>
+Formato da entrada: <p>A entrada consiste de uma linha contendo uma data no formato DD/MM/AA, onde DD, MM e AA são números inteiros. <br/></p>
+Formato da saída: <p>A saída consiste de três linhas contendo a data digitada em diferentes formatos, conforme detalhando nos passos 2, 3 e 4 do programa.<br/></p>

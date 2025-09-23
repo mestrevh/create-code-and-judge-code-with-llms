@@ -1,0 +1,32 @@
+Título: Matrix
+Topicos do problema: acumulador; decisão; 
+Descrição: <p>Em um futuro pr&oacute;ximo, voc&ecirc;, um(a) jovem programador(a) de computador mora em um cub&iacute;culo escuro e &eacute; atormentado(a) por estranhos pesadelos nos quais encontra-se conectado por cabos contra sua vontade, em um imenso sistema de computadores do futuro. Esse repetido pesadelo faz com que voc&ecirc; comece a ter d&uacute;vidas sobre a realidade.</p>
+<p>Certa noite voc&ecirc; encontrou um panfleto pr&oacute;ximo a um orelh&atilde;o que dizia:</p>
+<p>&nbsp;</p>
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>wake up&hellip; the matrix has you&hellip;</p>
+<p>Sei por que mal dorme, porque mora sozinho e porque, noite ap&oacute;s noite, senta-se ao computador. Voc&ecirc; est&aacute; procurando...</p>
+<p>Voc&ecirc; sentiu a vida inteira que h&aacute; alguma coisa errada com o mundo, voc&ecirc; n&atilde;o sabe o que &eacute;, mas est&aacute; ali como uma farpa em sua mente, deixando-o louco(a)</p>
+<p>Para saber a verdade voc&ecirc; precisa passar no teste:</p>
+<p>V&aacute; at&eacute; o orelh&atilde;o responda as seguintes perguntas com &ldquo;1&rdquo; para &ldquo;SIM&rdquo; e &ldquo;0&rdquo; para &ldquo;N&Atilde;O&rdquo;:</p>
+<p>&nbsp;</p>
+<p>1.Voc&ecirc; acredita em destino?</p>
+<p>2.Voc&ecirc; sentiu a vida inteira que h&aacute; algo errado com o mundo?</p>
+<p>3.Voc&ecirc; j&aacute; teve um sonho que parecesse realidade?</p>
+<p>4.Voc&ecirc; quer saber a verdade?</p>
+<p>5.Voc&ecirc; quer saber o que &eacute; Matrix?</p>
+<p>&nbsp;</p>
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>&nbsp;</p>
+<p>Fa&ccedil;a um programa para calcular os pontos, onde:</p>
+<p>Para a 1&ordf; pergunta se a resposta for 0, ou seja &ldquo;n&atilde;o&rdquo;, ganha 2 pontos.</p>
+<p>Para a 2&ordf;, 3&ordf; e 4&ordf; &nbsp;pergunta se a resposta for 1, ou seja &ldquo;sim&rdquo;, ganha 1 pontos.</p>
+<p>Para a 5&ordf; pergunta se a resposta for 1, ou seja &ldquo;sim&rdquo;, ganha 3 pontos.</p>
+<p>&nbsp;</p>
+<p>Se o total de pontos for maior ou igual a 5 imprima:</p>
+<p>&ldquo;A Matrix esta em todo lugar. A nossa volta. E o mundo colocado diante de seus olhos, para que nao veja a verdade. Infelizmente a impossivel dizer o que a a Matrix. Voc&ecirc; tem de ver por si mesmo. *Voce a sugado pelo telefone e revelado a verdade &hellip;*&rdquo;</p>
+<p>&nbsp;</p>
+<p>Se o total de pontos for menor que 5 imprima:</p>
+<p>&ldquo;Voce precisa entender que a maioria dessas pessoas nao estao prontas para acordar. E muitos estao tao inertes, tao dependentes do sistema que vao lutar para protege-lo.&rdquo;</p>
+Formato da entrada: None
+Formato da saída: None

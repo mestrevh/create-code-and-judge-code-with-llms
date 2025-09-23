@@ -1,0 +1,26 @@
+Título: Reverso e soma
+Topicos do problema: decisão; repetição; palíndromos; 
+Descrição: <p>"Reverso e soma" &eacute; um m&eacute;todo simples: escolha um n&uacute;mero, inverta os digitos e some o resultado ao original. Se a soma n&atilde;o &eacute; um pal&iacute;ndromo (<em>o que significa que n&atilde;o &eacute; o mesmo n&uacute;mero se visto da direita pra esquerda ou da esquerda pra direita</em>) repita o processo. Por exemplo:&nbsp;</p>
+<p>195 (n&uacute;mero inicial)</p>
+<p>591 (inverso)</p>
+<p>---</p>
+<p>786 (soma)</p>
+<p>687 (inverso)</p>
+<p>---</p>
+<p>1473 (soma)</p>
+<p>3741 (inverso)</p>
+<p>---</p>
+<p>5214 (soma)</p>
+<p>4125 (inverso)</p>
+<p>---</p>
+<p>9339 (soma) -&gt; resulta num pal&iacute;ndromo</p>
+<p>Neste caso particular o pal&iacute;ndromo 9339 apareceu depois da 4&ordf; adi&ccedil;&atilde;o. Este m&eacute;todo leva &agrave; pal&iacute;ndromos em poucos passos para quase todos os inteiros. Mas existem excess&otilde;es interessantes. 196 &eacute; o primeiro n&uacute;mero cujo pal&iacute;ndromo n&atilde;o foi encontrado. No entanto n&atilde;o est&aacute; provado que n&atilde;o existe tal pal&iacute;ndromo.</p>
+<p>Voc&ecirc; deve escrever um programa que d&ecirc; o pal&iacute;ndromo resultante e o n&uacute;mero de intera&ccedil;&otilde;es(adi&ccedil;&otilde;es) para computar o pal&iacute;ndromo.</p>
+<p>Voc&ecirc; pode assumir que todos os testes no problema</p>
+<ul>
+<li>ter&atilde;o uma resposta</li>
+<li>ser&atilde;o computados em menos de 1000 itera&ccedil;&otilde;es (adi&ccedil;&otilde;es).</li>
+<li>n&atilde;o existir&aacute; um pal&iacute;ndromo maior que 2 elevado a 100<br /></li>
+</ul>
+Formato da entrada: <p>A primeira linha ter&aacute; um n&uacute;mero N que &eacute; o n&uacute;mero de casos de teste. Nas pr&oacute;ximas N linhas ser&atilde;o fornecidos n&uacute;meros inteiros.</p>
+Formato da saída: <p>Para cada um dos n inteiros fornecidos voc&ecirc; dever&aacute; escrever uma linha contendo: o n&uacute;mero m&iacute;nimo de itera&ccedil;&otilde;es (adi&ccedil;&otilde;es) para chegar ao pal&iacute;ndromo e o pal&iacute;ndromo resultante em si, separados por um espa&ccedil;o.</p>

@@ -1,0 +1,5 @@
+Título: PR1_Alugando um veiculo
+Topicos do problema: lógica matemática; 
+Descrição: <div class="ng-binding"><p>A Locadora de Veículos Eudora lançou uma grande promoção esse mês: pagando apenas R$ 90 por diária, o cliente pode alugar um carro de passeio. Para cada diária, o cliente recebe uma cota de quilometragem de 100 Km. Cada quilômetro a mais custará uma taxa extra de R$ 12.</p><p>Escreva um programa que receba como entrada a quantidade de dias e a quilometragem total rodada por um cliente dessa locadora e exiba o valor total a ser pago. Caso o usuário digite valores negativos, o programa deve informar &#34;Valor invalido&#34;.<br/></p></div>
+Formato da entrada: <p>O usuario deve digitar dois valores inteiros referentes à quantidade de dias e a quilometragem total rodada.<br/></p>
+Formato da saída: <p>O programa deve exibir o valor total a ser pago, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a quantidade de dias de locacao: (impresso pela funcao input)</p><p>Digite a quantidade de km rodados: (impresso pela funcao input)<br/></p><p>Valor Invalido / Valor total a ser pago em reais: n<br/></p>

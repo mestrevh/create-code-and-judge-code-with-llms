@@ -1,0 +1,5 @@
+Título: Senha Octave - T1
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p><span class="fontstyle0">Escreva um programa que verifique a validade de uma senha fornecida pelo usuário.A senha válida é o número1234.Devem ser impressas as seguintes mensagens:<br/>ACESSO PERMITIDO caso a senha seja válida.<br/>ACESSO NEGADO caso a senha seja inválida.</span><br/><br/></p>
+Formato da entrada: <p>O usuario deve digitar a senha numerica<br/></p>
+Formato da saída: <p>O programa deve exibir uma mensagem informando se o acesso será permitido ou não, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a senha numerica: (impresso pela funcao input)<br/></p><p>ACESSO PERMITIDO/ACESSO NEGADO<br/></p>

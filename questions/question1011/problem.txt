@@ -1,0 +1,5 @@
+Título: Amizade
+Topicos do problema: heap; set; conjuntos disjuntos; 
+Descrição: <p>Na cidade <i>&#34;DusAmigus&#34;</i> sabe-se que há amizade entre alguns pares de pessoas.  E considerando o ditado: &#34;os amigos dos meus amigos são meus amigos também&#34;, tem-se que se A e B são amigos, e B e C são amigos, então A e C são amigos também. </p><p>Você está sendo contratado para elaborar um programa que identifique quantas pessoas estão no maior grupo de amigos. </p><p><br/></p><p><br/></p>
+Formato da entrada: <p>A entrada consiste em vários casos. </p><p>A primeira linha contém o número de casos de teste. </p><p>Para cada teste, há os valores N e M, onde N é o número de pessoas da cidade, e M é o número de pares de pessoas que são conhecidas por serem amigos. </p><p>As M linhas seguintes consistem em dois valores inteiros A e B (1≤A≤N, 1≤B≤N, A ≠ B) que descrevem que A e B são amigos.  Podendo existir repetição de pares.<br/></p>
+Formato da saída: <p>A saída para cada caso de teste deve conter um número que indica quantas pessoas há no maior grupo de amigos.<br/></p>

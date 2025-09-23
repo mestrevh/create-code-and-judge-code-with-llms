@@ -1,0 +1,10 @@
+Título: Balanceamento de Parênteses
+Topicos do problema: pilha; 
+Descrição: <p>Em uma dada string, voc&ecirc; deve indicar se os par&ecirc;nteses e colchetes est&atilde;o balanceados.</p>
+<p>Diz-se que uma string est&aacute; balanceada quando para cada parenteses ou colchetes abrindo, existe um equivalente fechando.</p>
+<p>Por exemplo, a string: (()[]) est&aacute; balanceada, enquanto as strings ((()) e )( n&atilde;o est&atilde;o balanceadas.</p>
+Formato da entrada: <p>Voc&ecirc; ir&aacute; receber um n&uacute;mero inteiro n indicando a quantidade de strings que vir&atilde;o a seguir. Depois, voc&ecirc; receber&aacute; n strings, uma em cada linha.A string cont&eacute;m no m&aacute;ximo 255 caracteres e pode ser composta pelos caracteres ')', '(', ']', '[' e ' '.</p>
+<p>O caracter branco deve ser ignorado.</p>
+<p>Tamb&eacute;m &eacute; poss&iacute;vel receber uma linha vazia.</p>
+Formato da saída: <p>Para cada string, voc&ecirc; deve imprimir 'Yes' , caso a string esteja balanceada e 'No' caso contr&aacute;rio.</p>
+<p>Se a string for vazia, voc&ecirc; deve imprimir 'Yes'</p>

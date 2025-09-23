@@ -1,0 +1,5 @@
+Título: Corona: Ep 8
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p>É o oitavo dia de quarentena, o caos começa a ser instaurado também nos supermercados, devido ao COVID-19. Como medida de contenção Lucca, o dono do mercado Coronga, deseja fazer com que seus clientes esperem do lado de fora com uma distância de pelo menos dois metros de um para o outro. Para isso,o estacionamento foi mapeado como um plano cartesiano e sempre que os clientes se posicionarem e um ponto do estacionamento vai ser verificado se é um lugar legal.</p>
+Formato da entrada: <p>ax, ay, bx, by, cx, cy que representarão as coordenadas de três clientes.</p>
+Formato da saída: <p>POSICAO VALIDA, caso os 3 clientes estejam dentro das normas.</p><p>POSICAO INVALIDA, caso os 3 clientes estejam fora das normas.</p>

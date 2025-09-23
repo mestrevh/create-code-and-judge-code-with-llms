@@ -1,0 +1,62 @@
+Título: 8 rainhas
+Topicos do problema: busca completa; backtracking; 
+Descrição: <p>No xadrez &eacute; poss&iacute;vel colocar 8 rainhas no tabuleiro de tal forma que nenhuma rainha possa atacar a outra. Escreva um programa que determine todos os poss&iacute;veis arranjos para 8 rainhas dada a posi&ccedil;&atilde;o inicial de uma das rainhas.</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m o n&uacute;mero de casos de teste e &eacute; seguida de uma linha em branco.</p>
+<p>Cada caso de teste conter&aacute; dois n&uacute;meros separados por um espa&ccedil;o. Nos n&uacute;meros representam o quadrado no qual uma das oito rainhas est&aacute; posicionada.</p>
+<p>Para padronizar a nossa nota&ccedil;&atilde;o, assuma que o canto superior esquerdo do tabuleiro &eacute; a posi&ccedil;&atilde;o (1,1). As linhas crescem horizontalmente e a primeira linha (mais acima) &eacute; 1. As colunas s&atilde;o verticais e a primeira coluna (mais a esquerda) &eacute; 1.</p>
+<p>Qualquer refer&ecirc;ncia a uma posi&ccedil;&atilde;o &eacute; dada por linha e ent&atilde;o por coluna. Por exemplo, a posi&ccedil;&atilde;o (4,6) representa a linha 4, coluna 6.</p>
+Formato da saída: <p>Para cada caso de teste a sa&iacute;da consiste de uma representa&ccedil;&atilde;o que mostra uma solu&ccedil;&atilde;o em uma &uacute;nica linha.</p>
+<p>Cada solu&ccedil;&atilde;o ser&aacute; numerada sequencialmente de 1 a n. Cada solu&ccedil;&atilde;o consiste de 8 n&uacute;meros. Cada um dos 8 n&uacute;meros ser&aacute; a linha daquela solu&ccedil;&atilde;o. A coluna da solu&ccedil;&atilde;o ser&aacute; indicada pela ordem na qual os 8 n&uacute;meros s&atilde;o impressos. Isto &eacute;, o primeiro n&uacute;mero representa a linha na qual a rainha est&aacute; posicionada na coluna 1; o segundo n&uacute;mero representa a linha da rainha na coluna 2; e assim por diante.</p>
+<p>&nbsp;</p>
+<p>Por exemplo, se a entrada for:</p>
+<p>1</p>
+<p>1 1</p>
+<p>&nbsp;</p>
+<p>Ter&iacute;amos 4 solu&ccedil;&otilde;es. A representa&ccedil;&atilde;o completa das solu&ccedil;&otilde;es no tabuleiro seria:</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp;SOLU&Ccedil;&Atilde;O 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SOLU&Ccedil;&Atilde;O 2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SOLU&Ccedil;&Atilde;O 3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SOLU&Ccedil;&Atilde;O 4</p>
+<p>&nbsp;</p>
+<p>1 0 0 0 0 0 0 0 &nbsp; &nbsp; &nbsp;1 0 0 0 0 0 0 0 &nbsp; &nbsp; &nbsp;1 0 0 0 0 0 0 0 &nbsp; &nbsp; &nbsp;1 0 0 0 0 0 0 0</p>
+<p>0 0 0 0 0 0 1 0 &nbsp; &nbsp; &nbsp;0 0 0 0 0 0 1 0 &nbsp; &nbsp; &nbsp;0 0 0 0 0 1 0 0 &nbsp; &nbsp; &nbsp;0 0 0 0 1 0 0 0</p>
+<p>0 0 0 0 1 0 0 0 &nbsp; &nbsp; &nbsp;0 0 0 1 0 0 0 0 &nbsp; &nbsp; &nbsp;0 0 0 0 0 0 0 1 &nbsp; &nbsp; &nbsp;0 0 0 0 0 0 0 1</p>
+<p>0 0 0 0 0 0 0 1 &nbsp; &nbsp; &nbsp;0 0 0 0 0 1 0 0 &nbsp; &nbsp; &nbsp;0 0 1 0 0 0 0 0 &nbsp; &nbsp; &nbsp;0 0 0 0 0 1 0 0</p>
+<p>0 1 0 0 0 0 0 0 &nbsp; &nbsp; &nbsp;0 0 0 0 0 0 0 1 &nbsp; &nbsp; &nbsp;0 0 0 0 0 0 1 0 &nbsp; &nbsp; &nbsp;0 0 1 0 0 0 0 0</p>
+<p>0 0 0 1 0 0 0 0 &nbsp; &nbsp; &nbsp;0 1 0 0 0 0 0 0 &nbsp; &nbsp; &nbsp;0 0 0 1 0 0 0 0 &nbsp; &nbsp; &nbsp;0 0 0 0 0 0 1 0</p>
+<p>0 0 0 0 0 1 0 0 &nbsp; &nbsp; &nbsp;0 0 0 0 1 0 0 0 &nbsp; &nbsp; &nbsp;0 1 0 0 0 0 0 0 &nbsp; &nbsp; &nbsp;0 1 0 0 0 0 0 0</p>
+<p>0 0 1 0 0 0 0 0 &nbsp; &nbsp; &nbsp;0 0 1 0 0 0 0 0 &nbsp; &nbsp; &nbsp;0 0 0 0 1 0 0 0 &nbsp; &nbsp; &nbsp;0 0 0 1 0 0 0 0</p>
+<p>&nbsp;</p>
+<p>Nesse caso, voc&ecirc; deve usar a seguinte representa&ccedil;&atilde;o para esse exemplo:</p>
+<p>&nbsp;</p>
+<p>SOLN &nbsp; &nbsp; &nbsp; COLUMN</p>
+<p>&nbsp;# &nbsp; &nbsp; &nbsp;1 2 3 4 5 6 7 8</p>
+<p>&nbsp;</p>
+<p>&nbsp;1 &nbsp; &nbsp; &nbsp;1 5 8 6 3 7 2 4</p>
+<p>&nbsp;2 &nbsp; &nbsp; &nbsp;1 6 8 3 7 4 2 5</p>
+<p>&nbsp;3 &nbsp; &nbsp; &nbsp;1 7 4 6 8 2 5 3</p>
+<p>&nbsp;4 &nbsp; &nbsp; &nbsp;1 7 5 8 2 4 6 3</p>
+<p>&nbsp;</p>
+<p>Veja que, por exemplo, a solu&ccedil;&atilde;o 1: na primeira coluna, a dama est&aacute; na linha 1; na segunda coluna, ela est&aacute; na linha 5; na terceira coluna, na linha 8; e assim por diante.</p>
+<p>&nbsp;</p>
+<p>Inclua as duas linhas de cabe&ccedil;alho como mostrado no exemplo.&nbsp;</p>
+<p>Imprima as solu&ccedil;&otilde;es na ordem lexicogr&aacute;fica.</p>
+<p>Imprima uma linha em branco entre casos de testes.</p>
+<p>Quando existirem mais do que 9 solu&ccedil;&otilde;es, o alinhamento deve ser &agrave; esquerda, por exemplo:</p>
+<p>SOLN &nbsp; &nbsp; &nbsp; COLUMN</p>
+<p>&nbsp;# &nbsp; &nbsp; &nbsp;1 2 3 4 5 6 7 8</p>
+<p>&nbsp;</p>
+<p>&nbsp;1 &nbsp; &nbsp; &nbsp;5 3 1 6 8 2 4 7</p>
+<p>&nbsp;2 &nbsp; &nbsp; &nbsp;5 3 1 7 2 8 6 4</p>
+<p>&nbsp;3 &nbsp; &nbsp; &nbsp;5 3 8 4 7 1 6 2</p>
+<p>&nbsp;4 &nbsp; &nbsp; &nbsp;6 3 1 7 5 8 2 4</p>
+<p>&nbsp;5 &nbsp; &nbsp; &nbsp;6 3 1 8 4 2 7 5</p>
+<p>&nbsp;6 &nbsp; &nbsp; &nbsp;6 3 1 8 5 2 4 7</p>
+<p>&nbsp;7 &nbsp; &nbsp; &nbsp;6 3 5 7 1 4 2 8</p>
+<p>&nbsp;8 &nbsp; &nbsp; &nbsp;6 3 5 8 1 4 2 7</p>
+<p>&nbsp;9 &nbsp; &nbsp; &nbsp;6 3 7 2 4 8 1 5</p>
+<p>10 &nbsp; &nbsp; &nbsp;6 3 7 2 8 5 1 4</p>
+<p>11 &nbsp; &nbsp; &nbsp;6 3 7 4 1 8 2 5</p>
+<p>12 &nbsp; &nbsp; &nbsp;7 3 1 6 8 5 2 4</p>
+<p>13 &nbsp; &nbsp; &nbsp;7 3 8 2 5 1 6 4</p>
+<p>14 &nbsp; &nbsp; &nbsp;8 3 1 6 2 5 7 4</p>
+<p>&nbsp;</p>
+<p>O n&uacute;mero m&aacute;ximo de solu&ccedil;&otilde;es &eacute; menor que 100.</p>

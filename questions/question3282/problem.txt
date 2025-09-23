@@ -1,0 +1,5 @@
+Título: PIT03 - Aumento salário funcionário
+Topicos do problema: lógica matemática; 
+Descrição: <title></title><p><font face="Arial, sans-serif"><font size="4">Faça um programa que receba o salário de um funcionário e o percentual de aumento, calcule e mostre o valor do aumento e o novo salário.</font></font></p>
+Formato da entrada: <p>1000</p><p>10</p>
+Formato da saída: <p>100.00</p><p>1100.00</p>

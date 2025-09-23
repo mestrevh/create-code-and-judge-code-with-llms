@@ -1,0 +1,8 @@
+Título: Colchão
+Topicos do problema: geometria computacional; obi; lógica matemática; 
+Descrição: <p>João está comprando móveis novos para sua casa. Agora é a vez de comprar um colchão novo, de molas, para substituir o colchão velho. As portas de sua casa têm altura H e largura L e existe um colchão que está em promoção com dimensões A &#2; B &#2; C.</p>&#13;<p>O colchão tem a forma de um paralelepípedo reto retângulo e João só consegue arrastá-lo através de uma porta com uma de suas faces paralelas ao chão, mas consegue virar e rotacionar o colchão antes de passar pela porta.</p>&#13;<p>Entretanto, de nada adianta ele comprar o colchão se ele não passar através das portas de sua casa. Portanto ele quer saber se consegue passar o colchão pelas portas e para isso precisa de sua ajuda.</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m tr&ecirc;s n&uacute;meros inteiros A, B e C, as tr&ecirc;s dimens&otilde;es do&nbsp;colch&atilde;o, em cent&iacute;metros. A segunda linha cont&eacute;m dois inteiros H e L, respectivamente a&nbsp;altura e a largura das portas em cent&iacute;metros.</p>
+<p>Considere:</p>
+<p>1 &lt;= A,B,C &lt;= 300<br />1 &lt;= H,L &lt;= 250</p>
+<p>&nbsp;</p>
+Formato da saída: <p>Seu programa deve escrever uma &uacute;nica linha, contendo apenas a letra &lsquo;S&rsquo; se o colch&atilde;o passa&nbsp;pelas portas e apenas a letra &lsquo;N&rsquo; em caso contr&aacute;rio.</p>

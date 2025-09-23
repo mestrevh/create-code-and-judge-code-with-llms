@@ -1,0 +1,108 @@
+Título: Roupa alugada
+Topicos do problema: decisão; string; 
+Descrição: <p><!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:HyphenationZone>21</w:HyphenationZone> <w:PunctuationKerning /> <w:ValidateAgainstSchemas /> <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid> <w:IgnoreMixedContent>false</w:IgnoreMixedContent> <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText> <w:Compatibility> <w:BreakWrappedTables /> <w:SnapToGridInCell /> <w:WrapTextWithPunct /> <w:UseAsianBreakRules /> <w:DontGrowAutofit /> </w:Compatibility> <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> </w:WordDocument> </xml><![endif]--></p>
+<p><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" LatentStyleCount="156"> </w:LatentStyles> </xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--></p>
+<p class="MsoNormal" style="text-align: justify;">Carlitos trabalha em uma loja que
+aluga trajes de festa para homens. Os pre&ccedil;os cobrados s&atilde;o os seguintes:</p>
+<table class="MsoNormalTable" style="border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-table-lspace: 7.05pt; margin-left: 4.8pt; mso-table-rspace: 7.05pt; margin-right: 4.8pt; mso-table-anchor-vertical: paragraph; mso-table-anchor-horizontal: page; mso-table-left: 124.65pt; mso-table-top: 8.3pt; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext;" border="1" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes;">
+<td style="width: 91.7pt; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="122">
+<p class="MsoNormal" style="text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 124.7pt; mso-element-top: 8.3pt; mso-height-rule: exactly;" align="center"><strong style="mso-bidi-font-weight: normal;"><span style="font-family: Calibri;">Tipo de terno</span></strong></p>
+</td>
+<td style="width: 64.5pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="86">
+<p class="MsoNormal" style="text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 124.7pt; mso-element-top: 8.3pt; mso-height-rule: exactly;" align="center"><strong style="mso-bidi-font-weight: normal;"><span style="font-family: Calibri;">Pre&ccedil;o</span></strong></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 1;">
+<td style="width: 91.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="122">
+<p class="MsoNormal" style="mso-margin-top-alt: auto; margin-right: .4pt; mso-margin-bottom-alt: auto; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 124.7pt; mso-element-top: 8.3pt; mso-height-rule: exactly;" align="center"><span style="font-family: Calibri;">Simples</span></p>
+</td>
+<td style="width: 64.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="86">
+<p class="MsoNormal" style="margin-right: .45pt; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 124.7pt; mso-element-top: 8.3pt; mso-height-rule: exactly;" align="center"><span style="font-family: Calibri;">120.40</span></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 2;">
+<td style="width: 91.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="122">
+<p class="MsoNormal" style="mso-margin-top-alt: auto; margin-right: .4pt; mso-margin-bottom-alt: auto; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 124.7pt; mso-element-top: 8.3pt; mso-height-rule: exactly;" align="center"><span style="font-family: Calibri;">Completo </span></p>
+</td>
+<td style="width: 64.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="86">
+<p class="MsoNormal" style="margin-right: .45pt; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 124.7pt; mso-element-top: 8.3pt; mso-height-rule: exactly;" align="center"><span style="font-family: Calibri;">150.35</span></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 3; mso-yfti-lastrow: yes;">
+<td style="width: 91.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="122">
+<p class="MsoNormal" style="mso-margin-top-alt: auto; margin-right: .4pt; mso-margin-bottom-alt: auto; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 124.7pt; mso-element-top: 8.3pt; mso-height-rule: exactly;" align="center"><span style="font-family: Calibri;">Fraque </span></p>
+</td>
+<td style="width: 64.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="86">
+<p class="MsoNormal" style="margin-right: .45pt; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 124.7pt; mso-element-top: 8.3pt; mso-height-rule: exactly;" align="center"><span style="font-family: Calibri;">180.70</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="MsoNormalTable" style="border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-table-lspace: 7.05pt; margin-left: 4.8pt; mso-table-rspace: 7.05pt; margin-right: 4.8pt; mso-table-anchor-vertical: paragraph; mso-table-anchor-horizontal: page; mso-table-left: 313.65pt; mso-table-top: 8.7pt; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext;" border="1" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes;">
+<td style="width: 91.7pt; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="122">
+<p class="MsoNormal" style="text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 313.7pt; mso-element-top: 8.7pt; mso-height-rule: exactly;" align="center"><strong style="mso-bidi-font-weight: normal;"><span style="font-family: Calibri;">Acess&oacute;rio</span></strong></p>
+</td>
+<td style="width: 64.5pt; border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="86">
+<p class="MsoNormal" style="text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 313.7pt; mso-element-top: 8.7pt; mso-height-rule: exactly;" align="center"><strong style="mso-bidi-font-weight: normal;"><span style="font-family: Calibri;">Pre&ccedil;o</span></strong></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 1;">
+<td style="width: 91.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="122">
+<p class="MsoNormal" style="mso-margin-top-alt: auto; margin-right: .4pt; mso-margin-bottom-alt: auto; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 313.7pt; mso-element-top: 8.7pt; mso-height-rule: exactly;" align="center">Gravata</p>
+</td>
+<td style="width: 64.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="86">
+<p class="MsoNormal" style="margin-right: .45pt; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 313.7pt; mso-element-top: 8.7pt; mso-height-rule: exactly;" align="center"><span style="font-family: Calibri;">R$ 30.00</span></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 2;">
+<td style="width: 91.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="122">
+<p class="MsoNormal" style="mso-margin-top-alt: auto; margin-right: .4pt; mso-margin-bottom-alt: auto; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 313.7pt; mso-element-top: 8.7pt; mso-height-rule: exactly;" align="center">Sapato</p>
+</td>
+<td style="width: 64.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="86">
+<p class="MsoNormal" style="margin-right: .45pt; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 313.7pt; mso-element-top: 8.7pt; mso-height-rule: exactly;" align="center"><span style="font-family: Calibri;">R$ 80.00</span></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 3; mso-yfti-lastrow: yes;">
+<td style="width: 91.7pt; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="122">
+<p class="MsoNormal" style="mso-margin-top-alt: auto; margin-right: .4pt; mso-margin-bottom-alt: auto; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 313.7pt; mso-element-top: 8.7pt; mso-height-rule: exactly;" align="center">Cinto</p>
+</td>
+<td style="width: 64.5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" width="86">
+<p class="MsoNormal" style="margin-right: .45pt; text-align: center; mso-element: frame; mso-element-frame-hspace: 7.05pt; mso-element-wrap: around; mso-element-anchor-vertical: paragraph; mso-element-anchor-horizontal: page; mso-element-left: 313.7pt; mso-element-top: 8.7pt; mso-height-rule: exactly;" align="center"><span style="font-family: Calibri;">R$ 15.00</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="mso-tab-count: 1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+<p class="MsoNormal">Escreva um programa que receba como entrada o tipo de item
+alugado (terno ou acess&oacute;rio) e sua descri&ccedil;&atilde;o, e exiba o valor a ser pago,
+sabendo que todos os ternos ganham desconto de 7%.</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>Dois valores String, sendo o primeiro referente ao tipo de item alugado, e o segundo &agrave; sua descri&ccedil;&atilde;o.</p>
+<p>Dica: lembre-se que o usu&aacute;rio poder&aacute; combinar mai&uacute;sculas e min&uacute;sculas em suas entradas e seu programa dever&aacute; estar preparado para tratar esses dados.</p>
+Formato da saída: <p>Um valor real com duas casas decimais.</p>

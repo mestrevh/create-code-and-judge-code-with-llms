@@ -1,0 +1,5 @@
+Título: Compotência
+Topicos do problema: ad-hoc; 
+Descrição: <p>Dois amigos Luke e Leia criaram uma competição de números baseada na potência destes.</p><p>Cada um escolhe um número n, de 1 a 1000, diferente um do outro. Então eles realizam a potência n^n. Do resultado pegam o resto da divisão por 100 e comparam, o maior vence, é a &#34;compotência&#34;. Como encontraram uma dificuldade para realizar a potência para números maiores, pediram que você os auxiliasse a definir o ganhador.<br/></p>
+Formato da entrada: <p>A entrada é composta de vários casos de teste. Cada caso de teste é definida por dois números inteiros N1 e N2 em uma linha ( 0 &lt; N1 != N2 &lt;= 1000 ). Os casos de teste da entrada terminam com o último número fornecido.<br/></p>
+Formato da saída: <p>Para cada caso de teste deverá ser realizada a comparação de N1^N1 % 100 com N2^N2 % 100 e fornecido o valor original que apresenta o maior resultado. Se ambos coincidirem, o valor apresentado é 0 (zero).<br/></p>

@@ -1,0 +1,5 @@
+Título: Módulo 3 - Diagonal
+Topicos do problema: lógica matemática; 
+Descrição: <p>Crie um programa em Python que recebe duas medidas de um retângulo (largura e altura - números reais), calcula e exibe a diagonal deste retângulo. A fórmula para o cálculo da diagonal de um retângulo é:</p><p><b><i>diagonal = raiz(largura * largura + altura * altura)</i></b><br/></p>
+Formato da entrada: <p>2</p><p>1.5<br/></p>
+Formato da saída: <p>2.5<br/></p>

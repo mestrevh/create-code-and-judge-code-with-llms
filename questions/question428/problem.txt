@@ -1,0 +1,28 @@
+Título: Formatando endereço
+Topicos do problema: formatação; 
+Descrição: <p>Voc&ecirc; receber&aacute; um conjunto de dados contendo o <strong>nome da rua</strong>, <strong>n&uacute;mero da resid&ecirc;ncia</strong>, <strong>nome do bairro</strong>, <strong>cidade</strong>, <strong>estado </strong>e o <strong>n&uacute;mero do cep</strong> (somente n&uacute;meros). O programa dever&aacute; imprimir os dados conforme o modelo que os Correios utilizam para a postagem de correspond&ecirc;ncias.</p>
+<p>&nbsp;</p>
+<p>Atualmente o modelo adotado &eacute;:</p>
+<p><strong>Nome da rua</strong>, <strong>n&uacute;mero da resid&ecirc;ncia</strong>.</p>
+<p>Bairro: <strong>nome do bairro</strong>. Cep: <strong>n&uacute;mero do CEP</strong></p>
+<p><strong>Cidade</strong>/<strong>Estado</strong></p>
+<p>&nbsp;</p>
+<p>Por exemplo:</p>
+<p>- Dados recebidos:</p>
+<ul>
+<li>nome da rua: Rua Wall Street</li>
+<li>n&uacute;mero da resid&ecirc;ncia: 70</li>
+<li>Nome do bairro: Centro Financeiro<br /></li>
+<li>cidade: Manhatan</li>
+<li>Estado: New York</li>
+<li>n&uacute;mero do cep: 12345000</li>
+</ul>
+<p>- Dados de sa&iacute;da:</p>
+<p>Rua Wall Street, 70.</p>
+<p>Bairro: Centro Financeiro. Cep: 12345000</p>
+<p>Manhattan/New York</p>
+Formato da entrada: <p>Ser&atilde;o fornecidos os dados por linha.</p>
+<p>Rua Wall Street<br />70<br />Centro Financeiro<br />Manhattan<br />New York<br />12345000</p>
+Formato da saída: <p>Rua Wall Street, 70.</p>
+<p>Bairro: Centro Financeiro. Cep: 12345000</p>
+<p>Manhattan/New York</p>

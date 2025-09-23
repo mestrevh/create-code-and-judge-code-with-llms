@@ -1,0 +1,5 @@
+Título: O Quarteto Fantástico da Matemática
+Topicos do problema: repetição; recursão; 
+Descrição: <div><span style="color: #6272a4;">Dutrinha, Alvinho, Wendel, Gersin são quatro amigos que gostam muito de estudar. Certo dia, enquanto cursavam matemática com </span><span style="color: rgb(98, 114, 164);">André Costa, eles aprenderam sobre análise combinatória, um método muito interessante de encontrar o número de combinações de elementos. </span><span style="color: rgb(98, 114, 164);">Eles descobriram que existe uma fórmula para calcular essas combinações que é: n!/(k!*(n – k)!), em que n representa o número de elementos do conjunto </span><span style="color: rgb(98, 114, 164);">e k a quantidade de vezes que diferentes elementos desse conjunto podem ser escolhidos. O sinal de '!' representa o fatorial desse número. </span><span style="color: rgb(98, 114, 164);">Ajude os quatro amigos criando um programa que receba como entrada dois números inteiros, n e k, e retorne a combinação de n escolhe k.</span></div>
+Formato da entrada: <pre>Dois números inteiros n e k, respectivamente.</pre>
+Formato da saída: <pre>O resultado da combinação de n escolhe k.</pre>

@@ -1,0 +1,5 @@
+Título: L2Q10 - The Long Night
+Topicos do problema: repetição; caractere; 
+Descrição: <p>Durante suas viagens você chega em Atalaialeste. Nesse momento, você descobre que, após a muralha, uma figura importante está em perigo além. Faz-se necessário enviar com urgência um corvo para a Pedra do Dragão. Para que os Lannisters não interceptarem, a mensagem tem que ser criptografada. Como não há tempo para criptografar a mensagem manualmente, você se oferece para escrever um programa que criptografe a mensagem rapidamente.</p><p>A criptografia usada é uma cifra de substituição, onde cada letra é substituída pela letra que está 6 posições depois no alfabeto, mantendo inalteradas a característica de maiúscula ou minúscula de cada letra.</p><p>Obs: Se a letra passar do Z, ela volta para o início do alfabeto.</p><p>Por exemplo: &#34;Gendry&#34; é criptografado para &#34;Mktjxe&#34;</p>
+Formato da entrada: <p><span>N linhas que precisam ser criptografadas, terminadas por fim de arquivo</span><br/></p><p><span>As linhas só contém espaços e letras maiúsculas e minusculas.</span></p>
+Formato da saída: <p>N linhas que representam a mensagem criptografada</p>

@@ -1,0 +1,5 @@
+Título: Árvore geradora máxima
+Topicos do problema: Árvore; grafo; conjuntos disjuntos; 
+Descrição: <p>Encontre o peso total da árvora geradora máxima.<br/><br/></p>
+Formato da entrada: <br/><p>A primeira linha contém um inteiro T denotando o número de casos de testes. Cada caso de teste você vai receber 2 inteiros N e M. Seguidos de M linhas descrevendo uma aresta: sendo 3 inteiros A, B e C. Sendo A diferente de B que será entre 1 a N denotando os vértices conectados e o C o qual é peso da aresta.</p><ul><li><strong>1</strong> &lt;= <strong>T</strong> &lt;= <strong>20</strong><strong><br/></strong></li><li><strong>1</strong> &lt;= <strong>N</strong> &lt;= <strong>5000</strong><strong><br/></strong></li><li><strong>1</strong> &lt;= <strong>M</strong> &lt;= <strong>100 000</strong><strong><br/></strong></li><li><strong>1</strong> &lt;= <strong>C</strong> &lt;= <strong>10 000</strong></li></ul>
+Formato da saída: <p>Para cada caso de teste imprima um inteiro - total dos pesos da árvore geradora máxima.<br/></p>

@@ -1,0 +1,5 @@
+Título: L2Q3 - Sorteio
+Topicos do problema: repetição; 
+Descrição: <p>Pepeu estava muito animado com o show que aconteceria no Dia CIn. Como se um baile funk já não fosse suficiente, ele ainda decidiu sortear um prêmio entre aqueles que vieram para o evento. Ele pensou num método diferente para fazer o sorteio: cada ingresso era numerado de 1 até um determinado número <b>X </b>(1 &lt; X &lt; 1000)<b> </b>e o vencedor seria escolhido de uma forma bem simples: Se o número de ordem que a pessoa chegou na festa for igual ao número do seu ingresso, ela seria a sorteada. Sua tarefa é fazer um programa que descubra quem é o ganhador. É garantido que sempre haverá um ganhador único. </p>
+Formato da entrada: <h1>N</h1><ul><li>N - Número natural</li></ul><p>Indicando o número de ingressos</p><h1>I</h1><ul><li>I - Número natural</li></ul><p><b>N </b>linhas contendo o número do ingresso</p>
+Formato da saída: <h1>U </h1><ul><li>U - string</li></ul><p>Contendo o número do bilhete vencedor </p>

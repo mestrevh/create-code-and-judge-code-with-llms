@@ -1,0 +1,5 @@
+Título: Palavras repetidas
+Topicos do problema: array; string; 
+Descrição: <p>Dado um texto escrito em portugês, se deseja saber quais são as palavras que aparecem repetidas. Considere que cada palavra é formada com letras do alfabeto portugês incluindo caracteres acentuados.</p><p><br/></p>
+Formato da entrada: <p>Um texto escrito numa única linha.</p>
+Formato da saída: <p>As palavras que se repetem no texto, todas numa única linha, separadas por um espaço e escritas somente com letras minúsculas. A listagem obedece a ordem em que elas aparecem pela primeira vez no texto.</p>

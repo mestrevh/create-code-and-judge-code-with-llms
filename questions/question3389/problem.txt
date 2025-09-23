@@ -1,0 +1,5 @@
+Título: Meia Entrada Cinema
+Topicos do problema: decisão; 
+Descrição: <title></title><p class="p1">Programa que determina o preço com desconto para entradas de cinema.</p><p class="p1">Estudantes recebem 50% de desconto, aposentados, 30%. Os demais clientes pagam o valor <span>integral.</span></p>
+Formato da entrada: <p>Preço do Ingresso</p><p>Categoria de Cliente (Estudante (E), Aposentado (A), Normal(N))</p><p><br/></p>
+Formato da saída: <p>Categoria do Cliente</p><p>Preco final para o cliente </p><p>Ou Categoria inválida</p>

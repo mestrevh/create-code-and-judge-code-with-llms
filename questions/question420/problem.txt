@@ -1,0 +1,13 @@
+Título: Crypt Kicker II
+Topicos do problema: busca completa; backtracking; dicionário; 
+Descrição: <p>Uma maneira popular, mas insegura, de criptografar um texto &eacute; permutar as letras do alfabeto.&nbsp; Isto &eacute;, no texto, cada letra do alfabeto &eacute; consistentemente substitu&iacute;da por alguma outra letra. Para garantir que a criptografia &eacute; revers&iacute;vel, duas letras diferentes n&atilde;o podem ser substitu&iacute;das pela mesma letra.</p>
+<p>Um m&eacute;todo poderoso de cripto-an&aacute;lise &eacute; conhecido como ataque de texto puro (plain text). Nesse ataque, o cripto-analista descobre uma frase conhecida e verifica como ela foi criptografada. A partir da&iacute;, ele deduz como a criptografia ocorreu.</p>
+<p>Sua tarefa &eacute; decriptar v&aacute;rias linhas criptografadas, assumindo que cada linha usa o mesmo conjunto de substitui&ccedil;&otilde;es e, que uma das linhas da entradada &eacute; a forma criptografada da senten&ccedil;a:</p>
+<p>the quick brown fox jumps over the lazy dog</p>
+Formato da entrada: <p>A entrada come&ccedil;a com um inteiro positivo indicando o n&uacute;mero de casos de testes. Depois segue-se uma linha em branco.</p>
+<p>Tamb&eacute;m existir&aacute; uma linha em branco entre cada caso de teste consecutivo.</p>
+<p>Cada caso de teste consiste de v&aacute;rias linhas, criptografada conforme descrito no problema. As linhas criptografadas cont&eacute;m somente letras min&uacute;sculas e espa&ccedil;os. Elas n&atilde;o excedem 80 caracteres no tamanho. Podem existir no m&aacute;ximo 100 linhas para cada caso de teste.</p>
+Formato da saída: <p>Para cada caso de teste, decodifique a linha e imprima na sa&iacute;da padr&atilde;o.</p>
+<p>Se n&atilde;o for poss&iacute;vel decodificar, imprima:</p>
+<p>No solution.</p>
+<p>A sa&iacute;da de dois casos de testes consecutivos deve ser separada por uma linha em branco.</p>

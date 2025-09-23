@@ -1,0 +1,5 @@
+Título: Contar eficientemente uma substring na string
+Topicos do problema: substrings; requer solução eficiente; string; 
+Descrição: <p>No Huxley, existe uma versão desse problema sem a necessidade de uma solução eficiente: https://www.thehuxley.com/problem/252.</p><p>Entretanto, aqui, queremos que você resolva o mesmo problema só que no máximo em O(n), onde n é o tamanho da string.</p><p>Dada uma string s com n (1&lt;=n&lt;=2000000) caracteres e uma string p com m (1&lt;=m&lt;=2000000, m &lt;=n) caracteres, imprima os índices iniciais em que a string p ocorre em s.<br/></p>
+Formato da entrada: <p>Consiste de duas linhas.</p><p>Na primeira você receberá a string s, onde s não contém espaços.</p><p>Na segunda você receberá a string p, que também não contém espaços.<br/></p>
+Formato da saída: <p>Para cada vez que você encontrar p em s, você deve imprimir uma linha contendo o inteiro correspondendo ao índice onde a string p ocorre em s.</p><p>Por exemplo:</p><p>s= abacate</p><p>p= ate</p><p>Logo, você deverá imprimir:</p><p>4</p><p><br/></p><p>Caso, p não seja encontrado em s, imprima -1<br/></p>

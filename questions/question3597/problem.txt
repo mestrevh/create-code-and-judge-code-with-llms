@@ -1,0 +1,5 @@
+Título: Do you like trees?
+Topicos do problema: Árvore; programação dinâmica; 
+Descrição: <p>Você recebe uma árvore com n nós e n - 1 arestas. </p><p>Seja i e j dois nós distintos da árvore no qual j &gt; i e uma função f, vamos definir f(i, j) como:</p><p><b>se dist(i, j) == d, logo f(i, j) = 0.</b></p><p><b>se dist(i, j) &lt; d, logo f(i, j) = dist(i, j).</b></p><p>Na qual dist(i, j) denota a distância entre os nós i e j. Além disso, d denota o diametro da árvore (o comprimento do caminho mais longo entre quaisquer dois nós na árvore).</p><p>Sabendo disso, a sua missão é calcular a soma de todos os f(i, j) para todos os pares de nós (i, j) nos quais j &gt; i.</p><p><b>OBS: É garantido que o diametro da árvore será &lt;= 500.</b></p>
+Formato da entrada: <p>Inicialmente irá ter um inteiro (2 &lt;= n &lt;= 100000) indicando a quantidade de nós da árvore.</p><p>Em seguida virão n - 1 linhas, para cada linha terão 2 inteiros (1 &lt;= a, b &lt;= n) indicando uma aresta existente nessa árvore.</p>
+Formato da saída: <p>Imprima um único inteiro equivalente a soma de todos os f(i, j) para todos os pares de nós (i, j) com j &gt; i.</p>

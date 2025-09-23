@@ -1,0 +1,5 @@
+Título: Q10 - Odenação de Lista de números
+Topicos do problema: função; ordenação; 
+Descrição: <p><span>Escreva uma função chamada &#34;ordenar&#34; que recebe uma lista de 7 números e retorna essalista ordenada do menor para o maior.</span></p><p><span>OBS.: Não use o método sort ou o sorted. É sério. Eu vou estar vendo cada submissão... Não duvide.</span></p>
+Formato da entrada: <p>uma sequência de 7 números</p>
+Formato da saída: <p>A lista ordenada do menor para o maior número</p>

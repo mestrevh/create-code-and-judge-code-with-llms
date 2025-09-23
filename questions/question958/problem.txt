@@ -1,0 +1,5 @@
+Título: Formatando número real como moeda
+Topicos do problema: ponto flutuante; string; formatação; 
+Descrição: <p>Escreva um programa que leia um número real (ponto flutuante) não negativo e imprima na linha seguinte o mesmo formatado como um valor monetário, usando ponto de milhar e vírgula para separar a parte decimal. Utilize 2 casas decimais.Para resolução da questão,<u> você deve utilizar uma função chamada formatar_dinheiro que recebe como único parâmetro o valor real. Esta função deve retornar uma string com o valor no formato esperado para a impressão.</u></p>
+Formato da entrada: <p>Uma linha contendo um número real (ponto flutuante) que representa o valor monetário.<br/></p>
+Formato da saída: <p>O valor monetário no formato abaixo (com um espaço em branco entre o $ e o primeiro dígito):R$ 999.999.999,99 <br/></p>

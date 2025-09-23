@@ -1,0 +1,23 @@
+Título: Intercalar um array
+Topicos do problema: array; intercalação; 
+Descrição: <p>Voc&ecirc; deve intercalar dois arrays de n&uacute;meros inteiros.</p>
+Formato da entrada: <p>Na primeira linha voc&ecirc; receber&aacute; um n&uacute;mero inteiro n indicando o tamanho de cada um dos arrays.</p>
+<p>As pr&oacute;ximas n linhas correspondem aos elementos do primeiro array.</p>
+<p>Depois seguir&atilde;o mais n linhas correspondendo aos elementos do segundo array.</p>
+Formato da saída: <p>Voc&ecirc; deve imprimir 2n linhas com os arrays intercalados. Por exemplo, se a entrada for:</p>
+<p>3</p>
+<p>1</p>
+<p>5</p>
+<p>9</p>
+<p>2</p>
+<p>4</p>
+<p>8</p>
+<p>&nbsp;</p>
+<p>Voc&ecirc; deve imprimir:</p>
+<p>1</p>
+<p>2</p>
+<p>5</p>
+<p>4</p>
+<p>9</p>
+<p>8</p>
+<p>&nbsp;</p>

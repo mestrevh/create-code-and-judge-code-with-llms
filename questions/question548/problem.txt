@@ -1,0 +1,9 @@
+Título: Pilhas com Listas
+Topicos do problema: estrutura de dados; pilha; alocação dinâmica; 
+Descrição: <pre class="aLF-aPX-K0-aPE" style="-webkit-user-select: text; font-family: 'Courier New', Courier, monospace, arial, sans-serif; font-size: 14px; margin: 0px; white-space: pre-wrap; word-wrap: break-word;">Implemente uma pilha na qual cada item seja um número variável de inteiros. Escolha uma estrutura de dados em C para essa pilha e elabore rotinas push e pop para ela.</pre>
+Formato da entrada: <pre class="aLF-aPX-K0-aPE">Uma sequência de comandos POP ou PUSH.</pre>&#13;<pre class="aLF-aPX-K0-aPE"> &#10;Seguida de uma lista de inteiros na linha seguinte, caso o comando seja PUSH.</pre>
+Formato da saída: <pre class="aLF-aPX-K0-aPE" style="-webkit-user-select: text; font-family: 'Courier New', Courier, monospace, arial, sans-serif; font-size: 14px; margin: 0px; white-space: pre-wrap; word-wrap: break-word;">A cada comando POP, imprimir a lista de inteiros que estava no topo da pilha.</pre>
+<pre class="aLF-aPX-K0-aPE" style="-webkit-user-select: text; font-family: 'Courier New', Courier, monospace, arial, sans-serif; font-size: 14px; margin: 0px; white-space: pre-wrap; word-wrap: break-word;"> 
+Se a pilha estiver vazia, imprima: EMPTY STACK
+
+Verifique o exemplo de entrada-saida.</pre>

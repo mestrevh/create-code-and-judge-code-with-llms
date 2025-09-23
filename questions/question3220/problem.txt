@@ -1,0 +1,5 @@
+Título: Inverta os dígitos de um inteiro de 5 dígitos
+Topicos do problema: estrutura de dados; lógica matemática; alocação dinâmica; 
+Descrição: <p>Inverta os digitos de um numero inteiro de 5 digitos.</p>
+Formato da entrada: <p>12345</p>
+Formato da saída: <p>54321</p>

@@ -1,0 +1,5 @@
+Título: Ambrósio e os Aliens
+Topicos do problema: geometria computacional; 
+Descrição: <p>Ambrósio acredita em Aliens e quer fazer contato com eles, ele também acredita que os aliens podem se comunicar com os humanos através de imagens de polígonos regulares, então ambrósio pretende fazer um desenho de um polígono regular em sua plantação de milho.</p><p>Como o desenho tem que ser grande para que os aliens possam ver, ambrósio comprou uma máquina potente para fazer o desenho na plantação, porém a máquina só faz curvas com um determinado ângulo A.</p><p><br/></p><p>Dado o ângulo A, determine se ambrósio conseguirá desenhar seu polígono regular</p>
+Formato da entrada: <p>A entrada consiste em um número T (0 &lt; T &lt; 180) informando a quantidade de casos </p><p>Seguem T linhas cada uma com o ângulo A ( 0 &lt; A &lt; 180) .</p>
+Formato da saída: <p>Para cada ângulo imprima SIM se ambrósio consegue fazer o desenho ou NAO caso contrário, um por linha.</p>

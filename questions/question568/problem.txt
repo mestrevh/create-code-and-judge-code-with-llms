@@ -1,0 +1,5 @@
+Título: Ano Bissexto
+Topicos do problema: datas/horas; 
+Descrição: <p>Chama-se ano bissexto o ano ao qual é acrescentado um dia extra, ficando ele com 366 dias, um dia a mais do que os anos normais de 365 dias, ocorrendo a cada quatro anos (exceto anos múltiplos de 100 que não são múltiplos de 400).<br/></p><p>Faça um programa que indique se o ano digitado é bissexto.</p>
+Formato da entrada: <p>Um número inteiro correspondendo ao ano.<br/></p>
+Formato da saída: <p>Se o ano for bissexto imprima:</p><p>BISSEXTO</p><p>Caso não seja, imprima:</p>NAOBISSEXTO<br/><br/>(perceba que não tem o acento)<br/>

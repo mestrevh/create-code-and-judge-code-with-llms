@@ -1,0 +1,5 @@
+Título: Count Sort
+Topicos do problema: ordenação; 
+Descrição: <p>Faça a ordenação de uma lista de números.<br/></p>
+Formato da entrada: <p>Terá uma única linha com todos os valores inteiros.</p><p><br/></p><ul><li><b>N </b>indica a quantidade de elementos na linha</li><li>1 &lt;= <b>N</b> &lt;= 500000<br/></li><li>0 &lt;= <b>Ni</b> &lt;= 10^7<br/></li></ul>
+Formato da saída: <p>Imprima um elemento por linha com a lista ordenada.<br/></p>

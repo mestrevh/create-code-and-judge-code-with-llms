@@ -1,0 +1,36 @@
+imprimindo tabela hash:
+[0]:0=>11=>55=>
+[1]:1=>34=>
+[2]:2=>13=>
+[3]:Lista vazia!
+[4]:Lista vazia!
+[5]:5=>16=>
+[6]:Lista vazia!
+[7]:7=>
+[8]:Lista vazia!
+[9]:9=>
+[10]:Lista vazia!
+imprimindo tabela hash:
+[0]:99=>
+[1]:34=>
+[2]:2=>13=>
+[3]:Lista vazia!
+[4]:Lista vazia!
+[5]:5=>16=>
+[6]:Lista vazia!
+[7]:7=>
+[8]:Lista vazia!
+[9]:9=>
+[10]:Lista vazia!
+BUSCA POR 99
+numero de elementos da tabela hash: 8
+elemento 99 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 13
+numero de elementos da tabela hash: 8
+elemento 13 encontrado!
+numero de elementos acessados na tabela hash: 2
+BUSCA POR 8
+numero de elementos da tabela hash: 8
+elemento nao encontrado!
+numero de elementos acessados na tabela hash: 0

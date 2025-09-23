@@ -1,0 +1,7 @@
+Título: Leitor Voraz
+Topicos do problema: acumulador; decisão; repetição; 
+Descrição: <p>Vinicius &eacute; um leitor voraz que chega a ler 3 livros por m&ecirc;s!! Ele ganhou um livro novo e resolveu calcular quantas p&aacute;ginas ele conseguiria ler em uma semana.</p>
+<p>Escreva um programa que receba como entrada o total de p&aacute;ginas do livro, e a cada dia o n&uacute;mero da p&aacute;gina em que ele parou a leitura, e exiba ao final quantas p&aacute;ginas foram lidas, e qual a maior quantidade que ele conseguiu ler em um &uacute;nico dia.</p>
+Formato da entrada: <p>N&uacute;meros inteiros</p>
+<p>Dica: considere que ele nunca deixa p&aacute;ginas pela metade, sempre l&ecirc; at&eacute; o fim</p>
+Formato da saída: <p>Dois n&uacute;meros inteiros</p>

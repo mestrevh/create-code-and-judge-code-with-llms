@@ -1,0 +1,5 @@
+Título: Chandu e letras consecutiva
+Topicos do problema: substrings; string; 
+Descrição: <p>Chandu tem fascínio por strings e as classificou em Good string e Bad string.</p><p>- Good string : Não possui letras consecutivas iguais.</p><p>- Bad string : Contém letras consecutivas iguais.</p><p>Dado uma string <b>S </b>converta ela para Good string.</p><p>Você só tem um tipo de operação: Se duas letras consecutivas são iguais, elimine uma delas.<br/></p>
+Formato da entrada: <p>A primeira linha contém um inteiro T, indica o número de casos de testes.</p><p>Cada caso de teste terá uma linha com uma string S.</p><p>A string só possui letras minúsculas. <br/></p>
+Formato da saída: <p>Cada caso de teste imprima uma linha com Good string da palavra.<br/></p>

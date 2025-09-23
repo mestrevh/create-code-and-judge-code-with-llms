@@ -1,0 +1,9 @@
+Título: Pedra, Papel e Tesoura
+Topicos do problema: simulação de jogos; função; 
+Descrição: <p>Miguel e Maria Rita s&atilde;o irm&atilde;os e sempre brigam para resolver quem tem que fazer o qu&ecirc; no apartamento que dividem. Ent&atilde;o, eles decidiram usar um jogo chamado Pedra, Papel e Tesoura para tomar decis&otilde;es.</p>
+<p>Nesse jogo, cada um tem que escolher que escolher um dos elementos e, de acordo com as regras abaixo, &eacute; definido um vencedor:</p>
+<p>- Papel enrola Pedra (Papel ganha)<br />- Pedra amassa Tesoura (Pedra ganha)<br />- Tesoura corta Papel (Tesoura ganha)<br /><br />Se forem colocados dois s&iacute;mbolos iguais, o jogo fica empatado.<br /><br />Para decidir quem vai lavar a lou&ccedil;a durante a semana inteira, eles resolveram fazer um campeonato: em 5 partidas sem empates, quem conseguir mais vit&oacute;rias vence e se livra da obriga&ccedil;&atilde;o.</p>
+<p>Escreva um programa que receba como entrada as escolhas de cada irm&atilde;o a cada partida, e no final exiba o nome daquele que ter&aacute; que lavar os pratos sujos.</p>
+Formato da entrada: <p>V&aacute;rios valores String que poder&atilde;o estar escritos de qualquer maneira<br /><br />Observe que ser&atilde;o 5 partidas sem empate. Caso haja empate, a partida dever&aacute; ser jogada novamente</p>
+Formato da saída: <p>O nome de um dos irm&atilde;os em letras mai&uacute;sculas</p>
+<p>Perceba que quem ganhar o jogo n&atilde;o lavar&aacute; pratos</p>

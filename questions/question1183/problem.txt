@@ -1,0 +1,5 @@
+Título: Anagrama de uma frase
+Topicos do problema: repetição; string; 
+Descrição: <p>Faça um programa que identifica se uma frase é anagrama de outra. Duas strings são anagramas uma da outra se elas usam exatamente as mesmas letras, desconsiderando os espaços em branco e pontuação.</p>
+Formato da entrada: <p>Duas strings, para que seja verificado se são anagramas uma da outra. Você deve ignorar a capitalização. Letras maiúsculas e minúsculas são consideradas iguais.</p><p>Além de espaços em branco, as strings de entrada podem conter a seguinte pontuação:</p><ul><li>Ponto &#34;.&#34;</li><li>Vírgula &#34;,&#34;</li><li>Exclamação &#34;!&#34;</li><li>Interrogação &#34;?&#34;</li></ul>
+Formato da saída: <p>Um valor booleano que indica se as strings são anagramas uma da outra.</p>

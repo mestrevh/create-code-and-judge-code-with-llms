@@ -1,0 +1,26 @@
+Título: Eleições em Ambrolândia
+Topicos do problema: array; acumulador; 
+Descrição: <p>
+<p>Escreva um programa que transforme o computador numa urna eletr&ocirc;nica para elei&ccedil;&atilde;o, em segundo turno, para presidente de um pa&iacute;s chamado Ambrol&acirc;ndia. Nessas elei&ccedil;&otilde;es concorrem os candidatos 83-Alibab&aacute; e 93-Alcapone. Cada voto deve ser dado pelo n&uacute;mero do candidato, permitindo-se ainda o voto 0 para voto em branco. Qualquer voto diferente dos j&aacute; citados &eacute; considerado nulo. No final da elei&ccedil;&atilde;o o programa deve emitir um relat&oacute;rio contendo a vota&ccedil;&atilde;o de cada candidato, a quantidade votos em branco, a quantidade de votos nulos e o candidato eleito e os respectivos percentuais.</p>
+<p>Em Ambrol&acirc;ndia, o percentual de votos &eacute; calculado considerando os votos v&aacute;lidos. O voto nulo n&atilde;o &eacute; considerado um voto v&aacute;lido. Entretanto, o voto em branco &eacute; considerado um voto v&aacute;lido.</p>
+</p>
+Formato da entrada: <p>
+<p>A entrada consiste de um conjunto de n&uacute;meros inteiros, um por linha. A elei&ccedil;&atilde;o termina quando o n&uacute;mero digitado &eacute; -1.</p>
+<p>O n&uacute;mero de inteiros dados &eacute; maior que um e menor que cem milh&otilde;es.</p>
+<p>Considere tamb&eacute;m que cada candidato tem pelo menos um voto.</p>
+</p>
+Formato da saída: <p>
+<p>A sa&iacute;da consiste de um relat&oacute;rio impresso no seguinte formato:</p>
+<p>x</p>
+<p>y</p>
+<p>z</p>
+<p>w</p>
+<p>k</p>
+<p>a</p>
+<p>b</p>
+<p>&nbsp;</p>
+<p>Onde, x &eacute; quantidade de votos do candidato Alibab&aacute;, y a quantidade de votos do candidato Alcapone, z a quantidade de votos em branco, w a quantidade de votos nulos, k &eacute; o n&uacute;mero 83 ou 93 indicando qual foi o candidato vencedor, a &eacute; o percentual de votos do candidato Alibab&aacute; e b &eacute; o percentual de votos do candidato Alcapone.</p>
+<p>O percentual de votos deve ser impresso com duas casas decimais e sem o sinal de porcentagem. Exemplo, para representar trinta e quatro ponto vinte e cinco porcento voc&ecirc; deve imprimir: 34.25</p>
+<p>&nbsp;</p>
+<p>Considere tamb&eacute;m que sempre haver&aacute; um candidato vencedor, ou seja, nunca haver&aacute; um empate.</p>
+</p>

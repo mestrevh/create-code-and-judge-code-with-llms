@@ -1,0 +1,5 @@
+Título: Maior e menor elemento de um array
+Topicos do problema: array; decisão; repetição; ponteiro; 
+Descrição: <p>Faça um programa que imprime na tela o menor e o maior elemento de um array de 6 inteiros.</p><p>Você deve ter duas funções (uma para o menor e outra para o maior) que recebem como parâmetro um ponteiro para o array.</p>
+Formato da entrada: <p>Os 6 valores que serão inseridos no array, linha a linha.</p>
+Formato da saída: <p>O menor e o maior valor do array em duas linhas, respectivamente.</p>

@@ -1,0 +1,5 @@
+Título: Maior Idade
+Topicos do problema: decisão; 
+Descrição: <title></title><ul class="ul1"><li class="li1"><span class="s1"></span><span class="s2">Leia a idade de uma pessoa e determine se a pessoa é maior ou menor de idade</span></li></ul>
+Formato da entrada: <p>Idade - numero inteiro</p>
+Formato da saída: <p>Maior ou menor de idade.</p>

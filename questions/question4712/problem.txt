@@ -1,0 +1,5 @@
+Título: Q06 - Operações entre dois números
+Topicos do problema: lógica matemática; função; 
+Descrição: <p>crie um procedimento chamado &#34;calculadora&#34; que recebe dois números A e B que mostre:]</p><p>a soma deles;</p><p>a diferença deles;</p><p>a multiplicação entre eles;</p><p>a divisão entre eles;</p><p>da seguinte maneira:</p><p>A + B = C</p><p>B - A = D</p><p>A * B = E</p><p>B / A = F</p><p>Qual C, D, E e F são os resultados dessas operações<br/></p><p>em caso de A for 0, mostre a, na parte de divisão:<br/><br/>&#34;B / A = Indeterminado&#34;</p>
+Formato da entrada: <p>dois números reais</p>
+Formato da saída: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">A + B = C</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">B - A = D</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">A * B = E</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">B / A = F</p>

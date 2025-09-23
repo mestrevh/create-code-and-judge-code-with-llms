@@ -1,0 +1,13 @@
+Título: Substituição de caracteres em uma string
+Topicos do problema: array; substrings; caractere; 
+Descrição: <p>Fa&ccedil;a um programa que leia uma string e dois caracteres. Troque todas as ocorr&ecirc;ncias do primeiro caracter pelo segundo. Exemplo: Seja a string "maracatu" e os caracteres 'a' e 'o', ent&atilde;o a string ficar&aacute; "morocotu".</p>
+Formato da entrada: <p>Voc&ecirc; receber&aacute; 03 linhas.&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+<li>Primeira linha: a string</li>
+<li>Segunda linha: o primeiro caracter</li>
+<li>Terceira linha: o segundo caracter</li>
+</ul>
+<div>A string possui no m&aacute;ximo 100 caracteres.</div>
+<p>&nbsp;</p>
+Formato da saída: <p>Imprima a palavra resultante da substitui&ccedil;&atilde;o dos caracteres na string original. Imprima um final de linha depois da palavra.</p>

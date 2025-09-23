@@ -1,0 +1,6 @@
+Título: Calculadora
+Topicos do problema: acumulador; caractere; 
+Descrição: <p>Ambr&oacute;sio est&aacute; ficando craque em matem&aacute;tica e para provar suas habilidades resolveu fazer uma calculadora. A calculadora deve ser capaz de efetuar as 04 opera&ccedil;&otilde;es aritm&eacute;ticas (adi&ccedil;&atilde;o, subtra&ccedil;&atilde;o, multiplica&ccedil;&atilde;o e divis&atilde;o).</p>
+Formato da entrada: <p>Consiste de 02 n&uacute;meros reais, um em cada linha, seguidos de um caractere representando a opera&ccedil;&atilde;o a ser executada. Depois, consiste de uma sequ&ecirc;ncia de&nbsp;um n&uacute;mero real seguido de um caractere, tamb&eacute;m um em cada linha. A entrada termina quando o caractere &amp; for lido.</p>
+<p>Perceba que sempre o &uacute;ltimo n&uacute;mero lido deve ser ignorado, pois ele precede o caractere &amp;.</p>
+Formato da saída: <p>Consiste em uma sequencia de n&uacute;meros reais, um em cada linha, representando o resultado da opera&ccedil;&atilde;o escolhida. A partir do terceiro n&uacute;mero lido, o resultado&nbsp;deve ser obtido utilizando-se o valor da opera&ccedil;&atilde;o anterior. Caso a opera&ccedil;&atilde;o n&atilde;o seja poss&iacute;vel, deve ser impresso "operacao nao pode ser realizada". Os n&uacute;meros devem ser impressos com 03 casas decimais.</p>

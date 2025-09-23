@@ -1,0 +1,10 @@
+Título: Líder do Grupo da Copa
+Topicos do problema: decisão; string; 
+Descrição: <p><span style="font-family: verdana,geneva; font-size: small;"><span style="font-family: verdana,geneva; font-size: x-small;"><span style="font-size: x-small;"><span style="font-family: arial black,avant garde; font-size: small;"><span style="font-size: x-small;">Na Copa do Mundo, os times s&atilde;o organizados em grupos que disputam as vagas para a pr&oacute;xima fase. Para definir qual time ser&aacute; o l&iacute;der do grupo, primeiro analisa-se a quantidade de pontos. Em caso de empate, o pr&oacute;ximo crit&eacute;rio &eacute; o saldo de gols. Se mesmo assim n&atilde;o for poss&iacute;vel definir, s&atilde;o considerados os gols feitos.<br /><br />Escreva um programa que receba como entrada o nome e essas tr&ecirc;s informa&ccedil;&otilde;es de dois times, e exiba o nome do time vencedor do grupo (em letras min&uacute;sculas). Caso nenhum dos crit&eacute;rios seja capaz de definir o vencedor, o programa dever&aacute; exibir a mensagem EMPATE (em mai&uacute;sculas).</span></span></span><span style="font-family: arial black,avant garde; font-size: small;"><br /></span></span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: verdana,geneva; font-size: small;"><span style="font-family: verdana,geneva; font-size: x-small;"> </span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial black,avant garde; font-size: small;"><br /></span></p>
+<p><span style="font-family: arial black,avant garde; font-size: small;"> </span></p>
+Formato da entrada: <p><span style="font-family: verdana,geneva; font-size: x-small;"><span style="font-size: x-small;">A entrada consiste em 8 valores, sendo um String, seguido por tr&ecirc;s inteiros, para um time, e depois o mesmo para o outro</span><br /></span></p>
+Formato da saída: <p><span style="font-family: verdana,geneva; font-size: x-small;">Um String em min&uacute;sculas com o nome do time vencedor, ou um String em mai&uacute;sculas com a palavra EMPATE.</span></p>

@@ -1,0 +1,9 @@
+Título: Banco de Dados
+Topicos do problema: array; estruturas; 
+Descrição: <p>A empresa WOOF est&aacute; entrando no mercado das redes sociais. S&oacute; que ela precisa de um banco de dados para armazenar os dados dos seus usu&aacute;rios.<br />O dono da empresa &eacute; muito amigo seu, e sabe que voc&ecirc; &eacute; um &oacute;timo programador, logo, te chamou para implementar esse banco de dados.<br />As informa&ccedil;&otilde;es dos usu&aacute;rios que voc&ecirc; deve guardar s&atilde;o:</p>
+<p>Idade.<br />Nome.<br />Sexo.<br />Estado civil.<br />Quantidade de amigos.<br />Quantidade de fotos.</p>
+Formato da entrada: <p>Voc&ecirc; vai receber os dados do usu&aacute;rio:</p>
+<p>Um inteiro, representando a quantidade de usu&aacute;rios a serem adicionados ao banco de dados.</p>
+<p>Um inteiro, contendo a idade.<br />Uma string, de at&eacute; 50 caracteres, contendo o nome.<br />Um caractere, sendo ele M ou F, que &eacute; o sexo.<br />Uma caractere, simbolizando o estado c&iacute;vil:<br />&nbsp;S - Solteiro, C - Casado. N - Namorando. D - Divorciado.<br />Um inteiro, representando o n&uacute;mero de amigos.<br />Um inteiro, representando a quantidade de fotos que est&atilde;o no perfil.</p>
+Formato da saída: <p>Imprimir as informa&ccedil;&otilde;es de todos os usu&aacute;rios, na sequencia em que eles foram adicionados, uma por linha.</p>
+<p>Deve haver uma quebra de linha entre os casos de testes e ao fim do programa.</p>

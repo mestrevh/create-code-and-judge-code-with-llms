@@ -1,0 +1,5 @@
+Título: Ticket da sorte
+Topicos do problema: array; 
+Descrição: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Números de ticket normalmente consistem em números com uma quantidade par de dígitos. Um ticket é considerado &#34;da sorte&#34; if a soma da primeira metade dos dígitos é igual à soma da segunda metade dos dígitos.</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Dado um número de ticket fornecido pelo usuário, determine se o ticket é &#34;da sorte&#34; ou não.</p>
+Formato da entrada: <p>O usuário deve fornecer uma única entrada com o número do ticket.</p>
+Formato da saída: <p>A resposta do programa deve ser True para tickets da sorte e False para os tickets não considerados da sorte.</p>

@@ -1,0 +1,16 @@
+Título: Guarda costeira
+Topicos do problema: geometria computacional; lógica matemática; maratona; 
+Descrição: <p>"Pega ladr&atilde;o! Pega ladr&atilde;o"</p>
+<p>Roubaram a bolsa de uma inocente senhora que caminhava&nbsp;na praia da Nlog&ocirc;nia e o ladr&atilde;o fugiu em dire&ccedil;&atilde;o ao mar. Seu plano parece &oacute;bvio: ele pretende&nbsp;pegar um barco e escapar!</p>
+<p>O fugitivo, que a essa altura j&aacute; est&aacute; a bordo de sua embarca&ccedil;&atilde;o de fuga, pretende seguir perpendicularmente &agrave; costa em dire&ccedil;&atilde;o ao limite de &aacute;guas internacionais, que est&aacute; a 12 milhas&nbsp;n&aacute;uticas de dist&acirc;ncia, onde estar&aacute; s&atilde;o e salvo das autoridades locais. Seu barco consegue&nbsp;percorrer essa dist&acirc;ncia a uma velocidade constante de VF n&oacute;s.</p>
+<p>A Guarda Costeira pretende intercept&aacute;-lo, e sua embarca&ccedil;&atilde;o tem uma velocidade constante&nbsp;de VG n&oacute;s. Supondo que ambas as embarca&ccedil;&otilde;es partam da costa exatamente no mesmo instante,&nbsp;com uma dist&acirc;ncia de D milhas n&aacute;uticas entre elas, ser&aacute; poss&iacute;vel a Guarda Costeira alcan&ccedil;ar o&nbsp;ladr&atilde;o antes do limite de &aacute;guas internacionais?</p>
+<p>Assuma que a costa da Nlog&ocirc;nia &eacute; perfeitamente retil&iacute;nea e o mar bastante calmo, de forma&nbsp;a permitir uma trajet&oacute;ria t&atilde;o retil&iacute;nea quanto a costa.</p>
+Formato da entrada: <p>A entrada &eacute; composta por diversos casos de teste. Cada caso de teste &eacute; descrito em um linha&nbsp;contendo tr&ecirc;s inteiros, D, VF e VG, indicando respectivamente a dist&acirc;ncia inicial entre o fugitivo&nbsp;e a Guarda Costeira, a velocidade da embarca&ccedil;&atilde;o do fugitivo e a velocidade da embarca&ccedil;&atilde;o da&nbsp;Guarda Costeira.</p>
+<p>A entrada encerra quando D, VF e VG forem -1</p>
+<p>Restri&ccedil;&otilde;es:</p>
+<ul>
+<li>1&lt;= D &lt;= 100</li>
+<li>1 &lt;= VF &lt;= 100</li>
+<li>1 &lt;= VG &lt;= 100</li>
+</ul>
+Formato da saída: <p>Para cada caso de teste imprima uma linha contendo 'S' se for poss&iacute;vel que a Guarda Costeira alcance o fugitivo antes que ele ultrapasse o limite de &aacute;guas internacionais ou 'N' caso contr&aacute;rio.</p>

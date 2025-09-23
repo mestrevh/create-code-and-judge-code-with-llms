@@ -1,0 +1,10 @@
+Título: Reformando a sala
+Topicos do problema: acumulador; decisão; string; 
+Descrição: <p><span style="font-size: small;">Marion decidiu mudar a decora&ccedil;&atilde;o de sua casa come&ccedil;ando pela sala. Ela comprou m&oacute;veis e objetos novos, mas acabou perdendo a conta dos gastos. </span></p>
+<p><span style="font-size: small;">Escreva um programa que receba como entrada a descri&ccedil;&atilde;o e o valor pago por cada item adquirido, e exiba o total gasto e o nome do item mais caro comprado.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>Um String e um float para cada item comprado.</p>
+<p>A entrada de dados deve parar quando Marion informar a descri&ccedil;&atilde;o FIM (em mai&uacute;sculas ou min&uacute;sculas)</p>
+Formato da saída: <p>Um float com duas casas decimais e um String em letras mai&uacute;sculas.</p>
+<p>Esses dois valores devem ser separados por uma quebra de linha (enter)</p>

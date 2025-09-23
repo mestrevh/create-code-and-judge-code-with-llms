@@ -1,0 +1,5 @@
+Título: Banco dos Inimigos
+Topicos do problema: estruturas; 
+Descrição: <p>Voc&ecirc; est&aacute; fazendo o banco de dados do seu projeto de P1, que ser&aacute; um jogo, que vai conter informa&ccedil;&otilde;es de in&uacute;meros monstros e personagens,&nbsp;mas n&atilde;o possui nenhum conhecimento de SQL, logo, precisar&aacute; aproveitar algum recurso da linguagem C para fazer o banco de dados.</p>
+Formato da entrada: <p>Um inteiro X, representando a quantidade de personagens/monstros que constar&atilde;o no banco.<br />Os dados a serem colocados no banco:<br />Uma sequencia de caracteres, que poder&aacute; ter no m&aacute;ximo 20 caracteres, representando um nome.<br />5 inteiros, representando ID, Level, Vida, Ataque e Defesa.</p>
+Formato da saída: <p>Uma impress&atilde;o do seu banco de dados, com os dados organizados como o modelo de saida.</p>

@@ -1,0 +1,6 @@
+Título: Letra Maiuscula
+Topicos do problema: string; 
+Descrição: <p>Um professor de Portugu&ecirc;s estava corrigindo resumos de textos que seus alunos fizeram, por&eacute;m, encontrou uma falha grave em todos os textos. <br />No in&iacute;cio das frases e ap&oacute;s os pontos finais, a primeira letra estava escrita em letra min&uacute;scula.<br />Ao questionar seus alunos, descobriu que era um erro do editor de texto que todos usaram. <br />Como ele &eacute; muito seu amigo, e voc&ecirc; ficou sabendo desse problema que ele enfrentava ent&atilde;o se ofecereu para criar um algoritmo para corrigir esse erro.<br /><br />Crie um programa que troque os caracteres de inicio de frase e ap&oacute;s ponto final em min&uacute;sculo para mai&uacute;sculo.</p>
+Formato da entrada: <p>Voc&ecirc; receber&aacute; um inteiro, indicando quantas linha ter&aacute; o texto, e o texto, em forma de array de caracteres bidimensional.</p>
+Formato da saída: <p>O texto, na mesma ordem que veio na entrada, corrigido de acordo com a regra de letra mai&uacute;scula no inicio de frase e ap&oacute;s ponto final.</p>
+<p>Com uma quebra de linha ao fim.</p>

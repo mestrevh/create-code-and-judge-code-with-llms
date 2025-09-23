@@ -1,0 +1,5 @@
+Título: Interseção entre retas
+Topicos do problema: geometria computacional; 
+Descrição: <p>Dados dois pontos pertencentes a uma reta e dois pontos pertencentes a outra reta, indique em que ponto as duas retas se interceptam.Caso elas nunca se interceptem, escreva &#34;NUNCA&#34;.<br/></p>
+Formato da entrada: <p>Consiste de vários casos de teste.</p><p>Cada caso de teste possui duas linhas.</p><p>A primeira linha de cada caso de teste contém os dois pontos presentes na primeira reta: x1, y1, x2, y2 ( -10000 &lt;= x1, y1, x2, y2 &lt;=10000).</p><p>Os números inteiros são separados por espaços.</p><p>A segunda linha contém os dois pontos presentes na segunda reta:  x3, y3, x4, y4 ( -10000 &lt;= x3, y3, x4, y4 &lt;=10000).<br/></p>
+Formato da saída: <p>A saída deve ser o ponto em que as duas retas se interceptam. <br/></p><p>Consiste de dois números reais, formatados com duas casas decimais e separados por um espaço em branco.</p><p>Caso as retas não se interceptem, você deve imprimir: &#34;NUNCA&#34;<br/></p>

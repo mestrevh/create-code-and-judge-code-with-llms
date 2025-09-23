@@ -1,0 +1,5 @@
+Título: DFS: imprimindo as folhas
+Topicos do problema: grafo; 
+Descrição: <p>Dado um grafo direcionado acíclico, você deve:</p><ul><li> imprimir todas as folhas em ordem lexicográfica;</li><li>remover as folhas da árvore;</li><li>repetir o procedimento até que não existam mais nós.<br/></li></ul>
+Formato da entrada: <p>Consiste de vários casos de teste.</p><p>Cada caso de teste começa com uma linha contendo o inteiro n indicando o número linhas.</p><p>Cada linha possui duas strings A e B, indicando que existe uma aresta do nó A para o nó B. A e B possuem no máximo 15 caracteres formados pelas letras maiúsculas A..Z;</p><p><b>O número máximo de nós é 100.</b></p>
+Formato da saída: <p>Para cada caso de teste imprima uma linha contendo cada um dos nós folhas, de acordo com a descrição do problema.<br/></p>

@@ -1,0 +1,9 @@
+Título: Busca na internet
+Topicos do problema: 
+Descrição: <p>Jo&atilde;o fez uma pesquisa em seu site de busca predileto, e encontrou a resposta que estava<br />procurando no terceiro link listado. Al&eacute;m disso, ele viu, pelo site, que t pessoas j&aacute; haviam<br />clicado neste link antes. Jo&atilde;o havia lido anteriormente, tamb&eacute;m na Internet, que o n&uacute;mero<br />de pessoas que clicam no segundo link listado &eacute; o dobro de n&uacute;mero de pessoas que clicam<br />no terceiro link listado. Nessa leitura, ele tamb&eacute;m descobriu que o n&uacute;mero de pessoas que<br />clicam no segundo link &eacute; a metade do n&uacute;mero de pessoas que clicam no primeiro link.</p>
+<p>Jo&atilde;o est&aacute; intrigado para saber quantas pessoas clicaram no primeiro link da busca, e, como<br />voc&ecirc; &eacute; amigo dele, quer sua ajuda nesta tarefa.</p>
+Formato da entrada: <p>Cada caso de teste possui apenas um n&uacute;mero, t, que representa o n&uacute;mero de pessoas<br />que clicaram no terceiro link da busca.</p>
+<p>Considere:</p>
+<p>1 &lt;= t &lt;= 1000</p>
+Formato da saída: <p>Para cada caso de teste imprima apenas uma linha, contendo apenas um inteiro,<br />indicando quantas pessoas clicaram no primeiro link, nessa busca.</p>
+<p>&nbsp;</p>

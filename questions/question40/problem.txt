@@ -1,0 +1,5 @@
+Título: Coma bem
+Topicos do problema: lógica matemática; 
+Descrição: <p>Fa&ccedil;a um programa que leia um valor representando o gasto realizado por um cliente do restaurante COMABEM e imprima o valor total a ser pago,&nbsp;considerando os 10% do gar&ccedil;om.</p>
+Formato da entrada: <p>Consiste de um n&uacute;mero real representando o valor gasto do cliente.</p>
+Formato da saída: <p>Consiste de um n&uacute;mero real com duas casas decimais representando o total a ser pago considerando os 10% do gar&ccedil;om.</p>

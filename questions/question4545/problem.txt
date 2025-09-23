@@ -1,0 +1,5 @@
+Título: Igual à soma de dois elementos
+Topicos do problema: busca; 
+Descrição: <p>Dado um array de n números reais e outro número s, determine se o array contem dois elementos cuja soma seja s. Por exemplo, para o array <span>5,9, 1, 3 e s = 6, a resposta é sim, mas para o mesmo array e s = 7 a resposta é não.</span></p><p><span>Projete um algoritmo para este problema que tenha eficiência em tempo melhor do que quadrático.</span></p><p><span>Dica: Reduza o problema para o problema similar de verificar se há dois números cuja soma é zero.</span></p>
+Formato da entrada: <p>A quantidade n de números da sequência.</p><p>A sequência, um elemento por linha.</p><p>O número s.</p>
+Formato da saída: <p>O string &#34;SIM&#34; quando há dois elementos da sequência que somam s. &#34;NAO&#34;, caso contrário.</p>

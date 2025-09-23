@@ -1,0 +1,5 @@
+Título: Q06 - Contando palavras na frase
+Topicos do problema: função; string; 
+Descrição: <p>Crie uma função chamada &#34;contar_palavras_na_frase&#34; que informe quantas vezes a palavra digitada apareceu na frase</p><p>Ex:</p><p>que</p><p>eles sabiam que eu queria almoçar e que eu estava com fome<br/></p><p>saída: 2</p>
+Formato da entrada: <p>uma palavra</p><p>uma frase</p>
+Formato da saída: <p>Quantidade de vezes que a palavra apareceu na frase</p>

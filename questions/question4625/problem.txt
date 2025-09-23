@@ -1,0 +1,5 @@
+Título: Q2 - Quantas vezes x apareceu?
+Topicos do problema: array; acumulador; 
+Descrição: <p style="color: rgb(0, 0, 0);">Leia 10 números inteiros.</p><p style="color: rgb(0, 0, 0);">Depois leia mais um número inteiro x.</p><p style="color: rgb(0, 0, 0);">Sua missão é imprimir quantas vezes x apareceu entre os 10 primeiros inteiros lidos.</p>
+Formato da entrada: <p style="color: rgb(0, 0, 0);">11 linhas, cada uma contendo um inteiro.</p><p style="color: rgb(0, 0, 0);">A última linha é o número x a ser buscado.</p><p style="color: rgb(0, 0, 0);">Os inteiros são todos entre 0 e 10000.</p>
+Formato da saída: <p><span style="color: rgb(0, 0, 0);background-color: rgb(239, 239, 239);float: none;">Um número inteiro indicando quantas vezes x apareceu.</span><br/></p>

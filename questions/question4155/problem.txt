@@ -1,0 +1,5 @@
+Título: Operadores
+Topicos do problema: lógica matemática; 
+Descrição: <p>Após assistir sua primeira aula de introdução à programação, marquinhos decide criar um programa que demonstra o uso de operações matemáticas em C. Porém ele não conseguiu e pediu sua ajuda com o desafio!</p>
+Formato da entrada: <p>Dois números reais separados por espaço.</p>
+Formato da saída: <p>respectivamente a soma, subtração, produto e divisão dos 2 números digitados seguidos por uma quebra de linha.<br/><br/></p><p>OBS: os números devem ser separados por espaço e vírgula!</p>

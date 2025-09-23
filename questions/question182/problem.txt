@@ -1,0 +1,8 @@
+Título: Pneu
+Topicos do problema: 
+Descrição: <p>
+<p>Calibrar os pneus do carro deve ser uma tarefa cotidiana de todos os motoristas. Para isto, os postos de gasolina possuem uma bomba de ar. A maioria das bombas atuais s&atilde;o eletr&ocirc;nicas, permitindo que o motorista indique a press&atilde;o desejada num teclado. Ao ser ligada ao pneu, a bomba primeiro l&ecirc; a press&atilde;o atual e calcula a diferen&ccedil;a de press&atilde;o entre a desejada e a lida. Com esta diferen&ccedil;a ela esvazia ou enche o pneu para chegar na press&atilde;o correta.&nbsp;</p>
+<p>Sua ajuda foi requisitada para desenvolver o programa da pr&oacute;xima bomba da SBC &ndash; Sistemas de Bombas Computadorizadas. Escreva um programa que, dada a press&atilde;o desejada digitada pelo motorista e a press&atilde;o do pneu lida pela bomba, indica a diferen&ccedil;a entre a press&atilde;o desejada e a press&atilde;o lida.&nbsp;</p>
+</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m um inteiro N que indica a press&atilde;o desejada pelo motorista (1 &lt;= N &lt;= 40). A segunda linha cont&eacute;m um inteiro M que indica a press&atilde;o lida pela bomba (1 &lt;= M &lt;= 40).&nbsp;</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha, contendo a diferen&ccedil;a entre a press&atilde;o desejada e a press&atilde;o lida.</p>

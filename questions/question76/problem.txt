@@ -1,0 +1,7 @@
+Título: Correção de Provas
+Topicos do problema: array; acumulador; decisão; lógica matemática; caractere; string; 
+Descrição: <p>Fa&ccedil;a um programa para corrigir provas de m&uacute;ltipla escolha. Cada prova tem 10 quest&otilde;es, cada quest&atilde;o valendo um ponto. O primeiro conjunto de dados a ser lido &eacute; o gabarito para a corre&ccedil;&atilde;o da prova. Depois ser&atilde;o dados os n&uacute;meros dos alunos e suas respectivas respostas. O programa encerra a entrada quando o n&uacute;mero de um aluno dado for igual a 9999</p>
+Formato da entrada: <p>Uma sequ&ecirc;ncia de 10 caracteres correspondendo ao gabarito. Depois &eacute; dada uma sequ&ecirc;ncia de n&uacute;meros inteiros representando o aluno e a uma sequencia de caracteres correspondendo a sua resposta.</p>
+Formato da saída: <p>Para cada aluno lido, na mesma ordem de leitura, deve ser impresso seu n&uacute;mero e sua nota. A nota deve ser formatada com uma casa decimal.</p>
+<p>Ao final, deve ser impresso a porcentagem de aprova&ccedil;&atilde;o, sabendo-se que a nota m&iacute;nima para aprova&ccedil;&atilde;o &eacute; de 6. O percentual deve ser impresso com uma casa decimal seguido do caractere %.</p>
+<p>Por fim, deve ser impressa a nota que teve a maior frequ&ecirc;ncia absoluta, ou seja, a nota que apareceu o maior n&uacute;mero de vezes (supondo a inexist&ecirc;ncia de empates).</p>

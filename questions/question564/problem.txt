@@ -1,0 +1,15 @@
+Título: Devagar, devagar, olhe o radar!!
+Topicos do problema: decisão; 
+Descrição: <p>O Getran resolveu instalar um radar no caminho entre a sua casa e a sua faculdade com o objetivo de limitar a velocidade dos carros em uma determinada via.</p>
+<p>Mas resolveram inovar e a velocidade da via pode ser alterada diariamente. Por exemplo, nos feriados, eles geralmente colocam a velocidade m&aacute;xima em 80Km/h. J&aacute; durante a semana, &eacute; comum que a velocidade m&aacute;xima seja de 60km/h.</p>
+<p>Para isso, placas digitais informam aos motoristas qual &eacute; a velocidade m&aacute;xima naquele momento.</p>
+<p>A tabela de penaliza&ccedil;&otilde;es para quem ultrapassar esse limite &eacute;:</p>
+<ul>
+<li>Velocidade at&eacute; 20% superior ao permitido: multa de R$ 85.13 e 4 pontos na carteira;</li>
+<li>Velocidade maior que 20% e at&eacute; 50% acima do permitido: multa de R$ 127.69 e 5 pontos na carteira;</li>
+<li>Velocidade acima de 50% do permitido: multa de R$ 574.62 , 7 pontos na carteira, apreens&atilde;o da carteira e suspens&atilde;o do direito de dirigir.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Voc&ecirc; ir&aacute; receber a velocidade m&aacute;xima da via, a velocidade do carro e deve calcular o valor da multa e quantos pontos na carteira o motorista perdeu, caso ele tenha ultrapassado o limite.</p>
+Formato da entrada: <p>Dois n&uacute;meros reais, separados por um final de linha, correspondendo &agrave; velocidade m&aacute;xima da via e a velocidade do ve&iacute;culo.</p>
+Formato da saída: <p>Você deve imprimir duas linhas.</p>&#13;<p>A primeira contém o valor da multa e a segunda o número de pontos da carteira.</p>&#13;<p>O valor da multa deve ser formatado com 2 casas decimais.</p><p>Caso o carro não ultrapasse a velocidade máxima, ainda assim você deve imprimir o valor da multa e o número de pontos da carteira, ou seja:</p><p>0.00</p><p>0</p><p><br/></p>

@@ -1,0 +1,5 @@
+Título: Counting Pairs
+Topicos do problema: lógica matemática; requer solução eficiente; 
+Descrição: <p>Ayalla tem um array A com N inteiros A[0], A[1], ..., A[N - 1]. Em um certo dia, ele estava brincando com esse array e fez várias perguntas a si mesmo. Cada pergunta pode ser descrita da seguinte maneira:</p><p>Ele pensou em um número inteiro K e se perguntou quantos pares (i, j) existem no array A, tal que, (A[i] + A[j]) é divisível por K e (i &lt; j).</p><p>Entretanto, Ayalla não fazia a mínima ideia de como responder essas perguntas. Sabendo disso, você pode responder as perguntas para Ayalla?</p>
+Formato da entrada: <p>A primeira linha da entrada terá um inteiro N indicando o tamanho do array A.<br/></p><p>A próxima linha vai N inteiros A[0], A[1], ..., A[N - 1], onde A[i] é o i-ésimo elemento do array.</p><p>Em seguida, vai ter um inteiro Q, indicando quantas perguntas Ayalla fez.</p><p>As próximas Q linhas vão ter um inteiro K.</p><p>1 &lt;= N &lt;= 10^5</p><p>1 &lt;= A[i] &lt;= 10^5</p><p>1 &lt;= K &lt;= 2 * 10^5</p>
+Formato da saída: <p>Q linhas, em cada uma delas, você deve imprimir a resposta para a i-ésima pergunta.</p>

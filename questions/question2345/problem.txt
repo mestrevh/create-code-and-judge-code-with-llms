@@ -1,0 +1,5 @@
+Título: Forma retângulo (função sem devolução)
+Topicos do problema: função; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetros quatro números naturais estritamente positivos<span> </span></span><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><i>a<span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">,</span><span> </span></i></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"><b style="color: rgb(0, 0, 0);"><i>b, c </i></b>e<b><i> d</i></b><span> simbolizando retas e</span> que exiba uma frase indicando se podem formar um retângulo</span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">. O PROGRAMA PRINCIPAL deverá ler os valores e a FUNÇÃO deverá exibir a frase.</span><br/></p>
+Formato da entrada: <p>10</p><p>20</p><p>30</p><p>40</p>
+Formato da saída: <p>nao formam um retangulo</p>

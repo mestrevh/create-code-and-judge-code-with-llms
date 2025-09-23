@@ -1,0 +1,6 @@
+Título: Lua Cheia
+Topicos do problema: datas/horas; entrada formatada; 
+Descrição: <p class="MsoNormal">Ambrósio resolveu perder a barriguinha dando uma corridinha na praia. Depois de alguns dias treinando, ele achou que já era hora de competir provas de curta distância. Mas onde ele mora, o sol é muito forte e, portanto, ele só corre a noite.</p>&#13;<p class="MsoNormal">Ele descobriu que existe uma corrida que ocorre a cada lua cheia. A lua cheia se repete a cada 30 dias, aproximadamente. Logo, se você souber a data da última lua cheia, conseguirá prever qual será a próxima.</p>&#13;<p class="MsoNormal">Escreva um programa que recebe a data da última lua cheia e imprime a data da próxima lua cheia.</p>&#13;<p class="MsoNormal" style="text-align: center;"><a href="https://thehuxley.com/api/v1/problems/image/c693ffe8853ff3de26345352e52e14d5.gif" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/c693ffe8853ff3de26345352e52e14d5.gif" border="0" width="224" height="224"/></a></p>
+Formato da entrada: <p>Voc&ecirc; receber&aacute; uma data no formato dd/mm/aaaa. Por exemplo: 12/05/2017</p>
+Formato da saída: <p>Voc&ecirc; deve imprimir a data da pr&oacute;xima lua cheia no formato dd/mm/aaaa. Por exemplo: 03/01/2001</p>
+<p>&nbsp;</p>

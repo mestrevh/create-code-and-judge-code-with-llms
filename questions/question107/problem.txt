@@ -1,0 +1,6 @@
+Título: Inverte digitos
+Topicos do problema: array; repetição; caractere; formatação; 
+Descrição: <p>Escreva um programa que recebe um n&uacute;mero inteiro e imprime esse n&uacute;mero na ordem inversa de seus d&iacute;gitos</p>
+Formato da entrada: <p>Uma sequ&ecirc;ncia de n&uacute;meros inteiros positivos. A entrada termina quando o n&uacute;mero inteiro passado for igual a zero.</p>
+Formato da saída: <p>Cada d&iacute;gito do n&uacute;mero ao contr&aacute;rio e entre os s&iacute;mbolos [].</p>
+<p>Nos casos em que o n&uacute;mero digitado possui zeros a esquerda, eles devem ser ignorados. Por exemplo, se o n&uacute;mero digitado for 001, voc&ecirc; deve imprimir [1] e n&atilde;o [1][0][0]. Se o n&uacute;mero for 000, ele deve imprimir [0].&nbsp;</p>

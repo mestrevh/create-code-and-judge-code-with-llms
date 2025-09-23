@@ -1,0 +1,8 @@
+Título: Escada
+Topicos do problema: acumulador; decisão; 
+Descrição: <p>O Shopping Boas Compras &ndash; SBC, atrav&eacute;s de sua pol&iacute;tica ambiental, est&aacute; preocupado com o consumo de energia<br />e, resolveu trocar todas as escadas rolantes por modelos mais modernos, que se desligam caso ningu&eacute;m esteja<br />utilizando, poupando energia.</p>
+<p><br />A nova escada rolante possui um sensor no in&iacute;cio. Toda vez que ela est&aacute; vazia e algu&eacute;m passa pelo sensor, a<br />escada come&ccedil;a a funcionar, parando de funcionar novamente ap&oacute;s 10 segundos se ningu&eacute;m mais passar pelo<br />sensor. Estes 10 segundos representam o tempo suficiente para levar algu&eacute;m de um n&iacute;vel ao outro.</p>
+<p><br />Preocupados em saber exatamente quanto de energia o shopping est&aacute; economizando, o gerente pediu sua ajuda.<br />Como eles sabem qual era o consumo da escada rolante antiga, eles te pediram para calcular o tempo que a<br />nova escada ficou funcionando.</p>
+<p>Dados os instantes, em segundos, em que passaram pessoas pela escada rolante, voc&circ;e deve calcular quantos<br />segundos ela ficou ligada.</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m um inteiro N que indica o n&uacute;mero de pessoas que o sensor detectou<br />(1 &lt;= N &lt;= 1000). As N linhas seguintes representam o instante em que a i-&eacute;sima pessoa passou pelo sensor e<br />cont&eacute;m um inteiro T (0 &lt;= T &lt;= 10000). Os tempos est&atilde;o em ordem crescente, sem repeti&ccedil;&otilde;es.</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha, contendo o tempo que a escada rolante ficou ligada.</p>

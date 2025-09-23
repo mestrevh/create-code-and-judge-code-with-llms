@@ -1,0 +1,17 @@
+Título: Média dos alunos
+Topicos do problema: acumulador; lógica matemática; 
+Descrição: <p>Fa&ccedil;a um programa que leia tr&ecirc;s notas (valores reais) de um aluno, calcule sua m&eacute;dia aritm&eacute;tica e imprima uma mensagem dizendo se o aluno foi aprovado,&nbsp;reprovado ou dever&aacute; fazer prova final. O crit&eacute;rio de aprova&ccedil;&atilde;o &eacute; o seguinte:&nbsp;</p>
+<ul>
+<li>Aprovado (m&eacute;dia &gt;= 7);</li>
+<li>Reprovado (m&eacute;dia &lt; 3);</li>
+<li>Prova final ( 3 &lt;= m&eacute;dia &lt; 7).</li>
+</ul>
+Formato da entrada: <p>03 n&uacute;meros reais separados por um final de linha.</p>
+Formato da saída: <p>Uma mensagem que pode ser:&nbsp;</p>
+<ul>
+<li>aprovado</li>
+<li>reprovado</li>
+<li>prova final</li>
+</ul>
+<p>Dependendo da situa&ccedil;&atilde;o do aluno.</p>
+<p>A sa&iacute;da deve terminar com uma quebra de linha.</p>

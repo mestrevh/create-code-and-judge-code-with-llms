@@ -1,0 +1,9 @@
+Título: Some dois números grandes!!
+Topicos do problema: array; string; 
+Descrição: <p>Dados dois n&uacute;meros inteiros M e N, some-os.</p>
+Formato da entrada: <p>Ser&atilde;o dadas duas linhas.</p>
+<p>A primeira cont&eacute;m o n&uacute;mero M e a segunda o n&uacute;mero N.</p>
+<p>Considere:</p>
+<p>M &lt;= 10 elevado a 10.000</p>
+<p>N &lt;= 10 elevado a 10.000</p>
+Formato da saída: <p>Uma &uacute;nica linha contendo o resultado da soma.</p>

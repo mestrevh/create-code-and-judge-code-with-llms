@@ -1,0 +1,5 @@
+Título: Períodos da História
+Topicos do problema: decisão; string; 
+Descrição: <p>Os períodos da história se dividem em:</p><ul><li>Pré-História - período anterior a 4000 aC<br/></li><li>Antiguidade, de 4001 aC até 476 dC</li><li>Idade Média, de 477 dC até 1453 dC</li><li>Idade Moderna, de 1454 dC até 1789 dC</li><li>Idade Contemporânea, após 1790 dC</li></ul><p>Observar que o marco de nascimento de Cristo é o ano 0 (zero).<br/></p><p>Escrever função que tenha como argumentos <b>ano</b> e <b>referência quanto a era Cristã</b>: aC para antes de Cristo e dC para depois de Cristo, e retorno o período da história correspondente: PRE-HISTORIA, ANTGUIDADE, IDADE MEDIA, IDADE MODERNA ou IDADE CONTEMPORANEA (não acentuar saídas).<br/></p>
+Formato da entrada: <p><b>Ano</b> e <b>referência quanto a era Cristã</b>: aC para antes de Cristo e dC para depois de Cristo. <br/></p>
+Formato da saída: <p>Período da história correspondente ao ano e referência a era cristã dadas pelo utilizador: PRE-HISTORIA, ANTGUIDADE, IDADE MEDIA, IDADE MODERNA ou IDADE CONTEMPORANEA (não acentuar saídas).<br/></p>

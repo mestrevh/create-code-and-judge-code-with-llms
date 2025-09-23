@@ -1,0 +1,5 @@
+Título: As 4 operações
+Topicos do problema: ponto flutuante; lógica matemática; 
+Descrição: <p>Você deve implementar uma calculadora que calcule as 4 operações básicas, dados 2 números reais, e imprima os 4 resultados.</p>
+Formato da entrada: <p>Dois números reais. Um em cada linha.</p>
+Formato da saída: <p>4 números reais, com 2 casas decimais, que representam os resultados das 4 operações básicas. Informe na seguinte ordem:</p><p>soma</p><p>subtração</p><p>multiplicação</p><p>divisão</p>

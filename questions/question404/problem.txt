@@ -1,0 +1,6 @@
+Título: Escola de Música
+Topicos do problema: decisão; função; 
+Descrição: <p>A Escola de M&uacute;sica Melodia &eacute; bastante conceituada na cidade e forma grandes profissionais. Para isso, exige que seus alunos tenham no m&aacute;ximo 10 faltas por semestre, e que obtenham m&eacute;dia m&iacute;nima 7 para serem aprovados. Aqueles que n&atilde;o excedem o limite de faltas e conseguem m&eacute;dia igual ou superior a 9,5 s&atilde;o aprovados com louvor.</p>
+<p>Escreva uma fun&ccedil;&atilde;o chamada ClassificaAluno que receba como entrada a media e a quantidade de faltas de um aluno e retorne sua situa&ccedil;&atilde;o ao final do semestre.</p>
+Formato da entrada: <p>Um n&uacute;mero real e um n&uacute;mero inteiro, nessa ordem</p>
+Formato da saída: <p>Um String em letras mai&uacute;sculas (APROVADO COM LOUVOR ou APROVADO ou REPROVADO ou REPROVADO POR FALTAS)</p>

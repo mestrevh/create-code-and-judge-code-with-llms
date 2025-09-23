@@ -1,0 +1,7 @@
+Título: Cometa
+Topicos do problema: acumulador; repetição; 
+Descrição: <p>O cometa Halley &eacute; um dos cometas de menor per&iacute;odo do Sistema Solar, completando uma volta em torno do Sol a cada 76 anos; na &uacute;ltima ocasi&atilde;o em que ele tornou-se vis&iacute;vel do planeta Terra, em 1986, v&aacute;rias ag&ecirc;ncias espaciais enviaram sondas para coletar amostras de sua cauda e assim confirmar teorias sobre suas composi&ccedil;&otilde;es qu&iacute;micas.</p>
+<p>Escreva um programa que, dado o ano atual, determina qual o pr&oacute;ximo ano em que o cometa Halley ser&aacute; vis&iacute;vel novamente do planeta Terra. Se o ano atual &eacute; um ano de passagem do cometa, considere que o cometa j&aacute; passou nesse ano (ou seja, considere sempre o pr&oacute;ximo ano de passagem, n&atilde;o considerando o ano atual).</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>A &uacute;nica linha da entrada cont&eacute;m um &uacute;nico inteiro A (2010 &lt;= A &lt;= 10000), indicando o ano atual.&nbsp;</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha, contendo um n&uacute;mero inteiro, indicando o pr&oacute;ximo ano em que o cometa Halley ser&aacute; vis&iacute;vel novamente do planeta Terra, seguido de um final de linha.</p>

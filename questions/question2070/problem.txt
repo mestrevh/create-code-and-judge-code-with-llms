@@ -1,0 +1,5 @@
+Título: Dígitos do titio Willy
+Topicos do problema: repetição; recursão; 
+Descrição: <p>Willy estava brincando com seus sobrinhos quando propôs a seguinte brincadeira. Dado um número n de no máximo 9 dígitos, ele deve calcular uma função. Mas ele não disse exatamente ao sobrinho como a função funciona. Ao invés disso, ele lhe mostrou um exemplo e deu as dicas abaixo. Veja se você consegue ajudar o sobrinho do titio Willy e resolver a função.</p><p><span>Exemplo: </span></p><p><span>f(6718) = </span><span><b>6</b> * 2 * 4 + <b>7</b> * 3 * 3 + <b>1</b> * 3 * 2 + <b>8</b> * 2 * 1 =  133</span><br/></p><p>Observe que para cada dígito da entrada, se ele for par, deve ser multiplicado por 2. Se for ímpar, por 3. </p><p>Além disso, deve-se também multiplicá-lo pela posição do dígito, onde o dígito da unidade corresponde ao valor 1, a dezena ao valor 2, centena 3, e assim por diante.</p><p><br/></p><p><span><br/></span></p>
+Formato da entrada: <p>Cada caso de teste consiste de um número inteiro.</p><p>A entrada termina quando o número dado for igual a 0.</p>
+Formato da saída: <p>Para cada caso de teste, imprima em uma única linha o valor da função.</p>

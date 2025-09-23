@@ -1,0 +1,8 @@
+Título: Números no meio da frase
+Topicos do problema: formatação; 
+Descrição: <p>Voc&ecirc; ir&aacute; receber 02 n&uacute;meros inteiros e deve imprimir o resultado da soma entre eles.</p>
+Formato da entrada: <p>Voc&ecirc; ir&aacute; receber dois n&uacute;meros inteiros 'a' e 'b', um em cada linha.</p>
+Formato da saída: <p>Voc&ecirc; deve imprimir:</p>
+<p>O resultado da soma entre 'a' e 'b' = 'resultado'</p>
+<p>Por exemplo, se os n&uacute;meros dados forem 5 e 3, voc&ecirc; deve imprimir:<br />O resultado da soma entre 5 e 3 = 8</p>
+<p>&nbsp;</p>

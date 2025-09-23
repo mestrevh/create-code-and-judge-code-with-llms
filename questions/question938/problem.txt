@@ -1,0 +1,5 @@
+Título: 5 valores para a.
+Topicos do problema: multiplas entradas; acumulador; repetição; 
+Descrição: <p>Escrever um algoritmo que lê 5 valores para &#34;a&#34;, um de cada vez, e conta quantos destes são negativos, escrevendo esta informação.</p>
+Formato da entrada: <p>Os 5 valores digitados.</p>
+Formato da saída: <p>A quantidade de números negativos digitados.</p>

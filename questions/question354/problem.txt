@@ -1,0 +1,5 @@
+Título: Sequência de inteiros pares (crescente) recursivo
+Topicos do problema: função; recursão; 
+Descrição: <p class="p1">Fa&ccedil;a uma <strong>fun&ccedil;&atilde;o</strong> <strong>recursiva</strong> que receba um n&uacute;mero inteiro positivo par N e imprima todos os n&uacute;meros pares de 0 at&eacute; N em ordem crescente.&nbsp;</p>
+Formato da entrada: <p>Um inteiro positivo N.</p>
+Formato da saída: <p>Uma sequ&ecirc;ncia de n&uacute;meros de 0 &agrave; N linha &agrave; linha.</p>

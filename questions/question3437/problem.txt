@@ -1,0 +1,5 @@
+Título: Função para conversão de graus para radianos
+Topicos do problema: geometria computacional; array; função; 
+Descrição: <pre>Criar uma função para ler um vetor cujo número de elementos (dimensão) é passado como argumento. Crie uma outra função que receba um vetor e faça a conversão de graus para radianos de todos os elementos desse vetor. Essa função deve retornar um vetor com os valores convertidos. Escrever também o módulo principal. Observação: use o valor de pi com a maior precisão possível.<br/></pre>
+Formato da entrada: <pre>Um número inteiro N na primeira linha correspondente ao número de elementos do vetor.</pre><pre>N números reais em coluna correspondentes aos elementos do vetor de ângulos em graus.</pre>
+Formato da saída: <pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">N números reais em coluna formatados com 5 casas decimais correspondentes aos elementos do vetor de ângulos em radianos.</pre>

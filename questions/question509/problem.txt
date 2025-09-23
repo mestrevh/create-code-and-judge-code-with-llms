@@ -1,0 +1,13 @@
+Título: Comparador de Números Inteiros
+Topicos do problema: decisão; 
+Descrição: <p>Fa&ccedil;a um programa que leia dois valores inteiros (x e y) e imprima na tela o resultado das seguintes compara&ccedil;&otilde;es entre estes dois valores, exatamente nesta ordem:</p>
+<p>x &eacute; maior que y</p>
+<p>x &eacute; igual a y</p>
+<p>x &eacute; menor que y</p>
+<p>x &eacute; diferente de y</p>
+<p>x &eacute; maior ou igual a y</p>
+<p>x &eacute; menor ou igual a y</p>
+Formato da entrada: <p>Dois n&uacute;meros inteiros separados por um fim de linha, representando os valores que ser&atilde;o comparados.</p>
+Formato da saída: <p>6 valores, cada um deles separados por um fim de linha, seguindo o modelo do Exemplo de Sa&iacute;da. Os valores poss&iacute;veis s&atilde;o 0 ou 1. O valor 0 deve ser utilizado para indicar que o resultado da compara&ccedil;&atilde;o &eacute; falsa. O valor 1 deve ser utilizado para indicar que o resultado da compara&ccedil;&atilde;o &eacute; verdadeira.</p>
+<p>&nbsp;</p>
+<p>Obs.: N&atilde;o esque&ccedil;a de imprimir o fim de linha ap&oacute;s o resultado.</p>

@@ -1,0 +1,5 @@
+Título: Cavidades em uma matriz
+Topicos do problema: decisão; repetição; array bidimensional; 
+Descrição: <p class="inserted">Em matrizes, uma cavidade é um elemento que tem valor menor que todos os elementos ao seu redor.</p><p class="inserted">Exemplo:</p><p class="inserted">2 5 7</p><p class="inserted">3 1 3</p><p class="inserted">8 6 9</p><p class="inserted">Nesse caso, o elemento de índice (1,1) é uma cavidade.</p><p class="inserted">Dessa forma, encontre todas as cavidades de uma dada matriz.</p>
+Formato da entrada: <p class="inserted">Nas duas primeiras linhas receba as dimensões de uma matriz.</p><p class="inserted">Em seguida, receba os elementos dessa matriz.</p>
+Formato da saída: <p class="inserted">Os índices dos elementos da matriz que são cavidades.</p>

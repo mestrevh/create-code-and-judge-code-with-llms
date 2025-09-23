@@ -1,0 +1,5 @@
+Título: Explorando a Math.h
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p>A biblioteca <b>math.h</b> é uma das mais completas e úteis da linguagem C, oferecendo diversas funções matemáticas prontas para uso. Vamos explorá-la colocando a mão na massa!</p><p>Escreva um programa que receba um número inteiro N para indicar qual operação matemática será realizada sobre um número real A:</p><p>1 – Potência de 2<br/>2 – Raiz quadrada<br/>3 – Módulo<br/>4 – Logaritmo na base 2</p>
+Formato da entrada: <p>Dois valores:</p><ul><li>Um número inteiro <strong>N</strong> (1 ≤ N ≤ 4)</li></ul><ul><li>Um número real <strong>A</strong> (1 ≤ A ≤ 1000)</li></ul>
+Formato da saída: <p>Exiba o resultado da operação escolhida com <strong>duas casas decimais</strong>.</p><p>Ex: 1.23</p>

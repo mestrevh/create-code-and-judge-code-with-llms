@@ -1,0 +1,5 @@
+Título: PROGCOMP - Funções - G
+Topicos do problema: função; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Construa um programa que use uma função, criada por você, que recebe como parâmetro um número natural e retorne o valor inteiro 1 se o parâmetro for par, ou 0 caso contrário. O programa deverá exibir 'par' ou 'nao par', conforme o caso.</span><br/></p>
+Formato da entrada: <p>Um número natural.</p>
+Formato da saída: <p>A mensagem 'par' (minúsculo e sem aspas), se o número dado como entrada for par, ou 'nao par' (minúsculo, sem acentuação e sem aspas), caso contrário.<br/></p>

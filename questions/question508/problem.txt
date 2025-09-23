@@ -1,0 +1,9 @@
+Título: Corrigindo Provas
+Topicos do problema: datas/horas; 
+Descrição: <p>A professora de programa&ccedil;&atilde;o est&aacute; em apuros!! Ela tem 100 provas para corrigir e pouco tempo para a entrega das notas!!</p>
+<p>Para ter uma no&ccedil;&atilde;o de quanto tempo precisa para terminar sua tarefa, a professora escolheu cinco provas e marcou o tempo que levou para corrigir cada uma delas.</p>
+<p>Escreva um programa que receba como entrada cada tempo, estime o tempo m&eacute;dio necess&aacute;rio por prova, e exiba o tempo total que ela levar&aacute; para corrigir tudo.</p>
+<p>Dica: lembre-se que cada minuto tem 60 segundos e cada hora tem 60 minutos.</p>
+Formato da entrada: <p>Um inteiro (segundos) para cada uma das cinco provas escolhidas&nbsp;</p>
+Formato da saída: <p>Um valor inteiro correspondente ao tempo m&eacute;dio em segundos</p>
+<p>Tr&ecirc;s valores inteiros correspondentes ao tempo total (horas, minutos, segundos nessa ordem)</p>

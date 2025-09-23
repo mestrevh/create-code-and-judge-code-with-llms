@@ -1,0 +1,7 @@
+Título: Analisando o CRE
+Topicos do problema: acumulador; decisão; repetição; 
+Descrição: <p><span style="font-size: medium;">Fernanda tem um projeto de extens&atilde;o e precisa selecionar alunos. Escreva um programa para que ela possa informar matr&iacute;cula e CRE dos v&aacute;rios inscritos, e ver, ao final, a matr&iacute;cula do aluno com menor CRE e o CRE m&eacute;dio de todos os candidatos.</span></p>
+Formato da entrada: <p>Um String (matr&iacute;cula) e um float (CRE) para cada candidato.</p>
+<p>A entrada de dados deve parar quando for informada a matr&iacute;cula 999</p>
+Formato da saída: <p>Um String com a matr&iacute;cula que teve o menor CRE, seguida por um float com duas casas decimais para a m&eacute;dia de CREs.</p>
+<p>Esses valroes devem ser separados por uma quebra de linha (enter)</p>

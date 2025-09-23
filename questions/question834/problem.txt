@@ -1,0 +1,5 @@
+Título: Porta Criptografada
+Topicos do problema: ad-hoc; 
+Descrição: <p>Os pais de Joãozinho colocaram os brinquedos dele em um quarto e colocaram uma porta que abre com uma senha. Então, os pais de Joãozinho lançaram o desafio para ele de descobrir o mistério da senha dessa porta. Portanto, Joãozinho chamou você para descobrir o algoritmo para quebrar a senha da porta e os pais dele deixaram as dicas, que foram os exemplos de entrada e saída. Faça um programa que lido 4 números, tenha como resultado a senha seguido de uma quebra de linha. </p>
+Formato da entrada: <p>O programa irá ler 4 números :Ni &gt; 1.</p><p>Sendo N&gt;=1.</p>
+Formato da saída: <p>Uma única linha contendo a senha seguido de uma quebra de linha.</p>

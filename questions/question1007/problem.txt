@@ -1,0 +1,5 @@
+Título: Pi de Leibniz
+Topicos do problema: acumulador; decisão; 
+Descrição: <p>Escreva um programa para implementar uma série convergente, que calcula o número Pi de Leibniz. </p><p><span>Você deve ler um inteiro N, maior ou igual a 1, e imprimir o somatório dos N primeiros termos da série multiplicado por 4.</span><br/></p><p>A série utiliza o padrão apresentado abaixo:</p><p>Pi/4 = 1/1 - 1/3 + 1/5 - 1/7 + 1/9 - ...</p><p><br/></p><p>Dicas:</p><p>- cuidado com a divisão por zero. O resultado será infinito, se não tratar esse caso;</p><p>- lembre-se de alternar os sinais;</p><p>- a saída deve conter exatamente 5 dígitos após a vírgula. Por exemplo: 3,14159</p>
+Formato da entrada: <p>Um número inteiro.</p>
+Formato da saída: <p>Um número do tipo double, com exatamente 5 dígitos depois da vírgula. Por exemplo: 3,14159<br/></p>

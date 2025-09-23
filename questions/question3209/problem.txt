@@ -1,0 +1,5 @@
+Título: Restos dos Produtos
+Topicos do problema: lógica matemática; 
+Descrição: <p>Dado dois números <b>a</b> e <b>b</b> (1 &lt;= a, b &lt;= 10^18) e um número <b>m </b>(1 &lt;= m &lt;= 10^9), encontre o resultado da seguinte relação:<br/><b>(a * b) mod m </b></p><p>onde &#34;mod&#34; é a operação de resto da divisão.</p><p>obs: Você deverá responder <b>T </b>(1 &lt;= T &lt;= 10^5) queries independentes.</p><p><br/></p>
+Formato da entrada: <p>Virá um inteiro T correspondente a quantidade de consultas.</p><p>Para cada consulta virá três números: a, b e m (1 &lt;= a, b &lt;= 10^18) (1 &lt;= m &lt;= 10^9)</p>
+Formato da saída: <p>Para cada consulta imprima o resultado de (a * b) mod m</p>

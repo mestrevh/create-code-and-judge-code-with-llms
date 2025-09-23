@@ -1,0 +1,9 @@
+Título: Sedex
+Topicos do problema: decisão; 
+Descrição: <p>
+<p>A Copa do Mundo de 2010 foi realizada na Africa do Sul. Bolas de futebol s&atilde;o muito f&aacute;ceis de transportar, j&aacute; que elas saem das f&aacute;bricas vazias e s&oacute; s&atilde;o enchidas somente pelas lojas ou pelos consumidores finais. Infelizmente o mesmo n&atilde;o pode ser dito das bolas de boliche. Como elas s&atilde;o completamente s&oacute;lidas, elas s&oacute; podem ser transportadas embaladas uma a uma, em caixas separadas.&nbsp;</p>
+<p>A Ambroliche &eacute; uma f&aacute;brica de bolas de boliche que trabalha somente atrav&eacute;s de encomendas e envia todas as bolas por SEDEX. Como as bolas t&ecirc;m tamanhos diferentes, a Ambroliche tem v&aacute;rios tamanhos de caixas diferentes para transport&aacute;-las.</p>
+<p>Escreva um programa que, dado o di&acirc;metro de uma bola e as 3 dimens&otilde;es de uma caixa (altura, largura e profundidade), diz se a bola de boliche cabe dentro da caixa ou n&atilde;o.&nbsp;</p>
+</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m um inteiro N (1 &lt;= N &lt;= 10.000) que indica o di&acirc;metro da bola de boliche. A segunda linha da entrada cont&eacute;m 3 n&uacute;meros inteiros separados por um espa&ccedil;o cada: a altura A (1 &lt;= A &lt;= 10.000), seguida da largura L (1 &lt;= L &lt;= 10.000) e da profundidade P (1 &lt;= P &lt;= 10.000).&nbsp;</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha, contendo a letra 'S' caso a bola de boliche caiba dentro da caixa ou 'N' caso contr&aacute;rio.</p>

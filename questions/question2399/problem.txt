@@ -1,0 +1,5 @@
+Título: Tempo de Jogo com Minutos
+Topicos do problema: entrada formatada; formatação; 
+Descrição: <p>Leia a hora inicial, minuto inicial, hora final e minuto final de um jogo. A seguir calcule a duração do jogo.Observação: O jogo tem duração mínima de um (1) minuto e duração máxima de 24 horas.<br/></p>
+Formato da entrada: <p>Quatro números inteiros separados por um espaço em branco representando, respectivamente, a hora e minuto de início do jogo e hora e minuto de fim do jogo.<br/></p>
+Formato da saída: <p>Mostre a seguinte mensagem: “O JOGO DUROU HH HORA(S) E MM MINUTO(S)” , aonde HH é o número de horas e MM o número de minutos de duração do jogo.<br/></p>

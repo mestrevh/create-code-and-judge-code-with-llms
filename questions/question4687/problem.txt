@@ -1,0 +1,5 @@
+Título: Pilha de números
+Topicos do problema: estrutura de dados; ponteiro; 
+Descrição: <h3>Crie um programa que recebe e armazena as números inteiros em uma pilha. </h3><p><b>Esse programa deve ter as funcionalidades:</b></p><p><b>push</b>: Insere um valor na pilha.</p><p><b>pop</b>: Remove o valor mais antigo da pilha.</p><p><b>sum</b>: Exibe a soma de todos os elementos da pilha.</p><p><b>pow</b>: Exibe o quadrado de cada um dos elementos.</p><p><b>average</b>: Calcula e exibe a média dos valores na pilha.<br/></p><p><b>print</b>: exibe os valores contidos na lista em ordem de inserção. <br/></p><p><b>exit</b>: encerra o programa</p>
+Formato da entrada: <p>Cada linha contém um comando e no caso do push o valor a ser inserido.</p><p><br/></p>
+Formato da saída: <p>Cada linha da saída deve resultado ou do comando print, sum, pow ou average.</p><p><b>Caso a pilha esteja vazia:</b><br/></p><ul><li>print e pow exibem apenas uma quebra de linha.</li><li>sum exibe apenas: 0<br/></li><li>average exibe apenas: 0.00<br/></li></ul>

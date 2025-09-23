@@ -1,0 +1,5 @@
+Título: Somas sucessivas como multiplicação
+Topicos do problema: acumulador; função; 
+Descrição: <p class="p1">A multiplica&ccedil;&atilde;o de dois n&uacute;meros inteiros pode ser feita atrav&eacute;s de <strong>somas sucessivas</strong>. Proponha um algoritmo recursivo que calcule a multiplica&ccedil;&atilde;o de dois inteiros. Voc&ecirc; s&oacute; poder&aacute; usar o operador soma.</p>
+Formato da entrada: <p>Dois n&uacute;meros inteiros.</p>
+Formato da saída: <p>Um n&uacute;mero inteiro representando a soma sucessiva.</p>

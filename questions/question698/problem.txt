@@ -1,0 +1,5 @@
+Título: Presenteando
+Topicos do problema: array; decisão; ordenação; 
+Descrição: <p>Ambrósio tem cincos primos e quer presenteá-los , porém ele só tem dinheiro para 3 presentes, ele teve uma ideia para selecionar os três primos entre os cincos. A ideia é distribuir os presentes de acordo com as estaturas, sendo o menor o que irá receber o primeiro presente, o segundo presente será dado ao que tiver altura intermediária dentre os cincos e último presente será recebido pelo mais alto.</p><p>Sabendo a altura de todos os cincos você irá ajudar Ambrósio a distribuir os presentes informando a altura do menor, do intermediário e do maior. <br/></p>
+Formato da entrada: <p>Cinco números inteiros.<br/></p>
+Formato da saída: <p>3 linhas cada uma com a altura de um primo.</p><p>1ª linha: altura do menor primo.</p><p>2ª linha: altura do intermediário primo.</p><p>3ª linha: altura do maior primo.<br/></p>

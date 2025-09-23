@@ -1,0 +1,16 @@
+Título: Hotel da Senhora Ambrosina
+Topicos do problema: multiplas entradas; array; acumulador; 
+Descrição: <p>Feriad&atilde;o chegando e o hotel da Ambrosina precisa acomodar todos os in&uacute;meros h&oacute;spedes que o procuram. Os h&oacute;spedes fazem a reserva com anteced&ecirc;ncia. Cada reserva consiste da hora de chegada e de partida. O hotel contratou voc&ecirc; para calcular o n&uacute;mero m&aacute;ximo de h&oacute;spedes que estar&atilde;o no hotel ao mesmo de maneira simult&acirc;nea. Note que se um h&oacute;spede chegar no hotel ao mesmo tempo que outro sai, n&atilde;o se considera que eles est&atilde;o simultaneamente no hotel.</p>
+Formato da entrada: <p>&nbsp;</p>
+<p>A entrada come&ccedil;a com um inteiro T representando o n&uacute;mero de casos de teste. Cada caso de teste come&ccedil;a com um inteiro N, identificando o n&uacute;mero de h&oacute;spedes. As linhas a seguir cont&eacute;m exatamente N inteiros positivos.&nbsp;</p>
+<p>O i-&eacute;simo inteiro da primeira linha representa a hora de chegada do i-&eacute;simo h&oacute;spede. O i-&eacute;simo inteiro da segunda linha representa a hora de partida do i-&eacute;simo h&oacute;spede (que ser&aacute; sempre maior que o hor&aacute;rio de chegada desse h&oacute;spede).</p>
+<p>Considere:</p>
+<p>&nbsp;</p>
+<ul>
+<li>T &lt;= 100</li>
+<li>N &lt;= 100</li>
+<li>Todos os hor&aacute;rios de entrada e sa&iacute;da ser&atilde;o &gt;=1 e &lt;=1000.</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+Formato da saída: <p>Para cada caso de teste, imprima o n&uacute;mero m&aacute;ximo de h&oacute;spedes que ficar&atilde;o simultaneamente no hotel.</p>

@@ -1,0 +1,5 @@
+Título: Saque de banco
+Topicos do problema: array; decisão; lógica matemática; 
+Descrição: <p>Crie um programa que gerencie a sa&iacute;da de notas em um caixa eletr&ocirc;nico.<br />Recebendo a quantia, seu programa deve dizer quantas de cada nota devem ser retiradas. Utilize o crit&eacute;rio da "distribui&ccedil;&atilde;o &oacute;tima", ou seja, o menor n&uacute;mero poss&iacute;vel de c&eacute;dulas. O caixa tem c&eacute;dulas de R$50, R$20, R$10, R$5 e R$1.</p>
+Formato da entrada: <p>Um inteiro n representando a quantia a ser sacada</p>
+Formato da saída: <p>Notas de 50: X<br />Notas de 20: Y<br />Notas de 10: Z<br />Notas de 5: W<br />Notas de 1: K<br />onde X, Y, Z, W e K devem ser substitu&iacute;dos por n&uacute;meros inteiros que correspondem a quantidade de notas</p>

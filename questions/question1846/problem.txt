@@ -1,0 +1,5 @@
+Título: Nome em escada
+Topicos do problema: repetição; string; 
+Descrição: <p><span style="color: rgb(51, 51, 51);text-align: justify;float: none;">Faça um programa que solicite o nome do usuário e imprima <span style="color: rgb(51, 51, 51);text-align: justify;float: none;">o nome em formato de escada.</span></span><br/></p>
+Formato da entrada: <p>Nome informado</p>
+Formato da saída: <p>Nome deverá ser imprimido em escada</p>

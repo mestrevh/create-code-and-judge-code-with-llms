@@ -1,0 +1,6 @@
+Título: Maior Primo
+Topicos do problema: decisão; repetição; função; números primos; 
+Descrição: <p>Escreva um programa que receba como entrada v&aacute;rios n&uacute;meros, at&eacute; que seja informado o n&uacute;mero 404, e exiba o maior n&uacute;mero primo lido. Caso n&atilde;o seja lido nenhum n&uacute;mero primo, dever&aacute; ser exibida uma mensagem indicando isso.</p>
+<p>Dica: o n&uacute;mero 1 n&atilde;o &eacute; primo, pois ele deveria ter pelo menos dois divisores para ser considerado assim</p>
+Formato da entrada: <p>V&aacute;rios n&uacute;meros inteiros</p>
+Formato da saída: <p>Um n&uacute;mero inteiro, ou a mensagem SEM PRIMOS (deve estar escrita em mai&uacute;sculas)</p>

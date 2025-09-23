@@ -1,0 +1,7 @@
+Título: Sequencia Lógica I
+Topicos do problema: decisão; repetição; 
+Descrição: <p><span><span class="hps">Escreva um programa que</span> <span class="hps">l&ecirc;</span> <span class="hps">um inteiro</span> <span class="hps atn">N.</span></span></p>
+<p>Verifique o exemplo de entrada e sa&iacute;da deste problema. Ele apresenta um padr&atilde;o.</p>
+<p>Sua miss&atilde;o nesse problema &eacute; descobrir que padr&atilde;o &eacute; esse. Logo, voc&ecirc; deve fazer um programa que ao receber um n&uacute;mero inteiro N, imprima&nbsp;<span class="hps">N</span> <span class="hps">*</span> <span class="hps">2</span> <span class="hps">linhas,&nbsp;</span><span class="hps">de acordo com esse padr&atilde;o.</span></p>
+Formato da entrada: <p><span class="short_text"><span class="hps">U</span><span class="hps">m</span> <span class="hps">n&uacute;mero inteiro</span> <span class="hps">N.&nbsp;</span></span><span class="hps atn">(</span><span class="atn">0 &lt;</span>N&nbsp;<span class="hps">&lt;1000)</span>.</p>
+Formato da saída: <p><span class="short_text"><span class="hps">Imprima a</span> <span class="hps">sa&iacute;da de acordo com</span> <span class="hps">o exemplo de saida.</span><span></span></span></p>

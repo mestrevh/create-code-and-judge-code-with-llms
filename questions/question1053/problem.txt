@@ -1,0 +1,5 @@
+Título: Volume e área de um cilindro
+Topicos do problema: lógica matemática; 
+Descrição: <p>Faça um programa que calcule a área da superfície e o volume de um cilindro. Use pi = 3.14.</p><p>O valor de saída deve ser arredondado usando 2 casas decimais.</p>
+Formato da entrada: <p>A altura e o raio (em sequência) do cilindro. Ambos os valores são reais (float)</p>
+Formato da saída: <p>O volume e a área da superfície (em sequência) do cilindro arredondado para 2 casas decimais.</p>

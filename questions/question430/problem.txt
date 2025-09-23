@@ -1,0 +1,19 @@
+Título: CD
+Topicos do problema: backtracking; programação dinâmica; 
+Descrição: <p>Voc&ecirc; ir&aacute; fazer uma viagem de carro bem longa. Mas esse carro s&oacute; possui um toca-fitas e infelizmente todas as suas m&uacute;sicas est&atilde;o em CD. Para escut&aacute;-las durante a viagem, voc&ecirc; tem um problema a resolver: sua fita possui capacidade para N minutos. Como escolher as m&uacute;sicas do CD de tal forma a utilizar o m&aacute;ximo do espa&ccedil;o da fita poss&iacute;vel.</p>
+<p>Considere:</p>
+<ul>
+<li>N&atilde;o existem mais do que 20 m&uacute;sicas no CD</li>
+<li>Nenhuma m&uacute;sica &eacute; superior a N minutos</li>
+<li>As m&uacute;sicas n&atilde;o se repetem</li>
+<li>O tamanho de cada m&uacute;sica &eacute; expresso como um n&uacute;mero inteiro</li>
+<li>N tamb&eacute;m &eacute; inteiro</li>
+</ul>
+<div>Fa&ccedil;a um programa que encontre o conjunto de m&uacute;sicas que ir&atilde;o compor a fita e imprima-as na mesma sequ&ecirc;ncia em que elas est&atilde;o armazenadas no CD.</div>
+<p>&nbsp;</p>
+Formato da entrada: <p>A entrada consiste de um n&uacute;mero arbitr&aacute;rio de linhas.</p>
+<p>Cada uma das linhas cont&eacute;m um valor N correspondendo ao espa&ccedil;o dispon&iacute;vel na fita, depois um n&uacute;mero indicando a quantidade de m&uacute;sicas e finalmente cada n&uacute;mero seguinte corresponde a dura&ccedil;&atilde;o de cada m&uacute;sica. Os n&uacute;meros s&atilde;o separados por espa&ccedil;os.</p>
+<p>Por exemplo:&nbsp;</p>
+<p>5 3 1 3 4</p>
+<p>Significa que temos uma fita com dura&ccedil;&atilde;o de 5 minutos e 3 m&uacute;sicas no CD. A primeira tem dura&ccedil;&atilde;o de 1 minuto, a segunda de 3 e a quarta de 4.</p>
+Formato da saída: <p>As durações das músicas que serão armazenadas na fita seguida da string: &#34;sum:&#34; e a soma de todas as durações escolhidas.</p>&#13;<p>Por exemplo:</p>&#13;<p>1 4 sum:5</p>&#13;<p>Significa que escolhemos a música com duração de 1 minuto e a música com duração de 4 minutos, totalizando 5 minutos.</p>&#13;<p>Em muitos casos é possível mais de uma solução. Nesse caso, você deve sempre escolher as músicas com menor duração. <span>Por exemplo, se existirem duas soluções:</span></p><ul><li><span style="float: none;">7 3 11 sum:21</span></li><li><span style="float: none;"><span style="float: none;">7 </span>14 sum:21<u style="color: rgb(40, 43, 50);background-color: rgb(248, 203, 203);"></u><br/></span></li></ul><p>Você deve optar pela primeira, pois ela contém uma música com duração de 3 minutos.</p><p><br/></p>

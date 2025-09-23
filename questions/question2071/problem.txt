@@ -1,0 +1,5 @@
+Título: O mais forte do pacote
+Topicos do problema: repetição; 
+Descrição: <p>Ambrósio é um garoto que gosta muito de jogos com cartas e toda semana ele vai na lojinha comprar novas cartas. Cada carta tem um determinado valor, que representa o quanto aquela carta vale. Sabendo que quanto maior o valor, mais forte a carta, Ambrósio decidiu que sempre que ele comprasse cartas novas ele irá procurar a carta com maior força e quantas cartas com a mesma força que ela apareceram.</p>
+Formato da entrada: <p>Um valor N representando quantas cartas ambrósio comprou no pacote</p><p>N inteiros positivos maiores que 0 representando a força de cada carta </p><p>A entrada termina quando N for igual a 0</p>
+Formato da saída: <p>Dois valores inteiros X,Y para cada pacote de carta comprado, onde X representa a força da carta de maior força e Y a quantidade de vezes que ela aparece no último pacote comprado  </p>

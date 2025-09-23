@@ -1,0 +1,18 @@
+Título: Intercâmbio
+Topicos do problema: multiplas entradas; array; estruturas; 
+Descrição: <p>Sua organiza&ccedil;&atilde;o sem fins lucrativos coordena um programa de intercambio&nbsp;de muito sucesso. Nos &uacute;ltimos anos, a demanda decolou e agora voc&ecirc; precisa de assit&ecirc;ncia com sua tarefa. O programa que sua organiza&ccedil;&atilde;o executa funciona da seguinte maneira:</p>
+<p>Todos os candidatos dizem seu local de origem e o local que gostariam de ir.</p>
+<p>O programa funciona somente se cada estudante tem um parceiro de interc&acirc;mbio adequado.</p>
+<p>Em outras palavras, se um estudante quer ir de A para B, deve haver outro estudante que quer ir de B para A.</p>
+<p>Esta era uma tarefa simples quando haviam aplenas 50 candidatos, no entanto agora exitem at&eacute; 500000 candidatos!</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m m&uacute;ltiplos casos. Cada caso de teste ir&aacute; consistir de uma linha contendo:</p>
+<p>n - o n&uacute;mero de candidatos(1 &lt;= n &lt;= 500000), seguido por n linhas representando a informa&ccedil;&atilde;o de interc&acirc;mbio&nbsp;para cada candidato.</p>
+<p>Cada uma destas linhas ir&aacute; conter 2 inteiros, separados por um &uacute;nico espa&ccedil;o em branco, representando o lugar&nbsp;de origem e o lugar de destino respectivamente.</p>
+<p>Lugares ser&atilde;o representandos por n&uacute;meros inteiros n&atilde;o negativos.</p>
+<p>Voc&ecirc; deve assumir que nenhum candidato ir&aacute; ter seu local de origem sendo igual ao seu local de destino, pois&nbsp;isso iria cair no caso de interc&acirc;mbio dom&eacute;stico.</p>
+<p>A entrada &eacute; terminada por um caso onde n = 0; este caso n&atilde;o deve ser processado</p>
+<div><br /></div>
+<p>&nbsp;</p>
+Formato da saída: <p>Para cada caso de teste, imprima "YES" em uma &uacute;nica linha se existe uma maneira do programa de interc&acirc;mbio funcionar,&nbsp;de outro modo imprima "NO".</p>
+<p>&nbsp;</p>

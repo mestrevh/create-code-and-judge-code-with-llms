@@ -1,0 +1,5 @@
+Título: 2 números em ordem crescente - Adp.
+Topicos do problema: decisão; ordenação; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Receba dois números inteiros e os imprima em ordem crescente.</span><br/></p>
+Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Dois números inteiros.</span><br/></p>
+Formato da saída: <div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p>Dois números inteiros separados por uma quebra de linha.</p></div></div>

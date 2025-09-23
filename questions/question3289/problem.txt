@@ -1,0 +1,5 @@
+Título: Conversão de Horas
+Topicos do problema: função; 
+Descrição: <p>Faça uma função que converta da notação de 24 horas para a notação de 12 horas. Por exemplo, o programa deve converter 17:35 em 5:35 P.M. A entrada é dada em dois inteiros separados por &#34;:&#34;. O programa deve repetir até que a hora seja igual a -1.<br/></p>
+Formato da entrada: <p>A entrada é dada em dois inteiros, separados por &#34;:&#34; . Cada linha representa uma hora e minutos a serem convertidos. Se a hora for igual a -1, o programa finaliza.<br/></p>
+Formato da saída: <p>A hora e minutos convertidos para a notação de 12h, caso a hora seja diferente de -1.</p>

@@ -1,0 +1,5 @@
+Título: Operação simples
+Topicos do problema: entrada formatada; 
+Descrição: <p><span id="docs-internal-guid-4f494a61-7fff-5f02-1610-9c9feadda92b"><span style="color: rgb(0, 0, 0);background-color: transparent;">Faça um programa que leia 5 números racionais separados por espaço na mesma linha e coloque nas variáveis A, B, C, D e E. </span></span></p><p><span><span style="color: rgb(0, 0, 0);background-color: transparent;">Em seguida realize a seguinte expressão matemática: (A+B+C)/(D+E) e imprima o resultado com duas casas decimais. </span></span></p><p><span><span style="color: rgb(0, 0, 0);background-color: transparent;">Por exemplo: para A = 30, B = 20, C = 40, D = 40 e E = 50, o resultado será 1. </span></span><br/></p>
+Formato da entrada: <p>Cinco números racionais separados por espaço na mesma linha.<br/></p>
+Formato da saída: <p>Resultado da expressão (A+B+C)/(D+E) com duas casas decimais. <br/></p>

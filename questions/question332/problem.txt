@@ -1,0 +1,5 @@
+Título: Tudo em Maiusculo
+Topicos do problema: array; caractere; função; string; 
+Descrição: <p>Voc&ecirc; precisa ordenar nomes em uma agenda por ondem alfab&eacute;tica, um jeito simples de fazer isso, &eacute; passar todos os caracteres para mai&uacute;sculos ou min&uacute;sculos, para facilitar a compara&ccedil;&atilde;o.<br /><br />Escreva um programa, que dado um nome, passe ele para mai&uacute;sculo.</p>
+Formato da entrada: <p>Uma string de at&eacute; 100 caracteres, contendo um nome.</p>
+Formato da saída: <p>O nome em letras mai&uacute;sculas, seguido de uma quebra de linha.</p>

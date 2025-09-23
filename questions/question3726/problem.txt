@@ -1,0 +1,5 @@
+Título: Verificar Ordem em Lista
+Topicos do problema: array; decisão; repetição; array bidimensional; ordenação; 
+Descrição: <p>Verifique se os números lidos estão ordenados.  Você receberá uma lista como entrada e deverá imprimir se os elementos presentes estão ordenados ou não. </p><p><br/></p><p>Utilize a função eval() da linguagem Python para interpretar a entrada como lista da linguagem.</p><blockquote><p>lista = eval(input())</p></blockquote><p><span>Exemplo:</span><br/></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">[1,4,5,7,10] - Ordenado</span><br/></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">[1,0,1,4,10] - Nao ordenado</span><br/></span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></p>
+Formato da entrada: <p>[1,4,5,7,10]</p>
+Formato da saída: <p>Ordenado</p>

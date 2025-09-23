@@ -1,0 +1,6 @@
+Título: Plano de Saúde
+Topicos do problema: acumulador; decisão; repetição; 
+Descrição: <p>Sheila &eacute; cliente de um plano de sa&uacute;de com coparticipa&ccedil;&atilde;o. Isso significa que al&eacute;m da mensalidade paga todos os meses, ela pode precisar pagar uma taxa extra pelos procedimentos que fizer. O plano que ela escolheu d&aacute; direito a 2 exames e 3 consultas por ano. Passando disso, cobre 40% do valor de cada exame e 70% de cada consulta.</p>
+<p>Escreva um programa que receba como entrada os dados (tipo e valor) de 8 procedimentos feitos por ela esse ano, e exiba o valor total que ela teve que desembolsar para completar o que foi pago pelo plano.</p>
+Formato da entrada: <p>Para cada procedimento, um String (exame ou consulta) e um valor real</p>
+Formato da saída: <p>Um valor real com duas casas decimais</p>

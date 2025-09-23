@@ -1,0 +1,11 @@
+Título: Brinquedos do Parque
+Topicos do problema: decisão; 
+Descrição: <p>Nos parques de divers&atilde;o, alguns brinquedos tem idade e altura m&iacute;nimas para poder andar neles.</p>
+<p>O parque Ambrol&acirc;ndia possui 3 brinquedos que possuem essa limita&ccedil;&atilde;o:</p>
+<p>Barca Viking: 1,5m de altura e 12 anos.</p>
+<p>Elevator of Death: 1,4m de altura e 14 anos.</p>
+<p>Final Killer: 1,7m de altura ou 16 anos.&nbsp;</p>
+<p>Dada a altura e a idade de uma pessoa, fa&ccedil;a um programa que identifique quantos brinquedos ele pode andar.</p>
+Formato da entrada: <p>Dois inteiros, F e I, representando a altura (em cm) e a idade, respectivamente.</p>
+<p>&nbsp;</p>
+Formato da saída: <p>O n&uacute;mero de brinquedos que ele pode andar no parque, seguido de uma quebra de linha.</p>

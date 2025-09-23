@@ -1,0 +1,5 @@
+Título: Enchendo o Tanque
+Topicos do problema: multiplas entradas; 
+Descrição: <p>Um motorista deseja colocar no seu tanque X reais de gasolina. Escreva um programa para ler o preço do litro da gasolina e o valor do pagamento, e exibir quantos litros ele conseguiu colocar no tanque.<br/></p>
+Formato da entrada: <p>O programa deverá ler o preço do litro da gasolina e o valor do pagamento, respectivamente.<br/></p>
+Formato da saída: <p>O programa deverá exibir quantos litros ele conseguiu colocar no tanque. Conforme exemplo abaixo.<br/></p>

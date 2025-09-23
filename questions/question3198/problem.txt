@@ -1,0 +1,5 @@
+Título: [C3] LAB - 1
+Topicos do problema: estruturas; 
+Descrição: <p>Escreva um programa que lê dois valores e exibe o resultado do primeiro número dividido pelo segundo número, com no máximo duas casas decimais.<br/><br/>Não imprima nada na entrada e na saída.</p>
+Formato da entrada: <p>Primeiro número<br/>Segundo número</p>
+Formato da saída: <p>Resultado com no máximo duas casas decimais</p>

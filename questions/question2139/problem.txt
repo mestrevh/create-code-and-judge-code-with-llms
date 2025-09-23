@@ -1,0 +1,5 @@
+Título: Prefixo Negativo
+Topicos do problema: substrings; caractere; 
+Descrição: <p>O senhor Electro fez uma lista com as palavras que ele mais gosta. Depois de pronta, o senhor Protônio pegou a lista feita pelo senhor Electro mas não gostou porque achou as palavras muito negativas. Acontece que todas as palavras da lista do senhor Electro começam com o prefixo de negação &#34;des&#34;. O senhor Protônio decidiu melhorar a lista do senhor Electro e, para isso, ele precisa da sua ajuda.</p><p><br/></p><p>Escreva um programa que para cada palavra lida, imprima uma equivalente removendo o prefixo &#34;des&#34;.<br/></p>
+Formato da entrada: <p>Uma palavra que começa com o prefixo &#34;des&#34;.<br/></p>
+Formato da saída: <p>A palavra lida removendo o prefixo &#34;des&#34;.<br/></p>

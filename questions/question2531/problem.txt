@@ -1,0 +1,5 @@
+Título: Maior que 10 Octave - T1
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p><font size="3">Faça um programa para ler um número e informar se este é maior que 10.</font><br/></p>
+Formato da entrada: <p>O usuario deve digitar o número<br/></p>
+Formato da saída: <p>O programa deve exibir uma mensagem informando que o número é maior que 10, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite um numero:<br/></p><p>O numero e maior que 10 (impresso se o numero é maior que 10)<br/></p>

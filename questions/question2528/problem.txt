@@ -1,0 +1,5 @@
+Título: Dia da semana
+Topicos do problema: decisão; 
+Descrição: <p>Dado um número natural n (1 &lt;= n &lt;= 7), exiba o dia da semana correspondente. Adote que a semana inicia em domingo.</p>
+Formato da entrada: <p>Um número natural n (1 &lt;= n &lt;= 7) representando o dia da semana.</p>
+Formato da saída: <p>O n-ésimo dia da semana (domingo, segunda, terça, quarta, quinta, sexta ou sábado), em minúsculo e sem acentuação. Vide exemplos.</p>

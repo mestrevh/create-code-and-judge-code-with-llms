@@ -1,0 +1,5 @@
+Título: Conversão de Binário para Decimal
+Topicos do problema: números binários; métodos numéricos; 
+Descrição: <p>Tendo em vista que todos os computadores trabalham na base binária e nós utilizamos usualmente a base decimal, faz-se necessário saber converter binário para decimal e vice-versa. </p>
+Formato da entrada: <p>Número binário inteiro</p>
+Formato da saída: <p>Número inteiro decimal</p>

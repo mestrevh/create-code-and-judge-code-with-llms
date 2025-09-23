@@ -1,0 +1,5 @@
+Título: Tamanho Palíndromo
+Topicos do problema: palíndromos; string; 
+Descrição: <p>Palíndromo é uma frase ou palavra que &#34;se pode ler, indiferentemente, da esquerda para a direita ou vice-versa&#34;. Por exemplo, a palavra OSSO é palíndromo.</p><p><b>Objetivo</b></p><p>O objetivo desta atividade é identificar se uma palavra ou frase é palíndromo, além de identificar o tamanho da substring (pedaço da palavra ou frase) que é duplicada. Por exemplo, o tamanho da substring duplicada de <b>OS</b>SO é 2.</p>
+Formato da entrada: <p>Consiste de uma palavra ou frase de no máximo 255 caracteres.</p>
+Formato da saída: <p>Deverá ser impresso SIM, caso a palavra seja palíndromo, além de imprimir o tamanho da substring repetida na outra linha. NAO, caso contrário.</p>

@@ -1,0 +1,6 @@
+Título: Todos os subconjuntos
+Topicos do problema: subconjuntos; busca completa; backtracking; formatação; 
+Descrição: <p>Gere todos os subconjuntos de um conjunto dado.</p>
+Formato da entrada: <p>Um inteiro n, indicando o maior inteiro do conjunto de inteiros de 1 a n.</p>
+<p>Considere 1&lt;= n &lt;= 15</p>
+Formato da saída: <p>Todos os subconjuntos, um por linha, cada n&uacute;mero separado por um espa&ccedil;o em branco. Cada subconjunto deve ser delimitado pelos caracteres { }. A sa&iacute;da deve ser ordenada por ordem lexicogr&aacute;fica.</p>

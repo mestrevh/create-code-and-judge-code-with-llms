@@ -1,0 +1,5 @@
+Título: Números Negativos?
+Topicos do problema: decisão; 
+Descrição: <p>Dados dois números reais, seu programa deve printar &#34;NEGATIVOS&#34; caso ambos sejam valores negativos. Caso contrário, seu programa deve printar &#34;NAO SAO AMBOS NEGATIVOS&#34;.</p>
+Formato da entrada: <p>Dois números reais.</p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Deve-se printar &#34;NEGATIVOS&#34; caso ambos sejam valores negativos. Caso contrário, seu programa deve printar &#34;NAO SAO AMBOS NEGATIVOS&#34;.</span><br/></p>

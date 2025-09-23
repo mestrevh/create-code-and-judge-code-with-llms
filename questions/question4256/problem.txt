@@ -1,0 +1,5 @@
+Título: Oi ! Adp.
+Topicos do problema: string; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Escreva um programa que leia o nome de uma pessoa e exiba a mensagem “Olá, FULANO” (onde FULANO é o nome da pessoa lida da entrada padrão).</span><br/></p>
+Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">O nome de uma pessoa.</span><br/></p>
+Formato da saída: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um cumprimento à pessoa no seguinte formato:</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Olá, Fulano!</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Onde &#34;Fulano&#34; é o nome informado na entrada.</p>

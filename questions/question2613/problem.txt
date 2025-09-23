@@ -1,0 +1,5 @@
+Título: Intervalo fechado crescente
+Topicos do problema: repetição; 
+Descrição: <p>Crie um programa que receba como entrada dois números naturais, A e B (A &lt;= B), e exiba todos os números inteiros do intervalo fechado <b>crescente</b> [ A .. B ], ou seja, A e B também deverão ser exibidos. </p>
+Formato da entrada: <p>Na primeira linha o número natural correspondente ao A; na segunda linha o número natural correspondente ao B.</p>
+Formato da saída: <p>Todos os números naturais entre A e B, inclusive A e B, um por linha.</p>

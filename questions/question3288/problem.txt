@@ -1,0 +1,5 @@
+Título: Soma 3 números
+Topicos do problema: função; 
+Descrição: <p>Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos.<br/></p>
+Formato da entrada: <p>Três valores inteiros.</p>
+Formato da saída: <p>A soma dos 3 valores inteiros.</p>

@@ -1,0 +1,5 @@
+Título: N primeiros números naturais
+Topicos do problema: repetição; 
+Descrição: <p>Escreva um programa que receba um número inteiro N e imprima na tela os primeiros N números naturais (isto é, os números inteiros não-negativos: 0, 1, 2, 3, 4, 5, ...).</p>
+Formato da entrada: <p>Um número inteiro N.</p>
+Formato da saída: <p>Os N primeiros números naturais, cada um em uma linha.</p>

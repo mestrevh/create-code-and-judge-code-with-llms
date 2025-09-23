@@ -1,0 +1,5 @@
+Título: Print(input())
+Topicos do problema: string; 
+Descrição: <p>Crie um programa que receba uma string <b>S</b> e depois, mostre esse valor na tela</p>
+Formato da entrada: <p>Uma string <b>S </b></p>
+Formato da saída: <p>A string <b>S</b></p>

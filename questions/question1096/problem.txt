@@ -1,0 +1,5 @@
+Título: Série de Burrier
+Topicos do problema: ponto flutuante; decisão; repetição; lógica matemática; 
+Descrição: <b id="docs-internal-guid-7f53d9ae-939a-1b86-1555-3552630fbab0"></b><p dir="ltr"><span style="background-color: transparent;"><font color="#000000">A série de Bourrier, um matemático obscuro do século I, se caracteriza por mudanças a cada termo. </font></span></p><p dir="ltr"><span style="background-color: transparent;"><font color="#000000">Escreva um programa que calcule a série de Bourrier abaixo para os N valores:</font></span><img src="https://www.thehuxley.com/api/v1/problems/image/7327f7a8178c7b6819e11f814840a6911ea4591f1.png"/></p><p dir="ltr"><span style="color: rgb(0, 0, 0);background-color: transparent;">Assuma que PI = 3.14</span></p>
+Formato da entrada: <p>A quantidade N de termos a serem somados. </p>
+Formato da saída: <p><br/></p><p>O somatório S da série de Bourrier.</p>

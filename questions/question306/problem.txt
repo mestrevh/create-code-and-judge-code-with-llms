@@ -1,0 +1,7 @@
+Título: Idade em Dias
+Topicos do problema: datas/horas; 
+Descrição: <p>Leia um valor inteiro correspondente &agrave; idade de uma pessoa em dias e informe-a em anos, meses e dias.</p>
+<p>&nbsp;</p>
+<p>Obs.: apenas para facilitar o c&aacute;lculo, considere todo ano com 365 dias e todo m&ecirc;s com 30 dias.</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m um valor inteiro.</p>
+Formato da saída: <p>Imprima a sa&iacute;da conforme exemplo fornecido.</p>

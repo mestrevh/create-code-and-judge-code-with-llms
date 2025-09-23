@@ -1,0 +1,5 @@
+Título: Aluguel de carros
+Topicos do problema: lógica matemática; 
+Descrição: <p>A locadora de carros SAI DA FRENTE está fazendo uma promoção e está alugando carros no período junino por R$ 30,00 a diária. Além disso, a locadora cobra R$ 0,01 por quilômetro rodado. Como é período de São João, a locadora quer fidelizar os clientes e está dando 10% de desconto no valor total do aluguel de qualquer carro.<br/></p>
+Formato da entrada: <p>O usuário deve digitar quantos dias ficou com o carro e quantos quilômetros ele rodou.<br/></p>
+Formato da saída: <p>O programa deve exibir o valor total que a pessoa deve pagar pelo aluguel do carro, imprimindo na tela os valores abaixo:</p><p>Digite a quantidade de dias de locacao:</p><p>Digite a quantidade de km rodados:</p><p>Valor a pagar pelo aluguel: R$ n<br/></p>

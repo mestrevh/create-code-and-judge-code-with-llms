@@ -1,0 +1,5 @@
+Título: Área da Circunferência
+Topicos do problema: geometria computacional; 
+Descrição: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Calcular a área de uma circunferência de raio r.</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Comprimento do raio = r</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span>Área da circunferência = area</span></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span>Aproximação do PI: 4 casas decimais.</span></p>
+Formato da entrada: <p>Comprimento do raio = r<br/></p>
+Formato da saída: <p>Área da circunferência = area<br/></p>

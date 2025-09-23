@@ -1,0 +1,5 @@
+Título: Q08 - Poema de uma letra só
+Topicos do problema: string; 
+Descrição: <p>Lohan gosta de fazer poemas e decidiu escrever um que tenha apenas palavras que comecem com a mesma letra. Para isso pediu que seus amigos o ajudassem dando ideias de palavras. Você deve fazer um programa que leia as palavras dos amigos de Lohan e diga quais e quantas começam com a letra que ele deseja fazer seu poema.</p>
+Formato da entrada: <p>Uma string com 10 palavras separadas por espaço</p><p>Uma string de um caractere representado a letra inicial desejada</p>
+Formato da saída: <p>A quantidade de palavras que começam com a letra desejada e as palavras, uma abaixo da outra</p>

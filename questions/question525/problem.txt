@@ -1,0 +1,14 @@
+Título: Onde estão meus genes?
+Topicos do problema: array; 
+Descrição: <p>Uma forma que os cientistas ppossuem para medir como uma esp&eacute;cie evoluiu para outra &eacute; encontrar como o genoma do ancestral mudou at&eacute; a esp&eacute;cie atual. Esp&eacute;cies pr&oacute;ximas possuem v&aacute;rios genes em comum e, logo, uma boa mandeira de compar&aacute;-las &eacute; comparar como seus genes trocaram de lugar.</p>
+<p>Uma das muta&ccedil;&otilde;es mais comuns que mudam a ordem dos genes &eacute; a "reversa". Se modelarmos um genoma como uma sequ&ecirc;ncia de N genes, onde cada um &eacute; um inteiro de 1 a N, ent&atilde;o a "reversa" &eacute; uma muta&ccedil;&atilde;o que muda o genoma revertendo a ordem de um bloco consecutivo de genes.</p>
+<p>Uma reversa pode ser descrita por dois &iacute;ndices (i. j), onde: 1 &lt;=i &lt;=j &lt;=N. Os &iacute;ndices idicam que ele reverte a ordem dos genes de i a j. Ent&atilde;o, quando aplicado a um genoma [g1, ... gi-1, gi, gi+1, &nbsp;... ,gj-1, gj, gj+1, ... , gN], obtemos o genoma: [g1, ...,&nbsp;gi&minus;1, gj , gj&minus;1, . . . , gi+1, gi , gj+1, . . . , gN]. Como um exemplo, a reversa (3,6) aplicada ao genoma [1, 2, 3, 4, 5, 6, 7] tem como resultado: [1, 2, 6, 5, 4, 3, 7]. Se ap&oacute;s essa primeira reversa, n&oacute;s aplicarmos novamente uma reversa (1,3), ent&atilde;o o genoma ser&aacute;: [6, 2, 1, 5, 4, 3, 7].</p>
+<p>Um cientista estudando a evolu&ccedil;&atilde;o das esp&eacute;cies quer simular uma s&eacute;rie de reversas em um genoma. &nbsp;Depois ele vai querer saber a posi&ccedil;&atilde;o final de v&aacute;rios genes.</p>
+Formato da entrada: <p>S&atilde;o v&aacute;rios casos de testes.</p>
+<p>A primeira linha de um caso de teste cont&eacute;m um inteiro N indicando o n&uacute;mero de genes de um genoma (1 &lt;= N &lt;= 50000). Voc&ecirc; pode assumir que a ordem inicial dos genes &eacute; uma sequ&ecirc;ncia de inteiros de 1 a N em ordem crescente.</p>
+<p>A segunda linha cont&eacute;m um inteiro R (0&lt;=R&lt;=1000) indicando o n&uacute;mero de reversas. Ent&atilde;o seguir&atilde;o R linhas, cada uma contendo dois inteiros i,j separados por um espa&ccedil;o e indicando os &iacute;ndices da reversa. Lembre-se que nesse caso, i &lt;=1 &lt;= j &lt;= N.</p>
+<p>Depois das reversas, existe uma linha contendo um inteiro Q indicando o n&uacute;mero de consultas que ser&atilde;o feitas para os genes. Seguir&atilde;o Q linhas, onde cada linha cont&eacute;m um inteiro representando um gene cuja posi&ccedil;&atilde;o final voc&ecirc; deve determinar.</p>
+<p>A entrada termina quando N for 0.</p>
+Formato da saída: <p>Para cada caso de teste, o seu programa produzir&aacute; Q+1 linhas de sa&iacute;da.</p>
+<p>A primeira linha cont&eacute;m a string "Genome" seguida pelo n&uacute;mero do caso de teste.</p>
+<p>As Q linhas seguintes cont&eacute;m um inteiro cada, representando a resposta das consultas.</p>

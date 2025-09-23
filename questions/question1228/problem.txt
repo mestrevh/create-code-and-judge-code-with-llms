@@ -1,0 +1,5 @@
+Título: Média dos elementos ímpares
+Topicos do problema: array; repetição; 
+Descrição: <p>Faça uma função para calcular a média aritmética dos elementos ímpares de uma lista em Python, passada por parâmetro.<br/></p>
+Formato da entrada: <p>Uma lista<br/></p>
+Formato da saída: <p>A média dos elementos ímpares da lista apresentados com duas casas decimais<br/></p>

@@ -1,0 +1,5 @@
+Título: Foto de Família
+Topicos do problema: array; decisão; ordenação; 
+Descrição: <p>Ambrosina é uma fotógrafa muito peculiar. Ela só aceita tirar fotos de pessoas se as pessoas estiverem em grupos de exatamente 04 pessoas. Tudo isso porque Ambrosina tem uma mania esquisita de ordenação. Para ela, a pessoa mais baixa deve ficar sempre do lado esquerdo, a segunda mais baixa do lado direito, no meio, logo após a mais baixa, fica a terceira mais baixa e em seguida a mais alta.<br/>Abaixo segue uma ilustração de uma foto tirada por Ambrosina:</p><p><img class="" src="https://thehuxley.com/api/v1/problems/image/c2aa8c3c42c4cb0edf47085370bdb55717875202a.png"/><br/></p>
+Formato da entrada: <p>A entrada consiste de 04 n&uacute;meros reais maiores que zero correspondendo &agrave;s alturas de 04 pessoas. Cada n&uacute;mero &eacute; dado em uma linha diferente. A entrada pode n&atilde;o estar ordenada.</p>
+Formato da saída: <p>Consiste de 04 n&uacute;meros reais, separados por um final de linha, ordenados de acordo com a mania de Ambrosina. Os n&uacute;meros devem ser formatados com 02 casas decimais.</p>

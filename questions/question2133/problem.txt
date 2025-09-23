@@ -1,0 +1,5 @@
+Título: L5Q5 - O Livro Upside Down
+Topicos do problema: recursão; 
+Descrição: <p></p><p>Enquanto isso, Will Byers está em sua casa no mundo invertido, entretanto tudo está diferente.</p><p>Ele está muito assustado e decide ler algum livro. Escolhe um de seu gosto e tenta ler, mas percebe que todas as páginas têm suas linhas invertidas: o final da página está na primeira linha, e o início da página está na última linha. Você deve ajudar Will criando um programa que receba uma página e inverta a ordem das linhas utilizando recursão.</p><p><b>OBS: todas as leituras e impressões devem ser feitas no main.</b></p><p><b><br/></b></p><p style="text-align: center;"><b><b style="color: rgb(147, 149, 152);text-align: center;background-color: rgb(255, 255, 255);">(este problema deve ser resolvido utilizando recursão)</b><br/></b></p><p></p>
+Formato da entrada: <p>A entrada é uma página que precisa ser traduzida e consiste em uma série de linhas.</p>
+Formato da saída: <p>A saída consiste na sequência de linhas de entrada invertidas, da última para primeira.</p>

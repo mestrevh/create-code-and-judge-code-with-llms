@@ -1,0 +1,5 @@
+Título: Paradoxo do Aniversário
+Topicos do problema: função; estruturas; 
+Descrição: <p>O Paradoxo do aniversário é um resultado matemático surpreendente que afirma que se há mais de 23 pessoas em uma sala, existe 50% de chance de que pelo menos duas delas façam aniversário no mesmo dia.</p><p>Usando os princípios de função e tabela hash, crie um algoritmo que detecte dentre um grupo de pessoas aquelas que fazem aniversário no mesmo dia.<br/></p>
+Formato da entrada: <p>A entrada começa com um número inteiro N que determina a quantidade de pessoas na sala.</p><p>Em seguida são feitos un total de N entradas, onde cada uma destas entradas é uma string contendo o nome da pessoa, o dia de seu nascimento e o mês separados por espaço.</p>
+Formato da saída: <p>Como saída você deve identificar quais pessoas fazem aniversário no mesmo dias, apresentando os nomes dos aniversariantes dia a dia no seguinte formato:</p><p><br/></p><p>D de Mes: Fulano, Beltrano, Cicrano</p><p>Onde <i>D</i> é o dia, <i>Mes</i> é o nome do mês escrito com a primeira letra maiúscula (ignora cedilha e acentos) seguido por ':' e os nomes dos aniversariantes separados por vírgula e epaço<br/></p>

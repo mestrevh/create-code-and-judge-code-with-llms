@@ -1,0 +1,10 @@
+Título: Presentes na Empresa
+Topicos do problema: 
+Descrição: <p>&Eacute;dipo ficou encarregado de comprar presentes para os funcion&aacute;rios da 
+empresa. Cada funcion&aacute;ria vai ganhar uma garrafa de vinho, que custa R$ 
+10, e cada funcion&aacute;rio ganhar&aacute; um panetone, que custa R$ 8,50. Escreva 
+um programa que receba como entrada a quantidade de mulheres e a 
+quantidade de homens que trabalham na empresa, e exiba o valor total 
+gasto com presentes, e tamb&eacute;m o valor m&eacute;dio gasto com cada funcion&aacute;rio.</p>
+Formato da entrada: <p>Dois valores inteiros (aten&ccedil;&atilde;o para a sequ&ecirc;ncia indicada no enunciado)</p>
+Formato da saída: <p>Dois valores reais com duas casas decimais cada (aten&ccedil;&atilde;o para a sequ&ecirc;ncia indicada no enunciado)</p>

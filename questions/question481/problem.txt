@@ -1,0 +1,5 @@
+Título: Divisores de X
+Topicos do problema: repetição; 
+Descrição: <p>Escreva um programa que receba como entrada um n&uacute;mero inteiro positivo e exiba todos os divisores positivos dele em ordem <span style="text-decoration: underline;">decrescente</span>.</p>
+Formato da entrada: <p>Um n&uacute;mero inteiro positivo</p>
+Formato da saída: <p>V&aacute;rios n&uacute;meros inteiros separados por quebra de linha</p>

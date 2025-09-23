@@ -1,0 +1,9 @@
+Título: Analisando processos
+Topicos do problema: 
+Descrição: <p>Betina trabalha em um escrit&oacute;rio de advocacia e todos os dias analisa 
+v&aacute;rios processos. Sabendo que ela cumpre um expediente di&aacute;rio de 8h, 
+escreva um programa que receba como entrada quantos minutos ela leva 
+para analisar cada processo, e exiba o total de processos revisados em 
+um dia de trabalho. (Dica: Uma hora tem 60 minutos)</p>
+Formato da entrada: <p>Um valor inteiro</p>
+Formato da saída: <p>Um valor inteiro</p>

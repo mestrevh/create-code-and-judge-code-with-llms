@@ -1,0 +1,5 @@
+Título: Fibonacci
+Topicos do problema: acumulador; repetição; 
+Descrição: <p>A sequ&ecirc;ncia de Fibonacci &eacute; definida pela seguinte sequ&ecirc;ncia: 0 1 1 2 3 5 8 13 21... Em que cada termo da sequ&ecirc;ncia &eacute; obtido somando os dois termos anteriores.<br />Escreva um programa que imprima os n primeiros termos da sequ&ecirc;ncia dos n&uacute;meros Fibonacci.</p>
+Formato da entrada: <p>Um n&uacute;mero inteiro n indicando a quantidade de termos da sequ&ecirc;ncia de fibonacci a serem impressos. Onde: 0&lt;=n &lt;=47.<br />A entrada termina quando n=0</p>
+Formato da saída: <p>A sequ&ecirc;ncia de termos da s&eacute;rie fibonacci. Cada termo &eacute; separado por um espa&ccedil;o.<br />Depois do &uacute;ltimo termo n&atilde;o deve existir espa&ccedil;o.</p>

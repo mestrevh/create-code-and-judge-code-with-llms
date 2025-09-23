@@ -1,0 +1,9 @@
+Título: A melhor compra de ações
+Topicos do problema: requer solução eficiente; dividir e conquistar; programação dinâmica; 
+Descrição: <p>Se voc&ecirc; pudesse voltar no tempo e visse o hist&oacute;rico de pre&ccedil;os de uma determinada a&ccedil;&atilde;o, quando voc&ecirc; escolheria comprar e vender aquela a&ccedil;&atilde;o?</p>
+<p>Mas voc&ecirc; s&oacute; pode escolher um momento de compra e um momento de venda.</p>
+Formato da entrada: <p>A entrada consiste de um inteiro n correspondendo ao tamanho da s&eacute;rie de pre&ccedil;os.</p>
+<p>Depois voc&ecirc; ir&aacute; receber n n&uacute;meros correpondendo ao valor da a&ccedil;&atilde;o a cada dia.</p>
+<p>Considere 1&lt;= n &lt;= 100.000</p>
+<p>Dica: voc&ecirc; precisar&aacute; fazer um algoritmo pelo menos em O(n log n) para conseguir dar a resposta no tempo desejado.</p>
+Formato da saída: <p>A sa&iacute;da consiste de um n&uacute;mero indicando qual o maior lucro poss&iacute;vel considerando que voc&ecirc; vai poder realizar no m&aacute;ximo uma compra e uma venda.</p>

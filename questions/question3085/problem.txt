@@ -1,0 +1,5 @@
+Título: Another Meme Problem
+Topicos do problema: lógica matemática; 
+Descrição: <p>Tente adivinhar a afirmação desta imagem:<br/></p><p><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/20b099e1cf8fa77a2e59f80ea42f330c1abe2354t.png"/><br/></p><p><br/></p><p>Dados dois números inteiros A e B calcule o número de pares (i , j) tal que 1 &lt;= i &lt;= A e 1 &lt;= j &lt;= B nos quais a equação (i ⋅ j) + (i + j) = conc(i , j) é verdadeira.</p><p>Obs: conc (i ,  j) é a concatenação de dois inteiros por exemplo, conc (12 , 23) = 1223.</p>
+Formato da entrada: <p>A primeira linha contém um inteiro t (1 &lt;= t &lt;= 100)  indicando a quantidade de casos teste.</p><p>Cada caso de teste contém dois números inteiros A e B (1 &lt;= A, B &lt;= 1000000000).<br/></p>
+Formato da saída: <p>Deverá ser exibido um inteiro indicando a quantidade de pares (i , j) nos quais a equação (i ⋅ j) + (i + j) = conc(i , j) é verdadeira.</p>

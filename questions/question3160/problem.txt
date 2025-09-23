@@ -1,0 +1,5 @@
+Título: Maior de três
+Topicos do problema: lógica matemática; função; 
+Descrição: <p><span>Crie uma função que recebe três valores inteiros e retorna o maior deles.</span></p>
+Formato da entrada: <p>2 4 6</p>
+Formato da saída: <p>6</p>

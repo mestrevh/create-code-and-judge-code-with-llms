@@ -1,0 +1,5 @@
+Título: As duas strings são iguais?
+Topicos do problema: string; 
+Descrição: <p>Leia duas strings e imprima "IGUAIS" caso elas sejam iguais e "DIFERENTES" caso sejam diferentes.</p>
+Formato da entrada: <p>Voc&ecirc; receber&aacute; duas linhas, cada uma contendo uma string com no m&aacute;ximo 50 caracteres.</p>
+Formato da saída: <p>Voc&ecirc; deve imprimir uma linha contendo a string "IGUAIS" ou "DIFERENTES".</p>

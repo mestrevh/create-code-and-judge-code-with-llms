@@ -1,0 +1,5 @@
+Título: Eficiência de equipe de desenvolvimento
+Topicos do problema: lógica matemática; 
+Descrição: <p>Escreva um programa que leia a quantidade de linhas de um programa (QUANTL), o número de funções existente nele (QUANTF), o tamanho da equipe (TAMEQ) e o número de bugs (NUMB) encontrados e calcule a eficiência da equipe de acordo com a seguinte formula: EFICIENCIA = (QUANTL / QUANTF) / TAMEQ – 4.2 x NUMB<br/>Utilize uma casa decimal de aproximação.</p>
+Formato da entrada: <p>Os quatro parâmetros que determinam a eficiência:</p><ul><li>Quantidade de linhas de um programa (QUANTL)</li><li>Número de funções existente nele (QUANTF)</li><li>Tamanho da equipe (TAMEQ)</li><li>Número de bugs (NUMB)</li></ul>
+Formato da saída: <p>O valor real (float) da eficiência.<br/></p>

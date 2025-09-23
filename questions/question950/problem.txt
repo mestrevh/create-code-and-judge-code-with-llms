@@ -1,0 +1,5 @@
+Título: Descriptografia
+Topicos do problema: string; recursão; 
+Descrição: <p>Dado uma mensagem <b>S</b> criptografada somente com { '<b>*</b>' , '<b>-</b>'  }. Você tem que descriptografar a mensagem, você percebeu o padrão e agora vai desenvolver um algoritmo para desvendar a mensagem.</p><p>Definições: </p><p><b>S</b>-1, indica a remoção do primeiro carácter da string.  </p><p>+, concatenação de string.</p><p><b>Pi</b>, a posição do carácter na mensagem inicial. <br/></p><p>|<b>S</b>|, o tamanho da string restante</p><p>A função está descrita assim:</p><p>D ( <b>S</b> ) = </p><p>Se |<b>S</b>| = 0 , D( <b>S </b>) = &#34;&#34;;</p><p>Se o primeiro elemento for '<b>*</b>', D( <b>S</b> ) = (Pi+D(<b>S</b>-1));</p><p>Se o primeiro elemento for '-', D( <b>S</b> ) = Pi+D(<b>S</b>-1).</p><p><br/></p>
+Formato da entrada: <p>Uma string <b>S</b> somente com { '<b>*</b>' , '<b>-</b>' }</p><p>1 &lt;= |<b>S</b>| &lt;= 100</p>
+Formato da saída: <p>Uma linha com a mensagem descriptografada.</p>

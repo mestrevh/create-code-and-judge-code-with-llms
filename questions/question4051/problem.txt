@@ -1,0 +1,5 @@
+Título: Calculadora dos calouros - inteiros
+Topicos do problema: lógica matemática; 
+Descrição: <p>Pedro é horrível com matemática, então decidiu pedir ajuda a você, um calouro extremamente inteligente, para fazer os cálculos para ele.</p><p><br/></p><p>Serão dados 2 números inteiros.</p><p><br/></p><p>a primeira operação será a soma</p><p>a segunda operação será uma subtração</p><p>a terceira operação será uma multiplicação</p><p>a quarta operação será uma divisão</p><p>a quinta operação será o resto</p>
+Formato da entrada: <p>Dois inteiros n1 e n2.</p>
+Formato da saída: <p>deve mostrar os resultados das operações</p>

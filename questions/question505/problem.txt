@@ -1,0 +1,15 @@
+Título: Rotacionar um array
+Topicos do problema: requer solução eficiente; array circular; 
+Descrição: <p>Voc&ecirc; receber&aacute; um array de inteiros e deve realizar deslocamentos &agrave; esquerda.</p>
+<p>Por exemplo, o array:</p>
+<p>1 2 3 4 5</p>
+<p>Com dois deslocamentos &agrave; esquerda, ficaria:</p>
+<p>3 4 5 1 2</p>
+<p>Perceba que todos os elementos foram deslocados de duas posi&ccedil;&otilde;es.</p>
+Formato da entrada: <p>Um inteiro n indicando a quantidade de inteiros no array.</p>
+<p>Uma sequ&ecirc;ncia de n linhas correspondendo a cada um dos n inteiros.</p>
+<p>Um inteiro i correspondendo a quantidade de deslocamentos a serem efetuados no array.</p>
+<p>Onde:</p>
+<p>n &lt;= 100000</p>
+<p>0&lt;= i &lt;=n</p>
+Formato da saída: <p>O array com os deslocamentos.</p>&#13;<p>Os números devem ser separados por um final de linha. Ou seja, cada número do array deve ser impresso em uma linha.</p>

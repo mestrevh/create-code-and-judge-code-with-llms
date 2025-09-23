@@ -1,0 +1,5 @@
+Título: Multiplicadora de Matriz
+Topicos do problema: array bidimensional; 
+Descrição: <p>Certo dia Epilef cansado de fazer as multiplicação de matrizes decidiu, por si só, colocar seus conhecimentos de programação para jogo e fazer um código para multiplicar matrizes.<br/></p>
+Formato da entrada: <p>A entrada consta por:</p><p>na primeira linha: 4 inteiros (Ai Aj Bi Bj) que representa as linhas e colunas da matriz A e da Matriz B respectivamente.</p><p>nas próximas terão as duas matrizes, primeiramente A e depois B<br/></p>
+Formato da saída: <p>Caso possível a multiplicação, a saída deve ser a matriz AxB.</p><p>caso impossível a multiplicação dever ser impresso &#34;Nao e possivel multiplicar&#34; seguido por uma quebra de linha<br/></p>

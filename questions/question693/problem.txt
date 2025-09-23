@@ -1,0 +1,5 @@
+Título: Bombons
+Topicos do problema: acumulador; decisão; 
+Descrição: <p>Na bomboniere &#34;Bombons&#34; o próprio cliente faz suas caixas escolhendo a vontade entre os bombons de três tipos de recheios: avelã, caramelo e passas. <br/></p><p>Escrever programa para ler:</p><ol><li> os preços das unidades de cada tipo de bombom: avelã, caramelo e passas, cada um em uma linha;</li><li>e a quantidade de cada bombom que o cliente deseja na caixa, na mesma ordem: avelã, caramelo e passas, também cada um em uma linha;</li></ol>E exibir o valor da caixa, com duas casas decimais.<br/>
+Formato da entrada: <p>1</p><p>2</p><p>3</p><p>2</p><p>3</p><p>3<br/></p>
+Formato da saída: <p>Valor: R$17.00<br/></p>

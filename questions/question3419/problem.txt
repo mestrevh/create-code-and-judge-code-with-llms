@@ -1,0 +1,5 @@
+Título: Série de Fibonacci
+Topicos do problema: repetição; 
+Descrição: <pre>A série de Fibonacci é formada pela seguinte seqüência: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ... etc. Escreva um programa que gere e imprima a série de Fibonacci até o n-ésimo termo.<br/></pre>
+Formato da entrada: <pre>Um número inteiro maior ou igual a 2 que representa o número de termos da série.</pre>
+Formato da saída: <p>Os n termos da série escritos em coluna.</p>

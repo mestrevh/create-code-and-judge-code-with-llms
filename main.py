@@ -80,7 +80,7 @@ def main():
                   print(f"Prompt para {question_dir}:\n{prompt_gemini}\n{'-'*50}\n")
                   
                   code = send_prompt(type="gemini", prompt=prompt_gemini)
-                  
+                  print(code)
                   code = code.strip("`")
                   code = code[1:]
                   
@@ -151,7 +151,7 @@ def main():
                   print(f"Prompt para {question_dir}:\n{prompt}\n{'-'*50}\n")
                   
                   code = send_prompt(type="gpt", prompt=prompt)
-                  
+                  print(code)
                   code = code.strip("`")
                   code = code[1:]
                   

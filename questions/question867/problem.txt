@@ -1,0 +1,5 @@
+Título: Quais letras aparecem
+Topicos do problema: repetição; caractere; 
+Descrição: <p>Faça um programa que dado uma sequência de caracteres (composto por letras do alfabeto) imprima na tela, em ordem crescente , as letras que estão contidas nessa sequência<br/>Obs.: Não deve ser impresso caracteres repetidos..<br/></p>
+Formato da entrada: <p>Uma sequência de caracteres.<br/></p>
+Formato da saída: <p>Cada caractere existente na sequência, em ordem crescente e um por linha.</p><p>Obs.: Não esqueça que não é para imprimir caracteres repetidos.<br/></p>

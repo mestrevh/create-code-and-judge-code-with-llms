@@ -1,0 +1,11 @@
+Título: Soma e multiplicação de número grande
+Topicos do problema: array; string; 
+Descrição: <p>Sua miss&atilde;o &eacute; calcular o resultado da soma e da multiplica&ccedil;&atilde;o de dois n&uacute;meros inteiros positivos dados. Por&eacute;m, o resultado dessas opera&ccedil;&otilde;es pode ser t&atilde;o grande quanto 2^1000. (dois elevado a mil), ou se preferir, t&atilde;o grande quanto:</p>
+<p>10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831652624386837205668069376</p>
+<p>&nbsp;</p>
+<p>Obs.: para resolver essa quest&atilde;o, n&atilde;o utilize nenhuma API pronta da sua linguagem. Fa&ccedil;a voc&ecirc; mesmo.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>Dois n&uacute;meros inteiros.</p>
+Formato da saída: <p>A primeira linha deve conter o inteiro com o resultado da soma.</p>
+<p>A segunda linha deve conter o inteiro com o resultado da multiplica&ccedil;&atilde;o.</p>

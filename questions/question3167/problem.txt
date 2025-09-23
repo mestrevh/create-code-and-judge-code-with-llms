@@ -1,0 +1,5 @@
+Título: Maior sem if
+Topicos do problema: lógica matemática; função; 
+Descrição: <p>Uma variável do tipo booleana (<b>bool</b>) só aceita valores true (1) ou false (0). Exemplos: bool x = 5 &gt; 2, resulta em true e bool x = 5 &lt; 2, resulta em false. Com base nestas informações, crie uma função que retorna o valor máximo de dois inteiros (a, b). Nota: Não use a condicional if( ), nem tampouco a função max( ) do C++.<br/></p>
+Formato da entrada: <p>5 2</p>
+Formato da saída: <p>5</p>

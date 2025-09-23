@@ -1,0 +1,13 @@
+Título: Rede de telecomunicações
+Topicos do problema: grafo; vertices/arestas de corte; 
+Descrição: <p>Uma empresa de TELECOM est&aacute; expandindo sua rede de cabos &oacute;ticos. Eles est&atilde;o conectando v&aacute;rios lugares numerados de 1 a N. N&atilde;o existem lugares diferentes com o mesmo n&uacute;mero.</p>
+<p>As linhas s&atilde;o bidirecionais e sempre conectam dois lugares. Em cada local existe uma central de roteamento. Existe apenas uma central de roteamento em cada lugar.</p>
+<p>A partir de um lugar &eacute; poss&iacute;vel alcan&ccedil;ar qualquer outro lugar. N&atilde;o &eacute; preciso haver uma conex&atilde;o direta entre dois lugares para que seja poss&iacute;vel a comunica&ccedil;&atilde;o entre eles, a comunica&ccedil;&atilde;o ser&aacute; estabelecida atrav&eacute;s de um caminho entre eles.</p>
+<p>De vez em quando, falta energia em algum lugar e a central de roteamento n&atilde;o funciona. Quando isso ocorre, al&eacute;m de deixar o lugar onde faltou energia inacess&iacute;vel, pode ocorrer de outros lugares tamb&eacute;m ficarem inacess&iacute;veis. Neste caso, dizemos que o lugar &eacute; cr&iacute;tico.</p>
+<p>Sua miss&atilde;o &eacute; encontrar a quantidade de lugares cr&iacute;ticos da rede da empresa.</p>
+Formato da entrada: <p>Ser&atilde;o dados v&aacute;rios blocos. Cada bloco descreve uma rede.&nbsp;</p>
+<p>Na primeira linha de cada bloco &eacute; dado o n&uacute;mero N de lugares (N &lt;= 50000).</p>
+<p>Seguir&atilde;o no m&aacute;ximo N linhas (perceba que podem ser menos que N linhas). Cada uma das linhas consiste de um n&uacute;mero indicando um lugar S e uma sequ&ecirc;ncia de n&uacute;meros indicando os lugares que est&atilde;o diretamente conctados a S. Esses n&uacute;meros s&atilde;o separados por um espa&ccedil;o.</p>
+<p>Cada bloco termina quando S=0</p>
+<p>A entrada como um todo, termina quando N=0</p>
+Formato da saída: <p>Para cada bloco, imprima o n&uacute;mero de lugares cr&iacute;ticos encontrados na rede seguido de um final de linha.</p>

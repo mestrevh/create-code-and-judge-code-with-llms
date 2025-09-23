@@ -1,0 +1,5 @@
+Título: Maior de Idade
+Topicos do problema: decisão; 
+Descrição: <p>Descrever se, dada a idade como entrada se o usuário é maior ou menor de idade. </p>
+Formato da entrada: <p>Idade</p>
+Formato da saída: <p>Maior ou menor de idade.</p>

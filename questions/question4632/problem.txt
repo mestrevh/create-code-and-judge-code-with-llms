@@ -1,0 +1,5 @@
+Título: Q8 - Último da fila
+Topicos do problema: array; repetição; 
+Descrição: <p>Serão dados i números. Sua função é mostrar uma lista com todos esses números, sem que haja números iguais ao último número que foi dado.</p>
+Formato da entrada: <p>um número i que representa a quantidade de elementos da lista.</p>
+Formato da saída: <p>Uma lista que não possua números iguais aoi último número que foi dado.</p>

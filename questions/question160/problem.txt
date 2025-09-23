@@ -1,0 +1,22 @@
+Título: Gincana
+Topicos do problema: array; função; conjuntos disjuntos; 
+Descrição: <p>
+<p>Toda semana Ambr&oacute;sio tem aulas de ACM (Artes C&ecirc;nicas e Musicais) no col&eacute;gio em que estuda e, recentemente, sua professora anunciou que haver&aacute; uma gincana no final do semestre. No entanto, os times devem ser formados o mais breve poss&iacute;vel para que os alunos possam ensaiar.</p>
+<p>&nbsp;</p>
+<p>Cada time &eacute; constitu&iacute;do de um ou mais alunos e cada aluno tem que pertencer a exatamente um time. Al&eacute;m disso, os times n&atilde;o podem ser formados de qualquer maneira: se um aluno &eacute; amigo de outro, esses alunos devem estar no mesmo time. A professora ent&atilde;o pediu para que os alunos a informassem das rela&ccedil;&otilde;es de amizade na sala de aula.</p>
+<p>&nbsp;</p>
+<p>Os alunos ent&atilde;o se enumeraram de 1 at&eacute; N e escreveram uma lista cujas linhas cont&ecirc;m pares de n&uacute;meros. Se dois alunos cujos n&uacute;meros s&atilde;o i e j s&atilde;o amigos, haver&aacute; ao menos uma linha contendo i e j ou j e i na lista. Inversamente, se j&aacute; uma lista contendo i e j na lista, ent&atilde;o os alunos cujos n&uacute;meros s&atilde;o i e j s&atilde;o amigos.</p>
+<p>&nbsp;</p>
+<p>A professora ent&atilde;o recolheu a lista e, na pr&oacute;xima aula, dever&aacute; decidir que times formar. Ela est&aacute; pensando em formar o maior n&uacute;mero poss&iacute;vel de times e gostaria de saber quantos times ela formaria. Ajude ent&atilde;o a professora escrevendo um programa que, dada a lista de amizades, determine qual o maior n&uacute;mero de times que ela pode formar.</p>
+</p>
+Formato da entrada: <p>
+<p>A primeira linha da entrada cont&eacute;m dois inteiros N e M que representam, respectivamente, o n&uacute;mero de alunos na turma e o n&uacute;mero de linhas da lista.</p>
+<p>&nbsp;</p>
+<p>As pr&oacute;ximas M linhas cont&ecirc;m a lista de amizades. Cada linha cont&eacute;m dois inteiros I e J separados por um espa&ccedil;o.</p>
+<p>&nbsp;</p>
+<p>Suponha:</p>
+<p>1 &lt;= N &lt;= 1000</p>
+<p>0 &lt;= M &lt;= 5000</p>
+<p>1 &lt;= I,J &lt;= N</p>
+</p>
+Formato da saída: <p>Seu programa deve imprimir uma linha contendo o n&uacute;mero m&aacute;ximo de times que podem ser formados pela professora.</p>

@@ -1,0 +1,12 @@
+Título: Expressões
+Topicos do problema: pilha; 
+Descrição: <p>Pedrinho e Zezinho est&atilde;o precisando estudar resolu&ccedil;&atilde;o de express&otilde;es matem&aacute;ticas para uma prova que ir&atilde;o fazer.<br />Para isso, eles querem resolver muitos exerc&iacute;cios antes da prova. Como sabem programar, ent&atilde;o decidiram fazer<br />um gerador de express&otilde;es matem&aacute;ticas.</p>
+<p>O gerador de express&otilde;es que eles criaram funciona em duas fases. Na primeira fase &eacute; gerada uma cadeia de<br />caracteres que cont&eacute;m apenas os caracteres '{', '[', '(', '}', ']' e ')'. Na segunda fase, o gerador adiciona os<br />n&uacute;meros e operadores na estrutura criada na primeira fase. Uma cadeia de caracteres &eacute; dita bem definida (ou<br />v&aacute;lida) se atende as seguintes propriedades:</p>
+<p>1. Ela &eacute; uma cadeia de caracteres vazia (n&atilde;o cont&eacute;m nenhum caractere).<br />2. Ela &eacute; formada por uma cadeia bem definida envolvida por par&ecirc;nteses, colchetes ou chaves. Portanto, se a<br />cadeia S &eacute; bem definida, ent&atilde;o as cadeias (S), [S] e {S} tamb&eacute;m s&atilde;o bem definidas.<br />3. Ela &eacute; formada pela concatena&ccedil;&atilde;o de duas cadeias bem definidas. Logo, se as cadeias X e Y s&atilde;o bem<br />definidas, a cadeia XY &eacute; bem definida.</p>
+<p>Depois que Pedrinho e Zezinho geraram algumas express&otilde;es matem&aacute;ticas, eles perceberam que havia algum<br />erro na primeira fase do gerador. Algumas cadeias n&atilde;o eram bem definidas. Eles querem come&ccedil;ar a resolver as<br />express&otilde;es o mais r&aacute;pido poss&iacute;vel, e sabendo que voc&ecirc; &eacute; um &oacute;timo programador resolveram pedir que escreva<br />um programa que dadas v&aacute;rias cadeias geradas na primeira fase, determine quais delas s&atilde;o bem definidas <br />e quais n&atilde;o s&atilde;o.</p>
+Formato da entrada: <p>A entrada &eacute; composta por diversas inst&acirc;ncias. A primeira linha da entrada cont&eacute;m um inteiro T indicando o<br />n&uacute;mero de inst&acirc;ncias. Em seguida temos T linhas, cada uma com uma cadeia A.</p>
+<p>Considere:</p>
+<p>&bull; 1 &lt;= T &lt;= 20.</p>
+<p>&bull; a cadeia de caracteres A tem entre 1 a 100000 caracteres.</p>
+<p>&bull; a cadeia de caracteres A cont&eacute;m apenas caracteres '{', '[', '(', '}', ']' e ')'.</p>
+Formato da saída: <p>Para cada inst&acirc;ncia imprima uma linha contendo a letra S se a cadeia &eacute; bem definida, ou a letra N caso contr&aacute;rio.</p>

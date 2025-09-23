@@ -1,0 +1,11 @@
+Título: Comprando Pregos
+Topicos do problema: acumulador; repetição; 
+Descrição: <p>Lissandra comprou v&aacute;rios quadros novos para seu apartamento e agora 
+precisa de pregos para pendur&aacute;-los. Pesquisando, ela descobriu que uma 
+caixa com 12 pregos custa R$ 7,89.</p>
+<p>Escreva um programa que receba a quantidade de pregos necess&aacute;rios 
+para cada quadro, at&eacute; que seja informada uma quantidade &iacute;mpar, e exiba o
+ valor total que ser&aacute; gasto e a quantidade de pregos que v&atilde;o sobrar.</p>
+Formato da entrada: <p>V&aacute;rios n&uacute;meros inteiros at&eacute; que seja informado um &iacute;mpar</p>
+Formato da saída: <p>Na primeira linha, um valor real com duas casas decimais.</p>
+<p>Na segunda linha, um valor inteiro</p>

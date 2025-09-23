@@ -1,0 +1,5 @@
+Título: Média e situação de n alunos
+Topicos do problema: estrutura de dados; decisão; repetição; 
+Descrição: <pre>Fazer um programa que armazene nomes e notas das AB1 e AB2 de n alunos. Calcular e armazenar a média aritmética desses alunos e a situação de cada um: 'AP' ou 'RP', sem aspas. Imprimir uma listagem contendo nome, notas, média e situação de cada aluno. Considere média maior ou igual a 7,00 para a aprovação.<br/></pre>
+Formato da entrada: <pre>Número inteiro correspondente ao número de alunos.</pre><pre>Nome, nota da AB1 e nota da AB2 de cada aluno.</pre>
+Formato da saída: <pre>Nome, nota da AB1, nota da AB2, média e situação de cada aluno, conforme exemplo.<br/></pre>

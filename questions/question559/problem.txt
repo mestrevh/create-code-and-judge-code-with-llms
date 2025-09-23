@@ -1,0 +1,14 @@
+Título: Grande Promoção
+Topicos do problema: programação dinâmica; 
+Descrição: <p>Grande promo&ccedil;&atilde;o no supermercado P&atilde;o de Mel. Cada pessoa pode comprar apenas um produto de cada tipo, por exemplo, uma TV, uma cenoura ou um CD do Roberto Carlos. Entretanto, o pre&ccedil;o est&aacute; muito baixo.</p>
+<p>N&oacute;s iremos ao supermercado com a fam&iacute;lia inteira. Cada pessoa pode comprar tantos produtos quanto ela conseguir carregar. Voc&ecirc; receber&aacute; uma lista de produtos com seus pre&ccedil;os e pesos. N&oacute;s tamb&eacute;m sabemos o peso m&aacute;ximo que cada pessoa pode carregar.</p>
+<p>Qual &eacute; o maior valor em produtos que toda a fam&iacute;lia pode comprar no supermercado?</p>
+Formato da entrada: <p>A entrada consiste de T casos de testes ( 1&lt;= T &lt;= 1000).</p>
+<p>O n&uacute;mero inteiro T &eacute; dado na primeira linha.</p>
+<p>Cada caso de teste come&ccedil;a com uma linha contendo um &uacute;nico inteiro n indicando o n&uacute;mero de produtos (1&lt;=n&lt;=1000).</p>
+<p>Ent&atilde;o, seguem n linhas contendo 2 inteiros: p e w.</p>
+<p>p corresponde ao pre&ccedil;o do produto (1&lt;= p &lt;= 100).</p>
+<p>w corresponde correesponde ao peso do produto ( 1&lt;= w &lt;= 30).</p>
+<p>A pr&oacute;xima linha cont&eacute;m um inteiro g (1&lt;= g &lt;= 100) correspondendo ao n&uacute;mero de pessoas da fam&iacute;lia.</p>
+<p>As pr&oacute;ximas g linhas cont&eacute;m o m&aacute;ximo de peso m (&nbsp; 1&lt;= m &lt;= 30) que a i-&eacute;sima pessoa da fam&iacute;lia pode carregar. ( 1&lt;= i &lt;= g)</p>
+Formato da saída: <p>Para cada caso de teste voc&ecirc; deve imprimir uma linha contendo um inteiro correspondendo ao m&aacute;ximo de valor em produtos que a fam&iacute;lia poder&aacute; comprar.</p>

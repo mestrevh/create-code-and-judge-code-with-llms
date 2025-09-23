@@ -1,0 +1,5 @@
+Título: Simples multiplicação
+Topicos do problema: array; 
+Descrição: <p>Dado dois números faça a multiplicação deles e imprima.<br/></p>
+Formato da entrada: <p>Consiste de dois inteiros <b>A</b> e <b>B</b>, um em cada linha.</p><p><b>A</b> e <b>B</b> são Bignumber</p><p>0 &lt;= A,B &lt;= 10³⁰<br/></p>
+Formato da saída: <p>Imprima em uma linha com o produto dos dois números.<br/></p>

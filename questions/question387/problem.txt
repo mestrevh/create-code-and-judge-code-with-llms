@@ -1,0 +1,10 @@
+Título: Cartas
+Topicos do problema: obi; array; 
+Descrição: <p>Beatriz gosta muito de jogar cartas com as amigas. Para treinar mem&oacute;ria e racioc&iacute;nio l&oacute;gico, ela inventou um pequeno passatempo com cartas. Ela retira as cinco primeiras cartas do topo de um baralho bem embaralhado, e as coloca em sequ&ecirc;ncia, da esquerda para a direita, na mesa, com as faces voltadas para baixo.</p>
+<p>Ent&atilde;o ela olha, por um breve instante, cada uma das cartas da sequ&ecirc;ncia (e logo as recoloca na mesa, com a face para baixo). Usando apenas a sua mem&oacute;ria, Beatriz deve agora dizer se a sequ&ecirc;ncia de cartas est&aacute; ordenada crescentemente, decrescentemente, ou n&atilde;o est&aacute; ordenada.</p>
+<p>De tanto jogar, ela est&aacute; ﬁcando cansada, e n&atilde;o conﬁa em seu pr&oacute;prio julgamento para saber se acertou ou errou. Por isso, ela pediu para voc&ecirc; fazer um programa que, dada uma sequ&ecirc;ncia de cinco cartas, determine se a sequ&ecirc;ncia dada est&aacute; ordenada crescentemente, decrescentemente, ou n&atilde;o est&aacute; ordenada.</p>
+<div><br /></div>
+Formato da entrada: <p>A entrada consiste de uma &uacute;nica linha que cont&eacute;m as cinco cartas da sequ&ecirc;ncia. Os valores das cartas s&atilde;o representados por inteiros entre 1 e 13. As cinco cartas t&ecirc;m valores distintos.</p>
+<div><br /></div>
+Formato da saída: <p>Seu programa deve produzir uma &uacute;nica linha, contendo um &uacute;nico caractere mai&uacute;sculo: &lsquo;C&rsquo; caso a sequ&ecirc;ncia dada esteja ordenada crescentemente, &lsquo;D&rsquo; se estiver ordenada decrescentemente, ou &lsquo;N&rsquo; caso contr&aacute;rio.</p>
+<p>N&atilde;o coloque nenhum final de linha depois do caractere.</p>

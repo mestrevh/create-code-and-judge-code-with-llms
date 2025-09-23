@@ -1,0 +1,5 @@
+Título: Q03 - Primeira Posição na Frase
+Topicos do problema: decisão; string; busca; 
+Descrição: <p>Dada uma letra qualquer, informe a posição da primeira aparição dela na frase (que também será dada na entrada)</p><p><br/></p><p>exemplo:</p><p>a</p><p>Marcos</p><p><br/></p><p>a letra &#34;a&#34; aparece pela primeira vez na posição 1.</p><p><br/></p><p>Se a letra não existir, mostre: &#34;a frase nao possui a letra&#34;</p>
+Formato da entrada: <p>uma letra qualquer</p><p>uma frase qualquer</p>
+Formato da saída: <p>o número da posição que a letra aparece pela primeira vez na frase ou &#34;a frase nao possui a letra&#34; caso não exista</p>

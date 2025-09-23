@@ -1,0 +1,5 @@
+Título: Existe solução?
+Topicos do problema: repetição; 
+Descrição: <p>Facilmente encontramos a solução de um sistema de equação quando temos número de equações igual ou maior o número de incógnitas.</p><p>Mas o prof Rodrigo Paes quis brincar com Ambrosinho e tal forma: Dado somente A , B e C da equação se existe ou não solução de tal forma que x e y sejam inteiros.</p><p>Fórmula da equação : Ax + By = C.<br/></p>
+Formato da entrada: <p>Receberá A, B e C ( inteiros ).<br/></p>
+Formato da saída: <p>Apenas uma linha com S caso exista e N caso não exista solução.<br/></p>

@@ -1,0 +1,5 @@
+distribution 1 to worker 0: 23: 23, 
+distribution 2 to worker 0: 51: 51, 
+distribution 1 to worker 1: 30: 30, 
+distribution 1 to worker 2: 37: 37, 
+distribution 1 to worker 3: 44: 44, 

@@ -1,0 +1,5 @@
+Título: Área de um trapézio adaptada.
+Topicos do problema: lógica matemática; 
+Descrição: <p>Faça um programa em Python para calcular a área de um trapézio e exiba a sua parte inteira.</p><p><b>FÓRMULA: </b></p><p><b>                      <img alt=" Fórmula para calcular a área do trapézio." height="38" src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/formula-area-trapezio.jpg" width="114" style="color: rgb(33, 37, 41);text-align: center;background-color: rgb(255, 255, 255);"/><br/></b></p>
+Formato da entrada: <p>Um número flutuante.</p><p>Um número flutuante.</p><p>Um número flutuante.</p>
+Formato da saída: <p>Um inteiro.</p>

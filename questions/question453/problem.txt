@@ -1,0 +1,72 @@
+Título: Sorveteria Tropical
+Topicos do problema: decisão; string; 
+Descrição: <p><!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:HyphenationZone>21</w:HyphenationZone> <w:PunctuationKerning /> <w:ValidateAgainstSchemas /> <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid> <w:IgnoreMixedContent>false</w:IgnoreMixedContent> <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText> <w:Compatibility> <w:BreakWrappedTables /> <w:SnapToGridInCell /> <w:WrapTextWithPunct /> <w:UseAsianBreakRules /> <w:DontGrowAutofit /> </w:Compatibility> <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> </w:WordDocument> </xml><![endif]--></p>
+<p><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" LatentStyleCount="156"> </w:LatentStyles> </xml><![endif]--><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabela normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: Calibri;">A
+sorveteria Tropical oferece uma diversidade de sabores e os pre&ccedil;os s&atilde;o os
+seguintes:</span></p>
+<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: Calibri;"></span></p>
+<table class="MsoNormalTable" style="border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes;">
+<td style="border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top">
+<p class="MsoNormal" style="text-align: center;" align="center"><strong style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt; font-family: Calibri;">Sabor</span></strong></p>
+</td>
+<td style="border: solid windowtext 1.0pt; border-left: none; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top">
+<p class="MsoNormal" style="text-align: center;" align="center"><strong style="mso-bidi-font-weight: normal;"><span style="font-size: 11.0pt; font-family: Calibri;">Pre&ccedil;o por bola</span></strong></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 1;">
+<td style="border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top">
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 11.0pt; font-family: Calibri;">Morango / Cereja</span></p>
+</td>
+<td style="border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top">
+<p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: Calibri;">R$ 4,50</span></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 2;">
+<td style="border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top">
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 11.0pt; font-family: Calibri;">Damasco / Siriguela</span></p>
+</td>
+<td style="border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top">
+<p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: Calibri;">R$ 3,80</span></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 3; mso-yfti-lastrow: yes;">
+<td style="border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top">
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 11.0pt; font-family: Calibri;">Outros sabores</span></p>
+</td>
+<td style="border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt;" valign="top">
+<p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 11.0pt; font-family: Calibri;">R$ 2,75</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: Calibri;"></span></p>
+<p class="MsoNormal"><span style="font-size: 11.0pt; font-family: Calibri;">Caso o
+cliente consuma mais de duas bolas, ele tem direito a uma calda de caramelo.
+Sabendo disso, escreva um programa que receba como entrada o sabor e a
+quantidade de bolas desejada por um cliente, e exiba o valor total a ser pago e
+uma mensagem informando se o sorvete ter&aacute; calda ou n&atilde;o.</span></p>
+</p>
+Formato da entrada: <p>Um valor String seguido por um valor inteiro.</p><p>Para o valor string. use a função lower() para comparar com strings em minúsculo ou upper() para comparar com strings em maiúsculo.</p><p>Exemplo:</p><p>entrada=input().lower(). #transforma a entrada para minúsculo</p><p><br/></p><p><br/></p>
+Formato da saída: <p>Um valor real com duas casas decimais, seguido por uma mensagem (COM CALDA ou SEM CALDA)<br /><br />Obs: Os dois resultados devem ser separados por uma quebra de linha</p>

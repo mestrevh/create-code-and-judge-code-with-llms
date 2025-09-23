@@ -1,0 +1,5 @@
+Título: Tipos, tipos e mais tipos
+Topicos do problema: multiplas entradas; 
+Descrição: <p>João… Mais conhecido como Quatroberto, está estudando programação e ele ficou bem empolgado quando descobriu sobre 4 tipos primitivos, char, int, float e double</p><p>Quatroberto te pediu pra fazer um código que dado uma letra, um numero exato, e dois números decimais, escreva eles na ordem contrária</p><p>Pra essa questão ele pediu que você usasse todos os tipos primitivos que ele tanto adora!</p>
+Formato da entrada: <p>1 linha com 4 valores</p><p>Uma letra, um inteiro e dois decimais.</p>
+Formato da saída: <p>&#13;&#13;1 linha com 4 valores<br/></p><p>2 decimais, um inteiro, e uma letra.</p>

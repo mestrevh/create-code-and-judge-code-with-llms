@@ -1,0 +1,5 @@
+Título: Inversion Count
+Topicos do problema: array; 
+Descrição: <p><span>Seja A[0...n - 1] um array de n inteiros positivos distintos. Se i &lt; j e A[i] &gt; A[]j então o par (i, j) é chamado inversão de A. Dado n e um array A, sua tarefa é descobrir o número de inversões de A.</span><br/></p>
+Formato da entrada: <p><span>A primeira linha contém t, o número de casos de teste, seguido de um linha em branco. Cada um dos t casos de teste começa com um número n (n &lt;= 200000). Então, n + 1 linhas seguirão. É dado A[i - 1] (A[i - 1] &lt;= 10^7) na (i - 1)-ésima linha. A (n +1)-ésima linha terá uma linha em branco.</span><br/></p>
+Formato da saída: <p><span>Para cada caso de teste, imprima uma linha contendo o número de inversões de A.</span><br/></p>

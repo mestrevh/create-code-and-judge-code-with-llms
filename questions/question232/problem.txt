@@ -1,0 +1,30 @@
+Título: Rotação
+Topicos do problema: array; caractere; string; formatação; 
+Descrição: <p>&nbsp;</p>
+<p class="Padro">Sua miss&atilde;o &eacute; rotacionar uma s&eacute;rie de senten&ccedil;as 90 graus no sentido hor&aacute;rio. Logo, ao inv&eacute;s de exibir as senten&ccedil;as da esquerda para a direita e de cima para baixo, seu programa deve exibi-las de cima para baixo e da direita para a esquerda.</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>
+<p><span style="font-family: Calibri, sans-serif;"><span style="font-size: 15px; line-height: 17px;">Seu programa receber&aacute; um m&aacute;ximo de 100 senten&ccedil;as, cada uma delas n&atilde;o exceder&aacute; 100 caracteres. Os caracteres de nova linha, espa&ccedil;o, qualquer pontua&ccedil;&atilde;o, d&iacute;gitos, letras s&atilde;o todos v&aacute;lidos. S&oacute; n&atilde;o &eacute; poss&iacute;vel o caractere TAB.</span></span></p>
+<p><span style="font-family: Calibri, sans-serif;"><span style="font-size: 15px; line-height: 17px;">Voc&ecirc; deve ler senten&ccedil;as at&eacute; n&atilde;o existirem mais senten&ccedil;as na entrada. Ou seja, leia at&eacute; o final da entrada. Veja a dica sobre a fun&ccedil;&atilde;o gets() logo abaixo, na se&ccedil;&atilde;o de descri&ccedil;&atilde;o do formato de sa&iacute;da.</span></span></p>
+</p>
+Formato da saída: <p>
+<p><span style="font-family: Calibri, sans-serif;"><span style="font-size: 15px; line-height: 17px;">O seu programa deve imprimir a &uacute;ltima senten&ccedil;a verticalmente da coluna mais a esquerda da tela. Consequentemente, a primeira senten&ccedil;a da entrada ser&aacute; impressa por ultimo, na posi&ccedil;&atilde;o mais a direita.</span></span></p>
+<p><strong style="font-size: large; font-family: Calibri, sans-serif; line-height: 17px;">Dicas:</strong></p>
+<p>
+<ul>
+<li><span style="font-family: Calibri, sans-serif; font-size: 15px; line-height: 17px;">Ele sempre dar&aacute; uma entrada v&aacute;lida de acordo com o que foi especificado. N&atilde;o precisa verificar, por exemplo, se o tamanho de uma senten&ccedil;a &eacute; maior que 100.</span></li>
+<li><span style="font-family: Calibri, sans-serif; font-size: 15px; line-height: 17px;">O n&uacute;mero m&aacute;ximo de caracteres &eacute; 100, lembre-se de alocar um a mais para o &lsquo;\0&rsquo;</span></li>
+<li><span style="font-family: Calibri, sans-serif; font-size: 15px; line-height: 17px;">Como n&atilde;o existe um comando para o fim da entrada, leia enquanto houver entrada. O comando gets retorna &ldquo;&rdquo; quando n&atilde;o houver mais entrada lida;</span></li>
+<li><span style="font-family: Calibri, sans-serif; font-size: 15px; line-height: 17px;">Use as fun&ccedil;&otilde;es do string.h</span></li>
+<li><span style="font-family: Calibri, sans-serif; font-size: 15px; line-height: 17px;">Voc&ecirc; pode inicializar um array com 0, fazendo: char array[10] = {}; O mesmo se aplica para arrays bidimensionais</span></li>
+<li><span style="font-family: Calibri, sans-serif; font-size: 15px; line-height: 17px;">Lembre de testar para entradas diferentes</span></li>
+<li><span style="font-family: Calibri, sans-serif; font-size: 15px; line-height: 17px;"><strong>A fun&ccedil;&atilde;o gets retorna NULL quando alcan&ccedil;a o final do arquivo e n&atilde;o h&aacute; mais nada para ler</strong></span></li>
+</ul>
+</p>
+<p><span style="font-size: 15px; line-height: 17px; font-family: Calibri, sans-serif;"></span></p>
+<p><span style="font-size: 15px; line-height: 17px; font-family: Calibri, sans-serif;"></span></p>
+<p><span style="font-size: 15px; line-height: 17px; font-family: Calibri, sans-serif;"></span></p>
+<p><span style="font-size: 15px; line-height: 17px; font-family: Calibri, sans-serif;"></span></p>
+<p><span style="font-family: Calibri, sans-serif;"><span style="font-size: 15px; line-height: 17px;"><br /></span></span></p>
+<p><span style="font-family: Calibri, sans-serif;"><span style="font-size: 15px; line-height: 17px;">&nbsp;</span></span></p>
+</p>

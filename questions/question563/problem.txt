@@ -1,0 +1,35 @@
+Título: Somas no array
+Topicos do problema: programação dinâmica; 
+Descrição: <p><span style="font-size: x-small;"><span style="font-size: x-small;"><span style="font-size: x-small;">Dado um array A com N inteiros a1, a2, ..., aN.&nbsp;</span></span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;"><span style="font-size: x-small;">Responda v&aacute;rias perguntas da seguinte forma: &Eacute; poss&iacute;vel somar o valor K com um subconjunto dos primeiros X elementos do array A?</span></span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;"><span style="font-size: x-small;">Por exemplo, para o array A = {1, 5, 7, 8}, as seguintes perguntas seriam poss&iacute;veis:</span></span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;"><span style="font-size: x-small;">-&gt; &Eacute; poss&iacute;vel somar 7 com os 2 primeiros elementos? N&atilde;o, pois n&atilde;o d&aacute; para somar 7 com um subconjunto de {1, 5}.</span></span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;"><span style="font-size: x-small;">-&gt; &Eacute; poss&iacute;vel somar 6 com os 3 primeiros elementos? Sim, pois &eacute; poss&iacute;vel somar 6 com um subconjunto de {1, 5, 7}.</span></span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;"><span style="font-size: x-small;">Um subconjunto vazio soma 0.</span></span></span></p>
+Formato da entrada: <p><span style="font-size: x-small;"><span style="font-size: x-small;">A primeira linha da entrada possui T, o n&uacute;mero de casos de teste.</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">Cada caso de teste &eacute; dado da seguinte forma:</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">N M</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">a1 a2 ... aN</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">X1 K1</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">X2 K2</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">...</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">XM KM</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">onde,</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">N &eacute; a quantidade de elementos do array</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">M &eacute; a quantidade de perguntas que ser&atilde;o feitas</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">ai &eacute; o valor do i-&eacute;simo elemento do array</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">Xj e Kj s&atilde;o os par&acirc;metros da j-&eacute;sima pergunta</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;"><br /></span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">Limites:</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">1 &lt;= T &lt;= 50</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">1 &lt;= N &lt;= 100</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">1 &lt;= M &lt;= 1000</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">1 &lt;= ai &lt;= 1000, para i=1..N</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">1 &lt;= Xi &lt;= N, para i=1..M</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">0 &lt;= Ki &lt;= 10^5, para i=1..M</span></span></p>
+Formato da saída: <p><span style="font-size: x-small;"><span style="font-size: x-small;">Para cada caso imprima em uma linha, sem espa&ccedil;os no final:</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">caso c: y1 y2 ... yM</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">onde</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">c &eacute; o n&uacute;mero do caso atual, iniciando em 1</span></span></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">yi &eacute; 1 caso a resposta da i-&eacute;sima pergunta seja sim e 0 caso contr&aacute;rio.</span></span></p>
+<p><span style="font-size: x-small;">&nbsp;</span></p>

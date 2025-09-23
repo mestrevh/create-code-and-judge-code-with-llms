@@ -1,0 +1,5 @@
+Título: Anos semanas e dias
+Topicos do problema: lógica matemática; 
+Descrição: <title></title><p class="p1"><span class="s1">Construa um programa em C que receba uma quantidade de dias e converta esses dias para anos, semanas e dias.<span class="Apple-converted-space"> </span></span></p>
+Formato da entrada: <p>Quantidade de dias</p>
+Formato da saída: <p>x anos, y semanas e z dias</p><p>onde: x é a quantidade de anos, y a quantidade de semanas e z a quantidade de dias.</p>

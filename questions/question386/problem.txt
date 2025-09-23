@@ -1,0 +1,7 @@
+Título: Economia Diária
+Topicos do problema: acumulador; decisão; repetição; 
+Descrição: <p><span style="font-size: small;">Poliana resolveu economizar dinheiro para comprar um carro. <br /></span></p>
+<p><span style="font-size: small;">Ela tra&ccedil;ou como meta depositar um valor X em seu cofrinho no primeiro dia da semana, e ir guardando a cada manh&atilde; o valor do dia anterior acrescido de pelo menos R$ 0,50. Mas ser&aacute; que ela vai conseguir fazer isso todos os dias?<br /><br />Para saber se o plano de Poliana vai dar certo, escreva um programa que receba como entrada o valor inicial depositado, e em seguida os valores depositados a cada dia. Ao final, exiba o total poupado e quantas vezes Poliana conseguiu cumprir sua meta.<br /><br />Dica: &eacute; preciso sempre comparar o valor do dia com o do dia anterior</span></p>
+Formato da entrada: <p><span style="font-size: small;">Valores reais, um para cada dia da semana</span></p>
+Formato da saída: <p><span style="font-size: small;">Um valor real com duas casas decimais precedido pelo s&iacute;mbolo R$ (Ex: R$ 7.80)</span></p>
+<p><span style="font-size: small;">Um valor inteiro indicando em quantos dias Poliana cumpriu sua meta</span></p>

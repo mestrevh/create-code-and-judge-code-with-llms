@@ -1,0 +1,5 @@
+Título: Maior sequência decrescente
+Topicos do problema: array; repetição; 
+Descrição: <p>Dado um vetor de inteiro de tamanho N você deve dizer qual a maior sequência decrescente presente nesse vetor.</p><p>A entrada será contemplada de múltiplos casos testes.<br/></p>
+Formato da entrada: <p> número de casos teste T;</p><p>O tamanho da sequência N | 1 &lt;= N &lt; 100;</p><p>x números que representam a sequência.<br/></p>
+Formato da saída: <p>O tamanho da sequência e uma linha abaixo, caso exista sequencia, os valores que representam a maior sequência decrescente do vetor.<br/></p><p>obs: se existir mais de uma sequência com mesmo tamanho imprima a primeira.<br/></p>

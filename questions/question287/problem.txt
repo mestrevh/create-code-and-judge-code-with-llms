@@ -1,0 +1,12 @@
+Título: Garagem
+Topicos do problema: geometria computacional; decisão; 
+Descrição: <p>Dado o tamanho de uma garagem, com L, C e H, sendo respectivamente a largura, comprimento altura da garagem, e</p>
+<p>l, c, e h sendo respectivamente a largura, comprimento e altura de um carro.</p>
+<p>&nbsp;</p>
+<p>Fa&ccedil;a um programa capaz de verificar se o carro cabe dentro da garagem, sem deixar nenhuma parte dele de fora.</p>
+<p>As rodas tem sempre de estar viradas para baixo.</p>
+Formato da entrada: <p>6 n&uacute;meros inteiros, representando respectivamente a Largura, Comprimento e Altura da Garagem, e Largura, Comprimento Altura do Carro.</p>
+<p>&nbsp;</p>
+Formato da saída: <p>SIM se o carro cabe dentro da garagem.</p>
+<p>NAO se o carro n&atilde;o cabe dentro da garagem.</p>
+<p>Seguido de uma quebra de linha.</p>

@@ -1,0 +1,10 @@
+Título: Descobrindo dígitos de um número
+Topicos do problema: array; caractere; string; 
+Descrição: <p>Escreva um programa que receba como entrada um n&uacute;mero de tr&ecirc;s d&iacute;gitos do teclado e, atrav&eacute;s de opera&ccedil;&otilde;es matem&aacute;ticas, descubra os tr&ecirc;s d&iacute;gitos deste n&uacute;mero. O valor do n&uacute;mero deve estar entre 0 e 999. &nbsp;</p>
+<p>&nbsp;</p>
+<p>Dica: Com o primeiro e o &uacute;ltimo d&iacute;gito em m&atilde;os, &eacute; poss&iacute;vel deduzir o 2o d&iacute;gito de um n&uacute;mero de tr&ecirc;s d&iacute;gitos. Lembrando que se N &eacute; um n&uacute;mero de 03 d&iacute;gitos (D1, D2 e D3), N = D1*100 + D2*10 + D3. Ou seja, sabendo D1 e D3, &eacute; poss&iacute;vel calcular D2.</p>
+<p>&nbsp;</p>
+<p>Ao final, exiba na tela os 3 digitos descobertos, separados por um espa&ccedil;o.</p>
+<p>Os 3 digitos de sa&iacute;da devem ser inteiros.</p>
+Formato da entrada: None
+Formato da saída: None

@@ -1,0 +1,5 @@
+Título: Q12 - Manipulando Verbos
+Topicos do problema: string; 
+Descrição: <p>A professora de português do 1º Ano de Informática passou uma atividade na qual os aluno deveriam verificar algumas palavras e verem se elas estão no infinitivo, e, caso estejam mostrar sua forma no gerúndio. O professor de algoritmos aproveitou, e pediu para os alunos fazerem, também, um programa que faça isso. Faça um programa que leia algumas palavras, diga quantas estão no infinitivo e mostre suas formas no gerúndio.</p><p>(Palavra no infinitivo -&gt; terminadas em &#34;ar&#34;, &#34;er&#34;, &#34;ir&#34; ou &#34;or&#34;)</p><p>(Para transformar um verbo do infinitivo para o gerúndio, retire o &#34;r&#34; e inclua o &#34;ndo&#34;. Ex.: rir -&gt; rindo, morrer -&gt; morrendo)</p>
+Formato da entrada: <p>Várias palavras separadas por vírgulas</p>
+Formato da saída: <p>A quantidade de palavras no infinitivo e suas respectivas formas no gerúndio, uma abaixo da outra.</p>

@@ -1,0 +1,5 @@
+Título: Letra na Frase
+Topicos do problema: ponto flutuante; decisão; ciclos; caractere; string; busca; 
+Descrição: <p>Crie um programa que leia um texto e depois leia um caractere. O objetivo do programa é fazer a contagem de quantas vezes a letra se repete no texto. Após isso, imprima a quantidade de vezes que a letra se repete e a porcentagem que aquela letra representa em relação a quantidade total de letras.</p><p>DICA: Utilize a biblioteca string.h e ctype.h.</p>
+Formato da entrada: <p>Uma string de até 200 caracteres.</p><p>Uma letra (caractere).</p><p>Ex.:</p><p>Vou almocar agora</p><p>a</p>
+Formato da saída: <p>A quantidade total de vezes que a letra se repete.</p><p>A porcentagem que representa a letra escolhida em relação ao número total de letras, com duas casas decimais de precisão.</p><p>Ex.:</p><p>4</p><p>26.67%</p>

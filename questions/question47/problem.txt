@@ -1,0 +1,8 @@
+Título: Propriedade do 3025
+Topicos do problema: multiplas entradas; decisão; lógica matemática; 
+Descrição: <p>Repare a seguinte caracter&iacute;stica do n&uacute;mero 3025:<br />30 + 25 = 55 e 55^2 = 3025<br />Fa&ccedil;a um programa que leia uma s&eacute;rie de valores (n&uacute;meros inteiros de 4 d&iacute;gitos, um de cada vez) e diga se possuem a mesma caracter&iacute;stica. O programa termina quando for lido um valor menor que 1000 ou maior que 9999.</p>
+Formato da entrada: <p>Uma sequ&ecirc;ncia de n&uacute;meros inteiros, separados por um final de linha</p>
+Formato da saída: <p>Para cada n&uacute;mero lido, seu programa deve imprimir:<br />"propriedade do 3025!", caso o n&uacute;mero lido atenda &agrave; propriedade descrita acima, ou "numero comum" caso contr&aacute;rio.</p>
+<p>Imprima um final de linha ap&oacute;s cada sa&iacute;da.</p>
+<p>&nbsp;</p>
+<p>obs: Sem as aspas.</p>

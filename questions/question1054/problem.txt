@@ -1,0 +1,5 @@
+Título: Comprimento de um arco e área do setor.
+Topicos do problema: lógica matemática; 
+Descrição: <p>Calcule o comprimento do arco de uma circunferência (a curva AB na figura) e a área do seu setor (delimitado pelo arco e hachurado de cinza na figura) usando os seguintes parâmetros:</p><ul><li>O raio da circunferência (entre 1.0 e 50.0)</li><li>A medida do ângulo em graus (entre 0.0 e 359.0)</li><li>Use pi = 3.14</li></ul><span>O valor de saída deve ser arredondado usando 2 casas decimais.</span><div><br/></div><div><img src="https://www.thehuxley.com/api/v1/problems/image/10e851a8e0e0d4d675928b89555879e632e88ff6o.PNG"/><br/></div>
+Formato da entrada: <p>O raio da circunferência (entre 1.0 e 50.0)</p><p>A medida do ângulo em graus (entre 0.0 e 359.0)</p>
+Formato da saída: <p>A medida do comprimento do arco.</p><p>A área do setor.</p>

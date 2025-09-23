@@ -1,0 +1,6 @@
+Título: Iguais a n
+Topicos do problema: array; repetição; busca; 
+Descrição: <p>Leia uma sequ&ecirc;ncia de 101 n&uacute;meros inteiros , verifique se o &uacute;ltimo n&uacute;mero est&aacute; presente nos 100 primeiros n&uacute;meros e imprima as posi&ccedil;&otilde;es do array em que ele est&aacute; presente.</p>
+Formato da entrada: <p>Uma sequ&ecirc;ncia de 101 n&uacute;meros inteiros</p>
+Formato da saída: <p>Uma sequ&ecirc;ncia de inteiros separados por um final de linha, onde cada inteiro representa a posi&ccedil;&atilde;o do array em que foi encontrado o &uacute;ltimo n&uacute;mero lido.</p>
+<p>Se o &uacute;ltimo n&uacute;mero n&atilde;o for encontrado nos 100 n&uacute;meros anteriores n&atilde;o imprima nada</p>

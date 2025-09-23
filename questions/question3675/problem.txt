@@ -1,0 +1,5 @@
+Título: Fibonacci invertido
+Topicos do problema: array; recursão; 
+Descrição: <p>A série de Fibonacci é construida da seguinte forma</p><ul><li>0 e 1 são os dois primeiros números de Fibonacci</li><li>Cada um dos seguintes números na série é calculado somando os dois imediatamente anteriores.</li></ul><p>Assim, por exemplo, os 10 primeiros números da série são: <span>0 1 1 2 3 5 8 13 21 34.</span></p><p>Imprima os <i>n </i>números de Fibonacci na ordem inversa.</p><p><b>Restrição:</b> a solução deve definir ao menos uma <b>função recursiva</b>.</p>
+Formato da entrada: <p>Um inteiro positivo <i>n.</i></p>
+Formato da saída: <p>Os <i>n </i>primeiros números de Fibonacci impressos na ordem inversa. Cada número é separado por um espaço em branco.</p>

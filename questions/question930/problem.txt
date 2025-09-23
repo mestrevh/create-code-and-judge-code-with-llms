@@ -1,0 +1,5 @@
+Título: Frequência de um caracterer na página
+Topicos do problema: caractere; 
+Descrição: <p>Ambrósio precisa de sua ajuda pois é analfabeto e não sabe ler. Como ele sabe que você é um excelente aluno de programação, pediu para que o ajudasse fazendo um programa que resolvesse seu problema. Ambrósio precisa que encontre em uma página de um livro o caractere que mais se repete e sua frequência. Ambrósio também ficou curioso de sua capacidade e pediu para que dissesse também a frequência de um caractere que ele queira saber.&#13;<br/></p>
+Formato da entrada: <p>Um número 1&lt; <b>K </b>&lt; 100 que representa a quantidade de linhas da página.</p><p>K linhas que são as linhas da página que você deve analisar (cada linha tem no máximo 200 caracteres).</p><p>Um caractere X que ele quer saber a frequência no texto.<br/></p>
+Formato da saída: <p>O caractere que mais se repete.</p><p>A frequência do caractere que mais se repete.</p><p>A frequência do caractere X que Ambrósio tem interesse em saber.</p><p>Obs.: Caso haja mais de um caractere de maior frequência na página, imprima o primeiro da ordem crescente.</p><p>Dica: Use a tabela ASCII.<br/></p>

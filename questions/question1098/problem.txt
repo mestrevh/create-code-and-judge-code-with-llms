@@ -1,0 +1,5 @@
+Título: Categorias de nadadores.
+Topicos do problema: decisão; 
+Descrição: <p>Escreva um programa que, dada a idade de um nadador, classifique-o em uma das seguintes categorias:<br/></p><ul><li>Infantil A: [5; 7]</li><li>Infantil B: [8; 10]</li><li>Juvenil A: [11;13]</li><li>Juvenil B: [14;17]<br/></li><li>Adulto: [18;40]</li><li>Master: A partir de 41 e sem limite superior</li></ul><p>Caso a idade informada esteja fora dos limites, emita uma mensagem de erro: &#34;Idade invalida.&#34;<br/></p>
+Formato da entrada: <p>A idade do nadador (int)</p>
+Formato da saída: <p>A categoria em que ele deve nadar de acordo com a tabela:</p><p></p><ul><li>Infantil A: [5; 7]</li><li>Infantil B: [8; 10]</li><li>Juvenil A: [11;13]</li><li>Juvenil B: [14;17]<br/></li><li>Adulto: [18;40]</li><li>Master: A partir de 41 e sem limite superior</li></ul><p></p><p>Caso a idade informada esteja fora dos limites, emita uma mensagem de erro: &#34;Idade invalida.&#34;</p>

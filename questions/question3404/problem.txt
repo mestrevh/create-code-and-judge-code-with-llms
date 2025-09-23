@@ -1,0 +1,5 @@
+Título: Raizes reais de uma equação do segundo grau
+Topicos do problema: lógica matemática; 
+Descrição: <pre>Escreva um programa computacional para calcular e mostrar as raízes de uma equação do segundo grau dada por Ax2 + Bx + C = 0. Os valores de A, B e C devem ser lidos. Considere que a equação possui 2 raízes reais.<br/></pre>
+Formato da entrada: <pre>Consiste dos números reais A, B e C, que correspondem aos coeficientes da equação do segundo grau (A*x2 + Bx + C = 0).<br/></pre>
+Formato da saída: <pre>Consiste de dois números reais formatados com duas casas decimais, representando as raizes calculadas, x1 e x2, respectivamente.<br/></pre>

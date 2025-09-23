@@ -1,0 +1,5 @@
+Título: Cálculo do salário.
+Topicos do problema: multiplas entradas; 
+Descrição: <p>Faça um programa em Java que leia do usuário quanto ele ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.<br/></p>
+Formato da entrada: <p>Valor ganho por hora.</p><p><span>Quantidade de horas trabalhadas no mês.</span></p>
+Formato da saída: <p>Salário ganho no mês.</p>

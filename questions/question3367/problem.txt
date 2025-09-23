@@ -1,0 +1,5 @@
+Título: Par ou Ímpar - Python3
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p>Escreva um programa em Python 3 que receba um número inteiro não negativo e exiba na dela uma mensagem dizendo se ele é par ou ímpar.<br/></p>
+Formato da entrada: <ul><li>A entrada será um número inteiro não negativo (pode ser nulo).</li><li>Não é necessário fazer nenhum tipo de validação.</li><li>Não exiba nenhum texto para pedir o número para o usuário.<br/></li></ul>
+Formato da saída: <p>A saída deverá conter a seguinte mensagem:</p><pre>O numero &lt;valor&gt; eh par!</pre><p>quando o número for par, ou:</p><pre>O numero &lt;valor&gt; eh impar!</pre><p>quando o número for ímpar.<br/></p><ul><li>&lt;valor&gt; é o número dado de entrada</li><li>não coloque nenhum acento nas palavras.<br/></li></ul>

@@ -1,0 +1,5 @@
+Título: Notas de 0 a 10.
+Topicos do problema: multiplas entradas; repetição; 
+Descrição: <p>Faça um programa em Java que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.<br/></p>
+Formato da entrada: <p>Valores indefinidos de notas.</p>
+Formato da saída: <p>Valor válido ou inválido.</p>

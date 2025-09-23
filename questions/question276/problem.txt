@@ -1,0 +1,7 @@
+Título: Padrões de soma.
+Topicos do problema: requer solução eficiente; 
+Descrição: <p>Conta-se que um professor de matem&aacute;tica mandou aos alunos de sua turma que somassem&nbsp;um intervalo de n&uacute;meros&nbsp;de n0 a n como forma de castigo.</p>
+<p>Um aluno resolveu muito r&aacute;pido, antes mesmo que o professor sa&iacute;sse da sala de aula.</p>
+<p>Agora sua miss&atilde;o &eacute; fazer um programa que simule o que este aluno fez, somar um intervalo, fechado, de n&uacute;meros de n0 at&eacute; n.</p>
+Formato da entrada: <p>Sua entrada recebe dois números de inteiros: n0 e n.</p>&#13;<p>Considere que:<br/></p><ul><li>1 &lt;= n0, n1 &lt;=  100000000000</li><li>n0 % 2 == 1</li><li>n % 2 == 0</li></ul>&#13;&#13;<p><br/></p>
+Formato da saída: <p>Sua saída produz a soma do intervalo de números de n0.</p>

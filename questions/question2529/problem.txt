@@ -1,0 +1,5 @@
+Título: Maior, menor ou igual
+Topicos do problema: decisão; 
+Descrição: <p>Dados dois números inteiros A e B, exibir:</p><p>- 'A eh maior', se A for maior do que B;</p><p>- 'B eh maior', se B for maior do que A;</p><p>- 'iguais', se os números forem iguais.</p>
+Formato da entrada: <p>Na primeira linha o número inteiro correspondente ao A; na segunda linha o número inteiro correspondente ao B.</p>
+Formato da saída: <p>A frase 'A eh maior' (sem aspas) ou <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">'B eh maior' (sem aspas) ou 'iguais' (sem aspas), de acordo com o caso.</span></p>

@@ -1,0 +1,5 @@
+Título: Cavalos em um haras.
+Topicos do problema: 
+Descrição: <p>Faça um programa em Java que leia do usuário o número de cavalos de um haras e calcule quantas ferraduras devem ser compradas.<br/></p>
+Formato da entrada: <p>Número de cavalos.</p>
+Formato da saída: <p>Quantidade de ferraduras.</p>

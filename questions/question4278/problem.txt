@@ -1,0 +1,5 @@
+Título: 3o ângulo do triângulo adap. p/a autismo
+Topicos do problema: lógica matemática; 
+Descrição: <p>Faça um programa que:</p><p>Leia dois ângulos de um triângulo.</p><p>Mostre na tela o terceiro ângulo.</p><p><b>Fórmula:</b></p><p>              <b>terceiro_ângulo = 180 - (primeiro_ângulo + segundo_ângulo)</b></p>
+Formato da entrada: <p>um número float (número com casas decimais)</p><p>um número float (número com casas decimais)</p><p><br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/>&#13;</p>
+Formato da saída: <p>Um número float (número com casas decimais)</p>

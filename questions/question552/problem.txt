@@ -1,0 +1,32 @@
+Título: Algoritmo de Euclides
+Topicos do problema: recursão; 
+Descrição: <p><strong><span style="font-size: small;">Aten&ccedil;&atilde;o : Use Recursividade</span></strong></p>
+<p>O algoritmo de euclides &eacute; muito antigo, foi criado como meio de calcular o MDC de dois n&uacute;meros,esse algoritmo &eacute; mais eficiente que fazer o mdc por fatora&ccedil;&atilde;o,sabemos que a divis&atilde;o inteira &eacute; feita do seguinte modo :</p>
+<p><span style="font-size: medium;"><strong>A=D*Q + R</strong></span></p>
+<p>onde A &eacute; o numero a ser dividido, d &eacute; o dividendo, Q &eacute; o quociente da divis&atilde;o inteira de a por d e R &eacute; o <strong>mod</strong>&nbsp;ou resto da divis&atilde;o inteira.</p>
+<p>digamos que queremos calcular o mdc(36,24).</p>
+<p><span style="font-size: small;">36=24*1+12</span></p>
+<p>perceba que 12 &eacute; divisor de 36 e 24</p>
+<p>portanto o mdc(36,24)=mdc(24,12)</p>
+<p><span style="font-size: small;">24=12*2 + 0</span></p>
+<p>como o resto &eacute; 0 sabemos que 12 divide 24</p>
+<p>mdc(36,24)=mdc(24,12)=12</p>
+<p>&nbsp;</p>
+<p>em geral, o que o algoritmo de euclides faz &eacute; :&nbsp;</p>
+<p>&nbsp;</p>
+<ol>
+<li>Escolha os dois numeros para tirar mdc(A,D)</li>
+<li>Divida A por D, se o resto n&atilde;o for zero divida D pelo resto at&eacute; achar o resto 0</li>
+<li>Quando achar uma divis&atilde;o com resto 0 o "D" dessa divis&atilde;o ser&aacute; o MDC de A e D originais.</li>
+</ol>
+<div><br /></div>
+<p>&nbsp;</p>
+Formato da entrada: <p>Dado o numero de casos N, a cada caso leia 2 numeros e tire o MDC dos dois</p>
+<p>&nbsp;</p>
+<p>N</p>
+<p>N1 N1'</p>
+<p>N2 N2'...</p>
+<p>NN NN'</p>
+<p>&nbsp;</p>
+<p>Todos os n&uacute;meros s&atilde;o inteiros.</p>
+Formato da saída: <p>para cada caso :</p>&#13;<p>MDC(a,b) = R</p>&#13;<p>onde a e b são os numeros para tirar o mdc na ordem em que foram dados e R o resultado.</p>&#13;<p><strong>não esqueça da quebra de linha  no final da cada caso e fique atento com os espaçamentos.</strong></p>

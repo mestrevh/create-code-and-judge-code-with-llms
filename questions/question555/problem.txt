@@ -1,0 +1,25 @@
+Título: Texto justificado
+Topicos do problema: requer solução eficiente; programação dinâmica; 
+Descrição: <p>Voc&ecirc; receber&aacute; uma sequẽncia de palavras e um limite no n&uacute;meros de caracteres que podem ser colocados em uma linha.</p>
+<p>Assuma que o tamanho de cada palavra &eacute; sempre menor ou igual ao tamanho da linha.</p>
+<p>O objetivo &eacute; distribuir as palavras na linhas de tal forma que elas fiquem balanceadas em termos de espa&ccedil;os em branco da linha.</p>
+<p>O custo de uma linha &eacute;:</p>
+<p>(n&uacute;mero de espa&ccedil;os em branco)^3</p>
+<p>&nbsp;</p>
+<p>O custo total do texto &eacute; a soma dos custos da linhas.</p>
+<p>Sua fun&ccedil;&atilde;o &eacute; distribuir todas as palavras nas linha de tal forma a obter o menor custo total do texto.</p>
+<p>&nbsp;</p>
+<p>Por exemplo, considere a seguinte entrada com o tamanho de linha sendo 15:</p>
+<p>"Geeks for Geeks presents word wrap problem"</p>
+<p>A distribui&ccedil;&atilde;o &oacute;tima seria:</p>
+<p>Geeks for Geeks<br />presents word<br />wrap problem</p>
+<p>O n&uacute;mero de espa&ccedil;os das linhas 1, 2 e 3 seriam:</p>
+<p>2, 3 e 4, respectivamente. Portanto, o custo dessa solu&ccedil;&atilde;o &eacute; de:</p>
+<p>8 + 27 + 64 = 99</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>Na primeira linha voc&ecirc; receber&aacute; um n&uacute;mero inteiro correspondendo ao tamanho da linha.</p>
+<p>Na segunda linha voc&ecirc; receber&aacute; uma lista de palavras separadas por espa&ccedil;os.</p>
+<p>Considere que voc&ecirc; receber&aacute; no m&aacute;ximo 1500 palavras.</p>
+Formato da saída: <p>Em cada linha voc&ecirc; deve imprimir as palavras que fazem parte dela. Veja o exemplo de sa&iacute;da para maiores detalhes.</p>

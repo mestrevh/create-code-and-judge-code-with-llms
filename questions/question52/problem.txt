@@ -1,0 +1,7 @@
+Título: Números perfeitos
+Topicos do problema: decisão; repetição; lógica matemática; 
+Descrição: <p>Um n&uacute;mero inteiro &eacute; dito perfeito se o dobro dele &eacute; igual &agrave; soma de todos os seus divisores.</p>
+<p>Por exemplo, como os divisores de 6 s&atilde;o 1, 2, 3 e 6 e 1 + 2 + 3 + 6 = 12, 6 &eacute; perfeito.</p>
+<p>A matem&aacute;tica ainda n&atilde;o sabe se a quantidade de n&uacute;meros perfeitos &eacute; ou n&atilde;o finita. Escreva um programa que liste todos os n&uacute;meros perfeitos menores que um inteiro n dado.</p>
+Formato da entrada: <p>Um inteiro n.</p>
+Formato da saída: <p>Um lista de n&uacute;meros inteiros perfeitos em ordem crescente separados por um final de linha.</p>

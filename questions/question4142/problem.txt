@@ -1,0 +1,5 @@
+Título: De 400 a 0 em segundos
+Topicos do problema: ponto flutuante; lógica matemática; 
+Descrição: <p> Jeff é o Engenheiro Chefe de uma equipe que produz e estuda supercarros.    Ele deseja fazer um pequeno estudo da desaceleração de alguns supercarros,    afim de comparar as tecnologias empregadas em cada um e melhorar a eficiência    de frenagem. Como essa parte do automobilismo é praticamente um mundo paralelo,    para isso, ele fará testes de frenagem de 400 km/h a 0 km/h e irá contabilizar a    distância percorrida (em metros). Você faz parte da equipe do Departamento de    Softwares de Cálculo e Modelagem, e a tarefa de criar esse programa que calcula a desaceleração durante a frenagem lhe foi designada.<br/></p>
+Formato da entrada: <p>Recebe um valor de <b>ponto flutuante</b> para a distância de frenagem (em metros).<br/></p>
+Formato da saída: <p>Deve ter a seguinte formatação:</p><p>&#34;A desaceleração desse veículo foi de aproximadamente: m/s^2&#34;</p><p>Dica: lembre-se que trata-se de uma desaceleração!<br/></p>

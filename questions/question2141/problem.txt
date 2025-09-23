@@ -1,0 +1,5 @@
+Título: Caracteres Ímpares
+Topicos do problema: substrings; caractere; 
+Descrição: <p>Luizinho é um menino que adora números, porém, por algum motivo ele não é muito fã de números pares. Por este motivo, quando ele vê uma palavra ele tenta ler qual palavra é formada apenas pelos caracteres que estão em posições ímpares da palavra. Assim, uma palavra como &#34;martelo&#34; seria lida como &#34;mreo&#34;.<br/></p>
+Formato da entrada: <p>Uma string com exatamente 7 (sete) caracteres.<br/></p>
+Formato da saída: <p>Uma string com exatamente 4 (quatro) caracteres, correspondendo aos caracteres nas posições ímpares da string de entrada.<br/></p>

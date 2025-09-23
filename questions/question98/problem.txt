@@ -1,0 +1,6 @@
+Título: Macarronada
+Topicos do problema: geometria computacional; 
+Descrição: <p>A tia de lucas estava fazendo uma macarronada quando de repente deixou&nbsp;cair o macarr&atilde;o no ch&atilde;o, para n&atilde;o jogar no lixo lucas pegou o macarr&atilde;o para&nbsp;fazer esculturas de macarr&atilde;o.<br />Lucas precisa de tri&acirc;ngulos para fazer sua constru&ccedil;&atilde;o. Na queda algum dos&nbsp;peda&ccedil;os de macarr&atilde;o se partiram e lucas quer saber com quais peda&ccedil;os de&nbsp;macarr&atilde;o ele pode fazer tri&acirc;ngulos.<br />Escreva um programa que dada as coordenadas de tr&ecirc;s peda&ccedil;os de macarr&atilde;o&nbsp;diga se lucas pode fazer um tri&acirc;ngulo com eles.</p>
+Formato da entrada: <p>A primeira linha cont&eacute;m um inteiro N que indica o n&uacute;mero de casos de teste.</p>
+<p>Para cada caso de teste haver&atilde;o tr&ecirc;s linhas, cada qual com quatro n&uacute;meros&nbsp;inteiros Xi, Yi, Xf, Yf representando as coordenadas dos pontos que definem o&nbsp;macarr&atilde;o no ch&atilde;o.</p>
+Formato da saída: <p>Para cada caso de teste escreva SIM se lucas puder fazer um tri&acirc;ngulo ou&nbsp;NAO em caso contr&aacute;rio</p>

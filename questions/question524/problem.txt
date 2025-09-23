@@ -1,0 +1,8 @@
+Título: Quais os números que estão faltando?
+Topicos do problema: array; 
+Descrição: <p>Dado dois arrays de n&uacute;meros inteiros imprima os n&uacute;meors do primeiro array que n&atilde;o est&atilde;o presentes no segundo array.</p>
+Formato da entrada: <p>Ser&atilde;o dadas duas linhas, correspondendo aos dois arrays.</p>
+<p>Nos n&uacute;meros de cada linha s&atilde;o separados por espa&ccedil;os.</p>
+Formato da saída: <p>Imprima em ordem decrescente os n&uacute;meros do primeiro array que n&atilde;o est&atilde;o presentes no segundo array.</p>
+<p>Os n&uacute;meros devem ser impressos todos em uma &uacute;nica linha e separados por um espa&ccedil;o.</p>
+<p>Depois do &uacute;ltimo n&uacute;mero n&atilde;o deve existir um espa&ccedil;o.</p>

@@ -1,0 +1,5 @@
+Título: Distância entre três pontos
+Topicos do problema: ponto flutuante; 
+Descrição: <p>Crie um programa que receba as coordenadas (x,y) de três pontos (A, B e C) e exiba a distância entre eles na seguinte ordem: distância de A para B; distância de B para C e; distância de C para A.</p><p>Dica: lembre-se do teorema de Pitágoras.<br/></p><p>Obs.: A distância deve ser exibida com duas casas decimais.</p>
+Formato da entrada: <p>Na primeira linha haverá a coordenada x do ponto A; na linha seguinte a coordenada y do ponto A; na linha seguinte a coordenada x do ponto B; na linha seguinte a coordenada y do ponto B; na linha seguinte a coordenada x do ponto C e; por último, a coordenada y do ponto C.</p>
+Formato da saída: <p>As distâncias entre os pontos, na ordem solicitada pelo enunciado e conforme o exemplo.</p>

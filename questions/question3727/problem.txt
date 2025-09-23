@@ -1,0 +1,5 @@
+Título: Escola de Artes
+Topicos do problema: função; 
+Descrição: <p>A escola de artes do Recife é bastante conhecida por ser rígida e formar excelentes profissionais. Para que seus alunos obtenham a aprovação eles devem possuir no <i><b>máximo 5 faltas</b></i> contabilizadas e <i><b>média mínima 7</b></i>.</p><p>Escreva uma função <i><b>&#34;CalculaMedia&#34;</b></i> que receba como entrada 5 notas e retorne a media aritmética do aluno. </p><p><br/></p>
+Formato da entrada: <p>Um número inteiro e cinco números reais, nessa ordem</p>
+Formato da saída: <p>A mensagem &#34;APROVADO&#34; ou &#34;REPROVADO&#34;</p>

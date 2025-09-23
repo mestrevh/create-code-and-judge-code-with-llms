@@ -1,0 +1,5 @@
+Título: Ponto de interseção entre duas retas
+Topicos do problema: lógica matemática; 
+Descrição: <pre>A determinação do ponto de interseção entre duas retas pode ser feito igualando-se as suas equações. Com base nessa informação, escreva um programa computacional que leia os coeficientes das equações de duas retas e determine o ponto de interseção entre elas. As retas são definidas pelas equações: y = A*x + B e y = C*x + D. Escreva as coordenadas x e y do ponto de interseção encontrado.<br/></pre>
+Formato da entrada: <pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">Consiste dos quatro números reais A, B, C e D, que correspondem aos coeficientes das duas retas, sendo A e B na primeira linha e C e D na linha seguinte.</pre>
+Formato da saída: <pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">Consiste de dois números reais formatados com duas casas decimais, representando as coordenadas x e y do ponto de interseção entre as duas retas.</pre>

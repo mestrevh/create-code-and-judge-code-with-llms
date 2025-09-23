@@ -1,0 +1,5 @@
+Título: Intervalo de não-primos
+Topicos do problema: repetição; 
+Descrição: <p>Crie um programa que receba como entrada um número natural n (n &gt; 0) e exiba os números não-primos que estão no intervalo fechado [ 1..n ].<br/></p>
+Formato da entrada: <p>Um número natural n (n &gt; 0).</p>
+Formato da saída: <p>Os números não-primos no intervalo [ 1..n ], separados entre si por um espaço.</p>

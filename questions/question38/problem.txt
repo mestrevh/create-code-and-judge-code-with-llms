@@ -1,0 +1,5 @@
+Título: Perímetro
+Topicos do problema: geometria computacional; lógica matemática; 
+Descrição: <p>Seu objetivo &eacute; determinar o per&iacute;metro de um pol&iacute;gono regular inscrito numa circunfer&ecirc;ncia, dados o n&uacute;mero de lados do pol&iacute;gono e o raio da circunfer&ecirc;ncia.</p>
+Formato da entrada: <p>Um inteiro N indicando o n&uacute;mero de lados do pol&iacute;gono regular inscrito. E um n&uacute;mero de ponto flutuante R indicando o raio do c&iacute;rculo.</p>
+Formato da saída: <p>A sa&iacute;da consiste de um n&uacute;mero real com duas casas decimais representando o per&iacute;metro do pol&iacute;gono de N lados inscrito na circunfer&ecirc;ncia de raio R.</p>

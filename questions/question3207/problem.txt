@@ -1,0 +1,5 @@
+Título: inversao dos digitos de um numero inteiro
+Topicos do problema: ordenação; 
+Descrição: <p>receba um numero inteiro com 3 dígitos e inverta a ordem de seus algarismos.</p>
+Formato da entrada: <p>345</p>
+Formato da saída: <p>543</p>

@@ -1,0 +1,5 @@
+Título: Matriz Aleatória
+Topicos do problema: ad-hoc; entrada formatada; 
+Descrição: <p>Como você é amigo de Miguelito e sempre gosta de mostrar várias questões de computação. Desta vez foi uma matriz muito especial e aparentemente aleatória. Miguelito está com dificuldades de encontrar o padrão e você decidiu ajudá-lo, ele vai informar as dimensões de uma matriz e você como bom amigo mostrará como vai ficar a matriz. <br/></p>
+Formato da entrada: <p>Dois inteiros <b>L</b> e <b>C</b> representando as dimensões da matriz. </p><p>1 &lt;= <b>L</b>, <b>C</b> &lt;= 10<br/></p>
+Formato da saída: <p>A matriz.<br/></p>

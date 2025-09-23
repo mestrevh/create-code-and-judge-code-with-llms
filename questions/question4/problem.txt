@@ -1,0 +1,10 @@
+Título: Figurinhas dos Irmãos
+Topicos do problema: array; acumulador; decisão; 
+Descrição: <p>Jo&atilde;o e Maria s&atilde;o dois irm&atilde;os muito briguentos. Um belo dia, o pai deles, o Sr. Carlos, comprou v&aacute;rias figurinhas do &aacute;lbum da copa. Jo&atilde;o disse que por ser menino tinha direito a mais figurinhas. Obviamente, Maria n&atilde;o concordou e prop&ocirc;s um acordo de risco. Eles iriam dividir as figurinhas da seguinte maneira:</p>
+<p>Jo&atilde;o ficaria com todas as figurinhas cujo n&uacute;mero de s&eacute;rie for par e Maria com as &iacute;mpares. O Sr. Carlos gostou da id&eacute;ia e prop&ocirc;s um pequeno b&ocirc;nus:</p>
+<p>- Aquele que obtivesse o maior valor somando os n&uacute;meros de s&eacute;ries das figurinhas ganharia como b&ocirc;nus mais R$10,00 reais para comprar figurinhas s&oacute; para ele.</p>
+<ul>
+</ul>
+Formato da entrada: <p>Consiste de um número inteiro n indicando a quantidade de figurinhas a serem lidas, seguido de n inteiros correspondendo ao número de série de cada<br/>figurinha. Todas as figurinhas possuem números de série diferentes. Note que as figurinhas podem ser repetidas. Neste caso, só devemos considerar na soma do número de série uma única vez, mas contamos na quantidade de figurinhas.</p><p>Considere:</p><ul><li> n &lt;= 10.000</li><li>Cada inteiro &lt;= 13.000</li></ul><p><br/></p>
+Formato da saída: <p>Consiste dos n&uacute;meros inteiros J, M e S, indicando respectivamente, o n&uacute;mero de figurinhas que ficaram com o Jo&atilde;o, o n&uacute;mero de figurinhas que ficaram com&nbsp;Maria e a soma dos n&uacute;meros de s&eacute;rie do irm&atilde;o que ganhou o b&ocirc;nus do Sr. Carlos.</p>
+<p>Depois de cada n&uacute;mero da sa&iacute;da coloque um final de linha.</p>

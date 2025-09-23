@@ -1,0 +1,5 @@
+Título: Matriz transposta
+Topicos do problema: array bidimensional; 
+Descrição: <p>Escreva um programa que leia os elementos de uma matriz e ache a sua tranposta.</p><img src="https://www.thehuxley.com/api/v1/problems/image/5dc546fb70875651743db6e309d4934d61c03374p.png"/><p><br/></p>
+Formato da entrada: <p>Dois inteiros R, C | R, C &lt; 100 que indicará a quantidade linhas e colunas da matriz</p><p>Nas linhas restantes o valor para cada posição da matriz<br/></p>
+Formato da saída: <p>A matriz transposta.<br/></p>

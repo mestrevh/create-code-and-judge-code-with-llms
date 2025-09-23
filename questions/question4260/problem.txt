@@ -1,0 +1,5 @@
+Título: Teorema de Pitágoras Adp.
+Topicos do problema: lógica matemática; 
+Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Faça um programa que calcule o valor da hipotenusa de acordo com o teorema de pitágoras. Você não precisa se preocupar com casos em que os catetos fornecidos não podem formar um triângulo.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Pesquise como fazer a operação de raiz quadrada.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Todos os valores fornecidos dão resultados inteiros</p>
+Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Os valores (reais) dos dois catetos.</span><br/></p>
+Formato da saída: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">O valor(inteiro) da hipotenusa.</span><br/></p>

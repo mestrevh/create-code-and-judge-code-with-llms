@@ -1,0 +1,5 @@
+Título: Multiplicação de 3 números
+Topicos do problema: multiplas entradas; 
+Descrição: <p>Faça um programa que receba três números inteiros, calcule e mostre a multiplicação desses números.</p>
+Formato da entrada: <p></p>O arquivo de entrada contém três valores inteiros.<p></p>
+Formato da saída: <p><span style="color: rgb(0, 0, 0);">Apresente o resultado da multiplicação desses 3 números lidos.</span></p><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div>

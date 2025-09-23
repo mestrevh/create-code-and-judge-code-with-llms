@@ -1,0 +1,12 @@
+Título: Soma máxima
+Topicos do problema: array bidimensional; requer solução eficiente; programação dinâmica; 
+Descrição: <p>Motiva&ccedil;&atilde;o:</p>
+<p>Um problema que &eacute; simples de se resolver em apenas uma dimens&atilde;o geralmente &eacute; muito mais dif&iacute;cil de se resolver em duas ou mais dimens&otilde;es. Considere uma express&atilde;o booleana satisfeita na forma normal conjutiva, em que cada conjunto &eacute; composto por exatamente 3 disjuntos. Este problema (3-SAT) &eacute; NP-Completo. No entando, o problema 2-SAT &eacute; resolvido de forma bastante eficiente. Em contraste, alguns problemas pertencem &agrave; mesma classe de complexidade independente de qual a sua dimens&atilde;o.</p>
+<p>Problema:</p>
+<p>Dado uma matriz bidimensional composta de inteiros positivos e negativos, procure o sub-ret&acirc;ngulo com a maior soma poss&iacute;vel. A soma do ret&acirc;ngulo &eacute; a soma de todos os elementos deste ret&acirc;ngulo. Neste problema, o sub-ret&acirc;ngulo com a maior soma &eacute; chamado de &nbsp;<em>sub-ret&acirc;ngulo m&aacute;ximo</em>. Um sub-ret&acirc;ngulo &eacute; qualquer sub-array cont&iacute;guo de tamanho 1x1 ou maior localizado dentro da matriz. Como um exemplo, o sub-ret&acirc;ngulo m&aacute;ximo desta matriz:</p>
+<p style="text-align: left;"><img src="http://uva.onlinejudge.org/external/1/108img2.gif" border="0" alt="displaymath35" /></p>
+<p style="text-align: left;">est&aacute; localizado no canto inferior esquerdo:</p>
+<p style="text-align: left;"><img src="http://uva.onlinejudge.org/external/1/108img3.gif" border="0" alt="displaymath37" /></p>
+<p style="text-align: left;">e tem a soma igual a 15.</p>
+Formato da entrada: <p>A entrada consiste em um array <em>NxN </em>de inteiros. A entrada come&ccedil;a com um &uacute;nico inteiro positivo <em>N </em>indicando o tamanho da matriz bidimensional quadrada. Nas pr&oacute;ximas linhas seguem <em>N&sup2; </em>inteiros separados por espa&ccedil;os em branco (pulos de linha e espa&ccedil;os). Estes <em>N&sup2; </em>inteiros comp&otilde;em a matriz da menor linha at&eacute; a maior linha, isto &eacute;, todos os n&uacute;meros na primeira linha, da esquerda para a direita, todos os n&uacute;meros da segunda linha, da esquerda para a direita, etc. <em>N </em>ser&aacute; sempre menor ou igual a 100. Os inteiros que preenchem a matriz sempre estar&atilde;o no intervalo [-127,127].</p>
+Formato da saída: <p>A sa&iacute;da &eacute; um inteiro representando o sub-ret&acirc;ngulo m&aacute;ximo seguido por um pulo de linha.</p>

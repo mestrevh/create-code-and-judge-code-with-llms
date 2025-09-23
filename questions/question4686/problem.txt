@@ -1,0 +1,5 @@
+Título: Fila de números
+Topicos do problema: estrutura de dados; 
+Descrição: <h3>Crie um programa que recebe e armazena as números inteiros em uma fila. </h3><p><b>Esse programa deve ter as funcionalidades:</b></p><p><b>push</b>: Insere um valor na lista.</p><p><b>pop</b>: Remove o valor mais antigo da lista.</p><p><b>sum</b>: Exibe a soma de todos os elementos da lista.</p><p><b>print</b>: exibe os valores contidos na lista em ordem de inserção.</p><p><b>exit</b>: encerra o programa<br/></p>
+Formato da entrada: <p>Cada linha contém um comando e no caso do push o valor a ser inserido.</p><p><br/></p>
+Formato da saída: <p>Cada linha da saída deve resultado ou do comando print ou do comando sum.<br/></p>

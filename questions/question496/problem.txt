@@ -1,0 +1,7 @@
+Título: Classificação de Hotéis
+Topicos do problema: acumulador; decisão; repetição; string; 
+Descrição: <p>Uma ag&ecirc;ncia de turismo resolveu fazer um cadastro das hospedagens mais populares da Para&iacute;ba, e para isso pediu que seus clientes fizessem uma classifica&ccedil;&atilde;o de qualidade, indicando quantas estrelas (de 1 a 5) cada hotel merecia.</p>
+<p>Escreva um programa que receba como entrada o tipo (hotel ou pousada), a quantidade de estrelas e a cidade de 10 estabelecimentos e exiba quantos hot&eacute;is em Jo&atilde;o Pessoa s&atilde;o 5 estrelas, qual a m&eacute;dia de estrelas dos estabelecimentos de Campina Grande, e quantas pousadas existem em Rio Tinto.</p>
+Formato da entrada: <p>Um String, um inteiro e outro String para cada estabelecimento</p>
+<p>Dica: os usu&aacute;rios podem usar min&uacute;sculas e/ou mai&uacute;sculas nos Strings</p>
+Formato da saída: <p>Tr&ecirc;s valores inteiros</p>

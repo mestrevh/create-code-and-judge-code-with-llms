@@ -1,0 +1,5 @@
+Título: Q05 - Conversão de Moeda
+Topicos do problema: lógica matemática; função; formatação; 
+Descrição: <p>Crie um procedimento chamado &#34;converter moeda&#34; que recebe um valor em reais (no tipo real) e exibe sua conversão para dólares, considerando uma taxa de câmbio fixa<span>.</span></p><p><span>use a cotação de US$ 1 = R$ 5,75</span></p><p><span>utilize duas casas decimais</span></p>
+Formato da entrada: <p>um número real representando a quantidade em Reais</p>
+Formato da saída: <p>A quantidade de dinheiro em conversão para dólar</p>

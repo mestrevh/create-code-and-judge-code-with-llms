@@ -1,0 +1,11 @@
+Título: Propriedade do Divisor
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p>Dado um n&uacute;mero inteiro 10&lt;=n&lt;=100, fa&ccedil;a um programa que imprima SIM caso ele satisfa&ccedil;a as propriedades abaixo ou NAO, caso contr&aacute;rio:</p>
+<p>
+<ul>
+<li>N&atilde;o termina em zero;</li>
+<li>Se o d&iacute;gito da direita for removido, o n&uacute;mero restante &eacute; divisor do n&uacute;mero original.</li>
+</ul>
+</p>
+Formato da entrada: <p>Um n&uacute;mero inteiro entre 10 e 100.</p>
+Formato da saída: <p>SIM caso o n&uacute;mero satisfa&ccedil;a as propriedades ou NAO, caso contr&aacute;rio.</p>

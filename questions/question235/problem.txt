@@ -1,0 +1,5 @@
+Título: Arrays de pares e ímpares
+Topicos do problema: array; função; ponteiro; 
+Descrição: <p>Neste problema voc&ecirc; dever&aacute; ler 15 valores coloc&aacute;-los em 2 arrays conforme estes valores forem pares ou &iacute;mpares. S&oacute; que o tamanho de cada um dos dois arrays &eacute; de 5 posi&ccedil;&otilde;es. Ent&atilde;o, cada vez que um dos dois arrays encher, voc&ecirc; dever&aacute; imprimir todo o array e utiliz&aacute;-lo novamente para os pr&oacute;ximos n&uacute;meros que forem lidos. Terminada a leitura, deve-se imprimir o conte&uacute;do que restou em cada um dos dois arrays, imprimindo primeiro os valores do array &iacute;mpar. Cada array pode ser preenchido tantas vezes quantas for necess&aacute;rio.</p>
+Formato da entrada: <p>A entrada cont&eacute;m 15 n&uacute;meros inteiros.</p>
+Formato da saída: <p>Imprima a sa&iacute;da conforme o exemplo de sa&iacute;da.</p>

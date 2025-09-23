@@ -1,0 +1,5 @@
+Título: 3o ângulo  do triângulo
+Topicos do problema: lógica matemática; 
+Descrição: <title></title><p class="p1"><span class="s1">Escreva um programa em C que o usuário entre com dois ângulos internos de um triângulo e o programa calcule o 3o </span><span>ângulo do triângulo.</span></p>
+Formato da entrada: <p>Ângulo 1 (valor inteiro)</p><p>Ângulo 2 (valor inteiro)</p>
+Formato da saída: <p>Ângulo 3 (valor decimal com 6 casas decimais)</p>

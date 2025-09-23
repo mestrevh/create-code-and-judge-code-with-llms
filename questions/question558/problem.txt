@@ -1,0 +1,16 @@
+Título: Distância de edição
+Topicos do problema: programação dinâmica; 
+Descrição: <p>Esse &eacute; um dos problemas cl&aacute;ssicos da computa&ccedil;&atilde;o. A solu&ccedil;&atilde;o para esse problema &eacute; aplicada em v&aacute;rios contextos, como por exemplo o alinhamento de sequ&ecirc;ncias de DNAs.</p>
+<p>Voc&ecirc; receber&aacute; duas strings, A e B. Voc&ecirc; deve responder qual o menor n&uacute;mero de opera&ccedil;&otilde;es necess&aacute;rias para transformar A em B.</p>
+<p>As opera&ccedil;&otilde;es v&aacute;lidas s&atilde;o:</p>
+<ul>
+<li>Apagar um caractere de A</li>
+<li>Inserir um caractere em A</li>
+<li>Substituir um caractere de A por um de B</li>
+</ul>
+<p>&nbsp;</p>
+Formato da entrada: <p>Voc&ecirc; receber&aacute; um inteiro T correspondendo ao n&uacute;mero de casos de teste.</p>
+<p>Para cada caso de teste, voc&ecirc; receber&aacute; duas strings, uma em cada linha.</p>
+<p>As strings cont&eacute;m somente caracteres mai&uacute;sculos e n&atilde;o s&atilde;o maiores que 2000 caracteres.</p>
+<p>O inteiro T &eacute; menor ou igual a 10.</p>
+Formato da saída: <p>Para cada caso de teste, imprima uma linha contendo o n&uacute;mero m&iacute;nimo de opera&ccedil;&otilde;es.</p>

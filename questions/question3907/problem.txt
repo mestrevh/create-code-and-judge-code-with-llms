@@ -1,0 +1,5 @@
+Título: P3.Q3
+Topicos do problema: repetição; 
+Descrição: <p>Escreva um programa que, dado um valor n de entrada representando um número máximo de asteriscos por linha, imprima na tela o seguinte padrão (nesse caso, n= 5):<br/></p><p><br/></p><pre>* <br/>* * <br/>* * * <br/>* * * * <br/>* * * * * <br/>* * * * <br/>* * * <br/>* * <br/>*</pre>
+Formato da entrada: <p>Um número inteiro n.</p>
+Formato da saída: <p>O padrão de acordo com o número n lido.</p>

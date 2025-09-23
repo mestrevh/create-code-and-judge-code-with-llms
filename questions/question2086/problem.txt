@@ -1,0 +1,5 @@
+Título: 1000 Números do Tio Willy
+Topicos do problema: array; repetição; 
+Descrição: <p>Leia uma sequência de 1000 inteiros.</p><p>Leia outro inteiro <b>N</b>, e seu programa deve imprimir quantas vezes o inteiro <b>N</b> aparece nos 1000 anteriores.</p><p>O programa para quando o primeiro inteiro dos 1000 for igual a -1.<br/></p>
+Formato da entrada: <p>Primeiramente entrada terá de 1000 inteiros, que você deve considerar na conta, em seguida, existirá um inteiro <b>N</b> que é o que deverá ser contadas as <b>K</b> vezes em que ele apareceu entre os 1000 inteiros. Se o próximo número lido for -1, a entrada para, senão: deverão ser lidos os outros 999 inteiros, e assim se repete.</p>
+Formato da saída: <p>Para cada pacote de 1000 inteiros, deverá ser imprimida a seguinte frase:</p><p><b>N</b> appeared <b>K</b> times</p>

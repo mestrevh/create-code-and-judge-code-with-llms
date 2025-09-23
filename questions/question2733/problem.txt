@@ -1,0 +1,5 @@
+Título: PROGCOMP - Funções - L
+Topicos do problema: função; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Construa um programa que use uma função, criada por você, que recebe como parâmetros um vetor v de n inteiros e um inteiro x e retorne quantas vezes x ocorre em v. O programa deverá exibir o valor devolvido pela função.</span><br/></p>
+Formato da entrada: <p>Na primeira linha um número inteiro x, simbolizando o valor buscado. Na linha seguinte, um número natural n (0 &lt; n &lt; 100), indicando a quantidade de itens do vetor V. Nas n linhas posteriores um número inteiro por linha simbolizando os itens do vetor, que deverão ser armazenados na mesma sequência em que foram dados.</p>
+Formato da saída: <p>O número de ocorrências de x em V (quantos itens iguais ao x estão em V).</p>

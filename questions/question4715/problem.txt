@@ -1,0 +1,5 @@
+Título: Q09 - Exibição de Sequência Aritmética
+Topicos do problema: lógica matemática; função; string; formatação; 
+Descrição: <p>Crie um procedimento chamado &#34;sequencia_aritmetica&#34; que recebe um número inicial, <span>um valor de razão e um número de termos, e exibe a </span><span>sequência aritmética correspondente.</span></p>
+Formato da entrada: <p>Um número inteiro indicando de onde a sequência começa;</p><p>Um número inteiro indicando qual vai ser a razão;</p><p>Um número inteiro indicando qual vai ser a quantidade de termos da sequência</p>
+Formato da saída: <p>A sequência aritmética baseada no valor inicial, na razão e na quantidade de termos</p>

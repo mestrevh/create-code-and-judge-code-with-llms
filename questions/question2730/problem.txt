@@ -1,0 +1,5 @@
+Título: PROGCOMP - Funções - C
+Topicos do problema: função; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Construa um programa que use uma função, criada por você, que recebe como parâmetro um inteiro n e exibe, a partir da posição atual do cursor no console, uma linha composta por n asteriscos.</span><br/></p>
+Formato da entrada: <p>Um número inteiro n (0 &lt; n &lt; 100).</p>
+Formato da saída: <p>n asteriscos na mesma linha.</p>

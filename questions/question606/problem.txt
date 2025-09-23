@@ -1,0 +1,5 @@
+Título: No máximo duas vezes
+Topicos do problema: caractere; maratona; 
+Descrição: <p>Dado um número inteiro positivo U, encontre o maior inteiro L tal que L &lt;=U e L não contém qualquer dígito mais que duas vezes.<br/></p>
+Formato da entrada: <p>Consiste de uma única linha contendo o inteiro U ( 1&lt;=U&lt;=10^18)<br/></p>
+Formato da saída: <p>Imprima uma linha contendo o inteiro representando o maior número menor ou igual a U que não contém qualquer dígito mais que duas vezes.<br/></p>

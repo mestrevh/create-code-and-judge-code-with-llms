@@ -1,0 +1,23 @@
+Título: Quadrante
+Topicos do problema: geometria computacional; 
+Descrição: <p><span><span class="hps">Escreva um programa para</span> <span class="hps">ler</span> <span class="hps atn">as coordenadas (</span><span>X</span><span>,</span> <span class="hps">Y)</span> <span class="hps">de</span> um <span class="hps">ponto no</span> <span class="hps">sistema cartesiano</span><span>.</span> E escrever &agrave; qual <span class="hps">quadrante</span> ele</span> <span><span class="hps">pertence</span><span>.</span>&nbsp;<span></span></span></p>
+Formato da entrada: <p><span><span class="hps">Dois</span> <span class="hps">n&uacute;meros inteiros.</span></span></p>
+Formato da saída: <div id="gt-res-content" class="almost_half_cell">
+<div style="zoom: 1;" dir="ltr"><span>I<span>mprima o</span> <span class="hps">quadrante</span> <span class="hps">correspondente</span> <span class="hps">que</span> <span class="hps">estas coordenadas</span> <span class="hps">pertencem</span><span>, que pode ser:</span></span></div>
+<div style="zoom: 1;" dir="ltr">
+<ul>
+<li>primeiro</li>
+<li>segundo</li>
+<li>terceiro</li>
+<li>quarto</li>
+<li>eixo x<br /></li>
+<li>eixo y</li>
+<li>origem<br /></li>
+</ul>
+</div>
+<div style="zoom: 1;" dir="ltr">Ser&aacute; eixo x quando a coordenada y for zero.</div>
+<div style="zoom: 1;" dir="ltr">Ser&aacute; eixo y quando a coordenada x for zero.</div>
+<div style="zoom: 1;" dir="ltr">Os outros basta achar a localiza&ccedil;&atilde;o do ponto no plano cartesiano.</div>
+<div style="zoom: 1;" dir="ltr"><br /></div>
+<div style="zoom: 1;" dir="ltr">A saida deve ser seguida de uma quebra de linha.<br /></div>
+</div>

@@ -1,0 +1,5 @@
+Título: Desvio padrão
+Topicos do problema: acumulador; lógica matemática; 
+Descrição: <p>Sua missão é calcular o desvio padrão de n números dados.</p><p>Considere o cálculo do desvio padrão como sendo da população e não da amostra.<br/></p>
+Formato da entrada: <p>A primeira linha da entrada contém um inteiro n ( 2&lt;=n&lt;=10000), correspondendo a quantidade de números reais que serão fornecidos.</p><p>Na sequência, serão fornecidos n linhas, cada linha contendo um número real (menor que 10000).</p>
+Formato da saída: <p>Imprima um número real formatado com duas casas decimais, correspondendo ao desvio padrão.</p>

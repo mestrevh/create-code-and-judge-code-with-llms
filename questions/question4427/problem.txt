@@ -1,0 +1,5 @@
+Título: Estatistica das notas
+Topicos do problema: array; 
+Descrição: <p>Luisa, a grandiosa monitora e promotora do lulupalooza, a pedido do professor psgmn, precisou que a partir de hoje tirasse a média, moda e mediana das notas dos alunos da futura falecida cadeira de AVLC.</p><p>Para otimizar seu tempo de entrega desses dados as cercas das futuras EE's, Luisa decidiu fazer um código que lhe entregasse esses dados.<br/></p>
+Formato da entrada: <p>A entrada consta inicialmente por um número inteiro tal que 0 &lt; N &lt;= 50, seguido por N números inteiros (tal que 0 &lt;= x &lt;= 10)<br/></p>
+Formato da saída: <p>A saída dever ser dada a seguinte maneira,</p><p>as duas primeiras linhas:<br/></p><p>Media: (valor) *\n*<br/></p><p>Mediana: (valor) *\n*</p><p>a ultima variar de acordo com a Moda.</p><p>se houver,</p><p>Moda: (valor) *\n*</p><p>Se não houver,</p><p>Nao tem moda *\n*<br/></p><p><br/></p><p><br/></p>

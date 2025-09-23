@@ -1,0 +1,23 @@
+ADD Memento 2 1 4
+ADD Psycho 5 4 5
+SHOW R
+SHOW A
+DEL Memento
+FIRST R 2
+DEL Psycho
+ADD Citizen_Kane 5 2 3
+FIRST R 5
+SHOW D
+ADD Charlie_and_The_Chocolate_Factory 1 4 1
+SHOW D
+LAST R 3
+SHOW R
+FIRST D 2
+DEL Charlie_and_The_Chocolate_Factory
+SHOW A
+ADD Inception 4 1 4
+LAST D 4
+LAST R 4
+SHOW R
+ADD The_Godfather 4 1 1
+END

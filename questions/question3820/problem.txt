@@ -1,0 +1,5 @@
+Título: Contas por categoria
+Topicos do problema: estrutura de dados; 
+Descrição: <p>Você recebeu a tarefa de totalizar os pagamentos efetuados por diversos departamentos de uma empresa e emitir um relatório organizado por categoria. Deseja-se exibir os totais por categoria e o total geral.</p><p>Entrada</p><p>A primeira linha contém um inteiro N, indicando a quantidade de pagamentos efetuados. As N linhas seguintes, contém, cada uma, um par de informações (A, B), onde A representa a categoria e B o valor.</p><p>Saída</p><p>A saída consiste em uma lista com os totais pagos por categoria e o total geral.</p><p>1 &lt;= N &lt;= 10</p><ul><li>A é um caractere entre A..Z</li><li>B é um valor inteiro entre 100 e 1000.</li></ul>
+Formato da entrada: <p>10</p><p>A 1000</p><p>B 200</p><p>A 100</p><p>A 150</p><p>B 250</p><p>C 300</p><p>C 100</p><p>D 300</p><p>B 100</p>
+Formato da saída: <p>A 1750</p><p>B 550</p><p>C 400</p><p>D 300</p><p><span>TOTAL3000</span></p>

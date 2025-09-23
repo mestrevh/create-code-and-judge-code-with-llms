@@ -1,0 +1,5 @@
+Título: Conversão de °F em °C.
+Topicos do problema: 
+Descrição: <p>Faça um programa em Java que leia do usuário a temperatura em graus Fahrenheit e converta a temperatura para graus Celsius. Utilize a seguinte fórmula: C = (5 * (F-32) / 9).<br/></p>
+Formato da entrada: <p>Temperatura em °F.</p>
+Formato da saída: <p>Temperatura em °C.</p>

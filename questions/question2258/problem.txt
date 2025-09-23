@@ -1,0 +1,5 @@
+Título: Quantidade de caracteres (função iterativa)
+Topicos do problema: repetição; função; string; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Crie um programa que tenha uma única função, além da principal, que receberá como parâmetro uma string não vazia </span><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><i>s</i></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"> (com no máximo 50 caracteres de conteúdo)<span> </span>e exibirá a quantidade de caracteres de<span> </span><b><i>s</i></b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">. Observações: (a) apenas um laço de repetição; (b) sem matrizes auxiliares; (c) não usar funções prontas; (d) função iterativa.</span><br/></p>
+Formato da entrada: <p>A casa amarela</p>
+Formato da saída: <p>14</p>

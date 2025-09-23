@@ -1,0 +1,5 @@
+Título: [C3] LAB - 6
+Topicos do problema: estruturas; 
+Descrição: <p>Faça um programa que receba o custo de um espetáculo teatral e o preço do convite desse espetáculo.<br/><br/>O programa deve calcular e mostrar:<br/>a) A quantidade de convites que devem ser vendidos para que pelo menos o custo do espetáculo seja alcançado.<br/>b) A quantidade de convites que devem ser vendidos para que se tenha um lucro de 23%. (Isto é, 23% a mais que o preço de custo)<br/><br/>Não imprima nada na entrada/saída além das respostas.</p>
+Formato da entrada: <p>Custo do espetáculo<br/>Preço do convite</p>
+Formato da saída: <p>Quantidade de convites mínima para pagar o espetáculo<br/><span style="float: none;">Quantidade de convites mínima para ter lucro de 23%</span><br/></p>

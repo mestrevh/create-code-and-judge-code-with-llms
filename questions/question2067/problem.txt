@@ -1,0 +1,5 @@
+Título: Frequência de um número
+Topicos do problema: repetição; 
+Descrição: <p>Dado um número Y, imprima quantas vezes Y aparece em uma sequência.</p>
+Formato da entrada: <p>2 números X,Y onde X indica a quantidade de números da sequência e Y o número procurado.</p><p>uma sequência de X números.</p>
+Formato da saída: <p>O valor correspondente a quantidade de vezes que Y apareceu na sequência.</p>

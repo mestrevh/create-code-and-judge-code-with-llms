@@ -1,0 +1,5 @@
+Título: Contar palavras de texto inglês
+Topicos do problema: 
+Descrição: <p>Este problema é similar com o problema <span style="color: rgb(0, 0, 0);float: none;background-color: rgb(255, 255, 255);">843 - Contar palavras.<span style="color: rgb(147, 149, 152);float: none;background-color: rgb(255, 255, 255);"> O objetivo é contar o número de palavras num texto escrito em inglês. Considera-se que uma palavra é qualquer sequência de letras do alfabeto inglês. Em particular, caracteres com acentos não são considerados letras.</span></span></p>
+Formato da entrada: <p>Uma string contendo um texto de no máximo 500 caracteres.</p>
+Formato da saída: <p>O número de palavras no texto.</p>

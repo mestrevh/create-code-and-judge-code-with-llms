@@ -1,0 +1,5 @@
+Título: Conteúdo de Duas Listas Encadeadas
+Topicos do problema: estrutura de dados; set; subconjuntos; ordenação; 
+Descrição: <p>Dada duas listas encadeadas A e B, escreva uma fun&ccedil;&atilde;o para verificar se B &eacute; um subconjunto de A.</p>
+Formato da entrada: <p>A primeira linha de entrada ser&aacute; o tamanho da primeira lista (n&uacute;mero inteiro). Em seguida, uma lista com n n&uacute;meros inteiros. A terceira linha de entrada &eacute; o tamanho da segunda lista (n&uacute;mero inteiro). Por fim, uma lista com m n&uacute;meros inteiros. Nesse caso, m e n podem assumir valores iguais ou diferentes.</p>
+Formato da saída: <p>0 caso n&atilde;o seja subconjunto; 1 caso contr&aacute;rio.</p>

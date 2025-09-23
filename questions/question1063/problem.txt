@@ -1,0 +1,5 @@
+Título: Notas em ordem crescente
+Topicos do problema: decisão; ordenação; 
+Descrição: <p><span id="docs-internal-guid-c036e72a-4544-40d3-765d-3ab7d0ab3b7a"><span style="color: rgb(0, 0, 0);background-color: transparent;">Escreva um programa que leia as notas de três pessoas pessoas em uma prova e as exiba na saída padrão de forma crescente.</span></span><br/></p>
+Formato da entrada: <p>As notas (inteiras) de 3 pessoas com valores entre 0 e 100</p>
+Formato da saída: <p>As notas dessas 3 pessoas ordenadas de forma crescente</p>

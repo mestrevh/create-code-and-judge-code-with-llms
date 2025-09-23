@@ -1,0 +1,5 @@
+Título: Maças
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p><span class="fontstyle0">As maçãs custam R$0,30 cada se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o valor total da compra.</span><br/><br/></p>
+Formato da entrada: <p>O usuário deve digitar o número de maças (inteiro)<br/></p>
+Formato da saída: <p>O programa deve exibir valor total da compra de maças, com 2 casas decimais, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a quantidade de macas:<br/></p><p>Valor total: R$ n</p>

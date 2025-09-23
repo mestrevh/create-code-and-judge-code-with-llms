@@ -1,0 +1,5 @@
+Título: Próximo número
+Topicos do problema: entrada formatada; 
+Descrição: <p>Faça um programa que lê um número inteiro como entrada e imprime o inteiro seguinte.</p>
+Formato da entrada: <p>Um número inteiro.</p>
+Formato da saída: <p>O número inteiro seguinte.</p>

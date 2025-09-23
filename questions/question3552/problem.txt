@@ -1,0 +1,5 @@
+Título: Prática de estruturas de repetição
+Topicos do problema: repetição; 
+Descrição: <p>Construa um programa que lê dois valores inteiros <b>x</b> e <b>y</b> e imprime todos os números inteiros entre <b>x</b> e <b>y</b>.</p><p><br/></p>
+Formato da entrada: <p>Dois valores inteiros <b>x</b> e <b>y</b>.</p><p><u>OBS</u>: <b>Não</b> utilize strings dentro do comando input() na plataforma TheHuxley.</p><p><u>Errado</u>: x = int(input(&#34;Informe x: &#34;))</p><p><u>Correto</u>: x = int(input())</p><p><br/></p>
+Formato da saída: <p>Todos os números inteiros entre <b>x</b> e <b>y</b>.</p>

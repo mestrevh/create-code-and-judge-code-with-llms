@@ -1,0 +1,5 @@
+Título: Vetor de fatoriais
+Topicos do problema: array; repetição; formatação; 
+Descrição: <pre><span style="color: rgb(0, 0, 0);">Fazer um programa para ler um vetor V com n elementos e obter um vetor W cujos elementos são os fatoriais dos respectivos elementos de V.</span><span style="color: rgb(0, 0, 0);float: none;"></span><br/></pre>
+Formato da entrada: <pre>n + 1 números naturais em coluna, onde o primeiro corresponde ao número de elementos seguido dos próprios elementos do vetor V.</pre>
+Formato da saída: <pre>n números naturais na primeira linha, separados por 1 espaço, correspondentes aos elementos do vetor V.</pre><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">n números naturais na segunda linha, separados por 1 espaço, correspondentes aos elementos do vetor W.</pre>

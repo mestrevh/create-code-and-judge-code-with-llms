@@ -1,0 +1,17 @@
+Título: Progressões Aritméticas
+Topicos do problema: array; repetição; lógica matemática; 
+Descrição: <p>Bob &eacute; um aluno do ensino m&eacute;dio que gosta muito de matem&aacute;tica. Na &uacute;ltima aula ele aprendeu o que s&atilde;o<br />Progress&otilde;es Aritm&eacute;ticas (PAs) e ficou fascinado por elas. Pelo que Bob entendeu, Progress&otilde;es Aritm&eacute;ticas s&atilde;o<br />sequ&ecirc;ncias de n&uacute;meros nas quais a diferen&ccedil;a entre dois elementos consecutivos &eacute; sempre igual a uma constante r,<br />chamada de raz&atilde;o da PA.</p>
+<p><br />Um exemplo de Progress&atilde;o Aritm&eacute;tica de raz&atilde;o 2 &eacute; &minus;1, 1, 3, 5. Al&eacute;m disso, toda sequ&ecirc;ncia com um ou dois<br />elementos &eacute; sempre uma Progress&atilde;o Aritm&eacute;tica. Por outro lado, 5, 6, 8, 9, 10 n&atilde;o &eacute; uma PA porque a diferen&ccedil;a<br />entre elementos consecutivos n&atilde;o &eacute; constante: a diferen&ccedil;a entre os dois primeiros elementos &eacute; 6&minus;5 = 1, enquanto<br />a diferen&ccedil;a entre o terceiro e o segundo elementos &eacute; 8 &minus; 6 = 2.</p>
+<p><br />Bob percebeu que qualquer sequ&ecirc;ncia, mesmo que a mesma n&atilde;o seja uma Progress&atilde;o Aritm&eacute;tica, pode ser<br />quebrada em sequ&ecirc;ncias menores que s&atilde;o PAs. Por exemplo, vimos que a sequ&ecirc;ncia 5, 6, 8, 9, 10 n&atilde;o &eacute; uma PA,<br />mas podemos quebrar ela entre o 6 e o 8 para obtermos as sequ&ecirc;ncias 5, 6 e 8, 9, 10, que s&atilde;o PAs. Note que n&atilde;o<br />existe como quebrar a sequ&ecirc;ncia em menos partes se quisermos ter apenas PAs no fim do procedimento.</p>
+<p><br />Bob &eacute; fascinado por programa&ccedil;&atilde;o mas ainda n&atilde;o sabe programar muito bem, e por isso pediu sua ajuda: ele<br />n&atilde;o est&aacute; conseguindo descobrir como quebrar sequ&ecirc;ncias muito grandes de um jeito eficiente; por isso, pediu<br />que voc&ecirc; escrevesse um programa para, dada uma sequ&ecirc;ncia qualquer, imprimir o n&uacute;mero m&iacute;nimo de partes em<br />que precisamos quebrar a sequ&ecirc;ncia para termos apenas Progress&otilde;es Aritm&eacute;ticas no t&eacute;rmino do processo. Caso<br />a sequ&ecirc;ncia original j&aacute; seja uma PA, podemos terminar o processo com uma &uacute;nica parte, e portanto a resposta<br />para esse caso &eacute; 1.</p>
+<p>Exemplo</p>
+<p>Entrada:</p>
+<p>7<br />-2 0 2 3 3 4 6</p>
+<p>Sa&iacute;da:</p>
+<p>3</p>
+<p>&Eacute; f&aacute;cil verificar que a sequ&ecirc;ncia &minus;2, 0, 2, 3, 3, 4, 6 (do exemplo acima) n&atilde;o &eacute; uma PA, pois 2&minus;0 &eacute; diferente de 3&minus;2.<br />Verificando manualmente, voc&ecirc; pode constatar que n&atilde;o &eacute; poss&iacute;vel particionar a sequ&ecirc;ncia em duas de<br />tal forma que ambas as partes sejam PAs. Entretanto, existe uma maneira de particionar a sequ&ecirc;ncia<br />em 3 PAs: {&minus;2, 0, 2} {3, 3} {4, 6} . Portanto, temos que a resposta para este exemplo &eacute; 3.</p>
+Formato da entrada: <p>A primeira linha da entrada &eacute; composta por um inteiro N, o n&uacute;mero de elementos da sequ&ecirc;ncia. Na segunda<br />linha existem N inteiros Ai, os elementos da sequ&ecirc;ncia.</p>
+<p>Considere:</p>
+<p>1 &lt;= N &lt;= 100000</p>
+<p>-100000 &lt;= Ai &lt;= 100000</p>
+Formato da saída: <p>A sa&iacute;da deve conter uma &uacute;nica linha, indicando o n&uacute;mero m&iacute;nimo de partes em que Bob precisa quebrar a<br />sequ&ecirc;ncia original para que ele termine apenas com PAs.</p>

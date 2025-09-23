@@ -1,0 +1,5 @@
+Título: Contar um caracter na string
+Topicos do problema: array; substrings; caractere; string; 
+Descrição: <p>Fa&ccedil;a um programa para ler uma string e um caracter qualquer e calcule o n&uacute;mero de ocorr&ecirc;ncias desse caracter na string. Exemplo: Seja a string "maracatu" e o caracter 'a', ent&atilde;o o n&uacute;mero de ocorr&ecirc;ncias &eacute; 3.</p>
+Formato da entrada: <p>Voc&ecirc; ler&aacute; duas linhas. Na primeira linha voc&ecirc; receber&aacute; uma string com no m&aacute;ximo 50 caracteres. Na segunda linha voc&ecirc; receber&aacute; um &uacute;nico caracter.</p>
+Formato da saída: <p>Imprima um n&uacute;mero inteiro indicando quantas vezes o caracter dado aparece na string. &nbsp;Depois de imprimir o n&uacute;mero, imprima um final de linha (ou seja, pule uma linha).</p>

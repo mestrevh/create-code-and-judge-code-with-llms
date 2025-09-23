@@ -1,0 +1,5 @@
+Título: Bob Conduíte
+Topicos do problema: entrada formatada; repetição; 
+Descrição: <p>Você tem em mãos dois cabos circulares de energia. O primeiro cabo tem raio R1 e o segundo raio R2. Você precisa comprar um conduíte circular (veja a imagem abaixo que ilustra um conduíte) de maneira a passar os dois cabos por dentro dele.</p><p style="text-align: center;"><img alt="" src="https://resources.urionlinejudge.com.br/gallery/images/problems/UOJ_1589.jpg"/><br/></p><p>Qual o menor raio do conduíte que você deve comprar? Em outras palavras, dados dois círculos, qual o raio do menor círculo que possa englobar os dois?<br/></p>
+Formato da entrada: <p>Na primeira linha teremos um inteiro <b>T</b> (<b>T</b> ≤ 10000), indicando o número de casos de teste.</p><p>Na única linha de cada caso de teste teremos dois números inteiros <b>R1</b> e <b>R2</b>, indicando os respectivos raios. Os inteiros serão positivos.<br/></p>
+Formato da saída: <p>Em cada caso, imprima o menor raio possível em uma única linha.</p>

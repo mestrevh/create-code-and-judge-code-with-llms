@@ -1,0 +1,5 @@
+Título: Tabuada
+Topicos do problema: formatação; 
+Descrição: <p>Fa&ccedil;a um programa que leia um n&uacute;mero inteiro e imprima a tabuada de multiplica&ccedil;&atilde;o deste n&uacute;mero. Suponha que o n&uacute;mero lido da entrada &eacute; maior que zero.</p>
+Formato da entrada: <p>Um n&uacute;mero inteiro.</p>
+Formato da saída: <p>A tabuada de multiplica&ccedil;&atilde;o correspondente ao n&uacute;mero digitado. Verifique o exemplo de sa&iacute;da para a especifica&ccedil;&atilde;o do formato.</p>

@@ -1,0 +1,5 @@
+Título: P3-Q2
+Topicos do problema: repetição; 
+Descrição: <p><span class="Y2IQFc" lang="pt">Escreva um programa para encontrar os números inteiros que são divisíveis por 7 e múltiplos de 5, entre 1500 e 2700 (ambos incluídos).</span></p>
+Formato da entrada: <p>Não há entradas.</p>
+Formato da saída: <p>A lista de todos os números inteiros encontrados, separados por vírgula.</p>

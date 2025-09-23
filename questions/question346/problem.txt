@@ -1,0 +1,12 @@
+Título: Coleta Seletiva
+Topicos do problema: acumulador; repetição; 
+Descrição: <p>Ambrol&acirc;ndia vem crescendo e como toda cidade grande ela est&aacute; come&ccedil;ando a se preocupar com o meio ambiente,</p>
+<p>o prefeito, Sr. Ambr&oacute;sio, decidiu come&ccedil;ar a coleta seletiva na cidade e encontrou alguns problemas no caminho.</p>
+<p>O sr. Ambr&oacute;sio tem uma verba limitada, o que torna a quantidade de caminh&otilde;es limitada com cada caminh&atilde;o levando somente</p>
+<p>3 metros cubicos, ele procurou voc&ecirc; para ajuda-lo na organiza&ccedil;&atilde;o do seu sistema de coleta seletiva.</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>Um inteiro C, um inteiro N que representam respectivamente a quantidade de caminh&otilde;es, o n&uacute;meros de pr&eacute;dios a serem visitados.</p>
+<p>&nbsp; &nbsp; Em seguida o programa recebe N inteiros representando a quantidade de apartamentos de cada pr&eacute;dio e seus consumos m&eacute;dios di&aacute;rio de</p>
+<p>&nbsp; &nbsp; lixo recicl&aacute;vel(separadamente, Vidro(L), Papel(m&sup3;), Pl&aacute;stico(L) e Metal(mL)), observa&ccedil;&atilde;o se a quantidade de apartamentos do pr&eacute;dio for igual ou menos que 0, ent&atilde;o n&atilde;o precisa receber o consumo m&eacute;dio desse predio.</p>
+Formato da saída: <p>Um &uacute;nico inteiro representando a quantidade de viagens que precisar&atilde;o ser dadas em m&eacute;dia por cada caminh&atilde;o com um final de linha. Caso n&atilde;o tem caminh&otilde;es dispon&iacute;veis imprima "Nao possuem caminhoes para fazer a coleta!", sem as aspas e com um final de linha.</p>
+<p>&nbsp;</p>

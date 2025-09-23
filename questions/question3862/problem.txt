@@ -1,0 +1,5 @@
+Título: Verificação de eleitor
+Topicos do problema: decisão; repetição; 
+Descrição: <p>Faça um programa que leia várias idades de pessoas e informe se elas são obrigadas a votar, se tem a opção de tirar o título ou se não podem votar ainda. </p><p>O programa deve parar quando a idade lida for 0.</p>
+Formato da entrada: <p>idades aleatórias, terminada sempre com o valor 0.</p>
+Formato da saída: <p>De acordo com a idade, deverá ter uma das saídas abaixo: </p><p>Você não pode votar. (para menores de 16 anos) </p><p>Você tem a obrigatoriedade de votar. (para idades entre 18 e 70 anos)</p><p>Na sua idade, o voto é opcional. (para idades acima de 70 anos ou para as idades de 16 e 17 anos). </p><p>Você ainda não nasceu. (para idades negativas)</p>

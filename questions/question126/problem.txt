@@ -1,0 +1,19 @@
+Título: Árvore Genealógica
+Topicos do problema: array; array bidimensional; alocação dinâmica; recursão; busca; estruturas; 
+Descrição: <p>A empresa Genomics faz v&aacute;rios servi&ccedil;os dedicados a fam&iacute;lias, 
+principalmente para descobrir parentes e parentescos perdidos. Para 
+mostrar a efici&ecirc;ncia de seus servi&ccedil;os, a Genomics quer, para cada &aacute;rvore 
+geneal&oacute;gica que ela tem, achar o par de parentes com parentesco mais 
+distante. Para isso, eles definiram uma "fun&ccedil;&atilde;o-parentesco" definida da 
+seguinte forma:</p>
+<p>1. grau(A, B) = 0, se A = B<br />2. grau(A, B) = INT_MAX, se A ou B n&atilde;o existem<br />3. grau(A, B) = 1 + min{grau(pai(A), B), grau(A, pai(B))}, se A != B</p>
+<ol> </ol>
+<p>Voc&ecirc; deve fazer um programa que, dado uma &aacute;rvore geneal&oacute;gica, imprime o nome dos dois parentes com maior grau de parentesco.</p>
+<p><span style="font-size: x-small;"><strong>Importante</strong></span>: A condi&ccedil;&atilde;o 2 da fun&ccedil;&atilde;o grau ocorre quando a fun&ccedil;&atilde;o pai(X) &eacute; chamada e X n&atilde;o possui pai. Ou seja, a fun&ccedil;&atilde;o pai retorna um elemento que representa o SEM_PAI.</p>
+<p>Dica: Caso voc&ecirc; esteja fazendo o seu c&oacute;digo na linguagem C, inclua o arquivo limits.h. Nesse arquivo existe a constante INT_MAX que representa o maior valor inteiro.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>A entrada &eacute; composta de um &uacute;nico caso de teste. A primeira linha cont&eacute;m um n&uacute;mero inteiro positivo N, que indica o n&uacute;mero de rela&ccedil;&otilde;es pai-filho que ser&atilde;o descritas. As N linhas seguintes cont&ecirc;m duas strings cada, P e F, indicando que P &eacute; pai de F.</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha contendo os nomes do par de 
+parentes com maior grau de parentesco, e esse grau. Essas duas strings 
+devem estar em ordem alfab&eacute;tica; em caso de empate, voc&ecirc; pode imprimir o par cujo um dos elementos aparece primeiro na entrada dada.</p>

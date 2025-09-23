@@ -1,0 +1,5 @@
+Título: Oi!
+Topicos do problema: string; 
+Descrição: <p>Escreva um programa que leia o nome de uma pessoa e exiba a mensagem “Olá, FULANO” (onde FULANO é o nome da pessoa lida da entrada padrão).<br/></p>
+Formato da entrada: <p>O nome de uma pessoa.</p>
+Formato da saída: <p>Um cumprimento à pessoa no seguinte formato:</p><p>Olá, Fulano!</p><p>Onde &#34;Fulano&#34; é o nome informado na entrada.</p>

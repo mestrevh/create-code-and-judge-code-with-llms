@@ -1,0 +1,12 @@
+Título: Números Primos No Intervalo
+Topicos do problema: repetição; números primos; 
+Descrição: <div id="problem-description-modal-$problem.id" class="problem-description-item">
+<p>Escreva
+ um programa que receba como entrada dois n&uacute;meros positivos (limites do 
+intervalo) e exiba todos os n&uacute;meros primos entre eles <span style="text-decoration: underline;">em ordem decrescente</span>. Lembre-se de que os 
+limites podem ser informados em qualquer ordem.</p>
+<p>Obs: os limites do intervalo devem ser considerados como parte dele</p>
+<p>Dica: o n&uacute;mero 1 n&atilde;o &eacute; considerado primo</p>
+</div>
+Formato da entrada: <p>Dois n&uacute;meros inteiros<br /><br />Lembre-se de que o primeiro n&uacute;mero informado n&atilde;o necessariamente ser&aacute; menor que o segundo informado</p>
+Formato da saída: <p>N&uacute;meros inteiros, sendo um por linha, em ordem decrescente.</p>

@@ -1,0 +1,14 @@
+Título: Índices de um caracter na string
+Topicos do problema: array; substrings; caractere; string; 
+Descrição: <p>Fa&ccedil;a um progrma para ler uma string e um caracter qualquer e imprima as posi&ccedil;&otilde;es (&iacute;ndices) de onde ocorre o caracter na string. Por exemplo, seja a string "abracadabra!!!" e o caracter 'a', ent&atilde;o a sua sa&iacute;da deve ser:</p>
+<p>0</p>
+<p>3</p>
+<p>5</p>
+<p>7</p>
+<p>10</p>
+<p>-1</p>
+<p>&nbsp;</p>
+<p>O valor -1 indica o final, ou seja, n&atilde;o existem mais ocorr&ecirc;ncias. Caso n&atilde;o exista nenhuma ocorr&ecirc;ncia, deve ser impresso o valor -1.&nbsp;</p>
+<p>Considere tamb&eacute;m que o 0 representa o &iacute;ndice do primeiro caracter em uma string.</p>
+Formato da entrada: <p>Voc&ecirc; receber&aacute; duas linhas. A primeira linha cont&eacute;m a string e a segunda linha cont&eacute;m um caracter. O tamanho m&aacute;ximo da string &eacute; 50.</p>
+Formato da saída: <p>Imprima os &iacute;ndices, sendo um por linha.</p>

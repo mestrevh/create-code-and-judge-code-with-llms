@@ -1,0 +1,8 @@
+Título: Vacinação
+Topicos do problema: multiplas entradas; decisão; 
+Descrição: <p>Esse m&ecirc;s o Minist&eacute;rio da Sa&uacute;de deseja vacinar crian&ccedil;as de toda a rede p&uacute;blica de ensino para evitar epidemias.<br /><br />As crian&ccedil;as que t&ecirc;m entre 3 e 6 anos dever&atilde;o ser vacinadas contra o sarampo, e aquelas que tiverem entre 5 e 8 anos receber&atilde;o vacina contra a hepatite.</p>
+<p>Escreva um programa que receba como entrada a idade de v&aacute;rios alunos de uma escola, at&eacute; que seja informada a idade 100, e calcule e exiba quantas vacinas de cada tipo ser&atilde;o necess&aacute;rias, e quantas crian&ccedil;as receber&atilde;o as duas vacinas.</p>
+Formato da entrada: <p>V&aacute;rios valores inteiros, um de cada vez, at&eacute; que seja informado o valor 100</p>
+<p>Observe que os extremos devem ser considerados (Ex: de 1 a 4 significa que 1 e 4 tamb&eacute;m est&atilde;o inclusos)</p>
+Formato da saída: <p>Tr&ecirc;s valores inteiros representando respectivamente:</p>
+<p>- A quantidade de vacinas de sarampo<br />- A quantidade de vacinas de hepatite<br />- A quantidade de crian&ccedil;as que receber&atilde;o ambas as vacinas</p>

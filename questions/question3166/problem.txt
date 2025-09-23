@@ -1,0 +1,5 @@
+Título: Gráfico
+Topicos do problema: lógica matemática; função; 
+Descrição: <p>Observe o comportamento do gráfico a seguir e crie uma função que retorna corretamente o valor de y (inteiro) para qualquer x (inteiro).<br/></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/9efcd6bcddd46ae5f078aeb63a9ad5a04453cfe2o.png"/><br/></p>
+Formato da entrada: <p>1</p>
+Formato da saída: <p>0</p>

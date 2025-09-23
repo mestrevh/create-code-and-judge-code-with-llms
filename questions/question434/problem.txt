@@ -1,0 +1,12 @@
+Título: Futura Formanda
+Topicos do problema: 
+Descrição: <p>Gorete &eacute; aluna do curso de Jornalismo e est&aacute; preocupada porque talvez 
+n&atilde;o consiga se formar no tempo previsto. A carga hor&aacute;ria total do curso &eacute;
+ de 260 cr&eacute;ditos, e cada aluno pode pagar no m&aacute;ximo 24 cr&eacute;ditos por 
+semestre. Sabendo disso, escreva um programa que receba como entrada a 
+quantidade de cr&eacute;ditos j&aacute; pagos por Gorete, e exiba a quantidade de 
+semestres que ela ainda vai passar no curso para pagar os cr&eacute;ditos 
+restantes. (Dica: considere que ela vai cursar sempre o m&aacute;ximo de 
+cr&eacute;ditos)</p>
+Formato da entrada: <p>Um n&uacute;mero inteiro</p>
+Formato da saída: <p>Um n&uacute;mero inteiro</p>

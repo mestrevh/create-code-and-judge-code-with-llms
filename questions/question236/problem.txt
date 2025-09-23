@@ -1,0 +1,8 @@
+Título: Contagem de dígitos
+Topicos do problema: array; acumulador; repetição; função; dicionário; 
+Descrição: <p>
+<p>Diana escrever&aacute; uma lista com todos os inteiros positivos entre A e B, inclusive. Os inteiros n&atilde;o possuem zero &agrave; esquerda.&nbsp;</p>
+<p>Por&eacute;m, Diana ir&aacute; ser paga de acordo com a quantidade de d&iacute;gitos que ela ir&aacute; utilizar. Para isso, ela precisa saber quantas vezes ela utilizou cada um dos 10 d&iacute;gitos dos n&uacute;meros decimais. Por exemplo, se os inteiros dados foram 9 e 13, ent&atilde;o a lista ser&aacute;: 9, 10, 11, 12 e 13. Nesse caso, diana utilizou o d&iacute;gito 0 uma vez, o 1 cinco vezes, o 2 uma vez, o 3 uma vez e o 9 uma vez.</p>
+</p>
+Formato da entrada: <p>Cada caso de teste &eacute; dado em uma &uacute;nica linha que cont&eacute;m dois inteiros A e B (1 &lt;= A &lt;= B &lt;= 100000000). O &uacute;ltimo caso de teste &eacute; seguido por uma linha contendo dois zeros.</p>
+Formato da saída: <p>Para cada caso de teste, imprima uma &uacute;nica linha com 10 inteiros representando o n&uacute;mero de vezes que cada d&iacute;gito &eacute; usado ao escrever todos os inteiros entre A e B. Escreva a contagem de cada d&iacute;gito em ordem crescente do 0 at&eacute; o 9.</p>

@@ -1,0 +1,10 @@
+Título: Agência de Publicidade
+Topicos do problema: acumulador; decisão; repetição; 
+Descrição: <p>A ag&ecirc;ncia de publicidade Criativa prepara an&uacute;ncios para seus clientes em v&aacute;rios tipos de m&iacute;dia (r&aacute;dio, tv, revista e outdoor). Seus pre&ccedil;os variam de acordo com o que o ciente deseja:</p>
+<p>- An&uacute;ncios para r&aacute;dio custam R$ 500 se for para FM, e R$ 300 se for para AM</p>
+<p>- An&uacute;ncios para TV custam R$ 1200 em hor&aacute;rio regular (at&eacute; 20h), e R$ 2000 em hor&aacute;rio nobre (depois de 20h)</p>
+<p>- An&uacute;ncios para revista custam R$ 750, e para outdoor custam R$ 1500</p>
+<p>Escreva um programa que receba como entrada os dados dos an&uacute;ncios escolhidos por 7 clientes da ag&ecirc;ncia e exiba o total que ela vai receber e quantos an&uacute;ncios de cada m&iacute;dia ser&atilde;o produzidos.</p>
+Formato da entrada: <p>Os dados de entrada v&atilde;o variar de acordo com o tipo de m&iacute;dia escolhido para cada an&uacute;ncio.</p>
+<p>Se o tipo for r&aacute;dio, haver&aacute; uma nova entrada para faixa (AM ou FM). Se o tipo for tv, haver&aacute; uma nova entrada para hor&aacute;rio (valor inteiro). Caso o tipo de m&iacute;dia seja revista ou outdoor, n&atilde;o ser&atilde;o necess&aacute;rias outras entradas.</p>
+Formato da saída: <p>Um valor real com duas casas decimais, e quatro valores inteiros. Todos os valores devem ser separados por quebra de linha</p>

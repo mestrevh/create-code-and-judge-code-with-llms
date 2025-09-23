@@ -1,0 +1,6 @@
+Título: Férias na Europa
+Topicos do problema: 
+Descrição: <p><span style="font-size: 13px; font-family: arial,sans,sans-serif; text-align: center;">Manoel pretende viajar para a Europa e, pesquisando em v&aacute;rios blogs, descobriu que um turista gasta em m&eacute;dia &euro; 20 (euros) por dia. Sabendo que na cota&ccedil;&atilde;o de hoje &euro; 1 custa R$ 3,20, crie um programa que receba como entrada a quantidadede de dias que ele pretende passar viajando, e calcule e exiba quantos reais ele precisar&aacute; economizar para curtir suas f&eacute;rias despreocupado.</span></p>
+Formato da entrada: <p><span style="font-size: 13px; font-family: arial,sans,sans-serif;">Um n&uacute;mero inteiro maior ou igual a zero. </span></p>
+<p><span style="font-size: 13px; font-family: arial,sans,sans-serif;">Dica: N&atilde;o use mensagens no input.<br /></span></p>
+Formato da saída: <p><span style="font-size: 13px; font-family: arial,sans,sans-serif;">Um n&uacute;mero real com duas casas decimais. <br /><br />Dica: N&atilde;o use mensagens no print e lembre-se de formatar o n&uacute;mero.<br />Exemplo: print("%.2f" %variavel) vai exibir a vari&aacute;vel com duas casas decimais.<br /></span></p>

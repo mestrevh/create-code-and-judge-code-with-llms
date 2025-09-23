@@ -1,0 +1,12 @@
+Título: Aprovado
+Topicos do problema: acumulador; 
+Descrição: <p style="text-align: left;">Fa&ccedil;a um programa que leia tr&ecirc;s notas (valores reais) de um aluno, calcule sua m&eacute;dia aritm&eacute;tica e imprima uma mensagem dizendo se o aluno foi aprovado, reprovado ou dever&aacute; fazer prova final. O crit&eacute;rio de aprova&ccedil;&atilde;o &eacute; o seguinte:</p>
+<p>Aprovado (m&eacute;dia &gt;= 7);<br />Reprovado (m&eacute;dia &lt; 3);<br />Prova final ( 3 &lt;= m&eacute;dia &lt; 7).</p>
+<ol style="text-align: left;"> </ol>
+<p style="text-align: left;">&nbsp;</p>
+Formato da entrada: <p>03 n&uacute;meros reais separados por um final de linha.</p>
+Formato da saída: <p>Uma mensagem que pode ser:</p>
+<p>aprovado<br />reprovado<br />prova final</p>
+<ul>
+</ul>
+<p>&nbsp;</p>

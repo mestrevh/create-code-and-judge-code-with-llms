@@ -1,0 +1,5 @@
+Título: Ponto dentro de dois círculos
+Topicos do problema: geometria computacional; decisão; lógica matemática; 
+Descrição: <pre>Considere os círculos definidos pelas equações abaixo:</pre><pre>A: (x – 1)^2 + (y – 1)^2 &lt;= 1<br/></pre><pre>B: (x – 2)^2 + (y – 1)^2 &lt;= 1<br/></pre><pre>Escreva um programa que recebe um ponto (x,y) e verifica se esse ponto está no interior dos dois círculos, apenas no interior do círculo A, apenas no interior do círculo B, ou se ele é exterior. Observação: ponto no contorno é considerado pertencente.<br/></pre><p><img src="https://www.thehuxley.com/api/v1/problems/image/1a322b0c771c519e262d01fd3542c954ac858d9e8.png"/><br/></p>
+Formato da entrada: <pre>Dois números reais que correspondem às coordenadas x e y do ponto.</pre>
+Formato da saída: <pre>'Interior A', 'Interior B', 'Interior A,B' ou 'Exterior' a depender de cada caso.</pre>

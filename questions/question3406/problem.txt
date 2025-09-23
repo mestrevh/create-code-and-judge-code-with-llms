@@ -1,0 +1,5 @@
+Título: Divisores de um número
+Topicos do problema: lógica matemática; 
+Descrição: <p>Determinar todos os divisores de um número inteiro positivo.</p>
+Formato da entrada: <p>Número inteiro positivo.</p>
+Formato da saída: <p>Divisores desse número, menores que ele.</p>

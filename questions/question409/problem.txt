@@ -1,0 +1,7 @@
+Título: Série de Miguelito
+Topicos do problema: função; recursão; 
+Descrição: <p>Miguelito gosta muito de s&eacute;ries num&eacute;ricas e resolveu criar uma com seu nome. O primeiro valor da s&eacute;rie de Miguelito &eacute; 3, e cada novo n&uacute;mero &eacute; gerado somando-se ora 4 ora 1 ao valor anterior, de acordo com o exemplo abaixo:</p>
+<p>3&nbsp; 7&nbsp; 8&nbsp; 12&nbsp; 13&nbsp; 17&nbsp; 18&nbsp; 22&nbsp; 23&nbsp; 27 ...</p>
+<p>Escreva uma fun&ccedil;&atilde;o recursiva chamada SerieMiguelito que receba como entrada o &iacute;ndice do elemento na sequ&ecirc;ncia e retorne seu valor.</p>
+Formato da entrada: <p>Um valor inteiro</p>
+Formato da saída: <p>Um valor inteiro</p>

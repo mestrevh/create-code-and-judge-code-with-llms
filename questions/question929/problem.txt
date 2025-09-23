@@ -1,0 +1,5 @@
+Título: Pais das Folhas
+Topicos do problema: Árvore; recursão; 
+Descrição: <p>Dada a descrição de uma árvore, você deverá informar uma lista de todos os nós que contém como filhos uma ou duas folhas.</p><p>Uma folha da árvore é um nó que não contém nenhum filho.</p><p>A lista dos pais deve ser ordenada em ordem crescente.</p><p>O nó raiz sempre será o nó 0.</p><p><br/></p>
+Formato da entrada: <p>A entrada consiste em um número N, seguido de N linhas, cada linha Ni  contém 2 inteiros, o filho da esquerda e o filho da direita do i-ésimo nó.(começando do nó 0)</p><p>caso o nó não possua nenhum filho esse inteiro será -1.</p>
+Formato da saída: <p>Uma lista de inteiros ordenada em ordem crescente, com os pais das folhas.</p>

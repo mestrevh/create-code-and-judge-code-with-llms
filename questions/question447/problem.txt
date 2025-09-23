@@ -1,0 +1,7 @@
+Título: Capacidade Estacionamento
+Topicos do problema: 
+Descrição: <p>Marcella &eacute; uma pequena empreendedora que comprou um terreno pr&oacute;ximo ao shopping e o transformou em um estacionamento privativo com 42 vagas. Para atrair mais clientes, ela cobra apenas R$ 1.75 por cada carro sem limite de tempo.</p>
+<p>Ela est&aacute; fazendo os c&aacute;lculos de quanto pretende faturar hoje e voc&ecirc; pode ajud&aacute;-la escrevendo um programa que receba como entrada a quantidade de ve&iacute;culos estacionados no momento, e exiba quanto ela ainda pode ganhar caso as vagas que est&atilde;o dispon&iacute;veis sejam ocupadas.</p>
+<p>&nbsp;</p>
+Formato da entrada: <p>Um valor inteiro</p>
+Formato da saída: <p>Um valor real com duas casas decimais</p>

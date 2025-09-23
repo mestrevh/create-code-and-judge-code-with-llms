@@ -1,0 +1,5 @@
+Título: Biblioteca
+Topicos do problema: array; busca; 
+Descrição: <p>faça um programa que receba n nomes de livros, depois receba mais um nome e diga se ele já foi citado anteriormente  <br/></p>
+Formato da entrada: <p>um inteiro n seguido de n nomes de livro mais um nome de livro no final</p><p>     3</p><p>     O pequeno príncipe</p><p>     O Código Da Vince</p><p>     Calculo II</p><p>     O pequeno príncipe<br/></p>
+Formato da saída: <p>Sim ou Não se o livro estiver na lista</p><p>     Sim<br/></p>

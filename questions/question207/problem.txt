@@ -1,0 +1,11 @@
+Título: A corrida da escola
+Topicos do problema: array; acumulador; decisão; 
+Descrição: <p>A escola de Jo&atilde;ozinho tradicionalmente organiza uma corrida ao redor do pr&eacute;dio. Como todos os alunos s&atilde;o<br />convidados a participar e eles estudam em per&iacute;odos diferentes, &eacute; dif&iacute;cil que todos corram ao mesmo tempo.</p>
+<p>Para contornar esse problema, os professores cronometram o tempo que cada aluno demora para dar cada volta<br />ao redor da escola, e depois comparam os tempos para descobrir a classifica&ccedil;&atilde;o final.</p>
+<p>Sua tarefa &eacute;, sabendo o n&uacute;mero de competidores, o n&uacute;mero de voltas de que consistiu a corrida e os tempos<br />de cada aluno competidor, descobrir quem foi o aluno vencedor, para que ele possa receber uma medalha<br />comemorativa.</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m dois inteiros N e M representando o n&uacute;mero de competidores e o n&uacute;mero<br />de voltas da corrida, respectivamente.</p>
+<p>Cada uma das N linhas seguintes representa um competidor: a primeira linha representa o primeiro competidor,<br />a segunda linha representa o segundo competidor, e assim por diante. Cada linha cont&eacute;m M inteiros<br />representando os tempos em cada volta da corrida: o primeiro inteiro &eacute; o tempo da primeira volta, o segundo<br />inteiro &eacute; o tempo da segunda volta, e assim por diante.</p>
+<p>Garante-se que n&atilde;o houve dois competidores que gastaram o mesmo tempo para completar a corrida inteira.</p>
+<p>Considere:</p>
+<p>&bull; 2 &lt;= N &lt;= 100<br />&bull; 1 &lt;= M &lt;= 100<br />&bull; 1 &lt;= qualquer n&uacute;mero da entrada que represente o tempo de uma volta &lt;= 1000000</p>
+Formato da saída: <p>A sa&iacute;da consiste de um &uacute;nico inteiro, que corresponde ao n&uacute;mero do competidor que ganhou a corrida.</p>

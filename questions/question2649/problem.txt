@@ -1,0 +1,5 @@
+Título: intervalo fechado passo 3
+Topicos do problema: repetição; 
+Descrição: <p>Crie um programa que receba dois números inteiros, A e B (A&lt;=B), e exiba os números inteiros no intervalo fechado [ A..B ] pulando de três em três.<br/></p>
+Formato da entrada: <p>Na primeira linha um número inteiro A; na linha seguinte um número inteiro B.</p>
+Formato da saída: <p>Todos os números inteiros do intervalo fechado [ A..B ], pulando de três em três. Cada linha deve conter apenas um número.</p>

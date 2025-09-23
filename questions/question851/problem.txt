@@ -1,0 +1,5 @@
+Título: Espaços demais
+Topicos do problema: 
+Descrição: <p>A tecla de espaço do computador de Ambrósio está quebrada. Quando ele digita um texto, cada vez que aperta a tecla de espaço um número não determinístico de espaços é inserido. Por sorte, Ambrósio tem um amigo que está cursando a disciplina de programação. O amigo decidiu ajudar Ambrósio fazendo um programa que elimina os espaços desnecessários dos textos que ele digita.</p><p><br/></p>
+Formato da entrada: <p>Um texto de no máximo 80 caracteres formado somente por letras do alfabeto inglês e espaços.<br/></p>
+Formato da saída: <p>O texto da entrada eliminando os espaços iniciais e finais e deixando somente um espaço entre cada palavra.</p><p></p>

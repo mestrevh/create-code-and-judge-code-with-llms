@@ -1,0 +1,5 @@
+Título: Linhas alfabéticas
+Topicos do problema: repetição; 
+Descrição: <p>Crie um programa que receba como entrada um caractere alfabético maiúsculo e exiba a sequência do alfabeto maiúsculo de 'A' até o caractere lido. O programa deverá repetir o procedimento até que seja dado como entrada o caractere 'F'.<br/></p>
+Formato da entrada: <p>Um caractere alfabético maiúsculo [ 'A' .. 'Z' ].<br/></p>
+Formato da saída: <p>Para cada caractere dado como entrada, uma linha com a sequência alfabética maiúscula de 'A' até o caractere informado, separados por um espaço.<br/></p>

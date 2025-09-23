@@ -1,0 +1,5 @@
+Título: Quadrado da posição.
+Topicos do problema: multiplas entradas; array; acumulador; repetição; 
+Descrição: <p>Faça um programa em Java que gere um array de 20 posições, onde cada elemento do array corresponde ao quadrado da sua posição. Imprima o array resultante.<br/></p>
+Formato da entrada: None
+Formato da saída: <p>O array resultante de cada posição.</p>

@@ -1,0 +1,9 @@
+Título: Festa de Formatura
+Topicos do problema: multiplas entradas; acumulador; decisão; 
+Descrição: <p>No m&ecirc;s que vem os alunos de Inform&aacute;tica v&atilde;o se formar e pretendem realizar uma grande festa. Eles fizeram os c&aacute;lculos e chegaram &agrave; conclus&atilde;o de que teriam que estabelecer limites para suas listas de convidados, pois o local escolhido para o evento &eacute; pequeno.</p>
+<p>Ficou acertado que cada formando vai pagar R$ 3000 e ter&aacute; direito a 15 senhas para seus convidados. Aqueles que tiverem interesse, poder&atilde;o adquirir at&eacute; 10 senhas extras cada um, ao pre&ccedil;o de R$ 42 cada.</p>
+<p>Escreva um programa que receba como entrada a quantidade de convidados de v&aacute;rios formandos, at&eacute; que seja informada uma quantidade negativa, e exiba o valor total que ser&aacute; pago <span style="text-decoration: underline;">por senhas extras</span>, e a quantidade total de pessoas que estar&atilde;o presentes na festa.</p>
+<p><br />Dica: n&atilde;o esque&ccedil;a dos formandos</p>
+<p>Obs: caso o formando tenha um n&uacute;mero total de convidados superior ao permitido, dever&aacute; ser considerada a quantidade m&aacute;xima</p>
+Formato da entrada: <p>V&aacute;rios n&uacute;meros inteiros</p>
+Formato da saída: <p>Um n&uacute;mero real com duas casas decimais, seguido por uma quebra de linha e um n&uacute;mero inteiro.</p>

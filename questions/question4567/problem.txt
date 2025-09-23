@@ -1,0 +1,5 @@
+Título: Multi multi
+Topicos do problema: array bidimensional; 
+Descrição: <p style="color: rgb(17, 17, 17);background-color: rgb(255, 255, 255);">Seu objetivo é realizar uma multiplicação de matriz. Lembre-se nem sempre é possível ser feita e é preciso checar isso no código.</p>
+Formato da entrada: <p>Um int N para as linhas da matriz 1</p><p><span>Um int M para as colunas da matriz 1<br/></span></p><p><span>Um int A para as linhas da matriz 2<br/></span></p><p><span>Um int B para as colunas da matriz 2<br/></span></p><p><span>N linhas de M inteiros para os elementos da matriz 1</span></p><p><span>A linhas de B inteiros para os elementos da matriz 2<br/></span></p>
+Formato da saída: <p>A saída deve ser a <b>nova matriz</b>, mas caso não seja possível realizar a operação <span>a saída é &#34;Nao eh possivel multiplicar!&#34;</span></p>

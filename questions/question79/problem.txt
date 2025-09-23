@@ -1,0 +1,10 @@
+Título: Multiplicação da Diagonal de uma Matriz
+Topicos do problema: array bidimensional; 
+Descrição: <p>Na matem&aacute;tica &eacute; comum o uso de matrizes de n&uacute;meros. Estas matrizes podem ser utilizadas para v&aacute;rios fins e a &aacute;lgebra linear fornece a teoria necess&aacute;ria &agrave; sua manipula&ccedil;&atilde;o.</p>
+<p>Dada uma matriz 4 X 4, voc&ecirc; deve fazer um programa para ler uma constante k, ler a matriz e escrev&ecirc;-la ap&oacute;s ter multiplicado os elementos da diagonal principal pela constante k.</p>
+Formato da entrada: <p>- Um inteiro k</p>
+<p>- 16 inteiros, correspondendo aos elementos da matriz.</p>
+<p>Primeiro ser&atilde;o fornecidos os elementos da primeira coluna, depois da segunda e assim por diante at&eacute; a quarta.</p>
+<p>A entrada termina quando k for igual a 0</p>
+Formato da saída: <p>Voc&ecirc; dever&aacute; imprimir a matriz resultante no formato de matriz, onde os elementos da primeira linha aparecer&atilde;o lado a lado, separados por um espa&ccedil;o (deve haver inclusive um espa&ccedil;o depois do &uacute;ltimo elemento de cada linha).</p>
+<p><br />Cada linha da matriz ser&aacute; separada por um final de linha, inclusive depois da &uacute;ltima.</p>

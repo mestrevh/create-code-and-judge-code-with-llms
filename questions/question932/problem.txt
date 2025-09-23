@@ -1,0 +1,5 @@
+Título: Formatando Nomes
+Topicos do problema: string; formatação; 
+Descrição: <p>Escreva um programa que leia uma sequência de nomes compostos e formate cada um deles, colocando as inicias dos nomes em letras maiúsculas, exceto nos casos de 'da', 'de', 'di', 'do', 'du' e 'e' que devem ter iniciais minúsculas. O programa deve também tirar espaços desnecessários entre os nomes, no início e no final, isto é, deve deixar apenas um espaço entre os nomes.<br/></p>
+Formato da entrada: <p>A entrada consiste de uma sequência de nomes, um por linha, com no máximo 200 caracteres. O programa deve encerrar quando encontrar um nome igual ao caractere '*'.<br/></p>
+Formato da saída: <p>A saída consiste dos nomes formatados (sem espaços desnecessários e iniciais maiúsculas).<br/></p>

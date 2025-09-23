@@ -1,0 +1,5 @@
+Título: Conversão de medidas: Galões para Litros
+Topicos do problema: formatação; 
+Descrição: <p>Faça um programa em Python que converta os valores de entrada  da medida em galões para a medida em litros. Leve em consideração que 1 galão é equivalente a 3,7854 litros.<br/></p><p>Exemplos: </p><p>2 GALÕES -&gt; 7,57 LITROS</p><p>10 GALÕES -&gt; 37,85 LITROS</p>
+Formato da entrada: <div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p>A entrada consiste de 01 linha contendo valores inteiros.<br/></p></div></div><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">&#13;</div>
+Formato da saída: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">A saída consiste de 1 linha contendo a conversão de galões para litros.</span></p><p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">G GALÕES -&gt; L.LL LITROS<br/></span></p><p><font color="#000000">O valor da conversão em litros deverá ser com duas casas decimais</font></p>

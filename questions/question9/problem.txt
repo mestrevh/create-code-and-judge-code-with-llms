@@ -1,0 +1,6 @@
+Título: Caracteres
+Topicos do problema: multiplas entradas; array; repetição; caractere; 
+Descrição: <p>Voc&ecirc; deve ler uma sequ&ecirc;ncia de caracteres e imprimir na ordem inversa da leitura.</p>
+Formato da entrada: <p>Consiste de um inteiro n, indicando quantos caracteres devem ser lidos e uma sequencia de n caracteres. A entrada termina quando n=0.</p>
+<p>Considere que n &eacute; sempre n&lt;=100000.</p>
+Formato da saída: <p>n caracteres impressos na ordem inversa</p>

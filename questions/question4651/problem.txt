@@ -1,0 +1,5 @@
+Título: Q05 - Nomes errados
+Topicos do problema: string; 
+Descrição: <p>A recepcionista de um consultório digita muitos nomes em apenas um dia, e por isso o seu teclado quebrou, e todo nome que ela digita fica com as letras maiúsculas e minúsculas em lugares aleatórios. Seu trabalho é fazer um programa que corrija isso e exiba o nome corretamente.</p>
+Formato da entrada: <p>Um nome (com sobrenomes ou não) com letras minúsculas e maiúsculas.</p>
+Formato da saída: <p>O nome com as iniciais maiúsculas e as demais letras minúsculas.</p>

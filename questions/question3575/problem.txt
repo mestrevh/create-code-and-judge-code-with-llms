@@ -1,0 +1,5 @@
+Título: Link chateado
+Topicos do problema: array; substrings; string; 
+Descrição: <p>Link é um herói famoso e por isso recebe várias cartas de seus fãs. Mas mesmo sendo famoso, todos continuam a chamá-lo de Zelda. Por causa disso, Link fica chateado, tão chateado que toda vez que recebe uma carta ele confere a maneira que o/a fã se referiu a ele na carta, e caso perceba o trecho &#34;zelda&#34; no nome ele se irrita e joga o cartão fora. Sua tarefa é determinar se Link ficará bravo ou não, por causa da forma como seu fã o chamou na carta.<br/></p>
+Formato da entrada: <p>Contém uma string S (1 ≤ | S | ≤ 105) que representa como o/a fã do Link se referiu a ele na carta. A string é composta apenas de letras maiúsculas e minúsculas.<br/></p>
+Formato da saída: <p>Seu programa deve exibir &#34;Link Bolado&#34; se o nome tiver a palavra &#34;zelda&#34; ou &#34;Link Tranquilo&#34; caso contrário.<br/></p>

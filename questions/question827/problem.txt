@@ -1,0 +1,5 @@
+Título: Dobro da área do quadrado.
+Topicos do problema: 
+Descrição: <p>Faça um programa em Java que calcule a área de um quadrado e em seguida escreva o dobro desta área.<br/></p>
+Formato da entrada: <p>Medida de um dos lados do quadrado (já que todos os lados são iguais).</p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Cálculo da área do quadrado.</span><br/></p><p><span>Cálculo do dobro da área do quadrado.</span><br/></p>

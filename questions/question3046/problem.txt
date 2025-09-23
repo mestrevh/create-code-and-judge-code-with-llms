@@ -1,0 +1,5 @@
+Título: Teste de seleção 1
+Topicos do problema: decisão; 
+Descrição: <p>Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem positivos e se a variável A for par escrever a mensagem &#34;Valores aceitos&#34;, senão escrever &#34;Valores nao aceitos&#34;.<br/></p>
+Formato da entrada: <p>Quatro números inteiros A, B, C e D.<br/></p>
+Formato da saída: <p>Mostre a respectiva mensagem após a validação dos valores.<br/></p>

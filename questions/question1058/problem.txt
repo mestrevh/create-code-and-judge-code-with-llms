@@ -1,0 +1,5 @@
+Título: Velocidade média de um gás.
+Topicos do problema: lógica matemática; 
+Descrição: <p>Calcule a velocidade média das moléculas de um gás a partir dos seguintes parâmetros:</p><ul><li>Temperatura do gás em Kelvin (0.0 até 200.0)</li><li>A massa molar do gás (1.0 até 200.0)</li><li>A constante universal dos gases perfeitos (8.31)</li></ul><p>O valor de saída deve ser arredondado usando 2 casas decimais.</p><p>Pesquise como fazer a operação de raiz quadrada.<br/></p>
+Formato da entrada: <p><ul><li>A temperatura do gás em Kelvin. (0.0 até 200.0)</li><li>Sua massa molar. (1.0 até 200.0)</li></ul></p>
+Formato da saída: <p>A velocidade média das moléculas de um gás.</p>

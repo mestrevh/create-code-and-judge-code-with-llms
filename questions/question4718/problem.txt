@@ -1,0 +1,5 @@
+Título: Funções 1 - Subtração
+Topicos do problema: função; 
+Descrição: <p>Complete o código para que ele faça a subtração entre dois números e retorne o resultado.</p><p><br/></p><pre>def subtrair(a, b):    &#10;_________  # Complete aqui&#10;&#10;# Recebendo input&#10;a = int(input())&#10;b = int(input())&#10;&#10;resultado = subtrair(a, b)&#10;print(resultado)&#10;</pre>
+Formato da entrada: <p>Dois inteiros <b>a</b> e <b>b</b>, cada um em uma linha.</p>
+Formato da saída: <p>Um único inteiro <b>N</b>, representando o resultado da subtração</p>

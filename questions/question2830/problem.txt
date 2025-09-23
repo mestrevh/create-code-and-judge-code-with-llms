@@ -1,0 +1,5 @@
+Título: Diferença da quantidade de estudantes
+Topicos do problema: entrada formatada; 
+Descrição: <p>Uma escola que oferta dois cursos, precisa saber quantos estudantes o primeiro curso tem a mais do que o segundo curso. Para isso, ela solicita sua ajuda para fazer este cálculo.<br/></p>
+Formato da entrada: <p>A entrada contém apenas um caso de teste. O primeiro valor contém um inteiro N (0 ≤ N ≤ 1000), representando a quantidade de estudantes de um curso. O segundo valor contém outro inteiro M (0 ≤ M ≤ 1000), representando a quantidade de estudantes do outro curso.<br/></p>
+Formato da saída: <p>O programa deve imprimir a diferença entre os dois valores lidos. Se o primeiro curso tiver menos estudantes que o segundo, então o resultado será negativo, e se os dois cursos tiverem a mesma quantidade de estudantes, então o resultado será zero.<br/></p>

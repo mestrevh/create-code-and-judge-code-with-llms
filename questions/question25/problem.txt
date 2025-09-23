@@ -1,0 +1,5 @@
+Título: Propriedade do Invertido
+Topicos do problema: decisão; repetição; lógica matemática; 
+Descrição: <p>Fa&ccedil;a um programa que imprima todos os n&uacute;meros (inteiros e positivos) entre x e&nbsp;y que satisfa&ccedil;am as duas condi&ccedil;&otilde;es abaixo:<br />- n&atilde;o terminem em 0;<br />- se o d&iacute;gito da direita for removido, o n&uacute;mero restante &eacute; divisor do&nbsp;original.</p>
+Formato da entrada: <p>Dois inteiros x e y, separados por um espa&ccedil;o. Onde: x&gt;=10 e y&lt;100.</p>
+Formato da saída: <p>Os n&uacute;meros inteiros (maiores ou iguais a x e menores ou iguais a y) que&nbsp;satisfazem as propriedades acima, separados por um final de linha.</p>

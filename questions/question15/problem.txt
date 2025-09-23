@@ -1,0 +1,5 @@
+Título: Seja Bem Vindo!
+Topicos do problema: array; caractere; string; 
+Descrição: <p>Voc&ecirc; est&aacute; organizando um evento e deseja que os seus convidados se sintam importantes. Sendo assim, quando cada convidado chega ao local voc&ecirc; pergunta o nome dele e digita no computador. Ent&atilde;o o nome dele &eacute; exibido em um painel luminoso na entrada do sal&atilde;o. A mensagem que aparece &eacute;: "Seja muito bem-vindo Fulano de Tal, onde Fulano de Tal &eacute; o nome da pessoa que chegou.</p>
+Formato da entrada: <p>O nome da pessoa, que pode conter at&eacute; 120 caracteres</p>
+Formato da saída: <p>O programa deve imprimir a mensagem "Seja muito bem-vindo Fulano de Tal", seguido de um final de linha.</p>

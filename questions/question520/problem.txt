@@ -1,0 +1,46 @@
+Título: BoB
+Topicos do problema: busca; 
+Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Bob estava estudando algoritmos quando se deparou com o seguinte problema:
+
+Dado um array ordenado A, com N elementos, e um número X: Quantas vezes o número X aparece em A?
+
+Bob prontamente implementou um algoritmo de força-bruta que respondia essa pergunta.
+
+Quando ele rodou uma vez se surpreendeu com a velocidade do programa. Mas quando ele tentou responder a pergunta uma grande quantidade Q de vezes, o programa demorou muito para acabar, tanto que ele nem teve paciência de esperar.
+
+A sua tarefa é resolver esse problema.
+
+Dado um array ordenado A, com N elementos, responda Q perguntas do tipo: "Quantas vezes Xi aparece em A?"</pre>
+Formato da entrada: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">A primeira linha contém um inteiro T, o número de casos de teste.
+Cada caso de teste terá o seguinte formato:
+
+N Q
+A1 A2 ... AN
+X1 X2 ... XQ
+
+onde
+N inteiro positvo indicando a quantidade de elementos no array ordenado A,
+Q inteiro indicando o número de elementos a serem procurados
+Ai inteiro indicando o i-ésimo elemento de A,
+Xi inteiro indicando o número referente à i-ésima pergunta.
+
+Limites:
+2^0 &lt; T &lt; 2^7
+2^0  &lt; N &lt; 2^18
+2^0 &lt; Q &lt; 2^15
+-2^31 &lt; Xi &lt; 2^31, para todo i entre 1 e Q
+-2^31 &lt; A1 &lt;= A2 &lt;= ... &lt;= AN &lt; 2^31</pre>
+Formato da saída: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Para cada caso imprima:
+
+caso C:
+R1
+R2
+R3
+...
+RQ
+
+onde
+C é o número do caso atual, começando em 1
+Ri é a resposta para a i-ésima pergunta.
+
+ATENÇÃO: Não há linhas em branco após cada caso</pre>

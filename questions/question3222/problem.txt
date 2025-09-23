@@ -1,0 +1,5 @@
+Título: Inverter os dígitos um numero inteiro
+Topicos do problema: repetição; lógica matemática; ordenação; 
+Descrição: <p>Inverter os dígitos um numero inteiro qualquer<br/></p>
+Formato da entrada: <p>12345</p>
+Formato da saída: <p>5432</p>

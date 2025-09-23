@@ -1,0 +1,8 @@
+Título: Lanche para os escoteiros
+Topicos do problema: 
+Descrição: <p>No pr&oacute;ximo domingo, os escoteiros v&atilde;o realizar uma atividade beneficente e Ronaldo ficou respons&aacute;vel por organizar um lanche para eles.</p>
+<p>Pesquisando na mercearia mais pr&oacute;xima, ele descobriu que um pacote de p&atilde;o integral com 23 fatias custa R$ 4.15, e que um pacote com 8 fatias de queijo processado custa R$ 3.89. Entretanto, as fatias de p&atilde;o e as fatias de queijo tamb&eacute;m podem ser compradas individualmente sem custo adicional.</p>
+<p>Escreva um programa que receba como entrada a quantidade de escoteiros e exiba o valor total necess&aacute;rio para fazer um sandu&iacute;che para cada um deles.</p>
+<p>Dica: um sandu&iacute;che &eacute; feito com duas fatias de p&atilde;o e uma fatia de queijo<br /></p>
+Formato da entrada: <p>Um valor inteiro</p>
+Formato da saída: <p>Um valor real com duas casas decimais</p>

@@ -1,0 +1,5 @@
+Título: [C3] LAB - 5
+Topicos do problema: estruturas; 
+Descrição: <p>Escreva um programa que receba três números quaisquer e apresente:<br/><br/>a) a soma dos quadrados dos três números<br/>b) o quadrado da soma dos três números.<br/><br/>Não imprima nada na entrada/saída</p>
+Formato da entrada: <p>Primeiro número<br/><span>Segundo número<br/>Terceiro número</span></p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Soma dos quadrados dos três números</span><br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Quadrado da soma dos três números.</span><br/></p>

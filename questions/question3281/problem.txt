@@ -1,0 +1,5 @@
+Título: PIT03 - Ordem Inversa
+Topicos do problema: lógica matemática; 
+Descrição: <title></title><p><font face="Arial, sans-serif"><font size="4">Faça um programa que leia dois números inteiros e depois imprima na ordem inversa em que eles foram lidos</font></font></p>
+Formato da entrada: <p>1</p><p>2</p>
+Formato da saída: <p>2</p><p>1</p>

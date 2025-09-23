@@ -1,0 +1,5 @@
+Título: Matriz e suas diagonais
+Topicos do problema: array bidimensional; 
+Descrição: <p>Faça um programa para gerar uma matriz de inteiros N x N e preenche-la com inteiros sequencias de 1 a N*N. Em seguida o programa deve exibir a matriz, a sua diagonal principal e a secundária. </p><p></p><p></p>
+Formato da entrada: <p>Um inteiro N correspondendo à dimensão da matriz quadrada.<br/></p>
+Formato da saída: <p>A matriz preenchida com os elementos sequenciais, sua diagonal principal e a secundária. cada elemento será exibido com 3 posições.<br/></p>

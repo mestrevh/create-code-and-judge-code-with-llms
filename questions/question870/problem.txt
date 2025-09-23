@@ -1,0 +1,5 @@
+Título: Maior soma sequencial
+Topicos do problema: array; repetição; 
+Descrição: <p>Faça um programa que dado um número inteiro X, representando a quantidade de elementos que serão dados em seguida, imprima o valor da maior soma sequencial possível.</p><p>Obs.: Ao chegar ao no ultimo elemento, é possível continuar a soma a partir do primeiro. <br/></p>
+Formato da entrada: <p>Um número X.</p><p>X números inteiros.<br/></p>
+Formato da saída: <p>&#13;Um número inteiro representando a maior soma sequencial possível.<br/></p>

@@ -1,0 +1,16 @@
+Título: Controle de estoque
+Topicos do problema: array; acumulador; repetição; dicionário; busca; 
+Descrição: <p><span style="font-size: x-small;">Em um estoque s&atilde;o dados os c&oacute;digos das mercadorias e as respectivas quantidades existentes. A seguir, s&atilde;o fornecidos os pedidos dos clientes. O seu objetivo&nbsp; &eacute; fazer um programa de controle do estoque que:</span></p>
+<ul>
+<li><span style="font-size: x-small;">Leia o estoque inicial (m&aacute;ximo de 100 mercadorias);</span></li>
+<li><span style="font-size: x-small;">Leia os pedidos dos clientes, constitu&iacute;do, cada um, de: n&uacute;mero do cliente; c&oacute;digo da mercadoria e quantidade desejada;</span></li>
+<li><span style="font-size: x-small;">Seja verificado, para cada pedido, se ele pode ser atendido integralmente. Caso possa ser atendido, imprima OK, caso contr&aacute;rio ESTOQUE INSUFICIENTE;</span></li>
+<li><span style="font-size: x-small;">Ao final da execu&ccedil;&atilde;o do programa, imprima o estoque final;<br /></span></li>
+</ul>
+Formato da entrada: <p><span style="font-size: x-small;">Uma lista de inteiros n e m, indicando o c&oacute;digo da mercadoria e a quantidade dessa mercadoria dispon&iacute;vel no estoque, respectivamente.</span></p>
+<p><span style="font-size: x-small;">Essa lista se encerra quando n for igual a 9999.</span></p>
+<p><span style="font-size: x-small;">Depois ser&aacute; dada uma lista de inteiros i, j e k, onde i corresponde ao n&uacute;mero do cliente, j &eacute; o c&oacute;digo da mercadoria sendo solicitada e k a quantidade pedida.</span></p>
+<p><span style="font-size: x-small;">Os pedidos se encerram quando i for igual a 9999</span>.</p>
+Formato da saída: <p><span style="font-size: x-small;">Para cada pedido, a sa&iacute;da deve imprimir OK ou ESTOQUE INSUFICIENTE, seguida de um final de linha.</span></p>
+<p><span style="font-size: x-small;">Ao final dos pedidos, deve ser impresso uma lista de inteiros x, y correspondendo ao c&oacute;digo e ao estoque restante das mercadorias. </span></p>
+<p><span style="font-size: x-small;">Cada par x, y dever ser impresso em uma linha.</span></p>

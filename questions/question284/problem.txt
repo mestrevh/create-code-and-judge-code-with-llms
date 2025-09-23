@@ -1,0 +1,6 @@
+Título: Produto dos Digitos
+Topicos do problema: busca completa; função; 
+Descrição: <p><span><span class="hps">Para um n&uacute;mero</span> <span class="hps">inteiro</span> <span class="hps">N dado,</span> <span class="hps">n&atilde;o-negativo</span><span>,</span> <span class="hps">encontrar o</span> <span class="hps">m&iacute;nimo</span> <span class="hps">Q</span> <span class="hps">natural tal</span> <span class="hps">que o produto</span> <span class="hps">de</span> <span class="hps">todos os d&iacute;gitos</span> <span class="hps">de</span> <span class="hps">Q &eacute;</span> <span class="hps">igual</span> <span class="hps">N.</span></span></p>
+Formato da entrada: <p><span><span class="hps">A </span><span class="hps">entrada cont&eacute;m</span> <span class="hps">um</span> <span class="hps">n&uacute;mero</span> <span class="hps">inteiro positivo</span><span> </span><span class="hps atn">N, tal que 9 &lt; N</span></span><span><span class="hps atn"></span><span></span></span> &lt; 100000.</p>
+Formato da saída: <p>O menor n&uacute;mero, o qual o produto dos seus d&iacute;gitos &eacute; igual a N, e "-1", se n&atilde;o existir, seguido de uma quebra de linha.</p>
+<p>Obs: Para alguns casos o valor fica demasiado grande, use long int;</p>

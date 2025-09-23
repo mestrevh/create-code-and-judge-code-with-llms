@@ -1,0 +1,5 @@
+Título: Média 1
+Topicos do problema: lógica matemática; 
+Descrição: <p>Leia 2 valores de ponto flutuante de dupla precis&atilde;o A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a m&eacute;dia do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto &eacute; 11). Assuma que cada nota pode ir de 0 at&eacute; 10.0, sempre com uma casa decimal.</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m 2 valores com uma casa decimal cada um.</p>
+Formato da saída: <p>Calcule e imprima a vari&aacute;vel MEDIA conforme exemplo abaixo, com 5 d&iacute;gitos ap&oacute;s o ponto decimal. Utilize vari&aacute;veis de dupla precis&atilde;o (double) e como todos os problemas, n&atilde;o esque&ccedil;a de imprimir o fim de linha ap&oacute;s o resultado.</p>

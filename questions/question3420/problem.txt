@@ -1,0 +1,5 @@
+Título: Série de Fetuccine
+Topicos do problema: repetição; lógica matemática; 
+Descrição: <pre>A série de Fetuccine é gerada da seguinte forma: os dois primeiros termos são fornecidos pelo usuário; a partir daí, os termos são gerados com a soma ou subtração dos dois termos anteriores, da seguinte forma:<br/></pre><p><img src="https://www.thehuxley.com/api/v1/problems/image/449de07d4e75a84a150022d2a37d202fc300983b4.png"/><br/></p><pre>Escreva um programa que imprima os n primeiros termos dessa série.<br/></pre><p><br/></p>
+Formato da entrada: <pre>3 números inteiros na mesma linha representando: o primeiro termo, o segundo termo e o número de termos da série (maior ou igual a 2), respectivamente.</pre>
+Formato da saída: <pre>Os termos da série escritos em coluna.</pre>

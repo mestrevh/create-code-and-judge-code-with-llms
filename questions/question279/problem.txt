@@ -1,0 +1,5 @@
+Título: Salário
+Topicos do problema: 
+Descrição: <p>Escreva um programa que leia o n&uacute;mero de um funcion&aacute;rio, seu n&uacute;mero de horas trabalhadas, o valor que recebe por hora e calcula o sal&aacute;rio desse funcion&aacute;rio. A seguir, mostre o n&uacute;mero e o sal&aacute;rio do funcion&aacute;rio, com duas casas decimais.</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m 2 n&uacute;meros inteiros e 1 n&uacute;mero com duas casas decimais, representando o n&uacute;mero, quantidade de horas trabalhadas e o valor que o funcion&aacute;rio recebe por hora trabalhada, respectivamente.</p>
+Formato da saída: <p>Imprima o n&uacute;mero e o sal&aacute;rio do funcion&aacute;rio, conforme exemplo fornecido, com um espa&ccedil;o em branco antes e depois da igualdade. No caso do sal&aacute;rio, tamb&eacute;m deve haver um espa&ccedil;o em branco ap&oacute;s o $.</p>

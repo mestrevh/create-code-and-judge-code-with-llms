@@ -1,0 +1,6 @@
+Título: Posição do caracter na string
+Topicos do problema: array; substrings; caractere; string; 
+Descrição: <p>Fa&ccedil;a um programa para ler uma string e um caracter qualquer e calcular o &iacute;ndice da primeira ocorr&ecirc;ncia desse caracter na string . Caso n&atilde;o haja ocorr&ecirc;ncia, imprimir valor -1. Exemplo: Seja a string "melancia" e o caracter 'e', ent&atilde;o o &iacute;ndice da primeira ocorr&ecirc;ncia do caracter na string &eacute; 1.</p>
+<p>Considere que o &iacute;ndice come&ccedil;a com 0.</p>
+Formato da entrada: <p>Voc&ecirc; receber&aacute; duas linhas. Na primeira linha receber&aacute; uma string e na segunda linha um caracter.</p>
+Formato da saída: <p>Voc&ecirc; deve imprimir um n&uacute;mero inteiro correspondendo ao &iacute;ndice do caracter encontrado na string, seguido de um final de linha.</p>

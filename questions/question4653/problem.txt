@@ -1,0 +1,5 @@
+Título: Q07 - Colocando vírgulas
+Topicos do problema: string; 
+Descrição: <p>Saber onde colocar vírgulas nas frases pode sem um pouco complicado as vezes, por isso, um aluno do 1º Ano de Informática pediu ajuda ao professor de português. O professor ao pegar o texto do aluno escreveu a palavra &#34;vírgula&#34; onde deveria ter vírgula. Faça um programa que troque a palavra vírgula pelas vírgulas.</p>
+Formato da entrada: <p>Uma String.</p>
+Formato da saída: <p>Uma String formatada.</p>

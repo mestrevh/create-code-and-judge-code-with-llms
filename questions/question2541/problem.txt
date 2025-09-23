@@ -1,0 +1,5 @@
+Título: Torneio de Futsal Octave - T1
+Topicos do problema: lógica matemática; 
+Descrição: <p><span style="text-align: center;">Em um torneio de futsal organizado pelo COLTEC, o prêmio em dinheiro que os organizadores oferecem é dividido da seguinte maneira: 60% para o vencedor, 30% para o segundo colocado e 10% para o terceiro. Escreva um programa que receba o valor total da premiação e exiba o valor pago a cada um dos três melhores colocados.</span><br/></p>
+Formato da entrada: <p>O usuario deve digitar o valor total do prêmio em dinheiro<br/></p>
+Formato da saída: <p>O programa deve exibir percentual do premio para o primeiro, segundo e terceiro lugar, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite o valor total do premio em dinheiro: (impresso pela funcao input)<br/></p><p>Premio para o 1 lugar: R$ n</p><p>Premio para o 2 lugar: R$ n</p><p>Premio para o 3 lugar: R$ n<br/></p>

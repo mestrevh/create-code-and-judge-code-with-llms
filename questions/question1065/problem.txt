@@ -1,0 +1,5 @@
+Título: Múltiplo de 5
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p><span id="docs-internal-guid-f43c84b0-462a-1649-cc42-ee65d237b3be"><span style="color: rgb(0, 0, 0);background-color: transparent;">Escreva um programa que leia um valor qualquer e informe se ele é múltiplo de 5.</span></span><br/></p><p><span><span style="color: rgb(0, 0, 0);background-color: transparent;">Dica: Use o operador &#34;resto da divisão&#34;.</span></span></p>
+Formato da entrada: <p>Um valor inteiro.</p>
+Formato da saída: <ul><li>&#34;Eh multiplo de 5&#34; se o valor de entrada for múltiplo.</li><li>&#34;Nao eh multiplo de 5&#34; se o valor de entrada não for múltiplo.<br/></li></ul>

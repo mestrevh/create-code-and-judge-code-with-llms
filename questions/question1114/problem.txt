@@ -1,0 +1,5 @@
+Título: Cálculo de Série
+Topicos do problema: decisão; repetição; lógica matemática; 
+Descrição: <p>Calcule o valor dos N elementos para a série S abaixo:</p><p><br/></p><p>S = 1 + 2/3 + 3/4 + 8/6 + 5/16 + 32/9 + 7/64 + ...</p><p><br/></p><p><br/></p>
+Formato da entrada: <p>Um número inteiro não-negativo</p>
+Formato da saída: <p>Um número em ponto flutuante não-negativo</p>

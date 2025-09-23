@@ -1,0 +1,5 @@
+Título: Raiz de uma equação do primeiro grau
+Topicos do problema: lógica matemática; 
+Descrição: <h5 id="yui_3_17_2_1_1604071123204_254" style="color: rgb(51, 51, 51);text-align: left;">Leia os coeficientes de uma equação do primeiro grau (A*x + B = 0), calcule a sua raiz e escreva a raiz calculada. Considere que A é diferente de zero.</h5>
+Formato da entrada: <p>Consiste dos números reais A e B, que correspondem aos coeficientes da equação do primeiro grau (A*x + B = 0).<br/></p>
+Formato da saída: <p>Consiste de um número real formatado com duas casas decimais, representando a raiz calculada.<br/></p>

@@ -1,0 +1,5 @@
+Título: Soma de 2 inteiros
+Topicos do problema: métodos numéricos; lógica matemática; 
+Descrição: <p>Escreva um programa em Python3 que receba dois números inteiros e imprima a sua soma.<br/></p>
+Formato da entrada: <p>O programa não deve imprimir nenhuma mensagem para pedir os dados de entrada.<br/></p>
+Formato da saída: <p>O programa não deve imprimir nenhum outro texto além do resultado numérico.<br/></p>

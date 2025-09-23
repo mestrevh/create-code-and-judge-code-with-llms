@@ -1,0 +1,5 @@
+Título: Frequencia de um numero
+Topicos do problema: repetição; 
+Descrição: <p><span class="fontstyle0">Faça um programa que, dado um número Y, imprima quantas vezes Y aparece em uma sequência.</span><span class="fontstyle0"></span><br/><br/></p>
+Formato da entrada: <p>O usuario deve digitar 2 números (X eY), onde X indica a quantidade de números da sequência e Y o número procurado. Em seguida, será inserida uma sequência de X números.<br/></p>
+Formato da saída: <p>O programa deve exibir a quantidade de vezes que Y apareceu na sequência, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a quantidade de numeros da sequencia:</p><p>Digite o numero procurado:<br/></p><p>O numero n apareceu na sequencia n vezes.<br/></p>

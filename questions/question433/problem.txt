@@ -1,0 +1,10 @@
+Título: Pagamento IPVA
+Topicos do problema: 
+Descrição: <p>Todos os anos, os motoristas devem pagar ao Detran o IPVA (Imposto sobre
+ a Propriedade de Ve&iacute;culos Automotores) e uma taxa de tr&acirc;nsito. Caso 
+paguem o IPVA com anteced&ecirc;ncia, recebem um desconto de 5% apenas no 
+valor desse imposto. Escreva um programa que receba como entrada o valor
+ do IPVA e o valor da taxa de tr&acirc;nsito, e exiba o total a ser pago por 
+um motorista que deseja quitar sua d&iacute;vida cinco dias antes do prazo.</p>
+Formato da entrada: <p>Dois valores reais, sendo o primeiro correspondente ao IPVA e o segundo correspondente &agrave; taxa de tr&acirc;nsito</p>
+Formato da saída: <p>Um valor real com apenas duas casas decimais</p>

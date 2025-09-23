@@ -1,0 +1,6 @@
+Título: Contando os Dígitos Pares
+Topicos do problema: lógica matemática; função; recursão; 
+Descrição: <p>Escreva uma fun&ccedil;&atilde;o recursiva chamada ContaDigitosPares que receba como entrada um n&uacute;mero e retorne a quantidade de d&iacute;gitos pares que o comp&otilde;em.</p>
+<p>Ex: 234 tem 3 d&iacute;gitos, mas apenas 2 s&atilde;o pares</p>
+Formato da entrada: <p>Um n&uacute;mero inteiro</p>
+Formato da saída: <p>Um n&uacute;mero inteiro</p>

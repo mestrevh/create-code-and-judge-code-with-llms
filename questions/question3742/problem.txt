@@ -1,0 +1,5 @@
+Título: Fahrenheit para Celsius
+Topicos do problema: lógica matemática; 
+Descrição: <p>Escreva um programa que recebe uma temperatura em Fahrenheit e converte para Celsius, usando a seguinte fórmula: <img src="https://www.thehuxley.com/api/v1/problems/image/8dcfaca60f45c43268581ebab7980efec6cf956ds.png"/></p><p><br style="background-color: rgb(255, 255, 255);"/><br/></p>
+Formato da entrada: <div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p>Temperatura em Fahrenheit (decimal)</p></div></div><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div>
+Formato da saída: <div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Temperatura em Celsius (decimal com 10 casas decimais)</span><br/></p></div></div><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div>

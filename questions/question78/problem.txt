@@ -1,0 +1,20 @@
+Título: Contar caracteres
+Topicos do problema: array; acumulador; decisão; busca; 
+Descrição: <p><span style="font-family: arial, helvetica, sans-serif; font-size: xx-small;"><span style="font-size: xx-small;">Voc&ecirc; dever&aacute; fazer um programa que leia frases com at&eacute; 80 caracteres, incluindo espa&ccedil;os em branco, letras, d&iacute;gitos, enfim, qualquer caractere. Ap&oacute;s a leitura de cada frase, voc&ecirc; deve imprimir:<br /></span></span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;">Quantos espa&ccedil;os em branco existem na frase;</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;">Quantas vezes a letra a (que pode ser mai&uacute;scula ou minuscula) aparece;</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;">O n&uacute;mero de vezes que o par de letras com maior frequ&ecirc;ncia apareceu na frase;</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;"><span style="font-size: xx-small;">O par de letras de maior frequ&ecirc;ncia;</span></span></li>
+</ul>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: xx-small;">Obs 1: S&oacute; pares de letras s&atilde;o considerados, numeros ou demais caracteres especias s&atilde;o desconsiderados como pares.<br /></span><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;">Obs 2: Lembre-se que como a letra pode ser mai&uacute;scula ou min&uacute;scula, "Aa" &eacute; considerado um par da mesma forma que "aa".&nbsp;</span></p>
+<p>Obs 3: o par de letras com maior frequ&ecirc;ncia ser&aacute; sempre &uacute;nico. Ou seja, n&atilde;o haver&aacute; uma situa&ccedil;&atilde;o onde existem dois pares de letras diferentes empatados com a maior frequ&ecirc;ncia.</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;"></span><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;">A entrada termina quando a frase for: NAO QUERO MAIS</span></p>
+Formato da entrada: <p>Uma sequ&ecirc;ncia de frases de at&eacute; 80 caracteres.</p>
+Formato da saída: <p>Os inteiros abaixo, separados por um final de linha:</p>
+<ul>
+<li>b - representando o n&uacute;mero de espa&ccedil;os em branco;</li>
+<li>a - representando a quantidade de letras a (A ou a);</li>
+<li>n - representando o n&uacute;mero de vezes que do par de letras com maior frequ&ecirc;ncia de aparecimento na frase aparece. Por exemplo, se a frase for "abad ac", os pares s&atilde;o: ab, ba, ad, ac. Caso n&atilde;o exista nenhum par de letras na frase, deve ser impresso: NENHUM PAR</li>
+<li>xy - representando o par de letras que mais aparece na frase<br /></li>
+</ul>

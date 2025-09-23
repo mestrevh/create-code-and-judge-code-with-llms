@@ -1,0 +1,5 @@
+Título: Positivo, Negativo ou Nulo Octave - T1
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p><span>Ler    u</span><span>m    número    e    informar    se    ele    é    positivo,    negativo    ou    nulo.</span><br/></p>
+Formato da entrada: <p>O usuario deve digitar um número<br/></p>
+Formato da saída: <p>O programa deve informar se o numero digitado é positivo, negativo ou nulo, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite um numero: (impresso pela funcao input)<br/></p><p>O numero e positivo/negativo/nulo<br/></p>

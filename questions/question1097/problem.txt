@@ -1,0 +1,5 @@
+Título: Peso ideal.
+Topicos do problema: decisão; lógica matemática; 
+Descrição: <p>Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso ideal, utilizando as seguintes equações (onde h corresponde a altura):<br/></p><ul><li>Homens (m): (72.7 x h) - 58</li><li>Mulheres (f): (62,1 x h) - 44,7</li></ul><p>Caso o usuário informe um sexo diferente de &#34;m&#34; ou &#34;f&#34;, emita uma mensagem de erro (&#34;O sexo informado eh invalido.&#34;).</p><p>Caso o usuário informe uma altura 0 ou negativa, emita uma mensagem de erro (&#34;Altura invalida.&#34;)</p><p><br/></p>
+Formato da entrada: <ul><li>Um caractere que representa o sexo de uma pessoa</li><ul><li>&#34;m&#34; para sexo masculino</li><li>&#34;f&#34; para sexo feminino</li></ul><li>A altura de uma pessoa em metros (ponto flutuante (double))</li></ul>
+Formato da saída: <p>Um valor do tipo float que representa o peso ideal de pessoa com precisão de 2 casas decimais</p>

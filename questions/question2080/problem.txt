@@ -1,0 +1,5 @@
+Título: Prime Holes
+Topicos do problema: repetição; 
+Descrição: <p>A entedidade estava brincando com números, até que ela percebeu que certos números continham buracos, por exemplo: 4 tem 1 buraco, 8 tem 2 buracos, 10 tem 1 buraco e etc. Ela acredita que a quantidade de buracos pode ter alguma ligação com o número ser primo ou não. Ajude-a à confirmar sua hipótese, faça um programa que dado um número <b>N</b>, imprima 'S' se a quantidade de buracos desse número for prima, e 'N' caso não for.<br/></p>
+Formato da entrada: <p>A entrada conterá um inteiro <b>N </b>(0 &lt;= N &lt;= 9223372036854775807)</p>
+Formato da saída: <p>A saída deverá conter 'S' se a quantidade de buracos de N for prima, e 'N' caso não for.</p>

@@ -1,0 +1,6 @@
+Título: Seleção de nomes
+Topicos do problema: array; decisão; repetição; função; 
+Descrição: <p>Voc&ecirc; acabou de ser selecionado para um teste de uma empresa de Banco de Dados, eles pediram para voc&ecirc; fazer uma fun&ccedil;&atilde;o de busca no Banco como prova que voc&ecirc; entende do assunto,</p>
+<p>Mas como voc&ecirc; n&atilde;o est&aacute; muito familiarizado com Bancos de Dados, e n&atilde;o quer perder a vaga, recorre para a sua especialidade, a linguagem C!<br /><br />Dada uma lista de 10 nomes, voc&ecirc; deve encontrar aqueles que possuem uma determinada letra na composi&ccedil;&atilde;o de seu nome.<br /></p>
+Formato da entrada: <p>10 nomes, de at&eacute; 10 caracteres, um em cada linha.<br />1 caractere, representando a letra que voc&ecirc; deve buscar nos nomes.<br /><br />PS: Se a pesquisa for da letra 'a' e o nome tiver a letra 'A' ele deve reconhecer como a mesma letra.</p>
+Formato da saída: <p>Os nomes que possuem a determinada letra, na ordem em que foram dados de entrada, um por linha, com uma quebra de linha no fim do programa.</p>

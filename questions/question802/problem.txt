@@ -1,0 +1,5 @@
+Título: Triângulo de Número em Ordem Crescente
+Topicos do problema: acumulador; repetição; 
+Descrição: <p>Faça um programa que dado um número inteiro n, imprima n linhas, onde cada linha deve seguir o seguinte padrão:</p><p>1</p><p>22</p><p>333</p><p>4444</p><p>55555</p><p>666666</p><p>7777777</p><p>…</p><p>nnnnnnnnnn<br/></p>
+Formato da entrada: <p>Um número inteiro positivo n. ( 1&lt;= n &lt;= 30 )</p>
+Formato da saída: <p>n linhas contendo inteiros de acordo com o padrão especificado na descrição<br/></p>

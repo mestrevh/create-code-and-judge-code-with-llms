@@ -1,0 +1,5 @@
+Título: Soma de números não tão grandes
+Topicos do problema: string; 
+Descrição: <p>Você vai receber N números especiais na entrada com a mesma quantidade de algarismos. Seu trabalho é simples: printe a soma de todos eles.</p><p>Mas o que são números especiais? São números que possuem no máximo 5 algarismos diferentes de 0 e todos eles estão localizados nas 5 últimas(maiores) posições. Ex: 430120000000000.</p>
+Formato da entrada: <p>Um número N que indica a quantidade de números a serem somados. 2 &lt;= N &lt;= 100</p><p>N números especiais m. -9*10^19 &lt;= m &lt;= 9*10^19.</p><p><br/></p>
+Formato da saída: <p>A soma de todos os N números.</p>

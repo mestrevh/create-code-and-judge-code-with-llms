@@ -1,0 +1,9 @@
+Título: Vice-Campeão
+Topicos do problema: decisão; ordenação; 
+Descrição: <p>A Organiza&ccedil;&atilde;o de Bocha Internacional &eacute; respons&aacute;vel por organizar a competi&ccedil;&atilde;o mundial de<br />bocha. Infelizmente esse esporte n&atilde;o &eacute; muito popular, e numa tentativa de aumentar a sua<br />popularidade, ficou decidido que seriam chamados, para a Grande Final Mundial, o campe&atilde;o<br />e o vice-campe&atilde;o de cada sede nacional, ao inv&eacute;s de apenas o primeiro lugar.</p>
+<p>Tumb&oacute;lia &eacute; um pa&iacute;s pequeno que j&aacute; havia realizado a sua competi&ccedil;&atilde;o nacional quando a nova<br />regra foi institu&iacute;da, e o comit&ecirc; local n&atilde;o armazenou quem foi o segundo classificado.<br />Felizmente eles armazenaram a pontua&ccedil;&atilde;o de todos competidores - que foram apenas tr&ecirc;s,<br />devido ao tamanho diminuto do pa&iacute;s. Sabe-se tamb&eacute;m que as pontua&ccedil;&otilde;es de todos jogadores<br />foram diferentes, de forma que n&atilde;o ocorreu empate entre nenhum deles.</p>
+<p>Resta agora descobrir quem foi o vice-campe&atilde;o e para isso o comit&ecirc; precisa de ajuda.</p>
+Formato da entrada: <p>A primeira e &uacute;nica linha da entrada consiste de tr&ecirc;s inteiros separados por espa&ccedil;os, A, B<br />e C, as pontua&ccedil;&otilde;es dos 3 competidores.</p>
+<p>Considere:</p>
+<p>1 &lt;= A &lt;= 100<br />1 &lt;= B &lt;= 100<br />1 &lt;= C &lt;= 100</p>
+Formato da saída: <p>Imprima uma &uacute;nica linha na sa&iacute;da, contendo apenas um n&uacute;mero inteiro, a pontua&ccedil;&atilde;o do<br />vice-campe&atilde;o.</p>

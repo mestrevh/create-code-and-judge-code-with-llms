@@ -1,0 +1,5 @@
+Título: Contar pulando múltiplos
+Topicos do problema: repetição; 
+Descrição: <p>Sempre que Mariana faz alguma trela a professora a coloca de castigo, obrigando-a a escrever centenas de números. Para se distrair um pouco durante o castigo, a Mariana inventou uma pequena brincadeira: quando vai escrever os números, ela pula todos os múltiplos de 10. Escreva um programa que reproduza esse comportamento de Mariana.</p>
+Formato da entrada: <p>Um número inteiro positivo N</p>
+Formato da saída: <ul><li>Os números inteiros de 1 a N, incluindo o N.</li><li>Os números que são múltiplos de 10 não devem ser impressos.</li><li>Cada número deve estar em uma linha.</li></ul>

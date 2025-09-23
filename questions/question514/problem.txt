@@ -1,0 +1,37 @@
+Título: Trosegrem
+Topicos do problema: estrutura de dados; 
+Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">O Algoritmo Mergesort visto em aula ordena um array  (1) em ordem crescente (2) de maneira recursiva e (3) top-down, isto é, de cima para baixo, ou seja, partindo do vetor inteiro, dividindo-o  recursivamente em metades até o caso trivial, e depois combinando as  soluções parciais das metades ordenadas.
+
+Neste exercício vamos implementar uma versão do Mergesort às avessas, ou seja, para ordenar um array (1) em ordem decrescente (2) de maneira iterativa e (3) bottom-up , ou seja, de baixo para cima. Nessa implementação, o algoritmo passa várias vezes sobre o array, da direita para a esquerda e, a cada passagem, combina trechos ordenados,  primeiro de tamanho 1, depois de tamanho 2, depois 4, e assim sucessivamente  até todo o vetor estar ordenado.
+
+Por exemplo, para ordenar o vetor &lt; 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 &gt;, temos,
+Após a 1a. passagem:
+| 1 | 3 2 | 5 4 | 7 6 | 9 8 | 11 10 | 13 12 | 15 14 | 
+Após a 2a. passagem:
+| 3 2 1 | 7 6 5 4 | 11 10 9 8 | 15 14 13 12 |  // repare que o grupo mais à esquerda pode ser menor
+Após a 3a. passagem:
+| 7 6 5 4 3 2 1 | 15 14 13 12 11 10 9 8 | 
+Após a 4a. passagem:
+| 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 | 
+
+Para gerar os vetores a serem ordenados, o programa deve implementar um gerador de números pseudo-aleatórios.  O primeiro elemento do array recebe um valor inicial x0 dado chamado semente. Cada valor subsequente X[1], X[2], X[3], ... é gerado a partir do valor  anterior de acordo com a regra
+
+X[0] = x0;
+for (j=1; j &lt; N; j++) 
+   X[j] = (a*X[j-1] + c) % m;
+
+onde a, c e m são constantes dadas.</pre>
+Formato da entrada: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">A entrada é constituída por vários casos, sendo um por linha.
+Cada caso é especificado por cinco valores inteiros (int 32 bits)
+
+n x0 a c m
+
+onde 
+n representa o número de elementos do array
+x0, a, c, m, são as constantes usadas para gerar os n valores conforme explicado acima.
+
+Limites:
+1 &lt;= n &lt;= 2^18
+1 &lt;= x0,a,c,m &lt;= 2^15</pre>
+Formato da saída: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Para cada caso, o programa deve imprimir no arquivo de saída o passo-a-passo  da ordenação, conforme ilustrado acima, imprimindo o conteúdo do vetor parcialmente ordenado ao final de cada passagem em uma linha. Os trechos ordenados devem ser indicados por barras verticais. 
+Após cada caso, deve ser impressa uma linha em branco.</pre>

@@ -1,0 +1,5 @@
+Título: Padaria
+Topicos do problema: multiplas entradas; 
+Descrição: <p>A padaria PãoQuente vende uma certa quantidade de pães franceses e uma quantidade de broas a cada dia. Cada pãozinho custa R$ 0,20 e a broa custa R$ 1,50. Ao final do dia, o dono quer saber quanto arrecadou com a venda dos pães e broas (juntos), e quanto deve guardar numa conta de poupança (10% do total arrecadado). Você foi contratado para fazer os cálculos para o dono. Com base nestes fatos, faça um programa para ler as quantidades de pães e de broas, e depois calcular os dados solicitados.<br/></p>
+Formato da entrada: <p>O programa deve receber dois valores correspondendo a total de vendas de broas e total de vendas de pães, respectivamente.</p>
+Formato da saída: <p>O programa deve exibir quanto deverá ser guardado na poupança da seguinte forma: </p><p><br/></p><p><i><b>O valor a ser guardado na poupança será R$ XX.XX</b></i></p><p><br/></p><p>onde, XX será o valor de 10% do total arrecadado pela padaria.</p>

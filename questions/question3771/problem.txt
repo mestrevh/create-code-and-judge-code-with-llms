@@ -1,0 +1,5 @@
+Título: Tempo Viagem
+Topicos do problema: função; 
+Descrição: <p>Milos trabalha fazendo entregas em todo o Brasil, o que pode ser muito exaustivo e perigoso. Isso deixa sua família constantemente atenta e preocupada.</p><p>Pensando em acalmar seus familiares, Milos criou um sistema que consiste em informar onde esta, qual a próxima parada e quanto tempo levara para chegar na próxima parada.</p><p>A empresa que Milos trabalha exige eficiência e agilidade, o problema é que Milos não é muito bom contas matemáticas e acaba perdendo muito tempo com isso. </p><p>Então ele pediu que você o ajudasse criando um programa que recebe as suas informações e retorne a mensagem que ele retornara para o grupo da família.</p><p>Use uma função chamada &#34;<b>Calcula tempo</b>&#34; que retorne o tempo de viagem.</p>
+Formato da entrada: <p>Uma coordenada (x,z) indicando a localização atual;</p><p>Uma coordenada (x,z) indicando a localização final;</p><p>A velocidade média (km/h) que ele ira adotar durante o trajeto.</p>
+Formato da saída: <p>Milos esta no ponto (x0, z0) indo para (xf, zf) e provavelmente ira chegar em y horas.</p>

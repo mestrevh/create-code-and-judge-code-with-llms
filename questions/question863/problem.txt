@@ -1,0 +1,5 @@
+Título: Mozilla Spring Camp
+Topicos do problema: 
+Descrição: <p>Você foi convidado para participar do Mozilla Spring Camp, e uma das missões dadas aos participantes foi implementar o funcionamento dos botões de back e forward de um navegador de internet, mostre que você é digno de um estágio na Mozilla.</p>
+Formato da entrada: <p>Um conjunto de ações, onde:</p><p>ENTER = Entrou em um site<br/>BACK = Volta uma página<br/>FORWARD = Avançar uma página</p>
+Formato da saída: <p>Você deve indicar quantas ações ficaram na pilha de BACK e quantas ações ficaram na pilha de FORWARD.</p><p><br/></p>

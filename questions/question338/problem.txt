@@ -1,0 +1,19 @@
+Título: Imprima o número real formatado
+Topicos do problema: formatação; 
+Descrição: <p>Voc&ecirc; ir&aacute; receber um n&uacute;mero real e deve imprimir o n&uacute;mero recebido entre dois caracteres '|' e com v&aacute;rias formata&ccedil;&otilde;es diferentes:</p>
+<p>a) Com 2 casas decimais;</p>
+<p>b) Com 5 casas decimais;</p>
+<p>c) Com 6 espa&ccedil;os antes do n&uacute;mero e com 1 casa decimal;</p>
+<p>d) Com 6 espa&ccedil;os depois do n&uacute;mero e com 1 casa decimal;</p>
+<p>&nbsp;</p>
+<p>Por exemplo:</p>
+<p>Entrada:</p>
+<p>5.324658</p>
+<p>Sa&iacute;da:</p>
+<p>|5.32|</p>
+<p>|5.32465|</p>
+<p>| &nbsp; &nbsp; &nbsp;5.3|</p>
+<p>|5.3 &nbsp; &nbsp; &nbsp;|&nbsp;</p>
+<p><strong>Esse problema possui outro desafio</strong>. Em muitas linguagens, se voc&ecirc; mandar imprimir o n&uacute;mero 3.928 com duas casas decimais, o comando de impress&atilde;o ir&aacute; arredondar para 3.93. Entretanto, nesse problema isso n&atilde;o &eacute; permitido. Voc&ecirc; precisaria imprimir 3.92</p>
+Formato da entrada: <p>Voc&ecirc; ir&aacute; receber um n&uacute;mero real com no m&aacute;ximo 6 casas decimais.</p>
+Formato da saída: <p>Voc&ecirc; deve imprimir 4 linhas, de acordo com a especifica&ccedil;&atilde;o dada na descri&ccedil;&atilde;o desse problema.</p>

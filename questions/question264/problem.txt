@@ -1,0 +1,12 @@
+Título: Inverter uma Lista Encadeada em uma só passada
+Topicos do problema: repetição; 
+Descrição: <p>&nbsp;</p>
+<div class="page" title="Page 1">
+<div class="layoutArea">
+<div class="column">
+<p><span style="font-size: 10.000000pt; font-family: 'CMR10';">Escreva uma fun&ccedil;&atilde;o para inverter uma lista encadeada usando somente uma "passada" pela lista.&nbsp;</span></p>
+</div>
+</div>
+</div>
+Formato da entrada: <p>Uma lista encadeada. Cada n&oacute; da lista deve possuir um n&uacute;mero.</p>
+Formato da saída: <p>A mesma lista, mas em ordem inversa.</p>

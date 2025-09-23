@@ -1,0 +1,5 @@
+Título: Escolhendo o passeio
+Topicos do problema: decisão; repetição; string; 
+Descrição: <p>No pr&oacute;ximo fim-de-semana, Cristina vai sair com seus 6 primos, mas eles ainda n&atilde;o resolveram se v&atilde;o ao cinema ou ao boliche. Escreva um programa que receba como entrada o passeio escolhido por cada um e exiba ao final aquele que teve mais votos.<br /><br /><br /><br /><br /></p>
+Formato da entrada: <p>Strings contendo as palavras cinema ou boliche<br /><br />Dica: lembre-se que o usu&aacute;rio pode digitar essas palavras usando mai&uacute;sculas e/ou min&uacute;sculas<br /><br /></p>
+Formato da saída: <p>Um String com o nome do passeio escolhido, sendo todas as letras mai&uacute;sculas</p>

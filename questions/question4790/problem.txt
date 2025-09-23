@@ -1,0 +1,5 @@
+Título: Beiju Text
+Topicos do problema: estrutura de dados; caractere; ponteiro; 
+Descrição: <p>Você está digitando um texto longo com um teclado quebrado. Bem, ele não está tão quebrado assim. O único problema é que às vezes a tecla &#34;Home&#34; ou &#34;End&#34; é pressionada automaticamente (internamente). <br/>Você não percebe esse problema, já que está concentrado na digitação e nem sequer ligou o monitor! Depois que você termina de digitar, é possível ver o texto na tela (caso ligue o monitor). Em chinês, podemos chamar isso de Beiju. <br/>Sua tarefa é descobrir qual é o texto Beiju.<br/><br/><br/><b>ATENÇÃO: É IMPRESCINDÍVEL A UTILIZAÇÃO DA ESTRUTURA DE DADOS LINKED LIST</b></p>
+Formato da entrada: <p>Haverá uma única string de input (sem espaço e máximo de 500 caracteres).</p><p>Os caracteres podem ser letras, sublinhados ('_') e dois símbolos especiais:</p><ul><li>'[' representa que a tecla Home (início do texto) foi pressionada internamente</li><li>']' representa que a tecla End (fim do texto) foi pressionada internamente</li></ul>
+Formato da saída: <p>Imprima a string final. (Beiju Text)</p>

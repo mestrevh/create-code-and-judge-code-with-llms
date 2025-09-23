@@ -1,0 +1,8 @@
+Título: Pares, Ímpares, Positivos e Negativos.
+Topicos do problema: decisão; 
+Descrição: <p><span><span class="hps">Leia</span> <span class="hps">um valor inteiro</span> <span class="hps">N.</span> <span class="hps">Depois</span>, <span class="hps">imprima uma mensagem</span><span class="hps"></span> <span class="hps">dizendo que se</span> <span class="hps">este valor</span> <span class="hps">for &iacute;mpar</span><span>, par</span><span>, positivo, negativo</span> <span class="hps">ou</span> <span class="hps">nulo.</span><br /><span class="hps">A mensagem</span> <span class="hps">deve estar em</span> <span class="hps">letras mai&uacute;sculas.</span></span></p>
+Formato da entrada: <p>Um n&uacute;mero N.</p>
+<p>&nbsp;</p>
+<p>Considere que o maior inteiro que voc&ecirc; poder&aacute; receber &eacute; 10^12 (10 elevado a 12)</p>
+Formato da saída: <p>Uma frase, informando se o n&uacute;mero &eacute; POSITIVO PAR, POSITIVO IMPAR, NEGATIVO PAR, NEGATIVO IMPAR ou NULO.</p>
+<p>Seguido de uma quebra de linha.</p>

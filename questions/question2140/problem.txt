@@ -1,0 +1,5 @@
+Título: Conjugação
+Topicos do problema: substrings; caractere; 
+Descrição: <p>Pedrinho está estudando verbos na escola e observando sua gramática, ele observou que em muitos verbos, a conjugação da terceira pessoa do singular do presente do indicativo é obtida simplesmente removendo o &#34;r&#34; do verbo no infinitivo. Desta forma, a terceira pessoa do singular do presente do indicativo do verbo &#34;vender&#34; é &#34;vende&#34;.</p><p>Outra observação interessante que ele fez foi que o gerúndio de muitos verbos pode ser obtido removendo o &#34;r&#34; do infinitivo e acrescentando o sufixo &#34;ndo&#34;. Seguindo este raciocínio, o gerúndio do verbo &#34;vender&#34; é &#34;vendendo&#34;.</p><p>Faça um programa para ajudar Pedrinho a testar sua teoria.<br/></p>
+Formato da entrada: <p>Uma string correspondendo a um verbo no infinitivo.<br/></p>
+Formato da saída: <p>Duas strings, uma correspondendo ao verbo no infinitivo removendo o &#34;r&#34; e outra removendo o &#34;r&#34; e acrescentando o &#34;ndo&#34;.<br/></p>

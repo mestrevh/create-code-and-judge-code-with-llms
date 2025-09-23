@@ -1,0 +1,5 @@
+Título: Matriz fantasma
+Topicos do problema: repetição; array bidimensional; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Dado um inteiro <b>n</b>, você deverá imprimir uma matriz triangular superiror 'fantasma' de ordem <b>n</b>. A matriz segue o seguinte modelo: </span></p><p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"><span id="selectionBoundary_1606943130653_8269141061125864" class="rangySelectionBoundary">&#65279;</span><img src="https://www.thehuxley.com/api/v1/problems/image/e723ac90aea40edfb1e0ccb2352f72938aa664d7a.png"/><br/></span><span id="selectionBoundary_1606943367961_20089497461272754" class="rangySelectionBoundary">&#65279;</span></p>
+Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Um inteiro n.</span></p>
+Formato da saída: <p><font color="#000000">Uma matriz nxn conforme</font><span style="color: rgb(0, 0, 0);"> o modelo apresentado na descrição.</span></p>

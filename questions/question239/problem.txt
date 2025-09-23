@@ -1,0 +1,23 @@
+Título: Camisetas
+Topicos do problema: multiplas entradas; estruturas; 
+Descrição: <p>O professor Rolien organizou junto &agrave;s suas turmas de Ci&ecirc;ncia da 
+Computa&ccedil;&atilde;o a confec&ccedil;&atilde;o de uma camiseta polo 
+	que fosse ao mesmo tempo bonita e barata. Ap&oacute;s algumas conversas, ficou
+ decidido com os alunos que seriam feitas 
+	somente camisetas da cor preta, o que facilitaria a confec&ccedil;&atilde;o. Os 
+alunos poderiam escolher entre o logo do curso e os detalhes em branco 
+ou vermelho. Assim sendo, Rolien precisa de sua ajuda para organizar as 
+listas de quem quer a camiseta em cada uma das turmas, relacionando 
+estas camisetas pela cor do logo do curso, tamanho (P, M ou G) e por 
+&uacute;ltimo pelo nome.</p>
+Formato da entrada: <p>A entrada cont&eacute;m v&aacute;rios casos de teste. Cada caso de teste inicia com um valor <strong>N</strong>, 
+	(1 &le; <strong>N</strong> &le; 60) inteiro e positivo, que indica a quantidade 
+	de camisetas a serem feitas para aquela turma. As pr&oacute;ximas <strong>N</strong>*2
+ linhas cont&eacute;m informa&ccedil;&otilde;es de cada uma das camisetas (ser&atilde;o duas linhas 
+de informa&ccedil;&atilde;o para cada camiseta). A primeira linha ir&aacute; conter o nome do
+ estudante e a segunda linha ir&aacute; conter a cor do logo da camiseta 
+("branco" ou "vermelho") seguido por um espa&ccedil;o e pelo tamanho da 
+camiseta "P" "M" ou "G". A entrada termina quando o valor de <strong>N</strong> for igual a zero (0) e esta valor n&atilde;o dever&aacute; ser processado.</p>
+Formato da saída: <p>Para cada caso de entrada dever&atilde;o ser impressas as informa&ccedil;&otilde;es ordenadas pela cor dos detalhes em ordem ascendente, 
+	seguido pelos tamanhos em ordem descendente (as letras dos tamanhos e n&atilde;o os tamanhos em si, ou seja, P, M e G) e por &uacute;ltimo por ordem ascendente de nome, conforme o exemplo abaixo.</p>
+<p>Obs.: Dever&aacute; ser impressa uma linha em branco entre dois casos de teste.</p>

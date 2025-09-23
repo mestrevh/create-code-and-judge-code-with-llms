@@ -1,0 +1,5 @@
+Título: Quantidade de ocorrências (função iterativa)
+Topicos do problema: repetição; função; 
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Crie um programa que tenha uma única função, além da principal, que receberá como parâmetros um natural</span><i style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span> </span></i><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><i>n (0&lt;=n&lt;=2^30)</i></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"> e um dígito <b><i>x (0&lt;=x&lt;=9)</i></b> e devolverá a quantidade de ocorrências de <b><i>x</i></b> em<span> </span></span><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><i>n</i></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">. O programa exibirá o retorno da função. Observações: (a) apenas um laço de repetição; (b) sem matrizes; (c) função iterativa.</span><br/></p>
+Formato da entrada: <p>142434530 4</p>
+Formato da saída: <p>3</p>

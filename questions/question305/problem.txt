@@ -1,0 +1,5 @@
+Título: Conversão de tempo
+Topicos do problema: datas/horas; 
+Descrição: <p>Leia um valor inteiro, que &eacute; o tempo de dura&ccedil;&atilde;o em segundos de um determinado evento em uma f&aacute;brica e informe-o expresso no formato horas:minutos:segundos.</p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m um valor inteiro N.</p>
+Formato da saída: <p>Imprima o tempo lido no arquivo de entrada (segundos), convertido para horas:minutos:segundos, conforme exemplo fornecido.</p>

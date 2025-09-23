@@ -1,0 +1,5 @@
+Título: Arithmetic Key
+Topicos do problema: ad-hoc; lógica matemática; 
+Descrição: <p>Tio Keke é um jovem matemático apaixonado por aritmética, ele adora fazer desafios a seus amigos relacionados à Teoria dos Números. Dessa vez, Tio Keke está participando da Competição Internacional de Resolução de Enigmas (CIRE), mas como já ganhou várias vezes a CIRE ele acha os desafios muito triviais e, para tornar menos trivial, ele pediu para que você fizesse um programa que quebrasse os enigmas do desafio final de Teoria dos Números.</p>
+Formato da entrada: <p>Primeiro virá um inteiro <b>T</b> (1 &lt;= T &lt;= 1000) que indica a quantidade de casos de teste.</p><p>Para cada caso de teste virá quatro inteiros<b> A, B, C e D</b> (1 &lt;= A, B, C, D &lt;= 10^7) que indicam os números do enigma.</p>
+Formato da saída: <p>Para cada caso de teste você deverá imprimir a única solução de cada enigma.</p>

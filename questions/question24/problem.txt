@@ -1,0 +1,5 @@
+Título: Fatorial
+Topicos do problema: multiplas entradas; lógica matemática; 
+Descrição: <p>Calcule os fatoriais de uma sequ&ecirc;ncia de n&uacute;meros dada.</p>
+Formato da entrada: <p>O programa receber&aacute; uma sequ&ecirc;ncia de inteiros n, onde 0&lt;=n&lt;=12.<br />O programa encerra a sua execu&ccedil;&atilde;o quando o n&uacute;mero n dado for -1.</p>
+Formato da saída: <p>Para cada n, deve-se imprimir um inteiro k seguido de um final de linha, correspondendo ao&nbsp;fatorial.</p>

@@ -1,0 +1,5 @@
+Título: Remover caracteres de uma string
+Topicos do problema: array; substrings; caractere; string; 
+Descrição: <p>Leia duas strings e retire da primeira string todas as letras que ocorrem na segunda string. Exemplo: Sejam as strings "chocolate" e "oca", ent&atilde;o voc&ecirc; deve imprimir "hlte".</p>
+Formato da entrada: <p>Voc&ecirc; receber&aacute; duas linhas, sendo cada string em uma linha. A string pode conter espa&ccedil;os. O tamanho m&aacute;ximo de cada string &eacute; 80.</p>
+Formato da saída: <p>Imprima em uma linha a string resultante. Lembre de imprimir um final de linha ap&oacute;s a string resultante.</p>

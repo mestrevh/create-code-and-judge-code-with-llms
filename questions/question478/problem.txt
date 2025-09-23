@@ -1,0 +1,5 @@
+Título: Regeneração de Vida
+Topicos do problema: função; dicionário; 
+Descrição: <p>Seu projeto de Programa&ccedil;&atilde;o em C &eacute; um jogo, e voc&ecirc; ficou encarregado o sistema de dano e regenera&ccedil;&atilde;o de vida.<br />Voc&ecirc; ir&aacute; receber uma sequencia de X valores de dano que foi inflingido ao inimigo, e o tempo em segundos (decorrido desde o come&ccedil;o do jogo).<br />O tempo decorrido serve para voc&ecirc; calcular a recupera&ccedil;&atilde;o do HP do inimigo, logo, voc&ecirc; deve determinar se o inimigo continua vivo ou se ele morreu.<br />Todo inimigo tem 100 de vida.</p>
+Formato da entrada: <p>Um inteiro X, representando a quantidade de danos que foram inflingidos ao inimigo.<br />Uma sequencia de X linhas, em cada linha, dois valores, D e T, representando os danos inflingidos, seguidos do tempo passado desde o come&ccedil;o do jogo em segundos.<br />Um inteiro Y representando quanto de HP o inimigo recupera por segundo.</p>
+Formato da saída: <p>Uma mensagem dizendo se o Inimigo est&aacute; morto ou vivo.</p>

@@ -1,0 +1,11 @@
+Título: Consecutivos
+Topicos do problema: array; acumulador; repetição; 
+Descrição: <p>Num sorteio que distribui pr&ecirc;mios, um participante inicialmente sorteia um inteiro N e depois<br />N valores. O n&uacute;mero de pontos do participante &eacute; o tamanho da maior sequ&ecirc;ncia de valores<br />consecutivos iguais. Por exemplo, suponhamos que um participante sorteia N = 11 e, nesta<br />ordem, os valores:</p>
+<p>30, 30, 30, 30, 40, 40, 40, 40, 40, 30, 30</p>
+<p>Ent&atilde;o, o participante ganha 5 pontos, correspondentes aos 5 valores 40 consecutivos. Note<br />que o participante sorteou 6 valores iguais a 30, mas nem todos s&atilde;o consecutivos.</p>
+<p>Sua tarefa &eacute; ajudar a organiza&ccedil;&atilde;o do evento, escrevendo um programa que determina o<br />n&uacute;mero de pontos de um participante.</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m um inteiro N, o n&uacute;mero de valores sorteados. A segunda<br />linha cont&eacute;m N valores, V1, V2, . . . , VN, na ordem de sorteio, separados por um espa&ccedil;o<br />em branco.</p>
+<p>Considere:</p>
+<p>1 &lt;= N &lt;= 10000</p>
+<p>-2^31 &lt;= Vi &lt;= (2^31) - 1 , para i = 1,2, . . . , N</p>
+Formato da saída: <p>Seu programa deve imprimir apenas uma linha, contendo apenas um inteiro, indicando o<br />n&uacute;mero de pontos do participante.</p>

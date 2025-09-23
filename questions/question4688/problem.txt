@@ -1,0 +1,5 @@
+Título: Busca de números
+Topicos do problema: eof; ponteiro; busca; busca binária; 
+Descrição: <p>Crie um programa que recebe um numero, seguido por um array de números. O programa fazer uma busca binária para buscar o valor e deve retornar o índice do numero que corresponde ao numero recebido. Se o numero não estiver no array, o programa deve retornar -1. Além disso o programa deve exibir quantas operações foram necessárias para encontrar o numero.</p><p>Caso seja necessário arredondar, deve-se arredondar para baixo.<br/></p>
+Formato da entrada: <p>A entrada consiste em uma sequência de números, sendo o primeiro número o valor que está sendo buscado e os outros são os valores do array.<br/></p>
+Formato da saída: <p>A saída deve conter 2 valores, separados por uma quebra de linha. <br/></p><p>O primeiro é a posição do número no array</p><p>Já segundo é a quantidade de operações necessárias para encontrar o número (min 1).<br/></p>
