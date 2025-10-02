@@ -1,5 +1,6 @@
 Título: Q01 - Exibição de Boas Vindas
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um procedimento chamado &#34;saudacoes&#34; que recebe um nome e exibe uma mensagem de saudação personalizada.<br/></p>
 Formato da entrada: <p>Um nome</p>
 Formato da saída: <p>A mensagem &#34;Olá, (nome)! Seja bem-vindo&#34;</p>

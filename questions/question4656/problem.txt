@@ -1,5 +1,6 @@
 Título: Q11 - Palavras cruzadas
 Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que receba uma palavra e transforme-a nas seguintes formatações: Uma string somente com os caracteres que estejam nas posições pares e uma string que tenha os caracteres das posições pares. Retorne, também, a string de trás para frente.</p>
 Formato da entrada: <p>Uma String com vários caracteres.</p>
 Formato da saída: <p>Uma String somente com os elementos das posições ímpares</p><p>Uma String somente com os caracteres das posições pares</p><p>Uma String com os caracteres invertidos.</p>

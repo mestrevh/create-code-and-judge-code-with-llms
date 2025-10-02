@@ -1,5 +1,6 @@
 Título: Hipotenusa
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">A <b style="color: rgb(34, 34, 34);text-align: left;background-color: rgb(255, 255, 255);">hipotenusa</b> é lado mais longo de um triângulo retângulo, por ser oposto ao ângulo reto, que define este tipo de triângulo. &#34;A soma dos quadrados dos catetos é igual ao quadrado da <b style="color: rgb(34, 34, 34);text-align: left;background-color: rgb(255, 255, 255);">hipotenusa</b>.&#34;</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Faça um programa para, dado o tamanho de dois lados de um triângulo (catetos), retornar o comprimento do terceiro lado (hipotenusa) de modo a formar um triângulo retângulo.</p><p></p>
 Formato da entrada: <p>Dois números reais (um por linha), maior que zero.</p>
 Formato da saída: <p>Um número real com duas casa decimais.</p>

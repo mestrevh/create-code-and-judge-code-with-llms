@@ -1,5 +1,6 @@
 Título: O dobro dos elementos
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; receber&aacute; uma sequ&ecirc;ncia de n&uacute;meros inteiros e deve imprimir o dobro de cada n&uacute;mero recebido.</p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; um n&uacute;mero inteiro n, indicando quantos n&uacute;meros vir&atilde;o a seguir. Depois voc&ecirc; receber&aacute; n linhas, cada uma com um n&uacute;mero inteiro. Voc&ecirc; deve imprimir o dobro de cada n&uacute;mero dessas n linhas.</p>
 <p>Considere n&lt;=20</p>

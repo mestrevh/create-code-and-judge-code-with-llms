@@ -1,5 +1,6 @@
 Título: Maior de 2 números.
 Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span id="docs-internal-guid-c036e72a-4508-844c-54ec-075a28358897"><span style="color: rgb(0, 0, 0);background-color: transparent;">Escreva um programa que leia dois valores inteiros da entrada padrão e informe qual é o maior. Se os números forem iguais, imprima qualquer um deles.</span></span><br/></p>
 Formato da entrada: <p>Dois valores inteiros.</p>
 Formato da saída: <p>O maior dentre os 2 valores fornecidos.</p>

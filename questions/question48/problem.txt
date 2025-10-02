@@ -1,5 +1,6 @@
 Título: Propriedade do Divisor
 Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um n&uacute;mero inteiro 10&lt;=n&lt;=100, fa&ccedil;a um programa que imprima SIM caso ele satisfa&ccedil;a as propriedades abaixo ou NAO, caso contr&aacute;rio:</p>
 <p>
 <ul>

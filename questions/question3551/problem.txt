@@ -1,5 +1,6 @@
 Título: É triângulo é?
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba os três lados de um triângulo e diga se ele é isósceles, escaleno, equilátero ou se não é triangulo.<br/></p>
 Formato da entrada: <p>Três valores  inteiros <i><b>a b c </b></i>que serão os lados do triângulo.<i></i><br/></p>
 Formato da saída: <p>A  saída deve ser o tipo de triangulo se os valores correspoderem a um triangulo ou se não é triangulo<br/></p>

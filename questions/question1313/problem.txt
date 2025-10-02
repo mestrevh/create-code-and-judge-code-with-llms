@@ -1,5 +1,6 @@
 Título: Produto mais barato
 Topicos do problema: decisão; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Construa um algoritmo que pergunte o preço de três produtos e informe qual produto você deve comprar, o critério de compra deve ser sempre o produto mais barato.<br/></p>
 Formato da entrada: <p>Valor dos três produtos.</p>
 Formato da saída: <p>Qual produto deve ser comprado.</p>

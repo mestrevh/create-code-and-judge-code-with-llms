@@ -1,5 +1,6 @@
 Título: Comparador de Números Inteiros
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que leia dois valores inteiros (x e y) e imprima na tela o resultado das seguintes compara&ccedil;&otilde;es entre estes dois valores, exatamente nesta ordem:</p>
 <p>x &eacute; maior que y</p>
 <p>x &eacute; igual a y</p>

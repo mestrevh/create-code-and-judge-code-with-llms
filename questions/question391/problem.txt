@@ -1,5 +1,6 @@
 Título: Método das Potências
 Topicos do problema: array; entrada formatada; array bidimensional; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p><span style="font-size: small;"><span style="font-size: x-small;">A determina&ccedil;&atilde;o de autovalores e de seus respectivos autovetores apresenta diversas aplica&ccedil;&otilde;es em Engenharia. Entretanto a obten&ccedil;&atilde;o de todos os autovalores de uma matriz quadrada de grande dimens&atilde;o pode levar a um custo computacional impratic&aacute;vel.</span></span></p>
 <p><span style="font-size: small;"><span style="font-size: x-small;">O M&eacute;todo das Pot&ecirc;ncias faz parte de uma categoria de m&eacute;todos num&eacute;ricos capazes de obter apenas um autovalor e seu respectivo autovetor. Este m&eacute;todo &eacute; capaz de obter o maior autovalor em m&oacute;dulo e seu correspondente autovetor.</span></span></p>
 <p><span style="font-size: small;"><span style="font-size: x-small;">Mais informa&ccedil;&otilde;es sobre o m&eacute;todo podem ser obtidas em:</span></span></p>

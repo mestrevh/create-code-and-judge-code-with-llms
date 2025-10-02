@@ -1,5 +1,6 @@
 Título: Crypt Kicker II
 Topicos do problema: busca completa; backtracking; dicionário; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma maneira popular, mas insegura, de criptografar um texto &eacute; permutar as letras do alfabeto.&nbsp; Isto &eacute;, no texto, cada letra do alfabeto &eacute; consistentemente substitu&iacute;da por alguma outra letra. Para garantir que a criptografia &eacute; revers&iacute;vel, duas letras diferentes n&atilde;o podem ser substitu&iacute;das pela mesma letra.</p>
 <p>Um m&eacute;todo poderoso de cripto-an&aacute;lise &eacute; conhecido como ataque de texto puro (plain text). Nesse ataque, o cripto-analista descobre uma frase conhecida e verifica como ela foi criptografada. A partir da&iacute;, ele deduz como a criptografia ocorreu.</p>
 <p>Sua tarefa &eacute; decriptar v&aacute;rias linhas criptografadas, assumindo que cada linha usa o mesmo conjunto de substitui&ccedil;&otilde;es e, que uma das linhas da entradada &eacute; a forma criptografada da senten&ccedil;a:</p>

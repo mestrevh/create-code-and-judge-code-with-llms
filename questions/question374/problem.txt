@@ -1,5 +1,6 @@
 Título: Bônus de Viagem
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="font-size: 13px; font-family: arial,sans,sans-serif; text-align: center;">Lanne &eacute; uma funcion&aacute;ria dedicada e seu chefe prometeu-lhe um b&ocirc;nus especial de 75% de seu sal&aacute;rio no fim do ano. Ela decidiu usar o dinheiro para fazer uma viagem, mas a escolha do destino depender&aacute; do valor do b&ocirc;nus. Caso ela receba menos de R$ 2000, ela ir&aacute; conhecer a Argentina. J&aacute; se o b&ocirc;nus for entre R$ 2000 e R$ 3000, ela ir&aacute; para a Espanha. Se o b&ocirc;nus ganho for maior que R$ 3000, ela realizar&aacute; o sonho de conhecer a Alemanha. Escreva um programa que receba como entrada o sal&aacute;rio de Lanne e exiba o nome do pa&iacute;s que ela ir&aacute; conhecer.</span></p>
 Formato da entrada: <p>O salário ( número real)  com duas casas decimais </p>
 Formato da saída: <p>Um String com todas as letras mai&uacute;sculas</p>

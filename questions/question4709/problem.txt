@@ -1,5 +1,6 @@
 Título: Q03 - Tabuada de um Número
 Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Desenvolva um procedimento chamado &#34;amadoProfessor&#34; que recebe um número e imprime sua tabuada do 1 ao 10.<br/></p>
 Formato da entrada: <p>Um número inteiro</p>
 Formato da saída: <p>A tabuada do número digitado do 1 ao 10</p>

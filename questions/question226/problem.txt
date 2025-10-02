@@ -1,5 +1,6 @@
 Título: Soma dos Múltiplos
 Topicos do problema: acumulador; decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>&nbsp;Ache a soma de todos n&uacute;meros naturais m&uacute;ltiplos de 3 ou 5 menores que n.</p>
 Formato da entrada: <p>Um n&uacute;mero inteiro n.</p>
 Formato da saída: <p>&nbsp;A soma de todos os n&uacute;meros naturais m&uacute;ltiplos de 3 e 5 menores que n, com uma quebra de linha.</p>

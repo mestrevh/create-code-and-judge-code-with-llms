@@ -1,5 +1,6 @@
 Título: Iguais a n
 Topicos do problema: array; repetição; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span class="fontstyle0">Faça um programa em linguagem C que leia uma sequência de 101 números reais, verifique se o último número está presente nos 100 primeiros números e imprima as posições do array em que ele está presente. O programa deve mostrar as mensagens “Digite a sequencia de numero:” e “Indice no qual o numero desejado aparece:</span><span class="fontstyle0">”.</span><br/></p>
 Formato da entrada: <p>O usuário deve digitar uma sequência de 101 números reais<br/></p>
 Formato da saída: <p>O programa deve exibir uma sequência de inteiros separados por um final de linha, onde cada inteiro representa o índice do array em que foi encontrado o último número lido. Se o último número não for encontrado nos 100 números anteriores não imprima nada. Na tela, devem ser impressos:<br/></p><p></p><p><br/></p><p><span class="fontstyle0">Digite a sequencia de numero:</span></p><p><span class="fontstyle0">Indice no qual o numero desejado aparece:</span><span class="fontstyle0"></span><br/></p><div>n<br/></div><div>n<br/></div><div>n</div><p>n<br/></p>

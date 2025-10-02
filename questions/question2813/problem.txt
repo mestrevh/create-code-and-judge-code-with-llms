@@ -1,5 +1,6 @@
 Título: PR1_Media_Loop
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span class="fontstyle0">Faça um programa no qual o usuário digite um número positivo e seja calculada a média entre os números inteiros de 1 ao valor digitado. O programa deve mostrar as mensagens “Digite um número positivo” e “Média de 1 até n: n</span><span class="fontstyle0">”.</span> Caso o usuário digite um número negativo, deve ser mostrada a mensagem &#34;Apenas valores positivos&#34;.<br/></p>
 Formato da entrada: <p>O usuario deve digitar um número inteiro positivo.<br/></p>
 Formato da saída: <p>O programa deve exibir a média entre todos os números inteiros entre 1 e o valor digitado, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite um numero positivo: (impresso pela funcao input)<br/></p><p><span class="fontstyle0"> Media de 0 até n: n</span> / Apenas valores positivos</p>

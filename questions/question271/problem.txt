@@ -1,5 +1,6 @@
 Título: Área do Círculo
 Topicos do problema: geometria computacional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;">Guido &eacute; um cientista, ele foi chamado para resolver um problema da usina do senhor Ambr&oacute;sio. Senhor Ambr&oacute;sio quer construir uma usina de tratamento de &aacute;gua onde o aproveitamento do espa&ccedil;o seja o melhor poss&iacute;vel. Ele lhe deu uma folha que cont&eacute;m o raio dos locais onde pretende fazer os tanques redondos.</span></span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;">Ele espera receber de Guido dados que contenham a &aacute;rea de cada tanque o qual lhe deu o raio.</span></span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;">Por&eacute;m Guido est&aacute; muito atarefado e pediu sua ajuda para fazer um programa que possa calcular a &aacute;rea de cada tanque de forma mais r&aacute;pida.</span></span></p>

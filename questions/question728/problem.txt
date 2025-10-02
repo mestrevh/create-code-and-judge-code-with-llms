@@ -1,5 +1,6 @@
 Título: Menor velocidade final de 3 carros
 Topicos do problema: multiplas entradas; decisão; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva uma <b>função</b> chamada <u><b>velkmh</b></u> que calcule a velocidade final (<u>em km/h</u>) de um automóvel a partir dos valores da velocidade inicial V0 (<u>em m/s</u>), da aceleração A (<u>em m/s<i>2</i> - metros por segundo ao quadrado</u>) e do tempo de percurso T (<u>em s</u>) passados como parâmetro.</p><p>Escreva um programa que faça uso dessa função para comparar o valor da velocidade final de três automóveis e exiba o menor dos três valores como resultado.</p><u>Fórmulas de referência para o problema:</u> <br/>V = V<i>0</i> + A*T<br/>V<i>km/h</i> = 3.6 * V<i>m/s</i><br/>
 Formato da entrada: <p>A entrada para este programa constará de valores de V0, A e T (nesta ordem) para cada um dos três automóveis. </p><p><u></u></p>
 Formato da saída: <p>A saída deve ser o menor valor de V em km/h calculado. Utilize uma casa decimal para a velocidade a ser impressa como resultado.</p><p><u></u></p>

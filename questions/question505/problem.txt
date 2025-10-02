@@ -1,5 +1,6 @@
 Título: Rotacionar um array
 Topicos do problema: requer solução eficiente; array circular; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; receber&aacute; um array de inteiros e deve realizar deslocamentos &agrave; esquerda.</p>
 <p>Por exemplo, o array:</p>
 <p>1 2 3 4 5</p>

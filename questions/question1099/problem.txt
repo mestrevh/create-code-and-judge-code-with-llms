@@ -1,5 +1,6 @@
 Título: Área de um trapézio.
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que calcule e mostre a área de um trapézio. Sabendo-se que:<br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/a6d8a44e68fd68eab760ee02fc4c790f63d982dfa.png"/><br/></p>
 Formato da entrada: <p>Os valores (inteiros) da base menor, da base maior e da altura.</p>
 Formato da saída: <p>A área do trapézio com aproximação de 1 casa decimal.</p>

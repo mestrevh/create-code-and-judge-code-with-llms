@@ -1,5 +1,6 @@
 Título: Loop de ímpares
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que imprima todos os n&uacute;meros &iacute;mpares entre dois n&uacute;meros dados.</p>
 Formato da entrada: <p>Dois n&uacute;meros inteiros, n e m, separados por um final de linha.</p>
 Formato da saída: <p>Todos os n&uacute;meros &iacute;mpares maiores ou iguais a n e menores ou iguais a m, separados por um final de linha.</p>

@@ -1,5 +1,6 @@
 Título: Moda de Conjunto de Inteiros
 Topicos do problema: decisão; entrada formatada; repetição; dicionário; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa calcule a moda dos valores lidos. <b>A moda é o valor que ocorre com mais frequência em um conjunto de valores</b>, isto é, o que aparece mais vezes.</p><p>Por simplicidade, considere que sempre haverá um único valor para a moda.</p><p>Dica: o uso de um dicionário facilita a solução do problema.<br/></p>
 Formato da entrada: <p>Uma lista de valores inteiros não negativos, separados por espaço, em uma única linha.<br/></p>
 Formato da saída: <p>Como saída, espera-se a impressão do nome da medida (Moda) seguida por um espaço, o sinal de igualdade, outro espaço e o valor calculado.<br/></p>

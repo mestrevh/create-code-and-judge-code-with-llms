@@ -1,5 +1,6 @@
 Título: Concatenar palavras
 Topicos do problema: array; intercalação; substrings; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leia duas strings e concatene-as, ou seja , escreva o conte&uacute;do da segunda string no final da primeira. Exemplo: Se a primeira string digitada for "Bom dia, " e a segunda "Barney !", ent&atilde;o voc&ecirc; deve imprimir: "Bom dia, Barney !".</p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; duas linhas. Cada linha cont&eacute;m uma palavra.</p>
 Formato da saída: <p>Voc&ecirc; deve imprimir as duas palavras concatenadas em uma &uacute;nica linha.</p>

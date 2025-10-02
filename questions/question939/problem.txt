@@ -1,5 +1,6 @@
 Título: Intervalo de números.
 Topicos do problema: multiplas entradas; acumulador; repetição; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Escrever um algoritmo que leia uma quantidade desconhecida de números e conte quantos deles estão nos seguintes intervalos: [0..25], [26..50], [51..75], 76..100].</p><p>A entrada de dados deve terminar quando for lido um número negativo.</p>
 Formato da entrada: <p>Os números digitados.</p>
 Formato da saída: <p>A quantidade de valores respectivos a cada intervalo.</p>

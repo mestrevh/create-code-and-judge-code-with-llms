@@ -1,5 +1,6 @@
 Título: Resposta bem explicadinha
 Topicos do problema: caractere; string; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você deve escrever um programa que leia dois inteiros e imprima na tela o resultado da sua multiplicação, seguindo o padrão de saída especificado.</p>
 Formato da entrada: <p>Dois inteiros, um em cada linha.</p>
 Formato da saída: <p>Você imprimir a seguinte frase, substituindo no lunar de x1 o primeiro inteiro lido, no lugar de x2 o segundo inteiro lido e no lugar de p o valor do produto desses dois valores.</p><pre>O produto entre x1 e x2 é dado por: p</pre>

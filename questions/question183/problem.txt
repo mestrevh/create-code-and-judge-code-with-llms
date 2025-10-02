@@ -1,5 +1,6 @@
 Título: Garçom
 Topicos do problema: array; acumulador; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>
 <p>Parte do treinamento de um novo gar&ccedil;om &eacute; carregar uma grande bandeja com v&aacute;rias latas de bebidas e copos e entreg&aacute;-las todas numa mesa do restaurante. Durante o treinamento &eacute; comum que os gar&ccedil;ons deixem cair as bandejas, quebrando todos os copos.&nbsp;</p>
 <p>A SBC &mdash; Sociedade Brasileira de Copos &mdash; analisou estat&iacute;sticas do treinamento de diversos gar&ccedil;ons e descobriu que os gar&ccedil;ons em treinamento deixam cair apenas bandejas que t&ecirc;m mais latas de bebidas que copos. Por exemplo, se uma bandeja tiver 10 latas e 4 copos, certamente o gar&ccedil;om em treinamento a deixar&aacute; cair, quebrando os 4 copos. J&aacute; se a bandeja tiver 5 latas e 6 copos, ele conseguir&aacute; entreg&aacute;-la sem deixar cair.</p>

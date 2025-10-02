@@ -1,5 +1,6 @@
 Título: Raiz quadrada de um número
 Topicos do problema: repetição; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma das maneiras de se conseguir a raiz quadrada de um número é subtrair do número os ímpares consecutivos a partir de 1, até que o resultado da subtração seja menor ou igual a zero. O número de vezes que se conseguir fazer a subtração é a raiz quadrada exata (resultado 0) ou aproximada do número (resultado negativo). Faça um programa para calcular a raiz quadrada de um número inteiro dado.<br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/28ad2eac848b597c3177bf0d19d828622f85af3b8.png"/><br/></p>
 Formato da entrada: <p>Um número natural representando o número que se deseja calcular a raiz quadrada.</p>
 Formato da saída: <p>Um número inteiro representando a raiz quadrada calculada.</p>

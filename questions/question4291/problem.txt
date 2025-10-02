@@ -1,5 +1,6 @@
 Título: [AC5.4] - Media de notas adp.
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba um número inteiro n.</p><p>Receba notas que n indicou e faça a sua média</p><p>Mostre na tela a media dos números<br/></p>
 Formato da entrada: <p>Um número inteiro</p><p>Números flutuantes indicados pelo número inteiro</p>
 Formato da saída: <p>Um número flutuante indicando a média</p>

@@ -1,5 +1,6 @@
 Título: Distância entre dois pontos no espaço 3D
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre>Implemente um programa computacional que, tendo como dados de entrada as coordenadas de dois pontos quaisquer P = (x1, y1, z1) e Q = (x2, y2, z2) no espaço 3D, calcule e mostre a distância entre eles.<br/></pre>
 Formato da entrada: <pre>Consiste dos seis números reais x1, y1, z1, x2, y2 e z2, que correspondem às coordenadas dos dois pontos, sendo x1, y1 e z1 na primeira linha e x2, y2 e z2 na linha seguinte.<br/></pre>
 Formato da saída: <pre>Consiste de um número real formatado com duas casas decimais, representando a distância entre os dois pontos.<br/></pre>

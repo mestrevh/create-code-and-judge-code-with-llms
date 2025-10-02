@@ -1,5 +1,6 @@
 Título: Registrando os Alunos
 Topicos do problema: função; 
+Tempo limite de execução: 2 segundo(s)
 Descrição: <p></p><p>Escreva um programa que leia o <strong>nome</strong> e a <strong>idade</strong> de vários alunos e armazene essas informações em uma estrutura (<code>struct</code>). Após finalizar as entradas, o programa deve exibir:</p><ol><li><strong>Todos os alunos com até 14 anos</strong>, na ordem em que foram inseridos.</li><li><strong>Todos os alunos com mais de 14 anos</strong>, também na ordem em que foram inseridos.</li></ol><br/>
 Formato da entrada: <p>Um número <b>N</b> indicando quantos alunos serão inseridos, em seguida vira o nome do primeiro aluno e a idade do mesmo, seguindo assim até o <b>N</b>-enésimo aluno.<br/></p>
 Formato da saída: <p>O nome e idade dos alunos com até 14 anos.</p><p>O nome e idade dos alunos com mais de 14 anos. <br/></p>

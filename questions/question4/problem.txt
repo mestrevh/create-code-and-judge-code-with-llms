@@ -1,5 +1,6 @@
 Título: Figurinhas dos Irmãos
 Topicos do problema: array; acumulador; decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Jo&atilde;o e Maria s&atilde;o dois irm&atilde;os muito briguentos. Um belo dia, o pai deles, o Sr. Carlos, comprou v&aacute;rias figurinhas do &aacute;lbum da copa. Jo&atilde;o disse que por ser menino tinha direito a mais figurinhas. Obviamente, Maria n&atilde;o concordou e prop&ocirc;s um acordo de risco. Eles iriam dividir as figurinhas da seguinte maneira:</p>
 <p>Jo&atilde;o ficaria com todas as figurinhas cujo n&uacute;mero de s&eacute;rie for par e Maria com as &iacute;mpares. O Sr. Carlos gostou da id&eacute;ia e prop&ocirc;s um pequeno b&ocirc;nus:</p>
 <p>- Aquele que obtivesse o maior valor somando os n&uacute;meros de s&eacute;ries das figurinhas ganharia como b&ocirc;nus mais R$10,00 reais para comprar figurinhas s&oacute; para ele.</p>

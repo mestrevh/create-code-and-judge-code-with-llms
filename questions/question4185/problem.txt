@@ -1,5 +1,6 @@
 Título: Array de Pares e Ímpares
-Topicos do problema: array; ciclos; repetição; função; 
+Topicos do problema: array; repetição; ciclos; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Numa entrada de N números inteiros, você foi indicado para construir um programa em C que crie dois arrays e separe os números pares em um e os ímpares em outro, na ordem que eles forem inseridos no programa.</p>
 Formato da entrada: <p>Um número inteiro N, indicando a quantidade de números que serão inseridos</p><p>Os N números inteiros a serem classificados</p>
 Formato da saída: <p>Deve ser representada como:</p><p>pares[0] = A</p><p>pares[1] = B</p><p>...</p><p>pares[i] = F</p><p>impares[0] = G</p><p>impares[1] = H</p><p>...</p><p>impares[j] = L</p>

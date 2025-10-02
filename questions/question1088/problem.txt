@@ -1,5 +1,6 @@
 Título: Leia vários números.
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span id="docs-internal-guid-424330d9-7f9a-187c-c98c-f42e4490778d"><span style="color: rgb(0, 0, 0);background-color: transparent;">Escreva um programa que leia números inteiros da entrada padrão até que seja informado um número negativo. A cada leitura o número lido deve ser escrito na saída padrão.</span></span><br/></p>
 Formato da entrada: <p>Números inteiros.</p>
 Formato da saída: <p>Os números que foram lidos.</p>

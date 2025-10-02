@@ -1,5 +1,6 @@
 Título: Função menor elemento
 Topicos do problema: array; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre>Fazer uma função que receba um vetor de números reais e retorne o menor elemento do vetor. Inicialmente, deve-se criar uma função para ler o vetor recebendo como argumento o número de elementos desejados (tamanho do vetor). Escrever o módulo principal.<br/></pre>
 Formato da entrada: <pre>Um número inteiro na primeira linha representando o número de elementos do vetor.</pre><pre>Os elementos do vetor (números reais) em forma de coluna.</pre>
 Formato da saída: <pre>Um número real correspondente ao menor elemento do vetor.</pre>

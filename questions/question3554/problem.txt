@@ -1,5 +1,6 @@
 Título: Os primos de Fibonacci
 Topicos do problema: repetição; lógica matemática; números primos; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A sequência de Fibonacci é composta por uma sucessão de números descrita pelo famoso matemático italiano Leonardo de Pisa (1170-1250), mais conhecido como Fibonacci, no final do século 12.</p><p>Ele, que logo depois voltaria à vida para votar no paredão que Karol Conká sairia com 99% de rejeicão, também se questionou sobre como a sequência que ele havia descoberto se relacionaria com um outro fenômeno matemático, os números primos.</p><p>Leonardo precisa de um programa que, lendo um número <b>N (N&gt;1)</b>, descobre o último número da sua sequência (i-ésimo termo) antes de <b>N</b> (contando o próprio N) e calcula o <b>ú</b><b>ltimo primo</b> antes do i-esimo termo (contando o i-esimo termo).<br/><br/><br/></p>
 Formato da entrada: <p>A entrada consiste de um único número N, sendo N&gt;1 e N&lt;=10000.<br/><br/></p>
 Formato da saída: <p>A saída deve conter um número positivo que representa o último número primo antes do último número da sequência de Fibonacci antes de N.</p>

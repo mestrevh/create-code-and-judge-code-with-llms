@@ -1,5 +1,6 @@
 Título: Eh par ou ímpar?
 Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 15 segundo(s)
 Descrição: <p>Você deve pedir que o usuário entre com um número inteiro, e deverá dizer se ele eh impar ou se ele eh par:</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Se ele for par imprima &#34;O numero eh N e ele eh par&#34;</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Se ele for impar imprima &#34;O numero eh N e ele eh impar&#34;</span><br/></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Onde N eh o numero digitado pelo usuário</span></p>
 Formato da entrada: <p></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">94</p><p></p>
 Formato da saída: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">O numero eh 94 e ele eh par</p>

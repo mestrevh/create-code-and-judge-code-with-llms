@@ -1,5 +1,6 @@
 Título: Pesquisa de intenção de voto
 Topicos do problema: array; repetição; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O candidato a um cargo eletivo contratou um instituto de pesquisa de opini&atilde;o para acompanhar seu desempenho durante a campanha eleitoral. Esse instituto realizou n pesquisas ao longo da campanha, em cada uma das quais verificou o percentual de inten&ccedil;&otilde;es de voto no candidato e em seu principal concorrente.</p>
 <p>Escreva uma fun&ccedil;&atilde;o que receba como par&acirc;metros o vetor com os percentuais de inten&ccedil;&otilde;es de voto no candidato (candidato[ ]), o vetor com os percentuais de inten&ccedil;&otilde;es de voto no seu concorrente (concorrente[ ]) e o tamanho desses vetores (n), e determine qual o valor da maior vantagem percentual que o candidato teve sobre seu concorrente em uma pesquisa, isto &eacute;, a maior diferen&ccedil;a entre os percentuais de inten&ccedil;&otilde;es de voto para um mesmo &iacute;ndice, considerando apenas quando o candidato esteve na frente do concorrente. Se o candidato nunca esteve em &nbsp;vantagem, a fun&ccedil;&atilde;o deve retornar 0.00. O prot&oacute;tipo da fun&ccedil;&atilde;o &eacute;:&nbsp;</p>
 <p>float vantagem(float candidato[], float concorrente[], int n); &nbsp;(Linguagem C)</p>

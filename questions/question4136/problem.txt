@@ -1,5 +1,6 @@
 Título: Produto e a razão de dois números
 Topicos do problema: ponto flutuante; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Analise o produto e a razão de dois números do tipo float, com base na entrada de dois números.</p>
 Formato da entrada: <p>Insira dois números do tipo float.</p>
 Formato da saída: <p>A saída deve exibir o produto e a razão com 4 casas decimais de precisão.</p>

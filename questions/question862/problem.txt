@@ -1,5 +1,6 @@
 Título: Maior Sequência
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um algoritmo que dada uma lista encadeada contendo apenas valores 0 e 1, retorne as posições inicial e final da maior sequência de elementos 0 dentro da lista.</p><p><br/></p><p><br/></p>
 Formato da entrada: <p>A entrada consiste de uma sequência de inteiros contendo 0 e 1. Caso a entrada contenha apenas um zero, a entrada encerra.</p><p><br/></p>
 Formato da saída: <p>Um inteiro contendo a posição do inicio da sequência, um espaço em branco e outro inteiro contendo a posição do fim da sequência.</p>

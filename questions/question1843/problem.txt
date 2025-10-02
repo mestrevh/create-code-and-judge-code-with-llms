@@ -1,5 +1,6 @@
 Título: Maior, Menor e Média
 Topicos do problema: array; decisão; entrada formatada; string; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dada uma lista de valores inteiros, elabore um programa que obtenha o maior valor, o menor valor e a média.<br/></p>
 Formato da entrada: <p>Uma lista de valores separados por vírgula entre si e envolvidos por colchetes [ ], como mostrado abaixo:</p><p>[10,5,4,3,9,8]<br/></p>
 Formato da saída: <p>A saída segue o formato abaixo, sendo que os números maior e menor são inteiros e a média um valor real com 2 casas decimais.<br/></p><p>Maior: 10<br/></p><p>Menor: 3<br/></p><p>Media: 6.50<br/></p>

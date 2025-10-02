@@ -1,5 +1,6 @@
 Título: Corrida do IC
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Anualmente, cinco alunos do Instituto de Computação são selecionados para participar da corrida do IC. Uma empresa chamou você para ser o programador na qual vai fazer um programa que imprima a posição de cada carro seguido de suas velocidades na hora de chegar na linha de chegada.</p>
 Formato da entrada: <p>Uma linha contendo 5 Inteiros N1,N2,N3,N4 e N5, na qual são as velocidades dos carros.</p><p><b>223 50 120 130 140</b></p>
 Formato da saída: <p>A posição de cada carro na corrida, formatado de tal forma : </p><p><b>1 - 223 km/h</b></p><p><b>2 - 140 km/h</b></p><p><b>3 - 130 km/h</b></p><p><b>4 - 120 km/h</b></p><p><b>5 - 50 km/h</b></p>

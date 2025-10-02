@@ -1,5 +1,6 @@
 Título: Grande Promoção
 Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Grande promo&ccedil;&atilde;o no supermercado P&atilde;o de Mel. Cada pessoa pode comprar apenas um produto de cada tipo, por exemplo, uma TV, uma cenoura ou um CD do Roberto Carlos. Entretanto, o pre&ccedil;o est&aacute; muito baixo.</p>
 <p>N&oacute;s iremos ao supermercado com a fam&iacute;lia inteira. Cada pessoa pode comprar tantos produtos quanto ela conseguir carregar. Voc&ecirc; receber&aacute; uma lista de produtos com seus pre&ccedil;os e pesos. N&oacute;s tamb&eacute;m sabemos o peso m&aacute;ximo que cada pessoa pode carregar.</p>
 <p>Qual &eacute; o maior valor em produtos que toda a fam&iacute;lia pode comprar no supermercado?</p>

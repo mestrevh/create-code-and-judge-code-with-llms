@@ -1,5 +1,6 @@
 Título: Produto Simples
 Topicos do problema: eof; acumulador; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span>Leia valores inteiros. A seguir, calcule o produto entre TODOS estes valores. A seguir mostre o produto com mensagem correspondente.</span></p>
 Formato da entrada: <p style="text-align: justify;"><span><span>O arquivo de entrada contém n valores inteiros. Você não receberá um número indicando quantos inteiros você receberá. Portanto, você deverá ler os números até não ter mais nenhum número na entrada.</span></span></p>&#13;<p style="text-align: justify;"><span><span>Embora essa questão seja simples, o desafio está em descobrir usando a sua linguagem de programação, como você irá ler os números da entrada até não ter mais entrada. Isso é diferente da maioria dos outros problemas do Huxley em que você sabe quando a entrada irá terminar.</span></span></p><p style="text-align: justify;"><span><span>DICA: o produto dos números pode ser bem grande! Talvez até não cabendo no seu tipo inteiro.<br/></span></span></p>
 Formato da saída: <p style="text-align: justify;"><span><span>Imprima a mensagem<strong> </strong>conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça o fim de linha após o produto.</span></span></p>

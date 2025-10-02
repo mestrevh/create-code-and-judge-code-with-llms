@@ -1,5 +1,6 @@
 Título: Vendendo Jogos Educativos
 Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Catarina trabalha na empresa Kids Play e vende jogos educativos de porta em porta. Cada jogo custa R$ 19.90 e ela recebe como sal&aacute;rio 50% do valor total de suas vendas no m&ecirc;s. Al&eacute;m disso, a cada 15 jogos vendidos, ela recebe um b&ocirc;nus de 8% do total de vendas.</p>
 <p>Escreva um programa que receba como entrada a quantidade de jogos vendidos esse m&ecirc;s por Catarina e exiba tr&ecirc;s valores: o valor total arrecadado em vendas, o valor ganho como b&ocirc;nus, e o valor total que Catarina receber&aacute; no m&ecirc;s.</p>
 Formato da entrada: <p>Um valor inteiro</p>

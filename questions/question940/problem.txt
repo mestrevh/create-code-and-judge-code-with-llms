@@ -1,5 +1,6 @@
 Título: Média Aritmética.
 Topicos do problema: multiplas entradas; repetição; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Escreva um algoritmo que calcule a média aritmética das 3 notas dos alunos de uma classe. O algoritmo deverá ler, além das notas, o código do aluno e deverá ser encerrado quando o código for igual a 0.</p>
 Formato da entrada: <p>O código e as 3 notas do aluno.</p>
 Formato da saída: <p>A média do aluno.</p>

@@ -1,5 +1,6 @@
 Título: Tamanho da string
 Topicos do problema: string; 
+Tempo limite de execução: 5 segundo(s)
 Descrição: <p>Você deve criar um programa que imprima o tamanho da palavra</p>
 Formato da entrada: <p>Uma string (S) que pode conter letras e números</p><p>Dica: Em python você pode usar a função len()</p><p><br/></p><p><br/></p><p>EX: banana</p>
 Formato da saída: <p>6</p>

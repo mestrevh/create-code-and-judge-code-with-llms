@@ -1,5 +1,6 @@
 Título: Q02 - Palavra existe na frase?
 Topicos do problema: decisão; string; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Sua missão é simples, dada uma palavra x, onde x representa a palavra, informe se ela existe numa frase y, onde y é a frase.</p><p>Exemplo:</p><p><br/></p><p>Assis</p><p>Machado de Assis</p><p><br/></p><p>se existir, mostre &#34;existe!'. Caso contrário, mostre &#34;nao existe&#34;.</p>
 Formato da entrada: <p>uma palavra pra buscarmos na frase</p><p>a frase em qual vamos buscar a palavra</p>
 Formato da saída: <p>&#34;existe&#34; se existir a palavra na frase e &#34;nao existe&#34; caso contrario</p>

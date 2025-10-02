@@ -1,5 +1,6 @@
 Título: Hotel da Senhora Ambrosina
 Topicos do problema: multiplas entradas; array; acumulador; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Feriad&atilde;o chegando e o hotel da Ambrosina precisa acomodar todos os in&uacute;meros h&oacute;spedes que o procuram. Os h&oacute;spedes fazem a reserva com anteced&ecirc;ncia. Cada reserva consiste da hora de chegada e de partida. O hotel contratou voc&ecirc; para calcular o n&uacute;mero m&aacute;ximo de h&oacute;spedes que estar&atilde;o no hotel ao mesmo de maneira simult&acirc;nea. Note que se um h&oacute;spede chegar no hotel ao mesmo tempo que outro sai, n&atilde;o se considera que eles est&atilde;o simultaneamente no hotel.</p>
 Formato da entrada: <p>&nbsp;</p>
 <p>A entrada come&ccedil;a com um inteiro T representando o n&uacute;mero de casos de teste. Cada caso de teste come&ccedil;a com um inteiro N, identificando o n&uacute;mero de h&oacute;spedes. As linhas a seguir cont&eacute;m exatamente N inteiros positivos.&nbsp;</p>

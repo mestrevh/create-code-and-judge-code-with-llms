@@ -1,5 +1,6 @@
 Título: Operações com matrizes!
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Vamos criar um programa que faz um mergulho nas profundezas de uma <b>matriz 3 x 3 de números inteiros</b>. Ele calcula a média de todos os valores, identifica o maior valor presente e determina o valor delta. O delta é 1 se o maior valor for positivo, -1 se for negativo e 0 se for zero. Além disso, o programa também soma os elementos da diagonal principal.<br/></p>
 Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">9 valores inteiros referentes aos elementos da matriz.</span><br/></p>
 Formato da saída: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">4 valores numéricos: o primeiro é um número em ponto flutuante de duas casas decimais e os outros três inteiros.</span><br/></p>

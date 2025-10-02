@@ -1,5 +1,6 @@
 Título: Clima Frio
 Topicos do problema: eof; decisão; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O inverno na Europa tem sido bastante severo e nos &uacute;ltimos tr&ecirc;s dias v&aacute;rias cidades registraram temperaturas abaixo de zero. Escreva um programa que receba como entrada a temperatura registrada em tr&ecirc;s capitais europ&eacute;ias nesse per&iacute;odo, e exiba a m&eacute;dia das temperaturas negativas e a menor temperatura alcan&ccedil;ada.</p>
 <p>Dica: suponha a menor temperatura inicial sendo zero</p>
 Formato da entrada: <p>Cinco valores reais para cada dia</p>

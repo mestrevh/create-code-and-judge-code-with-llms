@@ -1,5 +1,6 @@
 Título: Posições ímpares.
 Topicos do problema: multiplas entradas; array; repetição; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que leia 30 números em um array e imprima os números localizados nas posições ímpares do array.<br/></p>
 Formato da entrada: <p>Os 30 números informados.</p>
 Formato da saída: <p>Números das posições ímpares.</p>

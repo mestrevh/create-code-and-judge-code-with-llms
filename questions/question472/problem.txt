@@ -1,5 +1,6 @@
 Título: Fraldas no Atacado
 Topicos do problema: decisão; repetição; função; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Um grupo de amigos tem filhos pequenos e gasta uma fortuna com fraldas. Eles fizeram os c&aacute;lculos e perceberam que poderiam economizar bastante se comprassem grandes pacotes de fraldas com 100 unidades, j&aacute; que cada crian&ccedil;a de at&eacute; 2 anos gasta 9 fraldas por dia, e que as demais gastam 6 fraldas por dia.</p>
 <p>Escreva um programa que receba como entrada a idade dos v&aacute;rios filhos desses amigos, at&eacute; que n&atilde;o haja mais crian&ccedil;as, e exiba a quantidade de pacot&otilde;es que eles ter&atilde;o que comprar para abastec&ecirc;-los em um m&ecirc;s de 30 dias, e quantas fraldas sobrar&atilde;o.</p>
 Formato da entrada: <p>V&aacute;rios valores inteiros, sempre seguidos de uma palavra indicando se ainda h&aacute; outras crian&ccedil;as. Quando a palavra N&Atilde;O for informada (ela pode estar escrita de qualquer forma), a entrada de dados dever&aacute; ser encerrada.</p>

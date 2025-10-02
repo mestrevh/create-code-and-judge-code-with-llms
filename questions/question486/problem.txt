@@ -1,5 +1,6 @@
 Título: Segundo Maior
 Topicos do problema: array; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba como entrada v&aacute;rios n&uacute;meros, at&eacute; que seja informado o valor 99, e exiba o segundo maior n&uacute;mero dentre os lidos.</p>
 <p>Dica: considere que sempre ser&atilde;o lidos pelo menos dois n&uacute;meros</p>
 Formato da entrada: <p>V&aacute;rios n&uacute;meros inteiros, at&eacute; que seja lido 99</p>

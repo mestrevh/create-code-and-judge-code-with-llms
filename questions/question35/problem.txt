@@ -1,5 +1,6 @@
 Título: Invertido
 Topicos do problema: array; lógica matemática; caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Seu objetivo &eacute; gerar o invertido de um n&uacute;mero de 3 algarismos.</p>
 Formato da entrada: <p>Consiste de um n&uacute;mero inteiro positivo de 3 algarismos.</p>
 Formato da saída: <p>Consiste de um n&uacute;mero inteiro dado na entrada com a ordem dos algarismos&nbsp;invertida.</p>

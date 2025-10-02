@@ -1,5 +1,6 @@
 Título: Potência de 2
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Verificar se um número é potência de 2 para cada caso de teste T</p>
 Formato da entrada: <p>inteiro T, corresponde a quantidade de testes</p><p>Para cada teste T, virá um inteiro N.</p>
 Formato da saída: <p>Para cada caso de teste, imprimir &#34;YES&#34; caso seja potência de 2, &#34;NO&#34; caso não seja.</p>

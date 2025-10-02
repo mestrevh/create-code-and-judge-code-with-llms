@@ -1,5 +1,6 @@
 Título: Calculadora do Rildo
 Topicos do problema: ponto flutuante; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que realize uma das operações fundamentais entre dois números flutuantes, baseado em um número inteiro recebido como entrada.</p><p>Para o número inteiro:</p><p>Se o número inteiro é 1, some os dois números;</p><p>Se o número inteiro é 2, subtraia os dois números;</p><p>Se o número inteiro for 3, multiplique os dois números;</p><p>Se o número inteiro for 4, divida os dois números.</p><p>O resultado da operação deve ser impresso com três casas decimais após a vírgula.</p><p>OBS: É obrigatório o uso de switch-case.<br/></p>
 Formato da entrada: <p>Dois números flutuantes, do tipo double, para as operações</p><p>Um número inteiro, para a decisão</p>
 Formato da saída: <p>Resultado das operações com 3 casas decimais de precisão</p>

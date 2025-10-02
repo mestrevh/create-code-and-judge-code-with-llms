@@ -1,5 +1,6 @@
 Título: Áreas de 2 círculos.
 Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span id="docs-internal-guid-c036e72a-4520-17ff-e8eb-cb424c425127"><span style="color: rgb(0, 0, 0);background-color: transparent;">Escreva um programa que leia os valores (reais) dos raios de dois círculos diferentes e informe qual dos dois possui área maior ou se possuem a mesma área.</span></span><br/></p><p><span><span style="color: rgb(0, 0, 0);background-color: transparent;">Use pi = 3.14</span></span></p>
 Formato da entrada: <p>Os raios (tipo float) de 2 círculos em sequência.</p>
 Formato da saída: <p>Caso a área do primeiro círculo seja maior, escreva na saída: &#34;Primeiro círculo&#34;</p><p>Caso a área do segundo círculo seja maior, escreva na saída: &#34;Segundo círculo&#34;<br/></p><p>Caso sejam iguais, escreva: &#34;Iguais&#34;</p>

@@ -1,5 +1,6 @@
 Título: 5 maiores do sorteio
 Topicos do problema: ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um quantidade de números N,  um dígito sorteado D e N números, sua tarefa é informar os 5 maiores números sorteados que possuem o ultimo dígito igual a D, caso não exista números suficientes você deve substitui-los por -1.</p><p>Os números devem ser impressos em ordem crescente.</p>
 Formato da entrada: <p>Dois inteiros N e D, seguidos de N números não negativos.</p><p>5 &lt;= N &lt;= 1000.</p><p>0 &lt;= D &lt;= 9.</p>
 Formato da saída: <p>Os 5 maiores números sorteados , 1 por linha, ou -1 quando necessário.</p>

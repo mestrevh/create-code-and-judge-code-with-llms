@@ -1,5 +1,6 @@
 Título: Decimal para Hexadecimal (usando pilha)
 Topicos do problema: estrutura de dados; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Usando o tipo TPilha visto em aula e as funções básicas de pilha, construa um programa que leia um natural n e passe como parâmetro para a função char *hexadecimal(int n) que deverá <u>devolver</u> uma string com o valor hexadecimal de n.</p><p>Obs.: (1) Deve ser usada uma pilha na função; <span>(2) Cuidado com o '\0'; (3) Além das funções básicas de pilha, criar somente a hexadecimal(n); (4) não usar recursão.</span></p>
 Formato da entrada: <p>Um natural n (0 &lt;= n &lt;= 65536).</p>
 Formato da saída: <p>O correspondente hexadecimal da entrada e uma quebra de linha.</p>

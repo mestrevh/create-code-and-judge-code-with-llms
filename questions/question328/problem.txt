@@ -1,5 +1,6 @@
 Título: Quadrante
 Topicos do problema: geometria computacional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span><span class="hps">Escreva um programa para</span> <span class="hps">ler</span> <span class="hps atn">as coordenadas (</span><span>X</span><span>,</span> <span class="hps">Y)</span> <span class="hps">de</span> um <span class="hps">ponto no</span> <span class="hps">sistema cartesiano</span><span>.</span> E escrever &agrave; qual <span class="hps">quadrante</span> ele</span> <span><span class="hps">pertence</span><span>.</span>&nbsp;<span></span></span></p>
 Formato da entrada: <p><span><span class="hps">Dois</span> <span class="hps">n&uacute;meros inteiros.</span></span></p>
 Formato da saída: <div id="gt-res-content" class="almost_half_cell">

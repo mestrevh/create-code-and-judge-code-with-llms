@@ -1,5 +1,6 @@
 Título: A escadinha mágica
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Zelda e seus amigos tiveram uma brilhante ideia durante as aulas da monitoria da cadeira de introdução a programação: que tal fazer um programa que, dado um número <b>n</b> <b>(1 &lt;= n &lt;= 40)</b> printa na tela os numeros de 1 até o número da iteração atual, sendo que serão feitas <b>n</b> iterações, como demonstrado no exemplo a seguir:<br/><br/>Supondo para n = 5:</p><p></p><b>(primeira iteração): </b> 1<br/><b>(segunda iteração):</b> 1 2<br/><b>(terceira iteração):</b>   1 2 3<br/><b>(quarta iteração):</b>     1 2 3 4<br/><b>(quinta iteração): </b>    1 2 3 4 5<p></p>
 Formato da entrada: <p>Um inteiro <b><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">n</span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"> </span></b><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">(1 &lt;= n &lt;= 40)</b></p>
 Formato da saída: <p>A sequência (1 ... M), onde M é o numero da iteração atual do laço, que será executada <b>n</b> vezes.</p>

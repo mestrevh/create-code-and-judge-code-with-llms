@@ -1,5 +1,6 @@
 Título: Texto justificado
 Topicos do problema: requer solução eficiente; programação dinâmica; 
+Tempo limite de execução: 4 segundo(s)
 Descrição: <p>Voc&ecirc; receber&aacute; uma sequẽncia de palavras e um limite no n&uacute;meros de caracteres que podem ser colocados em uma linha.</p>
 <p>Assuma que o tamanho de cada palavra &eacute; sempre menor ou igual ao tamanho da linha.</p>
 <p>O objetivo &eacute; distribuir as palavras na linhas de tal forma que elas fiquem balanceadas em termos de espa&ccedil;os em branco da linha.</p>

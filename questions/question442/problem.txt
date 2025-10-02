@@ -1,5 +1,6 @@
 Título: Comprando laranjas
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Soraia foi fazer compras no supermercado de seu bairro e tomou um susto!! A d&uacute;zia de laranjas est&aacute; car&iacute;ssima, custando R$ 8,35!!<br /><br />Escreva um programa que receba como entrada a quantidade total de laranjas que Soraia deseja comprar, e exiba quantas d&uacute;zias ela vai adquirir e o valor total necess&aacute;rio para realizar a compra. <br /><br />(Dica: uma d&uacute;zia corresponde a 12 laranjas, mas cada laranja tamb&eacute;m pode ser vendida separadamente)</p>
 Formato da entrada: <p>Um valor inteiro</p>
 Formato da saída: <p>Um valor inteiro, e um valor real com duas casas decimais, separados por uma quebra de linha<br /><br />Dica: use dois prints</p>

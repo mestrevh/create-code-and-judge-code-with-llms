@@ -1,5 +1,6 @@
 Título: Conta de energia de Rafinha
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Rafinha sabe que em sua cidade o valor da KWh de energia varia da forma mostrada abaixo.</p><ul><li>Até 99 KWh: R$1.35</li><li>100 até 299 KWh: R$1.55<br/></li><li>300 até 574 KWh: R$1.75</li><li>Maior ou igual a 575 KWh: R$2.15</li></ul><div>Ele também sabe que quando o consumo é maior que 300KWh é cobrado uma taxa de 10% no valor da conta e o preço mínimo de qualquer conta é R$35. Escreva um programa para auxiliar Rafinha a visualizar o valor de sua conta elétrica e qual o valor do KWh aplicado em sua conta. <br/></div><p>OBS: O formato da saída deve ser feito com duas casas decimais.<br/></p>
 Formato da entrada: <p>Um inteiro que indica o número de unidades de energia consumido.</p><h5><br/>U</h5>
 Formato da saída: <p>Duas linhas uma contendo o valor da conta de energia a ser paga e a segunda o preço do KWh<br/></p>

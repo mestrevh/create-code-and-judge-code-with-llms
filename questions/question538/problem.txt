@@ -1,5 +1,6 @@
 Título: Soma máxima
 Topicos do problema: array bidimensional; requer solução eficiente; programação dinâmica; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Motiva&ccedil;&atilde;o:</p>
 <p>Um problema que &eacute; simples de se resolver em apenas uma dimens&atilde;o geralmente &eacute; muito mais dif&iacute;cil de se resolver em duas ou mais dimens&otilde;es. Considere uma express&atilde;o booleana satisfeita na forma normal conjutiva, em que cada conjunto &eacute; composto por exatamente 3 disjuntos. Este problema (3-SAT) &eacute; NP-Completo. No entando, o problema 2-SAT &eacute; resolvido de forma bastante eficiente. Em contraste, alguns problemas pertencem &agrave; mesma classe de complexidade independente de qual a sua dimens&atilde;o.</p>
 <p>Problema:</p>

@@ -1,5 +1,6 @@
 Título: Promoção lanchonete
 Topicos do problema: array; repetição; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma lanchonete está com preços promocionais em seu cardápio. A condição é que uma pessoa só pode escolher um item da lista, porém, a quantidade deste item é ilimitada, o cliente pode comprar quantos quiser. De acordo com o cardápio abaixo, elabore um programa que receba o código do item escolhido e a quantidade que o cliente irá comprar. Em seguida, calcule e apresente o valor da conta a pagar. Caso um código inexistente seja informado o usuário deverá receber uma mensagem de erro. A quantidade de itens só deverá ser solicitada se o usuário informar um código válido. Caso o usuário informe 0 a aplicação deve parar<br/><br/><img src="https://www.thehuxley.com/api/v1/problems/image/5c2a64cd413ac9cc433d6fefe0bbb85110c005787.png"/><br/></p>
 Formato da entrada: <p>2</p><p>5</p><p>0</p>
 Formato da saída: <p>X-Tudo</p><p>Sua conta é de R$23,75</p><p>Código inválido</p>

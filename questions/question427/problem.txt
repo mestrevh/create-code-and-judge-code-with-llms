@@ -1,5 +1,6 @@
 Título: Países em Guerra
 Topicos do problema: floyd warshall; grafo; maratona; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p>No ano 2050, ap&oacute;s diversas tentativas da ONU de manter a paz no mundo, explode a terceira guerra mundial. Segredos industriais, comerciais e militares obrigaram todos os pa&iacute;ses a utilizar servi&ccedil;os de espionagem extremamente sofisticados, de forma que em cada cidade do mundo h&aacute; ao menos um espi&atilde;o de cada pa&iacute;s. Esses espi&otilde;es precisam se comunicar com outros espi&otilde;es, com</p>
 <p>informantes e mesmo com as suas centrais durante as suas a&ccedil;&otilde;es. Infelizmente n&atilde;o existe uma forma segura de um espi&atilde;o se comunicar em um per&iacute;odo de guerra, ent&atilde;o as mensagens s&atilde;o</p>
 <p>sempre enviadas em c&oacute;digo para que somente o destinat&aacute;rio consiga ler a mensagem e entender o seu significado.</p>

@@ -1,5 +1,6 @@
 Título: Balanceamento de Parênteses
 Topicos do problema: pilha; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Em uma dada string, voc&ecirc; deve indicar se os par&ecirc;nteses e colchetes est&atilde;o balanceados.</p>
 <p>Diz-se que uma string est&aacute; balanceada quando para cada parenteses ou colchetes abrindo, existe um equivalente fechando.</p>
 <p>Por exemplo, a string: (()[]) est&aacute; balanceada, enquanto as strings ((()) e )( n&atilde;o est&atilde;o balanceadas.</p>

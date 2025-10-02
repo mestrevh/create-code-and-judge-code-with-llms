@@ -1,5 +1,6 @@
 Título: Consumo
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Calcule o consumo m&eacute;dio de um autom&oacute;vel sendo fornecidos a dist&acirc;ncia total percorrida (em Km) e o total de combust&iacute;vel gasto (em litros).</p>
 Formato da entrada: <p>O arquivo de entrada cont&eacute;m dois valores: um valor inteiro X representando a dist&acirc;ncia total percorrida (em Km) e um valor real Y representando o total de combust&iacute;vel gasto.</p>
 Formato da saída: <p>Apresente o valor que representa o consumo m&eacute;dio do autom&oacute;vel com 3 casas ap&oacute;s a v&iacute;rgula, seguido da mensagem "km/l".</p>

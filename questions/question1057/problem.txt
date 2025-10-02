@@ -1,5 +1,6 @@
 Título: Teorema de Pitágoras
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que calcule o valor da hipotenusa de acordo com o teorema de pitágoras. Você não precisa se preocupar com casos em que os catetos fornecidos não podem formar um triângulo.</p><p>Pesquise como fazer a operação de raiz quadrada.</p><p>O valor de saída deve ser arredondado usando 2 casas decimais.<br/></p>
 Formato da entrada: <p>Os valores (reais) dos dois catetos.</p>
 Formato da saída: <p>O valor da hipotenusa.</p>

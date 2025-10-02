@@ -1,5 +1,6 @@
 Título: Contar uma substring na string
 Topicos do problema: substrings; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leia duas strings e verifique o n&uacute;mero de ocorr&ecirc;ncias da segunda string na primeira. Exemplo: Se a primeira string digitada for "abracadabra" e a segunda "bra", ent&atilde;o o n&uacute;mero de ocorr&ecirc;ncias &eacute; 2.</p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; duas linhas. Cada linha com uma string.</p>
 Formato da saída: <p>Voc&ecirc; deve imprimir um n&uacute;mero inteiro indicando o n&uacute;mero de ocorr&ecirc;ncias encontradas.&nbsp;</p>

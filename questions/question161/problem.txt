@@ -1,5 +1,6 @@
 Título: Palíndromo
 Topicos do problema: palíndromos; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Um <strong>pal&iacute;ndromo </strong>&eacute; uma palavra ou frase que tenha a propriedade de poder ser lida tanto da direita para a esquerda como da esquerda para a direita. Por exemplo, as strings "aaaaa", "1221", "bbaabb" s&atilde;o pal&iacute;ndromos, entretanto a string "chef" n&atilde;o &eacute; um pal&iacute;ndromo porque se lermos da direita para a esquerda, obtemos "fehc" que n&atilde;o &eacute; a mesma coisa que "chef".</p>
 <p>Ignore as diferen&ccedil;as entre mai&uacute;sculas e min&uacute;sculas.</p>
 <p>Para os casos onde &eacute; dada uma frase, voc&ecirc; deve ignorar os espa&ccedil;os. Por exemplo, a frase "A base do teto desaba" &eacute; considerada um pal&iacute;ndromo. Ao l&ecirc;-la da direita para a esquerda, voc&ecirc; obter&aacute;: "abased otet od esab A". Perceba que, com exce&ccedil;&atilde;o do espa&ccedil;o, a sequ&ecirc;ncia de caracteres &eacute; a mesma da frase original.</p>

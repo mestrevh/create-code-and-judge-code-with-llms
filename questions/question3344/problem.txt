@@ -1,5 +1,6 @@
 Título: Datas entre dias: o retorno
 Topicos do problema: array; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um array de números inteiros, seu trabalho deve ser encontrar quais elementos do array original continuam na mesma posição depois que o array for ordenado e qual é sua posição.</p><p>Exemplo:</p><p>Array original: 3, 2, 4, 10, 9, 11.</p><p>Array ordenado: 2, 3, 4, 9, 10, 11.</p><p>Número 4, posição 3</p><p>Número 11, posição 6</p><p><br/></p><p><br/></p>
 Formato da entrada: <p>Um número N representando a quantidade de elementos do vetor e um vetor de números inteiros. (0 &lt; n &lt; 1000)</p><p><br/></p>
 Formato da saída: <p>A quantidade de elementos que manteve sua posição depois da ordenação do vetor e esses elementos junto com sua posição no vetor.</p>

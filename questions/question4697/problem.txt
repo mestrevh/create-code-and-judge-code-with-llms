@@ -1,5 +1,6 @@
 Título: Q01 - Soma de dois numeros
 Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Desenvolva uma função chamada &#34;somar&#34; que receba dois números reais como parâmetros e retorne a soma deles.</span><br/></p>
 Formato da entrada: <p><font color="#000000">dois números reais </font></p>
 Formato da saída: <p>A soma dos dois numeros no formato:</p><p>&#34;O resultado de a + b eh c&#34;</p><p>onde c seria o resultado</p>

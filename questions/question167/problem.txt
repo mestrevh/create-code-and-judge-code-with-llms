@@ -1,5 +1,6 @@
 Título: Eleições em Ambrolândia
 Topicos do problema: array; acumulador; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>
 <p>Escreva um programa que transforme o computador numa urna eletr&ocirc;nica para elei&ccedil;&atilde;o, em segundo turno, para presidente de um pa&iacute;s chamado Ambrol&acirc;ndia. Nessas elei&ccedil;&otilde;es concorrem os candidatos 83-Alibab&aacute; e 93-Alcapone. Cada voto deve ser dado pelo n&uacute;mero do candidato, permitindo-se ainda o voto 0 para voto em branco. Qualquer voto diferente dos j&aacute; citados &eacute; considerado nulo. No final da elei&ccedil;&atilde;o o programa deve emitir um relat&oacute;rio contendo a vota&ccedil;&atilde;o de cada candidato, a quantidade votos em branco, a quantidade de votos nulos e o candidato eleito e os respectivos percentuais.</p>
 <p>Em Ambrol&acirc;ndia, o percentual de votos &eacute; calculado considerando os votos v&aacute;lidos. O voto nulo n&atilde;o &eacute; considerado um voto v&aacute;lido. Entretanto, o voto em branco &eacute; considerado um voto v&aacute;lido.</p>

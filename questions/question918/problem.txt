@@ -1,5 +1,6 @@
 Título: Canal de TV.
 Topicos do problema: decisão; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um algoritmo que leia o número de um canal de televisão e escreva o nome da emissora correspondente. Caso o usuário forneça um canal sem emissora exibir a mensagem “Canal inválido”.Considere as seguintes emissoras e seus respectivos canais: 2=SBT, 4=BAND, 6=RedeTV!, 9=Record,13=Globo.<br/></p>
 Formato da entrada: <p>Canal de televisão.</p>
 Formato da saída: <p>Mensagem informando o canal correspondente.</p>

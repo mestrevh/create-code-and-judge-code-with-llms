@@ -1,5 +1,6 @@
 Título: Prestação para amortização de financiamento
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>De acordo com a Matem&aacute;tica Financeira, o c&aacute;lculo das presta&ccedil;&otilde;es para amortiza&ccedil;&atilde;o de um financiamento de valor <strong>F</strong> em <strong>n</strong> presta&ccedil;&otilde;es e a uma taxa de juros <strong>t</strong> &eacute; dada pela f&oacute;rmula P = F/an&not;t,</p>
 <p>onde</p>
 <p>an&not;t = ((1 + t)^n &ndash; 1)/(t . (1 + t)^n). Escreva um programa que determine o valor das presta&ccedil;&otilde;es para amortiza&ccedil;&atilde;o de um financiamento, dados o valor do financiamento, o n&uacute;mero de presta&ccedil;&otilde;es para amortiza&ccedil;&atilde;o e a taxa de juros. Cada uma dessas vari&aacute;veis em uma linha.</p>

@@ -1,5 +1,6 @@
 Título: Parque de Diversoes Octave - T2
 Topicos do problema: multiplas entradas; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <div class="ng-binding"><p>Nos parques de diversão, alguns brinquedos tem idade e altura mínimas para poder andar neles.</p><p>O parque Ambrolândia possui 3 brinquedos que possuem essa limitação:</p><p>Barca Viking: 1,50 m de altura e 12 anos.</p><p>Elevator of Death: 1,40 m de altura e 14 anos.</p><p>Final Killer: 1,70 m de altura ou 16 anos. </p><p>Dada a altura e a idade de uma pessoa, faça um programa que identifique quantos brinquedos ele pode andar e quais são eles.</p></div>
 Formato da entrada: <p>O usuario deve digitar o sua altura em m e sua idade<br/></p>
 Formato da saída: <p>O programa deve exibir o numero de brinquedos que o usuario pode andar e quais sao eles, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a altura em m: (impresso pela funcao input)</p><p>Digite a idade: (impresso pela funcao input)<br/></p><p>Voce pode andar em n brinquedos, sendo eles:</p><p>Barca Viking</p><p>Elevator of Death</p><p>Final Killer</p>

@@ -1,5 +1,6 @@
 Título: Operações
 Topicos do problema: ponto flutuante; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você deve conhecer muito bem as 4 operações fundamentais da matemática, certo? Então faça um programa que execute essas operações de acordo com a escolha do usuário.</p><p>Use <i>switch case.</i></p>
 Formato da entrada: <p>Dois valores do tipo <b>double</b> e depois o tipo de operação que deve ser realizada entre eles da seguinte maneira:</p><p>+: adição</p><p>-: subtração</p><p>*: multiplicação</p><p>/: divisão</p>
 Formato da saída: <p>Para cada operação, exiba a mensagem da seguinte forma:</p><p>&#34;<b>Número 1 </b>(operação) <b>Número 2 </b>= <b>Resultado</b>&#34;</p><p>Quando uma operação inválida for inserida, exiba:</p><p>&#34;A operacao (operação) eh invalida!&#34;</p>

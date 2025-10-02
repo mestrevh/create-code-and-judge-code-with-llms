@@ -1,5 +1,6 @@
 Título: IMC
 Topicos do problema: obi; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um programa em Python que calcula  Índice de Massa Corporal (IMC) de uma pessoa, exibe o cálculo com duas casas decimais e classifica o resultado da seguinte forma:</p><ul><li>IMC &lt; 18 ou IMC &gt; 25 ==&gt; atencao</li><li><span>IMC entre 18 e 25 ==&gt; normal</span><br/></li></ul><p>Fórmula para o cálculo do IMC: IMC = peso / altura ** 2</p><p>Para exibir o resultado com duas casas decimais, use a função round(), exemplo:</p><p><b><i>print(round(imc,2))</i></b></p>
 Formato da entrada: <p>55</p><p>1.7</p>
 Formato da saída: <p>19.03</p><p>normal</p>

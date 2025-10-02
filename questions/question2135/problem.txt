@@ -1,5 +1,6 @@
 Título: Unindo listas
 Topicos do problema: array; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa para ler duas listas de valores inteiros e gerar uma terceira lista que seja a união das duas listas informadas pelo usuário.</p><p>As listas devem ter pelo menos 1 elemento. Caso contrário, deve ser exibida a mensagem <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">&#34;Erro - A lista deve ter pelo menos 1 elemento.&#34;</span></p>
 Formato da entrada: <ul><li>Número de elementos da primeira lista</li><li>Valores da primeira lista (separados por uma quebra de linha)</li><li>Número de elementos da segunda lista</li><li><span>Val</span><span>ores da segunda lista (separados por uma quebra de linha)</span><br/></li></ul>
 Formato da saída: <p>A lista contendo todos os valores da primeira lista e dos valores da segunda lista.</p>

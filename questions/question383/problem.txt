@@ -1,5 +1,6 @@
 Título: Média de 3 inteiros
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>&nbsp;Elabore um programa que recebe tr&ecirc;s n&uacute;meros inteiros e exibe a m&eacute;dia aritm&eacute;tica dos mesmos.</p>
 Formato da entrada: <p>Tr&ecirc;s n&uacute;meros inteiros separados por um final de linha.</p>
 Formato da saída: <p>Um n&uacute;mero real.</p>

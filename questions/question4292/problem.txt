@@ -1,5 +1,6 @@
 Título: Processamento de uma fila de mensagens
 Topicos do problema: deque; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Suponha que você esteja desenvolvendo um sistema em que mensagens são enviadas de forma assíncrona e precisam ser processadas em ordem. As mensagens são recebidas em um fluxo contínuo e devem ser adicionadas a uma fila para posterior processamento.<br/></p><p>Processar uma mensagem nesse contexto significa apenas retirá-la da fila e imprimir na tela. O seu programa deve preencher completamente uma fila e depois esvaziá-la sempre a partir da primeira mensagem que chegou para a última.</p>
 Formato da entrada: <p>Um valor inteiro n que indica a quantidade de mensagens, seguido de n mensagens.</p>
 Formato da saída: <p>As n mensagens impressas na ordem correta e em um tempo pequeno.</p>

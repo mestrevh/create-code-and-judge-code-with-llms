@@ -1,5 +1,6 @@
 Título: Área do retângulo
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que calcule a área de um retângulo a partir dos tamanhos de seu lado maior e de seu lado menor.</p>
 Formato da entrada: <p>Os valores em sequência dos lados do retângulo.</p><p>Os valores estão necessariamente entre 1 e 1000.</p>
 Formato da saída: <p>O valor da área do retângulo.</p>

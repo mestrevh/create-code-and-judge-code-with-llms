@@ -1,5 +1,6 @@
 Título: Iniciando com listas
 Topicos do problema: array; decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que receba e armazene, em uma Lista, 10 números inteiros maiores que zero, depois calcule e informe a média dos dez valores lidos e a soma dos valores digitados que forem divisíveis por 3.<br/></p>
 Formato da entrada: <p>Dez números inteiros maiores que zero.<br/></p>
 Formato da saída: <p>A média dos 10 números digitados;</p><p>A soma dos números que forem divisíveis por 3.</p><p>Veja nos exemplos como deve ser a saída.<br/></p>

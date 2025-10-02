@@ -1,5 +1,6 @@
 Título: Anagramas a partir de pilhas
 Topicos do problema: busca completa; pilha; backtracking; 
+Tempo limite de execução: 2 segundo(s)
 Descrição: <p>Como &eacute; poss&iacute;vel gerar anagramas a partir de uma sequ&ecirc;ncia se opera&ccedil;&otilde;es de pilha?</p>
 <p>Por exemplo, existem duas sequ&ecirc;ncias de opera&ccedil;&otilde;es de pilha que permitem converter TROT em TORT:</p>
 <p>[</p>

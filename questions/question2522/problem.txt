@@ -1,5 +1,6 @@
 Título: Conjuntos - Intersecção
 Topicos do problema: obi; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um programa que leia dois conjuntos (A e B - sem repetições em A e sem repetições em B) com 5 números inteiros em cada um. Em seguida mostre um terceiro conjunto com todos os elementos que estão em A <b>e</b> B.</p>
 Formato da entrada: <p>1 2 3 4 5</p><p>2 4 6 8 10</p>
 Formato da saída: <p>2 4</p>

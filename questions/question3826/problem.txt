@@ -1,5 +1,6 @@
 Título: Teste
 Topicos do problema: entrada formatada; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Imprima o próximo número. Imprima o próximo número. Imprima o próximo número. </p>
 Formato da entrada: <p>1</p>
 Formato da saída: <p>2</p>

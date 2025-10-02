@@ -1,5 +1,6 @@
 Título: Última palavra de uma frase
 Topicos do problema: array; substrings; caractere; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leia uma string e imprima somente a &uacute;ltima palavra da mesma. Exemplo: Se a string digitada for "Jos&eacute; da Silva", dever&aacute; ser impresso na tela a substring "Silva".</p>
 Formato da entrada: <p>Uma frase com no m&aacute;ximo 400 caracteres.</p>
 Formato da saída: <p>Uma &uacute;nica linha contendo a &uacute;ltima palavra da frase digitada.</p>

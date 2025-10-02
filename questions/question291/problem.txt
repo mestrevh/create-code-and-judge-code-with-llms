@@ -1,5 +1,6 @@
 Título: Esfera
 Topicos do problema: geometria computacional; ponto flutuante; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que calcule o mostre o volume de uma esfera sendo fornecido o valor de seu raio (R). A f&oacute;rmula para calcular o volume &eacute;: 4/3 * pi * R3. Considere (atribua) para pi o valor 3.14159.</p>
 Formato da entrada: <p>O arquivo de entrada cont&eacute;m um valor inteiro, correspondente ao raio da esfera.</p>
 Formato da saída: <p>A sa&iacute;da dever&aacute; ser uma mensagem "VOLUME" conforme o exemplo fornecido no caso de sa&iacute;da, com um espa&ccedil;o antes e um espa&ccedil;o depois da igualdade. O valor dever&aacute; ser apresentado com 3 casas ap&oacute;s o ponto.</p>

@@ -1,5 +1,6 @@
 Título: Estações do Ano
 Topicos do problema: decisão; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>As quatro esta&ccedil;&otilde;es do ano variam de acordo com as datas:</p>
 <p>Primavera: 21 setembro at&eacute; 20 dezembro<br />Ver&atilde;o: 21 dezembro at&eacute; 20 mar&ccedil;o<br />Outono: 21 mar&ccedil;o at&eacute; 20 junho<br />Inverno: 21 junho at&eacute; 20 setembro</p>
 <p>Escreva uma fun&ccedil;&atilde;o chamada EstacaoAno que receba como entrada um dia e um m&ecirc;s e retorne o nome da esta&ccedil;&atilde;o correspondente.</p>

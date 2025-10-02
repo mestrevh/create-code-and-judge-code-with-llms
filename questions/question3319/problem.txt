@@ -1,5 +1,6 @@
 Título: UACSA - Fração
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que <b>calcule </b>o resultado dessa expressão, sem simplificar:</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/f539d477687489ecc41498f13dd06b188139627e2.png"/><br/></p>
 Formato da entrada: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Este programa não tem entrada (input), basta calcular o resultado da fração</span></p>
 Formato da saída: <p>O resultado precisa ser exatamente o resultado da fração, sem qualquer outro texto. Ou seja, apenas 7.5</p>

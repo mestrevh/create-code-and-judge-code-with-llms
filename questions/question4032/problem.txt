@@ -1,5 +1,6 @@
 Título: Nova propriedade
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Um garoto estava bastante pensativo após descobrir sobre o número 6174 (Constante de Kaprekar) e começou a pensar em outras possibilidades. Diante disso, pensou: Quais são os números cuja soma dos dígitos é um número da sequência de Fibonacci? Ajude-o a determinar tais números.</p><p>Sequência de Fibonacci:</p><p><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/fa6b82f6c55aa8ac89e012bc111f9c0a635a9d28d.png"/><br/></p>
 Formato da entrada: <p>Um número N inteiro.</p><p>0 ≤ N ≤ 100000</p>
 Formato da saída: <p>“Sim”, se a soma dos dígitos é um número da sequência de Fibonacci.</p><p>“Nao”, caso contrário.</p>

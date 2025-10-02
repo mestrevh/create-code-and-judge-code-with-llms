@@ -1,5 +1,6 @@
 Título: Conta Múltiplos
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba como entrada dois n&uacute;meros e retorne a quantidade de n&uacute;meros positivos menores que 50 que s&atilde;o m&uacute;ltiplos de ambos.</p>
 Formato da entrada: <p>Dois n&uacute;meros inteiros quaisquer</p>
 Formato da saída: <p>Um n&uacute;mero inteiro</p>

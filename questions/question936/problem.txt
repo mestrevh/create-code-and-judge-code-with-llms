@@ -1,5 +1,6 @@
 Título: Fatorial.
 Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Calcule o fatorial de um número.</p>
 Formato da entrada: <p>Número digitado.</p>
 Formato da saída: <p>Fatorial do número.</p>

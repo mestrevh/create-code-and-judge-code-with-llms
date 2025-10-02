@@ -1,5 +1,6 @@
 Título: Intercâmbio
 Topicos do problema: multiplas entradas; array; estruturas; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Sua organiza&ccedil;&atilde;o sem fins lucrativos coordena um programa de intercambio&nbsp;de muito sucesso. Nos &uacute;ltimos anos, a demanda decolou e agora voc&ecirc; precisa de assit&ecirc;ncia com sua tarefa. O programa que sua organiza&ccedil;&atilde;o executa funciona da seguinte maneira:</p>
 <p>Todos os candidatos dizem seu local de origem e o local que gostariam de ir.</p>
 <p>O programa funciona somente se cada estudante tem um parceiro de interc&acirc;mbio adequado.</p>

@@ -1,5 +1,6 @@
 Título: Gerar strings binárias sem 1s consecutivos
 Topicos do problema: recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um inteiro k, imprima todas as strings binárias de tamanho k sem que existam 1s consecutivos.</p><p>Veja os exemplos para identificar a ordem correta da saída.<br/></p>
 Formato da entrada: <p>Um inteiro k  ( 1 &lt;= k &lt;= 20 )<br/></p>
 Formato da saída: <p>Todas as strings binárias que satisfaçam as restrições do problema, sendo uma em cada linha.<br/></p>

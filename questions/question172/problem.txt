@@ -1,5 +1,6 @@
 Título: Simulador
 Topicos do problema: segment tree; binary indexed tree; array bidimensional; função; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p>Um novo processador, denominado Fa&iacute;ska, est&aacute; sendo desenvolvido para a empresa SBC. Este novo processador tem apenas duas instru&ccedil;&otilde;es: invers&atilde;o e soma, descritas a seguir.&nbsp;</p>
 <p>* Invers&atilde;o: dados dois endere&ccedil;os de mem&oacute;ria X e Y , a opera&ccedil;&atilde;o inverte(X,Y) inverte a posi&ccedil;&atilde;o de palavras da mem&oacute;ria de forma que:</p>
 <p>&ndash; a palavra no endere&ccedil;o X troca de posi&ccedil;&atilde;o com a palavra de mem&oacute;ria da posi&ccedil;&atilde;o Y ;</p>

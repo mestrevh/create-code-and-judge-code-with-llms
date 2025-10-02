@@ -1,5 +1,6 @@
 Título: Q02 - Amado e eterno professor
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um procedimento chamado &#34;amadoProfessor&#34; que exiba na tela &#34;Eu amo o professor Marcos Vinícius, de Algoritmos e Lógica de Programação do IFPB - CG&#34;<br/></p>
 Formato da entrada: <p>Sem entrada</p>
 Formato da saída: <p>A mensagem &#34; Eu adoro o professor Marcos Vinícius, de Algoritmos e Lógica de Programação do IFPB - CG&#34;</p>

@@ -1,5 +1,6 @@
 Título: Preço dos Jogos
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ambr&oacute;sio gosta muito de jogar videogame e como um jogador profissional, ele resolveu criar uma rela&ccedil;&atilde;o entre o pre&ccedil;o dos jogos e sua dificuldade.</p>
 <p>Ele descobriu que todos os anos os jogos ficam mais baratos, mas tem alguns que por conta de sua dificuldade continuam com um pre&ccedil;o mais elevado, j&aacute; que s&atilde;o desafiadores e s&atilde;o mais comprados.</p>
 <p>Ambr&oacute;sio separou a dificuldade dos jogos numa tabela de 0 a 5, e calculou de acordo com os pre&ccedil;os dos jogos no presente, descobrindo regras que medir&atilde;o com uma boa precis&atilde;o quanto ser&aacute; o pre&ccedil;o do mesmo jogo ano que vem. As regras foram:</p>

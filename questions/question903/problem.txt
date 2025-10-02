@@ -1,5 +1,6 @@
 Título: Nota do aluno.
 Topicos do problema: multiplas entradas; acumulador; repetição; caractere; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um algortimo que calcule e exiba a nota de um aluno em uma prova de 10 questões. Para calcular anota do aluno deve-se ler do usuário a resposta de cada uma das 10 questões e comparar com o gabarito abaixo.</p><p><br/></p><p>01 - A    02 – B   03 - C    04 - D    05 - E   06 - E   07 - D   08 - C   09 - B   10 - A<br/></p>
 Formato da entrada: <p>Respostas de cada questão.</p>
 Formato da saída: <p>Nota do aluno.</p>

@@ -1,5 +1,6 @@
 Título: Dimensões Terreno
 Topicos do problema: multiplas entradas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A imobiliária TerrenoBonito vende apenas terrenos retangulares. Faça um programa para ler as dimensões de um terreno e depois exibir a área do terreno.<br/></p>
 Formato da entrada: <p>O programa deve receber dois valores (reais) como entrada, sendo a largura e o comprimento do terreno.</p>
 Formato da saída: <p>O programa deve apresentar um único valor, com duas casas decimais, correspondendo a área do terreno.</p>

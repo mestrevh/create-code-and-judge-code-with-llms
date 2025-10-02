@@ -1,5 +1,6 @@
 Título: Primos sexy de Aninha
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Calma aí, não é isso que você ta pensando!</p><p>Aninha gosta muito de números primos e descobriu essa classificação um tanto quanto interessante deles.Um par de números primos sexy são dois números na forma (p, p+6) onde ambos são primos. Muito curiosa, Aninha parou pra pensar se não existiriam não somente pares, mas triplas, quádruplas, etc.Ela então quer a sua ajuda para descobrir, dado um intervalo [a,b[, qual é o tamanho da maior sequência possível de números primos sexy</p>
 Formato da entrada: <p>Dois inteiros 2 &lt;= <b>A</b> &lt; <b>B</b> &lt;= 2000</p>
 Formato da saída: <p>Um inteiro <b>N</b> informando a maior sequência de números primos sexy encontrada no intervalo dado</p>

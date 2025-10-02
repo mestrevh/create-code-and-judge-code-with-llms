@@ -1,5 +1,6 @@
 Título: Sequência de inteiros pares (decrescente) recursivo
 Topicos do problema: função; recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p class="p1">Fa&ccedil;a uma fun&ccedil;&atilde;o recursiva que receba um n&uacute;mero inteiro positivo par N e imprima todos os n&uacute;meros pares de 0 at&eacute; N em ordem decrescente.</p>
 Formato da entrada: <p>Um inteiro positivo N.</p>
 Formato da saída: <p>Uma sequ&ecirc;ncia de pares de 0 a N linha &agrave; linha.</p>

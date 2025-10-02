@@ -1,5 +1,6 @@
 Título: Números de Ícaro
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Durante uma de suas passeadas na UFPE, Ícaro resolveu anotar todos os números que via em seu caminho, até encontrar o número 420, e por algum motivo, parava nesse momento. Ele repetiu esse processo 3 vezes, obtendo 3 listas.</p><p>Ajude Ícaro colocando as listas em ordem crescente e informando quantos números existem em cada uma.</p>
 Formato da entrada: <p><span>1 2 3 420</span><br/></p><p>7 420</p><p>2 5 2 420</p>
 Formato da saída: <p>4</p><p>1 2 3 420 </p><p><span>2</span></p><p><span>7 420 </span></p><p><span>4</span></p><p><span>2 2 5 420</span></p>

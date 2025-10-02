@@ -1,5 +1,6 @@
 Título: Quantos caminhos simples existem?
 Topicos do problema: grafo; requer solução eficiente; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Aldo Huxley &eacute; um rapaz que gosta muito de viajar e sempre planeja suas viagens com anteced&ecirc;ncia. Geralmente ele estuda os mapas para saber quantos caminhos existem entre a lugar em que ele se encontra e o lugar que ele quer chegar.</p>
 <p>Aldo, tamb&eacute;m n&atilde;o gosta de passar no mesmo lugar mais de uma vez.</p>
 <p>Sua miss&atilde;o &eacute; ajudar Aldo a contar quantos caminhos simples (ou seja, caminhos em que o mesmo lugar n&atilde;o aparece mais de uma vez naquele caminho) existem entre o lugar em que Aldo se encontra e o lugar de destino.</p>

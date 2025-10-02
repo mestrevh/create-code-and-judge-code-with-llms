@@ -1,5 +1,6 @@
 Título: Resto entre números
 Topicos do problema: lógica matemática; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa leia 2 valores X e Y e que imprima todos os valores entre eles cujo resto da divis&atilde;o dele por 5 for igual a 2 ou igual a 3.</p>
 Formato da entrada: <p>Cont&eacute;m 2 valores inteiros quaisquer, n&atilde;o necessariamente em ordem crescente.</p>
 Formato da saída: <p>Todos os inteiros entre x e y, um por linha, em ordem crescente, que satisfazem o enunciado deste problema.</p>

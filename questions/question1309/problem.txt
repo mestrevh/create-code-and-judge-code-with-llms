@@ -1,5 +1,6 @@
 Título: Masculino e Feminino
 Topicos do problema: decisão; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Escreva um programa que verifique se uma letra digitada é &#34;F&#34; ou &#34;M&#34;.</p><p>Conforme a letra escrever: F - Feminino, M - Masculino, Sexo nao definido.<br/></p>
 Formato da entrada: <p>Será inserida uma String (&#34;F&#34; ou &#34;M&#34;)</p>
 Formato da saída: <p>Será retornado<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"> Feminino para entrada F, Masculino para entrada M e &#34;Sexo nao definido&#34; caso contrário.</span></p>

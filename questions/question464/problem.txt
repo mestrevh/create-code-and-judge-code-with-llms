@@ -1,5 +1,6 @@
 Título: Natal Solidário
 Topicos do problema: multiplas entradas; acumulador; repetição; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Neste Natal, a ONG Ajuda Mais vai realizar um almo&ccedil;o para moradores de rua e est&aacute; precisando de doa&ccedil;&otilde;es. Sabendo que cada refei&ccedil;&atilde;o custa R$ 14, escreva um programa que receba como entrada a quantidade de familiares de v&aacute;rios moradores de rua, at&eacute; que n&atilde;o haja mais nenhum, e exiba a quantidade total de pessoas atendidas e o or&ccedil;amento da festa.</p>
 Formato da entrada: <p>Valores inteiros representando a quantidade de familiares de cada morador</p>
 <p>Ap&oacute;s cada entrada, o usu&aacute;rio informar&aacute; tamb&eacute;m se deseja continuar informando valores ou n&atilde;o. Quando desejar parar, ele informar&aacute; a palavra SAIR escrita de qualquer maneira</p>

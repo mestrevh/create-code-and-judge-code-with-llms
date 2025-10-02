@@ -1,5 +1,6 @@
 Título: Maior submatriz
 Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Seja A uma matriz N x N de 0s e 1s. Uma submatriz S de A é qualquer grupo de entradas contínuas que formam um quadrado ou retângulo.</p><p>Escreva um programa que determina o número de elementos da maior submatriz de 1s em A. Para comparar uma submatriz com outra você deve usar a área.<br/></p>
 Formato da entrada: <p>A entrada começa com um inteiro positivo em uma linha indicando o número de casos de testes.</p><p>Depois dessa linha, existe uma linha em branco.</p><p>Também existe uma linha em branco entre dois casos de testes consecutivos.</p><p>A matriz é dada linha por linha. Cada linha consiste de 0's e 1's. A ordem (N) é o número de linhas da entrada, onde 1&lt;N&lt;=25.<br/></p>
 Formato da saída: <p>Dois casos de teste devem ser separados por uma linha em branco.</p><p>Para cada caso de teste, imprima o número de elementos da maior submatriz encontrada.<br/></p>

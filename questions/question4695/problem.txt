@@ -1,5 +1,6 @@
 Título: Quick sorte passo a passo
-Topicos do problema: estrutura de dados; array; eof; alocação dinâmica; ordenação; ponteiro; 
+Topicos do problema: estrutura de dados; eof; array; alocação dinâmica; ordenação; ponteiro; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <h4>Crie um programa que atenda o seguinte requisitos:</h4><ol><li>Recebe uma lista de números.</li><li>Ordene essa lista usando um algoritmo de Quick Sort, escolhendo como pivô o ultimo elemento.</li><li>A cada passo exiba o subarray que está sendo ordenado, o pivô escolhido, e o array completo após o pivô ser posicionado.<br/></li></ol>
 Formato da entrada: <p>A entrada é uma sequência numérica que pode ter qualquer tamanho.<br/></p>
 Formato da saída: <p>A saída deve contar com o subarray que será ordenado, o pivo e o array completo pós posicionamento do pivô. <br/></p><p>Exemplo:<br/></p><p></p><blockquote><div>Subarray: 6 1 2 <br/></div><div>Pivo: 2</div><div>Array: 1 2 6 8 9 12 11 19 15 10</div></blockquote><p>Note que o sub array é a parte que será ordenada nessa iteração, no primeiro caso por exemplo o subarray será o array inteiro.<br/></p>

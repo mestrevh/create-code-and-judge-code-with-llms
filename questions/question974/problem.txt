@@ -1,5 +1,6 @@
 Título: Organizando as cartas
 Topicos do problema: string; ordenação; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Antigamente era comum a comunicação entre cartas, porém com a facilidade do telefone e do computador ficou mais rápido a troca de informação. A Internacional Correios (IC) encontrou várias cartas perdidas. Com isso você ficou responsável por catalogá-las. Seu objetivo é organizar primeiramente em relação a data ( mais antiga para a mais nova ), nome do remente e destinatário (alfabeticamente, não existe diferença entre maiúsculo e<span> minúsculo</span> ).</p><p><br/></p>
 Formato da entrada: <p>Um inteiro <b>N </b>indicando quantas cartas foram encontradas. Em seguida terá mais 3 * <b>N</b> linhas a cada 3 linhas tem a informação sobre uma carta respetivamente data, nome do remetente e nome do destinatário.</p><p>A data sempre será no formato : <b>X</b> de <b>Y</b> de <b>Z</b>. Onde <b>X</b> e <b>Z</b> são inteiros, respectivamente dia e ano e <b>Y </b>uma string representando o mês.</p><p>Os nomes serão strings.<br/></p>
 Formato da saída: <p>As cartas de forma organizada.<br/></p>

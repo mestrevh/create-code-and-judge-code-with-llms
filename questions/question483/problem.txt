@@ -1,5 +1,6 @@
 Título: Plebiscito
 Topicos do problema: multiplas entradas; acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A cidade Top&aacute;zio est&aacute; passando por cortes no or&ccedil;amento e o prefeito decidiu fazer um plebiscito com a popula&ccedil;&atilde;o para saber se deve ou n&atilde;o realizar uma queima de fogos no reveillon. Cada cidad&atilde;o poder&aacute; votar SIM, NAO (sem acento) ou NULO de acordo com sua escolha, e s&oacute; ser&aacute; realizada a queima de fogos se a quantidade de votos SIM superar a soma dos votos NAO e NULO.</p>
 <p>Escreva um programa que receba como entrada o voto de v&aacute;rios moradores da dicada, at&eacute; ser informado o voto ENCERRAR, e exiba se haver&aacute; fogos ou n&atilde;o.</p>
 Formato da entrada: <p>V&aacute;rios Strings escritos usando mai&uacute;sculas e/ou min&uacute;sculas sem acento</p>

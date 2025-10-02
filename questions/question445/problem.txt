@@ -1,5 +1,6 @@
 Título: Alugando um veículo
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A Locadora de Ve&iacute;culos Eudora lan&ccedil;ou uma grande promo&ccedil;&atilde;o esse m&ecirc;s: pagando apenas R$ 90 por di&aacute;ria, o cliente pode alugar um carro de passeio. Para cada di&aacute;ria, o cliente recebe uma cota de quilometragem de 100 Km. Cada quil&ocirc;metro a mais custar&aacute; uma taxa extra de R$ 12.</p>
 <p>Escreva um programa que receba como entrada a quantidade de dias e a quilometragem total rodada por um cliente dessa locadora e exiba o valor total a ser pago com duas casas decimais.</p>
 Formato da entrada: <p>Dois valores inteiros, separados por uma quebra de linha</p>

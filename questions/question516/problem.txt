@@ -1,5 +1,6 @@
 Título: BST
 Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Neste exercício devem ser implementadas as seguintes operações sobre Árvores de Busca Binária (BST) simples, sem rotações.
 
 1) Inserir X

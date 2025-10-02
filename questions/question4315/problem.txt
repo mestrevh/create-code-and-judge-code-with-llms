@@ -1,5 +1,6 @@
 Título: inverta a ordem
 Topicos do problema: array; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>crie um programa que receba varias string e junte elas na ordem contraria da que foram recebidas</p>
 Formato da entrada: <p>n : número de strings</p><p>s : sequência de n strings</p><p><br/></p>
 Formato da saída: <p>strings unidas na ordem contraria à que foram recebidas</p><p><br/></p>

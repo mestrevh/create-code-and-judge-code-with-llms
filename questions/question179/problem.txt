@@ -1,5 +1,6 @@
 Título: Batalha Naval
 Topicos do problema: simulação de jogos; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>&nbsp;</p>
 <p>Pedro e Paulo gostam muito de jogar batalha naval; apesar de serem grandes amigos, Pedro desconfia que Paulo n&atilde;o esteja jogando honestamente. Para tirar essa d&uacute;vida, Pedro decidiu usar um programa de computador para verificar o resultado do jogo, mas Pedro n&atilde;o sabe programar e por isso pediu a sua ajuda.</p>
 <p>O jogo de batalha naval &eacute; jogado em um tabuleiro retangular com N linhas e M colunas. Cada posi&ccedil;&atilde;o deste tabuleiro &eacute; um quadrado que pode conter &aacute;gua ou uma parte de um navio. Dizemos que dois quadrados s&atilde;o vizinhos se estes possuem um lado em comum. Se duas partes de navio est&atilde;o em posi&ccedil;&otilde;es vizinhas, ent&atilde;o essas duas partes pertencem ao mesmo navio.</p>

@@ -1,5 +1,6 @@
 Título: Critério do Seguro
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma corretora de seguros cobra mais barato se o principal condutor do ve&iacute;culo &eacute; mulher e se tem mais de 40 anos. Caso contr&aacute;rio, o valor do seguro fica caro.</p>
 <p>Fa&ccedil;a um programa que leia um valor inteiro (0 ou 1) que indica se o condutor &eacute; homem e outro valor inteiro (0 ou 1) que indica se o condutor tem mais de 40 anos. Com base nos valores lidos, o programa deve indicar, utilizando 0 ou 1, se o seguro vai ficar barato (verdadeiro - 1) ou caro (falso - 0).</p>
 Formato da entrada: <p>Dois n&uacute;meros inteiros (0 ou 1) separados por um fim de linha, indicando se o cliente &eacute; homem e tem mais de 40 anos, respectivamente.</p>

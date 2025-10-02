@@ -1,5 +1,6 @@
 Título: Maior, menor e média
 Topicos do problema: lógica matemática; ponteiro; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O Senhor Incrível cansou de criar de escrever códigos para comparar o maior e menor valor de uma lista, então resolveu criar uma única função para sempre usá-la nesses casos.<br/><div style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/b7c5036aa3e391bddf3d49d6ba4eedc090dd0be26.jpg"/><br/><div style="text-align: left;">Ajude o Senhor Incrível a criar a função <b>void mmm(int lista[20], int *menor, int *maior, float *média)</b> que recebe um vetor de números inteiros e 3 ponteiros apontando para as variáveis que irão receber menor, maior e média.</div></div></p>
 Formato da entrada: <p>A lista de 20 números inteiros que serão comparados em qualquer ordem</p>
 Formato da saída: <p>O maior e o menor valor da lista separados por espaço, e abaixo a média dos dois escrita com apenas uma casa decimal.</p>

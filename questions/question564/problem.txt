@@ -1,5 +1,6 @@
 Título: Devagar, devagar, olhe o radar!!
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O Getran resolveu instalar um radar no caminho entre a sua casa e a sua faculdade com o objetivo de limitar a velocidade dos carros em uma determinada via.</p>
 <p>Mas resolveram inovar e a velocidade da via pode ser alterada diariamente. Por exemplo, nos feriados, eles geralmente colocam a velocidade m&aacute;xima em 80Km/h. J&aacute; durante a semana, &eacute; comum que a velocidade m&aacute;xima seja de 60km/h.</p>
 <p>Para isso, placas digitais informam aos motoristas qual &eacute; a velocidade m&aacute;xima naquele momento.</p>

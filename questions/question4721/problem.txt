@@ -1,5 +1,6 @@
 Título: Funções 3 - Somar Lista
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Complete o codigo abaixo para que seja uma função que receba uma lista de números e retorne a soma de todos os valores:<br/></p><pre>def somar_lista(numeros):&#10;    soma = 0&#10;    for num in ___________: # Seu código aqui&#10;        soma += ___________ # Seu código aqui &#10;    return soma&#10;&#10;numeros = [int(n) for n in input().split()]&#10;resultado = somar_lista(numeros)&#10;print(resultado)  &#10;&#10;</pre>
 Formato da entrada: <p>&#13;&#13;Uma lista de números inteiros&#13;&#13;<br/></p>
 Formato da saída: <p>&#13;&#13;Um único número representando a soma de todos os elementos da lista.&#13;&#13;<br/></p>

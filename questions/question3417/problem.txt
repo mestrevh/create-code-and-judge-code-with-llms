@@ -1,5 +1,6 @@
 Título: 10 Números do Tio Willy sem array
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Determinar em um conjuto de 1000 números inteiros, quantas vezes aparece o número<span> </span><b>N</b>. </p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Leia um número<span> </span><b>N</b><span> </span>e<span> uma sequência de 1000 inteiros.</span></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">O programa deve ler outra sequencia de 1000 números inteiros enquanto<span> </span><b>N</b><span> </span>for diferente de -1.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>O programa deve parar quando o número<span> </span><b>N</b><span> </span>digitado for igual a -1.</span></p>
 Formato da entrada: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>N<span> </span></b>- Número a ser contado/procurado</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Lista de 1000 números</p>
 Formato da saída: <p>Para cada conjunto de 1000 números inteiros, imprimir a frase: <b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">N</b> appeared <b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">K</b> times<br/></p>

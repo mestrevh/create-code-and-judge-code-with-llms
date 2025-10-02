@@ -1,5 +1,6 @@
 Título: Inverter com 4 algarismos
 Topicos do problema: array; repetição; lógica matemática; caractere; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que inverta um n&uacute;mero inteiro com quatro algarismos.</p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; um &uacute;nico n&uacute;mero inteiro com quatro algarismos.</p>
 Formato da saída: <p>Voc&ecirc; deve imprimir o n&uacute;mero invertido seguido de um final de linha.</p>

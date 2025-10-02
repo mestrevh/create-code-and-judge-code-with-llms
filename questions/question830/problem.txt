@@ -1,5 +1,6 @@
 Título: Peso ideal.
 Topicos do problema: 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Tendo como dados de entrada a altura de uma pessoa, construa um programa em Java que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) – 58.<br/></p>
 Formato da entrada: <p>Altura da pessoa.</p><p><br/></p>
 Formato da saída: <p>Peso ideal da pessoa.</p>

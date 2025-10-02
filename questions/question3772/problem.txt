@@ -1,5 +1,6 @@
 Título: Socorro da prova
 Topicos do problema: acumulador; repetição; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Tem oito meses que Pedrinho esta de quarentena, e durante esses meses ele desenvolveu um novo interesse, o mundo da programação.</p><p>No mês passado começaram as aulas remotas e para reforçar o aprendizado os professores de Pedrinho estão passando diversas atividades.</p><p>A atividade dessa semana foi calcular o fatorial de diversos números, o problema é que a lista não tem gabarito. Então foi ai que Pedrinho teve a brilhante ideia de criar um programa que calcule o fatorial de um numero para conferir suas respostas.</p><p>Sabendo que Pedrinho criou um código com uma função chamada &#34;Fatorial&#34;, desenvolva um código com mesmo formato que o dele.</p>
 Formato da entrada: <p>Um valor inteiro</p>
 Formato da saída: <p>um valor inteiro </p>

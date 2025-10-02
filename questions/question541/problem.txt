@@ -1,5 +1,6 @@
 Título: Extremos e meio
 Topicos do problema: array; ordenação; busca; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Chico sempre v&ecirc; numeros e vai anotando ao longo do dia(sim &eacute; esquisito) agora ele quer saber ... qual o maior o menor,o maior e o valor intermedi&aacute;rio entre os que ele viu durante o dia. Para ajudar Chico nessa tarefa escreva um programa que recebe n n&uacute;meros e diga quais s&atilde;o os n&uacute;meros que chico procura.</p>
 Formato da entrada: <p>N</p>
 <p>N1 N2 N3 N4 N5 ... Nn</p>

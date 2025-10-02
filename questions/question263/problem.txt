@@ -1,5 +1,6 @@
 Título: Interseção entre listas
 Topicos do problema: array; subconjuntos; acumulador; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que recebe n&uacute;meros de dois arrays inteiros com 20 posi&ccedil;&otilde;es cada e apresente a intersec&ccedil;&atilde;o dos arrays ordenado de forma crescente. Lembrando que a intersec&ccedil;&atilde;o s&atilde;o os elementos repetidos em ambos os arrays, mas sem repeti&ccedil;&atilde;o (cada n&uacute;mero pode aparecer uma &uacute;nica vez no resultado).</p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; 40 n&uacute;meros inteiros, um por linha, sendo 20 correspondendo ao primeiro array e 20 ao segundo.</p>
 Formato da saída: <p>Voc&ecirc; deve imprimir a intersec&ccedil;&atilde;o entre os dois arrays, um n&uacute;mero por linha, ordenado de forma crescente.</p>

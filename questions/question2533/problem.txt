@@ -1,5 +1,6 @@
 Título: Baskhara Octave - T1
 Topicos do problema: multiplas entradas; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><font size="3">Faça um programa para ler os coeficiente A, B e C de uma equação do segundo grau <font size="3">na forma Ax² + Bx + C </font>e calcular as suas raízes, levando em consideração a existência de raízes reais (∆ &gt; 0, a equação possui duas raízes reais e distintas; ∆ = 0, a equação possui raízes reais iguais; ∆ &lt; 0, a equação não possui raízes reais). Se <font size="3">∆ &lt; 0, deve ser informado ao usuário que a função não tem raízes reais.</font></font><br/></p>
 Formato da entrada: <p>O usuario deve digitar <font size="3">os coeficiente A, B e C de uma equação do segundo grau <font size="3">na forma Ax² + Bx + C</font></font><br/></p>
 Formato da saída: <p>O programa deve exibir as raízes da equação ou uma mensagem informando que não há raízes reais, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite o coeficiente A: (impresso pela funcao input)</p><p>Digite o coeficiente B: (impresso pela funcao input)</p><p>Digite o coeficiente C: (impresso pela funcao input)<br/></p><p>Primeira raiz: n</p><p>Segunda raiz: n</p><p>A funcao nao tem raizes reais (impresso se <font size="3"><font size="3">∆ &lt; 0</font>)</font><br/></p>

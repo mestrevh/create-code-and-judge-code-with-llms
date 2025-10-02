@@ -1,5 +1,6 @@
 Título: Cédulas
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leia um valor inteiro. A seguir, calcule o menor n&uacute;mero de notas poss&iacute;veis (c&eacute;dulas) no qual o valor pode ser decomposto. As notas consideradas s&atilde;o de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o valor lido e a rela&ccedil;&atilde;o de notas necess&aacute;rias.</p>
 Formato da entrada: <p>O arquivo de entrada cont&eacute;m um valor inteiro N (0 &lt; N &lt; 1000000).</p>
 Formato da saída: <p>Imprima a quantidade m&iacute;nima de notas de cada tipo necess&aacute;rias, conforme o exemplo fornecido.</p>

@@ -1,5 +1,6 @@
 Título: Frigorífico
 Topicos do problema: array; decisão; ordenação; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>No frigor&iacute;fico do senhor Ambr&oacute;sio, existem n bois. Cada boi traz preso em seu pesco&ccedil;o um cart&atilde;o contendo seu n&uacute;mero de identifica&ccedil;&atilde;o e seu peso. Fa&ccedil;a um programa que escreva a identifica&ccedil;&atilde;o e o peso do boi mais gordo e do mais magro. Considere que os bois n&atilde;o t&ecirc;m pesos iguais.</p>
 Formato da entrada: <p>Um inteiro n indicando a quantidade de bois do frigorifico, depois n identificadores e pesos de cada boi. Os identificadores s&atilde;o n&uacute;meros inteiros. Os pesos de cada boi s&atilde;o n&uacute;meros reais.</p>
 Formato da saída: <p>Duas linhas escritas:</p>

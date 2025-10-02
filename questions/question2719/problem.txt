@@ -1,5 +1,6 @@
 Título: PROGCOMP - Matrizes - B
 Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>&#13;&#13;&#13;&#13;&#13;&#13;&#13;&#13;&#13;&#13;&#13;&#13;&#13;<span>Faça um programa que recebe a produção de uma indústria mês a mês (número natural), desde 2000 até 2019, e permita que o usuário forneça valores iniciais e finais de ano e mês para exibir o total de produção nesse período. <i>Atenção: verifique se o seu programa funciona em três situações: (a) quando o ano inicial e o ano final são iguais;(b) quando o ano inicial e o ano final são diferentes e o mês do ano inicial é janeiro e o mês do ano final é dezembro; (c) quando o ano inicial e o ano final são diferentes e o mês do ano inicial não é janeiro e o mês do ano final não é dezembro</i>.</span><br/></p>
 Formato da entrada: <p>Para cada uma das 12 colunas das 20 linhas (cada coluna representando o respectivo mês e cada linha representando o respectivo ano) um valor inteiro representando a produção do respectivo mês-ano, separados por um espaço; na linha seguinte há dois inteiros, o primeiro simbolizando o mês inicial e o segundo o ano inicial; na linha seguinte há dois inteiros, o primeiro simbolizando o mês final e o segundo o ano final.</p>
 Formato da saída: <p>Um número natural simbolizando o total da produção no período especificado.</p>

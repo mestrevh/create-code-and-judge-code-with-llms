@@ -1,5 +1,6 @@
 Título: Q02 - Soma de dois numeros V2
 Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie uma função chamada &#34;somar&#34; que recebe dois números como entrada e retorne a soma deles, assim como o anterior. </p><p>Adicione a funcionalidade de que, se a soma for um número inteiro, exiba o número inteiro.</p><p>Isso é, sem casas decimais<br/></p>
 Formato da entrada: <p>dois números reais</p><p><br/></p>
 Formato da saída: <p>A mensagem &#34;O resultado de a + b eh c&#34;</p><p>onde c é a soma dos dois números.</p><p>OBS.: se a soma for um número inteiro, como por exemplo 2 + 3 que dá 5, mostre &#34;O resultado de 2.0 + 3.0 é 5&#34;</p><p>e caso o contrário, mostre a mesma mensagem com o resultado com apenas uma casa decimal.</p>

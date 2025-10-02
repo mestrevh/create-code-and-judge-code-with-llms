@@ -1,5 +1,6 @@
 Título: Garagem
 Topicos do problema: geometria computacional; decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado o tamanho de uma garagem, com L, C e H, sendo respectivamente a largura, comprimento altura da garagem, e</p>
 <p>l, c, e h sendo respectivamente a largura, comprimento e altura de um carro.</p>
 <p>&nbsp;</p>

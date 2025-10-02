@@ -1,5 +1,6 @@
 Título: Celsius para Fahrenheit
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <font color="#000000" style="text-align: justify;color: rgb(0, 0, 0);"><font face="Arial, sans-serif"><font size="3">Escreva um algoritmo para ler uma temperatura dada na escala  <span style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);float: none;">Celsius (C) </span>e exibir o equivalente em <span style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);float: none;">Fahrenheit (F)</span>. Dica: </font></font></font><font color="#000000" style="text-align: justify;color: rgb(0, 0, 0);"><font face="Arial, sans-serif"><font size="3"><u>C/5 = (F-32)/9</u></font></font></font><br/>
 Formato da entrada: <p>Valor da temperatura na escala Celsius (número inteiro).</p>
 Formato da saída: <p>Valor da temperatura em Fahrenheit com uma casa decimai.</p>

@@ -1,5 +1,6 @@
 Título: Listas 2 - Lista de Mercado
 Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Complete o código abaixo para que faça uma lista, adicione um novo item e remova outro<br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);"># Lista inicial&#10;compras = [&#34;leite&#34;, &#34;manteiga&#34;, &#34;ovos&#34;]&#10;&#10;# Adicione um item à lista&#10;_________ # Complete aqui&#10;&#10;# Remova um item da lista&#10;_________ # Complete aqui&#10;&#10;print(compras)  &#10;</pre>
 Formato da entrada: <p><li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um item a ser adicionado</li><li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um item a ser removido</li><br/></p>
 Formato da saída: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">A lista modificada</span><br/></p>

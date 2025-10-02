@@ -1,5 +1,6 @@
 Título: Reposição de equipamentos
 Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Voc&ecirc; dirige uma f&aacute;brica de carros. Trata-se de uma f&aacute;brica moderna, quase totalmente automatizada.</p>
 <p>Uma das suas tarefas &eacute; decidir quando manter ou trocar um determinado equipamento da sua linha de produ&ccedil;&atilde;o.</p>
 <p>Se voc&ecirc; optar por manter o equipamento, voc&ecirc; ter&aacute; um custo de manuten&ccedil;&atilde;o. Esse custo varia ano a ano, normalmente ele aumenta quanto mais antigo for o equipamento.</p>

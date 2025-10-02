@@ -1,5 +1,6 @@
 Título: Divisão
 Topicos do problema: busca completa; backtracking; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que encontra e imprime todos os pares de n&uacute;meros com cinco d&iacute;gitos que entre eles usam os d&iacute;gitos 0 a 9 somente uma vez. Al&eacute;m disso, o primeiro n&uacute;mero dividido pelo segundo &eacute; igual a um inteiro n.</p>
 <p>Ou seja, abcde / fghij = n</p>
 <p>onde cada letra representa um d&iacute;gito diferente.&nbsp;</p>

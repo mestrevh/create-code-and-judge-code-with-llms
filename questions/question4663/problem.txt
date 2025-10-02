@@ -1,5 +1,6 @@
 Título: Descanso de Leafar
 Topicos do problema: decisão; caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leafar é um menino esforçado, mas tem o sério problema de sempre trabalhar demais. Para tentar ajudar Leafar, seu amigo Leinad organizou um sistema para medir o cansaço de Leafar.<br/></p>
 Formato da entrada: <p>A entrada consiste em 5 linhas de 1 caracter que indicam a quantidade de horas que Leafar fez naquele dia da semana, Cada linha representa o dia da semana começando a partir da segunda feira (primeira linha é segunda, segunda linha é terça e assim por diante), segunda feira o esforço é dobrado, e sexta, o esforço é cortado pela metade, no resto dos dias o esforço é igual a quantidade de horas. Mas caso a entrada for um C, isso indica que Leafar trabalhará muito mais que o normal, e haverá outra entrada indicando o número de horas no dia, que será multiplicado por 3 para quantificar o esforço. Além disso, após o temido dia C, o próximo dia será dobrado o esforço, exceto na sexta, em que o próximo dia é sábado.<br/></p>
 Formato da saída: <p>Caso o esforço de Leafar seja maior que 40, a saída será:</p><p>DESCANSE LEAFAR, JÀ FOI SUFICIENTE</p><p>Caso seja igual a 40, a saída será:</p><p>Descansou bem Leafar.</p><p>Caso seja menor que 40, a saída será:</p><p>Só quer mamata...</p>

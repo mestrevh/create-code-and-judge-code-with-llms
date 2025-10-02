@@ -1,5 +1,6 @@
 Título: Lanchonete da Ambrosina
 Topicos do problema: array; acumulador; caractere; string; dicionário; estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ambrosina &eacute; de lua. Quase todo dia ela quer mudar o card&aacute;pio de sua lanchonete. Ambr&oacute;sio, o programador do sistema, n&atilde;o ag&uuml;enta mais alterar o c&oacute;digo do programa todas as vezes que Ambrosina muda o humor. Ent&atilde;o Ambr&oacute;sio resolveu mudar o software de forma que Ambrosina possa cadastrar o card&aacute;pio todas as manh&atilde;s, ao iniciar o software.</p>
 <p>O software l&ecirc; a quantidade de produtos a serem cadastrados, e depois o c&oacute;digo de LED instalada na lanchonete seguidos pela descri&ccedil;&atilde;o e pre&ccedil;o do produto. Os clientes escolhem os produtos pelo c&oacute;digo.</p>
 <p>Se o cliente pede um produto n&atilde;o cadastrado ou uma quantidade negativa o pedido &eacute; considerado inv&aacute;lido.</p>

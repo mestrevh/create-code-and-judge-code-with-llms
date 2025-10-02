@@ -1,5 +1,6 @@
 Título: Animais no Zoológico
 Topicos do problema: decisão; função; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O Animal Zoo est&aacute; realizando um cadastro de todos os animais que abriga em suas depend&ecirc;ncias. Escreva um programa que receba como entrada o tipo (Ex: elefante, jacar&eacute;, etc), o peso e o pa&iacute;s de origem de v&aacute;rios animais, at&eacute; que tenham sido informados todos, e exiba a quantidade de macacos, o peso m&eacute;dio dos tigres, e a quantidade de cobras que vieram da Venezuela.</p>
 Formato da entrada: <p>Para cada animal, um valor String, um valor real e outro valor String.</p>
 <p>Ap&oacute;s informar os dados de cada animal, o usu&aacute;rio dever&aacute; informar tamb&eacute;m se deseja cadastrar mais animais. A entrada deve ser encerrada quando for informado o String PARAR, escrito de qualquer forma.</p>

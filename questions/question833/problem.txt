@@ -1,5 +1,6 @@
 Título: Palíndromo Simples
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><strong></strong>Palíndromos podem ser palavras ou frases que são iguais quando    lidas de frente para trás e de trás para frente.</p><p>ex : Arara é 1 palíndromo, já João não.</p><p>Você receberá 5 caracteres restritos (a, b ou c). e deverá decidir se é possível formar um palíndromo com os caracteres dados.</p><p>Obs: perceba que você pode receber os caracteres desordenados, exemplo (a, a, b, a, b) , a palavra aabab não forma um palíndromo, porém a palavra ababa forma, e você tem letras suficientes para forma-la , logo a resposta é sim. <br/></p>
 Formato da entrada: <p>5 caracteres restritos(a, b ou c) , um por linha.<br/></p>
 Formato da saída: <p>sim (caso possa ser formado um palíndromo).</p><p>nao (caso contrário)<br/></p>

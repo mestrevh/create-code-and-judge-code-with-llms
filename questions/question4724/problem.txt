@@ -1,5 +1,6 @@
 Título: Tuplas 1 - Tupla de Frutas
 Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Complete o código para que ele crie uma tupla com as frutas &#34;banana&#34;, &#34;laranja&#34;, &#34;melancia&#34; e &#34;morango&#34;, e exiba a terceira fruta.<br/><br/></p><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);"><p><span class="hljs-comment" style="color: rgb(153, 153, 136);"><i># Crie uma tupla com quatro frutas&#10;</i></span>frutas = ___________&#10;<span class="hljs-comment" style="color: rgb(153, 153, 136);"><i>&#10;# Exiba a terceira fruta da tupla&#10;</i></span><span class="hljs-built_in" style="color: rgb(0, 134, 179);">print</span>(_________)</p></pre>
 Formato da entrada: <p><i>nenhuma</i></p>
 Formato da saída: <div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p>Uma string representando a terceira fruta da tupla.</p></div></div>

@@ -1,5 +1,6 @@
 Título: Pesquisa eleitoral
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Construa um programa que recebe como entrada a quantidade de votos (alcançados na pesquisa) de 3 candidatos e a quantidade de votos nulos. O programa deverá imprimir a porcentagem de votos dos 3 candidatos e de votos nulos.</p>
 Formato da entrada: <p>Quantidade de votos dos 3 candidatos e a quantidade de votos nulos.</p>
 Formato da saída: <p>A porcentagem dos votos.</p>

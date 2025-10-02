@@ -1,5 +1,6 @@
 Título: Soma dois inteiros
 Topicos do problema: obi; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados dois números inteiros efetue a soma.<br/></p>
 Formato da entrada: <p>2</p><p>3<br/></p>
 Formato da saída: <p>5<br/></p>

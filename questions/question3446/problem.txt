@@ -1,5 +1,6 @@
 Título: Contagem em string
 Topicos do problema: string; 
+Tempo limite de execução: 5 segundo(s)
 Descrição: <p>Eu sou fanático pela letra <b>a</b>. Para mim, é muito importante saber quantas vezes a letra <b>a</b> aparece em qualquer texto. Você pode me ajudar? Crie um programa que leia um texto qualquer e me diga quantas vezes a letra <b>a</b> aparece nele.</p><p>OBS: desconsidere acentos, como ã e à.</p>
 Formato da entrada: <p>Uma linha com um texto qualquer, sem acentos.</p>
 Formato da saída: <p>A quantidade de vezes que a letra <b>a</b> aparece no texto.</p>

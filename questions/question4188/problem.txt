@@ -1,5 +1,6 @@
 Título: MDC ou MDC?
-Topicos do problema: decisão; ciclos; lógica matemática; função; string; 
+Topicos do problema: decisão; lógica matemática; ciclos; função; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você já deve ter ouvido falar no ChatGPT, da OpenAI, pois surgiu uma oportunidade de trabalho num problema envolvendo linguagem C e matemática, para isso, os gerentes da OpenAI convidaram você para solucionar o problema.</p><p>O desafio trata-se de receber uma string e, pelo que ela deseja, retornar o valor do MDC ou do MMC.</p>
 Formato da entrada: <p><span>Dois números inteiros.</span></p><p>Uma string que comporte 3 caracteres.</p>
 Formato da saída: <p>Caso algum dos números seja não positivo, retorne na tela &#34;digite numeros inteiros positivos!&#34;</p><p>Caso a string não diga MDC ou MMC (em letras maiúsculas ou minúsculas), retorne &#34;nao compreendi, tente outra vez&#34;</p><p>Caso todas as condições sejam obedecidas, retorne &#34;o XXX eh: %d&#34; (sendo XXX, mdc ou mmc, a depender do caso)</p>

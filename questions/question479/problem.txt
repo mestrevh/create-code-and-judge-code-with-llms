@@ -1,5 +1,6 @@
 Título: Colisão no Mapa
 Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; est&aacute; produzindo um jogo de labirinto, ou seja, as colis&otilde;es com as paredes s&atilde;o muito importante.<br />Para lidar com elas, voc&ecirc; construiu um vetor bidimensional de 0s e 1s, onde "0" representa parede, e "1" representa o caminho por onde voc&ecirc; pode se movimentar.</p>
 <p>Vamos testar se voc&ecirc; construiu o programa para lidar com isso precisamente.</p>
 <p>Dadas as seguintes entradas:&nbsp;</p>

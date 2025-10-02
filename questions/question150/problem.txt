@@ -1,5 +1,6 @@
 Título: Ache o P1 dessa árvore
 Topicos do problema: Árvore; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dada uma &aacute;rvore bin&aacute;ria com altura H, onde os n&oacute;s s&atilde;o indexados de cima pra baixo e da esquerda para a direita come&ccedil;ando por 1. O i-&eacute;simo n&oacute; armazena um inteiro positivo Vi. <br />Assuma que Pi &eacute; definido como:</p>
 <ul>
 <li>Pi = Vi se o i-&eacute;simo n&oacute; &eacute; uma folha;</li>

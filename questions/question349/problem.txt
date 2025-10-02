@@ -1,5 +1,6 @@
 Título: Quantidade de dias de um mês/ano
 Topicos do problema: datas/horas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa para retornar a quantidade de dias de um m&ecirc;s dado. Se o m&ecirc;s for fevereiro, deve-se verificar se o ano &eacute; bissexto e retornar a quantidade de dias correta.</p>
 Formato da entrada: <p>Dois n&uacute;meros inteiros representando m&ecirc;s e ano.</p>
 Formato da saída: <p>Um n&uacute;mero inteiro representando a quantidade de dias</p>

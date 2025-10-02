@@ -1,5 +1,6 @@
 Título: Divide dois inteiros
 Topicos do problema: obi; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados dois números inteiros, efetue a divisão.<br/></p><p>Antes do exibir a saída, use o comando <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">cout.precision(2). Isso fará o programa mostrar o resultado com duas casas decimais.</span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Exemplo:</span></p><h6><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">int mani(){</span></h6><h6>...;</h6><h6>cout.precision(2);</h6><h6>cout&lt;&lt;resultado;</h6><h6>}</h6><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></p><p><br/></p>
 Formato da entrada: <p>6</p><p>3<br/></p>
 Formato da saída: <p>2<br/></p>

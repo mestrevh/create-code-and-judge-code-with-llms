@@ -1,5 +1,6 @@
 Título: Vou Passar em P1
 Topicos do problema: array; acumulador; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Sua tarefa é bem simples, dada uma sequência de caracteres você deve informar quantas vezes é possível  escrever a frase:</p><p>&#34;vou passar em p1&#34;, as letras podem vir em Maiúsculo ou Minúsculo. A quantidade máxima de caracteres é 1000000. Cada letra da sequencia só pode ser usada 1x :).</p><p>Obs: as letras não precisão estar em ordem.</p>
 Formato da entrada: <p>Uma sequência de caracteres.</p>
 Formato da saída: <p>A quantidade de vezes que é possível escrever a frase.</p>

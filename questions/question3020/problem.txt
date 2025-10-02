@@ -1,5 +1,6 @@
 Título: Média Ponderada
 Topicos do problema: multiplas entradas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa para ler quatro notas de um aluno em uma disciplina e imprimir a sua média ponderada (as notas tem pesos respectivos de 2, 2, 3 e 3). As notas varia de 0,0 à 10,0.<br/></p>
 Formato da entrada: <p>Quatro notas de um aluno.</p>
 Formato da saída: <p>A média ponderada das notas de acordo com seus pesos.</p>

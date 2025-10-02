@@ -1,5 +1,6 @@
 Título: Matriz diferente
 Topicos do problema: repetição; array bidimensional; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p>Você receberá um inteiro n e deverá imprimir uma matriz nxn seguindo o modelo abaixo:</p><p>n = 5</p><p>1 1 1 1 1<br/><span>1 2 2 2 2<br/></span><span>1 2 3 3 3<br/></span><span>1 2 3 4 4<br/></span><span>1 2 3 4 5</span></p>
 Formato da entrada: <p>Um número inteiro 1&lt;=n&lt;=100</p>
 Formato da saída: <p>A matriz nxn de acordo com o modelo mostrado na descrição. Atente para o fato de que os elementos da matriz estão separados por espaço. Entretanto, o último elemento de cada linha não é precedido de espaço, e sim de um final de linha.</p>

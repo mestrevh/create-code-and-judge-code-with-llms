@@ -1,5 +1,6 @@
 Título: Aluguel de carro
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A locadora de carros SAI DA FRENTE está fazendo uma promoção e está alugando carros no período junino por R$ 30,00 a diária. Além disso, a locadora cobra R$ 0,01 por quilômetro rodado. Como é período de São João, a locadora quer fidelizar os clientes e está dando 10% de desconto no valor total do aluguel de qualquer carro.</p>
 Formato da entrada: <ul><li>Quantos dias a pessoa ficou com o carro: [1; 30]</li><li>Quantos kilômetros ela rodou [1; 1000]</li></ul>
 Formato da saída: <p>O valor total que a pessoa deve pagar pelo aluguel do carro arredondado para duas casas decimais.</p>

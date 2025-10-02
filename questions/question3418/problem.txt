@@ -1,5 +1,6 @@
 Título: MDC como combinação linear
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que mostre o MDC entre dois numeros como uma combinação linear entre eles, obs: existem infinitas combinações, você deve mostrar a que dá pra chegar com a manipulação do algoritmo de euclides</p>
 Formato da entrada: <p>dois inteiros a e b</p>
 Formato da saída: <p>o mdc na forma de combinação linear na forma :</p><p>c1*x - c2*y</p>

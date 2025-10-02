@@ -1,5 +1,6 @@
 Título: Bate essa pule pae!
 Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ícaro Tiro Certo é um grande agente esportivo de renome mundial. Seu nome deve-se ao fato de está sempre acertando nas apostas, porém o que ninguém sabe é que sua taxa de assertividade é devido à grande vidente Ana Paula Cigana.</p><p>Ana Paula Cigana disse que para bater a pule do próximo jogo da copa ele deveria apostar uma quantidade inteira baseada na quantidade de apostas realizadas no time de maior cotação, aplicando uma regra para obter o resultado.</p><p>A regra descrita pela vidente é muito simples:</p><p><i>APOSTA = 1 + (QTD_DE_APOSTAS) * K</i></p><p>Sendo K uma constante informada previamente.Ícaro Tiro Certo lhe contratou para escrever um programa que informe o valor da aposta. <br/></p><p><b>Restrições</b>: 1 &lt;= QTD_DE_APOSTAS, K &lt;= 10⁹<br/></p>
 Formato da entrada: <p>A entrada deve contem dois inteiros seguidos de um espaço.</p><p>'QTD_DE_APOSTAS' 'K'<br/></p>
 Formato da saída: <p>Um inteiro contendo o valor da aposta<br/></p>

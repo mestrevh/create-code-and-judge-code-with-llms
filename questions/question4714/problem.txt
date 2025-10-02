@@ -1,5 +1,6 @@
 Título: Q08 - Desenhe o retângulo
 Topicos do problema: caractere; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Desenvolva um procedimento chamado &#34;formarRetangulo&#34; que recebe dois números inteiros representando largura e altura e imprime um retângulo de asteriscos (*).<br/></p>
 Formato da entrada: <p>dois numeros inteiros que representam largura e altura, respectivamente</p>
 Formato da saída: <p>Um retângulo de asteriscos com largura e altura que foram inseridas na entrada</p>

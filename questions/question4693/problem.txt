@@ -1,5 +1,6 @@
 Título: Merge Sort Passo a Passo
-Topicos do problema: estrutura de dados; array; eof; alocação dinâmica; dividir e conquistar; recursão; ordenação; ponteiro; 
+Topicos do problema: estrutura de dados; eof; array; alocação dinâmica; dividir e conquistar; recursão; ordenação; ponteiro; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <h3>Crie um programa que cumpre os seguintes requisitos:</h3><ol><li>Recebe um array númerico como entrada, que pode ter qualquer tamanho.</li><li>Ordena esse array usando um algoritmo Merge Sort.</li><li>Exibe cada parte do array conforme ordenar essa parte.<br/></li></ol><p><br/></p>
 Formato da entrada: <p>Um sequencia de números na mesma linha, separados apenas por um espaçamento simples.<br/></p>
 Formato da saída: <p>Cada linha da saída deve exibir uma parte ordenada do array, a ordenação deve ser feita da esquerda para direita, e em caso de assimetria o lado esquerdo deve ficar com mais valores. <br/></p><p>O print deve ser feito a cada operação de merge, e deve exibir apenas os elementos que foram ordenados nessa operação.<br/></p>

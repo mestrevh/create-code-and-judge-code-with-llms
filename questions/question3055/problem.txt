@@ -1,5 +1,6 @@
 Título: Módulo 3 - Quadrado
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um programa em Python que que recebe um número inteiro (x) e imprime na tela o quadrado deste número.</p>
 Formato da entrada: <p>10</p>
 Formato da saída: <p>100</p>

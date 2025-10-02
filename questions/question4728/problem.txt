@@ -1,5 +1,6 @@
 Título: Invertor de frases
 Topicos do problema: pilha; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <b id="docs-internal-guid-641d1ba6-7fff-bf06-5062-5f3e31fad406"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Faça um programa, utilizando pilha, que inverta a ordem das letras de uma string, deixando as palavras na mesma ordem incial.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Exemplo (Entrada -&gt; Sainda): </span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">&#34;Arthur Marsaro&#34; -&gt; &#34;ruthrA orasraM&#34;</span></p><p dir="ltr">Atenção: mantenha os espaços da frase no local correto.</p><p dir="ltr"><br/></p>
 Formato da entrada: <p>Uma string de até 50 characteres</p>
 Formato da saída: <p>A frase com as suas palavras invertidas</p>

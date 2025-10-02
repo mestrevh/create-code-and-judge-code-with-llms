@@ -1,5 +1,6 @@
 Título: Q03 - Maior entre dois numeros
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Cria uma função chamada &#34;maior_numero&#34; que receba como parâmetro dois números reais e diga qual é o maior número</p><p>se forem iguais, diga que são iguais<br/></p>
 Formato da entrada: <p>dois numeros reais</p>
 Formato da saída: <p>qual é o maior numero digitado. Caso sejam iguais, o programa deve dizer &#34;São iguais&#34;</p>

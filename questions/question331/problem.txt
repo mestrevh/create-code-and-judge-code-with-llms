@@ -1,5 +1,6 @@
 Título: Banco de Dados
 Topicos do problema: array; estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A empresa WOOF est&aacute; entrando no mercado das redes sociais. S&oacute; que ela precisa de um banco de dados para armazenar os dados dos seus usu&aacute;rios.<br />O dono da empresa &eacute; muito amigo seu, e sabe que voc&ecirc; &eacute; um &oacute;timo programador, logo, te chamou para implementar esse banco de dados.<br />As informa&ccedil;&otilde;es dos usu&aacute;rios que voc&ecirc; deve guardar s&atilde;o:</p>
 <p>Idade.<br />Nome.<br />Sexo.<br />Estado civil.<br />Quantidade de amigos.<br />Quantidade de fotos.</p>
 Formato da entrada: <p>Voc&ecirc; vai receber os dados do usu&aacute;rio:</p>

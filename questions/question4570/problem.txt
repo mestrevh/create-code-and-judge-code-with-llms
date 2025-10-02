@@ -1,5 +1,6 @@
 Título: Sapo apoS
 Topicos do problema: palíndromos; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Sapo Sopa esta fazendo um estágio em uma creche e ficou responsável por corrigir um teste onde n crianças deverão enviar ou um conjunto de letras sem significado, ou palavras, ou frases, ou numeros que sejam palindromos. E para isso resolveu criar um código para facilitar sua vida. Pórem ele percebeu que ainda não sabe como usar string, então cabe a você ajuda-lo, e como você também esta treinando string, <b>resolva sem usar funções já implementadas em em c.</b></p>
 Formato da entrada: <p>um <b>N</b> referente a quantidade de alunos, seguidos por <b>N </b>resposta de cada criança.</p><p>Obs. Como são crianças, elas ainda não aprenderam acentuação, então irão aparecer apenas palavras sem acentuações e de tamanho da string de no máximo 100</p>
 Formato da saída: <p>Caso o aluno N respondeu corretamente então: Correto!, entendeu e trouxe um palindromo</p><p>Caso esteja errado: Incorreto!, não entendeu o que é um palindromo</p>

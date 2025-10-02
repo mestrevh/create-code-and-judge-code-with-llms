@@ -1,5 +1,6 @@
 Título: Brincando com Arrays
 Topicos do problema: array; array circular; ordenação; 
+Tempo limite de execução: 4 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que leia n n&uacute;meros inteiros dados em um array e os imprime:</p>
 <p>a) na ordem inversa dos n&uacute;meros dados</p>
 <p>b) com um deslocamento para a esquerda</p>

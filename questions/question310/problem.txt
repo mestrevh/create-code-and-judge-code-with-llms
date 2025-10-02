@@ -1,5 +1,6 @@
 Título: Criptografia
 Topicos do problema: array; decisão; caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Solicitaram para que voc&ecirc; construisse um programa simples de criptografia. Este programa deve possibilitar enviar mensagens codificadas sem que algu&eacute;m consiga l&ecirc;-las. O processo &eacute; muito simples. S&atilde;o feitas tr&ecirc;s passadas em todo o texto.&nbsp;</p>
 <p>&nbsp;</p>
 <p>Na primeira passada, n&uacute;meros e caracteres especiais n&atilde;o devem ser alterados. Cada um dos caracteres restantes deve ser deslocado 3 posi&ccedil;&otilde;es para a direita, segundo a tabela ASCII: letra 'a' deve virar letra 'd', letra 'y' deve virar caractere '|' e assim sucessivamente. Na segunda passada, a linha dever&aacute; ser invertida. Na terceira e &uacute;ltima passada, os caracteres a partir da metade em diante (truncada) devem ser deslocados uma posi&ccedil;&atilde;o para a esquerda na tabela ASCII. Neste caso, 'b' vira 'a' e 'a' vira '`'.</p>

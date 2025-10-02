@@ -1,5 +1,6 @@
 Título: Q6 - Quem é o maior?
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Em uma prova de salto à distância, a organização do evento queria que a cada salto de cada participante fosse exibido no telão o maior salto até então. Por exemplo: O primeiro atleta a saltar pulou 10 metros, logo essa nota será exibida já que é o maior salto até o momento. Caso o segundo atleta salte mais longe que o primeiro, sua distância será exibida, caso não, continua se exibindo o salto anterior. </p><p>Seu programa deve auxiliar na realização dessa prova, recebendo a quantidade de atletas e as distâncias que cada atleta saltou. A cada salto deve ser imprimido o maior salto até o momento. Ao final da execução imprima também todos os saltos do menor para o maior.</p>
 Formato da entrada: <p>Um inteiro n, representando a quantidade de atletas e n reais, representando os saltos de cada atleta</p>
 Formato da saída: <p>n reais, representando a distância do maior salto à cada rodada. Ao final deve ser imprimido uma lista com todos os saltos em ordem do menor para o maior.</p>

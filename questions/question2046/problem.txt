@@ -1,5 +1,6 @@
 Título: Série com funções
 Topicos do problema: decisão; repetição; lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que mostre os n primeiros termos e calcule o resultado da seguinte série:</p><p>1!/1 + 2!/2 + 3!/3 + 4!/5 + 5!/5 + 6!/7 + 7!/7 + 8!/11 + 9!/11 ...</p><p>A cada termo são apresentados no dividendo o fatorial dos números naturais não nulos. No divisor, a partir do segundo termo, temos o menor número primo que seja maior ou igual ao dividendo.</p><p>Nesse programa você deve fazer pelo menos 3 funções:</p><ul><li>eh_primo(x): Retorna True ou False se um número é primo ou não</li><li>proximo_primo(y): Retorna o próximo número primo a partir de um número y dado</li><li>fatorial(z): Retorna o fatorial de um número</li></ul><p>O retorno deve ser os termos da série e o resultado da soma.</p>
 Formato da entrada: <p>Um número n que indica quantos termos devem ser calculados.</p>
 Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Os termos da série e o resultado da soma com duas casas decimais de aproximação.</span><br/></p>

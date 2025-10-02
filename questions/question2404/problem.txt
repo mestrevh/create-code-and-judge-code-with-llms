@@ -1,5 +1,6 @@
 Título: PROGCOMP - Sequência - C
 Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que lê o salário atual de alguém e exibe o novo salário, que é o atual com 25% de aumento.</p>
 Formato da entrada: <p>Um número real representando o salário atual.</p>
 Formato da saída: <p>Um número real com duas casas decimais, representando o salário atual com o aumento.</p>

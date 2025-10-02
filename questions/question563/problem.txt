@@ -1,5 +1,6 @@
 Título: Somas no array
 Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p><span style="font-size: x-small;"><span style="font-size: x-small;"><span style="font-size: x-small;">Dado um array A com N inteiros a1, a2, ..., aN.&nbsp;</span></span></span></p>
 <p><span style="font-size: x-small;"><span style="font-size: x-small;"><span style="font-size: x-small;">Responda v&aacute;rias perguntas da seguinte forma: &Eacute; poss&iacute;vel somar o valor K com um subconjunto dos primeiros X elementos do array A?</span></span></span></p>
 <p><span style="font-size: x-small;"><span style="font-size: x-small;"><span style="font-size: x-small;">Por exemplo, para o array A = {1, 5, 7, 8}, as seguintes perguntas seriam poss&iacute;veis:</span></span></span></p>

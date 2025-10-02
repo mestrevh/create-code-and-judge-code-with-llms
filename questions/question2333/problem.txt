@@ -1,5 +1,6 @@
 Título: Calculadora Rústica
 Topicos do problema: ponto flutuante; lógica matemática; string; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <div class="ng-binding"><p>Faça um programa que receba dois números(float) e, depois, uma palavra. A palavra indicará a operação matemática a ser realizada (soma, multiplicacao, divisao ou subtracao) sobre os dois números inseridos anteriormente. Seu programa deve mostrar o resultado da operação.</p><p><br/></p><p>O resultado deve ser imprimido com dois numeros decimais depois do ponto</p></div><p style="color: rgb(33, 37, 41);text-align: left;background-color: rgb(255, 255, 255);"><br/></p>
 Formato da entrada: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">3.1</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">99.5</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">multiplicacao</p>
 Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">resultado = 308.45</span><br/></p>

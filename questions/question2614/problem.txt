@@ -1,5 +1,6 @@
 Título: Intervalo aberto decrescente
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Crie um programa que receba como entrada dois números naturais, A e B (A &gt;= B), e exiba todos os números inteiros do intervalo aberto <b>decrescente</b> ] A .. B [, ou seja, A e B não devem ser exibidos.</span><br/></p>
 Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Na primeira linha o número natural correspondente ao A; na segunda linha o número natural correspondente ao B.</span><br/></p>
 Formato da saída: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Todos os números naturais entre A e B, excluindo A e B, um por linha.</span><br/></p>

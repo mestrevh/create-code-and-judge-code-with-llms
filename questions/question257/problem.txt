@@ -1,5 +1,6 @@
 Título: Quantos dígitos existem na string?
 Topicos do problema: array; acumulador; caractere; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; ir&aacute; receber uma string contendo letras e d&iacute;gitos. Sua miss&atilde;o &eacute; imprimir a quantidade de d&iacute;gitos que aparecem na string.</p>
 Formato da entrada: <p>Uma linha com at&eacute; 200 caracteres contendo letras e n&uacute;meros</p>
 Formato da saída: <p>Uma linha contendo um n&uacute;mero inteiro indicando a quantidade de d&iacute;gitos encontrados.</p>

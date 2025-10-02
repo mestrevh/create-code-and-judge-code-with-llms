@@ -1,5 +1,6 @@
 Título: Q09 - Números Invasores
 Topicos do problema: string; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Mateus é uma pessoa que gosta muito de números. Dessa maneira, ele ama escrever as coisas trocando as letras parecidas com os números por esses números... Assim, uma frase</p><p>&#34;Algoritmos eh muito bom&#34; seria escrito por Mateus assim: &#34;4lg0r1tm0s 3h mu1t0 b0m&#34;</p><p>Mas como essa maneira de escrever não respeita a gramática, você deve converter as frases que Mateus escreve para a forma correta.</p><p>Use essa tabela para auxiliar:</p><p>0 equivale a &#34;o&#34;</p><p>1 equivale a &#34;i&#34;</p><p>3 equivale a &#34;e&#34;</p><p>4 equivale a &#34;a&#34;</p><p>5 equivale a &#34;s&#34;</p><p><br/></p>
 Formato da entrada: <p>Uma frase bagunçada por Mateus que você dever converter</p>
 Formato da saída: <p>A frase corrigida para respeitar a gramática</p>

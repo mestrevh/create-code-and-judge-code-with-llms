@@ -1,5 +1,6 @@
 Título: Os diamantes são para sempre.
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você já tem o seu próprio diamante? Aproveite esta oportunidade e construa o seu próprio brilhante. Faça um programa que, dado um inteiro, exiba um diamante de asteriscos conforme o modelo dado.<br/></p>
 Formato da entrada: <p>A única entrada é um inteiro 1 &lt;= N que determinará o &#34;tamanho&#34; do diamante.<br/></p>
 Formato da saída: <p>Dado o valor de N=5 a saída produzida será:</p><p>.....*<br/>....***<br/>...*****<br/>..*******<br/>.*********<br/>.*********<br/>..*******<br/>...*****<br/>....***<br/>.....*</p>

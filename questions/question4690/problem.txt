@@ -1,5 +1,6 @@
 Título: Insertion sort passo a passo
 Topicos do problema: estrutura de dados; array; ordenação; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Crie um programa que recebe um array de tamanho variável e ordena o array de forma crescente. A ordenação deve ser feita ultilizando um insertion sort. Além disso, sempre que um número for movido para sua posição o programa deve exibir o array.<br/></p>
 Formato da entrada: <p>A entrada é um array numérico.<br/></p>
 Formato da saída: <p>A saída deve exibir o array original e a cada linha mostrar a atualização dos valores do array quando um número for movido de sua posição original para sua nova posição. <br/></p>

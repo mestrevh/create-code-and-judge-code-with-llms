@@ -1,5 +1,6 @@
 Título: Média dos elementos pares
 Topicos do problema: array; acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um vetor de números reais, calcule a média dos elementos pares positivos.</p>
 Formato da entrada: <p>Uma linha contendo <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">uma sequência de números reais.</span></p>
 Formato da saída: <p>Um valor real com duas casas decimais (incluir um final de linha após o valor)</p><p>Se não houver elementos pares positivos, imprimir o inteiro -1</p>

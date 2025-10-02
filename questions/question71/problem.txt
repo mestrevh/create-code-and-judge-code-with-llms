@@ -1,5 +1,6 @@
 Título: Controle de estoque
 Topicos do problema: array; acumulador; repetição; dicionário; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="font-size: x-small;">Em um estoque s&atilde;o dados os c&oacute;digos das mercadorias e as respectivas quantidades existentes. A seguir, s&atilde;o fornecidos os pedidos dos clientes. O seu objetivo&nbsp; &eacute; fazer um programa de controle do estoque que:</span></p>
 <ul>
 <li><span style="font-size: x-small;">Leia o estoque inicial (m&aacute;ximo de 100 mercadorias);</span></li>

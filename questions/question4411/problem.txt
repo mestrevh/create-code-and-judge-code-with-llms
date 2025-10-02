@@ -1,5 +1,6 @@
 Título: Problema Teste
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um array de números inteiros 'nums' e um número inteiro 'target', retorne os índices de dois números de forma que eles somem o valor 'target'.Você pode assumir que cada entrada terá exatamente uma solução e que você não pode usar o mesmo elemento duas vezes.<br/></p>
 Formato da entrada: <p>[2, 7, 11, 15], 9<br/></p>
 Formato da saída: <p>[0, 1]<br/></p>

@@ -1,5 +1,6 @@
 Título: Reverso e soma
 Topicos do problema: decisão; repetição; palíndromos; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>"Reverso e soma" &eacute; um m&eacute;todo simples: escolha um n&uacute;mero, inverta os digitos e some o resultado ao original. Se a soma n&atilde;o &eacute; um pal&iacute;ndromo (<em>o que significa que n&atilde;o &eacute; o mesmo n&uacute;mero se visto da direita pra esquerda ou da esquerda pra direita</em>) repita o processo. Por exemplo:&nbsp;</p>
 <p>195 (n&uacute;mero inicial)</p>
 <p>591 (inverso)</p>

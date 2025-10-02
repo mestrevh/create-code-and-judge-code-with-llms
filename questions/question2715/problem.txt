@@ -1,5 +1,6 @@
 Título: Soma pares de 0 a 500
 Topicos do problema: repetição; lógica matemática; 
+Tempo limite de execução: 2 segundo(s)
 Descrição: <p>Elaborar um programa que apresente no final a soma dos valores pares existentes na faixa de 0 até 500 (inclusive). Utilize um laço que efetue a variação de 2 em 2.<br/></p>
 Formato da entrada: <p>Não há entradas<br/></p>
 Formato da saída: <p>O programa deve exibir a soma dos pares de 0 a 500, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Soma dos pares de 0 a 500: n</p>

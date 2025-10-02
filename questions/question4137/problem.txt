@@ -1,5 +1,6 @@
 Título: Área de figuras
 Topicos do problema: ponto flutuante; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Guguinha e Rildinho são amigos e estudam juntos no ensino fundamental. No assunto da semana, aprenderam a calcular a área de algumas formas geométricas, como o círculo, o quadrado e o triângulo equilátero. Para ajudar nas suas atividades, pediram ajuda ao Bruninho, que também mexe com programação em linguagem C, para fazer um programa que peça um tipo de forma e calcule sua área.</p><p>Considere raiz de 3 = 1.7 e pi = 3.141</p>
 Formato da entrada: <p>Na primeira linha, a entrada de uma letra (maiúscula ou minúscula), que seja a inicial da forma geométrica.</p><p>C / c -&gt; Círculo</p><p>Q / q -&gt; Quadrado</p><p>T / t -&gt; Triângulo equilátero</p><p>Na segunda linha, deve ser dado o tamanho do raio do círculo, do lado do quadrado ou do lado do triângulo, a depender da resposta anterior.</p>
 Formato da saída: <p>A saída deve ser a área da forma com 2 casas decimais, na primeira linha, e a forma geométrica, na segunda.</p><p>Caso o usuário digite alguma letra diferente dos citados ou um valor negativo ou nulo, deve imprimir &#34;Entrada invalida!&#34; na tela.</p>

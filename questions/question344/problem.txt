@@ -1,5 +1,6 @@
 Título: Conversão real - fração
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>&Eacute; impotante saber converter n&uacute;meros reais para fra&ccedil;&atilde;o na vida real e o professor tibucio pediu para voc&ecirc; fazer um programa tal que dado um n&uacute;mero real o programa retorne uma fra&ccedil;&atilde;o simplificada.</p>
 Formato da entrada: <p>Um n&uacute;mero real de dupla precis&atilde;o.</p>
 Formato da saída: <p>A fra&ccedil;&atilde;o que representa esse n&uacute;mero real (%d/%d

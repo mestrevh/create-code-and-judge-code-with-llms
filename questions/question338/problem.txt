@@ -1,5 +1,6 @@
 Título: Imprima o número real formatado
 Topicos do problema: formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; ir&aacute; receber um n&uacute;mero real e deve imprimir o n&uacute;mero recebido entre dois caracteres '|' e com v&aacute;rias formata&ccedil;&otilde;es diferentes:</p>
 <p>a) Com 2 casas decimais;</p>
 <p>b) Com 5 casas decimais;</p>

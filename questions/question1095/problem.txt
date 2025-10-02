@@ -1,5 +1,6 @@
 Título: Perfil dos alunos
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span>O professor Garibaldo da turma de Metafísica quer conhecer o perfil de seus alunos. <span> </span>Para isso, você vai auxilia-lo escrevendo um programa.</span></p><p>O programa lerá dados dos alunos até que uma nota INFERIOR a zero seja lida.</p><p><span></span></p><p><span>Assuma que a média de aprovação é igual a 70 e que o curso pode ser Filosofia (f) ou Sociologia (s) (desconsidere outros cursos).</span></p><p><span>Caso tenham dois alunos ou mais com a mesma idade apenas será considerado o que foi lido na primeira vez.</span></p>
 Formato da entrada: <p><span>Média<br/></span></p><p><span>Nome do aluno</span></p><p><span>Idade</span></p><p><span>Curso</span><br/></p><p><span><br/></span></p><p><span>Importante:</span></p><p>Media deve ser maior ou igual a ZERO.</p>
 Formato da saída: <p><span>Quantidade de alunos de Filosofia aprovados<br/></span></p><p><span>Nome do aluno mais jovem</span></p><p><span>Quantidade de alunos aprovados</span></p><p><span>Quantidade de alunos maiores de idade de Sociologia que não foram aprovados por média.</span><br/></p><p><br/></p>

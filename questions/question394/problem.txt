@@ -1,5 +1,6 @@
 Título: Soma de Divisores
 Topicos do problema: array; acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba como entrada 5 n&uacute;meros e exiba aquele cuja soma dos divisores &eacute; a maior.</p>
 <p>Ex: A soma dos divisores de 4 &eacute; 7 (1 + 2 + 4), enquanto a soma dos divisores de 5 &eacute; 6 (1 + 5)</p>
 Formato da entrada: <p>Cinco n&uacute;meros inteiros</p>

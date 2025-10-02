@@ -1,5 +1,6 @@
 Título: Ordem Inversa.
 Topicos do problema: multiplas entradas; array; repetição; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que leia um array de 10 números reais e mostre-os na ordem inversa.<br/></p>
 Formato da entrada: <p>Os 10 valores informados.</p>
 Formato da saída: <p>Os 10 valores informados na ordem inversa.</p>

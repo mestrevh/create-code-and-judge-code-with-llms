@@ -1,5 +1,6 @@
 Título: Conversor de bases genérico (nem tão genérico assim)
 Topicos do problema: números binários; pilha; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Sua miss&atilde;o &eacute; converter um n&uacute;mero inteiro na base 10 para qualquer base entre 2 e 16.</p>
 <p>Por exemplo, o n&uacute;mero 42 na base 10 corresponde aos n&uacute;meros:</p>
 <p>101010 na base 2</p>

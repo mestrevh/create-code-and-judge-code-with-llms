@@ -1,5 +1,6 @@
 Título: Tamanho de uma frase
 Topicos do problema: array; acumulador; caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fazer um programa para ler uma string e calcular seu tamanho (n&uacute;mero de caracteres). Exemplo: Seja a string "o rato", ent&atilde;o seu tamanho &eacute; 6.</p>
 Formato da entrada: <p>Uma string com no m&iacute;nimo 1 caracter e no m&aacute;ximo 500.</p>
 Formato da saída: <p>Um inteiro indicando a quantidade de caracteres da string.</p>

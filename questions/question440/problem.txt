@@ -1,5 +1,6 @@
 Título: Os suspeitos
 Topicos do problema: grafo; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p>A s&iacute;ndrome respirat&oacute;ria aguda grave (SARS em ingl&ecirc;s), &eacute; uma pneumonia at&iacute;pica de origem desconhecide e foi reconhecida como uma amea&ccedil;a global em meados de mar&ccedil;o de 2003. Para minimizar a transmiss&atilde;o entre as pessoas, a melhor estrat&eacute;gia &eacute; separar os suspeitos do contato com outras pessoas.</p>
 <p>Na <strong>U</strong>niversidade <strong>F</strong>ederal de <strong>D</strong>oen&ccedil;as <strong>C</strong>ontagiosas (UFDC) existem muitos grupos de estudantes. Os estudantes em um mesmo grupo se comunicam entre si com muita frequ&ecirc;ncia. Um estudante tamb&eacute;m pode participar de v&aacute;rios grupos. Para prevenir a poss&iacute;vel transmiss&atilde;o de SARS, a UFDC coletou a lista de todos os membros de todos os grupos e prop&ocirc;s a seguinte opera&ccedil;&atilde;o:</p>
 <p>Se um membro do grupo &eacute; suspeito, todos os membros do grupo se tornam suspeitos tamb&eacute;m.</p>

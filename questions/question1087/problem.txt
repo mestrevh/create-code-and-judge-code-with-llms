@@ -1,5 +1,6 @@
 Título: 100 primeiros números naturais
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span id="docs-internal-guid-424330d9-7f95-91e2-9796-2e02eb352ed8"><span style="color: rgb(0, 0, 0);background-color: transparent;">Escreva um programa que exiba na saída padrão os 100 primeiros números naturais (inteiros positivos incluindo o zero).</span></span><br/></p>
 Formato da entrada: <p>Não há entrada.</p>
 Formato da saída: <p>Os 100 primeiros números naturais (inteiros positivos incluindo o zero).<br/></p>

@@ -1,5 +1,6 @@
 Título: AB1.P1.Nasa
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você foi contratado pela NASA para desenvolver um programa que calcula o peso das pessoas em diferentes planetas do sistema solar! </p><p><img src="https://www.thehuxley.com/api/v1/problems/image/5f3f781d04d10c14d696ba4cfa4c3895689ea859o.jpeg"/><br/></p><p>Sabendo que o valor da força peso P (em Newtons) de um corpo de massa M (em kg) em um planeta com aceleração da gravidade A (em m/s2) é definida por:</p><p style="text-align: center;">P = M.A </p><p><br/></p><p><br/></p><p>Na terra, um indivíduo com 60kg tem peso aproximado de 600N. Se este mesmo indivíduo estivesse em Marte, seu peso aproximado seria de 240N. Faça um programa que calcule o valor do peso de um indivíduo, com uma valor de massa informado, em cada um dos corpos do sistema solar. listados abaixo.</p><p><br/></p><p>Os valores da aceleração gravitacional nos corpos celestes do sistema solar são:</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/1e28d8e7c23882c161b5829bf3e6212f31817f20e.jpeg"/><br/></p><p><br/></p><p><br/></p>
 Formato da entrada: <p>O valor do peso na terra expresso em ponto flutuante</p>
 Formato da saída: <p>Os valores do peso em cada um dos corpos celestes, tb expresso em ponto flutuante com precisão de duas casas decimais após a vírgula.</p>

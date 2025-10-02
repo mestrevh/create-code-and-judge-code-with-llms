@@ -1,5 +1,6 @@
 Título: Medindo a audiência
 Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A emissora ZWT est&aacute; muito preocupada com seus baixos &iacute;ndices de audi&ecirc;ncia durante a semana. Por isso, ela resolveu fazer medi&ccedil;&otilde;es di&aacute;rias das 20h &agrave;s 22h para saber que programas agradam mais o p&uacute;blico. &Agrave;s segundas e quintas s&atilde;o exibidas novelas, &agrave;s quartas s&atilde;o transmitidos jogos de futebol, e nas ter&ccedil;as e sextas a emissora exibe filmes.</p>
 <p>Escreva um programa que receba como entrada os &iacute;ndices de audi&ecirc;ncia registrados de segunda a sexta e exiba a m&eacute;dia de audi&ecirc;ncia da semana e o tipo de programa que atraiu o maior &iacute;ndice.</p>
 Formato da entrada: <p>Ser&atilde;o dados 5 n&uacute;meros reais correspondendo &agrave;s audi&ecirc;ncias de segunda &agrave; sexta.</p>

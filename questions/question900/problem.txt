@@ -1,5 +1,6 @@
 Título: Média dos números.
 Topicos do problema: multiplas entradas; acumulador; repetição; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa Java que leia 100 números e informe a média dos números.<br/></p>
 Formato da entrada: <p>Os 100 números digitados.</p>
 Formato da saída: <p>A média dos números.</p>

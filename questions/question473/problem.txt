@@ -1,5 +1,6 @@
 Título: Aprovados no Concurso
 Topicos do problema: multiplas entradas; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O IBGE realizou um concurso para contratar pessoas para trabalhar no censo. Cada candidato fez uma prova de portugu&ecirc;s com 50 quest&otilde;es, outra de matem&aacute;tica com 35 quest&otilde;es, e uma prova de reda&ccedil;&atilde;o.</p>
 <p>Para ser aprovado, era necess&aacute;rio acertar pelo menos 80% da prova de portugu&ecirc;s, 60% da prova de matem&aacute;tica, e ter nota igual ou superior a 7 na reda&ccedil;&atilde;o.</p>
 <p>Escreva um programa que receba como entrada, para cada candidato, a quantidade de quest&otilde;es certas em portugu&ecirc;s e em matem&aacute;tica, e tamb&eacute;m a nota na reda&ccedil;&atilde;o, e depois exiba quantos candidatos foram aprovados.</p>

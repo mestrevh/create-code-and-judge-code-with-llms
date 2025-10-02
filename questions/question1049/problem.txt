@@ -1,5 +1,6 @@
 Título: Cálculo do IMC
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que receba as características (massa e altura) de uma pessoa e retorne seu IMC - Índice de Massa Corporal.</p><p>O valor de saída deve ser arredondado usando 2 casas decimais.<br/></p>
 Formato da entrada: <p>A massa em Kg que pode estar entre 1 e 500.</p><p>A altura em metros (m) que pode estar entre 1 e 2.8</p>
 Formato da saída: <p>O índice de massa corporal da pessoa.</p><p>O valor de saída deve ser arredondado usando 2 casas decimais.<br/></p>

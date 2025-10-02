@@ -1,5 +1,6 @@
 Título: Divisível por 3
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O problema envolve achar a quantidade de divisores de um n&uacute;mero que s&atilde;o divis&iacute;veis por 3.</p>
 Formato da entrada: <p>Um inteiro N.</p>
 Formato da saída: <p>Um inteiro R seguido de um final de linha, sendo R o n&uacute;mero de divisores de N que s&atilde;o divisiveis por 3. Caso n&atilde;o tenha nenhum imprima&nbsp;"O numero nao possui divisores multiplos de 3!" sem as aspas e com um final de linha.</p>

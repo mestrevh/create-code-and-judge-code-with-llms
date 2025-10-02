@@ -1,5 +1,6 @@
 Título: IMC
 Topicos do problema: obi; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O IMC significa índice de massa corporal e é usado por muitos especialistas (médicos, nutricionistas,esportistas entre outros profissionais) para verificar a relação entre o peso e a altura de um indivíduo.Crie um programa que faz a leitura do peso (em Kg) e a altura (em m) de uma pessoa e em seguida calcula e exibe o IMC. Use a fórmula a seguir:<br/></p><p style="text-align: center;"><img class="" src="https://www.thehuxley.com/api/v1/problems/image/045567f35726da1ea8a68ee60ab79c2601b12587r.PNG"/></p>
 Formato da entrada: <p>50</p><p>1.65</p>
 Formato da saída: <p>18.4</p>

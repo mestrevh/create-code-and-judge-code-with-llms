@@ -1,5 +1,6 @@
 Título: Maior elemento pseudo aleatório
 Topicos do problema: função; ponteiro; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <div class="de1">Inicialmente<span class="sy0">,</span> preencha tr&ecirc;s arrays<span class="sy0">,</span> Y<span class="sy0">,</span> X e Z ambos de comprimento <span class="nu0">10</span>. <span class="br0">(</span>X<span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span>......<span class="br0">[</span>X<span class="br0">[</span><span class="nu0">9</span><span class="br0">]</span><span class="br0">)</span> <span class="sy0">,</span> com valores pseudo<span class="sy0">-</span>aleat&oacute;rios da seguinte forma<span class="sy0">:</span></div>
 <div class="de2">&nbsp;</div>
 <div class="de1">Y<span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span> <span class="sy0">=</span> seedY</div>

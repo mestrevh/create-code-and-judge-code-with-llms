@@ -1,5 +1,6 @@
 Título: Ayallinha e o City Tour
 Topicos do problema: grafo; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ayallinha quer visitar a incrível cidade de Ambrolândia porém, ele definiu uma condição para o passeio.</p><p>Ele quer visitar todas as ruas da cidade sem passar pela mesma rua mais de uma vez.</p><p><span>Cada rua na cidade de </span><span>Ambrolândia faz a ligação entre dois prédios U e V .</span></p><p>Em uma rua, Ayallinha pode ir do prédio U para o prédio V ou do prédio V para o prédio U.</p><p><span>Sabendo disto, dado o mapa da cidade de Ambrolândia diga a Ayallinha se existe um trajeto que satisfaça a sua condição. </span></p><p><span>Se for possível realizar o trajeto, Ayallinha quer que você também mostre a ele o trajeto que começa do prédio de menor índice possível.</span></p>
 Formato da entrada: <p>Dois inteiros (0 &lt;= N, M &lt;= 1000) indicando a quantidade de prédios e de ruas da cidade respectivamente.</p><p>Nas próximas M linhas virão 2 inteiros (0 &lt;= U, V &lt;= N) indicando os prédios que são ligados por aquela rua.</p>
 Formato da saída: <p>Imprima &#34;Yes&#34; caso se exista um caminho que satisfaça as restrições de Ayallinha e &#34;No&#34; caso contrário.</p><p>Se for possível realizar o trajeto, imprima o trajeto que começa do prédio de menor índice possível.<br/></p>

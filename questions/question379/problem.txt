@@ -1,5 +1,6 @@
 Título: Treino de Ciclismo
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="font-size: x-small;">Eloi decidiu se dedicar &agrave; pr&aacute;tica de ciclismo para manter a forma. Ele tra&ccedil;ou como meta percorrer pelo menos 8 km por dia todos os dias. </span></p>
 <p><span style="font-size: x-small;">Escreva um programa que receba como entrada a dist&acirc;ncia percorrida por Eloi em cada um dos sete dias da semana e, de acordo com seu desempenho, exiba uma das seguintes mensagens: </span></p>
 <p><span style="font-size: x-small;">-</span> <span style="font-size: x-small;">Desempenho otimo, caso a meta seja cumprida em cinco ou mais dias<br /></span><span style="font-size: x-small;">- Desempenho razoavel, caso a meta s&oacute; seja cumprida em tr&ecirc;s ou quatro dias<br />- Desempenho ruim, caso a meta seja cumprida em menos de tr&ecirc;s dias</span></p>

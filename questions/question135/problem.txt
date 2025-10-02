@@ -1,5 +1,6 @@
 Título: Guarda costeira
 Topicos do problema: geometria computacional; lógica matemática; maratona; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>"Pega ladr&atilde;o! Pega ladr&atilde;o"</p>
 <p>Roubaram a bolsa de uma inocente senhora que caminhava&nbsp;na praia da Nlog&ocirc;nia e o ladr&atilde;o fugiu em dire&ccedil;&atilde;o ao mar. Seu plano parece &oacute;bvio: ele pretende&nbsp;pegar um barco e escapar!</p>
 <p>O fugitivo, que a essa altura j&aacute; est&aacute; a bordo de sua embarca&ccedil;&atilde;o de fuga, pretende seguir perpendicularmente &agrave; costa em dire&ccedil;&atilde;o ao limite de &aacute;guas internacionais, que est&aacute; a 12 milhas&nbsp;n&aacute;uticas de dist&acirc;ncia, onde estar&aacute; s&atilde;o e salvo das autoridades locais. Seu barco consegue&nbsp;percorrer essa dist&acirc;ncia a uma velocidade constante de VF n&oacute;s.</p>

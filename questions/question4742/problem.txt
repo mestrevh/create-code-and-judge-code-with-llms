@@ -1,5 +1,6 @@
 Título: Sequencial_3
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p></p><p style="text-align: justify;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">Escreva um algoritmo para calcular e exibir a média ponderada de 2 notas dadas. Utilize constantes nos pesos (nota1= peso 6 e nota2= peso 4).</font></font></font></p><p></p>
 Formato da entrada: <p>Dois números reais, respectivamente, nota 1 e nota2.</p>
 Formato da saída: <p>A média ponderada. Use 1 casa decimal.</p>

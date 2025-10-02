@@ -1,5 +1,6 @@
 Título: Concatenação de nomes
 Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Construa um programa que receba como entrada um nome e um sobrenome, o programa deverá exibir o nome concatenado com o sobrenome tendo apenas um espaço entre eles.</p>
 Formato da entrada: <p>Na primeira linha haverá uma string com no máximo 50 caracteres representando o nome; na linha seguinte haverá outra string com no máximo 50 caracteres, representando o sobrenome.</p>
 Formato da saída: <p>Uma única string com o nome e o sobrenome concatenados com um único espaço entre eles.</p>

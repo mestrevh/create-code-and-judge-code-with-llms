@@ -1,5 +1,6 @@
 Título: Valor da Refeição
 Topicos do problema: multiplas entradas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O restaurante a quilo ComaBem cobra R$ 20,00 por cada quilo de refeição. Escreva um programa que leia o peso do prato montado pelo cliente (em quilos) e imprima o valor a pagar. Assuma que a balança já desconte o peso do prato.<br/></p>
 Formato da entrada: <p>O programa receberá como entrada o peso do prato do cliente.</p>
 Formato da saída: <p>O programa deverá imprimir o valor a ser pago da seguinte forma:</p><p><b><i>O valor do prato será: R$ XX.XX</i></b></p><p>onde, XX será o valor calculado para o prato.</p>

@@ -1,5 +1,6 @@
 Título: Auto-estrada
 Topicos do problema: acumulador; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Certas regi&otilde;es resolveram o problema de tr&aacute;fego intenso com a constru&ccedil;&atilde;o de auto estradas, que s&atilde;o estradas contendo em geral quatro ou mais pistas de rolagem em cada sentido, de forma que um n&uacute;mero grande de carros possa passar sem que ocorram congestionamentos. O problema das auto estradas &eacute; que, junto com os carros temos um aumento consider&aacute;vel de ru&iacute;do nas imedia&ccedil;&otilde;es da pista, o que incomoda os moradores das regi&otilde;es pr&oacute;ximas.</p>
 <p>A GoTo engenharia, uma empresa do ramo de constru&ccedil;&atilde;o especializada em obras de estradas, encontrou uma solu&ccedil;&atilde;o engenhosa para o problema: instalar grandes pain&eacute;is defletores de som de cada lado da auto estrada para tentar minimizar o ru&iacute;do percebido pelos vizinhos.</p>
 <p>Os pain&eacute;is s&atilde;o constru&iacute;dos em blocos cont&iacute;nuos de 10 metros lineares. A auto estrada tamb&eacute;m &eacute; dividida em blocos de 10 metros de extens&atilde;o, sendo cada bloco descrito por um c&oacute;digo, como definido abaixo:</p>

@@ -1,5 +1,6 @@
 Título: MaxMin
 Topicos do problema: grafo; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre style="overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;"><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">Dado um grafo simples conexo G=(V,E) com N vértices rotulados de 0 a N-1, isto é V={0,...,N-1}, definimos a "distância mínima" (ou simplesmente "distância") entre dois vértices A e B,  d(A,B), como o menor comprimento L (número de arestas) de um caminho
 
 P: v[0] - v[1] - ... - v[L]

@@ -1,5 +1,6 @@
 Título: Soma de grupos divisíveis por D
 Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dada uma lista de N números, você pode escolher quaisquer M deles. Desta forma você pode escolhê-los de C(N,M) maneiras. Onde C(N, M) é a combinação matemática sem repetições.Você precisa determinar quantos desses grupos escolhidos possuem uma soma que é divisível por D.<br/></p>
 Formato da entrada: <p>A entrada consiste de no máximo 10 casos de testes. <br/></p><p>Cada caso de teste é descrito como a seguir.</p><p>A primeira linha de cada conjunto contém 2 inteiros N (0&lt;N&lt;=200) e Q (0&lt;Q&lt;=10). N indica quantos números existem e Q é o total de consultas. As próximas N linhas contém um inteiro. As consultas devem ser respondidas com base nesses números.</p><p>As próximas Q linhas contém Q consultas. Cada consulta contém dois inteiros D (0 &lt;D&lt;=20) e M (0&lt;M&lt;=10) cujo significado está explicado na descrição desse problema.</p><p>A entrada termina quando N=0 e Q=0.<br/></p>
 Formato da saída: <p>Para cada caso de teste, imprima o &#34;SET X:&#34; , onde X é número do caso de teste que começa em 1.<br/></p><p>Depois, para cada consulta imprima: &#34;QUERY K: G&#34;, onde K é o número da consulta e G é o número de grupos encontrados.<br/></p>

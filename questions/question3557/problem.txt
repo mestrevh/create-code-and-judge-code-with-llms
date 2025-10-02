@@ -1,5 +1,6 @@
 Título: Quociente de uma divisão inteira
 Topicos do problema: multiplas entradas; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um programa que determine o quociente de uma divisão inteira. Por exemplo, se a entrada for os valores inteiros 30 e 7, o programa deve fornecer como saída o valor iteiro 4.</p><p><br/></p><p>obs: não é permitido utilizar comandos diretos para o cálculo desse quociente, a exemplo do comando // do python.</p>
 Formato da entrada: <p>Dois números inteiros representando o dividendo e divisor, respectivamente, da divisão inteira.</p>
 Formato da saída: <p>O número inteiro representando o quociente da divisão inteira.</p>

@@ -1,5 +1,6 @@
 Título: Superdígito
-Topicos do problema: string; recursão; 
+Topicos do problema: recursão; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Nós vamos definir o superdígito de um inteiro x conforme as seguintes regras:</p><ul><li>Se x possui apenas 1 dígito, então o superdígito é x.</li><li>Caso contrário, o super dígito de x é igual ao superdígito da soma dos dígitos de x.</li></ul><p>Por exemplo, o superdígito de 9875 é calculado como:</p><pre>superdígito (9875)<br/>= superdígito (9+8+7+5)<br/>= superdígito (29)<br/>= superdígito (2+9)<br/>= superdígito (11)<br/>= superdígito (1 + 1)<br/>= superdígito (2)<br/>= 2<br/></pre><br/>Sua missão é calcular o superdígito de um número x.<br/>Você receberá dois números: n e k.<br/>x é construído fazendo k concatenações de n.<br/>Por exemplo, <br/>se n = 123 e k = 4<br/>então:<br/>x = 123123123123<p><br/></p>
 Formato da entrada: <p>A entrada consiste de dois inteiros n e k separados por espaço.</p><p>Considere:</p><ul><li>1 &lt;= n &lt;= 10^100000</li><li>1 &lt;= k &lt;= 10^5<br/></li></ul>
 Formato da saída: <p>Uma única linha contendo o superdígito de x.<br/></p>

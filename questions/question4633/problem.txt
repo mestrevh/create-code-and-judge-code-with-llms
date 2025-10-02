@@ -1,5 +1,6 @@
 Título: P1 - Média das idades
 Topicos do problema: decisão; repetição; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que leia idades até que a idade digitada seja 0 (zero). No final, mostre a média das idades e a classificação dessa média de idades de acordo com a seguinte tabela:</p><p>de 0 a 25: jovem</p><p>de 26 a 60: adulta</p><p>acima de 60: idosa</p><p><br/></p><p>OBS.: Mostre a média arredondada para casos de números quebrados.</p>
 Formato da entrada: <p>serão lidas n idades até que a idade lida seja 0.</p>
 Formato da saída: <p>a média das idades e a classifcação dessa média de idades.</p>

@@ -1,5 +1,6 @@
 Título: Nomes que produzem cores
 Topicos do problema: array; acumulador; caractere; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Um fato curioso em HTML, &eacute; que se voc&ecirc; digitar um nome, na &aacute;rea do codigo de cor de background, em vez do c&oacute;digo fonte da cor, ainda assim ele reconhece como uma cor.</p>
 <p>Como no exemplo:</p>
 <p><span class="tag">&lt;body</span><span class="pln"> </span><span class="atn">bgcolor</span><span class="pun">=</span><span class="atv">"chucknorris"</span><span class="tag">&gt;</span>&lt;/body&gt;</p>

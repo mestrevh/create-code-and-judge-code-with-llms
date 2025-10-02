@@ -1,5 +1,6 @@
 Título: Carteira Habilitacao
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p></p><p>Faça um programa que verifique se o usuário pode tirar a carteira de habilitação.</p><p>Caso não possa, o programa deve informar quantos anos faltam para que ele possa tirá-la.</p><p></p>
 Formato da entrada: <p>Um número inteiro que representa a idade do usuário em anos.</p>
 Formato da saída: <title></title><p class="p1">O programa deve exibir uma das seguintes saídas quando:</p><ul><li>O usuário está habilitado:</li><ul><li>&#34;Voce ja pode tirar habilitacao!&#34;</li><li>&#34;Voce tem direito a habilitacao ha x ano(s)&#34;</li></ul><li>Quando o usuário não está habilitado:</li><ul><li>&#34;Você precisa esperar mais x ano(s)!&#34;</li></ul></ul>

@@ -1,5 +1,6 @@
 Título: Calculadora de IMC
 Topicos do problema: estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O índice de massa corporal (IMC) é um dado que indica o grau de obesidade de um paciente, sendo ele calculado pela seguinte fórmula: w/(h^2), em que &#34;w&#34; representa o peso medido em kgf(quilograma*força) e &#34;h&#34; a altura medida em metros. Seu trabalho será construir um programa que receba um número n de pacientes e armazene nome, peso e altura dessas n pessoas em um vetor. Após isso, seu programa deverá imprimir o nome e a classificação de cada pessoa de acordo com o resultado do indice de massa corporal. Segue a tabela com a classificação: </p><p><br/></p><p>Abaixo de 18,5: <span>Baixo peso </span></p><p><span>Entre 18,5 e 24,9: Peso normal </span></p><p><span>Entre 25 e 29,9: Sobrepeso </span></p><p><span>Entre 30 e 34,9: Obesidade grau I </span></p><p><span>Entre 35 e 39,9: Obsidade grau II </span></p><p><span>Acima ou Igual a 40: Obesidade grau III </span></p><p><span><br/></span></p><p><span>OBS: os nomes dos pacientes terão até 49 caracteres</span></p>
 Formato da entrada: <p>Um número n de pacientes seguidos pelos nomes, peso e altura de cada um deles.</p>
 Formato da saída: <p>O nome dos pacientes da ordem em que foram inseridos e sua classificação de acordo com a tabela de IMC.</p>

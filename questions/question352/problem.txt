@@ -1,5 +1,6 @@
 Título: Calcular MDC de forma recursiva
 Topicos do problema: função; recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="font-family: Arial; font-size: 11px;">Dois n&uacute;meros naturais sempre t&ecirc;m divisores comuns. Por exemplo: os divisores comuns de 12 e 18 s&atilde;o 1,2,3 e 6. Dentre eles, 6 &eacute; o maior. Ent&atilde;o chamamos o&nbsp;</span><strong style="font-family: Arial; font-size: 11px;">6</strong><span style="font-family: Arial; font-size: 11px;">&nbsp;de&nbsp;</span><strong style="font-family: Arial; font-size: 11px;">m&aacute;ximo divisor comum de 12 e 18</strong><span style="font-family: Arial; font-size: 11px;">&nbsp;e indicamos&nbsp;</span><strong style="font-family: Arial; font-size: 11px;">m.d.c.(12,18) = 6</strong><span style="font-family: Arial; font-size: 11px;">.</span></p>
 <p>Desenvolva uma fun&ccedil;&atilde;o recursiva para calcular o m.d.c de dois inteiros.</p>
 Formato da entrada: <p>Dois inteiros positivos.</p>

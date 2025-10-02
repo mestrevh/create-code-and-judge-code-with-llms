@@ -1,5 +1,6 @@
 Título: Produto dos primos
 Topicos do problema: decisão; função; números primos; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados 04 n&uacute;meros inteiros, calcule o produto entre eles caso os 04 n&uacute;meros digitados sejam n&uacute;meros primos.</p>
 <p>Se algum deles n&atilde;o for primo, imprima: SEM PRODUTO</p>
 Formato da entrada: <p>4 n&uacute;meros inteiros</p>

@@ -1,5 +1,6 @@
 Título: Sequência de Fibonacci (função sem devolução)
 Topicos do problema: repetição; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetros um número natural estritamente positivo<span> </span></span><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><i>n</i></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"><span> </span>e que exiba os <b style="color: rgb(0, 0, 0);"><i>n</i></b> primeiros elementos da Sequência de Fibonacci.</span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"> O PROGRAMA PRINCIPAL deverá ler o valor <b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><i>n</i></b> e chamar a FUNÇÃO que, por sua vez, exibirá os elementos.</span><br/></p>
 Formato da entrada: <p>5</p>
 Formato da saída: <p>1</p><p>1</p><p>2</p><p>3</p><p>5</p>

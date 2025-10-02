@@ -1,0 +1,19 @@
+id,name,time,evaluation
+54,Banda,0.021,CORRECT
+812,Saldo de gols,0.021,CORRECT
+684,Carteiro,0.002,CORRECT
+814,Dominó,0.007,CORRECT
+817,Chuva (OBI),0.002,CORRECT
+813,Macaco prego,0.008,CORRECT
+2201,Piso,0.001,CORRECT
+3598,Idade,0.001,CORRECT
+373,Capital,0.014,CORRECT
+3599,Sequência Secreta,0.001,CORRECT
+176,Times,0.009,CORRECT
+3601,Distância entre amigos,0.006,CORRECT
+54,Banda,0.01,CORRECT
+812,Saldo de gols,0.01s,CORRECT
+684,Carteiro,0.002,CORRECT
+814,Dominó,0.001,CORRECT
+817,Chuva (OBI),0.1s,CORRECT
+813,Macaco prego,0.000,CORRECT

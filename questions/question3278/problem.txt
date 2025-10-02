@@ -1,5 +1,6 @@
 Título: Classificando notas
 Topicos do problema: obi; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma escola, ao divulgar a média dos seus alunos, decidiu incluir uma bolinha colorida ao lado da média. A regra ficou assim:</p><ul><li>notas maiores que 7, &#34;bolinha verde&#34;;</li><li><span>notas entre 5 e 7 (inclusive), &#34;bolinha amarela&#34;;</span></li><li>notas menores que 5, &#34;bolinha vermelha&#34;.</li></ul><p>O seu programa, em Python, deve ler uma nota e classificá-la de acordo com a regra acima.</p>
 Formato da entrada: <p>8</p>
 Formato da saída: <p>bolinha verde</p>

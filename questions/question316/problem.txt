@@ -1,5 +1,6 @@
 Título: Array Hash
 Topicos do problema: acumulador; dicionário; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; ter&aacute; como uma entrada v&aacute;rias linhas, cada uma com uma string. O valor de cada caracter &eacute; computado como segue:&nbsp;</p>
 <p>&nbsp;</p>
 <p>Valor = (Posi&ccedil;&atilde;o no alfabeto) + (Elemento de entrada) + (Posi&ccedil;&atilde;o do elemento)&nbsp;</p>

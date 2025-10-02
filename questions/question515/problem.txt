@@ -1,5 +1,6 @@
 Título: Índice remissivo
 Topicos do problema: estrutura de dados; maratona; dicionário; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Boa parte dos livros apresenta um índice remissivo, que corresponde a uma lista alfabética de palavras-chave ou palavras relevantes do texto com a indicação dos locais no texto onde cada palavra-chave ocorre. Dessa maneira, uma palavra indexada pode ser rapidamente localizada no texto, sem necessidade de uma pesquisa exaustiva.
 
 Um índice remissivo pode ser implementado com o auxílio do tipo abstrato de dados "dicionário", que consiste em uma coleção de valores que podem ser pesquisados através de uma chave. Ou seja, cada valor V a ser armazenado deve ser associado a uma chave única K. A operação Find(K) retorna valor V associado 

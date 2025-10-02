@@ -1,5 +1,6 @@
 Título: Raiz enésima
 Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie uma função que recebe dois inteiros (a, b) e retorna a raiz b de a.<br/></p>
 Formato da entrada: <p>8 3</p>
 Formato da saída: <p>2</p>

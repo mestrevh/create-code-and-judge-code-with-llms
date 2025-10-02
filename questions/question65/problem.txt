@@ -1,5 +1,6 @@
 Título: Série Fatorial
 Topicos do problema: array; acumulador; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que calcule e escreva a soma dos n primeiros termos da série:</p>&#13;<p><a href="../../../../data/images/app/problems/temp/e68085c6d699d2c7029907f994c57b80.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/e68085c6d699d2c7029907f994c57b80.png" border="0" width="374" height="67"/></a></p>
 Formato da entrada: <p>Um inteiro n indicando a quantidade de termos da s&eacute;rie</p>
 Formato da saída: <p>Um n&uacute;mero de ponto flutuante formatado com duas casas decimais, seguido de&nbsp;um final de linha. O n&uacute;mero deve ser arrendondado, ou seja, se o seu resultado der -2963.4768, por exemplo, voc&ecirc; deve imprimir -2963.48 e n&atilde;o -2963.47</p>

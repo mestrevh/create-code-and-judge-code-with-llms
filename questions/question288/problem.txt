@@ -1,5 +1,6 @@
 Título: Apresentação do Trabalho
 Topicos do problema: acumulador; decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Toda apresenta&ccedil;&atilde;o de trabalho tem seus requisitos m&iacute;nimos, que precisam ser atendidos, caso contr&aacute;rio, o trabalho n&atilde;o &eacute; aceito e o aluno fica com nota 0.</p>
 <p>&nbsp;</p>
 <p>A apresenta&ccedil;&atilde;o de Programa&ccedil;&atilde;o 1 est&aacute; chegando, e o Professor Baldoino deixou claro que se os trabalhos n&atilde;o passassem por<strong> todos</strong> os requisitos m&iacute;nimos, ele n&atilde;o iria julgar o trabalho.</p>

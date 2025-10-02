@@ -1,5 +1,6 @@
 Título: [AC3.2] - Divisibilidade
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que indique se um número que o usuário digitou é divisível por 4 e por 7 ao mesmo tempo mas não divisível por 5.<br/><br/>A saída deve ser um mensagem 'sim' ou 'nao' (minúsculos e sem o til).</p>
 Formato da entrada: <p>Um número inteiro</p>
 Formato da saída: <p>Uma string, 'sim' ou 'não'</p>

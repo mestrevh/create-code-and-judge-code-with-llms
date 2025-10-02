@@ -3,7 +3,7 @@ from pathlib import Path
 
 base_dir = Path("questions")
     
-for i in range (1800, 5000):
+for i in range (2, 5000):
     
     response = requests.get(f"https://www.thehuxley.com/api/v1/problems/{i}?locale=pt_BR")
 
@@ -27,7 +27,8 @@ for i in range (1800, 5000):
                 problem += value["name"] + "; "
             
             problem += "\n"
-                
+            problem += f"Tempo limite de execução: {data["timeLimit"]} segundo(s)\n"
+            
             problem += f"Descrição: {data["description"]}\n"
             problem += f"Formato da entrada: {data["inputFormat"]}\n"
             problem += f"Formato da saída: {data["outputFormat"]}\n"

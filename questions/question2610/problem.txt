@@ -1,5 +1,6 @@
 Título: Mais uma de lista
 Topicos do problema: array; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dada uma lista A com N elementos, calcular e, depois apresentar, o valor de S.</p><p> O valor de S para uma lista com 20 elementos é calculado da seguinte forma:</p><p>S = (A0 - A19) elevado a 2 + (A1-A18) ekevado a 2 + ...+(A9-A10) elevado a 2<br/></p><p><br/></p><p>Você deve apresentar uma solução para o problema lembrando que o tamanho da lista pode ser par ou ímpar.</p><p><br/></p>
 Formato da entrada: <p>Ler os seguintes dados:</p><ul><li>o tamanho da lista (um inteiro N)</li><li>ler N números inteiros</li></ul><p><br/></p>
 Formato da saída: <p>A saída deve conter o valor de S, quando possível de ser calculado.</p><p>Mensagens devem ser apresentadas quando o usuário informar um valor negativo para N ou quando N for igual a zero.</p><p>Observe os casos de teste.</p>

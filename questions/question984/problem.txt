@@ -1,5 +1,6 @@
 Título: Os Extremos e os Múltiplos.
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dada uma sequência de inteiros não negativos você deverá imprimir o menor inteiro e o maior inteiro até o momento.</p><p>A impressão deve ser feita a cada entrada de dado, ou seja, a resposta pode ser alterada a cada passo.</p><p>No final você receberá o número -1 indicando o final da entrada(não é para incluir o -1 na resposta).</p><p>Por fim, você deverá imprimir todos os múltiplos do menor número, que estão entre o menor e o maior (incluindo os dois se for o caso).<br/></p>
 Formato da entrada: <p>uma sequência de inteiros seguida de -1.<br/></p>
 Formato da saída: <p>a cada inteiro você deverá imprimir o menor inteiro x e o maior inteiro y no formato &#34;menor  = x || MAIOR = y&#34;.</p><p>por fim você deverá imprimir todos os múltiplos de x que estão entre x e y incluso os dois, os números devem ser separados por &#34;||&#34;..<br/></p>

@@ -1,5 +1,6 @@
 Título: Distância de edição
 Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Esse &eacute; um dos problemas cl&aacute;ssicos da computa&ccedil;&atilde;o. A solu&ccedil;&atilde;o para esse problema &eacute; aplicada em v&aacute;rios contextos, como por exemplo o alinhamento de sequ&ecirc;ncias de DNAs.</p>
 <p>Voc&ecirc; receber&aacute; duas strings, A e B. Voc&ecirc; deve responder qual o menor n&uacute;mero de opera&ccedil;&otilde;es necess&aacute;rias para transformar A em B.</p>
 <p>As opera&ccedil;&otilde;es v&aacute;lidas s&atilde;o:</p>

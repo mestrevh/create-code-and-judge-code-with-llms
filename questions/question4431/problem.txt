@@ -1,5 +1,6 @@
 Título: Gabigol e o óleo de Dendê
-Topicos do problema: array; repetição; substrings; string; 
+Topicos do problema: array; substrings; repetição; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>  Durante as férias o famoso jogador Gabigol decidiu visitar o estado da Bahia. Passeando pelas ruas de Salvador ficou encantado com a cultura local e em um dos seus passeios conheceu uma linda baiana que só deixaria ele provar o seu óleo de dendê, somente se ele conseguir realizar um desafio.</p><p>  O Desafio consiste em dada uma string S formada apenas de 'A', 'B' e 'C'. Você deve remover a substring &#34;abc&#34; deixando S sem nenhum &#34;abc&#34; restante.</p><p>  Gabigol, após ver o desafio pede sua ajuda para construir um código que consiga resolver o desafio. Para assim provar o tão esperado óleo dendê.</p><p>                            <img src="https://www.thehuxley.com/api/v1/problems/image/607095311275a5c1144a69d499280734713c4b131.png"/><span>  </span><br/></p><p><br/></p>
 Formato da entrada: <p></p><h1><ul><li>S</li></ul></h1>      string S de tamanho: 1 &lt; tam &lt; 2 x 10^5<br/><br/><p></p>
 Formato da saída: <p></p><h1><ul><li>S</li></ul></h1>String S após remoções<p></p><p>caso o tamanho da string final seja 0, a saída deve ser &#34;string vazia&#34;</p>

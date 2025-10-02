@@ -1,5 +1,6 @@
 Título: Verificar anterior e próximo
 Topicos do problema: repetição; recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você vai receber um número de entradas e após ela N entradas, seu programa quer saber se na posição atual do array, ele tem o array na posição-1 um número antecessor ao número atual, e na posição do array+1 ele tem um número sucessor ao número atual, isso é uma sequência de 3 números, se sim imprima o número atual.</p><p>Tenha cuidado ao acessar o primeiro e o último valor, já que eles não tem anterior nem próximo</p>
 Formato da entrada: <p>Receberá um número N e após isso N entradas:</p><p>4</p><p>1 <span>5 </span><span>6 </span><span>7</span></p>
 Formato da saída: <p>Como na entrava tivemos: <br/>4 <br/>1 5 6 7</p><p><br/></p><p>A saída são os números que possuem o antecessor e o sucessor na posição-1 e na posição+1 deles.</p><p>No caso a saída seria:</p><p>6</p><p><br/></p><p>(Se tiver + de um número da saída imprima ele com quebra de linha &#34;\n&#34;)</p>

@@ -1,5 +1,6 @@
 Título: Distância
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dois carros (C1 e C2) partem em uma mesma dire&ccedil;&atilde;o. O carro C1 sai com velocidade constante de X Km/h e o carro C2 sai com velocidade constante de Y Km/h. Leia a dist&acirc;ncia (em Km) e calcule quanto tempo leva (em minutos) para o carro C2 tomar essa dist&acirc;ncia Z do outro carro.</p>
 Formato da entrada: <p>O arquivo de entrada cont&eacute;m na primeira linha dois n&uacute;meros inteiros (X, Y) que correspondem a velocidade dos carros C1 e C2 respectivamente e na segunda linha um inteiro Z que corresponde a dist&acirc;ncia a qual se quer calcular o tempo para obt&ecirc;-la entre os carros.</p>
 <p>&nbsp;</p>

@@ -1,5 +1,6 @@
 Título: Menor Valor e Posição
 Topicos do problema: array; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span><span class="hps">Escrever</span> <span class="hps">um</span> <span class="hps">programa</span> <span class="hps">que</span> <span class="hps">l&ecirc;</span> <span class="hps">um</span> <span class="hps">n&uacute;mero</span> <span class="hps">N</span><span class="hps">. Este</span> N <span class="hps">&eacute;</span> <span class="hps">o</span> <span class="hps">tamanho</span> <span class="hps">de</span> <span class="hps">um array</span><span>.</span></span></p>
 <p><span> <span class="hps">Em seguida, leia</span> <span class="hps">cada um dos N n&uacute;meros</span> <span class="hps">do array</span><span>,</span> <span class="hps">encontre</span> <span class="hps">o menor elemento</span> <span class="hps">desse array, a</span>&nbsp;<span class="hps">sua posi&ccedil;&atilde;o dentro do</span> <span class="hps">array e</span> <span class="hps">imprima</span> <span class="hps">essas informa&ccedil;&otilde;es.</span></span></p>
 <p>Considere que o array come&ccedil;a na posi&ccedil;&atilde;o 0</p>

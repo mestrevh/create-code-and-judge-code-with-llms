@@ -1,5 +1,6 @@
 Título: Entrada e Saída CPF
 Topicos do problema: entrada formatada; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <title></title><p lang="pt-PT"><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span></span></font></font></font></p><div>O seu professor gostaria de fazer um programa com as seguintes características:</div><div>    • Leia os dados de um CPF no formato XXX.YYY.ZZZ-DD;</div><div>• Imprima os quatro números, sendo um valor por linha.</div><ul><p lang="pt-PT"><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span></span></font></font></font></p></ul>
 Formato da entrada: <p>Cada caso de teste contém uma única linha com um CPF no formato XXX.YYY.ZZZ-DD, onde XXX, YYY, ZZZ, DD são números inteiros.<br/></p>
 Formato da saída: <p>A saída deve conter 4 linhas, cada uma com um número inteiro que corresponde a XXX, YYY, ZZZ e DD.<br/></p>

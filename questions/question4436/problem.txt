@@ -1,5 +1,6 @@
 Título: Compras para o Lulupalooza
 Topicos do problema: estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Criaremos um código para gerar a Nota Fiscal das comprar que foram feitas para o Lulupalooze,</p><p>Vale lembrar que, por causa do cartão de luisa ter sido clonado por ela ter tentado comprar fotos exclusivas de Gustavo Mioto em site duvidosos, ela foi ao mercado somente com cédulas.<br/></p>
 Formato da entrada: <p>A entrada consta de um int N indicando a quantidade de produtos que irão ser comprados;</p><p>as seguintes N linhas serão formadas pelo nome, valor unitário do produto, e quantidade de itens desse produto que irão ser compradas;</p><p>e nas ultimas linhas terá um texto de formato padrão que terá o dia em que Luisa foi ao mercado e na outra quantos reais ela levou. (qualquer dúvida nessas ultimas linhas veja os casos exemplos abaixo)<br/></p>
 Formato da saída: <p>A saida terá esse formato a baixo:</p><p>=============</p><p>NF - 0123  <br/></p><p>Data - XX/XX <br/></p><p>=============</p><p>QTDx NomeProduto - R$XX.XX</p><p><br/></p><p>Valor Total - R$XX.XX</p><p>Pago - R$XX.XX</p><p>Troco - R$XX.XX</p><p>=============</p><p><br/></p><p>OBS: o código da NF será o mesmo sempre, e não tem quebra de linha na ultima linha<br/></p>

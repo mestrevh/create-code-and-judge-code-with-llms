@@ -1,5 +1,6 @@
 Título: Passadas do Relógio
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span><span class="hps">Dado um</span> <span class="hps">rel&oacute;gio</span> <span class="hps">de 12 horas</span><span>, com</span> <span class="hps">display anal&oacute;gico</span><span>, com</span> <span class="hps">um ponteiro das horas</span> <span class="hps">e um</span> <span class="hps">ponteiro dos minutos</span><span>.</span> <span class="hps"></span></span></p>
 <p><span><span class="hps">Quantas vezes</span> <span class="hps">o ponteiro dos <strong>minutos</strong></span> <span class="hps">passa</span> <span class="hps">o ponteiro das <strong>horas</strong></span> <span class="hps">em um determinado</span> <span class="hps">intervalo de tempo</span><span>?</span></span></p>
 <p>&nbsp;</p>

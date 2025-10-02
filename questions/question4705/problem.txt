@@ -1,5 +1,6 @@
 Título: Q09 - É um palíndromo?
 Topicos do problema: função; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Implemente uma função chamada &#34;inverter_string2&#34; que recebe uma string e informe se ela é um palíndromo</p><p>palíndromos são palavras que lidas de trás para frente, são a mesma palavra</p><p>Desenvolva uma função que recebe uma palavra ou frase e retorna se ela é um palíndromo (ignorar espaços e maiúsculas/minúsculas).<br/></p>
 Formato da entrada: <p>Uma string</p>
 Formato da saída: <p>&#34;Eh um palíndromo&#34; caso seja e &#34;Nao eh um palindromo&#34; caso não seja</p>

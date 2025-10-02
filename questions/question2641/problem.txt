@@ -1,5 +1,6 @@
 Título: L5Q3 - Quantas horas?
 Topicos do problema: recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Nossos ladrões têm uma meta de sair da Casa da Moeda com uma certa quantidade de euros <b>E</b>. Eles sabem que, inicialmente, cada uma das <b>N</b> máquinas funcionando imprime <b>X</b> euros por hora e que estas aumentam sua velocidade de impressão em 100 euros por hora. Com isso, eles pedem para que você crie um programa que calcule, usando recursão, o número mínimo de horas necessárias para imprimir os <b>E</b> euros.</p><p><br/></p><p><b>OBS:</b></p><p></p><ul><li><b>É obrigatório o uso de recursão para resolução da questão.</b></li></ul><p></p>
 Formato da entrada: <p>A entrada consiste de uma única linha com 3 inteiros:</p><blockquote><p>E X N</p></blockquote><ul><li>E - número de euros desejado (inteiro)</li><li>X - velocidade inicial das máquinas (inteiro)</li><li>N - número de máquinas funcionando (inteiro)</li></ul>
 Formato da saída: <p>Se o número de horas necessário para imprimir <b>E</b> euros é <b>H</b>, então a saída deve ser:</p><blockquote><p>&#34;Precisamos de <b>H</b> horas para conseguirmos imprimir <b>E</b> euros.&#34;</p></blockquote>

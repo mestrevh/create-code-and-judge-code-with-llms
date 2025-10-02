@@ -1,5 +1,6 @@
 Título: Sequência de figuras
 Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Observe a sequência de figuras a seguir.</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/751e40906c35cda8e35d3097758337a21de715c61.png"/><br/></p><p>Pense: Qual a configuração da figura 4? Existe uma quinta figura diferente das 4 anteriores?</p><p>Joãozinho quer que você o ajude a escrever um programa que dado um número inteiro (n) que corresponda à posição de uma figura, apresente a configuração da figura.</p><p>Por exemplo, <span style="color: rgb(0, 0, 0);text-align: justify;">se n for 3, significa que a figura resultante é a 3. Se n for 5, significa que a figura resultante é a figura 1.</span> </p><p><br/></p>
 Formato da entrada: <p style="color: rgb(0, 0, 0);text-align: justify;"><font face="Times"><font size="3"><span>n, um número inteiro &gt;= 1</span></font></font></p>
 Formato da saída: <p style="color: rgb(0, 0, 0);text-align: justify;"></p><ul><li><span>4 mensagens, se o n for válido, indicando a cor em cada uma das posições: esquerda superior, direita superior, esquerda inferior e direita inferior.</span><br/></li><li><span>Caso o n seja inválido, a mensagem: O número informado é menor que 1.</span></li></ul><p></p>

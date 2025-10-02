@@ -1,5 +1,6 @@
 Título: Primos de Alice
 Topicos do problema: array; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Alice é uma menina com vários probleminhas, dentre eles está o sei fascínio por números primos. Enquanto estava passeando no uninho de Aline, ela viu várias matrizes quadradas (não me pergunte como), sua tarefa vai ser pegar todos os primos em determinada matriz e ordena-los em forma crescente.</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Entrada: número n, que representará o número de linhas e colunas da matriz e os números da matriz</p>
 Formato da entrada: <p>3</p><p>8 53 5 <br/></p><p>6 7 13</p><p>9 10 11<br/></p>
 Formato da saída: <p>5 7 11 13 53<br/></p>

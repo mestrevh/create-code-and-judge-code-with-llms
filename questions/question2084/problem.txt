@@ -1,5 +1,6 @@
 Título: Diamantes para Shiro
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="text-align: left;">Shiro estava tão entretida com uma partida de xadrez que acabou não percebendo que alguém roubou o diamante que seu irmão deu para ela. Esse diamante é muito precioso para ela, então, ajude a imprimir cartazes de vários tamanhos, mostrando como é o diamante.&#65279;&#65279;<img class="irc_mi" src="https://i.pinimg.com/originals/f2/2f/ac/f22fac222ac11d3074f791c857cd3e99.gif" alt="Resultado de imagem para shiro no game no life crying" width="498" height="279"/></p>
 Formato da entrada: <p>A entrada consiste de um inteiro, representando o raio do diamante que deverá ser impresso.</p>
 Formato da saída: <p>A saída deverá conter a impressão do diamante de Shiro.</p>

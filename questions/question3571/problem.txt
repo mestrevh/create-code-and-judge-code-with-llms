@@ -1,5 +1,6 @@
 Título: Latas de Tinta
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <title></title><p class="p1"><span class="s1">Construa um programa que calcule a quantidade de latas de tinta necessárias e o custo para pintar tanques cilíndricos de combustível, onde são fornecidos a altura e o raio desse cilindro.</span></p><p class="p1"><span class="s1"><br/></span></p><p class="p1"><title></title></p><p class="p1"><span class="s1">Sabendo que:</span></p><p class="p1"><span class="s1">- a lata de tinta custa R$20,00</span></p><p class="p1"><span class="s1">- cada lata contém 5 litros</span></p><p class="p1"><span>- cada litro de tinta pinta 3 metros quadrados.</span></p><p class="p1"><title></title></p><p class="p1"><span class="s1">e que raio e altura são dados de entrada.</span></p>
 Formato da entrada: <title></title><p class="p1"><span>Altura </span></p><p class="p1"><span>Raio</span></p>
 Formato da saída: <p>Quantidade de latas de tinta</p><p>Custo total</p>

@@ -1,5 +1,6 @@
 Título: 10 primeiros multiplos
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>pegue todos os 10 primeiros múltiplos do número da entrada, sem usar condicional(if)</p>
 Formato da entrada: <p>um número N, inteiro maior que 0</p>
 Formato da saída: <p>todos os 10 primeiro múltiplos de N</p>

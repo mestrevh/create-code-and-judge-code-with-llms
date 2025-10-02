@@ -1,5 +1,6 @@
 Título: Senhas - Validador de Senhas
 Topicos do problema: decisão; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Seu programa deve receber uma senha do usuário e validar se esta segue os seguinte critérios:</p><p>A senha será uma string em uma única linha, que será inserida pela entrada padrão.</p><p>- Ter 10 ou mais caracteres</p><p>- Ter pelo menos uma letra maiúscula</p><p>- Ter pelo menos uma letra minúscula</p><p>- Ter pelo menos um dígito</p><p>- Não conter símbolos</p><p>- Não iniciar ou terminar nas seguinte sequências:</p><p>- 123</p><p>- 321</p><p>- 000</p><p>- abc</p><p><br/></p><p><b>Ignore os espaços em branco no início e no final da senha. Caso a senha seja válida, imprima uma mensagem de &#34;sucesso&#34;, caso contrário imprima uma mensagem de &#34;fracasso&#34;.</b><br/></p>
 Formato da entrada: <p>Seu programa deve receber uma string S;</p><p>0 &gt; S &lt;= 10³</p>
 Formato da saída: <p>Seu programa deve imprimir &#34;<b>fracasso</b>&#34; caso a senha não seja válida e &#34;<b>sucesso</b>&#34; caso seja válida</p>

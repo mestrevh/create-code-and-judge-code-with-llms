@@ -1,5 +1,6 @@
 Título: É um número triangular?
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <title></title><div class="page" title="Page 11"><div class="layoutArea"><div class="column"><p><span>Um número natural é  triangular se ele é produto de três números naturais consecutivos. Por exemplo: 120 é triangular, pois 4*5*6 = 120. O número 2730 é triangular, pois 13*14*15 = 2730. Dado um número natural (inteiro não-negativo) </span><span>n</span><span>, verifique se ele é triangular ou não. </span></p></div></div></div>
 Formato da entrada: <p>Um número natural</p>
 Formato da saída: <p>Caso o número seja triangular, apresentar quais números formam o número triangular e a mensagem <b><i>Verdadeiro</i></b>. Veja exemplo a seguir:</p><p><span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">13*14*15 = 2730</span><br/></span></p><p><span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Verdadeiro</span></span></p><p><span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Caso o número não seja triangular, apresente a mensagem <b><i>Falso</i></b>.</span></span></p>

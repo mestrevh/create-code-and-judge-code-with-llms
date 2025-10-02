@@ -1,5 +1,6 @@
 Título: Q10 - Pirâmide Numérica
 Topicos do problema: função; string; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Desenvolva um procedimento chamado &#34;piramideNumerica&#34; que recebe um número n e imprimeuma pirâmide numérica com n linhas, onde a primeira linha tem</p><p>&#34;1&#34;</p><p>a segunda tem </p><p>&#34;2 2&#34;,</p><p>a terceira tem</p><p>&#34;3 3 3&#34;, e assim por diante.<br/></p>
 Formato da entrada: <p>um número inteiro</p>
 Formato da saída: <p>uma pirâmide de 1 até o número digitado</p>

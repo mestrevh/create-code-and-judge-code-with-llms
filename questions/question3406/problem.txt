@@ -1,5 +1,6 @@
 Título: Divisores de um número
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Determinar todos os divisores de um número inteiro positivo.</p>
 Formato da entrada: <p>Número inteiro positivo.</p>
 Formato da saída: <p>Divisores desse número, menores que ele.</p>

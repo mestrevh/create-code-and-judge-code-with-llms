@@ -1,5 +1,6 @@
 Título: N primeiros primos
 Topicos do problema: requer solução eficiente; números primos; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você recebeu a missão de encontar os N primeiros primos.<br/></p>
 Formato da entrada: <p>A entrada é um inteiro N.</p><p><br/></p><p>N &lt;= 78000.<br/></p>
 Formato da saída: <p>Imprima N linhas cada uma com um primo.<br/></p>

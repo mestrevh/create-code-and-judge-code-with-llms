@@ -1,5 +1,6 @@
 Título: Strong Number
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Willy acabou de descobrir o conceito de Strong Number e ficou fascinado com esses números, então ele pediu que você o ajudasse a dizer se um número dado é Strong Number.</p><p>Um número é dito Strong Number quando a soma dos fatoriais de cada um de seus números é igual a ele mesmo, exemplo:</p><p>145: 1! + 4! + 5! = 1 + 24 + 120 = 145. Logo 145 é um Strong Number.</p><p>126: 1! + 2! + 6! = 1 + 2 + 720 = 723. Logo 126 não é um Strong Number.</p><p>Agora é sua vez de ajudar Willy, dado um número <b>N </b>diga se ele é um Strong Number.</p>
 Formato da entrada: <p>Uma única linha contendo um inteiro <b>N</b>.</p><p>1 &lt;= <b>N</b> &lt;= 1000</p>
 Formato da saída: <p>Caso seja um Strong Number: <span>Uma única linha contendo </span><b>S</b><span>.</span><span> </span></p><p><span>Caso não seja um Strong Number: Duas linhas, a primeira contendo</span><span> </span><b>N </b><span>e a segunda contendo a soma dos fatoriais de cada número.</span></p>

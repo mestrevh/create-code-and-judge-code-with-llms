@@ -1,5 +1,6 @@
 Título: Some os termos da série I
 Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa em Python 3 para somar os n primeiros termos da seguinte série:</p><div><img src="https://www.thehuxley.com/api/v1/problems/image/3bf511d1553d24bb9d5cad468c720ff64a56e9b7n.png"/></div><p><br/></p><p>DICA: Aqui todas as frações são somadas, mas como calcular o denominador? Tente primeiro fazer a exibição apenas dos denominadores.</p><p>Os denominaores são: 1, 4, 9, 16, 25, 36, .... qual a relação entre eles e a posição dos números?</p><p>Compare com a posição: 1, 2, 3, 4, 5, 6, ....<br/></p><br/>
 Formato da entrada: <p>A entrada será um número natural n &gt; 0.<br/></p>
 Formato da saída: <p>A saída deve ser uma unica linha contendo apenas o resultado da somatória formatado para exibir 6 casas de precisão.<br/></p>

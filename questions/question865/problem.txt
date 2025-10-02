@@ -1,5 +1,6 @@
 Título: Intersecção de arrays
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que dado dois arrays, tenha como saída, a intersecção deles.</p>
 Formato da entrada: <p>Um <b>M </b>sendo o tamanho do array.</p><p>E em seguida, dois arraýs, de tamanho <b>M </b>contendo numeros(<b>K</b>)<b>.</b></p><p>0&lt;<b>M</b>&lt;101.<b> </b></p><p>0&lt;<b>K</b>&lt;10000</p><p><br/></p>
 Formato da saída: <p>Os elementos em comum entre os dois arrays ordenadamente, seguido de uma quebra de linha.</p>

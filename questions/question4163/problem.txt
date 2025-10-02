@@ -1,5 +1,6 @@
 Título: Ana Paula Cigana no modo Xadrez!
 Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ana Paula Cigana na sua última sessão de Tarot acabou brincando com o tabuleiro de Xadrez do seu amigo Danerd Ramanujan e decidiu criar uma nova peça representada por 'A' e pensou em montar um simples problema de matemática. <br/></p><p>As peças capturam nas posições ortogonais, se a peça está em (x, y) os possíveis ataques são:</p><p>- (x, y+1)</p><p>- (x, y-1)</p><p>- (x+1, y)</p><p>- (x-1, y)</p><p><br/></p><p>Ela perguntou a Danerd Ramanujan qual é a configuração que é possível para alocar o máximo de peças 'A' num tabuleiro NxN sem que as peças ataquem umas às outras.</p><p>Obs: A primeira casa (0, 0) deve ser alocada obrigatoriamente uma peça 'A'.<br/></p>
 Formato da entrada: <p>Um natural N representando o tamanho do tabuleiro<br/></p>
 Formato da saída: <p>A configuração do tabuleiro após a alocação das peças 'A'.<br/></p>

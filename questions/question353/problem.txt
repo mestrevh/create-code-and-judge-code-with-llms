@@ -1,5 +1,6 @@
 Título: Índice de Massa Corpórea
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p class="p1">Crie um programa que calcule o IMC de uma pessoa e classifique a pessoa de acordo com seu IMC:&nbsp;</p>
 <p>&nbsp;</p>
 <p class="p1">Formula: IMC = P/A*A, onde P &eacute; o peso e A &eacute; a altura.</p>

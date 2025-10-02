@@ -1,5 +1,6 @@
 Título: Q3 - Quantos números são maiores ou menores que uma variação da média?
 Topicos do problema: array; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Serão dados n números correspondendo as notas da turma de alunos de uma escola.</p><p>Escreva um programa que leia essas notas e calcule:</p><p>- quantas estão mais de 10% acima da média.</p><p><span>- quantas estão menos de 10% abaixo da média.</span></p><h5>obs: não é verificar se a nota é menor ou maior que <b>apenas</b> 10% da média. Mas sim, se ela é maior que a média junto aos 10% e vice-versa.</h5>
 Formato da entrada: <p>Na primeira linha você receberá um número inteiro n, que representará a quantidade de alunos da turma. N  &lt;= 20000.</p>&#13;<p>Em seguida você receberá n números reais, um em cada linha, correspondendo as notas de cada aluno da turma.</p>
 Formato da saída: <p>Imprima na primeira linha da saída a média das notas formatada com duas casas decimais.</p>&#13;<p>Na segunda linha imprima quantas notas ficaram mais de 10% acima da média da turma.</p>&#13;<p>Na terceira linha imprima quantas notas ficaram menos de 10% abaixo da média da turma.</p>

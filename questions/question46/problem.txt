@@ -1,5 +1,6 @@
 Título: Dias entre datas
 Topicos do problema: datas/horas; decisão; entrada formatada; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que calcule o n&uacute;mero de dias entre duas datas dadas.</p>
 Formato da entrada: <p>Consiste de duas datas formatadas representando a data inicial e a final.</p>
 Formato da saída: <p>Uma linha contendo o n&uacute;mero de dias entre as duas datas.</p>

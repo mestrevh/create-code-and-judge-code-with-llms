@@ -1,5 +1,6 @@
 Título: Q04 - Maior entre dois numeros V2
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Cria uma função chamada &#34;maior_numero&#34; que receba como parâmetro dois números reais e diga qual é o maior número</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">se forem iguais, diga que são iguais</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>Adicione a funcionalidade que o resultado, casa seja um número inteiro, seja exibido sem nenhuma casa decimal</span></p>
 Formato da entrada: <p>dois numeros reais</p>
 Formato da saída: <p>o maior numero entre os 2. Caso seja inteiro, exiba sem casas decimais. Caso sejam iguais, digaq que são iguais</p>

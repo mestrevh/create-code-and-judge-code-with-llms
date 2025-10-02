@@ -1,5 +1,6 @@
 Título: Triangulo do Vinicius
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Vinicius é um ótimo programador, mas é meio doido também. Certo dia ele foi desafiado por seu amigo a escrever um programa que gerasse um triangulo, como o abaixo, dado uma letra do alfabeto que representa até onde ele deve ir.</p><div><br/></div><img src="https://www.thehuxley.com/api/v1/problems/image/083572931bf490f7388f9253a20b24f901be73982.png"/><div>assim ele pensou num programa para fazer um triângulo desses para ele. Escreva um programa que dada uma letra (entre A e Z) imprima um triangulo até ela.</div>
 Formato da entrada: <p>Uma letra C (Entre A e Z) que dirá até onde será feito o triângulo<br/></p>
 Formato da saída: <p>Um triângulo como o da imagem acima.<br/></p>

@@ -1,5 +1,6 @@
 Título: Analisando processos
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Betina trabalha em um escrit&oacute;rio de advocacia e todos os dias analisa 
 v&aacute;rios processos. Sabendo que ela cumpre um expediente di&aacute;rio de 8h, 
 escreva um programa que receba como entrada quantos minutos ela leva 

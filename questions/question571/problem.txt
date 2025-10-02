@@ -1,5 +1,6 @@
 Título: Restaurante Universitário
 Topicos do problema: acumulador; decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ot&aacute;vio &eacute; aluno de uma universidade p&uacute;blica e frequentemente vai ao Restaurante Universit&aacute;rio. A refei&ccedil;&atilde;o custa R$3,25 mas Ot&aacute;vio n&atilde;o gosta de andar com moedas, e sempre paga a mais do que o necess&aacute;rio. Um funcion&aacute;rio fez um acordo com o aluno, deixando ele acumular os trocos e usar posteriormente sem precisar pagar. Fa&ccedil;a um programa que receba como entrada a quantidade de refei&ccedil;&otilde;es que Ot&aacute;vio pagou (1 &lt;= qtd &lt;= 100) e o valor das c&eacute;dulas que ele usou (2, 5, 10 ou 20 reais) e que obtenha como resposta a quantidade inteira de refei&ccedil;&otilde;es que o restaurante deve a ele.</p>
 <p>&nbsp;</p>
 <p>DICA: Ser&aacute; necess&aacute;ria uma condi&ccedil;&atilde;o para o caso das notas de 2.</p>

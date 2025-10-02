@@ -1,5 +1,6 @@
 Título: Triângulo com uma String
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba uma String não vazia cujo tamanho (N) deve ser de no máximo 20 caracteres. Se programa deve imprimir um triângulo formado pelas letras que fazem parte da String transformadas para maiúsculas e repetidas de acordo com a sua posição na String.</p>
 Formato da entrada: <p>Uma linha contendo uma String de tamanho de 1 a 20. Quando a entrada dada não respeitar esta regra, deve-se imprimir uma linha com a mensagem “Entrada invalida” e na linha seguinte ler novamente a String. Esse processo de leitura só termina quando for digitada uma String válida.<br/></p>
 Formato da saída: <p>Seu programa precisa imprimir um triângulo que deve ter N linhas (com caracteres alinhados à esquerda), sendo que a primeira linha contém o primeiro caractere da String transformado para maiúsculo. Na segunda linha, deve ser impresso o segundo caractere transformado para maiúsculo e repetido 2 vezes. Por sua vez, a terceira linha deve conter o terceiro caractere transformado para maiúsculo e repetido 3 vezes. A sequência das linhas segue este padrão até a N-ésima linha.<br/></p>

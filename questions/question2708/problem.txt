@@ -1,5 +1,6 @@
 Título: Prejudicando o adversário
 Topicos do problema: decisão; repetição; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você e seu amigo adoram jogos!</p><p>Vocês usam uma matriz para armazenar a situação atual do jogo. </p><p>Você tem percebido que está ficando para trás em relação ao seu amigo e resolveu alterar (nada ético, por sinal) a matriz para dificultar a vida do seu amigo.</p><p>Para isso, você precisa de um programa para executar sua ideia que é trocar as linhas pelas colunas da matriz, e toda vez que encontrar um número negativo, multiplicar por dois. Como entrada, deve ser lido um número inteiro para representar a ordem da matriz e depois os valores contidos em cada linha da matriz.</p><p><br/></p>
 Formato da entrada: <ul><li>a ordem da matriz (inteiro n)</li><li>matriz quadrada de inteiros de ordem n</li></ul>
 Formato da saída: <p>A matriz resultante das alterações realizadas onde cada elemento de uma linha deve estar separado por um espaço em branco.</p>

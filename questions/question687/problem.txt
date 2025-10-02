@@ -1,5 +1,6 @@
 Título: Triângulo de Pascal
 Topicos do problema: requer solução eficiente; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ambrosinho teve aula de combinatória no colégio e ficou fantasiado pelo triângulo de pascal, e você decidiu ajudá-lo.</p><p><br/></p>
 Formato da entrada: <p>Um número N ( 0 &lt;= N &lt;= 25 ) que será o limite do triângulo. <br/></p>
 Formato da saída: <p>Terá N+1 linhas que cada linha será os valores do triângulo.<br/></p>

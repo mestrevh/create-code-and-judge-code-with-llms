@@ -1,5 +1,6 @@
 Título: Cápsulas de Café
 Topicos do problema: acumulador; decisão; repetição; caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Alguns professores do DCX adoram tomar caf&eacute; e decidiram adquirir uma cafeteira especial para a sala do Departamento. A cafeteira utiliza c&aacute;psulas de caf&eacute; de v&aacute;rios sabores para preparar a bebida, e cada c&aacute;psula prepara o equivalente a duas x&iacute;caras.</p>
 <p>As c&aacute;psulas s&atilde;o vendidas em caixas pequenas (10 unidades) ou grandes (16 unidades), e ficou acertado que cada professor faria a doa&ccedil;&atilde;o de quantas caixas quisesse para o grupo.</p>
 <p>Escreva um programa que receba como entrada a quantidade e o tamanho das caixas doadas por cada um dos sete professores que compartilham a cafeteira, e exiba a quantidade total de c&aacute;psulas de caf&eacute; doadas, e quantas x&iacute;caras cada professor poder&aacute; beber.</p>

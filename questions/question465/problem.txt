@@ -1,5 +1,6 @@
 Título: Vaquinha para Valquíria
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Valqu&iacute;ria trabalha em uma padaria e foi roubada ontem. Seus clientes ficaram com pena e resolveram organizar uma vaquinha para comprar um novo celular para ela. Escreva um programa que receba como entrada o valor doado por cada cliente, at&eacute; que seja informado um valor negativo, e exiba o total arrecadado e o valor m&eacute;dio doado por eles.</p>
 Formato da entrada: <p>V&aacute;rios valores reais, at&eacute; que seja informado um negativo</p>
 Formato da saída: <p>Dois valores reais, com duas casas decimais cada um</p>

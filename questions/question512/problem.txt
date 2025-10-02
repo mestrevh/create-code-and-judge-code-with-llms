@@ -1,5 +1,6 @@
 Título: Decompondo cubos
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="font-size: small;">Na primeira semana de aula da turma de &Aacute;lgebra Vetorial e Linear para Computa&ccedil;&atilde;o, o professor pediu para que os alunos provassem a seguinte "sequ&ecirc;ncia":</span></p>
 <p><span style="font-size: small;"><br />1&sup3; = 1<br />2&sup3; = 3 + 5<br />3&sup3; = 7 + 9 + 11<br />4&sup3; = 13 + 15 + 17 + 19<br />5&sup3; = 21 + 23 + 25+ 27 + 29</span></p>
 <p><span style="font-size: small;"><br />...

@@ -1,5 +1,6 @@
 Título: Ordena vértices de polígono convexo
 Topicos do problema: geometria computacional; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados os n vértices de um polígono convexo, ordene-os em sentido anti-horário.</p>
 Formato da entrada: <p>O número de vértices n.</p><p>Os n vértices do polígono convexo. Cada vértice é descrito pelas suas coordenadas x e y, dois números reais separados por espaço.</p>
 Formato da saída: <p>A listagem dos vértices ordenada em sentido anti-horário. A listagem inicia com o ponto mais esquerda do polígono. Se houverem dois pontos mais à esquerda, o ponto inicial será aquele mais embaixo.</p><p>Todos os números deverão ser escritos com quatro casas decimais.</p>

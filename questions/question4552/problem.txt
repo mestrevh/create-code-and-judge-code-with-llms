@@ -1,5 +1,6 @@
 Título: I-ésimo Maior
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você vai receber uma lista com <i>n</i> valores e deve retornar o i-essímo maior valor.</p>
 Formato da entrada: <p>Uma linha contendo um valor <i>n</i> que corresponde a quantidade de inteiros da lista e um i (1 &lt;= i &lt;= n) que corresponde ao valor.</p><p>Uma linha contendo <i>n</i> valores inteiros.</p>
 Formato da saída: <p>O valor do i-essímo maior.</p>

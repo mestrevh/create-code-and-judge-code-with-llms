@@ -1,5 +1,6 @@
 Título: Escalonamento Ótimo
 Topicos do problema: array; pilha; função; estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O SBC (System for Batch Computing) &eacute; um sistema operacional voltado para a execu&ccedil;&atilde;o sequencial de tarefas.<br />O operador do sistema cria tarefas e o sistema operacional &eacute; respons&aacute;vel por agendar a execu&ccedil;&atilde;o destas tarefas.</p>
 <p>Cada tarefa pode depender da conclus&atilde;o de algumas tarefas para poder come&ccedil;ar. Se uma tarefa A depende de<br />uma tarefa B, a tarefa B deve terminar antes que a tarefa A inicie sua execu&ccedil;&atilde;o.</p>
 <p>Al&eacute;m disto, cada tarefa possui uma prioridade. &Eacute; sempre mais vantajoso para o sistema come&ccedil;ar executando<br />uma tarefa de mais alta prioridade, depois continuar executando uma tarefa de mais alta prioridade dentre as<br />que sobraram e assim por diante.</p>

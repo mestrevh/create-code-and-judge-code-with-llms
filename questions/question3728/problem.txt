@@ -1,5 +1,6 @@
 Título: Fazenda do João
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Seu João comprou uma fazenda com um grande terreno e decidiu que ira começar a praticar agricultura. O problema é que seu João não tem conhecimento quanto as épocas adequadas para plantar ou colher.</p><p>Crie um programa onde seu João coloque a data e receba a instrução do que fazer no dia através de uma função chamada <i><b>&#34;Plantar_e_Colher&#34;.</b></i></p><p><i>Usando como base a tabela a seguir</i></p><p><i>:</i><img src="https://www.thehuxley.com/api/v1/problems/image/7862f05e99e9fa1f48e690ea9f238de1af0093a3h.png" id="exifviewer-img-44"/></p><p><br/></p><p><br/></p>
 Formato da entrada: <p>dois inteiros, representando a data e o mês respectivamente</p>
 Formato da saída: <p>&#34;Hora de plantar ...&#34;</p><p>&#34;Hora de colher ...&#34;</p>

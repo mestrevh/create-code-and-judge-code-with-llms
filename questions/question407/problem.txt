@@ -1,5 +1,6 @@
 Título: 3n +1
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Considere o seguinte algoritmo para gerar uma sequ&ecirc;ncia de n&uacute;meros. Comece com um inteiro n. Se n for par, divida por 2. Se n for &iacute;mpar, multiplique por 3 e some 1. Repita esse processo com o novo valor de n, terminando quando n = 1. Por exemplo, a seguinte sequ&ecirc;ncia de n&uacute;meros ser&aacute; gerada quando n &eacute; 22:</p>
 <p>22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1</p>
 <p>Embora ainda n&atilde;o exista uma prova, os matem&aacute;ticos acreditam que esse algoritmo sempre termina com n=1, para qualquer inteiro n. Bem, para este problema aqui no Huxley, essa propriedade se mant&eacute;m para qualquer inteiro menor que 1.000.000.</p>

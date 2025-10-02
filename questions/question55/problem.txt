@@ -1,5 +1,6 @@
 Título: Sequência de 10
 Topicos do problema: array; acumulador; dicionário; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que leia uma sequ&ecirc;ncia de 10 n&uacute;meros e informe o total de ocorr&ecirc;ncias do &uacute;ltimo n&uacute;mero lido.</p>
 Formato da entrada: <p>O programa receber&aacute; uma sequ&ecirc;ncia de 10 n&uacute;meros inteiros.</p>
 Formato da saída: <p>O numero X apareceu N vezes.<br />Onde X &eacute; o &uacute;ltimo n&uacute;mero lido e N foi o n&uacute;mero de vezes que esse n&uacute;mero apareceu. A sa&iacute;da deve ser seguida de um final de linha.</p>

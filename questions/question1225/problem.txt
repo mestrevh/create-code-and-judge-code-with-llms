@@ -1,5 +1,6 @@
 Título: Maior elemento
 Topicos do problema: array; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Elabore uma função em Python para calcular o maior elemento de uma lista de inteiros passada por parâmetro. A lista não necessariamente está ordenada.</p>
 Formato da entrada: <p>[1, 4, -9, 0, 6]</p>
 Formato da saída: <p>6</p>

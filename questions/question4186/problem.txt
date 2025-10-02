@@ -1,5 +1,6 @@
 Título: Par de pontos mais próximo
 Topicos do problema: geometria computacional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um conjunto de pontos em posição geral no plano, encontre a menor distância entre quaisquer dois pontos do conjunto.</p><p>Cada ponto é descrito por suas coordenadas no plano. Todas as coordenadas são números inteiros entre 0 e 999.</p>
 Formato da entrada: <p>A entrada é composta por uma linha contendo o número <b>n </b>representando o número de pontos do conjunto, seguida por n linhas contendo dois números cada contendo as coordenadas de cada ponto.</p>
 Formato da saída: <p>A saída é um número real com quatro casas decimais de precisão representando a menor distância entre qualquer par de pontos.</p>

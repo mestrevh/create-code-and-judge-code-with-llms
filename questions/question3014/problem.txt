@@ -1,5 +1,6 @@
 Título: Ferraduras
 Topicos do problema: multiplas entradas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa para calcular quantas ferraduras são necessárias para equipar todos os cavalos comprados para um haras.<br/></p>
 Formato da entrada: <p>O programa terá como entrada apenas um valor inteiro referente ao número de cavalos.</p>
 Formato da saída: <p>O programa deve exibir a quantidade de ferraduras necessárias para equipar os cavalos. Ex.: para 1 cavalo o programa deverá gerar a saída: Total de Ferraduras = 4</p>

@@ -1,5 +1,6 @@
 Título: Q08 - Inversão de Strings
 Topicos do problema: função; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Implemente uma função chamada &#34;inverter_string&#34; que recebe uma string e retorna ela invertida.<br/></p>
 Formato da entrada: <p>Uma string</p>
 Formato da saída: <p>A string invertida</p>

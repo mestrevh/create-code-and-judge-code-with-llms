@@ -1,5 +1,6 @@
 Título: Noites de Vinhos
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <h3><p></p></h3><p>As monitoras de AVLC possuem um certo ritual: Todo mês consomem uma enorme quantidade de vinhos corrigindo MPs. O número de taças consumidas em uma noite será a média de <b>N</b> notas corrigidas, ao corrigirem um 0 a correção se acaba. Considerando que são <b>X</b> MPs em um período. Calcule quantas taças de vinho foram consumidas.</p><p>O número x será a primeira entrada do problema, já o número n não será dado. Ao fazer a média de uma das MPs, arredonde o número de taças para baixo.</p><p></p>
 Formato da entrada: <p>A entrada consistirá de um número N, que representará a quantidade de linhas posteriores no problema. As linhas podem possuir tamanhos variados mas, todas terminam em 0</p>
 Formato da saída: <p>A frase:</p><p>Elas beberam x taças!</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/905faf26e0e0c62e365b0cdf13dfcdc1f505e076f.jpg"/><br/></p>

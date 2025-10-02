@@ -1,5 +1,6 @@
 Título: Escalas de temperatura
 Topicos do problema: métodos numéricos; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p></p><p></p><p><span style="color: #000000;background-color: transparent;">Faça um programa em Python3 que receba uma temperatura em Fahrenheit, calcule e imprima o valor convertido para a escala Celsius e para a escala Kelvin, de acordo com as equações de conversão abaixo:</span></p><pre><span style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;">t_celsius = (t_fahrenheit - 32) * 5/9</span><br/><br/>t_kelvin = t_celsius + 273.15<br/></span></pre>
 Formato da entrada: <p>A entrada será um número real n, com n &gt;= -459.67. (o zero absoluto, ou 0K, é igual a -459.67°F)<br/></p>
 Formato da saída: <p>A saída deverá ser formatada conforme o exemplo abaixo:</p><pre>Convertendo &lt;valor1&gt; graus Fahrenheit temos:<br/>&lt;valor2&gt; graus Celsius e &lt;valor3&gt; Kelvin<br/></pre><p>Onde valor 1, 2 e 3 são respectivamente os valores de temperatura em Fahrenheit, Celsius e Kelvin.<br/></p><p>Notem que na temperatura Kelvin não se usa o termo grau. (Diz-se 250 Kelvin e não 250 graus Kelvin)</p><p><br/></p><p>[editado] O enunciado e os testes foram editados, removendo-se o símbolo de grau<br/></p>

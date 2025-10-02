@@ -1,5 +1,6 @@
 Título: Buracos no texto
 Topicos do problema: array; função; dicionário; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O senhor Huxley, amigo do Ambr&oacute;sio, escreveu um texto em um peda&ccedil;o de papel e quer saber quantos buracos existem no texto. Mas o que &eacute; um buraco? Imagine, por exemplo, que as letras "A", "D", "O", "P", "R" possuem apenas um buraco. Da mesma forma, a letra "B" possui dois buracos. J&aacute; as letras "C", "E", "F", "K" n&atilde;o possuem buracos. N&oacute;s devemos considerar que o n&uacute;mero de buracos em um texto &eacute; igual ao n&uacute;mero total de buracos nas letras do texto. Ajude o sr. Huxley a determinar quantos buracos existem no texto.</p>
 Formato da entrada: <p>A primeira linha contém um inteiro simples T &lt;= 40 que indica o número de casos de testes. Depois, seguem-se T casos de teste. Cada linha do caso de teste contém um texto não vazio composto somente de caracteres maiúsculos do alfabeto inglês. O tamanho de cada texto é menor ou igual a 100. Não existem espaços na entrada.</p>
 Formato da saída: <p>Para cada caso de teste, a sa&iacute;da consiste de uma linha contendo o n&uacute;mero de buracos encontrado no caso de teste.</p>

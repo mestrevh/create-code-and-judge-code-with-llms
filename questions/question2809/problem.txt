@@ -1,5 +1,6 @@
 Título: Algarismo das Unidades
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <div class="ng-binding"><p>Escreva um programa que recebe um numero inteiro como entrada e fornece o algarismo da casa das unidades deste numero.</p><p>Por exemplo, o algarismo da casa das unidades do número 3872 é 2.</p><p>Se o número dado for negativo, considere que o algarismo também será negativo. Por exemplo, se o número dado for -74, a resposta deve ser -4 e não 4.</p></div>
 Formato da entrada: <p>O usuario deve digitar um número inteiro. <br/></p>
 Formato da saída: <p>O programa deve exibir o algarismo das unidades do número digitado, imprimindo na tela os valores abaixo:</p><p>Digite um numero:<br/></p><p>Algarismo das unidades: n</p>

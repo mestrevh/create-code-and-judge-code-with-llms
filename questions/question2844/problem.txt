@@ -1,5 +1,6 @@
 Título: Vaquinha para Valquíria
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Valquíria trabalha em uma padaria e foi roubada ontem. Seus clientes ficaram com pena e resolveram organizar uma vaquinha para comprar um novo celular para ela. Escreva um programa que receba como entrada o valor doado por cada cliente, até que seja informado um valor negativo, e exiba o total arrecadado e o valor médio doado por eles.<br/></p>
 Formato da entrada: <p>Serão inseridos vários valores reais, até que seja informado um negativo<br/></p>
 Formato da saída: <div class="ng-binding"><p>O programa deve exibir o total arrecadado e o valor médio doado, com duas casas decimais cada um, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Insira os valores das doacoes:</p><p>Total arrecadado: n.nn<br/></p><p>Valor medio da doacao: n.nn</p></div>

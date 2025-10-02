@@ -1,5 +1,6 @@
 Título: Common Prefixes
 Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um conjunto com N strings {S1, S2, ..., SN} ache os prefixos com tamanho &gt;= 1 que são comuns a pelo menos K strings do conjunto.</p><p>Um prefixo de uma string S é uma substring obtida pela exclusão de 0 ou mais caracteres a partir do final de S.</p><p>Por exemplo, se S = &#34;abracadabra&#34;:  &#34;a&#34;, &#34;ab&#34;, &#34;abra&#34;, &#34;abraca&#34; e abracadabra&#34; são exemplos de prefixos de S.</p><p>Para não gerar ambiguidade os prefixos válidos devem ser impressos em ordem lexicográfica.</p>
 Formato da entrada: <p>Dois inteiros (1 &lt;= N, K &lt;= 30000).</p><p>N strings de tamanho (1 &lt;= T &lt;= 20).</p>
 Formato da saída: <p>Primeiramente deverá ser impresso a quantidade Q de prefixos válidos.</p><p>Em seguida os Q prefixos  {P1, P2, ..., PQ} em ordem lexicográfica.</p>

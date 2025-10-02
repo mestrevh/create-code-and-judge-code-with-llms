@@ -1,5 +1,6 @@
 Título: Soma de uma sequência de números
 Topicos do problema: multiplas entradas; acumulador; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Seu objetivo &eacute; escrever um programa que calcule a soma dos elementos dados na entrada.</p>
 Formato da entrada: <p>Consiste de um n&uacute;mero inteiro n indicando a quantidade de elementos a serem lidos seguidos de n elementos, um em cada linha.</p>
 <p>Aten&ccedil;&atilde;o, considere: n &lt;=10000.</p>

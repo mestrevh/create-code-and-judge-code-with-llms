@@ -1,5 +1,6 @@
 Título: Divisivel por três
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span class="fontstyle0">Faça um programa que calcule a quantidade de divisores de um número (incluindo 1 e o próprio número) que são divisíveis por 3.</span><span class="fontstyle0"></span><br/></p>
 Formato da entrada: <p>O usuário deve digitar um inteiro N.<br/></p>
 Formato da saída: <p>O programa deve exibir um inteiro R, sendo R o número de divisores de N que são divisiveis por 3. Caso não tenha nenhum, imprima &#34;O numero nao possui divisores multiplos de 3&#34; sem as aspas.</p><p><br/></p><p>O programa deve imprimir<br/></p><p><br/></p><p>Digite um numero inteiro:<br/></p><p>Quantidade de divisores divisiveis por 3: n / O numero nao possui divisores multiplos de 3<br/></p><p><br/></p><p><br/></p>

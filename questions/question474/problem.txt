@@ -1,5 +1,6 @@
 Título: Rotas de Entrega
 Topicos do problema: grafo; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p>A Compahia de Barcos da China(CBC) precisa de um software para ajud&aacute;-la a fazer cota&ccedil;&otilde;es para os seus clientes. O custo de uma entrega de navio depende do tamanho da encomenda e de quantas aquavias s&atilde;o necess&aacute;rias percorrer.</p>
 <p>Uma aquavia &eacute; um caminho mar&iacute;timo que conecta dois portos. Nem todos os pares de portos est&atilde;o conectados por uma aquavia. Pode ser que para ir de um porto para o outro, seja necess&aacute;rio passar por v&aacute;rias aquavias.</p>
 <p>A CBC opera em at&eacute; 7000 portos diferentes. Cada porto &eacute; identificado por uma string. As aquavias sempre existem entre dois portos distintos. Todas as aquavias s&atilde;o bidirecionais.</p>

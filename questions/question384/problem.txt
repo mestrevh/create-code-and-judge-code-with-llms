@@ -1,5 +1,6 @@
 Título: Reformando a sala
 Topicos do problema: acumulador; decisão; string; 
+Tempo limite de execução: 2 segundo(s)
 Descrição: <p><span style="font-size: small;">Marion decidiu mudar a decora&ccedil;&atilde;o de sua casa come&ccedil;ando pela sala. Ela comprou m&oacute;veis e objetos novos, mas acabou perdendo a conta dos gastos. </span></p>
 <p><span style="font-size: small;">Escreva um programa que receba como entrada a descri&ccedil;&atilde;o e o valor pago por cada item adquirido, e exiba o total gasto e o nome do item mais caro comprado.&nbsp;</span></p>
 <p>&nbsp;</p>

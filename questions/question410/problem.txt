@@ -1,5 +1,6 @@
 Título: A melhor compra de ações
 Topicos do problema: requer solução eficiente; dividir e conquistar; programação dinâmica; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Se voc&ecirc; pudesse voltar no tempo e visse o hist&oacute;rico de pre&ccedil;os de uma determinada a&ccedil;&atilde;o, quando voc&ecirc; escolheria comprar e vender aquela a&ccedil;&atilde;o?</p>
 <p>Mas voc&ecirc; s&oacute; pode escolher um momento de compra e um momento de venda.</p>
 Formato da entrada: <p>A entrada consiste de um inteiro n correspondendo ao tamanho da s&eacute;rie de pre&ccedil;os.</p>

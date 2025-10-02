@@ -1,5 +1,6 @@
 Título: Nome ao contrário
 Topicos do problema: string; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p><span style="color: rgb(51, 51, 51);text-align: justify;float: none;">Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente, a primeira e a última letra devem estar em maiúsculo. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.</span><br/></p>
 Formato da entrada: <p>Nome informado</p>
 Formato da saída: <p>Nome invertido com <span style="color: rgb(51, 51, 51);text-align: justify;background-color: rgb(255, 255, 255);float: none;">a primeira e a última letra devem estar em maiúsculo.</span></p>

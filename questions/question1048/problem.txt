@@ -1,5 +1,6 @@
 Título: Horas extras
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Seu Furustreco é um patrão justo. Ele decidiu pagar para cada funcionário além de cada hora extra, um adicional de 10% sobre cada hora extra.</p><p>Para ajudar seu Furustreco, você deve fazer um programa que recebe o salário base do empregado e quantas horas extras ele fez naquele mês. Você deve imprimir na saída padrão o salário final do empregado.</p><p>Dica: Você deve usar o salário base para calcular quanto custa uma hora extra do empregado. Considerando que a carga horária mensal de uma pessoa é de 44 horas.</p><p>O valor de saída deve ser arredondado usando 2 casas decimais.<br/></p>
 Formato da entrada: <p>Um valor real (float) que representa o salário do empregado e um valor inteiro que representa a quantidade de horas extras do empregado.</p><p>Considere o salário base um valor entre 1000.00 e 10000.00</p><p>A quantidade de horas extras por mês vai de 0 até 50.</p>
 Formato da saída: <p>Um valor real (float) que representa o salário final do empregado.</p><p>O valor de saída deve ser arredondado usando 2 casas decimais.<br/></p>

@@ -1,5 +1,6 @@
 Título: Inversão de número (3 algarismos)
 Topicos do problema: ponto flutuante; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Gere o invertido de um número com três algarismos (exemplo: o invertido de 498 é 894).<br/></p>
 Formato da entrada: <p>498</p>
 Formato da saída: <p>894</p>

@@ -1,5 +1,6 @@
 Título: Par com maior produto
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um vetor/lista com números inteiros, encontre o par de números consecutivos cujo produto é o maior entre todos os pares de números consecutivos.</p>
 Formato da entrada: <p>O usuário deve fornecer <b>primeiramente </b>o número de elementos que o vetor/lista terá. Após isso, o programa deve pedir que o usuário digite número a número até preencher completamente o vetor/lista.</p>
 Formato da saída: <p>A saíde deve ser apenas um número inteiro com o maior produto entre dois inteiros consecutivos pertencentes ao vetor/lista.</p>

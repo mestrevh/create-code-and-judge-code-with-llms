@@ -1,5 +1,6 @@
 Título: IMC Octave
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que receba as características (massa e altura) de uma pessoa e retorne seu IMC - Índice de Massa Corporal com 1 casa decimal. O IMC é dado pelo peso dividido pela altura ao quadrado da pessoa.<br/></p>
 Formato da entrada: <p>A massa em Kg</p><p>A altura em metros<br/></p>
 Formato da saída: <p>O programa deve exibir o IMC calculado, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a massa em Kg:<br/></p><p>Digite a altura em m:<br/></p><p>IMC = n.n<br/></p>

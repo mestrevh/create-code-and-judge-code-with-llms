@@ -1,5 +1,6 @@
 Título: Palavras com fatiamento e concatenação
 Topicos do problema: substrings; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Construa um programa em Python que lê (nesta ordem) uma string <b>s</b> e 4 números inteiros <b>i1</b>, <b>f1</b>, <b>i2</b> e <b>f2</b>.<br/></p><p>Os números <b>i1</b> e <b>f1</b> representam os índices inicial e final (inclusive) do fatiamento (<i>slice</i>) <b>s1</b> da string <b>s</b>.</p><p><span>Os números <b>i2</b> e <b>f2</b> representam os índices inicial e final (inclusive) do fatiamento (<i>slice</i>) <b>s2</b> da string <b>s</b>.</span></p><p>Seu programa deve calcular as substrings <b>s1</b> e <b>s2</b> e imprimir a <u>concatenação</u> delas, respectivamente.</p><p><br/></p>
 Formato da entrada: <p>Cinco valores nesta ordem:</p><p>1- string <b>s</b></p><p>2- inteiro <b>i1</b></p><p>3- inteiro <b>f1</b></p><p>4- inteiro <b>i2</b></p><p>5- inteiro <b>f2</b></p><p><b>Lembrete:</b> <u>NÃO</u> utilize argumento na função input().</p>
 Formato da saída: <p>Calcule o fatiamento <b>s1</b> e <b>s2</b> da string <b>s</b> (lida) utilizando os índices <b>i1</b> até <b>f1</b> (inclusive), e <b>i2</b> até <b>f2</b> (inclusive), respectivamente.</p><p>Concatene e imprima <b>s1</b> e <b>s2</b>.</p>

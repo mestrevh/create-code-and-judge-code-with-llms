@@ -1,5 +1,6 @@
 Título: Os presentes de Aninha
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Está chegando o aniversário da sua linda amiga Dayane e Aninha comprou vários presentes para lhe presentear neste dia. Mas agora ela precisa embrulhar todos esses presentes e como ela gastou muito em todos os presentes, ela não quer gastar muito com o papel pra embrulhar. Então, ela teve a ideia de embrulhar todos os presentes juntos e comprar exatamente a quantidade necessária de papel.Considerando que todos os presentes são cubinhos de lado<b> 1</b>, qual a <b>menor área de papel de presente que Aninha deve comprar para embrulhá-los?</b></p><p> Note que: se Aninha tiver comprado 4 presentes, ela tem a opção de juntar um do lado do outro e a área seria 18. Porém, ela pode juntá-los de modo a formar um quadrado 2x2 que a área seria 16, logo seria mais vantagem pra Aninha juntar dessa forma para que ela só precise comprar 16 unidades de área.</p><p><br/></p>
 Formato da entrada: <p>Consiste de apenas um número<b> N </b>que indica a quantidade de presentes que Aninha comprou<br/></p>
 Formato da saída: <p>Deverá conter um número <b>A</b> que é a menor área de papel de presente que Aninha deverá comprar para embrulhar os N presentes.<br/></p>

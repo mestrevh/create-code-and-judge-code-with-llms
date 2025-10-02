@@ -1,5 +1,6 @@
 Título: Ordenação de matrizes
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Simplesmente ordenar uma matriz. Consideramos ordenar uma matriz qualquer elemento da esquerda for menor do que o da direita e qualquer elemento da linha é menor do que todos os elementos da linha abaixo, ou seja, da esquerda para direita e de cima para baixo.<br/></p>
 Formato da entrada: <p>Na primeira linha receberá <b>M</b> e <b>N </b>inteiros no qual será as dimensões da matriz. Logo em seguida receberá <b>M</b> linhas , onde cada linha terá <b>N</b> valores inteiros.<br/></p><p> 1 &lt;= <b>N</b> , <b>M</b> &lt;= 10.<br/></p>
 Formato da saída: <p><b>M</b> linhas onde cada linha terá <b>N</b> inteiros ordenados.<br/></p>

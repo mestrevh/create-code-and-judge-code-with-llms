@@ -1,5 +1,6 @@
 Título: Ângulo entre pontos
 Topicos do problema: geometria computacional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados 3 pontos a, b, c, calcule o ângulo abc em graus.<br/></p>
 Formato da entrada: <p>São dadas 3 linhas. Cada linha contém as coordenadas x e y de cada ponto.</p><p>Não existe entrada que contenha os 3 pontos colineares.<br/></p>
 Formato da saída: <p>A saída é um número real formatado com duas casas decimais correspondendo ao ângulo encontrado.<br/></p>

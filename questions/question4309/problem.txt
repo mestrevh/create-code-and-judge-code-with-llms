@@ -1,5 +1,6 @@
 Título: Alfabeto
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>escreva um programa que receba letras separadas por espaço até o eof e então printe todas elas ordenadas!<br/></p>
 Formato da entrada: <p>Uma série de letras sendo todas elas maicúsculas e separadas por espaço.<br/></p>
 Formato da saída: <p>a sequência correta de letras em ordem alfabética e separadas por espaço.<br/></p>

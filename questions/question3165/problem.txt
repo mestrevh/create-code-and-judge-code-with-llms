@@ -1,5 +1,6 @@
 Título: Triângulo
 Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie uma função que recebe três inteiros (a, b, c) e retorna true (1) se existir a condição do triângulo <b>abc</b> ou false (0) se a condição não existir.<br/></p>
 Formato da entrada: <p>3 5 5</p>
 Formato da saída: <p>1</p>

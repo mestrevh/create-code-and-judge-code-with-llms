@@ -1,5 +1,6 @@
 Título: Sistema de matrícula
 Topicos do problema: estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; &eacute; um aluno de computa&ccedil;&atilde;o e a &eacute;poca de matr&iacute;cula na sua universidade se aproxima. O n&uacute;cleo de tecnologia da informa&ccedil;&atilde;o j&aacute; come&ccedil;a a se agitar para preparar os sistemas para a matr&iacute;cula. Por&eacute;m, eles perceberam que n&atilde;o ir&atilde;o ficar com o sistema pronto a tempo e resolveram pedir a sua ajuda. Sua miss&atilde;o &eacute; fazer uma parte do sistema de matr&iacute;cula e enviar o c&oacute;digo para ele.</p>
 <p>Use esse exerc&iacute;cio para praticar o conceito de tipos de dados compostos. Ou seja, se a sua linguagem for:</p>
 <p>

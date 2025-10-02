@@ -1,5 +1,6 @@
 Título: O dobro dos elementos, só que invertido!
 Topicos do problema: array; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; receber&aacute; uma sequ&ecirc;ncia de n&uacute;meros inteiros. Voc&ecirc; deve imprimir o dobro desses n&uacute;meros, do &uacute;ltimo n&uacute;mero recebido para o primeiro. Voc&ecirc; tamb&eacute;m receber&aacute; a quantidade de n&uacute;meros. Por exemplo, a entrada:</p>
 <p>4</p>
 <p>3</p>

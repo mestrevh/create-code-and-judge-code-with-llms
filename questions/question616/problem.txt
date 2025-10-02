@@ -1,5 +1,6 @@
 Título: Identificando chás
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Degustação de chá às cegas é a habilidade de identificar o chá usando somente os sentidos do paladar e do olfato.</p><p>Como parte do Incrível Campeonato de Puristas bebedores de Chá (ICPC), um programa de TV local organizou uma degustação. Durante o programa, cada competidor recebe uma chícara do mesmo chá. Eles podem cheirar e experimentar para tentar identificar o tipo de chá, que pode ser: (1) chá-branco; (2) chá-verde; (3) chá-preto; ou (4) chá de ervas. Ao final, as respostas são verificadas para saber o número de respostas corretas.</p><p>Dado o tipo de chá atual e as respostas dos participantes, determine a quantidade de competidores que acertaram a resposta.</p>
 Formato da entrada: <p>A primeira linha contém um inteiro T representando o tipo de chá ( 1&lt;= T &lt;= 4). A segunda linha contém 5 inteiros A, B, C, D e E, indicando a resposta dada por cada competidor (1&lt;= A, B, C, D, E &lt;= 4).<br/></p>
 Formato da saída: <p>Imprima uma linha com um inteiro representando o número de competidores que acertaram a resposta.<br/></p>

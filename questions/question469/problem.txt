@@ -1,5 +1,6 @@
 Título: Jogando dados
 Topicos do problema: acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Reinaldo e Helena s&atilde;o muito competitivos e decidiram apostar nos dados. Em 5 partidas, cada um vai jogar um dado (n&uacute;meros de 1 a 6) para ver quem consegue o maior n&uacute;mero. Ser&aacute; vencedor do jogo aquele que ganhar mais partidas. Em caso de empate, ganha quem conseguir somar mais pontos. Em caso de empate, n&atilde;o haver&aacute; vencedor.</p>
 <p>Escreva um programa que receba como entrada o resultado dos dados de cada partida e exiba, ao final, o nome do jogador vencedor. Caso n&atilde;o haja vencedor, dever&aacute; ser exibida a mensagem Empate.</p>
 Formato da entrada: <p>Dois n&uacute;meros inteiros por partida, sendo o primeiro referente ao dado de Reinaldo e o segundo referente ao dado de Helena</p>

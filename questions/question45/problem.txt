@@ -1,5 +1,6 @@
 Título: Sistema horário
 Topicos do problema: datas/horas; decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que leia um hor&aacute;rio no sistema de 24 horas e imprima este hor&aacute;rio no sistema de 12 horas.<br />Obs: o valor m&iacute;nimo de um dia &eacute; 00:00 e o m&aacute;ximo &eacute; 23:59.&nbsp;</p>
 Formato da entrada: <p>Consiste de 2 valores inteiros indicando as horas e os minutos.</p>
 Formato da saída: <p>Consiste de dois valores indicando as horas e os minutos no sistema de 12 horas e uma linha contendo "am" ou "pm" (sem aspas) para que o hor&aacute;rio de sa&iacute;da seja compat&iacute;vel com o de entrada.</p>

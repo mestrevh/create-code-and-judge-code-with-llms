@@ -1,5 +1,6 @@
 Título: Cifra do Zeca
 Topicos do problema: array bidimensional; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><b>O grande Zeca urubu está tramando mais uma...</b></p><p>Seu plano infalível tá sendo combinado com o Mago Edliz e para que seu plano não seja descoberto, Zeca implementou uma codificação baseada em matrizes. <br/></p><p>Para isso, Zeca escreve sua mensagem na forma de uma matriz NxN, em seguida Zeca acha sua transposta e em cada célula pega o respectivo caractere e transforma no seguinte do seguinte (exemplo, a transforma no 'c', 'b' transforma no 'd' até que 'y' e 'z' são transformados no 'a' e no 'b', respectivamente). <br/></p><p><br/></p><p>Ajude nosso amigo Zeca a fazer um programa que codifique as suas mensagens para que elas não sejam descobertas antes de chegar na mão do Mago Edliz.<br/></p><p><br/></p><p><b>Obs</b><b>.: A transformação do caractere só acontece se ele for uma letra minúscula! Outros tipos de caracteres devem permanecer iguais.</b><br/></p>
 Formato da entrada: <p>Um número inteiro N que informa a dimensão da matriz que contém a mensagem.</p><pre>N<br/></pre><p>Seguida por N linhas contendo N caracteres com a mensagem a ser cifrada.<br/></p><pre>abcde<br/>abcde<br/>abcde<br/>abcde<br/>abcde<br/></pre>
 Formato da saída: <p>Uma matriz quadrada contendo a mensagem cifrada pelo método do Zeca<br/></p>

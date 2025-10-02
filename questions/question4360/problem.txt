@@ -1,5 +1,6 @@
 Título: É uma nota válida?
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">Alunos precisam ter notas nas disciplinas que estão cursando. Mas, as notas precisam ser válidas, isto é, estar no intervalo possível.</span></p><p><span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">Faça um programa para verificar se a nota digitada pelo professor está no intervalo entre 0 e 10, inclusive.</span></p><p><span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">Caso não esteja, apresente uma mensagem de erro.</span></p>
 Formato da entrada: <p><span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">Leia o valor de uma nota (tipo real) e apresente uma mensagem de “erro” caso ela não seja uma nota válida. A nota deve ser menor ou igual a dez e maior ou igual a zero.</span><br/></p>
 Formato da saída: <p><font face="inherit">Mensagem 1: &#34;A nota </font>digitada<font face="inherit"> foi: &lt;nota&gt;&#34;</font></p><p><span>Mensagem de erro caso a nota não seja válida: 'A nota nao esta no intervalo [0,10]'</span></p>

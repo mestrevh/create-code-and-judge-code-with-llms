@@ -1,5 +1,6 @@
 Título: Múltiplos de x da diagonal principal
 Topicos do problema: decisão; repetição; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre>Fazer um programa para ler e armazenar uma matriz A com dimensão n x n. Gerar um vetor B contendo apenas os elementos múltiplos de x da diagonal principal da matriz A. Caso não existam múltiplos de x na diagonal principal da matriz imprimir 'NMDX', sem aspas.<br/></pre>
 Formato da entrada: <pre>Dois números inteiros na primeira linha correspondentes à ordem da matriz e o número x, respectivamente.</pre><pre>n * n números inteiros em coluna correspondentes aos elementos da matriz, seguindo a ordem: linha 1 da matriz, linha 2 da matriz, ..., linha n da matriz.<br/></pre>
 Formato da saída: <pre>n números inteiros, separados por 1 espaço, correspondentes aos elementos do vetor B, ou 'NMDX', sem aspas.<br/></pre>

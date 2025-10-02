@@ -1,5 +1,6 @@
 Título: Desafio do maior número
 Topicos do problema: decisão; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leonardo &eacute; um garoto muito criativo. Ele adora criar desafios para seus colegas da escola.<br />Seu &uacute;ltimo desafio &eacute; o seguinte: diversos n&uacute;meros s&atilde;o ditos em voz alta, quando o n&uacute;mero<br />0 (zero) &eacute; dito ent&atilde;o o desafio termina e seus colegas devem dizer imediatamente qual foi<br />o maior n&uacute;mero. Leonardo tem muita dificuldade de verificar se a resposta dada pelos<br />colegas &eacute; correta ou n&atilde;o, pois a sequ&ecirc;ncia de n&uacute;meros costuma ser longa. Por este motivo,<br />ele resolveu pedir sua ajuda.</p>
 <p>Sua tarefa &eacute; escrever um programa que dada uma sequ&ecirc;ncia de n&uacute;meros inteiros positivos<br />terminada por 0 (zero), imprime o maior n&uacute;mero da sequ&ecirc;ncia.</p>
 Formato da entrada: <p>A entrada &eacute; dada em uma &uacute;nica linha contendo uma sequ&ecirc;ncia de n&uacute;meros inteiros<br />positivos. O &uacute;ltimo n&uacute;mero da linha &eacute; 0 (zero).</p>

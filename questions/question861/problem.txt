@@ -1,5 +1,6 @@
 Título: Comparação numérica.
 Topicos do problema: multiplas entradas; decisão; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que peça dois números e imprima o maior deles.<br/></p>
 Formato da entrada: <p>Dois números distintos.</p>
 Formato da saída: <p>O maior número.</p>

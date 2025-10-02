@@ -1,5 +1,6 @@
 Título: Par ou Impar
 Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um programa que faça a litura de um número inteiro e classifica-o como par ou ímpar (Não use acentos no código).</p>
 Formato da entrada: <p>2</p>
 Formato da saída: <p>par</p>

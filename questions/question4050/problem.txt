@@ -1,5 +1,6 @@
 Título: Identificador de idade
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que dada uma idade, informe se a pessoa é adulta, adolescente ou criança.</p><ul><li>Idade maior ou igual a 18: adulto</li><li>Idade maior ou igual a 10 e menor que 18: adolescente</li><li>Idade maior ou igual a 0 e menor que 10: crianca</li></ul><p><span>Desafio:</span></p><p>Use apenas 1 if, 1 else if, 1 else.</p>
 Formato da entrada: <p>Um inteiro N, representando a idade.</p>
 Formato da saída: <p>Imprima se é adulto, adolescente ou crianca, a depender da idade enviada.</p>

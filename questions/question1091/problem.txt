@@ -1,5 +1,6 @@
 Título: Calcule a série 2
 Topicos do problema: repetição; lógica matemática; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p dir="ltr" id="docs-internal-guid-8bf6d810-874a-addd-5ab8-e5a127c37932"><span style="color: #000000;background-color: transparent;">Escreva um programa que calcule os N termos da série S :</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">S = (1/4) + 1 + (3/8) + 1 + (5/12) + …</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">O seu programa deve imprimir na saída padrão tanto os termos da série quanto o valor da soma com precisão de 2 casas decimais.<br/></span></p>
 Formato da entrada: <p>Um valor N que representa a quantidade de termos da série.<br/></p>
 Formato da saída: <p>Os termos da série e o valor da soma com precisão de 2 casas decimais.<br/></p>

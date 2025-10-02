@@ -1,5 +1,6 @@
 Título: Produto interno (com funções)
 Topicos do problema: array; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre>Fazer um programa para calcular o produto interno entre dois vetores, seguindo as orientações abaixo:</pre><pre>•Escrever uma função para ler um vetor cujo número de elementos é passado como argumento;</pre><pre>•No módulo principal, chamar essa função duas vezes gerando dois vetores independentes;</pre><pre>•Escrever outra função que receba como argumentos esses dois vetores e o número indicando a quantidade de elementos que eles têm. Essa função deve retornar o produto interno entre os vetores;</pre><pre>•Fazer o módulo principal.&#13;<br/></pre>
 Formato da entrada: <pre>Número inteiro correspondente ao número de elementos dos dois vetores.</pre><pre>Elementos do primeiro vetor (números reais) seguidos dos elementos do segundo vetor (também números reais), em coluna.</pre>
 Formato da saída: <pre>Número real representando o produto interno entre os dois vetores.</pre>

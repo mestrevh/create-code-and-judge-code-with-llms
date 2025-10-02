@@ -1,5 +1,6 @@
 Título: Sopa de letrinhas
 Topicos do problema: decisão; repetição; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Doug e seu amigo Joel estavam conversando na tarde de um dia e Joel propôs um jogo para Doug:</p><p><br/></p><p>Seria como um caça-palavras, mas ao invés de palavras a intenção é encontrar uma letra. Como Joel e Doug são estudantes da área de TI a letra será buscada numa matriz de números inteiros, esses números correspondem as letras maiúsculas na tabela ASCII:</p><p>A = 65</p><p>B = 66</p><p>...</p><p>Z = 90</p><p>Doug resolveu fazer um código para este jogo, mas ainda não apendeu a programar matrizes, por isso pediu a sua ajuda para desenvolver esse novo game.</p><p><br/></p><p>Cada linha da matriz equivale a uma letra, por exemplo:</p><p>1ª linha = A</p><p>2º linha = B</p><p>...</p><p>Cada coluna da matriz equivale a um número, por exemplo:</p><p>1º coluna = 1</p><p>2º coluna = 2</p><p>...</p>
 Formato da entrada: <p>Você irá receber o número de linhas e colunas da matriz.</p><p>Em seguida, a letra a ser buscada na matriz.</p><p>Depois, a matriz de inteiros.</p>
 Formato da saída: <p>A saída deve conter a letra da linha e o número da coluna onde a letra se encontra na matriz.</p>

@@ -1,5 +1,6 @@
 Título: Substitui no array
 Topicos do problema: multiplas entradas; array; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa em Java que ler um valor inteiro e cria um array de inteiros com o tamanho do valor lido. Em seguida, ler uma sequência de números inteiros e preenche o array com os valores lidos. A quantidade de números deve ser igual ao tamanho do array. Percorra o array e substitua o valor armazenado por +1, caso o valor seja par, e por -1, caso o valor seja ímpar. Finalmente, some todos os valores do array e imprima o resultado do somatório.<br/></p>
 Formato da entrada: <p>- 1a linha: valor inteiro com o tamanho do array;</p><div>- Sequência de valores inteiros para preenchimento do array (um número por linha)</div>
 Formato da saída: <p>Valor inteiro com o somatório do array com valores +1 e -1.<br/></p>

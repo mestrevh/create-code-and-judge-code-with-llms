@@ -1,5 +1,6 @@
 Título: Árvore Genealógica
 Topicos do problema: array; array bidimensional; alocação dinâmica; recursão; busca; estruturas; 
+Tempo limite de execução: 2 segundo(s)
 Descrição: <p>A empresa Genomics faz v&aacute;rios servi&ccedil;os dedicados a fam&iacute;lias, 
 principalmente para descobrir parentes e parentescos perdidos. Para 
 mostrar a efici&ecirc;ncia de seus servi&ccedil;os, a Genomics quer, para cada &aacute;rvore 

@@ -1,5 +1,6 @@
 Título: Trabalhos da Bia
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>Bia é uma mulher muito suspeita, conhecida por oferecer serviços que deixam todos felizes. Certo dia Ana resolveu ler a mão da Bia e isso revelou um número X!</b></p><p><span><b>Esse número é a quantidade de trabalhos que Bia precisará realizar ou ela será incapaz de jogar beach tênis. Ela também receberá diversos valores após realizar os serviços. Para ajudá-la você precisará informar o número fatorial mais próximo do valor total recebido, se não, coisas ruins acontecerão!</b></span></p><p><span><b>Obs: Como 0!=1!, use apenas 0!</b></span></p>
 Formato da entrada: <p>4</p><p>200</p><p>300</p><p>400</p><p>300</p>
 Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Bia arrecadou 6! dinheiros e pode jogar tênis!</span><br/></p>

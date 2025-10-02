@@ -1,5 +1,6 @@
 Título: Menor, maior, percentual de pares e média
 Topicos do problema: array; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre>Fazer um programa que leia n elementos e armazene-os em um vetor. Imprimir o menor, o maior, o percentual de números pares e a média dos elementos do vetor.<br/></pre>
 Formato da entrada: <pre>Um número inteiro representando o número de elementos do vetor na primeira linha.</pre><pre>N números reais em coluna, que são os elementos do vetor.</pre>
 Formato da saída: <pre>4 números reais em coluna: menor elemento, maior elemento, percentual de pares (formatado com 2 casas decimais) e média dos elementos (formatado com 2 casas decimais).</pre>

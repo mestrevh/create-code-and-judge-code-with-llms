@@ -1,5 +1,6 @@
 Título: É um número primo?
 Topicos do problema: números primos; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que dado um n&uacute;mero indique se ele &eacute; um primo ou n&atilde;o.<span style="white-space: pre;"> </span></p>
 Formato da entrada: <p>Voc&ecirc; ir&aacute; receber uma sequ&ecirc;ncia de n&uacute;meros separados por um final de linha. A entrada termina quando o n&uacute;mero lido for -1.</p>
 Formato da saída: <p>Para cada n&uacute;mero lido voc&ecirc; deve imprimir 0 caso o n&uacute;mero n&atilde;o seja primo ou 1 caso seja.</p>

@@ -1,5 +1,6 @@
 Título: Qual o terceiro ângulo?
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Sabe-se que a soma dos ângulos internos de um triângulo é igual a 180.</p><p>Considerando que dois dos ângulos serão informados, escreva um programa que calcule e informe o terceiro ângulo.</p><p><br/></p>
 Formato da entrada: <p>Dois números inteiros devem ser informados, representando, respectivamente, o primeiro e o segundo ângulo.</p>
 Formato da saída: <p>Informe qual o terceiro ângulo do triângulo como sendo um número real com 3 casas decimais.</p>

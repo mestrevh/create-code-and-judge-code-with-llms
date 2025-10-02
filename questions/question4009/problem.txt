@@ -1,5 +1,6 @@
 Título: Lucro no produto
 Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><font size="3">Um comerciante comprou um produto e quer vendê-lo com um lucro de 45% se o valor da compra for menor que R$ 20,00; caso contrário, o lucro será de 30%. Elabore um programa que leia o valor do produto e imprima o valor de venda para o produto.</font><br/></p>
 Formato da entrada: <p>O usuario deve digitar o valor de compra do produto<br/></p>
 Formato da saída: <p>O programa deve exibir o o valor pelo qual o produto deve ser vendido, com 2 casas decimais, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite o valor de compra do produto:<br/></p><p>O produto deve ser vendido a R$ n</p>

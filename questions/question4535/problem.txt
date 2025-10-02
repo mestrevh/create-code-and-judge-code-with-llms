@@ -1,5 +1,6 @@
 Título: Mergesort bottom up
 Topicos do problema: ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Implemente uma versão <i>bottom up</i> (sem recursão) do algoritmo de ordenação mergesort .</p>
 Formato da entrada: <ol><li>Uma linha contendo o número de elementos da sequência.</li><li>Todos os elementos da sequência, um em cada linha.</li></ol>
 Formato da saída: <p>A sequência ordenada.</p>

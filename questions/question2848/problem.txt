@@ -1,5 +1,6 @@
 Título: Distância entre dois carros
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <div class="page" title="Page 2" style="color: rgb(0, 0, 0);"><div class="layoutArea"><div class="column"><p><span>Dois carros (X e Y) partem em uma mesma direção. O carro X sai com velocidade constante de 60 Km/h e o carro Y sai com velocidade constante de 90 Km/h. Em uma hora (60 minutos) o carro Y consegue se distanciar 30 quilômetros do carro X, ou seja, consegue se afastar um quilômetro a cada 2 minutos. Leia a distância (em Km) e calcule quanto tempo leva (em minutos) para o carro Y tomar essa distância do outro carro. Apresente o tempo necessário seguido da mensagem &#34;minutos&#34;.</span></p></div></div></div>
 Formato da entrada: <p>O arquivo de entrada contém um número inteiro.<br/></p>
 Formato da saída: <p>Apresente o tempo necessário seguido da mensagem &#34;minutos&#34;.</p>

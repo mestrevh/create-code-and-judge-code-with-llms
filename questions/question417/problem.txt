@@ -1,5 +1,6 @@
 Título: Quantos zeros tem no final de um número fatorial
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Durante as aulas de matem&aacute;tica Ambrosino aprendeu a resolver n&uacute;mero fatoriais.</p>
 <p>Enquanto seu professor respondia alguns exerc&iacute;cios, Ambrosino notou que conforme o n&uacute;mero fatorial vai aumentando, o n&uacute;mero de zeros no final tamb&eacute;m aumenta.</p>
 <p>Seu desafio &eacute;:</p>

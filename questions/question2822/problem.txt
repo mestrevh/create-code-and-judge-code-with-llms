@@ -1,5 +1,6 @@
 Título: Peso Ideal
 Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <div class="ng-binding"><p>Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso ideal, utilizando as seguintes equações (onde h corresponde a altura):<br/></p><ul><li>Homens (0): (72.7 x h) - 58</li><li>Mulheres (1): (62,1 x h) - 44,7</li></ul><p>Caso o usuário informe um sexo diferente de &#34;0-M&#34; ou &#34;1-F&#34;, emita uma mensagem de erro (&#34;O sexo informado e invalido.&#34;).</p><p>Caso o usuário informe uma altura 0 ou negativa, emita uma mensagem de erro (&#34;Altura invalida.&#34;)</p><p><br/></p></div>
 Formato da entrada: <div class="ng-binding">O usuário deve digitar um valor que representa o sexo de uma pessoa (0 para sexo masculino e 1 para sexo feminino), e em seguida digitar a altura de uma pessoa em metros (ponto flutuante (double)).</div>
 Formato da saída: <p>O programa deve exibir peso ideal da pessoa (com uma casa decimal de precisão), imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite o sexo: (0 - M e 1 - F)</p><p>Digite a altura em metros:<br/></p><p>Peso ideal: n kg / Altura invalida / O sexo informado e invalido<br/></p>

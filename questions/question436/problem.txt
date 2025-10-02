@@ -1,5 +1,6 @@
 Título: Presentes na Empresa
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>&Eacute;dipo ficou encarregado de comprar presentes para os funcion&aacute;rios da 
 empresa. Cada funcion&aacute;ria vai ganhar uma garrafa de vinho, que custa R$ 
 10, e cada funcion&aacute;rio ganhar&aacute; um panetone, que custa R$ 8,50. Escreva 

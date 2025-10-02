@@ -1,5 +1,6 @@
 Título: Intermediário 3
 Topicos do problema: array; decisão; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que leia 3 n&uacute;meros inteiros e imprima o valor intermedi&aacute;rio (entre o menor e o maior n&uacute;mero). Suponha que os n&uacute;meros s&atilde;o diferentes.</p>
 Formato da entrada: <p>Consiste de 3 n&uacute;meros inteiros.</p>
 Formato da saída: <p>Consiste do n&uacute;mero inteiro cujo valor &eacute; o intermedi&aacute;rio entre os valores de entrada.</p>

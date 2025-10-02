@@ -1,5 +1,6 @@
 Título: Some dois números grandes!!
 Topicos do problema: array; string; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p>Dados dois n&uacute;meros inteiros M e N, some-os.</p>
 Formato da entrada: <p>Ser&atilde;o dadas duas linhas.</p>
 <p>A primeira cont&eacute;m o n&uacute;mero M e a segunda o n&uacute;mero N.</p>

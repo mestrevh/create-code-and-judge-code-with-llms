@@ -1,5 +1,6 @@
 Título: Q06 - Removendo espaços
 Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A mesma recepcionista da &#34;Q5 - Nomes errados&#34; continua com problemas com seu teclado. Agora ele esta digitando espaços antes e depois das frases que ela precisa digitar. Faça um programa que remova esses espaços em branco das frases da recepcionista.</p>
 Formato da entrada: <p>Uma String.</p>
 Formato da saída: <p>Uma String com os espaços iniciais e finais removidos.</p>

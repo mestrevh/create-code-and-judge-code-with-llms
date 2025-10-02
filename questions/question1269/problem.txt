@@ -1,5 +1,6 @@
 Título: Diamante embutido
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Um diamante, apesar de ser a pedra mais forte no corte de outras, é bastante frágil quando sofre pancadas. Vamos fazer um programa para gerar um diamante protegido contra pancadas?<br/></p>
 Formato da entrada: <p>Um inteiro 2 &lt;= N &lt;= 9 que determinará a dimensão do diamante conforme exemplo.<br/></p>
 Formato da saída: <p>Para N=4 será gerado o seguinte diamante:</p><p>*********<br/>****.****<br/>***...***<br/>**.....**<br/>*.......*<br/>**.....**<br/>***...***<br/>****.****<br/>*********<br/></p>

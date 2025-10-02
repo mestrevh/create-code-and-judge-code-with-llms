@@ -1,5 +1,6 @@
 Título: Inverter uma string
 Topicos do problema: array; repetição; caractere; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leia uma string e inverta o seu conte&uacute;do. Exemplo: Se a string digitada for "JANELA", ent&atilde;o voc&ecirc; deve imprimir: "ALENAJ".</p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; uma &uacute;nica linha contendo uma string com no m&aacute;ximo 255 caracteres.</p>
 Formato da saída: <p>Imprima a string recebida com os seus caracteres invertidos tamb&eacute;m em uma &uacute;nica linha, seguida de um final de linha.</p>

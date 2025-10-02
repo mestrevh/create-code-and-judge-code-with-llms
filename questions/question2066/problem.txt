@@ -1,5 +1,6 @@
 Título: Somando Valores
 Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Willy está com um sério problema em somar uma determinada quantidade de números, então ele pediu sua ajuda para resolver esse pequeno problema, então dado N números inteiros você deve dizer qual é a soma de todos eles.</p>
 Formato da entrada: <p>Uma linha contendo um inteiro N seguida por <span>N linhas contendo um inteiro cada</span></p>
 Formato da saída: <p>Um único inteiro contendo a soma de todos os N números dados</p>

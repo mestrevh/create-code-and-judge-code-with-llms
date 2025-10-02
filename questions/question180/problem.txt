@@ -1,5 +1,6 @@
 Título: Elevador
 Topicos do problema: acumulador; decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>&nbsp;</p>
 <p>A Subindo Bem Confortavelmente (SBC) &eacute; uma empresa tradicional, com mais de 50 anos de experi&ecirc;ncia na fabrica&ccedil;&atilde;o de elevadores. Todos os projetos da SBC seguem as mais estritas normas de seguran&ccedil;a, mas infelizmente uma s&eacute;rie de acidentes com seus elevadores manchou a reputa&ccedil;&atilde;o da empresa. Ao estudar os acidentes, os engenheiros da companhia conclu&iacute;ram que, em v&aacute;rios casos, o acidente foi causado pelo excesso de passageiros no elevador.&nbsp;</p>
 <p>Por isso, a SBC decidiu fiscalizar com mais rigor o uso de seus elevadores: foi instalado um sensor em cada porta que detecta a quantidade de pessoas que saem e entram em cada andar do elevador. A SBC tem os registros do sensor de todo um dia de funcionamento do elevador (que sempre come&ccedil;a vazio).&nbsp;</p>

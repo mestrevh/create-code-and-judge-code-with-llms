@@ -1,5 +1,6 @@
 Título: Média de um Conjunto de Inteiros
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span>Considere uma lista de valores inteiros não negativos, separados por espaço, em uma única linha. </span></p><p><span>Escreva um programa que calcule a média dos valores lidos. A média deve ser impressa com uma casa decimal.</span></p>
 Formato da entrada: <p>Uma lista de valores inteiros não negativos, separados por espaço, em uma única linha. <br/></p>
 Formato da saída: <p>Como saída, espera-se a impressão do nome da medida (Media) seguida por um espaço, o sinal de igualdade, outro espaço e o valor calculado com uma casa decimal.<br/></p>

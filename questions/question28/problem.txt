@@ -1,5 +1,6 @@
 Título: Inverter com 2 algarismos
 Topicos do problema: decisão; lógica matemática; caractere; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que inverta um n&uacute;mero inteiro com dois algarismos.</p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; um &uacute;nico n&uacute;mero inteiro com dois algarismos.</p>
 Formato da saída: <p>Voc&ecirc; deve imprimir o n&uacute;mero invertido seguido de um final de linha. N&atilde;o &eacute;&nbsp;preciso imprimir o 0 mais a esquerda. Por exemplo, se o n&uacute;mero digitado for 30,&nbsp;basta que voc&ecirc; imprima 3 e n&atilde;o 03.</p>

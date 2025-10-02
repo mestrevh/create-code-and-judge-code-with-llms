@@ -1,5 +1,6 @@
 Título: Divisores I
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ler um número inteiro N e calcular todos os seus divisores.<br/></p>
 Formato da entrada: <p>A entrada contém um valor inteiro N (1 ≤ N ≤ 100000).<br/></p>
 Formato da saída: <p>Escreva todos os divisores positivos de N, um valor por linha.<br/></p>

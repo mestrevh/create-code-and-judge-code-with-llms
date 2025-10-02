@@ -1,5 +1,6 @@
 Título: Matriciando
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que leia dois valores inteiros relativos aos tamanhos da coluna e da linha de uma matriz.</p><p>O programa deve realizar as seguintes operações: </p><ol><li>identificar o <b>maior</b> valor de cada linha e o maior de cada coluna.</li><li>identificar o <b>maior</b> valor de toda a matriz</li><li>calcular a <b>soma</b> dos valores positivos da diagonal principal</li><li>calcular a <b>diferença</b> dos valores da diagonal secundária</li></ol><p><br/></p><p>Caso o usuário informe valores do tamanho da matriz negativos ou nulos uma mensagem de erro deve ser informada bem como para o caso dela não ser quadrada.</p>
 Formato da entrada: <p>Dois valores inteiros referentes à quantidade de linhas e colunas (um por linha)</p><p>Um conjunto de valores para preencher a matriz.</p>
 Formato da saída: <p>Duas listas de inteiros</p><p>Três valores inteiros</p>

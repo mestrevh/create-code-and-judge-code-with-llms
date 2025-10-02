@@ -1,5 +1,6 @@
 Título: Hello World
 Topicos do problema: string; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p>Primeiro programa em C para escrever Hello World na tela e aprender como usar o thehuxley</p>
 Formato da entrada: <p>Nenhuma Entrada</p>
 Formato da saída: <p>Hello World</p>

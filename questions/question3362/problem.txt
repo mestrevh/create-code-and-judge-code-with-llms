@@ -1,5 +1,6 @@
 Título: A fórmula de Janaína
 Topicos do problema: repetição; 
+Tempo limite de execução: 5 segundo(s)
 Descrição: <p><b></b>Janaína, estudante de Engenharia de Materiais, precisa calcular o resultado de x ao quadrado menos quatro x mais cinco (x**2 - 4*x + 5). Só que ela precisa calcular o resultado dessa fórmula para vários valores de x dentro de um determinado intervalo.<b></b><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></p>
 Formato da entrada: <p>Dois números inteiros, um em cada linha:</p><ul><li>O primeiro número (<b>a</b>) representa o primeiro valor de x que deve ser utilizado</li><li>O segundo número (<b>b</b>) representa o último valor de x que deve ser utilizado</li></ul>
 Formato da saída: <p>Os resultados de x**2 - 4*x + 5, para x no intervalo fechado entre <b>a</b> e <b>b </b>no domínio dos números inteiros.</p><p><br/></p><p>OBS: os resultados serão sempre números inteiros, não é necessário realizar arredondamentos.<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></p>

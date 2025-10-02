@@ -1,5 +1,6 @@
 Título: Soma - Inteiros em linha
 Topicos do problema: array; acumulador; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Seu programa deve receber uma sequência de <b>N</b> números inteiros separadas por espaços “ “ e mostrar na tela a soma destes valores.</p><p>Formalmente falando, seu programa deve exibir a soma de todos os elementos <b>N</b>i.</p><p><b>Por exemplo:</b></p><p>   &#34;1 2 3 4 5 6 -1 2&#34;</p><p><b>Resultado:</b></p><p><b>   </b>A soma esperada destes números é 22.</p><p><br/></p><p>Os números serão sempre separados por exatamente 1 espaço em branco.</p><p><br/></p>
 Formato da entrada: <p>Uma string S, contendo N números separados por espaços em branco.</p><p>0 &gt; N &lt; 10³</p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">-10³ &gt; Ni &lt; 10³</span><br/></p>
 Formato da saída: <p>Seu programa deve exibir a soma de todos os elementos da sequência N, ou seja, o somatório de Ni.</p>

@@ -1,5 +1,6 @@
 Título: Soma de vetores
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um problema em Linguagem C que preenche dois vetores com dez números inteiros. E seguida, seu programa deverá armazenar em um terceiro vetor a soma dos dois vetores lidos.</p>
 Formato da entrada: <p>2 5 1 4 6 8 7 9 0 2</p><p>1 2 3 4 2 1 0 0 8 4</p><p><br/></p>
 Formato da saída: <p><span style="color: rgb(147, 149, 152);float: none;background-color: rgb(255, 255, 255);">3 7 4 8 8 9 7 9 8 6</span><br/></p>

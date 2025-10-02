@@ -1,5 +1,6 @@
 Título: Fatorial simples
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um inteiro não negativo n, imprima seu fatorial.</p>
 Formato da entrada: <p>Inteiro não negativo n.</p>
 Formato da saída: <p>Inteiro com o valor de fatorial de n.</p>

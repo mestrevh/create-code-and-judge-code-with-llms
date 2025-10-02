@@ -1,5 +1,6 @@
 Título: Distribuicao de Mercadorias
 Topicos do problema: acumulador; decisão; função; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma das fun&ccedil;&otilde;es da parte de Log&iacute;stica da empresa TopFood, &eacute; cuidar de como as mercadorias, por ela produzidas, ser&atilde;o entregues aos seus supermercados.<br />Para isso, a empresa normalmente terceiriza o servi&ccedil;o.<br />A MaxDelivery &eacute; uma das melhores distribuidoras, pois nos ultimos anos tem tido o melhor custo/benef&iacute;cio da &agrave;rea.<br />Na hora de contrata-la, deve-se informar:</p>
 <ul>
 <li>N&uacute;mero de caminh&otilde;es requeridos.</li>

@@ -1,5 +1,6 @@
 Título: Média, Mediana e Moda
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você vai receber uma lista com <i>n</i> inteiros e deverá retornar a média aritmética, a moda e a mediana dessa lista.</p><p><br/></p><p><b>Obs: Caso haja duas modas, informe aquela com o maior valor.</b></p>
 Formato da entrada: <p>Uma linha contendo um valor <i>n,</i> que representa a quantidade de itens na lista.</p><p>Uma linha contendo os <i>n </i>inteiros.</p>
 Formato da saída: <p>Uma linha com a média, a mediana e a moda, respectivamente, com duas casas decimais.</p>

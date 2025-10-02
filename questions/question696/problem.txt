@@ -1,5 +1,6 @@
 Título: Quantas vezes x apareceu?
 Topicos do problema: array; acumulador; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leia 10 números inteiros.</p><p>Depois leia mais um número inteiro x.</p><p>Sua missão é imprimir quantas vezes x apareceu entre os 10 primeiros inteiros lidos.</p>
 Formato da entrada: <p>11 linhas, cada uma contendo um inteiro.</p><p>A última linha é o número x a ser buscado.</p><p>Os inteiros são todos entre 0 e 10000.</p>
 Formato da saída: <p>Um número inteiro indicando quantas vezes x apareceu.</p>

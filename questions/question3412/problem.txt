@@ -1,5 +1,6 @@
 Título: MDC
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que calcule o Máximo Divisor Comum (MDC) entre 2 números. </p><p><br/></p>
 Formato da entrada: <p>Dois números em ordem crescente;</p>
 Formato da saída: <p>MDC</p>

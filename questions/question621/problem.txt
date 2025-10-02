@@ -1,5 +1,6 @@
 Título: Equação da reta
 Topicos do problema: geometria computacional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado dois pontos em um espaço 2D, calcule a equação da reta na forma: (ax) + (by) + (c) = 0<br/></p>
 Formato da entrada: <p>Serão dados 4 inteiros x1 y1 x2 y2 separados por um espaço. Esses inteiros correspondem aos pontos (x1, y1) e (x2, y2)<br/></p>
 Formato da saída: <p>Imprima uma linha com a equação da reta na forma:</p><p>(ax) + (by) + (c) = 0</p><p>Os números a, b e c devem ser formatados com duas casas decimais.<br/></p>

@@ -1,5 +1,6 @@
 Título: Traço de uma matriz
 Topicos do problema: array; acumulador; repetição; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Na álgebra linear, o traço de uma matriz quadrada é a função matricial que associa a matriz à soma dos elementos da sua diagonal principal.</p><p>(https://pt.wikipedia.org/wiki/Tra%C3%A7o_(%C3%A1lgebra_linear))</p><p>traço(A) = a11 + a22 + ... + ann</p><p>Dada uma matriz quadrada de ordem n, calcule o traço dessa matriz.<br/></p>
 Formato da entrada: <p>É dado um inteiro n que representa a ordem da matriz quadrada.</p><p>Em seguida é dada a matriz como no exemplo:</p><p>3<br/>1 2 3<br/>4 5 6<br/>7 8 9<br/></p>
 Formato da saída: <p>Você deve imprimir os valores utilizados para o cálculo do traço e o próprio valor do traço segundo o modelo a seguir:</p><p>tr(A) = (1.00) + (5.00) + (9.00) = 15.00</p><p>Observe que os valores devem estar impressos dentro de parênteses e com 2 casas decimais. Observe também que entre os valores e os sinais matemáticos (por exemplo: o sinal da soma + e o sinal de =) existe um espaço. Após o valor do traço, incluir um final de linha.<br/></p>

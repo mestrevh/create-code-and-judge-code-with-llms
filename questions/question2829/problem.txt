@@ -1,5 +1,6 @@
 Título: Quantidade de estudantes
 Topicos do problema: entrada formatada; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma escola precisa obter a quantidade total de estudantes dos seus dois cursos. Para isso, ela solicita sua ajuda para fazer este cálculo.<br/></p>
 Formato da entrada: <p>A entrada contém apenas um caso de teste. O primeiro valor contém um inteiro <b>N</b> (0 ≤ <b>N</b> ≤ 100000), representando a quantidade de estudantes de um curso. O segundo valor contém outro inteiro <b>M</b> (0 ≤ <b>M</b> ≤ 100000), representando a quantidade de estudantes do outro curso.<br/></p>
 Formato da saída: <p>O programa deve imprimir a soma dos dois valores lidos.<br/></p>

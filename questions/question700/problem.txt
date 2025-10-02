@@ -1,5 +1,6 @@
 Título: Converter segundos em horas, min e segundos
 Topicos do problema: datas/horas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <title></title><p><font color="#000000"><font face="Times New Roman, serif"><font size="2"><span lang="pt-PT">Escreva um programa que permita converter um n</span></font><font size="2">ú</font><font size="2"><span lang="pt-PT">mero de segundos (fornecido pelo utilizador) no n</span></font><font size="2">ú</font><font size="2"><span lang="pt-PT">mero equivalente de horas, minutos e segundos. </span></font><font size="2"><span lang="en-US">Deve ser impresso o número de horas seguido de ‘h’, o número de minutos seguido de ‘m’ e o número de segundos seguido de ‘s’. A tabela abaixo traz exemplos de entrada e saída esperadas (atente para os espaços e cada saída).</span></font></font></font></p>
 Formato da entrada: None
 Formato da saída: None

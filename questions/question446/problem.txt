@@ -1,5 +1,6 @@
 Título: Escovas de dente
 Topicos do problema: acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Essa semana foi o Dia do Dentista e Vicente resolveu fazer uma doa&ccedil;&atilde;o de escovas de dente em uma creche de seu bairro. Depois de muito pesquisar, ele descobriu uma farm&aacute;cia vendendo cada escova por R$ 2,20. Para a sorte de Vicente, essa mesma farm&aacute;cia resolveu fazer uma promo&ccedil;&atilde;o: comprando duas escovas, a terceira sa&iacute;a de gra&ccedil;a.</p>
 <p>Escreva um programa que receba como entrada a quantidade de alunos da creche e exiba o valor total que ele gastar&aacute; para comprar escovas para todos.</p>
 <p>&nbsp;</p>

@@ -1,5 +1,6 @@
 Título: CD
 Topicos do problema: backtracking; programação dinâmica; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; ir&aacute; fazer uma viagem de carro bem longa. Mas esse carro s&oacute; possui um toca-fitas e infelizmente todas as suas m&uacute;sicas est&atilde;o em CD. Para escut&aacute;-las durante a viagem, voc&ecirc; tem um problema a resolver: sua fita possui capacidade para N minutos. Como escolher as m&uacute;sicas do CD de tal forma a utilizar o m&aacute;ximo do espa&ccedil;o da fita poss&iacute;vel.</p>
 <p>Considere:</p>
 <ul>

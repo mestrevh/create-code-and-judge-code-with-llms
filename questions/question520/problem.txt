@@ -1,5 +1,6 @@
 Título: BoB
 Topicos do problema: busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Bob estava estudando algoritmos quando se deparou com o seguinte problema:
 
 Dado um array ordenado A, com N elementos, e um número X: Quantas vezes o número X aparece em A?

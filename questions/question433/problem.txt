@@ -1,5 +1,6 @@
 Título: Pagamento IPVA
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Todos os anos, os motoristas devem pagar ao Detran o IPVA (Imposto sobre
  a Propriedade de Ve&iacute;culos Automotores) e uma taxa de tr&acirc;nsito. Caso 
 paguem o IPVA com anteced&ecirc;ncia, recebem um desconto de 5% apenas no 

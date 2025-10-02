@@ -1,5 +1,6 @@
 Título: Colorindo em duas cores
 Topicos do problema: grafo bipartido; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Em 1976 o "Teorema do mapa de quatro cores" foi provado com o aux&iacute;lio de um computador. Esse teorema diz que todo mapa pode ser coloerido usando apenas 4 cores de ta forma que nenhuma regi&atilde;o colorida usa a mesma cor que uma regi&atilde;o vizinha.</p>
 <p>Nesse problema, voc&ecirc; deve resolver uma vers&atilde;o simplificada. Voc&ecirc; tem que decidir se um grafo conectado pode ser pintado com duas cores. Isto &eacute;, se &eacute; poss&iacute;vel atribuir cores (somente duas) para os n&oacute;s de tal forma que nenhum n&oacute; adjacente tenha a mesma cor. Para simplificar o problema voc&ecirc; deve assumir:</p>
 <ul>

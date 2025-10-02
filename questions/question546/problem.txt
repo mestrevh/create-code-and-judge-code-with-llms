@@ -1,5 +1,6 @@
 Título: Árvore de Busca Binária
 Topicos do problema: estrutura de dados; Árvore; recursão; busca; 
+Tempo limite de execução: 2 segundo(s)
 Descrição: <p>Escreva um programa que aceita uma árvore binária e retorna VERDADEIRO se for uma árvore de busca binária válida, e FALSO caso contrário.</p>
 Formato da entrada: <p>Uma árvore de busca binária, representada da seguinte maneira:</p><p>(5(4(11(7()())(2()()))()) (8(13()())(4()(1()()))))</p><p>Que é a arvore:<br/></p><p><img src="https://thehuxley.com/api/v1/problems/image/f15f1d62512e6f9dadcd0483d80ed600.jpg"/><span></span></p><p><br/></p>
 Formato da saída: <p>VERDADEIRO, se a árvore for uma árvore de busca binária.</p>&#13;&#13;<p>FALSO, se não for.</p>

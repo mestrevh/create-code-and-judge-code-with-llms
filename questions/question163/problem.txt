@@ -1,5 +1,6 @@
 Título: Pastas da Floripes
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Floripes, prima de Ambrosina, &eacute; uma secret&aacute;ria dedicada do Instituto de Computa&ccedil;&atilde;o. Por&eacute;m Floripes tamb&eacute;m trabalha em um megaconglomerado empresarial voltado a cria&ccedil;&atilde;o de documentos e preenchimento de formul&aacute;rios.</p>
 <p>Todo dia ela recebe milhares de pastas suspensas e seu objetivo &eacute; organiz&aacute;-las de uma forma que seja simples recuperar uma pasta do arquivo.</p>
 <p>Cada pasta possui uma pequena aba, que fica anexada &agrave; pasta e &eacute; vis&iacute;vel quando a pasta est&aacute; suspensa em seu arquivo. Todo funcion&aacute;rio fixa a aba em uma das posi&ccedil;&otilde;es especificadas pelo manual de fixa&ccedil;&atilde;o de abas, embora ele possa escolher, ao acaso, qualquer uma das posi&ccedil;&otilde;es descritas no manual. Tais posi&ccedil;&otilde;es s&atilde;o numeradas de 1 at&eacute; P.</p>

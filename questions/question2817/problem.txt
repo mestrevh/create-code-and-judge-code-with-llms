@@ -1,5 +1,6 @@
 Título: Numeros em Ordem Crescente
 Topicos do problema: decisão; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que leia 3 números inteiros e os imprima em ordem crescente.<br/></p>
 Formato da entrada: <p>O usuario deve digitar 03 números inteiros separados<br/></p>
 Formato da saída: <p>O programa deve exibir os 03 números lidos impressos em ordem crescente, cada um em uma linha, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite cada numero e pressione ENTER:<br/></p><p>Numeros em ordem crescente:</p><p>n</p><p>n</p><p>n</p><p><br/></p>

@@ -1,5 +1,6 @@
 Título: Ingresso no Cinema
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O valor normal de um ingresso em um determinado cinema &eacute; R$ 20,00. Entretanto, se o cliente &eacute; estudante ou idoso, o cinema cobra apenas meia-entrada.</p>
 <p>Fa&ccedil;a um programa que leia um valor inteiro (0 ou 1) que indica se o cliente &eacute; estudante e outro valor inteiro (0 ou 1) que indica se o cliente &eacute; idoso. Com base nos valores lidos, o programa deve indicar, utilizando 0 ou 1, se este cliente paga entrada completa (falso - 0) ou meia-entrada (verdadeiro - 1).</p>
 Formato da entrada: <p>Dois n&uacute;meros inteiros (0 ou 1) separados por um fim de linha, indicando se o cliente &eacute; estudante e idoso, respectivamente.</p>

@@ -1,5 +1,6 @@
 Título: Conversão de temperatura
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa para converter uma temperatura dada na escala Farenheit para a escala Celsius. Por exemplo, 7.6°F equivale a aproximadamente 24.44°C. </p>
 Formato da entrada: <p>Um valor real representando uma temperatura em graus Farenheit.</p>
 Formato da saída: <p>24.44</p>

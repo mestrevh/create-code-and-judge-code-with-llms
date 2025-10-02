@@ -1,5 +1,6 @@
 Título: Raizes da equacao Adp.
 Topicos do problema: ponto flutuante; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Pegue três números reais(a, b, c);</p><p>e use-os na formula de Bhaskara;</p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/7ec6b2f8d839b3c3552a03a9a46ed9e5a1ab22fc3.jpeg" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"/></p><p>Sabendo que a raiz quadrada de x é igual á x**0.5</p><p><br/></p>
 Formato da entrada: <p>Três números reais (a, b, c<span>)</span></p>
 Formato da saída: <p>O dois resultados da formula de Bhaskara</p>

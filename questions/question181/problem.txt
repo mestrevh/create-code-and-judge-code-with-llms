@@ -1,5 +1,6 @@
 Título: Reunião
 Topicos do problema: floyd warshall; grafo; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>
 <p>Todos os anos, a SBC (Sociedade Brasileira de Caminhoneiros) re&uacute;ne seus membros em alguma cidade para discutir sobre a profiss&atilde;o. Nessas reuni&otilde;es s&atilde;o discutidos os problemas da categoria e s&atilde;o apresentadas sugest&otilde;es sobre como melhorar as condi&ccedil;&otilde;es de trabalho.</p>
 <p>O grande problema desse tipo de encontro &eacute; que os membros est&atilde;o espalhados pelo pa&iacute;s, uma vez que a profiss&atilde;o exige que eles viajem para diversos lugares todos os dias. Por isso, a escolha da cidade onde ser&aacute; feita a reuni&atilde;o sempre &eacute; feita de modo que n&atilde;o prejudique demais nenhum dos caminhoneiros. O crit&eacute;rio para tal &eacute; que a maior das dist&acirc;ncias percorridas pelos caminhoneiros para chegar ao local da reuni&atilde;o deve ser a menor poss&iacute;vel. Ou seja, a dist&acirc;ncia percorrida pelo caminhoneiro que vai percorrer a maior dist&acirc;ncia entre todos os caminhoneiros para chegar &agrave; reuni&atilde;o deve ser a menor poss&iacute;vel.</p>

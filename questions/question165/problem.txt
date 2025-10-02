@@ -1,5 +1,6 @@
 Título: Quadrado Mágico
 Topicos do problema: acumulador; decisão; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Chama-se de quadrado m&aacute;gico um arranjo, na forma de um quadrado, de N x N n&uacute;meros inteiros tal que todas as linhas, colunas e diagonais t&ecirc;m a mesma soma.</p>
 <p>Por exemplo, o quadrado abaixo</p>
 <p>2 7 6</p>

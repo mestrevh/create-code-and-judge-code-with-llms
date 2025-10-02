@@ -1,5 +1,6 @@
 Título: Número maior.
 Topicos do problema: multiplas entradas; decisão; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que leia três números e mostre o maior deles.<br/></p>
 Formato da entrada: <p>Os 3 números digitados.</p>
 Formato da saída: <p>Maior número.</p>

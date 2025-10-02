@@ -1,5 +1,6 @@
 Título: MMC de n números
 Topicos do problema: multiplas entradas; array; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que ache o MMC de n números</p>
 Formato da entrada: <p>Um inteiro n, seguido de n números inteiros</p><p>     5</p><p>     1</p><p>     2</p><p>     3</p><p>     4</p><p>     5</p>
 Formato da saída: <p>O MMC de todos os n inteiros</p><p>     60</p>

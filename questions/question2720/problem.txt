@@ -1,5 +1,6 @@
 Título: PROGCOMP - Matrizes - D
 Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que solicite ao usuário os valores de duas matrizes 6 × 6 e que exibe a matriz resultante da soma dessas matrizes.<br/></p>
 Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Para cada uma das 6 primeiras linhas, 6 valores inteiros separados por um espaço, simbolizando os itens da primeira matriz; p<span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">ara cada uma das 6 próximas linhas, 6 valores inteiros separados por um espaço, simbolizando os itens da segunda matriz.</span></span><br/></p>
 Formato da saída: <p>Seis linhas, cada uma com seis colunas com as respectivas somas separadas por um espaço. Obs.: Não há espaço após o último item de cada linha.</p>

@@ -1,5 +1,6 @@
 Título: [C3] LAB - 11
 Topicos do problema: estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Três amigos, Carlos, André e Felipe, decidiram rachar igualmente a conta em um bar. Faça um programa para lei o valor total da conta e imprimir quanto cada um deve pagar, mas faça com que Carlos e André não paguem centavos.<br/><br/>Por exemplo: uma conta de R$101,55 resulta em R$33,00 para Carlos, R$33,00 para André e R$ 35,55 para Felipe, no lugar de R$33,85 para cada. (Isto é, Carlos e André pagam a menos).<br/></p>
 Formato da entrada: <p>Valor total da conta</p>
 Formato da saída: <p>Parte do Carlos<br/>Parte do André<br/>Parte do Felipe</p>

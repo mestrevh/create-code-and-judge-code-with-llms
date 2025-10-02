@@ -1,5 +1,6 @@
 Título: Trosegrem
 Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">O Algoritmo Mergesort visto em aula ordena um array  (1) em ordem crescente (2) de maneira recursiva e (3) top-down, isto é, de cima para baixo, ou seja, partindo do vetor inteiro, dividindo-o  recursivamente em metades até o caso trivial, e depois combinando as  soluções parciais das metades ordenadas.
 
 Neste exercício vamos implementar uma versão do Mergesort às avessas, ou seja, para ordenar um array (1) em ordem decrescente (2) de maneira iterativa e (3) bottom-up , ou seja, de baixo para cima. Nessa implementação, o algoritmo passa várias vezes sobre o array, da direita para a esquerda e, a cada passagem, combina trechos ordenados,  primeiro de tamanho 1, depois de tamanho 2, depois 4, e assim sucessivamente  até todo o vetor estar ordenado.

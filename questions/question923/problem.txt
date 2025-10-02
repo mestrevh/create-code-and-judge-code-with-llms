@@ -1,5 +1,6 @@
 Título: Crime.
 Topicos do problema: decisão; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que faça cinco perguntas para uma pessoa sobre um crime. No final o programa deve emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como &#34;Suspeita&#34;, entre 3 e 4 como &#34;Cúmplice&#34; e 5 como &#34;Assassino&#34;. Caso contrário, ele será classificado como &#34;Inocente&#34;. As perguntas são:1 - Telefonou para a vítima? 2 -  Esteve no local do crime? 3 - Mora perto da vítima? 4 - Devia para a vítima? 5 - Já trabalhou com a vítima?<br/></p>
 Formato da entrada: <p>As respostas do acusado.</p>
 Formato da saída: <p>As perguntas feitas ao acusado.</p><p>Mensagem de classificação.</p>

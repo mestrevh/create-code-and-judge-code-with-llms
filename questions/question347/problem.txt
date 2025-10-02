@@ -1,5 +1,6 @@
 Título: Números triangulares
 Topicos do problema: acumulador; repetição; dicionário; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p class="Standard">Um n&uacute;mero triangular &eacute; um n&uacute;mero natural que pode ser
 representado na forma de tri&acirc;ngulo equil&aacute;tero ou tri&acirc;ngulo ret&acirc;ngulo.</p>
 <p class="Standard">Reza um lenda que foi desenvolvido por Gauss em 1788 quando

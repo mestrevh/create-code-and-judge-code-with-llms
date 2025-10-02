@@ -1,5 +1,6 @@
 Título: Avaliador de Jogo da Velha
 Topicos do problema: multiplas entradas; simulação de jogos; caractere; array bidimensional; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Est&aacute; ocorrendo o campeonato mundial de jogo da velha em nerderlands, participantes do mundo inteiro est&atilde;o jogando e h&aacute; muitos jogos a avaliar, para tornar as coisas mais r&aacute;pidas o comit&ecirc; organizador do campeonato pediu sua ajuda Voc&ecirc; deve escrever um programa que, dada a configura&ccedil;&atilde;o do jogo.</p>
 <p>identifique se:</p>
 <p>O jogo est&aacute; em andamento<br />A Jogada &eacute; Ilegal<br />'X' venceu<br />'O' venceu</p>

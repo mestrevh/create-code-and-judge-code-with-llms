@@ -1,5 +1,6 @@
 Título: Loop de inteiros
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que imprima os n&uacute;meros inteiros de 1 a 1000.</p>
 Formato da entrada: <p>Nenhuma entrada &eacute; necess&aacute;ria</p>
 Formato da saída: <p>Todos os n&uacute;meros inteiros da descri&ccedil;&atilde;o, um por linha.</p>

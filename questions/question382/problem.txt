@@ -1,5 +1,6 @@
 Título: Monitorando A Glicose
 Topicos do problema: acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="font-size: small;">Genival tem muito medo de ter diabetes e, por isso, o m&eacute;dico pediu que ele medisse sua glicose ao longo do dia para ver se ela estava controlada. </span></p>
 <p><span style="font-size: small;">Escreva um programa que receba como entrada os v&aacute;rios valores da taxa de glicose de Genival, at&eacute; que o valor informado seja 0, e calcule a glicose m&eacute;dia observada naquele dia. </span></p>
 <p><span style="font-size: small;">Caso esse valor seja inferior a 110, o programa deve exibir a mensagem Glicose Normal. Caso seja 200 ou mais, a mensagem exibida deve ser Glicose Muito Alta. Nos demais casos, o programa deve exibir Glicose Alterada.</span></p>

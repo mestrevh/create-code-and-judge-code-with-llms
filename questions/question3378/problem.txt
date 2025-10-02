@@ -1,5 +1,6 @@
 Título: Funções Math.h
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span>Faca um programa que dado um número real lido como parâmetro, calcule o piso, o teto, a sua raiz quadrada,</span><span class="Apple-converted-space">  </span><span>o seno, o cosseno e esse número elevado a potência 3.</span><span class="Apple-converted-space"> </span><br/></p>
 Formato da entrada: <p>Número Real</p>
 Formato da saída: <p>piso</p><p>teto</p><p>raiz quadrada</p><p>seno </p><p>cosseno </p><p>potencia 3</p>

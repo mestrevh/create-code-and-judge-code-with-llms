@@ -1,5 +1,6 @@
 Título: Base e expoente.
 Topicos do problema: multiplas entradas; acumulador; repetição; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Utiliza estruturas de repetição para resolver o problema.<br/></p>
 Formato da entrada: <p>Base e expoente.</p>
 Formato da saída: <p>Resultado do cálculo.</p>

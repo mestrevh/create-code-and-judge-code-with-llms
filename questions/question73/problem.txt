@@ -1,5 +1,6 @@
 Título: Características Físicas
 Topicos do problema: array; decisão; dicionário; busca; estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma pesquisa sobre algumas características físicas da população de uma determinada região coletou os seguintes dados, referentes a cada habitante, para serem analisados:</p>&#13;<p>Sexo (masculino (m), feminino (f));<br/>Cor dos olhos (azuis (a), verdes (v), castanhos (c));<br/>Cabelos (louros (l), castanhos (c), pretos(p));<br/>Idade em anos.</p>&#13;<p><br/>Para cada habitante, foram digitadas duas linhas, a primeira com a idade e a segunda os outros dados e a última linha, que não corresponde a ninguém, conterá o valor igual a -1.</p>&#13;<p>Escreva um programa que dê a idade do habitante mais velho e a porcentagem de mulheres que tenham idade maior ou igual a 18 e menor ou igual a 35 anos, sejam louras e tenham olhos verdes.</p>&#13;<p>O percentual deve ser calculado considerando-se o total de pessoas e não somente o total de mulheres.</p>
 Formato da entrada: <p>Um inteiro n indicando a idade e outra linha com sexo, cabelos e cor dos olhos.</p>
 <p>Considere que ser&atilde;o dadas no m&aacute;ximo 100 pessoas.</p>

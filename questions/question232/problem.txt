@@ -1,5 +1,6 @@
 Título: Rotação
 Topicos do problema: array; caractere; string; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>&nbsp;</p>
 <p class="Padro">Sua miss&atilde;o &eacute; rotacionar uma s&eacute;rie de senten&ccedil;as 90 graus no sentido hor&aacute;rio. Logo, ao inv&eacute;s de exibir as senten&ccedil;as da esquerda para a direita e de cima para baixo, seu programa deve exibi-las de cima para baixo e da direita para a esquerda.</p>
 <p>&nbsp;</p>

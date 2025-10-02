@@ -1,5 +1,6 @@
 Título: Q10 - Ajude os Números a Invadir
 Topicos do problema: string; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Mateus finalmente aprendeu a escrever certo, mas... Você, como forma de zoar ele, decide pegar frases que ele diz e transformar para a forma antiga que ele escrevia, já que você é do mau.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Então, se Mateus te mandar um &#34;Eu aprendi a escrever correntamente&#34;, você deve mandar pra ele de volta: &#34;3u 4pr3nd1 4 35cr3v3r c0rr3nt4m3nt3&#34;</p>
 Formato da entrada: <p>Uma frase mandada por Mateus</p>
 Formato da saída: <p>A frase mandada pra ele de volta com o formato antigo que ele escrevia</p>

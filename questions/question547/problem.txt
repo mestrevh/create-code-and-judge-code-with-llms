@@ -1,5 +1,6 @@
 Título: Profundidade de um nó em uma árvore binária
 Topicos do problema: estrutura de dados; Árvore; alocação dinâmica; busca; 
+Tempo limite de execução: 2 segundo(s)
 Descrição: <p>Escreva um programa que aceita uma árvore binária, e um inteiro N.</p><p><span>Seu programa deve ser capaz de dizer se existe um nó cujo inteiro é N bem como em que profundidade ele se encontra.</span></p>
 Formato da entrada: <p>Uma árvore binária, representada da seguinte maneira:</p><p>(5(4(11(7()())(2()()))())  (8(13()())(4()(1()()))))</p><p>Que é a arvore:<br/></p><p><img src="https://thehuxley.com/api/v1/problems/image/f15f1d62512e6f9dadcd0483d80ed600.jpg"/></p><p><br/></p><p><span>E um inteiro N</span><br/></p>
 Formato da saída: <p>Duas linhas. Em uma delas, você irá dizer ESTA NA ARVORE, caso o nó cujo inteiro é N esteja na árvore, e NAO ESTA NA ARVORE, caso contrário. Na outra linha, você irá informar em que profundidade da árvore o nó está. Caso não esteja, imprima -1.</p><p>Observe o exemplo de entrada e saída.<br/></p>

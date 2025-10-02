@@ -1,5 +1,6 @@
 Título: !PalindromoomordnilaP!
 Topicos do problema: array; palíndromos; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um palíndromo do palíndromo do palíndromo! Palíndromos são palavras iguais quando lidas da esquerda para direita, como da direita para esquerda.O tamanho máximo da palavra é 7.<br/></p>
 Formato da entrada: <p>Miranha <br/></p>
 Formato da saída: <p>miranhamiranhamahnarimahnarim<br/></p>

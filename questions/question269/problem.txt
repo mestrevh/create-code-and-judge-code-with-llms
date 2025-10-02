@@ -1,5 +1,6 @@
 Título: Meses do Ano por extenso
 Topicos do problema: decisão; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que leia um n&uacute;mero inteiro e informe qual o m&ecirc;s do ano correspondente por extenso. Caso seja um m&ecirc;s inv&aacute;lido, informe ao usuario.</p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; um n&uacute;mero inteiro correspondente ao m&ecirc;s do ano. Considere que o m&ecirc;s de janeiro como 1 e o m&ecirc;s de dezembro como 12.</p>
 <p>Qualquer inteiro fora desse intervalo deve ser considerado como um m&ecirc;s inv&aacute;lido.</p>

@@ -1,5 +1,6 @@
 Título: Mínimo múltiplo comum
 Topicos do problema: repetição; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados dois numeros inteiros positivos, calcular o mínimo múltiplo comum</p>
 Formato da entrada: <p>Dos números inteiros m e n, ambos maiores que zero.</p>
 Formato da saída: <p>O menor número que é multiplo tanto de m como de n.</p>

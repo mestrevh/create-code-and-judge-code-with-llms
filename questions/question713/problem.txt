@@ -1,5 +1,6 @@
 Título: Múltiplos de N num Intervalo
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escrever programa para exibir os múltiplos de N contidos entre os valores A e B, sendo N, A e B definidos pelo utilizador.<br/></p>
 Formato da entrada: <p>Três valores inteiros.  Cada um em uma linha distinta.  O primeiro valor, N,  corresponde ao número do qual se deseja verificar se há múltiplos.  Os outros dois valores, A e B inclusivos, correspondem aos limites do intervalo de valores a serem validados como múltiplos ou não de N. <br/></p>
 Formato da saída: <p>Valores contidos entre A e B, que sejam múltiplos de N.</p><p>Caso não haja múltiplos de N, entre A e B, exibir: INEXISTENTE.<br/></p>

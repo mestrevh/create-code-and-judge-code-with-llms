@@ -1,5 +1,6 @@
 Título: Distância entre dois pontos
 Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie uma função que recebe as coordenadas (x, y - inteiros) de dois pontos (a, b) no plano cartesiano e retorna a distância entre a e b.<br/></p>
 Formato da entrada: <p>3 5 5 5</p>
 Formato da saída: <p>2</p>

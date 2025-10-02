@@ -1,5 +1,6 @@
 Título: Matriz escada
 Topicos do problema: obi; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Jo&atilde;ozinho est&aacute; aprendendo sobre matrizes. Hoje ele aprendeu como deixar matrizes na forma escada, e est&aacute; exercitando. Para ajud&aacute;-lo, voc&ecirc; deve escrever um programa que determine se o resultado dele realmente est&aacute; no formato correto.</p>
 <p>Uma matriz est&aacute; na forma escada quando, para cada linha, as condi&ccedil;&otilde;es a seguir forem satisfeitas:</p>
 <p>i) Se a linha s&oacute; possuir zeros, ent&atilde;o todas as linhas abaixo desta tamb&eacute;m s&oacute; possuem zeros.</p>

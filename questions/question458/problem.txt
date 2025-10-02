@@ -1,5 +1,6 @@
 Título: TV por assinatura
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Para incentivar os clientes a pagarem com débito automático, a empresa resolveu oferecer descontos e canais extras àqueles que aderirem  nessa forma de pagamento. Clientes dos pacotes Básico e Entretenimento ganham <span> </span>5% de desconto e mais 6 canais, e os dos demais pacotes ganham 10% de desconto e mais 11 canais. </p><p class="\&#34;MsoNormal\&#34;">Escreva um programa que receba como entrada o nome do pacote e a forma de pagamento escolhida por um cliente e exiba o valor final da mensalidade e a quantidade total de canais à qual ele terá direito.</p><p class="\&#34;MsoNormal\&#34;"><br/></p><p class="\&#34;MsoNormal\&#34;">Básico - 32 canais e custa R$ 80.80<br/><span style="color: rgb(147, 149, 152);float: none;background-color: rgb(255, 255, 255);">Entretenimento - 55 canais e custa R$ 100.40<br/></span><span>Multicultural - 70 canais e custa R$ 130.23<br/>Completo - 112 canais e custa R$ 215.50</span></p><p></p><p></p>
 Formato da entrada: <p>Dois Strings que podem estar escritos em mai&uacute;sculas ou min&uacute;sculas e que t&ecirc;m acentos</p>
 Formato da saída: <p>Um valor real com duas casas decimais e um valor inteiro</p>

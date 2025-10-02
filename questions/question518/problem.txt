@@ -1,5 +1,6 @@
 Título: aMAZEing! - Pt.2
 Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;"><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">Consideramos um labirinto de tamanho N como uma grade de NxN células, numeradas em sequência de cima para baixo e da esquerda para a direita de 0 até N-1.
 
 Por exemplo, para N=3, temos:

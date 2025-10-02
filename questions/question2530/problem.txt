@@ -1,5 +1,6 @@
 Título: Par ou Impar Octave - T1
 Topicos do problema: multiplas entradas; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><font size="3"><b>Elabore um programa que ao receber um numero inteiro determine se o mesmo é par ou impar.</b><br/></font></p>
 Formato da entrada: <p>O usuario deve digitar o número<br/></p>
 Formato da saída: <p>O programa deve exibir se o numero digitado é par ou impar, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite um numero (impresso pela funcao input)<br/></p><p>O numero digitado e par/impar<br/></p>

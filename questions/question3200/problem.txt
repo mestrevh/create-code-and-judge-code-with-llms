@@ -1,5 +1,6 @@
 Título: [C3] LAB - 4
 Topicos do problema: estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Calcule e apresente o volume de uma lata de óleo, dados seu raio e sua altura:<br/>Fórmula: volume = (PI) * (raio ao quadrado) * altura<br/><br/>Use o pi do módulo matemático.<br/><br/>Não imprima nada na entrada/saída</p>
 Formato da entrada: <p>Raio<br/>Altura</p>
 Formato da saída: <p>Volume</p>

@@ -1,5 +1,6 @@
 Título: Converta um número Romano para Arábico
 Topicos do problema: números romanos; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ambrósio resolveu fazer turismo na Itália e foi conhecer Roma antiga. Ao chegar lá, sua filha Ambrosinita, viu uma série de números em inscrições nas rochas:</p>&#13;<p>- Pai, X equivale qual número?</p>&#13;<p>- Equivale ao 10 Ambrosinita.</p>&#13;<p>- E o CX?</p>&#13;<p>- Equivale a 110 Ambrosinita.</p>&#13;<p>Depois de umas cinco perguntas, ele resolveu sentar e fazer um pequeno programa para que Ambrosinita pudesse saber o número Arábico equivalente ao número Romano diretamente de seu tablet.</p>&#13;<p>Sua missão é ajudar Ambrósio a fazer esse programa.</p>&#13;<p>Curiosidade:: foto tirada por Ambrosinita:</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/4653624542626571cc0aed520c20b5e.jpg" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/4653624542626571cc0aed520c20b5e.jpg" border="0" width="389" height="217"/></a></p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; um n&uacute;mero em algarismos romanos, com todos os caracteres em mai&uacute;sculo.</p>
 <p>Considere somente n&uacute;meros entre I e MMMCMXCIX</p>

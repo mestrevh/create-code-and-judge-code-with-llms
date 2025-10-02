@@ -1,5 +1,6 @@
 Título: Soma dos dígitos (função iterativa)
 Topicos do problema: repetição; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <h5></h5><p>Crie um programa que tenha uma única função, além da principal, que receberá como parâmetro um natural<i> </i><b><i>n (0&lt;=n&lt;=2^30)</i> </b>e devolverá a soma dos dígitos de <b><i>n</i></b>. O programa exibirá o retorno da função. Observações: (a) apenas um laço de repetição; (b) sem matrizes; <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">(c) função iterativa</span>.<br/></p>
 Formato da entrada: <p>12345678</p>
 Formato da saída: <p>36</p>

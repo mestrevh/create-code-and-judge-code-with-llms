@@ -1,5 +1,6 @@
 Título: Todas as permutações
 Topicos do problema: busca completa; backtracking; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Gere todas as permita&ccedil;&otilde;es de um conjunto de n&uacute;meros inteiros.</p>
 Formato da entrada: <p>Um inteiro n, indicando o maior inteiro do conjunto de 1 a n</p>
 <p>Considere: 1&lt;= n &lt;= 10</p>

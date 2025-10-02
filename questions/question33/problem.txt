@@ -1,5 +1,6 @@
 Título: Soma Frações
 Topicos do problema: entrada formatada; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que calcule a soma de duas fra&ccedil;&otilde;es, fornecendo o&nbsp;resultado em forma de fra&ccedil;&atilde;o, seu programa deve verificar se as fra&ccedil;&otilde;es s&atilde;o&nbsp;v&aacute;lidas.</p>
 Formato da entrada: <p>Consiste de quatro n&uacute;meros inteiros da forma a/b + c/d</p>
 Formato da saída: <p>Consiste de uma fra&ccedil;&atilde;o no formato a/b seguida por um fim de linha.<br />Deve imprimr "entrada invalida!" caso uma das fra&ccedil;&otilde;es tenha denominador 0.</p>

@@ -1,5 +1,6 @@
 Título: IMC
 Topicos do problema: ponto flutuante; entrada formatada; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <b id="docs-internal-guid-b308ef3a-7fff-dd4b-70b7-175d528b8c34"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;"> Faça um programa que calcula o IMC (Índice Massa Corporal)  de uma pessoa. O programa recebe 2 números racionais, peso e altura, e usa a fórmula IMC = peso/altura² para calcular a saída. O programa deve imprimir como saída o valor do IMC com precisão de uma casa decimal.</span></p>
 Formato da entrada: <b id="docs-internal-guid-fb3b4b26-7fff-63d5-2e51-ff4d429e614f"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">2 números racionais, sendo o primeiro o peso e o segundo a altura.</span></p>
 Formato da saída: <b id="docs-internal-guid-b90a93c6-7fff-7efe-beb0-3fa0cfc542ff"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O resultado da aplicação da fórmula do IMC ( peso/altura² ) com precisão de uma casa decimal.</span></p>

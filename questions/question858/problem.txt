@@ -1,5 +1,6 @@
 Título: Soma de dois números.
 Topicos do problema: multiplas entradas; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que leia do usuário dois números e calcule a soma.<br/></p>
 Formato da entrada: <p>Dois números informados.</p>
 Formato da saída: <p>Soma dos números.</p>

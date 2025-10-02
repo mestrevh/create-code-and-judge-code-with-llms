@@ -1,5 +1,6 @@
 Título: Funções 2 - Quadrado do número
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Ao receber um número, retorne seu quadrado.</span><br/></p>
 Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Um único inteiro <b>a</b>.</span><br/></p>
 Formato da saída: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Um único inteiro</span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"> <b>N</b>, representando o quadrado da entrada</span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">.</span><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></b><br/></p>

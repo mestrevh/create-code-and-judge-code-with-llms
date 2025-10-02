@@ -1,5 +1,6 @@
 Título: Média 2
 Topicos do problema: ponto flutuante; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leia 3 valores, no caso vari&aacute;veis A, B e C, que s&atilde;o as tr&ecirc;s notas de um aluno. A seguir, calcule a m&eacute;dia do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere que cada nota pode ir de 0 at&eacute; 10.0, sempre com uma casa decimal.</p>
 Formato da entrada: <p>O arquivo de entrada cont&eacute;m 3 valores com uma casa decimal.</p>
 Formato da saída: <p>Voc&ecirc; deve imprimir a string "MEDIA = " seguida do valor da m&eacute;dia ponderada. Olhe o exemplo de entrada e sa&iacute;da para ter certeza do formato. O valor da m&eacute;dia deve possuir apenas um d&iacute;gito ap&oacute;s o ponto decimal.</p>

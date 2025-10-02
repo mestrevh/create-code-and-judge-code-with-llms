@@ -1,5 +1,6 @@
 Título: Caracteres de Centro
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados dois caracteres minúsculos do alfabeto, informe o(s) caracteres(s) (máx: 2) que estão no centro entre esses dois caracteres.<br/></p><p>OBS: É garantido que existirá no mínimo um caractere entre eles, logo você não receberá entradas do tipo ('a', 'a') ou ('a', 'b'). <br/></p><p>Exemplos: <br/></p><p>'a' e 'd', temos como resposta 'b' e 'c', já entre 'a' e 'e' , temos apenas 'c' como caractere central, pois existe um número ímpar de elementos entre eles.<br/></p><p></p>
 Formato da entrada: <p>Dois caracteres minúsculos 1 por linha(não necessariamente ordenados alfabeticamente).<br/></p>
 Formato da saída: <p>Um caractere por linha (caso exista mais de um imprima em ordem alfabética).<br/></p>

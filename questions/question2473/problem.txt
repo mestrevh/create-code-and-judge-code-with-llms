@@ -1,5 +1,6 @@
 Título: Subtrai dois inteiros
 Topicos do problema: obi; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados dois inteiros, efetue a subtração.<br/></p>
 Formato da entrada: <p>5</p><p>2<br/></p>
 Formato da saída: <p>3<br/></p>

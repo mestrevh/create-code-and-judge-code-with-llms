@@ -1,5 +1,6 @@
 Título: Vai pra onde?
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ester est&aacute; programando suas f&eacute;rias e decidiu viajar gastando no m&aacute;ximo R$ 300 de passagens (ida e volta). Para usar bem seu dinheiro, ela quer ir para a cidade mais longe poss&iacute;vel sem extrapolar seu or&ccedil;amento. Escreva um programa que receba como entrada o nome, a dist&acirc;ncia (em quil&ocirc;metros) e o valor da passagem (s&oacute; ida) de v&aacute;rias cidades, at&eacute; que ela informe a cidade FIM, e exiba o nome do melhor destino para ela.</p>
 <p>Obs: Considere que as passagens de ida e de volta tenham o mesmo valor</p>
 Formato da entrada: <p>Um String (que pode estar escrito de qualquer forma), um inteiro (km) e um real para cada cidade</p>

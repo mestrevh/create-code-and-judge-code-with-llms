@@ -1,5 +1,6 @@
 Título: Troca de presentes
 Topicos do problema: acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Augusto casou recentemente e recebeu v&aacute;rios presentes repetidos. Sua inten&ccedil;&atilde;o &eacute; trocar esses extras para poder adquirir um ar condicionado split que custa R$ 800.</p>
 <p>Escreva um programa que receba como entrada o valor e a quantidade de unidades ganhas de cada um dos 6 presentes que ele separou, e exiba quantos itens ser&atilde;o trocados e uma mensagem informando se ele conseguir&aacute; adquirir o ar condicionado ou n&atilde;o.</p>
 <p>Dica: Se ele ganhar apenas uma unidade de um presente, n&atilde;o far&aacute; troca dele. Por&eacute;m, caso ganhe mais de um, ficar&aacute; apenas com um e trocar&aacute; os demais.</p>

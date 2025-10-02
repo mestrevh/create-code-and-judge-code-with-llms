@@ -1,5 +1,6 @@
 Título: Ordenação ensaio do método da bolha
 Topicos do problema: ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Implemente a estratégia de bubble sort para ordenar os n maiores números de uma sequência de inteiros passada como parâmetro.</p>
 Formato da entrada: <p>A entrada consiste de duas linhas de valores. Na primeira linha, o valor correspondente ao tamanho do vetor a ser passado e o valor de <b>n. </b>Na segunda linha a sequência a ser usada para ordenação.</p><p>O valor de m - Você deve passar um inteiro que corresponde ao tamanho da sequência de valores a ser informada na linha a seguir.</p><p>O valor de n - Você deve informar quantos números o algoritmo deve ordenar, ou seja, os n maiores números a serem ordenados. Onde n deve ser menor do que a quantidade de números passada como parâmetro.</p><p>Em seguida deve informar uma sequência de valores inteiros separados por espaço.</p>
 Formato da saída: <p>Deve ser impresso os arrays correspondentes a cada passo do processo de ordenação pelo método da bolha. Desta forma, ao final deve ser impresso o conjunto de números correspondentes ao array de entrada com os <b>n</b> maiores números ordenados.</p>

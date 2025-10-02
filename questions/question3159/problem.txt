@@ -1,5 +1,6 @@
 Título: Corona: Ep 2
 Topicos do problema: decisão; números primos; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Em uma viagem pela Europa, Pedro Jorge, carinhosamente chamado de PJ, resolveu conhecer a Itália. Infelizmente o momento não era o melhor para o país, então em poucos dias de estadia, PJ se deparou em uma situação crítica, onde as ruas estão cheias de pessoas infectadas com o COVID-19 sem que saibam com certeza. Mas como PJ é um programador exemplar ele criou um sistema que acoplado a um óculos de realidade aumentada que permite com que ele saiba quem está infectado e assim ele pode saber com quem evitar contato. Você fará um programa que simula o programa feito por PJ.</p>
 Formato da entrada: <p>Seu programa receberá três números inteiros onde 0&lt;=a,b,c&lt;=1000.<br/></p>
 Formato da saída: <p>Seu programa deverá imprimir &#34;Seguro&#34; caso não exista um número primo entre esses números, &#34;Possível Risco&#34; caso haja apenas um número primo e &#34;Perigo&#34; caso haja mais de um número primo. Sempre com uma quebra de linha.<br/></p>

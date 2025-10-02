@@ -1,5 +1,6 @@
 Título: 8 rainhas
 Topicos do problema: busca completa; backtracking; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>No xadrez &eacute; poss&iacute;vel colocar 8 rainhas no tabuleiro de tal forma que nenhuma rainha possa atacar a outra. Escreva um programa que determine todos os poss&iacute;veis arranjos para 8 rainhas dada a posi&ccedil;&atilde;o inicial de uma das rainhas.</p>
 Formato da entrada: <p>A primeira linha da entrada cont&eacute;m o n&uacute;mero de casos de teste e &eacute; seguida de uma linha em branco.</p>
 <p>Cada caso de teste conter&aacute; dois n&uacute;meros separados por um espa&ccedil;o. Nos n&uacute;meros representam o quadrado no qual uma das oito rainhas est&aacute; posicionada.</p>

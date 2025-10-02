@@ -1,5 +1,6 @@
 Título: Permutador de Trem
 Topicos do problema: array; acumulador; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span><span>Em uma antiga esta&ccedil;&atilde;o ferrovi&aacute;ria, voc&ecirc; ainda pode encontrar um dos &uacute;ltimos remanescentes ``Permutador de Trem '' . </span><span>Um manobrista de trem &eacute; um empregado da estrada de ferro, cujo &uacute;nico trabalho &eacute; reorganizar as carruagens dos comboios.<br /><br /></span><span>Uma
  vez que as carruagens s&atilde;o dispostas na ordem ideal, todo maquinista 
 do comboio tem que retirar as carruagens, uma a uma, at&eacute; as 

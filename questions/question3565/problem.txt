@@ -1,5 +1,6 @@
 Título: Diferença entre vetores
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado um vetor de tamanho N, seu trabalho é ordená-lo (crescente) e achar quantas vezes o módulo da diferença entre cada elemento de mesmo índice do vetor ordenado e do vetor original é igual a X e quais foram os elementos de cada vetor.</p><p><br/></p>
 Formato da entrada: <p>Um inteiro N que corresponde ao tamanho do vetor. 1&lt;=N&lt;=100.</p><p>Um inteiro X. 0&lt;=X&lt;=29.</p><p>Um vetor com N elementos.</p><p>Você deve realizar a leitura enquanto N for diferente de -1.</p>
 Formato da saída: <p>Um número que indica quantas vezes o módulo da diferença entre os elementos dos vetores foi igual a X, quais foram esses números e a posição do elemento no vetor original.</p><p><br/></p>

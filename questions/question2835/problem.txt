@@ -1,5 +1,6 @@
 Título: Contando frequência de caracteres
 Topicos do problema: array; decisão; repetição; ordenação; dicionário; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba um texto em uma única linha e imprima cada caractere e o número de vezes que ocorre no texto, na ordem inversa à alfabética.</p>
 Formato da entrada: <p>Uma linha contendo qualquer caractere, que pode incluir letras, números, pontuação e caracteres especiais.<br/></p>
 Formato da saída: <p>Uma sequência linhas onde cada linha contém um caractere e seu respectivo número de ocorrências no texto. A sequência de caracteres segue a ordem alfabética decrescente.<br/></p>

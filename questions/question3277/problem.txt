@@ -1,5 +1,6 @@
 Título: Nota válida
 Topicos do problema: obi; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Um professor precisa de sua ajuda para criar um programa que valide as notas digitadas de uma turma, ou seja, 0 ≤ nota ≤ 10 é uma nota válida, caso contrário, é uma nota inválida! Resolva este problema na linguagem Python (Não use acentos no código).<br/></p>
 Formato da entrada: <p>5</p>
 Formato da saída: <p>Valida</p>

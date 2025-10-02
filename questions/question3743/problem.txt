@@ -1,5 +1,6 @@
 Título: Médias entre 3 notas
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que recebe 3 notas de prova e calcula:<br style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"/><br style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"/>- A média delas<br style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"/>- A média ponderada delas, considerando pesos 2, 2 e 3<br style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"/>- A média ponderada delas, considerando pesos 1, 2 e 2<br/></p>
 Formato da entrada: <p>3 notas decimais:</p><ul><li>Nota 1</li><li>Nota 2</li><li>Nota 3<br/></li></ul>
 Formato da saída: <p><span>Médias com 2 casas decimais:</span><br/></p><ul><li><span>Média</span><br/></li><li><span>Média ponderada, considerando pesos 2, 2 e 3</span></li><li>Média ponderada, considerando pesos 1, 2 e 2<br/></li></ul>

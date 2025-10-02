@@ -1,5 +1,6 @@
 Título: Próximos da Média
 Topicos do problema: multiplas entradas; array; decisão; repetição; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Serão dados N números correspondendo às notas de uma turma. Escreva um programa que leia estas N notas e calcule a média. Em seguida, o programa deve informar qual é a nota que está mais próxima da média (podendo ser maior ou menor que ela) e qual é a diferença absoluta entre esta nota e a média.<br/></p>
 Formato da entrada: <p>Uma linha contendo um inteiro N que indica a quantidade de notas seguida de N linhas com as notas (ponto flutuante).<br/></p>
 Formato da saída: <p>Linha 1:  Contém a string 'MEDIA:', seguida de um espaço em branco e o a média calculada com 2 casas decimais.</p><p>Linha 2: Contém a String 'MAIS PROXIMO:', seguida de um espaço em branco e o valor que está mais próximo da média, com duas casas decimais.</p><p>Linha 3: Contém a String 'DIFERENCA:', seguida de um espaço em branco e o valor absoluto da diferença entre a nota e a média, formatado com 2 casas decimais.<br/></p>

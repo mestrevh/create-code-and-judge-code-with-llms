@@ -1,5 +1,6 @@
 Título: Bingo
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; est&aacute; organizando um bingo e deseja que cada n&uacute;mero sorteado apare&ccedil;a no tel&atilde;o.</p>
 <p>Fa&ccedil;a um programa que dado um n&uacute;mero digitado imprima: "O numero sorteado foi: X", onde X &eacute; o n&uacute;mero sorteado.</p>
 Formato da entrada: <p>Um n&uacute;mero inteiro</p>

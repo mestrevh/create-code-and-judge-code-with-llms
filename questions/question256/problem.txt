@@ -1,5 +1,6 @@
 Título: Intercalar um array
 Topicos do problema: array; intercalação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; deve intercalar dois arrays de n&uacute;meros inteiros.</p>
 Formato da entrada: <p>Na primeira linha voc&ecirc; receber&aacute; um n&uacute;mero inteiro n indicando o tamanho de cada um dos arrays.</p>
 <p>As pr&oacute;ximas n linhas correspondem aos elementos do primeiro array.</p>

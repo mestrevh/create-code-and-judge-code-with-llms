@@ -1,5 +1,6 @@
 Título: Soma dos Dígitos
 Topicos do problema: acumulador; repetição; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva uma fun&ccedil;&atilde;o chamada SomaDigitos que receba como entrada um n&uacute;mero inteiro e retorne a soma de seus d&iacute;gitos.</p>
 <p>Ex: Se a entrada for 521, a sa&iacute;da ser&aacute; 8 (5 + 2 + 1)</p>
 Formato da entrada: <p>Um n&uacute;mero inteiro</p>

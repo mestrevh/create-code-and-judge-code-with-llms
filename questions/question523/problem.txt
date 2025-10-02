@@ -1,5 +1,6 @@
 Título: Novo Teclado
 Topicos do problema: acumulador; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p class="MsoNormal" style="margin-bottom: -5.9999pt;"><span style="font-size: small;"><span style="font-size: x-small;"><span style="font-size: small;">Bob comprou um computador novo, por&eacute;m ele n&atilde;o est&aacute; muito acostumado com o teclado e &agrave;s vezes demora bastante para digitar algumas palavras.</span></span></span></p>
 <p class="MsoNormal" style="margin-bottom: -5.9999pt;"><span style="font-size: small;"><span style="font-size: x-small;"><span style="font-size: small;">Bob escolheu N palavras distintas de um dicion&aacute;rio, as chamou de W1, W2, ..., WN e percebeu que demorava Xi milissegundos para escrever a i-&eacute;sima delas, ou seja, demorava Xi milissegundos para escrever Wi.</span></span></span></p>
 <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size: small;"><span style="font-size: x-small;"><span style="font-size: small;">Agora, ele quer um programa que dados essas N palavras, junto com o tempo gasto, em milissegundos, para escrever cada uma delas, e um texto S composto por M dessas palavras (possivelmente com repeti&ccedil;&atilde;o), diga quanto tempo, tamb&eacute;m em milissegundos, ele ir&aacute; demorar para escrever o texto.</span></span></span></p>

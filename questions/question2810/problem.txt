@@ -1,5 +1,6 @@
 Título: Cédulas
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que leia um valor inteiro, referente a um valor monetário. A seguir, o programa deve calcular o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o valor lido e a relação de notas necessárias.<br/></p>
 Formato da entrada: <p>O usuário deve digitar  um valor inteiro N.<br/></p>
 Formato da saída: <div class="ng-binding"><p>O programa deve exibir a quantidade mínima de notas de cada tipo necessárias, conforme o exemplo fornecido, imprimindo na tela os valores abaixo:</p><p>Digite o valor inteiro:<br/></p><p>n nota(s) de R$ 100,00</p><p>n nota(s) de R$ 50,00</p><p>n nota(s) de R$ 20,00</p><p>n nota(s) de R$ 10,00</p><p>n nota(s) de R$ 5,00</p><p>n nota(s) de R$ 2,00</p><p>n moeda(s) de R$ 1,00</p></div>

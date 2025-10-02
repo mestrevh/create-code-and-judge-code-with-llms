@@ -1,5 +1,6 @@
 Título: Formatando endereço
 Topicos do problema: formatação; 
+Tempo limite de execução: 2 segundo(s)
 Descrição: <p>Voc&ecirc; receber&aacute; um conjunto de dados contendo o <strong>nome da rua</strong>, <strong>n&uacute;mero da resid&ecirc;ncia</strong>, <strong>nome do bairro</strong>, <strong>cidade</strong>, <strong>estado </strong>e o <strong>n&uacute;mero do cep</strong> (somente n&uacute;meros). O programa dever&aacute; imprimir os dados conforme o modelo que os Correios utilizam para a postagem de correspond&ecirc;ncias.</p>
 <p>&nbsp;</p>
 <p>Atualmente o modelo adotado &eacute;:</p>

@@ -1,5 +1,6 @@
 Título: Área
 Topicos do problema: geometria computacional; ponto flutuante; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que leia tr&ecirc;s valores com ponto flutuante: A, B e C. Em seguida, calcule e mostre:&nbsp;</p>
 <p>a) a &aacute;rea do tri&acirc;ngulo ret&acirc;ngulo que tem A por base e C por altura.&nbsp;</p>
 <p>b) a &aacute;rea do c&iacute;rculo de raio C. (pi = 3.14159)&nbsp;</p>

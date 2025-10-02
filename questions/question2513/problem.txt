@@ -1,5 +1,6 @@
 Título: Forma triângulo
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Faça um programa que recebe o comprimento de três retas (número inteiro) e exibe uma mensagem indicando se podem formar um triângulo.</span></p><p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"><br/></span></p><p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Obs.: Caso não recorde da condição de existência de um triângulo, faça uma pesquisa em uma fonte confiável.</span></p>
 Formato da entrada: <p>Três valores inteiros, um por linha, representado os comprimentos das retas.</p>
 Formato da saída: <p>Caso as três retas possam ser usadas para formar um triângulo, exiba 'sim' (em minúsculo e sem aspas); caso contrário, exiba 'nao' (em minúsculo, sem aspas e sem acentuação).</p>

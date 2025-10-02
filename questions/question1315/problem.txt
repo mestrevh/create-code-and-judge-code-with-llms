@@ -1,5 +1,6 @@
 Título: Bissexto
 Topicos do problema: decisão; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Construa um algortimo que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.<br/></p>
 Formato da entrada: <p>Ano</p>
 Formato da saída: <p>B<b style="color: rgb(0, 0, 128);text-align: justify;">issexto </b>ou não</p>

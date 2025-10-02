@@ -1,5 +1,6 @@
 Título: Cai fora
 Topicos do problema: simulação de jogos; maratona; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>"Cai fora" &eacute; o nome de um jogo de cartas bastante simples que &eacute; jogado com uma pilha de 52 cartas. As cartas s&atilde;o ordenadas de acordo com seu ranking (A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K), com A sendo o menor e K sendo o maior valor. Os naipes s&atilde;o ignorados. Os jogadores, pelo menos 2, sentam em torno da mesa, embaralham as cartas e as colocam no centro da mesa, com as faces para baixo.</p>
 <p>No come&ccedil;o de jogo, todos os jogadores est&atilde;o "ativos". O jogo continua em rodadas. A cada rodada, os jogadores ativos pegam uma carta de pilha de cartas do centro da mesa. O jogo acontece no sentido hor&aacute;rio de acordo com as posi&ccedil;&otilde;es na mesa de cada jogador. O jogador que pegou a menor carta daquela rodada, retira aquela carta do jogo e se torna inativo. Perceba que at&eacute; 4 jogadores podem se tornar inativos em uma mesma rodada. O jogo termina quando sobrar apenas um jogo ativo, que &eacute; declarado como vencedor.</p>
 <p>Se a pilha de cartas acabar antes de terminar o round, o jogo termina e todos os jogadores ativos no in&iacute;cio da &uacute;ltima rodada s&atilde;o vencedores.</p>

@@ -1,5 +1,6 @@
 Título: Playlist de Verão
 Topicos do problema: acumulador; datas/horas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>T&acirc;mara vai viajar com seus amigos nesse ver&atilde;o e ficou encarregada de selecionar boas m&uacute;sicas para o trajeto. Escreva um programa que receba como entrada a dura&ccedil;&atilde;o de cada uma das cinco m&uacute;sicas que ela j&aacute; escolheu, e exiba qual o tempo total de entretenimento garantido.</p>
 Formato da entrada: <p>N&uacute;meros inteiros representando a quantidade de minutos e a quantidade de segundos que comp&otilde;em cada m&uacute;sica escolhida. Cada valor &eacute; separado por uma quebra de linha.</p>
 <p>Ex: Se a m&uacute;sica tiver 3:20 de dura&ccedil;&atilde;o, primeiro ser&aacute; informado o 3, e depois o 20.</p>

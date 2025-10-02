@@ -1,5 +1,6 @@
 Título: Calculadora dos calouros - decimais
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Pedro é horrível com matemática, então decidiu pedir ajuda a você, um calouro extremamente inteligente, para fazer os cálculos para ele.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Serão dados 2 números com pontos flutuantes.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">a primeira operação será a soma</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">a segunda operação será uma subtração</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">a terceira operação será uma multiplicação</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">a quarta operação será uma divisão</p>
 Formato da entrada: <p>dois números n1 e n2.</p>
 Formato da saída: <p>deve mostrar os resultados das operações com apenas 2 casas decimais.</p>

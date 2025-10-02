@@ -1,5 +1,6 @@
 Título: Organizando a confraternização
 Topicos do problema: acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Tales e seus amigos do futebol est&atilde;o decidindo onde e quando ser&aacute; a confraterniza&ccedil;&atilde;o de Natal deles. Como n&atilde;o houve um consenso, resolveram fazer uma enquete em que cada um teria que escolher uma op&ccedil;&atilde;o de dia (sexta ou domingo) e uma op&ccedil;&atilde;o de local (bar ou praia). Escreva um programa que receba como entrada os votos das 11 pessoas do grupo e exiba qual o dia e o destino escolhidos.</p>
 Formato da entrada: <p>Dois Strings para cada pessoa. Podem ser usadas letras mai&uacute;sculas e/ou min&uacute;sculas</p>
 Formato da saída: <p>Dois String em letras mai&uacute;sculas, sendo o primeiro correspondente ao dia, e o segundo ao local</p>

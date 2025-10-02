@@ -1,5 +1,6 @@
 Título: É de ladinho na leitura!
 Topicos do problema: array; entrada formatada; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você irá receber uma sequência de números reais, numa mesma linha, um ao lado do outro.</p><p>Imprima todos eles, na mesma sequência, porém um abaixo do outro usando 3 casas decimais!</p>
 Formato da entrada: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Uma sequência de números reais, numa mesma linha, um ao lado do outro.</span><br/></p>
 Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Uma sequência de números reais, um abaixo do outro, usando 3 casas decimais.</span><br/></p>

@@ -1,5 +1,6 @@
 Título: Resto da divisão
 Topicos do problema: função; recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <div class="page" title="Page 5" style="color: rgb(0, 0, 0);"><div class="layoutArea"><div class="column"><p>Em programação uma das funções <i>bult-in</i> mais utilizadas é o resto da divisão, que em algumas linguagens intitula-se MOD em outras, utiliza-se o operador %. </p><p>O que se pede nessa questão é que você implemente essa função.</p><p>Pode-se calcular o resto da divisão, <i>MOD</i>, de <i>x </i>por <i>y</i>, dois números inteiros, usando-se a seguinte definição:</p><p>MOD (x,y) = <i>MOD </i>(|<i>x</i>|−|<i>y</i>|,|<i>y</i>|), se |<i>x</i>| &gt;= |<i>y</i>|</p><p><i>MOD </i>(<i>x</i>,<i>y </i>) =  | <i>x </i>|, se | <i>x </i>| &lt; | <i>y </i>|</p><p>Então, pede-se que seja criada uma função recursiva para descrever tal definição. A função deve retornar -1 caso não seja possível realizar o cálculo. Além disso, crie um algoritmo que leia os dois valores inteiros e utilize a função criada para calcular o resto da divisão de <i>x </i>por <i>y</i>, e imprima o valor computado.</p></div></div></div>
 Formato da entrada: <p>Dois números inteiros, x e y.</p>
 Formato da saída: <p>O valor do resto da divisão.</p>

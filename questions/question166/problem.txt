@@ -1,5 +1,6 @@
 Título: Algarismo da casa das unidades
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que recebe um numero inteiro como entrada e fornece o algarismo da casa das unidades deste numero.</p>
 <p>Por exemplo, o algarismo da casa das unidades do n&uacute;mero 3872 &eacute; 2.</p>
 <p>Se o n&uacute;mero dado for negativo, considere que o algarismo tamb&eacute;m ser&aacute; negativo. Por exemplo, se o n&uacute;mero dado for -74, a resposta deve ser -4 e n&atilde;o 4.</p>

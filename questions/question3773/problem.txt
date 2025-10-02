@@ -1,5 +1,6 @@
 Título: Traquinagens do Saci
 Topicos do problema: função; string; ponteiro; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Certo dia, o Saci, planejando mais uma de suas traquinagens, teve a brilhante ideia de bagunçar o banco de dados de uma escola<br/>Para efetuar o seu plano ele queria uma código que faria isso por ele.<br/><br/></p><div style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/c97b67134f4cd98c03dd3375002f8ee67488e4012.jpg"/></div><p></p><p><br/>O código irá receber uma lista com o nome, a nota e a idade do aluno, e trocar as notas para que fiquem na ordem crescente de acordo com o que foi inserido na entrada. (Serão usados apenas números simples).</p><p>No código crie uma função que troque os valores de duas variáveis, sendo elas passadas por referência.</p>
 Formato da entrada: <p>Deverá ser digitado o nome na primeira linha e logo abaixo a nota seguida da idade.</p><p>Serão colocados 5 alunos com nomes de até<b> 20 caracteres</b>.</p><p>As notas serão<b> números reais</b> maiores que zero.</p><p>E a idade será um <b>número inteiro</b> também acima de 0.</p>
 Formato da saída: <p>Na saída será digitado o nome, a nota (com 2 algarismos) e a idade, todos na mesma linha.</p>

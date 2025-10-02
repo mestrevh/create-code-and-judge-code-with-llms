@@ -1,5 +1,6 @@
 Título: Os códigos de Josué
 Topicos do problema: decisão; caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Josué foi encarregado de colocar as encomendas nos caminhões de entrega dos correios. Mas como no fantástico mundo da minha cabeça as coisas não fazem muito sentido, o endereçamento dos correios onde Josué trabalha funciona de uma maneira peculiar. Cada encomenda possui um código composto por um número entre 0 e 99 (incluindo ambos) e um caractere (letra ou caractere especial). Nessa unidade dos correios existem apenas 4 caminhões que ficam responsáveis por uma certa gama de códigos.</p><p>Os caminhões recebem os códigos da seguinte maneira:</p><p>Caminhão 1: Qualquer número e um caractere especial;</p><p>Caminhão 2: Número par e uma vogal;</p><p>Caminhão 3: Número ímpar e letra maiúscula;</p><p>Caminhão 4: Qualquer outra combinação;</p><p><br/></p><p>Nessa questão você receberá em uma linha o inteiro e o caractere e deverá dizer qual é o caminhão responsável por aquela encomenda.</p>
 Formato da entrada: <p>Um inteiro <b>n</b> (<b> 0</b> &lt;= <b>n</b> &lt;= <b>99</b>) e um caractere <b>c</b>.</p>
 Formato da saída: <p>De acordo com o caminhão a saída deverá ser: &#34;Caminhão n&#34; (sem as aspas) onde n é um numero de 1 a 4 representando em qual caminhão a encomenda deverá ser colocada.</p>

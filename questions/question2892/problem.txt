@@ -1,5 +1,6 @@
 Título: Criando a matriz
 Topicos do problema: array; lógica matemática; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span class="fontstyle0">Faça um programa em linguagem C que crie a seguinte uma matriz quadrada N x N conforme o modelo abaixo para N = 4:</span><br/><img src="https://www.thehuxley.com/api/v1/problems/image/3e01aab3720c3f5f5fbac8abd216b7f1adfb012bz.png"/></p><p>Cada elemento deve ser impresso ocupando 7 espaços de tela alinhados à esquerda.<br/></p>
 Formato da entrada: <p>O usuário deverá inserir a ordem N da matriz.<br/></p>
 Formato da saída: <p>O programa deve imprimir a matriz quadrada conforme exemplo da descrição, com cada elemento impresso ocupando 7 espaços de tela alinhados à esquerda, imprimindo na tela:</p><p>Digite a ordem N da matriz:</p><p>n      n      n      n      <br/></p><p>n      n      n      n      <br/></p><p>n      n      n      n      <br/></p>

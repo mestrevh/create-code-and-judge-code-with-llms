@@ -1,5 +1,6 @@
 Título: Conversão para dólar adaptado.
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="color: rgb(0, 0, 0);">Escreva um programa para realizar a conversão do dólar para o real.</span></p><p><span style="color: rgb(0, 0, 0);">obs: 1 dólar = 5.08</span><br/></p><p><br/></p>
 Formato da entrada: <p>Três números flutuantes.</p>
 Formato da saída: <p>Três números flutuantes</p>

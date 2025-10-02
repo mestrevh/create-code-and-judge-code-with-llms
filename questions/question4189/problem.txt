@@ -1,5 +1,6 @@
 Título: Soma das Recursivas
 Topicos do problema: ciclos; função; recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um programa que execute as seguintes proposições e utilizando o conceito de recursividade de funções:</p>
 Formato da entrada: <p>Receba 3 números inteiros</p><p><br/></p>
 Formato da saída: <p>A soma do fatorial de cada um dos números</p>

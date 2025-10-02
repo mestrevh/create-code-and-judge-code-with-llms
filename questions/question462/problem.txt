@@ -1,5 +1,6 @@
 Título: Rede de telecomunicações
 Topicos do problema: grafo; vertices/arestas de corte; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma empresa de TELECOM est&aacute; expandindo sua rede de cabos &oacute;ticos. Eles est&atilde;o conectando v&aacute;rios lugares numerados de 1 a N. N&atilde;o existem lugares diferentes com o mesmo n&uacute;mero.</p>
 <p>As linhas s&atilde;o bidirecionais e sempre conectam dois lugares. Em cada local existe uma central de roteamento. Existe apenas uma central de roteamento em cada lugar.</p>
 <p>A partir de um lugar &eacute; poss&iacute;vel alcan&ccedil;ar qualquer outro lugar. N&atilde;o &eacute; preciso haver uma conex&atilde;o direta entre dois lugares para que seja poss&iacute;vel a comunica&ccedil;&atilde;o entre eles, a comunica&ccedil;&atilde;o ser&aacute; estabelecida atrav&eacute;s de um caminho entre eles.</p>

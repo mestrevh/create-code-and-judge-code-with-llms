@@ -1,5 +1,6 @@
 Título: Cifra de Bonxai
 Topicos do problema: array; ciclos; caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Bonxai está preocupado desde que escapou da forca, e agora precisa se comunicar através de mensagens criptografadas. Entretanto, ele só conhece a Cifra de Júlio César, que usará para codificar suas mensagens.</p><p><br/></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/32e74eccd41da9cabd90d2754816b7af827b86a44.png"/><br/></p>
 Formato da entrada: <p>N -&gt; Tamanho do vetor de caracteres</p><p>N caracteres (Todos minúsculos e sem espaço)</p><p>X -&gt; Deslocamento</p><p><br/></p>
 Formato da saída: <p>O vetor de caracteres codificado.</p><p></p>

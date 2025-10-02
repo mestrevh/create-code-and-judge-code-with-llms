@@ -1,5 +1,6 @@
 Título: Duracell
 Topicos do problema: pilha; caractere; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span>Dada uma expressão composta por parênteses ()</span><span>, colchetes []</span><span> e chaves {}</span><span>, verifique se ela está </span><strong>corretamente balanceada e bem aninhada</strong><span>.</span></p><p>Uma expressão é considerada válida se:</p><ul><li><p>Cada parêntese, colchete ou chave de abertura possui um correspondente de fechamento.</p></li><li><p>O fechamento ocorre na ordem correta, respeitando o aninhamento. Por exemplo, a expressão ([)] é inválida, pois fecha os parênteses de forma incorreta.</p></li></ul>
 Formato da entrada: <ul><li>Um número inteiro N (1 &lt;= N &lt;= 20), representando a quantidade de expressões que serão verificadas.<br/></li><li>Em seguida, N linhas, cada uma contendo uma expressão composta exclusivamente pelos seguintes caracteres: (, ), [, ], {, }.<br/></li><li>Não haverá espaços na expressão e seu tamanho máximo será de 100 caracteres.<br/></li></ul>
 Formato da saída: <p>Para cada expressão, imprima:<br/></p><ul><li>&#34;True&#34; se ela for <strong>válida</strong> (balanceada e corretamente aninhada).<br/></li><li>&#34;False&#34; caso contrário.</li></ul>

@@ -1,5 +1,6 @@
 Título: Palíndromo
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um programa que, dado um texto digitado pelo usuário, checa se o mesmo é um palíndromo (o texto é igual à sua versão invertida).</p>
 Formato da entrada: <p>O usuário deve digitar um texto como entrada para o programa.</p>
 Formato da saída: <p>A saída deve ser True caso a palavra seja um palíndromo ou False caso contrário.</p>

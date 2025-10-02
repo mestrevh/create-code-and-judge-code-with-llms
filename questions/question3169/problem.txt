@@ -1,5 +1,6 @@
 Título: Salário
 Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie uma função que recebe as horas que um funcionário trabalhou (<i><b>float</b></i>) e o valor de sua hora-trabalho (<i><b>float</b></i>). O retorno deverá ser o salário a ser recebido e, se as horas trabalhadas excederem 180, haverá o pagamento de um bônus de 50% sobre o valor de cada hora excedida.<br/></p>
 Formato da entrada: <p>150 10</p>
 Formato da saída: <p>1500</p>

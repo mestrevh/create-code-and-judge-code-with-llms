@@ -1,5 +1,6 @@
 Título: Maior item de uma lista de compras
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dada uma lista de compras, queremos saber qual é o item com maior custo na compra.</p>
 Formato da entrada: <p>Uma sequência de itens, cada um descrito numa linha. Cada item contém um código de produto (um número inteiro), a quantidade do produto e o preço unitário (um float).</p><p>A sequência termina com um item com 0 como código do produto. Este último item não deve ser considerado para o cálculo.</p>
 Formato da saída: <p>O código do produto, a quantidade e o preço do item com maior custo na compra, escrito com duas casas decimais.</p><p>Se a sequência não tiver itens deve se escrever &#34;nao tem compras&#34;.</p><p>Se houver mais de um item com preço total mais caro, deverão ser impressos os dados do primeiro deles na lista de compras.</p>

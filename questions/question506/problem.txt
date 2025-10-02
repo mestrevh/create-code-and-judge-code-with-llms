@@ -1,5 +1,6 @@
 Título: Passeios turísticos
 Topicos do problema: multiplas entradas; acumulador; string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fl&aacute;vio organiza passeios no litoral da Para&iacute;ba e tem recebido muitos clientes nesse ver&atilde;o. Os turistas podem escolher fazer um mergulho em Pic&atilde;ozinho (R$ 50), ir de barco at&eacute; Areia Vermelha (R$ 65) ou fazer um passeio de buggy pelo Litoral Sul (R$ 90). Moradores de Jo&atilde;o Pessoa t&ecirc;m 40% de desconto em todos os passeios, desde que apresentem um comprovante de resid&ecirc;ncia.</p>
 <p>Escreva um programa que receba como entrada as escolhas de v&aacute;rios turistas, e exiba a quantidade de mergulhos vendidos e o total recebido por Fl&aacute;vio por todos os passeios.</p>
 Formato da entrada: <p>Um String para cada turista indicando o tipo de passeio escolhido (Mergulho, Barco ou Buggy escritos de qualquer forma) e outro String indicando se &eacute; residente em Jo&atilde;o Pessoa (Sim ou N&atilde;o escritos de qualquer forma)</p>

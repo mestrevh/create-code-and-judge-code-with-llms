@@ -1,5 +1,6 @@
 Título: Contar caracteres
 Topicos do problema: array; acumulador; decisão; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="font-family: arial, helvetica, sans-serif; font-size: xx-small;"><span style="font-size: xx-small;">Voc&ecirc; dever&aacute; fazer um programa que leia frases com at&eacute; 80 caracteres, incluindo espa&ccedil;os em branco, letras, d&iacute;gitos, enfim, qualquer caractere. Ap&oacute;s a leitura de cada frase, voc&ecirc; deve imprimir:<br /></span></span></p>
 <ul>
 <li><span style="font-family: arial, helvetica, sans-serif; font-size: x-small;">Quantos espa&ccedil;os em branco existem na frase;</span></li>

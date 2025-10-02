@@ -1,5 +1,6 @@
 Título: Condicionais - Par ou Ímpar?
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Complete o código abaixo para verificar se um número é par ou ímpar<br/></p><p><br/></p><pre>N = int(input())&#10;if N % 2 == ___: #Complete aqui&#10;  print(&#34;PAR&#34;)&#10;else:&#10;  print(____) #Complete aqui</pre>
 Formato da entrada: <p>Um número inteiro N.<br/></p>
 Formato da saída: <pre>&#34;PAR&#34; se N for par<br/>&#34;IMPAR&#34; se N for ímpar</pre>

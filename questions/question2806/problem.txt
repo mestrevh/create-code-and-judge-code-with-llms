@@ -1,5 +1,6 @@
 Título: Cálculo do IMC
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que receba as características (massa e altura) de uma pessoa e retorne seu IMC - Índice de Massa Corporal.<br/></p>
 Formato da entrada: <p>O usuario deve digitar a massa em Kg e a altura em m.<br/></p>
 Formato da saída: <p>O programa deve exibir o índice de massa corporal da pessoa (valor inteiro), imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a massa em kg e altura em m:<br/></p><p>IMC: n</p>

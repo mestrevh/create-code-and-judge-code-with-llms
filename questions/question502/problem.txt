@@ -1,5 +1,6 @@
 Título: Agência de Publicidade
 Topicos do problema: acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A ag&ecirc;ncia de publicidade Criativa prepara an&uacute;ncios para seus clientes em v&aacute;rios tipos de m&iacute;dia (r&aacute;dio, tv, revista e outdoor). Seus pre&ccedil;os variam de acordo com o que o ciente deseja:</p>
 <p>- An&uacute;ncios para r&aacute;dio custam R$ 500 se for para FM, e R$ 300 se for para AM</p>
 <p>- An&uacute;ncios para TV custam R$ 1200 em hor&aacute;rio regular (at&eacute; 20h), e R$ 2000 em hor&aacute;rio nobre (depois de 20h)</p>

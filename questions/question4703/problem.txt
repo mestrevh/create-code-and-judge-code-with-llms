@@ -1,5 +1,6 @@
 Título: Q07 - Contagem de Vogais em uma Palavra
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie uma função chamada &#34;contar_vogais&#34; que recebe uma string e retorna a quantidade de vogais presentes nela no</p><p>seguinte formato<span>:</span></p><p><span>Batata</span></p><p>A: 3</p><p>E: 0</p><p>I: 0</p><p>O: 0</p><p>U: 0</p><p>descondisidere maiúsculas e minúsculas<br/></p>
 Formato da entrada: <p>uma string</p>
 Formato da saída: <p>a quantidade de vezes que cada vogal apareceu na frase</p>

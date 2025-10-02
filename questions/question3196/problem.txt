@@ -1,5 +1,6 @@
 Título: [C3] LAB - 7
 Topicos do problema: estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dado o preço de um produto (inteiro), elabore um programa que calcule e apresente a menor quantidade de notas (de cada valor) necessárias para efetuar o pagamento da compra desse produto.<br/><br/>Considere como valores das notas: 1, 2, 5, 10, 20, 50 e 100.<br/><br/>Tanto na entrada, quanto na saída, não imprima nenhuma mensagem.</p>
 Formato da entrada: <p>Preço do produto (inteiro)</p>
 Formato da saída: <p>Quantidade de notas de 100 necessárias<br/><span>Quantidade de notas de 50 necessárias<br/><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Quantidade de notas de 20 necessárias<br/></span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Quantidade de notas de 10 necessárias<br/></span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Quantidade de notas de 5 necessárias<br/></span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Quantidade de notas de 2 necessárias<br/></span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Quantidade de notas de 1 necessárias</span><br/><br/></span></p>

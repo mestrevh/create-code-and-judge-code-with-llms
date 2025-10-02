@@ -1,5 +1,6 @@
 Título: Some os termos da série II
 Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa em Python 3 para somar os n primeiros termos da seguinte série:<img src="https://www.thehuxley.com/api/v1/problems/image/18b6a4643d9523c576c6e5a3eb0915e2cd55e6af).png"/></p><p><br/></p><p>DICA 1: n é o número de termos, então n = 3 significa que apenas as três primeiras frações serão consideradas: -1, +1/2 e -1/3. Lembrando que o -1 pode ser escrito como -1/1, sem alterar o resultado pois qualquer número dividido por 1 é igual ao próprio número.</p><p>DICA 2: Você pode criar uma variável para calcular as frações: 1/1, 1/2, 1/3, 1/4, ... e depois usar uma estrutura de decisão interna ao laço de repetição para decidir se aquela fração deve ser somada ou subtraída. Observe que a decisão de somar ou subtrair está associada à posição dos números: o 1°, 3°, 5°, 7°, ... são subtraídos e o 2°, 4°, 6°, 8°, ... são somados.<br/></p>
 Formato da entrada: <p>A entrada será um número natural n &gt; 0.<br/></p>
 Formato da saída: <p>A saída deve ser uma unica linha contendo apenas o resultado da somatória formatado para exibir 6 casas de precisão.<br/></p>

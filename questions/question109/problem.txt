@@ -1,5 +1,6 @@
 Título: Histograma 03
 Topicos do problema: multiplas entradas; formatação; 
+Tempo limite de execução: 3 segundo(s)
 Descrição: <p>Neste exerc&iacute;cio deve ser gerado um histograma representado por asteriscos.</p>
 <p>Dever&aacute; ser computada a frequ&ecirc;ncia de valores em 10 intervalos regulares. Esta frequ&ecirc;ncia ser&aacute; usada para calcular o tamanho da barra de cada intervalo no histograma, cujo tamanho m&aacute;ximo ser&aacute; de 20 asteriscos, correspondente ao intervalo com maior n&uacute;meros de ocorr&ecirc;ncias. Os tamanhos das demais barras ser&atilde;o calculados proporcionalmente com truncamento.</p>
 <p>Todos os intervalos, com excess&atilde;o do primeiro, ser&atilde;o abertos no limite inferior e fechados no limite superior. O primeiro intervalo, [0.0, 1.0], ser&aacute; fechado nos dois limites.</p>

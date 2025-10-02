@@ -1,5 +1,6 @@
 Título: Aumento salarial
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma empresa decide dar aumento de 30% aos funcionários com salário inferior a $1000 e de 10% aos que tem salário entre $1000 e $2000. Os outros funcionários não recebem aumento. Faça um programa que receba o salário de um funcionário e devolva o valor do salário reajustado.<br/></p>
 Formato da entrada: <p>O salário do funcionário antes do aumento (um número float).</p>
 Formato da saída: <p>O salário do funcionário depois do ajuste expresso com duas casas para os decimais.</p>

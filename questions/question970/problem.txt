@@ -1,5 +1,6 @@
 Título: Onde estão as substrings?
 Topicos do problema: backtracking; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Você receberá duas frases A e B, e deverá achar todas as sequências de caracteres em A que formam B, os caracteres devem estar em ordem, mas não necessariamente contínuos.<br/></p><p>Ex: </p><p>A = BBAANNAANNAA</p><p>B = BANANA</p><p>Repare que se eu escolher os índices em A: 1 3 5 7 9 11 ou 2 4 6 8 10 12 ou 2 3 5 8 9 12, todos eles formam B. Perceba que esses não são os únicos.<br/>sua tarefa é encontrar todos em ordem crescente de seus índices.</p>
 Formato da entrada: <p>Duas Frases A e B, uma por linha contendo apenas caracteres maiúsculos e espaços.</p><p>obs: os espaços fazem parte da frase, ou seja, eles contam como um caractere normal.</p><p>o tamanho de B sempre é menor ou igual ao tamanho de A.</p><p>A terá no máximo 250 caracteres.</p>
 Formato da saída: <p>Todas as sequências de incides de A que formam B.</p><p>uma por linhas, e em ordem crescente de seus índices.</p><p>caso não ache nenhuma sequência válida imprima -1.</p>

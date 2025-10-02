@@ -1,5 +1,6 @@
 Título: Ordenação II
 Topicos do problema: ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Implemente o algoritmo de ordenação que possua as seguintes propriedades:</p><ul><li>Usa a estratégia dividir e conquistar</li><li>Algoritmo não estável</li><li>Algoritmo “in place”</li><li>Complexidade de tempo O(nlogn), no melhor e médio caso</li><li>Complexidade de espaço O(1)</li><li>Comumente conhecido por sua eficácia ao ordenar listas (arrays)<br/></li></ul>
 Formato da entrada: <p>A primeira linha contém um número inteiro N que representa o número de vetores a serem ordenados.</p><p>Em seguida há uma novo número de N novas entradas em formato de string. Estas entradas são os vetores a serem ordenados, estando os números do vetor separados por espaços.</p><p>A string &#34;1, 7, 3, 4, 8, 2, 9&#34; representaria o array de inteiros [1, 2, 3, 4, 7, 8, 9].</p>
 Formato da saída: <p>A saída deve exibir linha a linha todos os arrays ordenados.<br/></p>

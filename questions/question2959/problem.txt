@@ -1,5 +1,6 @@
 Título: Conversão polegadas -> mm
 Topicos do problema: métodos numéricos; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="color: #000000;background-color: transparent;" id="docs-internal-guid-62a4a341-7fff-d8b3-b32d-ef17a7a174b1">Faça um programa em Python3 que receba um valor em polegadas, converta e imprima o resultado em milímetros.</span><br/></p>
 Formato da entrada: <p>A entrada será um número real e não deve ser impresso nenhum texto para pedi-la.<br/></p>
 Formato da saída: <p>A saída deverá ser formatada conforme o exemplo:</p><pre>&lt;valor1&gt; polegada(s) eh o mesmo que &lt;valor2&gt; mm<br/></pre><p>Onde &lt;valor1&gt; deverá ser substituído pelo valor em polegadas e &lt;valor2&gt; pelo resultado em milímetros. Os números devem ser exibidos sem nenhuma formatação explícita quanto ao número de casas decimais.</p><blockquote><p>OBS.: Atenção aos acentos no texto de saída.</p><p>o The Huxley não aceita caracteres acentuados mesmo nas strings<br/></p></blockquote>

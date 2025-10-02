@@ -1,5 +1,6 @@
 Título: Ressacassembly e Mariozin
 Topicos do problema: string; 
+Tempo limite de execução: 5 segundo(s)
 Descrição: <title></title><p class="p1">Mariozin é um menino muito curioso e viu que seus colegas do 3° período estavam sofrendo com o Assembly x86, a linguagem mais baixo nível que se tem. Por ser um curioso teimoso, ele decidiu aprender uns comandos para chegar aquecido no próximo período e conseguiu convencer seu amigo Peter Pão a dar uma aula no domingo. Porém, Mariozin tava de ressaca no dia e pediu sua ajuda para entender o código em Assembly.</p><p class="p2"><br/></p><p class="p1">Você irá receber um conjunto de instruções em assembly e deve traduzir elas para C. As instruções são as seguintes:</p><p class="p3"><br/></p><p class="p4">- Mov a, b —&gt; a = b</p><p class="p4">- Add a, b —&gt; a += b</p><p class="p4">- Sub a, b —&gt; a -= b</p><p class="p4">- And a, b —&gt; a = a &amp; b</p><p class="p5"><br/></p><p class="p4">Seu trabalho será realizar as conversões acima para ajudar o ressacado mariozin!</p>
 Formato da entrada: <title></title><p class="p1">Um inteiro <b>0 &lt; N &lt;= 10</b> representando o número de instruções a serem lidas</p><p class="p1"><b>N</b> strings representando as instruções em assembly que devem ser convertidas</p>
 Formato da saída: <title></title><p class="p1">As <b>N </b>instruções convertidas</p>

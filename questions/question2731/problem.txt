@@ -1,5 +1,6 @@
 Título: PROGCOMP - Funções - F
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Construa um programa que use uma função, criada por você, que recebe como parâmetros quatro números reais distintos e retorne o maior. O programa deverá exibir o valor devolvido pela função.</span><br/></p>
 Formato da entrada: <p>Quatro números reais, um por linha.</p>
 Formato da saída: <p>O maior número dado como entrada, com duas casas decimais.</p>

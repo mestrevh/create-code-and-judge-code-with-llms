@@ -1,5 +1,6 @@
 Título: 3o ângulo do triângulo adaptado
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa em Python que peça para o usuário digitar o primeiro e o segundo ângulo de um triângulo e em seguida o seu programa deverá informar qual o terceiro ângulo do triângulo.<br/></p>
 Formato da entrada: <p>Um float</p><p>Um float</p>
 Formato da saída: <p>Um float</p>

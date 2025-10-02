@@ -1,5 +1,6 @@
 Título: Forma canônica
 Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A representa&ccedil;&atilde;o can&ocirc;nica de uma string pode ser &uacute;til para a resolu&ccedil;&atilde;o de v&aacute;rios problemas, principalmente os relacionados a casamento de padr&otilde;es. Analise as seguintes palavras e veja a sua forma con&ocirc;nica equivalente:</p>
 <p>abacaxi -&gt; abacade<br />melancia -&gt; abcdefgd<br />morango -&gt; abcdefb<br />jabuticaba -&gt; abcdefgbcb<br />jaca -&gt; abcb<br />12341234111 -&gt; abcdabcdaaa</p>
 <p>Perceba o padr&atilde;o de transforma&ccedil;&atilde;o. Toda vez que um caracter aparece primeiro na frase, ele &eacute; transformado para 'a', se um caracter distinto aparece em seguida, ele &eacute; transformado em 'b' e assim por diante. Quando um caracter se repete, ele &eacute; transformado no caracter que j&aacute; foi utilizado antes.</p>

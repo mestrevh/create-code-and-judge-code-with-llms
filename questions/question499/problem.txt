@@ -1,5 +1,6 @@
 Título: Somando Múltiplos e Divisores
 Topicos do problema: acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba como entrada dois n&uacute;meros positivos (limites do intervalo) e exiba a soma de todos os n&uacute;meros que s&atilde;o ao mesmo tempo divisores de 1000 e m&uacute;ltiplos de 4 entre eles. Lembre-se de que os limites podem ser informados em qualquer ordem.</p>
 <p>Obs: os limites do intervalo n&atilde;o devem ser considerados como parte dele</p>
 Formato da entrada: <p>Dois n&uacute;meros inteiros<br /><br />Lembre-se de que o primeiro n&uacute;mero informado n&atilde;o necessariamente ser&aacute; menor que o segundo informado</p>

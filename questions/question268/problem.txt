@@ -1,5 +1,6 @@
 Título: Ambrosio's Bus Company
 Topicos do problema: estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Ambrósio é sócio de muitas empresas. Uma das empresas de ambrósio é a Ambrósio's Bus Company que oferece o serviço de viagens de ônibus intermunicipais. A figura abaixo mostra a ficha de registro de cada passageiro. Os ônibus possuem 44 lugares numerados de 1 a 44.<br/><br/>Você vai receber uma lista de passageiros com no máximo 44 elementos.<br/><br/>Ao final imprima o nome de todos os passageiros que estiverem acima da média das idades e que estiverem sentados nas poltronas pares.</p>&#13;<p> </p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/7aa53c13ecca3b055caa5792d5a0f799.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/7aa53c13ecca3b055caa5792d5a0f799.png" border="0" width="448" height="179"/></a></p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; uma lista de registro de passageiros, com os valores dos campos n&uacute;mero da passagem, data, de, para, hor&aacute;rio, poltrona, idade e nome do passageiro,&nbsp; conforme mostrado no exemplo abaixo:</p>
 <p><br />12<br />15/05/2012<br />Macei&oacute;<br />Rio de Janeiro<br />9:00<br />12<br />19<br />Ana Maria Braga<br /><br />A entrada termina quando o valor do n&uacute;mero da passagem for -1.</p>

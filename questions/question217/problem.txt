@@ -1,5 +1,6 @@
 Título: Consecutivos
 Topicos do problema: array; acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Num sorteio que distribui pr&ecirc;mios, um participante inicialmente sorteia um inteiro N e depois<br />N valores. O n&uacute;mero de pontos do participante &eacute; o tamanho da maior sequ&ecirc;ncia de valores<br />consecutivos iguais. Por exemplo, suponhamos que um participante sorteia N = 11 e, nesta<br />ordem, os valores:</p>
 <p>30, 30, 30, 30, 40, 40, 40, 40, 40, 30, 30</p>
 <p>Ent&atilde;o, o participante ganha 5 pontos, correspondentes aos 5 valores 40 consecutivos. Note<br />que o participante sorteou 6 valores iguais a 30, mas nem todos s&atilde;o consecutivos.</p>

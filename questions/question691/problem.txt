@@ -1,5 +1,6 @@
 Título: 2 números em ordem crescente
 Topicos do problema: decisão; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Receba dois números inteiros e os imprima em ordem crescente.</p>
 Formato da entrada: <p>Dois números inteiros separados por um espaço em branco.</p>
 Formato da saída: <p>Dois números inteiros separados por um espaço em branco.</p>

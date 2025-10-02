@@ -1,5 +1,6 @@
 Título: Temer preocupado
 Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Temer, preocupado com escutas cibernéticas indiscretas, pede ajuda aos seus assessores e eles recomendam criptografar as mensagens. Um dos assessores do presidente sugere que inverta as mensagens antes de enviá-las. Outro assessor acredita que inverter não é suficiente, então recomenda que, além de inverter, troque caracteres adjacentes, o primeiro com o segundo, o terceiro como o quarto, e assim por diante. Um terceiro assessor então pergunta o que acontecerá com o último caractere se o tamanho da mensagem for ímpar, e adianta-se respondendo que, neste caso,deveria se colocar este último caractere no início. Sua tarefa é seguir as recomendações dos assessores de Temer para implementar duas funções, uma para criptografar e outra para descriptografar.<br/></p>
 Formato da entrada: <p>Duas linhas, u<span>ma contendo um texto normal e outra contendo um texto criptografado.</span></p>
 Formato da saída: <p>Duas linhas, uma com o texto criptografado da primeira linha da entrada e outra com o texto descriptografado da segunda linha da entrada.</p>

@@ -1,5 +1,6 @@
 Título: A = B
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados dois números inteiros A e B (A &gt; B), subtraia potências de 2 de A até que o valor de A seja igual a o de B.</p><p>Obs: O mesmo número não pode ser usado mais de uma vez.</p><p>Obs2: Para não gerar ambiguidade os números devem ser impressos em ordem decrescente.</p>
 Formato da entrada: <p>Dois inteiros A e B (1 &lt;= A,B &lt;= 10^12).</p>
 Formato da saída: <p>Vários inteiros em ordem decrescente indicando os números a serem subtraídos de A.</p>

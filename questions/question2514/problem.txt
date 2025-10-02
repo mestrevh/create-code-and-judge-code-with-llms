@@ -1,5 +1,6 @@
 Título: Diferença Octave
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Leia quatro valores numéricos A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D.<br/></p>
 Formato da entrada: <p>O algoritmo terá como entrada 4 valores numéricos<br/></p>
 Formato da saída: <p>O algoritmo deve imprimir na tela:</p><p><br/></p><p>DIGITE O VALOR A:<br/></p><p>DIGITE O VALOR B:<br/></p><p>DIGITE O VALOR C:<br/></p><p>DIGITE O VALOR D:<br/></p><p>DIFERENCA = n (sendo n o valor da diferenca)<br/></p><p><br/></p>

@@ -1,5 +1,6 @@
 Título: Jolly Jumpers
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma sequ&ecirc;ncia de n &gt; 0 inteiros &eacute; chamada um "jolly jumper" se os valores absolutos das diferen&ccedil;as entre os elementos sucessivos assumirem todos os valores de 1 at&eacute; n-1. Por exemplo:</p>
 <p>1 4 2 3</p>
 <p>&eacute; um "jolly jumper", porque as diferen&ccedil;as absolutas s&atilde;o 3, 2 e 1, respectivamente.<br />A defini&ccedil;&atilde;o implica que qualquer sequ&ecirc;ncia de um &uacute;nico inteiro &eacute; um "jolly jumper".<br />Escreva um programa que determine se um n&uacute;mero de sequ&ecirc;ncias &eacute; um "jolly jumper".</p>

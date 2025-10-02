@@ -1,5 +1,6 @@
 Título: Ponto dentro de um retângulo
 Topicos do problema: geometria computacional; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre>Escreva um programa para verificar se um dado ponto (x,y) está dentro de um retângulo definido pelos vértices inferior esquerdo (x1,y1) e superior direito (x2,y2). Esses vértices também devem ser lidos pelo programa. Observação: se o ponto estiver no contorno do retângulo, considere que ele pertence ao mesmo.<br/></pre>
 Formato da entrada: <pre>Consiste dos números reais x e y, que correspondem às coordenadas do ponto, na primeira linha; dos números reais x1 e y1, que correspondem às coordenadas do vértice inferior esquerdo, na segunda linha; dos números reais x2 e y2, que correspondem às coordenadas do vértice superior direito, na última linha.<br/></pre>
 Formato da saída: <pre>Escreva 'Dentro' se o ponto pertence ao retângulo e 'Fora' caso contrário.</pre>

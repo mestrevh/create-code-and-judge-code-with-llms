@@ -1,5 +1,6 @@
 Título: Primeira Ocorrência de Caractere em String
 Topicos do problema: array; decisão; caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Identificar a posição (índice) da primeira ocorrência de um caractere C numa string S; sendo C e S dados pelos utilizador.  Caso C não exista em S, retornar -1.   Atenção, se C escrito em maiúsculo, somente será localizado em S se também em maiúsculo; o mesmo vale para C em minúsculo.<br/></p>
 Formato da entrada: <p>Uma string S e um caractere C, em linhas distintas.<br/></p>
 Formato da saída: <p>A posição (índice) da primeira ocorrência de C em S, considerando que a primeira posição é a zero, e em caso de C não existir em S, retornar -1.<br/></p>

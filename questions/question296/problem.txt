@@ -1,5 +1,6 @@
 Título: Decisão dos Ministros
 Topicos do problema: estrutura de dados; array; acumulador; 
+Tempo limite de execução: 2 segundo(s)
 Descrição: <p><span><span>Os ministros do pa&iacute;s remoto de Stanistan est&atilde;o tendo s&eacute;rios problemas com sua tomada de decis&atilde;o.</span></span></p>
 <p><span><span> </span><span>Tudo come&ccedil;ou algumas semanas atr&aacute;s, quando um novo processo para decidir quais projetos de lei para passar foi introduzido. </span><span></span></span></p>
 <p><span><span>Este processo funciona da seguinte forma:</span></span></p>

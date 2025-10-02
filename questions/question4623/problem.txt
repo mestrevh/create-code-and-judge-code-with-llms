@@ -1,5 +1,6 @@
 Título: Q5 - Alunos em recuperação
 Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Marcos é um professor muito organizado e quer guardar as notas dos alunos que ficaram em recuperação. Para isso você deve desenvolver um programa que leia a quantidade de alunos que ficaram em recuperação e guarde cada uma em um vetor simples. Ao final deve-se imprimir a lista com todos as notas e a soma delas. <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Caso o total de alunos em recuperação seja 0, imprima a seguinte mensagem (&#34;Nenhuma nota informada!&#34;)</span></p>
 Formato da entrada: <p>Um inteiro N, representando a quantidade de alunos que ficaram em recuperação, e em seguida N reais representando cada nota.</p>
 Formato da saída: <p>A saída deverá conter a lista com todas as notas e a soma (com duas casa decimais) de todos os elementos da lista.</p>

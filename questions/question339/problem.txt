@@ -1,5 +1,6 @@
 Título: Números no meio da frase
 Topicos do problema: formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; ir&aacute; receber 02 n&uacute;meros inteiros e deve imprimir o resultado da soma entre eles.</p>
 Formato da entrada: <p>Voc&ecirc; ir&aacute; receber dois n&uacute;meros inteiros 'a' e 'b', um em cada linha.</p>
 Formato da saída: <p>Voc&ecirc; deve imprimir:</p>

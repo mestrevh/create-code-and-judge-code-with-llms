@@ -1,5 +1,6 @@
 Título: Média de um aluno.
 Topicos do problema: multiplas entradas; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que leia do usuário as 4 notas de um aluno e calcule a média.<br/></p>
 Formato da entrada: <p>As 4 notas do aluno.</p>
 Formato da saída: <p>Média do aluno.</p>

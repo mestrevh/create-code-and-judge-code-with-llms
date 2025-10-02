@@ -1,5 +1,6 @@
 Título: Descontos Black Friday
 Topicos do problema: acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A Black Friday &eacute; uma famosa promo&ccedil;&atilde;o que ocorre em diversas lojas ap&oacute;s o Dia de A&ccedil;&atilde;o de Gra&ccedil;as Americano. Gen&eacute;sio n&atilde;o acredita muito nas propagandas e acha que &eacute; tudo enrola&ccedil;&atilde;o e que os descontos n&atilde;o s&atilde;o t&atilde;o bons assim.</p>
 <p>Por isso, ele resolveu fazer uma pesquisa numa loja online. Ele anotou o pre&ccedil;o de 5 produtos uma semana antes e no dia da promo&ccedil;&atilde;o para ver se o desconto de 20% anunciado tinha sido realmente aplicado.</p>
 <p>Escreva um programa que receba como entrada os pre&ccedil;os original e com desconto de cada produto, e exiba ao final quantos realmente tiveram abatimento de pelo menos 20%.</p>

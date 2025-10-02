@@ -1,5 +1,6 @@
 Título: Q04 - Média de Três Notas
 Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um procedimento chamado &#34;tabuada&#34; que recebe três notas de um aluno, <span>calcula a média e imprime se ele foi aprovado ou reprovado</span></p><p><span>(média mínima: 6.0).</span></p>
 Formato da entrada: <p>3 números reais</p>
 Formato da saída: <p>&#34;Aprovado&#34; ou &#34;Reprovado&#34; de acordo com a média</p>

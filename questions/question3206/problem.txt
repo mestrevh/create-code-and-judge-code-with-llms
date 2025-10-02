@@ -1,5 +1,6 @@
 Título: [C3] LAB - 10
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que receba a medida do ângulo 'a' (em graus) formado por uma escada apoiada no chão e a distância em que a escada está da parede, calcule e<span> mostre a medida d</span><span>a escada.<br/><br/>Dicas:<br/>- As funções trigonométricas (sin(), cos, tan(), etc...), precisam que o ângulo esteja em radianos.<br/>- O módulo matemático possui a função radians(angulo), que recebe um angulo em graus e devolve o valor em radianos.<br/><br/></span></p><p style="text-align: center;"><img class="" src="https://www.thehuxley.com/api/v1/problems/image/bf2bf33bb13eae85cd3e736b9ba8f21bc837182e0.png"/></p>
 Formato da entrada: <p>Medida do ângulo a (em graus)<br/>Distância da escada até a parede</p>
 Formato da saída: <p>Tamanho da escada</p>

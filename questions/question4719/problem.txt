@@ -1,5 +1,6 @@
 Título: Listas 1 - Lista de Cores
 Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Complete o código para que ele crie uma lista com as cores &#34;azul&#34;, &#34;amarelo&#34; e &#34;vermelho&#34;, e exiba a segunda cor.<br/></p><pre><p><span class="hljs-comment"># Crie uma lista com três cores&#10;</span>cores = ___________&#10;<span class="hljs-comment">&#10;# Exiba a segunda cor da lista&#10;</span><span class="hljs-built_in">print</span>(_________)&#10;</p></pre>
 Formato da entrada: <p><i>nenhuma</i></p>
 Formato da saída: <p>&#13;&#13;Uma string representando a segunda cor da lista.&#13;&#13;<br/></p>

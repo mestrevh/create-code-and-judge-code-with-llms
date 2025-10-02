@@ -1,5 +1,6 @@
 Título: PR1_Easy Jet
 Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A companhia aérea Easy Jet oferece passagens baratas para várias cidades européias e é muito procurada por turistas de todo o mundo. Entretanto, ela tem regras muito rígidas para o tamanho da bagagem de mão de cada cliente: para ser aceita, a mala deve ter no máximo 45 cm de largura, 56 cm de comprimento e 25 cm de altura.</p><p class="\&#34;MsoNormal\&#34;">Escreva um programa que receba como entrada as dimensões de uma mala e exiba uma mensagem informando se a mala será aceita ou não.</p>
 Formato da entrada: <p>O usuario deve digitar três valores representando largura, comprimento e altura, nesta ordem.<br/></p>
 Formato da saída: <p>O programa deve exibir se a bagagem é permitida ou proibida, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a largura da bagagem: (impresso pela funcao input)</p><p>Digite o comprimento da bagagem: (impresso pela funcao input)</p><p>Digite a altura da bagagem: (impresso pela funcao input)<br/></p><p>BAGAGEM PERMITIDA/PROIBIDA<br/></p>

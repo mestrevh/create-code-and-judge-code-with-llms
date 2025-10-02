@@ -1,5 +1,6 @@
 Título: É vogal?
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que leia um caractere da entrada padrão e verifique se ele é uma vogal.</p><p>Se o usuário digitar mais ou menos de 1 caractere, exiba uma mensagem de erro.</p><p>Em Python 3, você pode verificar quantos caracteres tem um string com a função len(). Procure como fazer!<br/></p>
 Formato da entrada: <p>Um caractere da entrada padrão. O caractere pode ser maiúsculo ou minúsculo.</p><p><br/></p>
 Formato da saída: <ul><li>&#34;Eh vogal&#34;, se a entrada tiver apenas 1 caractere e for vogal</li><li>&#34;Nao eh vogal&#34;, se a entrada tiver apenas 1 caractere e não for vogal</li><li>&#34;1 caractere, por favor!&#34;, se a entrada tiver mais de 1 caractere</li></ul>

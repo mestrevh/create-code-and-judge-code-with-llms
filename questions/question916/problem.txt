@@ -1,5 +1,6 @@
 Título: Quantidade de números.
 Topicos do problema: multiplas entradas; repetição; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que leia uma quantidade indefinida de números positivos e imprima cada um deles. Números negativos indicam o fim das leituras.<br/></p>
 Formato da entrada: <p>Quantidade indefinida de números inteiros positivos.</p>
 Formato da saída: <p>Cada um dos números inteiros positivos.</p>

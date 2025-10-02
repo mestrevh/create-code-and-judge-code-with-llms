@@ -1,5 +1,6 @@
 Título: Brincando com Fibonacci
 Topicos do problema: lógica matemática; recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Vamos brincar com Fibonacci.<br/>Na matemática, a Sucessão de Fibonacci (também Sequência de Fibonacci), é uma sequência de números inteiros.<br/></p>
 Formato da entrada: <p>Um inteiro</p>
 Formato da saída: <p>Um inteiro</p>

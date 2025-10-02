@@ -1,5 +1,6 @@
 Título: Sufixo Adjetivo
 Topicos do problema: substrings; caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Antonella adora adjetivos e, por isso, está fazendo uma lista de adjetivos e seus significados. Como escrever o significado de cada adjetivo da lista pode ser tedioso, ela separou aqueles que terminam com o sufixo &#34;nte&#34; para que seus significados sejam gerados automaticamente por um programa de computador. Como ela ainda não tem muita experiência com programação, precisa de sua ajuda para fazer este programa.<br/></p>
 Formato da entrada: <p>Uma string correspondendo a um adjetivo que tem sufixo &#34;nte&#34;.<br/></p>
 Formato da saída: <p>A frase &#34;Aquilo que X.&#34; onde X é a string de entrada após a remoção do sufixo &#34;nte&#34;.<br/></p>

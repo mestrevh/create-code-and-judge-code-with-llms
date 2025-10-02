@@ -1,5 +1,6 @@
 Título: Quantos segundos em um horário?
 Topicos do problema: datas/horas; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que receba a quantidade de horas, minutos e segundos de duração de um evento e calcule a quantidade de total de segundos  que esse evento durou.</p><h4><br/></h4>
 Formato da entrada: <p></p><p>O programa deve receber 3 números inteiros: o primeiro representa as horas, o segundo os minutos e o terceiros os segundos. Sendo:</p><p>horas &gt;= 0</p><p>0&lt;= minutos &lt;= 59</p><p>0&lt;= segundos &lt;= 59</p><p></p>
 Formato da saída: <p></p><p>Um número inteiro representando o total de segundos<br/></p><p></p>

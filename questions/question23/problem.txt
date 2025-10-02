@@ -1,5 +1,6 @@
 Título: Múltiplos de Cinco
 Topicos do problema: lógica matemática; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que leia dois n&uacute;meros inteiros, representando os valores&nbsp;inicio e fim de um intervalo e imprima os m&uacute;ltiplos de 5 entre eles.</p>
 Formato da entrada: <p>Dois n&uacute;meros inteiros, n e m, separados por um espa&ccedil;o.</p>
 Formato da saída: <p>Todos os m&uacute;ltiplos de 5, maiores ou iguais a n e menores ou iguais a m,&nbsp;separados pelo caractere '|'. Note que depois do &uacute;ltimo m&uacute;ltiplo, n&atilde;o existe o&nbsp;caractere '|'.</p>

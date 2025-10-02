@@ -1,5 +1,6 @@
 Título: Força de uma palavra
 Topicos do problema: caractere; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Imagine que você está criando um sistema para calcular a &#34;força&#34; de uma palavra curta, onde cada letra minúscula representa um &#34;poder&#34; baseado em sua posição no alfabeto. Por exemplo, a letra 'a' tem poder 1, a letra 'b' tem poder 2, e assim por diante, até a letra 'z', que tem poder 26.</p><p>Esse sistema vai ler uma sequência de exatamente 5 letras minúsculas e calcular a soma do &#34;poder&#34; de cada uma delas.</p>
 Formato da entrada: <p>&#13;&#13;O programa recebe cinco caracteres (garantidamente letras minúsculas do alfabeto), separados por um espaço.&#13;&#13;<br/></p><p>Ex:</p><blockquote><p>a b c d e</p></blockquote>
 Formato da saída: <p>&#13;&#13;A saída deverá exibir a soma da posição dessas letras no alfabeto:</p><p>Ex:</p><blockquote><p>15</p></blockquote>

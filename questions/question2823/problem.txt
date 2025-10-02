@@ -1,5 +1,6 @@
 Título: Jogo dos numeros
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><i>Em um determinado jogo, Biu tem dois dados para jogar em três rodadas consecutivas. Para Biu ganhar o jogo, deve existir após as três rodadas de dados<br/></i></p><ul><li><i>Um número maior ou igual a dez ou menor ou igual a 4.</i></li><li><i>Um número par. </i></li></ul><div><i>Caso essas duas condições não forem satisfeitas, Biu irá perder o jogo. Outra observação é que se Biu tirar 2 em qualquer rodada, independente se as condições de vitória forem satisfeitas, ele também irá perder o jogo.</i></div><div><i><br/></i></div><div><i>Caso o usuário digite um valor fora da faixa válida (2 a 12), o programa deve exibir uma mensagem de erro.<br/></i></div>
 Formato da entrada: <p>O usuário deve digitar a soma dos dois dados em cada uma das três rodadas, lembrando que esse valor pode estar entre 2 e 12.<br/></p>
 Formato da saída: <p>O programa deve exibir se Biu ganhou ou perdeu o jogo, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a soma dos dados em cada rodada separados por ENTER:<br/></p><p>Biu ganhou / perdeu / Valor invalido<br/></p>

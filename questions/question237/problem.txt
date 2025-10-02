@@ -1,5 +1,6 @@
 Título: Completando palavras no telefone
 Topicos do problema: array; ponteiro; estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>
 <p>Uma equipe de pesquisadores est&aacute; desenvolvendo uma nova tecnologia para economizar tempo ao digitar mensagens de texto em dispositivos m&oacute;veis. Eles est&atilde;o trabalhando em um novo modelo que tem um teclado completo, assim os usu&aacute;rios podem digitar qualquer letra pressionando a tecla correspondente. Desta forma, um usu&aacute;rio precisa pressionar P teclas para digitar uma palavra de comprimento P.</p>
 <p>&nbsp;</p>

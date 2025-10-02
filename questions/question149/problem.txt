@@ -1,5 +1,6 @@
 Título: Infixo para pós-fixo
 Topicos do problema: pilha; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Transforme uma expressão algébrica com parêntesis na forma pós-fixa. Os operadores binários existentes, são: <br/></p><p>Precedência 0: + , -   <br/></p><p> Precedência 1: *, /</p><p>Precedência 2: ^</p><p>A ordem de precedência indica quem deve ser avaliado primeiro. Nesse caso, se você tiver por exemplo a expressão: x+b*c, primeiro você resolve b*c e depois soma o resultado a x.<br/></p><p>Os parênteses são representados pelos símbolos: ( ). <br/></p><p>Os operandos são representados pelas letras : a, b, ... , z. <br/><br/>Assuma que existe somente uma forma pós-fixa, ou seja, não existirão expressões como : a*b*c.</p>
 Formato da entrada: <p>A entrada é dado um inteiro N, representando o número de expressões, seguida de uma lista de expressões.<br/>Assuma:</p>&#13;<ul>&#13;<li>N &lt;= 100</li>&#13;<li>cada expressão tem tamanho máximo de 400 caracteres</li>&#13;</ul>&#13;<p> </p>
 Formato da saída: <p>As express&otilde;es na forma p&oacute;s-fixa, uma por linha.</p>

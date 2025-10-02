@@ -1,5 +1,6 @@
 Título: Diversão dinâmica
 Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 6 segundo(s)
 Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Um pai gostaria de levar seu filho ao parque de diversões e ocupá-lo o  maior tempo possível. Infelizmente, o pobre pai só dispõe de um cartão com um saldo limitado de K créditos, e que só permite utilizar cada brinquedo no máximo uma vez. 
 Ajude-o a escolher os brinquedos para o seu filho.</pre>
 Formato da entrada: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">A primeira linha contem um número M correspondendo ao número de casos (1&lt;=M&lt;=500) seguida por uma linha em branco.

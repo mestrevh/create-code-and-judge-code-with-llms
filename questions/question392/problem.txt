@@ -1,5 +1,6 @@
 Título: Pacote de Telefonia
 Topicos do problema: acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><br />Juarez contratou um pacote de telefonia por R$ 10,00 que permite que ele utilize 40 minutos ou fa&ccedil;a 10 liga&ccedil;&otilde;es, o que acontecer primeiro. Depois desse limite, cada minuto custa R$ 0,20.<br /><br />Escreva um programa que receba como entrada a dura&ccedil;&atilde;o de v&aacute;rias liga&ccedil;&otilde;es de Juarez, at&eacute; que seja informada uma dura&ccedil;&atilde;o zero, e exiba o valor total que ele dever&aacute; pagar.</p>
 <p>&nbsp;</p>
 <p>Obs: O valor do pacote tem que ser pago mesmo que ele n&atilde;o gaste todos os minutos ou n&atilde;o fa&ccedil;a todas as liga&ccedil;&otilde;es inclu&iacute;das.</p>

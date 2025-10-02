@@ -1,5 +1,6 @@
 Título: posição no plano cartesiano
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Em diversos jogos de computador, os personagens se movimentam como em um plano cartesiano. Assim, possuem coordenadas em dois eixos(x e y) que são alteradas conforme ele se movimenta. Faça um programa que apresente a nova posição do personagem a partir da direção em que anda.<br/></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">obs: utilizar a estrutura do switch case</p>
 Formato da entrada: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">2 inteiros x e y que representam a posição inicial do personagem, onde -100000 &lt; x,y &lt; 100000</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">1 char que representa a direção a seguir pelo personagem: w (cima), a(esquerda), s(baixo) ou d(direita)</p>
 Formato da saída: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">as novas coordenadas do personagem no formato &#34;Nova posicao: x y&#34; </p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">obs: caso a direção não corresponda a um comando válido, imprima &#34;Direcao invalida&#34;</p>

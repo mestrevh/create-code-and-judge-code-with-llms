@@ -1,5 +1,6 @@
 Título: Segundos
 Topicos do problema: datas/horas; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Um intervalo de tempo pode ser dado em dias, horas, minutos, segundos ou sequ&ecirc;ncias "decrescentes" destas unidades (em dias e horas; em horas e minutos; em horas, minutos e segundos), de acordo com o interesse de quem o est&aacute; manipulando.</p>
 <p>Escreva um programa que converta um intervalo de tempo dado em segundos para horas, minutos e segundos.</p>
 Formato da entrada: <p>Um inteiro N indicando os segundos.</p>

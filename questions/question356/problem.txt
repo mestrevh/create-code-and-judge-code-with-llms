@@ -1,5 +1,6 @@
 Título: Transformar Decimal para Binário (recursivo)
 Topicos do problema: função; recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p class="p1">Dado um n&uacute;mero n na base decimal, escreva uma fun&ccedil;&atilde;o recursiva que converte este n&uacute;mero para bin&aacute;rio.&nbsp;</p>
 Formato da entrada: <p>Um n&uacute;mero inteiro decimal N (0 &lt;= N &lt;= 1.000.000.000)</p>
 Formato da saída: <p>O n&uacute;mero N em bin&aacute;rio, onde cada linha representa um algarismo bin&aacute;rio (0 ou 1) do n&uacute;mero transformado.</p>

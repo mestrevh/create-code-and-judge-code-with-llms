@@ -1,5 +1,6 @@
 Título: Elevador seguro
 Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Genival &eacute; ascensorista da Prefeitura Municipal e todos os dias conduz os passageiros para cima e para baixo. O elevador que ele opera tem capacidade para no m&aacute;ximo 7 pessoas e no m&aacute;ximo 560 quilos.</p>
 <p>Escreva um programa que receba como entrada o peso de v&aacute;rias pessoas que est&atilde;o entrando no elevador e exiba quantas poder&atilde;o ser transportadas com seguran&ccedil;a e o peso total carregado, respeitando os limites do elevador.</p>
 Formato da entrada: <p>V&aacute;rios valores reais</p>

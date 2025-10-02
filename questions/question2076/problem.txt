@@ -1,5 +1,6 @@
 Título: Divisão de doces
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Uma certa entidade ganhou muitos doces num concurso, mas ela não gosta muito de doces, então, ela resolveu doar para uma ONG. Ela não sabe o número exato de crianças dessa ONG, ela só sabe que a quantidade de crianças é entre A e B. Sendo assim, ela resolveu dar uma quantidade de doces que tenha a maior quantidade de divisores possível, assim, é mais provável que a ONG consiga dividir os doces igualmente.</p><p>Porém, ela está tendo uma certa dificuldade de testar todos os números entre A e B, então ela quer que você implemente um programa que dados A e B, descubra qual número dentro desse intervalo tem a maior quantidade de divisores, imprima esse número e a quantidade de divisores dele.</p>
 Formato da entrada: <p>A entrada consistirá de dois inteiros A e B, respectivamente.</p>
 Formato da saída: <p>A saída deverá conter o número (<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">entre A e B) </span>que contém a maior quantidade de divisores, e a quantidade de divisores dele, respectivamente.</p>

@@ -1,5 +1,6 @@
 Título: Média dos alunos
 Topicos do problema: acumulador; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Fa&ccedil;a um programa que leia tr&ecirc;s notas (valores reais) de um aluno, calcule sua m&eacute;dia aritm&eacute;tica e imprima uma mensagem dizendo se o aluno foi aprovado,&nbsp;reprovado ou dever&aacute; fazer prova final. O crit&eacute;rio de aprova&ccedil;&atilde;o &eacute; o seguinte:&nbsp;</p>
 <ul>
 <li>Aprovado (m&eacute;dia &gt;= 7);</li>

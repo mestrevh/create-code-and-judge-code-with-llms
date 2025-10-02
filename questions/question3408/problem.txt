@@ -1,5 +1,6 @@
 Título: Salário mais bonificação e auxílio-escola
 Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <pre>Faça um programa que receba o salário de um funcionário, calcule e mostre o novo salário desse funcionário, acrescido de bonificação e de auxílio-escola, conforme as seguintes regras: 1) salário até R$5.000,00 =&gt; bonificação de 5%; salário entre R$5.000,01 e R$12.000,00 =&gt; bonificação de 12%; salário maior que R$12.000,00 =&gt; sem bonificação. 2) salário até R$6.000,00 =&gt; auxílio-escola de R$150, salário maior que R$6.000,00 =&gt; auxílio-escola de R$100.<br/></pre>
 Formato da entrada: <p>Número real que corresponde ao salário do funcionário.</p>
 Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Número real com duas casas decimais que corresponde ao novo salário do funcionário.</span><br/></p>

@@ -1,5 +1,6 @@
 Título: Vania e os livros
 Topicos do problema: maratona; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>V&acirc;nia tem uma tarefa inportante, ela deve enumerar os livros da biblioteca e etiquet&aacute;-los com seus respectivos n&uacute;meros. Cada um dos <em>n</em> livros devem ser etiquetados com um n&uacute;mero de <em>1</em> a <em>n</em>. Naturalmente, livros diferentes devem ser eriquetados com n&uacute;meros diferentes.</p>
 <p>V&acirc;nia quer saber quantos d&iacute;gitos no total ela ter&aacute; que escrever nos r&oacute;tulos dos livros.</p>
 Formato da entrada: <p>A entrada conter&aacute; um inteiro <em>n</em>(1&lt;=<em>n</em>&lt;=10⁹) - o n&uacute;mero de livros na biblioteca.</p>

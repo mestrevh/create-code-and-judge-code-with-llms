@@ -1,5 +1,6 @@
 Título: Semi-aberto
 Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Num planeta de uma gal&aacute;xia distante, os cemit&eacute;rios s&atilde;o verticais, organizados em M andares numerados 0,1,2,...,M-1. A tradi&ccedil;&atilde;o local manda que qualquer edif&iacute;cio p&uacute;blico, como os cemit&eacute;rios, tenha uma quantidade &iacute;mpar de andares, no m&iacute;nimo 13 (n&uacute;mero da sorte local). Cada andar F=0,..,M disp&otilde;e de uma quantidade limitada L de jazigos, rotulados<br />F.0, F.1,..., F.(L-1). <br /><br />Quando um indiv&iacute;duo desse planeta morre, ele &eacute; levado para o cemit&eacute;rio da sua &aacute;rea de resid&ecirc;ncia e colocado num jazigo com base numa chave num&eacute;rica &uacute;nica K correspondente ao seu n&uacute;mero de seguro social, de acordo com a seguinte pol&iacute;tica:</p>
 <ol>
 <li>Primeiro, um andar escolhido de acordo com a fun&ccedil;&atilde;o<br />H(K) = K mod M</li>

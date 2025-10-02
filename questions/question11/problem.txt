@@ -1,5 +1,6 @@
 Título: Tradução
 Topicos do problema: multiplas entradas; entrada formatada; string; dicionário; formatação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>"Steve Trabalhos" &eacute; um rapaz americano que gostou muito do Brasil e resolveu morar aqui. Ele descolou um trabalho de tradutor de textos. Entretanto, Steve&nbsp;ainda est&aacute; um pouco atrapalhado com o portugu&ecirc;s e cometeu alguns erros de tradu&ccedil;&atilde;o. O chefe disse a lista de palavras que est&atilde;o erradas, seguidas da escrita correta. Assim, ajude o Steve a corrigir a lamban&ccedil;a que ele fez.</p>
 Formato da entrada: <p>Consiste de dois inteiros n e m, indicando o n&uacute;mero de regras de substitui&ccedil;&otilde;es, e o n&uacute;mero de linhas do texto, respectivamente. Da segunda linha em&nbsp;diante, est&aacute; uma sequ&ecirc;ncia de n linhas indicando quais devem ser as substitui&ccedil;&otilde;es (estas s&atilde;o as regras de substitui&ccedil;&atilde;o) a serem realizadas e por fim, uma sequ&ecirc;ncia de m linhas&nbsp;correspondendo ao texto errado que Steve gerou. As substitui&ccedil;&otilde;es est&atilde;o no formato: STRING_A_SER_SUBSTITUIDA -&gt; STRING_SUBSTITUTA. (perceba que existe um espa&ccedil;o antes e depois da string &nbsp;"-&gt;" ).</p>
 <p>A substitui&ccedil;&atilde;o pode ser somente de algumas letras em uma palavra. Por exemplo:</p>

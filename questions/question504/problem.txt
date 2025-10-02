@@ -1,5 +1,6 @@
 Título: Soma de Fatoriais
 Topicos do problema: acumulador; decisão; função; recursão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba como entrada 5 números inteiros positivos, e exiba a soma dos fatoriais daqueles que são múltiplos de 3.</p>
 Formato da entrada: <p>N&uacute;meros inteiros</p>
 Formato da saída: <p>Um n&uacute;mero inteiro</p>

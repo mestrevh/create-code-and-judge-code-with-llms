@@ -1,5 +1,6 @@
 Título: Livros na Mochila
 Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span style="font-size: small;">Luigi ganhou uma mochila nova com capacidade para transportar at&eacute; 18 kg. Como tem muitos livros, ele deseja descobrir quantos podem ser levados na mochila sem exceder esse limite.</span></p>
 <p><span style="font-size: small;">Escreva um programa que receba como entrada o peso de v&aacute;rios livros de Luigi e exiba a quantidade de livros que podem ser carregados.</span></p>
 Formato da entrada: <p>V&aacute;rios n&uacute;meros reais representando os pesos dos livros.</p>

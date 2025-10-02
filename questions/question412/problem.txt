@@ -1,5 +1,6 @@
 Título: Feed de notícias
 Topicos do problema: estrutura de dados; ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Voc&ecirc; foi contratado para melhorar o seu feed de not&iacute;cias do facebook.</p>
 <p>No sua feed de not&iacute;cias deve aparecer as atualiza&ccedil;&otilde;es dos seus amigos. Por&eacute;m, voc&ecirc; deve escolher quais delas deve mostrar.</p>
 <p>Voc&ecirc; vai mostrar primeiro as atualiza&ccedil;&otilde;es mais recentes e dos amigos mais pr&oacute;ximos a voc&ecirc;. Ent&atilde;o, voc&ecirc; resolveu usar uma f&oacute;rmula</p>

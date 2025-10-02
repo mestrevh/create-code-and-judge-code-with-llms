@@ -1,5 +1,6 @@
 Título: Cálculo da Idade
 Topicos do problema: obi; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Crie um programa para calcular a idade de uma pessoa.</p>
 Formato da entrada: <p>A entrada é composta por dois números do tipo inteiro representando respectivamente o <b>ano em que a pessoa nasceu</b> e o <b>ano atual</b>.</p>
 Formato da saída: <p>O programa deve devolver um número do tipo inteiro correspondente a idade de uma pessoa, seguido de um final de linha.</p>

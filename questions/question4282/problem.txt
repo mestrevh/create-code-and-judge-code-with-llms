@@ -1,5 +1,6 @@
 Título: Teclado
 Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba várias letras, separadas por um espaço (<b>considere &#34;-&#34; como um espaço</b>) e seja capaz de escrever a frase em uma única linha, a quantidade de de frases, a quantidade de letras da frase (<b>desconsiderando os espaços</b>).</p>
 Formato da entrada: <p>Letras</p><p>* A entrada para assim que for digitado &#34;fim&#34;</p>
 Formato da saída: <p>A frase em uma única linha</p><p>A quantidade de palavras da frase</p><p>A quantidade de letras da frase</p><p>*Na quantidade de letras não deve ser levado em conta os espaços</p>

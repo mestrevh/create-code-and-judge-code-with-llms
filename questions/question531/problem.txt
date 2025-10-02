@@ -1,5 +1,6 @@
 Título: Selection Sort
 Topicos do problema: ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O algoritmo Selection Sort &eacute; um algoritmo de ordena&ccedil;&atilde;o que funciona da seguinte forma: dada uma sequ&ecirc;ncia de elementos em um array A (neste exerc&iacute;cio, consideramos apenas n&uacute;meros), procuramos inicialmente o menor elemento de A e o colocamos na primeira posi&ccedil;&atilde;o de A (trocando de lugar com a posi&ccedil;&atilde;o onde ele estava anteriormente). Em seguida, procuramos pelo segundo menor elemento de A, e o colocamos na segunda posi&ccedil;&atilde;o do array. Continuamos repetindo esta tarefa para os primeiros n-1 elementos de A.</p>
 <p>Neste exerc&iacute;cio, deve ser implementado o algoritmo Selection Sort, ilustrando o passo a passo de execu&ccedil;&atilde;o do algoritmo, conforme detalhado no formato de entrada e sa&iacute;da abaixo.</p>
 Formato da entrada: <p>A entrada &eacute; constitu&iacute;da por uma linha contendo uma sequ&ecirc;ncia de n&uacute;meros a serem ordenados.&nbsp;</p>

@@ -1,5 +1,6 @@
 Título: PROGCOMP - Matrizes - E
 Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que solicite ao usuário os valores de duas matrizes L × C e que exibe a matriz resultante da soma dessas matrizes. Considere que L e C (0 &lt; L, C &lt; 26) serão fornecidos pelo usuário.<br/></p>
 Formato da entrada: <p><font color="#000000"></font><font color="#000000" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Na primeira linha um número natural L e um número natural C (0 &lt; L, C &lt; 26), simbolizando a quantidade de linhas e colunas das matrizes, respectivamente; para</font><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"> cada uma das L linhas seguintes, C valores inteiros separados por um espaço, simbolizando os itens da primeira matriz; p</span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">ara cada uma das próximas L linhas, C valores inteiros separados por um espaço, simbolizando os itens da segunda matriz.</span><span style="color: rgb(0, 0, 0);"></span></p>
 Formato da saída: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">L linhas, cada uma com C colunas com as respectivas somas separadas por um espaço. Obs.: Não há espaço após o último item de cada linha.</span><br/></p>

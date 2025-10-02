@@ -1,5 +1,6 @@
 Título: Maior número.
 Topicos do problema: multiplas entradas; acumulador; repetição; 
+Tempo limite de execução: 20 segundo(s)
 Descrição: <p>Faça um programa em Java que leia 50 números e informe o maior número.<br/></p>
 Formato da entrada: <p>Os 50 valores digitados.</p>
 Formato da saída: <p>O maior valor.</p>

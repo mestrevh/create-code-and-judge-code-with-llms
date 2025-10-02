@@ -1,5 +1,6 @@
 Título: Divisível (função com retorno de valor)
 Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><b>[ENUNCIADO]</b></p><p>Crie um programa que possua uma única função além do programa principal. A função deverá receber como parâmetros dois números naturais <i>A</i> e <i>B</i> (<i>A</i>, <i>B</i> &gt;= 1) e devolver um valor booleano indicando se <i>A</i> é divisível por <i>B</i>.</p><p><b>[RESTRIÇÕES]</b></p><p>a) A leitura dos valores de entrada deverá ser feita no programa principal, ou seja, <u>não</u> haverá interação com o usuário na função;</p><p>b) O programa principal deverá imprimir 'divisivel' ou 'nao divisivel' (minúsculo e sem acentuação) de acordo com o retorno da função.</p>
 Formato da entrada: <p>10</p><p>5</p>
 Formato da saída: <p>divisivel</p>

@@ -1,5 +1,6 @@
 Título: Matriz com N números em M colunas
 Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Faça um programa que exiba os N primeiros números naturais, distribuídos em M colunas.<br/></p>
 Formato da entrada: <p>A entrada são dois inteiros especificando a quantidade N de números naturais e M, a quantidade de colunas.<br/></p>
 Formato da saída: <p>Dados N=13 e M=4 o resultado será:</p><p>  1   2   3   4 <br/>  5   6   7   8<br/>  9 10 11 12<br/> 13</p><p>Os números deverão ser exibidos reservando-se três posições.<br/></p>

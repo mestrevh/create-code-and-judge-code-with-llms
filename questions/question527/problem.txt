@@ -1,5 +1,6 @@
 Título: Insertion Sort
 Topicos do problema: ordenação; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O algoritmo <em>Insertion Sort</em> &eacute; um algoritmo eficiente para ordenar quantidades pequenas de elementos. A intui&ccedil;&atilde;o do seu funcionamento &eacute; semelhante &agrave; maneira como organizamos uma m&atilde;o de cartas progressivamente. Partindo de uma pilha de cartas na mesa, e com a m&atilde;o esquerda vazia, puxamos uma carta de cada vez com a m&atilde;o direita e inserimos a mesma na posi&ccedil;&atilde;o correta correspondente na m&atilde;o esquerda. Para definir a posi&ccedil;&atilde;o correta de uma carta, &eacute; necess&aacute;rio compar&aacute;-la com cada uma das cartas na m&atilde;o esquerda, come&ccedil;ando da carta mais &agrave; direita at&eacute;, no m&aacute;ximo, a carta mais &agrave; esquerda. Desta forma, sempre que buscamos uma carta da pilha da mesa, a m&atilde;o esquerda tem uma sequ&ecirc;ncia ordenada de cartas.&nbsp;</p>
 <p>Neste exerc&iacute;cio, devemos implementar o algoritmo Insertion Sort, ilustrando o passo a passo de execu&ccedil;&atilde;o do algoritmo, conforme detalhado no formato de entrada e sa&iacute;da abaixo.</p>
 Formato da entrada: <p>A entrada &eacute; constitu&iacute;da por uma linha contendo uma sequ&ecirc;ncia de n&uacute;meros a serem ordenados.&nbsp;</p>

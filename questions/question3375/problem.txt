@@ -1,5 +1,6 @@
 Título: Latas de Tinta para Pintar Cilindro
 Topicos do problema: geometria computacional; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Construa um programa que calcule a quantidade de latas de tintanecessárias e o custo para pintar tanques cilíndricos de combustível, ondesão fornecidos a altura e o raio desse cilindro.<br/></p>
 Formato da entrada: <p>Altura do Cilindro</p><p>Raio do Cilindro</p><p>Custo lata de Tinta </p><p>Conteúdo lata Tinta (l)</p><p>Quanto cada litro de tinta pinta (m2)</p>
 Formato da saída: <p>Quantidade de latas de tinta </p><p>Custo total</p>

@@ -1,5 +1,6 @@
 Título: Posições Livres
 Topicos do problema: acumulador; array bidimensional; maratona; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que, dado um tabuleiro e uma lista de sub-partes retangulares do tabuleiro, retorna o n&uacute;mero de posi&ccedil;&otilde;es que n&atilde;o pertencem a nenhuma sub-parte.</p>
 Formato da entrada: <p>A entrada consiste de uma s&eacute;rie de conjuntos de teste separados por linhas em branco. Um conjunto de teste come&ccedil;a com uma linha com tr&ecirc;s n&uacute;meros W, H e N, indicando, respectivamente, a largura, a altura e o n&uacute;mero de sub-partes do tabuleiro.</p>
 <p><br />Uma sub-parte &eacute; um subconjunto de casas do tabuleiro, identificado por duas coordenadas. Os valores W, H e N satisfazem as seguintes restri&ccedil;&otilde;es: 1 &lt;= W, H<br />&lt;= 500 e 0 &lt;= N &lt;= 99. Seguem N linhas, compostas de quatro inteiros X1, Y1, X2 e Y2, tais que (X1, Y1) e (X2, Y2) s&atilde;o as posi&ccedil;&otilde;es de dois cantos opostos de uma sub-parte. Estes valores satisfazem as seguintes restri&ccedil;&otilde;es: 1 &lt;= X1, X2 &lt;=W e 1 &lt;= Y1, Y2 &lt;= H. O fim da entrada &eacute; acontece quando temos W=H=N=0.</p>

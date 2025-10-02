@@ -1,5 +1,6 @@
 Título: [C3] LAB - 12
 Topicos do problema: estruturas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>A padaria Hotpão vende uma quantidade de pães franceses e uma quantidade de broas a cada dia.<br/>Cada pãozinho custa R$ 0,45 e a broa custa R$ 2,25. Ao final do dia, o dono quer saber quanto arrecadou com a venda dos pães e broas (juntos), e quanto deve guardar numa conta de poupança (15% do total arrecadado).<br/><br/>Você foi contratado para fazer os cálculos para o dono. Com base nestes fatos, faça um programa para ler as quantidades de pães e de broas, e depois calcular os dados solicitados.<br/><br/>Lembrem de arredondar os valores para duas casas decimais.<br/><br/>Não imprima nada na entrada/saída além dos valores pedidos.</p>
 Formato da entrada: <p>Quantidade de pães<br/>Quantidade de broas</p>
 Formato da saída: <p>Arrecadação total<br/>Quanto guardar na poupança</p>

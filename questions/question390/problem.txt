@@ -1,5 +1,6 @@
 Título: Método de Euler
 Topicos do problema: entrada formatada; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p><span style="font-size: small;"><span style="font-size: x-small;">Quando buscamos uma solu&ccedil;&atilde;o de engenharia, ao final da etapa de modelagem, nos deparamos frequentemente com equa&ccedil;&otilde;es diferenciais que precisam ser resolvidas. As equa&ccedil;&otilde;es diferencias ordin&aacute;rias (EDO) de primeira ordem podem ser resolvidas numericamente utilizando o conhecido M&eacute;todo de Euler.</span></span></p>
 <p><span style="font-size: small;"><span style="font-size: x-small;">Segundo texto no site da Wikipedia:</span></span></p>
 <p><span style="font-size: small;"><span style="font-size: x-small;">"Em matem&aacute;tica e ci&ecirc;ncia computacional, o m&eacute;todo de Euler, cujo nome relaciona-se com Leonhard Euler, &eacute; um procedimento num&eacute;rico de primeira ordem para solucionar equa&ccedil;&otilde;es diferenciais ordin&aacute;rias com um valor inicial dado. &Eacute; o tipo mais b&aacute;sico de m&eacute;todo expl&iacute;cito para integra&ccedil;&atilde;o num&eacute;rica para equa&ccedil;&otilde;es diferenciais ordin&aacute;rias."</span></span></p>

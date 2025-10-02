@@ -1,5 +1,6 @@
 Título: Soma Dois Números
 Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva um programa que receba dois n&uacute;meros inteiros e exiba sua soma.</p>
 Formato da entrada: <p>Voc&ecirc; receber&aacute; duas linhas. Cada linha cont&eacute;m um n&uacute;mero inteiro.</p>
 <p><br />Obs: N&atilde;o use mensagens no input</p>

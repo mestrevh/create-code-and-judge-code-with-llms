@@ -1,5 +1,6 @@
 Título: Aumento dos Trabalhadores
 Topicos do problema: decisão; 
+Tempo limite de execução: 5 segundo(s)
 Descrição: <p>Devido &agrave; proximidade com o Dia do Trabalho, uma empresa resolveu conceder aumentos salariais a seus funcion&aacute;rios. Aqueles com sal&aacute;rio superior a R$ 500, ter&atilde;o aumento de 10%, enquanto os que ganham mais de R$ 300 ter&atilde;o aumento de 7%. Os demais funcion&aacute;rios ter&atilde;o aumento de apenas 5%. Escreva um programa que receba como entrada o sal&aacute;rio atual de um funcion&aacute;rio, calcule e exiba o valor de seu novo sal&aacute;rio j&aacute; com o aumento concedido.</p>
 Formato da entrada: <p>Um n&uacute;mero real.</p>
 <p>Dica: n&atilde;o use mensagens no input</p>

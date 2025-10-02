@@ -1,5 +1,6 @@
 Título: Data por extenso
 Topicos do problema: datas/horas; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Dados três inteiros d, m e a representando,respectivamente, o dia, mês e ano de uma data, queremos a escrever a data por extenso. Assim, por exemplo, para os números 4, 5 e 2018 a data por extenso é &#34;quatro de maio de dois mil e dezoito&#34;. Escreva um programa para este propósito. Datas inválidas deverão ser rejeitadas escrevendo &#34;data invalida&#34; (sem acentos). As datas começam em 1/1/1900 e terminam em 31/12/2100, inclusive.<br/></p>
 Formato da entrada: <p>Três inteiros d, m e a que representam o dia, mes e ano, respectivamente.<br/></p>
 Formato da saída: <p>A data por extenso<br/></p>

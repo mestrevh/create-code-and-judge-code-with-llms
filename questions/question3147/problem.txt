@@ -1,5 +1,6 @@
 Título: Troca
 Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <span>Crie uma função que recebe dois argumentos inteiros(A e B) e troca o conteúdo de A por B </span><b>somente </b><span>se A for maior que B. Obs.: Esta função deve ser </span><b><i>void,</i></b><span> onde a passagem dos parâmetros é por referência, pesquise!</span><br/>
 Formato da entrada: <p>5 2</p>
 Formato da saída: <p>2 5</p>

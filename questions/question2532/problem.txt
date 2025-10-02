@@ -1,5 +1,6 @@
 Título: Maior numero Octave - T1
 Topicos do problema: multiplas entradas; decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><font size="3">Faça um programa para ler dois números e escrever o maior. </font><br/></p>
 Formato da entrada: <p>O usuario deve digitar os números A e B<br/></p>
 Formato da saída: <p>O programa deve exibir o maior numero digitado, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite o valor de A: (impresso pela funcao input)</p><p>Digite o valor de B: (impresso pela funcao input)<br/></p><p>O maior valor digitado foi: n<br/></p>

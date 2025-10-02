@@ -1,5 +1,6 @@
 Título: Escada
 Topicos do problema: acumulador; decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>O Shopping Boas Compras &ndash; SBC, atrav&eacute;s de sua pol&iacute;tica ambiental, est&aacute; preocupado com o consumo de energia<br />e, resolveu trocar todas as escadas rolantes por modelos mais modernos, que se desligam caso ningu&eacute;m esteja<br />utilizando, poupando energia.</p>
 <p><br />A nova escada rolante possui um sensor no in&iacute;cio. Toda vez que ela est&aacute; vazia e algu&eacute;m passa pelo sensor, a<br />escada come&ccedil;a a funcionar, parando de funcionar novamente ap&oacute;s 10 segundos se ningu&eacute;m mais passar pelo<br />sensor. Estes 10 segundos representam o tempo suficiente para levar algu&eacute;m de um n&iacute;vel ao outro.</p>
 <p><br />Preocupados em saber exatamente quanto de energia o shopping est&aacute; economizando, o gerente pediu sua ajuda.<br />Como eles sabem qual era o consumo da escada rolante antiga, eles te pediram para calcular o tempo que a<br />nova escada ficou funcionando.</p>

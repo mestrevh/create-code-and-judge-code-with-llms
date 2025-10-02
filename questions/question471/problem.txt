@@ -1,5 +1,6 @@
 Título: Pedra, Papel e Tesoura
 Topicos do problema: simulação de jogos; função; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Miguel e Maria Rita s&atilde;o irm&atilde;os e sempre brigam para resolver quem tem que fazer o qu&ecirc; no apartamento que dividem. Ent&atilde;o, eles decidiram usar um jogo chamado Pedra, Papel e Tesoura para tomar decis&otilde;es.</p>
 <p>Nesse jogo, cada um tem que escolher que escolher um dos elementos e, de acordo com as regras abaixo, &eacute; definido um vencedor:</p>
 <p>- Papel enrola Pedra (Papel ganha)<br />- Pedra amassa Tesoura (Pedra ganha)<br />- Tesoura corta Papel (Tesoura ganha)<br /><br />Se forem colocados dois s&iacute;mbolos iguais, o jogo fica empatado.<br /><br />Para decidir quem vai lavar a lou&ccedil;a durante a semana inteira, eles resolveram fazer um campeonato: em 5 partidas sem empates, quem conseguir mais vit&oacute;rias vence e se livra da obriga&ccedil;&atilde;o.</p>

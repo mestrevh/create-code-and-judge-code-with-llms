@@ -1,5 +1,6 @@
 Título: Método de Leverrier
 Topicos do problema: array; acumulador; formatação; 
+Tempo limite de execução: 10 segundo(s)
 Descrição: <p><span style="font-size: small;">Os autovalores de uma matriz s&atilde;o importantes para diversas aplica&ccedil;&otilde;es na engenharia. Em din&acirc;mica, os autovalores fornecem as frequ&ecirc;ncias naturais do sistema. Se uma estrutura tiver frequ&ecirc;ncias naturais pr&oacute;ximas &agrave;s frequ&ecirc;ncias de excita&ccedil;&atilde;o que ela ir&aacute; sofrer durante sua vida &uacute;til, os deslocamentos gerados neste cen&aacute;rio podem ser excessivos, provocando colapso da estrutura. O caso mais famoso desse tipo de colapso &eacute; a ponte de Tacoma Narrows (EUA).</span></p>
 <p><span style="font-size: small;">http://faculty.plattsburgh.edu/margaret.campion/seconded/second/kent/kent.html</span></p>
 <p><img src="http://faculty.plattsburgh.edu/margaret.campion/seconded/second/kent/Tac06.gif" border="0" /></p>

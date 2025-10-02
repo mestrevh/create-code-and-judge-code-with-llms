@@ -1,5 +1,6 @@
 Título: Sedex
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>
 <p>A Copa do Mundo de 2010 foi realizada na Africa do Sul. Bolas de futebol s&atilde;o muito f&aacute;ceis de transportar, j&aacute; que elas saem das f&aacute;bricas vazias e s&oacute; s&atilde;o enchidas somente pelas lojas ou pelos consumidores finais. Infelizmente o mesmo n&atilde;o pode ser dito das bolas de boliche. Como elas s&atilde;o completamente s&oacute;lidas, elas s&oacute; podem ser transportadas embaladas uma a uma, em caixas separadas.&nbsp;</p>
 <p>A Ambroliche &eacute; uma f&aacute;brica de bolas de boliche que trabalha somente atrav&eacute;s de encomendas e envia todas as bolas por SEDEX. Como as bolas t&ecirc;m tamanhos diferentes, a Ambroliche tem v&aacute;rios tamanhos de caixas diferentes para transport&aacute;-las.</p>

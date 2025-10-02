@@ -1,5 +1,6 @@
 Título: Q01 - Quantas letras há na frase
 Topicos do problema: decisão; string; busca; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Sua tarefa é simples, dada uma letra x, onde x representa a letra, informe quantas dela há numa frase y, onde y representa a frase.</p><p>Exemplo:</p><p>o (letra a contar)</p><p>Marcos (frase de quem contar)</p><p>dessa forma, o número de letras &#34;o&#34; na frase &#34;Marcos&#34; é 1</p>
 Formato da entrada: <p>uma letra que representa a letra a ser contada</p><p>uma frase que representa de quem contar</p>
 Formato da saída: <p>um número indicando a quantidade de letras naquela frase específica</p>

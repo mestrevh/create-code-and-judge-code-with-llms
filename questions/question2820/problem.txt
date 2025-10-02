@@ -1,5 +1,6 @@
 Título: Treinamento de Ciclismo
 Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
 Descrição: <p><span>Eloi decidiu se dedicar à prática de ciclismo para manter a forma. Ele traçou como meta percorrer pelo menos 8 km por dia todos os dias. </span></p><p><span>Escreva um programa que receba como entrada a distância percorrida por Eloi em cada um dos sete dias da semana e, de acordo com seu desempenho, exiba em quantos dos sete dias a meta foi alcançada, açém de uma das seguintes mensagens: </span></p><p><span>-</span> <span>Desempenho otimo, caso a meta seja cumprida em cinco ou mais dias<br/></span><span>- Desempenho bom, caso a meta só seja cumprida em três ou quatro dias<br/>- Desempenho ruim, caso a meta seja cumprida em menos de três dias</span></p>
 Formato da entrada: <p>O usuário deve digitar sete números reais separados por ENTER representando a distância percorrida em cada dia de treino<br/></p>
 Formato da saída: <p>O programa deve exibir a mensagem de acordo com o desempenho de Eloi e em quantos dos sete dias a meta foi alcançada, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite as distancias percorridas separadas por ENTER:</p><p>Meta alcancada em n dias<br/></p><p><span>Desempenho otimo/bom/ruim</span></p>
