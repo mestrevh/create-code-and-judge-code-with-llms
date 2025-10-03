@@ -26,7 +26,7 @@ except TypeError:
 
 
 # Enviar o código no the huxley
-def send_code(code_dir: str = "code_gemini", i: int = 2):
+def send_code(code_dir: str = "code_gemini_obi", i: int = 2):
     url = f"https://www.thehuxley.com/api/v1/user/problems/{i}/submissions"
 
     headers = {
@@ -63,7 +63,7 @@ def send_code(code_dir: str = "code_gemini", i: int = 2):
         print("Submissão enviada com sucesso!")
         print("Status:", response.status_code)
 
-        time.sleep(30)
+        time.sleep(300)
 
         #print("Resposta:", response.json())
         #print("-" * 50)
@@ -250,19 +250,19 @@ def create_code(op: str = "1", i: str = "2"):
 
         code = f'/*\nCódigo criado pelo modelo gemini-2.5-pro\nEstudo para TCC (Victor Hugo Silva Ângelo - UFAL)\n*/' + code
 
-        with open(f"code_gemini/{question_dir}.cpp", "w", encoding="utf-8") as f:
+        with open(f"code_gemini_obi/{question_dir}.cpp", "w", encoding="utf-8") as f:
             f.write(code)
 
-            print(f"Arquivo code_gemini/{question_dir}.cpp gerado com sucesso!")
+            print(f"Arquivo code_gemini_obi/{question_dir}.cpp gerado com sucesso!")
 
     elif op == "2":
 
         code = f'/*\nCódigo criado pelo modelo gpt-4.1\nEstudo para TCC (Victor Hugo Silva Ângelo - UFAL)\n*/' + code
 
-        with open(f"code_gpt/{question_dir}.cpp", "w", encoding="utf-8") as f:
+        with open(f"code_gpt_obi/{question_dir}.cpp", "w", encoding="utf-8") as f:
             f.write(code)
 
-        print(f"Arquivo code_gpt/{question_dir}.cpp gerado com sucesso!")
+        print(f"Arquivo code_gpt_obi/{question_dir}.cpp gerado com sucesso!")
 
     return True
 
@@ -280,7 +280,7 @@ def judge_code(op: str = "1", i: str = "2") -> bool:
     if op == "1":
         
         try:
-            with open(f"code_gemini/question{i}.cpp", 'r', encoding='utf-8') as f:
+            with open(f"code_gemini_obi/question{i}.cpp", 'r', encoding='utf-8') as f:
                 code = f.read()
         except FileNotFoundError:
             print(f"ERRO: O arquivo não foi encontrado. O programa continuará.")
@@ -292,7 +292,7 @@ def judge_code(op: str = "1", i: str = "2") -> bool:
                 f"\n{code}\n\n"
                 "Passo 1: Você é um especialista em programação competitiva, compile o código acima e execute. A partir da questão abaixo coloque as entradas e verifique se está condizendo com a saída esperada. Não gere nenhum output nesse passo.\n"
                 f"\n{problem_text}\n\n"
-                "Crie entradas para questão para testar ao seu critério, não precisa informa quais são as entradas. Haverá essas opções de resposta:\n\n",
+                "Crie entradas para questão para testar ao seu critério como tempo limite e acertos no caso teste, não precisa informar quais são as entradas.\n\n"
                 "[CORRECT]: se acertou os testes da questão\n"
                 "[WRONG_ANSWER]: errou algum teste\n"
                 "[TIME_LIMIT_EXCEEDED]: passou do tempo limite de execução para algum teste feito\n"
@@ -320,7 +320,7 @@ def judge_code(op: str = "1", i: str = "2") -> bool:
     elif op == "2":
         
         try:
-            with open(f"code_gpt/question{i}.cpp", 'r', encoding='utf-8') as f:
+            with open(f"code_gpt_obi/question{i}.cpp", 'r', encoding='utf-8') as f:
                 code = f.read()
         except FileNotFoundError:
             print(f"ERRO: O arquivo não foi encontrado. O programa continuará.")
@@ -339,14 +339,14 @@ def judge_code(op: str = "1", i: str = "2") -> bool:
                 "A partir da questão abaixo coloque as entradas e verifique se está condizendo com a saída esperada. "
                 "Não gere nenhum output nesse passo.\n\n"
                 f"{problem_text}\n\n"
-                "Crie entradas para questão para testar ao seu critério, não precisa informar quais são as entradas.\n\n"
+                "Crie entradas para questão para testar ao seu critério como tempo limite e acertos no caso teste, não precisa informar quais são as entradas.\n\n"
                 "Haverá essas opções de resposta:\n"
                 "[CORRECT]: se acertou os testes da questão\n"
                 "[WRONG_ANSWER]: errou algum teste\n"
-                "[TIME_LIMIT_EXCEEDED]: passou do tempo limite de execução para algum teste feito\n"
-                "[RUNTIME_ERROR]: houve algum erro durante a execução do código\n"
-                "[COMPILATION_ERROR]: não conseguiu compilar o código\n"
-                "[EMPTY_ANSWER]: apresentou alguma saída vazia nos testes\n\n"
+                "[TIME_LIMIT_EXCEEDED]: passou do tempo limite de execução para algum teste feito, o TEMPO será -1\n"
+                "[RUNTIME_ERROR]: houve algum erro durante a execução do código, o TEMPO será -1\n"
+                "[COMPILATION_ERROR]: não conseguiu compilar o código, o TEMPO será -1\n"
+                "[EMPTY_ANSWER]: apresentou alguma saída vazia nos testes, o TEMPO será -1\n\n"
                 "Responda esse prompt apenas com os valores que estão entre [] (retire as []) nas opções de resposta, "
                 "além do tempo de execução. Saída deve ser assim: TEMPO,RESPOSTA"
             )}
@@ -379,10 +379,12 @@ def judge_code(op: str = "1", i: str = "2") -> bool:
 def main():
     #questions = [54]
     questions = [54, 812, 684, 814, 817, 813, 2201, 3598, 373, 3599, 176, 3601, 4662]
-    db_send_code = pd.DataFrame(columns=['id', 'name', 'time', 'evaluation'])
-    db_send_judge = pd.DataFrame(columns=['id', 'name', 'time', 'evaluation', 'nivel'])
 
     while True:
+        
+        db_send_code = pd.DataFrame(columns=['id', 'name', 'time', 'evaluation'])
+        db_send_judge = pd.DataFrame(columns=['id', 'name', 'time', 'evaluation', 'nivel'])
+        
         print("\n\nMenu:")
         print("1 - gemini gerar o código vs chatgpt avalia o código")
         print("2 - chagpt gerar o código vs gemini avalia o código")
@@ -395,11 +397,11 @@ def main():
 
         else:
         
-            #for q in questions:
-            #    if create_code(op=choice, i=q):
-            #        print(f"Código em c++ da questão {q} foi criado!!!")
-            #    else:
-            #        print(f"Não foi possível criar o código em c++ da questão {q}...")
+            for q in questions:
+                if create_code(op=choice, i=q):
+                    print(f"Código em c++ da questão {q} foi criado!!!")
+                else:
+                    print(f"Não foi possível criar o código em c++ da questão {q}...")
                     
                     
             for q in questions:
@@ -407,7 +409,7 @@ def main():
                 judge = [q]
                 
                 if choice == "1":
-                    if send_code(code_dir="code_gemini", i=q):
+                    if send_code(code_dir="code_gemini_obi", i=q):
                         submission = get_submission_the_huxley(q)
 
                         if submission[0] != None:
@@ -426,7 +428,7 @@ def main():
                         "result_the_huxley_gemini_code.csv", index=False)
 
                 else:
-                    if send_code(code_dir="code_gpt", i=q):
+                    if send_code(code_dir="code_gpt_obi", i=q):
                         submission = get_submission_the_huxley(q)
                         
                         if submission[0] != None:
