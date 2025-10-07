@@ -1,28 +1,20 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
-#include <vector>
-#include <sstream>
-
-using namespace std;
 
 int main() {
-    string line;
-    getline(cin, line);
-
-    stringstream ss(line);
-    string word;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    char c1, c2, c3, c4, c5;
+    std::cin >> c1 >> c2 >> c3 >> c4 >> c5;
     int sum = 0;
-
-    while (ss >> word) {
-        sum += word[0] - 'a' + 1;
-    }
-
-    cout << sum << endl;
-
+    sum += (c1 - 'a' + 1);
+    sum += (c2 - 'a' + 1);
+    sum += (c3 - 'a' + 1);
+    sum += (c4 - 'a' + 1);
+    sum += (c5 - 'a' + 1);
+    std::cout << sum << std::endl;
     return 0;
 }
-`

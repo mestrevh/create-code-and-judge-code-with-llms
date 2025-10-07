@@ -1,27 +1,22 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <iomanip>
 
 int main() {
-    std::ios_base::sync_with_stdio(false);
-    std::cin.tie(NULL);
-
-    double kwh_consumido;
-    const double custo_kwh = 1.50;
-    const double percentual_desconto = 0.85;
-
-    std::cout << "Digite o valor real em KWh consumido:\n";
-    std::cin >> kwh_consumido;
-
-    double valor_total = kwh_consumido * custo_kwh;
-    double valor_com_desconto = valor_total * percentual_desconto;
-
+    double kwh;
+    
+    std::cout << "Digite o valor real em KWh consumido:" << std::endl;
+    std::cin >> kwh;
+    
+    double valor_total = kwh * 1.50;
+    double valor_desconto = valor_total * 0.85;
+    
     std::cout << std::fixed << std::setprecision(2);
-    std::cout << "Valor a ser pago: R$ " << valor_total << " reais\n";
-    std::cout << "Valor a ser pago com desconto: R$ " << valor_com_desconto << " reais\n";
-
+    std::cout << "Valor a ser pago: R$ " << valor_total << " reais" << std::endl;
+    std::cout << "Valor a ser pago com desconto: R$ " << valor_desconto << " reais" << std::endl;
+    
     return 0;
 }

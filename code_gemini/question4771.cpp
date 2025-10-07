@@ -1,81 +1,68 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <iomanip>
 
-using namespace std;
-
-int daysInMonth[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-
-bool isLeap(int year) {
+bool is_leap(int year) {
     return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 }
 
-int main() {
-    int initialDay, initialMonth, initialYear;
-    int initialHour, initialMinute;
-    int addedHours, addedMinutes;
-
-    cin >> initialDay >> initialMonth >> initialYear;
-    cin >> initialHour >> initialMinute;
-    cin >> addedHours >> addedMinutes;
-
-    int finalMinute = initialMinute + addedMinutes;
-    int finalHour = initialHour + addedHours + finalMinute / 60;
-    finalMinute %= 60;
-
-    int finalDay = initialDay + finalHour / 24;
-    finalHour %= 24;
-
-    int finalMonth = initialMonth;
-    int finalYear = initialYear;
-
-    while (true) {
-        int days = daysInMonth[finalMonth];
-        if (finalMonth == 2 && isLeap(finalYear)) {
-            days++;
-        }
-
-        if (finalDay <= days) {
-            break;
-        }
-
-        finalDay -= days;
-        finalMonth++;
-        if (finalMonth > 12) {
-            finalMonth = 1;
-            finalYear++;
-        }
+int days_in_month(int month, int year) {
+    if (month == 2) {
+        return is_leap(year) ? 29 : 28;
+    } else if (month == 4 || month == 6 || month == 9 || month == 11) {
+        return 30;
+    } else {
+        return 31;
     }
+}
 
-    cout << setfill('0') << setw(2) << finalDay << "\\" << setw(2) << finalMonth << "\\" << finalYear << endl;
-    cout << setw(2) << finalHour << ":" << setw(2) << finalMinute << endl;
+int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    int daysPassed = 0;
-    int currentDay = initialDay;
-    int currentMonth = initialMonth;
-    int currentYear = initialYear;
+    int d, m, y;
+    int h, min;
+    int add_h, add_min;
 
-    while (currentYear < finalYear || (currentYear == finalYear && currentMonth < finalMonth) || (currentYear == finalYear && currentMonth == finalMonth && currentDay < finalDay)) {
-        daysPassed++;
-        currentDay++;
-        int days = daysInMonth[currentMonth];
-        if (currentMonth == 2 && isLeap(currentYear)) {
-            days++;
-        }
-        if (currentDay > days) {
-            currentDay = 1;
-            currentMonth++;
-            if (currentMonth > 12) {
-                currentMonth = 1;
-                currentYear++;
+    std::cin >> d >> m >> y;
+    std::cin >> h >> min;
+    std::cin >> add_h >> add_min;
+
+    long long total_minutes = static_cast<long long>(min) + add_min;
+    int final_min = total_minutes % 60;
+    long long carry_hours = total_minutes / 60;
+
+    long long total_hours = static_cast<long long>(h) + add_h + carry_hours;
+    int final_h = total_hours % 24;
+    long long days_to_add = total_hours / 24;
+
+    int final_d = d;
+    int final_m = m;
+    int final_y = y;
+
+    for (long long i = 0; i < days_to_add; ++i) {
+        final_d++;
+        if (final_d > days_in_month(final_m, final_y)) {
+            final_d = 1;
+            final_m++;
+            if (final_m > 12) {
+                final_m = 1;
+                final_y++;
             }
         }
     }
 
-    cout << "Falta " << daysPassed << " dias até a data que o Esquisito falou" << endl;
+    std::cout << std::setw(2) << std::setfill('0') << final_d << "\\"
+              << std::setw(2) << std::setfill('0') << final_m << "\\"
+              << final_y << std::endl;
+
+    std::cout << std::setw(2) << std::setfill('0') << final_h << ":"
+              << std::setw(2) << std::setfill('0') << final_min << std::endl;
+
+    std::cout << "Falta " << days_to_add << " dias até a data que o Esquisito falou" << std::endl;
 
     return 0;
 }

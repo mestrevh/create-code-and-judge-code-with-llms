@@ -1,102 +1,98 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
 #include <vector>
+#include <string>
 #include <map>
 #include <algorithm>
+#include <iterator>
 
-using namespace std;
+struct Convidado {
+    std::string nome;
+    int agregados;
+    std::string comida;
+    std::string bebida;
+    std::string atracao;
+};
+
+std::string find_winner_string(const std::map<std::string, int>& votos) {
+    if (votos.empty()) return "";
+    auto winner_it = votos.begin();
+    for (auto it = std::next(votos.begin()); it != votos.end(); ++it) {
+        if (it->second > winner_it->second) {
+            winner_it = it;
+        }
+    }
+    return winner_it->first;
+}
+
+int find_winner_agregados(const std::map<int, int>& votos) {
+    if (votos.empty()) return 0;
+    auto winner_it = votos.begin();
+    for (auto it = std::next(votos.begin()); it != votos.end(); ++it) {
+        if (it->second > winner_it->second) {
+            winner_it = it;
+        }
+    }
+    return winner_it->first;
+}
 
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    map<int, int> agregados_votes;
-    map<string, int> comida_votes;
-    map<string, int> bebida_votes;
-    map<string, int> artista_votes;
-    vector<tuple<string, int, string, string, string>> votes;
+    int n;
+    std::cin >> n;
+
+    std::vector<Convidado> convidados;
+    std::map<int, int> votos_agregados;
+    std::map<std::string, int> votos_comida;
+    std::map<std::string, int> votos_bebida;
+    std::map<std::string, int> votos_atracao;
 
     for (int i = 0; i < n; ++i) {
-        string nome, comida, bebida, artista;
-        int agregados;
-        cin >> nome >> agregados >> comida >> bebida >> artista;
-        votes.emplace_back(nome, agregados, comida, bebida, artista);
+        Convidado c;
+        std::cin >> c.nome >> c.agregados >> c.comida >> c.bebida;
+        std::getline(std::cin >> std::ws, c.atracao);
 
-        agregados_votes[agregados]++;
-        comida_votes[comida]++;
-        bebida_votes[bebida]++;
-        artista_votes[artista]++;
+        convidados.push_back(c);
+
+        votos_agregados[c.agregados]++;
+        votos_comida[c.comida]++;
+        votos_bebida[c.bebida]++;
+        votos_atracao[c.atracao]++;
     }
 
-    int min_agregados = -1;
-    int max_agregados_votes = -1;
-    for (auto const& [agregados, count] : agregados_votes) {
-        if (count > max_agregados_votes) {
-            max_agregados_votes = count;
-            min_agregados = agregados;
-        } else if (count == max_agregados_votes) {
-            min_agregados = min(min_agregados, agregados);
+    int vencedor_agregados = find_winner_agregados(votos_agregados);
+    std::string vencedor_comida = find_winner_string(votos_comida);
+    std::string vencedor_bebida = find_winner_string(votos_bebida);
+    std::string vencedor_atracao = find_winner_string(votos_atracao);
+
+    std::cout << vencedor_agregados << "\n";
+    std::cout << vencedor_comida << "\n";
+    std::cout << vencedor_bebida << "\n";
+    std::cout << vencedor_atracao << "\n";
+
+    std::vector<std::string> vips;
+    for (const auto& c : convidados) {
+        int acertos = 0;
+        if (c.agregados == vencedor_agregados) acertos++;
+        if (c.comida == vencedor_comida) acertos++;
+        if (c.bebida == vencedor_bebida) acertos++;
+        if (c.atracao == vencedor_atracao) acertos++;
+
+        if (acertos >= 2) {
+            vips.push_back(c.nome);
         }
     }
 
-    string winning_comida = "";
-    int max_comida_votes = -1;
-    for (auto const& [comida, count] : comida_votes) {
-        if (count > max_comida_votes) {
-            max_comida_votes = count;
-            winning_comida = comida;
-        } else if (count == max_comida_votes) {
-            winning_comida = min(winning_comida, comida);
-        }
-    }
-    
-    string winning_bebida = "";
-    int max_bebida_votes = -1;
-    for (auto const& [bebida, count] : bebida_votes) {
-        if (count > max_bebida_votes) {
-            max_bebida_votes = count;
-            winning_bebida = bebida;
-        } else if (count == max_bebida_votes) {
-            winning_bebida = min(winning_bebida, bebida);
-        }
-    }
+    std::sort(vips.begin(), vips.end());
 
-    string winning_artista = "";
-    int max_artista_votes = -1;
-    for (auto const& [artista, count] : artista_votes) {
-        if (count > max_artista_votes) {
-            max_artista_votes = count;
-            winning_artista = artista;
-        } else if (count == max_artista_votes) {
-            winning_artista = min(winning_artista, artista);
-        }
-    }
-
-    cout << min_agregados << endl;
-    cout << winning_comida << endl;
-    cout << winning_bebida << endl;
-    cout << winning_artista << endl;
-    cout << "convidados vip:" << endl;
-
-
-    vector<string> vip_guests;
-    for (const auto& [nome, agregados, comida, bebida, artista] : votes) {
-        int matches = 0;
-        if (agregados == min_agregados) matches++;
-        if (comida == winning_comida) matches++;
-        if (bebida == winning_bebida) matches++;
-        if (artista == winning_artista) matches++;
-        if (matches >= 2) {
-            vip_guests.push_back(nome);
-        }
-    }
-    sort(vip_guests.begin(), vip_guests.end());
-    for (const string& guest : vip_guests) {
-        cout << guest << endl;
+    std::cout << "convidados vip:\n";
+    for (const auto& nome_vip : vips) {
+        std::cout << nome_vip << "\n";
     }
 
     return 0;

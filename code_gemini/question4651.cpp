@@ -1,34 +1,32 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <cctype>
-#include <sstream>
-
-using namespace std;
+#include <clocale>
 
 int main() {
-    string line;
-    getline(cin, line);
+    setlocale(LC_ALL, "pt_BR.UTF-8");
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    stringstream ss(line);
-    string word;
-    string result = "";
-
-    while (ss >> word) {
-        for (int i = 0; i < word.length(); i++) {
-            if (i == 0) {
-                word[i] = toupper(word[i]);
+    std::string line;
+    if (std::getline(std::cin, line)) {
+        bool capitalize = true;
+        for (char &c : line) {
+            if (std::isspace(static_cast<unsigned char>(c))) {
+                capitalize = true;
+            } else if (capitalize) {
+                c = std::toupper(static_cast<unsigned char>(c));
+                capitalize = false;
             } else {
-                word[i] = tolower(word[i]);
+                c = std::tolower(static_cast<unsigned char>(c));
             }
         }
-        result += word + " ";
+        std::cout << line << std::endl;
     }
-
-    cout << result.substr(0, result.length() - 1) << endl;
 
     return 0;
 }

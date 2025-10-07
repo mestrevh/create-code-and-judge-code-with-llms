@@ -1,58 +1,55 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <cctype>
 
-using namespace std;
+bool isValid(const std::string& name) {
+    if (name.length() < 3 || name.length() > 30) {
+        return false;
+    }
+
+    if (!isalpha(name.front()) || !isalpha(name.back())) {
+        return false;
+    }
+
+    if (!isupper(name[0])) {
+        return false;
+    }
+
+    for (size_t i = 1; i < name.length(); ++i) {
+        char current = name[i];
+        char previous = name[i - 1];
+
+        if (!isalpha(current) && current != ' ' && current != '-') {
+            return false;
+        }
+
+        bool is_current_separator = (current == ' ' || current == '-');
+        bool is_previous_separator = (previous == ' ' || previous == '-');
+
+        if (is_current_separator && is_previous_separator) {
+            return false;
+        }
+
+        if (is_previous_separator && isalpha(current) && !isupper(current)) {
+            return false;
+        }
+    }
+
+    return true;
+}
 
 int main() {
-    string name;
-    getline(cin, name);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    if (name.length() < 3 || name.length() > 30) {
-        cout << name << ": 0" << endl;
-        return 0;
-    }
+    std::string name;
+    std::getline(std::cin, name);
 
-    if (!isalpha(name[0]) || !isalpha(name.back())) {
-        cout << name << ": 0" << endl;
-        return 0;
-    }
-
-    for (int i = 0; i < name.length(); ++i) {
-        if (!isalnum(name[i]) && name[i] != ' ' && name[i] != '-') {
-            cout << name << ": 0" << endl;
-            return 0;
-        }
-        if (i > 0 && ((name[i] == ' ' && name[i - 1] == ' ') || (name[i] == '-' && name[i - 1] == '-'))) {
-            cout << name << ": 0" << endl;
-            return 0;
-        }
-    }
-
-    string word;
-    for (int i = 0; i < name.length(); ++i) {
-        if (name[i] == ' ' || name[i] == '-') {
-            if (!word.empty() && !isupper(word[0])) {
-                cout << name << ": 0" << endl;
-                return 0;
-            }
-            word = "";
-        } else {
-            word += name[i];
-        }
-    }
-    if (!word.empty() && !isupper(word[0])) {
-        cout << name << ": 0" << endl;
-        return 0;
-    }
-
-
-
-    cout << name << ": 1" << endl;
+    std::cout << name << ": " << isValid(name) << std::endl;
 
     return 0;
 }

@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -9,7 +9,7 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <limits>
 
 struct Carro {
-    std::string modelo;
+    std::string nome;
     double desempenho;
 };
 
@@ -19,11 +19,13 @@ int main() {
 
     int n;
     std::cin >> n;
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
     std::vector<Carro> carros;
     carros.reserve(n);
-    double soma_desempenhos = 0.0;
+    
+    double soma_desempenho = 0.0;
+
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
     for (int i = 0; i < n; ++i) {
         std::string nome_modelo;
@@ -31,19 +33,21 @@ int main() {
 
         double motor, suspensao, turbo;
         std::cin >> motor >> suspensao >> turbo;
+        
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-        double desempenho_calculado = (motor * 5.0 + suspensao * 2.0 + turbo * 3.0) / 10.0;
-        soma_desempenhos += desempenho_calculado;
-
-        carros.push_back({nome_modelo, desempenho_calculado});
+        double desempenho_atual = (motor * 5.0 + suspensao * 2.0 + turbo * 3.0) / 10.0;
+        
+        carros.push_back({nome_modelo, desempenho_atual});
+        soma_desempenho += desempenho_atual;
     }
 
     if (n > 0) {
-        double media_geral = soma_desempenhos / n;
+        double media_geral = soma_desempenho / n;
+
         for (const auto& carro : carros) {
             if (carro.desempenho >= media_geral) {
-                std::cout << carro.modelo << '\n';
+                std::cout << carro.nome << std::endl;
             }
         }
     }

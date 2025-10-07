@@ -1,33 +1,35 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
-#include <numeric>
 #include <cmath>
-
-using namespace std;
+#include <iomanip>
 
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<int> alunos;
+    int n;
+    std::cin >> n;
+
     int total_alunos = 0;
 
     for (int i = 0; i < n; ++i) {
-        int num_alunos;
-        cin >> num_alunos;
-        while (num_alunos > 40) {
-            cout << "O numero de alunos nao pode ser maior que 40" << endl;
-            cin >> num_alunos;
+        int alunos_turma;
+        std::cin >> alunos_turma;
+        while (alunos_turma > 40) {
+            std::cout << "O numero de alunos nao pode ser maior do que 40" << std::endl;
+            std::cin >> alunos_turma;
         }
-        alunos.push_back(num_alunos);
-        total_alunos += num_alunos;
+        total_alunos += alunos_turma;
     }
 
-    cout << round((double)total_alunos / n) << endl;
+    if (n > 0) {
+        double media = static_cast<double>(total_alunos) / n;
+        int media_arredondada = round(media);
+        std::cout << media_arredondada << std::endl;
+    }
 
     return 0;
 }

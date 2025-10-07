@@ -1,38 +1,54 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <algorithm>
+#include <string>
+#include <sstream>
 
-using namespace std;
+void print_vector(const std::vector<int>& arr) {
+    for (size_t i = 0; i < arr.size(); ++i) {
+        std::cout << arr[i] << (i == arr.size() - 1 ? "" : " ");
+    }
+    std::cout << '\n';
+}
 
 int main() {
-    vector<int> arr;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    std::string line;
+    std::getline(std::cin, line);
+
+    std::stringstream ss(line);
+    std::vector<int> arr;
     int num;
-    while (cin >> num) {
+    while (ss >> num) {
         arr.push_back(num);
     }
 
-    for (int i = 0; i < arr.size(); ++i) {
-        for (int j = 0; j < arr.size(); ++j) {
-            cout << arr[j] << " ";
+    if (arr.empty()) {
+        return 0;
+    }
+
+    print_vector(arr);
+
+    for (size_t i = 1; i < arr.size(); ++i) {
+        int key = arr[i];
+        int j = i - 1;
+
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
         }
-        cout << endl;
-
-        for (int j = i; j > 0; --j) {
-            if (arr[j] < arr[j - 1]) {
-                swap(arr[j], arr[j - 1]);
-
-                for (int k = 0; k < arr.size(); ++k) {
-                    cout << arr[k] << " ";
-                }
-                cout << endl;
-            } else {
-                break;
-            }
+        
+        arr[j + 1] = key;
+        
+        if (static_cast<size_t>(j + 1) != i) {
+            print_vector(arr);
         }
     }
+
     return 0;
 }

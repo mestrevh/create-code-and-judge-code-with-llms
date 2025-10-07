@@ -1,10 +1,10 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
 #include <string>
+#include <vector>
 #include <sstream>
 
 int main() {
@@ -19,7 +19,6 @@ int main() {
     std::stringstream ss(line);
     std::vector<int> numbers;
     int num;
-
     while (ss >> num) {
         numbers.push_back(num);
     }

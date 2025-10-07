@@ -1,51 +1,32 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
-#include <vector>
-
-using namespace std;
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
     int n;
-    cin >> n;
-
-    long long total_cost = 0;
-    vector<string> pyramid(n);
-
-    for (int i = 0; i < n; ++i) {
-        string layer = "";
-        for (int j = 0; j < n - 1 - i; ++j) {
-            layer += ".";
+    std::cin >> n;
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 0; j < n - i; ++j) {
+            std::cout << ".";
         }
-        for (int j = 0; j < 2 * i + 1; ++j) {
-            if (j % 2 == 0) {
-                layer += "&";
-                total_cost += 200;
-            } else {
-                layer += "-";
-                total_cost += 50;
-            }
+        std::cout << "&";
+        for (int j = 1; j < i; ++j) {
+            std::cout << "-&";
         }
-        for (int j = 0; j < n - 1 - i; ++j) {
-            layer += ".";
+        for (int j = 0; j < n - i; ++j) {
+            std::cout << ".";
         }
-        pyramid[i] = layer;
+        std::cout << "\n";
     }
-
-    for (int i = 0; i < n; ++i) {
-        cout << pyramid[i] << endl;
-    }
-
     for (int i = 0; i < 2 * n - 1; ++i) {
-        cout << "#";
-        total_cost += 100;
+        std::cout << "#";
     }
-    cout << endl;
-
-    cout << "O valor total foi: " << total_cost << endl;
-
+    std::cout << "\n";
+    long long total_cost = (long long)n * (n + 1) / 2 * 200 + (long long)n * (n - 1) / 2 * 50 + (long long)(2 * n - 1) * 100;
+    std::cout << "O valor total foi: " << total_cost << std::endl;
     return 0;
 }

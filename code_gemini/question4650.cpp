@@ -1,49 +1,47 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <vector>
 #include <sstream>
+#include <algorithm>
 
-using namespace std;
+void trim(std::string& s) {
+    s.erase(s.begin(), std::find_if(s.begin(), s.end(), [](unsigned char ch) {
+        return !std::isspace(ch);
+    }));
+    s.erase(std::find_if(s.rbegin(), s.rend(), [](unsigned char ch) {
+        return !std::isspace(ch);
+    }).base(), s.end());
+}
 
 int main() {
-    string line;
-    getline(cin, line);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    stringstream ss(line);
-    string word;
-    vector<string> words;
-    while (getline(ss, word, ',')) {
-        words.push_back(word);
-    }
+    std::string line;
+    std::getline(std::cin, line);
 
-    int infinitivo_count = 0;
-    vector<string> gerundio_words;
+    std::stringstream ss(line);
+    std::string word;
+    std::vector<std::string> gerunds;
 
-    for (string w : words) {
-        string trimmed_word;
-        for (char c : w) {
-            if (!isspace(c)) {
-                trimmed_word += c;
-            }
-        }
-        
-        int n = trimmed_word.length();
-        if (n >= 2) {
-            string last_two = trimmed_word.substr(n - 2);
-            if (last_two == "ar" || last_two == "er" || last_two == "ir" || last_two == "or") {
-                infinitivo_count++;
-                gerundio_words.push_back(trimmed_word.substr(0, n - 1) + "ndo");
+    while (std::getline(ss, word, ',')) {
+        trim(word);
+        if (word.length() >= 2) {
+            std::string ending = word.substr(word.length() - 2);
+            if (ending == "ar" || ending == "er" || ending == "ir" || ending == "or") {
+                std::string gerund = word.substr(0, word.length() - 1) + "ndo";
+                gerunds.push_back(gerund);
             }
         }
     }
 
-    cout << infinitivo_count << endl;
-    for (string w : gerundio_words) {
-        cout << w << endl;
+    std::cout << gerunds.size() << "\n";
+    for (const std::string& g : gerunds) {
+        std::cout << g << "\n";
     }
 
     return 0;

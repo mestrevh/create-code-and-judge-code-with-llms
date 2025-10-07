@@ -1,24 +1,25 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 
-using namespace std;
-
 int main() {
-  int h1, m1, h2, m2;
-  cin >> h1 >> m1 >> h2 >> m2;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-  int total_minutes = m1 + m2;
-  int final_minutes = total_minutes % 60;
-  int carry_hours = total_minutes / 60;
+    int h1, m1, h2, m2;
+    std::cin >> h1 >> m1;
+    std::cin >> h2 >> m2;
 
-  int total_hours = h1 + h2 + carry_hours;
-  int final_hours = total_hours % 24;
+    int total_minutos = m1 + m2;
+    int horas_extras = total_minutos / 60;
+    int minutos_finais = total_minutos % 60;
 
-  cout << "Terminarei meu treino por volta das " << final_hours << " horas e " << final_minutes << " minutos!" << endl;
+    int total_horas = h1 + h2 + horas_extras;
+    int horas_finais = total_horas % 24;
 
-  return 0;
+    std::cout << "Terminarei meu treino por volta das " << horas_finais << " horas e " << minutos_finais << " minutos!" << std::endl;
+
+    return 0;
 }
-`

@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -13,25 +13,31 @@ int main() {
     double d;
     std::cin >> d;
 
-    double efficiencies[4] = {75.0, 50.0, 25.0, 50.0};
-    double costs[4];
-    std::cin >> costs[0] >> costs[1] >> costs[2] >> costs[3];
-
-    double cb[4];
-    double sum_cb = 0.0;
-
+    std::vector<double> custos(4);
     for (int i = 0; i < 4; ++i) {
-        cb[i] = efficiencies[i] / costs[i];
-        sum_cb += cb[i];
+        std::cin >> custos[i];
     }
 
-    double avg_cb = sum_cb / 4.0;
+    std::vector<double> eficiencias = {75.0, 50.0, 25.0, 50.0};
+    std::vector<double> cb(4);
+    double soma_cb = 0.0;
 
     for (int i = 0; i < 4; ++i) {
-        if (d < costs[i]) {
+        if (custos[i] > 0) {
+            cb[i] = eficiencias[i] / custos[i];
+            soma_cb += cb[i];
+        } else {
+            cb[i] = 0; 
+        }
+    }
+
+    double media_cb = soma_cb / 4.0;
+
+    for (int i = 0; i < 4; ++i) {
+        if (custos[i] > d) {
             std::cout << "foi de comes\n";
         } else {
-            if (cb[i] < avg_cb) {
+            if (cb[i] < media_cb) {
                 std::cout << "EH BOMBA TORRESMO\n";
             } else {
                 std::cout << "eh dento\n";

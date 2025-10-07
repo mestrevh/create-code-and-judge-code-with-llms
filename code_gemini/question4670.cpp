@@ -1,73 +1,60 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <iomanip>
+#include <numeric>
 #include <algorithm>
-
-using namespace std;
-
-struct Student {
-    double avg;
-    int periods;
-    int index;
-
-    bool operator<(const Student& other) const {
-        if (abs(avg - other.avg) < 1e-9) {
-            return periods > other.periods;
-        }
-        return avg > other.avg;
-    }
-};
+#include <iomanip>
+#include <cmath>
 
 int main() {
-    int v, p, c;
-    cin >> v >> p;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<double> celo_grades(p);
-    double celo_sum = 0;
-    for (int i = 0; i < p; ++i) {
-        cin >> celo_grades[i];
-        celo_sum += celo_grades[i];
+    int v;
+    std::cin >> v;
+
+    int celo_p;
+    std::cin >> celo_p;
+    long long celo_sum_int = 0;
+    for (int i = 0; i < celo_p; ++i) {
+        double grade;
+        std::cin >> grade;
+        celo_sum_int += static_cast<long long>(round(grade * 100.0));
     }
 
-    cin >> c;
+    int c;
+    std::cin >> c;
 
-    vector<Student> students(c + 1);
-    students[0].avg = celo_sum / p;
-    students[0].periods = p;
-    students[0].index = 0;
-
-    for (int i = 1; i <= c; ++i) {
-        int cp;
-        cin >> cp;
-        double competitor_sum = 0;
-        for (int j = 0; j < cp; ++j) {
+    int celo_rank = 1;
+    for (int i = 0; i < c; ++i) {
+        int comp_p;
+        std::cin >> comp_p;
+        long long comp_sum_int = 0;
+        for (int j = 0; j < comp_p; ++j) {
             double grade;
-            cin >> grade;
-            competitor_sum += grade;
+            std::cin >> grade;
+            comp_sum_int += static_cast<long long>(round(grade * 100.0));
         }
-        students[i].avg = competitor_sum / cp;
-        students[i].periods = cp;
-        students[i].index = i;
-    }
 
-    sort(students.begin(), students.end());
+        long long celo_score = celo_sum_int * comp_p;
+        long long comp_score = comp_sum_int * celo_p;
 
-    int celo_rank = 0;
-    for (int i = 0; i < students.size(); ++i) {
-        if (students[i].index == 0) {
-            celo_rank = i + 1;
-            break;
+        if (comp_score > celo_score) {
+            celo_rank++;
+        } else if (comp_score == celo_score) {
+            if (comp_p > celo_p) {
+                celo_rank++;
+            }
         }
     }
 
     if (celo_rank <= v) {
-        cout << "Matriculado, seu ranking é " << celo_rank << " dentre as " << v << " vagas" << endl;
+        std::cout << "Matriculado, seu ranking é " << celo_rank << " dentre as " << v << " vagas\n";
     } else {
-        cout << "Se não tivesse pago Dominó " << p << ", teria entrado..." << endl;
+        std::cout << "Se não tivesse pago Dominó " << celo_p << ", teria entrado...\n";
     }
 
     return 0;

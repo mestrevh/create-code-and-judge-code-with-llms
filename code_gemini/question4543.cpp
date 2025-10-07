@@ -1,45 +1,48 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
 #include <algorithm>
-
-using namespace std;
+#include <sstream>
 
 int main() {
-    string comparators;
-    cin >> comparators;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<int> nums;
-    int num;
-    while (cin >> num) {
-        nums.push_back(num);
-    }
+    std::string comp_str;
+    std::cin >> comp_str;
 
-    sort(nums.begin(), nums.end());
-
-    vector<int> result(nums.size());
-    int left = 0;
-    int right = nums.size() - 1;
-
-    for (int i = 0; i < nums.size(); ++i) {
-        if (i % 2 == 0) {
-            result[i] = nums[left++];
-        } else {
-            result[i] = nums[right--];
-        }
-    }
+    int n = comp_str.length() + 1;
     
-    for (int i = 0; i < nums.size(); ++i) {
-        cout << result[i];
-        if (i < comparators.length()) {
-            cout << " " << comparators[i] << " ";
+    std::vector<int> nums(n);
+    for (int i = 0; i < n; ++i) {
+        std::cin >> nums[i];
+    }
+
+    std::sort(nums.begin(), nums.end());
+
+    std::vector<int> result(n);
+    int low = 0;
+    int high = n - 1;
+
+    for (int i = 0; i < n - 1; ++i) {
+        if (comp_str[i] == '<') {
+            result[i] = nums[low++];
+        } else { // comp_str[i] == '>'
+            result[i] = nums[high--];
         }
     }
-    cout << endl;
+
+    result[n - 1] = nums[low];
+
+    std::cout << result[0];
+    for (int i = 0; i < n - 1; ++i) {
+        std::cout << " " << comp_str[i] << " " << result[i + 1];
+    }
+    std::cout << std::endl;
 
     return 0;
 }

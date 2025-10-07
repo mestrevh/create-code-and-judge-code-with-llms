@@ -1,53 +1,63 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <cmath>
 #include <iomanip>
-
-using namespace std;
+#include <cmath>
 
 struct Point {
     double x, y;
 };
 
-double cross_product(Point a, Point b, Point c) {
-    return (b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x);
+double cross_product(Point p, Point q, Point r) {
+    return (q.x - p.x) * (r.y - p.y) - (q.y - p.y) * (r.x - p.x);
+}
+
+double distSq(Point p1, Point p2) {
+    return (p1.x - p2.x) * (p1.x - p2.x) + (p1.y - p2.y) * (p1.y - p2.y);
 }
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
+    std::cin >> n;
 
-    vector<Point> points(n);
+    if (n <= 0) {
+        return 0;
+    }
+
+    std::vector<Point> points(n);
+    int min_idx = 0;
     for (int i = 0; i < n; ++i) {
-        cin >> points[i].x >> points[i].y;
-    }
-
-    int start_index = 0;
-    for (int i = 1; i < n; ++i) {
-        if (points[i].x < points[start_index].x || (points[i].x == points[start_index].x && points[i].y < points[start_index].y)) {
-            start_index = i;
+        std::cin >> points[i].x >> points[i].y;
+        if (points[i].x < points[min_idx].x) {
+            min_idx = i;
+        } else if (points[i].x == points[min_idx].x && points[i].y < points[min_idx].y) {
+            min_idx = i;
         }
     }
 
-    swap(points[0], points[start_index]);
+    Point p0 = points[min_idx];
+    std::swap(points[0], points[min_idx]);
 
-    sort(points.begin() + 1, points.end(), [&](Point a, Point b) {
-        double cp = cross_product(points[0], a, b);
-        if (cp != 0) {
-            return cp > 0;
+    std::sort(points.begin() + 1, points.end(), [p0](const Point& a, const Point& b) {
+        double orientation = cross_product(p0, a, b);
+
+        if (std::fabs(orientation) < 1e-9) {
+            return distSq(p0, a) < distSq(p0, b);
         }
-        return (a.x - points[0].x) * (a.x - points[0].x) + (a.y - points[0].y) * (a.y - points[0].y) <
-               (b.x - points[0].x) * (b.x - points[0].x) + (b.y - points[0].y) * (b.y - points[0].y);
+        
+        return orientation > 0;
     });
 
-    cout << fixed << setprecision(4);
-    for (int i = 0; i < n; ++i) {
-        cout << points[i].x << " " << points[i].y << endl;
+    std::cout << std::fixed << std::setprecision(4);
+    for (const auto& p : points) {
+        std::cout << p.x << " " << p.y << "\n";
     }
 
     return 0;

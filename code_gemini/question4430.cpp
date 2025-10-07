@@ -1,42 +1,45 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
 #include <vector>
+#include <string>
 #include <cmath>
 #include <algorithm>
 
-using namespace std;
-
-bool is_vowel(char c) {
-    return (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
-}
-
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
-    vector<string> substrings;
-    for (int i = 0; i < n; i++) {
-        string s;
-        cin >> s;
-        int x = sqrt(s.length());
-        int start = -1;
-        for (int j = 0; j < s.length(); j++) {
-            if (is_vowel(s[j])) {
-                start = j;
-                break;
-            }
+    std::cin >> n;
+
+    std::vector<std::string> substrings;
+    
+    for (int i = 0; i < n; ++i) {
+        std::string s;
+        std::cin >> s;
+
+        if (s.empty()) {
+            continue;
         }
-        if (start != -1) {
-            substrings.push_back(s.substr(start, x));
+
+        int len = s.length();
+        int x = static_cast<int>(floor(sqrt(len)));
+        
+        size_t first_vowel_pos = s.find_first_of("AEIOU");
+
+        if (first_vowel_pos != std::string::npos) {
+            substrings.push_back(s.substr(first_vowel_pos, x));
         }
     }
-    sort(substrings.begin(), substrings.end());
-    for (const string& sub : substrings) {
-        cout << sub;
+
+    std::sort(substrings.begin(), substrings.end());
+
+    for (const std::string& sub : substrings) {
+        std::cout << sub;
     }
-    cout << endl;
+
     return 0;
 }

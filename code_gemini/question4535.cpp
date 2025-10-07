@@ -1,25 +1,28 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <algorithm>
 
-using namespace std;
+void merge(std::vector<int>& arr, int left, int mid, int right) {
+    int n1 = mid - left + 1;
+    int n2 = right - mid;
 
-void merge(vector<int>& arr, int l, int m, int r) {
-    int n1 = m - l + 1;
-    int n2 = r - m;
+    std::vector<int> L(n1);
+    std::vector<int> R(n2);
 
-    vector<int> L(n1), R(n2);
+    for (int i = 0; i < n1; ++i) {
+        L[i] = arr[left + i];
+    }
+    for (int j = 0; j < n2; ++j) {
+        R[j] = arr[mid + 1 + j];
+    }
 
-    for (int i = 0; i < n1; i++)
-        L[i] = arr[l + i];
-    for (int j = 0; j < n2; j++)
-        R[j] = arr[m + 1 + j];
-
-    int i = 0, j = 0, k = l;
+    int i = 0;
+    int j = 0;
+    int k = left;
 
     while (i < n1 && j < n2) {
         if (L[i] <= R[j]) {
@@ -45,29 +48,45 @@ void merge(vector<int>& arr, int l, int m, int r) {
     }
 }
 
-void mergesort(vector<int>& arr, int n) {
-    for (int curr_size = 1; curr_size <= n - 1; curr_size = 2 * curr_size) {
-        for (int left_start = 0; left_start < n - 1; left_start += 2 * curr_size) {
-            int mid = min(left_start + curr_size - 1, n - 1);
-            int right_end = min(left_start + 2 * curr_size - 1, n - 1);
-            merge(arr, left_start, mid, right_end);
+void bottomUpMergeSort(std::vector<int>& arr) {
+    int n = arr.size();
+    if (n <= 1) {
+        return;
+    }
+
+    for (int width = 1; width < n; width *= 2) {
+        for (int i = 0; i < n; i += 2 * width) {
+            int left = i;
+            int mid = std::min(i + width - 1, n - 1);
+            int right = std::min(i + 2 * width - 1, n - 1);
+
+            if (mid < right) {
+                merge(arr, left, mid, right);
+            }
         }
     }
 }
 
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<int> arr(n);
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
+    int n;
+    std::cin >> n;
+
+    if (n <= 0) {
+        return 0;
     }
 
-    mergesort(arr, n);
+    std::vector<int> arr(n);
+    for (int i = 0; i < n; ++i) {
+        std::cin >> arr[i];
+    }
 
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << endl;
+    bottomUpMergeSort(arr);
+
+    for (int i = 0; i < n; ++i) {
+        std::cout << arr[i] << "\n";
     }
 
     return 0;

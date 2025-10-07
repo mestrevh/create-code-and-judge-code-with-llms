@@ -1,23 +1,22 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <iomanip>
 
-using namespace std;
-
 int main() {
-  double valor_fatura;
-  cin >> valor_fatura;
+    double fatura_marco;
+    std::cin >> fatura_marco;
 
-  double valor_marco = valor_fatura * 0.5;
-  double valor_abril = valor_marco * 1.065;
+    double pagamento_marco = fatura_marco / 2.0;
+    double restante = fatura_marco / 2.0;
+    double pagamento_abril = restante * 1.065;
 
-  cout << fixed << setprecision(2);
-  cout << "Valor total da fatura: R$ " << valor_fatura << endl;
-  cout << "Valor a pagar em Marco: R$ " << valor_marco << endl;
-  cout << "Valor a pagar em Abril: R$ " << valor_abril << endl;
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << "Valor total da fatura: R$ " << fatura_marco << std::endl;
+    std::cout << "Valor a pagar em Marco: R$ " << pagamento_marco << std::endl;
+    std::cout << "Valor a pagar em Abril: R$ " << pagamento_abril << std::endl;
 
-  return 0;
+    return 0;
 }

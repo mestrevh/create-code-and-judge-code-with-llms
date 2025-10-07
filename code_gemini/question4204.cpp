@@ -1,12 +1,12 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <numeric>
+#include <string>
 
-long long merge_and_count(std::vector<int>& arr, std::vector<int>& temp, int left, int mid, int right) {
+long long merge(std::vector<int>& arr, std::vector<int>& temp, int left, int mid, int right) {
     int i = left;
     int j = mid + 1;
     int k = left;
@@ -17,7 +17,7 @@ long long merge_and_count(std::vector<int>& arr, std::vector<int>& temp, int lef
             temp[k++] = arr[i++];
         } else {
             temp[k++] = arr[j++];
-            inv_count += (long long)(mid - i + 1);
+            inv_count += (mid - i + 1);
         }
     }
 
@@ -36,15 +36,21 @@ long long merge_and_count(std::vector<int>& arr, std::vector<int>& temp, int lef
     return inv_count;
 }
 
-long long merge_sort_and_count(std::vector<int>& arr, std::vector<int>& temp, int left, int right) {
+long long count_inversions_helper(std::vector<int>& arr, std::vector<int>& temp, int left, int right) {
     long long inv_count = 0;
-    if (left < right) {
+    if (right > left) {
         int mid = left + (right - left) / 2;
-        inv_count += merge_sort_and_count(arr, temp, left, mid);
-        inv_count += merge_sort_and_count(arr, temp, mid + 1, right);
-        inv_count += merge_and_count(arr, temp, left, mid, right);
+        inv_count += count_inversions_helper(arr, temp, left, mid);
+        inv_count += count_inversions_helper(arr, temp, mid + 1, right);
+        inv_count += merge(arr, temp, left, mid, right);
     }
     return inv_count;
+}
+
+long long count_inversions(std::vector<int>& arr) {
+    if (arr.size() < 2) return 0;
+    std::vector<int> temp(arr.size());
+    return count_inversions_helper(arr, temp, 0, arr.size() - 1);
 }
 
 int main() {
@@ -58,13 +64,12 @@ int main() {
             std::cin >> p[i];
         }
 
-        std::vector<int> temp(n);
-        long long inversions = merge_sort_and_count(p, temp, 0, n - 1);
+        long long inversions = count_inversions(p);
 
-        if (inversions % 2 != 0) {
-            std::cout << "Marcelo\n";
-        } else {
+        if (inversions % 2 == 0) {
             std::cout << "Carlos\n";
+        } else {
+            std::cout << "Marcelo\n";
         }
     }
 

@@ -1,58 +1,71 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
 #include <iomanip>
+#include <algorithm>
 
-using namespace std;
+struct Produto {
+    std::string nome;
+    double valorUnitario;
+    int quantidade;
+};
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
-    cin.ignore(); 
+    std::cin >> n;
 
-    vector<tuple<string, double, int>> products(n);
+    std::vector<Produto> produtos(n);
+    double valorTotal = 0.0;
+
     for (int i = 0; i < n; ++i) {
-        string line;
-        getline(cin, line);
-        string name;
-        double price;
-        int quantity;
-        size_t space1 = line.find(' ');
-        name = line.substr(0, space1);
-        size_t space2 = line.find(' ', space1 + 1);
-        price = stod(line.substr(space1 + 1, space2 - space1 - 1));
-        quantity = stoi(line.substr(space2 + 1));
-        products[i] = make_tuple(name, price, quantity);
+        std::cin >> produtos[i].nome >> produtos[i].valorUnitario >> produtos[i].quantidade;
     }
 
-    string date_line;
-    getline(cin, date_line);
-    string paid_line;
-    getline(cin, paid_line);
-
-    string date = date_line.substr(date_line.find("dia ") + 4, 5);
-    double paid = stod(paid_line.substr(paid_line.find("R$") + 2));
-
-    cout << "=============" << endl;
-    cout << "NF - 0123" << endl;
-    cout << "Data - " << date << endl;
-    cout << "=============" << endl;
-
-    double total = 0;
-    for (const auto& product : products) {
-        cout << get<2>(product) << "x " << get<0>(product) << " - R$" << fixed << setprecision(2) << get<2>(product) * get<1>(product) << endl;
-        total += get<2>(product) * get<1>(product);
+    std::string data;
+    double pago;
+    
+    std::string trash_word;
+    for(int i = 0; i < 6; ++i) {
+        std::cin >> trash_word;
     }
+    std::cin >> data;
 
-    cout << endl;
-    cout << "Valor Total - R$" << fixed << setprecision(2) << total << endl;
-    cout << "Pago - R$" << fixed << setprecision(2) << paid << endl;
-    cout << "Troco - R$" << fixed << setprecision(2) << paid - total << endl;
-    cout << "=============";
+    std::string valorPagoStr;
+    std::cin >> trash_word;
+    std::cin >> valorPagoStr;
+    pago = std::stod(valorPagoStr.substr(2));
+
+    std::sort(produtos.begin(), produtos.end(), [](const Produto& a, const Produto& b) {
+        return a.nome < b.nome;
+    });
+    
+    std::cout << std::fixed << std::setprecision(2);
+
+    std::cout << "=============" << std::endl;
+    std::cout << "NF - 0123" << std::endl;
+    std::cout << "Data - " << data << std::endl;
+    std::cout << "=============" << std::endl;
+
+    for (const auto& produto : produtos) {
+        double subtotal = produto.valorUnitario * produto.quantidade;
+        valorTotal += subtotal;
+        std::cout << produto.quantidade << "x " << produto.nome << " - R$" << subtotal << std::endl;
+    }
+    
+    std::cout << std::endl;
+
+    double troco = pago - valorTotal;
+    std::cout << "Valor Total - R$" << valorTotal << std::endl;
+    std::cout << "Pago - R$" << pago << std::endl;
+    std::cout << "Troco - R$" << troco << std::endl;
+    std::cout << "=============";
 
     return 0;
 }

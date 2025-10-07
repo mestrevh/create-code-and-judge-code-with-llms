@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -8,14 +8,11 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <algorithm>
 
 bool is_palindrome(const std::string& s) {
-    int left = 0;
-    int right = s.length() - 1;
-    while (left < right) {
-        if (s[left] != s[right]) {
+    int n = s.length();
+    for (int i = 0; i < n / 2; ++i) {
+        if (s[i] != s[n - 1 - i]) {
             return false;
         }
-        left++;
-        right--;
     }
     return true;
 }
@@ -32,28 +29,26 @@ int main() {
         std::cin >> grid[i];
     }
 
-    // Check horizontal
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j <= n - k; ++j) {
-            std::string sub = grid[i].substr(j, k);
-            if (is_palindrome(sub)) {
-                std::cout << "(" << i + 1 << ", " << j + 1 << ")\n";
-                return 0;
+    for (int r = 0; r < n; ++r) {
+        for (int c = 0; c < n; ++c) {
+            if (c + k <= n) {
+                std::string horizontal_sub = grid[r].substr(c, k);
+                if (is_palindrome(horizontal_sub)) {
+                    std::cout << "(" << r + 1 << ", " << c + 1 << ")\n";
+                    return 0;
+                }
             }
-        }
-    }
 
-    // Check vertical
-    for (int j = 0; j < n; ++j) {
-        for (int i = 0; i <= n - k; ++i) {
-            std::string vertical_str;
-            vertical_str.reserve(k);
-            for (int row_offset = 0; row_offset < k; ++row_offset) {
-                vertical_str += grid[i + row_offset][j];
-            }
-            if (is_palindrome(vertical_str)) {
-                std::cout << "(" << i + 1 << ", " << j + 1 << ")\n";
-                return 0;
+            if (r + k <= n) {
+                std::string vertical_sub;
+                vertical_sub.reserve(k);
+                for (int i = 0; i < k; ++i) {
+                    vertical_sub += grid[r + i][c];
+                }
+                if (is_palindrome(vertical_sub)) {
+                    std::cout << "(" << r + 1 << ", " << c + 1 << ")\n";
+                    return 0;
+                }
             }
         }
     }

@@ -1,32 +1,38 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <algorithm>
+#include <cctype>
 
-using namespace std;
-
-string inverter_string2(string s) {
-    string processed_s = "";
-    for (char c : s) {
-        if (isalnum(c)) {
-            processed_s += tolower(c);
+void inverter_string2(std::string str) {
+    std::string cleaned_str;
+    for (char c : str) {
+        if (!isspace(c)) {
+            cleaned_str += tolower(c);
         }
     }
-    string reversed_s = processed_s;
-    reverse(reversed_s.begin(), reversed_s.end());
-    if (processed_s == reversed_s) {
-        return "Eh um palindromo";
+
+    std::string reversed_str = cleaned_str;
+    std::reverse(reversed_str.begin(), reversed_str.end());
+
+    if (cleaned_str == reversed_str) {
+        std::cout << "Eh um palindromo" << std::endl;
     } else {
-        return "Nao eh um palindromo";
+        std::cout << "Nao eh um palindromo" << std::endl;
     }
 }
 
 int main() {
-    string input_string;
-    getline(cin, input_string);
-    cout << inverter_string2(input_string) << endl;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    std::string input_line;
+    std::getline(std::cin, input_line);
+
+    inverter_string2(input_line);
+
     return 0;
 }

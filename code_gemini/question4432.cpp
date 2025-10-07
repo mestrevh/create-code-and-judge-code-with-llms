@@ -1,66 +1,56 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
 #include <string>
+#include <vector>
 #include <cmath>
-#include <algorithm>
-
-using namespace std;
-
-int bin_to_dec(string bin) {
-    int dec = 0;
-    int power = 1;
-    for (int i = bin.length() - 1; i >= 0; i--) {
-        if (bin[i] == '1') {
-            dec += power;
-        }
-        power *= 2;
-    }
-    return dec;
-}
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n1;
-    cin >> n1;
+    std::cin >> n1;
 
-    vector<string> bin_strings(n1);
-    for (int i = 0; i < n1; i++) {
-        cin >> bin_strings[i];
-    }
+    int num_chairs = 0;
+    int p_len = 0;
+    std::vector<std::string> chairs_vec;
 
-    int bin_len = bin_strings[0].length();
-    int pos_len = log2(bin_len);
-    int id_len = bin_len - pos_len;
-    int num_seats = pow(2, pos_len);
+    for (int i = 0; i < n1; ++i) {
+        std::string bin_str;
+        std::cin >> bin_str;
 
-    vector<string> seats(num_seats, "");
-
-    for (int i = 0; i < n1; i++) {
-        string pos_str = bin_strings[i].substr(0, pos_len);
-        string id_str = bin_strings[i].substr(pos_len);
-        int pos = bin_to_dec(pos_str);
-
-        while (pos < num_seats && seats[pos] != "") {
-            pos++;
+        if (i == 0) {
+            int s = bin_str.length();
+            p_len = static_cast<int>(log2(s));
+            num_chairs = s;
+            chairs_vec.assign(num_chairs, "");
         }
-        if (pos < num_seats) {
-            seats[pos] = id_str;
+        
+        std::string pos_str = bin_str.substr(0, p_len);
+        std::string id_str = bin_str.substr(p_len);
+        int target_pos = std::stoul(pos_str, nullptr, 2);
+
+        int current_pos = target_pos;
+        while (!chairs_vec[current_pos].empty()) {
+            current_pos = (current_pos + 1) % num_chairs;
         }
+        chairs_vec[current_pos] = id_str;
     }
 
     int n2;
-    cin >> n2;
+    std::cin >> n2;
 
-    for (int i = 0; i < n2; i++) {
-        int seat_num;
-        cin >> seat_num;
-        if (seat_num < num_seats && seats[seat_num] != "") {
-            cout << seats[seat_num] << endl;
+    for (int i = 0; i < n2; ++i) {
+        int query_pos;
+        std::cin >> query_pos;
+
+        if (query_pos >= 0 && query_pos < num_chairs && !chairs_vec[query_pos].empty()) {
+            std::cout << chairs_vec[query_pos] << "\n";
         } else {
-            cout << "Nao tem ninguem" << endl;
+            std::cout << "Nao tem ninguem\n";
         }
     }
 

@@ -1,13 +1,11 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <stack>
-#include <algorithm>
-
-using namespace std;
+#include <cctype>
 
 int precedence(char op) {
     if (op == '^') return 3;
@@ -16,58 +14,104 @@ int precedence(char op) {
     return 0;
 }
 
-string convertToRPN(string expression) {
-    string rpn = "";
-    stack<char> operators;
+bool isOperator(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '^';
+}
 
-    for (char c : expression) {
-        if (isalpha(c)) {
-            rpn += c;
-        } else if (c == '(') {
-            operators.push(c);
-        } else if (c == ')') {
+void solve() {
+    std::string expr;
+    std::cin >> expr;
+
+    std::stack<char> operators;
+    std::string postfix;
+    bool valid = true;
+    
+    // State machine for validation
+    // 0: Expecting an operand or a left parenthesis. (Initial state, or after an operator)
+    // 1: Expecting an operator or a right parenthesis. (After an operand or a right parenthesis)
+    int state = 0;
+
+    if (expr.empty()) {
+        valid = false;
+    }
+
+    for (char c : expr) {
+        if (!valid) break;
+
+        if (islower(c)) { // Operand
+            if (state != 0) { valid = false; break; }
+            postfix += c;
+            state = 1;
+        } else if (isOperator(c)) { // Operator
+            if (state != 1) { valid = false; break; }
             while (!operators.empty() && operators.top() != '(') {
-                rpn += operators.top();
-                operators.pop();
-            }
-            if (operators.empty() || operators.top() != '(') return "The expression is not valid";
-            operators.pop();
-        } else if (c == '+' || c == '-' || c == '*' || c == '/' || c == '^') {
-            while (!operators.empty() && operators.top() != '(' && precedence(c) <= precedence(operators.top())) {
-                rpn += operators.top();
-                operators.pop();
+                char topOp = operators.top();
+                if (precedence(topOp) > precedence(c) || (precedence(topOp) == precedence(c) && c != '^')) {
+                    postfix += topOp;
+                    operators.pop();
+                } else {
+                    break;
+                }
             }
             operators.push(c);
-        } else {
-            return "The expression is not valid";
+            state = 0;
+        } else if (c == '(') { // Left Parenthesis
+            if (state != 0) { valid = false; break; }
+            operators.push(c);
+            state = 0;
+        } else if (c == ')') { // Right Parenthesis
+            if (state != 1) { valid = false; break; }
+            bool found_lparen = false;
+            while (!operators.empty()) {
+                char topOp = operators.top();
+                operators.pop();
+                if (topOp == '(') {
+                    found_lparen = true;
+                    break;
+                }
+                postfix += topOp;
+            }
+            if (!found_lparen) { valid = false; break; }
+            state = 1;
+        } else { // Invalid character
+            valid = false;
+            break;
         }
     }
 
-    while (!operators.empty()) {
-        if (operators.top() == '(' || operators.top() == ')') return "The expression is not valid";
-        rpn += operators.top();
-        operators.pop();
+    if (valid) {
+        // A valid expression must end after an operand or a right parenthesis.
+        if (state != 1) {
+            valid = false;
+        }
     }
     
-    for (int i = 0; i < rpn.length(); i++){
-        if (isalpha(rpn[i])){
-            if (i + 1 < rpn.length() && isalpha(rpn[i+1])) return "The expression is not valid";
+    if (valid) {
+        while (!operators.empty()) {
+            char topOp = operators.top();
+            if (topOp == '(') {
+                valid = false; // Mismatched parenthesis
+                break;
+            }
+            postfix += topOp;
+            operators.pop();
         }
     }
 
-    return rpn;
+    if (valid) {
+        std::cout << postfix << std::endl;
+    } else {
+        std::cout << "The expression is not valid" << std::endl;
+    }
 }
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
     int t;
-    cin >> t;
-    cin.ignore(); 
-
+    std::cin >> t;
     while (t--) {
-        string expression;
-        getline(cin, expression);
-        cout << convertToRPN(expression) << endl;
+        solve();
     }
-
     return 0;
 }

@@ -1,33 +1,29 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <algorithm>
 
-using namespace std;
-
 int main() {
-  string s;
-  cin >> s;
-
-  string even = "";
-  string odd = "";
-
-  for (int i = 0; i < s.length(); i++) {
-    if (i % 2 == 0) {
-      even += s[i];
-    } else {
-      odd += s[i];
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    std::string s;
+    std::cin >> s;
+    std::string even_pos;
+    std::string odd_pos;
+    for (int i = 0; i < s.length(); ++i) {
+        if (i % 2 == 0) {
+            even_pos += s[i];
+        } else {
+            odd_pos += s[i];
+        }
     }
-  }
-
-  reverse(s.begin(), s.end());
-
-  cout << "Somente posições pares: " << even << endl;
-  cout << "Somente posições ímpares: " << odd << endl;
-  cout << "De trás para frente: " << s << endl;
-
-  return 0;
+    std::string reversed_s = s;
+    std::reverse(reversed_s.begin(), reversed_s.end());
+    std::cout << "Somente posições pares: " << even_pos << '\n';
+    std::cout << "Somente posições ímpares: " << odd_pos << '\n';
+    std::cout << "De trás para frente: " << reversed_s << '\n';
+    return 0;
 }

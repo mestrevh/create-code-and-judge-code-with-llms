@@ -1,36 +1,43 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
 
-using namespace std;
-
 struct Aluno {
-    string nome;
+    std::string nome;
     int idade;
 };
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
-    vector<Aluno> alunos(n);
-    for (int i = 0; i < n; i++) {
-        cin >> alunos[i].nome >> alunos[i].idade;
+    std::cin >> n;
+
+    std::vector<Aluno> alunos(n);
+
+    for (int i = 0; i < n; ++i) {
+        std::cin >> alunos[i].nome;
+        std::cin >> alunos[i].idade;
     }
-    for (int i = 0; i < n; i++) {
+
+    for (int i = 0; i < n; ++i) {
         if (alunos[i].idade <= 14) {
-            cout << alunos[i].nome << endl;
-            cout << alunos[i].idade << endl;
+            std::cout << alunos[i].nome << '\n';
+            std::cout << alunos[i].idade << '\n';
         }
     }
-    for (int i = 0; i < n; i++) {
+
+    for (int i = 0; i < n; ++i) {
         if (alunos[i].idade > 14) {
-            cout << alunos[i].nome << endl;
-            cout << alunos[i].idade << endl;
+            std::cout << alunos[i].nome << '\n';
+            std::cout << alunos[i].idade << '\n';
         }
     }
+
     return 0;
 }

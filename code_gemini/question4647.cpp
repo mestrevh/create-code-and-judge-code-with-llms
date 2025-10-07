@@ -1,32 +1,32 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
-#include <sstream>
-
-using namespace std;
+#include <algorithm>
+#include <cctype>
 
 int main() {
-    string word, phrase, temp;
-    getline(cin, word);
-    getline(cin, phrase);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    stringstream ss(phrase);
-    bool found = false;
+    std::string palavra;
+    std::getline(std::cin, palavra);
 
-    while (ss >> temp) {
-        if (temp == word) {
-            found = true;
-            break;
-        }
-    }
+    std::string frase;
+    std::getline(std::cin, frase);
 
-    if (found) {
-        cout << "existe!" << endl;
+    std::transform(palavra.begin(), palavra.end(), palavra.begin(),
+                   [](unsigned char c){ return std::tolower(c); });
+
+    std::transform(frase.begin(), frase.end(), frase.begin(),
+                   [](unsigned char c){ return std::tolower(c); });
+
+    if (frase.find(palavra) != std::string::npos) {
+        std::cout << "existe!" << std::endl;
     } else {
-        cout << "nao existe" << endl;
+        std::cout << "nao existe" << std::endl;
     }
 
     return 0;

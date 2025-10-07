@@ -1,51 +1,46 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <queue>
 #include <string>
-#include <sstream>
-
-using namespace std;
+#include <queue>
 
 int main() {
-    queue<int> q;
-    string line;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    while (getline(cin, line)) {
-        stringstream ss(line);
-        string command;
-        ss >> command;
+    std::queue<int> q;
+    long long sum = 0;
+    std::string command;
 
+    while (std::cin >> command && command != "exit") {
         if (command == "push") {
             int value;
-            ss >> value;
+            std::cin >> value;
             q.push(value);
+            sum += value;
         } else if (command == "pop") {
             if (!q.empty()) {
+                sum -= q.front();
                 q.pop();
             }
         } else if (command == "sum") {
-            long long sum = 0;
-            queue<int> temp = q;
-            while (!temp.empty()) {
-                sum += temp.front();
-                temp.pop();
-            }
-            cout << sum << endl;
+            std::cout << sum << "\n";
         } else if (command == "print") {
-            queue<int> temp = q;
-            while (!temp.empty()) {
-                cout << temp.front() << " ";
-                temp.pop();
+            std::queue<int> temp_q = q;
+            bool first = true;
+            while (!temp_q.empty()) {
+                if (!first) {
+                    std::cout << " ";
+                }
+                std::cout << temp_q.front();
+                temp_q.pop();
+                first = false;
             }
-            cout << endl;
-        } else if (command == "exit") {
-            break;
+            std::cout << "\n";
         }
     }
 
     return 0;
 }
-`

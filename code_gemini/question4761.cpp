@@ -1,43 +1,46 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 
-using namespace std;
-
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
+    std::cin >> n;
 
     if (n < 1) {
-        cout << "O número informado é menor que 1." << endl;
-        return 0;
-    }
-
-    n %= 4;
-    if (n == 0) n = 4;
-
-    if (n == 1) {
-        cout << "Esquerda superior: vermelho" << endl;
-        cout << "Direita superior: amarelo" << endl;
-        cout << "Esquerda inferior: azul" << endl;
-        cout << "Direita inferior: verde" << endl;
-    } else if (n == 2) {
-        cout << "Esquerda superior: amarelo" << endl;
-        cout << "Direita superior: vermelho" << endl;
-        cout << "Esquerda inferior: verde" << endl;
-        cout << "Direita inferior: azul" << endl;
-    } else if (n == 3) {
-        cout << "Esquerda superior: verde" << endl;
-        cout << "Direita superior: azul" << endl;
-        cout << "Esquerda inferior: amarelo" << endl;
-        cout << "Direita inferior: vermelho" << endl;
-    } else if (n == 4) {
-        cout << "Esquerda superior: azul" << endl;
-        cout << "Direita superior: vermelho" << endl;
-        cout << "Esquerda inferior: verde" << endl;
-        cout << "Direita inferior: amarelo" << endl;
+        std::cout << "O número informado é menor que 1.\n";
+    } else {
+        int pattern_index = (n - 1) % 4;
+        switch (pattern_index) {
+            case 0: // Figure 1
+                std::cout << "Esquerda superior: vermelho\n";
+                std::cout << "Direita superior: amarelo\n";
+                std::cout << "Esquerda inferior: azul\n";
+                std::cout << "Direita inferior: verde\n";
+                break;
+            case 1: // Figure 2
+                std::cout << "Esquerda superior: azul\n";
+                std::cout << "Direita superior: vermelho\n";
+                std::cout << "Esquerda inferior: verde\n";
+                std::cout << "Direita inferior: amarelo\n";
+                break;
+            case 2: // Figure 3
+                std::cout << "Esquerda superior: verde\n";
+                std::cout << "Direita superior: azul\n";
+                std::cout << "Esquerda inferior: amarelo\n";
+                std::cout << "Direita inferior: vermelho\n";
+                break;
+            case 3: // Figure 4
+                std::cout << "Esquerda superior: amarelo\n";
+                std::cout << "Direita superior: verde\n";
+                std::cout << "Esquerda inferior: vermelho\n";
+                std::cout << "Direita inferior: azul\n";
+                break;
+        }
     }
 
     return 0;

@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -9,7 +9,7 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 
 int main() {
     std::ios_base::sync_with_stdio(false);
-    std::cin.tie(NULL);
+    std::cin.tie(nullptr);
 
     std::vector<char> letters;
     char c;
@@ -26,7 +26,7 @@ int main() {
             std::cout << " " << letters[i];
         }
     }
-    std::cout << std::endl;
+    std::cout << '\n';
 
     return 0;
 }

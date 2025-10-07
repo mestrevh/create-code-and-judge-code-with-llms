@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -7,6 +7,7 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <string>
 #include <algorithm>
 #include <iomanip>
+#include <limits>
 
 using namespace std;
 
@@ -16,45 +17,55 @@ struct Funcionario {
     double salario;
 };
 
-bool compararPorIdade(const Funcionario& a, const Funcionario& b) {
-    return a.idade < b.idade;
-}
-
-bool compararPorSalario(const Funcionario& a, const Funcionario& b) {
-    return a.salario < b.salario;
+void exibir(const vector<Funcionario>& vec, const string& titulo) {
+    cout << endl << titulo << endl << endl;
+    cout << fixed << setprecision(2);
+    int index = 1;
+    for (const auto& f : vec) {
+        cout << " " << index++ << " " << f.nome << endl;
+        cout << "      " << f.idade << endl;
+        cout << "      " << f.salario << endl;
+    }
 }
 
 int main() {
-    vector<Funcionario> funcionarios;
-    int opcao;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    while (cin >> opcao && opcao != 4) {
-        if (opcao == 1) {
+    vector<Funcionario> funcionarios;
+    int option;
+
+    while (cin >> option) {
+        if (option == 1) {
             Funcionario f;
-            cin.ignore(); 
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             getline(cin, f.nome);
-            cin >> f.idade >> f.salario;
+            cin >> f.idade;
+            cin >> f.salario;
             funcionarios.push_back(f);
-        } else if (opcao == 2) {
-            cout << endl << "Ordenado por idade:" << endl << endl;
-            sort(funcionarios.begin(), funcionarios.end(), compararPorIdade);
-            for (int i = 0; i < funcionarios.size(); ++i) {
-                cout << " " << i + 1 << " " << funcionarios[i].nome << endl;
-                cout << "      " << funcionarios[i].idade << endl;
-                cout << "      " << fixed << setprecision(2) << funcionarios[i].salario << endl;
-            }
-        } else if (opcao == 3) {
-            cout << endl << "Ordenado por salario:" << endl << endl;
-            sort(funcionarios.begin(), funcionarios.end(), compararPorSalario);
-            for (int i = 0; i < funcionarios.size(); ++i) {
-                cout << " " << i + 1 << " " << funcionarios[i].nome << endl;
-                cout << "      " << funcionarios[i].idade << endl;
-                cout << "      " << fixed << setprecision(2) << funcionarios[i].salario << endl;
-            }
+        } else if (option == 2) {
+            vector<Funcionario> temp = funcionarios;
+            sort(temp.begin(), temp.end(), [](const Funcionario& a, const Funcionario& b) {
+                if (a.idade != b.idade) {
+                    return a.idade < b.idade;
+                }
+                return false; 
+            });
+            exibir(temp, "Ordenado por idade:");
+        } else if (option == 3) {
+            vector<Funcionario> temp = funcionarios;
+            sort(temp.begin(), temp.end(), [](const Funcionario& a, const Funcionario& b) {
+                if (a.salario != b.salario) {
+                    return a.salario < b.salario;
+                }
+                return false;
+            });
+            exibir(temp, "Ordenado por salario:");
+        } else if (option == 4) {
+            cout << endl << "Saindo..." << endl;
+            break;
         }
     }
-
-    cout << "Saindo..." << endl;
 
     return 0;
 }

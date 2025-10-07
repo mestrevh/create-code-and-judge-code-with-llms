@@ -1,32 +1,30 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-
-using namespace std;
+#include <string>
 
 int main() {
-    int n, b;
-    cin >> n >> b;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<vector<char>> board(n, vector<char>(n, '-'));
+    int n;
+    unsigned long long b;
 
-    int bit_pos = 0;
-    while (b > 0) {
-        if (b & 1) {
-            board[0][bit_pos] = 'x';
-        }
-        b >>= 1;
-        bit_pos++;
-    }
+    std::cin >> n >> b;
 
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
-            cout << board[i][j];
+            int index = i * n + j;
+            if ((b >> index) & 1) {
+                std::cout << 'x';
+            } else {
+                std::cout << '-';
+            }
         }
-        cout << endl;
+        std::cout << '\n';
     }
 
     return 0;

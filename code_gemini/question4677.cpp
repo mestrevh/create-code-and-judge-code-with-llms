@@ -1,59 +1,75 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
 #include <vector>
-#include <algorithm>
 
-using namespace std;
-
-int numDigits(int n) {
-    int count = 0;
-    while (n > 0) {
-        n /= 10;
-        count++;
+long long power(int base, int exp) {
+    long long result = 1;
+    for (int i = 0; i < exp; ++i) {
+        result *= base;
     }
-    return count;
-}
-
-int power(int base, int exp) {
-    int res = 1;
-    for (int i = 0; i < exp; i++) {
-        res *= base;
-    }
-    return res;
+    return result;
 }
 
 bool isArmstrong(int n) {
-    int num_digits = numDigits(n);
-    int sum = 0;
+    if (n < 0) {
+        return false;
+    }
+
+    int original_n = n;
+    int num_digits = 0;
+    
+    if (n == 0) {
+        num_digits = 1;
+    } else {
+        int temp = n;
+        while (temp > 0) {
+            temp /= 10;
+            num_digits++;
+        }
+    }
+
+    long long sum = 0;
     int temp = n;
     while (temp > 0) {
         int digit = temp % 10;
         sum += power(digit, num_digits);
+        if (sum > original_n) {
+            return false;
+        }
         temp /= 10;
     }
-    return sum == n;
+
+    return sum == original_n;
 }
 
 int main() {
-    int start, end;
-    cin >> start >> end;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<int> armstrong_numbers;
-    for (int i = start; i <= end; i++) {
+    int a, b;
+    std::cin >> a >> b;
+
+    std::vector<int> armstrongs;
+    for (int i = a; i <= b; ++i) {
         if (isArmstrong(i)) {
-            armstrong_numbers.push_back(i);
+            armstrongs.push_back(i);
         }
     }
 
-    for (int i = 0; i < armstrong_numbers.size(); i++) {
-        cout << armstrong_numbers[i] << (i == armstrong_numbers.size() - 1 ? "" : " ");
+    bool first = true;
+    for (int num : armstrongs) {
+        if (!first) {
+            std::cout << " ";
+        }
+        std::cout << num;
+        first = false;
     }
-    cout << endl;
-    cout << armstrong_numbers.size() << " numeros de Armstrong" << endl;
+    std::cout << "\n";
+
+    std::cout << armstrongs.size() << " numeros de Armstrong\n";
 
     return 0;
 }

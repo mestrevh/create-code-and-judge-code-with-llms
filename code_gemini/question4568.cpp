@@ -1,40 +1,47 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <iomanip>
 #include <numeric>
-#include <limits>
-
-using namespace std;
 
 int main() {
-    vector<vector<int>> matrix(3, vector<int>(3));
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    int matrix[3][3];
+    double total_sum = 0.0;
+    int max_val = -2147483648;
+    int diag_sum = 0;
+
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
-            cin >> matrix[i][j];
+            std::cin >> matrix[i][j];
+            total_sum += matrix[i][j];
+            if (matrix[i][j] > max_val) {
+                max_val = matrix[i][j];
+            }
+            if (i == j) {
+                diag_sum += matrix[i][j];
+            }
         }
     }
 
-    double sum = 0;
-    int max_val = numeric_limits<int>::min();
-    for (int i = 0; i < 3; ++i) {
-        for (int j = 0; j < 3; ++j) {
-            sum += matrix[i][j];
-            max_val = max(max_val, matrix[i][j]);
-        }
+    double average = total_sum / 9.0;
+    
+    int delta;
+    if (max_val > 0) {
+        delta = 1;
+    } else if (max_val < 0) {
+        delta = -1;
+    } else {
+        delta = 0;
     }
 
-    double average = sum / 9.0;
-    int delta = (max_val > 0) ? 1 : (max_val < 0 ? -1 : 0);
-    int diagonal_sum = 0;
-    for (int i = 0; i < 3; ++i) {
-        diagonal_sum += matrix[i][i];
-    }
-
-    cout << fixed << setprecision(2) << average << " " << max_val << " " << delta << " " << diagonal_sum << endl;
+    std::cout << std::fixed << std::setprecision(2) << average << " ";
+    std::cout << max_val << " " << delta << " " << diag_sum << std::endl;
 
     return 0;
 }

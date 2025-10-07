@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -9,11 +9,18 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
+
     int n;
     std::cin >> n;
-    while (n--) {
+
+    for (int i = 0; i < n; ++i) {
         std::string has_rg, rg_date, has_ticket, ticket_date, seat;
-        std::cin >> has_rg >> rg_date >> has_ticket >> ticket_date >> seat;
+        
+        std::cin >> has_rg;
+        std::cin >> rg_date;
+        std::cin >> has_ticket;
+        std::cin >> ticket_date;
+        std::cin >> seat;
 
         if (has_rg == "Nao possui") {
             std::cout << "a saida e nessa direção\n";
@@ -25,5 +32,6 @@ int main() {
             std::cout << "o seu assento e " << seat << " tenha um bom dia\n";
         }
     }
+
     return 0;
 }

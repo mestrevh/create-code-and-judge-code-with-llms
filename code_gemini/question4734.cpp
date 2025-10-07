@@ -1,62 +1,72 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <stack>
-#include <algorithm>
-
-using namespace std;
+#include <cctype>
 
 int precedence(char op) {
-    if (op == '^') return 3;
-    if (op == '*' || op == '/') return 2;
-    if (op == '+' || op == '-') return 1;
+    if (op == '^') {
+        return 3;
+    }
+    if (op == '*' || op == '/') {
+        return 2;
+    }
+    if (op == '+' || op == '-') {
+        return 1;
+    }
     return 0;
 }
 
-string infixToRPN(string infix) {
-    string rpn;
-    stack<char> operators;
+void solve() {
+    std::string infix;
+    std::cin >> infix;
+
+    std::stack<char> s;
+    std::string postfix = "";
 
     for (char c : infix) {
-        if (isalnum(c)) {
-            rpn += c;
+        if (islower(c)) {
+            postfix += c;
         } else if (c == '(') {
-            operators.push(c);
+            s.push(c);
         } else if (c == ')') {
-            while (!operators.empty() && operators.top() != '(') {
-                rpn += operators.top();
-                operators.pop();
+            while (!s.empty() && s.top() != '(') {
+                postfix += s.top();
+                s.pop();
             }
-            operators.pop(); 
-        } else if (c == '+' || c == '-' || c == '*' || c == '/' || c == '^') {
-            while (!operators.empty() && operators.top() != '(' && precedence(c) <= precedence(operators.top())) {
-                rpn += operators.top();
-                operators.pop();
+            if (!s.empty()) {
+                s.pop();
             }
-            operators.push(c);
+        } else {
+            while (!s.empty() && s.top() != '(' &&
+                   (precedence(s.top()) > precedence(c) ||
+                   (precedence(s.top()) == precedence(c) && c != '^'))) {
+                postfix += s.top();
+                s.pop();
+            }
+            s.push(c);
         }
     }
 
-    while (!operators.empty()) {
-        rpn += operators.top();
-        operators.pop();
+    while (!s.empty()) {
+        postfix += s.top();
+        s.pop();
     }
 
-    return rpn;
+    std::cout << postfix << std::endl;
 }
 
 int main() {
-    int t;
-    cin >> t;
-    cin.ignore(); 
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
+    int t;
+    std::cin >> t;
     while (t--) {
-        string infix;
-        getline(cin, infix);
-        cout << infixToRPN(infix) << endl;
+        solve();
     }
 
     return 0;

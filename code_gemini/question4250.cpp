@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -13,8 +13,8 @@ int main() {
     std::cout << "Digite o raio da esfera:" << std::endl;
     std::cin >> R;
 
-    double area = 4.0 * PI * R * R;
-    double volume = (4.0 * PI * pow(R, 3)) / 3.0;
+    double area = 4.0 * PI * std::pow(R, 2);
+    double volume = (4.0 * PI * std::pow(R, 3)) / 3.0;
 
     std::cout << std::fixed << std::setprecision(3);
     std::cout << "A area da superficie esferica e igual a " << area << std::endl;

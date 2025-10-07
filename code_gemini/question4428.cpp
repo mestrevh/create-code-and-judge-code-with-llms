@@ -1,66 +1,65 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <algorithm>
 
-using namespace std;
+int N;
+std::vector<std::vector<int>> grid;
+std::vector<std::vector<int>> dp;
 
-int n, exit_i, exit_j;
-vector<vector<int>> grid;
-vector<vector<int>> dp;
+int dr[] = {-1, 1, 0, 0};
+int dc[] = {0, 0, -1, 1};
 
-int solve(int i, int j) {
-    if (i < 0 || i >= n || j < 0 || j >= n) {
-        return 0;
+bool isValid(int r, int c) {
+    return r >= 0 && r < N && c >= 0 && c < N;
+}
+
+int solve(int r, int c) {
+    if (dp[r][c] != -1) {
+        return dp[r][c];
     }
-    if (dp[i][j] != -1) {
-        return dp[i][j];
-    }
 
-    int max_steps = 0;
-    int current_val = grid[i][j];
+    int max_len = 1;
 
-    int dx[] = {0, 0, 1, -1};
-    int dy[] = {1, -1, 0, 0};
+    for (int i = 0; i < 4; ++i) {
+        int nr = r + dr[i];
+        int nc = c + dc[i];
 
-    for (int k = 0; k < 4; ++k) {
-        int next_i = i + dx[k];
-        int next_j = j + dy[k];
-
-        if (next_i >= 0 && next_i < n && next_j >= 0 && next_j < n && grid[next_i][next_j] == current_val + 1) {
-            max_steps = max(max_steps, 1 + solve(next_i, next_j));
+        if (isValid(nr, nc) && grid[r][c] == grid[nr][nc] + 1) {
+            max_len = std::max(max_len, 1 + solve(nr, nc));
         }
     }
-    
-    if (i == exit_i && j == exit_j && max_steps == 0)
-        return dp[i][j] = 1;
 
-
-    return dp[i][j] = max_steps;
+    return dp[r][c] = max_len;
 }
 
 int main() {
-    cin >> n >> exit_i >> exit_j;
-    grid.resize(n, vector<int>(n));
-    dp.resize(n, vector<int>(n, -1));
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
-            cin >> grid[i][j];
+    int exit_i, exit_j;
+    
+    std::cin >> N >> exit_i >> exit_j;
+
+    exit_i--;
+    exit_j--;
+
+    grid.resize(N, std::vector<int>(N));
+    for (int i = 0; i < N; ++i) {
+        for (int j = 0; j < N; ++j) {
+            std::cin >> grid[i][j];
         }
     }
 
-    int max_path = 0;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
-             max_path = max(max_path, solve(i, j));
-        }
-    }
+    dp.assign(N, std::vector<int>(N, -1));
 
-    printf("Numero de passos do maior caminho: %d\n", max_path);
+    int path_length = solve(exit_i, exit_j);
+    int steps = path_length - 1;
+
+    std::cout << "Numero de passos do maior caminho: " << steps << std::endl;
 
     return 0;
 }

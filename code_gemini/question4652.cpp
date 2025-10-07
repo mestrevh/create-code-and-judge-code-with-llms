@@ -1,32 +1,22 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <algorithm>
 
-using namespace std;
-
 int main() {
-    string line;
-    getline(cin, line);
-
-    int start = 0;
-    while (start < line.length() && line[start] == ' ') {
-        start++;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    std::string s;
+    std::getline(std::cin, s);
+    const auto first = s.find_first_not_of(" ");
+    if (std::string::npos == first) {
+        std::cout << "" << std::endl;
+        return 0;
     }
-
-    int end = line.length() - 1;
-    while (end >= 0 && line[end] == ' ') {
-        end--;
-    }
-
-    if (start <= end) {
-        cout << line.substr(start, end - start + 1) << endl;
-    } else {
-        cout << "" << endl;
-    }
-
+    const auto last = s.find_last_not_of(" ");
+    std::cout << s.substr(first, (last - first + 1)) << std::endl;
     return 0;
 }

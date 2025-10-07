@@ -1,21 +1,18 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <iomanip>
 
-using namespace std;
-
 int main() {
-  double a, b;
-  cin >> a >> b;
-
-  double media1 = (a + b) / 2.0;
-  double media2 = (media1 + a) / 2.0;
-  double media3 = (media2 + a) / 2.0;
-
-  cout << fixed << setprecision(2) << media3 << endl;
-
-  return 0;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    double a, b;
+    std::cin >> a >> b;
+    double m1 = (a + b) / 2.0;
+    double m2 = (m1 + a) / 2.0;
+    double result = (m2 + a) / 2.0;
+    std::cout << std::fixed << std::setprecision(2) << result << std::endl;
+    return 0;
 }

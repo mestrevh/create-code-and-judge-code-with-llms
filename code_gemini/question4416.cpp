@@ -1,56 +1,59 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <iomanip>
+#include <string>
+#include <cmath>
 #include <algorithm>
+#include <iomanip>
 
-using namespace std;
+struct Car {
+    std::string name;
+    double speed;
+    int original_order;
+};
 
 int main() {
-    int max_speed;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    int v_max;
     double distance;
-    double times[3];
-    cin >> max_speed >> distance;
-    for (int i = 0; i < 3; i++) {
-        cin >> times[i];
+    std::cin >> v_max >> distance;
+
+    double t_a, t_b, t_c;
+    std::cin >> t_a >> t_b >> t_c;
+
+    double v_min = floor(static_cast<double>(v_max) / 2.0);
+
+    std::vector<Car> all_cars;
+    all_cars.push_back({"Kwid Laranja", distance / t_a, 0});
+    all_cars.push_back({"Tesla Branco", distance / t_b, 1});
+    all_cars.push_back({"Gol Bolinha",  distance / t_c, 2});
+    
+    std::vector<Car> valid_cars;
+    for (const auto& car : all_cars) {
+        if (car.speed >= v_min && car.speed <= static_cast<double>(v_max)) {
+            valid_cars.push_back(car);
+        }
     }
-
-    vector<pair<double, int>> valid_cars;
-    double speeds[3];
-
-    speeds[0] = distance / times[0];
-    if (speeds[0] <= max_speed && speeds[0] >= max_speed / 2.0) {
-        valid_cars.push_back({speeds[0], 0});
-    }
-
-    speeds[1] = distance / times[1];
-    if (speeds[1] <= max_speed && speeds[1] >= max_speed / 2.0) {
-        valid_cars.push_back({speeds[1], 1});
-    }
-
-    speeds[2] = distance / times[2];
-    if (speeds[2] <= max_speed && speeds[2] >= max_speed / 2.0) {
-        valid_cars.push_back({speeds[2], 2});
-    }
-
-    sort(valid_cars.rbegin(), valid_cars.rend());
 
     if (valid_cars.empty()) {
-        cout << "Infelizmente Xupenio nao podera ir ao evento mais importante do ano" << endl;
+        std::cout << "Infelizmente Xupenio nao podera ir ao evento mais importante do ano\n";
     } else {
-        for (auto car : valid_cars) {
-            string car_name;
-            if (car.second == 0) {
-                car_name = "Kwid Laranja";
-            } else if (car.second == 1) {
-                car_name = "Tesla Branco";
-            } else {
-                car_name = "Gol Bolinha";
+        std::sort(valid_cars.begin(), valid_cars.end(), [](const Car& a, const Car& b) {
+            if (a.speed != b.speed) {
+                return a.speed > b.speed;
             }
-            cout << "Xupenio pode utilizar o carro " << car_name << ", cuja velocidade no percurso eh " << fixed << setprecision(2) << car.first << endl;
+            return a.original_order < b.original_order;
+        });
+
+        std::cout << std::fixed << std::setprecision(2);
+        for (const auto& car : valid_cars) {
+            std::cout << "Xupenio pode utilizar o carro " << car.name 
+                      << ", cuja velocidade no percurso eh " << car.speed << "\n";
         }
     }
 

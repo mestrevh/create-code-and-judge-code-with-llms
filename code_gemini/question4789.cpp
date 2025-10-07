@@ -1,47 +1,65 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
-#include <sstream>
-
-using namespace std;
+#include <list>
+#include <iterator>
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int p;
-    cin >> p;
-    for (int k = 0; k < p; ++k) {
-        vector<vector<int>> cols;
-        string line;
-        while (cin >> line && line != "END") {
-            int s, c;
-            stringstream ss(line);
-            ss >> s;
-            cin >> c;
+    std::cin >> p;
+    for (int i = 0; i < p; ++i) {
+        std::list<std::vector<int>> columns;
+        std::string s_str;
+        int c;
+
+        while (std::cin >> s_str && s_str != "END") {
+            int s = std::stoi(s_str);
+            std::cin >> c;
+
+            int n = columns.size();
+
             if (s == 0) {
-                cols.insert(cols.begin(), {c});
-            } else if (s == cols.size() + 1) {
-                cols.push_back({c});
+                columns.push_front({c});
+            } else if (s == n + 1) {
+                columns.push_back({c});
             } else {
-                cols[s - 1].push_back(c);
-                while (cols[s - 1].size() >= 2 && cols[s - 1].back() == cols[s - 1][cols[s - 1].size() - 2]) {
-                    cols[s - 1].pop_back();
-                    cols[s - 1].pop_back();
-                }
-                if (cols[s - 1].empty()) {
-                    cols.erase(cols.begin() + s - 1);
+                auto it = columns.begin();
+                std::advance(it, s - 1);
+
+                if (!it->empty() && it->back() == c) {
+                    while (!it->empty() && it->back() == c) {
+                        it->pop_back();
+                    }
+                    if (it->empty()) {
+                        columns.erase(it);
+                    }
+                } else {
+                    it->push_back(c);
                 }
             }
         }
-        cout << "caso " << k << ":";
-        for (const auto& col : cols) {
-            if (!col.empty()) {
-                cout << " " << col.back();
+
+        std::cout << "caso " << i << ":";
+        if (!columns.empty()) {
+            std::cout << " ";
+            bool first = true;
+            for (const auto& col : columns) {
+                if (!first) {
+                    std::cout << " ";
+                }
+                std::cout << col.back();
+                first = false;
             }
         }
-        cout << endl;
+        std::cout << "\n";
     }
+
     return 0;
 }

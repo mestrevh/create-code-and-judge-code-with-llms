@@ -1,12 +1,13 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <cmath>
 
-bool isPrime(int n) {
+bool is_prime(int n) {
     if (n <= 1) {
         return false;
     }
@@ -27,9 +28,10 @@ int main() {
 
     std::vector<int> primes;
     int num;
+
     for (int i = 0; i < n * n; ++i) {
         std::cin >> num;
-        if (isPrime(num)) {
+        if (is_prime(num)) {
             primes.push_back(num);
         }
     }

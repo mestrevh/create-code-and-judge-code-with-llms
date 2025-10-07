@@ -1,41 +1,52 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <iomanip>
-
-using namespace std;
+#include <limits>
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
+    std::cin >> n;
 
-    vector<double> saltos;
-    double maior_salto = -1.0;
+    std::cout << std::fixed << std::setprecision(1);
 
-    for (int i = 0; i < n; ++i) {
-        double salto;
-        cin >> salto;
-        saltos.push_back(salto);
-        if (salto > maior_salto) {
-            maior_salto = salto;
-        }
-        cout << fixed << setprecision(1) << maior_salto << endl;
+    if (n == 0) {
+        std::cout << "[]\n";
+        return 0;
     }
 
-    sort(saltos.begin(), saltos.end());
+    std::vector<double> jumps;
+    double max_so_far = std::numeric_limits<double>::lowest();
 
-    cout << "[";
     for (int i = 0; i < n; ++i) {
-        cout << fixed << setprecision(1) << saltos[i];
-        if (i < n - 1) {
-            cout << ", ";
+        double current_jump;
+        std::cin >> current_jump;
+        jumps.push_back(current_jump);
+
+        if (current_jump > max_so_far) {
+            max_so_far = current_jump;
+        }
+
+        std::cout << max_so_far << "\n";
+    }
+
+    std::sort(jumps.begin(), jumps.end());
+
+    std::cout << "[";
+    for (size_t i = 0; i < jumps.size(); ++i) {
+        std::cout << jumps[i];
+        if (i < jumps.size() - 1) {
+            std::cout << ", ";
         }
     }
-    cout << "]" << endl;
+    std::cout << "]\n";
 
     return 0;
 }

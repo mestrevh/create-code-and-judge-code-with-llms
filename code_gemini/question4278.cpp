@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -8,9 +8,9 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
-    double angle1, angle2;
-    std::cin >> angle1 >> angle2;
-    double angle3 = 180.0 - (angle1 + angle2);
-    std::cout << std::setprecision(17) << angle3 << std::endl;
+    double a, b;
+    std::cin >> a >> b;
+    double result = 180.0 - (a + b);
+    std::cout << std::setprecision(15) << result << std::endl;
     return 0;
 }

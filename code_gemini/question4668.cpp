@@ -1,72 +1,77 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
+#include <cmath>
 #include <algorithm>
+#include <utility>
 
-using namespace std;
+void fast_io() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+}
+
+long long calculate_cost(long long L, long long R, const std::vector<std::pair<long long, long long>>& teams) {
+    long long total_cost = 0;
+    for (const auto& team : teams) {
+        long long l = team.first;
+        long long r = team.second;
+        if (l > L) {
+            total_cost += l - L;
+        }
+        if (r < R) {
+            total_cost += R - r;
+        }
+    }
+    return total_cost;
+}
 
 int main() {
+    fast_io();
     int n;
-    cin >> n;
+    std::cin >> n;
 
-    int num_teams = 1 << n;
-    vector<pair<int, int>> schedules(num_teams);
+    int num_teams = 1;
+    if (n > 0) {
+        num_teams = 1 << n;
+    }
+
+    std::vector<std::pair<long long, long long>> teams(num_teams);
+    std::vector<long long> ls(num_teams);
+    std::vector<long long> rs(num_teams);
+
     for (int i = 0; i < num_teams; ++i) {
-        cin >> schedules[i].first >> schedules[i].second;
+        std::cin >> teams[i].first >> teams[i].second;
+        ls[i] = teams[i].first;
+        rs[i] = teams[i].second;
     }
 
-    long long min_cost = -1;
+    size_t median_idx_l = (ls.size() - 1) / 2;
+    std::nth_element(ls.begin(), ls.begin() + median_idx_l, ls.end());
+    long long l_opt = ls[median_idx_l];
 
-    for (int i = 0; i < (1 << (2 * num_teams)); ++i) {
-        long long current_cost = 0;
-        vector<pair<int, int>> current_schedules = schedules;
+    size_t median_idx_r = (rs.size() - 1) / 2;
+    std::nth_element(rs.begin(), rs.begin() + median_idx_r, rs.end());
+    long long r_opt = rs[median_idx_r];
 
-        for (int j = 0; j < 2 * num_teams; ++j) {
-            if ((i >> j) & 1) {
-                int team_index = j / 2;
-                int side = j % 2; 
-
-                if (side == 0) {
-                    current_cost += abs(schedules[team_index].first - (schedules[team_index].first + 1));
-                    current_schedules[team_index].first++;
-                 } else {
-                    current_cost += abs(schedules[team_index].second - (schedules[team_index].second -1));
-                    current_schedules[team_index].second--;
-                }
-            }
+    if (l_opt <= r_opt) {
+        std::cout << calculate_cost(l_opt, r_opt, teams) << std::endl;
+    } else {
+        std::vector<long long> all_vals;
+        all_vals.reserve(num_teams * 2);
+        for(const auto& team : teams) {
+            all_vals.push_back(team.first);
+            all_vals.push_back(team.second);
         }
+
+        size_t median_idx_all = (all_vals.size() - 1) / 2;
+        std::nth_element(all_vals.begin(), all_vals.begin() + median_idx_all, all_vals.end());
+        long long x_opt = all_vals[median_idx_all];
         
-        bool possible = true;
-        for (int round = 0; round < n; ++round) {
-            for (int k = 0; k < (1 << (n - round)); k += 2) {
-                int team1 = k;
-                int team2 = k + 1;
-                if (max(current_schedules[team1].first, current_schedules[team2].first) > min(current_schedules[team1].second, current_schedules[team2].second)) {
-                    possible = false;
-                    break;
-                }
-            }
-            if (!possible) break;
-             vector<pair<int, int>> next_round_schedules;
-            for (int k = 0; k < (1 << (n - round)); k+=2) {
-              next_round_schedules.push_back(current_schedules[k]);
-            }
-             current_schedules = next_round_schedules;
-
-
-        }
-
-        if (possible) {
-            if (min_cost == -1 || current_cost < min_cost) {
-                min_cost = current_cost;
-            }
-        }
+        std::cout << calculate_cost(x_opt, x_opt, teams) << std::endl;
     }
-
-    cout << min_cost << endl;
 
     return 0;
 }

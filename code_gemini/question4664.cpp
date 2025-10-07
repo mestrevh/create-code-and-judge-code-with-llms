@@ -1,40 +1,48 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 
-using namespace std;
-
 int main() {
-    int b, m, v, e;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    int b, m, v;
     char c;
-    cin >> b >> m >> v >> c >> e;
+    int e;
+
+    std::cin >> b >> m >> v;
+    std::cin >> c >> e;
+
     int total = b + m + v;
+
     if (e <= 0 || e > total) {
-        cout << "You pensa que me engana, vou te mostrar a glocada de 30!" << endl;
+        std::cout << "You pensa que me engana, vou te mostrar a glocada de 30!\n";
     } else {
+        int diff = total - e;
         if (c == 'B') {
-            if ((total - e) % 7 == 0) {
-                cout << "Parabens pobre, ganhou uma box of good good" << endl;
+            if (diff % 7 == 0) {
+                std::cout << "Parabens pobre, ganhou uma box of good good\n";
             } else {
-                cout << "Not my problema" << endl;
+                std::cout << "Not my problema\n";
             }
         } else if (c == 'M') {
-            if (((total - e) % 3 == 0 && (total - e) % 2 != 0) || (total - e) % 8 == 0) {
-                cout << "Acui, uma box of good good for you, alright?" << endl;
+            if ((diff % 3 == 0 && diff % 2 != 0) || (diff % 8 == 0)) {
+                std::cout << "Acui, uma box of good good for you, alright?\n";
             } else {
-                cout << "Deixei sua box of good good la em Xique-Xique Bahia" << endl;
+                std::cout << "Deixei sua box of good good la em Xique-Xique Bahia\n";
             }
         } else if (c == 'V') {
-            if ((total - e) % 2 != 0 || (total - e) % 5 == 0) {
-                cout << "HEEHEE, good good for you" << endl;
+            if (diff % 2 != 0 || diff % 5 == 0) {
+                std::cout << "HEEHEE, good good for you\n";
             } else {
-                cout << "Sem good good for you, alright?" << endl;
+                std::cout << "Sem good good for you, alright?\n";
             }
         } else {
-            cout << "Ta querendo enganar quem, POBRE?!" << endl;
+            std::cout << "Ta querendo enganar quem, POBRE?!\n";
         }
     }
+
     return 0;
 }

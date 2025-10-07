@@ -1,43 +1,63 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
-
-using namespace std;
 
 int main() {
-    int total_esforco = 0;
-    string input;
-    bool c_day = false;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    for (int i = 0; i < 5; ++i) {
-        cin >> input;
-        if (input == "C") {
-            c_day = true;
-            int horas_c;
-            cin >> horas_c;
-            total_esforco += horas_c * 3;
+    int total_esforco = 0;
+    bool dobrar_proximo = false;
+
+    for (int dia = 0; dia < 5; ++dia) {
+        char c;
+        std::cin >> c;
+
+        int horas;
+        bool is_C_day = false;
+
+        if (c == 'C') {
+            std::cin >> horas;
+            is_C_day = true;
         } else {
-            int horas = stoi(input);
-            if (i == 0 || (c_day && i != 4)) {
-                total_esforco += horas * 2;
-            } else if (i == 4) {
-                total_esforco += horas / 2;
-            } else {
-                total_esforco += horas;
+            horas = c - '0';
+        }
+
+        int esforco_dia;
+
+        if (is_C_day) {
+            esforco_dia = horas * 3;
+        } else {
+            if (dia == 0) { // Monday
+                esforco_dia = horas * 2;
+            } else if (dia == 4) { // Friday
+                esforco_dia = horas / 2;
+            } else { // Tue, Wed, Thu
+                esforco_dia = horas;
             }
-            c_day = false;
+        }
+
+        if (dobrar_proximo) {
+            esforco_dia *= 2;
+        }
+
+        total_esforco += esforco_dia;
+
+        if (is_C_day && dia < 4) {
+            dobrar_proximo = true;
+        } else {
+            dobrar_proximo = false;
         }
     }
 
     if (total_esforco > 40) {
-        cout << "DESCANSE LEAFAR, JA FOI SUFICIENTE" << endl;
+        std::cout << "DESCANSE LEAFAR, JA FOI SUFICIENTE\n";
     } else if (total_esforco == 40) {
-        cout << "Descansou bem Leafar." << endl;
+        std::cout << "Descansou bem Leafar.\n";
     } else {
-        cout << "Só quer mamata..." << endl;
+        std::cout << "Só quer mamata...\n";
     }
 
     return 0;

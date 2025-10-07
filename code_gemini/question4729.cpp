@@ -1,66 +1,87 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
 #include <list>
-
-using namespace std;
+#include <vector>
+#include <iterator>
 
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    list<int> balls;
+    int n;
+    std::cin >> n;
+
+    std::list<int> balls;
     for (int i = 0; i < n; ++i) {
-        int ball;
-        cin >> ball;
-        balls.push_back(ball);
+        int ball_val;
+        std::cin >> ball_val;
+        balls.push_back(ball_val);
     }
 
     int m;
-    cin >> m;
+    std::cin >> m;
 
     for (int i = 0; i < m; ++i) {
-        int pos, val;
-        cin >> pos >> val;
+        int pos;
+        int val;
+        std::cin >> pos >> val;
+
+        if (balls.empty()) {
+            balls.push_back(val);
+            continue;
+        }
 
         auto it = balls.begin();
-        advance(it, pos - 1);
-        balls.insert(it, val);
-
-        it = balls.begin();
-        advance(it, pos);
-
-        int current_val = *it;
-        int count = 0;
-        auto start = it;
-        auto end = it;
-
-        while (start != balls.begin() && *prev(start) == current_val) {
-            --start;
-            ++count;
-        }
-        ++count;
-        while (next(end) != balls.end() && *next(end) == current_val) {
-            ++end;
-            ++count;
+        if (pos > 0) {
+            std::advance(it, pos);
         }
 
-         if (it != balls.begin() && *prev(it) == current_val) {
-            balls.erase(start, next(end));
-        } else if (next(it) != balls.end() && *next(it) == current_val) {
-            balls.erase(start, next(end));
-         }
+        auto new_ball_it = balls.insert(it, val);
 
+        bool should_destroy = false;
 
+        if (new_ball_it != balls.begin()) {
+            if (*std::prev(new_ball_it) == val) {
+                should_destroy = true;
+            }
+        }
+
+        auto it_after_new = std::next(new_ball_it);
+        if (it_after_new != balls.end()) {
+            if (*it_after_new == val) {
+                should_destroy = true;
+            }
+        }
+
+        if (should_destroy) {
+            auto start_range = new_ball_it;
+            while (start_range != balls.begin() && *std::prev(start_range) == val) {
+                --start_range;
+            }
+
+            auto end_range = std::next(new_ball_it);
+            while (end_range != balls.end() && *end_range == val) {
+                ++end_range;
+            }
+
+            balls.erase(start_range, end_range);
+        }
     }
 
-    for (int ball : balls) {
-        cout << ball << " ";
+    if (!balls.empty()) {
+        bool first = true;
+        for (int ball : balls) {
+            if (!first) {
+                std::cout << " ";
+            }
+            std::cout << ball;
+            first = false;
+        }
     }
-    cout << endl;
+    std::cout << std::endl;
 
     return 0;
 }

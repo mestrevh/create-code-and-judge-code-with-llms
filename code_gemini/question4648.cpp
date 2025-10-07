@@ -1,39 +1,33 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
-#include <sstream>
 #include <vector>
-
-using namespace std;
+#include <string>
 
 int main() {
-    string line;
-    getline(cin, line);
-    char letter;
-    cin >> letter;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    stringstream ss(line);
-    string word;
-    vector<string> words;
-    while (ss >> word) {
-        words.push_back(word);
+    std::vector<std::string> all_words(10);
+    for (int i = 0; i < 10; ++i) {
+        std::cin >> all_words[i];
     }
 
-    int count = 0;
-    vector<string> matching_words;
-    for (const string& w : words) {
-        if (w[0] == letter) {
-            count++;
-            matching_words.push_back(w);
+    char target_letter;
+    std::cin >> target_letter;
+
+    std::vector<std::string> matching_words;
+    for (const std::string& word : all_words) {
+        if (!word.empty() && word[0] == target_letter) {
+            matching_words.push_back(word);
         }
     }
 
-    cout << count << endl;
-    for (const string& w : matching_words) {
-        cout << w << endl;
+    std::cout << matching_words.size() << '\n';
+    for (const std::string& word : matching_words) {
+        std::cout << word << '\n';
     }
 
     return 0;

@@ -1,11 +1,11 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
 #include <string>
-#include <iomanip>
+#include <vector>
+#include <cmath>
 
 struct Paciente {
     std::string nome;
@@ -30,22 +30,21 @@ int main() {
     }
 
     for (int i = 0; i < n; ++i) {
-        const auto& p = pacientes[i];
-        double imc = p.peso / (p.altura * p.altura);
+        double imc = pacientes[i].peso / (pacientes[i].altura * pacientes[i].altura);
 
-        std::cout << p.nome << ":\n";
+        std::cout << pacientes[i].nome << ":\n";
 
         if (imc < 18.5) {
             std::cout << "Baixo peso";
-        } else if (imc < 25.0) {
+        } else if (imc >= 18.5 && imc <= 24.9) {
             std::cout << "Peso normal";
-        } else if (imc < 30.0) {
+        } else if (imc >= 25.0 && imc <= 29.9) {
             std::cout << "Sobrepeso";
-        } else if (imc < 35.0) {
+        } else if (imc >= 30.0 && imc <= 34.9) {
             std::cout << "Obesidade grau I";
-        } else if (imc < 40.0) {
+        } else if (imc >= 35.0 && imc <= 39.9) {
             std::cout << "Obesidade grau II";
-        } else {
+        } else { // imc >= 40.0
             std::cout << "Obesidade grau III";
         }
         
@@ -53,8 +52,7 @@ int main() {
             std::cout << "\n\n";
         }
     }
-    
-    std::cout << std::endl;
+    std::cout << "\n";
 
     return 0;
 }

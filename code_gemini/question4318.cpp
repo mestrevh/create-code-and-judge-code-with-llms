@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -8,32 +8,42 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <cmath>
 #include <algorithm>
 
-using namespace std;
-
-struct Child {
-    string name;
-    int age;
-    double height;
+struct Candidate {
+    std::string name;
     double diff;
 };
 
+bool compareCandidates(const Candidate& a, const Candidate& b) {
+    return a.diff < b.diff;
+}
+
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n, m;
     double x;
-    cin >> n >> m >> x;
+    std::cin >> n >> m >> x;
 
-    vector<Child> children(n);
+    std::vector<Candidate> candidates;
+    candidates.reserve(n);
+
     for (int i = 0; i < n; ++i) {
-        cin >> children[i].name >> children[i].age >> children[i].height;
-        children[i].diff = abs(x - (children[i].name.length() * children[i].age * children[i].height));
+        std::string name;
+        int age;
+        double height;
+        std::cin >> name >> age >> height;
+
+        double value = height * age * name.length();
+        double difference = std::abs(value - x);
+        
+        candidates.push_back({name, difference});
     }
 
-    sort(children.begin(), children.end(), [](const Child& a, const Child& b) {
-        return a.diff < b.diff;
-    });
+    std::sort(candidates.begin(), candidates.end(), compareCandidates);
 
     for (int i = 0; i < m; ++i) {
-        cout << children[i].name << endl;
+        std::cout << candidates[i].name << "\n";
     }
 
     return 0;

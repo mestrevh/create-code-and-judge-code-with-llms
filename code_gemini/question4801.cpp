@@ -1,29 +1,37 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <cmath>
 #include <iomanip>
 
-using namespace std;
-
 int main() {
-  int n;
-  double a;
-  cin >> n >> a;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-  cout << fixed << setprecision(2);
+    int N;
+    double A;
+    double result;
 
-  if (n == 1) {
-    cout << pow(a, 2) << endl;
-  } else if (n == 2) {
-    cout << sqrt(a) << endl;
-  } else if (n == 3) {
-    cout << abs(a) << endl;
-  } else if (n == 4) {
-    cout << log2(a) << endl;
-  }
+    std::cin >> N >> A;
 
-  return 0;
+    switch (N) {
+        case 1:
+            result = pow(A, 2.0);
+            break;
+        case 2:
+            result = sqrt(A);
+            break;
+        case 3:
+            result = fabs(A);
+            break;
+        case 4:
+            result = log2(A);
+            break;
+    }
+
+    std::cout << std::fixed << std::setprecision(2) << result << std::endl;
+
+    return 0;
 }

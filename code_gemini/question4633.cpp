@@ -1,39 +1,30 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
-#include <numeric>
-#include <cmath>
-
-using namespace std;
 
 int main() {
     int idade;
-    vector<int> idades;
+    int soma_idades = 0;
+    int contador = 0;
 
-    cin >> idade;
-    while (idade != 0) {
-        idades.push_back(idade);
-        cin >> idade;
+    while (std::cin >> idade && idade != 0) {
+        soma_idades += idade;
+        contador++;
     }
 
-    if (idades.empty()) {
-        return 0;
-    }
+    if (contador > 0) {
+        int media = soma_idades / contador;
+        std::cout << "media de idade da turma: " << media << std::endl;
 
-    double media = accumulate(idades.begin(), idades.end(), 0.0) / idades.size();
-    int media_arredondada = round(media);
-
-    cout << "media de idade da turma: " << media_arredondada << endl;
-
-    if (media_arredondada >= 0 && media_arredondada <= 25) {
-        cout << "jovem" << endl;
-    } else if (media_arredondada >= 26 && media_arredondada <= 60) {
-        cout << "adulta" << endl;
-    } else {
-        cout << "idosa" << endl;
+        if (media >= 0 && media <= 25) {
+            std::cout << "jovem" << std::endl;
+        } else if (media >= 26 && media <= 60) {
+            std::cout << "adulta" << std::endl;
+        } else {
+            std::cout << "idosa" << std::endl;
+        }
     }
 
     return 0;

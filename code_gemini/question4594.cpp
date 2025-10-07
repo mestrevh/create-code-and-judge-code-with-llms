@@ -1,15 +1,13 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <iomanip>
 #include <string>
-
-using namespace std;
+#include <iomanip>
 
 struct Conta {
-    string numero;
+    std::string numero;
     float saldo;
 };
 
@@ -22,25 +20,27 @@ void debitar(Conta *conta, float x) {
 }
 
 int main() {
-    Conta conta;
-    cin >> conta.numero >> conta.saldo;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    Conta minhaConta;
+    std::cin >> minhaConta.numero >> minhaConta.saldo;
 
     int n;
-    cin >> n;
-    cin.ignore(); 
+    std::cin >> n;
 
-    for (int i = 0; i < n; i++) {
-        string operacao;
+    for (int i = 0; i < n; ++i) {
+        std::string operacao;
         float valor;
-        cin >> operacao >> valor;
+        std::cin >> operacao >> valor;
         if (operacao == "CREDITAR") {
-            creditar(&conta, valor);
+            creditar(&minhaConta, valor);
         } else if (operacao == "DEBITAR") {
-            debitar(&conta, valor);
+            debitar(&minhaConta, valor);
         }
     }
 
-    cout << fixed << setprecision(2) << conta.saldo << endl;
+    std::cout << std::fixed << std::setprecision(2) << minhaConta.saldo << std::endl;
 
     return 0;
 }

@@ -1,30 +1,27 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
-#include <numeric>
-
-using namespace std;
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
     int x;
-    cin >> x;
-
-    int total_tacas = 0;
+    std::cin >> x;
+    long long int total_glasses = 0;
     for (int i = 0; i < x; ++i) {
-        vector<int> notas;
-        int nota;
-        while (cin >> nota && nota != 0) {
-            notas.push_back(nota);
+        int grade;
+        int sum = 0;
+        int count = 0;
+        while (std::cin >> grade && grade != 0) {
+            sum += grade;
+            count++;
         }
-        if (!notas.empty()) {
-            total_tacas += accumulate(notas.begin(), notas.end(), 0) / notas.size();
+        if (count > 0) {
+            total_glasses += sum / count;
         }
     }
-
-    cout << "Elas beberam " << total_tacas << " taças!" << endl;
-
+    std::cout << "Elas beberam " << total_glasses << " taças!" << std::endl;
     return 0;
 }

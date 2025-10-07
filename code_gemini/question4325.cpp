@@ -1,43 +1,47 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <stack>
 
-using namespace std;
-
 int main() {
-    string text;
-    getline(cin, text);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    string result = "";
-    stack<char> deleted_chars;
+    std::string line;
+    std::getline(std::cin, line);
 
-    for (char c : text) {
-        if (c == '<') {
-            if (text.substr(text.find('<') + 1, 1) == "B" || text.substr(text.find('<')+1, 1) == "b") {
-                if (!result.empty()) {
-                    deleted_chars.push(result.back());
-                    result.pop_back();
+    std::string text_buffer;
+    std::stack<char> undo_stack;
+
+    for (size_t i = 0; i < line.length(); ) {
+        if (i + 2 < line.length() && line[i] == '<' && line[i + 2] == '>') {
+            char command = line[i + 1];
+            if (command == 'B' || command == 'b') {
+                if (!text_buffer.empty()) {
+                    undo_stack.push(text_buffer.back());
+                    text_buffer.pop_back();
                 }
-               text.erase(text.find('<'), 3);
-            } else if (text.substr(text.find('<') + 1, 1) == "Z" || text.substr(text.find('<') + 1, 1) == "z") {
-                if (!deleted_chars.empty()) {
-                    result += deleted_chars.top();
-                    deleted_chars.pop();
+                i += 3;
+            } else if (command == 'Z' || command == 'z') {
+                if (!undo_stack.empty()) {
+                    text_buffer.push_back(undo_stack.top());
+                    undo_stack.pop();
                 }
-                text.erase(text.find('<'), 3);
+                i += 3;
+            } else {
+                text_buffer.push_back(line[i]);
+                i++;
             }
-         
+        } else {
+            text_buffer.push_back(line[i]);
+            i++;
         }
-         else if(c != '<'){
-             result += c;
-         }
     }
 
-    cout << result << endl;
+    std::cout << text_buffer << '\n';
 
     return 0;
 }

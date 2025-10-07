@@ -1,37 +1,52 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
-#include <algorithm>
-#include <cctype>
-
-using namespace std;
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
-    cin.ignore(); 
+    std::cin >> n;
+    std::cin.ignore();
 
     for (int i = 1; i <= n; ++i) {
-        string line;
-        getline(cin, line);
+        std::string line;
+        std::getline(std::cin, line);
 
-        string processed_line = "";
+        std::string clean_str;
         for (char c : line) {
-            if (isalnum(c)) {
-                processed_line += tolower(c);
+            bool is_alphanumeric = (c >= 'a' && c <= 'z') ||
+                                   (c >= 'A' && c <= 'Z') ||
+                                   (c >= '0' && c <= '9');
+            if (is_alphanumeric) {
+                char lower_c = c;
+                if (c >= 'A' && c <= 'Z') {
+                    lower_c = c - 'A' + 'a';
+                }
+                clean_str += lower_c;
             }
         }
 
-        string reversed_line = processed_line;
-        reverse(reversed_line.begin(), reversed_line.end());
+        bool is_palindrome = true;
+        int len = clean_str.length();
+        if (len > 0) {
+            for (int j = 0; j < len / 2; ++j) {
+                if (clean_str[j] != clean_str[len - 1 - j]) {
+                    is_palindrome = false;
+                    break;
+                }
+            }
+        }
 
-        if (processed_line == reversed_line) {
-            cout << "Aluno " << i << ": Correto!, entendeu e trouxe um palindromo" << endl;
+        std::cout << "Aluno " << i << ": ";
+        if (is_palindrome) {
+            std::cout << "Correto!, entendeu e trouxe um palindromo\n";
         } else {
-            cout << "Aluno " << i << ": Incorreto!, não entendeu o que é um palindromo" << endl;
+            std::cout << "Incorreto!, não entendeu o que é um palindromo\n";
         }
     }
 

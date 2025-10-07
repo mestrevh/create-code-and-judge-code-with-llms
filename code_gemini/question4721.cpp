@@ -1,24 +1,38 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <numeric>
+#include <string>
+#include <sstream>
 
-using namespace std;
-
-int somar_lista(vector<int> numeros) {
-    return accumulate(numeros.begin(), numeros.end(), 0);
+long long somar_lista(const std::vector<int>& numeros) {
+    long long soma = 0;
+    for (int num : numeros) {
+        soma += num;
+    }
+    return soma;
 }
 
 int main() {
-    vector<int> numeros;
-    int num;
-    while (cin >> num) {
-        numeros.push_back(num);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    std::string line;
+    std::getline(std::cin, line);
+
+    std::stringstream ss(line);
+    std::vector<int> numeros;
+    int n;
+
+    while (ss >> n) {
+        numeros.push_back(n);
     }
-    int resultado = somar_lista(numeros);
-    cout << resultado << endl;
+
+    long long resultado = somar_lista(numeros);
+
+    std::cout << resultado << std::endl;
+
     return 0;
 }

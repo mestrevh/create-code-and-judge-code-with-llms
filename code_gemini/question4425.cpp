@@ -1,57 +1,54 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
-
-using namespace std;
+#include <utility>
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
+    std::cin >> n;
 
-    vector<string> board(n);
-    for (int i = 0; i < n; ++i) {
-        cin >> board[i];
-    }
+    std::vector<std::string> board(n);
+    int x_row = -1, x_col = -1;
 
-    int empty_row, empty_col;
     for (int i = 0; i < n; ++i) {
+        std::cin >> board[i];
         for (int j = 0; j < n; ++j) {
             if (board[i][j] == 'x') {
-                empty_row = i;
-                empty_col = j;
-                break;
+                x_row = i;
+                x_col = j;
             }
         }
     }
 
     char move;
-    while (cin >> move) {
-        int next_row = empty_row;
-        int next_col = empty_col;
+    while (std::cin >> move) {
+        int new_row = x_row;
+        int new_col = x_col;
 
         if (move == 'U') {
-            next_row--;
+            new_row = (x_row - 1 + n) % n;
         } else if (move == 'D') {
-            next_row++;
+            new_row = (x_row + 1) % n;
         } else if (move == 'L') {
-            next_col--;
+            new_col = (x_col - 1 + n) % n;
         } else if (move == 'R') {
-            next_col++;
+            new_col = (x_col + 1) % n;
         }
 
-        if (next_row >= 0 && next_row < n && next_col >= 0 && next_col < n) {
-            swap(board[empty_row][empty_col], board[next_row][next_col]);
-            empty_row = next_row;
-            empty_col = next_col;
-        }
+        std::swap(board[x_row][x_col], board[new_row][new_col]);
+        x_row = new_row;
+        x_col = new_col;
     }
 
     for (int i = 0; i < n; ++i) {
-        cout << board[i] << endl;
+        std::cout << board[i] << std::endl;
     }
 
     return 0;

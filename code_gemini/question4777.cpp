@@ -1,46 +1,46 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
 #include <iomanip>
 
-using namespace std;
-
 int main() {
-    char carro;
-    int ano;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    std::cout << std::fixed << std::setprecision(2);
 
-    double trans[3][3] = {
-        {0.5, 0.25, 0.25},
-        {0.0, 0.0, 1.0},
-        {1.0, 0.0, 0.0}
-    };
+    char car_type;
+    int target_year;
 
-    while (cin >> carro >> ano) {
-        if (ano <= 2005 || (carro != 'S' && carro != 'P' && carro != 'G')) {
-            cout << "Entrada inválida" << endl;
+    while (std::cin >> car_type >> target_year) {
+        if (target_year <= 2005 || (car_type != 'S' && car_type != 'P' && car_type != 'G')) {
+            std::cout << "Entrada inválida" << std::endl;
         } else {
-            double estadoAtual[3] = {1.0, 0.0, 0.0};
-            for (int i = 2005; i < ano; ++i) {
-                double novoEstado[3] = {0.0, 0.0, 0.0};
-                for (int j = 0; j < 3; ++j) {
-                    for (int k = 0; k < 3; ++k) {
-                        novoEstado[j] += estadoAtual[k] * trans[k][j];
-                    }
-                }
-                for (int j = 0; j < 3; ++j) {
-                    estadoAtual[j] = novoEstado[j];
-                }
+            double trans[3][3] = {
+                {0.5, 0.25, 0.25},
+                {0.0, 0.0, 1.0},
+                {1.0, 0.0, 0.0}
+            };
+
+            double prob[3] = {1.0, 0.0, 0.0};
+
+            for (int year = 2006; year <= target_year; ++year) {
+                double next_prob[3];
+                next_prob[0] = prob[0] * trans[0][0] + prob[1] * trans[1][0] + prob[2] * trans[2][0];
+                next_prob[1] = prob[0] * trans[0][1] + prob[1] * trans[1][1] + prob[2] * trans[2][1];
+                next_prob[2] = prob[0] * trans[0][2] + prob[1] * trans[1][2] + prob[2] * trans[2][2];
+                prob[0] = next_prob[0];
+                prob[1] = next_prob[1];
+                prob[2] = next_prob[2];
             }
 
-            if (carro == 'S') {
-                cout << "Probabilidade de ter um Sedan em " << ano << ": " << fixed << setprecision(2) << estadoAtual[0] * 100 << "%" << endl;
-            } else if (carro == 'P') {
-                cout << "Probabilidade de ter um Palio em " << ano << ": " << fixed << setprecision(2) << estadoAtual[1] * 100 << "%" << endl;
-            } else if (carro == 'G') {
-                cout << "Probabilidade de ter um Gol em " << ano << ": " << fixed << setprecision(2) << estadoAtual[2] * 100 << "%" << endl;
+            if (car_type == 'S') {
+                std::cout << "Probabilidade de ter um Sedan em " << target_year << ": " << prob[0] * 100.0 << "%" << std::endl;
+            } else if (car_type == 'P') {
+                std::cout << "Probabilidade de ter um Palio em " << target_year << ": " << prob[1] * 100.0 << "%" << std::endl;
+            } else {
+                std::cout << "Probabilidade de ter um Gol em " << target_year << ": " << prob[2] * 100.0 << "%" << std::endl;
             }
         }
     }

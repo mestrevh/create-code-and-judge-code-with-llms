@@ -1,30 +1,24 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm>
-
-using namespace std;
+#include <limits>
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
     int n;
-    cin >> n;
-    cin.ignore(); 
-
-    vector<string> strings(n);
+    std::cin >> n;
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::vector<std::string> lines(n);
     for (int i = 0; i < n; ++i) {
-        getline(cin, strings[i]);
+        std::getline(std::cin, lines[i]);
     }
-
-    reverse(strings.begin(), strings.end());
-
-    for (int i = 0; i < n; ++i) {
-        cout << strings[i];
+    for (int i = n - 1; i >= 0; --i) {
+        std::cout << lines[i];
     }
-    cout << endl;
-
     return 0;
 }

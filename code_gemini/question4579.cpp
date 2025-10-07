@@ -1,67 +1,61 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
-#include <numeric>
 #include <algorithm>
-
-using namespace std;
 
 struct Sala {
     int id;
-    int aprovados;
-    int ordem;
+    int approved_count;
 };
 
-bool compareSalas(const Sala& a, const Sala& b) {
-    if (a.aprovados != b.aprovados) {
-        return a.aprovados > b.aprovados;
-    }
-    return a.ordem < b.ordem;
-}
-
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<Sala> salas(n);
+    int n;
+    std::cin >> n;
+
+    std::vector<Sala> salas;
+    salas.reserve(n);
+
     for (int i = 0; i < n; ++i) {
         int id, q;
-        cin >> id >> q;
-        salas[i].id = id;
-        salas[i].ordem = i;
-        salas[i].aprovados = 0;
+        std::cin >> id >> q;
 
+        int current_approved_count = 0;
         for (int j = 0; j < q; ++j) {
-            string nome;
-            double presenca;
-            cin >> nome >> presenca;
+            std::string nome;
+            double presence;
+            std::cin >> nome >> presence;
 
-            vector<int> notas_mat(3);
-            vector<int> notas_port(3);
-            vector<int> notas_hist(3);
+            int n1, n2, n3;
 
-            for (int k = 0; k < 3; ++k) cin >> notas_mat[k];
-            for (int k = 0; k < 3; ++k) cin >> notas_port[k];
-            for (int k = 0; k < 3; ++k) cin >> notas_hist[k];
+            std::cin >> n1 >> n2 >> n3;
+            double math_avg = (n1 + n2 + n3) / 3.0;
 
-            double media_mat = accumulate(notas_mat.begin(), notas_mat.end(), 0.0) / 3.0;
-            double media_port = accumulate(notas_port.begin(), notas_port.end(), 0.0) / 3.0;
-            double media_hist = accumulate(notas_hist.begin(), notas_hist.end(), 0.0) / 3.0;
+            std::cin >> n1 >> n2 >> n3;
+            double port_avg = (n1 + n2 + n3) / 3.0;
 
-            if (media_mat >= 7 && media_port >= 7 && media_hist >= 7 && presenca >= 0.75) {
-                salas[i].aprovados++;
+            std::cin >> n1 >> n2 >> n3;
+            double hist_avg = (n1 + n2 + n3) / 3.0;
+
+            if (presence >= 0.75 && math_avg >= 7.0 && port_avg >= 7.0 && hist_avg >= 7.0) {
+                current_approved_count++;
             }
         }
+        salas.push_back({id, current_approved_count});
     }
 
-    sort(salas.begin(), salas.end(), compareSalas);
+    std::stable_sort(salas.begin(), salas.end(), [](const Sala& a, const Sala& b) {
+        return a.approved_count > b.approved_count;
+    });
 
-    for (int i = 0; i < n; ++i) {
-        cout << i + 1 << ". [SALA #" << salas[i].id << "] APROVADOS: " << salas[i].aprovados << endl;
+    for (size_t i = 0; i < salas.size(); ++i) {
+        std::cout << i + 1 << ". [SALA #" << salas[i].id << "] APROVADOS: " << salas[i].approved_count << "\n";
     }
 
     return 0;

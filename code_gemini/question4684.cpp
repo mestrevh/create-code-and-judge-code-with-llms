@@ -1,55 +1,50 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <algorithm>
 
-using namespace std;
-
 int main() {
-    int n, m, x;
-    cin >> n >> m >> x;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<vector<int>> matrix(n, vector<int>(m));
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            cin >> matrix[i][j];
-        }
-    }
+    int N, M, X;
+    std::cin >> N >> M;
+    std::cin >> X;
 
-    vector<int> col_counts(m, 0);
-    for (int j = 0; j < m; ++j) {
-        for (int i = 0; i < n; ++i) {
-            if (matrix[i][j] == x) {
-                col_counts[j]++;
+    std::vector<int> counts(M, 0);
+
+    for (int i = 0; i < N; ++i) {
+        for (int j = 0; j < M; ++j) {
+            int value;
+            std::cin >> value;
+            if (value == X) {
+                counts[j]++;
             }
         }
     }
 
-    for (int i = 0; i < m; ++i) {
-        cout << col_counts[i] << (i == m - 1 ? "" : " ");
+    for (int j = 0; j < M; ++j) {
+        std::cout << counts[j] << " ";
     }
-    cout << endl << endl;
+    std::cout << "\n\n";
 
-    int max_count = 0;
-    for (int count : col_counts) {
-        max_count = max(max_count, count);
+    int max_height = 0;
+    if (!counts.empty()) {
+        max_height = *std::max_element(counts.begin(), counts.end());
     }
 
-    vector<vector<int>> histogram(max_count, vector<int>(m, 0));
-    for (int j = 0; j < m; ++j) {
-        for (int i = 0; i < col_counts[j]; ++i) {
-            histogram[i][j] = 1;
+    for (int i = 0; i < max_height; ++i) {
+        for (int j = 0; j < M; ++j) {
+            if (i < counts[j]) {
+                std::cout << "1 ";
+            } else {
+                std::cout << "0 ";
+            }
         }
-    }
-
-    for (int i = 0; i < max_count; ++i) {
-        for (int j = 0; j < m; ++j) {
-            cout << histogram[i][j] << (j == m - 1 ? "" : " ");
-        }
-        cout << endl;
+        std::cout << "\n";
     }
 
     return 0;

@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -17,44 +17,48 @@ int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
 
-    int x_start, y_start, c;
-    std::cin >> x_start >> y_start >> c;
+    int x, y, c;
+    std::cin >> x >> y >> c;
 
-    int q_start = get_quadrant(x_start, y_start);
+    int start_q = get_quadrant(x, y);
+    int target_x, target_y;
 
-    if (q_start == 0 || q_start == c) {
+    bool is_valid_c = false;
+
+    switch (start_q) {
+        case 1:
+            target_x = -1;
+            target_y = -1;
+            if (c == 2 || c == 4) is_valid_c = true;
+            break;
+        case 2:
+            target_x = 1;
+            target_y = -1;
+            if (c == 1 || c == 3) is_valid_c = true;
+            break;
+        case 3:
+            target_x = 1;
+            target_y = 1;
+            if (c == 2 || c == 4) is_valid_c = true;
+            break;
+        case 4:
+            target_x = -1;
+            target_y = 1;
+            if (c == 1 || c == 3) is_valid_c = true;
+            break;
+    }
+
+    if (!is_valid_c) {
         std::cout << "caminhada invalida\n";
         return 0;
     }
 
-    int x_dest, y_dest;
-    switch (q_start) {
-        case 1:
-            x_dest = -1;
-            y_dest = -1;
-            break;
-        case 2:
-            x_dest = 1;
-            y_dest = -1;
-            break;
-        case 3:
-            x_dest = 1;
-            y_dest = 1;
-            break;
-        case 4:
-            x_dest = -1;
-            y_dest = 1;
-            break;
-    }
-
-    int p1_x = x_start;
-    int p1_y = y_dest;
-    int q_p1 = get_quadrant(p1_x, p1_y);
+    int intermediate_q_Y_first = get_quadrant(x, target_y);
     
-    int steps_x = std::abs(x_dest - x_start);
-    int steps_y = std::abs(y_dest - y_start);
+    int steps_x = std::abs(x - target_x);
+    int steps_y = std::abs(y - target_y);
 
-    if (q_p1 != c) {
+    if (intermediate_q_Y_first != c) {
         std::cout << steps_y << " passos em y e " << steps_x << " passos em x\n";
     } else {
         std::cout << steps_x << " passos em x e " << steps_y << " passos em y\n";

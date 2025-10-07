@@ -1,12 +1,16 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
     int a, m;
-    std::cin >> a >> m;
-    std::cout << 2 * m - a << std::endl;
+    std::cin >> a;
+    std::cin >> m;
+    int b = 2 * m - a;
+    std::cout << b << std::endl;
     return 0;
 }

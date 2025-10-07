@@ -1,23 +1,22 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
 
-using namespace std;
-
-string eh_bissexto(int ano) {
-  if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 4 == 0 && ano % 100 == 0 && ano % 400 == 0)) {
-    return "bissexto";
-  } else {
-    return "nao bissexto";
-  }
+void eh_bissexto(int ano) {
+    if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)) {
+        std::cout << "bissexto" << std::endl;
+    } else {
+        std::cout << "nao bissexto" << std::endl;
+    }
 }
 
 int main() {
-  int ano;
-  cin >> ano;
-  cout << eh_bissexto(ano) << endl;
-  return 0;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    int ano;
+    std::cin >> ano;
+    eh_bissexto(ano);
+    return 0;
 }

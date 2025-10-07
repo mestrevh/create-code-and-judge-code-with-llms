@@ -1,32 +1,51 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
-#include <algorithm>
+#include <cctype>
 
-using namespace std;
+void contar_vogais(std::string s) {
+    int a_count = 0;
+    int e_count = 0;
+    int i_count = 0;
+    int o_count = 0;
+    int u_count = 0;
 
-int contar_vogais(string s, char vogal) {
-    int count = 0;
-    for (char c : s) {
-        if (tolower(c) == tolower(vogal)) {
-            count++;
+    for (char ch : s) {
+        char lower_ch = tolower(ch);
+        switch (lower_ch) {
+            case 'a':
+                a_count++;
+                break;
+            case 'e':
+                e_count++;
+                break;
+            case 'i':
+                i_count++;
+                break;
+            case 'o':
+                o_count++;
+                break;
+            case 'u':
+                u_count++;
+                break;
         }
     }
-    return count;
+
+    std::cout << "A: " << a_count << std::endl;
+    std::cout << "E: " << e_count << std::endl;
+    std::cout << "I: " << i_count << std::endl;
+    std::cout << "O: " << o_count << std::endl;
+    std::cout << "U: " << u_count << std::endl;
 }
 
 int main() {
-    string s;
-    getline(cin, s);
-
-    cout << "A: " << contar_vogais(s, 'a') << endl;
-    cout << "E: " << contar_vogais(s, 'e') << endl;
-    cout << "I: " << contar_vogais(s, 'i') << endl;
-    cout << "O: " << contar_vogais(s, 'o') << endl;
-    cout << "U: " << contar_vogais(s, 'u') << endl;
-
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    std::string palavra;
+    std::cin >> palavra;
+    contar_vogais(palavra);
     return 0;
 }

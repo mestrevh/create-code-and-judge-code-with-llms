@@ -6,7 +6,7 @@ import time
 load_dotenv()
 
 print("Menu:")
-print("1 - Enviar os codigos do LLM gemini-1.5-pro-latest?")
+print("1 - Enviar os codigos do LLM gemini pro 2.5?")
 print("2 - Enviar os codigos do LLM gpt-4o-mini?")
 op = input("Escolha uma opção acima: ")
 
@@ -26,7 +26,7 @@ for i in range(2, 5000):
 
     headers = {
         "Accept": "application/json, text/plain, */*",
-        "Authorization": os.getenv("TOKEN_THE_HUXLEY"),
+        "Authorization": "Bearer " + os.getenv("TOKEN_THE_HUXLEY"),
         "Origin": "https://www.thehuxley.com",
         "Referer": f"https://www.thehuxley.com/problem/{i}/code-editor/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0",
@@ -37,7 +37,7 @@ for i in range(2, 5000):
     }
 
     try:
-        with open(f"{code_dir}/question{i}.cpp", 'r', encoding='utf-8') as f:
+        with open(f"C:/Users/Victo/Desktop/Ufal/create-code-and-judge-code-with-llms/{code_dir}/question{i}.cpp", 'r', encoding='utf-8') as f:
             codigo = f.read()
     except FileNotFoundError:
         print(f"ERRO: O arquivo não foi encontrado. O programa continuará.")

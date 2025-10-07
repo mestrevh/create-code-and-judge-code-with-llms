@@ -1,101 +1,73 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
 #include <vector>
-
-using namespace std;
+#include <string>
+#include <utility>
 
 int main() {
-    string s;
-    cin >> s;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    int connected_count = 0;
-    for (char c : s) {
-        if (c != 'x') {
-            connected_count++;
+    std::vector<char> all_wires(6);
+    for (int i = 0; i < 6; ++i) {
+        std::cin >> all_wires[i];
+    }
+
+    std::vector<std::pair<char, char>> connected_wires;
+    for (int i = 0; i < 6; ++i) {
+        if (all_wires[i] != 'x') {
+            connected_wires.push_back({all_wires[i], (char)('a' + i)});
         }
     }
 
-    if (connected_count == 4) {
+    int count = connected_wires.size();
+    char wire_to_cut = ' ';
+
+    if (count == 4) {
         bool has_red = false;
-        for (char c : s) {
-            if (c == 'r') {
+        for (const auto& wire : connected_wires) {
+            if (wire.first == 'r') {
                 has_red = true;
                 break;
             }
         }
 
         if (!has_red) {
-            int count = 0;
-            for (int i = 0; i < 6; ++i) {
-                if (s[i] != 'x') {
-                    count++;
-                    if (count == 2) {
-                        cout << "corta " << (char)('a' + i) << endl;
-                        return 0;
-                    }
-                }
-            }
+            wire_to_cut = connected_wires[1].second;
         } else {
-            if (s[5] == 'b') {
-                cout << "corta f" << endl;
-                return 0;
+            if (connected_wires.back().first == 'b') {
+                wire_to_cut = connected_wires.back().second;
             } else {
-                for (int i = 0; i < 6; ++i) {
-                    if (s[i] != 'x') {
-                        cout << "corta " << (char)('a' + i) << endl;
-                        return 0;
-                    }
-                }
+                wire_to_cut = connected_wires[0].second;
             }
         }
-    } else if (connected_count == 5) {
-        if (s[0] == 'y' && s[1] == 'y') {
-            cout << "corta a" << endl;
-            return 0;
+    } else if (count == 5) {
+        if (connected_wires[0].first == 'y' && connected_wires[1].first == 'y') {
+            wire_to_cut = connected_wires[0].second;
         } else {
-            int count = 0;
-            for (int i = 0; i < 6; ++i) {
-                if (s[i] != 'x') {
-                    count++;
-                    if (count == 2) {
-                        cout << "corta " << (char)('a' + i) << endl;
-                        return 0;
-                    }
-                }
-            }
+            wire_to_cut = connected_wires[1].second;
         }
-    } else if (connected_count == 6) {
+    } else if (count == 6) {
         int green_count = 0;
-        for (char c : s) {
-            if (c == 'g') {
+        char green_wire_name = ' ';
+        for (const auto& wire : connected_wires) {
+            if (wire.first == 'g') {
                 green_count++;
+                green_wire_name = wire.second;
             }
         }
 
         if (green_count == 1) {
-            for (int i = 0; i < 6; ++i) {
-                if (s[i] == 'g') {
-                    cout << "corta " << (char)('a' + i) << endl;
-                    return 0;
-                }
-            }
+            wire_to_cut = green_wire_name;
         } else {
-            int count = 0;
-            for (int i = 0; i < 6; ++i) {
-                if (s[i] != 'x') {
-                    count++;
-                    if (count == 5) {
-                        cout << "corta " << (char)('a' + i) << endl;
-                        return 0;
-                    }
-                }
-            }
+            wire_to_cut = connected_wires[4].second;
         }
     }
+
+    std::cout << "corta " << wire_to_cut << std::endl;
 
     return 0;
 }

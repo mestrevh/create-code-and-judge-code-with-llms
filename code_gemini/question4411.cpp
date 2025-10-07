@@ -1,41 +1,27 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <unordered_map>
 
-using namespace std;
-
 int main() {
-    string input;
-    getline(cin, input);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
 
-    string nums_str = input.substr(1, input.find("]") - 1);
-    string target_str = input.substr(input.find("]") + 2);
+    std::vector<int> nums = {2, 7, 11, 15};
+    int target = 9;
 
-    int target = stoi(target_str);
-
-    vector<int> nums;
-    string delimiter = ", ";
-    size_t pos = 0;
-    string token;
-    while ((pos = nums_str.find(delimiter)) != string::npos) {
-        token = nums_str.substr(0, pos);
-        nums.push_back(stoi(token));
-        nums_str.erase(0, pos + delimiter.length());
-    }
-    nums.push_back(stoi(nums_str));
-
-    unordered_map<int, int> numMap;
-    for (int i = 0; i < nums.size(); i++) {
+    std::unordered_map<int, int> num_map;
+    
+    for (int i = 0; i < nums.size(); ++i) {
         int complement = target - nums[i];
-        if (numMap.count(complement)) {
-            cout << "[" << numMap[complement] << ", " << i << "]" << endl;
+        if (num_map.count(complement)) {
+            std::cout << "[" << num_map[complement] << ", " << i << "]\n";
             return 0;
         }
-        numMap[nums[i]] = i;
+        num_map[nums[i]] = i;
     }
 
     return 0;

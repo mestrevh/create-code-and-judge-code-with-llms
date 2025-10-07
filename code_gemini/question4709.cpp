@@ -1,20 +1,22 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 
-using namespace std;
-
 void amadoProfessor(int n) {
-  for (int i = 1; i <= 10; i++) {
-    cout << n << " x " << i << " =  " << n * i << endl;
-  }
+    for (int i = 1; i <= 10; ++i) {
+        std::cout << n << " x " << i << " =  " << n * i << std::endl;
+    }
 }
 
 int main() {
-  int n;
-  cin >> n;
-  amadoProfessor(n);
-  return 0;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    int numero;
+    std::cin >> numero;
+    amadoProfessor(numero);
+    
+    return 0;
 }

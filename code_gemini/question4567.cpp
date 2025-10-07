@@ -1,50 +1,50 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 
-using namespace std;
-
 int main() {
-    int n, m, a, b;
-    cin >> n >> m >> a >> b;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    if (m != a) {
-        cout << "Nao eh possivel multiplicar!" << endl;
+    int N, M, A, B;
+    std::cin >> N >> M >> A >> B;
+
+    if (M != A) {
+        std::cout << "Nao eh possivel multiplicar!\n";
         return 0;
     }
 
-    vector<vector<int>> mat1(n, vector<int>(m));
-    vector<vector<int>> mat2(a, vector<int>(b));
-    vector<vector<int>> result(n, vector<int>(b));
-
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            cin >> mat1[i][j];
+    std::vector<std::vector<int>> mat1(N, std::vector<int>(M));
+    for (int i = 0; i < N; ++i) {
+        for (int j = 0; j < M; ++j) {
+            std::cin >> mat1[i][j];
         }
     }
 
-    for (int i = 0; i < a; i++) {
-        for (int j = 0; j < b; j++) {
-            cin >> mat2[i][j];
+    std::vector<std::vector<int>> mat2(A, std::vector<int>(B));
+    for (int i = 0; i < A; ++i) {
+        for (int j = 0; j < B; ++j) {
+            std::cin >> mat2[i][j];
         }
     }
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < b; j++) {
-            for (int k = 0; k < m; k++) {
+    std::vector<std::vector<int>> result(N, std::vector<int>(B, 0));
+    for (int i = 0; i < N; ++i) {
+        for (int j = 0; j < B; ++j) {
+            for (int k = 0; k < M; ++k) {
                 result[i][j] += mat1[i][k] * mat2[k][j];
             }
         }
     }
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < b; j++) {
-            cout << result[i][j] << (j == b - 1 ? "" : " ");
+    for (int i = 0; i < N; ++i) {
+        for (int j = 0; j < B; ++j) {
+            std::cout << result[i][j] << (j == B - 1 ? "" : " ");
         }
-        cout << endl;
+        std::cout << '\n';
     }
 
     return 0;

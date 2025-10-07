@@ -1,86 +1,58 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
+#include <map>
 #include <algorithm>
-#include <unordered_set>
 
-using namespace std;
+void print_vector(const std::vector<int>& vec) {
+    std::cout << "[";
+    for (size_t i = 0; i < vec.size(); ++i) {
+        std::cout << vec[i];
+        if (i < vec.size() - 1) {
+            std::cout << ", ";
+        }
+    }
+    std::cout << "]" << std::endl;
+}
 
 int main() {
-    int n, n2;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    cin >> n;
-    vector<int> list1(n);
+    std::map<int, int> counts;
+    int n, n2, num;
+
+    std::cin >> n;
     for (int i = 0; i < n; ++i) {
-        cin >> list1[i];
+        std::cin >> num;
+        counts[num]++;
     }
 
-    cin >> n2;
-    vector<int> list2(n2);
+    std::cin >> n2;
     for (int i = 0; i < n2; ++i) {
-        cin >> list2[i];
+        std::cin >> num;
+        counts[num]++;
     }
 
-    vector<int> all_numbers;
-    all_numbers.reserve(n + n2);
-    all_numbers.insert(all_numbers.end(), list1.begin(), list1.end());
-    all_numbers.insert(all_numbers.end(), list2.begin(), list2.end());
+    std::vector<int> repeated_list;
+    std::vector<int> all_unique_list;
+    std::vector<int> unique_only_list;
 
-    vector<int> repeated_numbers;
-    unordered_set<int> seen;
-    unordered_set<int> repeated_set;
-
-    for (int num : all_numbers) {
-        if (seen.count(num)) {
-            repeated_set.insert(num);
+    for (const auto& pair : counts) {
+        all_unique_list.push_back(pair.first);
+        if (pair.second > 1) {
+            repeated_list.push_back(pair.first);
         } else {
-            seen.insert(num);
+            unique_only_list.push_back(pair.first);
         }
     }
 
-    repeated_numbers.assign(repeated_set.begin(), repeated_set.end());
-    sort(repeated_numbers.begin(), repeated_numbers.end());
-
-    vector<int> all_unique_numbers;
-    all_unique_numbers.assign(seen.begin(), seen.end());
-    sort(all_unique_numbers.begin(), all_unique_numbers.end());
-    
-    vector<int> non_repeated_numbers;
-    for(int num : all_unique_numbers){
-        if(repeated_set.find(num) == repeated_set.end()){
-            non_repeated_numbers.push_back(num);
-        }
-    }
-
-    cout << "[";
-    for (size_t i = 0; i < repeated_numbers.size(); ++i) {
-        cout << repeated_numbers[i];
-        if (i < repeated_numbers.size() - 1) {
-            cout << ", ";
-        }
-    }
-    cout << "]" << endl;
-
-    cout << "[";
-    for (size_t i = 0; i < all_unique_numbers.size(); ++i) {
-        cout << all_unique_numbers[i];
-        if (i < all_unique_numbers.size() - 1) {
-            cout << ", ";
-        }
-    }
-    cout << "]" << endl;
-
-    cout << "[";
-    for (size_t i = 0; i < non_repeated_numbers.size(); ++i) {
-        cout << non_repeated_numbers[i];
-        if (i < non_repeated_numbers.size() - 1) {
-            cout << ", ";
-        }
-    }
-    cout << "]" << endl;
+    print_vector(repeated_list);
+    print_vector(all_unique_list);
+    print_vector(unique_only_list);
 
     return 0;
 }

@@ -1,18 +1,23 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <iomanip>
 
-using namespace std;
-
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    
     double a, b, c, d;
-    cin >> a >> b >> c >> d;
-
-    cout << fixed << setprecision(2) << a * b + c / d << endl;
-    cout << fixed << setprecision(2) << (((a * b) + c) / d) << endl;
-
+    std::cin >> a >> b >> c >> d;
+    
+    double math1_result = (a * b) + (c / d);
+    double math2_result = ((a * b) + c) / d;
+    
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << math1_result << std::endl;
+    std::cout << math2_result << std::endl;
+    
     return 0;
 }

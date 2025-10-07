@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -7,10 +7,8 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <string>
 #include <algorithm>
 
-using namespace std;
-
 struct Crianca {
-    string nome;
+    std::string nome;
     int pontuacao;
 };
 
@@ -22,20 +20,26 @@ bool compararCriancas(const Crianca& a, const Crianca& b) {
 }
 
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<Crianca> criancas(n);
+    int n;
+    std::cin >> n;
+
+    std::vector<Crianca> criancas;
     for (int i = 0; i < n; ++i) {
-        int o, b, r, p;
-        cin >> criancas[i].nome >> criancas[i].pontuacao >> o >> b >> r >> p;
-        criancas[i].pontuacao += (o * 5) + (b * 3) - (r * 3) - (p * 5);
+        std::string nome;
+        int p_anterior, otimas, boas, ruins, pessimas;
+        std::cin >> nome >> p_anterior >> otimas >> boas >> ruins >> pessimas;
+
+        int pontuacao_final = p_anterior + (otimas * 5) + (boas * 3) - (ruins * 3) - (pessimas * 5);
+        criancas.push_back({nome, pontuacao_final});
     }
 
-    sort(criancas.begin(), criancas.end(), compararCriancas);
+    std::sort(criancas.begin(), criancas.end(), compararCriancas);
 
-    for (int i = 0; i < n; ++i) {
-        cout << criancas[i].nome << " " << criancas[i].pontuacao << endl;
+    for (const auto& crianca : criancas) {
+        std::cout << crianca.nome << " " << crianca.pontuacao << "\n";
     }
 
     return 0;

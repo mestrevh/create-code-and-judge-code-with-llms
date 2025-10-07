@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -7,31 +7,34 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <numeric>
 #include <algorithm>
 
-using namespace std;
-
-bool can_cut(int slice_size, int n, const vector<int>& m) {
-    int count = 0;
-    for (int bread_size : m) {
-        count += bread_size / slice_size;
-    }
-    return count >= n;
-}
-
 int main() {
-    int n, k;
-    cin >> n >> k;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<int> m(k);
+    int n, k;
+    std::cin >> n >> k;
+
+    std::vector<int> m(k);
     for (int i = 0; i < k; ++i) {
-        cin >> m[i];
+        std::cin >> m[i];
     }
 
-    int low = 1, high = *max_element(m.begin(), m.end());
-    int ans = 0;
+    long long low = 1;
+    long long high = 10001;
+    long long ans = 0;
 
     while (low <= high) {
-        int mid = low + (high - low) / 2;
-        if (can_cut(mid, n, m)) {
+        long long mid = low + (high - low) / 2;
+        if (mid == 0) {
+            break;
+        }
+
+        long long current_slices = 0;
+        for (int len : m) {
+            current_slices += len / mid;
+        }
+
+        if (current_slices >= n) {
             ans = mid;
             low = mid + 1;
         } else {
@@ -39,7 +42,7 @@ int main() {
         }
     }
 
-    cout << ans << endl;
+    std::cout << ans << std::endl;
 
     return 0;
 }

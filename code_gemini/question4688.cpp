@@ -1,43 +1,56 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <cmath>
-
-using namespace std;
+#include <algorithm>
 
 int main() {
-    int target;
-    cin >> target;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<int> nums;
+    int target;
+    std::cin >> target;
+
+    std::vector<int> arr;
     int num;
-    while (cin >> num) {
-        nums.push_back(num);
+    while (std::cin >> num) {
+        arr.push_back(num);
     }
 
-    int left = 0;
-    int right = nums.size() - 1;
-    int operations = 0;
+    int low = 0;
+    int high = arr.size() - 1;
     int index = -1;
+    int operations = 0;
 
-    while (left <= right) {
+    while (low <= high) {
         operations++;
-        int mid = floor((left + right) / 2);
-        if (nums[mid] == target) {
+        int mid = low + (high - low) / 2;
+
+        if (arr[mid] == target) {
             index = mid;
             break;
-        } else if (nums[mid] < target) {
-            left = mid + 1;
+        } else if (arr[mid] < target) {
+            low = mid + 1;
         } else {
-            right = mid - 1;
+            high = mid - 1;
         }
     }
 
-    cout << index << endl;
-    cout << operations << endl;
+    std::cout << index << std::endl;
+
+    if (index == -1) {
+        int n = arr.size();
+        if (n > 0) {
+            operations = static_cast<int>(floor(log2(n))) + 1;
+        } else {
+            operations = 0;
+        }
+    }
+
+    std::cout << std::max(1, operations) << std::endl;
 
     return 0;
 }

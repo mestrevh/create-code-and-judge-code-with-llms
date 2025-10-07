@@ -1,71 +1,59 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
-#include <vector>
-#include <sstream>
 #include <cmath>
-#include <iomanip>
-
-using namespace std;
 
 bool is_prime(int n) {
-    if (n <= 1) return false;
+    if (n <= 1) {
+        return false;
+    }
     for (int i = 2; i * i <= n; ++i) {
-        if (n % i == 0) return false;
+        if (n % i == 0) {
+            return false;
+        }
     }
     return true;
 }
 
 int main() {
-    int d, m, y;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    int d_start, m_start, a_start;
     char slash;
-    cin >> d >> slash >> m >> slash >> y;
+    std::cin >> d_start >> slash >> m_start >> slash >> a_start;
 
-    int n;
-    cin >> n;
+    int N;
+    std::cin >> N;
 
-    int days = 0;
-    for (int i = 0; i < n; ++i) {
-        int q;
-        cin >> q;
-        if (q % 2 != 0 && is_prime(q)) {
-            days -= q;
+    long long total_days_change = 0;
+    for (int i = 0; i < N; ++i) {
+        int Q;
+        std::cin >> Q;
+        if (Q % 2 != 0 && is_prime(Q)) {
+            total_days_change -= Q;
         } else {
-            days += q;
+            total_days_change += Q;
         }
     }
 
-    if (days < 0) {
-        cout << "Matheusinho precisa parar AGORA ou vai de F" << endl;
+    if (total_days_change < 0) {
+        std::cout << "Matheusinho precisa parar AGORA ou vai de F\n";
     } else {
-        cout << "Matheusinho tem " << days << " dias pra se recuperar" << endl;
+        std::cout << "Matheusinho tem " << total_days_change << " dias pra se recuperar\n";
 
-        int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-        if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) {
-            days_in_month[2] = 29;
-        }
+        long long days_from_epoch = (long long)a_start * 360 + (long long)(m_start - 1) * 30 + (d_start - 1);
+        days_from_epoch += total_days_change;
+
+        long long final_year = days_from_epoch / 360;
+        long long remaining_days_in_year = days_from_epoch % 360;
         
-        for (int i = 0; i < days; ++i) {
-            d++;
-            if (d > days_in_month[m]) {
-                d = 1;
-                m++;
-                if (m > 12) {
-                    m = 1;
-                    y++;
-                    if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) {
-                        days_in_month[2] = 29;
-                    } else {
-                         days_in_month[2] = 28;
-                    }
-                }
-            }
-        }
+        long long final_month = remaining_days_in_year / 30 + 1;
+        long long final_day = remaining_days_in_year % 30 + 1;
 
-        cout << "Se não vai de F em " << setfill('0') << setw(2) << d << "/" << setfill('0') << setw(2) << m << "/" << y << endl;
+        std::cout << "Se não vai de F em " << final_day << "/" << final_month << "/" << final_year << "\n";
     }
 
     return 0;

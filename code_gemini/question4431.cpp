@@ -1,29 +1,32 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
-
-using namespace std;
+#include <vector>
 
 int main() {
-    string s;
-    cin >> s;
-
-    while (true) {
-        size_t pos = s.find("abc");
-        if (pos == string::npos) {
-            break;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    std::string s;
+    std::cin >> s;
+    std::string result;
+    result.reserve(s.length());
+    for (char c : s) {
+        result.push_back(c);
+        if (result.length() >= 3) {
+            if (result[result.length() - 3] == 'A' &&
+                result[result.length() - 2] == 'B' &&
+                result[result.length() - 1] == 'C') {
+                result.resize(result.length() - 3);
+            }
         }
-        s.erase(pos, 3);
     }
-
-    if (s.empty()) {
-        cout << "string vazia" << endl;
+    if (result.empty()) {
+        std::cout << "string vazia\n";
     } else {
-        cout << s << endl;
+        std::cout << result << "\n";
     }
-
     return 0;
 }

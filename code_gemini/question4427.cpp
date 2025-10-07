@@ -1,63 +1,66 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <iomanip>
+#include <numeric>
 #include <algorithm>
+#include <iomanip>
 #include <map>
 
-using namespace std;
-
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
+    std::cin >> n;
 
-    vector<double> notas(n);
+    std::vector<int> notas(n);
+    double soma = 0.0;
     for (int i = 0; i < n; ++i) {
-        cin >> notas[i];
+        std::cin >> notas[i];
+        soma += notas[i];
     }
 
-    double soma = 0;
-    for (double nota : notas) {
-        soma += nota;
-    }
     double media = soma / n;
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << "Media: " << media << std::endl;
 
-    sort(notas.begin(), notas.end());
+    std::sort(notas.begin(), notas.end());
     double mediana;
-    if (n % 2 == 0) {
-        mediana = (notas[n / 2 - 1] + notas[n / 2]) / 2.0;
+    if (n % 2 != 0) {
+        mediana = static_cast<double>(notas[n / 2]);
     } else {
-        mediana = notas[n / 2];
+        mediana = (static_cast<double>(notas[n / 2 - 1] + notas[n / 2])) / 2.0;
     }
+    std::cout << "Mediana: " << mediana << std::endl;
 
-    map<double, int> freq;
-    for (double nota : notas) {
+    int freq[11] = {0};
+    for (int nota : notas) {
         freq[nota]++;
     }
 
     int max_freq = 0;
-    double moda;
-    bool tem_moda = false;
-    for (auto const& [nota, count] : freq) {
-        if (count > max_freq) {
-            max_freq = count;
-            moda = nota;
-            tem_moda = true;
-        } else if (count == max_freq && tem_moda) {
-            tem_moda = false;
+    for (int i = 0; i <= 10; ++i) {
+        if (freq[i] > max_freq) {
+            max_freq = freq[i];
         }
     }
 
-    cout << fixed << setprecision(2);
-    cout << "Media: " << media << endl;
-    cout << "Mediana: " << mediana << endl;
-    if (tem_moda) {
-        cout << "Moda: " << moda << endl;
+    int moda = -1;
+    int count_max_freq = 0;
+    for (int i = 0; i <= 10; ++i) {
+        if (freq[i] == max_freq) {
+            count_max_freq++;
+            moda = i;
+        }
+    }
+
+    if (count_max_freq == 1) {
+        std::cout << "Moda: " << static_cast<double>(moda) << std::endl;
     } else {
-        cout << "Nao tem moda" << endl;
+        std::cout << "Nao tem moda" << std::endl;
     }
 
     return 0;

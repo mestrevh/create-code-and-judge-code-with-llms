@@ -1,39 +1,38 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <stack>
-#include <algorithm>
-
-using namespace std;
 
 int main() {
-    string line;
-    getline(cin, line);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    string word;
-    string result = "";
+    std::string line;
+    std::getline(std::cin, line);
 
-    for (int i = 0; i < line.length(); i++) {
-        if (line[i] == ' ') {
-            result += ' ';
+    std::stack<char> word_stack;
+
+    for (char c : line) {
+        if (c == ' ') {
+            while (!word_stack.empty()) {
+                std::cout << word_stack.top();
+                word_stack.pop();
+            }
+            std::cout << ' ';
         } else {
-            stack<char> s;
-            while (i < line.length() && line[i] != ' ') {
-                s.push(line[i]);
-                i++;
-            }
-            i--;
-            while (!s.empty()) {
-                result += s.top();
-                s.pop();
-            }
+            word_stack.push(c);
         }
     }
 
-    cout << result << endl;
+    while (!word_stack.empty()) {
+        std::cout << word_stack.top();
+        word_stack.pop();
+    }
+    
+    std::cout << std::endl;
 
     return 0;
 }

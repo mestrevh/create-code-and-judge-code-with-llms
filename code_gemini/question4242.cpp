@@ -1,9 +1,10 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
+#include <vector>
 #include <cmath>
 #include <algorithm>
 #include <sstream>
@@ -13,22 +14,18 @@ int main() {
     std::cin.tie(NULL);
 
     std::string clima;
-    std::string data_str;
+    std::string data;
     std::string mensagem;
 
     std::cin >> clima;
-    std::cin >> data_str;
+    std::cin >> data;
     std::cin.ignore();
     std::getline(std::cin, mensagem);
 
-    if (clima != "ensolarado" && clima != "chuvoso") {
-        std::cout << "Mensagem codificada invalida, provavelmente mais uma tentativa dos aliens de nos enganar!" << std::endl;
-        return 0;
-    }
-
-    int soma_ano = (data_str[6] - '0') + (data_str[7] - '0') + (data_str[8] - '0') + (data_str[9] - '0');
-    int soma_dia_mes = (data_str[0] - '0') + (data_str[1] - '0') + (data_str[3] - '0') + (data_str[4] - '0');
-    int chave = std::abs(soma_ano - soma_dia_mes);
+    int soma_ano = (data[6] - '0') + (data[7] - '0') + (data[8] - '0') + (data[9] - '0');
+    int soma_dia_mes = (data[0] - '0') + (data[1] - '0') + (data[3] - '0') + (data[4] - '0');
+    int chave = soma_ano - soma_dia_mes;
+    chave = std::abs(chave);
 
     for (char &c : mensagem) {
         if (c != ' ') {
@@ -38,32 +35,34 @@ int main() {
 
     if (clima == "ensolarado") {
         std::reverse(mensagem.begin(), mensagem.end());
-    } else {
+        std::cout << mensagem << std::endl;
+    } else if (clima == "chuvoso") {
         std::stringstream ss(mensagem);
         std::string palavra;
-        std::string mensagem_final = "";
-        bool primeiro = true;
+        std::string resultado_final = "";
+        bool primeira_palavra = true;
 
         while (ss >> palavra) {
-            if (!primeiro) {
-                mensagem_final += " ";
+            if (!primeira_palavra) {
+                resultado_final += " ";
             }
+
             if (palavra.length() % 2 == 0) {
                 for (char &c : palavra) {
-                    c += 1;
+                    c++;
                 }
             } else {
                 for (char &c : palavra) {
-                    c -= 1;
+                    c--;
                 }
             }
-            mensagem_final += palavra;
-            primeiro = false;
+            resultado_final += palavra;
+            primeira_palavra = false;
         }
-        mensagem = mensagem_final;
+        std::cout << resultado_final << std::endl;
+    } else {
+        std::cout << "Mensagem codificada invalida, provavelmente mais uma tentativa dos aliens de nos enganar!" << std::endl;
     }
-
-    std::cout << mensagem << std::endl;
 
     return 0;
 }

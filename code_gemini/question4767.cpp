@@ -1,69 +1,52 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <cmath>
-#include <iomanip>
-
-using namespace std;
+#include <algorithm>
 
 int main() {
-    double hora_atual, tempo_trajeto;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    double hora_saida_float, tempo_trajeto;
     int vagas_atuais;
+    std::cin >> hora_saida_float >> tempo_trajeto >> vagas_atuais;
 
-    cin >> hora_atual >> tempo_trajeto >> vagas_atuais;
+    double hora_chegada_float = hora_saida_float + tempo_trajeto / 60.0;
 
-    double hora_chegada = hora_atual + (tempo_trajeto / 60.0);
-
-    if (hora_atual < 8.0 || hora_atual > 20.0 || hora_chegada < 8.0 || hora_chegada > 20.0) {
-        cout << "ulaM esta dormindo" << endl;
+    if (hora_saida_float < 8.0 || hora_saida_float > 20.0 || hora_chegada_float > 20.0) {
+        std::cout << "ulaM esta dormindo\n";
         return 0;
     }
 
+    double inicio_trajeto_min = hora_saida_float * 60.0;
+    double fim_trajeto_min = inicio_trajeto_min + tempo_trajeto;
+
     int vagas_perdidas = 0;
 
-    if (hora_atual < 12.0) {
-        double tempo_ate_12 = (12.0 - hora_atual) * 60.0;
-        if (tempo_ate_12 > tempo_trajeto) {
-            vagas_perdidas += ceil(tempo_trajeto / 5.0);
-        } else {
-            vagas_perdidas += ceil(tempo_ate_12 / 5.0);
-            tempo_trajeto -= tempo_ate_12;
-            if (hora_chegada <= 16.0) {
-                vagas_perdidas += ceil(tempo_trajeto / 4.0);
-             } else {
-                 double tempo_ate_16 = (16.0 - 12.0) * 60.0;
-                 if(tempo_ate_16 > tempo_trajeto){
-                    vagas_perdidas += ceil(tempo_trajeto / 4.0);
-                 } else {
-                    vagas_perdidas += ceil(tempo_ate_16 / 4.0);
-                    tempo_trajeto -= tempo_ate_16;
-                    vagas_perdidas += ceil(tempo_trajeto / 2.0);
+    double inicio_int1 = 480.0;
+    double fim_int1 = 720.0;
+    double tempo_no_int1 = std::max(0.0, std::min(fim_trajeto_min, fim_int1) - std::max(inicio_trajeto_min, inicio_int1));
+    vagas_perdidas += static_cast<int>(std::floor(tempo_no_int1 / 5.0));
 
-                 }
+    double inicio_int2 = 720.0;
+    double fim_int2 = 960.0;
+    double tempo_no_int2 = std::max(0.0, std::min(fim_trajeto_min, fim_int2) - std::max(inicio_trajeto_min, inicio_int2));
+    vagas_perdidas += static_cast<int>(std::floor(tempo_no_int2 / 4.0));
 
-             }
-        }
-    } else if (hora_atual < 16.0) {
-         double tempo_ate_16 = (16.0 - hora_atual) * 60.0;
-        if (tempo_ate_16 > tempo_trajeto) {
-            vagas_perdidas += ceil(tempo_trajeto / 4.0);
-        } else {
-            vagas_perdidas += ceil(tempo_ate_16 / 4.0);
-            tempo_trajeto -= tempo_ate_16;
-            vagas_perdidas += ceil(tempo_trajeto / 2.0);
-        }
-    }
-     else {
-        vagas_perdidas += ceil(tempo_trajeto / 2.0);
-    }
+    double inicio_int3 = 960.0;
+    double fim_int3 = 1200.0;
+    double tempo_no_int3 = std::max(0.0, std::min(fim_trajeto_min, fim_int3) - std::max(inicio_trajeto_min, inicio_int3));
+    vagas_perdidas += static_cast<int>(std::floor(tempo_no_int3 / 2.0));
 
+    int vagas_restantes = vagas_atuais - vagas_perdidas;
 
-    if (vagas_atuais - vagas_perdidas >= 1) {
-        cout << "possui vaga para olecraM" << endl;
+    if (vagas_restantes >= 1) {
+        std::cout << "possui vaga para olecraM\n";
     } else {
-        cout << "nao tera vaga" << endl;
+        std::cout << "nao tera vaga\n";
     }
 
     return 0;

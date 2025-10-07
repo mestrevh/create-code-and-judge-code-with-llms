@@ -1,60 +1,61 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
-
-using namespace std;
+#include <algorithm>
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
-    vector<char> chars(n);
+    std::cin >> n;
+    std::vector<char> chars(n);
     for (int i = 0; i < n; ++i) {
-        cin >> chars[i];
+        std::cin >> chars[i];
     }
 
     int m;
-    cin >> m;
-    vector<int> nums(m);
+    std::cin >> m;
+    std::vector<int> nums(m);
     for (int i = 0; i < m; ++i) {
-        cin >> nums[i];
+        std::cin >> nums[i];
     }
 
-    vector<char> result;
-    int char_idx = 0;
-    int num_idx = 0;
+    std::vector<char> result;
+    int common_len = std::min(n, m);
 
-    while (char_idx < n || num_idx < m) {
-        if (char_idx < n && num_idx < m) {
-            char new_char = chars[char_idx] + nums[num_idx];
-            if (new_char >= 'a' && new_char <= 'z') {
-                result.push_back(new_char);
-            } else {
-                result.push_back('.');
-            }
-            char_idx++;
-            num_idx++;
-        } else if (num_idx < m) {
-            char new_char = 'a' + nums[num_idx];
-            if (new_char >= 'a' && new_char <= 'z') {
-                result.push_back(new_char);
-            } else {
-                result.push_back('.');
-            }
-            num_idx++;
+    for (int i = 0; i < common_len; ++i) {
+        char new_char = chars[i] + nums[i];
+        if (new_char >= 'a' && new_char <= 'z') {
+            result.push_back(new_char);
         } else {
-            result.push_back(chars[char_idx]);
-            char_idx++;
+            result.push_back('.');
         }
     }
 
-    for (char c : result) {
-        cout << c << " ";
+    if (n > m) {
+        for (int i = m; i < n; ++i) {
+            result.push_back(chars[i]);
+        }
+    } else if (m > n) {
+        for (int i = n; i < m; ++i) {
+            char new_char = 'a' + nums[i];
+            if (new_char >= 'a' && new_char <= 'z') {
+                result.push_back(new_char);
+            } else {
+                result.push_back('.');
+            }
+        }
     }
-    cout << endl;
+
+    for (size_t i = 0; i < result.size(); ++i) {
+        std::cout << result[i] << (i == result.size() - 1 ? "" : " ");
+    }
+    std::cout << "\n";
 
     return 0;
 }

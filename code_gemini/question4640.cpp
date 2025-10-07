@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -7,61 +7,79 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <string>
 #include <algorithm>
 #include <iomanip>
+#include <numeric>
 
-using namespace std;
-
-struct Student {
-    string name;
-    int age;
-    double grade;
+struct Aluno {
+    std::string nome;
+    int idade;
+    double nota;
 };
 
-bool compareByGrade(const Student& a, const Student& b) {
-    if (a.grade != b.grade) {
-        return a.grade < b.grade;
-    }
-    return a.age < b.age;
-}
-
-bool compareByAge(const Student& a, const Student& b) {
-    if (a.age != b.age) {
-        return a.age < b.age;
-    }
-    return a.grade < b.grade;
-}
-
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
+    std::cin >> n;
 
-    vector<Student> students(n);
+    std::vector<Aluno> alunos(n);
+    double soma_notas = 0.0;
+    double soma_idades = 0.0;
+
     for (int i = 0; i < n; ++i) {
-        cin >> students[i].name >> students[i].age >> students[i].grade;
+        std::cin >> alunos[i].nome >> alunos[i].idade >> alunos[i].nota;
+        soma_notas += alunos[i].nota;
+        soma_idades += alunos[i].idade;
     }
 
-    sort(students.begin(), students.end(), compareByGrade);
+    std::cout << std::fixed << std::setprecision(2);
 
-    cout << "---Notas---" << endl;
-    double sum_grades = 0;
-    for (const auto& student : students) {
-        cout << student.name << " " << fixed << setprecision(2) << student.grade << endl;
-        sum_grades += student.grade;
+    // --- Processamento por Notas ---
+    std::cout << "---Notas---" << "\n";
+
+    std::sort(alunos.begin(), alunos.end(), [](const Aluno& a, const Aluno& b) {
+        return a.nota < b.nota;
+    });
+
+    for (const auto& aluno : alunos) {
+        std::cout << aluno.nome << " " << aluno.nota << "\n";
     }
-    cout << "---------" << endl;
-    cout << "Media Nota: " << fixed << setprecision(2) << sum_grades / n << endl;
-    cout << "Mediana Nota: " << fixed << setprecision(2) << (n % 2 == 0 ? (students[n / 2 - 1].grade + students[n / 2].grade) / 2 : students[n / 2].grade) << endl << endl;
 
-    sort(students.begin(), students.end(), compareByAge);
+    std::cout << "---------" << "\n";
 
-    cout << "---Idade---" << endl;
-    double sum_ages = 0;
-    for (const auto& student : students) {
-        cout << student.name << " " << student.age << endl;
-        sum_ages += student.age;
+    double media_nota = soma_notas / n;
+    double mediana_nota;
+    if (n % 2 == 1) {
+        mediana_nota = alunos[n / 2].nota;
+    } else {
+        mediana_nota = (alunos[n / 2 - 1].nota + alunos[n / 2].nota) / 2.0;
     }
-    cout << "---------" << endl;
-    cout << "Media Idade: " << fixed << setprecision(2) << sum_ages / n << endl;
-    cout << "Mediana Idade: " << fixed << setprecision(2) << (n % 2 == 0 ? (double)(students[n / 2 - 1].age + students[n / 2].age) / 2 : (double)students[n / 2].age) << endl;
+    std::cout << "Media Nota: " << media_nota << "\n";
+    std::cout << "Mediana Nota: " << mediana_nota << "\n";
+    std::cout << "\n";
+
+    // --- Processamento por Idade ---
+    std::cout << "---Idade---" << "\n";
+
+    std::sort(alunos.begin(), alunos.end(), [](const Aluno& a, const Aluno& b) {
+        return a.idade < b.idade;
+    });
+
+    for (const auto& aluno : alunos) {
+        std::cout << aluno.nome << " " << aluno.idade << "\n";
+    }
+
+    std::cout << "---------" << "\n";
+
+    double media_idade = soma_idades / n;
+    double mediana_idade;
+    if (n % 2 == 1) {
+        mediana_idade = static_cast<double>(alunos[n / 2].idade);
+    } else {
+        mediana_idade = (static_cast<double>(alunos[n / 2 - 1].idade) + static_cast<double>(alunos[n / 2].idade)) / 2.0;
+    }
+    std::cout << "Media Idade: " << media_idade << "\n";
+    std::cout << "Mediana Idade: " << mediana_idade << "\n";
 
     return 0;
 }

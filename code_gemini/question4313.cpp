@@ -1,10 +1,11 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <vector>
+#include <numeric>
 
 int main() {
     std::ios_base::sync_with_stdio(false);
@@ -15,6 +16,7 @@ int main() {
 
     std::vector<std::string> passwords(n);
     bool all_valid = true;
+    long long total_chars = 0;
 
     for (int i = 0; i < n; ++i) {
         std::cin >> passwords[i];
@@ -26,44 +28,38 @@ int main() {
                 }
             }
         }
+        total_chars += passwords[i].length();
     }
 
     if (!all_valid) {
         std::cout << "Alguma senha eh invalida!\n";
-        return 0;
-    }
-
-    long long total_chars = 0;
-    std::string final_output = "";
-
-    for (const std::string& password : passwords) {
-        total_chars += password.length();
-        std::string encrypted_s = "";
-        for (char c : password) {
-            char encrypted_char = c;
-            switch (c) {
-                case 'A': encrypted_char = '0'; break;
-                case 'B': encrypted_char = 'D'; break;
-                case 'C': encrypted_char = 'E'; break;
-                case 'D': encrypted_char = '3'; break;
-                case 'F': encrypted_char = '4'; break;
-                case '0': encrypted_char = '6'; break;
-                case '1': encrypted_char = '7'; break;
-                case '2': encrypted_char = '9'; break;
-                case '3': encrypted_char = '8'; break;
-                case '4': encrypted_char = 'A'; break;
-                case '5': encrypted_char = '2'; break;
-                case '6': encrypted_char = 'B'; break;
-                case '7': encrypted_char = 'F'; break;
-                case '8': encrypted_char = '1'; break;
-                case '9': encrypted_char = 'C'; break;
+    } else {
+        for (const auto& password : passwords) {
+            std::cout << "-";
+            for (char c : password) {
+                char encrypted_char = c;
+                switch (c) {
+                    case '0': encrypted_char = '6'; break;
+                    case '1': encrypted_char = '7'; break;
+                    case '2': encrypted_char = '9'; break;
+                    case '3': encrypted_char = '8'; break;
+                    case '4': encrypted_char = 'A'; break;
+                    case '5': encrypted_char = 'B'; break;
+                    case '6': encrypted_char = 'E'; break;
+                    case '7': encrypted_char = 'F'; break;
+                    case '8': encrypted_char = '1'; break;
+                    case '9': encrypted_char = 'C'; break;
+                    case 'A': encrypted_char = '0'; break;
+                    case 'B': encrypted_char = 'D'; break;
+                    case 'C': encrypted_char = 'E'; break;
+                    case 'D': encrypted_char = '3'; break;
+                    case 'F': encrypted_char = '4'; break;
+                }
+                std::cout << encrypted_char;
             }
-            encrypted_s += encrypted_char;
         }
-        final_output += "-" + encrypted_s;
+        std::cout << " " << total_chars << "\n";
     }
-
-    std::cout << final_output << " " << total_chars << "\n";
 
     return 0;
 }

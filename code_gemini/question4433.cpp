@@ -1,115 +1,99 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
 #include <string>
-#include <sstream>
+#include <vector>
+#include <map>
 #include <algorithm>
 
-using namespace std;
-
-struct Time {
-    string nome;
-    int pts, vit, e, der, gp, gc, sg;
-
-    Time(string n) : nome(n), pts(0), vit(0), e(0), der(0), gp(0), gc(0), sg(0) {}
-
-    bool operator<(const Time& other) const {
-        if (pts != other.pts) return pts > other.pts;
-        if (vit != other.vit) return vit > other.vit;
-        if (sg != other.sg) return sg > other.sg;
-        if (gp != other.gp) return gp > other.gp;
-        return nome < other.nome;
-    }
+struct Team {
+    std::string name;
+    int points = 0;
+    int wins = 0;
+    int draws = 0;
+    int losses = 0;
+    int goals_for = 0;
+    int goals_against = 0;
+    int goal_difference = 0;
 };
 
+bool compareTeams(const Team& a, const Team& b) {
+    if (a.points != b.points) {
+        return a.points > b.points;
+    }
+    if (a.wins != b.wins) {
+        return a.wins > b.wins;
+    }
+    if (a.goal_difference != b.goal_difference) {
+        return a.goal_difference > b.goal_difference;
+    }
+    if (a.goals_for != b.goals_for) {
+        return a.goals_for > b.goals_for;
+    }
+    return a.name < b.name;
+}
+
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
-    cin.ignore(); 
+    std::cin >> n;
 
-    vector<Time> times;
+    std::map<std::string, Team> stats;
+
     for (int i = 0; i < n; ++i) {
-        string linha;
-        getline(cin, linha);
-        stringstream ss(linha);
-        string timeCasa, timeVisitante, x;
-        int golsCasa, golsVisitante;
-        ss >> timeCasa >> golsCasa >> x >> golsVisitante >> timeVisitante;
+        std::string home_team_name, away_team_name, x_char;
+        int home_goals, away_goals;
 
-        bool casaEncontrado = false, visitanteEncontrado = false;
-        for (auto& time : times) {
-            if (time.nome == timeCasa) {
-                time.gp += golsCasa;
-                time.gc += golsVisitante;
-                if (golsCasa > golsVisitante) {
-                    time.pts += 3;
-                    time.vit++;
-                } else if (golsCasa < golsVisitante) {
-                    time.der++;
-                } else {
-                    time.pts++;
-                    time.e++;
-                }
-                casaEncontrado = true;
-            } else if (time.nome == timeVisitante) {
-                time.gp += golsVisitante;
-                time.gc += golsCasa;
-                if (golsVisitante > golsCasa) {
-                    time.pts += 3;
-                    time.vit++;
-                } else if (golsVisitante < golsCasa) {
-                    time.der++;
-                } else {
-                    time.pts++;
-                    time.e++;
-                }
-                visitanteEncontrado = true;
-            }
-        }
+        std::cin >> home_team_name >> home_goals >> x_char >> away_goals >> away_team_name;
 
-        if (!casaEncontrado) {
-            Time novoTimeCasa(timeCasa);
-            novoTimeCasa.gp += golsCasa;
-            novoTimeCasa.gc += golsVisitante;
-            if (golsCasa > golsVisitante) {
-                novoTimeCasa.pts += 3;
-                novoTimeCasa.vit++;
-            } else if (golsCasa < golsVisitante) {
-                novoTimeCasa.der++;
-            } else {
-                novoTimeCasa.pts++;
-                novoTimeCasa.e++;
-            }
-            times.push_back(novoTimeCasa);
-        }
-        if (!visitanteEncontrado) {
-            Time novoTimeVisitante(timeVisitante);
-            novoTimeVisitante.gp += golsVisitante;
-            novoTimeVisitante.gc += golsCasa;
-            if (golsVisitante > golsCasa) {
-                novoTimeVisitante.pts += 3;
-                novoTimeVisitante.vit++;
-            } else if (golsVisitante < golsCasa) {
-                novoTimeVisitante.der++;
-            } else {
-                novoTimeVisitante.pts++;
-                novoTimeVisitante.e++;
-            }
-            times.push_back(novoTimeVisitante);
+        stats[home_team_name].name = home_team_name;
+        stats[away_team_name].name = away_team_name;
+
+        stats[home_team_name].goals_for += home_goals;
+        stats[home_team_name].goals_against += away_goals;
+        stats[away_team_name].goals_for += away_goals;
+        stats[away_team_name].goals_against += home_goals;
+
+        if (home_goals > away_goals) {
+            stats[home_team_name].points += 3;
+            stats[home_team_name].wins += 1;
+            stats[away_team_name].losses += 1;
+        } else if (away_goals > home_goals) {
+            stats[away_team_name].points += 3;
+            stats[away_team_name].wins += 1;
+            stats[home_team_name].losses += 1;
+        } else {
+            stats[home_team_name].points += 1;
+            stats[home_team_name].draws += 1;
+            stats[away_team_name].points += 1;
+            stats[away_team_name].draws += 1;
         }
     }
 
-    for(auto& time : times) {
-        time.sg = time.gp - time.gc;
+    std::vector<Team> table;
+    for (auto const& pair : stats) {
+        table.push_back(pair.second);
     }
 
-    sort(times.begin(), times.end());
+    for (auto& team : table) {
+        team.goal_difference = team.goals_for - team.goals_against;
+    }
 
-    for (int i = 0; i < times.size(); ++i) {
-        cout << i + 1 << ". " << times[i].nome << " " << times[i].pts << " " << times[i].vit << " " << times[i].e << " " << times[i].der << " " << times[i].gp << " " << times[i].gc << " " << times[i].sg << endl;
+    std::sort(table.begin(), table.end(), compareTeams);
+
+    for (size_t i = 0; i < table.size(); ++i) {
+        std::cout << i + 1 << ". " << table[i].name << " "
+                  << table[i].points << " "
+                  << table[i].wins << " "
+                  << table[i].draws << " "
+                  << table[i].losses << " "
+                  << table[i].goals_for << " "
+                  << table[i].goals_against << " "
+                  << table[i].goal_difference << "\n";
     }
 
     return 0;

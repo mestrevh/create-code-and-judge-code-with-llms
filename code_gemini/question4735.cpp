@@ -1,62 +1,79 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
+#include <string>
+#include <sstream>
 #include <algorithm>
 
-using namespace std;
+void minHeapify(std::vector<int>& arr, int n, int i) {
+    int smallest = i;
+    int left = 2 * i + 1;
+    int right = 2 * i + 2;
 
-void heapify(vector<int>& arr, int n, int i) {
-    int largest = i;
-    int l = 2 * i + 1;
-    int r = 2 * i + 2;
+    if (left < n && arr[left] < arr[smallest]) {
+        smallest = left;
+    }
 
-    if (l < n && arr[l] > arr[largest])
-        largest = l;
+    if (right < n && arr[right] < arr[smallest]) {
+        smallest = right;
+    }
 
-    if (r < n && arr[r] > arr[largest])
-        largest = r;
-
-    if (largest != i) {
-        swap(arr[i], arr[largest]);
-        heapify(arr, n, largest);
+    if (smallest != i) {
+        std::swap(arr[i], arr[smallest]);
+        minHeapify(arr, n, smallest);
     }
 }
 
-void heapSort(vector<int>& arr) {
+void heapSort(std::vector<int>& arr) {
     int n = arr.size();
 
-    for (int i = n / 2 - 1; i >= 0; i--)
-        heapify(arr, n, i);
+    if (n <= 1) return;
+
+    for (int i = n / 2 - 1; i >= 0; i--) {
+        minHeapify(arr, n, i);
+    }
 
     for (int i = n - 1; i > 0; i--) {
-        swap(arr[0], arr[i]);
-        heapify(arr, i, 0);
+        std::swap(arr[0], arr[i]);
+        minHeapify(arr, i, 0);
     }
+}
+
+void printArray(const std::vector<int>& arr) {
+    for (size_t i = 0; i < arr.size(); ++i) {
+        std::cout << arr[i] << (i == arr.size() - 1 ? "" : " ");
+    }
+    std::cout << std::endl;
 }
 
 int main() {
-    vector<int> arr;
-    int num;
-    while (cin >> num) {
-        arr.push_back(num);
-    }
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    cout << "Array original:" << endl;
-    for (int i = 0; i < arr.size(); i++) {
-        cout << arr[i] << (i == arr.size() - 1 ? "" : " ");
-    }
-    cout << endl;
+    std::string line;
+    if (std::getline(std::cin, line)) {
+        std::stringstream ss(line);
+        std::vector<int> original_arr;
+        int number;
+        while (ss >> number) {
+            original_arr.push_back(number);
+        }
 
-    heapSort(arr);
+        if (!original_arr.empty()) {
+            std::vector<int> sorted_arr = original_arr;
 
-    cout << "Array ordenado" << endl;
-    for (int i = 0; i < arr.size(); i++) {
-        cout << arr[i] << (i == arr.size() - 1 ? "" : " ");
+            std::cout << "Array original:" << std::endl;
+            printArray(original_arr);
+
+            heapSort(sorted_arr);
+
+            std::cout << "Array ordenado" << std::endl;
+            printArray(sorted_arr);
+        }
     }
-    cout << endl;
 
     return 0;
 }

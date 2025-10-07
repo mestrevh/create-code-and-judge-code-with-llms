@@ -1,10 +1,8 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
-#include <vector>
 
 int main() {
     std::ios_base::sync_with_stdio(false);
@@ -14,51 +12,35 @@ int main() {
     char l;
     int n;
 
-    if (!(std::cin >> x >> y >> l >> n)) {
-        std::cout << "Entrada Invalida\n";
-        return 0;
-    }
+    std::cin >> x >> y >> l >> n;
 
     if (x < 0.0 || x >= 24.0 || y < 0.0 || y >= 24.0 || x >= y || (l != 'A' && l != 'B') || n <= 0) {
-        std::cout << "Entrada Invalida\n";
+        std::cout << "Entrada Invalida" << std::endl;
         return 0;
     }
 
     double time_available = y - x;
+    double min_time_required;
     bool possible = false;
 
     if (l == 'A') {
-        double min_time = 1.0;
-        double extended_time = 1.5;
-
-        if (time_available > min_time) {
-            if (n <= 5) {
-                possible = true;
-            } else if (n > 5 && n <= 9) {
-                if (time_available >= extended_time) {
-                    possible = true;
-                }
-            }
-        }
-    } else if (l == 'B') {
-        double min_time = 0.75;
-        double extended_time = 1.125;
-
-        if (time_available > min_time) {
-            if (n <= 5) {
-                possible = true;
-            } else if (n > 5 && n <= 9) {
-                if (time_available >= extended_time) {
-                    possible = true;
-                }
-            }
-        }
+        min_time_required = 1.0;
+    } else {
+        min_time_required = 0.75;
     }
 
+    if (time_available > min_time_required) {
+        if (n <= 5) {
+            possible = true;
+        } else if (n <= 9 && time_available >= min_time_required * 1.5) {
+            possible = true;
+        }
+    }
+    
     if (possible) {
-        std::cout << "O uninho faz a boa, obrigado querida mae line\n";
+        std::cout << "O uninho faz a boa, obrigado querida mae line" << std::endl;
     } else {
-        std::cout << "Infelizmente o uninho nao tanka, rodamos!\n";
+        std::cout << "Infelizmente o uninho nao tanka, rodamos!" << std::endl;
     }
 
     return 0;

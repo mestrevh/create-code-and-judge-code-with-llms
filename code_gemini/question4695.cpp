@@ -1,62 +1,61 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <algorithm>
+#include <utility>
 
-using namespace std;
-
-void print_subarray(const vector<int>& arr, int start, int end) {
-    cout << "Subarray: ";
-    for (int i = start; i <= end; ++i) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-}
-
-void print_array(const vector<int>& arr) {
-    cout << "Array: ";
-    for (int x : arr) {
-        cout << x << " ";
-    }
-    cout << endl;
-}
-
-int partition(vector<int>& arr, int low, int high) {
+int partition(std::vector<int>& arr, int low, int high) {
     int pivot = arr[high];
     int i = (low - 1);
 
-    for (int j = low; j <= high - 1; j++) {
+    for (int j = low; j < high; j++) {
         if (arr[j] <= pivot) {
             i++;
-            swap(arr[i], arr[j]);
+            std::swap(arr[i], arr[j]);
         }
     }
-    swap(arr[i + 1], arr[high]);
+    std::swap(arr[i + 1], arr[high]);
     return (i + 1);
 }
 
-void quick_sort(vector<int>& arr, int low, int high) {
+void quickSort(std::vector<int>& arr, int low, int high) {
     if (low < high) {
-        print_subarray(arr, low, high);
-        cout << "Pivo: " << arr[high] << endl;
+        std::cout << "Subarray: ";
+        for (int i = low; i <= high; ++i) {
+            std::cout << arr[i] << (i == high ? "" : " ");
+        }
+        std::cout << std::endl;
+
+        std::cout << "Pivo: " << arr[high] << std::endl;
+
         int pi = partition(arr, low, high);
-        print_array(arr);
-        quick_sort(arr, low, pi - 1);
-        quick_sort(arr, pi + 1, high);
+
+        std::cout << "Array: ";
+        for (size_t i = 0; i < arr.size(); ++i) {
+            std::cout << arr[i] << (i == arr.size() - 1 ? "" : " ");
+        }
+        std::cout << std::endl;
+
+        quickSort(arr, low, pi - 1);
+        quickSort(arr, pi + 1, high);
     }
 }
 
 int main() {
-    vector<int> arr;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    std::vector<int> numbers;
     int num;
-    while (cin >> num) {
-        arr.push_back(num);
+    while (std::cin >> num) {
+        numbers.push_back(num);
     }
 
-    quick_sort(arr, 0, arr.size() - 1);
+    if (!numbers.empty()) {
+        quickSort(numbers, 0, numbers.size() - 1);
+    }
 
     return 0;
 }

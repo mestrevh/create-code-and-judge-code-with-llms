@@ -1,41 +1,32 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
-using namespace std;
+#include <iterator>
 
 int main() {
-    int x, y;
-    while (cin >> x >> y) {
-        if (x == 0 && y == 0) break;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-        vector<int> distances;
-        int distance;
-        while (cin >> distance && distance != 0) {
-            distances.push_back(distance);
+    long long x, y;
+    while (std::cin >> x >> y) {
+        std::vector<long long> distances;
+        long long d;
+        while (std::cin >> d && d != 0) {
+            distances.push_back(d);
         }
 
-        int start = -1;
-        int end = -1;
+        auto it_start = std::lower_bound(distances.begin(), distances.end(), y);
+        auto it_end = std::upper_bound(distances.begin(), distances.end(), x);
 
-        for (int i = 0; i < distances.size(); ++i) {
-            if (distances[i] >= y && distances[i] <= x) {
-                if (start == -1) {
-                    start = i + 1;
-                }
-                end = i + 1;
-            }
-        }
+        long long start_pos = std::distance(distances.begin(), it_start) + 1;
+        long long end_pos = std::distance(distances.begin(), it_end - 1) + 1;
 
-        if (start != -1) {
-            cout << start << " " << end << endl;
-        } else {
-            cout << endl;
-        }
+        std::cout << start_pos << " " << end_pos << "\n";
     }
+
     return 0;
 }

@@ -1,52 +1,53 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <cmath>
 
-using namespace std;
-
-bool is_prime(int n) {
-    if (n <= 1) return false;
+bool isPrime(int n) {
+    if (n <= 1) {
+        return false;
+    }
     for (int i = 2; i * i <= n; ++i) {
-        if (n % i == 0) return false;
+        if (n % i == 0) {
+            return false;
+        }
     }
     return true;
 }
 
 int main() {
-    int n, m;
-    cin >> n >> m;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    if (n <= 0 || n > 10 || m <= 0 || m > 10) {
-        cout << "Han??" << endl;
+    int N, M;
+    std::cin >> N >> M;
+
+    if (N <= 0 || N > 10 || M <= 0 || M > 10) {
+        std::cout << "Han??" << std::endl;
         return 0;
     }
 
-    vector<vector<int>> fights(n, vector<int>(m));
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            cin >> fights[i][j];
-        }
-    }
+    int prime_participants_count = 0;
 
-    int prime_count = 0;
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < N; ++i) {
         int total_fights = 0;
-        for (int j = 0; j < m; ++j) {
-            total_fights += fights[i][j];
+        for (int j = 0; j < M; ++j) {
+            int fights_in_year;
+            std::cin >> fights_in_year;
+            total_fights += fights_in_year;
         }
-        if (is_prime(total_fights)) {
-            prime_count++;
+        if (isPrime(total_fights)) {
+            prime_participants_count++;
         }
     }
 
-    if (prime_count > n / 2) {
-        cout << "Chama" << endl;
+    if (prime_participants_count * 2 > N) {
+        std::cout << "Chama" << std::endl;
     } else {
-        cout << "Não chama" << endl;
+        std::cout << "Não chama" << std::endl;
     }
 
     return 0;

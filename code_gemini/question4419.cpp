@@ -1,43 +1,50 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
 #include <vector>
 
-using namespace std;
-
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     char dir;
     int dist;
-    int pos = 10;
-    vector<string> mapa(10, "....................");
+    int pos = 20;
 
-    while (cin >> dir && dir != 'x') {
-        cin >> dist;
+    while (std::cin >> dir && dir != 'x') {
+        std::cin >> dist;
+
         if (dir == 'd') {
+            std::cout << ".";
+            std::cout << std::string(pos, ' ');
             for (int i = 0; i < dist; ++i) {
-                mapa[pos - 1][10 + i] = '>';
+                std::cout << "->";
             }
-            pos--;
+            std::cout << '\n';
+            pos += dist * 2;
         } else if (dir == 'e') {
+            pos -= dist * 2;
+            std::cout << ".";
+            std::cout << std::string(pos, ' ');
             for (int i = 0; i < dist; ++i) {
-                mapa[pos -1][10 - i -1] = '<';
+                std::cout << "<-";
             }
-            pos++;
-
+            std::cout << '\n';
         } else if (dir == 'f') {
-           for(int i = 0; i < dist; ++i) {
-               mapa[pos - 1 - (i+1)][10 + (pos < 11? 10-pos: pos -11)] = '|';
-
-           }
+            for (int i = 0; i < dist; ++i) {
+                std::cout << ".";
+                std::cout << std::string(pos, ' ');
+                std::cout << "|\n";
+            }
         }
     }
-     mapa[pos - 1][10 + (pos < 11? 10-pos: pos -11)] = 'x';
-    for (const string& line : mapa) {
-        cout << line << endl;
-    }
+
+    std::cout << ".";
+    std::cout << std::string(pos, ' ');
+    std::cout << "x\n";
 
     return 0;
 }

@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -7,99 +7,115 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <string>
 #include <iomanip>
 #include <algorithm>
-
-using namespace std;
+#include <utility>
 
 struct Produto {
     int codigo;
-    string nome;
-    double preco;
+    std::string nome;
+    float preco;
     int quantidade;
 };
 
-bool compareProdutos(const Produto& a, const Produto& b) {
+bool compararPorNome(const Produto& a, const Produto& b) {
     return a.nome < b.nome;
 }
 
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<Produto> produtos(n);
+    std::cout << std::fixed << std::setprecision(2);
+
+    int n;
+    std::cin >> n;
+
+    std::vector<Produto> estoque(n);
     for (int i = 0; i < n; ++i) {
-        cin >> produtos[i].codigo >> produtos[i].nome >> produtos[i].preco >> produtos[i].quantidade;
+        std::cin >> estoque[i].codigo;
+        std::cin.ignore();
+        std::cin >> estoque[i].nome >> estoque[i].preco >> estoque[i].quantidade;
     }
 
     int m;
-    cin >> m;
+    std::cin >> m;
 
     for (int i = 0; i < m; ++i) {
-        string operacao;
-        cin >> operacao;
+        std::string operacao;
+        std::cin >> operacao;
 
         if (operacao == "Venda") {
             int x;
-            cin >> x;
+            std::cin >> x;
 
-            vector<pair<int, int>> compra(x);
+            std::vector<std::pair<int, int>> carrinho(x);
             for (int j = 0; j < x; ++j) {
-                cin >> compra[j].first >> compra[j].second;
+                std::cin >> carrinho[j].first >> carrinho[j].second;
             }
 
-            double pago;
-            cin >> pago;
+            float valor_pago;
+            std::cin >> valor_pago;
 
-            double total = 0;
             bool possivel = true;
-            vector<pair<string, pair<double, int>>> nota;
+            std::vector<std::pair<int, int>> itens_compra;
 
-            for (int j = 0; j < x; ++j) {
-                int codigo = compra[j].first;
-                int quantidade = compra[j].second;
+            for (const auto& item_carrinho : carrinho) {
+                int cod_prod = item_carrinho.first;
+                int qtd_compra = item_carrinho.second;
+                int index_estoque = -1;
 
-                int index = -1;
-                for (int k = 0; k < n; ++k) {
-                    if (produtos[k].codigo == codigo) {
-                        index = k;
+                for (int k = 0; k < estoque.size(); ++k) {
+                    if (estoque[k].codigo == cod_prod) {
+                        index_estoque = k;
                         break;
                     }
                 }
 
-                if (index != -1 && produtos[index].quantidade >= quantidade) {
-                    total += produtos[index].preco * quantidade;
-                    nota.push_back({produtos[index].nome, {produtos[index].preco, quantidade}});
-                } else {
+                if (index_estoque == -1 || estoque[index_estoque].quantidade < qtd_compra) {
                     possivel = false;
                     break;
                 }
+                itens_compra.push_back({index_estoque, qtd_compra});
             }
 
-            if (possivel) {
-                for (const auto& item : nota) {
-                    cout << item.first << " - R$" << fixed << setprecision(2) << item.second.first << " - " << item.second.second << " - R$" << fixed << setprecision(2) << item.second.first * item.second.second << endl;
-                }
-                cout << "Total: R$" << fixed << setprecision(2) << total << endl;
-                cout << "Pago: R$" << fixed << setprecision(2) << pago << endl;
-                cout << "Troco: R$" << fixed << setprecision(2) << pago - total << endl;
-
-                for (int j = 0; j < x; ++j) {
-                    int codigo = compra[j].first;
-                    int quantidade = compra[j].second;
-                    for (int k = 0; k < n; ++k) {
-                        if (produtos[k].codigo == codigo) {
-                            produtos[k].quantidade -= quantidade;
-                            break;
-                        }
-                    }
-                }
+            if (!possivel) {
+                std::cout << "Nao foi possivel realizar a venda\n";
             } else {
-                cout << "Nao foi possivel realizar a venda" << endl;
+                float total = 0.0f;
+                
+                std::vector<std::tuple<std::string, float, int, float>> recibo;
+
+                for (const auto& item : itens_compra) {
+                    int idx = item.first;
+                    int qtd = item.second;
+                    float subtotal = estoque[idx].preco * qtd;
+                    total += subtotal;
+                    recibo.emplace_back(estoque[idx].nome, estoque[idx].preco, qtd, subtotal);
+                }
+                
+                for(const auto& linha : recibo){
+                    std::cout << std::get<0>(linha) << " - R$" << std::get<1>(linha)
+                              << " - " << std::get<2>(linha) << " - R$" << std::get<3>(linha) << "\n";
+                }
+
+                std::cout << "Total: R$" << total << "\n";
+                std::cout << "Pago: R$" << valor_pago << "\n";
+                std::cout << "Troco: R$" << valor_pago - total << "\n";
+
+                for (const auto& item : itens_compra) {
+                    int idx = item.first;
+                    int qtd = item.second;
+                    estoque[idx].quantidade -= qtd;
+                }
             }
+
         } else if (operacao == "Estoque") {
-            sort(produtos.begin(), produtos.end(), compareProdutos);
-            cout << "Estoque atual:" << endl;
-            for (int j = 0; j < n; ++j) {
-                cout << j + 1 << ". " << produtos[j].codigo << " - " << produtos[j].nome << " - " << produtos[j].quantidade << endl;
+            std::vector<Produto> estoque_ordenado = estoque;
+            std::sort(estoque_ordenado.begin(), estoque_ordenado.end(), compararPorNome);
+
+            std::cout << "Estoque atual:\n";
+            for (int j = 0; j < estoque_ordenado.size(); ++j) {
+                std::cout << j + 1 << ". " << estoque_ordenado[j].codigo << " - "
+                          << estoque_ordenado[j].nome << " - " << estoque_ordenado[j].quantidade << "\n";
             }
         }
     }

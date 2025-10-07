@@ -1,22 +1,23 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
+#include <string>
 
-using namespace std;
-
-string par_ou_impar(int n) {
-  if (n % 2 == 0) {
-    return "Par";
-  } else {
-    return "Ímpar";
-  }
+void par_ou_impar(int numero) {
+    if (numero % 2 == 0) {
+        std::cout << "Par" << std::endl;
+    } else {
+        std::cout << "Ímpar" << std::endl;
+    }
 }
 
 int main() {
-  int n;
-  cin >> n;
-  cout << par_ou_impar(n) << endl;
-  return 0;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    int n;
+    std::cin >> n;
+    par_ou_impar(n);
+    return 0;
 }

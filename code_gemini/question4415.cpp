@@ -1,86 +1,58 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <cmath>
 #include <algorithm>
-
-using namespace std;
+#include <vector>
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int x, y, z;
-    cin >> x >> y >> z;
+    std::cin >> x >> y >> z;
 
-    int octant = 0;
-    if (x >= 0 && y >= 0 && z >= 0) {
-        octant = 1;
-    } else if (x < 0 && y >= 0 && z >= 0) {
-        octant = 2;
-    } else if (x < 0 && y < 0 && z >= 0) {
-        octant = 3;
-    } else if (x >= 0 && y < 0 && z >= 0) {
-        octant = 4;
-    } else if (x >= 0 && y >= 0 && z < 0) {
-        octant = 5;
-    } else if (x < 0 && y >= 0 && z < 0) {
-        octant = 6;
-    } else if (x < 0 && y < 0 && z < 0) {
-        octant = 7;
+    int abs_x = std::abs(x);
+    int abs_y = std::abs(y);
+    int abs_z = std::abs(z);
+
+    int min_dist = std::min({abs_x, abs_y, abs_z});
+
+    int nx = x;
+    int ny = y;
+    int nz = z;
+
+    if (min_dist == abs_x) {
+        nx = -x;
+    } else if (min_dist == abs_y) {
+        ny = -y;
     } else {
-        octant = 8;
+        nz = -z;
     }
 
-    int closest_octant = octant;
-    int min_dist = 1000000;
-
-    for (int i = 1; i <= 8; i++) {
-        int current_x = x, current_y = y, current_z = z;
-        int current_octant = 0;
-
-        if (i == 1) {
-             current_x = abs(current_x);
-             current_y = abs(current_y);
-             current_z = abs(current_z);
-        } else if (i == 2) {
-             current_x = -abs(current_x);
-             current_y = abs(current_y);
-             current_z = abs(current_z);
-        } else if (i == 3) {
-             current_x = -abs(current_x);
-             current_y = -abs(current_y);
-             current_z = abs(current_z);
-        } else if (i == 4) {
-             current_x = abs(current_x);
-             current_y = -abs(current_y);
-             current_z = abs(current_z);
-        } else if (i == 5) {
-             current_x = abs(current_x);
-             current_y = abs(current_y);
-             current_z = -abs(current_z);
-        } else if (i == 6) {
-             current_x = -abs(current_x);
-             current_y = abs(current_y);
-             current_z = -abs(current_z);
-        } else if (i == 7) {
-             current_x = -abs(current_x);
-             current_y = -abs(current_y);
-             current_z = -abs(current_z);
-        } else if (i == 8) {
-             current_x = abs(current_x);
-             current_y = -abs(current_y);
-             current_z = -abs(current_z);
+    if (nz > 0) {
+        if (nx > 0 && ny > 0) {
+            std::cout << 1 << std::endl;
+        } else if (nx < 0 && ny > 0) {
+            std::cout << 2 << std::endl;
+        } else if (nx < 0 && ny < 0) {
+            std::cout << 3 << std::endl;
+        } else {
+            std::cout << 4 << std::endl;
         }
-
-
-        int dist = abs(current_x - x) + abs(current_y -y) + abs(current_z - z);
-
-        if (dist < min_dist) {
-            min_dist = dist;
-            closest_octant = i;
+    } else {
+        if (nx > 0 && ny > 0) {
+            std::cout << 5 << std::endl;
+        } else if (nx < 0 && ny > 0) {
+            std::cout << 6 << std::endl;
+        } else if (nx < 0 && ny < 0) {
+            std::cout << 7 << std::endl;
+        } else {
+            std::cout << 8 << std::endl;
         }
     }
-    cout << closest_octant << endl;
 
     return 0;
 }

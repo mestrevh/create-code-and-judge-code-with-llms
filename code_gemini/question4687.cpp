@@ -1,67 +1,67 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
-#include <numeric>
 #include <iomanip>
-#include <cmath>
-
-using namespace std;
 
 int main() {
-    vector<int> stack;
-    string command;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    while (cin >> command && command != "exit") {
+    std::vector<int> data;
+    std::string command;
+
+    while (std::cin >> command) {
+        if (command == "exit") {
+            break;
+        }
+
         if (command == "push") {
             int value;
-            cin >> value;
-            stack.push_back(value);
+            std::cin >> value;
+            data.push_back(value);
         } else if (command == "pop") {
-            if (!stack.empty()) {
-                stack.pop_back();
+            if (!data.empty()) {
+                data.pop_back();
             }
         } else if (command == "sum") {
-            if (stack.empty()) {
-                cout << 0 << endl;
+            if (data.empty()) {
+                std::cout << 0 << std::endl;
             } else {
-                long long sum = 0;
-                for (int val : stack) {
-                    sum += val;
+                long long total_sum = 0;
+                for (int x : data) {
+                    total_sum += x;
                 }
-                cout << sum << endl;
+                std::cout << total_sum << std::endl;
             }
         } else if (command == "pow") {
-            if (stack.empty()) {
-                cout << endl;
-            } else {
-                for (int val : stack) {
-                    cout << (long long)pow(val, 2) << " ";
+            if (!data.empty()) {
+                for (int x : data) {
+                    std::cout << static_cast<long long>(x) * x << " ";
                 }
-                cout << endl;
             }
+            std::cout << std::endl;
         } else if (command == "average") {
-            if (stack.empty()) {
-                cout << "0.00" << endl;
+            if (data.empty()) {
+                std::cout << "0.00" << std::endl;
             } else {
-                double sum = 0;
-                for (int val : stack) {
-                    sum += val;
+                long long total_sum = 0;
+                for (int x : data) {
+                    total_sum += x;
                 }
-                cout << fixed << setprecision(2) << sum / stack.size() << endl;
+                double avg = static_cast<double>(total_sum) / data.size();
+                std::cout << std::fixed << std::setprecision(2) << avg << std::endl;
             }
         } else if (command == "print") {
-            if (stack.empty()) {
-                cout << endl;
-            } else {
-                for (int val : stack) {
-                    cout << val << " ";
+            if (!data.empty()) {
+                for (int x : data) {
+                    std::cout << x << " ";
                 }
-                cout << endl;
             }
+            std::cout << std::endl;
         }
     }
 

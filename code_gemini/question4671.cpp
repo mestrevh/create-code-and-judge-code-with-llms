@@ -1,58 +1,68 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
 #include <cmath>
-#include <numeric>
-
-using namespace std;
+#include <vector>
 
 bool is_prime(int n) {
-    n = abs(n);
-    if (n <= 1) return false;
+    if (n <= 1) {
+        return false;
+    }
     for (int i = 2; i * i <= n; ++i) {
-        if (n % i == 0) return false;
+        if (n % i == 0) {
+            return false;
+        }
     }
     return true;
 }
 
 int count_divisors(int n) {
-    n = abs(n);
+    if (n <= 3) {
+        return 0;
+    }
     int count = 0;
-    for (int i = 2; i < n; ++i) {
-        if (n % i == 0) count++;
+    for (int i = 2; i <= n / 2; ++i) {
+        if (n % i == 0) {
+            count++;
+        }
     }
     return count;
 }
 
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    while (n--) {
-        int m;
-        cin >> m;
-        long long reliability = 0;
-        for (int i = 0; i < m; ++i) {
-            int num;
-            cin >> num;
-            if (is_prime(num)) {
-                reliability += 2 * num;
+    int N;
+    std::cin >> N;
+
+    while (N--) {
+        int M;
+        std::cin >> M;
+        double total_reliability = 0.0;
+
+        for (int k = 0; k < M; ++k) {
+            int i;
+            std::cin >> i;
+            int abs_i = std::abs(i);
+
+            if (is_prime(abs_i)) {
+                total_reliability += 2.0 * abs_i;
             } else {
-                reliability += (num / 2.0) * count_divisors(num);
+                total_reliability += (static_cast<double>(abs_i) / 2.0) * count_divisors(abs_i);
             }
         }
 
-        if (reliability > pow(2, 11)) {
-            cout << "Anão Paulo. babado." << endl;
-        } else if (reliability > pow(2, 9)) {
-            cout << "Para pow." << endl;
-        } else if (reliability > 0) {
-            cout << "Se isso não é mentira eu sou uma brastemp 4 portas" << endl;
+        if (total_reliability > 2048) {
+            std::cout << "Anão Paulo. babado.\n";
+        } else if (total_reliability > 512) {
+            std::cout << "Para pow.\n";
+        } else if (total_reliability > 0) {
+            std::cout << "Se isso não é mentira eu sou uma brastemp 4 portas\n";
         } else {
-            cout << "que mentirada" << endl;
+            std::cout << "que mentirada\n";
         }
     }
 

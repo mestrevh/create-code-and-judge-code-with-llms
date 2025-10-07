@@ -1,62 +1,73 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <algorithm>
 #include <set>
-
-using namespace std;
+#include <algorithm>
 
 int main() {
-    int o, n, m;
-    cin >> o >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<int> p1(n);
+    int o;
+    std::cin >> o;
+
+    int n;
+    std::cin >> n;
+    std::set<int> p1_stickers;
     for (int i = 0; i < n; ++i) {
-        cin >> p1[i];
+        int fig;
+        std::cin >> fig;
+        p1_stickers.insert(fig);
     }
 
-    cin >> m;
-    vector<int> p2(m);
+    int m;
+    std::cin >> m;
+    std::vector<int> p2_stickers(m);
     for (int i = 0; i < m; ++i) {
-        cin >> p2[i];
+        std::cin >> p2_stickers[i];
     }
 
     if (o == 1) {
-        set<int> all_stickers;
-        for (int sticker : p1) {
-            all_stickers.insert(sticker);
+        for (int sticker : p2_stickers) {
+            p1_stickers.insert(sticker);
         }
-        for (int sticker : p2) {
-            all_stickers.insert(sticker);
-        }
-
-        if (all_stickers.empty()) {
-            cout << "empty" << endl;
+        
+        if (p1_stickers.empty()) {
+            std::cout << "empty\n";
         } else {
-            for (int sticker : all_stickers) {
-                cout << sticker << " ";
+            bool first = true;
+            for (int sticker : p1_stickers) {
+                if (!first) {
+                    std::cout << " ";
+                }
+                std::cout << sticker;
+                first = false;
             }
-            cout << endl;
+            std::cout << "\n";
         }
-    } else {
-        set<int> common_stickers;
-        set<int> p1_set(p1.begin(), p1.end());
-        for (int sticker : p2) {
-            if (p1_set.count(sticker)) {
-                common_stickers.insert(sticker);
+    } else { // o == 2
+        std::set<int> intersection;
+        for (int sticker : p2_stickers) {
+            if (p1_stickers.count(sticker)) {
+                intersection.insert(sticker);
             }
         }
-
-        if (common_stickers.empty()) {
-            cout << "empty" << endl;
+        
+        if (intersection.empty()) {
+            std::cout << "empty\n";
         } else {
-            for (int sticker : common_stickers) {
-                cout << sticker << " ";
+            bool first = true;
+            for (int sticker : intersection) {
+                if (!first) {
+                    std::cout << " ";
+                }
+                std::cout << sticker;
+                first = false;
             }
-            cout << endl;
+            std::cout << "\n";
         }
     }
 

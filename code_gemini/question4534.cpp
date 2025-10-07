@@ -1,55 +1,70 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 
-using namespace std;
+long long merge(std::vector<int>& arr, std::vector<int>& temp, int left, int mid, int right) {
+    int i = left;
+    int j = mid + 1;
+    int k = left;
+    long long inv_count = 0;
 
-long long merge(vector<int>& arr, int l, int m, int r) {
-    int n1 = m - l + 1;
-    int n2 = r - m;
-    vector<int> L(n1), R(n2);
-    for (int i = 0; i < n1; i++)
-        L[i] = arr[l + i];
-    for (int j = 0; j < n2; j++)
-        R[j] = arr[m + 1 + j];
-    long long inversions = 0;
-    int i = 0, j = 0, k = l;
-    while (i < n1 && j < n2) {
-        if (L[i] <= R[j]) {
-            arr[k++] = L[i++];
+    while ((i <= mid) && (j <= right)) {
+        if (arr[i] <= arr[j]) {
+            temp[k++] = arr[i++];
         } else {
-            arr[k++] = R[j++];
-            inversions += n1 - i;
+            temp[k++] = arr[j++];
+            inv_count += (long long)(mid - i + 1);
         }
     }
-    while (i < n1)
-        arr[k++] = L[i++];
-    while (j < n2)
-        arr[k++] = R[j++];
-    return inversions;
+
+    while (i <= mid) {
+        temp[k++] = arr[i++];
+    }
+
+    while (j <= right) {
+        temp[k++] = arr[j++];
+    }
+
+    for (i = left; i <= right; i++) {
+        arr[i] = temp[i];
+    }
+
+    return inv_count;
 }
 
-long long mergeSort(vector<int>& arr, int l, int r) {
-    long long inversions = 0;
-    if (l < r) {
-        int m = l + (r - l) / 2;
-        inversions += mergeSort(arr, l, m);
-        inversions += mergeSort(arr, m + 1, r);
-        inversions += merge(arr, l, m, r);
+long long mergeSort(std::vector<int>& arr, std::vector<int>& temp, int left, int right) {
+    long long inv_count = 0;
+    if (right > left) {
+        int mid = left + (right - left) / 2;
+        inv_count += mergeSort(arr, temp, left, mid);
+        inv_count += mergeSort(arr, temp, mid + 1, right);
+        inv_count += merge(arr, temp, left, mid, right);
     }
-    return inversions;
+    return inv_count;
 }
 
 int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
     int n;
-    cin >> n;
-    vector<int> arr(n);
-    for (int i = 0; i < n; i++)
-        cin >> arr[i];
-    cout << mergeSort(arr, 0, n - 1) << endl;
+    std::cin >> n;
+
+    if (n == 0) {
+        std::cout << 0 << std::endl;
+        return 0;
+    }
+
+    std::vector<int> arr(n);
+    for (int i = 0; i < n; ++i) {
+        std::cin >> arr[i];
+    }
+
+    std::vector<int> temp(n);
+    std::cout << mergeSort(arr, temp, 0, n - 1) << std::endl;
+
     return 0;
 }
-

@@ -1,47 +1,36 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <algorithm>
-
-using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<int> arr(n);
+    int n;
+    std::cin >> n;
+
+    std::vector<int> arr(n);
     for (int i = 0; i < n; ++i) {
-        cin >> arr[i];
+        std::cin >> arr[i];
     }
 
-    int shifts = 0;
-    int comparisons = 0;
-
+    long long shifts = 0;
     for (int i = 1; i < n; ++i) {
         int key = arr[i];
         int j = i - 1;
 
         while (j >= 0 && arr[j] > key) {
-            comparisons++;
             arr[j + 1] = arr[j];
             shifts++;
             j--;
         }
-        comparisons++;
         arr[j + 1] = key;
     }
 
-    cout << "Array ordenado: " << endl;
-    for (int i = 0; i < n; ++i) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-    cout << "Quantidade de trocas: " << shifts << endl;
-    cout << "Quantidade de comparacoes: " << comparisons << endl;
-
+    std::cout << shifts << std::endl;
 
     return 0;
 }

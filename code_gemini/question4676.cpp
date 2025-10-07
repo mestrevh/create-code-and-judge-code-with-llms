@@ -1,62 +1,62 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 
-using namespace std;
+void print_array(const std::vector<int>& arr) {
+    for (size_t i = 0; i < arr.size(); ++i) {
+        if (arr[i] == -1) {
+            std::cout << "-";
+        } else {
+            std::cout << arr[i];
+        }
+        if (i < arr.size() - 1) {
+            std::cout << " ";
+        }
+    }
+    std::cout << std::endl;
+}
 
 int main() {
-    int size;
-    cin >> size;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<int> queue(size, -1);
-    int head = 0;
-    int tail = 0;
-    int count = 0;
+    int SIZE;
+    std::cin >> SIZE;
+
+    std::vector<int> queue(SIZE, -1);
+    int front = 0;
+    int rear = 0;
 
     char command;
-    while (cin >> command && command != 'F') {
+    while (std::cin >> command && command != 'F') {
         if (command == 'E') {
             int value;
-            cin >> value;
-            if (count < size - 1) {
-                queue[tail] = value;
-                tail = (tail + 1) % size;
-                count++;
-                for (int i = 0; i < size; ++i) {
-                    if (queue[i] == -1) {
-                        cout << "- ";
-                    } else {
-                        cout << queue[i] << " ";
-                    }
-                }
-                cout << endl;
+            std::cin >> value;
+
+            if ((rear + 1) % SIZE == front) {
+                std::cout << "Fila cheia" << std::endl;
             } else {
-                cout << "Fila cheia" << endl;
+                queue[rear] = value;
+                rear = (rear + 1) % SIZE;
+                print_array(queue);
             }
         } else if (command == 'D') {
-            if (count > 0) {
-                int removed = queue[head];
-                queue[head] = -1;
-                head = (head + 1) % size;
-                count--;
-                cout << removed << endl;
-                for (int i = 0; i < size; ++i) {
-                    if (queue[i] == -1) {
-                        cout << "- ";
-                    } else {
-                        cout << queue[i] << " ";
-                    }
-                }
-                cout << endl;
+            if (front == rear) {
+                std::cout << "Fila vazia" << std::endl;
             } else {
-                cout << "Fila vazia" << endl;
+                int removed_value = queue[front];
+                std::cout << removed_value << std::endl;
+                queue[front] = -1;
+                front = (front + 1) % SIZE;
+                print_array(queue);
             }
         }
     }
-    cout << "Saindo..." << endl;
+
+    std::cout << "Saindo..." << std::endl;
 
     return 0;
 }

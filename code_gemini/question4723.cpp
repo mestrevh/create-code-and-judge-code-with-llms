@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -7,30 +7,30 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <string>
 #include <algorithm>
 
-using namespace std;
-
 int main() {
-    vector<string> compras = {"leite", "manteiga", "ovos"};
-    string adicionar, remover;
-    cin >> adicionar >> remover;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    compras.push_back(adicionar);
+    std::vector<std::string> compras = {"leite", "manteiga", "ovos"};
 
-    for (int i = 0; i < compras.size(); ++i) {
-        if (compras[i] == remover) {
-            compras.erase(compras.begin() + i);
-            break;
-        }
-    }
+    std::string item_para_adicionar;
+    std::cin >> item_para_adicionar;
 
-    cout << "[";
-    for (int i = 0; i < compras.size(); ++i) {
-        cout << "'" << compras[i] << "'";
+    std::string item_para_remover;
+    std::cin >> item_para_remover;
+
+    compras.push_back(item_para_adicionar);
+
+    compras.erase(std::remove(compras.begin(), compras.end(), item_para_remover), compras.end());
+
+    std::cout << "['";
+    for (size_t i = 0; i < compras.size(); ++i) {
+        std::cout << compras[i];
         if (i < compras.size() - 1) {
-            cout << ", ";
+            std::cout << "', '";
         }
     }
-    cout << "]" << endl;
+    std::cout << "']" << std::endl;
 
     return 0;
 }

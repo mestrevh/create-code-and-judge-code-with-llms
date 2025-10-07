@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -9,95 +9,116 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 
 using namespace std;
 
-struct Product {
-    string name;
-    int quantity;
-    double price;
+struct Produto {
+    string nome;
+    int quantidade;
+    double preco;
+    bool ocupado = false;
 };
 
 int main() {
-    int size;
-    cin >> size;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    vector<vector<Product*>> stock(size, vector<Product*>(size, nullptr));
+    int tamanho;
+    cin >> tamanho;
+    vector<vector<Produto>> estoque(tamanho, vector<Produto>(tamanho));
 
-    string command;
-    while (cin >> command && command != "EXIT") {
-        if (command == "CREATE") {
-            int row, col;
-            string name;
-            int quantity;
-            double price;
-            cin >> row >> col >> name >> quantity >> price;
-            if (row >= 0 && row < size && col >= 0 && col < size && stock[row][col] == nullptr) {
-                stock[row][col] = new Product{name, quantity, price};
-                cout << "Produto adicionado no estoque!" << endl;
+    string comando;
+    while (cin >> comando) {
+        if (comando == "EXIT") {
+            cout << "Saindo...\n";
+            break;
+        }
+
+        if (comando == "CREATE") {
+            int linha, coluna;
+            cin >> linha >> coluna;
+
+            if (linha >= 0 && linha < tamanho && coluna >= 0 && coluna < tamanho && !estoque[linha][coluna].ocupado) {
+                estoque[linha][coluna].ocupado = true;
+                cin >> estoque[linha][coluna].nome >> estoque[linha][coluna].quantidade >> estoque[linha][coluna].preco;
+                cout << "Produto adicionado no estoque!\n";
             } else {
-                cout << "ERRO: espaço ja ocupado" << endl;
+                cout << "ERRO: espaço ja ocupado\n";
+                string dummy_nome;
+                int dummy_qtd;
+                double dummy_preco;
+                cin >> dummy_nome >> dummy_qtd >> dummy_preco;
             }
-        } else if (command == "READ") {
-            string name;
-            cin >> name;
-            bool found = false;
-            for (int i = 0; i < size; ++i) {
-                for (int j = 0; j < size; ++j) {
-                    if (stock[i][j] != nullptr && stock[i][j]->name == name) {
-                        cout << "LINHA: " << i << " COLUNA: " << j << " QTD: " << stock[i][j]->quantity << " PRECO: " << fixed << setprecision(2) << stock[i][j]->price << endl;
-                        found = true;
+        } else if (comando == "READ") {
+            string nome_busca;
+            cin >> nome_busca;
+            bool encontrado = false;
+            for (int i = 0; i < tamanho; ++i) {
+                for (int j = 0; j < tamanho; ++j) {
+                    if (estoque[i][j].ocupado && estoque[i][j].nome == nome_busca) {
+                        cout << fixed << setprecision(2);
+                        cout << "LINHA: " << i << " COLUNA: " << j
+                             << " QTD: " << estoque[i][j].quantidade
+                             << " PRECO: " << estoque[i][j].preco << "\n";
+                        encontrado = true;
                         break;
                     }
                 }
+                if (encontrado) break;
             }
-            
-        } else if (command == "UPDATE") {
-            string name;
-            int quantity;
-            double price;
-            cin >> name >> quantity >> price;
-            bool found = false;
-            for (int i = 0; i < size; ++i) {
-                for (int j = 0; j < size; ++j) {
-                    if (stock[i][j] != nullptr && stock[i][j]->name == name) {
-                        stock[i][j]->quantity = quantity;
-                        stock[i][j]->price = price;
-                        cout << "Produto atualizado!" << endl;
-                        found = true;
+        } else if (comando == "UPDATE") {
+            string nome_busca;
+            cin >> nome_busca;
+            int nova_qtd;
+            double novo_preco;
+            cin >> nova_qtd >> novo_preco;
+            bool encontrado = false;
+            for (int i = 0; i < tamanho; ++i) {
+                for (int j = 0; j < tamanho; ++j) {
+                    if (estoque[i][j].ocupado && estoque[i][j].nome == nome_busca) {
+                        estoque[i][j].quantidade = nova_qtd;
+                        estoque[i][j].preco = novo_preco;
+                        encontrado = true;
                         break;
                     }
                 }
+                if (encontrado) break;
             }
-            if (!found) {
-                cout << "Produto nao encontrado!" << endl;
+            if (encontrado) {
+                cout << "Produto atualizado!\n";
+            } else {
+                cout << "Produto nao encontrado!\n";
             }
-        } else if (command == "DELETE") {
-            string name;
-            cin >> name;
-            bool found = false;
-            for (int i = 0; i < size; ++i) {
-                for (int j = 0; j < size; ++j) {
-                    if (stock[i][j] != nullptr && stock[i][j]->name == name) {
-                        delete stock[i][j];
-                        stock[i][j] = nullptr;
-                        cout << "Produto removido!" << endl;
-                        found = true;
+        } else if (comando == "DELETE") {
+            string nome_busca;
+            cin >> nome_busca;
+            bool encontrado = false;
+            for (int i = 0; i < tamanho; ++i) {
+                for (int j = 0; j < tamanho; ++j) {
+                    if (estoque[i][j].ocupado && estoque[i][j].nome == nome_busca) {
+                        estoque[i][j].ocupado = false;
+                        encontrado = true;
                         break;
                     }
                 }
+                if (encontrado) break;
             }
-            if (!found) {
-                cout << "Produto nao encontrado!" << endl;
+            if (encontrado) {
+                cout << "Produto removido!\n";
+            } else {
+                cout << "Produto nao encontrado!\n";
             }
-        } else if (command == "PRINT") {
-            for (int i = 0; i < size; ++i) {
-                for (int j = 0; j < size; ++j) {
-                    if (stock[i][j] != nullptr) {
-                        cout << "LINHA: " << i << " COLUNA: " << j << " NOME: " << stock[i][j]->name << " QTD: " << stock[i][j]->quantity << " PRECO: " << fixed << setprecision(2) << stock[i][j]->price << endl;
+        } else if (comando == "PRINT") {
+            for (int i = 0; i < tamanho; ++i) {
+                for (int j = 0; j < tamanho; ++j) {
+                    if (estoque[i][j].ocupado) {
+                        cout << fixed << setprecision(2);
+                        cout << "LINHA: " << i << " COLUNA: " << j
+                             << " NOME: " << estoque[i][j].nome
+                             << " QTD: " << estoque[i][j].quantidade
+                             << " PRECO: " << estoque[i][j].preco << "\n";
                     }
                 }
             }
         }
     }
-    cout << "Saindo..." << endl;
 
     return 0;
 }

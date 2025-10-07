@@ -1,48 +1,40 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <string>
-#include <vector>
+#include <sstream>
 
 int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
 
-    std::vector<std::string> words;
-    std::string current_word = "";
+    std::string input;
+    std::string phrase;
     int letter_count = 0;
-    std::string token;
+    int word_count = 0;
+    bool is_new_word = true;
 
-    while (std::cin >> token && token != "fim") {
-        if (token == "-") {
-            if (!current_word.empty()) {
-                words.push_back(current_word);
-                current_word = "";
-            }
+    while (std::cin >> input && input != "fim") {
+        if (input == "-") {
+            is_new_word = true;
         } else {
-            current_word += token;
             letter_count++;
+            if (is_new_word) {
+                word_count++;
+                if (!phrase.empty()) {
+                    phrase += " ";
+                }
+            }
+            phrase += input;
+            is_new_word = false;
         }
     }
 
-    if (!current_word.empty()) {
-        words.push_back(current_word);
-    }
-
-    std::string sentence = "";
-    if (!words.empty()) {
-        sentence = words[0];
-        for (size_t i = 1; i < words.size(); ++i) {
-            sentence += " ";
-            sentence += words[i];
-        }
-    }
-
-    std::cout << "A palavra é: " << sentence << std::endl;
-    std::cout << "Ela tem " << words.size() << " palavras" << std::endl;
-    std::cout << "Ela tem " << letter_count << " letras" << std::endl;
+    std::cout << "A palavra é: " << phrase << "\n";
+    std::cout << "Ela tem " << word_count << " palavras\n";
+    std::cout << "Ela tem " << letter_count << " letras\n";
 
     return 0;
 }

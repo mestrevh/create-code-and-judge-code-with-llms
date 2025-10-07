@@ -1,59 +1,74 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <string>
 #include <vector>
+#include <string>
 
-using namespace std;
+void simulate_clock(std::string& s) {
+    if (s.empty()) {
+        return;
+    }
 
-string simulate(string s, int f) {
-    int n = s.length();
-    for (int i = 0; i < f; ++i) {
-        char prev = s[0];
-        s[0] = (s[0] == 'X' ? 'O' : 'X');
-        for (int j = 1; j < n; ++j) {
-            if (prev == 'X') {
-                prev = s[j];
-                s[j] = (s[j] == 'X' ? 'O' : 'X');
+    bool cascade = (s[0] == 'O');
+    s[0] = (s[0] == 'O' ? 'X' : 'O');
+
+    if (cascade) {
+        for (size_t i = 1; i < s.length(); ++i) {
+            if (s[i] == 'O') {
+                s[i] = 'X';
             } else {
-                prev = s[j];
+                s[i] = 'O';
+                break;
             }
         }
     }
-    return s;
 }
 
 int main() {
-    int r;
-    cin >> r;
-    string final_string = "";
-    for (int i = 0; i < r; ++i) {
-        string s;
-        int f;
-        cin >> s >> f;
-        string result = simulate(s, f);
-        cout << result << endl;
-        if (final_string.length() > 0) {
-            char last = final_string.back();
-            char first = result.front();
-            if (final_string.length() % 2 == 0) {
-                if (last == first) {
-                    final_string += "@";
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    int R;
+    std::cin >> R;
+
+    std::vector<std::string> results;
+    if (R > 0) {
+        results.reserve(R);
+    }
+
+    for (int i = 0; i < R; ++i) {
+        std::string s;
+        long long f;
+        std::cin >> s >> f;
+        for (long long j = 0; j < f; ++j) {
+            simulate_clock(s);
+        }
+        std::cout << s << "\n";
+        results.push_back(s);
+    }
+
+    if (R > 0) {
+        std::string final_str = results[0];
+        for (size_t i = 1; i < results.size(); ++i) {
+            if (final_str.length() % 2 == 0) {
+                if (final_str.back() == results[i].front()) {
+                    final_str += '@';
                 } else {
-                    final_string += "$";
+                    final_str += '$';
                 }
             } else {
-                if (last == first) {
-                    final_string += "#";
+                if (final_str.back() == results[i].front()) {
+                    final_str += '#';
                 } else {
-                    final_string += "%";
+                    final_str += '%';
                 }
             }
+            final_str += results[i];
         }
-        final_string += result;
+        std::cout << final_str << "\n";
     }
-    cout << final_string << endl;
+
     return 0;
 }

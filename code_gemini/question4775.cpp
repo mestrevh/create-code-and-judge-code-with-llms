@@ -1,144 +1,163 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
 #include <string>
-#include <sstream>
 #include <iomanip>
 #include <algorithm>
 
-using namespace std;
-
 struct Player {
-    string name;
-    double bet;
-    int score = 0;
+    std::string name;
+    int total_score = 0;
     int max_round_score = 0;
-    vector<string> correct_words;
-    bool eliminated = false;
+    bool is_eliminated = false;
+    std::vector<std::string> correct_words;
 };
 
 int main() {
-    int num_players;
-    cin >> num_players;
-    cin.ignore(); 
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    if (num_players == 1) {
-        cout << "Jogar com uma pessoa só nem tem graça...\n";
+    int n;
+    std::cin >> n;
+
+    if (n <= 1) {
+        std::cout << "Jogar com uma pessoa só nem tem graça...\n";
         return 0;
     }
 
-    vector<Player> players(num_players);
-    double total_bet = 0;
-    for (int i = 0; i < num_players; ++i) {
-        string line;
-        getline(cin, line);
-        stringstream ss(line);
-        ss >> players[i].name >> players[i].bet;
-        total_bet += players[i].bet;
-    }
+    std::vector<Player> players(n);
+    double total_bet = 0.0;
+    bool has_azeik = false;
+    bool has_odnanref = false;
 
-    cout << "Hoje, quem vai jogar Azeik palavras é ";
-    for (int i = 0; i < num_players; ++i) {
-        cout << players[i].name;
-        if (i < num_players - 1) {
-            cout << ", ";
-        }
-    }
-    cout << ".\n";
-
-    cout << "Tem muito dinheiro em jogo, quem vai levar a bolada de " << fixed << setprecision(2) << total_bet << " reais?\n";
-
-    for (int i = 0; i < num_players; ++i) {
+    for (int i = 0; i < n; ++i) {
+        double bet;
+        std::cin >> players[i].name >> bet;
+        total_bet += bet;
         if (players[i].name == "Azeik") {
-            cout << "Azeik todo mundo sabe que você vai ganhar, não precisa jogar, tome o dinheiro e vá jogar no tigrinho.\n";
-            return 0;
+            has_azeik = true;
         }
         if (players[i].name == "Odnanref") {
-            cout << "Odnanref está aqui nem vale a pena jogar, esse cara atrapalha tudo!\n";
-            return 0;
+            has_odnanref = true;
         }
+    }
+
+    std::cout << "Hoje, quem vai jogar Azeik palavras é ";
+    for (int i = 0; i < n; ++i) {
+        std::cout << players[i].name;
+        if (i == n - 1) {
+            std::cout << ".\n";
+        } else {
+            std::cout << ", ";
+        }
+    }
+
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << "Tem muito dinheiro em jogo, quem vai levar a bolada de " << total_bet << " reais?\n";
+
+    if (has_azeik) {
+        std::cout << "Azeik todo mundo sabe que você vai ganhar, não precisa jogar, tome o dinheiro e vá jogar no tigrinho.\n";
+        return 0;
+    }
+
+    if (has_odnanref) {
+        std::cout << "Odnanref está aqui nem vale a pena jogar, esse cara atrapalha tudo!\n";
+        return 0;
     }
 
     int num_rounds;
-    cin >> num_rounds;
-    cin.ignore();
+    std::cin >> num_rounds;
 
-    for (int round = 0; round < num_rounds; ++round) {
-        string reference_word;
-        cin >> reference_word;
-        
-        int remaining_players = 0;
-        for (int i = 0; i < num_players; ++i) {
-            if (!players[i].eliminated) {
-                remaining_players++;
-            }
+    int active_players = n;
+
+    for (int r = 0; r < num_rounds; ++r) {
+        if (active_players <= 1) {
+            break;
         }
-        if(remaining_players == 1) break;
 
-        for (int i = 0; i < num_players; ++i) {
-            if (!players[i].eliminated) {
-                string player_word;
-                cin >> player_word;
+        std::string ref_word;
+        std::cin >> ref_word;
 
-                if (player_word[0] == reference_word[0]) {
-                    int round_score = player_word.length();
-                    if (player_word == reference_word) {
+        std::vector<int> to_be_eliminated;
+
+        for (int i = 0; i < n; ++i) {
+            if (!players[i].is_eliminated) {
+                std::string chosen_word;
+                std::cin >> chosen_word;
+
+                if (chosen_word[0] == ref_word[0]) {
+                    int round_score = chosen_word.length();
+                    if (chosen_word == ref_word) {
                         round_score *= 2;
-                        players[i].correct_words.push_back(reference_word);
+                        players[i].correct_words.push_back(ref_word);
                     }
-                    players[i].score += round_score;
-                    players[i].max_round_score = max(players[i].max_round_score, round_score);
+                    players[i].total_score += round_score;
+                    players[i].max_round_score = std::max(players[i].max_round_score, round_score);
                 } else {
-                    cout << players[i].name << " foi eliminado e vai sair daqui sem um centavo.\n";
-                    players[i].eliminated = true;
+                    to_be_eliminated.push_back(i);
                 }
             }
         }
+
+        for (int index : to_be_eliminated) {
+            players[index].is_eliminated = true;
+            active_players--;
+            std::cout << players[index].name << " foi eliminado e vai sair daqui sem um centavo.\n";
+        }
     }
 
-    Player winner;
-    int winner_count = 0;
-    for(auto& p : players){
-        if(!p.eliminated){
-            if(winner_count == 0 || p.score > winner.score || (p.score == winner.score && p.name < winner.name)){
-                winner = p;
+    Player* winner = nullptr;
+    int max_score = -1;
+    std::vector<Player*> potential_winners;
+
+    for (int i = 0; i < n; ++i) {
+        if (!players[i].is_eliminated) {
+            if (players[i].total_score > max_score) {
+                max_score = players[i].total_score;
             }
-            winner_count++;
+        }
+    }
+
+    for (int i = 0; i < n; ++i) {
+        if (!players[i].is_eliminated && players[i].total_score == max_score) {
+            potential_winners.push_back(&players[i]);
+        }
+    }
+
+    if (!potential_winners.empty()) {
+        winner = potential_winners[0];
+        for (size_t i = 1; i < potential_winners.size(); ++i) {
+            if (potential_winners[i]->name < winner->name) {
+                winner = potential_winners[i];
+            }
+        }
+    
+        bool tie_breaker_used = potential_winners.size() > 1;
+
+        std::cout << "Temos um vencedor...\n";
+        std::cout << winner->name << " venceu e levou a bolada de " << total_bet << " reais para casa!\n";
+        std::cout << "E não para por aí, " << winner->name << " fez uma pontuação histórica de " << winner->total_score 
+                  << " pontos, conseguindo um total de " << winner->max_round_score << " pontos numa só rodada!\n";
+
+        if (!winner->correct_words.empty()) {
+            std::cout << "Impressionante, " << winner->name << " ainda conseguiu acertar essas palavras de referência: ";
+            for (size_t i = 0; i < winner->correct_words.size(); ++i) {
+                std::cout << winner->correct_words[i];
+                if (i == winner->correct_words.size() - 1) {
+                    std::cout << "!\n";
+                } else {
+                    std::cout << ", ";
+                }
+            }
+        }
+
+        if (tie_breaker_used) {
+            std::cout << "E mesmo com tudo isso, foi apertado. Agradeça a seus pais, que foram eles que fizeram você ganhar esse dinheiro.\n";
         }
     }
     
-
-    cout << "Temos um vencedor...\n";
-    cout << winner.name << " venceu e levou a bolada de " << fixed << setprecision(2) << total_bet << " reais para casa!\n";
-    cout << "E não para por aí, " << winner.name << " fez uma pontuação histórica de " << winner.score << " pontos, conseguindo um total de " << winner.max_round_score << " pontos numa só rodada!\n";
-
-    if (!winner.correct_words.empty()) {
-        cout << "Impressionante, " << winner.name << " ainda conseguiu acertar essas palavras de referência: ";
-        for (size_t i = 0; i < winner.correct_words.size(); ++i) {
-            cout << winner.correct_words[i];
-            if (i < winner.correct_words.size() - 1) {
-                cout << ", ";
-            }
-        }
-        cout << "!\n";
-    }
-
-    if(winner_count > 1 && winner.score == players[0].score){
-        
-        int same_score = 0;
-         for(auto& p : players){
-             if(p.score == winner.score){
-                 same_score++;
-             }
-         }
-         if(same_score > 1)
-            cout << "E mesmo com tudo isso, foi apertado. Agradeça a seus pais, que foram eles que fizeram você ganhar esse dinheiro.\n";
-
-    }
-
-
     return 0;
 }

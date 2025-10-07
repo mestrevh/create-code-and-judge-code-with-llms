@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -13,7 +13,6 @@ int main() {
     if (a > b) {
         std::swap(a, b);
     }
-    std::cout << a << "\n";
-    std::cout << b << "\n";
+    std::cout << a << "\n" << b << "\n";
     return 0;
 }

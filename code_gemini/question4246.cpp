@@ -1,5 +1,5 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
@@ -8,13 +8,17 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <algorithm>
 
 struct Triangulo {
-    int lado1, lado2, lado3;
+    int a, b, c;
     double area;
 };
 
 void calculaArea(int a, int b, int c, double *area) {
-    double s = (static_cast<double>(a) + b + c) / 2.0;
+    double s = (a + b + c) / 2.0;
     *area = std::sqrt(s * (s - a) * (s - b) * (s - c));
+}
+
+bool comparaPorArea(const Triangulo& t1, const Triangulo& t2) {
+    return t1.area < t2.area;
 }
 
 int main() {
@@ -27,16 +31,14 @@ int main() {
     std::vector<Triangulo> triangulos(n);
 
     for (int i = 0; i < n; ++i) {
-        std::cin >> triangulos[i].lado1 >> triangulos[i].lado2 >> triangulos[i].lado3;
-        calculaArea(triangulos[i].lado1, triangulos[i].lado2, triangulos[i].lado3, &triangulos[i].area);
+        std::cin >> triangulos[i].a >> triangulos[i].b >> triangulos[i].c;
+        calculaArea(triangulos[i].a, triangulos[i].b, triangulos[i].c, &triangulos[i].area);
     }
 
-    std::sort(triangulos.begin(), triangulos.end(), [](const Triangulo& a, const Triangulo& b) {
-        return a.area < b.area;
-    });
+    std::sort(triangulos.begin(), triangulos.end(), comparaPorArea);
 
-    for (const auto& t : triangulos) {
-        std::cout << t.lado1 << " " << t.lado2 << " " << t.lado3 << "\n";
+    for (int i = 0; i < n; ++i) {
+        std::cout << triangulos[i].a << " " << triangulos[i].b << " " << triangulos[i].c << "\n";
     }
 
     return 0;

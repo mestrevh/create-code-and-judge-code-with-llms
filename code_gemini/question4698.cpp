@@ -1,11 +1,10 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <iomanip>
-
-using namespace std;
+#include <cmath>
 
 double somar(double a, double b) {
     return a + b;
@@ -13,14 +12,17 @@ double somar(double a, double b) {
 
 int main() {
     double a, b;
-    cin >> a >> b;
+    std::cin >> a >> b;
 
-    double c = somar(a, b);
+    double resultado = somar(a, b);
 
-    if (static_cast<int>(c) == c) {
-        cout << "O resultado de " << fixed << setprecision(1) << a << " + " << fixed << setprecision(1) << b << " eh " << static_cast<int>(c) << endl;
+    std::cout << std::fixed << std::setprecision(1);
+    std::cout << "O resultado de " << a << " + " << b << " eh ";
+
+    if (resultado == static_cast<long long>(resultado)) {
+        std::cout << std::fixed << std::setprecision(0) << resultado << std::endl;
     } else {
-        cout << "O resultado de " << fixed << setprecision(1) << a << " + " << fixed << setprecision(1) << b << " eh " << fixed << setprecision(1) << c << endl;
+        std::cout << std::fixed << std::setprecision(1) << resultado << std::endl;
     }
 
     return 0;

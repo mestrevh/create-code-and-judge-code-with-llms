@@ -1,25 +1,31 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
 #include <iomanip>
 
 int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
 
-    std::vector<double> prices = {3.00, 2.50, 2.50, 1.00, 3.00};
-    double total_cost = 0.0;
-    int quantity;
+    int hamburguer, cheeseburger, fritas, refrigerante, milkshake;
 
-    for (size_t i = 0; i < prices.size(); ++i) {
-        std::cin >> quantity;
-        total_cost += quantity * prices[i];
-    }
+    std::cin >> hamburguer;
+    std::cin >> cheeseburger;
+    std::cin >> fritas;
+    std::cin >> refrigerante;
+    std::cin >> milkshake;
 
-    std::cout << "conta final: " << std::fixed << std::setprecision(1) << total_cost << std::endl;
+    double total = 0.0;
+
+    total += hamburguer * 3.00;
+    total += cheeseburger * 2.50;
+    total += fritas * 2.50;
+    total += refrigerante * 1.00;
+    total += milkshake * 3.00;
+
+    std::cout << "conta final: " << std::fixed << std::setprecision(1) << total << std::endl;
 
     return 0;
 }

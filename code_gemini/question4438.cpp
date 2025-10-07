@@ -1,43 +1,65 @@
 /*
-Código criado pelo Gemini Pro 1.5
+Código criado pelo Gemini Pro 2.5
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-
-using namespace std;
+#include <string>
 
 int main() {
-    int n;
-    cin >> n;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
 
-    vector<vector<int>> adj(n, vector<int>(n));
+    int n;
+    std::cin >> n;
+
+    if (n == 0) {
+        std::cout << "NAO HA CELEBRIDADE" << std::endl;
+        return 0;
+    }
+
+    std::vector<std::vector<int>> matrix(n, std::vector<int>(n));
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
-            cin >> adj[i][j];
+            std::cin >> matrix[i][j];
         }
     }
 
-    int celebrity = -1;
+    int celebrity_candidate = -1;
+
     for (int i = 0; i < n; ++i) {
         bool is_celebrity = true;
+
         for (int j = 0; j < n; ++j) {
             if (i == j) continue;
-            if (adj[i][j] == 1 || adj[j][i] == 0) {
+            if (matrix[i][j] == 1) {
                 is_celebrity = false;
                 break;
             }
         }
+
+        if (!is_celebrity) {
+            continue;
+        }
+
+        for (int j = 0; j < n; ++j) {
+            if (i == j) continue;
+            if (matrix[j][i] == 0) {
+                is_celebrity = false;
+                break;
+            }
+        }
+
         if (is_celebrity) {
-            celebrity = i;
+            celebrity_candidate = i;
             break;
         }
     }
 
-    if (celebrity != -1) {
-        cout << celebrity << endl;
+    if (celebrity_candidate != -1) {
+        std::cout << celebrity_candidate << std::endl;
     } else {
-        cout << "NAO HA CELEBRIDADE" << endl;
+        std::cout << "NAO HA CELEBRIDADE" << std::endl;
     }
 
     return 0;
