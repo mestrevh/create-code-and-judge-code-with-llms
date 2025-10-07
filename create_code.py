@@ -25,7 +25,7 @@ def send_prompt(type="gemini", prompt="Teste"):
     if type == "gemini":
         
         try:
-            model = genai.GenerativeModel('gemini-1.5-pro-latest')
+            model = genai.GenerativeModel("models/gemini-2.5-pro")
             response = model.generate_content(prompt)
 
             return response.text
@@ -37,7 +37,7 @@ def send_prompt(type="gemini", prompt="Teste"):
         
         try:
             gpt_response = openAI.responses.create(
-                    model="gpt-4o-mini",
+                    model="gpt-4.1",
                     input=prompt
                 )
         except Exception as e:
@@ -61,10 +61,17 @@ def main():
         print("Fim do programa!")
         exit()
         
-    for question_dir in os.listdir("questions"):
+    for i in range(5000):
+        
+        question_dir = f"question{i}"
+        
         problem_path = os.path.join(
             "questions", question_dir, "problem.txt")
-
+        
+        if not (os.path.isfile(problem_path)):
+            print(f"O problema {question_dir} não existe!")
+            continue
+        
         inputs_text = []
         inputs_dir = os.path.join("questions", question_dir, "inputs")
         if os.path.isdir(inputs_dir):
@@ -143,7 +150,7 @@ def main():
                 
                 if op == "1":
                     
-                    code = f'/*\nCódigo criado pelo Gemini Pro 1.5\nEstudo para TCC (Victor Hugo Silva Ângelo - UFAL)\n*/' + code
+                    code = f'/*\nCódigo criado pelo Gemini Pro 2.5\nEstudo para TCC (Victor Hugo Silva Ângelo - UFAL)\n*/' + code
                     
                     with open(f"code_gemini/{question_dir}.cpp", "w", encoding="utf-8") as f:
                         f.write(code)
@@ -152,13 +159,13 @@ def main():
                 
                 elif op == "2":
                     
-                    code = f'/*\nCódigo criado pelo GPT 4o-mini\nEstudo para TCC (Victor Hugo Silva Ângelo - UFAL)\n*/' + code
+                    code = f'/*\nCódigo criado pelo GPT 4.1\nEstudo para TCC (Victor Hugo Silva Ângelo - UFAL)\n*/' + code
                     
                     with open(f"code_gpt/{question_dir}.cpp", "w", encoding="utf-8") as f:
                         f.write(code)
 
                     print(f"Arquivo code_gpt/{question_dir}.cpp gerado com sucesso!")
-    
+            
     print("Fim do algoritmo!")
 
 main()

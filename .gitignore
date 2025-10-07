@@ -1,8 +1,4 @@
 .env
-code_gemini/*
-!code_gemini/*.txt
-code_gpt/*
-!code_gpt/*.txt
 judge_gemini/*
 !judge_gpt/README.md
 judge_gpt/*

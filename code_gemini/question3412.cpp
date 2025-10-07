@@ -1,0 +1,23 @@
+/*
+Código criado pelo Gemini Pro 2.5
+Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
+*/
+#include <iostream>
+#include <numeric>
+
+int mdc(int a, int b) {
+    while (b) {
+        a %= b;
+        std::swap(a, b);
+    }
+    return a;
+}
+
+int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    int a, b;
+    std::cin >> a >> b;
+    std::cout << "MDC=" << mdc(a, b) << std::endl;
+    return 0;
+}
