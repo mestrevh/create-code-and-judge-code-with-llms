@@ -1,4 +1,5 @@
 .env
+.ipynb_checkpoints/
 judge_gemini/*
 !judge_gpt/README.md
 judge_gpt/*

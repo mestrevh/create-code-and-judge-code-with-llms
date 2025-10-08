@@ -26,7 +26,7 @@ for problem_id in range(2, 5000):
 
     headers = {
         "Accept": "application/json, text/plain, */*",
-        "Authorization": TOKEN,
+        "Authorization": "Bearer " + TOKEN,
         "Referer": f"https://www.thehuxley.com/problem/{problem_id}/",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0",
     }
@@ -75,4 +75,4 @@ for problem_id in range(2, 5000):
     except requests.exceptions.RequestException as e:
         print(f"❌ Ocorreu um erro de conexão: {e}")
 
-database.to_csv('result_send_code.csv', index=False)
+database.to_csv('result_send_code_gemini.csv', index=False)
