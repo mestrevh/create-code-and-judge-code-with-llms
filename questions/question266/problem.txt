@@ -1,5 +1,5 @@
 Título: Ordenar Lista Encadeada em ordem crescente
-Topicos do problema: estrutura de dados; alocação dinâmica; ordenação; ponteiro; 
+Topicos do problema: estrutura de dados; alocação dinâmica; ponteiro; ordenação; 
 Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Escreva uma fun&ccedil;&atilde;o que ordena em ordem crescente uma lista encadeada sem criar uma nova lista.</p>
 Formato da entrada: <p>Uma lista encadeada onde cada n&oacute; possui um n&uacute;mero.</p>

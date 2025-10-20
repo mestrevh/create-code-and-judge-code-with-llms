@@ -1,5 +1,5 @@
 Título: Frequência de um texto em uma Lista Encadeada
-Topicos do problema: estrutura de dados; ordenação; ponteiro; dicionário; 
+Topicos do problema: estrutura de dados; ponteiro; ordenação; dicionário; 
 Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Suponha que um texto est&aacute; armazenado em um array onde cada posi&ccedil;&atilde;o cont&eacute;m um caracter. O texto pode conter os 256 caracteres da tabela ASCII. Escreva uma fun&ccedil;&atilde;o para criar uma lista encadeada onde cada n&oacute; possui o caracter e a sua frequ&ecirc;ncia no texto. Para esta quest&atilde;o, navegar pela lista que est&aacute; sendo criada &eacute; proibido. Lembre-se que para inserir um n&oacute; na lista, podemos ter O(1).</p>
 Formato da entrada: <p>Um array onde cada posi&ccedil;&atilde;o possui uma letra do texto.</p>
