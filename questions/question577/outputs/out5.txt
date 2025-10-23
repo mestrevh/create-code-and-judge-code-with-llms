@@ -1,0 +1,17 @@
+Estado inicial: 12 | 21 | 13 | 4 | 32 | 1 | 30 | 0
+Estado Atual da Heap: 32 | 21 | 30 | 4 | 12 | 1 | 13 | 0
+Maior elemento neste passo: 32
+Estado Atual da Heap: 30 | 21 | 13 | 4 | 12 | 1 | 0
+Maior elemento neste passo: 30
+Estado Atual da Heap: 21 | 12 | 13 | 4 | 0 | 1
+Maior elemento neste passo: 21
+Estado Atual da Heap: 13 | 12 | 1 | 4 | 0
+Maior elemento neste passo: 13
+Estado Atual da Heap: 12 | 4 | 1 | 0
+Maior elemento neste passo: 12
+Estado Atual da Heap: 4 | 0 | 1
+Maior elemento neste passo: 4
+Estado Atual da Heap: 1 | 0
+Maior elemento neste passo: 1
+Estado Atual da Heap: 0
+Resultado Final: 0 | 1 | 4 | 12 | 13 | 21 | 30 | 32

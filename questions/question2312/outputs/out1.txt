@@ -1,13 +1,14 @@
-Voce capturou uma peca na casa (6,3) e avancou para a casa (5,4).
-Voce capturou uma peca na casa (4,3) e avancou para a casa (3,2).
-Voce avancou para a casa (2,1).
-Voce capturou uma peca na casa (1,2) e avancou para a casa (0,3).
-- * - # - * - *
-* - * - * - * -
+Voce nao pode capturar essa peca.
+Voce avancou para a casa (5,2).
+Voce avancou para a casa (4,1).
+Voce deveria ter capturado a peca na casa (4,3).
+- * - * - * - *
+* - % - * - * -
 - * - * - * - *
 * - * - * - * -
-- * - * - % - *
-* - * - * - * -
+- # - % - % - *
+* - * - % - * -
 - * - * - * - *
 * - * - * - * -
-Voce capturou 3 pecas.
+Voce capturou 0 pecas.
+Deu sopro.

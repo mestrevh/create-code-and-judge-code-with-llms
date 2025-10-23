@@ -1,0 +1,26 @@
+ADD Lion_King 5 2 3
+DEL Lion_King
+ADD Star_Wars 2 3 1
+SHOW R
+SHOW D
+ADD Charlie_and_The_Chocolate_Factory 4 4 3
+LAST R 2
+DEL Charlie_and_The_Chocolate_Factory
+ADD Citizen_Kane 1 4 2
+ADD Die_Hard 3 2 5
+LAST R 1
+LAST D 5
+FIRST D 4
+SHOW A
+DEL Star_Wars
+SHOW R
+LAST A 1
+FIRST R 3
+LAST R 1
+SHOW R
+LAST R 3
+FIRST A 5
+LAST R 5
+FIRST R 2
+ADD 2001_A_Space_Odissey 3 5 1
+END

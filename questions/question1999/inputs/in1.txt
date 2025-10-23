@@ -1,4 +1,4 @@
-5
-a b c d e
-a b c f e
+10
+a b c d e a b c d e
+g b c f e e b f d e
 sair

@@ -1,10 +1,10 @@
-Numero de votantes: 0
-Total A: 0
-Total B: 0
-Total C: 0
-Brancos: 0
-Nulos: 0
-Validos: 0
-Candidato mais votado: 
-Eleicao valida? False
-Segundo turno? False
+Numero de votantes: 11
+Total A: 4
+Total B: 3
+Total C: 2
+Brancos: 1
+Nulos: 1
+Validos: 9
+Candidato mais votado: A
+Eleicao valida? True
+Segundo turno? True

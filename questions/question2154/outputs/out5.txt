@@ -1,0 +1,40 @@
+BUSCA POR 38
+numero de elementos da tabela hash: 3
+elemento 38 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 94
+numero de elementos da tabela hash: 8
+elemento 94 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 38
+numero de elementos da tabela hash: 9
+elemento 38 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 9
+numero de elementos da tabela hash: 15
+elemento 9 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 45
+numero de elementos da tabela hash: 17
+elemento 45 encontrado!
+numero de elementos acessados na tabela hash: 2
+imprimindo tabela hash:
+[0]:38=>76=>
+[1]:1=>58=>
+[2]:Lista vazia!
+[3]:Lista vazia!
+[4]:Lista vazia!
+[5]:Lista vazia!
+[6]:Lista vazia!
+[7]:7=>45=>
+[8]:Lista vazia!
+[9]:9=>66=>
+[10]:29=>
+[11]:68=>
+[12]:50=>69=>69=>
+[13]:Lista vazia!
+[14]:Lista vazia!
+[15]:34=>
+[16]:54=>
+[17]:36=>
+[18]:94=>

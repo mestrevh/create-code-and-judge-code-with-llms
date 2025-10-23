@@ -1,0 +1,71 @@
+----
+Adicionando 69
+Continuou AVL...
+   ( 69  ()  () ) 
+----
+Adicionando 35
+Continuou AVL...
+   ( 69  ( 35  ()  () )  () ) 
+----
+Adicionando 24
+Antes de ajustar balanceamento...
+   ( 69  ( 35  ( 24  ()  () )  () )  () ) 
+Depois de ajustar balanceamento...
+   ( 35  ( 24  ()  () )  ( 69  ()  () ) ) 
+----
+Adicionando 100
+Continuou AVL...
+   ( 35  ( 24  ()  () )  ( 69  ()  ( 100  ()  () ) ) ) 
+----
+Adicionando 56
+Continuou AVL...
+   ( 35  ( 24  ()  () )  ( 69  ( 56  ()  () )  ( 100  ()  () ) ) ) 
+----
+Adicionando 16
+Continuou AVL...
+   ( 35  ( 24  ( 16  ()  () )  () )  ( 69  ( 56  ()  () )  ( 100  ()  () ) ) ) 
+----
+Adicionando 7
+Antes de ajustar balanceamento...
+   ( 35  ( 24  ( 16  ( 7  ()  () )  () )  () )  ( 69  ( 56  ()  () )  ( 100  ()  () ) ) ) 
+Depois de ajustar balanceamento...
+   ( 35  ( 16  ( 7  ()  () )  ( 24  ()  () ) )  ( 69  ( 56  ()  () )  ( 100  ()  () ) ) ) 
+----
+Adicionando 81
+Continuou AVL...
+   ( 35  ( 16  ( 7  ()  () )  ( 24  ()  () ) )  ( 69  ( 56  ()  () )  ( 100  ( 81  ()  () )  () ) ) ) 
+----
+Adicionando 3
+Continuou AVL...
+   ( 35  ( 16  ( 7  ( 3  ()  () )  () )  ( 24  ()  () ) )  ( 69  ( 56  ()  () )  ( 100  ( 81  ()  () )  () ) ) ) 
+----
+Adicionando 59
+Continuou AVL...
+   ( 35  ( 16  ( 7  ( 3  ()  () )  () )  ( 24  ()  () ) )  ( 69  ( 56  ()  ( 59  ()  () ) )  ( 100  ( 81  ()  () )  () ) ) ) 
+----
+Adicionando 84
+Antes de ajustar balanceamento...
+   ( 35  ( 16  ( 7  ( 3  ()  () )  () )  ( 24  ()  () ) )  ( 69  ( 56  ()  ( 59  ()  () ) )  ( 100  ( 81  ()  ( 84  ()  () ) )  () ) ) ) 
+Depois de ajustar balanceamento...
+   ( 35  ( 16  ( 7  ( 3  ()  () )  () )  ( 24  ()  () ) )  ( 69  ( 56  ()  ( 59  ()  () ) )  ( 84  ( 81  ()  () )  ( 100  ()  () ) ) ) ) 
+----
+Adicionando 57
+Antes de ajustar balanceamento...
+   ( 35  ( 16  ( 7  ( 3  ()  () )  () )  ( 24  ()  () ) )  ( 69  ( 56  ()  ( 59  ( 57  ()  () )  () ) )  ( 84  ( 81  ()  () )  ( 100  ()  () ) ) ) ) 
+Depois de ajustar balanceamento...
+   ( 35  ( 16  ( 7  ( 3  ()  () )  () )  ( 24  ()  () ) )  ( 69  ( 57  ( 56  ()  () )  ( 59  ()  () ) )  ( 84  ( 81  ()  () )  ( 100  ()  () ) ) ) ) 
+----
+Adicionando 13
+Continuou AVL...
+   ( 35  ( 16  ( 7  ( 3  ()  () )  ( 13  ()  () ) )  ( 24  ()  () ) )  ( 69  ( 57  ( 56  ()  () )  ( 59  ()  () ) )  ( 84  ( 81  ()  () )  ( 100  ()  () ) ) ) ) 
+----
+Adicionando 81
+Continuou AVL...
+   ( 35  ( 16  ( 7  ( 3  ()  () )  ( 13  ()  () ) )  ( 24  ()  () ) )  ( 69  ( 57  ( 56  ()  () )  ( 59  ()  () ) )  ( 84  ( 81  ()  ( 81  ()  () ) )  ( 100  ()  () ) ) ) ) 
+----
+Adicionando 15
+Antes de ajustar balanceamento...
+   ( 35  ( 16  ( 7  ( 3  ()  () )  ( 13  ()  ( 15  ()  () ) ) )  ( 24  ()  () ) )  ( 69  ( 57  ( 56  ()  () )  ( 59  ()  () ) )  ( 84  ( 81  ()  ( 81  ()  () ) )  ( 100  ()  () ) ) ) ) 
+Depois de ajustar balanceamento...
+   ( 35  ( 13  ( 7  ( 3  ()  () )  () )  ( 16  ( 15  ()  () )  ( 24  ()  () ) ) )  ( 69  ( 57  ( 56  ()  () )  ( 59  ()  () ) )  ( 84  ( 81  ()  ( 81  ()  () ) )  ( 100  ()  () ) ) ) ) 
+----

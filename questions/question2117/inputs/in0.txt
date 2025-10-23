@@ -1,19 +1,14 @@
-4 4
-0 0 0 0
-2 2 2 2
-0 0 0 0
-0 0 0 0
+5 10
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
 
-Colher
 Plantar
-1
-Plantar
-3
+1 2
+Temporada
 Temporada
 Colher
 Plantar
-0 2
-Ataque
-0 1
-Ataque
-2 3
+0

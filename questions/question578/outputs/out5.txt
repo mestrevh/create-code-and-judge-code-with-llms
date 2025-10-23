@@ -1,0 +1,6 @@
+Estado inicial: 12 | 21 | 13 | 4 | 32 | 1 | 30 | 0
+Estado Atual: 12 | 21 | 13 | 4 | 32 | 1 | 30 | 0
+Estado Atual: 12 | 21 | 30 | 4 | 32 | 1 | 13 | 0
+Estado Atual: 12 | 32 | 30 | 4 | 21 | 1 | 13 | 0
+Estado Atual: 32 | 21 | 30 | 4 | 12 | 1 | 13 | 0
+Resultado Final: 32 | 21 | 30 | 4 | 12 | 1 | 13 | 0

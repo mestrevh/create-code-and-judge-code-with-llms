@@ -1,10 +1,10 @@
-Numero de votantes: 15
-Total A: 3
+Numero de votantes: 37
+Total A: 30
 Total B: 3
-Total C: 3
-Brancos: 3
-Nulos: 3
-Validos: 9
-Candidato mais votado: 
+Total C: 2
+Brancos: 1
+Nulos: 1
+Validos: 35
+Candidato mais votado: A
 Eleicao valida? True
-Segundo turno? True
+Segundo turno? False

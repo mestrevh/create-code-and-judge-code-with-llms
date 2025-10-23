@@ -1,7 +1,8 @@
-O . . . . . . .
-. . . . . . . .
-. . . % . . . .
-. . . # . . . .
+. . . . . # . . . .
+. . . . . . . . . .
+. . . % . . % . . .
+. . . . . . % . . .
+. . . . . . % . . .
 
- - GAME OVER - 
-Numero de frutas comidas: 2
+Parabens, voce venceu!
+Numero de frutas comidas: 3

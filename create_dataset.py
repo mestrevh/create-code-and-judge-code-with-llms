@@ -139,7 +139,7 @@ def send_oracle(input: str = "", problem_id: int = 2):
 with open("problemas.csv", 'r', newline='', encoding='utf-8') as f:
     problem_input = list(csv.reader(f))
 
-for i in range(2, 5000):
+for i in range(958, 5000):
 
     response = requests.get(
         f"https://www.thehuxley.com/api/v1/problems/{i}?locale=pt_BR")
@@ -211,6 +211,15 @@ for i in range(2, 5000):
     substring = "\nException:"
 
     #print(submission)
+    
+    if submission["testCaseEvaluations"] == None:
+        filename = "problemas.csv"
+        with open(filename, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerows(problem_input)
+
+        print(f"Arquivo '{filename}' criado com sucesso!")
+        continue
 
     for value in submission["testCaseEvaluations"]:
 
@@ -227,7 +236,7 @@ for i in range(2, 5000):
 
             print(f"Arquivo '{filename}' criado com sucesso!")
             
-            continue
+            break
 
         init = value["errorMsg"].find(substring) + len(substring)
         error_msg = value["errorMsg"][init + 1 : len(value["errorMsg"]) - 2]

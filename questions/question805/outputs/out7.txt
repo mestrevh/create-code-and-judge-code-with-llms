@@ -1,0 +1,132 @@
+--------
+
+Caso de Teste #1 - BFS(2)
+
+Iniciando busca em largura a partir de 2
+
+0 | - | -
+1 | - | -
+2 | 0 | -
+3 | - | -
+4 | - | -
+5 | - | -
+6 | - | -
+7 | - | -
+8 | - | -
+9 | - | -
+
+Sem caminho entre 2 e 0
+
+--------
+
+Caso de Teste #2 - BFS(5)
+
+Iniciando busca em largura a partir de 5
+Iniciando busca em largura a partir de 3
+Iniciando busca em largura a partir de 6
+Iniciando busca em largura a partir de 9
+Iniciando busca em largura a partir de 0
+Iniciando busca em largura a partir de 2
+Iniciando busca em largura a partir de 4
+Iniciando busca em largura a partir de 1
+Iniciando busca em largura a partir de 8
+Iniciando busca em largura a partir de 7
+
+0 | 2 | 3
+1 | 2 | 6
+2 | 2 | 3
+3 | 1 | 5
+4 | 2 | 3
+5 | 0 | -
+6 | 1 | 5
+7 | 3 | 4
+8 | 2 | 6
+9 | 1 | 5
+
+Caminho entre 5 e 9: 5 => 9
+
+--------
+
+Caso de Teste #3 - BFS(8)
+
+Iniciando busca em largura a partir de 8
+Iniciando busca em largura a partir de 3
+Iniciando busca em largura a partir de 0
+Iniciando busca em largura a partir de 2
+Iniciando busca em largura a partir de 4
+Iniciando busca em largura a partir de 1
+Iniciando busca em largura a partir de 7
+Iniciando busca em largura a partir de 9
+Iniciando busca em largura a partir de 5
+Iniciando busca em largura a partir de 6
+
+0 | 2 | 3
+1 | 3 | 0
+2 | 2 | 3
+3 | 1 | 8
+4 | 2 | 3
+5 | 5 | 9
+6 | 6 | 5
+7 | 3 | 4
+8 | 0 | -
+9 | 4 | 7
+
+Caminho entre 8 e 2: 8 => 3 => 2
+
+--------
+
+Caso de Teste #4 - BFS(6)
+
+Iniciando busca em largura a partir de 6
+Iniciando busca em largura a partir de 1
+Iniciando busca em largura a partir de 8
+Iniciando busca em largura a partir de 2
+Iniciando busca em largura a partir de 3
+Iniciando busca em largura a partir de 0
+Iniciando busca em largura a partir de 4
+Iniciando busca em largura a partir de 7
+Iniciando busca em largura a partir de 9
+Iniciando busca em largura a partir de 5
+
+0 | 3 | 3
+1 | 1 | 6
+2 | 2 | 1
+3 | 2 | 8
+4 | 3 | 3
+5 | 6 | 9
+6 | 0 | -
+7 | 4 | 4
+8 | 1 | 6
+9 | 5 | 7
+
+Caminho entre 6 e 3: 6 => 8 => 3
+
+--------
+
+Caso de Teste #5 - BFS(0)
+
+Iniciando busca em largura a partir de 0
+Iniciando busca em largura a partir de 1
+Iniciando busca em largura a partir de 8
+Iniciando busca em largura a partir de 2
+Iniciando busca em largura a partir de 3
+Iniciando busca em largura a partir de 4
+Iniciando busca em largura a partir de 7
+Iniciando busca em largura a partir de 9
+Iniciando busca em largura a partir de 5
+Iniciando busca em largura a partir de 6
+
+0 | 0 | -
+1 | 1 | 0
+2 | 2 | 1
+3 | 2 | 8
+4 | 3 | 3
+5 | 6 | 9
+6 | 7 | 5
+7 | 4 | 4
+8 | 1 | 0
+9 | 5 | 7
+
+Caminho entre 0 e 4: 0 => 8 => 3 => 4
+
+--------

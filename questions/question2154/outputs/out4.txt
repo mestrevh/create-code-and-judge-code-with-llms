@@ -1,0 +1,70 @@
+BUSCA POR 33
+numero de elementos da tabela hash: 5
+elemento 33 encontrado!
+numero de elementos acessados na tabela hash: 2
+BUSCA POR 15
+numero de elementos da tabela hash: 17
+elemento 15 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 24
+numero de elementos da tabela hash: 17
+elemento 24 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 30
+numero de elementos da tabela hash: 25
+elemento 30 encontrado!
+numero de elementos acessados na tabela hash: 2
+BUSCA POR 65
+numero de elementos da tabela hash: 26
+elemento 65 encontrado!
+numero de elementos acessados na tabela hash: 3
+BUSCA POR 77
+numero de elementos da tabela hash: 29
+elemento nao encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 49
+numero de elementos da tabela hash: 32
+elemento 49 encontrado!
+numero de elementos acessados na tabela hash: 2
+BUSCA POR 71
+numero de elementos da tabela hash: 35
+elemento 71 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 33
+numero de elementos da tabela hash: 40
+elemento nao encontrado!
+numero de elementos acessados na tabela hash: 6
+BUSCA POR 25
+numero de elementos da tabela hash: 41
+elemento 25 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 20
+numero de elementos da tabela hash: 41
+elemento 20 encontrado!
+numero de elementos acessados na tabela hash: 3
+BUSCA POR 35
+numero de elementos da tabela hash: 44
+elemento 35 encontrado!
+numero de elementos acessados na tabela hash: 2
+BUSCA POR 71
+numero de elementos da tabela hash: 45
+elemento nao encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 8
+numero de elementos da tabela hash: 55
+elemento 8 encontrado!
+numero de elementos acessados na tabela hash: 1
+imprimindo tabela hash:
+[0]:39=>39=>65=>
+[1]:1=>27=>40=>53=>66=>
+[2]:2=>15=>15=>15=>41=>41=>67=>
+[3]:3=>16=>
+[4]:4=>4=>17=>17=>30=>43=>56=>
+[5]:5=>18=>18=>18=>70=>
+[6]:6=>32=>45=>
+[7]:7=>7=>20=>46=>72=>72=>72=>
+[8]:8=>8=>34=>60=>
+[9]:9=>48=>61=>74=>74=>
+[10]:10=>23=>23=>49=>75=>
+[11]:24=>76=>76=>
+[12]:25=>25=>38=>51=>64=>
