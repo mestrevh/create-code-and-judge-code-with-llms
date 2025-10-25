@@ -1,17 +1,18 @@
-push 9
-push 18
-push 27
-push 36
+print
+push 11
+push 22
+push 33
+push 44
 print
 sum
 average
 pop
-pop
 print
 sum
 average
-push 45
-push 54
+push 55
+push 66
+push 77
 print
 sum
 average

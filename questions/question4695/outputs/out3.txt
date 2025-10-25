@@ -1,15 +1,18 @@
-Subarray: 1 2 5 4 3 7 6 8 
-Pivo: 8
-Array: 1 2 5 4 3 7 6 8 
-Subarray: 1 2 5 4 3 7 6 
-Pivo: 6
-Array: 1 2 5 4 3 6 7 8 
-Subarray: 1 2 5 4 3 
+Subarray: 10 1 8 2 6 9 4 3 5 7 
+Pivo: 7
+Array: 1 2 6 4 3 5 7 8 9 10 
+Subarray: 1 2 6 4 3 5 
+Pivo: 5
+Array: 1 2 4 3 5 6 7 8 9 10 
+Subarray: 1 2 4 3 
 Pivo: 3
-Array: 1 2 3 4 5 6 7 8 
+Array: 1 2 3 4 5 6 7 8 9 10 
 Subarray: 1 2 
 Pivo: 2
-Array: 1 2 3 4 5 6 7 8 
-Subarray: 4 5 
-Pivo: 5
-Array: 1 2 3 4 5 6 7 8 
+Array: 1 2 3 4 5 6 7 8 9 10 
+Subarray: 8 9 10 
+Pivo: 10
+Array: 1 2 3 4 5 6 7 8 9 10 
+Subarray: 8 9 
+Pivo: 9
+Array: 1 2 3 4 5 6 7 8 9 10

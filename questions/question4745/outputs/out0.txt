@@ -1,42 +1,77 @@
-
 Ordenado por idade:
 
- 1 Lucas Rocha
-      18
-      800.00
- 2 Mariana Lacerda
-      26
+ 1 Joao Oliveira
+      19
+      1200.00
+ 2 Carlos Monteiro
+      20
+      1001.00
+ 3 Bianca Lima
+      21
+      1000.00
+ 4 Fernando Correia
+      23
+      2000.00
+ 5 Rafael Mendes
+      24
+      900.00
+ 6 Marta Silva
+      25
       2100.00
- 3 Camila Torres
-      27
+ 7 Mariana Souza
+      28
+      2200.00
+ 8 Maria Martins
+      29
       2300.00
- 4 Renata Reis
+ 9 Carla Ramos
       30
-      2500.00
- 5 Rafael Moura
+      2800.00
+ 10 Rodrigo Santos
       33
-      2900.00
- 6 Bruno Magalhaes
-      45
-      3600.00
+      3400.00
+ 11 Rafaela Martins
+      35
+      3100.00
+ 12 Lucas Santos
+      40
+      3500.00
 Ordenado por salario:
 
- 1 Lucas Rocha
-      18
-      800.00
- 2 Mariana Lacerda
-      26
+ 1 Rafael Mendes
+      24
+      900.00
+ 2 Bianca Lima
+      21
+      1000.00
+ 3 Carlos Monteiro
+      20
+      1001.00
+ 4 Joao Oliveira
+      19
+      1200.00
+ 5 Fernando Correia
+      23
+      2000.00
+ 6 Marta Silva
+      25
       2100.00
- 3 Camila Torres
-      27
+ 7 Mariana Souza
+      28
+      2200.00
+ 8 Maria Martins
+      29
       2300.00
- 4 Renata Reis
+ 9 Carla Ramos
       30
-      2500.00
- 5 Rafael Moura
+      2800.00
+ 10 Rafaela Martins
+      35
+      3100.00
+ 11 Rodrigo Santos
       33
-      2900.00
- 6 Bruno Magalhaes
-      45
-      3600.00
+      3400.00
+ 12 Lucas Santos
+      40
+      3500.00
 Saindo...

@@ -1,12 +1,9 @@
-Subarray: 10 9 8 2 1 
-Pivo: 1
-Array: 1 9 8 2 10 
-Subarray: 9 8 2 10 
-Pivo: 10
-Array: 1 9 8 2 10 
-Subarray: 9 8 2 
-Pivo: 2
-Array: 1 2 8 9 10 
-Subarray: 8 9 
-Pivo: 9
-Array: 1 2 8 9 10 
+Subarray: 20 15 10 5 8 12 16 
+Pivo: 16
+Array: 15 10 5 8 12 16 20 
+Subarray: 15 10 5 8 12 
+Pivo: 12
+Array: 10 5 8 12 15 16 20 
+Subarray: 10 5 8 
+Pivo: 8
+Array: 5 8 10 12 15 16 20

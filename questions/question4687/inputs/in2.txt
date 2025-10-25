@@ -1,21 +1,19 @@
-sum
-push 3
-push 6
-push 9
-push 12
-push 15
+print
+push 7
+push 14
+push 21
+push 28
 print
 sum
-average
 pop
 print
-sum
-average
-push 18
-push 21
-push 24
+pop
 print
+pop
+print
+pop
+print
+pop
+pop
 sum
-average
-pow
 exit

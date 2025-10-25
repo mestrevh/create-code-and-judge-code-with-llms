@@ -1,6 +1,15 @@
 Retire os cliente das mesas 13 14 15 16 17 18 19 20
+prepare as mesas 21 22 23 24 25 26
+Pawb allan, y gweddill yn cael eu tanio
 Retire os clientes e mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26
-Pedido 1 ,mesa 5 ,prato: raviole
-Pedido 2 ,mesa 2 ,prato: espaguete
-Pedido 3 ,mesa 3 ,prato: ratatuile
+Retire os clientes das mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Pedido 1 ,mesa 24 ,prato: Feijão Tropeiro
+Pedido 2 ,mesa 3 ,prato: Paçoca de Carne Seca
+Pedido 3 ,mesa 10 ,prato: Galinhada
+Pedido 4 ,mesa 22 ,prato: Camarão na Moranga
+Pedido 5 ,mesa 4 ,prato: Pato no Tucupi
+Pedido 6 ,mesa 7 ,prato: Barreado
+Pedido 7 ,mesa 3 ,prato: Feijoada
+Pedido 8 ,mesa 25 ,prato: Paçoca de Carne Seca
+Pedido 9 ,mesa 2 ,prato: Tacacá
 tchau

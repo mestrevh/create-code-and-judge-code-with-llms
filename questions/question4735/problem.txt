@@ -1,5 +1,5 @@
 Título: Vamos fazer um minHeapSort
-Topicos do problema: estrutura de dados; eof; array; ordenação; ponteiro; 
+Topicos do problema: estrutura de dados; eof; array; ponteiro; ordenação; 
 Tempo limite de execução: 4 segundo(s)
 Descrição: <p><h3>Crie um programa que cumpre os seguintes requisitos:</h3><ol><li>Recebe um array númerico como entrada, que pode ter qualquer tamanho.</li><li>Ordena esse array usando um algoritmo Heap Sort. A ordenação deve pegar o menor elemento.</li><li>Exibe o array original e o array formatado.</li></ol><br/></p>
 Formato da entrada: <p>Um sequencia de números na mesma linha, separados apenas por um espaçamento simples.<br/></p>

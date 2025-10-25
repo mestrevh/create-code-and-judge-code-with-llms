@@ -19,8 +19,8 @@ Digite o preco de venda:
 Digite o preco de compra:
 Digite o preco de venda:
 Mercadorias com lucro menor ou igual a 10%: 5
-Mercadorias com lucro maior que 10% e menor que 20%: 1
-Mercadorias com lucro maior ou igual a 20%: 4
-Total de compra das mercadorias: R$ 51.40
-Total de venda das mercadorias: R$ 62.50
+Mercadorias com lucro maior que 10% e menor que 20%: 4
+Mercadorias com lucro maior ou igual a 20%: 1
+Total de compra das mercadorias: R$ 51.4
+Total de venda das mercadorias: R$ 62.5
 Percentual de lucro total: 21.5953 %

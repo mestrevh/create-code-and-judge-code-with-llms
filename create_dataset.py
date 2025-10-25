@@ -139,7 +139,7 @@ def send_oracle(input: str = "", problem_id: int = 2):
 with open("problemas.csv", 'r', newline='', encoding='utf-8') as f:
     problem_input = list(csv.reader(f))
 
-for i in range(958, 5000):
+for i in range(4741, 5000):
 
     response = requests.get(
         f"https://www.thehuxley.com/api/v1/problems/{i}?locale=pt_BR")

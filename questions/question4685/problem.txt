@@ -1,5 +1,5 @@
 Título: Lista de Tarefas organizada
-Topicos do problema: estrutura de dados; ordenação; ponteiro; 
+Topicos do problema: estrutura de dados; ponteiro; ordenação; 
 Tempo limite de execução: 2 segundo(s)
 Descrição: <p>Implemente uma código que receba tarefas e organize elas em ordem de prioridade.O programa deve conter as operações de inserção de tarefas. </p><p>As tarefas são compostas por descrição e nível de prioridade. </p><p>O nível de prioridade é um número inteiro que varia de 1 a 5, sendo 1 a prioridade mais alta e 5 a prioridade mais baixa.</p><p>Podem existir várias tarefas com o mesmo nível de prioridade. Quando isso acontecer os mais recentes devem vir primeiro na listagem.</p>
 Formato da entrada: <h4><span><b>MENU</b></span><br/></h4><p>A entrada seleciona uma das opções entre 0 e 2, sendo:</p><p>0: Encerra o programa.</p><p>1: Cadastra uma nova tarefa</p><p>2: Exibe as tarefas cadastradas de forma ordenada.</p><p><br/></p><h4><b>Cadastro de tarefa</b></h4><p>Recebe a descrição da tarefa e em seguida o nível de prioridade.<br/></p>

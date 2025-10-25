@@ -1,0 +1,9 @@
+3
+CREATE 0 0
+ProdutoX 8 15.0
+CREATE 1 1
+ProdutoY 3 12.5
+DELETE ProdutoZ
+DELETE ProdutoY
+PRINT
+EXIT

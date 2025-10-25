@@ -1,8 +1,7 @@
-Daleks Cyberman Sontarans Silence
-ENTRAR Amy
+Sontarans Silence Cyberman
 ENTRAR River
 ENTRAR Donna Noble
-VERIFICAR Amy
-SAIR River
-LISTAR 
-ENTRAR Cyberman
+ENTRAR Rose
+SAIR Donna Noble
+ENTRAR Silence
+LISTAR

@@ -1,0 +1,19 @@
+average
+push 10
+push 20
+push 30
+print
+sum
+average
+pop
+pop
+print
+sum
+average
+push 40
+push 50
+print
+sum
+average
+pow
+exit

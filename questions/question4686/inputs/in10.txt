@@ -1,0 +1,15 @@
+push 2
+push 6
+push 14
+push 20
+print
+pop
+print
+sum
+push 10
+push 18
+pop
+print
+sum
+push 7
+exit

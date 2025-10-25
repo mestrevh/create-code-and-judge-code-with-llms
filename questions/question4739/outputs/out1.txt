@@ -1,0 +1,880 @@
+Materia: Artes
+    Atividade: Pintura
+    Atividade: Escultura
+    Atividade: Desenho
+    Atividade: HistoriaDaArte
+    Atividade: Perspectiva
+    Atividade: ArteModerna
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+    Atividade: Arranjo
+    Atividade: Improvisacao
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Artes
+    Atividade: Pintura
+    Atividade: Escultura
+    Atividade: Desenho
+    Atividade: HistoriaDaArte
+    Atividade: Perspectiva
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+    Atividade: Arranjo
+    Atividade: Improvisacao
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Artes
+    Atividade: Pintura
+    Atividade: Escultura
+    Atividade: Desenho
+    Atividade: HistoriaDaArte
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+    Atividade: Arranjo
+    Atividade: Improvisacao
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Artes
+    Atividade: Pintura
+    Atividade: Escultura
+    Atividade: Desenho
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+    Atividade: Arranjo
+    Atividade: Improvisacao
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Artes
+    Atividade: Pintura
+    Atividade: Escultura
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+    Atividade: Arranjo
+    Atividade: Improvisacao
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Artes
+    Atividade: Pintura
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+    Atividade: Arranjo
+    Atividade: Improvisacao
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Artes
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+    Atividade: Arranjo
+    Atividade: Improvisacao
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+    Atividade: Arranjo
+    Atividade: Improvisacao
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+    Atividade: Arranjo
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+    Atividade: Contraponto
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+    Atividade: Harmonia
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Musica
+    Atividade: TeoriaMusical
+    Atividade: Percepcao
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Musica
+    Atividade: TeoriaMusical
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Musica
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+    Atividade: AnaliseTextual
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+    Atividade: Cronica
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+    Atividade: Romance
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+    Atividade: Conto
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Literatura
+    Atividade: Poesia
+    Atividade: Prosa
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Literatura
+    Atividade: Poesia
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Literatura
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+    Atividade: FilosofiaModerna
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+    Atividade: FilosofiaMedieval
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+    Atividade: FilosofiaAntiga
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+    Atividade: Logica
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Filosofia
+    Atividade: Etica
+    Atividade: Epistemologia
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Filosofia
+    Atividade: Etica
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Filosofia
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+    Atividade: Geomorfologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+    Atividade: Hidrogeologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+    Atividade: Erosao
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+    Atividade: Vulcanismo
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+    Atividade: Petrologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Geologia
+    Atividade: GeologiaEstrutural
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Geologia
+
+Materia: Biotecnologia
+
+_________________
+
+Materia: Biotecnologia
+
+_________________
+
+_________________

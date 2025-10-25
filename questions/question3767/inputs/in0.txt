@@ -1,23 +1,41 @@
 1
 Rua A
-c 12
+c 24
 Juvenal
 M 01/01/2000
 
-2
+1
+Rua A
+c 24
 Juvenal
-Rua B
+M 02/01/2000
+
+1
+Rua A
+c 24
+Juvenal
+M 03/01/2000
+
+1
+Rua A
+c 24
+Juvenal
+M 04/01/2000
+
+1
+Rua A
+c 25
+Juvenal
+M 05/01/2000
+
+1
+Rua A
+e 10 20 2
+Juvenal
+M 06/01/2000
 
 2
 Juvenal
-Rua C
-
-2
-Juvenal
-Rua D
-
-2
-Juvenal
-Rua E
+Rua A
 
 3

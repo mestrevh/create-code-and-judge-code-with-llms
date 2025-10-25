@@ -1,0 +1,19 @@
+pedido 1 adicionado
+pedido 2 adicionado
+1 2
+pedido x3 adicionado
+pedido 1 removido
+-----------------------------------
+Pizzaria 0.1 - menu de comandos
+-----------------------------------
+- ajuda: exibe o menu de ajuda
+- sair: encerra o programa
+- exibir: exibe a lista de pedidos
+- novo #pedido: adiciona o #pedido
+- cancela #pedido: remove o #pedido
+-----------------------------------
+pedido x3 removido
+pedido g9 inexistente
+pedido 57 adicionado
+pedido b13 adicionado
+2 57 b13
