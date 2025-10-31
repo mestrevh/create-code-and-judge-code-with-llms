@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4154 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4154</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Lulupalooza
+Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Lulu possui uma empresa de organização de festa, a <span>Lulupalluza</span>. Ela sempre teve ótimos lucros e uma relação harmônica com seus clientes. Até contratar, Ícaro e David, seus novos péssimos funcionários para registrar e apresentar os orçamentos. Indignada com os prejuízos sofridos, Lulu decidiu parar de depender de homens e fazer ela mesma um programa que gerasse o valor final dos seus serviços.</p><p style="color: rgb(147, 149, 152);">A divisão das mesas se baseia no número de adultos e crianças que irão utilizá-las. Dependendo da quantidade máxima de pessoas por mesa que o cliente desejar, Lulu planeja dividir uniformemente os adultos e as crianças, considerando que teremos mesas só para os adultos e mesas só para as crianças. No entanto, sabe-se que podem sobrar adultos e crianças na divisão feita. Caso isso ocorra, podem ser formadas mesas mistas.</p><p style="color: rgb(147, 149, 152);">Uma mesa mista é apenas formada em dois casos: </p><p style="color: rgb(147, 149, 152);">- Se a soma dos adultos e crianças que sobraram corresponde exatamente ao total máximo de pessoas </p><p style="color: rgb(147, 149, 152);">- Do contrário, verifica-se se ambas as sobras são quantidades pares, assim podendo ser formada até duas mesas mistas, caso ultrapasse o total máximo de mesas </p><p style="color: rgb(147, 149, 152);">Não atendendo às condições para uma mesa mista, analisa-se cada faixa etária separadamente. Caso sobre menos de 4 pessoas, essas pessoas vão ser incluídas em mesas da mesma faixa etária que já existem, cada uma em uma mesa. Considere que sempre terá mais mesas de adultos ou crianças que os adultos ou crianças que sobraram. Do contrário, cria-se uma nova mesa da faixa etária das pessoas que sobraram. Considere que, caso seja necessário criar uma nova mesa, a quantidade de pessoas da mesa (utilizada para o cálculo do orçamento) será o total máximo de pessoas/mesa. Ex: se sobrarem 3 adultos, cada um será incluído em 3 mesas de adultos que já existem, se sobrarem 5, será criada uma nova mesa de adultos que valerá o mesmo que uma mesa de adultos completa.</p><p style="color: rgb(147, 149, 152);">O orçamento então é calculado pela quantidade de pessoas que existem na mesa (qtd):  </p><p style="color: rgb(147, 149, 152);">- mesas com apenas adultos: 3x qtd; </p><p style="color: rgb(147, 149, 152);">- mesas com 1 adulto a mais: 4x qtd; </p><p style="color: rgb(147, 149, 152);">- mesas com apenas crianças ou mesa mista: 2x qtd; </p><p style="color: rgb(147, 149, 152);">- mesas com 1 criança a mais: 3x qtd;</p><p style="color: rgb(147, 149, 152);"><br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/>&#13;</p>
+Formato da entrada: <p>3 inteiros para os valores propostos pelo cliente:</p><ul><li>quantidade de adultos <b>A</b>, onde 1 &lt;= <b>A</b> &lt;= 100000</li><li>quantidade de crianças <b>C</b>, onde 1&lt;= <b>C</b> &lt;= 100000</li><li>máximo de pessoas/mesa <b>M</b>, onde 1 &lt;= <b>M</b> &lt;= 20</li></ul>
+Formato da saída: <p>- Caso tenha mesa com apenas adultos, imprima &#34;%d mesas com adultos: R$%d\n&#34;, com a quantidade de mesas e o valor respectivo </p><p>- Caso tenha mesa 1 adulto a mais, imprima &#34;%d mesas com adultos+1: R$%d\n&#34;, idem</p><p>- Caso tenha mesa com apenas crianças, imprima &#34;%d mesas com criancas: R$%d\n&#34;, idem</p><p>- Caso tenha mesa 1 criança a mais, imprima &#34;%d mesas com criancas+1: R$%d\n&#34;, idem<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

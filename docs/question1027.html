@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1027 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1027</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Gerencia fiado
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Vamos implementar uma aplicação que gerencia as contas de vendas fiadas de um mercadinho.<br/></p><p>Para a solução você precisa usar dois arrays para:</p><p>1 - Armazenar os nomes das pessoas que fazem compra fiado no mercado. Os nomes são compostos de apenas uma palavra;</p><p>2 - Armazenar os saldos das contas.<br/></p><p>A posição 0 do array que armazena os saldos, corresponde ao valor devido pela pessoa cujo nome está armazenado na posição 0 do array de nomes. Os saldos iniciam com valor zero.<br/></p><p>Dica: Para comprarar dois String, utilize o método equals, que retorna um boolean indicando se um String é igual a outro, como no exemplo abaixo:</p><pre>String nome = &#34;FIM&#34;;</pre><pre>if(nome.equals(&#34;FIM&#34;)) {</pre><pre>    . . .</pre><pre>} else {</pre><pre>    . . .</pre><pre>}</pre>
+Formato da entrada: <p>As entradas são compostas dos seguintes valores:<br/></p><p>1 - Um valor inteiro informando a capacidade de contas a serem gerenciadas pelo sistema;</p><p>2 - Um conjunto de nomes (tantos quantos o valor informado no item anterior). Cada nome é composto apenas de uma palavra;</p><p>3 - Um conjunto de operações que representam uma compra no mercadinho ou um pagamento de uma dívida. Cada operação deve informar o nome da pessoa, a operação (C - compra, P - pagamento), e o valor da operação (double);</p><p>4 - O String FIM define o final da entrada.</p><p><b><span>Embora seu programa possa apenas aceitar vírgula como separador de decimal, o thehuxley vai requerer ponto como separador, mas você não precisa modificar nada no seu programa, pois a conversão é automática e depende apenas das configurações regionais do computador.</span></b></p><p><br/></p>
+Formato da saída: <p>No final, o programa deve imprimir um relatório com 4 linhas:</p><p>1 - Número de contas com dívida acima de 100 reais (int);</p><p>2 - Número de contas sem dívida (int);</p><p>3 - Soma de todas as dívidas (double);</p><p>4 - Nome e valor (double) da dívida do maior devedor.<br/></p><p>Os valores double devem conter dois dígitos após a vírgula.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

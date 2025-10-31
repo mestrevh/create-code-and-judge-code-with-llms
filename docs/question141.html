@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 141 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 141</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Fórmula 1
+Topicos do problema: array; maratona; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A temporada de Fórmula 1 consiste de uma série de corridas, conhecidas como Grandes Prêmios, organizados pela Federação Internacional de Automobilismo (FIA). Os resultados de cada Grande Prêmio são combinados para determinar o Campeonato Mundial de Pilotos. Mais especificamente, a cada Grande Prêmio são distribuídos pontos para os pilotos, dependendo da classificação na corrida. Ao final da temporada, o piloto que tiver somado o maior número de pontos é declarado Campeão Mundial de Pilotos. Os organizadores da Fórmula 1 mudam constantemente as regras da competição, com o objetivo de dar mais emoção às disputas. Uma regra modificada para a temporada de 2010 foi justamente a distribuição de pontos em cada Grande Prêmio. Desde 2003 a regra de pontuação premiava os oito primeiros colocados, obedecendo a seguinte tabela:<br/><br/><br/><a href="../../../../data/images/app/problems/9c84cfe75e2d8d7106a0a1750d8996d4.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/9c84cfe75e2d8d7106a0a1750d8996d4.png" border="0" width="405" height="50"/></a></p>&#13;<p><br/>Ou seja, o piloto vencedor ganhava 10 pontos, o segundo colocado ganhava 8 pontos, e assimpor diante. Na temporada de 2010 os dez primeiros colocados receberão pontos, obedecendo a seguinte tabela:<br/><br/><a href="../../../../data/images/app/problems/ce98368e0a11328c77455328f0db2bba.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/ce98368e0a11328c77455328f0db2bba.png" border="0" width="501" height="58"/></a></p>&#13;<p><br/>A mudança no sistema de pontuação provocou muita especulação sobre qual teria sido o efeito nos Campeonatos Mundiais passados se a nova pontuação tivesse sido utilizada nas temporadas anteriores. Por exemplo, teria Lewis Hamilton sido campeão em 2008, já que a diferença de sua pontuação total para Felipe Massa foi de apenas um ponto? Para acabar com as especulações, a FIA contratou você para escrever um programa que, dados os resultados de cada corrida de uma temporada determine Campeão Mundial de Pilotos para sistemas de pontuações diferentes.</p>
+Formato da entrada: <p>A entrada cont&eacute;m v&aacute;rios casos de teste. A primeira linha de um caso de teste cont&eacute;m dois n&uacute;meros inteiros G e P separados por um espa&ccedil;o em branco, indicando respectivamente o n&uacute;mero de Grandes Pr&ecirc;mios (1 &le; G &le; 100) e o n&uacute;mero de pilotos (1 &le; P &le; 100). Os pilotos s&atilde;o identificados por inteiros de 1 a P. Cada uma das G linhas seguintes indica o resultado de uma corrida, e cont&eacute;m P inteiros separados por espa&ccedil;os em branco. Em cada linha, o i-&eacute;simo<br />n&uacute;mero indica a ordem de chegada do pilodo i na corrida (o primeiro n&uacute;mero indica a ordem de chegada do piloto 1 naquela corrida, o segundo n&uacute;mero indica a ordem de chegada do piloto 2 na corrida, e assim por diante). A linha seguinte cont&eacute;m um &uacute;nico n&uacute;mero inteiro S indicando o n&uacute;mero de sistemas de pontua&ccedil;&atilde;o (1 &le; S &le; 10), e ap&oacute;s, cada uma das S linhas seguintes cont&eacute;m a descri&ccedil;&atilde;o de um sistema de pontua&ccedil;&atilde;o. A descri&ccedil;&atilde;o de um sistema de pontua&ccedil;&atilde;o inicia com um inteiro K (1 &le; K &le; P), indicando a &uacute;ltima ordem de chegada que receber&aacute; pontos, seguido de um espa&ccedil;o em branco, seguido de K inteiros k0, k1, . . . , kn&minus;1 (1 &le; ki &le; 100) separados por espa&ccedil;os em branco, indicando os pontos a serem atribu&iacute;dos (o primeiro inteiro indica os pontos do primeiro colocado, o segundo inteiro indica os pontos do segundo colocado, e assim por diante).<br />O &uacute;ltimo caso de teste &eacute; seguido por uma linha que cont&eacute;m apenas dois n&uacute;meros zero separados por um espa&ccedil;o em branco.</p>
+Formato da saída: <p>Para cada caso de sistema de pontua&ccedil;&atilde;o da entrada seu programa deve imprimir uma linha, que deve conter o identificador do Campe&atilde;o Mundial de Pilotos. Se houver mais de um Campe&atilde;o Mundial Pilotos (ou seja, se houver empate), a linha deve conter todos os Campe&otilde;es Mundiais de Pilotos, em ordem crescente de identificador, separados por um espa&ccedil;o em branco.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

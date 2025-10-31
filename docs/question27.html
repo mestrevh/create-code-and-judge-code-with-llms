@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 27 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 27</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Jogo de Cartas-WAR
+Topicos do problema: estrutura de dados; simulação de jogos; pilha; string; dicionário; 
+Tempo limite de execução: 5 segundo(s)
+Descrição: <p>No WAR, um baralho padr&atilde;o com 52 cartas &eacute; distribu&iacute;do entre 02 jogadores. (1 e 2), sendo 26 cartas para cada um. Os jogadores n&atilde;o podem&nbsp;olhar as suas cartas, de tal forma que elas ficam de face para baixo em cima da mesa. O objetivo do jogo &eacute; ganhar todas as cartas.</p>
+
+<p>Ambos os jogadores jogam pegando a carta do topo da sua pilha de cartas, virando-a com face para cima e colocando-a sobre a mesa. Quem virar a maior carta, adiciona as duas cartas, com face para baixo, embaixo da sua pilha de cartas. As cartas s&atilde;o ranqueadas de forma usual, da mais alta para a mais baixa: A, K, Q, J, T, 9. 8, 7, 6, 5, 4, 3, 2. Os naipes s&atilde;o ignorados. Ambos os jogadores retiram a pr&oacute;xima carta de suas pilhas e repetem o procedimento descrito acima.</p>
+
+<p>O jogo continua at&eacute; que um dos jogadores ganhe ficando com todas as cartas. Quando as cartas desviradas s&atilde;o iguais, diz-se que ocorreu um WAR. Essas cartas permanecem na mesa, cada jogador deve colocar mais uma carta na mesa, virada para baixo, e mais uma carta virada para cima. Quem obtiver a maior carta das cartas viradas para cima ganha o WAR. Caso haja empate novamente, o WAR prossegue at&eacute; que n&atilde;o haja mais WAR. Se algu&eacute;m ficar sem cartas no meio de um WAR, o outro jogador ganha automaticamente. As cartas s&atilde;o adicionadas no fundo da pilha de cartas do vencedor de cada rodada na mesma ordem em que elas foram colocadas, primeiro o jogador 1, depois o jogador 2.</p>
+Formato da entrada: <p>A entrada consiste de um inteiro n, indicando quantos jogos ser&atilde;o feitos.</p>
+
+<p>Depois ser&atilde;o lidos os jogos, onde cada jogo consiste de duas linhas, representando as 26 cartas de cada jogador. Sendo a primeira linha as cartas do jogador 1 e a segunda do jogador 2. Cada carta &eacute; representada por dois caracteres, o seu valor e o naipe.</p>
+Formato da saída: <p>A sa&iacute;da consiste em informar o n&uacute;mero de jogadas necess&aacute;rias para um dos jogadores ganhar. Considera-se uma jogada, cada vez que os jogadores precisam&nbsp;desvirar uma carta de sua pilha de cartas. O n&uacute;mero m&aacute;ximo de jogadas &eacute; 100.000 (cem mil).</p>
+
+<p>A sa&iacute;da deve impressa no seguinte formato:</p>
+
+<p>jogador X ganhou com Y passos.</p>
+
+<p>Onde, X pode ser 1 ou 2 e Y &eacute; o n&uacute;mero de passos.</p>
+
+<p>Se por acaso, acontecer de chegar a 100.000 jogadas e n&atilde;o houver um vencedor a sa&iacute;da deve ser:</p>
+
+<p>jogo empatado apos 100000 jogadas. Jogador 1 |W| cartas e jogador 2 |Z| cartas.</p>
+
+<p>Onde W &eacute; o n&uacute;mero de cartas que est&atilde;o na pilha do jogador 1 e Z o n&uacute;mero de cartas da pilha do jogador 02.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

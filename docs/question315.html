@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 315 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 315</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Nomes que produzem cores
+Topicos do problema: array; acumulador; caractere; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Um fato curioso em HTML, &eacute; que se voc&ecirc; digitar um nome, na &aacute;rea do codigo de cor de background, em vez do c&oacute;digo fonte da cor, ainda assim ele reconhece como uma cor.</p>
+
+<p>Como no exemplo:</p>
+
+<p><span class="tag">&lt;body</span><span class="pln"> </span><span class="atn">bgcolor</span><span class="pun">=</span><span class="atv">"chucknorris"</span><span class="tag">&gt;</span>&lt;/body&gt;</p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size: xx-small;"><span style="font-size: xx-small;">Produziria</span> a cor vermelha, no background da p&aacute;gina.</span></p>
+
+<p>Se usassemos: chucknorri. A cor permaneceria vermelha.</p>
+
+<p>Mas, ao usarmos: chucknorr, a cor agora ser&aacute; amarela.</p>
+
+<p>Eis o que acontece:</p>
+
+<p><span><span class="hps">D&iacute;gitos</span> <span class="hps">que faltam</span> <span class="hps">s&atilde;o tratados como</span> <span class="hps">0</span> <span class="hps atn">[</span><span>...</span><span>]</span><span>.</span> <span class="hps">Um d&iacute;gito incorrecto</span> <span class="hps">&eacute;</span> <span class="hps">interpretado simplesmente como</span> <span class="hps">0.</span> <span class="hps">Por exemplo, os</span> <span class="hps">valores</span> <span class="hps">#</span><span class="hps">f0f0f0</span><span>,</span><span class="hps"></span><span></span> <span class="hps">F0F0F</span><span>, #</span><span class="hps">FxFxFx</span> <span class="hps">e</span> <span class="hps">FxFxFx</span> <span class="hps">s&atilde;o todos iguais</span><span>.</span></span></p>
+
+<p><span><span class="hps">Se aplicarmos</span> <span class="hps">a</span><span class="hps">lgumas regras,</span> <span class="hps">temos o seguinte</span><span>:</span><br /><br />&nbsp;&nbsp;&nbsp;&nbsp; <span class="hps">Substituir todos os</span> <span class="hps">caracteres hexadecimais</span> <span class="hps">n&atilde;o</span> <span class="hps">v&aacute;lidos</span> <span class="hps">com</span> <span class="hps">0</span> <span class="hps">do </span><span class="hps">chucknorris</span> <span class="hps">torna</span> <span class="hps">c00c0000000</span></span></p>
+
+<p><span><span class="hps"></span><br /><span class="hps">Avance</span> <span class="hps">para o</span> <span class="hps">pr&oacute;ximo n&uacute;mero</span> <span class="hps">total de caracteres</span> <span class="hps">divis&iacute;veis por</span> <span class="hps">3 (11</span> <span class="hps">-&gt;</span> <span class="hps">12)</span></span></p>
+
+<p><span><span class="hps"></span>&nbsp;&nbsp;&nbsp; Se faltarem digitos, preencha com 0s.<br /><br /><span class="hps">&nbsp;&nbsp;&nbsp; c00c</span> <span class="hps">0000</span> <span class="hps">0000</span><br /><br /><span class="hps">Divididos em tr&ecirc;s grupos</span> <span class="hps">iguais,</span> <span class="hps">com cada componente</span> <span class="hps">representando o</span> <span class="hps">componente de cor</span> <span class="hps">correspondente de</span> <span class="hps">uma cor RGB</span><span>:</span><br /><br /><span class="hps atn">RGB (</span><span>c00c</span><span>, 0000</span><span>, 0000</span><span>)</span><br /><br />&nbsp;&nbsp;&nbsp;&nbsp; <span class="hps">Truncar</span> <span class="hps">cada um dos argumentos</span> <span class="hps">da direita</span> <span class="hps">at&eacute;</span> <span class="hps">2 caracteres</span><br /><br /><span class="hps">Que d&aacute;</span> <span class="hps">o resultado</span><br /><br /><span class="hps atn">RGB (</span><span>c0</span><span>,</span> <span class="hps">00</span><span>,</span> <span class="hps">00)</span> <span class="hps">= #</span><span class="hps">C00000</span> <span class="hps">ou RGB</span> <span class="hps">(192,</span> <span class="hps">0, 0).</span></span></p>
+
+<p>&nbsp;</p>
+
+<p>Escreva um programa capaz de transformar uma string num c&oacute;digo RGB.</p>
+Formato da entrada: <p>Uma string, em caixa alta, de at&eacute; 12 caracteres.</p>
+Formato da saída: <p>O c&oacute;digo RGB correspondente a cor que a string representa num c&oacute;digo HTML de background, seguido de uma quebra de linha.</p>
+
+<p>Observe exemplo de entrada e saida.</p>
+
+<p>&nbsp;</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2260 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2260</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L3Q2 - Exame Chunnin
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Chegou o tão esperado dia e o Kage da vila precisa organizar o novo exame Chunnin, onde os alunos Genins irão subir de cargo e, p<span>ara isso, é necessário um esquema de mata-mata que começa com 8 ninjas e acaba com apenas 1, o campeão. </span></p><p><span><br/></span></p><p style="text-align: center;"><span><span id="selectionBoundary_1536598940589_11728098418203259" class="rangySelectionBoundary">&#65279;</span><img src="https://media1.tenor.com/images/a9acc9e21d5ca8fc9ffbe60ca92e8fa4/tenor.gif?itemid=4502686" alt="Goku Vs Naruto GIF - Naruto GIFs"/></span></p><p style="text-align: left;"><span><br/></span></p><p><span>Sua entrada vai começar com os 8 ninjas que estão nas quartas de final, e a partir das lutas, alguns vencerão e passarão de fase, ate acabar com o grande vencedor.</span></p>
+Formato da entrada: <p>8 linhas no formato, cada uma com um <b>Nx</b> que representa o nome de um dos ninjas, separados por quebra de linha (os nomes podem conter mais de uma palavra).</p><blockquote><p><b>N1</b> <br/></p><p><b>N2</b></p><p><b>N3</b></p><p>...</p><p><b>N8</b><br/></p></blockquote><p><br/></p><p><br/>Seguidos por 8 inteiros, fornecidos 2 a 2, correspondendo a cada luta e as ordens que elas acontecem. Os números correspondem ao índice de cada ninja, listados acima. Os índices começam do 0, que representa o ninja <b>N1</b>, até o 7 que representa o ninja <b>N8</b>:</p><blockquote><p><b>I0 I1 <br/></b></p><b>I2 I3</b><br/>...<br/><b>I6 I7</b></blockquote><div><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></div><div><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></div><div>Seguem 4 linhas, nais quais cada <b>Qx</b> (String) é vencedor da quarta de final, na ordem em que aconteceram (<b>Q1</b> se refere a primeira quarta de final, <b>Q2</b> à segunda e assim por diante). Se <b>Qx </b>for &#34;A&#34;, o vencedor é o primeiro, caso contrário, se <b>Qx</b> for &#34;B&#34;, o vencedor é o segundo.</div><blockquote><p><b>Q1</b></p><p><b>Q2</b></p><p><b>Q3</b></p><p><b>Q4</b></p></blockquote><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></p><p>Duas linhas, cada uma com <b>Sx</b> (String) que é o vencedor de cada semifinal. Se <b>Sx</b> for &#34;X&#34;, o vencedor é o primeiro, caso contrário, se <b>Sx</b> for &#34;Y&#34;, o vencedor é o segundo.</p><blockquote><p><b>S1</b></p><p><b>S2</b></p></blockquote><p><br/></p><p><br/></p><p>Uma linha, com <b>F</b> (String) que representa o vencedor da final. Se <b>F</b> for &#34;#&#34;, o vencedor é o primeiro, caso contrário, se <b>F</b> for &#34;%&#34;, o vencedor é o segundo.<br/></p><blockquote><p><b>F</b></p></blockquote>
+Formato da saída: <h1>B</h1><ul><li>B - String </li></ul><blockquote><p>&#34;Bem vindos ao exame Chunnin!&#34;</p></blockquote><h1>Q(1 - 4)</h1><ul><li>Q - Strings</li></ul><blockquote><p>&#34;Quartas de final 1: <b>A</b> x <b>B</b>&#34;</p><p>&#34;Quartas de final 2: <b>C</b> x <b>D</b>&#34;</p><p>&#34;Quartas de final 3: <b>E</b> x <b>F</b>&#34;</p><p>&#34;Quartas de final 4: <b>G</b> x <b>H</b>&#34;</p></blockquote><h6>Sendo <b>A</b>, <b>B</b>, <b>C</b>, <b>D</b>, <b>E</b>, <b>F</b>, <b>G</b>, <b>H</b> os ninjas colocados na ordem determinada.</h6><h1>S(1 - 2)</h1><ul><li>S - Strings</li></ul><blockquote><p>&#34;Semifinal 1: <b>Q1</b> x <b>Q2</b>&#34;</p><p>&#34;Semifinal 2: <b>Q3</b> x <b>Q4</b>&#34;<br/></p></blockquote><p>Sendo <b>Q1</b>, <b>Q2</b>, <b>Q3</b> e <b>Q4</b> os ninjas vencedores nas lutas das quartas de final.<br/></p><h1>F</h1><ul><li>F - String</li></ul><blockquote><p>Final: <b>S1</b> x <b>S2</b></p></blockquote><p>&#13;Sendo <b>S1</b> e <b>S2</b> os ninjas vencedores nas lutas das semi finais.<br/></p><h1>V</h1><ul><li>V - String</li></ul><blockquote><p>O grande vencedor e <b>W</b>!</p></blockquote><p>Sendo <b>W</b> o vencedor do torneio.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 155 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 155</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Pão a metro
+Topicos do problema: array; função; busca binária; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>P&atilde;o a metro &eacute; um tipo de sandu&iacute;che gigante que &eacute; uma excelente op&ccedil;&atilde;o de lanche para torneios de programa&ccedil;&atilde;o, embora a experi&ecirc;ncia j&aacute; tenha mostrado que o oferecimento de sanduiches pode gerar reclama&ccedil;&atilde;o dos competidores. Outro grande problema &eacute; que algumas pessoas s&atilde;o mais gulosas que outras e, dessa maneira, acabam pegando peda&ccedil;os maiores que os peda&ccedil;os dos outros. Para a final da OBI, a coordena&ccedil;&atilde;o estava pensando em providenciar p&atilde;o a metro para os competidores, por&eacute;m tais problemas os fizeram recuar na id&eacute;ia.</p>
+
+<p>Embora a id&eacute;ia tenha sido momentaneamente abandonada, uma id&eacute;ia simples surgiu: cortar previamente o p&atilde;o em fatias de tamanho iguais e distribu&iacute;-las entre as pessoas. O &uacute;nico problema com tal id&eacute;ia &eacute; que se o n&uacute;mero de pessoas for muito grande, fica impratic&aacute;vel ter apenas um p&atilde;o. Por exemplo, se quisermos que 1.000 pessoas recebam 20 cent&iacute;metros de sandu&iacute;che, seria necess&aacute;rio um sandu&iacute;che de 20.000 cent&iacute;metros, ou 200 metros!</p>
+
+<p>Algu&eacute;m levantou a seguinte hip&oacute;tese: se houvessem N pessoas e fossem encomendados K sandu&iacute;ches de empresas diferentes, cada qual com uma determinada metragem (tamanho) Mi (1 &lt;= i&nbsp;&lt;= K), seria poss&iacute;vel retirar desses p&atilde;es N fatias de mesmo tamanho, possivelmente sobrando partes nao utilizadas. A quest&atilde;o seria: qual o tamanho inteiro m&aacute;ximo que essas fatias poder&atilde;o ter?</p>
+
+<p>Por exemplo, se tivermos K = 4, com os tamanhos (em cent&iacute;metros) M1 = 120, M2 = 89, M3 = 230 e M4 = 177 e N = 10, podemos retirar N fatias iguais de tamanho m&aacute;ximo 57, pois assim conseguimos 2 fatias no primeiro p&atilde;o, 1 no segundo, 4 no terceiro e 3 no quarto, totalizando as 10 fatias necess&aacute;rias. Se tentarmos cortar fatias de tamanho 58, s&oacute; ser&aacute; poss&iacute;vel obter 3 fatias do terceiro p&atilde;o, totalizando 9 e, portanto, 57 &eacute; realmente o melhor que podemos obter. Note que n&atilde;o podemos usar duas ou mais fatias menores de diferentes p&atilde;es para formarmos uma fatia do tamanho selecionado. (ficaria muito deselegante dar um lanche recortado &agrave;s pessoas).</p>
+
+<p>Escreva um programa que, dados os tamanhos de p&atilde;o dispon&iacute;veis (em cent&iacute;metros) e a quantidade de pessoas a serem atendidas, retorne o tamanho inteiro m&aacute;ximo (em cent&iacute;metros) da fatia que pode ser cortada de maneira a atender todas as pessoas.</p>
+
+<p>&nbsp;</p>
+Formato da entrada: <p>A entrada cont&eacute;m um &uacute;nico conjunto de testes, que deve ser lido do dispositivo de entrada padr&atilde;o (normalmente o teclado). A primeira linha da entrada cont&eacute;m um inteiro N que indica a quantidade pessoas (1&nbsp;&lt;= N&nbsp;&lt;= 10.000). A segunda linha cont&eacute;m um inteiro K (1&nbsp;&lt;= K&nbsp;&lt;= 10.000) que &eacute; a quantidade de sandu&iacute;ches dispon&iacute;vel. Na terceira linha h&aacute; K inteiros M (1&nbsp;&lt;= M&nbsp;&lt;= 10.000) separados por um espa&ccedil;o em branco representando o tamanho de cada p&atilde;o.</p>
+Formato da saída: <p>Seu programa deve imprimir, na sa&iacute;da padr&atilde;o, uma &uacute;nica linha, contendo o tamanho inteiro m&aacute;ximo da fatia que pode ser cortada.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

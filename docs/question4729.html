@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4729 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4729</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: BALL BLASTERS 2.0
+Topicos do problema: estrutura de dados; simulação de jogos; ponteiro; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Em preparação para o ultimo projeto da disciplina você decidiu fazer um mini jogo, numa tarde de contemplação e brainstorm você decidiu fazer uma mini versão de um jogo que jogava no celular da sua tia quando era novo, ball blasters 2.0:</p><p><br/></p><p><br/></p><p><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/1b765f097df35314fa05948ff7a1a3e6994fd7c9P.jpg"/><br/></p>
+Formato da entrada: <p>O jogo consistem em destruir uma fila de bolas com bolas iguais lançadas pelo jogador, no começo da partida você recebe um inteiro  n dizendo quantas bolas estarão na lista e em sequencia n inteiros que representam as bolas e seus numeros, ex:<br/>11<br/>1 2 3 2 2 2 3 2 2 2 2</p><p>Em seguida você recebe um inteiro m representando quantos tiros vão ser dados, seguidos de m pares de inteiros que dizem respectivamente a posição do tiro e o valor da bola atirada:<br/>2</p><p>3 2</p><p>3 3</p><p>Coisas a considerar:</p><p><span>-A primeira bola da lista é contada a partir do valor 1, na lista supracitada a bola 1 é a primeira, a 2 a segunda, a 3 a terceira a 2 a quarta e assim por diante</span></p><p><span>-Se o tiro for dado na bola x a bola atirada ficará após a bola x e antes da bola x + 1</span></p><p><span>-Se uma das bolas a direita ou a esquerda da bola lançada for de mesmo valor, toda a sequencia daquele valor é destruída, se nenhuma for, a bola é inserida naquela posição e o próximo tiro é dado</span></p><p><span>-A lista restante não é destruída, ela continua como estava esperando o próximo tiro sem as bolas destruídas, ex:<br/>uma lista 1 2 2 2 1 1 1 que recebe um tiro do tipo 2 2 vira 1 1 1 1 e espera o próximo tiro</span></p>
+Formato da saída: <p>A saída é a lista restante após todos os tiros, no exemplo acima:<br/>1 2 2 2 2 2</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 674 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 674</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Estudo de Sequências
+Topicos do problema: array; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p dir="ltr" style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);"><span style="color: rgb(34, 34, 34);background-color: rgb(255, 255, 255);">Stavistor é um curioso estudioso de sequências de inteiros. O seu site favorito é http://oeis.org/, a enciclopédia online de sequências de inteiros. Sua curiosidade despertou quando tinha apenas 6 anos, e foi introduzido à famosa sequência de Fibonacci: 1, 1, 2, 3, 5, 8, 13…</span></p><p dir="ltr" style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);"><span style="color: rgb(34, 34, 34);background-color: rgb(255, 255, 255);">Anos se passaram e Stavistor foi conhecendo e inventando mais e mais sequências. Seus dias variavam desde brincar com as expansões decimais da proporção áurea, a tentar provar a infinitude dos números primos. Até que o dia chegou em que Stavistor já não tinha a mesma disposição de antes para descobrir novas sequências de inteiros, e resolveu colocar a fé de novas descobertas matemáticas em uma nova geração, começando pelo seu filho.</span></p><p dir="ltr" style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);"><span style="color: rgb(34, 34, 34);background-color: rgb(255, 255, 255);">Para introduzir as sequências de inteiros ao seu filho de apenas 3 anos, Stavistor resolveu ensinar uma das mais básicas sequências, em que a diferença de números consecutivos é uma constante: progressões aritméticas. Para testar se o seu filho tinha realmente aprendido o conceito de progressões aritméticas, Stavistor escreveu uma sequência A de N inteiros e pediu para que seu filho descobrisse qual a maior subsequência contínua de A que também é uma progressão aritmética. Seu filho deveria responder o índice do começo e do fim dessa subsequência. Caso houvesse duas ou mais subsequências contínuas com o mesmo tamanho máximo, ele deveria responder a que começa mais cedo na sequência.</span></p><span style="color: rgb(34, 34, 34);background-color: rgb(255, 255, 255);">Esperto, o filho de Stavistor contratou um programador para descobrir a resposta: você.</span>
+Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: transparent;">Na primeira linha a quantidade de casos T (1<span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤<span class="Apple-converted-space"> </span></span><span style="color: rgb(0, 0, 0);background-color: transparent;">T<span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span class="Apple-converted-space"> </span>100). Para cada caso, duas linhas. A primeira linha contém o inteiro N (1<span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤<span class="Apple-converted-space"> </span></span><span style="color: rgb(0, 0, 0);background-color: transparent;">N<span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span class="Apple-converted-space"> </span>10^</span><span style="color: rgb(0, 0, 0);background-color: transparent;">5</span><span style="color: rgb(0, 0, 0);background-color: transparent;">), representando a quantidade de elementos na sequência. Na linha seguinte, N inteiros A</span><span style="color: rgb(0, 0, 0);background-color: transparent;">i</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span class="Apple-converted-space"> </span>(-10^</span><span style="color: rgb(0, 0, 0);background-color: transparent;">9</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤<span class="Apple-converted-space"> </span></span><span style="color: rgb(0, 0, 0);background-color: transparent;">A</span><span style="color: rgb(0, 0, 0);background-color: transparent;">i</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span class="Apple-converted-space"> </span>10^</span><span style="color: rgb(0, 0, 0);background-color: transparent;">9</span><span style="color: rgb(0, 0, 0);background-color: transparent;">) são apresentados, representando a sequência A.</span><br/></p>
+Formato da saída: <p><span style="color: rgb(0, 0, 0);float: none;background-color: rgb(255, 255, 255);">Para cada caso, imprima uma linha com o índice do começo e do fim da maior subsequência contínua de A que também é uma progressão aritmética.</span><br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

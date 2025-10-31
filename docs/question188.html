@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 188 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 188</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Dança Indígena
+Topicos do problema: array; simulação de jogos; array circular; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Senhor Ambrósio promoverá um festival indígena, onde várias tribos irão se reunir e fazer demonstrações de cultura, como artesanato, danças, pinturas, comidas e etc. <br/>Uma das tribos é a dos Tunak Tunak, que possuem uma apresentação de dança muito peculiar. Nessa dança, existem N toras de madeira encrustadas no chão, dispostas de maneira circular e igualmente espaçadas. Em algumas dessas toras fica um índio, olhando em sentido horário ou anti-horário.<br/>A cada batida do tambor, os índios pulam para a próxima tora (que depende da direção para onde ele está olhando no momento). Durante a dança, porém, algumas coisas podem acontecer:<br/><br/>* Dois índios que pulam em sentidos opostos caem na mesma tora ao mesmo tempo. Nesse caso, ambos permanecem nas toras, mas passam a pular na direção contrária a partir da próxima batida de tambor (isso é, quem estava pulando em sentido horário passa a pular em sentido anti-horário, e vice-versa)<br/>* Dois índios em toras consecutivas vão pular um em direção ao outro. Nesse caso, os índios simplesmente não pulam (para não causar nenhum acidente), e, assim como no caso anterior, passam a pular no sentido contrário a partir da próxima batida de tambor.<br/><br/>Note que se o índio não pula e inverte seu sentido, mas ao mesmo tempo um outro índio cair na mesma tora no sentido contrário, caimos no primeiro caso, e ambos os índios na tora invertem seus sentidos (assim, o índio que estava na tora anteriormente inverte seu sentido novamente).<br/>A dança termina quando as toras ocupadas por um índio são exatamente as mesmas toras ocupadas no início da dança, não importando qual índio está em cada tora e nem os sentidos para onde eles estão pulando.<br/>A figura abaixo ilustra (a) uma configuração inicial com oito toras e seis índios; (b) a posição dos índios após uma batida de tambor; e (c) a posição dos índios após duas batidas de tambor. <br/><br/><br/><a href="http://img.thehuxley.com/data/images/app/problems/temp/39f41f6982035c8bc3f892b20b5c2949.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/39f41f6982035c8bc3f892b20b5c2949.png" border="0" width="636" height="205"/></a></p><p><br/></p>&#13;<p>Os índios querem se preparar para a dança e precisam saber quanto tempo ela vai durar.<br/>Para isso, você deverá escrever um programa que, dados a quantidade de toras que serão utilizadas, a quantidade de índios e a posição inicial de cada um, calcule quantas batidas de tambor levará para que a dança termine.</p>
+Formato da entrada: <p>A primeira linha da entrada possui 2 inteiros: N (3 &lt;= N &lt;= 1.000.000) e E (1 &lt;= E &lt;= 1000), que s&atilde;o, respectivamente, a quantidade de toras e a quantidade de &iacute;ndios que ir&atilde;o dan&ccedil;ar (E &lt;= N). As pr&oacute;ximas E linhas cont&eacute;m, cada uma, a descri&ccedil;&atilde;o da posi&ccedil;&atilde;o inicial de cada &iacute;ndio. Cada linha possui dois inteiros: V (1 &lt;= V &lt;= N) e D (D &lt;= 1 ou D &lt;= -1) que representam, respectivamente, o n&uacute;mero da tora onde o &iacute;ndio inicia e seu sentido inicial (1 se hor&aacute;rio, -1 se anti-hor&aacute;rio). A numera&ccedil;&atilde;o das toras obedece o sentido hor&aacute;rio. No in&iacute;cio da dan&ccedil;a uma tora ter&aacute;, no m&aacute;ximo, um &iacute;ndio.</p>
+Formato da saída: <p>Seu programa dever&aacute; exibir um n&uacute;mero inteiro representando a quantidade de batidas de tambor necess&aacute;rias para que a dan&ccedil;a acabe.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

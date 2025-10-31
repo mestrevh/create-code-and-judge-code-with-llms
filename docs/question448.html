@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 448 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 448</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Quantos caminhos simples existem?
+Topicos do problema: grafo; requer solução eficiente; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Aldo Huxley &eacute; um rapaz que gosta muito de viajar e sempre planeja suas viagens com anteced&ecirc;ncia. Geralmente ele estuda os mapas para saber quantos caminhos existem entre a lugar em que ele se encontra e o lugar que ele quer chegar.</p>
+
+<p>Aldo, tamb&eacute;m n&atilde;o gosta de passar no mesmo lugar mais de uma vez.</p>
+
+<p>Sua miss&atilde;o &eacute; ajudar Aldo a contar quantos caminhos simples (ou seja, caminhos em que o mesmo lugar n&atilde;o aparece mais de uma vez naquele caminho) existem entre o lugar em que Aldo se encontra e o lugar de destino.</p>
+
+<p>Seu algoritmo deve ser linear: O (A + V) , onde A= Arestas e V=V&eacute;rtices. Caso contr&aacute;rio, provavelmente voc&ecirc; receber&aacute; como resposta: "tempo limite excedido".</p>
+Formato da entrada: <p>A primeira linha contém um inteiro n indicando a quantidade de lugares. ( 1 &lt;= n &lt;= 4000)</p>&#13;<p>Em cada uma das n linhas seguintes você receberá uma lista de strings. Cada string representa um lugar. As linhas representam quais são os lugares que você consegue chegar a partir de um determinado lugar. Por exemplo, a linha a seguir significa que existe um caminho direcionado de rohan para gondor e de rohan para mordor:</p>&#13;<p>rohan gondor mordor</p>&#13;<p>Perceba que se trata de um caminho direcionado, ou seja, não existe um caminho de gondor para rohan, por exemplo.</p>&#13;<p>O seu mapa também não conterá ciclos. Ou seja, se você partir de rohan para qualquer lugar, será impossível achar um caminho de volta para rohan.</p>&#13;<p>Para quem gosta de estudar grafos, trata-se de um grafo direcionado acíclico.</p>&#13;<p>Na linha n+1, você receberá duas strings, correspondendo ao lugar de origem do Aldo Huxley a ao lugar de destino.</p>
+Formato da saída: <p>Você deve imprimir um número inteiro seguido de um final de linha correspondendo à quantidade de caminhos simples entre o lugar de origem e o lugar de destino.</p>&#13;<p>Por exemplo,</p>&#13;<p>A entrada:</p>&#13;<p>14<br/>m x q r<br/>n q u o<br/>o r s v<br/>p o s z<br/>q t<br/>r u y<br/>s r<br/>t<br/>u t<br/>v x w<br/>w z<br/>x<br/>y v<br/>z<br/>p v</p>&#13;<p>Contém os 14 lugares e a última linha indica que o Aldo Huxley está no lugar p e deseja ir para v. Nesse caso, existem 4 caminhos simples: pov, poryv, posryv e psryv.  Logo, a sua saída deve ser:</p>&#13;<p>4</p>&#13;<p>Veja que não é necessário imprimir os caminhos, somente a quantidade.</p>&#13;<p>A entrada de exemplo, corresponde ao seguinte mapa:</p>&#13;<p><a href="https://thehuxley.com/api/problems/image/751d328fc2ff33062289a84b34377a53.png" target="_blank"><img src="https://thehuxley.com/api/problems/image/751d328fc2ff33062289a84b34377a53.png" border="0" width="407" height="217"/></a></p>&#13;<p> </p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

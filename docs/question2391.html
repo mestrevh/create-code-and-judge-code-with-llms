@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2391 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2391</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Bitmap II
+Topicos do problema: dividir e conquistar; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O bitmap é uma estrutura de dados que é utilizada em muitas áreas da computação. Na Computação Gráfica, por exemplo, um bitmap pode representar uma imagem, onde 1 seria um pixel preto e 0 um pixel branco.</p><p>Mas as formas de representar um bitmap podem ser bem variadas. Neste problema, o objetivo é transformar de uma forma para outra.</p><p>A forma inicial é uma string composta de 0s, 1s e Ds. A forma final é a representação dessa string num array bidimensional (vamos chamar de <b>B</b>).</p><p>Inicialmente, a matriz<b> B</b> toda é considerada. Se na string houver um D, é necessário dividir<b> B</b> em 4 quadrantes, que deverão ser considerados na seguinte ordem: superior esquerdo, superior direito, inferior esquerdo e inferior direito. Se na string houver um 1, toda a parte atual de<b> B</b> deve ser preenchida com 1s, e o mesmo serve para o 0. Dessa forma, será possível converter o bitmap de sua compacta forma de string para o bitmap original.</p><p>Quando um bitmap possui um número par de linhas e também de colunas, então todos os quadrantes possuirão as mesmas dimensões.</p><p>Quando o número de colunas é ímpar, os quadrantes da esquerda devem ter uma coluna a mais do que os quadrantes da direita.</p><p>Quando o número de linhas é ímpar, os quadrantes superiores devem possuir uma linha a mais do que os quadrantes inferiores.</p><p>Seu objetivo é ler a o bitmap na sua forma de string compacta e transformá-la na forma de matriz.</p>
+Formato da entrada: <p>Existirão múltiplas entradas, em cada uma delas:</p><p>Será dado um inteiro<b> n</b> e outro<b> m</b>, representando respectivamente a quantidade de linhas e colunas da forma matricial do bitmap. (1 &lt;=<b> n</b>,<b> m</b> &lt;= 200)<br/>Logo em seguida, será dada uma string<b> s</b> com a representação compacta do bitmap<b> B</b>.<b></b><br/></p>
+Formato da saída: <p>A saída consistirá dos bitmaps na sua forma matricial. Separe cada caso de teste por uma linha em branco.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

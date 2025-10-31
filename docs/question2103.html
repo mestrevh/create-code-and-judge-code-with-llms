@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2103 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2103</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L4Q1 - Duelo familiar
+Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p>O BB-8, vasculhando os destroços de uma nave, encontrou um “dispositivo holograma” que transmitia a batalha de Luke Skywalker e Darth Vader. Por ser um robô, BB-8 só consegue interpretar números binários, então pediu sua ajuda para programá-;lo a fim de entender a batalha.</p><p>Sua tarefa é escrever um programa que consiga simular a sequência de rodadas de golpes e, ao final da mesma, dizer quem foi o vencedor (se é que houve um).</p><p><br/></p><p>Regras da batalha:</p><ul><li>A batalha consiste em no máximo 10 rodadas de golpes.</li><li>Cada rodada é representada por duas matrizes. A primeira representa o golpe de Luke e a segunda de Vader.</li><li>Cada matriz de golpe é composta de 3 linhas e 3 colunas.</li><li>Para ser considerada válida, todos os valores da matriz de golpe precisam ser iguais a 0, exceto a diagonal principal ou secundária, nas quais todos os valores precisam ser iguais a 1. Qualquer matriz de golpe que não atenda as exigências é inválida.</li><li>Uma matriz de golpe inválida significa que seu autor não conseguiu atacar e pode receber dano se a matriz de golpe do adversário for válida.</li><li>Em rodadas que ambas as matrizes de golpes são válidas e com as diagonais iguais, ambos os guerreiros recebem os ataques.</li><li>Se as duas matrizes forem válidas e diferentes, nenhum dos guerreiros toma dano na rodada.</li><li>&#13;Quando um combatente é atingido por um golpe, o mesmo perde 15 pontos de vida.<br/></li></ul><p><br/></p><p style="text-align: center;"><span> </span><img class="" src="https://www.thehuxley.com/api/v1/problems/image/181f9b320a8cf64f06be2c6ed62ed3ccffecadd61.png"/> <img class="" src="https://www.thehuxley.com/api/v1/problems/image/0fbe9853b2e007500142850d500be1bae988d8092.png"/></p>
+Formato da entrada: <title></title><p>A primeira linha da entrada é composta por dois números inteiros, representando a vida de Luke Skywalker e Darth Vader, respectivamente.</p><p>Seguido de uma linha em branco.</p><p>As próximas linhas contém matrizes separadas por uma linha em branco. É garantido que sempre haverá um número par de matrizes, afinal, cada par representa uma rodada (em cada par, a primeira matriz representa o golpe de Luke e a segundo o de Vader). Não é informado quantas rodadas haverão em uma batalha, desta forma, você precisa ler duas matrizes, até o fim da entrada.</p><p>Cada matriz é composta por 3 linhas e cada uma dessas 3 linhas é composta por 3 inteiros separados por espaço.</p>
+Formato da saída: <title></title><p>Imprimir:</p><ul><li>&#34;Luke Skywalker venceu.&#34; - Caso Luke vença;<br/></li><li>&#34;Darth Vader venceu.&#34; - Caso Darth Vader Vença;<br/></li><li><span>&#34;Houve empate.&#34; - Caso haja empate.</span></li></ul>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

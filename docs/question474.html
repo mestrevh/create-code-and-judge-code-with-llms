@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 474 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 474</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Rotas de Entrega
+Topicos do problema: grafo; 
+Tempo limite de execução: 10 segundo(s)
+Descrição: <p>A Compahia de Barcos da China(CBC) precisa de um software para ajud&aacute;-la a fazer cota&ccedil;&otilde;es para os seus clientes. O custo de uma entrega de navio depende do tamanho da encomenda e de quantas aquavias s&atilde;o necess&aacute;rias percorrer.</p>
+
+<p>Uma aquavia &eacute; um caminho mar&iacute;timo que conecta dois portos. Nem todos os pares de portos est&atilde;o conectados por uma aquavia. Pode ser que para ir de um porto para o outro, seja necess&aacute;rio passar por v&aacute;rias aquavias.</p>
+
+<p>A CBC opera em at&eacute; 7000 portos diferentes. Cada porto &eacute; identificado por uma string. As aquavias sempre existem entre dois portos distintos. Todas as aquavias s&atilde;o bidirecionais.</p>
+
+<p>O custo de uma entrega &eacute; igual ao tamanho da encomenda vezes o n&uacute;mero de aquavias necess&aacute;rias para ir de um porto de origem ao porto de destino vezes $100.</p>
+
+<p><br />A entrada cont&eacute;m os portos e as aquavias. Para cada solicita&ccedil;&atilde;o de cota&ccedil;&atilde;o, existir&aacute; o tamanho da encomenda, o porto de origem e o porto de destino. O seu programa deve imprimir o menor custo poss&iacute;vel para essa entrega, caso seja poss&iacute;vel entregar no destino. Pois pode ser que n&atilde;o exista um caminho de aquavias entre a origem e o destino.</p>
+Formato da entrada: <p>A primeira linha conter&aacute; um inteiro de D ( 1&lt;=D&lt;=10) indicando o n&uacute;mero de casos de teste. Cada caso de teste representa uma nova configura&ccedil;&atilde;o.</p>
+
+<p>A primeira linha de cada caso de teste cont&eacute;m 3 inteiros: M( 1&lt;=M&lt;=7000) , N&nbsp; (1&lt;=N&lt;M)&nbsp; e P (2&lt;=P&lt;=M).</p>
+
+<ul>
+
+<li> M &eacute; um inteiro representando o n&uacute;mero de portos.</li>
+
+<li>N &eacute; um inteiro representando o n&uacute;mero de aquavias.</li>
+
+<li>P &eacute; um inteiro representando o n&uacute;mero de cota&ccedil;&otilde;es que ser&atilde;o realizadas.</li>
+
+</ul>
+
+<p>A segunda linha do caso de teste cont&eacute;m M strings representando os nomes de cada porto. O tamanho m&aacute;ximo da string &eacute; 100 caracteres. As strings s&atilde;o separadas por espa&ccedil;os em branco.</p>
+
+<p>Depois seguir&atilde;o N linhas. Cada uma no formato XX YY, onde siginifica que existe uma aquavia entre o porto XX e o porto YY.</p>
+
+<p>Depois seguir&atilde;o P linhas. Cada linha consiste de um inteiro Z (1&lt;=Z&lt;=10) correspondendo ao tamanho da encomenda, seguido de um par XX YY, onde XX corresponde ao porto de origem e YY ao porto de destino.</p>
+Formato da saída: <p>A primeira linha de todas deve conter a string: "SHIPPING ROUTES OUTPUT"</p>
+
+<p>Para cada caso de teste, deve existir uma se&ccedil;&atilde;o enumerando o caso de teste que se seguir&aacute;. Depois seguir&atilde;o P linhas consistindo do menor custo encontrado para a respectiva solicita&ccedil;&atilde;o de cota&ccedil;&atilde;o. Caso n&atilde;o seja poss&iacute;vel realizar a entrega, voc&ecirc; deve imprimri: "NO SHIPMENT POSSIBLE"</p>
+
+<p>Na &uacute;ltima linha da sa&iacute;da, voc&ecirc; deve imprimir:&nbsp; "END OF OUTPUT"</p>
+
+<p>Veja o exemplo de sa&iacute;da para entender melhor o formato esperado.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

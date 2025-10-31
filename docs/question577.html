@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 577 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 577</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Heapsort
+Topicos do problema: heap; dividir e conquistar; recursão; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <div class="problem-description-header-container" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p>O algoritmo Heapsort é um algoritmo de ordenação que funciona da seguinte forma: dada uma sequência de elementos em um array A (neste exercício, consideramos apenas números), primeiro é construída uma heap máxima (max-heap) com os elementos nas posições 1 a n, onde n é o tamanho original do array (vide exercício Construir Heap Máxima presente aqui no Huxley também). Ao construir esta max-heap, o primeiro elemento será o maior elemento de A, portanto podemos colocá-lo na posição n. Se removermos o nó n da heap - podemos fazê-lo simplesmente decrementando o tamanho da heap armazenada em A - observamos que os nós que são filhos da raiz continuam como max-heaps, mas o novo elemento na posição de raiz da heap em A pode estar violando a propriedade de max-heap. Portanto é necessário restaurar a propriedade max-heap, chamando a função MAX-HEAPIFY a partir da raiz, o que terá como resultado uma max-heap nas posições de 1 a n-1. O algoritmo heapsort repete este processo para a max-heap de tamanho 1:n-1, vide descrição do algoritmo abaixo: </p><title>Introduction to Algorithms, Third Edition</title><div class="page" title="Page 181"><div class="layoutArea"><div class="column"><p><img class="" src="https://thehuxley.com/api/v1/problems/image/9155e0ca2c233dba0e66adedb734b0705627013bt.png"/><br/></p></div></div></div><p>(fonte: Capítulo 6.4 do livro &#34;Introduction to Algorithms&#34;, por Cormen et al.)</p><p>Neste exercício, deve ser implementado o algoritmo Heapsort, ilustrando o passo a passo de execução do algoritmo, conforme detalhado no formato de entrada e saída abaixo.<br/></p></div></div><div class="problem-description-header-container" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div>
+Formato da entrada: <p>A entrada é constituída por uma linha contendo uma sequência de números a serem ordenados.</p>
+Formato da saída: <p>A entrada deve ser impressa separada por barras verticais, como no exemplo. Após a construção da heap máxima, o estado inicial da heap deve ser exibido usando a mesma formatação. Para cada passo do algoritmo, a saída deve imprimir o elemento raiz da heap e o conteúdo da mesma entre barras verticais.Ao final da ordenação, deve ser impresso o resultado final da execução do algoritmo. </p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

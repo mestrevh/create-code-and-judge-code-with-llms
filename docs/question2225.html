@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2225 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2225</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L1Q3 - Yoshi, o Melhor Amigo
+Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Lembrando-se de um Yoshi Verde que já teve e o ajudou muito em suas viagens, nosso herói resolve comprar um Yoshi na loja de dinossauros. Ele ficou maravilhado com a infinidade de especies e resolveu fazer uma pesquisa para saber qual delas possui o melhor custo benefício dentro do valor que ele pode pagar com suas moedas.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: center;"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/934355dca6cfacedd7004d23d12b91bce35b921bI.jpg"/><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: left;"><font face="inherit"><br/></font></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: left;"><font face="inherit">Mário, muito animado resolveu pesquisar sobre as raças Yoshis e descobriu suas velocidades máximas. Ele</font><span> tem uma ordem de preferência das cores e para escolher seu Yoshi leva em consideração sua cor, seu custo benefício (Velocidade/Preço) e se ele tem moedas suficientes para comprar.</span></p><p style="background-color: rgb(255, 255, 255);text-align: left;"><font color="#000000" face="inherit">A loja informou que tem quatro tipos </font><font color="#000000">disponíveis: Verde,Vermelho,Roxo e Amarelo.</font></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: left;"><font face="inherit">Para organizar, resolveu fazer uma tabela com as raças em sua ordem de preferência e as suas respectivas velocidades máximas:</font></p><ol style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li>Verde - 80 K/h</li><li>Vermelho - 100 K/h</li><li>Roxo - 120 K/h</li><li>Amarelo - 80 K/h</li></ol><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: left;"><font face="inherit"><b>Seu trabalho é escrever um programa para calcular o Yoshi com melhor custo beneficio que Mário pode pagar e dizer qual é a melhor opção para sua viagem pensando em sua ordem de preferência.</b></font></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: left;">Obs : Se Mário não tiver dinheiro suficiente para comprar nenhum Yoshi a resposta deve ser  &#34;Acho que vou a pe :(&#34; .</p>
+Formato da entrada: <blockquote><h1 style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>M</b></h1><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><h6></h6><h5></h5><h4></h4><h5><ul><li><b>M<span> </span></b>- número natural</li><li><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Uma linha que só contém o número de moedas que Mário possui.</span></li></ul></h5></div></blockquote><h5><br/></h5><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><blockquote><h1><b>A B C D</b></h1><h6></h6><h5><ul><li><b>A B C D </b>- números naturais</li><li>Consiste em uma linha com inteiros em sequência separados por espaços, que representam os preços de cada raça de Yoshi (Verde, Vermelho, Roxo e Amarelo respectivamente).</li></ul></h5></blockquote></div><div style="background-color: rgb(255, 255, 255);"><p><span style="color: rgb(0, 0, 0);">O custo benefício é medido pela razão da velocidade pelo preço (</span><span style="color: rgb(0, 0, 0);"> </span><b style="color: rgb(0, 0, 0);">Velocidade/Preço</b><span style="color: rgb(0, 0, 0);"> </span><font color="#000000" face="inherit">) </font><br/></p></div>
+Formato da saída: <blockquote><h1 style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>S</b></h1><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><h5><ul><li><b>S</b><span> </span>- String</li><li><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">S é a cor do Yoshi que Mário irá comprar para sua viagem (com a primeira letra sempre maiúscula).</span><br/></li></ul></h5></div></blockquote>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

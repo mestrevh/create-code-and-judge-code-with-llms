@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 550 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 550</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Maior elemento pseudo aleatório
+Topicos do problema: função; ponteiro; 
+Tempo limite de execução: 10 segundo(s)
+Descrição: <div class="de1">Inicialmente<span class="sy0">,</span> preencha tr&ecirc;s arrays<span class="sy0">,</span> Y<span class="sy0">,</span> X e Z ambos de comprimento <span class="nu0">10</span>. <span class="br0">(</span>X<span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span>......<span class="br0">[</span>X<span class="br0">[</span><span class="nu0">9</span><span class="br0">]</span><span class="br0">)</span> <span class="sy0">,</span> com valores pseudo<span class="sy0">-</span>aleat&oacute;rios da seguinte forma<span class="sy0">:</span></div>
+
+<div class="de2">&nbsp;</div>
+
+<div class="de1">Y<span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span> <span class="sy0">=</span> seedY</div>
+
+<div class="de2">Y<span class="br0">[</span>i<span class="br0">]</span> <span class="sy0">=</span> <span class="br0">(</span>Y<span class="br0">[</span>i <span class="sy0">-</span> <span class="nu0">1</span><span class="br0">]</span> <span class="sy0">*</span> A <span class="sy0">+</span> B<span class="br0">)</span> <span class="sy0">%</span> modC</div>
+
+<div class="de1">&nbsp;</div>
+
+<div class="de2">X<span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span> <span class="sy0">=</span> seedX</div>
+
+<div class="de1">X<span class="br0">[</span>i<span class="br0">]</span> <span class="sy0">=</span> <span class="br0">(</span>X<span class="br0">[</span>i <span class="sy0">-</span> <span class="nu0">1</span><span class="br0">]</span> <span class="sy0">*</span> B <span class="sy0">+</span> C<span class="br0">)</span> <span class="sy0">%</span> modA</div>
+
+<div class="de2">&nbsp;</div>
+
+<div class="de1">Z<span class="br0">[</span><span class="nu0">0</span><span class="br0">]</span> <span class="sy0">=</span> seedZ</div>
+
+<div class="de2">Z<span class="br0">[</span>i<span class="br0">]</span> <span class="sy0">=</span> <span class="br0">(</span>Z<span class="br0">[</span>i <span class="sy0">-</span> <span class="nu0">1</span><span class="br0">]</span> <span class="sy0">*</span> C <span class="sy0">+</span> A<span class="br0">)</span> <span class="sy0">%</span> modB</div>
+
+<div class="de1">&nbsp;</div>
+
+<div class="de2"><span class="br0">(</span>seedY<span class="sy0">,</span> seedX<span class="sy0">,</span> seedZ<span class="sy0">,</span> A<span class="sy0">,</span> B <span class="sy0">,</span>C<span class="br0">)</span> dados de entrada !=0<span class="sy0">;</span></div>
+
+<div class="de1">&nbsp;</div>
+
+<div class="de2"><span class="nu0">1</span><span class="br0">)</span>&nbsp; &nbsp; &nbsp; Criar uma fun&ccedil;&atilde;o que calcule todos esses elementos e que retorne o maior elemento de cada vetor.</div>
+
+<div class="de1"><span class="nu0">2</span><span class="br0">)</span>&nbsp; &nbsp; &nbsp; Some todos os elementos<span class="sy0">,</span> <span class="br0">(</span><span class="kw4">int</span> Soma <span class="sy0">=</span> MaxX <span class="sy0">+</span> MaxY <span class="sy0">+</span>MaxZ<span class="br0">)</span><span class="sy0">;</span></div>
+
+<div class="de2"><span class="nu0">3</span><span class="br0">)</span>&nbsp; &nbsp; &nbsp; &nbsp;Chame a fun&ccedil;&atilde;o <span class="sy0">&lt;</span>tipo<span class="sy0">&gt;</span> Modulo<span class="br0">(</span> soma<span class="sy0">,</span> A<span class="sy0">,</span> B<span class="sy0">,</span> C<span class="br0">)</span><span class="br0">{</span>....<span class="br0">}</span></div>
+
+<div class="de1">Que faz o valor da soma se tornar &nbsp;<span class="sy0">=</span> soma mod<span class="br0">(</span><span class="br0">(</span>A<span class="sy0">/</span>B<span class="br0">)</span><span class="sy0">+</span>C<span class="br0">)</span><span class="sy0">;</span></div>
+
+<div class="de2">E salva na mesma vari&aacute;vel<span class="br0">(</span>soma<span class="br0">)</span>.</div>
+
+<div class="de1"><span class="br0">(</span>o tipo eh de sua escolha<span class="br0">)</span></div>
+
+<div class="de2"><span class="nu0">4</span><span class="br0">)</span> &nbsp;imprima soma seguido de um 
+
+<span class="sy0"> (quebra/pular a linha)<br /></span></div>
+
+<div class="de1">&nbsp;</div>
+
+<div class="de2">OBS<span class="sy0">:</span></div>
+
+<div class="de1"><span class="kw3">scanf</span><span class="br0">(</span><span class="st0">"%d %d %d %d %d %d"</span><span class="sy0">,&amp;</span>A<span class="sy0">,&amp;</span>B<span class="sy0">,&amp;</span>C<span class="sy0">,&amp;</span>seedX<span class="sy0">,&amp;</span>seedY<span class="sy0">,&amp;</span>seedZ<span class="br0">)</span><span class="sy0">;</span></div>
+Formato da entrada: <p>216&nbsp; 57&nbsp; 740&nbsp; 245&nbsp; 433&nbsp; 871</p>
+
+<p>216&nbsp; 57&nbsp; 740&nbsp; 245&nbsp; 433&nbsp; 871</p>
+
+<p>&nbsp;</p>
+Formato da saída: <p>359</p>
+
+<p>359</p>
+
+<p>&nbsp;</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

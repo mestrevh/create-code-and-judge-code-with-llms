@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2147 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2147</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Hora do Almoço
+Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Nas quartas-feiras os alunos do primeiro período de Ciência da Computação possuem um grande problema, que é saber onde eles devem almoçar, os 2 principais locais que atraem esses alunos são a <b>cantina da Área 2</b> e o <b>Restaurante Universitário</b>. O seu trabalho agora será criar um programa para gerenciar esse fluxo de pessoas e dizer qual o melhor lugar para elas almoçarem, considerando que cada um desses locais tem um especial do dia, e cada pessoa tem uma comida favorita. Seu programa terá que organizar 2 filas(o primeiro cliente a chegar é o primeiro a sair), uma para o Restaurante Universitário e outra para a Área 2.</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/></p><p style="text-align: center;color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><img src="https://media.giphy.com/media/ELQPg4czfrnJ6/giphy.gif" alt="Meow GIF"/><br/></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">OBS:<br/></p><ul style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><li>Cada um dos locais de almoço possui um e apenas um especial do dia</li><li>Uma pessoa pode ou não possuir uma comida favorita</li><li>No caso de uma pessoa ter uma comida favorita, ela irá para a opção que lhe oferece esse tipo de comida</li><li>Caso a pessoa não possua uma favorita ou nenhum dos restaurantes ofereça a sua preferencia, ela irá para o que possuir uma fila menor.</li><li>Caso ainda assim não haja preferência de local, a pessoa vai almoçar na Área 2, por ser mais próximo.</li><li>Tendo conhecimento desse problema dos alunos do CIn deve-se considerar que o Restaurante Universitário, no dia em questão, irá atender apenas aos alunos do primeiro período de Ciência da Computação (Seria meu sonho?)</li><li><b>As filas devem ser implementadas através de listas encadeadas.</b></li></ul>
+Formato da entrada: <blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p><b></b></p><p style="color: rgb(147, 149, 152);"><b>RU:ComidaRU</b></p><p style="color: rgb(147, 149, 152);"><b>Area 2:ComidaArea2</b></p></blockquote><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Onde ComidaRU e <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">ComidaArea2 sã</span>o os especiais do dia do <b>Restaurante Universitário </b>e da <b>Área 2</b> respectivamente</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p style="color: rgb(147, 149, 152);"><b>Comando1 </b></p><p style="color: rgb(147, 149, 152);"><b>Comando2</b></p><p></p><p style="color: rgb(147, 149, 152);"><b><b>Comando3</b></b></p><p style="color: rgb(147, 149, 152);"><b><b>       ...</b></b></p><p style="color: rgb(147, 149, 152);"><b><b>ComandoN</b></b></p></blockquote><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Onde cada comando deve seguir o seguinte padrão:</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Adicionar pessoa:</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>NomePessoa:ComidaFavorita (caso a pessoa tenha uma comida favorita)</b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>ou</b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>NomePessoa (caso não tenha comida favorita)</b></p></blockquote><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Atender cliente:</p><blockquote><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>SAIU:RU (Mostra o nome da primeira pessoa da fila do RU e tira ela)</b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>SAIU:AREA2 (Mostra o nome da primeira pessoa da fila da Área 2 e tira ela)</b></p></blockquote>
+Formato da saída: <blockquote><p>Saída1</p><p>Saída2</p><p>   ...</p><p>SaídaN</p></blockquote><p>Onde cada linha da saída deve seguir o seguinte padrão:</p><p>Caso o comando tenha sido de adicionar pessoa:</p><blockquote><p>NomePessoa foi para a fila do RU (caso ela tenha optado pelo Restaurante Universitário)</p><p>ou</p><p>NomePessoa foi para a fila da Area 2 (caso ela tenha optado pela Área 2)</p></blockquote><p>Caso o comando tenha sido de atender cliente:</p><blockquote><p>NomePessoa almocou no RU e esta voltando pra aula (caso ela tenha saído do RU)</p><p>ou</p><p>NomePessoa almocou na Area 2 e esta voltando pra aula (caso ela tenha saído da Área 2)</p><p>ou</p><p>Nao ha mais ninguem para comer aqui (caso a fila esteja vazia)</p></blockquote>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2322 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2322</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L5Q4 - Treasure Hunt
+Topicos do problema: array; repetição; array bidimensional; recursão; busca; 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <p>Sharpay e seu irmão, Ryan, muito incomodados com a possibilidade de perderem seus papéis na grande peça escolar, resolver fazer de tudo para sabotar as chances de Troy e Gabriella, os principais concorrentes. Para isso, planejaram invadir os seus armários a fim de roubar a letra da música que seria cantada pelos candidatos. Porém, visto que Sharpay não sabe onde fica o armário que ela deveria invadir, pede a sua ajuda para obter sucesso sem ser descoberta! Para te ajudar, ela se comprometeu a descobrir a quantidade de corredores(N) existentes no colégio, assim como a quantidade de armários(Y) por corredor.<br/></p><p><br/></p><p>Para isso, o seu programa deve ser capaz de fazer a busca pelos armários de uma forma específica, para garantir a menor chance de ser pego durante o processo! Sua busca deve ser iniciada no primeiro armário do primeiro corredor, e ser executada em todos os primeiros armários de cada corredor para apenas após isso ser feita nos segundos armários de cada corredor, e assim por diante, até que o último armário do último corredor  seja conferido. Ryan lhe informa que o armário que contiver as letras das músicas se destacará dos demais por conter o número 0(Zero) armazenado em si.</p><p><br/></p><p style="text-align: center;"><img src="https://media1.tenor.com/images/1ba0f22acc3fce7d0a08c010bad1807c/tenor.gif?itemid=3707461" alt="When It Ain't What You Want GIF - HighSchoolMusical SharpayEvans AshleyTisdale GIFs"/><br/></p><p><br/></p><p>OBS: </p><ul><li>Se, a qualquer momento durante a busca, for encontrado um número negativo, deve-se imediatamente finalizar o programa pois quer dizer que o seu programa foi descoberto.<br/></li><li>Você pode imaginar que os corredores são representados pelas linhas das matrizes e, os armários de cada corredor, são os valores das linhas.</li><li>Sua solução precisa, obrigatoriamente, utilizar recursão.</li></ul>
+Formato da entrada: <p>Uma linha contendo:</p><p>N Y</p><p>Sendo N a quantidade de corredores no colégio, e Y a quantidade de armários em cada corredor.</p><p><br/></p><p>Seguem N linhas, cada uma contendo Y valores:</p><p>X</p><p>Sendo X o valor de cada armário.<br/></p>
+Formato da saída: <p>Uma String no formato:</p><p>&#34;O armario a ser invadido fica no corredor X, e e o armario de numero Y.&#34;</p><p>se o seu programa não tiver sido descoberto.</p><p><br/></p><p>OU</p><p><br/></p><p>&#34;Voce foi descoberto! Corra dancando Bop To the Top!!&#34;</p><p>caso seu programa tenha sido descoberto.<br/></p><p><br/></p><p>OU </p><p><br/></p><p>&#34;Sharpay endoidou!&#34;</p><p>caso o numero de armarios ou corredores for igual a zero ou o armario nao existir em nenhum dos corredores.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

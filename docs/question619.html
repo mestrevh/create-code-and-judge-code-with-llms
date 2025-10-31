@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 619 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 619</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Ambrósio e os números especiais
+Topicos do problema: segment tree; números binários; binary indexed tree; requer solução eficiente; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio gosta muito de números especiais. Um número é tido especial se é não negativo, e seu primeiro digito é igual ao ultimo.</p><p>Ex: 0, 3, 5005, 5345, 111, são números especiais , já o número 1000 não é especial.</p><p>Ambrósio tem um array A1, A2, A3 .. AN. Ele quer que você execute as seguintes Q operações:</p><p>1 L R :  encontre o número de números especiais no intervalo [L, R].</p><p>2 i K : substitua o i-ésimo elemento do array A por K. ou seja Ai = K;</p>
+Formato da entrada: <p>A primeira linha é composta por dois inteiros N e Q, que indicam o tamanho do array e a quantidade de operações respectivamente.</p><p>Cada operação consiste de 3 inteiros como diz a descrição. O primeiro desses 3 inteiros indica qual operação deve ser feita.</p><p><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);">1 ≤<span class="Apple-converted-space"> </span></span><strong style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">N</strong><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>,<span class="Apple-converted-space"> </span></span><strong style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">Q</strong><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>≤ 2*10</span><sup style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">5</sup><br style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);"/><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);">-10</span><sup style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">18</sup><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>≤<span class="Apple-converted-space"> </span></span><strong style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">A<sub>i</sub></strong><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>≤ 10</span><sup style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">18</sup><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span></span><br style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);"/><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);">1 ≤<span class="Apple-converted-space"> </span></span><strong style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">L,R</strong><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>≤<span class="Apple-converted-space"> </span></span><strong style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">N</strong><br style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);"/><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);">-10</span><sup style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">18</sup><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>≤<span class="Apple-converted-space"> </span></span><strong style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">K</strong><span style="color: rgb(37, 44, 51);float: none;background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>≤ 10</span><sup style="color: rgb(37, 44, 51);background-color: rgb(255, 255, 255);">18</sup><br/></p>
+Formato da saída: <p>Para cada operação do tipo 1, imprima a quantidade de números especiais contidos no intervalo definido , um por linha.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

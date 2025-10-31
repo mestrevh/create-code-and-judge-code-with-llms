@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1136 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1136</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Batata Quente
+Topicos do problema: maratona; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Batata quente é uma brincadeira bastante popular entre crianças na escola. A brincadeira é simples: a criança que está com a batata a joga para uma outra criança. Em algum momento, o professor, que não está olhando para o que está acontecendo, irá dizer que a brincadeira acabou. Quando isso acontece, a criança que está com a batata perde. <br/></p><p>Uma variação da brincadeira, jogada na fila da cantina, é proposta por um professor. As crianças estão numeradas de 1 a N de acordo com sua posição na fila, onde a criança com o número 1 é a primeira da fila. Cada uma receberá um papel com um número, e sempre que receber a batata, deverá passá-la para a criança na posição anotada em seu papel. O jogo termina com o professor vitorioso se a batata chegar em uma posição menor ou igual a X na fila, com X definido no início da brincadeira. Se isso nunca acontecer, o jogo nunca termina, porém as crianças saem vitoriosas: no dia seguinte todas ganham um desconto na cantina. <br/></p><p>O professor começa o jogo jogando a batata para alguma criança na fila. Como sua mira não é muito boa, ele só consegue garantir que vai jogar a batata para alguma criança em um intervalo L...R da fila com a mesma probabilidade. Ele está considerando vários possíveis intervalos da fila para iniciar a brincadeira. Para isso, o professor gostaria de descobrir, para cada um desses intervalos, qual o valor de X que ele deve escolher para que o jogo seja o mais justo possível, ou seja, a probabilidade de o jogo terminar seja a mais próxima possível da probabilidade de o jogo não terminar. <br/></p><p>Você deve auxiliar o professor a avaliar as propostas. Dados os papéis de cada criança da fila e vários intervalos possíveis, responda, para cada intervalo, o valor de X que torne o jogo mais justo possível. Se houver empate, responda o X mais próximo do início da fila.</p>
+Formato da entrada: <p>A primeira linha da entrada contém dois inteiros, N e Q (2 &lt;= N &lt;= 50000, 1 &lt;= Q &lt;= 100000). A linha seguinte contém N inteiros p1, p2 ...pN (1 &lt;= pi &lt;= N), os valores dos papéis recebidos por cada uma das crianças. Seguem então Q linhas, cada uma com dois inteiros L e R (1 &lt;= L &lt;= R &lt;= N), representando um intervalo considerado pelo professor.</p>
+Formato da saída: <p>Imprima Q linhas, cada uma contendo, para cada intervalo considerado pelo professor, o número inteiro X que o professor deverá escolher para que a brincadeira seja a mais justa possível.<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

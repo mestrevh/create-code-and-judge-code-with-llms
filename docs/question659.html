@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 659 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 659</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Vampiros
+Topicos do problema: gambler's ruin; cadeias de markov; maratona; programação dinâmica; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Felipinho está empolgado com seu novo jogo de RPG sobre guerras entre clãs de vampiros. Nesse jogo ele representa um personagem de um vampiro e constantemente entra em conflito contra vampiros de outros clãs. Tais batalhas são realizadas com base nas características de cada personagem envolvido e com a ajuda de um dado comum de seis faces.</p><p>Por simplicidade, vamos considerar apenas as lutas entre dois vampiros, <code>vampiro 1</code> e <code>vampiro2</code>. Cada um possui uma energia vital (chamaremos de <code>EV1</code> e <code>EV2</code> respectivamente) e, além disso,são determinadas uma força de ataque <code>AT</code> e uma capacidade de dano <code>D</code>.</p><p>O combate é realizado em turnos da maneira descrita a seguir. A cada turno um dado é rolado, se o valor obtido for menor do que ou igual a AT , o <code>vampiro 1</code> venceu o turno, caso contrário o <code>vampiro 2</code> é quem venceu. O vencedor suga energia vital do adversário igual ao valor D, ou seja, D pontos de EV são diminuídos do perdedor e acrescentados ao vencedor. O combate segue até que um dos vampiros fique com EV igual a ou menor do que zero.</p><p>Por exemplo, suponhamos que <code>EV1 = 7, EV2 = 5, AT = 2, D = 4</code>. Rola-se o dado e o valor obtido foi 3. Nesse caso, o <code>vampiro 2</code> venceu o turno e, portanto, 4 pontos de EV são diminuídos do <code>vampiro 1</code> e acrescentados ao <code>vampiro 2</code>. Sendo assim, os novos valores seriam EV1 = 3 e EV2 = 9. Observe que se no próximo turno o <code>vampiro 2</code> ganhar novamente, o combate irá terminar.</p><p>Os valores de AT e D são constantes durante todo o combate, apenas EV1 e EV2 variam.</p><p>Apesar de gostar muito do jogo, Felipinho acha que os combates estão muito demorados e gostaria de conhecer de antemão a probabilidade de vencer, para saber se vale a pena lutar. Assim, ele pediu que você escrevesse um programa que, dados os valores iniciais de EV1 , EV2 ,além de AT e D, calculasse a probabilidade de o <code>vampiro 1</code> vencer o combate.</p>
+Formato da entrada: <p>A entrada contém vários casos de teste. Cada caso de teste ocupa uma única linha, com os quatro inteiros EV1, EV2, AT e D separados por um espaço em branco (<code>1 &lt;= EV1, EV2 &lt;= 10,1 &lt;= AT &lt;= 5</code> e <code>1 &lt;= D &lt;= 10</code>).</p><p>O final da entrada é indicado por uma linha contendo quatro zeros.</p>
+Formato da saída: <p>Para cada caso de teste da entrada seu programa deve imprimir uma única linha. A linha deve conter apenas um número real, escrito com precisão de uma casa decimal, representando, em termos de percentagem, a probabilidade de o <code>vampiro 1</code> vencer o combate.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

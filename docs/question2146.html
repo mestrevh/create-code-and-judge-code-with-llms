@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2146 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2146</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Controle de várias armas
+Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">O estado brasileiro deseja realizar o controle de armas na fronteira. Para ajudar nessa tarefa, você deve fazer um programa que determina se um conjunto de pessoas pode ultrapassar a fronteira com a quantidade de armas que ela leva. Você deve receber as características de pessoas até que o usuário digite um valor inválido para a nacionalidade da pessoa. Lembre-se de que ao receber a nacionalidade inválida, você deve sair imediatamente do programa e não receber mais nenhum dado.</p><p class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Primeiro você deve receber se a nacionalidade da pessoa:<br/></p><ul class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li class="inserted">(B)rasileiro</li><li class="inserted">(E)strangeiro</li></ul><p class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Em seguida, você deve receber a ocupação da pessoa, que pode ser:</p><ul class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li class="inserted">(M)ilitar</li><li class="inserted">(T)urista</li><li class="inserted">(C)aminhoneiro</li><li class="inserted">(O)utro</li></ul><p class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Depois você deve receber a quantidade de armas que a pessoa está carregando e qual o calibre das armas (inteiros). Se a quantidade for zero é indicativo que a pessoa não está portando nenhuma arma.</p><p class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>Em seguida o programa deve liberar ou barrar a entrada da pessoa de acordo com as seguintes regras:</span><br/></p><p class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso a pessoa seja estrangeira, ela só pode ser liberada se não estiver portando nenhuma arma.</p><p class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso seja brasileira:</p><ul class="inserted" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li>Como militar, ela pode portar qualquer quantidade de armas de qualquer calibre que sua entrada é liberada.</li><li>Como Turista, ou outro ela só pode portar uma única arma com calibre até o 22.</li><li>Como Caminhoneiro, ela pode portar até 2 armas com calibre no máximo até o 38.</li></ul>
+Formato da entrada: <p class="inserted">A nacionalidade</p><p class="inserted">A ocupação da pessoa</p><p class="inserted"><span>A quantidade de armas</span></p><p class="inserted"><span class="inserted">O calibre da arma</span><br/></p>
+Formato da saída: <p class="inserted">&#34;Liberado&#34; ou &#34;Barrado&#34; de acordo com as regras descritas acima.<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

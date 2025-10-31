@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 595 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 595</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Duas Extremidades
+Topicos do problema: multiplas entradas; maratona; requer solução eficiente; recursão; programação dinâmica; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>No jogo para dois jogadores &#34;Duas Extremidades&#34;, um número par de cartas é colocado em uma linha. Em cada carta virada para cima está escrito um inteiro positivo. Jogadores jogam em turnos , em cada turno um jogador pode remover uma carta de uma das extremidades da fila, colocando a carta em sua pilha de cartas. O jogador que possuir a maior soma (somando o valor de suas cartas na pilha) vence.</p><p>Uma das Estratégias é simplismente escolher a maior carta entre as duas extremidades, podemos chamar essa estratégia de gulosa. No entanto ela nem sempre é a melhor estratégia, exemplo:</p><p>O primeiro jogador vence se escolher a carta 3 no lugar da 4 na seguinte sequência : 3 2 10 4.</p><p>Você deve determinar a maior diferença entre a pontuação dos jogadores se o segundo SEMPRE usar a estratégia gulosa, enquanto o primeiro pode usar ou não.</p>
+Formato da entrada: <p>A entrada consiste em vários casos de teste. Cada caso de teste contém apenas uma linha. Cada linha começa com um número par n indicando a quantidade de cartas, seguido de n inteiros positivos. O programa encerra quando n = 0.</p><p>Você pode assumir que 0 &gt;= n &lt;=1000(n é par), e que a soma máxima dos números da lista não ultrapassa 1,000,000.</p>
+Formato da saída: <p>Para cada caso de teste imprima:</p><p>In game m, the greedy strategy might lose by as many as p points.<br/></p><p>onde m é o número do jogo (começando de 1) e p é o número da diferença máxima possível entre a pontuação do primeiro e do segundo jogador considerando que o segundo jogador sempre usa a estratégia gulosa, ou seja, sempre escolhendo a maior extremidade.</p><p>OBS: se ouver empate entre as extremidades escolha a da esquerda.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

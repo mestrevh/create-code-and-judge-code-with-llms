@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4174 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4174</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Garagem da ᵈᵘᵈᶦⁿʰᵃ
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p class="p1"><b>Garagem</b></p><p class="p2"><br/></p><p class="p1">Você é o dono de um sistema de garagem e irá criar um sistema que gerencia a entrada e saída de carros de suas garagens. Cada vaga <b>v</b> é representada por um número inteiro (0 &lt;= <b>v</b> &lt;= 500) onde cada vaga possui um carro indentificado por um número <b>K</b> (0 &lt;= <b>K</b> &lt;= 9999)</p>
+Formato da entrada: <title></title><p class="p1"></p><p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Primeiramente, a entrada será um inteiro indicando quantas vagas tem nessa garagem</p><p class="p2" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/></p><p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Após isso,</p><p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">O programa consistirá em várias linhas onde tem o formato:</p><p class="p2" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/></p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p class="p1"><b>c</b><span> </span><b>K</b><span> </span><b>v</b></p><p class="p1"><b>m</b></p></blockquote><p class="p2" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/></p><p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Onde<span> </span><b>C</b><span> </span>é o caractere que representa a ação na vaga<span> </span><b>v</b>. As ações podem ser:</p><ul class="ul1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><li class="li3"><span class="s1">‘i’ -&gt; Inserir carro<span> </span><b>K</b><span> </span>na vaga<b><span> </span>v</b></span></li><li class="li3"><span class="s1">‘r' -&gt; Remover o carro<span> </span><b>K</b><span> </span>da vaga<span> </span><b>v</b></span></li><li class="li3"><span class="s1">‘m' -&gt; Mudar o carro<span> </span><b>K</b><span> </span>de<span> </span><b>v</b><span> </span>para a vaga<span> </span><b>m</b></span></li></ul><div><b><br/></b></div><div><b>A entrada o -1 -1 encerra o programa.</b></div>
+Formato da saída: <p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>Saída:</b></p><p class="p2" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b></b><br/></p><p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>A saída consistirá primeiramente nas mensagens:</b></p><p class="p2" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b></b><br/></p><p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Caso a vaga<span> </span><b>v</b><span> </span>esteja preenchida, imprima<b><span> </span>“Not empty”<span> </span></b>uma vez<b><span> </span></b>e coloque o carro na próxima vaga disponível na ordem crescente (<b>v</b>+1) até retornar a<span> </span><b>v = 0</b><span> </span>e continuar a procura por vaga. Se por acaso não existir mais vagas, apenas imprima<b><span> </span>“FULL”.</b></p><p class="p2" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b></b><br/></p><p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Caso o carro<span> </span><b>K</b><span> </span>não exista na vaga<span> </span><b>v<span> </span></b>imprima<span> </span><b>“Not Found“</b>.</p><p class="p3" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/></p><p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Ao término do programa imprima a situação da garagem em várias linhas da seguinte forma:</p><p class="p3" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/></p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p class="p1"><b>Vaga v -&gt; K</b></p></blockquote><p class="p2" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b></b><br/></p><p class="p1" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>Caso v esteja vazio, não imprima.</b></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 893 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 893</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Dados da sorte
+Topicos do problema: simulação de jogos; recursão; ponteiro; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrosinho está jogando um jogo de tabuleiro. O jogo é bem simples, tem o objetivo de passar por todas as casas. É jogado com um dado normal de seis lados( 1, 2, 3, 4, 5, 6 ). O valor obtido no dado será a quantidade de casas que será andada. Ambrosinho está no meio de uma partida, ou seja, já jogou uma certa quantidade de jogadas e se encontra a uma certa distância do final do jogo. Ele quer saber de quantas maneiras diferentes ele conseguirá chegar ou ultrapassar a casa que delimita o final do jogo.</p><p><span>Por exemplo, Ambrosinho quer ganhar com duas jogadas e sua distância para ganhar da casa final é exatamente 11. Nesse cenário, as possíveis soluções são:</span></p><p><ul><li><span>(6,6). Jogar o dado 2 vezes e obter o valor 6 ambas as vezes.</span></li><li><span>(6,5). Na primeira jogada obteve 6 e na sgunda 5.</span></li><li><span>(5,6). Na primeira obteve 5 e na segunda 6.</span></li></ul><span>Logo, a resposta é 3. Perceba que mesmo (6,6) ultrapasse o valor desejado, se trata de um possível caminho.</span><br/></p><p><span><br/></span></p>
+Formato da entrada: <p>Dois inteiros <b>Q</b> e <b>D</b>, indicando respectivamente a quantidade de jogadas e a distância da casa que representa o final do jogo.</p><p><br/></p><p>1 &lt;= <b>Q</b> &lt;= 10</p><p>1 &lt;= <b>D</b> &lt;= 100</p>
+Formato da saída: <p>Única linha com um inteiro representando a quantidade de formas diferentes para ganhar.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

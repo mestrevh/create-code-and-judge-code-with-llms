@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 316 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 316</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Array Hash
+Topicos do problema: acumulador; dicionário; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Voc&ecirc; ter&aacute; como uma entrada v&aacute;rias linhas, cada uma com uma string. O valor de cada caracter &eacute; computado como segue:&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Valor = (Posi&ccedil;&atilde;o no alfabeto) + (Elemento de entrada) + (Posi&ccedil;&atilde;o do elemento)&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Todas posi&ccedil;&otilde;es s&atilde;o baseadas em zero. 'A' tem posi&ccedil;&atilde;o 0 no alfabeto, 'B' tem posi&ccedil;&atilde;o 1 no alfabeto, ... O c&aacute;lculo de hash retornado &eacute; a soma de todos os caracteres da entrada. Por exemplo, se a entrada for:</p>
+
+<p>CBA</p>
+
+<p>DDD</p>
+
+<p>&nbsp;</p>
+
+<p>ent&atilde;o cada caractere dever&aacute; ser computado como segue:</p>
+
+<p>&nbsp;</p>
+
+<p>2 = 2 + 0 + 0 : 'C' no elemento 0 posi&ccedil;&atilde;o 0</p>
+
+<p>2 = 1 + 0 + 1 : 'B' no elemento 0 posi&ccedil;&atilde;o 1</p>
+
+<p>2 = 0 + 0 + 2 : 'A' no elemento 0 posi&ccedil;&atilde;o 2</p>
+
+<p>4 = 3 + 1 + 0 : 'D' no elemento 1 posi&ccedil;&atilde;o 0</p>
+
+<p>5 = 3 + 1 + 1 : 'D' no elemento 1 posi&ccedil;&atilde;o 1</p>
+
+<p>6 = 3 + 1 + 2 : 'D' no elemento 1 posi&ccedil;&atilde;o 2</p>
+
+<p>&nbsp;</p>
+
+<p>O c&aacute;lculo final de hash ser&aacute; 2+2+2+4+5+6 = 21.</p>
+Formato da entrada: <p>A entrada cont&eacute;m v&aacute;rios casos de teste. A primeira linha de entrada cont&eacute;m um inteiro N que indica a quantidade de casos de teste. Cada caso de teste inicia com um inteiro L (1 &le; L &le; 100) que indica a quantidade de linhas que vem a seguir. Cada uma destas L linhas cont&eacute;m uma string com at&eacute; 50 letras mai&uacute;sculas ('A' - 'Z').</p>
+Formato da saída: <p>Para cada caso de teste imprima o valor de hash que &eacute; calculado conforme o exemplo apresentado acima.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

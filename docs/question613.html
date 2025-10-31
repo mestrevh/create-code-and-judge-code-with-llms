@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 613 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 613</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Expondo a corrupção
+Topicos do problema: grafo; maratona; requer solução eficiente; programação dinâmica; componentes conexos; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>O comitê central da Nlogonia é formado por muitos congressistas. Como o sistema político é dicotômico, cada congressista pertence a um dos dois partidos: o Partido Dominante (PD) e o Partido Racional Inteligente Sagaz Máximo (PRISM).</p><p>Edward é um jornalista investigativo. Ele descobriu que os congressistas são corruptos e que irão trocar de partido se receberem uma certa quantia de Nlogdinheiro. Cada congressista tem seu preço. Como é comum em políticos, existem rivalidades entre eles. Políticos rivais nunca aceitarão ficar no mesmo partido.</p><p>Edward conseguiu uma grana e quer usá-la para fazer alguns congressistas mudarem de partido. Desta forma, ele vai conseguir evidências concretas e inconstestáveis para a sua investigação. Mas para fazer isso, ele precisa respeitar as rivalidades: depois que todo mundo receber dinheiro para mudar de partido, os rivais precisam terminar pertencendo a partidos diferentes.</p><p>Edward quer causar o maior impacto possível. Você pode ajudá-lo a encontrar o número máximo de membros do congresso que podem pertencer ao PD se ele usar o máximo de grana disponível para isso?</p><p>Da mesma forma, qual é o número máximo de membros do congresso que podem pertencer ao PRISM sob as mesmas restrições?<br/></p>
+Formato da entrada: <p>A primeira linha contém 4 inteiros D, P, R e B, representando respectivamente: o número de congressistas que pertencem inicialmente ao PD ( 1&lt;=D&lt;=100), o número de congressistas que pertencem inicialmente ao PRISM ( 1&lt;= P &lt;= 100), o número de rivalidades entre os congressistas ( 1 &lt;= R &lt;=2000) e o orçamento do jornalista expresso em Nlogdinheiro (1 &lt;= B &lt;= 10000). Membros do PD são identificados pelos inteiros de 1 a D, enquanto os membros do PRISM são identificados pelos inteiros de 1 a P.</p><p>A segunda linha contém D inteiros S1, S2, ... Sd, indicando que o membro i do DP irá mudar de partido se oferecido Si Nlogdinheiro ( 1 &lt;= Si &lt;= 100 para i=1, 2, ..., D).</p><p>A terceira linha contém P inteiros T1, T2, ..., Tp, indicando que o membro j do PRISM irá mudar de partido se oferecido Tj Nlogdinheiro (1 &lt;= Tj &lt;= 100 para j=1, 2, ..., P).</p><p>Cada uma das próximas R linhas descreve a rivalidade com dois inteiros X e Y, representando que o membro X do DP e o membro Y do PRISM são rivais ( 1&lt;=X &lt;=D e 1 &lt;= Y &lt;=P).<br/></p>
+Formato da saída: <p>Imprima uma linha com dois inteiros representando o máximo de congressistas que podem pertencer ao DP usando o orçamento dado e também o máximo de congressistas que podem pertencer ao PRISM usando o orçamento dado.<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 647 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 647</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Histórico de comandos
+Topicos do problema: maratona; dicionário; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Uma <em>interface por linha de comando</em> (ILC) é um dos tipos de interface humano-computador mais antigos que existem. Uma ILC permite a interação com o software através de um <em>interpretador de comandos</em>, sendo normalmente acessível em um terminal (ou janela) de texto. A vantagem de um interpretador de comandos é que ele permite que o usuário opere o sistema usando apenas o teclado. Ainda hoje em dia, em que estamos acostumados com interfaces gráficas sofisticadas, muitos aplicativos e sistemas operacionais incluem algum tipo de interface por linha de comando, e muitos usuários ainda preferem usá-la para grande parte das tarefas.</p><p>Um dos recursos mais úteis de um interpretador de comandos é o <em>histórico</em> de comandos. Quando um comando é digitado e executado, ele é colocado no histórico de comandos do terminal. O comando pode ser exibido novamente no terminal apertando a tecla '↑'; a tecla <i>Enter</i> executa o comando novamente quando o comando está sendo exibido no terminal. Todos os comandos executados são guardados no histórico: pressionar a tecla '↑' duas vezes exibe o penúltimo comando executado, pressioná-la 3 vezes exibe o antepenúltimo comando, e assim sucessivamente.</p><p>Por exemplo, se o histórico inicial é <code>(A, B, C, D)</code>, para repetir o comando <code>C</code> basta pressionar duas vezes a tecla '↑' <code>(A, B, C, D, C)</code>. Nesse ponto, para repetir o comando <code>A</code> será necessário pressionar cinco vezes a tecla '↑' <code>(A, B, C, D, C, A)</code>. Nesse ponto, para repetir mais uma vez o comando <code>A</code> basta pressionar uma vez a tecla '↑'<code>(A, B, C, D, C, A, A)</code>.</p><p>Leandro é administrador de sistemas e usa frequentemente o interpretador de comandos para gerenciar remotamente os servidores que administra. Em geral, ele precisa apenas repetir comandos que já havia digitado antes. Enquanto estava trabalhando em um servidor, ele teve uma curiosidade: quantas vezes ele precisa pressionar a tecla '↑' para executar uma determinada sequência de comandos? Ele sabe quais são as posições no histórico dos comandos que ele necessita executar, mas não sabe resolver esse problema. Por isso, pediu que você fizesse um programa que respondesse à pergunta dele.<br/></p><div></div>
+Formato da entrada: <p>A entrada é composta de vários casos de teste. A primeira linha de cada caso de teste contém um número inteiro <code>N</code>, indicando o número de comandos que Leandro deseja executar <code>(1 ≤ N ≤ 1.000)</code>. A segunda linha de um caso de teste contém <code>N</code> inteiros <code>P<sub>1</sub></code>, <code>P<sub>2</sub></code>, . . . , <code>P<sub>N</sub></code>, que indicam as posições dos comandos no histórico <code>(1 ≤ P<sub>i</sub> ≤ 1.000.000)</code> no momento inicial, na ordem em que os comandos devem ser executados. Ou seja, o primeiro comando que deve ser executado está inicialmente na posição <code>P<sub>1</sub></code> do histórico; depois deve ser executado o comando que está inicialmente na posição <code>P<sub>2</sub></code> no histórico, e assim por diante, até <code>P<sub>N</sub></code>, que é a posição inicial do último comando que deve ser executado. Note que pode haver <code>P<sub>i</sub> = P<sub>j</sub></code></p><p>As posições são dadas em função do número de vezes que a tecla '↑' deve ser pressionada: um comando na posição 5 necessita que a tecla '↑' seja pressionada cinco vezes antes de aparecer no terminal (note que à medida que os comando vão sendo executados, a posição de um dado comando no histórico pode mudar).<br/></p><p>O final da entrada é indicado por <code>N = 0</code>.</p>
+Formato da saída: <p>Para cada caso de teste, seu programa deve imprimir apenas uma linha, contendo o número de vezes que Leandro precisa pressionar a tecla '↑' para executar todos os comandos.<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

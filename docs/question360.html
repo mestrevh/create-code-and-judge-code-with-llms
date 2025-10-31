@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 360 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 360</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Vestibular
+Topicos do problema: obi; array; acumulador; caractere; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style="font-size: xx-small;"><span style="font-size: xx-small;"><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">A maioria das Universidades Brasileiras usam o&nbsp;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">v</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">estibular</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">&nbsp;para selecionar seus alunos. O vestibular consiste de uma ou mais provas sobre as mat&eacute;rias do Ensino M&eacute;dio, visando avaliar os conhecimentos dos candidatos. Um formato popular de prova de vestibular &eacute; a&nbsp;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">prova objetiva</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">. Neste formato de prova, cada candidato deve escolher uma das cinco alternativas apresentadas pela quest&atilde;o como sendo a correta. Durante a corre&ccedil;&atilde;o dos cart&otilde;es, cada quest&atilde;o onde a alternativa escolhida pelo candidato &eacute; a mesma do gabarito, ele ganha um ponto. Alguns dos vestibulares mais concorridos do Brasil s&atilde;o disputados por dezenas de milhares de candidatos, e, por isso, geralmente usa-se uma folha de leitura &oacute;ptica e um programa de computador para corrigir as provas de todos os candidatos e gerar a lista com suas pontua&ccedil;&otilde;es. Voc&ecirc; trabalha no comit&ecirc; respons&aacute;vel pelo vestibular em uma faculdade e deve escrever um programa que, dado o gabarito e as respostas de um dos candidatos, determina o n&uacute;mero de acertos daquele candidato.</span></span></span></p>
+Formato da entrada: <p><span style="font-size: xx-small;"><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">A entrada cont&eacute;m um &uacute;nico conjunto de testes, que deve ser lido do&nbsp;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">dispositivo de entrada padr&atilde;o</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">. A primeira linha da entrada cont&eacute;m um &uacute;nico inteiro N, indicando o n&uacute;mero de quest&otilde;es da prova. A segunda linha da entrada cont&eacute;m uma cadeia de N caracteres, indicando o gabarito da prova. A terceira linha da entrada cont&eacute;m outra cadeia de N caracteres, indicando as op&ccedil;&otilde;es marcadas pelo candidato. Ambas as cadeias cont&ecirc;m apenas os caracteres 'A', 'B', 'C', 'D' e 'E' (sempre em letra mai&uacute;scula).</span></span></p>
+
+<p><span style="font-size: xx-small;"><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;"></span><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;">1 &le; N &le; 80</span></span></p>
+Formato da saída: <p><span style="font-size: xx-small;"><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">Seu programa deve imprimir na&nbsp;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">sa&iacute;da padr&atilde;o</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">&nbsp;uma &uacute;nica linha contendo um &uacute;nico inteiro, indicando o n&uacute;mero de acertos do candidato.</span></span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

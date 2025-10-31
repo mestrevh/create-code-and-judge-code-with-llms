@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 528 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 528</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Pílula do Zé
+Topicos do problema: datas/horas; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;"><span style="white-space: pre;"> </span>Z&eacute; &eacute; um rapaz muito esquecido, e ap&oacute;s esquecer dos l&aacute;pis, crach&aacute;, &oacute;culos e outras coisas, decidiu procurar um m&eacute;dico para resolver a sua situa&ccedil;&atilde;o.<br /><span style="white-space: pre;"> </span>O M&eacute;dico receitou uma pilula, que se tomado 3x no horario correto resolveria o problema de Z&eacute;, o &uacute;nico de</span><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;"><span><span>safio &eacute; que esse rem&eacute;dio deveria ser tomado seguinto horarios expecificos, ent&atilde;o sabendo que Z&eacute; era monitor de IP e anotaria todos os horarios das pilulas, o m&eacute;dico decidiu pedir aos calouros de IP que fizessem um programa em c para verificar se Z&eacute; tomou as p&iacute;lulas nos hor&aacute;rios corretos.</span></span></span></span></p>
+
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;"><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;"><span><span></span><br /><span>O M&eacute;dico prescreveu o seguinte:</span><br /><span>A primeira p&iacute;lula pode ser tomada apenas na primeira metade do dia;</span><br /><span>A segunda p&iacute;lula deve ser tomada exatamente 3h12m ap&oacute;s a primeira;</span><br /><span>A terceira p&iacute;lula deve ser tomada exatamente 1380m ap&oacute;s a segunda;</span><br /></span></span></span></p>
+
+<p style="text-align: justify;"><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;"><span style="line-height: 16.0799999237061px;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;">obs: o hor&aacute;rio &eacute; dado no sistema de 24h, e cada hora tem 60 minutos</span></span><br /><br /><br /></span></p>
+Formato da entrada: <p><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;"><span style="font-family: 'arial black', 'avant garde';">Entrada: 6 inteiros representando os hor&aacute;rios que Z&eacute; tomou as p&iacute;lulas;</span></span></p>
+
+<p><span style="font-family: 'arial black', 'avant garde';">&nbsp;</span></p>
+
+<p><span style="font-family: 'arial black', 'avant garde';"><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;">1 00</span><br style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;" /><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;">4 12</span><br style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;" /><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;">3 12</span></span></p>
+Formato da saída: <p><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;"><span style="font-family: 'arial black', 'avant garde';">Sa&iacute;da: 'v' para cada hor&aacute;rio certo, e 'f' para cada esquecimento, e no final a palavra sucesso, caso ele tomou todos os rem&eacute;dios em tempo, e falha, caso contr&aacute;rio.</span></span></p>
+
+<p><span style="font-family: 'arial black', 'avant garde';"><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;">v</span><br style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;" /><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;">v</span><br style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;" /><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;">v</span><br style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;" /><span style="color: #141823; font-family: helvetica, arial, 'lucida grande', sans-serif; font-size: 12px; line-height: 16.0799999237061px; background-color: #f6f7f8;">sucesso</span></span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

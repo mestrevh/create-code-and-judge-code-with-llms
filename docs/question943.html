@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 943 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 943</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Comparação multicritério
+Topicos do problema: 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <p>Considere vetores de N coordenadas V=(v[0],...,v[N-1]) correspondentes a pontos no espaço N-dimensional. Dizemos que um vetor/ponto V domina um ponto W (equivalentemente, W é dominado por V) com respeito a uma coordenada j, e escrevemos V &gt;&gt;(j) W,  se v[j]&gt;w[j]. O elemento dominante de um conjunto N-dimensional de pontos P com respeito à coordenada j, se existir, será o elemento V tal que V &gt;&gt;(j) W para todo W!=V pertencente a P. Este conceito é útil em aplicações que envolvem comparações multi-critério, onde cada elemento (ponto) é composto por N características (coordenadas) que podem ser comparadas individualmente.<br/><br/>Considere então um T.A.D. para manutenção de um conjunto de pontos N-dimensionais P, no qual cada elemento X possui uma chave numérica única X.k e um valor X.V=(v[0],...,v[N-1]). Esse conjunto deve suportar as seguintes operações:<br/><br/>ADD(&lt;k,V&gt;): adiciona um elemento com chave k e valor V ao conjunto <br/></p><p>UPD(&lt;k,V&gt;): atualiza o valor do elemento com chave k para V<br/></p><p>MAX(j): remove o elemento dominante com respeito à coordenada j. Em caso de elementos com mesmo valor, é considerado dominante aquele com a maior chave. Assim, sempre há um elemento dominante.<br/><br/></p>
+Formato da entrada: <p>A entrada possui a seguinte forma<br/><br/>N <br/>OP[0]<br/>OP[1]<br/>OP[2]<br/>OP[n]<br/>...<br/>OP[m-1]<br/>END<br/><br/>onde: <br/><br/>N (2 &lt; N &lt; 100) é a  dimensão (número de coordenadas) dos pontos representados<br/><br/>OP[i] é uma operação numa das formas a seguir.<br/><br/>ADD k v[0] v[1] ... v[N-1]<br/>Adiciona o elemento com chave k e valor V=(v[0],...,v[N-1]) (0&lt;=k&lt; 2^15, 0&lt;=v[j]&lt; 2^20)<br/><br/>UPD k v[0] v[1] ... v[N-1]<br/>Atualiza o valor do o elemento com chave k para V=(v[0],...,v[N-1])<br/><br/>MAX j<br/>Retorna o elemento dominante com respeito à coordenada j<br/></p><p>END indica o fim da entrada</p><p>Pode-se supor que os argumentos dados para cada operação na entrada são sempre válidos.<br/><br/></p>
+Formato da saída: <p>Para cada operação OP[i] no arquivo de entrada, deve ser impressa uma linha com a saída correspondente na forma<br/><br/>i result[i] <br/><br/>onde result[i] denota a saída da operação OP[i] dada como se segue.<br/><br/>ADD -&gt; retorna o número de coordenadas nas quais o elemento adicionado possui o valor dominante <br/><br/>UPD -&gt; retorna o número de coordenadas nas quais o elemento atualizado possui o valor dominante após a atualização<br/><br/>MAX -&gt; retorna k v[0] v[1] ... v[N-1],  chave e valores do elemento removido<br/><br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

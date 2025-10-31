@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2904 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2904</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Rico para Diabo!
+Topicos do problema: segment tree; ponto flutuante; requer solução eficiente; dividir e conquistar; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Michael de Santa é um criminoso absolutamente fascinado por dinheiro. Boa parte do luxuoso patrimônio que acumulou ao longo da vida foi adquirido através de meios ilícitos - ele faz, portanto, o tipo que seria capaz de qualquer coisa para enriquecer.<br/></p><p>Uma de suas principais fontes de renda vem da especulação financeira. Investidor incansável, ele gasta pelo menos 8 horas do seu dia acompanhando tudo que acontece na BAWSAQ, bolsa de valores sediada em Los Santos (a violentíssima metrópole onde vive). Nos últimos tempos, Michael tem voltado especial atenção ao sobe-desce da Fruit, uma das maiores empresas de tecnologia do mercado. Ele planeja comprar um total  de <i>C</i> dólares em ações da companhia, porém ainda não se sente confiante o suficiente para correr este risco - uma queda súbita no preço dos papéis poderia pôr a perder toda a sua fortuna.<br/></p><p>Michael decidiu então fazer um pacto com o diabo. Ele pediu ao maligno que lhe revelasse como sucederia a movimentação dos preços das ações da Fruit nos próximos <i>N</i> dias. O capeta aceitou a proposta, mas com a condição de que, em troca, o ganancioso cumprisse uma pena de pelo menos <i>N</i> milênios no inferno, após sua morte. Além desse, impôs os seguintes termos:<br/></p><ul><li>Todas as ações deveriam ser compradas de uma só vez, e juntas todas elas haveriam também de ser vendidas, mas não necessariamente no mesmo dia em que foram compradas. As ações seriam compradas e vendidas uma - e não mais que uma - vez, dentro dos <i>N</i> dias de vigência do contrato.</li><li>Durante o período em que Michael estivesse de posse das ações, elas renderiam a uma taxa de juros <b>simples</b> e <b>constante</b>,<b> </b>a qual incidiria <b>uniformemente</b> sobre os <i>C</i> dólares iniciais - desde a data da aplicação, até a data do retorno do investimento (inclusive). Essa quota fixa seria calculada <b>artificialmente</b> como aquela de <b>menor</b> valor <b>absoluto </b>(i.e., em módulo) dentre as mudanças diárias <b>reais</b> prenunciadas na bolsa. Para essa minimização, seriam consideradas apenas as variações que ocorressem nos <b>dias entre a compra e a venda</b> do lote de ações.<br/></li></ul><p>Como exemplo, para <i>C</i> = 1,000,000 e <i>N = 5</i>, considere que as alterações reais previstas para os cinco dias seguintes fossem de 1%, 3%, -2%, -4% e 5%, nessa ordem. Se Michael escolhesse comprar as ações no segundo dia, e vendê-las no quinto, a taxa fixa diária aplicada seria de -2% (porque corresponde ao menor valor absoluto entre 3, -2, -4 e 5). Depois dos 4 dias de especulação, o juro total acumulado seria de -2 * 4 = -8%, o qual, em cima do 1 milhão inicial, representaria para Michael um prejuízo final de 8/100 * 1,000,000 = US$ 80.000.<br/></p><p>Uma vez fechado o acordo, o diabo então concedeu a Michael a antecipação do futuro que ele tanto queria. No entanto, quando analisou as oscilações previstas, nosso anti-herói teve uma amarga surpresa: em cada um dos próximos <i>N</i> dias, o preço das ações da Fruit iria sempre <b>subir</b>. Como consequência, a cláusula que fixava como prioritária a taxa de menor valor absoluto apenas minimizaria o potencial de lucro do capitalista. Dessa forma, a segurança contra quedas abruptas dos preços, seu grande temor a princípio, no fim das contas não valeria de nada. Michael praguejou furiosamente, e Satanás gargalhou alto: havia enganado direitinho o miserável.</p><p>Seu objetivo é ajudar Michael a descobrir o <b>lucro</b> <b>máximo</b> que ele ainda poderá faturar, mesmo diante das limitações impostas.<br/></p>
+Formato da entrada: <p>A primeira linha da entrada consiste de um único número real,<i> C, </i>designando o capital inicial (em dólares) que Michael pretende investir em ações da Fruit.<br/></p><p>A segunda linha contém um único inteiro <i>N</i>, o número de dias que Michael terá para comprar e vender as ações.</p><p>A terceira linha apresenta <i>N</i> valores reais <i>Xi</i>, indicando a taxa de incremento (em percentagem) sobre o <b>capital inicial</b> que é esperada para o <i>i</i>-ésimo dia da vigência do contrato.<br/></p><p><br/></p><p><b>Restrições:</b></p><p>1,000.00 ≤ <i>C </i>≤ 1,000,000.00, representado com 2 dígitos de precisão após o ponto decimal, mas sem a vírgula separadora das potências de milhar.<br/></p><p>1 ≤ <i>N</i> ≤ 10<em>⁵</em><br/></p><p>0.00 &lt; <i>Xi</i> ≤ 10.00, representado com 2 dígitos de precisão após o ponto decimal.<br/></p>
+Formato da saída: <p>Seu programa deverá produzir uma única linha, com apenas um número real - o lucro máximo (em dólares) que Michael poderá obter em algum subintervalo do período, obedecendo-se às restrições do contrato. O resultado deverá ser apresentado com precisão de exatamente duas casas após o ponto decimal.<br/></p><p><b>OBS: </b>os <i>C</i> dólares iniciais não entram na conta do lucro final obtido.<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

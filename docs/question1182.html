@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1182 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1182</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L1Q10 - Encontro lendário
+Topicos do problema: decisão; função; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Biu conseguiu encontrar um Pokémon lendário, a ave de fogo Moltres.</p><p style="text-align: center;"><img class="irc_mi" src="https://qph.ec.quoracdn.net/main-qimg-d5eb998f30eb9015f4d7bc234c432834-c" alt="Resultado de imagem para moltres" width="210" height="120"/></p><p>Após uma árdua batalha, Biu conseguiu deixar o Moltres dormindo, porém ainda não atingiu um golpe nele. Enquanto o Moltres esta nesse estado Biu terá a chance de acertar 4 vezes o mesmo golpe. Para isso ele deve selecionar o Pokémon que irá usar entre o seu Slowbro (Level: 30, Ataque: 50) e seu Dragonite (Level: 40, Ataque: 128).</p><p style="text-align: center;"><img alt="" src="http://i.imgur.com/P9ZSKua.png"/><img alt="" src="http://i.imgur.com/tw4zETZ.png"/></p><p>Ambos possuem apenas os ataques Surf (Poder: 90), do tipo água; Flamethrower (Poder: 90), do tipo fogo; e Grass Knot (Poder: 120), do tipo planta.</p><p>O HP (Health Points, Pontos de Vida) do Moltres é calculado em função do seu Level, e o objetivo de Biu é deixa-lo com o HP menor que 10, para que possa captura-lo, porém maior que zero, para que ele não morra. Se isso não ocorrer ao final dos 4 golpes o Moltres escapará. O HP do Moltres é dado pela equação abaixo, onde:</p><ul><li>Base = 90<br/></li><li>IV = 9 <br/></li><li>EV = 25600.</li></ul><p><img alt="HP calc.png" src="https://cdn.bulbagarden.net/upload/d/d4/HP_calc.png" width="555" height="93"/></p><p><br/></p><p>O dano de um Ataque é dado através da equação abaixo.</p><p><img alt="DamageCalc.png" src="https://cdn.bulbagarden.net/upload/thumb/4/47/DamageCalc.png/489px-DamageCalc.png" width="489" height="54"/></p><p>Onde:</p><ul><li>O Level é do Pokémon que ataca</li><li>O Power é o poder do golpe utilizado</li><li>A letra A representa o ataque do Pokémon que ataca</li><li>A letra D representa a defesa do Pokémon defensor</li><li>O Modifier representa se o ataque possui vantagem (Modifier = 2), desvantagem (Modifier = 0,5) ou é neutro (Modifier = 1) conforme tabela abaixo.</li></ul><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/bf8f531c96ce0a16210a26b11e03fffe65521ad6m.png"/><br/></p><p>Para se calcular a defesa do Moltres se utiliza essa equação, com os dados utilizados acima.</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/3c20a26b5e30cd826304d21012e804d16abec408e.png"/><br/></p><p><br/></p><p>Seu trabalho é escrever um programa que dados o Pokémon utilizado, o ataque utilizado e o level do Moltres, diga se ele fugiu, foi capturado ou morreu.</p><p><br/></p><p><b>Obs.: A defesa e o HP máximo devem ser arredondadas para baixo.</b><br/></p>
+Formato da entrada: <h1></h1><blockquote><p>P</p><p>A</p><p>L<br/></p></blockquote><ul><li>P - string ({Slowbro, Dragonite})<span style="color: rgb(147, 149, 152);text-align: left;background-color: rgb(255, 255, 255);float: none;"></span></li><li>A - string ({Surf, Flamethrower, Grass Knot})<span style="color: rgb(147, 149, 152);text-align: left;background-color: rgb(255, 255, 255);float: none;"></span></li><li>L - número natural<br/></li></ul><p><br/></p><p>Onde:</p><ul><li> a primeira linha é nome do Pokémon selecionado </li><li>a segunda linha é o nome do ataque selecionado </li><li>a terceira linha é o level do Moltres encontrado</li></ul>
+Formato da saída: <p></p><blockquote><p>R</p></blockquote><ul><li>R - string</li></ul><p><br/></p><p>A única linha de saída é composta por um dos seguintes:</p><ul><li><span class="br0"></span><span class="st0">&#34;Pokemon invalido&#34;, caso o usuário tente escrever um Pokémon diferente dos apresentados.</span></li><li><span class="st0"><span class="st0">&#34;Ataque invalido&#34;</span><span class="br0">, caso o usuário tente escreve um ataque diferente dos apresentados e um Pokémon válido.</span><br/></span></li><li>&#34;<span class="st0">Moltres fugiu</span>&#34;, quando o HP do Moltres terminar maior ou igual a 10.</li><li>&#34;<span class="st0">Moltres capturado</span>&#34;, quando o HP do Moltres terminar maior que 0 e menor que 10.<br/></li><li>&#34;<span class="st0">Moltres morto</span>&#34;, quando o HP do Moltres zerar.</li></ul><br/><p></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2290 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2290</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L4Q4 - Snake
+Topicos do problema: array bidimensional; array circular; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Diretamente do Nokia 3310, faça um programa que simule um pouco do jogo Snake, febre no inicio dos anos 2000. O jogo original consiste em uma cobra que anda pelo mapa, ela não pode bater nos obstáculos do jogo, mas pode atravessar para o lado oposto do mapa ao atingir uma das bordas.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: center;"><img class="irc_mi" src="https://ph.toluna.com/dpolls_images/2018/07/10/de051921-4dec-4d74-9872-e20f957b2cb6_x300.jpg" alt="Resultado de imagem para nokia 3310 snake" style="color: rgb(147, 149, 152);" width="254" height="254"/><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Para facilitar um pouco a resolução segue algumas facilidades: </p><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li>Podem existir obstáculos no jogo, se o jogador bater em um deles, deve perder o jogo automaticamente.</li><li>Existe apenas 1 modo de jogo, em que não há paredes, e quando você tenta atravessar uma delas você acaba saindo do lado oposto da matriz.</li><li>O jogo acaba quando<span> </span><b>os passos feitos pelo jogador chegam</b><span> </span><span>ao</span><span> </span><b>fim OU ele atinge um obstáculo</b><span>.</span></li></ul><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Objetos no mapa:</p><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li> *   - representa um espaço vazio no mapa, onde a cobra pode caminhar.</li><li>#    - local em que a cobra está</li><li>@   - obstáculo</li></ul>
+Formato da entrada: <blockquote><p>M</p></blockquote><ul><li>Sendo m um inteiro positivo que representa o tamanho do mapa;</li></ul><blockquote><p>N</p></blockquote><ul><li>Numero natural, representando a quantidade de movimentos do jogador;</li></ul><blockquote><p>A</p></blockquote><ul><li>Onde A é uma matriz MxM que representa o estado inicial do mapa. Os caracteres estarão separados por espaço em cada linha;</li></ul><p>Em seguida serão informadas N linhas contendo os movimentos da cobra, as quais:</p><p>&#34;D&#34; - Movimenta a cobra para a direita.</p><p>&#34;E&#34; - Movimenta a cobra para a esquerda.</p><p>&#34;C&#34; - Movimenta a cobra para cima.</p><p>&#34;B&#34; - Movimenta a cobra para baixo.</p><p><br/></p>
+Formato da saída: <blockquote><p>B</p></blockquote><ul><li>Onde B é uma matriz mxm que representa o estado final do mapa;</li></ul><p>Caso a cobra atinja um obstáculo, é necessário informar:</p><blockquote><p>&#34;Game over.&#34; </p></blockquote>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

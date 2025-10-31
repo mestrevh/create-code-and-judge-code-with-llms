@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4035 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4035</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Caio's Clash Cafe
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <h2><i>Cafe Caio Clash Cafe Clash Caio</i></h2><h5><i>Caio Clash</i> tem um café chamado <i>Clash Cafe</i> de onde ele distribui café com um óleo especial, acompanhado de um brownie alternativo em um ambiente com umas plantas esquisitas que possuem um cheiro bem peculiar.</h5><p>Para o gerenciamento do imenso Clash Cafe do Caio ele pediu para você, meu querido programador, distribuir muitos funcionários para atender as grandes mesas que podem ser numeradas usando números de 4 bytes.</p><p>Serão distribuidos todos os <b>F </b>funcionários para atender da mesa <b>B</b> até uma mesa antes da <b>Eº</b> mesa de forma igual onde cada funcionário receberá a quantidade mais próxima de <b>C</b> mesas cheias das mesas restantes a serem distribuídas <b>por rodada </b>para atender da forma mais igualitária possível e de forma ordenada.</p><p>Na distribuição das mesas, a mesa <b>B</b> estará sempre cheia e irão existir <b> K</b> mesas vazias a cada mesa cheia que deverão ser puladas e ignoradas na contagem. Ou seja, a próxima mesa cheia será a mesa <b>B + K</b>.</p><p><br/></p><h4>Exemplo: </h4><p>4 funcionários para atender da mesa 3 até a mesa 59 onde terão 2 mesas vazias a cada mesa cheia e cada um deve receber 5 mesas. </p><p></p><li style="text-align: left;">Funcionáro 0 recebe mesa 3, 5, 7, 9, 11 e depois recebe mesa 43, 45 e 47</li><li style="text-align: left;">Funcionário 1 recebe mesa 13, 15, 17, 19, 21 e depois recebe mesa 49, 51</li><li style="text-align: left;">Funcionário 2 recebe mesa 23, 25, 27, 29, 31 e depois recebe mesa 53, 55</li><li style="text-align: left;">Funcionário 3 recebe mesa 33, 35, 37, 39, 41 e depois recebe mesa 57, 59</li><p></p><p>Veja que a distribuição é feita sempre para todos receberem o número mais próximo sempre de <b>C </b>possível a cada rodada.</p><p><i>Obs: Não é necessário e nem querido usar vetores na resolução do problema. Apenas laços e condicionais são necessários.</i></p>
+Formato da entrada: <p>A entrada será dado no seguinte formato:</p><p><b>B E K C F</b></p><p>onde B, E, C, K e F serão números que podem ser representados por <b>4 bytes</b>.</p><p><br/></p>
+Formato da saída: <p>A saída será dada em várias rodadas onde uma rodada será formada pela número da rodada de distribuição <b>X</b>, o funcionário que recebeu aquela rodada <b>Y</b>, o intervalo <b>Q</b> de trabalho daquele funcionário (números separados por hífem) e depois as mesas que serão atendidas por aquele funcionário separadas por vírgula:</p><pre><span>distribution X to worker Y: Q-P: a, b, c, d, </span></pre><h6><span><br/></span></h6>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

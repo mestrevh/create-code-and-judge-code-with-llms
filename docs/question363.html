@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 363 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 363</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Overflow
+Topicos do problema: obi; decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Os computadores foram inventados para realizar c&aacute;lculos muito rapidamente, e atendem a esse requisito de maneira extraordin&aacute;ria. Por&eacute;m, nem toda conta pode ser feita num computador, pois ele n&atilde;o consegue representar todos os n&uacute;meros dentro de sua mem&oacute;ria. Em um computador pessoal atual, por exemplo, o maior inteiro que &eacute; poss&iacute;vel representar em sua mem&oacute;ria &eacute; 4.294.967.295. Caso alguma conta executada pelo computador d&ecirc; um resultado acima desse n&uacute;mero, ocorrer&aacute; o que chamamos de overflow, que &eacute; quando o computador faz uma conta e o resultado n&atilde;o pode ser representado, por ser maior do que o valor m&aacute;ximo permitido (em ingl&ecirc;s overflowsignifica trasbordar). Por exemplo, se um computador s&oacute; pode representar n&uacute;meros menores do que 1023 e mandamos ele executar a conta 1022 + 5, vai ocorrer overflow .<br /><br />Dados o maior n&uacute;mero que um computador consegue representar e uma express&atilde;o de soma ou multiplica&ccedil;&atilde;o entre dois inteiros, determine se ocorrer&aacute; overflow.</span></p>
+Formato da entrada: <p><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">A primeira linha da entrada cont&eacute;m um inteiro N representando o maior n&uacute;mero que o computador consegue representar. A segunda linha cont&eacute;m um inteiro P, seguido de um espa&ccedil;o em branco, seguido de um caractere C (que pode ser `+' ou `*', representando os operadores de adi&ccedil;&atilde;o e multiplica&ccedil;&atilde;o, respectivamente), seguido de um espa&ccedil;o em branco, seguido de um outro inteiro Q. Essa linha representa a express&atilde;o P + Q , se o caractere C for '+', ou P x Q, se o caractere C for '*'.</span></p>
+
+<p><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;"></span><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;">1 &le; N &le;&nbsp;500.000</span></p>
+
+<p><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;"></span><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;">0&nbsp;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">&le;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 10pt; text-align: justify;">&nbsp;P </span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">&le;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 10pt; text-align: justify;">&nbsp;1000</span></p>
+
+<p><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;"></span><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;">0 &le; Q &le; 1000</span></p>
+Formato da saída: <p><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">Se programa deve imprimir uma &uacute;nica linha, contendo a palavra 'OVERFLOW ' se o resultado da express&atilde;o causar um&nbsp;</span><em style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">overflow</em><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">, ou a palavra 'OK ' caso contr&aacute;rio. Ambas as palavras devem ser escritas com letras mai&uacute;sculas.</span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

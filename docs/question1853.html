@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1853 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1853</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: P3Q2 - Olá, sou o Mr. Meeseeks!
+Topicos do problema: estrutura de dados; multiplas entradas; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <b id="docs-internal-guid-51ae8dec-a183-3cc1-499c-129beb938df9"></b><p dir="ltr"><img class="" src="https://www.thehuxley.com/api/v1/problems/image/1410206bc1773e0ac877f1c3dde2201729a9819f0.png"/><span><br/></span></p><p dir="ltr"><span>Depois de os Vingadores terem conseguido recuperar a Caixa de Meeseeks, decidiram aplicar uma utilização altruísta para a mesma. Mr. Meeseeks seriam criados para ajudar as famílias que sofreram com os Mr. Meeseeks enviados por Thanos, realizando tarefas como, por exemplo, ajudar no dever de casa dos filhos, cuidados da burocracia dos funerais, entre outros, visando facilitar as vidas de quem perdeu pessoas amadas na onda de destruição causada por Thanos.</span><br/></p><br/><p dir="ltr"><span></span>Os Vingadores pediram sua ajuda e seu dever é fazer um gerenciamento dos Mr. Meeseeks e suas tarefas, porém, como você não sabe quais e quantas são as tarefas, você precisa utilizar uma lista encadeada para armazenar a ocorrência de um Mr. Meeseeks trabalhando em uma tarefa. Um Mr. Meeseeks só pode trabalhar em uma tarefa ao mesmo tempo e irá desaparecer ao encerrá-la</p><br/><p dir="ltr"><span></span>Seu programa precisa ser capaz de realizar 3 operações básicas:</p><ul><li><span>ADICIONAR: Dado o nome de uma tarefa, registrar que existe um Mr. Meeseeks trabalhando nessa tarefa.</span></li><li><span>FINALIZAR: Dado o nome de uma tarefa, sinalizar que a mesma foi encerrada e seu Mr. Meeseeks desapareceu.</span></li><li><span>BUSCAR: Dado o nome de uma tarefa, descobrir se existe algum Mr. Meeseeks trabalhando na mesma.</span></li></ul><p><br/></p><p><b>OBS: É obrigatório utilizar uma lista encadeada na solução.</b></p>
+Formato da entrada: <b id="docs-internal-guid-51ae8dec-a188-0df7-3541-2e87df5ac242"></b><p dir="ltr">Várias linhas no formato (até o C == 0):</p><blockquote><p dir="ltr">C</p><p dir="ltr">T</p></blockquote><p><ul><li>C - número natural positivo ({ 1, 2, 3 });</li></ul></p><p><ul><li>T - string.</li></ul></p><br/><p dir="ltr"><span></span>Cada linha de entrada é composta pelo código do comando a ser realizado e o nome da tarefa.</p><br/><p dir="ltr"><span></span>Os códigos de comandos são os seguintes e se referem aos comandos listados na descrição da questão:</p><ol><li><p dir="ltr">para comando de ADICIONAR;</p></li><li><p dir="ltr">para comando de FINALIZAR;</p></li><li><p dir="ltr">para comando de BUSCAR.</p></li></ol><br/><p dir="ltr"><span></span>A entrada encerra quando for lido o código de comando 0, que não será seguido por um nome de tarefa.</p><br/><p dir="ltr">OBS:</p><ul><li><p dir="ltr">O nome de uma tarefa sempre será composto por letras minúsculas;</p></li><li><p dir="ltr">O nome de uma tarefa poderá ter espaços em sua composição;</p></li><li><p dir="ltr">Cada comando deve ser lido em ordem e seu resultado deve ser impresso imediatamente;</p></li><li><p dir="ltr">Cada nome de tarefa recebido em comandos de ADICIONAR é único, isto é, é garantido que um nome de tarefa recebido, nunca foi recebido anteriormente e nunca será recebido futuramente;</p></li><li><p dir="ltr">No comando FINALIZAR, é garantido que a tarefa já foi adicionada anteriormente;</p></li><li><p dir="ltr">No comando BUSCAR, é possível que o nome da tarefa informado ainda não tenha sido adicionado, porém, se foi, é garantido que estará no mesmo formato de maiúsculas e minúsculas.</p></li></ul>
+Formato da saída: <b id="docs-internal-guid-51ae8dec-a18a-0a8f-98fd-e663800b6429"></b><p dir="ltr">Para cada comando realizado, uma linha no formato:</p><blockquote><p dir="ltr"><span></span>R</p></blockquote><p><ul><li>R - string.</li></ul></p><br/><p dir="ltr"><span></span>Cada linha da saída é composta pelo resultado de um comando realizado, em ordem. Os resultados de cada comandos são os seguintes:</p><p></p><ul><li>ADICIONAR</li><ul><li><span>“A tarefa X foi cadastrada com sucesso.”;</span></li></ul><li><span>FINALIZAR</span></li><ul><li><span>“A tarefa X foi finalizada e um Mr. Meeseeks se despede de nos.”;</span></li></ul><li><span>BUSCAR</span></li><ul><li><span>Caso a tarefa esteja armazenada:</span></li><ul><li><span>“Mr. Meeseeks: Eu sou o Mr. Meeseeks e estou fazendo a tarefa X. Olhe para mim!”</span></li></ul><li><span>Caso a tarefa não esteja armazenada:</span></li><ul><li><span>“A tarefa X nao esta sendo atendida por nenhum Mr. Meeseeks.”.</span></li></ul></ul></ul><p></p><br/><p dir="ltr">Em todos os comandos, X deve ser substituído pelo nome da tarefa que foi adicionada, finalizada ou buscada.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

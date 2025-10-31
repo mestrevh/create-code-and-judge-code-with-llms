@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 533 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 533</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Hashset
+Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 5 segundo(s)
+Descrição: <p><br />O objetivo deste exerc&iacute;cio &eacute; implementar o TAD conjunto num&eacute;rico baseado em&nbsp; uma Hash Table aberta usando listas encadeadas. Esse conjunto deve suportar as seguintes opera&ccedil;&otilde;es:<br /><br />1. ADD(S, k) = adiciona o elemento k ao conjunto S, retornando True se o elemento foi corretamente adicionado ou false se o elemento j&aacute; pertencia ao conjunto. <br />2. DEL(S, k) = remove o elemento k do conjunto S, retornando True se o elemento foi corretamente removido ou False se o elemento n&atilde;o pertencia ao conjunto. <br />3. HAS(S, k) = retorna True se o elemento k pertence ao conjunto S ou false se o elemento n&atilde;o pertence ao conjunto. <br /><br />Os detalhes de implementa&ccedil;&atilde;o da Hash Table T s&atilde;o os seguintes:<br /><br />1. Tamanho da tabela: a tabela deve ter uma capacidade inicial m=7. <br />2. Fun&ccedil;&atilde;o de dispers&atilde;o: deve ser usada a heur&iacute;stica da divis&atilde;o, i.e. h(k)=k mod m<br />4. Inser&ccedil;&atilde;o: os registros devem ser armazenadas em uma lista na posi&ccedil;&atilde;o correspondente. As inser&ccedil;&otilde;es devem ser sempre realizadas no in&iacute;cio da lista. <br />3. Fator de carga: O fator de carga a=n/m deve ser mantido em a&lt;0.75. Assim que a&gt;=0.75, todos os elementos da tabela atual devem ser redistribuidos (rehashing) numa nova tabela de tamanho 2*m-1 por ordem de posi&ccedil;&atilde;o na tabela corrente, ou seja, todos os elementos da lista em T[0] s&atilde;o realocados, do primeiro ao &uacute;ltimo elemento dessa lista, depois os da lista em T[1], na mesma ordem, e assim por diante at&eacute; a lista T[m-1]. IMPORTANTE: essa verifica&ccedil;&atilde;o deve ser feita imediatamente *ap&oacute;s* a inser&ccedil;&atilde;o de cada novo elemento na tabela.</p>
+Formato da entrada: <p><br />O arquivo de entrada consiste em uma sequ&ecirc;ncia de w opera&ccedil;&otilde;es (conceitualmente numeradas de 0 a w-1), sendo uma por linha. As opera&ccedil;&otilde;es poss&iacute;veis s&atilde;o as seguintes:<br /><br />ADD k = adiciona o elemento k<br />DEL k = remove o elemento k<br />HAS k = indica se o elemento k pertence ao conjunto<br />PRT&nbsp;&nbsp; = imprime alguns dados sobre a tabela (ver na descri&ccedil;&atilde;o da sa&iacute;da)<br /><br />Limites:<br />1 &lt;= w &lt;= 100000 <br />0 &lt;= k &lt; 2^20<br /></p>
+Formato da saída: <p>Para cada opera&ccedil;&atilde;o (numerada i=0,...,w-1) no arquivo de entrada, deve ser impresso o resultado correspondente sobre o conjunto, conforme descrito a seguir.<br /><br />a) ADD k: imprime a linha<br /><br />i r c<br /><br />onde<br />i = n&uacute;mero da opera&ccedil;&atilde;o<br />r = resultado da opera&ccedil;&atilde;o (1=True, 0=False)<br />c = n&uacute;mero de compara&ccedil;&otilde;es feitas (posi&ccedil;&otilde;es da lista visitadas) at&eacute; a inser&ccedil;&atilde;o (ou n&atilde;o) do valor correspondente, antes de um eventual rehashing<br /><br /><br />b) DEL k: imprime a linha<br /><br />i r c<br /><br />onde<br />i = n&uacute;mero da opera&ccedil;&atilde;o<br />r = resultado da opera&ccedil;&atilde;o (1=True, 0=False)<br />c = n&uacute;mero de compara&ccedil;&otilde;es feitas (posi&ccedil;&otilde;es da lista visitadas) at&eacute; a remo&ccedil;&atilde;o (ou n&atilde;o) do valor correspondente<br /><br /><br />c) HAS k: imprime a linha<br /><br />i r c<br /><br />onde <br />i = n&uacute;mero da opera&ccedil;&atilde;o<br />r = resultado da opera&ccedil;&atilde;o (1=True, 0=False)<br />c = n&uacute;mero de compara&ccedil;&otilde;es feitas (posi&ccedil;&otilde;es da lista visitadas) at&eacute; a localiza&ccedil;&atilde;o (ou n&atilde;o) do valor correspondente<br /><br />d) PRT: imprime a linha<br /><br />i m n l<br /><br />onde<br />i = n&uacute;mero da opera&ccedil;&atilde;o<br />m = tamanho (capacidade da tabela)<br />n = n&uacute;mero de elementos da tabela (cardinalidade do conjunto)<br />l = comprimento da maior lista da tabela (posi&ccedil;&atilde;o com mais elementos)</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1005 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1005</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Bloom
+Topicos do problema: busca; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Frequentemente é necessário verificar de modo rápido se um nome de usuário já está cadastrado num site. Para isso, uma das estruturas de dados utilizadas é o Filtro de Bloom, através do qual podemos adicionar uma string ao conjunto de nomes utilizados e também consultar se um nome já foi utilizado.<br/><br/>Considere um vetor V de M bits, inicialmente todos iguais a 0, e K funções de hash para strings H[i], com i=0...K-1, definidas, cada uma, a partir de uma base inteira B[i] da seguinte forma:<br/><br/>H[i](S[0 .. L-1]) = (S[0]*B[i]^0 + S[1]*B[i]^1 + ... + S[L-1]*B[i]^(L-1)) mod M, <br/><br/>onde cada B[i] é um inteiro positivo, S é uma string de comprimento L e S[j] é o valor ASCII do caractere na posição j.<br/><br/>Para adicionar uma string S ao Filtro de Bloom, calculamos H[i](S), que corresponderá a uma posição do vetor de bits, e fazemos V[H[i](S)] = 1, para i = 0, ..., K-1.<br/><br/>Para verificar se uma string S está no Filtro de Bloom, verificamos se V[H[i](S)] = 0 para alguma das K funções de hash. Se isso ocorre, então podemos afirmar com certeza que S não pertence ao conjunto de strings do filtro (pois nesse caso, teríamos V[H[i](S)] = 1 para todo i). Caso contrário, consideramos que S pertence ao conjunto.<br/><br/>No entanto, o Filtro de Bloom pode dar falsos positivos, ou seja, quando verificamos se S pertence ao conjunto, é possível que a resposta seja positiva mesmo que S não tenha sido de fato adicionada ao filtro. Para testar o desempenho dessa estrutura de dados, você foi designado a detectar a ocorrência de falsos positivos.<br/><br/></p>
+Formato da entrada: <p>A primeira linha da entrada contém um inteiro <br/><br/>N <br/><br/>indicando a quantidade de usuários a cadastrar no site, isto é, a serem adicionados ao Filtro de Bloom.<br/><br/>As próximas N linhas contêm uma string S cada, formadas apenas por letras minúsculas do alfabeto, e dadas em ordem crescente lexicográfica, que correspondem aos usuários a cadastrar.<br/><br/>S[0]<br/>S[1]<br/>...<br/>S[N - 1]<br/><br/>A próxima linha contém dois inteiros M e K, indicando o tamanho do filtro de Bloom e a quantidade de funções de hash a serem utilizadas<br/><br/>M K<br/><br/>As próximas K linhas contêm um inteiro B cada<br/><br/>B[0]<br/>B[1]<br/>...<br/>B[K - 1]<br/><br/>correspondendo à base das funções H[0], ..., H[K - 1] de hash.<br/><br/>A próxima linha contém um inteiro Q<br/><br/>Q<br/><br/>indicando o número de consultas sobre o Filtro de Bloom.<br/><br/>As Q linhas seguintes contêm uma string cada<br/><br/>T[0]<br/>T[1]<br/>...<br/>T[Q - 1]<br/><br/>representando um nome de usuário a ser pesquisado no filtro.<br/><br/>Limites:<br/><br/>0 &lt; |S[j]|, |T[j]| &lt;= 100<br/>0 &lt; B &lt;= 100<br/>0 &lt; N, Q &lt;= 9*10^4<br/>0 &lt; M &lt;= 10^5</p><p><br/></p>
+Formato da saída: <p>Para cada string T[j] consultada, imprima uma linha com um inteiro <br/><br/>G[j]<br/><br/>onde G[j] = 0 se o nome de usuário T[j] não está presente no filtro,<br/>G[j] = 1 se ao consultar o nome de usuário T[j] ocorreu um falso positivo e<br/>G[j] = 2 se o nome de usuário T[j] já está cadastrado no site.<br/><br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

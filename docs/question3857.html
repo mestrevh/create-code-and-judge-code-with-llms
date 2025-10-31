@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3857 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3857</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Zeca (não) quer trabalhar
+Topicos do problema: array; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <b id="docs-internal-guid-7ccb3c9a-7fff-9685-db2b-d38685f8cc58"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Após dias e dias sem fazer absolutamente nada além de assistir TV, Zeca Urubu chegou a conclusão que ele precisava se levantar e fazer alguma coisa. Sim, ele precisava comprar uma TV nova. Porém tinha apenas um pequeno problema, ele não tem dinheiro nenhum na conta.</span></p><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><span style="width: 512px;height: 511px;"><img src="https://lh3.googleusercontent.com/H4U04VKWJunsx12EpeEtmEgyTb7a1ouk3CnVn41BIO2Fv_boB_MaqZ8ToGOl-4R6iSLaJ-A_vNYyCFLYL_5l-U8IjLsCYuKuf044GUnDwg8I_DIFBFrYxMpJjy5Hhc2893Hh4TlS=s0" width="512" height="511"/></span></span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Zeca, disposto a não trabalhar, decidiu que iria checar a lista de pessoas a quem ele emprestou dinheiro recentemente e cobrar a grana, porém em uma tentativa de não ser tão preguiçoso, ele estabeleceu algumas condições bem específicas:</span></p><br/><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Ele irá visitar </span><span style="color: #000000;background-color: transparent;"><b>EXATAMENTE</b></span><span style="color: #000000;background-color: transparent;"> 3 amigos</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Ele quer </span><span style="color: #000000;background-color: transparent;"><b>APENAS</b> </span><span style="color: #000000;background-color: transparent;">o valor da TV, nenhum real a mais ou menos</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Ele não pode cobrar um mesmo amigo mais do que uma vez</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso ele não consiga cumprir com todas as condições, ele irá trabalhar</span></p></li></ul><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Faça um programa para ajudar Zeca a descobrir se ele vai realmente precisar trabalhar ou se ele vai conseguir escapar de suas responsabilidades mais uma vez.</span></p>
+Formato da entrada: <b id="docs-internal-guid-701319ec-7fff-5c12-c0e5-844ba2d58645"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O seu programa receberá duas linhas.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">A primeira linha vai possuir <b>dois valores inteiros positivos</b>, </span><span style="color: #000000;background-color: transparent;"><b>V</b></span><span style="color: #000000;background-color: transparent;"> e </span><span style="color: #000000;background-color: transparent;"><b>N</b></span><span style="color: #000000;background-color: transparent;">, representando o valor da TV e a quantidade de amigos a quem Zeca emprestou dinheiro, respectivamente.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">A segunda linha vai possuir uma </span><span style="color: #000000;background-color: transparent;"><b>quantidade N</b></span><span style="color: #000000;background-color: transparent;"><b> de valores inteiros positivos</b>, representando o valor que Zeca emprestou a cada amigo.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Os valores da entrada irão variar dentro dos seguintes intervalos:</span></p><br/><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">0 &lt; <b>V </b>&lt;= 5000</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">3 &lt; <b>N</b> &lt;= 20</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">0 &lt; <b>X</b> &lt;= 2000</span><span style="color: #000000;background-color: transparent;"> (Valores que Zeca pode ter emprestado)</span></p></li></ul>
+Formato da saída: <b id="docs-internal-guid-629d42ef-7fff-286a-bcaf-546a55225b44"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Seu programa terá que printar na tela </span><span style="color: #000000;background-color: transparent;"><b>uma</b></span><span style="color: #000000;background-color: transparent;"> das duas seguintes frases:</span></p><br/><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">“Zeca nao vai ter que trabalhar!”</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">“Zeca vai ter que trabalhar.”</span></p></li></ul><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Ambas <b>sem aspas</b> e <b>sem quebra de linha no final</b>. A primeira será printada caso Zeca seja capaz de cumprir as condições, e a segunda será printada caso não seja possível.</span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

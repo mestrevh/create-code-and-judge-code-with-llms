@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 150 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 150</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Ache o P1 dessa árvore
+Topicos do problema: Árvore; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dada uma &aacute;rvore bin&aacute;ria com altura H, onde os n&oacute;s s&atilde;o indexados de cima pra baixo e da esquerda para a direita come&ccedil;ando por 1. O i-&eacute;simo n&oacute; armazena um inteiro positivo Vi. <br />Assuma que Pi &eacute; definido como:</p>
+
+<ul>
+
+<li>Pi = Vi se o i-&eacute;simo n&oacute; &eacute; uma folha;</li>
+
+<li>Pi = max (Vi*PL, Vi*PR), onde L e R s&atilde;o os &iacute;ndices dos n&oacute;s filhos de i, da esquerda e direita respectivamente. </li>
+
+</ul>
+
+<p><br />Sua tarefa &eacute; calcular o valor de P1.</p>
+Formato da entrada: <p>A primeira linha cont&eacute;m um inteiro positivo H (H&lt;=15) significando a altura da &aacute;rvore. A segunda linha cont&eacute;m os inteiros positivos correspondendo aos n&oacute;s da &aacute;rvore. O i-&eacute;simo inteiro corresponde ao valor de Vi.<br /><br />Por exemplo, a &aacute;rvore abaixo &eacute; representada pela entrada:<br />3<br />3 1 5 2 6 4 7<br /><br />&nbsp;&nbsp;&nbsp;&nbsp; 3<br />&nbsp;&nbsp;&nbsp; / \<br />&nbsp;&nbsp; /&nbsp;&nbsp; \<br />&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp; 5<br />&nbsp;/ \&nbsp;&nbsp; / \<br />2&nbsp;&nbsp; 6 4&nbsp;&nbsp; 7<br /><br />O valor de P1 nesse caso &eacute; de 105.</p>
+Formato da saída: <p>Imprima o valor de P1 encontrado.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

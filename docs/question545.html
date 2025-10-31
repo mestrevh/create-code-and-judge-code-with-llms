@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 545 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 545</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Exercitando BSTs
+Topicos do problema: Árvore; busca binária; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O objetivo deste exerc&iacute;cio &eacute; implementar uma &aacute;rvore de busca bin&aacute;ria (BST) com as seguintes opera&ccedil;&otilde;es elementares:<br /><br />1) ADD k : insere o elemento k na &aacute;rvore caso ele n&atilde;o exista. Retorna 1 caso o elemento tenha sido adicionado e 0 caso ele j&aacute; exista na &aacute;rvore.<br /><br />2) DEL k : remove o elemento k da &aacute;rvore caso ele exista. Retorna 1 caso o elemento tenha sido removido e 0 se ele n&atilde;o existia na &aacute;rvore.<br /><br />3) INT a b : retorna a quantidade de elementos da &aacute;rvore com valores no intervalo [a,b] (inclui as duas extremidades).<br /><br />4) SGE : retorna o valor do segundo maior elemento da &aacute;rvore.<br /><br /><br />Neste exerc&iacute;cio, antes de efetuarmos as opera&ccedil;&otilde;es acima, devemos iniciar uma BST originalmente vazia conforme o procedimento a seguir. <br /><br />i. Inicialmente, preenchemos dois arrays, Y e X, ambos de comprimento N, com valores pseudo-aleat&oacute;rios da seguinte forma:<br /><br />Y[0] = seedY<br />Y[i] = (Y[i - 1] * z + w) % modY, para 1 &lt;= i &lt; N<br /><br />e<br /><br />X[0] = seedX<br />X[i] = X[i - 1] + 1 + (Y[i - 1] % modX), para 1 &lt;= i &lt; N<br /><br />onde seedY, z, w, modY, seedX e modX s&atilde;o valores dados.<br /><br />ii. A adi&ccedil;&atilde;o dos elementos inciais &agrave; BST T, faz-se atrav&eacute;s da chamada &agrave; fun&ccedil;&atilde;o <br /><br /><span style="font-family: courier new,courier;">bst_init(T, X, 0, N-1);</span><br /><br />onde X &eacute; o array iniciado no passo anterior e bst_init &eacute; o procedimento recursivo definido como<br /><br /><span style="font-family: courier new,courier;">Fun&ccedil;&atilde;o bst_init<br />Entrada:&nbsp; T, a BST<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X=(X[0],...,X[N-1]), array de inteiros<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a, b, dois inteiros positivos com a&lt;=b<br />in&iacute;cio<br />&nbsp; c = ch&atilde;o((a+b)/2)<br />&nbsp; bst_add(T, X[c]) // adiciona X[c] &agrave; BST T cf. opera&ccedil;&atilde;o ADD<br />&nbsp; se a &lt;= c-1 ent&atilde;o<br />&nbsp;&nbsp;&nbsp; bst_init(T, a, c-1);<br />&nbsp; fim-se<br />&nbsp; se c+1 &lt;= b ent&atilde;o<br />&nbsp;&nbsp;&nbsp; bst_init(T, c+1, b)<br />&nbsp; fim-se<br />fim</span></p>
+Formato da entrada: <p>A entrada &eacute; constitu&iacute;da por um &uacute;nico caso composto de v&aacute;rias linhas.<br />A primeira linha cont&eacute;m 7 inteiros separados por espa&ccedil;os<br /><br />N seedY z w modY seedX modX<br /><br />onde<br /><br />N &eacute; a quantidade de elementos dos arrays Y e X;<br />seedY, z, w, modY, seedX e modX s&atilde;o os par&acirc;metros de inicia&ccedil;&atilde;o discutidos anteriormente.<br /><br />Cada uma das seguintes linhas possui um comando, correspondente a uma das opera&ccedil;&otilde;es discutidas acima,&nbsp; com seus poss&iacute;veis argumentos. As formas poss&iacute;veis s&atilde;o:<br /><br />ADD k<br />DEL k<br />INT a b<br />SGE<br />&nbsp;<br />Limites:<br />1 &lt;= N &lt;= 10^6<br />-2^31 &lt;= a, b, seedX, z, w, seedY, modX, modY &lt; 2^31<br />-2^31 &lt;= Y[i - 1] * z + w &lt; 2^31, para i = 1..N<br />-2^31 &lt;= X[i - 1] + 1 + (Y[i - 1] % modX) &lt; 2^31, para i = 1..N<br />A quantidade de comandos n&atilde;o ser&aacute; maior que 10^4<br /><br />ATEN&Ccedil;&Atilde;O:<br />Antes de qualquer opera&ccedil;&atilde;o, a BST deve ser iniciada como especificado acima.</p>
+Formato da saída: <p>Para cada comando na entrada, deve ser impressa uma linha com o resultado da opera&ccedil;&atilde;o correspondente.<br /><br />ADD b: imprime 1 se o elemento foi inserido, ou 0, se o elemento j&aacute; existia.<br /><br />DEL b: imprime 1 se o elemento foi removido, ou 0, se o elemento n&atilde;o existia.<br /><br />INT a b: imprime a quantidade de elementos no intervalo [a,b].<br /><br />SGE: imprime o valor do segundo maior elemento da &aacute;rvore ou -1 caso exista menos de dois elementos.<br /><br />ATEN&Ccedil;&Atilde;O:<br />As inser&ccedil;&otilde;es iniciais feitas pela fun&ccedil;&atilde;o bst_init N&Atilde;O devem ter os seus retornos impressos.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

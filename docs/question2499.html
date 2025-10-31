@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2499 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2499</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Pilha
+Topicos do problema: estrutura de dados; pilha; alocação dinâmica; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Pilha é uma estrutura de dados linear capaz de armazenar uma coleção de elementos que somente são acessados a partir do seu lado superior, denominado topo. Assim, os elementos da pilha são manipulados, sempre, pelo topo da pilha.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>Considerando uma estrutura de dados do tipo Pilha, então, implemente as seguintes operações:</span></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>Empilhar</b>: essa operação adiciona um novo elemento da pilha, ela receberá o valor do novo elemento como parâmetro.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>Desempilhar</b>: essa operação remove o elemento que está no topo da pilha.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>Imprimir</b>: essa operação imprime o valor de todos os elementos presentes na pilha, a impressão deve começar a partir do topo.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A última linha da entrada contém o seguinte texto<span> </span><b>Finalizar</b></p>
+Formato da entrada: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A entrada será composta por várias linhas, sendo que em cada linha haverá um comando.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Os comandos possíveis são:</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">1. Empilhar</p><blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Esse comando será seguido pelo valor do novo elemento que está sendo adicionado na pilha.</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">2. Desempilhar</p><blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Esse comando remove o elemento que está no topo da pilha. </p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">3. Imprimir</p><blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Esse comando imprime o valor de todos elementos presentes na pilha, a impressão deve ser feita em uma mesma linha, separando os valores por espaço.</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">4. Finalizar</p><blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Esse indica a última linha da entrada</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span><br/></span></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>Exemplo de uma entrada:</span><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>Empilhar 4</span><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Empilhar 5<br/>Imprimir<br/><span>Empilhar 2<br/>Imprimir<br/></span><span>Desempilhar<br/>Imprimir<br/></span><span>Empilhar 8<br/></span><span>Empilhar 12<br/>Imprimir<br/></span><span>Finalizar</span></p>
+Formato da saída: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Cada linha da saída terá o resultado de um comando <b>Imprimir</b>.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Considerando a seguinte <b>entrada</b>:</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Empilhar 4<br style="color: rgb(0, 0, 0);"/>Empilhar 5<br style="color: rgb(0, 0, 0);"/>Imprimir<br style="color: rgb(0, 0, 0);"/>Empilhar 2<br/>Imprimir<br/>Desempilhar<br/>Imprimir<br/>Empilhar 8<br/>Empilhar 12<br/>Imprimir<br/>Finalizar<br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A <b>Saída</b> seria:</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>5 4<br/></span><span>2 5 4<br/></span><span>5 4<br/></span><span>12 8 5 4</span></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span><br/></span></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Observe que, na entrada, o comando <b>Imprimir</b> apareceu quatro vezes, e por isso a saída tem quatro linhas.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

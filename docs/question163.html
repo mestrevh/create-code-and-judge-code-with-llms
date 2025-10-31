@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 163 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 163</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Pastas da Floripes
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Floripes, prima de Ambrosina, &eacute; uma secret&aacute;ria dedicada do Instituto de Computa&ccedil;&atilde;o. Por&eacute;m Floripes tamb&eacute;m trabalha em um megaconglomerado empresarial voltado a cria&ccedil;&atilde;o de documentos e preenchimento de formul&aacute;rios.</p>
+
+<p>Todo dia ela recebe milhares de pastas suspensas e seu objetivo &eacute; organiz&aacute;-las de uma forma que seja simples recuperar uma pasta do arquivo.</p>
+
+<p>Cada pasta possui uma pequena aba, que fica anexada &agrave; pasta e &eacute; vis&iacute;vel quando a pasta est&aacute; suspensa em seu arquivo. Todo funcion&aacute;rio fixa a aba em uma das posi&ccedil;&otilde;es especificadas pelo manual de fixa&ccedil;&atilde;o de abas, embora ele possa escolher, ao acaso, qualquer uma das posi&ccedil;&otilde;es descritas no manual. Tais posi&ccedil;&otilde;es s&atilde;o numeradas de 1 at&eacute; P.</p>
+
+<p>Floripes notou que fica consideravelmente mais f&aacute;cil encontrar as pastas se elas forem arquivadas da seguinte forma: primeiro uma pasta com aba na posi&ccedil;&atilde;o 1, depois uma com aba na posi&ccedil;&atilde;o 2, e assim sucessivamente, at&eacute; que uma pasta com aba na posi&ccedil;&atilde;o P seja arquivada. Logo ap&oacute;s, repete-se o processo, arquivando uma pasta com aba na posi&ccedil;&atilde;o 1. Para Floripes, um conjunto de pastas &eacute; arquivado de forma perfeita se todas as pastas desse conjunto forem arquivadas da forma descrita anteriormente, ou seja:&nbsp;</p>
+
+<p>* Imediatamente ap&oacute;s toda pasta com aba na posi&ccedil;&atilde;o I, I &lt; P, existe uma pasta com aba na posi&ccedil;&atilde;o I + 1 ou n&atilde;o h&aacute; nenhuma pasta.</p>
+
+<p>* Imediatamente ap&oacute;s toda pasta com aba na posi&ccedil;&atilde;o P, existe uma pasta com aba na posi&ccedil;&atilde;o 1 ou n&atilde;o h&aacute; nenhuma pasta.</p>
+
+<p>* Todas as pastas do conjunto s&atilde;o armazenadas. &nbsp;</p>
+
+<p>Dado um conjunto de pastas e a posi&ccedil;&atilde;o de suas abas, sua miss&atilde;o &eacute; determinar se &eacute; poss&iacute;vel arquivar esse conjunto de pastas de forma perfeita.</p>
+
+<p><strong>Exemplo</strong> 1:</p>
+
+<p>Entrada:</p>
+
+<p>3 6<br />1<br />1<br />1<br />2<br />2<br />3</p>
+
+<p>Sa&iacute;da:</p>
+
+<p>N</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Exemplo</strong> 2:</p>
+
+<p>Entrada:</p>
+
+<p>3 6<br />1<br />1<br />2<br />2<br />3<br />3</p>
+
+<p>Sa&iacute;da:</p>
+
+<p>S</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Exemplo</strong> 3:</p>
+
+<p>3 6<br />1<br />2<br />3<br />1<br />2<br />1</p>
+
+<p>Sa&iacute;da:</p>
+
+<p>N</p>
+Formato da entrada: <p>A entrada cont&eacute;m um &uacute;nico conjunto de testes, que deve da entrada padr&atilde;o. A primeira linha da entrada cont&eacute;m dois inteiros P e N que indicam, respectivamente, o n&uacute;mero de posi&ccedil;&otilde;es poss&iacute;veis para se colar as abas (1 &lt;= P &lt;= 1.000) o n&uacute;mero pastas a serem armazenadas (1 &lt;= N &lt;= 1.000.000). As N linhas seguintes cont&eacute;m um inteiro I (1 &lt;= I &lt;= P) cada representando a posi&ccedil;&atilde;o onde a aba da I-&eacute;sima pasta foi colada.</p>
+Formato da saída: <p>Seu programa deve imprimir, na sa&iacute;da padr&atilde;o, uma &uacute;nica linha, contendo a letra S se for poss&iacute;vel fazer um arquivamento perfeito ou N caso contr&aacute;rio.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

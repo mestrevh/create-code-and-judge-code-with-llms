@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3921 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3921</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: O elevador tridimensional do Yee
+Topicos do problema: repetição; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O<span> </span><b>Yee </b>investiu milhares de dólares para criar um elevador que andasse nas 3 dimensões: X, Y e Z. </p><p>Nas fases de testes, ele te contratou pra fazer um programa que testasse o quanto o elevador rodaria e se ele conseguiria entregar todas as pessoas antes do combustível acabar.</p><p>O elevador segue regras simples:</p><ul><li>No começo de tudo ele parte do quarto 000, depois ele segue a entrega por ordem partindo a partir da posição da ultima pessoa entregue.</li></ul><ul><li>Sempre entram nele <b>um</b><span> </span>conjuntos de quatro pessoas</li><li>Só entra um novo conjunto pessoas se todas as quatro passadas foram entregues.</li><li>Vão entrar ao todo <b>N </b>conjuntos de 4 pessoas.</li><li>Ele entrega cada pessoa por ordem de entrada.</li><li>Na entrega, ele procurará o quarto de número <b>XYZ</b> da pessoa designada, primeiramente ele procura o andar<span> </span><b>X<span> </span></b>(Direita e Esquerda), depois o andar<span> </span><b>Y<span> </span></b>(Cima e Baixo) e depois o andar<span> </span><b>Z<span> </span></b>(Frente e Trás), nesta ordem, até encontrar onde aquela pessoa mora.</li><li>O elevador tem um limite de<span> </span><b>M<span> </span></b>movimentos em todas as direções devido ao combustível (É apenas um teste, o<span> </span><b>yee</b><span> </span>jamais arriscaria prender pessoas em um elevador)</li><li>Caso o combustível acabe, existe uma quantidade de combustível extra para entregar a última pessoa seguramente. Mas caso isso aconteça, após entregar a última pessoa, ele para.</li></ul><p>Seu trabalho é realizar esses testes seguindo estas regras.</p><p><br/></p><p><br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/></p>
+Formato da entrada: <p>A entrada receberá <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">N </b>e <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">M </b>e depois onde mora as <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">4*N </b>pessoas na ordem de entrada.<br/></p>
+Formato da saída: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Para cada pessoa entregue, imprima: </p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Uma sequência de movimentos feitos </p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">(<b>d</b><span><span> </span>para direita,<span> </span></span><b>e</b><span><span> </span>para esquerda,<span> </span></span><b>c</b><span><span> </span>para cima,<span> </span></span><b>b</b><span><span> </span>para baixo,<span> </span></span><b>f</b><span><span> </span>para frente e<span> </span></span><b>t<span> </span></b><span>para trás)</span></p><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);"><b>Movimento feito + quebra de linha</b></pre><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">Entregue <b>P</b> no quarto <b>XYZ</b> com<b> M</b> movimentos. </pre><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Caso consiga entregar todas as pessoas imprima:</p><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">Todas as pessoas foram entregues.</pre><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Caso não:</p><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">Faltou combustível e foram entregues <b>K </b>pessoas<b>.</b></pre><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Onde P é o número da pessoa (Na ordem de entrada),<span> </span><b>XYZ<span> </span></b>é o quarto,<b><span> </span>M</b><span> </span>é o número de movimentos realizados até o momento e<span> </span><b>K<span> </span></b>o número de pessoas entregues.</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">e no FIM agradeça o Yee:</p><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">Fim do teste. Obrigado <b>Kanye West</b>!</pre>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

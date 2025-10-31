@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 210 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 210</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Escalonamento Ótimo
+Topicos do problema: array; pilha; função; estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O SBC (System for Batch Computing) &eacute; um sistema operacional voltado para a execu&ccedil;&atilde;o sequencial de tarefas.<br />O operador do sistema cria tarefas e o sistema operacional &eacute; respons&aacute;vel por agendar a execu&ccedil;&atilde;o destas tarefas.</p>
+
+<p>Cada tarefa pode depender da conclus&atilde;o de algumas tarefas para poder come&ccedil;ar. Se uma tarefa A depende de<br />uma tarefa B, a tarefa B deve terminar antes que a tarefa A inicie sua execu&ccedil;&atilde;o.</p>
+
+<p>Al&eacute;m disto, cada tarefa possui uma prioridade. &Eacute; sempre mais vantajoso para o sistema come&ccedil;ar executando<br />uma tarefa de mais alta prioridade, depois continuar executando uma tarefa de mais alta prioridade dentre as<br />que sobraram e assim por diante.</p>
+
+<p>Neste problema, ser&aacute; dado um inteiro N, que ir&aacute; representar o n&uacute;mero de tarefas no sistema. As tarefas ser&atilde;o<br />numeradas de 0 at&eacute; N &minus; 1. Tarefas com &iacute;ndice menor possuem prioridade maior, de forma que a tarefa 0 &eacute; a<br />tarefa de mais alta prioridade, a tarefa 1 &eacute; a tarefa com a segunda maior prioridade e assim por diante, at&eacute; a<br />tarefa N &minus;1, que &eacute; a tarefa com a menor prioridade. Al&eacute;m disso, ser&atilde;o dadas M rela&ccedil;&otilde;es de depend&ecirc;ncia entre<br />as tarefas.</p>
+
+<p>Seu objetivo ser&aacute; decidir se &eacute; poss&iacute;vel executar as tarefas em alguma ordem. Caso seja poss&iacute;vel, voc&ecirc; dever&aacute;<br />produzir uma ordem de execu&ccedil;&atilde;o &oacute;tima para as tarefas, isto &eacute;, desempate as ordens poss&iacute;veis pela prioridade da<br />primeira tarefa. Se o empate ainda persistir, desempate pela prioridade da segunda tarefa, e assim por diante.</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m inteiros N e M. As pr&oacute;ximas M linhas descrevem, cada uma, uma<br />depend&ecirc;ncia entre as tarefas da entrada. Cada uma dessas linhas ir&aacute; conter dois inteiros A e B que indicam<br />que a tarefa B depende da tarefa A, isto &eacute;, que a tarefa A deve terminar antes que a tarefa B inicie.</p>
+
+<p>Considere:</p>
+
+<p>&bull; 0 &lt;= N &lt;= 50000.<br />&bull; 0 &lt;= M &lt;= 200000.<br />&bull; 0 &lt;= A,B &lt; N.</p>
+Formato da saída: <p>Se n&atilde;o for poss&iacute;vel ordenar as tarefas de forma que as depend&ecirc;ncias sejam satisfeitas, imprima uma &uacute;nica linha<br />contendo o caracter *. Caso contr&aacute;rio, imprima N linhas contendo cada uma um n&uacute;mero inteiro. O inteiro<br />na i-&eacute;sima linha deve ser o &iacute;ndice da i-&eacute;sima tarefa a ser executada na ordem &oacute;tima de execu&ccedil;&atilde;o das tarefas.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2110 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2110</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Delação premiada
+Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p class="inserted">Você precisa ajudar um juiz a decidir se um réu pode fazer delação premiada.</p><p class="inserted">O tempo de um juiz é caro e ele vai alocar um estagiário para preencher seu sistema com diversas informações que o ajudarão a decidir para cada caso se o réu tem direito aos benefícios da delação.</p><p class="inserted">A delação só pode ser feita em casos que apresentam certas propriedades.</p><ul class="inserted"><li class="inserted">O crime que será delatado tem que ser de maior dano à sociedade do que o crime praticado pelo delator. Os crimes considerados (em ordem de gravidade) serão:</li><ul class="inserted"><li class="inserted">Roubo (menor gravidade)</li><li class="inserted">Tráfico</li><li class="inserted">Homicídio (maior gravidade)</li></ul><li class="inserted">Se o crime do delator for de roubo ou tráfico e o crime delatado for de homicídio, ele tem direito à delação diretamente</li><li class="inserted">Se o crime do delator for de roubo e o crime delatado for também de roubo, ele só tem direito à delação se o valor do roubo delatado for mais de 5 vezes maior que o do roubo do delator</li><li class="inserted">Se o crime do delator for de roubo e o crime delatado for de tráfico, ele só tem direito à delação se o valor da droga traficada for mais de 3 vezes maior que o do roubo do delator</li><li class="inserted">Se o crime do delator for de tráfico e o crime delatado for de tráfico, ele só tem direito à delação se o valor da droga traficada for mais de 5 vezes maior que o do tráfico do delator</li><li>No caso do delator ter cometido um homicídio e quiser delatar um homicídio, a delação será concedida<br/></li><li>Se a delação foi concedida, você deve imprimir a seguinte mensagem:</li><ul><li>&#34;Delação concedida.&#34;</li></ul><li class="inserted">Caso contrário:</li><ul class="inserted"><li>&#34;Delação rejeitada.&#34;</li></ul></ul>Casos de erro:<ul class="inserted"><li>Se qualquer um dos crimes for diferente dos especificados (roubo, tráfico ou homicídio), você deve gerar a seguinte mensagem:</li><ul><li class="inserted">&#34;Crime inválido.&#34;</li></ul></ul>
+Formato da entrada: <p class="inserted">Nessa ordem:</p><ul><li>O crime do delator (roubo, tráfico ou homicídio)</li><li>O valor do crime do delator (apenas em caso de roubo ou tráfico)</li><li>O crime delatado (roubo, tráfico ou homicídio)</li><li>O valor do crime delatado (apenas em caso de roubo ou tráfico)</li><li>Obs.: Você só deve receber esses valores se o crime for roubo ou tráfico</li></ul>
+Formato da saída: <ul><li>Se a delação foi concedida, você deve imprimir a seguinte mensagem:</li><ul><li>&#34;Delação concedida.&#34;</li></ul><li>Caso contrário:</li><ul><li>&#34;Delação rejeitada.&#34;</li></ul><li>Se qualquer um dos crimes for diferente dos especificados (roubo, tráfico ou homicídio), você deve gerar a seguinte mensagem:</li><ul><li>&#34;Crime inválido.&#34;</li></ul></ul>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

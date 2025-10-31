@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1312 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1312</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Muitas Paçocas
+Topicos do problema: acumulador; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <b id="docs-internal-guid-21bdaedb-fa01-e31b-c659-e6d371c6459b"></b><p dir="ltr" style="text-align: center;"><br/></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Os alunos da monitoria de introdução a programação estavam com saudades das questões que Lucas (monitor) faz. Para isso eles decidiram arrecadar a maior quantidade de paçocas possível em troca de uma questão desafio. Com tantas paçocas - foram muitas mesmo -, Valgueiro, outro monitor, decidiu dividir todas igualmente entre os monitores, e o resto da divisão ele daria para a primeira pessoa que resolvesse a questão, assim não teria confusão sobre quem ficaria com mais paçocas no grupo. Agora todos estão curiosos para saber quantas paçocas cada um irá receber.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Dado o número de paçocas arrecadadas e a quantidades de monitores na equipe de monitoria, você deve informar quantas paçocas cada monitor deve ganhar e quantas sobram para o aluno vencedor.</span></p>
+Formato da entrada: <p dir="ltr" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);text-align: justify;"><span style="color: rgb(0, 0, 0);background-color: transparent;">A entrada consiste de três números inteiros, </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>D</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"> (0 &lt; </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>D</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"> &lt; 200), </span><span style="color: rgb(0, 0, 0);background-color: transparent;">P</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> (10^{</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>D</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>-1</b>}</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> &lt;= </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>P</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"> &lt; 10^</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>D</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;">) e </span><span style="color: rgb(0, 0, 0);background-color: transparent;">M</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> (2 &lt; <b>M</b> &lt; 500), representado a quantidade de dígitos necessários para representar </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>P</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;">, quantidade de paçocas recebidas pelos monitores e a quantidade de monitores, respectivamente. Sabemos que</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> <b>P</b></span><b><span style="color: rgb(0, 0, 0);background-color: transparent;"> &gt;= </span><span style="color: rgb(0, 0, 0);background-color: transparent;">M</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> e </span><span style="color: rgb(0, 0, 0);background-color: transparent;">P</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> % </span><span style="color: rgb(0, 0, 0);background-color: transparent;">M</span></b><span style="color: rgb(0, 0, 0);background-color: transparent;"><b> != 0</b>, assim cada monitor ganha ao menos uma paçoca o aluno vencedor também.</span><br/></p><br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/><p dir="ltr" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);text-align: justify;"><span style="color: rgb(0, 0, 0);background-color: transparent;">OBS: A quantidade de paçocas pode ser muito grande, passando dos limites dos tipos básicos na maioria da linguagens de programação.</span></p>
+Formato da saída: <p dir="ltr" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);text-align: justify;"><span style="color: rgb(0, 0, 0);background-color: transparent;">A saída consiste em dois números inteiros<b> </b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>L</b> </span><span style="color: rgb(0, 0, 0);background-color: transparent;">e </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>V</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;">, separados por um espaço, representando a quantidade que cada monitor vai ganhar e a quantidade que o ganhador do desafio vai ganhar, respectivamente.</span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

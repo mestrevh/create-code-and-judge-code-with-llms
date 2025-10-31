@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2990 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2990</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L6Q5 - A Mente Do Doctor
+Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A mente do Doctor funciona de uma maneira bastante confusa, mas quando se trata de catalogar as suas aventuras ele se utiliza de uma estrutura mais simples, pelo menos é o que ele considera, onde para cada aventura ele armazena um nome que a represente, o número de sua regeneração na época da aventura, o local, o ano, uma lista de amigos presentes e uma lista de inimigos que foram enfrentados, então com isso ele consegue fazer uma busca pelas informações que ele precisa.</p><p><br/></p><p style="text-align: center;"><img src="https://pmcvariety.files.wordpress.com/2017/12/doctor-who1.jpg?w=700&amp;h=393&amp;crop=1" alt="Resultado de imagem para doctor who jodie"/><br/></p><p><br/></p><p>Você deve agora criar um sistema para simular o modo de pensar do Doctor citado acima, sabendo que as buscas realizadas pelo Doctor sempre possuem uma tag representando a informação que ele procura, uma tag representando o filtro de sua busca e um valor representando o valor desse filtro, por exemplo:</p><p><br/><b>Amigos</b></p><p><b>Ano</b></p><p><b>2019</b></p><p><b><br/></b>É uma busca que retorna todos os amigos de todas as aventuras que o doctor teve no ano de 2019.</p><p>As possíveis tags de busca/filtro são: (&#34;Aventura&#34;, &#34;Doctor&#34;, &#34;Local&#34;, &#34;Ano&#34;, &#34;Amigo&#34;, &#34;Inimigo&#34;).</p><p><b><br/></b></p><p><b>Obs.: Caso ele queira fazer uma busca sem filtro, o filtro será &#34;TODOS&#34;.</b></p><p><b>Obs2.: Não é permitido o uso de arrays nem do método split (que geraria um array) nessa questão</b></p>
+Formato da entrada: <p>A entrada consistirá de várias aventuras descritas da seguinte maneira:</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>N</p><p>R</p><p>L</p><p>A</p><p>AMIGOS</p><p>F1</p><p>F2</p><p>...</p><p>Fi</p><p>INIMIGOS</p><p>I1</p><p>I2</p><p>...</p><p>Ij</p><p>FIM</p></blockquote><ul><li>N - Nome que o Doctor escolheu para descrever a aventura em questão</li><li>R - Número referente à regeneração do Doctor</li><li>L - Local da aventura</li><li>A - Ano da aventura</li><li>Fx - Nome de um dos amigos envolvidos na aventura</li><li>Ix - Nome de um dos inimigos envolvidos na aventura</li></ul><p>Depois que acabarem todas as descrições das aventuras haverá uma linha com dez traços ( - ), e em seguida vários comandos de busca, da seguinte forma:</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>B</p><p>F</p><p>I</p></blockquote><ul><li>B - Tag de busca, mostrando a informação que ele quer</li><li>F - Tag de filtro, mostrando qual informação será usada como filtro</li><li>I - valor a ser usado como filtro</li></ul>
+Formato da saída: <p>Para cada solicitação de busca, o seu programa deverá imprimir todos os valores correspondentes àquela busca, seguidos de uma linha em branco.</p><p>Caso não seja encontrado pelo menos um elemento na busca, deverá ser impressa a seguinte frase:</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>Nao foi possivel encontrar nada com esses parametros.</p></blockquote>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

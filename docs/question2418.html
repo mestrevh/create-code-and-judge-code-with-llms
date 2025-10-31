@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2418 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2418</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L1Q1 - Hotel? Trivago
+Topicos do problema: multiplas entradas; ponto flutuante; decisão; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Um grupo de alunos do CIn viajou para o Japão e precisa da sua ajuda para encontrar um hotel para a estadia. Eles já fizeram uma busca adiantada e agora estão na dúvida entre apenas dois hotéis.</p><p>Sua missão é criar um programa que seja capaz de escolher a melhor opção de hotel para eles. Para isso, eles te dirão o número de estrelas que cada hotel tem, se o hotel fornece café da manhã ou não e o preço da diária de cada hotel.</p><p>Em primeiro lugar, o hotel que tiver mais estrelas será o escolhido pela turma. Caso os hotéis tenham a mesma quantidade de estrelas, o hotel que fornecer café da manhã será o escolhido. Caso os dois hotéis forneçam café da manhã ou nenhum dos dois forneça, os alunos escolherão aquele hotel com a diária mais em conta. Ainda, se todas as informações dos hotéis forem iguais, você deve informá-los que os dois hotéis são boas opções.</p><p><br/></p><p style="text-align: center;"><img class="irc_mi" src="https://i.makeagif.com/media/12-07-2015/xmod-n.gif" alt="Resultado de imagem para trivago gif" width="320" height="180"/><br/></p>
+Formato da entrada: <p>A entrada é composta por 5 linhas. As duas primeiras linhas são os nomes de cada hotel:</p><blockquote><p>Nome1</p><p>Nome2</p></blockquote><ul><li>Nome1 - String</li><li>Nome2 - String</li></ul><p><br/></p><p>A terceira linha tem o número inteiro de estrelas de cada hotel separados por espaço:</p><blockquote><p>E1 E2</p></blockquote><ul><li>1 &lt;= E1, E2 &lt;= 5</li></ul><p><br/></p><p>A quarta linha contém a informação sobre o café da manhã dos hotéis separada por espaço. Se o hotel tiver café da manhã, a entrada será <b>&#34;Sim&#34;</b>, caso contrário será <b>&#34;Nao&#34;</b>.</p><blockquote><p>C1 C2</p></blockquote><ul><li>C1 - String (&#34;Sim&#34; ou &#34;Nao&#34;)</li><li>C2 - String (&#34;Sim&#34; ou &#34;Nao&#34;)</li></ul><p><br/></p><p>A quinta e última linha tem os preços dos hotéis (números de ponto flutuante) separados por espaço:</p><blockquote><p>P1 P2</p></blockquote><ul><li>P1, P2 &gt; 0</li></ul><p><br/></p><p><br/></p>
+Formato da saída: <p>Caso o hotel <b>X</b> leve a vantagem em uma das comparações, a saída deverá ser:</p><blockquote><p>O hotel <b>X</b> e a melhor opcao de estadia!</p></blockquote><p>Caso contrário, a saída será:</p><blockquote><p>Ambos os hoteis sao boas opcoes de estadia!</p></blockquote>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

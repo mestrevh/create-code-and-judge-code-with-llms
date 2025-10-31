@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 787 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 787</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Exponenciação rápida
+Topicos do problema: recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style="color: #1a1a1a;"></span></p><p><span style="color: #1a1a1a;"></span></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Considere o algoritmo abaixo para calcular a exponenciação de maneira mais rápida:</p><table style="background-color: rgb(255, 255, 255);color: rgb(147, 149, 152);"><tbody><tr><td>a<sup>n</sup><span> </span>=   </td><td><p>|</p><p>|</p><p>|    </p></td><td><p>1, se n = 0</p><p>(a<sup>[n/2]</sup>)<sup>2</sup>, se n &gt; 0 e n é par</p><p>a (a<sup>[(n-1)/2]</sup>)<sup>2</sup>, se n &gt; 0 e n é ímpar</p></td></tr></tbody></table><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"> </p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Escreva um método (fastExp) recursivo que implementa o algoritmo acima e recebe dois inteiros (a e n)<span> </span>como parâmetros.</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">LEMBRE-SE: o método deve ser recursivo.</p><p></p><p><b>Atenção:</b></p><p></p><ol><li>você não pode usar os comandos for ou while para implementar o método fastExp;<br/></li><li>sua solução obrigatoriamente deverá utilizar o seguinte método main:</li></ol><p></p><p><span>        public static void main(String[] args) { </span><br/></p><p><span style="color: #1a1a1a;"></span></p><p><span style="color: #1a1a1a;"></span></p><title></title><p>            Scanner <span>in</span> = <span>new</span> Scanner(System.<span>in</span>);</p><p><span></span><span></span><span>            int</span> <span>a</span> = <span>in</span>.nextInt();</p><p><span></span><span></span><span>            int</span> <span>n</span> = <span>in</span>.nextInt();</p><p><span></span><span></span>            System.<span>out</span>.println(fastExp(a, n));</p><p><span style="color: #1a1a1a;"></span></p><p><font color="#1a1a1a">        </font>}</p>
+Formato da entrada: <p><span style="color: #1a1a1a;">Duas linhas com as informações dos valores de &#34;a&#34; e &#34;n&#34; (inteiros).</span></p>
+Formato da saída: <p><span style="color: #1a1a1a;">O valor final do cálculo de a<sup style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">n</sup>.</span><span></span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

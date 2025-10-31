@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2711 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2711</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Bandersnatch
+Topicos do problema: estrutura de dados; multiplas entradas; decisão; função; recursão; string; busca; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Cooper está na Inglaterra sem dinheiro o suficiente para voltar para casa. Pensando nisso, ele decide procurar por um trabalho temporário. Para isso, ele baixa o LinkedIn e encontra uma oferta de emprego da Tuckersoft. Eles estão procurando por voluntários para testar um novo jogo, Bandersnatch. O jogo consiste em acompanhar os personagens em suas trajetórias e, eventualmente, escolher entre duas opções, onde cada escolha cria uma nova trajetória pros personagens. Porém, a fabricante do jogo estava preocupada com a quantidade de finais trágicos no jogo (indicado pela escolha &#34;Fracasso&#34;). Com isso em mente, eles querem que Cooper teste Bandersnatch a procura de finais felizes (indicado pela escolha &#34;Sucesso&#34;). Para isso, Cooper vai indicar suas escolhas e, eventualmente, terá de escolher entre &#34;Fracasso&#34; e &#34;Fracasso&#34; ou entre &#34;Fracaso&#34; e outro caminho. Toda vez que ele chegar em &#34;Fracasso&#34;, ele deve voltar a última escolha em que ele ainda tem a possibilidade de escolher outro caminho e, obrigatoriamente, escolher este outro caminho. A partir disso, o jogo segue normalmente mais uma vez, até que ele, finalmente, chegue em &#34;Sucesso&#34;.</p><p><br/></p><p style="text-align: center;"><img src="https://media.giphy.com/media/NW5Zj8mqxowJa/giphy.gif" alt="Resultado de imagem para bandersnatch simbolo gif"/><br/></p>
+Formato da entrada: <p>A entrada consiste em múltiplas linhas no formato:</p><blockquote><p>D</p></blockquote><ul><li><b>D</b> é a descrição da escolha feita por Cooper.</li><li>Caso <b>D</b> seja igual a &#34;Fracasso&#34;, a próxima linha será a descrição da escolha que tomará <span>o lugar da última escolha que ele é capaz de mudar.</span></li><li>Caso contrário, a próxima linha será a descrição da nova escolha feita por Cooper.</li></ul><p>A entrada acaba quando <b>D</b> é igual a &#34;Sucesso&#34;.</p>
+Formato da saída: <p>Toda vez que Cooper chegar em &#34;Fracasso&#34;, deve ser impressa toda a lista de escolhas feitas por ele para chegar a esse ponto.</p><p>No final, deve ser impressa toda a lista de escolhas feitas por ele que o levou a &#34;Sucesso&#34;.</p><p>A lista deve ser impressa no formato:</p><blockquote><p>D1 -&gt; D2 -&gt; D3 -&gt; ... -&gt; Dn</p></blockquote><ul><li>Di é a descrição na posição <b>i</b> da lista.</li><li><b>n</b> é a quantidade de elementos na lista.</li><li>Cada Di deve ser separado de D(i-1) e D(i+1), se esses existirem, por &#34; -&gt; &#34;.</li></ul>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 518 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 518</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: aMAZEing! - Pt.2
+Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;"><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">Consideramos um labirinto de tamanho N como uma grade de NxN células, numeradas em sequência de cima para baixo e da esquerda para a direita de 0 até N-1.
+
+
+
+Por exemplo, para N=3, temos:
+
+</span><span style="font-family: 'courier new', courier;">
+
+
+
+   _________________
+
+  |     |     |     |
+
+  |  0  |  1  |  2  |
+
+  |     |     |     |
+
+  |-----+-----+-----|
+
+  |     |     |     |
+
+  |  3  |  4  |  5  |
+
+  |     |     |     |
+
+  |-----+-----+-----|
+
+  |     |     |     |
+
+  |  6  |  7  |  8  |
+
+  |     |     |     |
+
+   -----------------
+
+
+
+</span><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">
+
+Cada célula do labirinto é delimitada por, no máximo, quatro paredes. As paredes interiores são numeradas também da esquerda para direita, de cima para baixo de 0 até 2*(N² - N)-1.
+
+
+
+Por exemplo, para N=3, temos:
+
+
+
+</span><span style="font-family: 'courier new', courier;">
+
+   _________________
+
+  |     |     |     |
+
+  |     0     1     |
+
+  |     |     |     |
+
+  |--2--+--3--+--4--|
+
+  |     |     |     |
+
+  |     5     6     |
+
+  |     |     |     |
+
+  |--7--+--8--+--9--|
+
+  |     |     |     |
+
+  |     10    11    |
+
+  |     |     |     |
+
+   -----------------
+
+
+
+</span><span style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial;">
+
+
+
+Lucas foi atirado dentro de um labirinto como esse. Esse labirinto possui paredes que foram construídas com diferentes materiais, o que faz com que algumas paredes sejam mais resistentes (difíceis de quebrar)
+
+do que outras. Algumas paredes possivelmente já não existem nesse labirinto, o que significa que Lucas precisaria de 0 newtons para 
+
+quebrá-las. 
+
+
+
+Acontece que Lucas, além de ser um pouco preguiçoso, também não é tão forte assim. Neste exercício, seu trabalho é determinar qual é a menor força, em newtons, que Lucas precisará usar para conseguir sair do labirinto (atingir alguma das células da borda).</span></pre>
+Formato da entrada: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">O arquivo de entrada é composto de vários casos, cada caso correspondente a um labirinto.
+
+
+
+Cada caso possui a seguinte forma:
+
+
+
+N X
+
+F1
+
+F2
+
+...
+
+Fq
+
+// Linha em branco
+
+
+
+onde
+
+
+
+N = Tamanho do labirinto
+
+X = Posição inicial de Lucas no labirinto
+
+F(i=0...q=2*(N² - N)-1) = força necessária para derrubar a i-ésima parede.
+
+
+
+LIMITES:
+
+3 &lt;= N &lt;= 100
+
+0 &lt;= X &lt; N²
+
+A soma de todas as forças é menor que 2*10^9</pre>
+Formato da saída: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Para cada caso no arquivo de entrada o programa deve imprimir 
+
+
+
+caso x: R
+
+
+
+Onde x é o número do caso, e R é a quantidade mínima de força que Lucas 
+
+deve usar para sair do labirinto (atingir uma das células da borda).</pre>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

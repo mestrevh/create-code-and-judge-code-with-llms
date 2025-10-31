@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4681 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4681</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Dominó IV
+Topicos do problema: array; substrings; string; 
+Tempo limite de execução: 5 segundo(s)
+Descrição: <p>Este problema envolve a decodificação de uma mensagem relacionada ao jogo de dominó entre dois amigos, João Pedro e Vinícius, conhecidos no IF como os maiores &#34;ladrões&#34; de dominó. A tarefa é verificar se Vinícius (você) pode ajudar João Pedro na próxima jogada com base nas peças que ele possui e nas necessidades apresentadas por João Pedro.<br/></p><p><b>Ações de João Pedro:</b></p><ul><li><span>Fecha as duas pontas no valor 'x' -&gt; (código: `manbr` seguido de números). </span></li></ul><pre><span>Se d</span><span>e um lado do jogo possui o número 'x' e do outro lado o número 'y' ('y' pode ser igual a 'x'), essa jogada deixa os dois lados iguais para um dos números (a,a ou b,b)</span></pre><ul><li><span>Lev</span><span>anta o número 'x' -&gt; (código: `rpf`). </span></li></ul><pre><span>Lev</span><span>antar se refere a colocar um número específico na mesa (em qualquer lado)</span></pre><ul><li><span>Come o núme</span><span>ro 'x' para valor diferente -&gt; (código: `rrs`).</span></li></ul><pre><span>Comer se refere a tirar o número 'x' da mesa e colocar qualquer outro número no lugar</span></pre><ul><li><span> Deixa a exata combinação que está -&gt; (código: `dsfs`). PS: Observe que esta ação não necessita de um número para ser realizada </span></li></ul><pre><span>Manter os números que já estão abertos no jogo</span></pre><p><span><br/></span></p><p><span>OBS: As jogadas ignoram os efeitos para o próximo jogador (joão pedro já calculou tudo)<br/></span></p>
+Formato da entrada: <ol><li>Um número inteiro `n` que representa a quantidade de peças de dominó de Vinícius.<br/></li><li>Uma lista de `n` inteiros representando os valores das peças de dominó que Vinícius possui, organizados em ordem crescente.<br/></li><li>Dois números inteiros, representando os valores das pontas abertas do dominó para a próxima jogada, também dados em ordem crescente.<br/></li><li><span>Uma string contendo uma sequência de letras seguida de seis dígitos numéricos. </span>O formato da string é sempre algo como &#34;manbr201201&#34;, onde:</li></ol><ul><li><span> As letras representam o código de uma ação desejada. </span></li><li><span>Os seis dígitos numéricos são usados para calcular o valor necessário para a ação de João Pedro.</span></li></ul><p><br/></p><ul><li>O número 'x' é dado por uma divisão entre dois números: </li></ul><pre>`num1` é o número formado pelos três primeiros dígitos da sequência numérica.</pre><pre>`num2` é o número formado pelos três últimos dígitos da sequência numérica.    -</pre><pre>O valor de `x` é o resultado da divisão de `num1` por `num2` (ou seja, <b>`x = num1 / num2`</b>).<br/></pre>
+Formato da saída: <p>Se a jogada for possível, imprima a mensagem: `</p><pre>&#34;ai maezinha\n&#34;</pre><p>Caso contrário, imprima: `</p><pre>&#34;cade o douze\n&#34;<br/></pre>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

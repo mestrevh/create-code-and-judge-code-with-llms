@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 281 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 281</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Permutador de Trem
+Topicos do problema: array; acumulador; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span><span>Em uma antiga esta&ccedil;&atilde;o ferrovi&aacute;ria, voc&ecirc; ainda pode encontrar um dos &uacute;ltimos remanescentes ``Permutador de Trem '' . </span><span>Um manobrista de trem &eacute; um empregado da estrada de ferro, cujo &uacute;nico trabalho &eacute; reorganizar as carruagens dos comboios.<br /><br /></span><span>Uma
+
+ vez que as carruagens s&atilde;o dispostas na ordem ideal, todo maquinista 
+
+do comboio tem que retirar as carruagens, uma a uma, at&eacute; as 
+
+esta&ccedil;&otilde;es que a carga se destina.<br /><br /></span><span>O t&iacute;tulo ``permutador de trem '' deriva da primeira pessoa que realizou essa tarefa, em um posto perto de uma ponte ferrovi&aacute;ria. </span><span>Em vez de abertura vertical, a ponte fica girando em torno de um pilar no centro do rio. </span><span>Depois de girar a ponte de 90 graus, os barcos poderiam passar para a esquerda ou direita.<br /><br /></span><span>O primeiro permutador de trem descobriu que a ponte poderia ser operada com, no m&aacute;ximo, duas carruagens nela. </span><span>Ao
+
+ girar a ponte de 180 graus, as carruagens trocavam de posi&ccedil;&atilde;o , 
+
+permitindo-lhe reorganizar os carros (como um efeito colateral , as 
+
+carruagens , ficam na dire&ccedil;&atilde;o oposta, mas vag&otilde;es podem 
+
+mover-se para qualquer dire&ccedil;&atilde;o, ent&atilde;o isso realmente n&atilde;o importa).<br /><br /></span><span>Agora que quase todos os permutadores de trem morreram, a empresa ferrovi&aacute;ria gostaria de automatizar sua opera&ccedil;&atilde;o. </span><span>Parte
+
+ do programa a ser desenvolvido, &eacute; uma rotina que decide por um 
+
+determinado trem o menor n&uacute;mero de trocas de duas carruagens adjacentes 
+
+necess&aacute;rias para ordenar o trem. </span><span>Sua tarefa &eacute; criar essa rotina.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span class="_5yl5"><span class="null">Lembre-se,
+
+ a rotina usa uma l&oacute;gica computacional, por isso, seguir&aacute; uma l&oacute;gica de 
+
+algoritmos de ordena&ccedil;&atilde;o com fun&ccedil;&atilde;o de troca dois a dois, causando um 
+
+n&uacute;mero maior de trocas do que aconteceria numa l&oacute;gica normal.</span></span></strong></p>
+Formato da entrada: <p><span><span class="hps">A entrada&nbsp;</span><span class="hps">consiste em duas linhas</span> <span class="hps">de entrada.</span> </span></p>
+
+<p><span><span class="hps">A primeira</span> <span class="hps">linha de um caso</span> <span class="hps">de teste cont&eacute;m</span> <span class="hps">um L</span> <span class="hps">inteiro</span><span>,</span> <span class="hps">a determina&ccedil;&atilde;o do comprimento</span> <span class="hps">do comboio</span> 0 &lt; L &lt;= 50.</span></p>
+
+<p><span> <span class="hps">A segunda linha de</span> <span class="hps">um</span> <span class="hps">caso de teste cont&eacute;m</span> as <span class="hps">permuta&ccedil;&otilde;es</span> <span class="hps">dos</span> <span class="hps">n&uacute;meros de 1 a</span> <span class="hps">L,</span> <span class="hps">que indica a ordem</span> <span class="hps">atual dos vag&otilde;es</span><span class="hps"></span><span>.</span> <span class="hps">Os vag&otilde;es</span> <span class="hps">devem ser ordenados</span> <span class="hps">de tal forma que</span> o vag&atilde;o 1 <span class="hps">vem em primeiro lugar</span><span>, depois 2</span><span>, etc, com o vag&atilde;o</span> <span class="hps">L</span> por ultimo<span class="hps">.</span></span></p>
+Formato da saída: <p><span><span class="hps">Para cada caso de</span> <span class="hps">teste de sa&iacute;da</span> <span class="hps">a frase:</span> "<span class="hps">A melhor</span><span class="hps"></span> <span class="hps">troca leva S passos</span><span class="hps"></span><span class="hps"></span><span class="hps"></span><span>" (sem as aspas),</span> <span class="hps">em que S</span> <span class="hps">&eacute; um n&uacute;mero inteiro</span><span>, seguido de uma quebra de linha.<br /></span></span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

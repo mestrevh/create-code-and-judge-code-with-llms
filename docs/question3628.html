@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3628 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3628</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Academia
+Topicos do problema: decisão; repetição; string; estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><title></title><p><span id="docs-internal-guid-80d9153c-7fff-1c89-379c-9e0c66458264"><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">O sistema de acesso à academia Corpo Tangente Derivada está obsoleto e tem sido motivo de insatisfação. Acredite se quiser, os clientes dependem de uma antiga caderneta, a qual contém o </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">nome</span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">, a </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">senha </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">e a </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">situação da mensalidade</span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">. Duda, a dona <i>fitness</i> da academia, decidiu aderir à evolução tecnológica, ela deseja que você crie, urgentemente, uma catraca digital, que seja capaz de receber os dados citados acima para cada cliente</span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"> </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">e, logo após, ao receber uma senha, liberar o acesso ou não.</span></span><br/></p>
+Formato da entrada: <title></title><title></title><p><font color="#000000"><font face="Tw Cen MT, serif"><font size="3"></font></font></font></p><b id="docs-internal-guid-465a28da-7fff-a62a-6303-0cea2ccf71df"></b><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;">Para cada cliente a ser cadastrado, o programa receberá uma estrutura com os campos:</span></p><ul><li><span style="color: #000000;background-color: transparent;">Nome: <i>string</i> com no máximo 50 caracteres.</span></li><li><span style="color: #000000;background-color: transparent;">Senha de acesso: inteiro.</span></li><li><span style="color: #000000;background-color: transparent;">Situação da mensalidade: caractere correspondente a 'P' quando estiver paga, ou 'F', quando estiver devendo.</span></li></ul><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;">O programa deverá receber essas entradas até que o nome dado seja “SAIR” ou o limite de 100 clientes seja atingido.</span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;">Após encerrado o cadastro, serão recebidas inúmeras senhas, até que o valor lido seja -1.</span></p>
+Formato da saída: <title></title><b id="docs-internal-guid-3f7381ea-7fff-855e-9665-4c0db08a4ad9"></b><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;">Automaticamente, ao receber uma senha de acesso, o programa deverá:</span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"></span></p><b id="docs-internal-guid-2179f59a-7fff-dae5-d1de-f815339ec4f3"></b><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;">Caso haja uma senha cadastrada correspondente e a situação da mensalidade seja “P”, imprimir o nome do cliente, acompanhado de uma mensagem de boas-vindas. Ex.: “</span><span style="color: #000000;background-color: transparent;"><b>Maria Foco Total, seja bem-vindo(a)!</b></span><span style="color: #000000;background-color: transparent;">”</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;">Caso haja uma senha cadastrada correspondente, mas a situação da mensalidade seja diferente de “P”, imprimir o nome do cliente, acompanhado de uma mensagem o direcionando à recepção. Ex.: </span><span style="color: #000000;background-color: transparent;">“<b>Não está esquecendo de algo, Joãozinho Fitness? Procure a recepção!</b>”</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="background-color: #ffffff;"><span style="background-color: transparent;">Caso não haja uma senha cadastrada, imprimir uma mensagem de boas-vidas que o direcione à recepção. Ex.: </span><span style="background-color: transparent;">“<b>Seja bem-vindo(a)! Procure a recepção!</b>”</span><br/></p></li></ol><span style="color: #000000;background-color: transparent;"></span>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

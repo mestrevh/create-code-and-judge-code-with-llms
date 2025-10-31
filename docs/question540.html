@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 540 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 540</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Onde está o pivô?
+Topicos do problema: ordenação; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>O Algoritmo Quicksort ordena um array em ordem crescente e de maneira recursiva. Ele adota a estrat&eacute;gia de divis&atilde;o e conquista, para cada divis&atilde;o o piv&ocirc; pode ser escolhido de v&aacute;rias formas.<br />Bob tem uma dif&iacute;cil tarefa, ele precisa mostrar ao seu orientador que sabe implementar o algoritmo de forma correta.<br />Para ajudar Bob, voc&ecirc; deve calcular o piv&ocirc; da seguinte forma a cada fase do algoritmo:<br />-&gt; Calcular o ch&atilde;o da m&eacute;dia aritm&eacute;tica dos elementos do array<br />-&gt; Pegar o elemento cujo valor est&aacute; mais pr&oacute;ximo dessa m&eacute;dia<br />-&gt; Em caso de v&aacute;rios elementos, pegar o menor deles<br />-&gt; Esse elemento ser&aacute; o piv&ocirc; dessa fase do algoritmo.<br /><br />Ap&oacute;s isso, voc&ecirc; deve imprimir que valor esse piv&ocirc; tem e qual &eacute; a posi&ccedil;&atilde;o dele quando o array estiver ordenado.<br /><br />Por exemplo, para o vetor &lt; 4 6 2 1 3 &gt;, temos (o valor entre barras &eacute; um piv&ocirc;, e s&oacute; h&aacute; um novo piv&ocirc; por "fase"),<br /><br />Na 1a "fase": (4 6 2 1 3)<br />O ch&atilde;o da m&eacute;dia aritm&eacute;tica dos elementos &eacute; chao((4+6+2+1+3)/5) = 3, o elemento que est&aacute; mais pr&oacute;ximo dessa m&eacute;dia &eacute; o pr&oacute;prio 3, logo ele &eacute; o piv&ocirc;.<br /><br />Ap&oacute;s a 1a "fase":<br />2 1 |3| 4 6<br /><br />Na 2a "fase": (2 1)<br />Temos que o ch&atilde;o da m&eacute;dia &eacute; chao((1+2)/2) = 1, o elemento que est&aacute; mais pr&oacute;ximo &eacute; o pr&oacute;prio 1.<br /><br />Ap&oacute;s a 2a "fase":<br />|1| 2 3 4 6<br /><br />Na 3a "fase": (2)<br />Temos apenas o elemento 2, ent&atilde;o ele mesmo &eacute; o piv&ocirc;.<br /><br />Ap&oacute;s a 3a "fase":<br />1 |2| 3 4 6<br /><br />Na 4a "fase": (4 6)<br />Temos que o ch&atilde;o da m&eacute;dia &eacute; chao((4+6)/2) = 5, tanto o 4 quanto o 6 possuem a mesma dist&acirc;ncia para o 5, logo pegamos o menor e o piv&ocirc; &eacute; o 4.<br /><br />Ap&oacute;s a 4a passagem:<br />1 2 3 |4| 6<br /><br />Na 5a "fase": (6)<br />Temos apenas o elemento 6, ele mesmo &eacute; o piv&ocirc;.<br /><br />Ap&oacute;s a 5a "fase":<br />1 2 3 4 |6|<br /><br />Sa&iacute;da: (3,3)(1,1)(2,2)(4,4)(6,5)<br /><br />Obs: Em caso de haver elementos iguais ao piv&ocirc;, esses devem ficar na parti&ccedil;&atilde;o da esquerda.<br /><br />Para gerar os vetores a serem ordenados, vamos usar um gerador de <br />n&uacute;meros pseudo-aleat&oacute;rios. Dado um valor inicial X[0], chamado semente, <br />cada valor subsequente X[1], X[2], X[3], ... &eacute; gerado a partir do valor <br />anterior de acordo com a regra<br /><br />X[j] = (a*X[j-1] + c) % m<br /><br />onde a, c e m s&atilde;o constantes dadas.</p>
+Formato da entrada: <p>A entrada &eacute; constitu&iacute;da por v&aacute;rios casos, sendo um por linha.<br />Cada caso &eacute; especificado por cinco valores inteiros.<br /><br />n x0 a c m<br /><br />onde <br />n representa o n&uacute;mero de elementos do array<br />x0, a, c, m, s&atilde;o as constantes usadas para gerar os n valores <br />conforme explicado acima.<br /><br />Limites:<br />1 &lt;= n &lt;= 2048<br />-2^31 &lt;= x0, a, c, m &lt; 2^31<br />-2^31 &lt;= a * X[j-1] + c &lt; 2^31, para todo 1 &lt;= j &lt; n<br />-2^31 &lt;= X[0] + X[1] + ... + X[n-1] &lt; 2^31</p>
+Formato da saída: <p>Para cada caso, o programa deve imprimir a medida que s&atilde;o escolhidos, os piv&ocirc;s e a posi&ccedil;&atilde;o deles quando o array est&aacute; ordenado.</p>
+
+<p>&nbsp;</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

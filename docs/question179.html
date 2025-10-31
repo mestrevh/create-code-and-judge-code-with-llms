@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 179 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 179</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Batalha Naval
+Topicos do problema: simulação de jogos; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>&nbsp;</p>
+
+<p>Pedro e Paulo gostam muito de jogar batalha naval; apesar de serem grandes amigos, Pedro desconfia que Paulo n&atilde;o esteja jogando honestamente. Para tirar essa d&uacute;vida, Pedro decidiu usar um programa de computador para verificar o resultado do jogo, mas Pedro n&atilde;o sabe programar e por isso pediu a sua ajuda.</p>
+
+<p>O jogo de batalha naval &eacute; jogado em um tabuleiro retangular com N linhas e M colunas. Cada posi&ccedil;&atilde;o deste tabuleiro &eacute; um quadrado que pode conter &aacute;gua ou uma parte de um navio. Dizemos que dois quadrados s&atilde;o vizinhos se estes possuem um lado em comum. Se duas partes de navio est&atilde;o em posi&ccedil;&otilde;es vizinhas, ent&atilde;o essas duas partes pertencem ao mesmo navio.</p>
+
+<p>A regra do jogo pro&iacute;be que os quadrados de duas partes de navios distintos tenham um canto em comum (em outras palavras, que quadrados de duas partes de navios distintos compartilhem um v&eacute;rtice). Cada disparo que um jogador faz deve ser feito em um dos quadrados do tabuleiro do outro jogador. Um jogador informa ao outro a coluna e a linha do quadrado alvo do disparo. Para que um navio seja destru&iacute;do, o jogador deve acertar todas as partes deste navio. O jogador n&atilde;o pode atirar no mesmo lugar mais de uma vez.&nbsp;</p>
+
+<p>Escreva um programa que, dadas a configura&ccedil;&atilde;o do tabuleiro e uma sequ&ecirc;ncia de disparos feitos por um jogador, determina o n&uacute;mero de navios do outro jogador que foram destru&iacute;dos.&nbsp;</p>
+
+<p>&nbsp;</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m n&uacute;meros dois inteiros N e M (1 &lt;= N &lt;= 100 e M &lt;= 100) representando respectivamente o n&uacute;mero de linhas e de colunas do tabuleiro. As N seguintes linhas correspondem ao tabuleiro do jogo. Cada uma dessas linhas cont&eacute;m M caracteres. Cada caractere indica o conte&uacute;do da posi&ccedil;&atilde;o correspondente no tabuleiro. Se esse caractere for '.', essa posi&ccedil;&atilde;o cont&eacute;m &aacute;gua; se for '#', essa posi&ccedil;&atilde;o cont&eacute;m uma parte de um navio. A pr&oacute;xima linha cont&eacute;m um n&uacute;mero K que &eacute; o n&uacute;mero de disparos feitos pelo jogador (1 &lt;= K &lt;= N &times; M). As pr&oacute;ximas K linhas indicam os disparos feitos pelo jogador. Cada linha cont&eacute;m dois inteiros L e C, indicando a linha e a coluna do disparo feito pelo outro jogador (1 &lt;= L &lt;= N e 1 &lt;= C &lt;= M).</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha contendo um &uacute;nico n&uacute;mero inteiro, o n&uacute;mero de navios destru&iacute;dos.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

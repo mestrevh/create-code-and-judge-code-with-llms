@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 300 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 300</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Festival de Baloes
+Topicos do problema: simulação de jogos; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O Festival Internacional de Balonismo de Albuquerque é um grande evento para o estado do Novo México.<br/>Turistas de diversos cantos do mundo vão para competir, se exibir, ou apenas apreciar tal evento.<br/>Nesse festival, há também os balões de passeio, onde os turistas podem fazer uma curta viagem e admirar a paisagem local.</p>&#13;<p style="text-align: center;"><img src="https://thehuxley.com/api/v1/problems/image/15b512ce02bc79e42fa07b63fae07a1d.jpg" border="0" width="372" height="329"/></p>&#13;<p><br/>Porém, esse ano, os balonistas que acompanham os turistas entraram em greve. E para não ter prejuizo, o dono de alguns balões, que é seu amigo, lembrou que você sabe programar.</p>&#13;<p>E pediu para você criar um programa que automatizasse os balões, para que ele voasse sem a necessidade de um balonista profissional ao lado, com os proprios turistas o controlando.<br/><br/>Ele quer que o balão tenha os seguintes comandos:<br/><br/>Subir.<br/>Frente.<br/>Dar a volta.</p>&#13;<p>Descer.</p>&#13;<p><br/>Para todos os comandos, o balão se movimenta 10 metros:</p>&#13;<p>Subir: 10 metros para cima.</p>&#13;<p>Frente: 10 metros no sentido atual.</p>&#13;<p>Descer: 10 metros para baixo.</p>&#13;<p>Dar a volta: 10 metros no sentido atual e depois inverte o sentido.<br/><br/>Porém, ele te advertiu das condições de segurança:<br/><br/>O balão não pode ultrapassar 200 metros de altura.<br/>Não pode se afastar mais de 2 km do local inicial.<br/><br/>Então, você escreveu o seguinte programa:<br/><br/>Subir: S<br/>Frente: F<br/>Dar a volta: V<br/>Descer: D<br/><br/>Dado N comandos, descubra a que altura (distância do chão)  e a que distância (distância HORIZONTAL à inicial) o balão se encontra do ponto de partida.</p>
+Formato da entrada: <p>Um inteiro N, representando a quantidade de comandos operados no bal&atilde;o.<br />N linhas de caracteres, que podem ser: S (subir), F (frente), V (dar a volta), D (descer).</p>
+Formato da saída: <p>Altura (dist&acirc;ncia do ch&atilde;o) e dist&acirc;ncia (dist&acirc;ncia HORIZONTAL &agrave; inicial) que o bal&atilde;o se encontra do ponto de partida.<br />Seguido de uma quebra de linha.</p>
+
+<p>&nbsp;</p>
+
+<p>Obs: Se o bal&atilde;o estiver no ch&atilde;o, e tentar descer, ele nem se mexe.</p>
+
+<p>Obs2: Se o bal&atilde;o chegar nas distancias de seguran&ccedil;a, ele n&atilde;o consegue burlar, ou seja, chegar na distancia m&aacute;xima e ir pra frente, ele n&atilde;o ir&aacute; se mover, o mesmo serve para a altura.</p>
+
+<p>Obs3: Se o bal&atilde;o estiver no ch&atilde;o, ele n&atilde;o pode ir pra frente e nem dar a volta.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

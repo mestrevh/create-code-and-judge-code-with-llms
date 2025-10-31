@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3366 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3366</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: CRUD CREDO
+Topicos do problema: array bidimensional; string; ordenação; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Gabriel, vulgo Japa, um programador muito experiente, estava estudando sobre o protocolo HTTP, então teve uma ideia de simular um serviço HTTP em C para que ele pudesse ver na pratica um pouco de como funcionaria o sistema. Porém ele está muito ocupado com seu trabalho, então passou essa tarefa para você. Seu objetivo nessa questão é fazer um código que dados alguns comandos na entrada, faça as alterações em um &#34;banco de dados&#34; local e no final mostre os elementos desse banco. Um ponto é, seu banco é limitado, por questões de recursos financeiros, então o limite máximo dele é 100 elementos.</p>
+Formato da entrada: <h4>Cinco possíveis comandos<span>:</span></h4><p><font face="inherit"><b>POST</b>: Após esse comando, será enviado um inteiro representando o id e uma string representando o dado na </font>próxima<font face="inherit"> linha.</font></p><p><font face="inherit"><b>PUT</b>: Após esse comando, será enviado um inteiro representando o id e uma string representando o dado para mudar na </font>próxima<font face="inherit"> linha.</font></p><p><b>DELETE</b><font face="inherit">: Após esse comando, será enviado um inteiro representando o id na </font>próxima<font face="inherit"> linha.</font></p><p><b>GET</b><font face="inherit">: Após esse comando, será enviado um inteiro representando o id na </font>próxima<font face="inherit"> linha.</font></p><p><span><b>CLOSE</b>: Encerra a leitura de comandos.</span></p><p><span><b>obs: O ID pode variar entre 0 e 10000;</b></span></p><p><span><b>obs2: O tamanho das strings de dados são no máximo 15 caracteres.</b></span></p>
+Formato da saída: <p></p>Para cada comando:<div><b>POST</b>: Você deve salvar o dado no seu banco de dados e printar &#34;Adicionado: id dado&#34;. Caso o banco já esteja cheio, você deve printar &#34;Banco cheio!&#34; no lugar.</div><div><b>PUT</b>: Você deve procurar o dado com o id recebido, e alterar a string anterior pela nova string e printar &#34;Atualizado: id dado&#34; (lembrando que a string deve ser o novo valor). Caso o id não exista no banco, você deve printar &#34;ID não encontrado!&#34; no lugar.</div><div><b>DELETE</b>: Você deve procurar o dado com o id recebido, printar &#34;Excluido: id dado&#34; e depois excluir o dado do banco de dados. Caso o id não exista no banco, você deve printar &#34;ID não encontrado!&#34; no lugar. </div><div><b>GET</b>: Você deve procurar o dado com o id recebido e printar  &#34;Enviado: id dado&#34;. Caso o id não exista no banco, você deve printar &#34;ID não encontrado!&#34; no lugar.</div><div><b>CLOSE</b>: Você deve parar de ler novos dados, printar em uma linha &#34;Dados no banco:&#34; e printar embaixo todos os dados que estão salvos no seu banco de dados, ordenados pelo ID.<p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></span></span></span></p></div>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

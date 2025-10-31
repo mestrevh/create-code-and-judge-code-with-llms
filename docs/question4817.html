@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4817 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4817</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Código de acesso
+Topicos do problema: array; caractere; função; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p></p><p>O setor de segurança do CIn desenvolveu um sistema de geração de <strong>códigos de acesso</strong>. Para validar cada usuário, o sistema usa uma sequência de dígitos e uma palavra-base, aplicando regras específicas para criar o código final.</p><p><b>Requisitos de implementação:<br/></b></p><title></title><p class="p1">O seu programa deve ser <b>modularizado</b>, dividindo a lógica em diferentes <span>funções: </span></p><p class="p1"><ol><li><span> Uma função para calcular o valor C. </span></li><li><span> Uma função para calcu</span>lar o valor R. </li><li> Uma função para gerar a palavra-base. </li><li> A função main deve orquestrar a chamada para as outras funções e imprimir o resultado final.</li></ol></p><p class="p1">Não é permitido o uso explícito de ponteiros (ou seja, declarar variáveis do tipo <span>* ou usar o operador &amp; para passar o endereço de variáveis simples para as </span><span>funções).</span></p><p><b>O seu programa deve:</b></p><ol><li><p>Ler um número inteiro <code>N</code> (tamanho da sequência), seguido de <code>N</code> dígitos (0–9), que devem ser armazenados em um <strong>array</strong>.</p></li><li><span>Calcular o valor </span><code>C</code><span> como:</span></li><pre class="overflow-visible!"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!"><span><span><span class="hljs-attr">C</span></span><span> = ( (soma dos dígitos em índices pares) * </span><span><span class="hljs-number">3</span></span><span> + (soma dos dígitos em índices ímpares) ) % </span><span><span class="hljs-number">10</span></span></span></code></div></div></pre><li><p><span>Calcular o valor </span><code>R</code><span>, que é o tamanho do maior bloco <b>contíguo</b>, de dígitos iguais na sequência. </span></p></li><li><p>Ler uma palavra e transformar a palavra recebida em uma palavra-base (string sem espaços, até 100 caracteres):</p><ul><li><p>Remover todas as vogais (<code>a, e, i, o, u</code>, maiúsculas ou minúsculas);</p></li><li><p>Transformar as letras restantes em maiúsculas;</p></li><li><p>Caso não restar nada, em vez de deixar vazio, usar <code>&#34;VOID&#34;</code> como a palavra-base.</p></li></ul></li><li><p>Imprimir na saída:</p><ul><li><p>Na primeira linha: <code>C R</code> (separados por espaço).</p></li><li><p>Na segunda linha: <code>&#34;codigo: &lt;BASE&gt;&lt;C&gt;&lt;R&gt;&#34;</code>.<br/></p></li></ul></li></ol><span>OBS: exemplo com array 1223334:</span><div><ul><li><span>o bloco 333 <b>é contíguo</b> porque os três 3 estão juntos na sequência; se fosse 313, <b>não é contíguo</b>, mesmo que apareçam vários 3.</span></li></ul><ol><p></p></ol></div>
+Formato da entrada: <p><li><ul><li><p>Um inteiro <code>N</code> (1 ≤ N ≤ 100).</p></li><li><p>Uma linha com <code>N</code> dígitos (entre 0 e 9).</p></li><li><p>Uma palavra (sem espaços, até 100 caracteres).</p></li></ul></li></p>
+Formato da saída: <p></p><p>O programa deve imprimir:</p><ul><li><p>Uma linha com <code>C R</code>.</p></li><li><p>Uma linha com <code>&#34;codigo: &lt;BASE&gt;&lt;C&gt;&lt;R&gt;&#34;</code>.</p></li></ul><p> <br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

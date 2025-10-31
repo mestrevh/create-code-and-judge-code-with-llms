@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 519 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 519</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Diversão dinâmica
+Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 6 segundo(s)
+Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Um pai gostaria de levar seu filho ao parque de diversões e ocupá-lo o  maior tempo possível. Infelizmente, o pobre pai só dispõe de um cartão com um saldo limitado de K créditos, e que só permite utilizar cada brinquedo no máximo uma vez. 
+
+Ajude-o a escolher os brinquedos para o seu filho.</pre>
+Formato da entrada: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">A primeira linha contem um número M correspondendo ao número de casos (1&lt;=M&lt;=500) seguida por uma linha em branco.
+
+
+
+Em seguida, temos os diversos casos, cada um representado por 3 linhas na forma:
+
+
+
+N K
+
+c[1] c[2] ... c[N]
+
+t[1] t[2] ... t[N]
+
+
+
+onde
+
+ 
+
+N (5&lt;=N&lt;=100) representa o número de brinquedos no parque, numerados de 1 a N
+
+K (0&lt;=K&lt;=100000) representa o saldo inicial (em créditos) do cartão 
+
+c[i] (5&lt;=c[i]&lt;=1000) representa o custo (em créditos) do brinquedo i 
+
+t[i] (60&lt;=t[i]&lt;=360) representa o tempo (em segundos) do brinquedo i
+
+
+
+Após cada caso, há uma linha em branco.</pre>
+Formato da saída: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Para cada caso j no arquivo de entrada, o programa deve imprimir 3 linhas na forma:
+
+
+
+brinquedos caso j: b[1] b[2] ... b[m] 
+
+custo total caso j: C
+
+tempo total caso j: T
+
+
+
+onde 
+
+1 &lt;= b[1] &lt; b[2] &lt; ... &lt; b[m] &lt;= N representam os números dos brinquedos escolhidos, separados por espaço, de forma que (i) o custo total não exceda os créditos do cartão e (ii) o tempo de brincadeira seja máximo.
+
+C = c[b[1]] +...+ c[b[m]] representa o total de créditos gastos.
+
+T = t[b[1]] +...+ t[b[m]] representa o tempo total de brincadeira.
+
+
+
+Entretanto, caso não seja possível escolher nenhum brinquedo, deve ser impressa apenas uma linha com o conteúdo 
+
+
+
+caso j: saldo insuficiente
+
+
+
+Após cada caso, deve ser impressa uma linha em branco.
+
+
+
+<strong>IMPORTANTE:</strong> 
+
+Em caso de empate, deve-se dar preferência à sequência de brinquedos que contiver brinquedos de números mais altos (pois são mais emocionantes).  Por exemplo, uma sequência 1,3,8,9 deve ter preferência sobre uma sequência 1,4,5,6,7,9 (pois 9=9 e 8&gt;7), não importando se esta última tem mais brinquedos. Ou seja, o desempate dá-se sempre analisando as sequências da direita para a esquerda de maneira "gulosa" na emoção.</pre>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

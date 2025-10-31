@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3724 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3724</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Escala Franjinha de pH
+Topicos do problema: repetição; função; string; ponteiro; estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><b id="docs-internal-guid-eaf65b32-7fff-f7a2-29f8-bfd80dc5f34d"></b></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Franjinha é um cientista nato, mas isso não quer dizer que tudo são flores. O pequeno inventor iniciou uma nova série de experimentos com soluções básicas, mas, isso não era suficiente para prender sua atenção, de modo que ele resolveu criar uma nova escala de pH para usar em suas experiências. Ele não é genial?</span></p><p style="text-align: center;"><img src="https://mariadario.files.wordpress.com/2013/05/franjinha-1.gif?w=252" alt="MariaLDario&amp;#39;s Blog"/><br/></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">E é aí que você pode ajudá-lo, não é?</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Construa um programa que recebe a concentração de cada base adicionada, calcule a concentração de hidroxilas (OH) em solução e devolva o pH na escala Franjinha a cada adição de uma nova base.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Lembre-se que, quando estamos trabalhando com bases, a concentração de hidroxilas é o produto de seu índice pela concentração da base em questão.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Sabendo que a fórmula para se calcular o pH na escala Franjinha é a seguinte:</span></p><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><b><span class="Apple-tab-span"></span></b></span><span style="color: #000000;background-color: transparent;"><b>pH = 9 - pOH, e o pOH = -log[OH-]</b></span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Ou seja, o pH é igual a 9 mais o log na base 10 da concentração de hidroxilas na solução,</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Construa uma função de assinatura <b><i>void Calcula (double *concentracaoBase, double *concentracaoTotal, double *pOH, int indiceHidroxilas)</i></b> para poder calcular a concentração de Hidroxilas e pOH da solução, manipulando os valores das variáveis, e não apenas sua cópia na função.</span></p> <br/>
+Formato da entrada: <b id="docs-internal-guid-555a0ba6-7fff-e327-1ee6-739582aad082"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Você receberá um número decimal que indica a concentração molar da base na primeira linha e na segunda linha uma sequência de Elemento, Índice, Hidroxila, Índice, para cada base adicionada, simulando, por exemplo, a fórmula Be(OH)2, no modelo:</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">0.1</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Be 1 OH 2.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Seu programa deve parar de receber quando a concentração dada for igual a 0.</span></p>
+Formato da saída: <p><span id="docs-internal-guid-a6cfb194-7fff-112b-79ff-54bf63f4c530"><span style="color: rgb(0, 0, 0);background-color: transparent;">Você deve imprimir para cada base o valor do pH na escala Franjinha após sua adição, lembrando que não tiramos as bases anteriores antes de adicionar as seguintes, de modo que a concentração de hidroxilas deve ser levada em conta a cada adição.</span></span><br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

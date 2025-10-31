@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2600 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2600</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L4Q4 - Frost Dragon Quest
+Topicos do problema: multiplas entradas; array; simulação de jogos; decisão; lógica matemática; array bidimensional; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <h4></h4><h3></h3><h4></h4><h3></h3><h4></h4><h5></h5><span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;"><b>Com a invasão de Frost Dragons em Okolnir, vem também o congelamento da ilha. Contudo, com o perigo aumentado, seu espírito aventureiro floresce. Tendo isso em mente, agora que essas criaturas dominaram Okolnir, seu Royal Paladin terá novas aventuras pela frente, começando pela Frost Dragon Quest. Esta missão se trata de invadir uma dungeon repleta de criaturas e reivindicar o tesouro nela escondido. Sua missão é criar um programa que ajude seu paladin a ler o mapa da quest a fim de que ele chegue à recompensa, enfrentando diversos Dragons pelo caminho. Note que, cada Dragon tem um força X que equivale ao quanto de vida seu paladin precisará para enfrentar o dragão. Perceba, também, que o mapa pode ser lido como uma matriz e que, por ser muito corajoso, o seu personagem nunca anda para trás.</b></span><p style="text-align: center;"><img class="irc_mi" src="https://thumbs.gfycat.com/BoldDiscreteAxisdeer-max-1mb.gif" alt="Resultado de imagem para tibia gif" style="color: rgb(0, 0, 0);" height="178" width="240"/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Vale salientar que: </p><h5><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li>O personagem pode ou não chegar ao bau.</li><li>É garantido que sempre haverá um '@' e um '$'.</li><li>A vida inicial é sempre maior que 0 e qualquer valor abaixo disso, ele morre.</li><li>O mapa será sempre 5x5.</li><li>O mapa é arrodeado de uma parede invisível.</li></ul></h5><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Símbolos do mapa:</p><h5></h5><h4></h4><h5><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li> *   - representa um espaço em que o personagem ja passou no mapa.</li><li>#    - representa uma parede.</li><li>@   - representa o jogador.</li><li>$ - representa o tesouro.</li><li>(int) - representa a força da criatura nesta posição.</li></ul><div><font color="#000000"></font><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Direções no mapa:</p><h5 style="color: rgb(147, 149, 152);"></h5><h4 style="color: rgb(147, 149, 152);"></h4><h5 style="color: rgb(147, 149, 152);"><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li> D   - o personagem deve andar uma casa à direita.</li><li>E    - <span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">o personagem deve andar uma casa à esquerda.</span></li><li><span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">C - <span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">o personagem deve andar uma casa pra cima.</span></span></li></ul></h5></div></h5>
+Formato da entrada: <blockquote><h3>X</h3></blockquote><p>* X é um inteiro contendo a vida do personagem</p><blockquote><h3>M[5x5]</h3></blockquote><p>* M[5x5] serão 5 linhas com 5 elementos em cada, separados por espaços, representando o mapa da dungeon.</p><blockquote><h3>D</h3></blockquote><p>* D é um inteiro contendo a quantidade de direções.</p><blockquote><h3>A[D]</h3></blockquote><p>* A[D] será uma linha contendo D elementos, separados por espaços, indicando a direção que o personagem deve seguir.</p>
+Formato da saída: <h4>A saída deve informar cada etapa do programa, ou seja, a cada direção deve ser informado o que aconteceu, acompanhado de uma quebra de linha. Com exceção de quando achar o tesouro.</h4><blockquote><h3>Uma magic wall aqui? druid desgraçado</h3></blockquote><p>* Caso ele tenha tentado ir a uma posição que possua uma parede.</p><blockquote><h3>Minha Royal Spear deita qualquer Dragon</h3></blockquote><p>* Quando ele consegue derrotar a criatura</p><blockquote><h3>Minhas HPs acabaram, esse Frost Dragon me deitou</h3></blockquote><p>* Quando ele nāo consegue derrotar o mob.</p><h4>Após os movimentos, deve ser informado o estado atual do mapa:</h4><blockquote><h3><span>M[5x5]</span><br/></h3></blockquote><h4>E, por fim, deve ser informado se o personagem conseguiu encontrar o tesouro ou não.</h4><p>* Caso encontre o tesouro:</p><blockquote><h3>Finalmente acabei a quest</h3></blockquote><p><span>*Caso não encontre o tesouro</span><span>:</span></p><blockquote><h3><span>Quem foi o newba que escreveu essas coordenadas<br/></span></h3></blockquote>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

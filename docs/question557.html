@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 557 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 557</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Multiplicação de Matrizes de Forma Ótima
+Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dadas duas matrizes A e B, é possível determinar a matriz C = A*B usando a definição padrão de multiplicação de matrizes:</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/65ad5d92d308a670b69bb24f6e49f27d.jpg" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/65ad5d92d308a670b69bb24f6e49f27d.jpg" border="0" width="155" height="53"/></a></p>&#13;<p>Como pode ser visto no exemplo abaixo:</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/1545d7bac99020276ad79ea301f0cdac.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/1545d7bac99020276ad79ea301f0cdac.png" border="0" width="272" height="115"/></a></p>&#13;<p><a href="http://img.thehuxley.com/data/images/app/problems/temp/1545d7bac99020276ad79ea301f0cdac.png" target="_blank"></a><a href="https://thehuxley.com/api/v1/problems/image/f0e1fa0a6163a9c359fd0559e772343a.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/f0e1fa0a6163a9c359fd0559e772343a.png" border="0" width="265" height="114"/></a></p>&#13;<p><a href="http://img.thehuxley.com/data/images/app/problems/temp/f0e1fa0a6163a9c359fd0559e772343a.png" target="_blank"></a><a href="https://thehuxley.com/api/v1/problems/image/f6591ceff4ab6e766da1bdc5e8c95fe7.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/f6591ceff4ab6e766da1bdc5e8c95fe7.png" border="0" width="307" height="85"/></a></p>&#13;<p>O número de colunas da A precisa ser o mesmo número de linhas de B. Para efeitos de notação, dizemos então que rows(A) e columns(A) representam, respectivamente, o número de linhas e colunas de A.</p>&#13;<p>O número de multiplicações individuais necessárias para computar a matriz C (que terá o mesmo número de linhas de A e o mesmo número de colunas de B) é então: rows(A) * columns(B) * columns (A). Por exemplo, se A é uma matriz 10X20 e B é 20X15, então serão necessárias 10 X 15 * 20, ou 3000 multiplicações.</p>&#13;<p>Para realizar a multiplicação em mais de duas matrizes, nós temos que escolher como proceder. Por exemplo, se X, Y e Z são matrizes, então para computar  XYZ, podemos computar:</p>&#13;<p>(XY)Z</p>&#13;<p>ou</p>&#13;<p>X(YZ)</p>&#13;<p>Suponha que X é 5X10, Y é 10X20 e Z é 20X35. Vamos observar o número de múltiplicações necessárias usando as duas formas acima:</p>&#13;<p>(XY)Z</p>&#13;<ul>&#13;<li>5 * 20 * 10 = 1000 multiplicações para determinar o produto (XY), uma matriz 5X20</li>&#13;<li>Então 5 * 35 * 20 = 3500 multiplicações para calcular o resultado final.</li>&#13;<li>Total de multiplicações: 4500</li>&#13;</ul>&#13;<p>X(YZ)</p>&#13;<ul>&#13;<li>10 * 35 * 20 = 7000 multiplicações para determinar o produto (YZ), uma matriz 10X35</li>&#13;<li>5 * 35 * 10 = 1750 multiplicações para calcular o resultado final.</li>&#13;<li>Total de multiplicações: 8750</li>&#13;</ul>&#13;<p>Claramente, é possível calcular o resultado final com muito menos multiplicações se optarmos por fazer (XY)Z.</p>&#13;<p>Dado o tamanho de cada matriz em uma sequência de matrizes que devem ser multiplicadas, sua missão é determinar a sequência ótima de multiplicações. Ou seja, a sequência que representa o menor número de multiplicações necessárias.</p>&#13;<p> </p>&#13;<p> </p>&#13;<p> </p>
+Formato da entrada: <p>Você receberá um número inteiro n correspondendo a uma sequência de matrizes.</p>&#13;<p>Cada matriz da sequência é determinada apenas pelas suas dimensões. As dimensões são pares de inteiros, um por linha. Os pares representam o número de linhas e colunas de cada matriz.</p>&#13;<p>O valor zero para n indica fim da entrada.</p>&#13;<p>0 &lt;=n &lt;= 10.</p><p>Considere também o caso onde apenas uma matriz é dada, ou seja, n=1.<br/></p>
+Formato da saída: <p>Assuma que as matrizes s&atilde;o denominadas A1, A2, ..., An.</p>
+
+<p>Sua sa&iacute;da para cada sequ&ecirc;ncia dada &eacute; uma linha contendo uma express&atilde;o "parentisada" indicando a ordem na qual as matrizes devem ser multiplicadas.</p>
+
+<p>Utilize como prefixo de cada linha o n&uacute;mero do caso de teste.</p>
+
+<p>Verifique no exemplo para maiores detalhes.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

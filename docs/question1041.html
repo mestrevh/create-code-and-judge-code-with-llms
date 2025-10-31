@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1041 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1041</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Tamanho de uma String
+Topicos do problema: função; string; ponteiro; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Obs.: Este problema tem a intenção de trabalhar com ponteiros na linguagem C, apesar de poder ser respondido de outras formas em outras linguagens.</p><p><br/></p><p>O objetivo desta atividade é escrever uma função chamada <b>tamstr</b> que tem funcionamento similar à função <b>strlen</b> de C. Dada uma string, a função deve recebê-la como ponteiro e retornar quantos caracteres ela tem. Para isso, use o algoritmo em pseudo-código abaixo:</p><p><br/></p><ol><li>Receba um ponteiro para char na função tamstr;</li><li>Faça um novo ponteiro par char, criado dentro da função, receber o ponteiro recebido como argumento da função;</li><li>Percorra com um laço todos os caracteres da string até chegar no char '\0', que é o terminador de string e array em C;</li><li>Dentro do laço, você deve incrementar a posição do ponteiro em memória;</li><li>Fora do laço, você deve subtrair o ponteiro criado dentro da função do ponteiro argumento da função, retornando esse valor, que representa a quantidade de caracteres da string;</li></ol><p>Você deve usar essa função no seu programa principal, tratando a entrada e dando a saída apropriada, como descrito abaixo.</p><p>Nesta atividade, vemos a importância do uso de ponteiros em C, já que os parâmetros são passados por valor, não tendo a necessidade de copiar toda uma estrutura em memória toda vez que se passa uma string ou array.</p><p>Dica(s):</p><p>1 - Use array de caracteres para representar uma string, com tamanho fixo: <b>char str[10];</b>, ou use ponteiro para char, alocando previamente a memória: <b>char* str = malloc(sizeof(char) * 10);</b></p>
+Formato da entrada: <p>Strings em linhas diferentes. Você deve parar quando encontrar a string FIM. Não haverá strings com espaço. A String terá, no máximo, 10 caracteres.</p>
+Formato da saída: <p>O tamanho de cada string (quantidade de caracteres), por linha.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

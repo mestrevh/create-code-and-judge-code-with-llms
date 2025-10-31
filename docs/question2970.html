@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2970 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2970</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Quantos zeros e quantos dígitos
+Topicos do problema: decisão; repetição; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <div class="description" style="color: rgb(69, 69, 69);text-align: justify;"><p>O que fazer?</p><ul><li>Dado um número inteiro decimal (<b><i>N</i></b>), positivo, descobrir <u>quantos zeros o fatorial de <b><i>N</i></b> </u>conterá em um determinado sistema de numeração e,</li><li>Encontrar <u>quantos dígitos terá este fatorial</u> no mesmo sistema de numeração.</li></ul><p>Você pode assumir que num sistema numérico baseado em <b>B,</b> há <b>B</b> diferentes símbolos para identificar valores indo de 0 até B-1. Além disso, 1&lt; B &lt;= 10 ou B= 16.</p><p><b>A sua solução deve conter no <u>mínimo 3 funções</u>.</b> </p><p>Sugestão: função para calcular fatorial, função para calcular número de zeros, função para converter da base decimal para outra. </p><p><br/></p><p><u>Dica:</u> Conversão de um número decimal para qualquer base é realizada através de divisões consecutivas. Como? Divide-se o número da base decimal pelo valor da base (B) até que não seja mais divisível, ao final, o número desejado é o <strong style="color: rgb(53, 53, 53);text-align: justify;"><b>resultado da última divisão ajuntado dos restos das demais divisões &#34;de baixo para cima&#34;</b></strong>. Veja o exemplo abaixo, onde o número 2834 da base <strong style="color: rgb(53, 53, 53);text-align: justify;"><b>decimal</b></strong> é convertido para a base <strong style="color: rgb(53, 53, 53);text-align: justify;"><b>octal.</b></strong></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/97d16747558c3d515385ae13e50b2fb3749b92c05.png"/><strong style="color: rgb(53, 53, 53);text-align: justify;"><b><br/></b></strong></p><p><br/></p><p><br/></p></div>
+Formato da entrada: <p>Há diversas linhas de entrada. </p><p>Cada linha forma um bloco. </p><p>Cada linha conterá um valor decimal  <strong style="color: rgb(69, 69, 69);text-align: justify;">N</strong> e um número inteiro <strong style="color: rgb(69, 69, 69);text-align: justify;">B</strong> (1 &lt; <strong style="color: rgb(69, 69, 69);text-align: justify;">B</strong> ≤ 800), que é a base do sistema de números que você vai considerar. <br/></p><p>O programa deve encerrar a linha de entrada for igual a FIM (ou qualquer variação tipográfica da mesma).</p>
+Formato da saída: <p><span>Para cada linha de entrada, imprima uma única linha informando:</span><br/></p><ul><li>O fatorial do número no sistema decimal</li><li><span>O fatorial do número no sistema indicado na entrada</span><br/></li><li>quantos zeros terá o fatorial desse número no sistema de numeração solicitado.</li><li>quantos dígitos terá o fatorial desse número <span style="color: rgb(147, 149, 152);text-align: left;background-color: rgb(255, 255, 255);float: none;">no sistema de numeração solicitado</span>. </li></ul><br/><span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Explicando a saída: considerando a entrada 5 16, por exemplo, 5! = 120 (em decimal) mas é 78 no sistema de numeração hexadecimal (base desejada). Portanto, no sistema hexadecimal 5! não tem zeros no final.</span><br/></span><div><span><br/></span></div><div><span>Possíveis mensagens:</span></div><div><ul><li><span> &#34;Numero negativo&#34;, quando o número da entrada não for positivo.</span><br/></li><li>&#34;Base invalida&#34;, quando o critério 1&lt; B &lt;= 16 não for obedecido.</li></ul></div><div><span><br/></span></div><div><span>Separe esses números com um único espaço. Você pode ter certeza que o número de zeros à direita ou o número de dígitos não será maior do que 2</span><sup style="color: rgb(69, 69, 69);text-align: justify;">31</sup><span>-1</span><br/></div>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

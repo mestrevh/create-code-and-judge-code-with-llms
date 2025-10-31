@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3865 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3865</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Sherlirow quer dormir
+Topicos do problema: ciclos; array bidimensional; busca; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <b id="docs-internal-guid-c4ee5a9f-7fff-792a-7b36-82944a3c2a9e"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Semanas atrás, o extremamente renomado Sherlirow recebeu um convite para participar de um evento. Neste evento ocorre um jogo de tabuleiro um tanto quanto único.</span></p><p dir="ltr"><span style="color: #000000;background-color: #ffffff;">Primeiramente, é enunciada a quantidade de coordenadas e o tamanho do tabuleiro que será usado. Logo em seguida, os jogadores, divididos em 4 times, enumerados de 1 a 4, correm até o tabuleiro. Chegando lá, o quadrado que eles ocupam passa a ser do seu time. Quando todos os quadrados são preenchidos, Sherlirow revela as coordenadas para todos e a pontuação é calculada de tal forma:</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Contando com a coordenada declarada, checa-se quantas pessoas de cada time estão alinhadas, verticalmente ou horizontalmente, com aquela posição. Cada time possui uma contagem separada de pontos. Esse procedimento se repete para cada coordenada, e a pontuação das equipes é zerada entre cada coordenada. Como Sherlirow não dá a mínima para quem ganhe, ele só diz qual foi a maior pontuação obtida mesmo, e os participantes que se virem para dizer quem ganhou.</span></p><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><span style="width: 602px;height: 317px;"><img src="https://lh5.googleusercontent.com/o2syyqe07jlQPjLePqRjoAIF_2NswAHdOoc4PNRSdX01QWRnQFE5CplvJixdyVFCXP8x6uF0F7V14wJEttpXE1jk4WyiNYDFtrE2h3IHJhUZczhO_8mUH_yG1UHVIWuljlfbOAwz=s1600" width="602" height="317"/></span></span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Honestamente, Sherlirow não precisa da sua ajuda. Com cerca de 1% da capacidade mental de Sherlirow ele já seria capaz de resolver esse problema. Porém, como quase sempre, ele está sofrendo de um caso de preguicite aguda. Por conta disso, ele decidiu convidar você (sem opção de recusar) para fazer esse trabalho de contagem.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Faça um programa que diga qual o maior valor dentre os valores associados a cada coordenada.</span></p>
+Formato da entrada: <b id="docs-internal-guid-6d5f4fb0-7fff-9f39-1ad5-c6fbdd6cbd07"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">A entrada será dada da seguinte forma:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">A primeira linha irá receber três valores, </span><span style="color: #000000;background-color: transparent;"><b>N</b></span><span style="color: #000000;background-color: transparent;">, </span><span style="color: #000000;background-color: transparent;"><b>tamX</b> </span><span style="color: #000000;background-color: transparent;">e</span><span style="color: #000000;background-color: transparent;"> <b>tamY</b></span><span style="color: #000000;background-color: transparent;">, representando respectivamente o número de coordenadas a serem analisadas e o tamanho do tabuleiro.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">As próximas N linhas irão conter as coordenadas a serem analisadas do tabuleiro (em valores de matriz) .</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Ao fim das N linhas, será recebido o tabuleiro por fim.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Os limites dos valores seguem:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= N, tamX, tamY &lt;= 10</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= elem &lt;= 4, em que elem é um possível elemento do tabuleiro</span></p></li></ul><br/>
+Formato da saída: <b id="docs-internal-guid-4aa8b46c-7fff-616a-f166-a370e85a82d0"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">A saída será uma frase do tipo:</span></p><br/><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">A pontuacao da equipe vencedora sera K pontos!</span></p></li></ul><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Em que K é maior pontuação obtida dentre as equipes. Não há quebra de linha ao fim.</span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

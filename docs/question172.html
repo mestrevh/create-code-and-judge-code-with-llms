@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 172 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 172</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Simulador
+Topicos do problema: segment tree; binary indexed tree; array bidimensional; função; 
+Tempo limite de execução: 10 segundo(s)
+Descrição: <p>Um novo processador, denominado Fa&iacute;ska, est&aacute; sendo desenvolvido para a empresa SBC. Este novo processador tem apenas duas instru&ccedil;&otilde;es: invers&atilde;o e soma, descritas a seguir.&nbsp;</p>
+
+<p>* Invers&atilde;o: dados dois endere&ccedil;os de mem&oacute;ria X e Y , a opera&ccedil;&atilde;o inverte(X,Y) inverte a posi&ccedil;&atilde;o de palavras da mem&oacute;ria de forma que:</p>
+
+<p>&ndash; a palavra no endere&ccedil;o X troca de posi&ccedil;&atilde;o com a palavra de mem&oacute;ria da posi&ccedil;&atilde;o Y ;</p>
+
+<p>&ndash; a palavra no endere&ccedil;o X + 1 troca de posi&ccedil;&atilde;o com a palavra de mem&oacute;ria da posi&ccedil;&atilde;o Y - 1;</p>
+
+<p>&ndash; a palavra no endere&ccedil;o X + 2 troca de posi&ccedil;&atilde;o com a palavra de mem&oacute;ria da posi&ccedil;&atilde;o Y - 2;</p>
+
+<p>&ndash; e assim por diante, at&eacute; que X = Y.</p>
+
+<p>* Soma: dados dois endere&ccedil;os de mem&oacute;ria X e Y , a opera&ccedil;&atilde;o soma(X,Y) imprime a soma das palavras de mem&oacute;ria entre os endere&ccedil;os X e Y (inclusive).</p>
+
+<p>Por exemplo, se a mem&oacute;ria cont&eacute;m inicialmente, a partir da primeira posi&ccedil;&atilde;o de mem&oacute;ria (endere&ccedil;o igual a 1) os valores [1,2,3,4,5,6,7,8], a opera&ccedil;&atilde;o inverte(3,7) deixa a mem&oacute;ria igual a [1,2,7,6,5,4,3,8]. Ent&atilde;o, nesse estado, a execu&ccedil;&atilde;o de soma(1,3) produz a sa&iacute;da 10.</p>
+
+<p>Sua tarefa &eacute; escever um programa que, dada uma sequ&ecirc;ncia de instru&ccedil;&otilde;es do Fa&iacute;ska, simule a execu&ccedil;&atilde;o e produza&nbsp;o mesmo resultado que o Fa&iacute;ska produziria.</p>
+
+<p>&nbsp;</p>
+Formato da entrada: <p>A entrada cont&eacute;m um &uacute;nico conjunto de testes, que deve ser lido do dispositivo de entrada padr&atilde;o (normalmente&nbsp;o teclado).&nbsp;A primeira linha da entrada cont&eacute;m dois n&uacute;meros inteiros N e M, representando respectivamente o n&uacute;mero palavras na mem&oacute;ria (1 &lt;= N &lt;= 1.000.000.000) e o n&uacute;mero de instru&ccedil;&otilde;es do programa (1 &lt;= M &lt;= 3000). Cada uma das M linhas seguintes cont&eacute;m uma instru&ccedil;&atilde;o do Fa&iacute;ska. Cada instru&ccedil;&atilde;o &eacute; composta de um caratere descrevendo a instru&ccedil;&atilde;o ('I' para invers&tilde;ao e 'S' para soma), seguido de um espa&ccedil;o, seguido de dois inteiros indicando os argumentos da instru&ccedil;&atilde;o.</p>
+
+<p>Inicialmente a configura&ccedil;&atilde;o da mem&oacute;ria &eacute; tal que cada palavra tem como conte&uacute;do o seu pr&oacute;prio endere&ccedil;o. Em outras palavras, o conte&uacute;do inicial da mem&oacute;ria &eacute; [1,2,3,. . .,N]. H&aacute; pelo menos uma instru&ccedil;&atilde;o soma em cada caso de teste.</p>
+
+<p>&nbsp;</p>
+Formato da saída: <p>Seu programa deve imprimir, na sa&iacute;da padr&atilde;o, uma sequ&ecirc;ncia de n&uacute;meros inteiros, um em cada linha, indicando a sa&iacute;da gerada pelo Fa&iacute;ska.</p>
+
+<p>Por exemplo, a entrada:</p>
+
+<p>10 2</p>
+
+<p>I 1 5</p>
+
+<p>S 3 7</p>
+
+<p>Deve produzir como sa&iacute;da:</p>
+
+<p>19</p>
+
+<p>&nbsp;</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

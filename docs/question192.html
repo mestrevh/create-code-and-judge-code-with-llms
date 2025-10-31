@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 192 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 192</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Matrizes do Tutu
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O conglomerado indiano Tutu é um conjunto de empresas que atua nos mais diversos ramos da indústria, produzindo desde sapatos até aviões e foguetes. Por ser tão diversificada, precisa de grandes e rápidos sistemas para cálculos de contabilidade.<br/>Um dos módulos mais importantes desse sistema é o de fornecimento de produtos, onde fica a base de dados de produtos e fornecedores. Um mesmo produto pode ser fornecido por vários fornecedores diferentes.<br/>O sistema possui duas grandes matrizes: a matriz A, onde cada linha representa um produto e cada coluna representa um fornecedor. O valor da matriz na linha m e coluna n representa o preço do produto m se for comprado do fornecedor n.<br/>A outra grande matriz é a B, onde cada linha representa um dia do mês e cada coluna é um produto. O valor da matriz na linha m e coluna n representa a quantidade do produto n a ser adquirido no dia m.<br/>Tal empresa tem uma política de fidelidade com seus fornecedores, e uma das práticas efetuadas pela empresa é, em um determinado dia, comprar todos os produtos necessários de um único fornecedor. Isto é, em um dia todos os produtos adquiridos serao comprados do fornecedor x, no outro dia do fornecedor y, e assim por diante.<br/>Para auxiliar a escolha de qual fornecedor será o escolhido no dia, foi gerada outra matriz C, que é o resultado da multiplicação das matrizes A X B. Essa matriz diz o quanto será gasto pela empresa se adquirir todos os produtos de um determinado fornecedor em um determinado dia. As matrizes A e B são quadradas (o número de linhas é igual ao número de colunas) e têm valores definidos pelas fórmulas<br/><br/><a href="https://thehuxley.com/api/v1/problems/image/1e42da62ef66a9af3a09d0c5c3e17c9.png" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/1e42da62ef66a9af3a09d0c5c3e17c9.png" border="0" width="181" height="59"/></a></p><p><br/>onde i é o índice da linha da matriz e j é o índice da coluna da matriz (todos os índices vão de 1 até N). Os inteiros P, Q, R, S, X e Y são parâmetros constantes, que definem as duas matrizes A e B.<br/>Escreva um programa que, dados os parâmetros das matrizes A e B, e a posição de uma das entradas as matriz C, calcula o valor daquela entrada.</p>
+Formato da entrada: <p>A primeira linha da entrada cont&eacute;m um inteiro N, indicando as dimens&otilde;es das matrizes A, B e C (2 &lt;= N &lt;= 100000 ). A linha seguinte cont&eacute;m seis inteiros P, Q, R, S, X e Y , indicando os par&acirc;metros das matrizes A e B (2 &lt;= X, Y &lt;= 10000 ; 0 &lt;= P, Q &lt; X; 0 &lt;= R, S &lt; Y ). Finalmente, a &uacute;ltima linha da entrada cont&eacute;m dois inteiros I e J, indicando a linha e a coluna da matriz C a serem consultados (1 &lt;= I, J &lt;= N).</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha contendo o valor da matriz C na linha e coluna especificadas.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

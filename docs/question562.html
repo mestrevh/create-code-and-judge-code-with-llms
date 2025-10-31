@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 562 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 562</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Pizzaria
+Topicos do problema: grafo; 
+Tempo limite de execução: 5 segundo(s)
+Descrição: <p><span style="font-size: x-small;"><span style="font-size: medium;"><span style="font-size: small;">Uma pizzaria tem que atender K pedidos, como s&oacute; existe um motoboy e s&oacute; &eacute; poss&iacute;vel levar uma pizza por vez na moto, o motoboy pega uma pizza e a leva para a casa que fez o primeiro pedido, depois volta &agrave; pizzaria, pega a outra pizza e a leva para a casa que fez o segundo pedido, assim sucessivamente at&eacute; a K-&eacute;sima pizza.<br /></span></span></span><span style="font-size: x-small;"><span style="font-size: medium;"><span style="font-size: small;">Apesar de apenas K casas terem feito pedidos, existem N casas ao redor da pizzaria e o motoboy pode parar nessas casas para pedir informa&ccedil;&atilde;o sobre caminhos alternativos para outras casas, o que pode levar a caminhos mais r&aacute;pidos.<br /></span></span></span><span style="font-size: x-small;"><span style="font-size: medium;"><span style="font-size: small;">Um caminho direto de uma casa &agrave; outra demora um determinado tempo, mas algumas casas n&atilde;o possuem caminhos diretos entre elas.<br /></span></span></span><span style="font-size: x-small;"><span style="font-size: medium;"><span style="font-size: small;">Sua tarefa &eacute; dado a ordem das K casas que fizeram pedidos e os tempos dos caminhos diretos existentes entre as casas, dizer qual o menor tempo que o motoboy vai levar para entregar todas as pizzas e retornar &agrave; pizzaria.<br /></span></span></span><span style="font-size: x-small;"><span style="font-size: medium;"><span style="font-size: small;">As casas s&atilde;o numeradas de 2 at&eacute; N, o n&uacute;mero 1 representa a pizzaria.<br /></span></span></span><span style="font-size: small;">A pizzaria quer que o motoboy saia para entregar uma pizza e volte o mais r&aacute;pido poss&iacute;vel, e obviamente ela quer que os pedidos sejam entregues na ordem que foram feitos.</span></p>
+Formato da entrada: <p><span style="font-size: x-small;"><span style="font-size: medium;"><span style="font-size: small;">A primeira linha da entrada cont&eacute;m T, o n&uacute;mero de casos de teste.<br />Cada caso de teste &eacute; no formato<br />N M<br />U1 V1 C1<br />U2 V2 C2<br />...<br />UM VM CM<br />K<br />X1 X2 X3 X4 ... XK<br />onde<br />N &eacute; o n&uacute;mero de casas perto da pizzaria (contando com a pizzaria)<br />M &eacute; o n&uacute;mero de caminhos diretos entre casas que o motoboy conhece<br />Ui,Vi,Ci indica que existe um caminho direto da casa Ui para a casa Vi (e vice-versa) que demora Ci minutos<br />K &eacute; a quantidade de pedidos que a pizzaria tem que atender<br />Xi &eacute; o n&uacute;mero da casa que fez o i-&eacute;simo pedido</span></span></span></p>
+
+<p><span style="font-size: x-small;"><span style="font-size: medium;"><span style="font-size: small;"><br />Limites:<br />1 &lt;= T &lt;= 20<br />2 &lt;= N &lt;= 10000<br />1 &lt;= M &lt;= min(N * (N - 1) / 2, 50000)<br />1 &lt;= Ui, Vi &lt;= N, para i=1..M<br />1 &lt;= Ci &lt;= 1000, para i=1..M<br />1 &lt;= K &lt;= N - 1<br />2 &lt;= Xi &lt;= N, para i=1..K<br />&Eacute; garantido que o motoboy consegue entregar todas as pizzas.</span></span></span></p>
+Formato da saída: <p><span style="font-size: x-small;"><span style="font-size: medium;"><span style="font-size: small;">Para cada caso imprima:<br />caso A: B<br />onde<br />A &eacute; o n&uacute;mero do caso atual, come&ccedil;ando em 1<br />B &eacute; o menor tempo em minutos que o motoboy ir&aacute; levar para entregar todas as pizzas e retornar &agrave; pizzaria<br />OBS: A resposta pode exceder o limite do inteiro 32 bits.</span></span></span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

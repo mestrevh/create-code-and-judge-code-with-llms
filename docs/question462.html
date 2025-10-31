@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 462 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 462</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Rede de telecomunicações
+Topicos do problema: grafo; vertices/arestas de corte; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Uma empresa de TELECOM est&aacute; expandindo sua rede de cabos &oacute;ticos. Eles est&atilde;o conectando v&aacute;rios lugares numerados de 1 a N. N&atilde;o existem lugares diferentes com o mesmo n&uacute;mero.</p>
+
+<p>As linhas s&atilde;o bidirecionais e sempre conectam dois lugares. Em cada local existe uma central de roteamento. Existe apenas uma central de roteamento em cada lugar.</p>
+
+<p>A partir de um lugar &eacute; poss&iacute;vel alcan&ccedil;ar qualquer outro lugar. N&atilde;o &eacute; preciso haver uma conex&atilde;o direta entre dois lugares para que seja poss&iacute;vel a comunica&ccedil;&atilde;o entre eles, a comunica&ccedil;&atilde;o ser&aacute; estabelecida atrav&eacute;s de um caminho entre eles.</p>
+
+<p>De vez em quando, falta energia em algum lugar e a central de roteamento n&atilde;o funciona. Quando isso ocorre, al&eacute;m de deixar o lugar onde faltou energia inacess&iacute;vel, pode ocorrer de outros lugares tamb&eacute;m ficarem inacess&iacute;veis. Neste caso, dizemos que o lugar &eacute; cr&iacute;tico.</p>
+
+<p>Sua miss&atilde;o &eacute; encontrar a quantidade de lugares cr&iacute;ticos da rede da empresa.</p>
+Formato da entrada: <p>Ser&atilde;o dados v&aacute;rios blocos. Cada bloco descreve uma rede.&nbsp;</p>
+
+<p>Na primeira linha de cada bloco &eacute; dado o n&uacute;mero N de lugares (N &lt;= 50000).</p>
+
+<p>Seguir&atilde;o no m&aacute;ximo N linhas (perceba que podem ser menos que N linhas). Cada uma das linhas consiste de um n&uacute;mero indicando um lugar S e uma sequ&ecirc;ncia de n&uacute;meros indicando os lugares que est&atilde;o diretamente conctados a S. Esses n&uacute;meros s&atilde;o separados por um espa&ccedil;o.</p>
+
+<p>Cada bloco termina quando S=0</p>
+
+<p>A entrada como um todo, termina quando N=0</p>
+Formato da saída: <p>Para cada bloco, imprima o n&uacute;mero de lugares cr&iacute;ticos encontrados na rede seguido de um final de linha.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

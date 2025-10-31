@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 126 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 126</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Árvore Genealógica
+Topicos do problema: array; array bidimensional; alocação dinâmica; recursão; busca; estruturas; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>A empresa Genomics faz v&aacute;rios servi&ccedil;os dedicados a fam&iacute;lias, 
+
+principalmente para descobrir parentes e parentescos perdidos. Para 
+
+mostrar a efici&ecirc;ncia de seus servi&ccedil;os, a Genomics quer, para cada &aacute;rvore 
+
+geneal&oacute;gica que ela tem, achar o par de parentes com parentesco mais 
+
+distante. Para isso, eles definiram uma "fun&ccedil;&atilde;o-parentesco" definida da 
+
+seguinte forma:</p>
+
+<p>1. grau(A, B) = 0, se A = B<br />2. grau(A, B) = INT_MAX, se A ou B n&atilde;o existem<br />3. grau(A, B) = 1 + min{grau(pai(A), B), grau(A, pai(B))}, se A != B</p>
+
+<ol> </ol>
+
+<p>Voc&ecirc; deve fazer um programa que, dado uma &aacute;rvore geneal&oacute;gica, imprime o nome dos dois parentes com maior grau de parentesco.</p>
+
+<p><span style="font-size: x-small;"><strong>Importante</strong></span>: A condi&ccedil;&atilde;o 2 da fun&ccedil;&atilde;o grau ocorre quando a fun&ccedil;&atilde;o pai(X) &eacute; chamada e X n&atilde;o possui pai. Ou seja, a fun&ccedil;&atilde;o pai retorna um elemento que representa o SEM_PAI.</p>
+
+<p>Dica: Caso voc&ecirc; esteja fazendo o seu c&oacute;digo na linguagem C, inclua o arquivo limits.h. Nesse arquivo existe a constante INT_MAX que representa o maior valor inteiro.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+Formato da entrada: <p>A entrada &eacute; composta de um &uacute;nico caso de teste. A primeira linha cont&eacute;m um n&uacute;mero inteiro positivo N, que indica o n&uacute;mero de rela&ccedil;&otilde;es pai-filho que ser&atilde;o descritas. As N linhas seguintes cont&ecirc;m duas strings cada, P e F, indicando que P &eacute; pai de F.</p>
+Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha contendo os nomes do par de 
+
+parentes com maior grau de parentesco, e esse grau. Essas duas strings 
+
+devem estar em ordem alfab&eacute;tica; em caso de empate, voc&ecirc; pode imprimir o par cujo um dos elementos aparece primeiro na entrada dada.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

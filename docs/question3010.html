@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3010 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3010</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Escape Room
+Topicos do problema: array bidimensional; backtracking; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ayallinha, um estudante de programação fascinado por jogos, um certo dia estava descansando e jogando um jogo chamado Escape the Room, e ele gostou tanto do jogo que estava viciado.</p><p>O jogo consiste em um mapa em que o jogador tem que percorrer ele para poder encontrar uma porta de saída da sala, que leva para próxima fase em outra sala, sendo que o jogador pode andar apenas para baixo ou para o seu lado direito. Além disso, algumas posições do mapa dão uma certa quantia de moedas que se acumulam durante a fase.Sendo assim, Ayallinha queria fazer um programa que dado um mapa da fase, se seria possível ele passar para a próxima fase ou não, mas como os seus conhecimentos em programação ainda não eram tão profundos, ele pediu para você realizar essa tarefa para ele.</p><p><b>OBS:</b> A saída da sala sempre será a posição [n-1] [m-1] do mapa.</p><p><b>OBS2:</b> O jogo sempre começa da posição [0][0]<br/></p>
+Formato da entrada: <p>Você receberá dois inteiros N e M (2 &lt;= N &lt;= 100) e (2 &lt;= M &lt;= 100) , com as dimensões do mapa em linhas e colunas respectivamente. Logo em seguida será dado a sala da fase em que:</p><p>‘|’ - Corresponde a uma parede que não poderá ser ultrapassada.</p><p>‘_’ - Corresponde a uma posição do mapa que possui um caminho livre e você pode percorrer-lá normalmente.</p><p>‘o’ - Corresponde a uma posição do mapa que possui um caminho livre e você pode percorrer-lá normalmente, e ao passar por ela você ganhará uma moeda.</p><p>‘8’ - Corresponde a uma posição do mapa que possui um caminho livre e você pode percorrer-lá normalmente, e ao passar por ela você ganhará duas moedas.<br/></p>
+Formato da saída: <p>Ao final da execução do programa, você deverá exibir duas informações:</p><p>1 - Se é possível Ayallinha passar de fase ( se for possível deverá ser exibida a mensagem ‘SIM’, e se não for deverá ser exibido ‘NAO’, ambos seguidos de uma quebra de linha).</p><p>2 - Qual é a quantia máxima de moedas que Ayallinha poderá coletar durante a sua jogatina. Deverá ser exibida a mensagem ‘Valor maximo de moedas: ’ seguida do maior número acumulado durante a fase<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

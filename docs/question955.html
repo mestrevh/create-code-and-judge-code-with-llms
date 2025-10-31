@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 955 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 955</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: O Labirinto do Kruskaltauro
+Topicos do problema: grafo; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Tiogo estava entediado de não ter problemas algorítmicos para resolver, e então ele decidiu jogar um jogo que seu amigo Diago havia mostrado. O jogo, chamado &#34;Labirinto do Kruskaltauro&#34;, possui um objetivo bastante simples: chegar ao final de um labirinto no menor tempo possível.<br/>  <br/>O labirinto correponde a uma grade retangular de M linhas por N colunas de células. As linhas são numeradas de 0 a M-1 de cima para baixo, e as colunas são numeradas de 0 a N-1 da esquerda para a direita. Cada célula pode ou não estar separada das vizinhas por paredes nas direções norte (N), leste (E), sul (S), ou oeste (W). O jogador pode passar de uma célula a uma vizinha, em qualquer direção, desde não haja uma parede separando-as. Para passar de uma célula a uma célula vizinha, o jogador demora exatamente 1s. O objetivo é descobrir qual o menor tempo possível para atravessar o labirinto da célula de entrada A=(0,0) à célula de saída Z=(M-1, N-1).<br/><br/>Para tornar o jogo mais interessante, o labirinto possui uma característica especial. Existem &#34;portais mágicos&#34; entre algumas células que se abrem a cada P segundos, contados a partir do início (inclusive). Se houver um portal de uma célula X a uma célula Y e o jogador estiver em X  no momento em que o portal abrir, ele pode usá-lo para se transportar de X a Y em exatamente 1s, independente da distância entre elas.<br/><br/></p>
+Formato da entrada: <p>A entrada é constituída de vários casos, cada um correspondente a um labirinto. A primeira linha contém um inteiro <br/><br/>L <br/><br/>representando o número de casos/labirintos. A seguir, temos a especificação dos diversos casos.<br/>  <br/>Para cada labirinto, temos inicialmente uma linha com dois inteiros, <br/><br/>M N<br/><br/>que indicam a quantidade de linhas e colunas, respectivamente.<br/>  <br/>As próximas M*N linhas contêm strings<br/><br/>C[0][0]<br/>C[0][1]<br/>...<br/>C[0][N-1]<br/>C[1][0]<br/>C[1][1]<br/>...<br/>C[1][N-1]<br/>...<br/>C[M-1][0]<br/>C[M-1][1]<br/>...<br/>C[M-1][N-1]<br/><br/>onde, para cada célula (i,j), a string C[i][j], constituída por caracteres em {N, E, S, W}, indica quais as direções que podem ser seguidas (não possuem paredes) a partir da célula (i,j). Por exemplo, se C[4][7] = &#34;ES&#34;, então da célula (4,7) pode-se passar às vizinhas a leste (4,8) e ao sul (5,7). <br/><br/>Em seguida, temos uma linha com dois inteiros<br/><br/>Q P<br/><br/>que indicam a quantidade de portais e o período (intervalo de tempo) com que os portais aparecem no labirinto. As próximas Q linhas  contém quatro inteiros cada<br/><br/>I[0] J[0] I'[0] J'[0]<br/>I[1] J[1] I'[1] J'[1]<br/>...<br/>I[Q-1] J[Q-1] I'[Q-1] J'[Q-1]<br/><br/>sendo I[q] J[q] I'[q] J'[q] a especificação do q-ésimo portal entre as células (I[q], J[q])  e (I'[q], J'[q]).<br/><br/>IMPORTANTE:  <br/>- O portal é unidirecional.<br/>- Inicialmente (t=0s), os portais estão abertos. Eles abrirão novamente nos instantes t=Ps, t=2Ps, t=3Ps, ....<br/>- A cada instante, o jogador pode decidir mover-se para uma célula vizinha acessível ou ficar parado enquanto aguarda a abertura de um portal.</p><p><br/>Após cada caso, há uma linha em branco.<br/><br/>Limites: <br/>0 &lt;= N, M &lt; 100<br/>0 &lt;= Q &lt; N*M<br/>1 &lt;= P &lt;= 20<br/><br/></p>
+Formato da saída: <p>Para cada caso de teste k=0,..., L, deve ser impressa uma linha na forma <br/><br/>k: T[k]<br/><br/>onde T[k] corresponde ao menor tempo no qual é possível ir do início (0, 0) ao final (M-1, N-1)  do k-ésimo labirinto.<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 529 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 529</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Zé de Tindera
+Topicos do problema: estrutura de dados; pilha; 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <p id="docs-internal-guid-99563009-74f3-3380-6050-0c202efba827" style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Zé de Tindera queria ir para todas as festas de Tindera. Mas suas roupas estavam misturadas nas pilhas, serão P pilhas. E ele tem uma serie de restrições. Ele só pode ir pra festa se ele puder retirar do topo de alguma pilha de camisas aquela que ele precisa para conquistar as Tinderas da festa. Sabendo quais são as camisas adequadas para cada festa (representadas por números), informe quais festas ele consegue conquistar as Tinderas. Assuma que:</span></p>&#13;<ol>&#13;<li style="color: #000000;background-color: transparent;" dir="ltr">&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Cada festa acontece um dia depois da outra, então ele pode realizar outras atividades enquanto não se prepara para a próxima festa.</span></p>&#13;</li>&#13;<li style="color: #000000;background-color: transparent;" dir="ltr">&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Só uma camisa pode ser removida por vez, afinal de contas ele não quer causar uma má impressão.</span></p>&#13;</li>&#13;<li style="color: #000000;background-color: transparent;" dir="ltr">&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Zé conquista as Tinderas da festa x se ele tiver uma camisa com valor y, tal que, </span><span style="color: #000000;background-color: transparent;">x-1 &lt;= </span><span style="color: #000000;background-color: transparent;">y &lt;= </span><span style="color: #000000;background-color: transparent;">x+1</span><span style="color: #000000;background-color: transparent;">.</span></p>&#13;</li>&#13;<li style="color: #000000;background-color: transparent;" dir="ltr">&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Ele sempre pega a camisa da primeira pilha que tiver a camisa que ele precisa no topo dela. Informe a camisa mais antiga da fila de camisas que estão para ser lavadas. (A arte da conquista é árdua até mesmo para o mestre Zé)</span></p>&#13;</li>&#13;</ol>&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Resumindo, Zé vai fazer dois tipos de coisa:</span></p>&#13;<p id="docs-internal-guid-99563009-7516-a327-a992-09b98695952c" style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">1) Ir para uma festa x, pra isso ele vai olhar de pilha em pilha e pegar a primeira camisa y tal que, </span><span style="color: #000000;background-color: transparent;">x-1</span><span style="color: #000000;background-color: transparent;"> &lt;= y &lt;= </span><span style="color: #000000;background-color: transparent;">x+1</span><span style="color: #000000;background-color: transparent;">. Se ele não puder ir para a festa x, imprima que “ze nao vai pra festa x”, com caractere finalizador de linha.</span></p>&#13;<p><span style="color: #000000;background-color: transparent;">2) Pegar a camisa que ele usou faz mais tempo, lavar ela e guardar (não nas pilhas). Se a fila de roupas para lavar estiver vazia, imprima que “nao tem roupa pra lavar”, com caractere finalizador de linha.</span></p>&#13;<p> </p>&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Serão vários casos de teste!</span></p>&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Em cada teste:</span></p>&#13;<ul>&#13;<li style="color: #000000;background-color: transparent;" dir="ltr">&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Q queries (pedidos), onde nesses pedidos estão o código do pedido(1 ou 2, que representam as coisas que Zé pode fazer), e no caso do código 1 vem seguido do número da festa;</span></p>&#13;</li>&#13;<li style="color: #000000;background-color: transparent;" dir="ltr">&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">P pilhas, e para cada pilha será informada o tamanho da pilha, em seguida os números das camisas.</span></p>&#13;</li>&#13;<li style="color: #000000;background-color: transparent;" dir="ltr">&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">Ordem de leitura, T (quantidade de casos de testes), Q, P, (tamanho da i-ésima pilha, e os números das camisas) ~ esse trecho se repete P vezes ~, (pedidos, 1 b, ou, 2) ~ esse trecho se repete Q vezes ~..</span></p>&#13;</li>&#13;<li style="color: #000000;background-color: transparent;" dir="ltr">&#13;<p style="text-align: justify;" dir="ltr"><span style="color: #000000;background-color: transparent;">A entrada informa as pilhas de acordo com a ordem empilhamento no topo. Logo a última camisa da pilha estará no topo.</span></p>&#13;</li>&#13;</ul>&#13;<p id="docs-internal-guid-99563009-74f3-5590-3c3b-669bd18e611d" dir="ltr"><span style="color: #000000;background-color: transparent;">0</span><span style="color: #000000;background-color: transparent;"> &lt;= T &lt;= </span><span style="color: #000000;background-color: transparent;">100</span></p>&#13;<p dir="ltr"><span style="color: #000000;background-color: transparent;">0</span><span style="color: #000000;background-color: transparent;"> &lt;= Q &lt;= </span><span style="color: #000000;background-color: transparent;">10</span><span style="color: #000000;background-color: transparent;">^3</span></p>&#13;<p dir="ltr"><span style="color: #000000;background-color: transparent;">0</span><span style="color: #000000;background-color: transparent;"> &lt;= P &lt;= </span><span style="color: #000000;background-color: transparent;">10^</span><span style="color: #000000;background-color: transparent;">3</span></p>&#13;<p dir="ltr"><span style="color: #000000;background-color: transparent;">0</span><span style="color: #000000;background-color: transparent;"> &lt;= (camisas)</span><span style="color: #000000;background-color: transparent;"> &lt;= 10</span><span style="color: #000000;background-color: transparent;">^6</span><span style="color: #000000;background-color: transparent;">, distribuídas nas P pilhas de forma aleatória</span></p>&#13;<p><span style="color: #000000;background-color: transparent;"><i>Todos os números das entradas caberão dentro de um inteiro.</i></span></p>
+Formato da entrada: <p>T</p>
+
+<p>Q P</p>
+
+<p>p1</p>
+
+<p>C1 C2 ... CP1</p>
+
+<p>...</p>
+
+<p>pi</p>
+
+<p>CPi+k CPi+k+1 .. CPi</p>
+
+<p>...</p>
+
+<p>pP</p>
+
+<p>CPi+k CPi+k+1 .. CPP</p>
+
+<p>q1a [q1b]</p>
+
+<p>q2a [q2b]</p>
+
+<p>...</p>
+
+<p>qQa [qQb]</p>
+
+<p>&nbsp;</p>
+Formato da saída: <p>nao tem roupa pra lavar</p>
+
+<p>L</p>
+
+<p>ze nao vai pra festa x</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3655 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3655</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Gerenciador de user/senha
+Topicos do problema: array; substrings; repetição; string; dicionário; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <div><font color="#000000"><span id="docs-internal-guid-1cc20390-7fff-9810-1b6d-f4b23aa7adcd"><span style="color: rgb(0, 0, 0);background-color: transparent;">Você foi contratado por uma empresa de segurança para desenvolver um gerenciador de usuários e senhas super seguro, a aplicação deve gerar uma senha com base em um trecho de música escolhida pelo usuário. A senha deve conter 15 caracteres. O usuário pode gerar quantas senhas quiser com base nesse trecho de música, além de dizer se aceita aquela senha ou não. Uma vez que o usuário aceitou uma senha ele deve dizer qual é o username para aquela senha. Discutindo com a sua equipe, foram decididas as seguintes regras: </span></span><br/></font></div><div><font color="#000000"><b><span style="color: #000000;background-color: transparent;"><br/></span></b></font></div><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">A música inserida não pode ter quebras de linha </span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">O usuário deve dizer quantas senhas quer gerar</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Toda letra &#34;a&#34;, “E”, 'e', 'i', 'o', 'u'  deve ser substituída por @, %, !, @, #, $  respectivamente</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Todo o espaço deve ser removido </span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Apenas a primeira letra de cada palavra deve ser maiúscula </span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">O usuário deve dizer um número entre 6 e o tamanho da música - 6 (numero mágico)</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">A senha é gerada com base:</span></p></li><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">5 primeiras letras a partir do número de senhas geradas + 5 últimas letras + 5 próximas letras após o numero mágico pelo usuário.</span><span style="color: #000000;background-color: transparent;"><br/></span><span style="color: #000000;background-color: transparent;">Dica: Se é a 5 senha que está sendo gerada, as 5 letras iniciais devem começar em 5.</span></p></li></ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">A senha deve ser invertida</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">O usuário deve receber a senha e aceitar (S), ou pedir para gerar outra (N)</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Por fim o gerador de senhas deve mostrar um dicionário com os usuários e senhas</span></p></li></ol>
+Formato da entrada: <p><span>Hello darkness, my old friend I've come to talk with you again Because a vision softly creeping Left its seeds while I was sleeping And the vision that was planted in my brain Still remains Within the sound of silence</span></p><p>3</p><p>5</p><p>50</p><p>s</p><p>user01</p><p>25</p><p>s</p><p>user02</p><p>15</p><p>n</p><p>100</p><p>s</p><p>user03</p>
+Formato da saída: <b id="docs-internal-guid-49a6a819-7fff-263c-4854-b68acf2593b2"></b><p dir="ltr"><span style="background-color: transparent;color: rgb(0, 0, 0);"></span></p><div><div><p dir="ltr" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0);background-color: transparent;">@c!Bn!cn!lD#ll!H</span></p><p dir="ltr" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0);background-color: transparent;">C!V'I!cn!l@D#ll!</span></p><p dir="ltr" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0);background-color: transparent;">FdlOy!cn!lR@D#ll</span></p><p dir="ltr" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0);background-color: transparent;">p!!lS!cn!lR@D#ll</span></p><p dir="ltr" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0);background-color: transparent;">{'user01': '@c!Bn!cn!lD#ll!H', 'user02': &#34;C!V'I!cn!l@D#ll!&#34;, 'user03': 'p!!lS!cn!lR@D#ll'}</span></p></div></div>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

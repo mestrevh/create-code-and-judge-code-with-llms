@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 574 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 574</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Calculadora de Imposto Totais
+Topicos do problema: acumulador; decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"></p><p><span style="color: black;">Uma empresa de importação de produtos eletrônicos em parceria com o CIn deseja fazer um programa que calcule o valor final do produto e discrimine na nota fiscal quanto o cliente pagou em impostos(Imposto de importação e ICMS), frete e total a pagar. Segue algumas informações que você precisará saber para resolver essa questão:</span></p><p><span style="color: black;"><br/></span></p><ul><li><span style="color: black;">A taxa de importação para eletrônicos é de 60%;</span><br/></li><li><span style="color: black;">O calculo do ICMS é dado pela formula: (Valor Final do produto x Aliquota)</span></li><li><span style="color: black;">O valor final do produto é dado pela soma do (Valor do Produto + Frete + Impostos de Importação) / (1 - Aliquota)</span></li><li><span style="color: black;">A empresa tema cultura de não adicionar o frete no calculo, para valores de US$ 2,500 em diante. Informe isso ao fim da nota.</span></li></ul><p><br/></p><p><span style="color: black;">Segue exemplos:</span></p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span><div style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/><pre class="a-c-x-Ha a-c-Ma-td-Ib" style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">&gt;&gt;&gt; &#10;-----------Calculadora de impostos-----------&#10;Informe a cotação do dolar (USD): 3.85&#10;Informe a aliquota do ICMS (%): 18&#10;Informe o valor do produto: 1000&#10;Informe o valor do frete: 100&#10;---------------------------------------------&#10;&#10;&#10;&#10;&#10;---------------------Nota Fiscal---------------------&#10;IMPOSTOS DE IMPORTAÇÃO                     VALOR (R$)&#10;-----------------------------------------------------&#10;Taxa de conversão monetária:                     3.85&#10;Valor produto:                                 3850.0&#10;Valor frete:                                    385.0&#10;Valor total:                                   4235.0&#10;-----------------------------------------------------&#10;Imposto de importação:                         2541.0&#10;ICMS:                                          1487.41&#10;Total de impostos:                             4028.41&#10;-----------------------------------------------------&#10;TOTAL A PAGAR:                                8263.41&#10;-----------Impostos calculados com o frete-----------&#10;&#10;&#10;&#10;&gt;&gt;&gt; &#10;-----------Calculadora de impostos-----------&#10;Informe a cotação do dolar (USD): 3.85&#10;Informe a aliquota do ICMS (%): 18&#10;Informe o valor do produto: 2500&#10;Informe o valor do frete: 200&#10;---------------------------------------------&#10;&#10;&#10;&#10;&#10;---------------------Nota Fiscal---------------------&#10;IMPOSTOS DE IMPORTAÇÃO                     VALOR (R$)&#10;-----------------------------------------------------&#10;Taxa de conversão monetária:                     3.85&#10;Valor produto:                                 9625.0&#10;Valor frete:                                    770.0&#10;Valor total:                                   10395.0&#10;-----------------------------------------------------&#10;Imposto de importação:                         5775.0&#10;ICMS:                                          3380.49&#10;Total de impostos:                             9155.49&#10;-----------------------------------------------------&#10;TOTAL A PAGAR:                                19550.49&#10;-----------Impostos calculados sem o frete------------&#10;</pre><h4><b><br/></b></h4><h4><b>*Essa questão foi corrigida e teve os casos de testes alterados, por isso o oráculo pode retornar respostas incorretas.</b></h4></div>
+Formato da entrada: <p></p><pre class="a-c-x-Ha a-c-Ma-td-Ib" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: left;">Sua entrada deve conter&#10;&#10;-Cotação do Dolar&#10;-Aliquota(%) do ICMS&#10;-Valor do produto&#10;-Valor do frete&#9;</pre><p></p>
+Formato da saída: <p></p><pre class="a-c-x-Ha a-c-Ma-td-Ib" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: left;">Sua saída deve conter:&#10;&#10;-Taxa de conversão monetária (Cotação do dolar)&#10;-Valor do produto (em reais)&#10;-Valor do frete (em reais)&#10;-Valor total (Valor do frete + Valor do produto)&#10;-Valor de impostos de importação&#10;-Valor de icms&#10;-Total de Impostos (Importação + ICMS)&#10;-Total a pagar&#10;-Dizer se o total foi ou não isento do frete no calculo</pre><p></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

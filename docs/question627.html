@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 627 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 627</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Inserção em Árvores AVL
+Topicos do problema: estrutura de dados; Árvore; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Uma árvore <b>AVL</b> (nomeada de acordo com seus criadores, Adelson-Velsky e Landis) é uma árvore binária de busca auto-balanceável. A propriedade característica de árvores AVL é de que, para todo nó, a diferença entre as alturas das duas sub-árvores filhas tem que estar no intervalo [-1, 0, +1]. Se em qualquer momento, a diferença se encontrar fora deste intervalo, é necessário ajustar o balanceamento para restaurar esta propriedade. </p><p><span>Operações que podem resultar no ajuste do balanceamento incluem inserções. Após inserir um nó, é necessário checar de que todos os seus ancestrais ainda estão consistentes com relação à propriedade das árvores AVL. Para tanto, é calculado o fator de balanceamento, que consiste justamente da diferença entre as alturas das sub-árvores. Caso o fator de balanceamento se encontre fora do intervalo desejado, é necessário efetuar rotações na árvore para que a propriedade seja restaurada. Dependendo dos valores do fator de balanceamento, pode ser necessário efetuar rotação (i) simples ou dupla, (ii) à esquerda ou à direita. </span></p><p><span>Neste problema, assuma que partimos de uma árvore AVL vazia inicialmente, e recebemos uma sequência de números a serem inseridos. Para cada inserção, devemos imprimir a árvore resultante da inserção, no formato de parênteses discutido abaixo. Caso tenha sido necessária uma rotação, de qualquer tipo, a árvore deve ser antes de efetuar a rotação (imediatamente após a inserção) e logo após a rotação (quando ela já estará balanceada).</span><br/></p>
+Formato da entrada: <p>A entrada consiste de uma sequência de números a serem lidos e inseridos na árvore AVL (inicialmente vazia).</p>
+Formato da saída: <p>A saída deve imprimir o valor resultante da árvore <b><i>T</i></b> para cada inserção de um número <b><i>X</i></b>, no formato:</p><p>----<br/><i>Adicionando <b>X</b></i><br/><i>imprime resultado de inserir <b>X</b> em <b>T</b></i><br/><span>----</span></p><p><span>Para &#34;<i>imprime resultado de inserir <b>X</b> em </i><b><i>T</i></b>&#34;, existem dois possíveis casos: </span></p><blockquote><h6><span><b>1. A inserção de um nó não gera a necessidade de efetuar rotações. Neste caso, deve ser impressa a mensagem: </b></span></h6></blockquote><blockquote><blockquote><h6><i><i style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Antes de ajustar balanceamento...<br/></i><i style="color: inherit;background-color: rgb(255, 255, 255);">imprime<span class="Apple-converted-space"> </span><b>T</b><span class="Apple-converted-space"> </span>no formato de parênteses<br/></i><i style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><i style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Depos de ajustar balanceamento...<br/></i><i style="color: inherit;background-color: rgb(255, 255, 255);">imprime<span class="Apple-converted-space"> </span><b>T</b><span class="Apple-converted-space"> </span>no formato de parênteses</i></i></i></h6></blockquote></blockquote><blockquote><h6><b style="color: inherit;">2. A inserção de um nó gera a necessidade de efetuar rotações. Neste caso, deve ser impressa a mensagem: </b></h6></blockquote><blockquote><blockquote><h6><i>Antes de ajustar balanceamento...<br/></i><i style="color: inherit;">imprime <b>T</b> no formato de parênteses<br/></i><i><i style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Depos de ajustar balanceamento...<br/></i><i style="color: inherit;background-color: rgb(255, 255, 255);">imprime <b>T</b> no formato de parênteses</i></i></h6></blockquote></blockquote><p>Finalmente, para a impressão de uma árvore <b>T</b>, utilizamos o formato de parênteses, da mesma forma que em outras questões de árvores binárias. Isto é, todo nó <b>N</b> é representado como ( <b><i>VALOR</i></b> <b><i>N.left</i></b> <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><i>N.right</i></b> ), onde <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><i>N.left</i></b> e <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><i>N.</i></b><b><i>right </i></b>são os nós filhos da esquerda e direita de <b>N</b>. No caso de um <b><u>nó </u></b><b><u>folha</u></b>, contendo o valor <b>15</b>, o nó deve ser impresso como ( 15 () () ). </p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

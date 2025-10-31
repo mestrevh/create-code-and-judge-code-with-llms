@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2887 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2887</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Evolucao das especies
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <div class="ng-binding"><p>Uma forma que os cientistas possuem para medir como uma espécie evoluiu para outra é encontrar como o genoma do ancestral mudou até a espécie atual. Espécies próximas possuem vários genes em comum e, logo, uma boa maneira de compará-las é comparar como seus genes trocaram de lugar.</p><p>Uma das mutações mais comuns que mudam a ordem dos genes é a &#34;reversa&#34;. Se modelarmos um genoma como uma sequência de N genes, onde cada um é um inteiro de 1 a N, então a &#34;reversa&#34; é uma mutação que muda o genoma revertendo a ordem de um bloco consecutivo de genes.</p><p>Uma reversa pode ser descrita por dois índices (i, j), onde: 1 &lt;=i &lt;=j &lt;=N. Os índices indicam que ele reverte a ordem do gene i até o gene j.  Como um exemplo, a reversa (3,6) aplicada ao genoma [1, 2, 3, 4, 5, 6, 7] tem como resultado: [1, 2, 6, 5, 4, 3, 7]. Se após essa primeira reversa, nós aplicarmos novamente uma reversa (1,3), então o genoma será: [6, 2, 1, 5, 4, 3, 7].</p><p>Um cientista estudando a evolução das espécies quer simular uma série de reversas em um genoma.  Depois ele vai querer saber a posição final de vários genes. Você deve elaborar um programa para auxiliar na resolução desse problema.<br/></p></div>
+Formato da entrada: <div class="ng-binding"><p>São vários casos de testes.</p><p>A primeira linha de um caso de teste contém um inteiro N indicando o número de genes de um genoma (1 &lt;= N &lt;= 500). Você pode assumir que a ordem inicial dos genes é uma sequência de inteiros de 1 a N em ordem crescente. Deve ser mostrada a mensagem &#34;Digite o numero de genes do genoma entre 1 e 500:&#34;<br/></p><p>A segunda linha contém um inteiro R (0&lt;=R&lt;=100) indicando o número de reversas. Então seguirão R linhas, cada uma contendo dois inteiros i,j, um em cada linha, indicando os índices da reversa. Lembre-se que nesse caso, i &lt;=1 &lt;= j &lt;= N. Deve ser mostrada a mensagem &#34;Digite o numero de reversas entre 1 e 100:&#34;, &#34;Digite a posicao inicial da reversa:&#34;e &#34;Digite a posicao final da reversa:&#34;<br/></p><p>Depois das reversas, existe uma linha contendo um inteiro Q indicando o número de consultas que serão feitas para os genes. Seguirão Q linhas, onde cada linha contém um inteiro representando um gene cuja posição final você deve determinar. Deve ser mostrada a mensagem &#34;Digite o número de consultas:&#34; e &#34;Digite a posicao a ser consultada entre 1 e N:&#34; (mostre o valor numérico de N nesta frase)<br/></p><p>A entrada só termina quando N for 0.</p></div>
+Formato da saída: <div class="ng-binding"><p>Para cada caso de teste, o seu programa produzirá Q+1 linhas de saída. A primeira linha contém o texto &#34;Genome&#34; seguida pelo número do caso de teste. As Q linhas seguintes contém a mensagem &#34;Posicao n: &#34;, seguidas de um inteiro cada, representando a resposta das consultas. O programa deve exibir as seguintes mensagens:</p><p>Digite o numero de genes do genoma entre 1 e 500:</p><p>Digite o numero de reversas entre 1 e 100:</p><p>Digite a posicao inicial da reversa:</p><p>Digite a posicao final da reversa:<br/></p><p>Digite o número de consultas:</p><p>Genome n<br/></p><p>Digite a posicao a ser consultada entre 1 e N:</p><p>Posicao n: n</p><p>Digite a posicao a ser consultada entre 1 e N:<br/></p><p>Posicao n: n<br/></p><p><br/></p></div>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

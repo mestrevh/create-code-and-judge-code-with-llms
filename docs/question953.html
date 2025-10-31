@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 953 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 953</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Quadro de Medalhas
+Topicos do problema: estrutura de dados; ponto flutuante; acumulador; entrada formatada; substrings; repetição; ordenação; dicionário; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você foi contratado para criar um programa que gera o quadro de medalhas para os jogos olímpicos. Seu programa deve receber como entrada um par de valores separados por uma vírgula. Do lado esquerdo é fornecido o nome do país, que pode ter espaços em branco (como Costa Rica), e do lado direito o tipo da medalha (ouro, prata ou bronze). Cada medalha é registrada desta forma, sendo um registro por linha que deve ser acumulado por país e tipo de medalha.</p><p>Seu programa tem como objetivo mostrar um quadro de medalhas, ordenado pelo país que obteve mais medalhas de ouro, prata e bronze. Lembre-se de que o número de medalhas de ouro é mais importante que o de prata e este que o de bronze. Portanto, fica na frente no quadro de medalhas quem tiver mais medalhes de ouro. Caso haja empate, compara-se o número de medalhas de prata. Caso ainda assim haja empate, o número das de bronze será considerado. Assuma que não haverá empate além do número de medalhas de ouro e prata.<br/></p>
+Formato da entrada: <p>O programa deve receber como entrada um número qualquer de linhas, sendo que cada linha contém o nome de um país, seguido de uma vírgula e do tipo da medalha (sem espaços antes e depois da vírgula). O programa deve ser encerrado quando houver uma linha contendo o caractere * (asterisco).<br/></p>
+Formato da saída: <p>A saída consiste de uma tabela com uma linha por país que informa a posição do país, o nome do país, o número de medalhas de ouro, prata e bronze seguindo a ordem decrescente de classificação no quadro de medalhas, ou seja, os melhores estão no início e os com menos medalhas no final. Cada linha deve iniciar com a posição no quadro de medalhas, seguido de um caractere ')' junto com o nome do país, seguido de um espaço em branco, da string 'ouro:' e o número de medalhas de ouro, de um espaço em branco, da string 'prata:' seguida do número de medalhas de prata, um espaço em branco e o mesmo para as de bronze, conforme exemplo.<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

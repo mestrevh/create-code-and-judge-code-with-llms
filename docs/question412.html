@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 412 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 412</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Feed de notícias
+Topicos do problema: estrutura de dados; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Voc&ecirc; foi contratado para melhorar o seu feed de not&iacute;cias do facebook.</p>
+
+<p>No sua feed de not&iacute;cias deve aparecer as atualiza&ccedil;&otilde;es dos seus amigos. Por&eacute;m, voc&ecirc; deve escolher quais delas deve mostrar.</p>
+
+<p>Voc&ecirc; vai mostrar primeiro as atualiza&ccedil;&otilde;es mais recentes e dos amigos mais pr&oacute;ximos a voc&ecirc;. Ent&atilde;o, voc&ecirc; resolveu usar uma f&oacute;rmula</p>
+
+<p>para ponderar esses dois aspectos:</p>
+
+<p>0.8 * grau de proximidade do seu amigo + 0.2 * tempo que a atualiza&ccedil;&atilde;o foi realizada</p>
+
+<p>&nbsp;</p>
+
+<p>O grau de proximidade do seu amigo &eacute; calculado por outro algoritmo e tem sempre o valor entre 0 e 1.</p>
+
+<p>O tempo de atualiza&ccedil;&atilde;o tamb&eacute;m &eacute; calculado por um outro algoritmo e tem sempre o valor entre 0 e 1. Nesse caso, 1 significa que acabou de ser postado e 0 que faz muito tempo.</p>
+
+<p>&nbsp;</p>
+
+<p>Voc&ecirc; ir&aacute; receber, uma lista de atualiza&ccedil;&otilde;es de cada amigo e deve montar a sua feed de not&iacute;cias.</p>
+Formato da entrada: <p>Voc&ecirc; ir&aacute; receber:</p>
+
+<p>linha 1: um inteiro n indicando o tamanho do seu feed de not&iacute;cias. Considere 1 &lt;= n &lt;= 10000000</p>
+
+<p>linha 2: um inteiro m indicando a quantidade de amigos que voc&ecirc; possui. Considere 1 &lt;= m &lt;= 10000000</p>
+
+<p>pr&oacute;ximas m linhas: o identificador do amigo e o grau de proximidade</p>
+
+<p>pr&oacute;xima linha: um inteiro x indicando a quantidade de atualiza&ccedil;&otilde;es que voc&ecirc; receber&aacute;</p>
+
+<p>pr&oacute;ximas x linhas: um inteiro i indicando qual &eacute; o amigo que fez a atualiza&ccedil;&atilde;o, um n&uacute;mero real indicando o tempo que a atualiza&ccedil;&atilde;o foi realizada e uma frase representando a atualiza&ccedil;&atilde;o</p>
+
+<p>&nbsp;</p>
+
+<p>Por exemplo:</p>
+
+<p>2</p>
+
+<p>4</p>
+
+<p>1 0.5</p>
+
+<p>2 0.3</p>
+
+<p>3 0.8</p>
+
+<p>4 0.2</p>
+
+<p>5</p>
+
+<p>1 0.9 Estou adorando programar hoje!</p>
+
+<p>1 0.95 Droga, errei. Mas vou tentar mais um pouco.</p>
+
+<p>4 0.71 Eu topo!! Depois a gente estuda</p>
+
+<p>3 0.7 Alguem afim de uma cerveja?</p>
+
+<p>2 0.8 To fora! Prefiro programar</p>
+Formato da saída: <p>Voc&ecirc; deve imprimir o feed de not&iacute;cias contendo exatamente as n not&iacute;cias ordenadas de acordo com a f&oacute;rmula dada na descri&ccedil;&atilde;o.</p>
+
+<p>Cada linha deve conter o identificador do amigo, seguido de um espa&ccedil;o em branco, e depois a frase da atualiza&ccedil;&atilde;o.</p>
+
+<p>&nbsp;</p>
+
+<p>Exemplo de sa&iacute;da para a entrada dada:</p>
+
+<p>3 Alguem afim de uma cerveja?</p>
+
+<p>1 Droga, errei. Mas vou tentar mais um pouco.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1286 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1286</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L5Q1 - Euclides and Morty
+Topicos do problema: recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Mr. Goldenfold está dando aulas sobre divisibilidade e o tema de sua última aula foi o algoritmo de Euclides, que funciona da seguinte forma:</p><blockquote><p>A = D * Q + R</p></blockquote><p>no qual A é o número a ser dividido, D é o dividendo, Q é o quociente da divisão inteira de A por D, e R é o resto dessa divisão.</p><p>Digamos que queremos calcular o MDC(36, 24)</p><p>36 = 24 * 1 + 12</p><p>perceba que 12 é divisor de 36 e 24, portanto, o <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">MDC</span>(36,24) = <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">MDC</span>(24,12)</p><p>24 = 12 * 2 + 0</p><p>Como o resto é zero, sabemos que 12 divide 24.</p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">MDC</span>(36,24) = <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">MDC</span>(24,12) = 12</p><p>Em geral, o que o algoritmo de Euclides faz é:</p><ul><li>Escolha dois números para tirar o mdc(A,D)</li><li>Divida A por D, se o resto da divisão não for zero, divida D pelo resto até achar o resto 0.</li><li>Quando achar uma divisão com resto zero, o &#34;D&#34; dessa divisão será o MDC de A e D originais.</li></ul><p><br/></p><p><span>M</span><span>r. Goldenfold, como dever de casa, passa aos alunos uma lista de duplas de valores inteiros e o desafio é descobrir o MDC de cada dupla contida na lista. Morty, ao ver o tamanho da lista, resolve pedir ajuda a seu avô Rick, já que não entendeu tão bem como funcionava o algoritmo.</span><br/></p><p>Rick resolve que a melhor forma de fazer isso seria criando uma máquina do tempo, voltando à época de Euclides, fazendo com que você (Euclides) explique a Morty como o algoritmo funciona, para que a lista possa ser resolvida e Morty tire dez em matemática.</p><p>Sua tarefa é ajuda-lo a escrever um programa que dada uma quantidade de duplas de valores inteiros, imprima o resultado do MDC de cada dupla.</p>
+Formato da entrada: <p>A entrada é composta de várias linhas (até o fim de arquivo), no formato:</p><blockquote><p>A B</p></blockquote><ul><li>A - número inteiro positivo</li><li>B - número inteiro positivo</li></ul><p><br/></p><p>As linhas da entrada são composta por A e B.</p>
+Formato da saída: <p>A saída é composta por várias linhas no formato:</p><blockquote><p><b>N</b></p></blockquote><ul><li>N - número inteiro</li></ul><p>As linhas da saída são compostas por um número N, representando o MDC de A e B.</p><p><b>obs: o MDC deve ser calculado utilizando recursão.</b></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

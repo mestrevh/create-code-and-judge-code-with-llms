@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2502 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2502</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: O hospital do Zelda
+Topicos do problema: array; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p> </p><div class="file-uploader-thumb" style="text-align: center;">              <img class="" src="https://www.thehuxley.com/api/v1/problems/image/90ed0a5dcc3f73d0ba873d9f19a815a5623abc193.png"/></div><p><br/></p><p>Zelda descobriu o Link para o sucesso e se tornou dono de uma grande franquia de hospitais, mas queria aumentar ainda mais os seus ganhos.  Ele notou que muitas pessoas vinham a seu hospital e não marcavam agendamento, mas estavam dispostas a pagar o preço da consulta e logo, visando aumentar seus lucros, ele pediu para que seu amigo Kinho escrevesse um algoritmo que mostrasse quantas pessoas (além das agendadas) conseguiriam ser atendidas se postas em pequenas brechas existentes entre os atendimentos.</p><p>Zelda disse também que queria priorizar as pessoas que demorasse menos em suas consultas, logo mesmo que exista uma resposta onde seja possível encaixar todas as pessoas para atendimento, <b>SEMPRE </b>priorize as que possuírem o <b>menor tempo necessário para serem atendidas</b>, como pode ser visto no exemplo 1, onde a melhor resposta possível seria atender as 2 pessoas, colocando a que precisa de 5 unidades de tempo para ser atendida primeiro e logo após a pessoa que precisa de 3 unidades de tempo, mas como priorizamos a que precisa da menor quantia de tempo possível, apenas a que precisa de 3 unidades de tempo é atendida, já que não sobra espaço para que a que precisa de 5 unidades de tempo seja atendida.<br/></p><p><b>As brechas não podem ser somadas</b>, ou seja, se há um intervalo de 5 unidades de tempo entre um atendimento e outro, sendo encaixado neste intervalo um atendimento de 4 unidades de tempo, essa unidade de tempo restante não pode ser somada, ela <b>apenas existe nesse intervalo entre dois atendimentos consecutivos.</b> Considere também que o hospital abre seu atendimento sempre no &#34;tempo&#34; 0, e encerra assim que a ultima consulta agendada for terminada. Vale ressaltar também que <b>o tempo de encerramento do hospital não pode exceder 10^5</b>.</p><p><b>Nenhum atendimento agendado é interseccionado por outro</b>, ou seja, um segundo atendimento só começa se o outro atendimento já acabou, assim que ele acaba ou um tempo depois.</p><p>Nenhum dos atendimentos (agendados ou não) são necessariamente dados em ordem =]<br/></p><p>Zelda pode colocar mais de uma pessoa não agendada nas brechas, só basta ter tempo para atende-las.</p>
+Formato da entrada: <p>A entrada consiste de um número <b>N</b> <b>(0 &lt;= N &lt;= 10^5)</b> de pessoas que marcaram agenda e de um número <b>M</b> <b>(0 &lt;= M &lt;= 100)</b> de pessoas que não marcaram agenda. Para cada pessoa <b>N</b>, você recebe um par de inteiros<b> [a, b)</b>, que correspondem ao tempo de inicio de consulta e ao tempo de término da mesma, respectivamente. e para cada pessoa <b>M</b>, você recebe um inteiro <b>C</b>, que corresponde ao tempo necessário para atender essa pessoa.<br/></p><p>Note também que podem ocorrer casos onde, dados dois intervalos <b>[a, b) </b>e <b>[c, d)</b> pode ocorrer que<b> b == c</b>, ou seja, <b>um atendimento começa assim que outro termina</b>. <br/></p>
+Formato da saída: <p>A saída deve ser um número <b>P</b>, que representa a quantidade de pessoas desagendadas que foram atendidas <b>seguindo os critérios de Zelda.</b><br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

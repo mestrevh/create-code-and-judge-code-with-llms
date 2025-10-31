@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 3640 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3640</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Senha da empresa Calculaí
+Topicos do problema: decisão; repetição; string; estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <b id="docs-internal-guid-42be7bbd-7fff-0822-730e-182342d07fab"></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Uma pequena empresa, com <i>5 </i></span><span style="color: #000000;background-color: transparent;">funcionários</span><span style="color: #000000;background-color: transparent;">, chamada Calculaí, está em busca de criar uma nova forma de identificar seus funcionários. Assim, o seu objetivo é fazer um programa que receba uma <b>estrutura</b> com os campos correspondentes ao </span><span style="color: #000000;background-color: transparent;"><b>NOME COMPLETO</b></span><span style="color: #000000;background-color: transparent;">, </span><span style="color: #000000;background-color: transparent;"><b>DATA DE NASCIMENTO</b></span><span style="color: #000000;background-color: transparent;">, </span><span style="color: #000000;background-color: transparent;"><b>CIDADE NATAL</b></span><span style="color: #000000;background-color: transparent;"> e </span><span style="color: #000000;background-color: transparent;"><b>IDADE</b></span><span style="color: #000000;background-color: transparent;"> de um funcionário dessa empresa e retorne a sua senha de identificação.</span></p><span style="color: #000000;background-color: transparent;">Para a formação da senha, você, estudante de Computação Eletrônica, deverá concatenar alternadamente a primeira letra do nome, o primeiro número da data de aniversário, a primeira letra da cidade natal e assim sucessivamente, até atingir <b>as </b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>cinco primeiras letras do nome</b>, </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>o </b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>dia e mês do aniversário</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;">,</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b> as </b></span><span style="color: #000000;background-color: transparent;"><b>quatro primeiras letras do nome da cidade natal</b></span><span style="color: #000000;background-color: transparent;"> e, para diminuir a possibilidade de haver repetições, terminar com a </span><span style="color: #000000;background-color: transparent;"><b>idade</b><i>.</i></span><span style="color: #000000;background-color: transparent;"> Ou seja, se a entrada for dada por <b>NomeC</b>, <b>28/12</b>, <b>Cidade</b> e <b>77</b>, a senha gerada deverá ser <b>N2Co8im1de2aC77</b>.</span>
+Formato da entrada: <b id="docs-internal-guid-4ec65e78-7fff-585c-05da-023ffd7364e1"></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">O programa receberá de cada um dos funcionários os campos correspondetes a <b>estrutura</b>, com:</span></p><ul><li><span style="color: #000000;background-color: transparent;">Uma </span><span style="color: #000000;background-color: transparent;"><i>string</i></span><span style="color: #000000;background-color: transparent;"> com, no máximo, 50 caracteres para o </span><span style="color: #000000;background-color: transparent;">NOME COMPLETO</span><span style="color: #000000;background-color: transparent;">.</span></li><li><span style="color: #000000;background-color: transparent;">Uma string para a </span><span style="color: #000000;background-color: transparent;">DATA DE NASCIMENTO</span><span style="color: #000000;background-color: transparent;"> no formato DIA/MÊS/ANO.</span></li><li><span style="color: #000000;background-color: transparent;">Uma </span><span style="color: #000000;background-color: transparent;"><i>string</i></span><span style="color: #000000;background-color: transparent;"> com, no máximo, 50 caracteres para a </span><span style="color: #000000;background-color: transparent;">CIDADE NATAL</span><span style="color: #000000;background-color: transparent;">.</span></li><li><span style="color: #000000;background-color: transparent;">Um </span><span style="color: #000000;background-color: transparent;">inteiro</span><span style="color: #000000;background-color: transparent;"> para a </span><span style="color: #000000;background-color: transparent;">IDADE</span><span style="color: #000000;background-color: transparent;">.</span></li></ul><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Os dados serão computados até que o NOME COMPLETO seja “SAIR” ou a quantidade de funcionários da empresa seja atingida.</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>Observação: o primeiro nome do NOME COMPLETO sempre terá no mínimo cinco letras.</b></span></p>
+Formato da saída: <b id="docs-internal-guid-fbf9faa6-7fff-e187-4134-e4cd27547516"></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A saída deverá seguir o modelo, com uma quebra de linha dupla após ser printado a senha do funcionário:</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Nome: &lt;nome_completo&gt;</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Data de Nascimento: &lt;XX/XX/XXXX&gt;</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Cidade Natal: &lt;cidade_natal&gt;</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Idade: &lt;idade&gt;</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Cadastro: &lt;senha_gerada&gt;</span></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1852 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1852</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Luz para todos
+Topicos do problema: árvore geradora mínima; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p style="color: rgb(36, 41, 46);">Uma determinada localidade possui uma estação distribuidora de energia elétrica que alimenta<span class="Apple-converted-space"> </span><code style="background-color: rgba(27, 31, 35, 0.0470588);">N-1</code><span class="Apple-converted-space"> </span>pontos. Alguns pontos de alimentação são diretamente ligados entre si e/ou à estação distribuidora por meio de<span class="Apple-converted-space"> </span><code style="background-color: rgba(27, 31, 35, 0.0470588);">M</code><span class="Apple-converted-space"> </span>cabos elétricos no total, formando uma rede elétrica que interconecta todos os pontos.</p><p style="color: rgb(36, 41, 46);">A rede elétrica cresceu desordenadamente ao longo dos anos, sendo que atualmente existem vários cabos redundantes que aumentam o custo de manutenção da rede, repercutindo em tarifas mais altas para os consumidores. Para eliminar custos desnecessários e aumentar a eficiência da operação, a empresa distribuidora estuda duas propostas diferentes:</p><ul style="color: rgb(36, 41, 46);"><li><p>Estimando que o custo da rede é de $<code style="background-color: rgba(27, 31, 35, 0.0470588);">C</code><span class="Apple-converted-space"> </span>por metro de cabo, a Proposta 1 consiste em eliminar cabos de forma que a soma total dos comprimentos dos cabos restantes seja a menor possível, porém ainda mantendo todos os pontos alimentados.</p></li><li><p>Estimando que o custo da rede é dado pela soma dos custos de fornecimento a cada ponto, e que o fornecimento de energia a um ponto tem um custo fixo de $<code style="background-color: rgba(27, 31, 35, 0.0470588);">R</code><span class="Apple-converted-space"> </span>por cada ponto no caminho da estação distribuidora até esse ponto ou, equivalente, por cada cabo ligando dois pontos consecutivos nessa conexão (independente do seu comprimento), a Proposta 2 consiste em eliminar os cabos de forma que cada ponto seja conectado à estação distribuidora pela menor quantidade de pontos intermédios possível.</p></li></ul>
+Formato da entrada: <p style="color: rgb(36, 41, 46);">A primeira linha contêm dois inteiros,</p><pre style="background-color: rgb(246, 248, 250);color: rgb(36, 41, 46);"><code>N M&#10;</code></pre><p style="color: rgb(36, 41, 46);">correspondentes ao número total de pontos<span class="Apple-converted-space"> </span><strong>incluindo a estação distribuidora</strong><span class="Apple-converted-space"> </span>e ao número de cabos ligando dois pontos consecutivos, respectivamente. Os pontos são numerados de 0 a<span class="Apple-converted-space"> </span><code style="background-color: rgba(27, 31, 35, 0.0470588);">N-1</code>, sendo a estação distribuidora o ponto 0.</p><p style="color: rgb(36, 41, 46);">A próxima linha contêm dois inteiros,</p><pre style="background-color: rgb(246, 248, 250);color: rgb(36, 41, 46);"><code>C R&#10;</code></pre><p style="color: rgb(36, 41, 46);">correspondentes ao custo por metro de cabo (Proposta 1), e ao custo fixo da ligação direta entre dois pontos (Proposta 2), respectivamente.</p><p style="color: rgb(36, 41, 46);">Seguem-se M linhas, cada uma com a especificação de cada ligação direta na forma</p><pre style="background-color: rgb(246, 248, 250);color: rgb(36, 41, 46);"><code>U V L&#10;</code></pre><p style="color: rgb(36, 41, 46);">onde<span class="Apple-converted-space"> </span><code style="background-color: rgba(27, 31, 35, 0.0470588);">U</code><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><code style="background-color: rgba(27, 31, 35, 0.0470588);">V</code><span class="Apple-converted-space"> </span>são pontos diretamente ligados por um cabo, e<span class="Apple-converted-space"> </span><code style="background-color: rgba(27, 31, 35, 0.0470588);">L</code><span class="Apple-converted-space"> </span>indica o comprimento desse cabo em metros.</p>
+Formato da saída: <p style="color: rgb(36, 41, 46);">O programa deve imprimir uma linha com dois inteiros</p><pre style="background-color: rgb(246, 248, 250);color: rgb(36, 41, 46);"><code>T1 T2&#10;</code></pre><p style="color: rgb(36, 41, 46);">onde<span class="Apple-converted-space"> </span><code style="background-color: rgba(27, 31, 35, 0.0470588);">T1</code><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><code style="background-color: rgba(27, 31, 35, 0.0470588);">T2</code><span class="Apple-converted-space"> </span>correspondem, respectivamente, às estimativas do custos da rede<span class="Apple-converted-space"> </span><strong>após a implementação</strong><span class="Apple-converted-space"> </span>das Propostas 1 e 2, respectivamente.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

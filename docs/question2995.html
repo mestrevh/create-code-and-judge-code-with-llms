@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2995 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2995</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Venda de selos automatizada - parte I
+Topicos do problema: decisão; repetição; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <h5><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span>Você foi contratado por uma agência dos correios para  programar uma máquina de venda de selos automática que será instalada para diminuir as filas na agência. Ela terá uma balança para pesar o pacote e um conjunto de sensores para escanear e calcular as suas dimensões.</span></span></div></h5><h5><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span>Tal máquina só servirá para o envio de cartas e pacotes que respeitem os limites de peso e dimensões abaixo:</span></span></div></h5><ul><li><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span>Peso máximo de 500.0 g.</span></span></div></li><li><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span>Tamanho máximo da maior dimensão: 28.0 cm.</span></span></div></li><li><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span>Valor máximo da soma de todas as dimensões: 52.0 cm.</span></span></div></li></ul><h5><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span>Qualquer pacote que ultrapasse qualquer desses limites deverá ser encaminhado para o atendimento no balcão. <br/></span></span></div><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span><br/></span></span></div><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span>Eventualmente pode ocorrer algum erro na leitura dos sensores ou da balança e estes retornarem um valor inválido (negativo ou nulo), portanto, quando isto acontecer, a leitura deve ser realizada novamente.</span></span></div></h5><h5><span><span>Sendo assim, escreva um programa em Python 3 que:</span></span></h5><div class=""><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><ol><li><span><span>Receba o peso do pacote e os valores de comprimento, largura e profundidade e verifique se os valores lidos são válidos (positivos e não nulos). O programa deve receber o peso do pacote e realizar a sua validação antes de receber as entradas das dimensões. Em relação às dimensões, se uma for inválida, todas as 3 devem ser lidas novamente até que todas sejam válidas.</span></span><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span>O programa deve imprimir as mensagens: <b>&#34;Peso valido!&#34;</b>, <b>&#34;Peso invalido!&#34;</b>, <b>&#34;Dimensoes validas!&#34;</b> e <b>&#34;Dimensoes invalidas!&#34;</b>, conforme o caso em questão (Note que as palavras estão sem acentos).</span></span></div></li><li><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr">Após concluir a validação dos dados de entrada, v<span><span>erifique se os limites para processamento no caixa automático são atendidos. Em caso afirmativo, o programa deve seguir para o item 3), caso contrário, deve imprimir a seguinte mensagem (sem as aspas e sem quebra de linha) e encerrar:</span></span><span><span><b> &#34;Este pacote nao atende os limites para envio no caixa de autoatendimento, dirija-se ao balcao de atendimento para posta-lo!&#34;</b></span></span><span><span></span></span></div></li><li><div class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"><span><span>Calcule o custo (C) da postagem e imprima-o com a seguinte formatação: </span></span><span><span> &#34;Custo total do envio: RS 0.00&#34;. O cálculo do custo</span></span><span><span> é composto de duas parcelas, uma devido ao peso e outra devido ao tamanho do pacote, conforme segue:</span></span></div></li></ol><div style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/d5034dee57f1842c050c66337978d14f45987d0a1.png"/><title></title></div><p>A parcela do custo referente ao peso (P) é dada por:</p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/dbdf408a84ab26bc6be2e03899c13107f84532c92.png"/></p><title></title><p>E a parcela do custo referente ao tamanho do pacote é dada por:</p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/44e6325d1bda2dd7456dae91acb5860935538f063.png"/></p><title></title><p>Onde S representa a soma das três dimensões do pacote (comprimento, largura e profundidade)</p></div></div><br/>
+Formato da entrada: <p>A entrada do problema consiste de uma sequência de números reais, separados por quebra de linha, representando os valores lidos pela balança e pelos sensores de dimensão.</p><p>Atentem-se para a diferença entre valores válidos (quando há uma leitura incorreta dos sensores) e pacotes que não podem ser processados automaticamente. Um pacote de 1kg é válido, só não pode ser processado pela máquina de selos.<br/></p>
+Formato da saída: <p>A saída deverá conter as mensagens de validade ou não dos valores, conforme os dados de entrada para cada caso, e em seguida a mensagem referente ao processamento do pacote (se deve ser encaminhado ao balcão de atendimento ou o custo final de envio).<br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

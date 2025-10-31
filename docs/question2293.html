@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2293 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2293</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Lucas e Yuki
+Topicos do problema: array; acumulador; decisão; busca completa; substrings; repetição; array bidimensional; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <b id="docs-internal-guid-e275d4fa-7fff-f331-5c2e-cfa1be2ae813"></b><p><span style="color: #000000;background-color: transparent;"><span id="selectionBoundary_1537497964247_6329241248905986" class="rangySelectionBoundary"><span id="selectionBoundary_1537498142710_013829429933064796" class="rangySelectionBoundary">&#65279;</span>&#65279;</span>Lucas é apaixonado por caça-palavras: acha eles intrigantes e sempre se interessou em bolar e aprender algoritmos criativos que buscassem as palavras rapidamente. Apesar de ter uma relação ótima com caça-palavras, ele não tem uma tão boa com Yuki, sua arqui-inimiga de muitos carnavais, que o atormenta dia e noite.</span></p><br/><p><span style="color: #000000;background-color: transparent;">Yuki é uma pequena e fofa shih-tzu de poucos meses de vida que, recentemente, assim como nos piores pesadelo de Lucas, ganhou uma espada de brinquedo. Por ser muito trelosa, ela pegou o livro de caça-palavras de Lucas, enquanto ele estava distraído, e usou sua espada para escrever o nome dela e de seus amigos cachorrinhos em vários caça-palavras, às vezes mais de uma vez, podendo ser em várias direções (cima, baixo, direita ou esquerda).<span id="selectionBoundary_1537498142710_7482169317468155" class="rangySelectionBoundary">&#65279;</span></span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Quando Lucas descobriu, ele entrou em pânico. Não iria conseguir dormir uma noite sequer caso mantivesse esses caça-palavras amaldiçoados pela tenebrosa Yuki no seu quarto. Acontece que Lucas ama muito os seus caça-palavras, e, assim, decidiu que iria manter todos aqueles que houvessem, no máximo, </span><span style="color: #000000;background-color: transparent;">X </span><span style="color: #000000;background-color: transparent;">ocorrências de nomes de cachorros, sejam de Yuki ou dos amigos dela, que é uma quantidade que o amor dele pelos enigmas consegue suportar, apesar do seu medo de cachorrinhos fofos.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Como analisar esses caça-palavras é uma tarefa muito árdua para Lucas, ele pediu sua ajuda. Você deve escrever um programa que, dados vários caça-palavras, em formato de matrizes de caracteres </span><span style="color: #000000;background-color: transparent;">N x M</span><span style="color: #000000;background-color: transparent;">, o valor máximo de ocorrências toleradas por Lucas, X, e os nomes dos amiguinhos de Yuki, diga quantos caça-palavras Lucas irá conseguir manter no seu quarto, respeitando a condição de que se ele vai ficar com um caça-palavras, então a soma da quantidade de ocorrências do nome de Yuki e dos amigos dela não deve exceder X.<br/></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><br/></span></p><p dir="ltr"><font color="#000000"><b>Obs: para um mesmo nome, duas ocorrências são diferentes se elas diferem no ponto de partida na matriz ou na direção em que Yuki escreveu o nome.</b></font></p>
+Formato da entrada: <b id="docs-internal-guid-8b7d2340-7fff-ccd5-b3f1-a073513eccf1"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">A entrada consiste em um único caso de teste. A primeira linha contém cinco inteiros <b>Q, X, C, N </b>e<b> M</b>, que representam, respectivamente, a quantidade de caça-palavras que você irá receber, a quantidade máxima de ocorrências dos nomes dos cachorrinhos em um caça-palavra, a quantidade de amigos que Yuki tem e, os dois últimos, as dimensões dos caça-palavras que serão dados. Depois, seguirão <b>C</b> linhas, onde, em cada uma, é dado o nome de um amiguinho de Yuki, contendo no mínimo 2 caracteres e, no máximo, 20. Depois, seguirão <b>Q</b> matrizes, que serão dadas da seguinte forma:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Cada uma das <b>Q</b> matrizes terá <b>N </b>linhas, cada linha com <b>M </b>caracteres;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Entre cada duas matrizes da entrada, haverá uma linha em branco separando-as.</span></p></li></ul><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>Limites</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= Q &lt;= 100</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= X &lt;= 500</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= C &lt;= 10</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= N &lt;= 20</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= M &lt;= 20</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>OBS</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Todos os caracteres dos caça-palavras e nomes dos cachorrinhos serão apenas letras, não-acentuadas, de A a Z, podendo ser maiúsculas ou minúsculas. Você deve achar as ocorrências do nome de Yuki ou de seus amigos sem considerar distinções entre letras maiúsculas e minúsculas.</span></p>
+Formato da saída: <p><span id="docs-internal-guid-468ba44b-7fff-47ff-5fdf-43b81684839b"><span style="color: rgb(0, 0, 0);background-color: transparent;">Um inteiro, dizendo quantos dos Q caça-palavras dados Lucas poderá manter consigo.</span></span><br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

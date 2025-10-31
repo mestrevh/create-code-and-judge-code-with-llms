@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1127 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1127</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Ordem das vilas
+Topicos do problema: decisão; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style="float: none;">O jogo </span><span style="background-color: rgb(255, 255, 255);"><i>Minecraft</i></span><span style="float: none;"> é conhecido por sua característica de blocos cúbicos, os quais (em distância real) medem 1 metro cúbico. No jogo, </span>é utilizado um sistema de coordenadas XYZ, no qual o X representa a longitude, Z a latitude e Y a elevação em blocos. Desta forma, localidades podem ser endereçadas através de triplas (X, Y, Z).</p><p>Steve (o personagem controlado pelo jogador) está em um mundo no qual existem 3 vilas (entre parênteses, encontram-se as coordenadas do centro de cada vila):</p><ul><li>Solitude (X: 140,Y: 200, Z: 456)</li><li>Kakariko (X: 0, Y: 64, Z: 10)</li><li>Hogsmeade (X: 34, Y: 110, Z: 220)</li></ul><p>Steve está interessado em obter diferentes recursos, porém, para organizar melhor suas tarefas, ele quer que cada tipo de recurso seja gerenciado em uma vila diferente. Ele precisa ter uma fazenda para criação de animais, uma plantação e também uma base de mineração, todos em vilas diferentes.</p><p>Visando maximizar o rendimento de suas atividades, ele precisa decidir qual vila escolher para gerenciar cada tipo de recurso. Considerando que ele precisa escolher a vila mais próxima para a fazenda, a segunda mais próxima para a plantação e a mais distante para a base de mineração.</p><p><br/></p><p>Sua tarefa é fazer um programa que ajude Steve a descobrir qual a vila utilizar para cada recurso, considerando suas distâncias.</p>
+Formato da entrada: <blockquote><p><b>X Y Z</b></p></blockquote><ul><li><span style="text-align: left;">X - número inteiro</span></li><li><span style="text-align: left;">Y - número natural</span></li><li><span style="text-align: left;">Z - número inteiro</span></li></ul><p><br/></p><p>A linha única da entrada é composta por uma tripla de números inteiros X, Y e Z, separados por espaço, que indica a coordenada atual de Steve.</p><p><br/></p><p>obs: Você deve considerar que a entrada é amigável, ou seja, sempre estará dentro do formato descrito.</p>
+Formato da saída: <blockquote><p><b>V1 V2 V3</b></p></blockquote><ul><li>V1 - string</li><li>V2 - string</li><li>V3 - string</li></ul><p><br/></p><p>A linha única da saída deve conter os nomes das vilas (apenas a inicial em maiúsculo), separadas por espaço, na ordem em que devem ser escolhidas para ser fazenda, plantação e base de mineração, respectivamente.</p><p><br/></p><p>obs: </p><ul><li>Em casos de distâncias iguais, você deve priorizar na seguinte ordem: Solitude -&gt; Kakariko -&gt; Hogsmeade;</li><li>Não deve haver espaço ao final da linha.</li></ul>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

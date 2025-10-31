@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 515 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 515</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Índice remissivo
+Topicos do problema: estrutura de dados; maratona; dicionário; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Boa parte dos livros apresenta um índice remissivo, que corresponde a uma lista alfabética de palavras-chave ou palavras relevantes do texto com a indicação dos locais no texto onde cada palavra-chave ocorre. Dessa maneira, uma palavra indexada pode ser rapidamente localizada no texto, sem necessidade de uma pesquisa exaustiva.
+
+
+
+Um índice remissivo pode ser implementado com o auxílio do tipo abstrato de dados "dicionário", que consiste em uma coleção de valores que podem ser pesquisados através de uma chave. Ou seja, cada valor V a ser armazenado deve ser associado a uma chave única K. A operação Find(K) retorna valor V associado 
+
+à chave K. No caso do índice remissivo, cada chave corresponde a uma palavra indexada e o valor associado corresponde à lista de suas ocorrências no texto.
+
+
+
+Uma implementação típica de um dicionário baseia-se na construção de uma hash table T na qual cada chave K, que pode não ser uma chave numérica, é convertida em um código numérico code(K), que é então usado pela função de dispersão 'h' para encontrar a posição na tabela onde o item deve ser armazenado. Mais especificamente, cada entrada na forma de par "chave:valor" (K:V) é armazenada na tabela na posição h(code(k)), i.e. T[h(code(K)]=(K:V).
+
+
+
+Um possível problema é que a função de hashing  pode não ser injetiva e, portanto, pode haver duas chaves distintas K!=K' tais que h(code(K))==h(code(K')). Nesse caso, é preciso aplicar alguma política de resolução de colisões e armazenar na posição finalmente escolhida da tabela o par (K:V). A operação Find(K) deve verificar o(s) par(es) (K':V') encontrado(s) na posição h(code(K)) para certificar-se que K'==K
+
+antes de retornar o valor V'.
+
+
+
+Neste exercício, vamos construir um índice remissivo para um texto a partir de um dicionário no qual as chaves são as palavras desse texto e, associado à cada chave/palavra temos a lista ordenada dos números das linhas do texto nas quais essa palavra ocorre. Para que esse dicionário seja construído, o texto precisa ser 'lido' uma vez. Entretanto, uma vez construído, esse índice deve ser utilizado para responder à pergunta "quais as linhas nas quais uma palavra W ocorre no texto" em tempo constante, sem necessidade de 'reler' o texto. 
+
+
+
+O dicionário deve ser implementado como uma hash table 'fechada' de tamanho m, 
+
+com função de dispersão 
+
+
+
+h(c)=c mod m 
+
+
+
+e utilizando a política de resolução de colisões por endereçamento aberto com sondagem linear (linear probing). 
+
+
+
+A função code(W) que converte a palavra W em um código numérico consiste em considerar W como um número escrito em base 26 (tamanho do alfabeto), sendo o 'dígito' a=0, b=1, c=2,.... Por exemplo:
+
+
+
+code("casa") = c*26^3 + a*26^2 + s*26^1 + a*26^0 = 35620.</pre>
+Formato da entrada: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">A entrada consiste de um texto pré-formatado de maneira simplificada e de uma lista de palavras a serem consultadas no dicionário.
+
+
+
+Mais precisamente, a entrada contém uma linha
+
+
+
+$TEXTO
+
+
+
+seguida por um texto constituído por várias linhas. Por simplicidade, o texto está pré-formatado sendo que as palavras estão 'normalizadas' para o alfabeto 'abcdefghijklmnopqrstuvwxyz' e os sinais de pontuação e caracteres especiais foram sumprimidos.
+
+
+
+A seguir, temos uma linha
+
+
+
+$CONSULTAS
+
+
+
+seguida por uma lista de palavras 
+
+
+
+Q1
+
+Q2
+
+...
+
+QS
+
+
+
+sendo uma por linha, correspondendo às palavras a serem consultadas.
+
+
+
+LIMITES:
+
+
+
+- Cada linha do texto possui &lt;= 100 caracteres (incluindo espaços)
+
+- Cada palavra do texto ou das consultas tem tamanho &lt;= 20 (cuidado com o overflow)
+
+- O texto tem &lt;= 10000 palavras distintas (ou seja, o índice tem &lt;= 10000 palavras).
+
+- O arquivo de entrada tem &lt;= 1MByte</pre>
+
+<pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;"><br /></pre>
+
+<pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;"><pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Para quem estiver com dificuldade na leitura da entrada, <strong>uma </strong>possível forma seria: http://pastebin.com/isjG8zx9</pre>
+
+</pre>
+Formato da saída: <pre style="font-family: 'Helvetica Neue', Helvetica, sans-serif, Arial; overflow-x: auto; overflow-y: hidden; white-space: pre-wrap; word-wrap: break-word; padding: 0px; margin: 0px; font-size: 14px;">Para cada palavra Qj na lista de palavras a serem consultadas, o programa deve
+
+usar a operação Find(Qj) do dicionário para recuperar os números das linhas das ocorrências de Qj no texto e imprimir uma linha
+
+
+
+Qj: l1 l2 ... ln
+
+
+
+onde l1, l2, ..., ln correspondem às linhas nas quais a palavra Qj ocorre no texto em ordem crescente, sem repetição, e separadas por espaço.
+
+
+
+Caso a palavra Qj não seja encontrada no dicionário, então não ocorre no texto, 
+
+devendo ser impressa a linha
+
+
+
+Qj:
+
+
+
+sem espaços ao final.</pre>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

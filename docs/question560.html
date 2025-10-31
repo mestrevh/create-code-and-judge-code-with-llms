@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 560 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 560</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Reposição de equipamentos
+Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <p>Voc&ecirc; dirige uma f&aacute;brica de carros. Trata-se de uma f&aacute;brica moderna, quase totalmente automatizada.</p>
+
+<p>Uma das suas tarefas &eacute; decidir quando manter ou trocar um determinado equipamento da sua linha de produ&ccedil;&atilde;o.</p>
+
+<p>Se voc&ecirc; optar por manter o equipamento, voc&ecirc; ter&aacute; um custo de manuten&ccedil;&atilde;o. Esse custo varia ano a ano, normalmente ele aumenta quanto mais antigo for o equipamento.</p>
+
+<p>Se voc&ecirc; decidir trocar, voc&ecirc; poder&aacute; vender o equipamento atual e comprar um novo, tendo portanto um custo com a compra.</p>
+
+<p>Ao final do per&iacute;odo de planejamento, voc&ecirc; &eacute; obrigado a vend&ecirc;-lo como sucata, independente da idade do equipamento. Mas o valor recebido pela sucata varia de acordo com a idade do equipamento.</p>
+
+<p>Dado a idade atual de um equipamento, o horizonte de planejamento, o pre&ccedil;o de um equipamento novo, os custos de manuten&ccedil;&atilde;o, os pre&ccedil;os de venda e os pre&ccedil;os de sucata, voc&ecirc; deve calcular qual o menor custo poss&iacute;vel ao final do per&iacute;odo. Al&eacute;m disso, a cada per&iacute;odo voc&ecirc; deve decidir se compra (B) ou mant&eacute;m (M).</p>
+
+<p>N&atilde;o existir&aacute; nenhum caso de teste com mais de uma solu&ccedil;&atilde;o &oacute;tima.</p>
+Formato da entrada: <p>Ser&atilde;o dadas 6 linhas, sendo elas:</p>
+
+<ul>
+
+<li>um inteiro "a" correspondendo &agrave; idade atual do equipamento;</li>
+
+<li>um inteiro "n" correspondendo ao per&iacute;odo de planejamento</li>
+
+<li>um inteiro "c" correspondendo ao pre&ccedil;o de compra de um equipamento novo ( 1&lt;= c &lt;=20000 )</li>
+
+<li>n+2 inteiros separados por espa&ccedil;o, correspondendo ao custo de manuten&ccedil;&atilde;o do equipamento com idades 0, 1, ... , n+1</li>
+
+<li>n+1 inteiros correspondendo ao pre&ccedil;o da venda do equipamento com idades 1,..., n+1</li>
+
+<li>n+1 inteiros correspondendo ao pre&ccedil;o da sucata do equipamento com idades 1,..., n+1</li>
+
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Considere 1&lt;=n&lt;=5000</p>
+
+<p>A idade 0 corresponde ao equipamento novo. Como voc&ecirc; s&oacute; vai poder tomar a decis&atilde;o ao final do ano, n&atilde;o existe a possibilidade de vender um equipamento com idade 0.</p>
+Formato da saída: <p>Voc&ecirc; deve imprimir duas linhas:</p>
+
+<ul>
+
+<li>O custo m&iacute;nimo gasto no horizonte de tempo</li>
+
+<li>Uma string com n caracteres. Cada caracter corresponde a decis&atilde;o ao final do ano 1, ... , n. </li>
+
+</ul>
+
+<p>Os caracteres podem ser:</p>
+
+<ul>
+
+<li>M : manter</li>
+
+<li>B : Comprar um novo atrav&eacute;s da venda do atual.</li>
+
+</ul>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

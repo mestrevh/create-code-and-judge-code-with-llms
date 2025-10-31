@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4242 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4242</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Mensagem Espacial
+Topicos do problema: caractere; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Uma guerra espacial entre os humanos do planeta Terra e os aliens do planeta LV426 havia começado, e você, como aluno de Computação Eletrônica da UFPE, ficou encarregado de decodificar as mensagens enviadas pelas equipes de ataque espacial, as quais foram codificadas para evitar que os aliens interceptassem os nossos planos. Enquanto monitorava as equipes, você recebe uma mensagem criptografada de um grupo situado em uma das luas de Saturno, e parecem estar em estado crítico. A sobrevivência deles e de outras equipes depende unicamente de você, felizmente, você dispõe de um manual informando como decodificá-las:<br/></p><p><br/></p><p><b>1º passo: </b></p><p>Esse método de codificação é chamado datário-temporal, pois depende da data em que a mensagem foi enviada e do clima atual de Recife (jogada sábia dos codificadores, os aliens jamais saberiam um clima que muda tanto como esse!). Logo, o 1º passo se resume em registrar esses dois dados em forma de strings, além da mensagem recebida.<br/></p><p><br/></p><p><b>2º passo:</b></p><p>A data será informada no formato xx/xx/xxxx, e ela será crucial para acharmos a chave, chave essa que será utilizada para decodificar a mensagem. Para achar a chave, devemos subtrair da soma dos algarismos do número correspondente ao ano, a soma dos algarismos dos números correspondentes ao dia e ao mês da data, exemplo: 12/12/2006 -&gt; (2+0+0+6) - (1+2+1+2). Caso o resultado dessas operações seja um número negativo, será necessário obter seu módulo. Achada a chave, basta subtrair à cada letra da mensagem codificada a chave encontrada, mudando assim cada letra de acordo com a tabela ASCII. <b>Obs</b>.: a chave NÃO deverá ser substraída do caractere espaço.<br/></p><p><br/></p><p><b>3º passo:</b></p><p>Dependendo do clima, as seguintes ações deverão ser realizadas: </p><p>&#34;ensolarado&#34; : A frase inteira deve ser lida de trás para frente, onde o primeiro digito da frase vira o último, o segundo o penúltimo, e assim consecutivamente. </p><p>&#34;chuvoso&#34; : Caso uma palavra da frase tenha uma quantidade par de caracteres, cada letra desta palavra deverá ser substituída pelo seu sucessor, ex: &#34;a&#34; vira &#34;b&#34;. Caso seja ímpar, o oposto deve ser realizado. </p><p><b>Obs</b>: caso seja informado algum clima não citado anteriormente, deverá ser printada a mensagem &#34;Mensagem codificada invalida, provavelmente mais uma tentativa dos aliens de nos enganar!&#34;.<br/></p><p><br/></p><p>Finalizados tais passos, você finalmente terá acesso à mensagem decodificada, sendo necessário apenas printar a mensagem encontrada<br/></p>
+Formato da entrada: <p>O clima atual de Recife, a data correspondente do dia em que a mensagem foi enviada e a mensagem codificada.</p>
+Formato da saída: <p>A mensagem decodificada.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2106 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2106</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Jogo do Pulador
+Topicos do problema: array; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A existência achou um jogo muito interessante: O Jogo do Pulador. O jogo funciona de seguinte forma: Existe um tabuleiro de <b>n</b> casas, onde cada casa contém um número, que indica o quanto o pulador deve pular para chegar na próxima casa. O tabuleiro é um anel, então se o pulador chegar no final do tabuleiro, ele deve continuar seu pulo do começo do tabuleiro.</p><p>São sempre gerados tabuleiros aleatórios e também é dito quantos pulos o pulador vai poder fazer. O objetivo é escolher a casa inicial que em <b>k</b> pulos, o pulador tenha pulado a maior quantidade de casas. No caso de empate, a que iniciar mais perto de 0 ganha.</p><p>Ajude a entidade a descubrir qual a casa que garante a vitória.</p><p>Exemplo:</p><p>Um tabuleiro de 6 casas e 3 pulos:<br/>3 5 2 2 4 1<br/>Iniciando em 0: Pula para 3, pula para 5, pula para 0, somando 6 casas.<br/>Iniciando em 1: Pula para 0, pula para 3, pula para 5, somando 10 casas.<br/>Iniciando em 2: Pula para 4, pula para 2, pula para 4, somando 8 casas.<br/>...<br/>Iniciando em 5: Pula para 0, pula para 3, pula para 4, somando 10 casas.<br/>Então ele deve iniciar da posição 1, e somará 10 casas.</p>
+Formato da entrada: <p>A primeira linha da entrada consistirá de dois inteiros: <b>n</b> e <b>k</b>, representando o tamanho do tabuleiro e quantos pulos o jumper deverá fazer, respectivamente.</p><p>Em seguida, virão <b>n</b> inteiros, indicando quantas casas o pulador deve pular se ele estiver na i-ésima casa.</p>
+Formato da saída: <p>A saída deverá conter dois inteiros, representando onde ele deve começar e quantas casas ele irá pular, respectivamente.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

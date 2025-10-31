@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 298 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 298</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Estoque de Celular
+Topicos do problema: array; acumulador; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Numa loja de uma marca famosa de celulares, a saida dos celulares &eacute; muito grande, por&eacute;m, o espa&ccedil;o para estoque dos aparelhos &eacute; pequeno.<br />Logo, a loja fica recebendo novos aparelhos semanalmente, de acordo com a demanda de saida, se o aparelho esgota, fica numa lista de espera para a pr&oacute;xima semana.<br />Chegou um novo modelo de aparelho, que est&aacute; sendo super requisitado, mas a clientela s&oacute; &eacute; grande nos dias de sexta, sabado e domingo.<br /><br />Suponha que a saida desse aparelho de segunda &agrave; quinta &eacute; uma constante, K.<br />E que nos dias de sexta, sabado e domingo, s&atilde;o variaveis SE, SA, DO.<br /><br />Dado um numero N de semanas, e a quantidade de aparelhos que foram requisitados na sexta, s&aacute;bado e domingo, de cada semana, informe qual &eacute; o estoque final ap&oacute;s as N semanas.</p>
+
+<p>Se o estoque esgotar antes das N semanas, informar qual foi a semana e quantos aparelhos ficaram na lista de espera.</p>
+Formato da entrada: <p>Um inteiro E, correspondente ao estoque inicial.<br />Um inteiro K, correspondente &agrave; constante do aparelho que sai POR DIA de segunda &agrave; quinta.<br />Um inteiro N, correspondendo &agrave;s N semanas observadas.<br />Seguem-se N linhas, correspondendo &agrave;s semanas, cada uma recebendo tr&ecirc;s inteiros, SE, SA, DO, sendo respectivamente &agrave; requisi&ccedil;&atilde;o do aparelho na Sexta, S&aacute;bado e Domingo de cada semana.</p>
+Formato da saída: <p>Se o estoque esgotar antes das N semanas, imprimir uma linha, contendo qual foi a semana (1 - N) e quantos aparelhos ficaram na lista de espera para a pr&oacute;xima semana (ser&aacute; 0 ou um n&uacute;mero negativo).<br />Se n&atilde;o, imprimir APENAS o estoque final ap&oacute;s as N semanas.</p>
+
+<p>As saidas devem ser seguidas de uma quebra de linha.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

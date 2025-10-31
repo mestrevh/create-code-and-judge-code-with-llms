@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1295 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1295</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L5Q7 - O Mergesort
+Topicos do problema: recursão; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Rick percebeu que a incapacidade de Morty em ordenar arrays estava atrapalhando-os em suas aventuras. Então ele decidiu trocá-lo por um Morty de outra dimensão que soubesse ordenar arrays em tempo n*lg(n). Esse Rick, então, abriu uma competição entre os Mortys sem Ricks, para descobrir qual deles conseguiria tal façanha.</p><p>O Mergesort é um algoritmo de ordenação que utiliza da estratégia de divisão e conquista para ordenar um array. O processo de divisão consiste em dividir recursivamente o array em trechos que serão ordenados. O processo de conquista é feito sobre dois trechos separadamente ordenados, juntando-os em um novo trecho ordenado, partindo do pressuposto que um trecho composto por um único elemento é trivialmente ordenado.</p><p>O pseudocódigo a seguir, baseado nos algoritmos do livro <i>Algoritmos :Teoria e Prática. Cormem, Thomas H., </i>mostram o que pode ser implementado :<a href="https://www.livrariacultura.com.br/busca;_lcid=um3SxX0xylKdA2P0Hako8CTj6ZtsxaAqYoND6nQAByG1C6Jq0no8!1804814710?Ntt=STEIN%2C+RONALD+L.+RIVEST+E+CLIFFORD&amp;Ntk=product.collaborator.name" style="color: rgb(0, 152, 170);text-align: left;"></a></p><p>                                                                         <br/></p><p>                                                                     <img src="https://www.thehuxley.com/api/v1/problems/image/17b26a15dd8d536ea8b38ca5131c3d4777b401d7p.PNG"/><br/></p><p>Para provar a Rick que você consegue ordenar arrays rapidamente, você deve implementar um Mergesort que :</p><ul><li>Descreva os trechos do array com os quais o mergesort foi chamado, no processo de <i>divisão</i>.</li><li>Descreva os trechos de arrays antes e depois do processo de <i>conquista.</i></li></ul>
+Formato da entrada: <blockquote><p>N</p></blockquote><ul><li>N - número natural representando o tamanho do array a ser ordenado</li></ul><blockquote><p>A0 ... <span>An-1</span></p></blockquote><ul><li>A0 ... An-1, os n elementos do array separados por espaço.</li></ul>
+Formato da saída: <p>Para cada chamada do merge-sort : </p><blockquote>&#34;Separando o array V[l...<i>r</i>] : <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">{V[l], ..., V[r]} </span>em V[l...m] : <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">{V[l], ..., V[m]} </span>e V[m+1...r] : <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">{V[</span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">m+1</span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">], ..., V[</span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">r</span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">]}</span>&#34;</blockquote><ul><li>l, r - números natural, representando os índices do array a ser dividido.</li><li><span style="color: rgb(147, 149, 152);text-align: left;background-color: rgb(255, 255, 255);float: none;">m - número natural, representando o índice que &#34;separa&#34; os 2 novos trechos.</span></li></ul><ul style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><li>V[i] ... V[j] - números inteiros, representando os elementos do trecho do array sobre o qual o merge-sort será executado.</li></ul><p>Antes de cada chamada do merge :</p><blockquote>&#34;Executando o merge nos arrays {V[l], ..., V[m]} e {V[m+1], ..., V[r]}&#34;</blockquote><p>Depois de cada chamada do merge :</p><blockquote><p>&#34;array ordenado : {V[l], ..., V[r]}&#34;</p></blockquote><ul style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><li>V[i] ... V[j] - números inteiros, representando os elementos do trecho do array sobre o qual o merge será executado.</li></ul><p>Por fim, imprimir o array ordenado :</p><blockquote><p>&#34;O array ordenado : V[0] ... V[n-1]&#34;</p></blockquote><ul><li>V[0] ... V[n-1] - representando os elementos do array depois da ordenação separados por espaço.</li></ul><p><br/></p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>

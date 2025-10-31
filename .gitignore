@@ -4,3 +4,4 @@ judge_gemini/*
 !judge_gpt/README.md
 judge_gpt/*
 !judge_gpt/README.md
+.vscode

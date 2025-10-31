@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 85 - TCC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+        <header class="mb-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 85</h1>
+            <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+        </header>
+        <main>
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Adivinhe
+Topicos do problema: multiplas entradas; array; decisão; caractere; string; 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <p>O jogo da adivinhação foi criado por um engenheiro de telecomunicações chamado Mordechai Meirovitz, na Romênia em 1971. O jogo ganhou o prestigiado prêmio do &#34;Jogo do Ano&#34; em 1974 e foi um enorme sucesso comercial, sendo vendido em mais de 40 países.</p>&#13;<p>Trata-se de um jogo de lógica cujo seu objetivo como jogador é descobrir a senha secreta escolhida por um oponente. A senha a ser descoberta é formada por uma seqüência de caracteres de algum alfabeto. Para descobrir qual foi a senha, você &#34;chuta&#34; uma provável senha para o seu oponente. O chute é uma sequência de caracteres com o mesmo número de caracteres da senha. E os caracteres devem pertencer ao mesmo alfabeto.</p>&#13;<p>Após cada chute seu, você receberá uma resposta, que consiste de 2 inteiros (E,B) indicando o quão bom foi o seu chute. Se um caractere do chute existe na senha na mesma posição (da string), então ele conta como &#34;excelente&#34; (E). Caso contrário, se o caractere existe na senha, mas em uma posição diferente, ele conta como &#34;bom&#34; (B). Um dado caractere do chute não é contado duas vezes (ou seja, se ele foi contado como excelente, não é contado como bom). A tabela abaixo ilustra o jogo com alguns exemplos.</p>&#13;<p style="text-align: center;"><img src="https://thehuxley.com/api/v1/problems/image/c37d64f33a4d9b9f3df6c2d14f187e7d.png" border="0" width="611" height="200"/></p><p style="text-align: center;"><br/></p>&#13;<p>Baseado nas respostas recebidas, o jogador pode deduzir qual foi a senha escolhida pelo oponente. O objetivo do jogo é encontrar a senha com o número mínimo de chutes.</p>&#13;<p>Já o seu objetivo é um pouco mais simples: escrever um programa que receba a senha do primeiro jogador e em seguida recebe os chutes do segundo jogador. Você deve fornecer as respostas de acordo com o explicado acima.</p>
+Formato da entrada: <p>A primeira linha da entrada consiste de um n&uacute;mero K representando o n&uacute;mero de jogos que ser&atilde;o realizados. A pr&oacute;xima linha consiste de um n&uacute;mero N, [0 &lt; N &lt; 8], representando o tamanho da senha a ser utilizada no pr&oacute;ximo jogo. A pr&oacute;xima linha cont&eacute;m uma senha contendo d&iacute;gitos, entre 1 e 7, com exatamente N caracteres que ser&aacute; utilizada no jogo em quest&atilde;o.</p>
+
+<p>As pr&oacute;ximas linhas cont&ecirc;m os chutes dados pelo segundo jogador e, portanto, consistem de uma sequ&ecirc;ncia de d&iacute;gitos, entre 1 e 7, com exatamente N caracteres. Cada jogo termina quando a senha &eacute; acertada ou quando o jogador desiste de tentar digitando uma seq&uuml;&ecirc;ncia de N caracteres '0'. Ap&oacute;s cada jogo, o pr&oacute;ximo jogo tem inicio a partir da leitura de uma linha contendo um inteiro indicando o tamanho da pr&oacute;xima senha. Na linha seguinte &eacute; dada a nova senha e o jogo prossegue com os chutes.</p>
+Formato da saída: <p>Para cada chute, seu programa deve imprimir (E,B), correspondendo ao n&uacute;mero de excelentes e bons respectivamente.</p>
+</div> 
+            </div>
+        </main>
+        <footer class="text-center text-gray-500 mt-12">
+            <p>Gerado automaticamente.</p>
+        </footer>
+    </div>
+</body>
+</html>
