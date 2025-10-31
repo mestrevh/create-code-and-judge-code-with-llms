@@ -7,7 +7,7 @@ def create_index_page(question_links):
     """Cria a página HTML principal (index.html) com a lista de links."""
     list_items = ""
     for q_id, q_path in question_links.items():
-        list_items += f'<li class="mb-2"><a href="docs/{q_path.name}" class="text-blue-600 hover:text-blue-800 hover:underline">{q_path.parent.name.capitalize()} (ID: {q_id})</a></li>\n'
+        list_items += f'<li class="mb-2"><a href="{q_path.name}" class="text-blue-600 hover:text-blue-800 hover:underline">{q_path.parent.name.capitalize()} (ID: {q_id})</a></li>\n'
 
     return f"""
 <!DOCTYPE html>
@@ -47,6 +47,7 @@ def create_question_page(question_id, problem_text):
     Cria a página HTML para uma questão específica, 
     renderizando as tags HTML presentes no problem.txt.
     """
+    # --- MODIFICAÇÃO AQUI ---
     # Insere o conteúdo diretamente, permitindo que o navegador interprete as tags.
     # Usamos a classe 'prose' do Tailwind Typography para estilizar o conteúdo.
     problem_html = f'<div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">{problem_text}</div>'
@@ -117,7 +118,7 @@ def main():
     if question_links:
         sorted_links = dict(sorted(question_links.items()))
         index_html_content = create_index_page(sorted_links)
-        index_html_path = base_dir / "index.html"
+        index_html_path = output_dir / "index.html"
         index_html_path.write_text(index_html_content, encoding='utf-8')
         print(f"\nPágina principal 'index.html' gerada com sucesso em '{output_dir}'.")
     else:
