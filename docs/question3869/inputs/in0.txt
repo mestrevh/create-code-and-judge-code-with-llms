@@ -1,6 +1,0 @@
-5
-mov a, 1
-mov b, 4
-add a, b
-mov c, 3
-sub a, c

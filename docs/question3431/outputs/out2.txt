@@ -1,9 +1,0 @@
------------------------------------
-Pizzaria 0.1 - menu de comandos
------------------------------------
-- ajuda: exibe o menu de ajuda
-- sair: encerra o programa
-- exibir: exibe a lista de pedidos
-- novo #pedido: adiciona o #pedido
-- cancela #pedido: remove o #pedido
------------------------------------

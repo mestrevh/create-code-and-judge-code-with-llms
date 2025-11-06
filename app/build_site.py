@@ -327,34 +327,21 @@ def main():
                 if problem_file.is_file():
                     print(f"  Processando {item.name}...")
                     
-                    output_dir_question = output_dir / item.name
-                    output_dir_question.mkdir(exist_ok=True)
-                    
                     inputs_links_relativos = []
                     outputs_links_relativos = []
 
-                    output_dir_inputs_question = output_dir_question / "inputs"
-                    output_dir_inputs_question.mkdir(exist_ok=True)
                     input_questions_dir = item / "inputs"
                     
                     if input_questions_dir.is_dir():
                         for input_file in input_questions_dir.iterdir():
                             if input_file.is_file() and input_file.suffix == '.txt':
-                                input_text = input_file.read_text(encoding='utf-8')
-                                output_path = output_dir_inputs_question / input_file.name
-                                output_path.write_text(input_text, encoding='utf-8')
                                 inputs_links_relativos.append(f"{item.name}/inputs/{input_file.name}")
                                 
-                    output_dir_outputs_question = output_dir_question / "outputs"
-                    output_dir_outputs_question.mkdir(exist_ok=True)
                     output_questions_dir = item / "outputs"
 
                     if output_questions_dir.is_dir():
                         for output_file in output_questions_dir.iterdir():
                             if output_file.is_file() and output_file.suffix == '.txt':
-                                output_text = output_file.read_text(encoding='utf-8')
-                                output_path = output_dir_outputs_question / output_file.name
-                                output_path.write_text(output_text, encoding='utf-8')
                                 outputs_links_relativos.append(f"{item.name}/outputs/{output_file.name}")
                     
                     try:

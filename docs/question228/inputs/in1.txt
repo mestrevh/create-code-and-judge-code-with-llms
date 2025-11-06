@@ -1,9 +1,0 @@
-15
-mover 10 sobre 1
-mover 8 acima 1
-mover 2 acima 9
-mover 6 acima 10
-pilha 8 acima 6
-pilha 8 sobre 5
-pilha 1 sobre 5
-final

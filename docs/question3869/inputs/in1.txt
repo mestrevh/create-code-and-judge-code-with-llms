@@ -1,7 +1,0 @@
-6
-mov w, 2
-mov y, 1
-and w, y
-add w, 3
-sub y, 1
-add y, w
