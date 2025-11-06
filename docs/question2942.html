@@ -7,31 +7,174 @@
     <title>Questão 2942 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2942</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2942</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L4Q6 - Ru12?
-Topicos do problema: decisão; repetição; array bidimensional; 
-Tempo limite de execução: 5 segundo(s)
-Descrição: <p>Desde os primórdios dos tempos, Zé é um assíduo frequentador do RU(restaurante universitário). Ao longo dos anos, ele foi fazendo amiguinhos no CIn e alguns deles passaram a frequentar o RU também. Hoje, Zé administra um grupo no whatsapp chamado &#34;Turma do baiRU&#34;, onde ele e seus amiguinhos do CIn conversam sobre ir no RU.</p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/c31eb0e008c2f2e13298bede74e18f9ec46b0d23n.png" height="300"/><br/></p><p style="text-align: center;">(<b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Foto da turma do baiRU)  (invejosos dirão que é photoshop)</b><br/></p><p>Zé gosta muito de otimizar sua vida, daí a forma como ele combina com os amiguinhos o horário de ir no RU é um tanto peculiar.<br style="color: rgb(32, 33, 36);background-color: rgb(255, 255, 255);"/> Por exemplo:</p><p></p><ul><li><b> </b>ele traduz &#34;<b><u>galera, vamo no ru hj às 10:30?</u></b>&#34; para &#34;<b><u>Ru10e30</u></b>?&#34;</li><li><span style="color: inherit;">e traduz </span><u style="color: inherit;"><b>&#34;</b><b>galera, vamo no ru às 11:00</b><b>&#34;</b></u><b style="color: inherit;"> </b><span style="color: inherit;">para</span><b style="color: inherit;"> &#34;</b><u style="color: inherit;"><b>Ru11</b></u><b style="color: inherit;">?&#34;.</b><br/></li></ul><p><b><br/></b></p><p>Hoje Zé está meio preguiçoso ao invés de calcular qual o melhor horário para ir no RU, ele decidiu fazer um joguinho decidir por ele. Entretanto, como foi dito, Zé está preguiçoso e então ele precisa que você crie um código para jogar pra ele. O joguinho funciona da seguinte maneira:<br style="color: rgb(32, 33, 36);background-color: rgb(255, 255, 255);"/><br/></p><p>No caminho pra a ufpe, Zé vai anotar alguns dados aleatórios: <br/></p>
-Formato da entrada: <blockquote><p><b style="color: inherit;">N <br/></b></p></blockquote><p>Inteiro <b>N</b> define o tamanho do lado da matriz quadrada que ele irá construir.</p><p><br/></p><p>Seguido de NxN números:<br/></p><blockquote><p><b>A1 A2 A3... Anxn</b></p></blockquote><p><b><img src="https://www.thehuxley.com/api/v1/problems/image/e392a1a5b4a3188ceb4649c27da8ddb27419aa083.jpeg"/><br/></b></p><p>Representand os números da matriz.<b> <br/></b></p><p><b><br/></b></p><blockquote><p><b>K</b></p></blockquote><p>Inteiro <b>K</b> a potência à qual ele irá ter que elevar a matriz formada. <b><br/></b></p><blockquote><p><b>P</b></p></blockquote><p>String <b>P</b> sendo o nome do professor da aula que ele irá após almoçar (não há espaços na string <b>P</b>).<b><br/></b></p><div><br/></div><p><br/></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>Dicas teóricas:</b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>Seja<span> </span></b><b>A</b><b><span> </span>uma matriz NxN e I a matrix identidade de tamanho N:</b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi">A^1 = A = IxA = A^0 x A </span></span></span></span></b></span></span></span></span></b></span></span></span></span></b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" id="MathJax-Span-3" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi" id="MathJax-Span-4">A^</span></span><span><span class="mn" id="MathJax-Span-5">2</span><span style="width: 0px;height: 4.025em;"></span></span></span></span><span class="mo" id="MathJax-Span-6" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">=</span><span class="mi" id="MathJax-Span-7" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-8" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-9" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A = (A elevado ao quadrado)</span></b><br/></span></span></span></span></b></span></span></span></span></b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" id="MathJax-Span-3" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi" id="MathJax-Span-4">A^3</span></span></span></span><span class="mo" id="MathJax-Span-6" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">=</span><span class="mi" id="MathJax-Span-7" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-8" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-9" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-10" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-11" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A = (A elevado ao cubo)</span></b><br/></span></span></span></span></b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="msubsup" id="MathJax-Span-3" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi" id="MathJax-Span-4">A^</span></span><span><span class="mn" id="MathJax-Span-5">4</span><span style="width: 0px;height: 4.025em;"></span></span></span></span><span class="mo" id="MathJax-Span-6" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">=</span><span class="mi" id="MathJax-Span-7" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-8" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-9" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-10" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-11" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-12" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-13" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A = (A elevado à quarta potência)</span><br/></b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="mo" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A^k = AxAxA...xA (A multiplicada por ela mesma k vezes)</span></b></p>
-Formato da saída: <p><b>Após fazer a exponenciacao da matriz, Zé irá calcular dois numeros.</b><span> O primeiro sendo o </span><b>resto</b><span> (</span><b>R</b><span>) da </span><b>divisao entre</b><span> </span><b>S</b><span> (a soma de todos os elementos da matriz) </span><b>e o número 14</b><span>. O segundo sendo </span><b>D </b><span>(a soma dos números da diagonal principal).</span><br/></p><p>Você deve mostrar:</p><ul><li> a matriz exponenciada no formato quadrado(N linhas de N números cada):</li></ul><img src="https://www.thehuxley.com/api/v1/problems/image/5251cb7c1cb9a4df2de4fc503e8932d6f27dbb6f2.jpeg"/><br/><p><br/></p><p>Seguido de uma quebra de linha e:</p><blockquote><p>&#34;Ru<b>R</b>e30?&#34; </p></blockquote><p>Onde<b> R</b> é o resto descrito acima, caso <b>D</b> seja ímpar. <br/></p><p><b>OU</b></p><blockquote><p><b>    </b>&#34;Ru<b>R</b>?&#34;</p></blockquote><p>Onde R é o resto descrito acima, caso <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">D</b> seja par. <br/></p><p><br/></p><p>Seguido de:</p><blockquote><p><br style="background-color: rgb(255, 255, 255);"/>&#34; Aff.. Nem vai dar tempo de cochilar antes da aula de P.&#34; </p></blockquote><p><span>Se o horário resultante for maior ou igual a 12.</span><br/></p><b>OU</b><blockquote><p>&#34; Ainda bem, vai dar tempo de cochilar antes da aula de P.&#34; </p></blockquote><p>se o horário resultante for antes das 12.<br/></p><p><b>OU</b></p><blockquote><p>&#34; Eita, cedo demais..&#34; </p></blockquote><p>se o horário resultante for menor que as 10e30 (10:30)<br style="color: rgb(32, 33, 36);background-color: rgb(255, 255, 255);"/><br/></p><p><b>OBS: Os valores na matriz exponenciada podem passar de 2^32.</b></p><p><br/></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>L4Q6 - Ru12?</h2>
+<p><strong>Tempo limite:</strong> 5 segundo(s)</p>
+<p>Desde os primórdios dos tempos, Zé é um assíduo frequentador do RU(restaurante universitário). Ao longo dos anos, ele foi fazendo amiguinhos no CIn e alguns deles passaram a frequentar o RU também. Hoje, Zé administra um grupo no whatsapp chamado &#34;Turma do baiRU&#34;, onde ele e seus amiguinhos do CIn conversam sobre ir no RU.</p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/c31eb0e008c2f2e13298bede74e18f9ec46b0d23n.png" height="300"/><br/></p><p style="text-align: center;">(<b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Foto da turma do baiRU)  (invejosos dirão que é photoshop)</b><br/></p><p>Zé gosta muito de otimizar sua vida, daí a forma como ele combina com os amiguinhos o horário de ir no RU é um tanto peculiar.<br style="color: rgb(32, 33, 36);background-color: rgb(255, 255, 255);"/> Por exemplo:</p><p></p><ul><li><b> </b>ele traduz &#34;<b><u>galera, vamo no ru hj às 10:30?</u></b>&#34; para &#34;<b><u>Ru10e30</u></b>?&#34;</li><li><span style="color: inherit;">e traduz </span><u style="color: inherit;"><b>&#34;</b><b>galera, vamo no ru às 11:00</b><b>&#34;</b></u><b style="color: inherit;"> </b><span style="color: inherit;">para</span><b style="color: inherit;"> &#34;</b><u style="color: inherit;"><b>Ru11</b></u><b style="color: inherit;">?&#34;.</b><br/></li></ul><p><b><br/></b></p><p>Hoje Zé está meio preguiçoso ao invés de calcular qual o melhor horário para ir no RU, ele decidiu fazer um joguinho decidir por ele. Entretanto, como foi dito, Zé está preguiçoso e então ele precisa que você crie um código para jogar pra ele. O joguinho funciona da seguinte maneira:<br style="color: rgb(32, 33, 36);background-color: rgb(255, 255, 255);"/><br/></p><p>No caminho pra a ufpe, Zé vai anotar alguns dados aleatórios: <br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><blockquote><p><b style="color: inherit;">N <br/></b></p></blockquote><p>Inteiro <b>N</b> define o tamanho do lado da matriz quadrada que ele irá construir.</p><p><br/></p><p>Seguido de NxN números:<br/></p><blockquote><p><b>A1 A2 A3... Anxn</b></p></blockquote><p><b><img src="https://www.thehuxley.com/api/v1/problems/image/e392a1a5b4a3188ceb4649c27da8ddb27419aa083.jpeg"/><br/></b></p><p>Representand os números da matriz.<b> <br/></b></p><p><b><br/></b></p><blockquote><p><b>K</b></p></blockquote><p>Inteiro <b>K</b> a potência à qual ele irá ter que elevar a matriz formada. <b><br/></b></p><blockquote><p><b>P</b></p></blockquote><p>String <b>P</b> sendo o nome do professor da aula que ele irá após almoçar (não há espaços na string <b>P</b>).<b><br/></b></p><div><br/></div><p><br/></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>Dicas teóricas:</b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>Seja<span> </span></b><b>A</b><b><span> </span>uma matriz NxN e I a matrix identidade de tamanho N:</b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi">A^1 = A = IxA = A^0 x A </span></span></span></span></b></span></span></span></span></b></span></span></span></span></b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" id="MathJax-Span-3" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi" id="MathJax-Span-4">A^</span></span><span><span class="mn" id="MathJax-Span-5">2</span><span style="width: 0px;height: 4.025em;"></span></span></span></span><span class="mo" id="MathJax-Span-6" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">=</span><span class="mi" id="MathJax-Span-7" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-8" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-9" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A = (A elevado ao quadrado)</span></b><br/></span></span></span></span></b></span></span></span></span></b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="msubsup" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi"><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span class="msubsup" id="MathJax-Span-3" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi" id="MathJax-Span-4">A^3</span></span></span></span><span class="mo" id="MathJax-Span-6" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">=</span><span class="mi" id="MathJax-Span-7" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-8" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-9" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-10" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-11" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A = (A elevado ao cubo)</span></b><br/></span></span></span></span></b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="msubsup" id="MathJax-Span-3" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="width: 1.16em;height: 0px;"><span><span class="mi" id="MathJax-Span-4">A^</span></span><span><span class="mn" id="MathJax-Span-5">4</span><span style="width: 0px;height: 4.025em;"></span></span></span></span><span class="mo" id="MathJax-Span-6" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">=</span><span class="mi" id="MathJax-Span-7" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-8" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-9" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-10" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-11" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A</span><span class="mo" id="MathJax-Span-12" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">×</span><span class="mi" id="MathJax-Span-13" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A = (A elevado à quarta potência)</span><br/></b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><span class="mo" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);">A^k = AxAxA...xA (A multiplicada por ela mesma k vezes)</span></b></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><b>Após fazer a exponenciacao da matriz, Zé irá calcular dois numeros.</b><span> O primeiro sendo o </span><b>resto</b><span> (</span><b>R</b><span>) da </span><b>divisao entre</b><span> </span><b>S</b><span> (a soma de todos os elementos da matriz) </span><b>e o número 14</b><span>. O segundo sendo </span><b>D </b><span>(a soma dos números da diagonal principal).</span><br/></p><p>Você deve mostrar:</p><ul><li> a matriz exponenciada no formato quadrado(N linhas de N números cada):</li></ul><img src="https://www.thehuxley.com/api/v1/problems/image/5251cb7c1cb9a4df2de4fc503e8932d6f27dbb6f2.jpeg"/><br/><p><br/></p><p>Seguido de uma quebra de linha e:</p><blockquote><p>&#34;Ru<b>R</b>e30?&#34; </p></blockquote><p>Onde<b> R</b> é o resto descrito acima, caso <b>D</b> seja ímpar. <br/></p><p><b>OU</b></p><blockquote><p><b>    </b>&#34;Ru<b>R</b>?&#34;</p></blockquote><p>Onde R é o resto descrito acima, caso <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">D</b> seja par. <br/></p><p><br/></p><p>Seguido de:</p><blockquote><p><br style="background-color: rgb(255, 255, 255);"/>&#34; Aff.. Nem vai dar tempo de cochilar antes da aula de P.&#34; </p></blockquote><p><span>Se o horário resultante for maior ou igual a 12.</span><br/></p><b>OU</b><blockquote><p>&#34; Ainda bem, vai dar tempo de cochilar antes da aula de P.&#34; </p></blockquote><p>se o horário resultante for antes das 12.<br/></p><p><b>OU</b></p><blockquote><p>&#34; Eita, cedo demais..&#34; </p></blockquote><p>se o horário resultante for menor que as 10e30 (10:30)<br style="color: rgb(32, 33, 36);background-color: rgb(255, 255, 255);"/><br/></p><p><b>OBS: Os valores na matriz exponenciada podem passar de 2^32.</b></p><p><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2942/inputs/in0.txt;../app/questions/question2942/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2942/inputs/in1.txt;../app/questions/question2942/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2942/inputs/in2.txt;../app/questions/question2942/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2942/inputs/in3.txt;../app/questions/question2942/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2942/inputs/in4.txt;../app/questions/question2942/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2942/inputs/in5.txt;../app/questions/question2942/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

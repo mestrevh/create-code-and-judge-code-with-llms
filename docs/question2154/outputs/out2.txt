@@ -1,0 +1,72 @@
+BUSCA POR 48
+numero de elementos da tabela hash: 2
+elemento 48 encontrado!
+numero de elementos acessados na tabela hash: 1
+imprimindo tabela hash:
+[0]:Lista vazia!
+[1]:Lista vazia!
+[2]:Lista vazia!
+[3]:3=>79=>
+[4]:Lista vazia!
+[5]:Lista vazia!
+[6]:Lista vazia!
+[7]:26=>
+[8]:46=>
+[9]:47=>
+[10]:48=>
+[11]:Lista vazia!
+[12]:31=>
+[13]:32=>
+[14]:Lista vazia!
+[15]:Lista vazia!
+[16]:Lista vazia!
+[17]:Lista vazia!
+[18]:Lista vazia!
+BUSCA POR 3
+numero de elementos da tabela hash: 8
+elemento 3 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 48
+numero de elementos da tabela hash: 8
+elemento 48 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 31
+numero de elementos da tabela hash: 14
+elemento 31 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 16
+numero de elementos da tabela hash: 18
+elemento 16 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 25
+numero de elementos da tabela hash: 33
+elemento 25 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 31
+numero de elementos da tabela hash: 46
+elemento 31 encontrado!
+numero de elementos acessados na tabela hash: 1
+BUSCA POR 64
+numero de elementos da tabela hash: 56
+elemento 64 encontrado!
+numero de elementos acessados na tabela hash: 2
+imprimindo tabela hash:
+[0]:19=>19=>38=>38=>76=>76=>76=>
+[1]:1=>1=>39=>58=>
+[2]:2=>2=>21=>21=>40=>78=>
+[3]:3=>41=>79=>79=>
+[4]:4=>23=>61=>
+[5]:5=>43=>43=>62=>
+[6]:25=>44=>63=>63=>
+[7]:26=>26=>64=>
+[8]:27=>27=>46=>46=>46=>
+[9]:28=>47=>
+[10]:10=>10=>48=>48=>
+[11]:11=>49=>68=>
+[12]:31=>31=>50=>50=>50=>
+[13]:13=>32=>32=>51=>70=>
+[14]:33=>52=>71=>71=>
+[15]:72=>
+[16]:16=>16=>54=>54=>73=>73=>
+[17]:17=>55=>55=>55=>74=>
+[18]:56=>75=>

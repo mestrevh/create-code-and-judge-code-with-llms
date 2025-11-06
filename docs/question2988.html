@@ -7,31 +7,186 @@
     <title>Questão 2988 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2988</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2988</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L6Q4 - The Pandorica Opens
-Topicos do problema: estrutura de dados; 
-Tempo limite de execução: 3 segundo(s)
-Descrição: <p>O Doctor conseguiu encontrar a pandorica em meio ao Stonehenge, mas isso acabou por chamar a atenção de várias raças inimigas, que vieram em disparada e cercaram o nosso planeta. Diante dessa situação o Doctor decidiu fazer um discurso intimidador, com o intuito de espantar todos os seus inimigos. O programa que você deverá desenvolver agora deverá ser capaz de informar se o as palavras do Doctor serão capazes de repelir todos os agressores, ou se infelizmente o seu discurso não será intimidador o suficiente.</p><p><br/></p><p style="text-align: center;"><img src="https://d.wattpad.com/story_parts/112438495/images/13ccfa3ea0fc3e9f.jpg" alt="Resultado de imagem para pandorica speech"/><br/></p><p><br/></p><p>Seu programa deverá receber uma lista de inimigos na ordem em que eles chegaram, juntamente com o seu respectivo nível de moral, seguido do discurso do Doctor. E o discurso terá o seguinte efeito:</p><ul><li><b>O discurso sempre atingirá a raça que está a mais tempo cercando o planeta</b></li><li><b>O discurso deverá ser processado linha por linha</b></li><li><b>Para cada linha do discurso, a raça em questão perderá uma unidade de moral para cada caracter que coincide com a inicial do nome da raça (case insensitive).</b></li><li><b>Os integrantes da raça irão fugir caso a moral chegue em 0</b></li><li><b>Os integrantes da raça também irão fugir caso ouçam o doctor falando o nome dela (case insensitive), independente do nivel de moral atual</b></li><li><b>Sempre que uma raça fugir como consequencia de uma linha do discurso, essa linha também afetará a próxima raça da fila</b></li></ul><div><b><br/></b></div><div><b>Obs.: Não será permitido o uso de arrays de nenhuma forma para solucionar a questão.</b></div>
-Formato da entrada: <p></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span>A entrada consistirá de váias linhas representando os nomes das raças inimigas, em ordem de chegada, seguidos da moral da horda da respectiva raça</span><br/></p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>R</p><p>M</p></blockquote><p><br/></p><p>Ao final das raças haverá uma linha contendo dez traços ( - )</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>----------</p></blockquote><p>Seguida do discurso intimidador do Doctor</p>
-Formato da saída: <p>Sempre que uma raça fugir por conta do discurso do Doctor, o seu programa deverá imprimir:</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>A horda de R fugiu</p></blockquote><p>Onde R é o nome da raça que escapou.</p><p>E ao final de todo o discurso, deverá ser printado, caso o doctor tenha conseguido repelir todas as raças<span>:</span></p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>Nao ha mais inimigos a vista</p></blockquote><p>Ou, caso ainda hajam inimigos circundando o planeta:</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>Infelizmente o discurso nao foi tao intimidador assim.</p></blockquote><p><br/></p><p><br/></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estrutura de dados</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>L6Q4 - The Pandorica Opens</h2>
+<p><strong>Tempo limite:</strong> 3 segundo(s)</p>
+<p>O Doctor conseguiu encontrar a pandorica em meio ao Stonehenge, mas isso acabou por chamar a atenção de várias raças inimigas, que vieram em disparada e cercaram o nosso planeta. Diante dessa situação o Doctor decidiu fazer um discurso intimidador, com o intuito de espantar todos os seus inimigos. O programa que você deverá desenvolver agora deverá ser capaz de informar se o as palavras do Doctor serão capazes de repelir todos os agressores, ou se infelizmente o seu discurso não será intimidador o suficiente.</p><p><br/></p><p style="text-align: center;"><img src="https://d.wattpad.com/story_parts/112438495/images/13ccfa3ea0fc3e9f.jpg" alt="Resultado de imagem para pandorica speech"/><br/></p><p><br/></p><p>Seu programa deverá receber uma lista de inimigos na ordem em que eles chegaram, juntamente com o seu respectivo nível de moral, seguido do discurso do Doctor. E o discurso terá o seguinte efeito:</p><ul><li><b>O discurso sempre atingirá a raça que está a mais tempo cercando o planeta</b></li><li><b>O discurso deverá ser processado linha por linha</b></li><li><b>Para cada linha do discurso, a raça em questão perderá uma unidade de moral para cada caracter que coincide com a inicial do nome da raça (case insensitive).</b></li><li><b>Os integrantes da raça irão fugir caso a moral chegue em 0</b></li><li><b>Os integrantes da raça também irão fugir caso ouçam o doctor falando o nome dela (case insensitive), independente do nivel de moral atual</b></li><li><b>Sempre que uma raça fugir como consequencia de uma linha do discurso, essa linha também afetará a próxima raça da fila</b></li></ul><div><b><br/></b></div><div><b>Obs.: Não será permitido o uso de arrays de nenhuma forma para solucionar a questão.</b></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span>A entrada consistirá de váias linhas representando os nomes das raças inimigas, em ordem de chegada, seguidos da moral da horda da respectiva raça</span><br/></p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>R</p><p>M</p></blockquote><p><br/></p><p>Ao final das raças haverá uma linha contendo dez traços ( - )</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>----------</p></blockquote><p>Seguida do discurso intimidador do Doctor</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Sempre que uma raça fugir por conta do discurso do Doctor, o seu programa deverá imprimir:</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>A horda de R fugiu</p></blockquote><p>Onde R é o nome da raça que escapou.</p><p>E ao final de todo o discurso, deverá ser printado, caso o doctor tenha conseguido repelir todas as raças<span>:</span></p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>Nao ha mais inimigos a vista</p></blockquote><p>Ou, caso ainda hajam inimigos circundando o planeta:</p><blockquote style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><p>Infelizmente o discurso nao foi tao intimidador assim.</p></blockquote><p><br/></p><p><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2988/inputs/in0.txt;../app/questions/question2988/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2988/inputs/in1.txt;../app/questions/question2988/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2988/inputs/in2.txt;../app/questions/question2988/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2988/inputs/in3.txt;../app/questions/question2988/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2988/inputs/in4.txt;../app/questions/question2988/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2988/inputs/in5.txt;../app/questions/question2988/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question2988/inputs/in6.txt;../app/questions/question2988/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question2988/inputs/in7.txt;../app/questions/question2988/outputs/out7.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question2988/inputs/in8.txt;../app/questions/question2988/outputs/out8.txt">
+            Exemplo 9
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

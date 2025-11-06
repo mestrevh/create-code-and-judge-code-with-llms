@@ -7,35 +7,162 @@
     <title>Questão 129 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 129</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 129</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Guerra nas estrelas
-Topicos do problema: geometria computacional; maratona; requer solução eficiente; 
-Tempo limite de execução: 10 segundo(s)
-Descrição: <p>H&aacute; muito tempo atr&aacute;s, em uma gal&aacute;xia muito, muito distante, havia um imp&eacute;rio que dominava a todos. Uma alian&ccedil;a rebelde, descontente com essa situa&ccedil;&atilde;o, decidiu lutar contra tais for&ccedil;as, com o objetivo de restaurar a democracia e a paz para todos os povos.</p>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">geometria computacional</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">maratona</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">requer solução eficiente</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Guerra nas estrelas</h2>
+<p><strong>Tempo limite:</strong> 10 segundo(s)</p>
+<p>H&aacute; muito tempo atr&aacute;s, em uma gal&aacute;xia muito, muito distante, havia um imp&eacute;rio que dominava a todos. Uma alian&ccedil;a rebelde, descontente com essa situa&ccedil;&atilde;o, decidiu lutar contra tais for&ccedil;as, com o objetivo de restaurar a democracia e a paz para todos os povos.</p>
 
 <p><br />Capit&atilde;o Cael, um dos comandantes rebeldes, est&aacute; navegando pelo espa&ccedil;o com seu cruzador espacial, quando de repente percebe a presen&ccedil;a de uma nave do Imp&eacute;rio (de acordo com os padr&otilde;es est&eacute;ticos da &eacute;poca, todas as naves s&atilde;o tetraedros). Ap&oacute;s ser surpreendido por um ataque inicial do imp&eacute;rio, Cael percebe que est&aacute; em posi&ccedil;&atilde;o de disparo e que pode posicionar um canh&atilde;o em qualquer ponto de sua nave.</p>
 
-<p><br />Como a pot&ecirc;ncia de sua arma &eacute; fixa, Cael quer posicionar seu canh&atilde;o de forma que a dist&atilde;ncia percorrida pelo feixe de energia at&eacute; a nave do Imp&eacute;rio seja m&iacute;nima, para evitar perdas. Para isso, ele pediu que voc&ecirc;, sub-capit&atilde;o Cin Talig, calculasse a menor dist&acirc;ncia entre a nave rebelde e a nave do Imp&eacute;rio.</p>
-Formato da entrada: <p>A entrada cont&eacute;m v&aacute;rios casos de teste. A primeira linha da entrada cont&eacute;m um inteiro T, indicando o n&uacute;mero de casos de teste da entrada. Cada um dos T casos de teste &eacute; composto de oito linhas, cada uma descrevendo a coordenada de um v&eacute;rtice de uma nave; as quatro primeiras linhas indicam os v&eacute;rtices da nave rebelde; as quatro linhas seguintes indicam os v&eacute;rtices da nave do Imp&eacute;rio. <br /><br />Cada descri&ccedil;&atilde;o de coordenada &eacute; uma linha contendo tr&ecirc;s inteiros X, Y, Z indicando a coordenada do v&eacute;rtice no espa&ccedil;o ( -1000 &lt;= X &lt;= 1000, -1000 &lt;= Y &lt;= 1000, -1000 &lt;= Z &lt;= 1000); os quatro v&eacute;rtices de cada nave sempre definem um tetraedro de volume n&atilde;o nulo e duas naves s&atilde;o sempre disjuntas.</p>
-Formato da saída: <p>Para cada caso de teste da entrada seu programa deve imprimir um &uacute;nico n&uacute;mero, indicando a dist&acirc;ncia entre as duas naves, com duas casas decimais de precis&atilde;o. A dist&acirc;ncia entre as duas naves &eacute; sempre maior que zero.</p>
-</div> 
+<p><br />Como a pot&ecirc;ncia de sua arma &eacute; fixa, Cael quer posicionar seu canh&atilde;o de forma que a dist&atilde;ncia percorrida pelo feixe de energia at&eacute; a nave do Imp&eacute;rio seja m&iacute;nima, para evitar perdas. Para isso, ele pediu que voc&ecirc;, sub-capit&atilde;o Cin Talig, calculasse a menor dist&acirc;ncia entre a nave rebelde e a nave do Imp&eacute;rio.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada cont&eacute;m v&aacute;rios casos de teste. A primeira linha da entrada cont&eacute;m um inteiro T, indicando o n&uacute;mero de casos de teste da entrada. Cada um dos T casos de teste &eacute; composto de oito linhas, cada uma descrevendo a coordenada de um v&eacute;rtice de uma nave; as quatro primeiras linhas indicam os v&eacute;rtices da nave rebelde; as quatro linhas seguintes indicam os v&eacute;rtices da nave do Imp&eacute;rio. <br /><br />Cada descri&ccedil;&atilde;o de coordenada &eacute; uma linha contendo tr&ecirc;s inteiros X, Y, Z indicando a coordenada do v&eacute;rtice no espa&ccedil;o ( -1000 &lt;= X &lt;= 1000, -1000 &lt;= Y &lt;= 1000, -1000 &lt;= Z &lt;= 1000); os quatro v&eacute;rtices de cada nave sempre definem um tetraedro de volume n&atilde;o nulo e duas naves s&atilde;o sempre disjuntas.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada caso de teste da entrada seu programa deve imprimir um &uacute;nico n&uacute;mero, indicando a dist&acirc;ncia entre as duas naves, com duas casas decimais de precis&atilde;o. A dist&acirc;ncia entre as duas naves &eacute; sempre maior que zero.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question129/inputs/in0.txt;../app/questions/question129/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question129/inputs/in1.txt;../app/questions/question129/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

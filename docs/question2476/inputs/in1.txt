@@ -1,0 +1,27 @@
+3
+5
+ARR Maria 2
+ARR Alan 1
+ARR João 2
+ARR Eduardo 3
+ARR Paloma 1
+CLL
+ARR Pedro 5
+CLL
+END
+6
+ARR Maria 2
+ARR João 1
+ARR Aline 2
+ARR Renata 3
+ARR Eduardo 1
+CLL
+END
+10
+ARR Fred 2
+ARR Maria 1
+ARR Ana 1
+ARR Renata 3
+ARR Maria 1
+ARR Rodolfo 3
+END

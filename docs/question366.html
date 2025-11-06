@@ -7,35 +7,182 @@
     <title>Questão 366 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 366</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 366</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Saldo do Vovô
-Topicos do problema: acumulador; decisão; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <div style="font-size: 18.1818px; font-family: sans-serif; left: 108.188px; top: 309.208px; transform: rotate(0deg) scale(0.967115, 1); transform-origin: 0% 0% 0px;" dir="ltr"><span style="font-size: small;">Vov&ocirc; Jo&atilde;o tem uma banca de jornais; ele tem muitos clientes, e diariamente recebe muito dinheiro, mas tamb&eacute;m faz muitos pagamentos para manter o seu estoque de jornais e revistas. Todo dia ele vai ao banco realizar um dep&oacute;sito ou uma retirada de dinheiro. Em alguns dias, o saldo de sua conta no banco fica negativo, mas Vov&ocirc; Jo&atilde;o tem um acordo com o banco que garante que ele somente &eacute; cobrado se o saldo for menor do que um valor pr&eacute;-estabelecido.</span></div>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">acumulador</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Saldo do Vovô</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<div style="font-size: 18.1818px; font-family: sans-serif; left: 108.188px; top: 309.208px; transform: rotate(0deg) scale(0.967115, 1); transform-origin: 0% 0% 0px;" dir="ltr"><span style="font-size: small;">Vov&ocirc; Jo&atilde;o tem uma banca de jornais; ele tem muitos clientes, e diariamente recebe muito dinheiro, mas tamb&eacute;m faz muitos pagamentos para manter o seu estoque de jornais e revistas. Todo dia ele vai ao banco realizar um dep&oacute;sito ou uma retirada de dinheiro. Em alguns dias, o saldo de sua conta no banco fica negativo, mas Vov&ocirc; Jo&atilde;o tem um acordo com o banco que garante que ele somente &eacute; cobrado se o saldo for menor do que um valor pr&eacute;-estabelecido.</span></div>
 
-<div style="font-size: 18.1818px; font-family: sans-serif; left: 108.188px; top: 371.708px; transform: rotate(0deg) scale(0.972485, 1); transform-origin: 0% 0% 0px;" dir="ltr"><span style="font-size: small;">Dada a movimenta&ccedil;&atilde;o di&aacute;ria da conta do banco do Vov&ocirc; Jo&atilde;o, voc&ecirc; deve escrever um programa que calcule o menor saldo da conta, no per&iacute;odo dado.</span></div>
-Formato da entrada: <div dir="ltr"><span>A primeira linha da entrada contém dois números inteiros N e S que indicam respectivamente o número de dias do período de interesse e o saldo da conta no início do período. Cada uma das N linhas seguintes contém um número inteiro indicando a movimentação de um dia (valor positivo no caso de depósito, valor negativo no caso de retirada). A movimentação é dada para um período de N dias consecutivos: a primeira das N linhas corresponde ao primeiro dia do período de interesse, a segunda linha corresponde ao segundo dia, e assim por diante.</span></div><div dir="ltr"><span><br/></span></div><div dir="ltr"><span>1 ≤ N ≤ 30</span></div><div dir="ltr">-10^5 ≤ S ≤10^5</div><div dir="ltr"><span>-10^5 ≤ cada movimentação ≤10^5</span></div>
-Formato da saída: <p><span style="font-size: small;">Seu programa deve imprimir uma &uacute;nica linha, contendo um &uacute;nico n&uacute;mero inteiro, o menor valor de saldo da conta no per&iacute;odo dado.</span></p>
+<div style="font-size: 18.1818px; font-family: sans-serif; left: 108.188px; top: 371.708px; transform: rotate(0deg) scale(0.972485, 1); transform-origin: 0% 0% 0px;" dir="ltr"><span style="font-size: small;">Dada a movimenta&ccedil;&atilde;o di&aacute;ria da conta do banco do Vov&ocirc; Jo&atilde;o, voc&ecirc; deve escrever um programa que calcule o menor saldo da conta, no per&iacute;odo dado.</span></div></div>
+            </div>
 
-<p><span style="font-size: small;">Perceba que voc&ecirc; deve sempre esperar o final do dia para verificar o saldo. Ou seja, embora o problema informe o saldo inicial, voc&ecirc; precisa realizar a primeira opera&ccedil;&atilde;o para verificar o saldo ao final do dia.</span></p>
-</div> 
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><div dir="ltr"><span>A primeira linha da entrada contém dois números inteiros N e S que indicam respectivamente o número de dias do período de interesse e o saldo da conta no início do período. Cada uma das N linhas seguintes contém um número inteiro indicando a movimentação de um dia (valor positivo no caso de depósito, valor negativo no caso de retirada). A movimentação é dada para um período de N dias consecutivos: a primeira das N linhas corresponde ao primeiro dia do período de interesse, a segunda linha corresponde ao segundo dia, e assim por diante.</span></div><div dir="ltr"><span><br/></span></div><div dir="ltr"><span>1 ≤ N ≤ 30</span></div><div dir="ltr">-10^5 ≤ S ≤10^5</div><div dir="ltr"><span>-10^5 ≤ cada movimentação ≤10^5</span></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span style="font-size: small;">Seu programa deve imprimir uma &uacute;nica linha, contendo um &uacute;nico n&uacute;mero inteiro, o menor valor de saldo da conta no per&iacute;odo dado.</span></p>
+
+<p><span style="font-size: small;">Perceba que voc&ecirc; deve sempre esperar o final do dia para verificar o saldo. Ou seja, embora o problema informe o saldo inicial, voc&ecirc; precisa realizar a primeira opera&ccedil;&atilde;o para verificar o saldo ao final do dia.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question366/inputs/in0.txt;../app/questions/question366/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question366/inputs/in1.txt;../app/questions/question366/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question366/inputs/in2.txt;../app/questions/question366/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question366/inputs/in3.txt;../app/questions/question366/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question366/inputs/in4.txt;../app/questions/question366/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question366/inputs/in5.txt;../app/questions/question366/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question366/inputs/in6.txt;../app/questions/question366/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

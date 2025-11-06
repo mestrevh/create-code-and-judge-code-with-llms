@@ -7,37 +7,184 @@
     <title>Questão 363 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 363</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 363</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Overflow
-Topicos do problema: obi; decisão; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Os computadores foram inventados para realizar c&aacute;lculos muito rapidamente, e atendem a esse requisito de maneira extraordin&aacute;ria. Por&eacute;m, nem toda conta pode ser feita num computador, pois ele n&atilde;o consegue representar todos os n&uacute;meros dentro de sua mem&oacute;ria. Em um computador pessoal atual, por exemplo, o maior inteiro que &eacute; poss&iacute;vel representar em sua mem&oacute;ria &eacute; 4.294.967.295. Caso alguma conta executada pelo computador d&ecirc; um resultado acima desse n&uacute;mero, ocorrer&aacute; o que chamamos de overflow, que &eacute; quando o computador faz uma conta e o resultado n&atilde;o pode ser representado, por ser maior do que o valor m&aacute;ximo permitido (em ingl&ecirc;s overflowsignifica trasbordar). Por exemplo, se um computador s&oacute; pode representar n&uacute;meros menores do que 1023 e mandamos ele executar a conta 1022 + 5, vai ocorrer overflow .<br /><br />Dados o maior n&uacute;mero que um computador consegue representar e uma express&atilde;o de soma ou multiplica&ccedil;&atilde;o entre dois inteiros, determine se ocorrer&aacute; overflow.</span></p>
-Formato da entrada: <p><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">A primeira linha da entrada cont&eacute;m um inteiro N representando o maior n&uacute;mero que o computador consegue representar. A segunda linha cont&eacute;m um inteiro P, seguido de um espa&ccedil;o em branco, seguido de um caractere C (que pode ser `+' ou `*', representando os operadores de adi&ccedil;&atilde;o e multiplica&ccedil;&atilde;o, respectivamente), seguido de um espa&ccedil;o em branco, seguido de um outro inteiro Q. Essa linha representa a express&atilde;o P + Q , se o caractere C for '+', ou P x Q, se o caractere C for '*'.</span></p>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">obi</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Overflow</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Os computadores foram inventados para realizar c&aacute;lculos muito rapidamente, e atendem a esse requisito de maneira extraordin&aacute;ria. Por&eacute;m, nem toda conta pode ser feita num computador, pois ele n&atilde;o consegue representar todos os n&uacute;meros dentro de sua mem&oacute;ria. Em um computador pessoal atual, por exemplo, o maior inteiro que &eacute; poss&iacute;vel representar em sua mem&oacute;ria &eacute; 4.294.967.295. Caso alguma conta executada pelo computador d&ecirc; um resultado acima desse n&uacute;mero, ocorrer&aacute; o que chamamos de overflow, que &eacute; quando o computador faz uma conta e o resultado n&atilde;o pode ser representado, por ser maior do que o valor m&aacute;ximo permitido (em ingl&ecirc;s overflowsignifica trasbordar). Por exemplo, se um computador s&oacute; pode representar n&uacute;meros menores do que 1023 e mandamos ele executar a conta 1022 + 5, vai ocorrer overflow .<br /><br />Dados o maior n&uacute;mero que um computador consegue representar e uma express&atilde;o de soma ou multiplica&ccedil;&atilde;o entre dois inteiros, determine se ocorrer&aacute; overflow.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">A primeira linha da entrada cont&eacute;m um inteiro N representando o maior n&uacute;mero que o computador consegue representar. A segunda linha cont&eacute;m um inteiro P, seguido de um espa&ccedil;o em branco, seguido de um caractere C (que pode ser `+' ou `*', representando os operadores de adi&ccedil;&atilde;o e multiplica&ccedil;&atilde;o, respectivamente), seguido de um espa&ccedil;o em branco, seguido de um outro inteiro Q. Essa linha representa a express&atilde;o P + Q , se o caractere C for '+', ou P x Q, se o caractere C for '*'.</span></p>
 
 <p><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;"></span><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;">1 &le; N &le;&nbsp;500.000</span></p>
 
 <p><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;"></span><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;">0&nbsp;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">&le;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 10pt; text-align: justify;">&nbsp;P </span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">&le;</span><span style="color: #333333; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 10pt; text-align: justify;">&nbsp;1000</span></p>
 
-<p><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;"></span><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;">0 &le; Q &le; 1000</span></p>
-Formato da saída: <p><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">Se programa deve imprimir uma &uacute;nica linha, contendo a palavra 'OVERFLOW ' se o resultado da express&atilde;o causar um&nbsp;</span><em style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">overflow</em><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">, ou a palavra 'OK ' caso contr&aacute;rio. Ambas as palavras devem ser escritas com letras mai&uacute;sculas.</span></p>
-</div> 
+<p><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;"></span><span style="color: #333333; font-size: 10pt; font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; text-align: justify;">0 &le; Q &le; 1000</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">Se programa deve imprimir uma &uacute;nica linha, contendo a palavra 'OVERFLOW ' se o resultado da express&atilde;o causar um&nbsp;</span><em style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">overflow</em><span style="font-family: 'Open Sans', Verdana, Helvetica, Arial, 'Myriad Pro', sans-serif; font-size: 13px; text-align: justify;">, ou a palavra 'OK ' caso contr&aacute;rio. Ambas as palavras devem ser escritas com letras mai&uacute;sculas.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question363/inputs/in0.txt;../app/questions/question363/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question363/inputs/in1.txt;../app/questions/question363/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question363/inputs/in2.txt;../app/questions/question363/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question363/inputs/in3.txt;../app/questions/question363/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question363/inputs/in4.txt;../app/questions/question363/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question363/inputs/in5.txt;../app/questions/question363/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question363/inputs/in6.txt;../app/questions/question363/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -7,31 +7,178 @@
     <title>Questão 1288 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1288</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 1288</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: P3Q1 - Caixa de Meeseeks
-Topicos do problema: função; recursão; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <b id="docs-internal-guid-51ae8dec-a18d-6b4e-b697-3f456612d4b5"></b><p dir="ltr">Thanos, em sua busca por destruir o universo, encontrou um artefato interessante. Vindo de uma dimensão alternativa, a Caixa de Meeseeks era capaz de criar uma criatura (Mr. Meeseeks) que não iria medir esforços para cumprir a ordem de seu criador e desapareceria após o cumprimento da mesma.<br/><br/><span></span>Não é possível derrotar um Mr. Meeseeks de nenhuma forma, ele só irá sumir quando realizar a tarefa, porém, o tempo de vida de um Mr. Meeseeks é bem curto e ele irá enlouquecer após algumas horas de seu nascimento. Sabe-se que um Mr. Meeseeks pode utilizar a Caixa de Meeseeks para criar outros Mr. Meeseeks.<br/><br/></p><p dir="ltr">Para facilitar seu trabalho, Thanos iria criar uma quantidade inicial de Mr. Meeseeks, ordenar a quantidade de Mr. Meeseeks que cada um deveria criar e mandar cada um criar mais Mr. Meeseeks e matar um humano, caso ainda houvesse pelo menos um humano vivo no local.</p><br/><p dir="ltr">Como a Caixa de Meeseeks tem que ficar protegida, só após cada Mr. Meeseeks criar sua quantidade de Mr. Meeseeks, que podem ir cumprir sua tarefa para poder desaparecer. Enquanto isso, os Mr. Meeseeks recém-criados só podem criar seus próprios Mr. Meeseeks e partir para cumprir suas tarefas quando os seus criadores terminarem de matar seus humanos e desaparecer.</p><p dir="ltr"><br/><span></span>Sua tarefa é descobrir quantos Mr. Meeseeks vão enlouquecer quando não houver mais humanos para matar no local.<br/><br/><b>OBS: Sua solução precisa ser definida em um método recursivo.</b></p><br/><h3>Definição matemática</h3><p dir="ltr">Sendo F a função que recebe os números X, Q e N e retorna a quantidade de Mr. Meeseeks que irão enlouquecer, podemos definir F:</p><p dir="ltr"><span></span>Para X &gt;= N, F(X, Q, N) = X - N + (X * Q);</p><p dir="ltr"><span></span>Para X &lt; N, F(X, Q, N) = F(X * Q, Q, N - X);</p><br/><p dir="ltr">Aplicando no exemplo de entrada (“3 2 40”):</p><p dir="ltr"><span></span>F(3, 2, 40) = F(6, 2, 37) = F(12, 2, 31) = F(24, 2, 19) = 5 + 48 = 53;</p>
-Formato da entrada: <b id="docs-internal-guid-51ae8dec-a18e-3d3d-6baf-c12efed39949"></b><blockquote><p><span id="selectionBoundary_1510244035762_44303708215204507">&#65279;</span>X Q N</p></blockquote><p></p><ul><li>X - número natural positivo (1 &lt;= X &lt;= 10)</li><li><span>Q - número natural positivo (1 &lt;= Q &lt;= 10)</span><br/></li><li><span>N - número natural positivo (X &lt;= N &lt;= 1000)</span><br/></li></ul><br/><p>A linha única de entrada é composta pela quantidade inicial de Mr. Meeseeks que serão criados por Thanos, seguido pela quantidade de Mr. Meeseeks que cada Mr. Meeseeks irá criar e por fim o número de humanos no local.</p><br/><p dir="ltr">OBS: É garantido que o número de humanos no local sempre será, no mínimo, igual ao número de Mr. Meeseeks iniciais.<span id="selectionBoundary_1510244035762_9589719589109265">&#65279;</span></p>
-Formato da saída: <b id="docs-internal-guid-51ae8dec-a18f-ae56-57c1-df3452cdefde"></b><blockquote><p><span id="selectionBoundary_1510244074612_4941402232852289">&#65279;</span>L</p></blockquote><p></p><ul><li>L - número natural</li></ul><br/><p>A linha única de saída é composta pela quantidade de Mr. Meeseeks que irão enlouquecer por não poderem completar suas tarefas.<span id="selectionBoundary_1510244074612_812276045645632">&#65279;</span></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">função</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">recursão</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>P3Q1 - Caixa de Meeseeks</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<b id="docs-internal-guid-51ae8dec-a18d-6b4e-b697-3f456612d4b5"></b><p dir="ltr">Thanos, em sua busca por destruir o universo, encontrou um artefato interessante. Vindo de uma dimensão alternativa, a Caixa de Meeseeks era capaz de criar uma criatura (Mr. Meeseeks) que não iria medir esforços para cumprir a ordem de seu criador e desapareceria após o cumprimento da mesma.<br/><br/><span></span>Não é possível derrotar um Mr. Meeseeks de nenhuma forma, ele só irá sumir quando realizar a tarefa, porém, o tempo de vida de um Mr. Meeseeks é bem curto e ele irá enlouquecer após algumas horas de seu nascimento. Sabe-se que um Mr. Meeseeks pode utilizar a Caixa de Meeseeks para criar outros Mr. Meeseeks.<br/><br/></p><p dir="ltr">Para facilitar seu trabalho, Thanos iria criar uma quantidade inicial de Mr. Meeseeks, ordenar a quantidade de Mr. Meeseeks que cada um deveria criar e mandar cada um criar mais Mr. Meeseeks e matar um humano, caso ainda houvesse pelo menos um humano vivo no local.</p><br/><p dir="ltr">Como a Caixa de Meeseeks tem que ficar protegida, só após cada Mr. Meeseeks criar sua quantidade de Mr. Meeseeks, que podem ir cumprir sua tarefa para poder desaparecer. Enquanto isso, os Mr. Meeseeks recém-criados só podem criar seus próprios Mr. Meeseeks e partir para cumprir suas tarefas quando os seus criadores terminarem de matar seus humanos e desaparecer.</p><p dir="ltr"><br/><span></span>Sua tarefa é descobrir quantos Mr. Meeseeks vão enlouquecer quando não houver mais humanos para matar no local.<br/><br/><b>OBS: Sua solução precisa ser definida em um método recursivo.</b></p><br/><h3>Definição matemática</h3><p dir="ltr">Sendo F a função que recebe os números X, Q e N e retorna a quantidade de Mr. Meeseeks que irão enlouquecer, podemos definir F:</p><p dir="ltr"><span></span>Para X &gt;= N, F(X, Q, N) = X - N + (X * Q);</p><p dir="ltr"><span></span>Para X &lt; N, F(X, Q, N) = F(X * Q, Q, N - X);</p><br/><p dir="ltr">Aplicando no exemplo de entrada (“3 2 40”):</p><p dir="ltr"><span></span>F(3, 2, 40) = F(6, 2, 37) = F(12, 2, 31) = F(24, 2, 19) = 5 + 48 = 53;</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-51ae8dec-a18e-3d3d-6baf-c12efed39949"></b><blockquote><p><span id="selectionBoundary_1510244035762_44303708215204507">&#65279;</span>X Q N</p></blockquote><p></p><ul><li>X - número natural positivo (1 &lt;= X &lt;= 10)</li><li><span>Q - número natural positivo (1 &lt;= Q &lt;= 10)</span><br/></li><li><span>N - número natural positivo (X &lt;= N &lt;= 1000)</span><br/></li></ul><br/><p>A linha única de entrada é composta pela quantidade inicial de Mr. Meeseeks que serão criados por Thanos, seguido pela quantidade de Mr. Meeseeks que cada Mr. Meeseeks irá criar e por fim o número de humanos no local.</p><br/><p dir="ltr">OBS: É garantido que o número de humanos no local sempre será, no mínimo, igual ao número de Mr. Meeseeks iniciais.<span id="selectionBoundary_1510244035762_9589719589109265">&#65279;</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-51ae8dec-a18f-ae56-57c1-df3452cdefde"></b><blockquote><p><span id="selectionBoundary_1510244074612_4941402232852289">&#65279;</span>L</p></blockquote><p></p><ul><li>L - número natural</li></ul><br/><p>A linha única de saída é composta pela quantidade de Mr. Meeseeks que irão enlouquecer por não poderem completar suas tarefas.<span id="selectionBoundary_1510244074612_812276045645632">&#65279;</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question1288/inputs/in0.txt;../app/questions/question1288/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question1288/inputs/in1.txt;../app/questions/question1288/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question1288/inputs/in2.txt;../app/questions/question1288/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question1288/inputs/in3.txt;../app/questions/question1288/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question1288/inputs/in4.txt;../app/questions/question1288/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question1288/inputs/in5.txt;../app/questions/question1288/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question1288/inputs/in6.txt;../app/questions/question1288/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

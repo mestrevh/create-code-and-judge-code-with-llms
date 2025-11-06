@@ -7,31 +7,154 @@
     <title>Questão 669 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 669</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 669</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Atirando em Ouros
-Topicos do problema: busca binária; 
-Tempo limite de execução: 3 segundo(s)
-Descrição: <p dir="ltr" style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">Um jogo comum em Faceland é &#34;Atirando em Ouros&#34;. O jogo é feito em um campo (2*N+1)x(2*N+1). Antes do jogo começar, a CJF (Comissão dos Jogos de Faceland) posiciona pinos de boliche nesse campo, de forma que o formato final se assemelha à figura do naipe de Ouros, em um jogo de cartas. Por exemplo, se N = 4, a configuração do campo seria:</span></p><p dir="ltr" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">....*....</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">...***...</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">..*****..</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">.*******.</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">*********</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">.*******.</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">..*****..</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">...***...</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">....*....</span></p><p dir="ltr" style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">Onde . representa uma célula do campo vazia, e * representa uma célula com um pino. Depois que a CJF termina de configurar o campo dessa maneira, eles cobrem todo o campo, de forma que nenhum jogador pode ver a configuração do campo durante o jogo. Só há um time, e todos os participantes jogam juntos contra a CJF. No início do jogo, a CJF define um número R de rodadas. A partir desse momento, a cada rodada, um jogador é chamado para escolher uma linha ou uma coluna do campo em que deseja jogar. Escolhido o movimento, ele pega uma bola de boliche e joga na linha ou coluna escolhida, derrubando todos os pinos no caminho, mas sem ver o que está acontecendo (pois o campo está coberto).</span></p><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">Ao final das R rodadas, os jogadores devem informar o número de pinos que ainda estão em pé, ou seja, que não foram derrubados. Como pode haver muitas rodadas, eles acabam se perdendo na conta, e a CJF acaba ganhando. Por isso, eles decidiram chamar você para ajudá-los nessa tarefa, e sempre responder corretamente a quantidade de pinos não derrubados ao final do jogo.</span>
-Formato da entrada: <p></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span id="docs-internal-guid-de10e699-686d-b0a4-b32c-2a03be1095f6"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">A entrada é composta por vários casos de teste. A primeira linha contém o número T de casos de teste<span class="Apple-converted-space"> </span></span><span style="color: rgb(0, 0, 0);background-color: transparent;">(1<span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤<span class="Apple-converted-space"> </span></span><span style="color: rgb(0, 0, 0);background-color: transparent;">T<span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span class="Apple-converted-space"> </span>1050)</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">. Cada caso de teste começa com dois inteiros N (1 ≤ N ≤ 2*10^</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">9</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">) e R (0 ≤ R ≤ 10^</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">6</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">), que foram descritos na questão. A seguir, são dispostas R linhas. Cada linha i contém dois inteiros, T</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>e P</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">. T</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>é 0 quando a jogada é na linha, e 1 quando a jogada é na coluna. P</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>(1 ≤ P</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>≤ 2*N+1) representa a linha ou coluna em que o jogador jogou a bola de boliche.</span></span></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span id="docs-internal-guid-de10e699-6aac-da41-8bc4-cc15a295790a"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i>Atenção:</i></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i><span class="Apple-converted-space"> </span></i></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i>em apenas cerca de 1% dos casos o R será maior que 10^</i></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i>4</i></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i>.</i></span></span></span></span></p><p><br/></p>
-Formato da saída: <p><span style="color: rgb(51, 51, 51);float: none;background-color: rgb(255, 255, 255);">Para cada caso de teste, imprima uma única linha contendo a resposta esperada, isto é, o número de pinos que continuam em pé após todas as rodadas.</span><br/></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">busca binária</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Atirando em Ouros</h2>
+<p><strong>Tempo limite:</strong> 3 segundo(s)</p>
+<p dir="ltr" style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">Um jogo comum em Faceland é &#34;Atirando em Ouros&#34;. O jogo é feito em um campo (2*N+1)x(2*N+1). Antes do jogo começar, a CJF (Comissão dos Jogos de Faceland) posiciona pinos de boliche nesse campo, de forma que o formato final se assemelha à figura do naipe de Ouros, em um jogo de cartas. Por exemplo, se N = 4, a configuração do campo seria:</span></p><p dir="ltr" style="color: rgb(0, 0, 0);text-align: center;background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">....*....</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">...***...</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">..*****..</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">.*******.</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">*********</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">.*******.</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">..*****..</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">...***...</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><br class="kix-line-break"/></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">....*....</span></p><p dir="ltr" style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">Onde . representa uma célula do campo vazia, e * representa uma célula com um pino. Depois que a CJF termina de configurar o campo dessa maneira, eles cobrem todo o campo, de forma que nenhum jogador pode ver a configuração do campo durante o jogo. Só há um time, e todos os participantes jogam juntos contra a CJF. No início do jogo, a CJF define um número R de rodadas. A partir desse momento, a cada rodada, um jogador é chamado para escolher uma linha ou uma coluna do campo em que deseja jogar. Escolhido o movimento, ele pega uma bola de boliche e joga na linha ou coluna escolhida, derrubando todos os pinos no caminho, mas sem ver o que está acontecendo (pois o campo está coberto).</span></p><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">Ao final das R rodadas, os jogadores devem informar o número de pinos que ainda estão em pé, ou seja, que não foram derrubados. Como pode haver muitas rodadas, eles acabam se perdendo na conta, e a CJF acaba ganhando. Por isso, eles decidiram chamar você para ajudá-los nessa tarefa, e sempre responder corretamente a quantidade de pinos não derrubados ao final do jogo.</span></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span id="docs-internal-guid-de10e699-686d-b0a4-b32c-2a03be1095f6"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">A entrada é composta por vários casos de teste. A primeira linha contém o número T de casos de teste<span class="Apple-converted-space"> </span></span><span style="color: rgb(0, 0, 0);background-color: transparent;">(1<span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤<span class="Apple-converted-space"> </span></span><span style="color: rgb(0, 0, 0);background-color: transparent;">T<span class="Apple-converted-space"> </span></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">≤</span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span class="Apple-converted-space"> </span>1050)</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">. Cada caso de teste começa com dois inteiros N (1 ≤ N ≤ 2*10^</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">9</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">) e R (0 ≤ R ≤ 10^</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">6</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">), que foram descritos na questão. A seguir, são dispostas R linhas. Cada linha i contém dois inteiros, T</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>e P</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">. T</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>é 0 quando a jogada é na linha, e 1 quando a jogada é na coluna. P</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>(1 ≤ P</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);">i</span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span class="Apple-converted-space"> </span>≤ 2*N+1) representa a linha ou coluna em que o jogador jogou a bola de boliche.</span></span></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><span id="docs-internal-guid-de10e699-6aac-da41-8bc4-cc15a295790a"><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i>Atenção:</i></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i><span class="Apple-converted-space"> </span></i></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i>em apenas cerca de 1% dos casos o R será maior que 10^</i></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i>4</i></span><span style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><i>.</i></span></span></span></span></p><p><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span style="color: rgb(51, 51, 51);float: none;background-color: rgb(255, 255, 255);">Para cada caso de teste, imprima uma única linha contendo a resposta esperada, isto é, o número de pinos que continuam em pé após todas as rodadas.</span><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question669/inputs/in0.txt;../app/questions/question669/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -7,41 +7,172 @@
     <title>Questão 415 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 415</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 415</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Balanceamento de Parênteses
-Topicos do problema: pilha; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Em uma dada string, voc&ecirc; deve indicar se os par&ecirc;nteses e colchetes est&atilde;o balanceados.</p>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">pilha</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Balanceamento de Parênteses</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Em uma dada string, voc&ecirc; deve indicar se os par&ecirc;nteses e colchetes est&atilde;o balanceados.</p>
 
 <p>Diz-se que uma string est&aacute; balanceada quando para cada parenteses ou colchetes abrindo, existe um equivalente fechando.</p>
 
-<p>Por exemplo, a string: (()[]) est&aacute; balanceada, enquanto as strings ((()) e )( n&atilde;o est&atilde;o balanceadas.</p>
-Formato da entrada: <p>Voc&ecirc; ir&aacute; receber um n&uacute;mero inteiro n indicando a quantidade de strings que vir&atilde;o a seguir. Depois, voc&ecirc; receber&aacute; n strings, uma em cada linha.A string cont&eacute;m no m&aacute;ximo 255 caracteres e pode ser composta pelos caracteres ')', '(', ']', '[' e ' '.</p>
+<p>Por exemplo, a string: (()[]) est&aacute; balanceada, enquanto as strings ((()) e )( n&atilde;o est&atilde;o balanceadas.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Voc&ecirc; ir&aacute; receber um n&uacute;mero inteiro n indicando a quantidade de strings que vir&atilde;o a seguir. Depois, voc&ecirc; receber&aacute; n strings, uma em cada linha.A string cont&eacute;m no m&aacute;ximo 255 caracteres e pode ser composta pelos caracteres ')', '(', ']', '[' e ' '.</p>
 
 <p>O caracter branco deve ser ignorado.</p>
 
-<p>Tamb&eacute;m &eacute; poss&iacute;vel receber uma linha vazia.</p>
-Formato da saída: <p>Para cada string, voc&ecirc; deve imprimir 'Yes' , caso a string esteja balanceada e 'No' caso contr&aacute;rio.</p>
+<p>Tamb&eacute;m &eacute; poss&iacute;vel receber uma linha vazia.</p></div>
+            </div>
 
-<p>Se a string for vazia, voc&ecirc; deve imprimir 'Yes'</p>
-</div> 
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada string, voc&ecirc; deve imprimir 'Yes' , caso a string esteja balanceada e 'No' caso contr&aacute;rio.</p>
+
+<p>Se a string for vazia, voc&ecirc; deve imprimir 'Yes'</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question415/inputs/in0.txt;../app/questions/question415/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question415/inputs/in1.txt;../app/questions/question415/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question415/inputs/in2.txt;../app/questions/question415/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

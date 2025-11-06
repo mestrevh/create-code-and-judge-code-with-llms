@@ -7,31 +7,358 @@
     <title>Questão 2293 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2293</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2293</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Lucas e Yuki
-Topicos do problema: array; acumulador; decisão; busca completa; substrings; repetição; array bidimensional; string; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <b id="docs-internal-guid-e275d4fa-7fff-f331-5c2e-cfa1be2ae813"></b><p><span style="color: #000000;background-color: transparent;"><span id="selectionBoundary_1537497964247_6329241248905986" class="rangySelectionBoundary"><span id="selectionBoundary_1537498142710_013829429933064796" class="rangySelectionBoundary">&#65279;</span>&#65279;</span>Lucas é apaixonado por caça-palavras: acha eles intrigantes e sempre se interessou em bolar e aprender algoritmos criativos que buscassem as palavras rapidamente. Apesar de ter uma relação ótima com caça-palavras, ele não tem uma tão boa com Yuki, sua arqui-inimiga de muitos carnavais, que o atormenta dia e noite.</span></p><br/><p><span style="color: #000000;background-color: transparent;">Yuki é uma pequena e fofa shih-tzu de poucos meses de vida que, recentemente, assim como nos piores pesadelo de Lucas, ganhou uma espada de brinquedo. Por ser muito trelosa, ela pegou o livro de caça-palavras de Lucas, enquanto ele estava distraído, e usou sua espada para escrever o nome dela e de seus amigos cachorrinhos em vários caça-palavras, às vezes mais de uma vez, podendo ser em várias direções (cima, baixo, direita ou esquerda).<span id="selectionBoundary_1537498142710_7482169317468155" class="rangySelectionBoundary">&#65279;</span></span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Quando Lucas descobriu, ele entrou em pânico. Não iria conseguir dormir uma noite sequer caso mantivesse esses caça-palavras amaldiçoados pela tenebrosa Yuki no seu quarto. Acontece que Lucas ama muito os seus caça-palavras, e, assim, decidiu que iria manter todos aqueles que houvessem, no máximo, </span><span style="color: #000000;background-color: transparent;">X </span><span style="color: #000000;background-color: transparent;">ocorrências de nomes de cachorros, sejam de Yuki ou dos amigos dela, que é uma quantidade que o amor dele pelos enigmas consegue suportar, apesar do seu medo de cachorrinhos fofos.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Como analisar esses caça-palavras é uma tarefa muito árdua para Lucas, ele pediu sua ajuda. Você deve escrever um programa que, dados vários caça-palavras, em formato de matrizes de caracteres </span><span style="color: #000000;background-color: transparent;">N x M</span><span style="color: #000000;background-color: transparent;">, o valor máximo de ocorrências toleradas por Lucas, X, e os nomes dos amiguinhos de Yuki, diga quantos caça-palavras Lucas irá conseguir manter no seu quarto, respeitando a condição de que se ele vai ficar com um caça-palavras, então a soma da quantidade de ocorrências do nome de Yuki e dos amigos dela não deve exceder X.<br/></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><br/></span></p><p dir="ltr"><font color="#000000"><b>Obs: para um mesmo nome, duas ocorrências são diferentes se elas diferem no ponto de partida na matriz ou na direção em que Yuki escreveu o nome.</b></font></p>
-Formato da entrada: <b id="docs-internal-guid-8b7d2340-7fff-ccd5-b3f1-a073513eccf1"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">A entrada consiste em um único caso de teste. A primeira linha contém cinco inteiros <b>Q, X, C, N </b>e<b> M</b>, que representam, respectivamente, a quantidade de caça-palavras que você irá receber, a quantidade máxima de ocorrências dos nomes dos cachorrinhos em um caça-palavra, a quantidade de amigos que Yuki tem e, os dois últimos, as dimensões dos caça-palavras que serão dados. Depois, seguirão <b>C</b> linhas, onde, em cada uma, é dado o nome de um amiguinho de Yuki, contendo no mínimo 2 caracteres e, no máximo, 20. Depois, seguirão <b>Q</b> matrizes, que serão dadas da seguinte forma:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Cada uma das <b>Q</b> matrizes terá <b>N </b>linhas, cada linha com <b>M </b>caracteres;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Entre cada duas matrizes da entrada, haverá uma linha em branco separando-as.</span></p></li></ul><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>Limites</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= Q &lt;= 100</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= X &lt;= 500</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= C &lt;= 10</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= N &lt;= 20</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= M &lt;= 20</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>OBS</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Todos os caracteres dos caça-palavras e nomes dos cachorrinhos serão apenas letras, não-acentuadas, de A a Z, podendo ser maiúsculas ou minúsculas. Você deve achar as ocorrências do nome de Yuki ou de seus amigos sem considerar distinções entre letras maiúsculas e minúsculas.</span></p>
-Formato da saída: <p><span id="docs-internal-guid-468ba44b-7fff-47ff-5fdf-43b81684839b"><span style="color: rgb(0, 0, 0);background-color: transparent;">Um inteiro, dizendo quantos dos Q caça-palavras dados Lucas poderá manter consigo.</span></span><br/></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">acumulador</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">busca completa</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">substrings</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">string</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Lucas e Yuki</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<b id="docs-internal-guid-e275d4fa-7fff-f331-5c2e-cfa1be2ae813"></b><p><span style="color: #000000;background-color: transparent;"><span id="selectionBoundary_1537497964247_6329241248905986" class="rangySelectionBoundary"><span id="selectionBoundary_1537498142710_013829429933064796" class="rangySelectionBoundary">&#65279;</span>&#65279;</span>Lucas é apaixonado por caça-palavras: acha eles intrigantes e sempre se interessou em bolar e aprender algoritmos criativos que buscassem as palavras rapidamente. Apesar de ter uma relação ótima com caça-palavras, ele não tem uma tão boa com Yuki, sua arqui-inimiga de muitos carnavais, que o atormenta dia e noite.</span></p><br/><p><span style="color: #000000;background-color: transparent;">Yuki é uma pequena e fofa shih-tzu de poucos meses de vida que, recentemente, assim como nos piores pesadelo de Lucas, ganhou uma espada de brinquedo. Por ser muito trelosa, ela pegou o livro de caça-palavras de Lucas, enquanto ele estava distraído, e usou sua espada para escrever o nome dela e de seus amigos cachorrinhos em vários caça-palavras, às vezes mais de uma vez, podendo ser em várias direções (cima, baixo, direita ou esquerda).<span id="selectionBoundary_1537498142710_7482169317468155" class="rangySelectionBoundary">&#65279;</span></span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Quando Lucas descobriu, ele entrou em pânico. Não iria conseguir dormir uma noite sequer caso mantivesse esses caça-palavras amaldiçoados pela tenebrosa Yuki no seu quarto. Acontece que Lucas ama muito os seus caça-palavras, e, assim, decidiu que iria manter todos aqueles que houvessem, no máximo, </span><span style="color: #000000;background-color: transparent;">X </span><span style="color: #000000;background-color: transparent;">ocorrências de nomes de cachorros, sejam de Yuki ou dos amigos dela, que é uma quantidade que o amor dele pelos enigmas consegue suportar, apesar do seu medo de cachorrinhos fofos.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Como analisar esses caça-palavras é uma tarefa muito árdua para Lucas, ele pediu sua ajuda. Você deve escrever um programa que, dados vários caça-palavras, em formato de matrizes de caracteres </span><span style="color: #000000;background-color: transparent;">N x M</span><span style="color: #000000;background-color: transparent;">, o valor máximo de ocorrências toleradas por Lucas, X, e os nomes dos amiguinhos de Yuki, diga quantos caça-palavras Lucas irá conseguir manter no seu quarto, respeitando a condição de que se ele vai ficar com um caça-palavras, então a soma da quantidade de ocorrências do nome de Yuki e dos amigos dela não deve exceder X.<br/></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><br/></span></p><p dir="ltr"><font color="#000000"><b>Obs: para um mesmo nome, duas ocorrências são diferentes se elas diferem no ponto de partida na matriz ou na direção em que Yuki escreveu o nome.</b></font></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-8b7d2340-7fff-ccd5-b3f1-a073513eccf1"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">A entrada consiste em um único caso de teste. A primeira linha contém cinco inteiros <b>Q, X, C, N </b>e<b> M</b>, que representam, respectivamente, a quantidade de caça-palavras que você irá receber, a quantidade máxima de ocorrências dos nomes dos cachorrinhos em um caça-palavra, a quantidade de amigos que Yuki tem e, os dois últimos, as dimensões dos caça-palavras que serão dados. Depois, seguirão <b>C</b> linhas, onde, em cada uma, é dado o nome de um amiguinho de Yuki, contendo no mínimo 2 caracteres e, no máximo, 20. Depois, seguirão <b>Q</b> matrizes, que serão dadas da seguinte forma:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Cada uma das <b>Q</b> matrizes terá <b>N </b>linhas, cada linha com <b>M </b>caracteres;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Entre cada duas matrizes da entrada, haverá uma linha em branco separando-as.</span></p></li></ul><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>Limites</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= Q &lt;= 100</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= X &lt;= 500</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= C &lt;= 10</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= N &lt;= 20</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">1 &lt;= M &lt;= 20</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>OBS</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Todos os caracteres dos caça-palavras e nomes dos cachorrinhos serão apenas letras, não-acentuadas, de A a Z, podendo ser maiúsculas ou minúsculas. Você deve achar as ocorrências do nome de Yuki ou de seus amigos sem considerar distinções entre letras maiúsculas e minúsculas.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span id="docs-internal-guid-468ba44b-7fff-47ff-5fdf-43b81684839b"><span style="color: rgb(0, 0, 0);background-color: transparent;">Um inteiro, dizendo quantos dos Q caça-palavras dados Lucas poderá manter consigo.</span></span><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2293/inputs/in0.txt;../app/questions/question2293/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in1.txt;../app/questions/question2293/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in10.txt;../app/questions/question2293/outputs/out10.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in11.txt;../app/questions/question2293/outputs/out11.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in12.txt;../app/questions/question2293/outputs/out12.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in13.txt;../app/questions/question2293/outputs/out13.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in14.txt;../app/questions/question2293/outputs/out14.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in15.txt;../app/questions/question2293/outputs/out15.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in16.txt;../app/questions/question2293/outputs/out16.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in17.txt;../app/questions/question2293/outputs/out17.txt">
+            Exemplo 10
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in18.txt;../app/questions/question2293/outputs/out18.txt">
+            Exemplo 11
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in19.txt;../app/questions/question2293/outputs/out19.txt">
+            Exemplo 12
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in2.txt;../app/questions/question2293/outputs/out2.txt">
+            Exemplo 13
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in20.txt;../app/questions/question2293/outputs/out20.txt">
+            Exemplo 14
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in21.txt;../app/questions/question2293/outputs/out21.txt">
+            Exemplo 15
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in22.txt;../app/questions/question2293/outputs/out22.txt">
+            Exemplo 16
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in23.txt;../app/questions/question2293/outputs/out23.txt">
+            Exemplo 17
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in24.txt;../app/questions/question2293/outputs/out24.txt">
+            Exemplo 18
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in25.txt;../app/questions/question2293/outputs/out25.txt">
+            Exemplo 19
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in26.txt;../app/questions/question2293/outputs/out26.txt">
+            Exemplo 20
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in27.txt;../app/questions/question2293/outputs/out27.txt">
+            Exemplo 21
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in28.txt;../app/questions/question2293/outputs/out28.txt">
+            Exemplo 22
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in29.txt;../app/questions/question2293/outputs/out29.txt">
+            Exemplo 23
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in3.txt;../app/questions/question2293/outputs/out3.txt">
+            Exemplo 24
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in30.txt;../app/questions/question2293/outputs/out30.txt">
+            Exemplo 25
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in31.txt;../app/questions/question2293/outputs/out31.txt">
+            Exemplo 26
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in32.txt;../app/questions/question2293/outputs/out32.txt">
+            Exemplo 27
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in33.txt;../app/questions/question2293/outputs/out33.txt">
+            Exemplo 28
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in34.txt;../app/questions/question2293/outputs/out34.txt">
+            Exemplo 29
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in35.txt;../app/questions/question2293/outputs/out35.txt">
+            Exemplo 30
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in36.txt;../app/questions/question2293/outputs/out36.txt">
+            Exemplo 31
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in37.txt;../app/questions/question2293/outputs/out37.txt">
+            Exemplo 32
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in38.txt;../app/questions/question2293/outputs/out38.txt">
+            Exemplo 33
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in39.txt;../app/questions/question2293/outputs/out39.txt">
+            Exemplo 34
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in4.txt;../app/questions/question2293/outputs/out4.txt">
+            Exemplo 35
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in40.txt;../app/questions/question2293/outputs/out40.txt">
+            Exemplo 36
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in41.txt;../app/questions/question2293/outputs/out41.txt">
+            Exemplo 37
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in42.txt;../app/questions/question2293/outputs/out42.txt">
+            Exemplo 38
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in43.txt;../app/questions/question2293/outputs/out43.txt">
+            Exemplo 39
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in44.txt;../app/questions/question2293/outputs/out44.txt">
+            Exemplo 40
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in45.txt;../app/questions/question2293/outputs/out45.txt">
+            Exemplo 41
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in46.txt;../app/questions/question2293/outputs/out46.txt">
+            Exemplo 42
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in47.txt;../app/questions/question2293/outputs/out47.txt">
+            Exemplo 43
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in48.txt;../app/questions/question2293/outputs/out48.txt">
+            Exemplo 44
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in49.txt;../app/questions/question2293/outputs/out49.txt">
+            Exemplo 45
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in5.txt;../app/questions/question2293/outputs/out5.txt">
+            Exemplo 46
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in50.txt;../app/questions/question2293/outputs/out50.txt">
+            Exemplo 47
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in51.txt;../app/questions/question2293/outputs/out51.txt">
+            Exemplo 48
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in6.txt;../app/questions/question2293/outputs/out6.txt">
+            Exemplo 49
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in7.txt;../app/questions/question2293/outputs/out7.txt">
+            Exemplo 50
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in8.txt;../app/questions/question2293/outputs/out8.txt">
+            Exemplo 51
+        </option>
+        
+        <option value="../app/questions/question2293/inputs/in9.txt;../app/questions/question2293/outputs/out9.txt">
+            Exemplo 52
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

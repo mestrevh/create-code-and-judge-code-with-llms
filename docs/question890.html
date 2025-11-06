@@ -7,31 +7,194 @@
     <title>Questão 890 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 890</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 890</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Brincando com Ambrosinho
-Topicos do problema: array bidimensional; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Ambrosinho ganhou um brinquedo de seu pai, um tabuleiro que rotaciona tanto no sentido horário quanto no anti-horário sempre em 90º graus. O jogo consiste em mostra de maneira correta como ficará o tabuleiro dando um <b>N</b> de rotação. Se <b>N </b>for negativo significa que vamos rotacionar <b>N</b> vezes no sentido anti-horário, caso o <b>N </b>seja positivo vamos rotacionar <b>N </b>vezes no sentido horário.</p><p>                                           Tabuleiro recebido                           Uma rotação horária                     Duas rotações horária<span style="color: rgb(147, 149, 152);float: none;background-color: rgb(255, 255, 255);">                       Três rotações horária </span></p><p style="text-align: center;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAB/CAIAAAC/us2ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASDSURBVHhe7Z09buMwEEb3Zmn3IK58jzQ+SADfI0Aatym3CAy4dOvSy+GfJFJKHHmG+iR8D1PsZoFQ4iOHY2mS/XMnwFAPNNQDDfVAQz3QUA801AMN9UBDPdBQDzTUAw31QEM90FAPNNQDDfVAY6Hn9rY/vfyVeP2IX7KkGy7FPxfv8V+NuI2Mu7983e8uFNHU83X8dNG/4gZ63g+nl8M1/kW4vrpxZXRDQ27QctzzZecNBUlaUM8cVqjnw6UUUbI73vKfmyS3krxKGo/uB5V4O8evPI9NabCoHjd6uABZKA3JmUPxrresp/Hoku60qxLqUYN6HiKe26pnwI+EzObSqW5G3ZweX0FJETUo50zwi6ALi6OOeuZDPb9FPvSoHwCPEYZmYT1Ofsois9Py1Okw2LjUowf1TJGqtSVOuw5ZH7JE9J7rbEFP/rje+DFBRXrcx93TEcY6XBuUaomoYXh3MbWyNBhCPQ+RlIyFlLkGlW4uB6bCaFy52ZH7BX8dR9ShHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqChHmioBxrqgcZIT3rr7sL4JWZuNKiiSatb7s7pB3ivwWDKWuhZqHnKvzBV76vuQz1PsE49ktl2x4sLyW+b1HO+xLRm3Lqlr0faAaUp4upiq3rcoHlcU6hnDuvUk7a8bwBzVraqR79ZdwpNPbHROV50Sz2pDInhTmzTqjrpOVxDY3cXyL/XgHqA9UiV2U/HjfRUyKAyruHBkIcYVm75I6qeIS09vpl20Oi8lJ7uCDQbOumpNMT8obcylPT4rTM8n5fTk3uv/fQppprEZGmgXtFRzwzWpqc8IaswffJRkVaGtZ6qAEHdPSMst3vsn7hMaJjUNhvqmQP1PEDUUMyFDJozmxnp7nr50wuTTK74M4Gr3z31sdfwnPM32EVRHClAPc+wYj1EAeqBhnqgoR5oqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqg0dJTvPkoQv9FyIDc/9eLFr/GNHTTdSHvbbVeYweo5wnWo2cK329mcN0d1Y+opT4Nw1YQN2geN34l3aliH4jDWE9Y15avlv3L7EK/9Xt0+eby/Ytuk7SJFe+XemawFT1+7opmMGUW0DOpIfW56fVw2elJc2Tbbxa7y9xM5cnKZ49VdfCjHr3jx0qP+Rz16PVSfe5kdiQUM0xFSm7V7nRXknezCtQzg9Xr0d/m35PmJYRydVuThxssPl9qhwvA1pMu1HIJJ/xJ0Cnp5sh84/YWhI/95e1wckE9Pajnt/jrdgePbUntUmj+rO6mozcjqWgsv27NKgrrsJwb/H9H3/4cjy9MjJ/1lcSSQTFnUI8ia9CT62nzkjrpGV0HPsE2TW5hQeimdF09Ken75Gv6sMCTz57hLvlWmxFGi1JVz8hj9haUFZQP02twI1aDqlVrfahnDuvUQ7ShHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6gHmfv8P289fUCbyhXMAAAAASUVORK5CYII=" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/>               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAB/CAIAAAC/us2ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASCSURBVHhe7Zw7buswEEXfztJ6Ia6yjzRZSIDsI4AbtylTBAFSpk3pDEkNbUnWxxYv3yVwD6Z4dvD04Rl+JI387ySIkR5qpIca6aFGeqiRHmqkhxrpoUZ6qJEeaqSHGumhRnqo2a7nx+Jpd3yYi3eLl6/uPwDoH8OzfYTy+/J4tLB9PR1OFjik5w5a0jPDbzqTh92HxVv3ZXk+X98tPBWAeoY7alvP17fFfnfcv/5adF+WJ/Qbi/3rd/oHSs/BkiwoCedy+EgfpWcR6bmLt+ejRZp1cBNP2MXjt8Wne8LPPUFV63q8sULDnSzK473T20h6bkB6CoDSk1c4uKPvBs+zfulZRZX1dGidweWU9KxCeooB0OOHDltPu/7nn74J6VkBfD3dNc14+9KzAukpSGk96TYBso1c/3IAb1U0qqfCenoa9Z4lpKcsBfVYo4QG8jtg9ZGeGfyIYevpRcB64tlNh/21/EVe6aWBKIr0UCM91EgPNdJDjfRQIz3USA810kON9FAjPdRIDzXSQ430UCM91EgPNdJDTTk9XpA+eIwIetY7eEutH+GpJaA69fzO4uW+gJWwxfT4g97Lx9jWgqkREY+345ZDQErprhGqt6bqUlEJIT2raVhPrAscd3Ov3RmeVQHq67lKTkFQyY70bANcnyQ922hCT+rg6Si7r8Adn00P9eBmWAeKfcgitNreF6CInDJyQvRj3IOx+FmHLEEkivRsohk9CTf0XxorL3NRjTUE/7ZMIT35QKOPoMSvhCxA4/IV8p0LwGKkj696wCkoPffRjB6bWqbew650Dhf4wWBfYsk33+Cj6GY9nrBTC/+6K2BPCKSePL9WGBKK6ZkaT+LJ1Oo9S7myEUu1tGIEbX+M9NxAg3rOc89oBFsydyfdZoPvwVRnw1oa2fxXdoqSFzvYRUeP7Xo6rJf0L3q6AGXZ1L4wu8spOBOQEUJ61tC+HoFAeqiRHmqkhxrpoUZ6qJEeaqSHGumhRnqokR5qpIca6aFGeqiRHmqkh5pyevKja/ATqiGpuKC3X1CdW66fugjwzw5Lz3ra1eNlEhfPkvPJjGs2ClH3p5nD4/OB9ZwZoOKTEnrscCcq/6BlTd40FcTM4KVVvG8oSA+znjkH9jEWuAAG6NQow8q66rge2rfj1ugpvEYAWr8VLx9Dza/Sswl6PXnuqVdj7XriHuP2+xGdVdCWhjWLUV4WY7ueQG6j3vjrC9/Sejwhxk3jXRnUsbyvnOPamFES6bmBVvUY40NPbfQSvsTomXAQD6POoi4cRkwU3uueGSytEHP4wmarrrlzf4XcRsLq6dK89AjgeiY6Zd1LIlAKdkjPRprVY82UWgoxLk84WDAHwCfCtga32HzWTLjXl31ajjmb0tYTovgtls7BaLMhFWI2QFLQkJ41NK5nuKQOEcYW8PDiA8s5xsNdOfKrv5eBmXIy0KWB2Ir0UCM91EgPNdJDjfRQIz3USA810kON9FAjPdRIDzXSQ430UCM91EgPNdJDjfRQIz3USA810kON9FAjPdRIDzGn0x/JFbI7cuDRLAAAAABJRU5ErkJggg=="/><span style="color: rgb(147, 149, 152);text-align: center;float: none;background-color: rgb(255, 255, 255);">               </span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAB/CAIAAAC/us2ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASgSURBVHhe7Z09biMxDEb3ZtvuQVzlHmlykAC5R4A0aVO6CAK4TJvSS2pEjufP9jhD+hPwPRALZAJ4OHqSKFty9s+RAEM90FAPNNQDDfVAQz3QUA801AMN9UBDPdBQDzTUAw31QEM90FAPNNQDDfVAQz3Q3KTn6yCx+/cu8beP/evxKBHIzE01Ht/q7zflW+Jxcq9JfDx/HSWCWK/nbd9ltnv5kSiX5N+f5we5KL9SSdvztu/ue3JT5fPlQ2J6PR593u6RQzsl9dwGoh4b7w8HiU9pnXq9YDNPRDO9Pr1LzLWFpfT0LVGvJRD5sKes0eMlZ76rWoeamvs1aHpKMjJqtfCEQj230LKegOl4qcb4dVm8xazfpliHsBk+lJtqz0JXXe7j21BevAvtuTvtChpzfSWK5A5BPetA1qN4G43zswV3nB7BeoBH2FJ+nqT1tLNajzBpoxIPh+end4mQ1K3suQ99/b5DZNWek/d89Uow1LOGJvQsELewPjOlWDlMmeVKp9SyF72edjbUo80ksX3P6lbzy69canVwq/nwzX2DtZmewDYyPUvtUjp17OhJXrA51HMVDeuJT91rj7of6M+Yc2p50woX8HnVeVbrmVmzpZRlYe7WGrHrKNvLCL/RHNRzibb0kEyoBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqChHmioBxrqgYZ6oPmFnv7s2TACNpV9v3whdDMwYT+w39WWSDmyQz2raEJP+v6u6ZkcBcll0EVA9dixJhGTtvcOoEdM6NDZvRwkdABRj0M919I1U3JL3V3Pa3fqX8+5fUtg6pGxoicCJcvkA3n31GMrIIlyyLIOI+rpoZ5rMD0lszreJVGPsG/Dmp7h7TTCT0D6tGaPhqvHMisxXhpYF0scWJpMySdsVOn7h9GopZ5roZ4BltlC7bHpLrFCBH5DYTCT12sKrp4LS4N7FPBxSptRPxmZPgu+HivIo5p8Dz3WWFvrsZngcown+U2hnnla1KN0AuYcqLlO3tRcFP6mJO8TJtzJrUOTm3bYok170/bfX1QBe4mJ8j4TSWPLwnMO6hlBPSupKWqWfQSWnKVKkDinOQ3oIUlQDzTUAw31QEM90FAPNNQDDfVAQz3QUA801AMN9UBDPdBQDzTUAw31QEM90Nygx498DCN2R9kPCY2inhmKZ5BAzN+DnmG1Ht1UHu3j+lHNzc8CGnUze7x57BvqgWeD7HRYFUM9M1DPbynPoJF1AFHxtpP2Cmmyk28465kT+7FRPampKwv/3WwU1LMO6rkSrQ156yjD9Eh7ZTRZi3q8ACR14RPqkiHt0H0TeqxRBpEsRukOv8vd409rVqhnBdRzHdI65dhx3sLa7yjtlVjt2tRTSOrLMkb9U6WskuNQzyWo50as1SI/Gz0te2lt1NOyHvsELGz0+Dvf/BV8hXrOQD3nqeslSW6YX60HgSs3//uLKd9JW6SB0WMpjiOw5Pha4ExIVgEr7KWH7SNwL0OgnrO0p4ckQj3QUA801AMN9UBDPdBQDzTUAw31QEM90FAPNNQDDfVAQz3QUA801AMN9UBDPdBQDzDH439Htmr86bITYgAAAABJRU5ErkJggg=="/><span style="color: rgb(147, 149, 152);text-align: center;float: none;background-color: rgb(255, 255, 255);">               </span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAB/CAIAAAC/us2ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATFSURBVHhe7ZuxTuQwEIbvzWh5kK14DxoeBIn3QKLZlpICIW1JS5kbO56J10nE7nrs/EH/p9FJt3fCjr/JeMI6/wYCDPVAQz3QUA801AMN9UBDPdBQDzTUAw31QEM90FAPNNQDDfVAQz3QUA80Xnp+nh+OEnf35/Fw+hwGiR58nQ73R4lyDk/f6T+0YGHQD4nX9M+1+Oh5fQqrcLYQX6dx6mKouaS3DwlZmsPLj0T6sDULg8qflqbBUL0k6rmVHelZ4/Pl/e4+xPPXIOGPJkGIbmIGycLvx/ujxELm2ZQ8coV6buBP6Qkb5uPbIOGO/Pw8AzrxS07IJ6HEuVT1tnrCnqSdTH0hnqGFXheiExfq8bhw6rmeP6BHy45PCV5B9cSmMabCebTSlu09Kw9VXnnppkcmNF+gZmJGdI3mY2UJPhpyl2TXW26r2nBTD/XcTqoALRvrqbtdLGK6gs3a+jjEmBxTxMk8h8+h9UQshYvfKfjwS2tgbXc7PUvITRxbA51VzY1LPe7sSM9vK1iH/nAtIwUb6UlVXfbC+q2XetzZkx7dvZsUt0nA6CAjVZhRXuX+fBW+OVGvJyVL2V9OD89N81dHjy2TFXpdIxk9TKwPLQalHjcw9UTSg9gsqluXy0iSsqGb5kTAHkuzcHjQKWi995AqqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqChHmioBxovPXYspoi2p2Tyr/eXYvmAlSd2zvI8sM4ahG/dy6NS9v2//zfwhupJJwu6svK+sWUM0Dk36kkfYupZY5yoxOyYlQ8b6tGTOvPM07z0OHnZuDXQA1YuqTSHeuqgnjo66fl7xU2HXt17XC6Zem7ENOxYT7z909q1WD5bi1lIWrRqF3PiBY7xfng4Sox/9arkzfToy7cuJfhKQumPPX2Pu0o3IYuUGS5QTy171GML1KPCLJC/ON8oOSz/zMf0ynwIzL1Hau7Zaz0bkaYRZuL/Ekv2wxfyTxtrj/2Pem5gt3qsELvc2hWkNQrL5K4nq5xrHVrsJ1OC1uQo9VzPHvXkjyBeXf/tXLCCt3NB3xFzFKe4WcfSs40Oa/QhMVuC6b4Zbx1v8r1ndn9YRwf0OzfqMcD0pLkmPauR7nRfbKsrQgpanwK7OLqE1+jOrQHxhXqgoR5oqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqBx13P23Xb3s1Tf40GD9KVyq4MPaZRpoOVAPUhl0VlPOYee51ImLEGRTolSjwKoRw9SpSMy2UtxHUkF5/BySpVnEz12SNHjtFCb1mALPeFMUzrYphvDFnr0bFftrjNCPc5QzwytJzJcHHErPTKWDu107p56HKGeJVI9mVZkGz153+h14TvXk17nlEUJtV7ZRI8dipf5uJ0mpx4vqKdEV6TUsIUevWSXxx1jz3qy++a8hd1Az9hML02mCurxgXpK4opcFL4Fp8T1dbiCnbcGy3S9e6yflot1v17qqYV6rqWnHh3L6dcEBdRTyS70qI/1kP/g/2b2Ch316IU3aj3a3D3ECeqBhnqgoR5oqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqAGYb/C/JKyjr+ankAAAAASUVORK5CYII="/><br/></p><p><br/></p><p><br/></p>
-Formato da entrada: <p>Dado três inteiros <b>L</b>, <b>C </b>e<b> N</b>, indicando respectivamente número de linhas, número de colunas do tabuleiro e número de rotações. Você receberá mais <b>L</b> linhas com <b>C</b> inteiros representando os valores do tabuleiro. </p><p><br/></p><p>1 &lt;= <b>L</b>, <b>C</b> &lt;= 10000</p><p>-10000 &lt;= <b>N</b> &lt;= 10000</p>
-Formato da saída: <p>O estado que o tabuleiro ficará após as rotações, em cada linha os números serão separados com um espaço em branco.</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Brincando com Ambrosinho</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Ambrosinho ganhou um brinquedo de seu pai, um tabuleiro que rotaciona tanto no sentido horário quanto no anti-horário sempre em 90º graus. O jogo consiste em mostra de maneira correta como ficará o tabuleiro dando um <b>N</b> de rotação. Se <b>N </b>for negativo significa que vamos rotacionar <b>N</b> vezes no sentido anti-horário, caso o <b>N </b>seja positivo vamos rotacionar <b>N </b>vezes no sentido horário.</p><p>                                           Tabuleiro recebido                           Uma rotação horária                     Duas rotações horária<span style="color: rgb(147, 149, 152);float: none;background-color: rgb(255, 255, 255);">                       Três rotações horária </span></p><p style="text-align: center;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAB/CAIAAAC/us2ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASDSURBVHhe7Z09buMwEEb3Zmn3IK58jzQ+SADfI0Aatym3CAy4dOvSy+GfJFJKHHmG+iR8D1PsZoFQ4iOHY2mS/XMnwFAPNNQDDfVAQz3QUA801AMN9UBDPdBQDzTUAw31QEM90FAPNNQDDfVAY6Hn9rY/vfyVeP2IX7KkGy7FPxfv8V+NuI2Mu7983e8uFNHU83X8dNG/4gZ63g+nl8M1/kW4vrpxZXRDQ27QctzzZecNBUlaUM8cVqjnw6UUUbI73vKfmyS3krxKGo/uB5V4O8evPI9NabCoHjd6uABZKA3JmUPxrresp/Hoku60qxLqUYN6HiKe26pnwI+EzObSqW5G3ZweX0FJETUo50zwi6ALi6OOeuZDPb9FPvSoHwCPEYZmYT1Ofsois9Py1Okw2LjUowf1TJGqtSVOuw5ZH7JE9J7rbEFP/rje+DFBRXrcx93TEcY6XBuUaomoYXh3MbWyNBhCPQ+RlIyFlLkGlW4uB6bCaFy52ZH7BX8dR9ShHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqChHmioBxrqgcZIT3rr7sL4JWZuNKiiSatb7s7pB3ivwWDKWuhZqHnKvzBV76vuQz1PsE49ktl2x4sLyW+b1HO+xLRm3Lqlr0faAaUp4upiq3rcoHlcU6hnDuvUk7a8bwBzVraqR79ZdwpNPbHROV50Sz2pDInhTmzTqjrpOVxDY3cXyL/XgHqA9UiV2U/HjfRUyKAyruHBkIcYVm75I6qeIS09vpl20Oi8lJ7uCDQbOumpNMT8obcylPT4rTM8n5fTk3uv/fQppprEZGmgXtFRzwzWpqc8IaswffJRkVaGtZ6qAEHdPSMst3vsn7hMaJjUNhvqmQP1PEDUUMyFDJozmxnp7nr50wuTTK74M4Gr3z31sdfwnPM32EVRHClAPc+wYj1EAeqBhnqgoR5oqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqg0dJTvPkoQv9FyIDc/9eLFr/GNHTTdSHvbbVeYweo5wnWo2cK329mcN0d1Y+opT4Nw1YQN2geN34l3aliH4jDWE9Y15avlv3L7EK/9Xt0+eby/Ytuk7SJFe+XemawFT1+7opmMGUW0DOpIfW56fVw2elJc2Tbbxa7y9xM5cnKZ49VdfCjHr3jx0qP+Rz16PVSfe5kdiQUM0xFSm7V7nRXknezCtQzg9Xr0d/m35PmJYRydVuThxssPl9qhwvA1pMu1HIJJ/xJ0Cnp5sh84/YWhI/95e1wckE9Pajnt/jrdgePbUntUmj+rO6mozcjqWgsv27NKgrrsJwb/H9H3/4cjy9MjJ/1lcSSQTFnUI8ia9CT62nzkjrpGV0HPsE2TW5hQeimdF09Ken75Gv6sMCTz57hLvlWmxFGi1JVz8hj9haUFZQP02twI1aDqlVrfahnDuvUQ7ShHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6gHmfv8P289fUCbyhXMAAAAASUVORK5CYII=" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/>               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAB/CAIAAAC/us2ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASCSURBVHhe7Zw7buswEEXfztJ6Ia6yjzRZSIDsI4AbtylTBAFSpk3pDEkNbUnWxxYv3yVwD6Z4dvD04Rl+JI387ySIkR5qpIca6aFGeqiRHmqkhxrpoUZ6qJEeaqSHGumhRnqo2a7nx+Jpd3yYi3eLl6/uPwDoH8OzfYTy+/J4tLB9PR1OFjik5w5a0jPDbzqTh92HxVv3ZXk+X98tPBWAeoY7alvP17fFfnfcv/5adF+WJ/Qbi/3rd/oHSs/BkiwoCedy+EgfpWcR6bmLt+ejRZp1cBNP2MXjt8Wne8LPPUFV63q8sULDnSzK473T20h6bkB6CoDSk1c4uKPvBs+zfulZRZX1dGidweWU9KxCeooB0OOHDltPu/7nn74J6VkBfD3dNc14+9KzAukpSGk96TYBso1c/3IAb1U0qqfCenoa9Z4lpKcsBfVYo4QG8jtg9ZGeGfyIYevpRcB64tlNh/21/EVe6aWBKIr0UCM91EgPNdJDjfRQIz3USA810kON9FAjPdRIDzXSQ430UCM91EgPNdJDTTk9XpA+eIwIetY7eEutH+GpJaA69fzO4uW+gJWwxfT4g97Lx9jWgqkREY+345ZDQErprhGqt6bqUlEJIT2raVhPrAscd3Ov3RmeVQHq67lKTkFQyY70bANcnyQ922hCT+rg6Si7r8Adn00P9eBmWAeKfcgitNreF6CInDJyQvRj3IOx+FmHLEEkivRsohk9CTf0XxorL3NRjTUE/7ZMIT35QKOPoMSvhCxA4/IV8p0LwGKkj696wCkoPffRjB6bWqbew650Dhf4wWBfYsk33+Cj6GY9nrBTC/+6K2BPCKSePL9WGBKK6ZkaT+LJ1Oo9S7myEUu1tGIEbX+M9NxAg3rOc89oBFsydyfdZoPvwVRnw1oa2fxXdoqSFzvYRUeP7Xo6rJf0L3q6AGXZ1L4wu8spOBOQEUJ61tC+HoFAeqiRHmqkhxrpoUZ6qJEeaqSHGumhRnqokR5qpIca6aFGeqiRHmqkh5pyevKja/ATqiGpuKC3X1CdW66fugjwzw5Lz3ra1eNlEhfPkvPJjGs2ClH3p5nD4/OB9ZwZoOKTEnrscCcq/6BlTd40FcTM4KVVvG8oSA+znjkH9jEWuAAG6NQow8q66rge2rfj1ugpvEYAWr8VLx9Dza/Sswl6PXnuqVdj7XriHuP2+xGdVdCWhjWLUV4WY7ueQG6j3vjrC9/Sejwhxk3jXRnUsbyvnOPamFES6bmBVvUY40NPbfQSvsTomXAQD6POoi4cRkwU3uueGSytEHP4wmarrrlzf4XcRsLq6dK89AjgeiY6Zd1LIlAKdkjPRprVY82UWgoxLk84WDAHwCfCtga32HzWTLjXl31ajjmb0tYTovgtls7BaLMhFWI2QFLQkJ41NK5nuKQOEcYW8PDiA8s5xsNdOfKrv5eBmXIy0KWB2Ir0UCM91EgPNdJDjfRQIz3USA810kON9FAjPdRIDzXSQ430UCM91EgPNdJDjfRQIz3USA810kON9FAjPdRIDzGn0x/JFbI7cuDRLAAAAABJRU5ErkJggg=="/><span style="color: rgb(147, 149, 152);text-align: center;float: none;background-color: rgb(255, 255, 255);">               </span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAB/CAIAAAC/us2ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASgSURBVHhe7Z09biMxDEb3ZtvuQVzlHmlykAC5R4A0aVO6CAK4TJvSS2pEjufP9jhD+hPwPRALZAJ4OHqSKFty9s+RAEM90FAPNNQDDfVAQz3QUA801AMN9UBDPdBQDzTUAw31QEM90FAPNNQDDfVAQz3Q3KTn6yCx+/cu8beP/evxKBHIzE01Ht/q7zflW+Jxcq9JfDx/HSWCWK/nbd9ltnv5kSiX5N+f5we5KL9SSdvztu/ue3JT5fPlQ2J6PR593u6RQzsl9dwGoh4b7w8HiU9pnXq9YDNPRDO9Pr1LzLWFpfT0LVGvJRD5sKes0eMlZ76rWoeamvs1aHpKMjJqtfCEQj230LKegOl4qcb4dVm8xazfpliHsBk+lJtqz0JXXe7j21BevAvtuTvtChpzfSWK5A5BPetA1qN4G43zswV3nB7BeoBH2FJ+nqT1tLNajzBpoxIPh+end4mQ1K3suQ99/b5DZNWek/d89Uow1LOGJvQsELewPjOlWDlMmeVKp9SyF72edjbUo80ksX3P6lbzy69canVwq/nwzX2DtZmewDYyPUvtUjp17OhJXrA51HMVDeuJT91rj7of6M+Yc2p50woX8HnVeVbrmVmzpZRlYe7WGrHrKNvLCL/RHNRzibb0kEyoBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqChHmioBxrqgYZ6oPmFnv7s2TACNpV9v3whdDMwYT+w39WWSDmyQz2raEJP+v6u6ZkcBcll0EVA9dixJhGTtvcOoEdM6NDZvRwkdABRj0M919I1U3JL3V3Pa3fqX8+5fUtg6pGxoicCJcvkA3n31GMrIIlyyLIOI+rpoZ5rMD0lszreJVGPsG/Dmp7h7TTCT0D6tGaPhqvHMisxXhpYF0scWJpMySdsVOn7h9GopZ5roZ4BltlC7bHpLrFCBH5DYTCT12sKrp4LS4N7FPBxSptRPxmZPgu+HivIo5p8Dz3WWFvrsZngcown+U2hnnla1KN0AuYcqLlO3tRcFP6mJO8TJtzJrUOTm3bYok170/bfX1QBe4mJ8j4TSWPLwnMO6hlBPSupKWqWfQSWnKVKkDinOQ3oIUlQDzTUAw31QEM90FAPNNQDDfVAQz3QUA801AMN9UBDPdBQDzTUAw31QEM90Nygx498DCN2R9kPCY2inhmKZ5BAzN+DnmG1Ht1UHu3j+lHNzc8CGnUze7x57BvqgWeD7HRYFUM9M1DPbynPoJF1AFHxtpP2Cmmyk28465kT+7FRPampKwv/3WwU1LMO6rkSrQ156yjD9Eh7ZTRZi3q8ACR14RPqkiHt0H0TeqxRBpEsRukOv8vd409rVqhnBdRzHdI65dhx3sLa7yjtlVjt2tRTSOrLMkb9U6WskuNQzyWo50as1SI/Gz0te2lt1NOyHvsELGz0+Dvf/BV8hXrOQD3nqeslSW6YX60HgSs3//uLKd9JW6SB0WMpjiOw5Pha4ExIVgEr7KWH7SNwL0OgnrO0p4ckQj3QUA801AMN9UBDPdBQDzTUAw31QEM90FAPNNQDDfVAQz3QUA801AMN9UBDPdBQDzDH439Htmr86bITYgAAAABJRU5ErkJggg=="/><span style="color: rgb(147, 149, 152);text-align: center;float: none;background-color: rgb(255, 255, 255);">               </span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAB/CAIAAAC/us2ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATFSURBVHhe7ZuxTuQwEIbvzWh5kK14DxoeBIn3QKLZlpICIW1JS5kbO56J10nE7nrs/EH/p9FJt3fCjr/JeMI6/wYCDPVAQz3QUA801AMN9UBDPdBQDzTUAw31QEM90FAPNNQDDfVAQz3QUA80Xnp+nh+OEnf35/Fw+hwGiR58nQ73R4lyDk/f6T+0YGHQD4nX9M+1+Oh5fQqrcLYQX6dx6mKouaS3DwlZmsPLj0T6sDULg8qflqbBUL0k6rmVHelZ4/Pl/e4+xPPXIOGPJkGIbmIGycLvx/ujxELm2ZQ8coV6buBP6Qkb5uPbIOGO/Pw8AzrxS07IJ6HEuVT1tnrCnqSdTH0hnqGFXheiExfq8bhw6rmeP6BHy45PCV5B9cSmMabCebTSlu09Kw9VXnnppkcmNF+gZmJGdI3mY2UJPhpyl2TXW26r2nBTD/XcTqoALRvrqbtdLGK6gs3a+jjEmBxTxMk8h8+h9UQshYvfKfjwS2tgbXc7PUvITRxbA51VzY1LPe7sSM9vK1iH/nAtIwUb6UlVXfbC+q2XetzZkx7dvZsUt0nA6CAjVZhRXuX+fBW+OVGvJyVL2V9OD89N81dHjy2TFXpdIxk9TKwPLQalHjcw9UTSg9gsqluXy0iSsqGb5kTAHkuzcHjQKWi995AqqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqChHmioBxovPXYspoi2p2Tyr/eXYvmAlSd2zvI8sM4ahG/dy6NS9v2//zfwhupJJwu6svK+sWUM0Dk36kkfYupZY5yoxOyYlQ8b6tGTOvPM07z0OHnZuDXQA1YuqTSHeuqgnjo66fl7xU2HXt17XC6Zem7ENOxYT7z909q1WD5bi1lIWrRqF3PiBY7xfng4Sox/9arkzfToy7cuJfhKQumPPX2Pu0o3IYuUGS5QTy171GML1KPCLJC/ON8oOSz/zMf0ynwIzL1Hau7Zaz0bkaYRZuL/Ekv2wxfyTxtrj/2Pem5gt3qsELvc2hWkNQrL5K4nq5xrHVrsJ1OC1uQo9VzPHvXkjyBeXf/tXLCCt3NB3xFzFKe4WcfSs40Oa/QhMVuC6b4Zbx1v8r1ndn9YRwf0OzfqMcD0pLkmPauR7nRfbKsrQgpanwK7OLqE1+jOrQHxhXqgoR5oqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqgoR5oqAca6oGGeqBx13P23Xb3s1Tf40GD9KVyq4MPaZRpoOVAPUhl0VlPOYee51ImLEGRTolSjwKoRw9SpSMy2UtxHUkF5/BySpVnEz12SNHjtFCb1mALPeFMUzrYphvDFnr0bFftrjNCPc5QzwytJzJcHHErPTKWDu107p56HKGeJVI9mVZkGz153+h14TvXk17nlEUJtV7ZRI8dipf5uJ0mpx4vqKdEV6TUsIUevWSXxx1jz3qy++a8hd1Az9hML02mCurxgXpK4opcFL4Fp8T1dbiCnbcGy3S9e6yflot1v17qqYV6rqWnHh3L6dcEBdRTyS70qI/1kP/g/2b2Ch316IU3aj3a3D3ECeqBhnqgoR5oqAca6oGGeqChHmioBxrqgYZ6oKEeaKgHGuqBhnqAGYb/C/JKyjr+ankAAAAASUVORK5CYII="/><br/></p><p><br/></p><p><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Dado três inteiros <b>L</b>, <b>C </b>e<b> N</b>, indicando respectivamente número de linhas, número de colunas do tabuleiro e número de rotações. Você receberá mais <b>L</b> linhas com <b>C</b> inteiros representando os valores do tabuleiro. </p><p><br/></p><p>1 &lt;= <b>L</b>, <b>C</b> &lt;= 10000</p><p>-10000 &lt;= <b>N</b> &lt;= 10000</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>O estado que o tabuleiro ficará após as rotações, em cada linha os números serão separados com um espaço em branco.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question890/inputs/in0.txt;../app/questions/question890/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in1.txt;../app/questions/question890/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in10.txt;../app/questions/question890/outputs/out10.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in2.txt;../app/questions/question890/outputs/out2.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in3.txt;../app/questions/question890/outputs/out3.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in4.txt;../app/questions/question890/outputs/out4.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in5.txt;../app/questions/question890/outputs/out5.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in6.txt;../app/questions/question890/outputs/out6.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in7.txt;../app/questions/question890/outputs/out7.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in8.txt;../app/questions/question890/outputs/out8.txt">
+            Exemplo 10
+        </option>
+        
+        <option value="../app/questions/question890/inputs/in9.txt;../app/questions/question890/outputs/out9.txt">
+            Exemplo 11
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

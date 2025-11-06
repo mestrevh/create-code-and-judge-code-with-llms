@@ -7,31 +7,170 @@
     <title>Questão 2713 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2713</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2713</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Simple Nosedive
-Topicos do problema: estrutura de dados; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Em Nosedive, episódio não tão distante da realidade (que mostra a que ponto chegou o nível da classificação social de cada indivíduo), o sistema consiste em avaliar cada um por uma nota. A partir daí, as pessoas que compactuam com esse modelo, selecionaram você para desenvolver o sistema (infelizmente :( ). Seu programa deve inserir a pessoa no sistema e avaliar a mesma com uma nota. Sendo essa inserção da maior para a menor nota. A fim de facilitar a impressão ordenada decrescente dos membros do sistema. </p><p style="text-align: center;"><img class="irc_mi" src="https://amenteemaravilhosa.com.br/wp-content/uploads/2018/05/lacie-nosedive-black-mirror.png" alt="Resultado de imagem para nosedive" width="708" height="369"/></p><p><b>OBS: É obrigatório o uso de lista encadeada para resolução da questão.</b></p>
-Formato da entrada: <p>As entradas são :</p><pre>inserir : Insere e avalia a pessoa no sistema;<br/>nota : Inteiro correspondente a nota do indivíduo cadastrado no sistema.<br/></pre><pre>imprimir : Imprime todas pessoas inseridas no sistema;</pre><pre>sair : Para fechar o sistema;</pre><p>Enquanto as entradas forem diferentes de &#34;sair&#34;, seu código, processará a entrada, caso seja válida. Quando a entrada for &#34;sair&#34;, seu programa deve parar a execução.</p>
-Formato da saída: <p>Para cada um que o sistema inserir você deve mostrar a seguinte saída :<br/></p><blockquote><p>&#34;<b>[nome]</b> foi inserido no sistema! Sua nota e de<b> [nota]</b>.&#34;</p></blockquote><p>Sendo <b>[Nome]</b>, uma string referente ao nome da pessoa a ser inserida. E [nota] um inteiro representando sua nota.</p><p><br/></p><p>Após, deverão ser impressas todas as pessoas cadastradas no sistema na seguinte forma :</p><blockquote><p>[nome0] [nota0]</p><p>[nome1] [nota1]</p><p>[nome2] [nota2]</p><p>.</p><p>.</p><p>.</p><p>[nomeN] [notaN]</p></blockquote><p>Ou seja, você deve imprimir [nome] - uma string sendo o nome da pessoa presente na lista. E sua respectiva [nota] - sendo sua nota.<br/></p><p>OBS: lembre-se que a impressão da lista deverá ser feita por ordem decrescente de nota.</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estrutura de dados</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Simple Nosedive</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Em Nosedive, episódio não tão distante da realidade (que mostra a que ponto chegou o nível da classificação social de cada indivíduo), o sistema consiste em avaliar cada um por uma nota. A partir daí, as pessoas que compactuam com esse modelo, selecionaram você para desenvolver o sistema (infelizmente :( ). Seu programa deve inserir a pessoa no sistema e avaliar a mesma com uma nota. Sendo essa inserção da maior para a menor nota. A fim de facilitar a impressão ordenada decrescente dos membros do sistema. </p><p style="text-align: center;"><img class="irc_mi" src="https://amenteemaravilhosa.com.br/wp-content/uploads/2018/05/lacie-nosedive-black-mirror.png" alt="Resultado de imagem para nosedive" width="708" height="369"/></p><p><b>OBS: É obrigatório o uso de lista encadeada para resolução da questão.</b></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>As entradas são :</p><pre>inserir : Insere e avalia a pessoa no sistema;<br/>nota : Inteiro correspondente a nota do indivíduo cadastrado no sistema.<br/></pre><pre>imprimir : Imprime todas pessoas inseridas no sistema;</pre><pre>sair : Para fechar o sistema;</pre><p>Enquanto as entradas forem diferentes de &#34;sair&#34;, seu código, processará a entrada, caso seja válida. Quando a entrada for &#34;sair&#34;, seu programa deve parar a execução.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada um que o sistema inserir você deve mostrar a seguinte saída :<br/></p><blockquote><p>&#34;<b>[nome]</b> foi inserido no sistema! Sua nota e de<b> [nota]</b>.&#34;</p></blockquote><p>Sendo <b>[Nome]</b>, uma string referente ao nome da pessoa a ser inserida. E [nota] um inteiro representando sua nota.</p><p><br/></p><p>Após, deverão ser impressas todas as pessoas cadastradas no sistema na seguinte forma :</p><blockquote><p>[nome0] [nota0]</p><p>[nome1] [nota1]</p><p>[nome2] [nota2]</p><p>.</p><p>.</p><p>.</p><p>[nomeN] [notaN]</p></blockquote><p>Ou seja, você deve imprimir [nome] - uma string sendo o nome da pessoa presente na lista. E sua respectiva [nota] - sendo sua nota.<br/></p><p>OBS: lembre-se que a impressão da lista deverá ser feita por ordem decrescente de nota.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2713/inputs/in0.txt;../app/questions/question2713/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2713/inputs/in1.txt;../app/questions/question2713/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2713/inputs/in2.txt;../app/questions/question2713/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2713/inputs/in3.txt;../app/questions/question2713/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2713/inputs/in4.txt;../app/questions/question2713/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

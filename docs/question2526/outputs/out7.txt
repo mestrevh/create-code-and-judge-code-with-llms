@@ -1,0 +1,6 @@
+Digite o vetor 1: 
+Digite o vetor 2: 
+
+Vetor 1 (ordenado): 1 17 32 48 59 71 
+Vetor 2 (ordenado): 6 23 26 29 37 45 54 55 66 71 75 84 89 96 99 
+Vetor interseção (ordenado): 71

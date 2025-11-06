@@ -7,31 +7,182 @@
     <title>Questão 3122 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3122</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3122</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Quantas ticks?
-Topicos do problema: lógica matemática; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p>Quase todo jogo é controlado por um grande loop e toda tarefa é executada dentro de um ciclo desse loop. No<span> </span><i>Minecraft</i><span> </span>esse ciclo é chamado de tick. Em situações ideais, são executadas 20 ticks por segundo e um dia dentro do jogo tem 24000 ticks (ou 20 minutos).</p><p>Um dia dentro do jogo, assim como na vida real, tem um ciclo de dia e noite. <span>O dia se inicia em 0 ticks e acaba as 12000 ticks, dando inicio ao por do sol, seguido pela noite e, posteriormente, o nascer do sol.</span></p><p><span>Monstros como zumbis, esqueletos e aranhas não são um perigo durante o dia, pois queimam com a luz do sol ou ficam passivos. Consequentemente, é mais seguro andar durante o dia.</span></p><p><span><br/></span></p><p><span>Depois de minerar bastante e coletar vários outros tipos de recurso, Tantan decidiu que estava na hora de construir suas vilas com casas muito legais. Porém, por ser muito estudioso, Tantan só pode jogar 3 horas por dia e deseja utilizar todas essas horas para construir. Por curiosidade, ele estava interessado em quantas ticks ele gastava construindo cada casa, sendo que todas seguem o mesmo padrão e levam o mesmo tempo para ser construídas.</span></p><p><span>Tantan definiu que cada vila deveria ter 10, 100 ou 1000 casas.</span></p><p><span><br/><br/>Sua tarefa é fazer um programa que ajude Tantan a descobrir quantos ticks ele levou para construir cada casa, considerando que, por ele ter medo de monstros, ele só pode construir durante o dia do tempo do jogo.</span></p></div></div><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div>
-Formato da entrada: <blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>D</p><p>C</p></blockquote><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li>D - número natural (1 &lt;= D)</li><li>C - número natural ( { 10, 100, 1000} )</li></ul><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">As duas linhas de entrada é composta pelo número de dias da vida real que Tantan passou construindo e pela quantidade de casas na vila, respectivamente.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/>obs: A entrada deve ser considerada amigável, ou seja, sempre estará no formato descrito.</p>
-Formato da saída: <div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><blockquote><p>T</p></blockquote><ul><li>T - número natural</li></ul><p><br/></p><p>A linha única de saída é composta pela quantidade de ticks gastas construindo cada casa.</p></div></div><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">lógica matemática</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Quantas ticks?</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p>Quase todo jogo é controlado por um grande loop e toda tarefa é executada dentro de um ciclo desse loop. No<span> </span><i>Minecraft</i><span> </span>esse ciclo é chamado de tick. Em situações ideais, são executadas 20 ticks por segundo e um dia dentro do jogo tem 24000 ticks (ou 20 minutos).</p><p>Um dia dentro do jogo, assim como na vida real, tem um ciclo de dia e noite. <span>O dia se inicia em 0 ticks e acaba as 12000 ticks, dando inicio ao por do sol, seguido pela noite e, posteriormente, o nascer do sol.</span></p><p><span>Monstros como zumbis, esqueletos e aranhas não são um perigo durante o dia, pois queimam com a luz do sol ou ficam passivos. Consequentemente, é mais seguro andar durante o dia.</span></p><p><span><br/></span></p><p><span>Depois de minerar bastante e coletar vários outros tipos de recurso, Tantan decidiu que estava na hora de construir suas vilas com casas muito legais. Porém, por ser muito estudioso, Tantan só pode jogar 3 horas por dia e deseja utilizar todas essas horas para construir. Por curiosidade, ele estava interessado em quantas ticks ele gastava construindo cada casa, sendo que todas seguem o mesmo padrão e levam o mesmo tempo para ser construídas.</span></p><p><span>Tantan definiu que cada vila deveria ter 10, 100 ou 1000 casas.</span></p><p><span><br/><br/>Sua tarefa é fazer um programa que ajude Tantan a descobrir quantos ticks ele levou para construir cada casa, considerando que, por ele ter medo de monstros, ele só pode construir durante o dia do tempo do jogo.</span></p></div></div><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>D</p><p>C</p></blockquote><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li>D - número natural (1 &lt;= D)</li><li>C - número natural ( { 10, 100, 1000} )</li></ul><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">As duas linhas de entrada é composta pelo número de dias da vida real que Tantan passou construindo e pela quantidade de casas na vila, respectivamente.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/>obs: A entrada deve ser considerada amigável, ou seja, sempre estará no formato descrito.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><blockquote><p>T</p></blockquote><ul><li>T - número natural</li></ul><p><br/></p><p>A linha única de saída é composta pela quantidade de ticks gastas construindo cada casa.</p></div></div><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question3122/inputs/in0.txt;../app/questions/question3122/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question3122/inputs/in1.txt;../app/questions/question3122/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question3122/inputs/in2.txt;../app/questions/question3122/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question3122/inputs/in3.txt;../app/questions/question3122/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question3122/inputs/in4.txt;../app/questions/question3122/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question3122/inputs/in5.txt;../app/questions/question3122/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question3122/inputs/in6.txt;../app/questions/question3122/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question3122/inputs/in7.txt;../app/questions/question3122/outputs/out7.txt">
+            Exemplo 8
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

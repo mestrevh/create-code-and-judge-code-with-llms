@@ -7,31 +7,162 @@
     <title>Questão 772 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 772</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 772</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Hex
-Topicos do problema: 
-Tempo limite de execução: 2 segundo(s)
-Descrição: <pre>No Jogo de Hex, inventado pelo Matemático John Nash, temos um tabuleiro trapezoidal <br/>constituído por NxN casas hexagonais (N linhas numeradas, de cima pra baixo, de 0 a N-1, <br/>e N colunas numeradas, da esquerda para a direita, de 0 a N-1). O jogo é disputado por<br/>dois oponentes, B e W, cada um dos quais põe pedras pretas (Black) e brancas (White), <br/>respectivamente, de maneira alternada, em casas vazias. O jogador B vence se formar <br/>primeiro um caminho contínuo da ESQUERDA para a DIREITA. Já o objetivo do jogador W, <br/>é formar primeiro um caminho contínuo de CIMA para BAIXO.  Na figura abaixo, temos <br/>uma partida num tabuleiro 10x10 vencida por W.<br/><br/>                      CIMA<br/><br/>     0   1   2   3   4   5   6   7   8   9                          <br/>    / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                      (W)hite<br/> 0 |   |   |   |   | W |   |   |   |   |   |                       <br/>    \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                      ^<br/>   1 |   |   |   |   | W |   |   |   |   |   |                     |<br/>      \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                    |<br/>     2 |   |   |   |   | W |   |   |   |   |   |             &lt;-----+-----&gt;  (B)lack<br/>        \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                  |<br/>       3 |   | B | B |   | W | W | W | W |   |   |                 |<br/>          \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                v<br/>         4 | B |   | B | B | B | B | B | W |   |   |<br/>            \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/> ESQUERDA  5 |   |   |   |   |   |   | B | W |   |   |  DIREITA <br/>              \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/>             6 |   |   |   |   |   |   | B | W |   |   |<br/>                \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/>               7 |   |   |   |   |   |   | B | W |   |   |<br/>                  \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/>                 8 |   |   |   |   |   |   | B | W |   |   |<br/>                    \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/>                   9 |   |   |   |   |   |   | B | W |   |   |<br/>                      \ / \ / \ / \ / \ / \ / \ / \ / \ / \ /  <br/>                                   <br/>                                      BAIXO<br/><br/>John Nash provou que Hex é um jogo determinado, ou seja, não pode haver empate. <br/>Neste exercício, o objetivo é determinar quem venceu a partida a partir das jogadas.<br/></pre>
-Formato da entrada: <p>A entrada é constituída por K casos 0..K-1, cada um correspondendo a uma partida de Hex.<br/><br/>Cada caso possui a forma<br/><br/>N<br/>S<br/>R0 C0<br/>R1 C1<br/>R2 C2<br/>...<br/>RM CM<br/>// linha em branco<br/><br/>onde <br/><br/>N = altura = largura do tabuleiro<br/>S = 'B' ou 'W', quem inicia o jogo<br/>Rj Cj = posições (Linha e Coluna) j-ésima jogada de maneira alternada (j=0 é a primeira jogada de S, j=1 a primeira jogada do oponente, e assim por diante)<br/><br/>IMPORTANTE: para não ficar óbvio quem venceu, M será sempre par, ou seja, mesmo que o primeiro jogador vença, o oponente terá direito a colocar mais uma última pedra.<br/><br/></p>
-Formato da saída: <p>Para cada caso C=0...K-1 na entrada, o programa deve imprimir<br/><br/>caso C: V A<br/>// linha em branco <br/><br/>onde <br/><br/>V = 'B' ou 'W' é o jogador vencedor da partida<br/>A = 'Área' do caminho vencedor, ou seja, número total de pedras 'vizinhas' do caminho vencedor. No exemplo do enunciado, a área do caminho vencedor de W é 13.<br/><br/></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Hex</h2>
+<p><strong>Tempo limite:</strong> 2 segundo(s)</p>
+<pre>No Jogo de Hex, inventado pelo Matemático John Nash, temos um tabuleiro trapezoidal <br/>constituído por NxN casas hexagonais (N linhas numeradas, de cima pra baixo, de 0 a N-1, <br/>e N colunas numeradas, da esquerda para a direita, de 0 a N-1). O jogo é disputado por<br/>dois oponentes, B e W, cada um dos quais põe pedras pretas (Black) e brancas (White), <br/>respectivamente, de maneira alternada, em casas vazias. O jogador B vence se formar <br/>primeiro um caminho contínuo da ESQUERDA para a DIREITA. Já o objetivo do jogador W, <br/>é formar primeiro um caminho contínuo de CIMA para BAIXO.  Na figura abaixo, temos <br/>uma partida num tabuleiro 10x10 vencida por W.<br/><br/>                      CIMA<br/><br/>     0   1   2   3   4   5   6   7   8   9                          <br/>    / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                      (W)hite<br/> 0 |   |   |   |   | W |   |   |   |   |   |                       <br/>    \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                      ^<br/>   1 |   |   |   |   | W |   |   |   |   |   |                     |<br/>      \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                    |<br/>     2 |   |   |   |   | W |   |   |   |   |   |             &lt;-----+-----&gt;  (B)lack<br/>        \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                  |<br/>       3 |   | B | B |   | W | W | W | W |   |   |                 |<br/>          \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \                v<br/>         4 | B |   | B | B | B | B | B | W |   |   |<br/>            \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/> ESQUERDA  5 |   |   |   |   |   |   | B | W |   |   |  DIREITA <br/>              \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/>             6 |   |   |   |   |   |   | B | W |   |   |<br/>                \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/>               7 |   |   |   |   |   |   | B | W |   |   |<br/>                  \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/>                 8 |   |   |   |   |   |   | B | W |   |   |<br/>                    \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \<br/>                   9 |   |   |   |   |   |   | B | W |   |   |<br/>                      \ / \ / \ / \ / \ / \ / \ / \ / \ / \ /  <br/>                                   <br/>                                      BAIXO<br/><br/>John Nash provou que Hex é um jogo determinado, ou seja, não pode haver empate. <br/>Neste exercício, o objetivo é determinar quem venceu a partida a partir das jogadas.<br/></pre></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada é constituída por K casos 0..K-1, cada um correspondendo a uma partida de Hex.<br/><br/>Cada caso possui a forma<br/><br/>N<br/>S<br/>R0 C0<br/>R1 C1<br/>R2 C2<br/>...<br/>RM CM<br/>// linha em branco<br/><br/>onde <br/><br/>N = altura = largura do tabuleiro<br/>S = 'B' ou 'W', quem inicia o jogo<br/>Rj Cj = posições (Linha e Coluna) j-ésima jogada de maneira alternada (j=0 é a primeira jogada de S, j=1 a primeira jogada do oponente, e assim por diante)<br/><br/>IMPORTANTE: para não ficar óbvio quem venceu, M será sempre par, ou seja, mesmo que o primeiro jogador vença, o oponente terá direito a colocar mais uma última pedra.<br/><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada caso C=0...K-1 na entrada, o programa deve imprimir<br/><br/>caso C: V A<br/>// linha em branco <br/><br/>onde <br/><br/>V = 'B' ou 'W' é o jogador vencedor da partida<br/>A = 'Área' do caminho vencedor, ou seja, número total de pedras 'vizinhas' do caminho vencedor. No exemplo do enunciado, a área do caminho vencedor de W é 13.<br/><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question772/inputs/in0.txt;../app/questions/question772/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question772/inputs/in1.txt;../app/questions/question772/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question772/inputs/in2.txt;../app/questions/question772/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -7,31 +7,186 @@
     <title>Questão 186 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 186</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 186</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Fusão
-Topicos do problema: recursão; conjuntos disjuntos; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>A informatiza&ccedil;&atilde;o dos sistemas banc&aacute;rios permitiu grandes economias de tempo e dinheiro, permitindo que v&aacute;rios tipos de transa&ccedil;&otilde;es financeiras pudessem ser realizadas pela Internet. Para possibilitar isso, cada banco recebeu um c&oacute;digo banc&aacute;rio, que &eacute; um n&uacute;mero utilizado pelos sistemas de computador para identificar cada banco.<br />Quando um banco decide comprar outro, ocorre o que se chama uma fus&atilde;o: os dois bancos tornam-se um s&oacute; banco. Para manter compatibilidade com os sistemas eletr&ocirc;nicos dos bancos, qualquer um dos c&oacute;digos dos antigos bancos pode ser usado para se referir ao novo banco.<br />Com a crise econ&ocirc;mica internacional, as fus&otilde;es entre bancos t&ecirc;m sido cada vez mais comuns; por isso, muitas vezes &eacute; dif&iacute;cil decidir se dois c&oacute;digos banc&aacute;rios na realidade se referem ao mesmo banco (devido aos dois bancos terem se fundido, diretamente ou n&atilde;o).<br />Escreva um programa que, dada uma s&eacute;rie de fus&otilde;es entre bancos, responde a v&aacute;rias consultas perguntando se dois c&oacute;digos banc&aacute;rios se referem ao mesmo banco.</p>
-Formato da entrada: <p>A primeira linha da entrada cont&eacute;m dois inteiros N e K, indicando o n&uacute;mero de bancos e o n&uacute;mero de opera&ccedil;&otilde;es efetuadas (1 &lt;= N &lt;= 100.000, 1 &lt;= K &lt;= 100.000). Os c&oacute;digos de cada um dos N bancos, inicialmente, s&atilde;o os inteiros de 1 at&eacute; N. Cada uma das K linhas seguintes descreve ou uma fus&atilde;o entre bancos ou uma consulta. <br /><br />* Uma fus&atilde;o &eacute; descrita na entrada como uma linha que come&ccedil;a com o caractere 'F', um espa&ccedil;o, e dois c&oacute;digos banc&aacute;rios, que se referem aos dois bancos que est&atilde;o sofrendo a fus&atilde;o, separados por um espa&ccedil;o em branco; <br /><br />* Uma consulta &eacute; descrita na entrada como uma linha que come&ccedil;a com o caractere 'C', um espa&ccedil;o, e os dois c&oacute;digos a serem consultados, separados por um espa&ccedil;o em branco. Os c&oacute;digos banc&aacute;rios consultados s&atilde;o sempre distintos. <br /><br />As fus&otilde;es s&atilde;o sempre realizadas entre bancos diferentes, e todos os c&oacute;digos banc&aacute;rios fornecidos na entrada s&atilde;o v&aacute;lidos.</p>
-Formato da saída: <p>Seu programa deve imprimir uma linha para cada consulta na entrada. Caso os dois c&oacute;digos banc&aacute;rios consultados se refiram ao mesmo banco, imprima uma linha contendo o caractere 'S'; caso contr&aacute;rio, imprima uma linha contendo apenas o caractere 'N'.</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">recursão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">conjuntos disjuntos</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Fusão</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>A informatiza&ccedil;&atilde;o dos sistemas banc&aacute;rios permitiu grandes economias de tempo e dinheiro, permitindo que v&aacute;rios tipos de transa&ccedil;&otilde;es financeiras pudessem ser realizadas pela Internet. Para possibilitar isso, cada banco recebeu um c&oacute;digo banc&aacute;rio, que &eacute; um n&uacute;mero utilizado pelos sistemas de computador para identificar cada banco.<br />Quando um banco decide comprar outro, ocorre o que se chama uma fus&atilde;o: os dois bancos tornam-se um s&oacute; banco. Para manter compatibilidade com os sistemas eletr&ocirc;nicos dos bancos, qualquer um dos c&oacute;digos dos antigos bancos pode ser usado para se referir ao novo banco.<br />Com a crise econ&ocirc;mica internacional, as fus&otilde;es entre bancos t&ecirc;m sido cada vez mais comuns; por isso, muitas vezes &eacute; dif&iacute;cil decidir se dois c&oacute;digos banc&aacute;rios na realidade se referem ao mesmo banco (devido aos dois bancos terem se fundido, diretamente ou n&atilde;o).<br />Escreva um programa que, dada uma s&eacute;rie de fus&otilde;es entre bancos, responde a v&aacute;rias consultas perguntando se dois c&oacute;digos banc&aacute;rios se referem ao mesmo banco.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A primeira linha da entrada cont&eacute;m dois inteiros N e K, indicando o n&uacute;mero de bancos e o n&uacute;mero de opera&ccedil;&otilde;es efetuadas (1 &lt;= N &lt;= 100.000, 1 &lt;= K &lt;= 100.000). Os c&oacute;digos de cada um dos N bancos, inicialmente, s&atilde;o os inteiros de 1 at&eacute; N. Cada uma das K linhas seguintes descreve ou uma fus&atilde;o entre bancos ou uma consulta. <br /><br />* Uma fus&atilde;o &eacute; descrita na entrada como uma linha que come&ccedil;a com o caractere 'F', um espa&ccedil;o, e dois c&oacute;digos banc&aacute;rios, que se referem aos dois bancos que est&atilde;o sofrendo a fus&atilde;o, separados por um espa&ccedil;o em branco; <br /><br />* Uma consulta &eacute; descrita na entrada como uma linha que come&ccedil;a com o caractere 'C', um espa&ccedil;o, e os dois c&oacute;digos a serem consultados, separados por um espa&ccedil;o em branco. Os c&oacute;digos banc&aacute;rios consultados s&atilde;o sempre distintos. <br /><br />As fus&otilde;es s&atilde;o sempre realizadas entre bancos diferentes, e todos os c&oacute;digos banc&aacute;rios fornecidos na entrada s&atilde;o v&aacute;lidos.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Seu programa deve imprimir uma linha para cada consulta na entrada. Caso os dois c&oacute;digos banc&aacute;rios consultados se refiram ao mesmo banco, imprima uma linha contendo o caractere 'S'; caso contr&aacute;rio, imprima uma linha contendo apenas o caractere 'N'.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question186/inputs/in0.txt;../app/questions/question186/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question186/inputs/in1.txt;../app/questions/question186/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question186/inputs/in2.txt;../app/questions/question186/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question186/inputs/in3.txt;../app/questions/question186/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question186/inputs/in4.txt;../app/questions/question186/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question186/inputs/in5.txt;../app/questions/question186/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question186/inputs/in6.txt;../app/questions/question186/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question186/inputs/in7.txt;../app/questions/question186/outputs/out7.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question186/inputs/in8.txt;../app/questions/question186/outputs/out8.txt">
+            Exemplo 9
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -7,31 +7,174 @@
     <title>Questão 2448 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2448</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2448</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L2Q6 - Controle de Lotação
-Topicos do problema: acumulador; repetição; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>O fabuloso Capitão Jack Sparrow está recrutando tripulantes para sua próxima aventura, mas como ele não quer se dar o trabalho você foi contradado gratuitamente para ajudá-lo (obviamente o pagamento é a honra de ter servido ao magnifíco Capitão Jack Sparrow)! Ele lhe pediu que anotasse em um papel (o mesmo que fazer um programa se isso fosse no futuro) o controle de sua tripulação, para que não entrassem tripulantes além do número suportado pelo Pérola Negra.</b></p><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li><b>O programa não permitirá a entrada de novos tripulantes enquanto o barco estiver cheio, mas capitães podem entrar a qualquer momento.</b></li><li><b>Se o navio estiver cheio, todos que quiserem entrar deverão ser redirecionados a fila. (menos os capitães, que tem direito de entrar a qualquer momento)</b></li><li><b>Toda vez que alguém da tripulação desistir da aventura, se houver alguém na fila, esses candidatos deverão entrar até que a capacidade máxima do barco seja atingida ou a fila se esvazie.</b></li><li><b>O programa deve informar quando a fila de espera chegar a 0. (fila esvaziar)</b></li><li><b>Caso haja entrada ou desistência de tripulantes, o programa deve informar ao usuário.<span id="selectionBoundary_1552090004843_1203853286791352" class="rangySelectionBoundary">&#65279;</span></b></li></ul><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: center;"><b><img src="http://photos1.blogger.com/blogger/6984/1502/1600/photo_04_hires.14.jpg" alt="Resultado de imagem para tripulaÃ§ao perola negra"/></b></div>
-Formato da entrada: <div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A primeira linha é dada por:<br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>N</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Sendo N um inteiro que representa a lotação do Pérola;</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">E uma sequência de linhas:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>S X<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Sendo S uma string que contém uma palavra, que pode ser &#34;Entraram&#34; ou &#34;Sairam&#34;,<b><span> </span></b>e outra string X indicando se é um (1) CAPITAO ou se era um número inteiro de tripulantes que entraram/sairam do navio.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>IMPORTANTE:<span> </span></b>Se for do tipo &#34;Entraram CAPITAO&#34; significa que entrou somente 1 pessoa no navio (deverá ser contabilizada)</p></div></div><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">&#13;</div>
-Formato da saída: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b style="color: rgb(0, 0, 0);">IMPORTANTE:<span> </span></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Após a leitura e execução de uma linha de entrada deve ser impressa uma linha em branco.</span><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Após cada entrada/saída de tripulantes deve ser impressa a atual quantidade de tripulantes no Pérola:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;I pessoas entraram no Perola. Atualmente ha X pessoas na tripulacao.&#34;</p><h6 style="color: inherit;">ou<br/></h6><p>&#34;I pessoas desistiram da aventura. Atualmente ha X pessoas na tripulacao.&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Onde<span> </span><b>I<span> </span></b>corresponde ao número de tripulantes que entraram/saíram do Pérola e<span> </span><b>X</b><span> </span>deve ser o número inteiro correspondente a atual lotação do navio (vale tanto para capitães quanto tripulantes).<br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Após cada entrada/saída de CAPITAES deve ser impressa a atual quantidade de pessoas no Pérola:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Um CAPITAO entrou no Perola. Atualmente ha X pessoas na tripulacao.&#34;</p><h6 style="color: inherit;">ou<br/></h6><p>&#34;Um CAPITAO desistiu da aventura. Atualmente ha X pessoas na tripulacao.&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso tenham tentado entrar tripulantes mas o navio esteja cheio deve ser impressa a seguinte frase:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Infelizmente o navio esta lotado, X pessoas foram redirecionadas para a fila.&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Seguido de:<br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;A fila agora contem Y pessoas.&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso tripulantes ou capitaes desistam da aventura e tenham outros na fila de espera, após a frase: &#34;<b>I pessoas desistiram da aventura. Atualmente ha X pessoas na tripulacao.</b>&#34; deverá ser impresso (caso haja espaco no navio para entrada):</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;I pessoas da fila entraram no Perola.&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Deverão entrar o máximo de pessoas possível (não necessitando alertar quando o navio ficar lotada novamente). Seguido de:<span> </span><br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;A fila agora contem Y pessoas.&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">ou<br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Todos que estavam na fila de espera conseguiram entrar, atualmente nao ha fila de espera.&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso a fila se esvazie.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">No final do recrutamento deve ser impressa a seguinte frase:</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Caso a lotação do Pérola seja &gt; 0 mas seja composta apenas por CAPITAES:</span></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Sem tripulacao?? E quem voce acha que fara o trabalho sujo??&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso a lotação do Pérola seja &gt; 0 e possua ao menos um (1) CAPITAO:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Preparem-se para a aventura de suas vidas marujos!!!!&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso a lotação do Pérola seja &gt; 0 mas não possua nenhum CAPITAO:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Jack? Onde esta o Jack? Como iremos viajar SEM O JACK?&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso a lotação do Pérola seja = 0:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Cade o Gibbs quando eu preciso dele?</p></blockquote>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">acumulador</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>L2Q6 - Controle de Lotação</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>O fabuloso Capitão Jack Sparrow está recrutando tripulantes para sua próxima aventura, mas como ele não quer se dar o trabalho você foi contradado gratuitamente para ajudá-lo (obviamente o pagamento é a honra de ter servido ao magnifíco Capitão Jack Sparrow)! Ele lhe pediu que anotasse em um papel (o mesmo que fazer um programa se isso fosse no futuro) o controle de sua tripulação, para que não entrassem tripulantes além do número suportado pelo Pérola Negra.</b></p><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li><b>O programa não permitirá a entrada de novos tripulantes enquanto o barco estiver cheio, mas capitães podem entrar a qualquer momento.</b></li><li><b>Se o navio estiver cheio, todos que quiserem entrar deverão ser redirecionados a fila. (menos os capitães, que tem direito de entrar a qualquer momento)</b></li><li><b>Toda vez que alguém da tripulação desistir da aventura, se houver alguém na fila, esses candidatos deverão entrar até que a capacidade máxima do barco seja atingida ou a fila se esvazie.</b></li><li><b>O programa deve informar quando a fila de espera chegar a 0. (fila esvaziar)</b></li><li><b>Caso haja entrada ou desistência de tripulantes, o programa deve informar ao usuário.<span id="selectionBoundary_1552090004843_1203853286791352" class="rangySelectionBoundary">&#65279;</span></b></li></ul><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: center;"><b><img src="http://photos1.blogger.com/blogger/6984/1502/1600/photo_04_hires.14.jpg" alt="Resultado de imagem para tripulaÃ§ao perola negra"/></b></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A primeira linha é dada por:<br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>N</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Sendo N um inteiro que representa a lotação do Pérola;</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">E uma sequência de linhas:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>S X<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Sendo S uma string que contém uma palavra, que pode ser &#34;Entraram&#34; ou &#34;Sairam&#34;,<b><span> </span></b>e outra string X indicando se é um (1) CAPITAO ou se era um número inteiro de tripulantes que entraram/sairam do navio.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>IMPORTANTE:<span> </span></b>Se for do tipo &#34;Entraram CAPITAO&#34; significa que entrou somente 1 pessoa no navio (deverá ser contabilizada)</p></div></div><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">&#13;</div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b style="color: rgb(0, 0, 0);">IMPORTANTE:<span> </span></b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Após a leitura e execução de uma linha de entrada deve ser impressa uma linha em branco.</span><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Após cada entrada/saída de tripulantes deve ser impressa a atual quantidade de tripulantes no Pérola:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;I pessoas entraram no Perola. Atualmente ha X pessoas na tripulacao.&#34;</p><h6 style="color: inherit;">ou<br/></h6><p>&#34;I pessoas desistiram da aventura. Atualmente ha X pessoas na tripulacao.&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Onde<span> </span><b>I<span> </span></b>corresponde ao número de tripulantes que entraram/saíram do Pérola e<span> </span><b>X</b><span> </span>deve ser o número inteiro correspondente a atual lotação do navio (vale tanto para capitães quanto tripulantes).<br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Após cada entrada/saída de CAPITAES deve ser impressa a atual quantidade de pessoas no Pérola:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Um CAPITAO entrou no Perola. Atualmente ha X pessoas na tripulacao.&#34;</p><h6 style="color: inherit;">ou<br/></h6><p>&#34;Um CAPITAO desistiu da aventura. Atualmente ha X pessoas na tripulacao.&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso tenham tentado entrar tripulantes mas o navio esteja cheio deve ser impressa a seguinte frase:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Infelizmente o navio esta lotado, X pessoas foram redirecionadas para a fila.&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Seguido de:<br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;A fila agora contem Y pessoas.&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso tripulantes ou capitaes desistam da aventura e tenham outros na fila de espera, após a frase: &#34;<b>I pessoas desistiram da aventura. Atualmente ha X pessoas na tripulacao.</b>&#34; deverá ser impresso (caso haja espaco no navio para entrada):</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;I pessoas da fila entraram no Perola.&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Deverão entrar o máximo de pessoas possível (não necessitando alertar quando o navio ficar lotada novamente). Seguido de:<span> </span><br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;A fila agora contem Y pessoas.&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">ou<br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Todos que estavam na fila de espera conseguiram entrar, atualmente nao ha fila de espera.&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso a fila se esvazie.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">No final do recrutamento deve ser impressa a seguinte frase:</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Caso a lotação do Pérola seja &gt; 0 mas seja composta apenas por CAPITAES:</span></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Sem tripulacao?? E quem voce acha que fara o trabalho sujo??&#34;<br/></p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso a lotação do Pérola seja &gt; 0 e possua ao menos um (1) CAPITAO:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Preparem-se para a aventura de suas vidas marujos!!!!&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso a lotação do Pérola seja &gt; 0 mas não possua nenhum CAPITAO:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Jack? Onde esta o Jack? Como iremos viajar SEM O JACK?&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso a lotação do Pérola seja = 0:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Cade o Gibbs quando eu preciso dele?</p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2448/inputs/in0.txt;../app/questions/question2448/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2448/inputs/in1.txt;../app/questions/question2448/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2448/inputs/in2.txt;../app/questions/question2448/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2448/inputs/in3.txt;../app/questions/question2448/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2448/inputs/in4.txt;../app/questions/question2448/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2448/inputs/in5.txt;../app/questions/question2448/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

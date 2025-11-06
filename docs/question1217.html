@@ -7,31 +7,950 @@
     <title>Questão 1217 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1217</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 1217</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Shinobu's Saga II
-Topicos do problema: estrutura de dados; Árvore; pilha; string; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>A grande vampira imortal Shinobu-san, também conhecida como Kiss-shot Acerola-orion Heart-under-blade, finalmente conseguiu decodificar as coordenadas informadas no bilhete encontrado previamente, graças à sua ajuda. Ela tratou de rapidamente se dirigir até o local indicado. Por lá ela encontrou uma carta, que está integralmente reproduzida a seguir:<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/6f5ef64898989818916eed8d3f31e670738153e6).png"/><br/></p><p>Transcrevemos a carta a seguir para facilitar:</p><p><i>&#34;Carta à Shinobu-chan</i></p><p><i>**************************************************************e**.m* *P*rg**se*ta** e**ta**ne**acsn**,o**m **ni*h** a*l*o**ac**ile*zm a*a **ac** or*a*t*u*a*l**e **a **R **auac* if** 8**od* i**ec*nd*t**oroc* *de*a**c d**di**da u*e** .*M*ai*su* **pa*r*e**ss**-e**esges*,n**t o**ne**et* c**hc*e e*guq*a*r*  mo*ob**m **ia** s **are**ip**od* **op**ss*i*vu**leq **a **uq,na*i** ,hc*d-** o*c*ou**tn**ar**ir*ob* *s*e*r*ao* *tni*ahS*r*d ** eal*d**me**ia*s**..O** .</i></p><p><i>Dicas:</i></p><p><i>1. Para decodificar essa carta, você deve interpretar a mensagem acima como uma árvore em notação pós-ordem e em seguida escrevê-la em notação em ordem, ignorando os caracteres '*'.</i></p><p><i>2. Utilize o seu conhecimento de estruturas de dados (lista, árvores binárias, pilhas) para decodificar a mensagem.&#34;</i></p><p>Shinobu infelizmente não lembrava exatamente como realizar esse tipo de conversão, então pediu ajuda para você. Como várias cartas com diferentes informações foram encontradas, você deve criar um algoritmo que automatize o processo de decodificação.</p><span>É importante saber que t</span><span>odos os nós filhos da árvore são obrigatoriamente caracteres *, assim como nós não-filhos nunca são *.</span><div><br/></div><p>Você consegue ajudar Shinobu a decodificar todas as cartas que ela encontrou?</p>
-Formato da entrada: <p>A entrada consiste de uma string representando a árvore em notação pós-ordem.</p>
-Formato da saída: <p>Você deve imprimir tanto a mensagem decodificada quanto a árvore obtida através da string de entrada, conforme formatação a seguir:</p><p><br/></p><p>Mensagem decodificada: xxxxxxxxx</p><p>Arvore construida:</p><p>a</p><p> b</p><p>  c</p><p>   *</p><p>   *</p><p>  *</p><p> d</p><p>  *</p><p>  *</p><p><br/></p><p>Observe que você deve imprimir a árvore sempre visitando os nós da esquerda primeiramente. O nível do nó corresponde ao número de espaços que devem ser impressos antes do caractere. Convencionamos aqui que a raiz é o nível 0.</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estrutura de dados</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">Árvore</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">pilha</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">string</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Shinobu's Saga II</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>A grande vampira imortal Shinobu-san, também conhecida como Kiss-shot Acerola-orion Heart-under-blade, finalmente conseguiu decodificar as coordenadas informadas no bilhete encontrado previamente, graças à sua ajuda. Ela tratou de rapidamente se dirigir até o local indicado. Por lá ela encontrou uma carta, que está integralmente reproduzida a seguir:<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/6f5ef64898989818916eed8d3f31e670738153e6).png"/><br/></p><p>Transcrevemos a carta a seguir para facilitar:</p><p><i>&#34;Carta à Shinobu-chan</i></p><p><i>**************************************************************e**.m* *P*rg**se*ta** e**ta**ne**acsn**,o**m **ni*h** a*l*o**ac**ile*zm a*a **ac** or*a*t*u*a*l**e **a **R **auac* if** 8**od* i**ec*nd*t**oroc* *de*a**c d**di**da u*e** .*M*ai*su* **pa*r*e**ss**-e**esges*,n**t o**ne**et* c**hc*e e*guq*a*r*  mo*ob**m **ia** s **are**ip**od* **op**ss*i*vu**leq **a **uq,na*i** ,hc*d-** o*c*ou**tn**ar**ir*ob* *s*e*r*ao* *tni*ahS*r*d ** eal*d**me**ia*s**..O** .</i></p><p><i>Dicas:</i></p><p><i>1. Para decodificar essa carta, você deve interpretar a mensagem acima como uma árvore em notação pós-ordem e em seguida escrevê-la em notação em ordem, ignorando os caracteres '*'.</i></p><p><i>2. Utilize o seu conhecimento de estruturas de dados (lista, árvores binárias, pilhas) para decodificar a mensagem.&#34;</i></p><p>Shinobu infelizmente não lembrava exatamente como realizar esse tipo de conversão, então pediu ajuda para você. Como várias cartas com diferentes informações foram encontradas, você deve criar um algoritmo que automatize o processo de decodificação.</p><span>É importante saber que t</span><span>odos os nós filhos da árvore são obrigatoriamente caracteres *, assim como nós não-filhos nunca são *.</span><div><br/></div><p>Você consegue ajudar Shinobu a decodificar todas as cartas que ela encontrou?</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada consiste de uma string representando a árvore em notação pós-ordem.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Você deve imprimir tanto a mensagem decodificada quanto a árvore obtida através da string de entrada, conforme formatação a seguir:</p><p><br/></p><p>Mensagem decodificada: xxxxxxxxx</p><p>Arvore construida:</p><p>a</p><p> b</p><p>  c</p><p>   *</p><p>   *</p><p>  *</p><p> d</p><p>  *</p><p>  *</p><p><br/></p><p>Observe que você deve imprimir a árvore sempre visitando os nós da esquerda primeiramente. O nível do nó corresponde ao número de espaços que devem ser impressos antes do caractere. Convencionamos aqui que a raiz é o nível 0.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question1217/inputs/in0.txt;../app/questions/question1217/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in1.txt;../app/questions/question1217/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in10.txt;../app/questions/question1217/outputs/out10.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in100.txt;../app/questions/question1217/outputs/out100.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in101.txt;../app/questions/question1217/outputs/out101.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in102.txt;../app/questions/question1217/outputs/out102.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in103.txt;../app/questions/question1217/outputs/out103.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in104.txt;../app/questions/question1217/outputs/out104.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in105.txt;../app/questions/question1217/outputs/out105.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in106.txt;../app/questions/question1217/outputs/out106.txt">
+            Exemplo 10
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in107.txt;../app/questions/question1217/outputs/out107.txt">
+            Exemplo 11
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in108.txt;../app/questions/question1217/outputs/out108.txt">
+            Exemplo 12
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in109.txt;../app/questions/question1217/outputs/out109.txt">
+            Exemplo 13
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in11.txt;../app/questions/question1217/outputs/out11.txt">
+            Exemplo 14
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in110.txt;../app/questions/question1217/outputs/out110.txt">
+            Exemplo 15
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in111.txt;../app/questions/question1217/outputs/out111.txt">
+            Exemplo 16
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in112.txt;../app/questions/question1217/outputs/out112.txt">
+            Exemplo 17
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in113.txt;../app/questions/question1217/outputs/out113.txt">
+            Exemplo 18
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in114.txt;../app/questions/question1217/outputs/out114.txt">
+            Exemplo 19
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in115.txt;../app/questions/question1217/outputs/out115.txt">
+            Exemplo 20
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in116.txt;../app/questions/question1217/outputs/out116.txt">
+            Exemplo 21
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in117.txt;../app/questions/question1217/outputs/out117.txt">
+            Exemplo 22
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in118.txt;../app/questions/question1217/outputs/out118.txt">
+            Exemplo 23
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in119.txt;../app/questions/question1217/outputs/out119.txt">
+            Exemplo 24
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in12.txt;../app/questions/question1217/outputs/out12.txt">
+            Exemplo 25
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in120.txt;../app/questions/question1217/outputs/out120.txt">
+            Exemplo 26
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in121.txt;../app/questions/question1217/outputs/out121.txt">
+            Exemplo 27
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in122.txt;../app/questions/question1217/outputs/out122.txt">
+            Exemplo 28
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in123.txt;../app/questions/question1217/outputs/out123.txt">
+            Exemplo 29
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in124.txt;../app/questions/question1217/outputs/out124.txt">
+            Exemplo 30
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in125.txt;../app/questions/question1217/outputs/out125.txt">
+            Exemplo 31
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in126.txt;../app/questions/question1217/outputs/out126.txt">
+            Exemplo 32
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in127.txt;../app/questions/question1217/outputs/out127.txt">
+            Exemplo 33
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in128.txt;../app/questions/question1217/outputs/out128.txt">
+            Exemplo 34
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in129.txt;../app/questions/question1217/outputs/out129.txt">
+            Exemplo 35
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in13.txt;../app/questions/question1217/outputs/out13.txt">
+            Exemplo 36
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in130.txt;../app/questions/question1217/outputs/out130.txt">
+            Exemplo 37
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in131.txt;../app/questions/question1217/outputs/out131.txt">
+            Exemplo 38
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in132.txt;../app/questions/question1217/outputs/out132.txt">
+            Exemplo 39
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in133.txt;../app/questions/question1217/outputs/out133.txt">
+            Exemplo 40
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in134.txt;../app/questions/question1217/outputs/out134.txt">
+            Exemplo 41
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in135.txt;../app/questions/question1217/outputs/out135.txt">
+            Exemplo 42
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in136.txt;../app/questions/question1217/outputs/out136.txt">
+            Exemplo 43
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in137.txt;../app/questions/question1217/outputs/out137.txt">
+            Exemplo 44
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in138.txt;../app/questions/question1217/outputs/out138.txt">
+            Exemplo 45
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in139.txt;../app/questions/question1217/outputs/out139.txt">
+            Exemplo 46
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in14.txt;../app/questions/question1217/outputs/out14.txt">
+            Exemplo 47
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in140.txt;../app/questions/question1217/outputs/out140.txt">
+            Exemplo 48
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in141.txt;../app/questions/question1217/outputs/out141.txt">
+            Exemplo 49
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in142.txt;../app/questions/question1217/outputs/out142.txt">
+            Exemplo 50
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in143.txt;../app/questions/question1217/outputs/out143.txt">
+            Exemplo 51
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in144.txt;../app/questions/question1217/outputs/out144.txt">
+            Exemplo 52
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in145.txt;../app/questions/question1217/outputs/out145.txt">
+            Exemplo 53
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in146.txt;../app/questions/question1217/outputs/out146.txt">
+            Exemplo 54
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in147.txt;../app/questions/question1217/outputs/out147.txt">
+            Exemplo 55
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in148.txt;../app/questions/question1217/outputs/out148.txt">
+            Exemplo 56
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in149.txt;../app/questions/question1217/outputs/out149.txt">
+            Exemplo 57
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in15.txt;../app/questions/question1217/outputs/out15.txt">
+            Exemplo 58
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in150.txt;../app/questions/question1217/outputs/out150.txt">
+            Exemplo 59
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in151.txt;../app/questions/question1217/outputs/out151.txt">
+            Exemplo 60
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in152.txt;../app/questions/question1217/outputs/out152.txt">
+            Exemplo 61
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in153.txt;../app/questions/question1217/outputs/out153.txt">
+            Exemplo 62
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in154.txt;../app/questions/question1217/outputs/out154.txt">
+            Exemplo 63
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in155.txt;../app/questions/question1217/outputs/out155.txt">
+            Exemplo 64
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in156.txt;../app/questions/question1217/outputs/out156.txt">
+            Exemplo 65
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in157.txt;../app/questions/question1217/outputs/out157.txt">
+            Exemplo 66
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in158.txt;../app/questions/question1217/outputs/out158.txt">
+            Exemplo 67
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in159.txt;../app/questions/question1217/outputs/out159.txt">
+            Exemplo 68
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in16.txt;../app/questions/question1217/outputs/out16.txt">
+            Exemplo 69
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in160.txt;../app/questions/question1217/outputs/out160.txt">
+            Exemplo 70
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in161.txt;../app/questions/question1217/outputs/out161.txt">
+            Exemplo 71
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in162.txt;../app/questions/question1217/outputs/out162.txt">
+            Exemplo 72
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in163.txt;../app/questions/question1217/outputs/out163.txt">
+            Exemplo 73
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in164.txt;../app/questions/question1217/outputs/out164.txt">
+            Exemplo 74
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in165.txt;../app/questions/question1217/outputs/out165.txt">
+            Exemplo 75
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in166.txt;../app/questions/question1217/outputs/out166.txt">
+            Exemplo 76
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in167.txt;../app/questions/question1217/outputs/out167.txt">
+            Exemplo 77
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in168.txt;../app/questions/question1217/outputs/out168.txt">
+            Exemplo 78
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in169.txt;../app/questions/question1217/outputs/out169.txt">
+            Exemplo 79
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in17.txt;../app/questions/question1217/outputs/out17.txt">
+            Exemplo 80
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in170.txt;../app/questions/question1217/outputs/out170.txt">
+            Exemplo 81
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in171.txt;../app/questions/question1217/outputs/out171.txt">
+            Exemplo 82
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in172.txt;../app/questions/question1217/outputs/out172.txt">
+            Exemplo 83
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in173.txt;../app/questions/question1217/outputs/out173.txt">
+            Exemplo 84
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in174.txt;../app/questions/question1217/outputs/out174.txt">
+            Exemplo 85
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in175.txt;../app/questions/question1217/outputs/out175.txt">
+            Exemplo 86
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in176.txt;../app/questions/question1217/outputs/out176.txt">
+            Exemplo 87
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in177.txt;../app/questions/question1217/outputs/out177.txt">
+            Exemplo 88
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in178.txt;../app/questions/question1217/outputs/out178.txt">
+            Exemplo 89
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in179.txt;../app/questions/question1217/outputs/out179.txt">
+            Exemplo 90
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in18.txt;../app/questions/question1217/outputs/out18.txt">
+            Exemplo 91
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in180.txt;../app/questions/question1217/outputs/out180.txt">
+            Exemplo 92
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in181.txt;../app/questions/question1217/outputs/out181.txt">
+            Exemplo 93
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in182.txt;../app/questions/question1217/outputs/out182.txt">
+            Exemplo 94
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in183.txt;../app/questions/question1217/outputs/out183.txt">
+            Exemplo 95
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in184.txt;../app/questions/question1217/outputs/out184.txt">
+            Exemplo 96
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in185.txt;../app/questions/question1217/outputs/out185.txt">
+            Exemplo 97
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in186.txt;../app/questions/question1217/outputs/out186.txt">
+            Exemplo 98
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in187.txt;../app/questions/question1217/outputs/out187.txt">
+            Exemplo 99
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in188.txt;../app/questions/question1217/outputs/out188.txt">
+            Exemplo 100
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in189.txt;../app/questions/question1217/outputs/out189.txt">
+            Exemplo 101
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in19.txt;../app/questions/question1217/outputs/out19.txt">
+            Exemplo 102
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in190.txt;../app/questions/question1217/outputs/out190.txt">
+            Exemplo 103
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in191.txt;../app/questions/question1217/outputs/out191.txt">
+            Exemplo 104
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in192.txt;../app/questions/question1217/outputs/out192.txt">
+            Exemplo 105
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in193.txt;../app/questions/question1217/outputs/out193.txt">
+            Exemplo 106
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in194.txt;../app/questions/question1217/outputs/out194.txt">
+            Exemplo 107
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in195.txt;../app/questions/question1217/outputs/out195.txt">
+            Exemplo 108
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in196.txt;../app/questions/question1217/outputs/out196.txt">
+            Exemplo 109
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in197.txt;../app/questions/question1217/outputs/out197.txt">
+            Exemplo 110
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in198.txt;../app/questions/question1217/outputs/out198.txt">
+            Exemplo 111
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in199.txt;../app/questions/question1217/outputs/out199.txt">
+            Exemplo 112
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in2.txt;../app/questions/question1217/outputs/out2.txt">
+            Exemplo 113
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in20.txt;../app/questions/question1217/outputs/out20.txt">
+            Exemplo 114
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in21.txt;../app/questions/question1217/outputs/out21.txt">
+            Exemplo 115
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in22.txt;../app/questions/question1217/outputs/out22.txt">
+            Exemplo 116
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in23.txt;../app/questions/question1217/outputs/out23.txt">
+            Exemplo 117
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in24.txt;../app/questions/question1217/outputs/out24.txt">
+            Exemplo 118
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in25.txt;../app/questions/question1217/outputs/out25.txt">
+            Exemplo 119
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in26.txt;../app/questions/question1217/outputs/out26.txt">
+            Exemplo 120
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in27.txt;../app/questions/question1217/outputs/out27.txt">
+            Exemplo 121
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in28.txt;../app/questions/question1217/outputs/out28.txt">
+            Exemplo 122
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in29.txt;../app/questions/question1217/outputs/out29.txt">
+            Exemplo 123
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in3.txt;../app/questions/question1217/outputs/out3.txt">
+            Exemplo 124
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in30.txt;../app/questions/question1217/outputs/out30.txt">
+            Exemplo 125
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in31.txt;../app/questions/question1217/outputs/out31.txt">
+            Exemplo 126
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in32.txt;../app/questions/question1217/outputs/out32.txt">
+            Exemplo 127
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in33.txt;../app/questions/question1217/outputs/out33.txt">
+            Exemplo 128
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in34.txt;../app/questions/question1217/outputs/out34.txt">
+            Exemplo 129
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in35.txt;../app/questions/question1217/outputs/out35.txt">
+            Exemplo 130
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in36.txt;../app/questions/question1217/outputs/out36.txt">
+            Exemplo 131
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in37.txt;../app/questions/question1217/outputs/out37.txt">
+            Exemplo 132
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in38.txt;../app/questions/question1217/outputs/out38.txt">
+            Exemplo 133
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in39.txt;../app/questions/question1217/outputs/out39.txt">
+            Exemplo 134
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in4.txt;../app/questions/question1217/outputs/out4.txt">
+            Exemplo 135
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in40.txt;../app/questions/question1217/outputs/out40.txt">
+            Exemplo 136
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in41.txt;../app/questions/question1217/outputs/out41.txt">
+            Exemplo 137
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in42.txt;../app/questions/question1217/outputs/out42.txt">
+            Exemplo 138
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in43.txt;../app/questions/question1217/outputs/out43.txt">
+            Exemplo 139
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in44.txt;../app/questions/question1217/outputs/out44.txt">
+            Exemplo 140
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in45.txt;../app/questions/question1217/outputs/out45.txt">
+            Exemplo 141
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in46.txt;../app/questions/question1217/outputs/out46.txt">
+            Exemplo 142
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in47.txt;../app/questions/question1217/outputs/out47.txt">
+            Exemplo 143
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in48.txt;../app/questions/question1217/outputs/out48.txt">
+            Exemplo 144
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in49.txt;../app/questions/question1217/outputs/out49.txt">
+            Exemplo 145
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in5.txt;../app/questions/question1217/outputs/out5.txt">
+            Exemplo 146
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in50.txt;../app/questions/question1217/outputs/out50.txt">
+            Exemplo 147
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in51.txt;../app/questions/question1217/outputs/out51.txt">
+            Exemplo 148
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in52.txt;../app/questions/question1217/outputs/out52.txt">
+            Exemplo 149
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in53.txt;../app/questions/question1217/outputs/out53.txt">
+            Exemplo 150
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in54.txt;../app/questions/question1217/outputs/out54.txt">
+            Exemplo 151
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in55.txt;../app/questions/question1217/outputs/out55.txt">
+            Exemplo 152
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in56.txt;../app/questions/question1217/outputs/out56.txt">
+            Exemplo 153
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in57.txt;../app/questions/question1217/outputs/out57.txt">
+            Exemplo 154
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in58.txt;../app/questions/question1217/outputs/out58.txt">
+            Exemplo 155
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in59.txt;../app/questions/question1217/outputs/out59.txt">
+            Exemplo 156
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in6.txt;../app/questions/question1217/outputs/out6.txt">
+            Exemplo 157
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in60.txt;../app/questions/question1217/outputs/out60.txt">
+            Exemplo 158
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in61.txt;../app/questions/question1217/outputs/out61.txt">
+            Exemplo 159
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in62.txt;../app/questions/question1217/outputs/out62.txt">
+            Exemplo 160
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in63.txt;../app/questions/question1217/outputs/out63.txt">
+            Exemplo 161
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in64.txt;../app/questions/question1217/outputs/out64.txt">
+            Exemplo 162
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in65.txt;../app/questions/question1217/outputs/out65.txt">
+            Exemplo 163
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in66.txt;../app/questions/question1217/outputs/out66.txt">
+            Exemplo 164
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in67.txt;../app/questions/question1217/outputs/out67.txt">
+            Exemplo 165
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in68.txt;../app/questions/question1217/outputs/out68.txt">
+            Exemplo 166
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in69.txt;../app/questions/question1217/outputs/out69.txt">
+            Exemplo 167
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in7.txt;../app/questions/question1217/outputs/out7.txt">
+            Exemplo 168
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in70.txt;../app/questions/question1217/outputs/out70.txt">
+            Exemplo 169
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in71.txt;../app/questions/question1217/outputs/out71.txt">
+            Exemplo 170
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in72.txt;../app/questions/question1217/outputs/out72.txt">
+            Exemplo 171
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in73.txt;../app/questions/question1217/outputs/out73.txt">
+            Exemplo 172
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in74.txt;../app/questions/question1217/outputs/out74.txt">
+            Exemplo 173
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in75.txt;../app/questions/question1217/outputs/out75.txt">
+            Exemplo 174
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in76.txt;../app/questions/question1217/outputs/out76.txt">
+            Exemplo 175
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in77.txt;../app/questions/question1217/outputs/out77.txt">
+            Exemplo 176
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in78.txt;../app/questions/question1217/outputs/out78.txt">
+            Exemplo 177
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in79.txt;../app/questions/question1217/outputs/out79.txt">
+            Exemplo 178
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in8.txt;../app/questions/question1217/outputs/out8.txt">
+            Exemplo 179
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in80.txt;../app/questions/question1217/outputs/out80.txt">
+            Exemplo 180
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in81.txt;../app/questions/question1217/outputs/out81.txt">
+            Exemplo 181
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in82.txt;../app/questions/question1217/outputs/out82.txt">
+            Exemplo 182
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in83.txt;../app/questions/question1217/outputs/out83.txt">
+            Exemplo 183
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in84.txt;../app/questions/question1217/outputs/out84.txt">
+            Exemplo 184
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in85.txt;../app/questions/question1217/outputs/out85.txt">
+            Exemplo 185
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in86.txt;../app/questions/question1217/outputs/out86.txt">
+            Exemplo 186
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in87.txt;../app/questions/question1217/outputs/out87.txt">
+            Exemplo 187
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in88.txt;../app/questions/question1217/outputs/out88.txt">
+            Exemplo 188
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in89.txt;../app/questions/question1217/outputs/out89.txt">
+            Exemplo 189
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in9.txt;../app/questions/question1217/outputs/out9.txt">
+            Exemplo 190
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in90.txt;../app/questions/question1217/outputs/out90.txt">
+            Exemplo 191
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in91.txt;../app/questions/question1217/outputs/out91.txt">
+            Exemplo 192
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in92.txt;../app/questions/question1217/outputs/out92.txt">
+            Exemplo 193
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in93.txt;../app/questions/question1217/outputs/out93.txt">
+            Exemplo 194
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in94.txt;../app/questions/question1217/outputs/out94.txt">
+            Exemplo 195
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in95.txt;../app/questions/question1217/outputs/out95.txt">
+            Exemplo 196
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in96.txt;../app/questions/question1217/outputs/out96.txt">
+            Exemplo 197
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in97.txt;../app/questions/question1217/outputs/out97.txt">
+            Exemplo 198
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in98.txt;../app/questions/question1217/outputs/out98.txt">
+            Exemplo 199
+        </option>
+        
+        <option value="../app/questions/question1217/inputs/in99.txt;../app/questions/question1217/outputs/out99.txt">
+            Exemplo 200
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

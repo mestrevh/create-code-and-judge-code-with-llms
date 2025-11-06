@@ -7,31 +7,246 @@
     <title>Questão 2334 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2334</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2334</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L5Q6 - Together
-Topicos do problema: grafo; decisão; recursão; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Troy e Gabriella têm a chance de provar seu valor em suas próprias áreas de atuação: Gabriella, em sua competição de conhecimentos gerais e Troy na grande final do campeonato estadual de basquete. Após uma maravilhosa vitória de ambos, todos do colégio decidiram celebrar juntos, em uma grande apresentação em conjunto, na qual diversos alunos participarão. Pórem, visto que tudo foi decidido em cima da hora, eles ficaram com certa dúvida de que essa grande ideia daria certo, contudo, lá estava você, mais uma vez para salvar o dia e criar um programa capaz de criar soluções convinientemente perfeitas!<br/></p><p><br/></p><p>Dessa vez, o problema é que visto que tantas pessoas estariam envolvidas na apresentação, o fato deles apenas possuírem um microfone disponível para todos é muito preocupante. Será necessário, durante a apresentação, que o microfone seja passado de mão em mão, entre todos os alunos, para que tudo vá como planejado. Logo, te pedem para checar se seria possível, dado para quais pessoas cada aluno consegue passar o microfone para devido a distância, que todos os que se apresentarão usem o microfone.<br/></p><p><br/></p><p style="text-align: center;"><img src="https://media1.tenor.com/images/a4c346ede7ad5d662b671ffc114ab3aa/tenor.gif?itemid=4630028" alt="High School Musical GIF - High School Musical GIFs"/><br/></p><p style="text-align: center;"><br/></p><p style="text-align: center;"><br/></p><p>Você decide aceitar o desafio e descobrir se existe alguma forma do microfone começar com o cantor inicial, e acabar com o final, ambos serão informados pela entrada do programa.</p><p><br/></p><p><b>DICAS DE RESOLUÇÃO (se quiser fazer &#34;modo hard&#34;, não precisa ler, vai na fé que dá certo) :)</b></p><p>Por exemplo, imaginemos a seguinte entrada:</p><blockquote><h5><span>4 4</span><br/></h5><h5>Troy</h5><h5>Sharpay</h5><h5>Gabriela</h5><h5>Ryan</h5><h5>0 1</h5><h5>0 2</h5><h5>1 2</h5><h5>2 3</h5><h5>Sharpay</h5><h5>Ryan</h5></blockquote><p>Podemos extrair as seguintes informações:</p><ul><li>Troy pode passar o microfone para: Sharpay e Gabriela.</li><li>Sharpay pode passar o microfone para: Gabriela.</li><li>Gabriela pode passar o microfone para: Ryan.</li><li>Ryan não pode passar para ninguém.</li><li>O microfone iniciará nas mãos de Sharpay e deverá chegar na de Ryan.</li></ul><p>Nesse caso é possível, pois o microfone pode seguir o caminho: Sharpay -&gt; Gabriela -&gt; Ryan.<br/></p><p><span><br/></span></p><p><font face="inherit">Para </font>armazenar<font face="inherit"> as relações entre as pessoas que irão passar os microfones você pode utilizar uma dessas duas lógicas:</font></p><p><b>Dica 1: </b>Você poderá criar um array bidimensional de tamanho NxN onde a posição 0 do primeiro array corresponda a primeira pessoa a ser inserida na entrada e os elementos dentro do array (da posição 0) correspondam aos respectivos colegas para os quais a pessoa 0 pode passar o microfone, representados também por números. (note que ao utilizar essa solução, antes de alterar colocar os valores foi definido que todos os slots do array teriam valor -1, para diferenciar da pessoa 0). Após criada a estrutura, ela deverá parecer com algo dessa forma:<br/></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/8afcf605ed54fc4115df999f0d150db458f6b564a.png"/><br/></p><p><br/></p><p><b>DICA 2:</b> Outra opção é criar uma matriz de adjacência, é bem parecido com o exemplo anterior. Você deverá criar um array bidimensional de tamanho NxN que armazena valores booleanos (true ou false), para cada slot da matrizAjdacencia[i][j] indicará se a pessoa <i><b>i</b></i> possui uma conexão para a pessoa <i><b>j</b></i>, caso o valor true esteja armazenado, desse modo significa que a pessoa <i><b>i</b></i> poderá passar o microfone para a pessoa<i> <b>j</b></i>. Caso o valor armazenado seja falso, indica que ali não há uma conexão entre <i><b>i</b> </i>e<i> <b>j</b>.</i><br/></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/38e7593889ddafd98ef1c36c2679d7e48655abd7a.png"/><br/></p><p><br/></p><p>Após armazenados os dados, basta criar um método recursivo que consiga transitar por essas conexões criadas, indo de pessoa para pessoa até que seja atingido o seu destino final.</p>
-Formato da entrada: <blockquote><p><b>N M</b></p></blockquote><p>Números naturais correpondendo a quantidade de pessoas que participarão da apresentação e também a quantidade de conexões a serem informadas.</p><p><br/></p><p>Seguido de linhas no formato:</p><blockquote><p><b>Nome0</b></p><p><b>Nome1</b></p><p><b>...</b></p><p><b>NomeN</b></p></blockquote><p><br/></p><p><b>OBS: </b> Para as próximas informações da entrada, considere que a primeira que foi fornecida pela entrada tem como associação o número 0, a segunda como número 1 e assim por diante até N-1.</p><p><br/></p><p>Seguido de M linhas no formato</p><blockquote><p><b>I J</b></p></blockquote><p>Em que I corresponde a I-ésima pessoa e J o número da pessoa para qual ela pode passar o microfone (o inverso não é verdade, obrigatoriamente).</p><p><br/></p><p>Após, deverá ser informado com quem irá começar e acabar o microfone, respectivamente, no formato:</p><blockquote><p><b>A</b></p><p><b>B</b></p></blockquote><p>Em que A corresponde ao nome da pessoa que irá iniciar cantando e B o nome da última pessoa a receber o microfone.</p>
-Formato da saída: <p>Caso o seja possível o microfone chegar ao cantor final, deverá ser impressa a seguinte frase:</p><blockquote><p><b>&#34;We're all in this together!&#34;</b></p></blockquote><p><br/></p><p>Caso contrário:</p><blockquote><p><b>&#34;Mentira, nenhum filme da Disney da errado, nunca.&#34;</b></p></blockquote>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">grafo</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">recursão</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>L5Q6 - Together</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Troy e Gabriella têm a chance de provar seu valor em suas próprias áreas de atuação: Gabriella, em sua competição de conhecimentos gerais e Troy na grande final do campeonato estadual de basquete. Após uma maravilhosa vitória de ambos, todos do colégio decidiram celebrar juntos, em uma grande apresentação em conjunto, na qual diversos alunos participarão. Pórem, visto que tudo foi decidido em cima da hora, eles ficaram com certa dúvida de que essa grande ideia daria certo, contudo, lá estava você, mais uma vez para salvar o dia e criar um programa capaz de criar soluções convinientemente perfeitas!<br/></p><p><br/></p><p>Dessa vez, o problema é que visto que tantas pessoas estariam envolvidas na apresentação, o fato deles apenas possuírem um microfone disponível para todos é muito preocupante. Será necessário, durante a apresentação, que o microfone seja passado de mão em mão, entre todos os alunos, para que tudo vá como planejado. Logo, te pedem para checar se seria possível, dado para quais pessoas cada aluno consegue passar o microfone para devido a distância, que todos os que se apresentarão usem o microfone.<br/></p><p><br/></p><p style="text-align: center;"><img src="https://media1.tenor.com/images/a4c346ede7ad5d662b671ffc114ab3aa/tenor.gif?itemid=4630028" alt="High School Musical GIF - High School Musical GIFs"/><br/></p><p style="text-align: center;"><br/></p><p style="text-align: center;"><br/></p><p>Você decide aceitar o desafio e descobrir se existe alguma forma do microfone começar com o cantor inicial, e acabar com o final, ambos serão informados pela entrada do programa.</p><p><br/></p><p><b>DICAS DE RESOLUÇÃO (se quiser fazer &#34;modo hard&#34;, não precisa ler, vai na fé que dá certo) :)</b></p><p>Por exemplo, imaginemos a seguinte entrada:</p><blockquote><h5><span>4 4</span><br/></h5><h5>Troy</h5><h5>Sharpay</h5><h5>Gabriela</h5><h5>Ryan</h5><h5>0 1</h5><h5>0 2</h5><h5>1 2</h5><h5>2 3</h5><h5>Sharpay</h5><h5>Ryan</h5></blockquote><p>Podemos extrair as seguintes informações:</p><ul><li>Troy pode passar o microfone para: Sharpay e Gabriela.</li><li>Sharpay pode passar o microfone para: Gabriela.</li><li>Gabriela pode passar o microfone para: Ryan.</li><li>Ryan não pode passar para ninguém.</li><li>O microfone iniciará nas mãos de Sharpay e deverá chegar na de Ryan.</li></ul><p>Nesse caso é possível, pois o microfone pode seguir o caminho: Sharpay -&gt; Gabriela -&gt; Ryan.<br/></p><p><span><br/></span></p><p><font face="inherit">Para </font>armazenar<font face="inherit"> as relações entre as pessoas que irão passar os microfones você pode utilizar uma dessas duas lógicas:</font></p><p><b>Dica 1: </b>Você poderá criar um array bidimensional de tamanho NxN onde a posição 0 do primeiro array corresponda a primeira pessoa a ser inserida na entrada e os elementos dentro do array (da posição 0) correspondam aos respectivos colegas para os quais a pessoa 0 pode passar o microfone, representados também por números. (note que ao utilizar essa solução, antes de alterar colocar os valores foi definido que todos os slots do array teriam valor -1, para diferenciar da pessoa 0). Após criada a estrutura, ela deverá parecer com algo dessa forma:<br/></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/8afcf605ed54fc4115df999f0d150db458f6b564a.png"/><br/></p><p><br/></p><p><b>DICA 2:</b> Outra opção é criar uma matriz de adjacência, é bem parecido com o exemplo anterior. Você deverá criar um array bidimensional de tamanho NxN que armazena valores booleanos (true ou false), para cada slot da matrizAjdacencia[i][j] indicará se a pessoa <i><b>i</b></i> possui uma conexão para a pessoa <i><b>j</b></i>, caso o valor true esteja armazenado, desse modo significa que a pessoa <i><b>i</b></i> poderá passar o microfone para a pessoa<i> <b>j</b></i>. Caso o valor armazenado seja falso, indica que ali não há uma conexão entre <i><b>i</b> </i>e<i> <b>j</b>.</i><br/></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/38e7593889ddafd98ef1c36c2679d7e48655abd7a.png"/><br/></p><p><br/></p><p>Após armazenados os dados, basta criar um método recursivo que consiga transitar por essas conexões criadas, indo de pessoa para pessoa até que seja atingido o seu destino final.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><blockquote><p><b>N M</b></p></blockquote><p>Números naturais correpondendo a quantidade de pessoas que participarão da apresentação e também a quantidade de conexões a serem informadas.</p><p><br/></p><p>Seguido de linhas no formato:</p><blockquote><p><b>Nome0</b></p><p><b>Nome1</b></p><p><b>...</b></p><p><b>NomeN</b></p></blockquote><p><br/></p><p><b>OBS: </b> Para as próximas informações da entrada, considere que a primeira que foi fornecida pela entrada tem como associação o número 0, a segunda como número 1 e assim por diante até N-1.</p><p><br/></p><p>Seguido de M linhas no formato</p><blockquote><p><b>I J</b></p></blockquote><p>Em que I corresponde a I-ésima pessoa e J o número da pessoa para qual ela pode passar o microfone (o inverso não é verdade, obrigatoriamente).</p><p><br/></p><p>Após, deverá ser informado com quem irá começar e acabar o microfone, respectivamente, no formato:</p><blockquote><p><b>A</b></p><p><b>B</b></p></blockquote><p>Em que A corresponde ao nome da pessoa que irá iniciar cantando e B o nome da última pessoa a receber o microfone.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Caso o seja possível o microfone chegar ao cantor final, deverá ser impressa a seguinte frase:</p><blockquote><p><b>&#34;We're all in this together!&#34;</b></p></blockquote><p><br/></p><p>Caso contrário:</p><blockquote><p><b>&#34;Mentira, nenhum filme da Disney da errado, nunca.&#34;</b></p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2334/inputs/in0.txt;../app/questions/question2334/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in1.txt;../app/questions/question2334/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in10.txt;../app/questions/question2334/outputs/out10.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in11.txt;../app/questions/question2334/outputs/out11.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in12.txt;../app/questions/question2334/outputs/out12.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in13.txt;../app/questions/question2334/outputs/out13.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in14.txt;../app/questions/question2334/outputs/out14.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in15.txt;../app/questions/question2334/outputs/out15.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in16.txt;../app/questions/question2334/outputs/out16.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in17.txt;../app/questions/question2334/outputs/out17.txt">
+            Exemplo 10
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in18.txt;../app/questions/question2334/outputs/out18.txt">
+            Exemplo 11
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in19.txt;../app/questions/question2334/outputs/out19.txt">
+            Exemplo 12
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in2.txt;../app/questions/question2334/outputs/out2.txt">
+            Exemplo 13
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in20.txt;../app/questions/question2334/outputs/out20.txt">
+            Exemplo 14
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in21.txt;../app/questions/question2334/outputs/out21.txt">
+            Exemplo 15
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in22.txt;../app/questions/question2334/outputs/out22.txt">
+            Exemplo 16
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in23.txt;../app/questions/question2334/outputs/out23.txt">
+            Exemplo 17
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in3.txt;../app/questions/question2334/outputs/out3.txt">
+            Exemplo 18
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in4.txt;../app/questions/question2334/outputs/out4.txt">
+            Exemplo 19
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in5.txt;../app/questions/question2334/outputs/out5.txt">
+            Exemplo 20
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in6.txt;../app/questions/question2334/outputs/out6.txt">
+            Exemplo 21
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in7.txt;../app/questions/question2334/outputs/out7.txt">
+            Exemplo 22
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in8.txt;../app/questions/question2334/outputs/out8.txt">
+            Exemplo 23
+        </option>
+        
+        <option value="../app/questions/question2334/inputs/in9.txt;../app/questions/question2334/outputs/out9.txt">
+            Exemplo 24
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

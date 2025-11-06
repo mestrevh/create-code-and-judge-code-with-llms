@@ -7,31 +7,170 @@
     <title>Questão 3547 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3547</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3547</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: A nave de Bilu
-Topicos do problema: decisão; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p style="text-align: center;"><img src="https://i.pinimg.com/originals/0f/67/e1/0f67e15eda4d56eb46055771008d1df6.jpg" alt="https://i.pinimg.com/originals/0f/67/e1/0f67e15eda4d56eb46055771008d1df6.jpg"/></p><p style="text-align: center;"><br/></p><p>Bilu é um jovem e extraordinário extra-terrestre que veio nos fazer uma visitinha em meados de 2010, se tornando um fenômeno nacional após enviar a famosa mensagem em rede nacional para nós, brasileiros: &#34;Apenas busquem conhecimento&#34;.</p><p style="text-align: left;">Porém, apesar de ter basicamente nos chamados de ridículos em comparação a ele, Bilu demonstra ter péssimos conhecimentos de geometria e precisa de você, ser inferior, para ajudá-lo a estacionar seu disco voador! (Chegou sua hora de se mostrar ser alguém pro grande ET Bilu figura nacional, então aproveite).</p><p style="text-align: left;"><br/></p><p style="text-align: center;"><img src="https://img.r7.com/images/2015/06/12/73e8ttnfna_4cjoewf08t_file" alt="https://img.r7.com/images/2015/06/12/73e8ttnfna_4cjoewf08t_file"/></p><p style="text-align: left;"><br/></p><p>Como bem sabemos, já houveram diversos relatos de marcações em plantações ao redor de todo o globo. Bilu lhe contou que essas marcações foram feitas por amigos dele que simplesmente estavam com preguiça de procurarem locais menos &#34;marcantes&#34; (se é que você me entendeu).</p><p style="text-align: left;">Porém, Bilu é astuto e concluiu que pousando seu disco voador em locares menos chamativos, atrairia menos atenção! Eu sei, você também nunca pensou nisso, ele é incrivel e não há como negar.<br/></p><p style="text-align: center;"><a class="_3X9Zhs_atixoQRBDsNGQnl" href="https://giphy.com/gifs/stonks-stonk-YnkMcHgNIMW4Yfmjxr?utm_source=media-link&amp;utm_medium=landing&amp;utm_campaign=Media%20Links&amp;utm_term="> <img src="https://i.giphy.com/media/YnkMcHgNIMW4Yfmjxr/giphy.webp" alt=""/></a></p><p style="text-align: center;"><br/></p><p style="text-align: left;">Bilu viaja em um esferóide que pode ser definido pela seguinte equação, onde a e b são números reais positivos que determinam as dimensões e a forma do esferóide.<i> (Bilu inclusive recomenda que você use alguma plataforma para verificar como a e b afetam o formato da sua nave).</i><br/></p><p style="text-align: left;"><br/></p><p style="text-align: center;"><span class="mwe-math-element"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/48b41215ac795b0a59342cf2994ec64f0224946b" class="mwe-math-fallback-image-inline" alt="{\displaystyle {\frac {x^{2}}{a^{2}}}+{\frac {y^{2}}{b^{2}}}+{\frac {z^{2}}{b^{2}}}=1}"/></span></p><p></p>
-Formato da entrada: <p>Bilu lhe fornecerá os valores para <b>a</b> e <b>b</b>, junto com dimensões <b>c</b> e <b>d </b>de um retângulo qualquer que definem os tamanhos dos lados do local onde ele irá realizar seu pouso oculto.</p><p>P.s.: Lembrem que o comprimento é dado pelo tamanho do <b>maior lado</b>!<br/></p>
-Formato da saída: <p>Você deverá responder <b>&#34;Pousa, bilu&#34;</b> (sem aspas)<b> </b>se for possível realizar o pouso ou <b>&#34;Procura outro lugar, bilu&#34; </b>(sem aspas) em caso contrário.<br/></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>A nave de Bilu</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p style="text-align: center;"><img src="https://i.pinimg.com/originals/0f/67/e1/0f67e15eda4d56eb46055771008d1df6.jpg" alt="https://i.pinimg.com/originals/0f/67/e1/0f67e15eda4d56eb46055771008d1df6.jpg"/></p><p style="text-align: center;"><br/></p><p>Bilu é um jovem e extraordinário extra-terrestre que veio nos fazer uma visitinha em meados de 2010, se tornando um fenômeno nacional após enviar a famosa mensagem em rede nacional para nós, brasileiros: &#34;Apenas busquem conhecimento&#34;.</p><p style="text-align: left;">Porém, apesar de ter basicamente nos chamados de ridículos em comparação a ele, Bilu demonstra ter péssimos conhecimentos de geometria e precisa de você, ser inferior, para ajudá-lo a estacionar seu disco voador! (Chegou sua hora de se mostrar ser alguém pro grande ET Bilu figura nacional, então aproveite).</p><p style="text-align: left;"><br/></p><p style="text-align: center;"><img src="https://img.r7.com/images/2015/06/12/73e8ttnfna_4cjoewf08t_file" alt="https://img.r7.com/images/2015/06/12/73e8ttnfna_4cjoewf08t_file"/></p><p style="text-align: left;"><br/></p><p>Como bem sabemos, já houveram diversos relatos de marcações em plantações ao redor de todo o globo. Bilu lhe contou que essas marcações foram feitas por amigos dele que simplesmente estavam com preguiça de procurarem locais menos &#34;marcantes&#34; (se é que você me entendeu).</p><p style="text-align: left;">Porém, Bilu é astuto e concluiu que pousando seu disco voador em locares menos chamativos, atrairia menos atenção! Eu sei, você também nunca pensou nisso, ele é incrivel e não há como negar.<br/></p><p style="text-align: center;"><a class="_3X9Zhs_atixoQRBDsNGQnl" href="https://giphy.com/gifs/stonks-stonk-YnkMcHgNIMW4Yfmjxr?utm_source=media-link&amp;utm_medium=landing&amp;utm_campaign=Media%20Links&amp;utm_term="> <img src="https://i.giphy.com/media/YnkMcHgNIMW4Yfmjxr/giphy.webp" alt=""/></a></p><p style="text-align: center;"><br/></p><p style="text-align: left;">Bilu viaja em um esferóide que pode ser definido pela seguinte equação, onde a e b são números reais positivos que determinam as dimensões e a forma do esferóide.<i> (Bilu inclusive recomenda que você use alguma plataforma para verificar como a e b afetam o formato da sua nave).</i><br/></p><p style="text-align: left;"><br/></p><p style="text-align: center;"><span class="mwe-math-element"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/48b41215ac795b0a59342cf2994ec64f0224946b" class="mwe-math-fallback-image-inline" alt="{\displaystyle {\frac {x^{2}}{a^{2}}}+{\frac {y^{2}}{b^{2}}}+{\frac {z^{2}}{b^{2}}}=1}"/></span></p><p></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Bilu lhe fornecerá os valores para <b>a</b> e <b>b</b>, junto com dimensões <b>c</b> e <b>d </b>de um retângulo qualquer que definem os tamanhos dos lados do local onde ele irá realizar seu pouso oculto.</p><p>P.s.: Lembrem que o comprimento é dado pelo tamanho do <b>maior lado</b>!<br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Você deverá responder <b>&#34;Pousa, bilu&#34;</b> (sem aspas)<b> </b>se for possível realizar o pouso ou <b>&#34;Procura outro lugar, bilu&#34; </b>(sem aspas) em caso contrário.<br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question3547/inputs/in0.txt;../app/questions/question3547/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question3547/inputs/in1.txt;../app/questions/question3547/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question3547/inputs/in2.txt;../app/questions/question3547/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question3547/inputs/in3.txt;../app/questions/question3547/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question3547/inputs/in4.txt;../app/questions/question3547/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

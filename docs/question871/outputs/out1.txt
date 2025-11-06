@@ -1,0 +1,8 @@
+Matriz formada:
+1 2 3
+-8 -5 9
+6 5 8
+7 3 4
+A diagonal principal e secundaria nao pode ser obtida.
+A matriz possui 2 numero(s) menor(es) que zero.
+A matriz possui 10 numero(s) maior(es) que zero.

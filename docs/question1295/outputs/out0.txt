@@ -1,0 +1,14 @@
+Separando o array V[0...4] : {7, 11, 2, 5, 3} em V[0...1] : {7, 11} e V[2...4] : {2, 5, 3}
+Separando o array V[0...1] : {7, 11} em V[0...0] : {7} e V[1...1] : {11}
+Executando o merge nos arrays {7} e {11}
+array ordenado : {7, 11}
+Separando o array V[2...4] : {2, 5, 3} em V[2...2] : {2} e V[3...4] : {5, 3}
+Separando o array V[3...4] : {5, 3} em V[3...3] : {5} e V[4...4] : {3}
+Executando o merge nos arrays {5} e {3}
+array ordenado : {3, 5}
+Executando o merge nos arrays {2} e {3, 5}
+array ordenado : {2, 3, 5}
+Executando o merge nos arrays {7, 11} e {2, 3, 5}
+array ordenado : {2, 3, 5, 7, 11}
+
+O array ordenado : 2 3 5 7 11

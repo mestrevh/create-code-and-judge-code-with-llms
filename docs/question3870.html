@@ -7,31 +7,178 @@
     <title>Questão 3870 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3870</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3870</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Sopa de Letrinhas
-Topicos do problema: multiplas entradas; array; caractere; string; busca; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Kammera Man perdeu sua criatividade e, para passar o tempo (talvez se inspirar?), ele pediu para você fazer um código que se comporta da seguinte forma:</p><p><br/></p><pre>Dado um conjunto de letras, o programa verifica quantas palavras podem ser formadas usando essas letras.&#10;Porém, como você está usando o computador de Kammera Man, você só tem espaço para digitar 5 palavras diferentes.</pre><pre>Toda vez que uma palavra é formada, as letras desta são retiradas do conjunto. Porém, se uma palavra não consegue&#10;ser formada, nenhuma das letras são retiradas do conjunto, ou seja: &#10;&#10;Somente as palavras que podem ser formadas <b>completamente</b>, retiram letras do conjunto.</pre><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">OBS: As strings não tem espaço incluído.</span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">OBS2: A string <b>não precisa estar contida </b>no conjunto.</span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Por que será que o computador de Kammera Man só tem espaço para verificar 5 palavras?</span><br/></p>
-Formato da entrada: <p>Uma string de até 29 caracteres.</p><p>Um inteiro <b>N</b> menor ou igual a 5, indicando a quantidade de palavras a serem checadas.<br/><br/><b>N</b> strings de até 29 caracteres.</p>
-Formato da saída: <div><p>&#34;E possivel formar <b>x</b> palavras com esse conjunto&#34;</p><p>Sem as aspas, seguida de uma quebra de linha.</p><p>Onde <b>x</b> é o número de palavras que podem ser formadas. </p><p><br/></p></div>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">multiplas entradas</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">caractere</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">string</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">busca</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Sopa de Letrinhas</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Kammera Man perdeu sua criatividade e, para passar o tempo (talvez se inspirar?), ele pediu para você fazer um código que se comporta da seguinte forma:</p><p><br/></p><pre>Dado um conjunto de letras, o programa verifica quantas palavras podem ser formadas usando essas letras.&#10;Porém, como você está usando o computador de Kammera Man, você só tem espaço para digitar 5 palavras diferentes.</pre><pre>Toda vez que uma palavra é formada, as letras desta são retiradas do conjunto. Porém, se uma palavra não consegue&#10;ser formada, nenhuma das letras são retiradas do conjunto, ou seja: &#10;&#10;Somente as palavras que podem ser formadas <b>completamente</b>, retiram letras do conjunto.</pre><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">OBS: As strings não tem espaço incluído.</span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">OBS2: A string <b>não precisa estar contida </b>no conjunto.</span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Por que será que o computador de Kammera Man só tem espaço para verificar 5 palavras?</span><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Uma string de até 29 caracteres.</p><p>Um inteiro <b>N</b> menor ou igual a 5, indicando a quantidade de palavras a serem checadas.<br/><br/><b>N</b> strings de até 29 caracteres.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><div><p>&#34;E possivel formar <b>x</b> palavras com esse conjunto&#34;</p><p>Sem as aspas, seguida de uma quebra de linha.</p><p>Onde <b>x</b> é o número de palavras que podem ser formadas. </p><p><br/></p></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question3870/inputs/in0.txt;../app/questions/question3870/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question3870/inputs/in1.txt;../app/questions/question3870/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question3870/inputs/in2.txt;../app/questions/question3870/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question3870/inputs/in3.txt;../app/questions/question3870/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question3870/inputs/in4.txt;../app/questions/question3870/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question3870/inputs/in5.txt;../app/questions/question3870/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question3870/inputs/in6.txt;../app/questions/question3870/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

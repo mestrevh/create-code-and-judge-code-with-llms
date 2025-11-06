@@ -7,31 +7,182 @@
     <title>Questão 805 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 805</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 805</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Busca em Largura
-Topicos do problema: 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>O algoritmo de busca em largura é bastante utilizado em estruturas de dados, e costuma ser útil para descobrir o menor caminho entre dois pontos. O algoritmo é iniciado a partir de um vértice arbitrário de um grafo e explora primeiro os seus vizinhos (vértices adjacentes) para então seguir para os vizinhos dos vizinhos.</p><p>Para cada iteração do algoritmo, a partir do vértice inicial, marcamos em cada vértice visitado:</p><ol><li> a distância a partir da origem em número de arestas percorridas;</li><li>o vértice predecessor, o que permite realizarmos o backtracking a partir de um nó de destino, até a origem, assumindo que a busca foi realizada e há um caminho entre os dois vértices.</li></ol><p>Neste exercício você receberá um grafo como entrada e alguns casos de teste consistindo de um nó de origem e de destino, para informar se há um caminho entre os dois nós e qual seria este caminho.</p>
-Formato da entrada: <p>A primeira linha da entrada consiste dos valores &#34;<b>V</b><span><b> A T</b>&#34;, onde <b>V</b> é a quantidade de vértices do grafo, <b>A</b> corresponde à quantidade de arestas presentes no grafo, e <b>T</b> é a quantidade de casos de teste a serem examinados.</span></p><p><span>Após a primeira linha, existem <b>A</b> linhas detalhando todas as arestas do grafo no formato &#34;<b>O</b> <b>D</b>&#34;, onde <b>O </b>é o vértice de origem da aresta e <b>D</b> o vértice de destino. Perceba que embora sejam <b>V</b> vértices, as chaves de cada vértice vão de <b>0</b> a <b>V-1</b>.</span></p><p><span>Após as linhas das arestas, existem <b>T</b> linhas detalhando os casos de teste também no formato &#34;<b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">O</b><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">D</b>&#34;, onde <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">O </b>é o vértice de origem da busca em largura e <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">D</b> o vértice de destino, onde testaremos se há um caminho de <b>O</b> a <b>D</b>.</span></p><p>Não é obrigatório utilizar uma representação específica de grafo, porém vértices adjacentes são sempre visitados em ordem crescente. Ou seja, se um dado vértice 10 tem como vértices adjacentes 15, 9, e 12, a ordem de visitação será 9, 12, e 15.</p>
-Formato da saída: <p>Para cada caso de teste, deve ser impressa inicialmente a linha &#34;Caso de Teste #<i><b>n</b></i> - BFS(<b><i>o</i></b>)&#34;, onde <i><b>n</b></i> é o valor do n-ésimo caso de teste (iniciado em 1 originalmente) e <i><b>o</b></i> corresponde ao vértice de origem. </p><p>Para cada passo da busca em largura, deve ser impressa, em uma linha distinta, a mensagem &#34;Iniciando busca em largura a partir de <b><i>v</i></b>&#34;, onde <b><i>v</i></b> é o vértice em questão sendo examinado.</p><p>Ao final da execução da busca, deve ser impresso, para cada vértice do grafo, uma linha no seguinte formato: &#34;<b>K</b> | <b>D</b> | <b>P</b>&#34;, onde <b>K</b> é a chave do nó do grafo (que vai de <b>0</b> a <b>V-1</b>, como detalhado na entrada), <b>D</b> é a distância do nó em relação ao vértice de origem para o caso de teste (se não for alcançável, deve ser impresso &#34;<b>-</b>&#34;), e <b>P</b> é o vértice predecessor do nó (se não aplicável, também imprimir &#34;<b>-</b>&#34;).</p><p>Finalmente, deve ser impressa em uma linha uma mensagem informando se há caminho entre <b>O</b> e <b>D</b>, onde <b>O</b> é o vértice de origem da busca em largura e <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">D</b> o vértice de destino, para o caso de teste em questão. Para o valor desta mensagem há duas possibilidades:</p><ol><li>Se não há caminho entre <b>O</b> e <b>D</b>, imprima &#34;Sem caminho entre <b>O</b> e <b>D</b>&#34;</li><li><span>Se existe caminho entre <b>O</b> e <b>D</b>, imprima &#34;Caminho entre</span> <b>O</b> <span>e</span> <b>D</b><span>: <b>O</b> =&gt; <b>V1</b> =&gt; <b>V2</b> =&gt; ... =&gt; <b>Vn</b> =&gt; <b>D</b></span><span>&#34;, onde será detalhado o menor caminho existente entre <b>O</b> e <b>D</b>, identificado pela busca em largura.</span></li></ol><p>Observe a quantidade de quebras de linhas entre as informações impressas e os delimitadores entre os casos de teste, para gerar a saída no formato esperado pelo Huxley.</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Busca em Largura</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>O algoritmo de busca em largura é bastante utilizado em estruturas de dados, e costuma ser útil para descobrir o menor caminho entre dois pontos. O algoritmo é iniciado a partir de um vértice arbitrário de um grafo e explora primeiro os seus vizinhos (vértices adjacentes) para então seguir para os vizinhos dos vizinhos.</p><p>Para cada iteração do algoritmo, a partir do vértice inicial, marcamos em cada vértice visitado:</p><ol><li> a distância a partir da origem em número de arestas percorridas;</li><li>o vértice predecessor, o que permite realizarmos o backtracking a partir de um nó de destino, até a origem, assumindo que a busca foi realizada e há um caminho entre os dois vértices.</li></ol><p>Neste exercício você receberá um grafo como entrada e alguns casos de teste consistindo de um nó de origem e de destino, para informar se há um caminho entre os dois nós e qual seria este caminho.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A primeira linha da entrada consiste dos valores &#34;<b>V</b><span><b> A T</b>&#34;, onde <b>V</b> é a quantidade de vértices do grafo, <b>A</b> corresponde à quantidade de arestas presentes no grafo, e <b>T</b> é a quantidade de casos de teste a serem examinados.</span></p><p><span>Após a primeira linha, existem <b>A</b> linhas detalhando todas as arestas do grafo no formato &#34;<b>O</b> <b>D</b>&#34;, onde <b>O </b>é o vértice de origem da aresta e <b>D</b> o vértice de destino. Perceba que embora sejam <b>V</b> vértices, as chaves de cada vértice vão de <b>0</b> a <b>V-1</b>.</span></p><p><span>Após as linhas das arestas, existem <b>T</b> linhas detalhando os casos de teste também no formato &#34;<b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">O</b><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">D</b>&#34;, onde <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">O </b>é o vértice de origem da busca em largura e <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">D</b> o vértice de destino, onde testaremos se há um caminho de <b>O</b> a <b>D</b>.</span></p><p>Não é obrigatório utilizar uma representação específica de grafo, porém vértices adjacentes são sempre visitados em ordem crescente. Ou seja, se um dado vértice 10 tem como vértices adjacentes 15, 9, e 12, a ordem de visitação será 9, 12, e 15.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada caso de teste, deve ser impressa inicialmente a linha &#34;Caso de Teste #<i><b>n</b></i> - BFS(<b><i>o</i></b>)&#34;, onde <i><b>n</b></i> é o valor do n-ésimo caso de teste (iniciado em 1 originalmente) e <i><b>o</b></i> corresponde ao vértice de origem. </p><p>Para cada passo da busca em largura, deve ser impressa, em uma linha distinta, a mensagem &#34;Iniciando busca em largura a partir de <b><i>v</i></b>&#34;, onde <b><i>v</i></b> é o vértice em questão sendo examinado.</p><p>Ao final da execução da busca, deve ser impresso, para cada vértice do grafo, uma linha no seguinte formato: &#34;<b>K</b> | <b>D</b> | <b>P</b>&#34;, onde <b>K</b> é a chave do nó do grafo (que vai de <b>0</b> a <b>V-1</b>, como detalhado na entrada), <b>D</b> é a distância do nó em relação ao vértice de origem para o caso de teste (se não for alcançável, deve ser impresso &#34;<b>-</b>&#34;), e <b>P</b> é o vértice predecessor do nó (se não aplicável, também imprimir &#34;<b>-</b>&#34;).</p><p>Finalmente, deve ser impressa em uma linha uma mensagem informando se há caminho entre <b>O</b> e <b>D</b>, onde <b>O</b> é o vértice de origem da busca em largura e <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">D</b> o vértice de destino, para o caso de teste em questão. Para o valor desta mensagem há duas possibilidades:</p><ol><li>Se não há caminho entre <b>O</b> e <b>D</b>, imprima &#34;Sem caminho entre <b>O</b> e <b>D</b>&#34;</li><li><span>Se existe caminho entre <b>O</b> e <b>D</b>, imprima &#34;Caminho entre</span> <b>O</b> <span>e</span> <b>D</b><span>: <b>O</b> =&gt; <b>V1</b> =&gt; <b>V2</b> =&gt; ... =&gt; <b>Vn</b> =&gt; <b>D</b></span><span>&#34;, onde será detalhado o menor caminho existente entre <b>O</b> e <b>D</b>, identificado pela busca em largura.</span></li></ol><p>Observe a quantidade de quebras de linhas entre as informações impressas e os delimitadores entre os casos de teste, para gerar a saída no formato esperado pelo Huxley.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question805/inputs/in0.txt;../app/questions/question805/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question805/inputs/in1.txt;../app/questions/question805/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question805/inputs/in2.txt;../app/questions/question805/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question805/inputs/in3.txt;../app/questions/question805/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question805/inputs/in4.txt;../app/questions/question805/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question805/inputs/in5.txt;../app/questions/question805/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question805/inputs/in6.txt;../app/questions/question805/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question805/inputs/in7.txt;../app/questions/question805/outputs/out7.txt">
+            Exemplo 8
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

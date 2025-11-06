@@ -7,31 +7,194 @@
     <title>Questão 4039 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4039</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4039</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Batalha Naval Para Horas Vagas
-Topicos do problema: array; ciclos; array bidimensional; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <b id="docs-internal-guid-477bcf16-7fff-8737-4cd6-0e6616280773"></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Dois amigos estavam a caminho das suas aulas no CIn quando receberam uma notificação do classroom avisando que a aula para a qual estavam indo não iria acontecer hoje. No entanto, eles ainda teriam uma aula mais tarde, significando então um horário vago. Como alunos extremamente responsáveis, aproveitaram o horário para revisar os assuntos… ou ao menos isso é o que eles queriam dizer que fizeram. Não, eles só foram jogar alguma coisa mesmo.</span></p><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><span style="width: 238px;height: 254px;"><img src="https://lh5.googleusercontent.com/KT-1tkG2X3JFIa5dOpV1ovJSjsVa687CEQNjj6YZ2V86inm_mqb0RY2UUwJK0OwXbKwTDS0Wx2cf1qgNgN1yh0E97izwzOgKnzOnDhi2NuVxRBWuU7jv-5ZBWyVxBnjFvo4fAhLdb-DbIyX295qOAX8" width="238" height="254"/></span></span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">O jogo escolhido pelos dois foi uma versão simplificada de uma batalha naval. Um dos jogadores irá escolher uma quantidade determinada de quadrados para posicionar os seus “navios”. Após os navios estarem posicionados, o outro jogador terá um total de ataques igual ao dobro da quantidade de navios, e para ser o vencedor ele terá que acertar todos os navios do oponente dentro dessa quantidade de tentativas.</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">E aqui entra você! Faça um programa para receber o tabuleiro montado pelo jogador de defesa e os ataques realizados e, a partir disso, determine quem saiu como vencedor!</span></p>
-Formato da entrada: <p><span id="docs-internal-guid-9f4651f0-7fff-a936-ef1e-5da550f62381"><span style="color: rgb(0, 0, 0);background-color: transparent;">O seu programa irá primeiro receber um inteiro </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>n</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"> que irá determinar o tamanho tabuleiro, que será por sua vez<b> </b></span><b><span style="color: rgb(0, 0, 0);background-color: transparent;">n</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> </span><span style="color: rgb(0, 0, 0);background-color: transparent;">*</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> </span></b><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>n</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;">. Em seguida, receberá também um número</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> <b>k</b> </span><span style="color: rgb(0, 0, 0);background-color: transparent;">que irá determinar a quantidade de navios presentes no tabuleiro. Logo após, uma matriz binária de tamanho<b> </b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>n * n</b> </span><span style="color: rgb(0, 0, 0);background-color: transparent;">será enviada, em que “1” representa a presença de navios e “0” a ausência. Por fim, um total de </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>2 * k</b> </span><span style="color: rgb(0, 0, 0);background-color: transparent;">coordenadas serão enviadas para indicar as posições em que houve ataque.</span></span><br/></p>
-Formato da saída: <b id="docs-internal-guid-57d8869f-7fff-1161-ed51-d31f59450a03"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O seu programa irá possuir 4 possíveis saídas. </span><span style="color: #000000;background-color: transparent;">Todas </span><span style="color: #000000;background-color: transparent;">as entradas irão se enquadrar em um destes 4 casos, então não se preocupe com outras possibilidades. Vamos explicar cada uma.</span></p><br/><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso a quantidade de navios presentes no tabuleiro seja </span><span style="color: #000000;background-color: transparent;">maior</span><span style="color: #000000;background-color: transparent;"> que a quantidade correta, o seu programa deve printar “</span><span style="color: #000000;background-color: transparent;">Defesa invalida!</span><span style="color: #000000;background-color: transparent;">”.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso algum ataque seja feito fora dos limites do tabuleiro, o seu programa deve printar “</span><span style="color: #000000;background-color: transparent;">Ataque invalido!</span><span style="color: #000000;background-color: transparent;">”.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Dado que a defesa e o ataque são válidos, caso o jogador atacando seja capaz de destruir todos os navios, o seu programa deve printar “</span><span style="color: #000000;background-color: transparent;">Ataque venceu!</span><span style="color: #000000;background-color: transparent;">”.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;"><span style="background-color: transparent;color: rgb(0, 0, 0);">Dado que a defesa e o ataque são válidos, caso o jogador atacando não consiga destruir todos os navios, o seu programa deve printar “</span><span style="background-color: transparent;color: rgb(0, 0, 0);">Defesa venceu!</span><span style="background-color: transparent;color: rgb(0, 0, 0);">”.</span></span></p></li></ol>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ciclos</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Batalha Naval Para Horas Vagas</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<b id="docs-internal-guid-477bcf16-7fff-8737-4cd6-0e6616280773"></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Dois amigos estavam a caminho das suas aulas no CIn quando receberam uma notificação do classroom avisando que a aula para a qual estavam indo não iria acontecer hoje. No entanto, eles ainda teriam uma aula mais tarde, significando então um horário vago. Como alunos extremamente responsáveis, aproveitaram o horário para revisar os assuntos… ou ao menos isso é o que eles queriam dizer que fizeram. Não, eles só foram jogar alguma coisa mesmo.</span></p><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><span style="width: 238px;height: 254px;"><img src="https://lh5.googleusercontent.com/KT-1tkG2X3JFIa5dOpV1ovJSjsVa687CEQNjj6YZ2V86inm_mqb0RY2UUwJK0OwXbKwTDS0Wx2cf1qgNgN1yh0E97izwzOgKnzOnDhi2NuVxRBWuU7jv-5ZBWyVxBnjFvo4fAhLdb-DbIyX295qOAX8" width="238" height="254"/></span></span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">O jogo escolhido pelos dois foi uma versão simplificada de uma batalha naval. Um dos jogadores irá escolher uma quantidade determinada de quadrados para posicionar os seus “navios”. Após os navios estarem posicionados, o outro jogador terá um total de ataques igual ao dobro da quantidade de navios, e para ser o vencedor ele terá que acertar todos os navios do oponente dentro dessa quantidade de tentativas.</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">E aqui entra você! Faça um programa para receber o tabuleiro montado pelo jogador de defesa e os ataques realizados e, a partir disso, determine quem saiu como vencedor!</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span id="docs-internal-guid-9f4651f0-7fff-a936-ef1e-5da550f62381"><span style="color: rgb(0, 0, 0);background-color: transparent;">O seu programa irá primeiro receber um inteiro </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>n</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"> que irá determinar o tamanho tabuleiro, que será por sua vez<b> </b></span><b><span style="color: rgb(0, 0, 0);background-color: transparent;">n</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> </span><span style="color: rgb(0, 0, 0);background-color: transparent;">*</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> </span></b><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>n</b></span><span style="color: rgb(0, 0, 0);background-color: transparent;">. Em seguida, receberá também um número</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> <b>k</b> </span><span style="color: rgb(0, 0, 0);background-color: transparent;">que irá determinar a quantidade de navios presentes no tabuleiro. Logo após, uma matriz binária de tamanho<b> </b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>n * n</b> </span><span style="color: rgb(0, 0, 0);background-color: transparent;">será enviada, em que “1” representa a presença de navios e “0” a ausência. Por fim, um total de </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><b>2 * k</b> </span><span style="color: rgb(0, 0, 0);background-color: transparent;">coordenadas serão enviadas para indicar as posições em que houve ataque.</span></span><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-57d8869f-7fff-1161-ed51-d31f59450a03"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O seu programa irá possuir 4 possíveis saídas. </span><span style="color: #000000;background-color: transparent;">Todas </span><span style="color: #000000;background-color: transparent;">as entradas irão se enquadrar em um destes 4 casos, então não se preocupe com outras possibilidades. Vamos explicar cada uma.</span></p><br/><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso a quantidade de navios presentes no tabuleiro seja </span><span style="color: #000000;background-color: transparent;">maior</span><span style="color: #000000;background-color: transparent;"> que a quantidade correta, o seu programa deve printar “</span><span style="color: #000000;background-color: transparent;">Defesa invalida!</span><span style="color: #000000;background-color: transparent;">”.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso algum ataque seja feito fora dos limites do tabuleiro, o seu programa deve printar “</span><span style="color: #000000;background-color: transparent;">Ataque invalido!</span><span style="color: #000000;background-color: transparent;">”.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Dado que a defesa e o ataque são válidos, caso o jogador atacando seja capaz de destruir todos os navios, o seu programa deve printar “</span><span style="color: #000000;background-color: transparent;">Ataque venceu!</span><span style="color: #000000;background-color: transparent;">”.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;"><span style="background-color: transparent;color: rgb(0, 0, 0);">Dado que a defesa e o ataque são válidos, caso o jogador atacando não consiga destruir todos os navios, o seu programa deve printar “</span><span style="background-color: transparent;color: rgb(0, 0, 0);">Defesa venceu!</span><span style="background-color: transparent;color: rgb(0, 0, 0);">”.</span></span></p></li></ol></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question4039/inputs/in0.txt;../app/questions/question4039/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in1.txt;../app/questions/question4039/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in10.txt;../app/questions/question4039/outputs/out10.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in2.txt;../app/questions/question4039/outputs/out2.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in3.txt;../app/questions/question4039/outputs/out3.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in4.txt;../app/questions/question4039/outputs/out4.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in5.txt;../app/questions/question4039/outputs/out5.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in6.txt;../app/questions/question4039/outputs/out6.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in7.txt;../app/questions/question4039/outputs/out7.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in8.txt;../app/questions/question4039/outputs/out8.txt">
+            Exemplo 10
+        </option>
+        
+        <option value="../app/questions/question4039/inputs/in9.txt;../app/questions/question4039/outputs/out9.txt">
+            Exemplo 11
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

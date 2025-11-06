@@ -7,31 +7,210 @@
     <title>Questão 2124 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2124</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2124</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L5Q3 - Enxuga o nariz, se não a princesa cai
-Topicos do problema: recursão; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Mike, Dustin e Lucas, ao saírem para procurar o seu amigo Will, acabaram topando com uma garota misteriosa na floresta. Ela parecia estar tão confusa e assustada que, sentindo muita pena, o grupo decidiu levá-la junto com eles para a casa de Mike.</p><p>Para a surpresa deles, a garota - que se chamava Eleven - logo revelou possuir superpoderes. Só com telepatia, ela demonstrou-se capaz de levitar e arremessar qualquer corpo ao seu redor.<br/></p><p><br/></p><p style="text-align: center;"><img src="https://media.giphy.com/media/5WfRwjCC1JP3Ii38pm/giphy.gif" width="663" height="371"/><br/></p><p><br/></p><p>Porém, associado a essa brincadeirinha, há um custo muito doloroso para a menina: toda vez que lança mão de seus poderes, ela sangra. Preocupado com o bem estar de Eleven, Mike almeja prever o quanto de sangue ela perderia para mover um dado objeto, tomando-se como parâmetro o peso dele.</p><p>A força F (em newtons) que Eleven consegue induzir sobre um certo objeto vai ficando cada vez maior com o número de vezes, sem sucesso, que ela tenta elevá-lo. Inicialmente (quando o número de fracassos ainda é zero), ela começa com uma força F0, cuja norma (em newtons) é dada numericamente pelo seu nível de concentração no momento (C). Se ela fracassar na primeira vez, ela imprime uma nova força, F1, com módulo (em newtons) numericamente igual à eficiência do seu Tanque de Privação Sensorial (T).</p><blockquote><p>F(0) = C</p><p>F(1) = T</p></blockquote><p>Da terceira tentativa em diante, a magnitude da força empregada é calculada recursivamente, combinando valores de forças das tentativas anteriores. A relação de recorrência é similar à da sequêcia de Pell:</p><blockquote><p>F(n) = 2*F(n-1) + F(n-2), para n &gt;= 2</p></blockquote><p>Em que Fn denota o módulo que a força empregada adquire quando Eleven tenta erguer o corpo logo após ter fracassdo pela n-ésima vez.</p><p>Cada tentativa de sobrelevar o corpo retira de Eleven exatamente 12 ml de sangue. Observe que, quer obtenha ou não sucesso em uma investida, a garota sempre sangra do mesmo jeito.</p><p>O sucesso é atingido assim que a força feita torna-se grande o suficiente para anular o peso (P) do objeto, a ponto de fazê-lo flutuar. A partir desse ponto, nenhuma tentativa a mais é necessária, e a menina para de perder sangue.<br/></p><p>Porém, se a menina acumular (estritamente) mais que 300 ml de sangue perdido, ela desmaiará. Nesse cenário, por mais que o nível da alcançada, após tantas tentativas, finalmente supere o peso do corpo, este, na prática, ainda permanecerá no chão. Isso porque Eleven não estará consciente para mantê-lo no ar.</p><p>Dados o nível de concentração (C), a eficiência do tanque (T) e o peso do objeto (P), determine o quanto de sangue a garota irá perder até conseguir suspender o corpo, ou se ela terminará desacordada até lá.</p><p style="text-align: center;"><b><b style="color: rgb(147, 149, 152);text-align: center;background-color: rgb(255, 255, 255);">(este problema deve ser resolvido utilizando recursão)</b></b><br/></p>
-Formato da entrada: <blockquote><p><b>C</b> e <b>T</b></p></blockquote><p>Dois números naturais: C representa o nível de concentração de Eleven, e T a eficiência do Tanque de Privação Sensorial (que será 0, caso não seja apresentado).</p><p><br/></p><blockquote><p><b>P</b></p></blockquote><p>Um número inteiro* (P &gt; 0), correspondente ao peso (em newtons) do objeto a ser arremessado pela garota. O peso pode ser um numero natural que exceda a capacidade de uma variável tipo inteiro (int).</p>
-Formato da saída: <p>Linha única, sendo:</p><blockquote><p>&#34;Eleven perdeu <b>X</b>ml de sangue.&#34;</p></blockquote><p>Caso ela tenha conseguido mover o objeto sem desmaiar.</p><p>ou</p><blockquote><p>&#34;Eleven ficou fraca demais e acabou desmaiando&#34;</p></blockquote><p>Caso o objeto seja muito pesado e ela perca muito sangue.</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">recursão</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>L5Q3 - Enxuga o nariz, se não a princesa cai</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Mike, Dustin e Lucas, ao saírem para procurar o seu amigo Will, acabaram topando com uma garota misteriosa na floresta. Ela parecia estar tão confusa e assustada que, sentindo muita pena, o grupo decidiu levá-la junto com eles para a casa de Mike.</p><p>Para a surpresa deles, a garota - que se chamava Eleven - logo revelou possuir superpoderes. Só com telepatia, ela demonstrou-se capaz de levitar e arremessar qualquer corpo ao seu redor.<br/></p><p><br/></p><p style="text-align: center;"><img src="https://media.giphy.com/media/5WfRwjCC1JP3Ii38pm/giphy.gif" width="663" height="371"/><br/></p><p><br/></p><p>Porém, associado a essa brincadeirinha, há um custo muito doloroso para a menina: toda vez que lança mão de seus poderes, ela sangra. Preocupado com o bem estar de Eleven, Mike almeja prever o quanto de sangue ela perderia para mover um dado objeto, tomando-se como parâmetro o peso dele.</p><p>A força F (em newtons) que Eleven consegue induzir sobre um certo objeto vai ficando cada vez maior com o número de vezes, sem sucesso, que ela tenta elevá-lo. Inicialmente (quando o número de fracassos ainda é zero), ela começa com uma força F0, cuja norma (em newtons) é dada numericamente pelo seu nível de concentração no momento (C). Se ela fracassar na primeira vez, ela imprime uma nova força, F1, com módulo (em newtons) numericamente igual à eficiência do seu Tanque de Privação Sensorial (T).</p><blockquote><p>F(0) = C</p><p>F(1) = T</p></blockquote><p>Da terceira tentativa em diante, a magnitude da força empregada é calculada recursivamente, combinando valores de forças das tentativas anteriores. A relação de recorrência é similar à da sequêcia de Pell:</p><blockquote><p>F(n) = 2*F(n-1) + F(n-2), para n &gt;= 2</p></blockquote><p>Em que Fn denota o módulo que a força empregada adquire quando Eleven tenta erguer o corpo logo após ter fracassdo pela n-ésima vez.</p><p>Cada tentativa de sobrelevar o corpo retira de Eleven exatamente 12 ml de sangue. Observe que, quer obtenha ou não sucesso em uma investida, a garota sempre sangra do mesmo jeito.</p><p>O sucesso é atingido assim que a força feita torna-se grande o suficiente para anular o peso (P) do objeto, a ponto de fazê-lo flutuar. A partir desse ponto, nenhuma tentativa a mais é necessária, e a menina para de perder sangue.<br/></p><p>Porém, se a menina acumular (estritamente) mais que 300 ml de sangue perdido, ela desmaiará. Nesse cenário, por mais que o nível da alcançada, após tantas tentativas, finalmente supere o peso do corpo, este, na prática, ainda permanecerá no chão. Isso porque Eleven não estará consciente para mantê-lo no ar.</p><p>Dados o nível de concentração (C), a eficiência do tanque (T) e o peso do objeto (P), determine o quanto de sangue a garota irá perder até conseguir suspender o corpo, ou se ela terminará desacordada até lá.</p><p style="text-align: center;"><b><b style="color: rgb(147, 149, 152);text-align: center;background-color: rgb(255, 255, 255);">(este problema deve ser resolvido utilizando recursão)</b></b><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><blockquote><p><b>C</b> e <b>T</b></p></blockquote><p>Dois números naturais: C representa o nível de concentração de Eleven, e T a eficiência do Tanque de Privação Sensorial (que será 0, caso não seja apresentado).</p><p><br/></p><blockquote><p><b>P</b></p></blockquote><p>Um número inteiro* (P &gt; 0), correspondente ao peso (em newtons) do objeto a ser arremessado pela garota. O peso pode ser um numero natural que exceda a capacidade de uma variável tipo inteiro (int).</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Linha única, sendo:</p><blockquote><p>&#34;Eleven perdeu <b>X</b>ml de sangue.&#34;</p></blockquote><p>Caso ela tenha conseguido mover o objeto sem desmaiar.</p><p>ou</p><blockquote><p>&#34;Eleven ficou fraca demais e acabou desmaiando&#34;</p></blockquote><p>Caso o objeto seja muito pesado e ela perca muito sangue.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2124/inputs/in0.txt;../app/questions/question2124/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in1.txt;../app/questions/question2124/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in10.txt;../app/questions/question2124/outputs/out10.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in11.txt;../app/questions/question2124/outputs/out11.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in12.txt;../app/questions/question2124/outputs/out12.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in13.txt;../app/questions/question2124/outputs/out13.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in14.txt;../app/questions/question2124/outputs/out14.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in2.txt;../app/questions/question2124/outputs/out2.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in3.txt;../app/questions/question2124/outputs/out3.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in4.txt;../app/questions/question2124/outputs/out4.txt">
+            Exemplo 10
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in5.txt;../app/questions/question2124/outputs/out5.txt">
+            Exemplo 11
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in6.txt;../app/questions/question2124/outputs/out6.txt">
+            Exemplo 12
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in7.txt;../app/questions/question2124/outputs/out7.txt">
+            Exemplo 13
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in8.txt;../app/questions/question2124/outputs/out8.txt">
+            Exemplo 14
+        </option>
+        
+        <option value="../app/questions/question2124/inputs/in9.txt;../app/questions/question2124/outputs/out9.txt">
+            Exemplo 15
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

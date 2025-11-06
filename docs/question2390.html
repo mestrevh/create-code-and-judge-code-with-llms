@@ -7,31 +7,262 @@
     <title>Questão 2390 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2390</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2390</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Viagem para Marte
-Topicos do problema: busca binária; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Natasha vai fazer uma viagem, num foguete, para Marte e voltar para Terra. Além disso, durante a viagem, ela vai pousar em<b> n - 2</b> planetas intermediários. Os planetas são numerados de<b> 1</b> (Terra) até<b> n</b> (Marte). Natasha vai fazer exatamente<b> n</b> viagens: <b>1 -&gt; 2 -&gt; ... -&gt; n -&gt; 1</b>.</p><p>Uma viagem de<b> x</b> para<b> y</b> tem duas fases: decolagem do planeta<b> x</b> e pouso no planeta<b> y</b>. Dessa forma, o itinerário de voo será: <b>decolagem do planeta 1 -&gt; pouso no planeta 2 -&gt; decolagem do planeta 2 -&gt; ... -&gt; pouso no planeta n -&gt; decolagem do planeta n -&gt; pouso no planeta 1</b>.</p><p>A massa do foguete (sem considerar o combustível) é<b> m</b> toneladas. Porém, Natasha não sabe quanto de combustível ela vai precisar realizar sua viagem. E infelizmente, só é possível abastecer na Terra; então, se o foguete ficar sem combustível em algum outro planeta, a Natasha não poderá voltar para casa. É necessário combustível para decolar e pousar em cada planeta. Sabe-se que<b> 1</b> tonelada de combustível pode decolar<b> a_i</b> toneladas de foguete do planeta<b> i</b> ou<b> b_i</b> toneladas para pousar no planeta<b> i</b>.</p><p>Por exemplo, se o peso do foguete é<b> 9</b> toneladas, o peso de combustível é<b> 3</b> toneladas e o coeficiente de decolagem é<b> 8</b> (<b>a_i</b> =<b> 8</b>), então:<b> 1.5</b> toneladas de combustível serão gastos na decolagem (visto que<b> 1.5</b> *<b> 8</b> =<b> 9</b> +<b> 3</b>). O novo peso de combustível será<b> 1.5</b> toneladas, após essa decolagem.</p><p>Note que o peso do combustível é um número não inteiro (real).</p><p>Ajude Natasha a calcular o peso de mínimo de combustível para abastecer o foguete. Note que o foguete deve gastar combustível tanto para carregar a si mesmo quanto o combustível. Porém, não é necessário carregar o combustível que já foi gasto. Assuma que o foguete decola e pousa instantaneamente.</p>
-Formato da entrada: <p>A primeira linha contém um inteiro<b> n</b> (2 &lt;= <b>n</b> &lt;= 1000), representando o número de planetas.</p><p>A segunda linha contém um inteiro<b> m</b> (1 &lt;= <b>m</b> &lt;= 1000), representando o peso do foguete.</p><p>A terceira linha contém<b> n</b> inteiros<b> a_1</b>,<b> a_2</b>, ...,<b> a_n</b> (1 &lt;=<b> a_i</b> &lt;= 1000), onde<b> a_i</b> é a quantidade de toneladas que podem ser &#34;decoladas&#34; com uma tonelada de combustível.</p><p>A quarta linha contém n inteiros <b>b_1</b>, <b>b_2</b>, ..., <b>b_n</b> (1 &lt;= <b>b_i</b> &lt;= 1000), onde <b>b_i</b> é a quantidade de toneladas que podem ser &#34;pousadas&#34; com uma tonelada de combustível.</p><p>É garantido que se a Natasha pode fazer essa viagem, será com no máximo 10^9 toneladas de gasolina.</p><p><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><br/></p>
-Formato da saída: <p>Se a Natasha conseguir fazer sua viagem, imprima, com precisão de duas casas decimais, a menor quantidade de combustível (em toneladas) que a Natasha deve usar. Do contrário, imprima -1.</p><p>É garantido que se a Natasha pode fazer essa viagem, será com no máximo 10^9 toneladas de gasolina.</p><p style="color: rgb(147, 149, 152);text-align: left;"></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">busca binária</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Viagem para Marte</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Natasha vai fazer uma viagem, num foguete, para Marte e voltar para Terra. Além disso, durante a viagem, ela vai pousar em<b> n - 2</b> planetas intermediários. Os planetas são numerados de<b> 1</b> (Terra) até<b> n</b> (Marte). Natasha vai fazer exatamente<b> n</b> viagens: <b>1 -&gt; 2 -&gt; ... -&gt; n -&gt; 1</b>.</p><p>Uma viagem de<b> x</b> para<b> y</b> tem duas fases: decolagem do planeta<b> x</b> e pouso no planeta<b> y</b>. Dessa forma, o itinerário de voo será: <b>decolagem do planeta 1 -&gt; pouso no planeta 2 -&gt; decolagem do planeta 2 -&gt; ... -&gt; pouso no planeta n -&gt; decolagem do planeta n -&gt; pouso no planeta 1</b>.</p><p>A massa do foguete (sem considerar o combustível) é<b> m</b> toneladas. Porém, Natasha não sabe quanto de combustível ela vai precisar realizar sua viagem. E infelizmente, só é possível abastecer na Terra; então, se o foguete ficar sem combustível em algum outro planeta, a Natasha não poderá voltar para casa. É necessário combustível para decolar e pousar em cada planeta. Sabe-se que<b> 1</b> tonelada de combustível pode decolar<b> a_i</b> toneladas de foguete do planeta<b> i</b> ou<b> b_i</b> toneladas para pousar no planeta<b> i</b>.</p><p>Por exemplo, se o peso do foguete é<b> 9</b> toneladas, o peso de combustível é<b> 3</b> toneladas e o coeficiente de decolagem é<b> 8</b> (<b>a_i</b> =<b> 8</b>), então:<b> 1.5</b> toneladas de combustível serão gastos na decolagem (visto que<b> 1.5</b> *<b> 8</b> =<b> 9</b> +<b> 3</b>). O novo peso de combustível será<b> 1.5</b> toneladas, após essa decolagem.</p><p>Note que o peso do combustível é um número não inteiro (real).</p><p>Ajude Natasha a calcular o peso de mínimo de combustível para abastecer o foguete. Note que o foguete deve gastar combustível tanto para carregar a si mesmo quanto o combustível. Porém, não é necessário carregar o combustível que já foi gasto. Assuma que o foguete decola e pousa instantaneamente.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A primeira linha contém um inteiro<b> n</b> (2 &lt;= <b>n</b> &lt;= 1000), representando o número de planetas.</p><p>A segunda linha contém um inteiro<b> m</b> (1 &lt;= <b>m</b> &lt;= 1000), representando o peso do foguete.</p><p>A terceira linha contém<b> n</b> inteiros<b> a_1</b>,<b> a_2</b>, ...,<b> a_n</b> (1 &lt;=<b> a_i</b> &lt;= 1000), onde<b> a_i</b> é a quantidade de toneladas que podem ser &#34;decoladas&#34; com uma tonelada de combustível.</p><p>A quarta linha contém n inteiros <b>b_1</b>, <b>b_2</b>, ..., <b>b_n</b> (1 &lt;= <b>b_i</b> &lt;= 1000), onde <b>b_i</b> é a quantidade de toneladas que podem ser &#34;pousadas&#34; com uma tonelada de combustível.</p><p>É garantido que se a Natasha pode fazer essa viagem, será com no máximo 10^9 toneladas de gasolina.</p><p><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Se a Natasha conseguir fazer sua viagem, imprima, com precisão de duas casas decimais, a menor quantidade de combustível (em toneladas) que a Natasha deve usar. Do contrário, imprima -1.</p><p>É garantido que se a Natasha pode fazer essa viagem, será com no máximo 10^9 toneladas de gasolina.</p><p style="color: rgb(147, 149, 152);text-align: left;"></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2390/inputs/in0.txt;../app/questions/question2390/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in1.txt;../app/questions/question2390/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in10.txt;../app/questions/question2390/outputs/out10.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in11.txt;../app/questions/question2390/outputs/out11.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in12.txt;../app/questions/question2390/outputs/out12.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in13.txt;../app/questions/question2390/outputs/out13.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in14.txt;../app/questions/question2390/outputs/out14.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in15.txt;../app/questions/question2390/outputs/out15.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in16.txt;../app/questions/question2390/outputs/out16.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in17.txt;../app/questions/question2390/outputs/out17.txt">
+            Exemplo 10
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in18.txt;../app/questions/question2390/outputs/out18.txt">
+            Exemplo 11
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in19.txt;../app/questions/question2390/outputs/out19.txt">
+            Exemplo 12
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in2.txt;../app/questions/question2390/outputs/out2.txt">
+            Exemplo 13
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in20.txt;../app/questions/question2390/outputs/out20.txt">
+            Exemplo 14
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in21.txt;../app/questions/question2390/outputs/out21.txt">
+            Exemplo 15
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in22.txt;../app/questions/question2390/outputs/out22.txt">
+            Exemplo 16
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in23.txt;../app/questions/question2390/outputs/out23.txt">
+            Exemplo 17
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in24.txt;../app/questions/question2390/outputs/out24.txt">
+            Exemplo 18
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in25.txt;../app/questions/question2390/outputs/out25.txt">
+            Exemplo 19
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in26.txt;../app/questions/question2390/outputs/out26.txt">
+            Exemplo 20
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in27.txt;../app/questions/question2390/outputs/out27.txt">
+            Exemplo 21
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in3.txt;../app/questions/question2390/outputs/out3.txt">
+            Exemplo 22
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in4.txt;../app/questions/question2390/outputs/out4.txt">
+            Exemplo 23
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in5.txt;../app/questions/question2390/outputs/out5.txt">
+            Exemplo 24
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in6.txt;../app/questions/question2390/outputs/out6.txt">
+            Exemplo 25
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in7.txt;../app/questions/question2390/outputs/out7.txt">
+            Exemplo 26
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in8.txt;../app/questions/question2390/outputs/out8.txt">
+            Exemplo 27
+        </option>
+        
+        <option value="../app/questions/question2390/inputs/in9.txt;../app/questions/question2390/outputs/out9.txt">
+            Exemplo 28
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

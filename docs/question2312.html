@@ -7,31 +7,182 @@
     <title>Questão 2312 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2312</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2312</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L4Q5 (extra) - Peças capturadas
-Topicos do problema: array bidimensional; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>O jogo de damas é um dos jogos de tabuleiro mais famosos de todo o mundo! O jogo é jogado por 2 jogadores em um tabuleiro de 64 casas sendo essas claras e escuras, o jogo consiste em capturar todas as peças adversárias, porém para isso, somente é permitido movimentos em diagonais e sobre as casas escuras. Para se capturar uma peça inimiga é necessário que essa esteja imediatamente após uma peça aliada e que a casa posterior a peça inimiga esteja vaga, e então essa peça inimiga é retirada do jogo e você reposiciona a sua peça aliada na posição posterior a posição que estava sendo ocupada pela peça inimiga.</p><p><br/></p><p>Faça um programa que dado o estado de um tabuleiro de damas em um jogo do jogador 1 contra o jogador 2 e uma série de movimentos(&#34;D&#34; ou &#34;E&#34;), diga quantas peças foram capturadas e como ficou o tabuleiro após esses movimentos. </p><p><b><br/></b></p><p><b>OBS:</b></p><ul><li>Existe apenas uma peça do jogador 1.</li><li>É informado apenas um movimento por vez.</li><li>Apenas a peça do jogador 1 é movimentada.</li><li>A peça do jogador 1 só pode se movimentar para cima em diagonal ( dependendo do comando ela vai andar em diagonal para a direita ou para a esquerda).</li><li>É garantido que o jogador 1 não fará movimentos inválidos, como colocar uma peça fora dos limites do tabuleiro.</li><li>O jogador 1 não poderá capturar uma peça na diagonal na qual há duas peças inimigas em sequência, como segue o exemplo abaixo:<br/></li></ul><div style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/dba85aa251b85d2d3a4a794008c988d8fdcc9854n.png"/></div><p><span style="color: rgb(147, 149, 152);text-align: left;background-color: rgb(255, 255, 255);float: none;"></span><br/></p><ul><li>Essa dama tem sopro, ou seja, se o jogador 1 tiver a oportunidade de capturar uma peça e decidir ir por outro caminho que não seja a captura de uma peça, ele deve perder o jogo imediatamente.</li><li>Duas peças juntas na mesma diagonal não podem ser capturadas.</li><li>Quando houver uma captura de peça do jogador 2, ela deve ser substituída por &#34;*&#34; e a peça do jogador 1 deve ir para uma casa após a peça capturada;</li><li>As peças sempre estão na parte escura do tabuleiro.</li></ul><p><br/></p>
-Formato da entrada: <blockquote><p>M</p></blockquote><p>Sendo M é uma matriz 8x8 que representa o estado atual do tabuleiro.</p><p>Objetos no mapa:</p><ul><li>&#34;*&#34;  -&gt; Representa a parte escura do tabuleiro.</li><li>&#34;-&#34;  -&gt; Representa a parte clara do tabuleiro.</li><li>&#34;%&#34; -&gt; Representa as peças do jogador 2.</li><li>&#34;#&#34; -&gt; Representa a peça do jogador 1.<br/></li></ul><p><br/></p><blockquote><p>N</p></blockquote><p>Sendo N é um inteiro que representa o numero de movimentos que irão ser informados.</p><p><br/></p><p>Em seguida são informados N comandos que podem ser &#34;D&#34; ou &#34;E&#34;. Sendo:</p><blockquote><p>&#34;D&#34; -&gt; Representa a diagonal direita superior.<br/></p><p>&#34;E&#34; -&gt; Representa a diagonal esquerda superior;<br/></p></blockquote>
-Formato da saída: <p>A cada movimento com captura de peça, deve ser impresso:</p><blockquote><p>&#34;Voce capturou uma peca na casa (x,y) e avancou para a casa (z,w).&#34;</p></blockquote><p>Sendo  x, y são as coordenadas da peça capturada e z,w são as coordenadas onde a peça do jogador 1 foi parar após capturar a peça.</p><p><br/></p><p>Caso o jogador um seja desatento e tente capturar uma peça onde atrás dela tenha uma outra peça inimiga(como a jogada do exemplo mais acima), deve ser impresso:</p><blockquote><p>&#34;Voce nao pode capturar essa peca.&#34;</p></blockquote><p><br/></p><p>Caso o jogador 1 movimente sua peça para uma casa livre, deve ser impresso:</p><blockquote><p><span>&#34;Voce avancou para a casa (x,y).&#34;</span></p></blockquote><p>Sendo x, y são as coordenadas da nova posição da peça do jogador 1.</p><p><br/><span></span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></p><p>Caso o jogador 1 tome sopro, após ser informado para onde ele se movimentou, deve ser impresso imediatamente:</p><blockquote><p>&#34;Voce deveria ter capturado a peca na casa (x,y).&#34;<br/></p></blockquote><p>Sendo  x, y são as coordenadas da peça que deveria ter sido capturada.<br/></p><p><br/></p><p>Ao final de tudo deve ser impresso:</p><blockquote><p>M<br/></p></blockquote><p>Sendo  M é o novo estado do tabuleiro.</p><p><br/></p><p>Em seguida deve ser impresso:</p><blockquote><p>&#34;Voce capturou X pecas.&#34;</p></blockquote><p>Sendo  X representa do número de peças capturadas.</p><p><br/></p><p>Por fim, caso tenha havido sopro, dever ser impresso:</p><blockquote><p>&#34;Deu sopro.&#34;</p></blockquote>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>L4Q5 (extra) - Peças capturadas</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>O jogo de damas é um dos jogos de tabuleiro mais famosos de todo o mundo! O jogo é jogado por 2 jogadores em um tabuleiro de 64 casas sendo essas claras e escuras, o jogo consiste em capturar todas as peças adversárias, porém para isso, somente é permitido movimentos em diagonais e sobre as casas escuras. Para se capturar uma peça inimiga é necessário que essa esteja imediatamente após uma peça aliada e que a casa posterior a peça inimiga esteja vaga, e então essa peça inimiga é retirada do jogo e você reposiciona a sua peça aliada na posição posterior a posição que estava sendo ocupada pela peça inimiga.</p><p><br/></p><p>Faça um programa que dado o estado de um tabuleiro de damas em um jogo do jogador 1 contra o jogador 2 e uma série de movimentos(&#34;D&#34; ou &#34;E&#34;), diga quantas peças foram capturadas e como ficou o tabuleiro após esses movimentos. </p><p><b><br/></b></p><p><b>OBS:</b></p><ul><li>Existe apenas uma peça do jogador 1.</li><li>É informado apenas um movimento por vez.</li><li>Apenas a peça do jogador 1 é movimentada.</li><li>A peça do jogador 1 só pode se movimentar para cima em diagonal ( dependendo do comando ela vai andar em diagonal para a direita ou para a esquerda).</li><li>É garantido que o jogador 1 não fará movimentos inválidos, como colocar uma peça fora dos limites do tabuleiro.</li><li>O jogador 1 não poderá capturar uma peça na diagonal na qual há duas peças inimigas em sequência, como segue o exemplo abaixo:<br/></li></ul><div style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/dba85aa251b85d2d3a4a794008c988d8fdcc9854n.png"/></div><p><span style="color: rgb(147, 149, 152);text-align: left;background-color: rgb(255, 255, 255);float: none;"></span><br/></p><ul><li>Essa dama tem sopro, ou seja, se o jogador 1 tiver a oportunidade de capturar uma peça e decidir ir por outro caminho que não seja a captura de uma peça, ele deve perder o jogo imediatamente.</li><li>Duas peças juntas na mesma diagonal não podem ser capturadas.</li><li>Quando houver uma captura de peça do jogador 2, ela deve ser substituída por &#34;*&#34; e a peça do jogador 1 deve ir para uma casa após a peça capturada;</li><li>As peças sempre estão na parte escura do tabuleiro.</li></ul><p><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><blockquote><p>M</p></blockquote><p>Sendo M é uma matriz 8x8 que representa o estado atual do tabuleiro.</p><p>Objetos no mapa:</p><ul><li>&#34;*&#34;  -&gt; Representa a parte escura do tabuleiro.</li><li>&#34;-&#34;  -&gt; Representa a parte clara do tabuleiro.</li><li>&#34;%&#34; -&gt; Representa as peças do jogador 2.</li><li>&#34;#&#34; -&gt; Representa a peça do jogador 1.<br/></li></ul><p><br/></p><blockquote><p>N</p></blockquote><p>Sendo N é um inteiro que representa o numero de movimentos que irão ser informados.</p><p><br/></p><p>Em seguida são informados N comandos que podem ser &#34;D&#34; ou &#34;E&#34;. Sendo:</p><blockquote><p>&#34;D&#34; -&gt; Representa a diagonal direita superior.<br/></p><p>&#34;E&#34; -&gt; Representa a diagonal esquerda superior;<br/></p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A cada movimento com captura de peça, deve ser impresso:</p><blockquote><p>&#34;Voce capturou uma peca na casa (x,y) e avancou para a casa (z,w).&#34;</p></blockquote><p>Sendo  x, y são as coordenadas da peça capturada e z,w são as coordenadas onde a peça do jogador 1 foi parar após capturar a peça.</p><p><br/></p><p>Caso o jogador um seja desatento e tente capturar uma peça onde atrás dela tenha uma outra peça inimiga(como a jogada do exemplo mais acima), deve ser impresso:</p><blockquote><p>&#34;Voce nao pode capturar essa peca.&#34;</p></blockquote><p><br/></p><p>Caso o jogador 1 movimente sua peça para uma casa livre, deve ser impresso:</p><blockquote><p><span>&#34;Voce avancou para a casa (x,y).&#34;</span></p></blockquote><p>Sendo x, y são as coordenadas da nova posição da peça do jogador 1.</p><p><br/><span></span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></p><p>Caso o jogador 1 tome sopro, após ser informado para onde ele se movimentou, deve ser impresso imediatamente:</p><blockquote><p>&#34;Voce deveria ter capturado a peca na casa (x,y).&#34;<br/></p></blockquote><p>Sendo  x, y são as coordenadas da peça que deveria ter sido capturada.<br/></p><p><br/></p><p>Ao final de tudo deve ser impresso:</p><blockquote><p>M<br/></p></blockquote><p>Sendo  M é o novo estado do tabuleiro.</p><p><br/></p><p>Em seguida deve ser impresso:</p><blockquote><p>&#34;Voce capturou X pecas.&#34;</p></blockquote><p>Sendo  X representa do número de peças capturadas.</p><p><br/></p><p>Por fim, caso tenha havido sopro, dever ser impresso:</p><blockquote><p>&#34;Deu sopro.&#34;</p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2312/inputs/in0.txt;../app/questions/question2312/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2312/inputs/in1.txt;../app/questions/question2312/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2312/inputs/in2.txt;../app/questions/question2312/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2312/inputs/in3.txt;../app/questions/question2312/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2312/inputs/in4.txt;../app/questions/question2312/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2312/inputs/in5.txt;../app/questions/question2312/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question2312/inputs/in6.txt;../app/questions/question2312/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question2312/inputs/in7.txt;../app/questions/question2312/outputs/out7.txt">
+            Exemplo 8
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

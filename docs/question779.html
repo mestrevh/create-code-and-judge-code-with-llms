@@ -7,31 +7,170 @@
     <title>Questão 779 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 779</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 779</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Ambrósio e a cidade grande
-Topicos do problema: array; lógica matemática; estruturas; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p></p><p></p><p>Ambrósio, rapaz do interior chegou em uma cidade grande e está perdido. Ele pediu sua ajuda na rodoviária e você vai ajudar a chegar no seu destino. Você dará uma lista com <b>N </b>locais consecutivos que Ambrósio vai parar antes de chegar ao seu destino. Cada local terá duas informações:<br/></p><ul><li>Quanto tempo o ônibus leva para chegar ao próximo destino.</li><li> De quanto em quanto tempo parte um ônibus.<br/></li></ul>Ambrósio vai seguir suas informações, mas ele quer saber quanto tempo ele vai demorar para chegar ao seu destino.<br/>Considere que ele sai do primeiro local com tempo 0 e, portanto, não precisa esperar o primeiro ônibus. Todos os ônibus saem no instante 0.<br/><br/><p>Veja por exemplo esse cenário. Suponha que sejam 3 locais:</p><ul><li>No primeiro, o ônibus demora 10 minutos para chegar no destino seguinte e parte a cada 7 minutos.</li><li>No segundo, o ônibus demora 20 minutos para chegar ao próximo destino e parte a cada 14 minutos.<br/></li><li>No terceiro, o ônibus demora 30 minutos para chegar ao destino final e parte a cada 21 minutos.<br/></li></ul><p>Neste caso, a entrada seria:<br/></p><p>3</p><p>10 20 30</p><p>7 14 21</p><p>A primeira linha contém a quantidade de paradas. A segunda contém o tempo de viagem para o próximo destino. A terceira linha contém o intervalo de tempo em que os ônibus partem de cada cidade.<br/></p><p>Nesse caso, partindo da primeira cidade, Ambrósio pegaria o ônibus no instante 0, não precisaria esperar 7 minutos, pois ele está na origem. O ônibus demora 10 minutos para chegar ao primeiro destino.</p><p>Logo, tempo gasto até o momento: 10 min.</p><p>Ao chegar lá, Ambrósio terá que esperar 4 minutos, pois um ônibus partiu no instante 0 e o outro só depois de 14 min. Ou seja, como ele está no instante 10, basta esperar mais 4 minutos para o próximo ônibus.</p><p>Logo, ao partir, Ambrósio já terá gasto 10 + 4 min = 14 min.<br/></p><p>A segunda viagem dura 20 minutos, portanto, Ambrósio chegará no próximo destino no instante 14 + 20 = 34 min.</p><p>Ao chegar lá, já teve um ônibus que saiu no instante 0, outro no instante 21 e outro está previsto para sair no instante 42. Logo, como ambrósio está no instante 34, ela terá que esperar 8 minutos. <br/></p><p>Ao partir, Ambrósio já terá gasto 34 + 8 = 42 min. <br/></p><p>Por fim, a última viagem dura 30 min. Logo, o tempo total será de 72 min.</p><p></p>
-Formato da entrada: <p>Primeira linha terá um inteiro <b>N</b> indicando a quantidade de locais que Ambrósio vai passar, após isso você receberá duas linhas cada uma com <b>N </b>inteiros, a primeira representa o tempo que o transporte demora para chegar no próximo destino, a segunda o intervalo fixo que cada transporte sai para o destino.<br/></p>
-Formato da saída: <p>Apenas um inteiro indicando o tempo que Ambrósio levará para chegar ao seu destino.<br/></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">lógica matemática</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estruturas</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Ambrósio e a cidade grande</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p></p><p></p><p>Ambrósio, rapaz do interior chegou em uma cidade grande e está perdido. Ele pediu sua ajuda na rodoviária e você vai ajudar a chegar no seu destino. Você dará uma lista com <b>N </b>locais consecutivos que Ambrósio vai parar antes de chegar ao seu destino. Cada local terá duas informações:<br/></p><ul><li>Quanto tempo o ônibus leva para chegar ao próximo destino.</li><li> De quanto em quanto tempo parte um ônibus.<br/></li></ul>Ambrósio vai seguir suas informações, mas ele quer saber quanto tempo ele vai demorar para chegar ao seu destino.<br/>Considere que ele sai do primeiro local com tempo 0 e, portanto, não precisa esperar o primeiro ônibus. Todos os ônibus saem no instante 0.<br/><br/><p>Veja por exemplo esse cenário. Suponha que sejam 3 locais:</p><ul><li>No primeiro, o ônibus demora 10 minutos para chegar no destino seguinte e parte a cada 7 minutos.</li><li>No segundo, o ônibus demora 20 minutos para chegar ao próximo destino e parte a cada 14 minutos.<br/></li><li>No terceiro, o ônibus demora 30 minutos para chegar ao destino final e parte a cada 21 minutos.<br/></li></ul><p>Neste caso, a entrada seria:<br/></p><p>3</p><p>10 20 30</p><p>7 14 21</p><p>A primeira linha contém a quantidade de paradas. A segunda contém o tempo de viagem para o próximo destino. A terceira linha contém o intervalo de tempo em que os ônibus partem de cada cidade.<br/></p><p>Nesse caso, partindo da primeira cidade, Ambrósio pegaria o ônibus no instante 0, não precisaria esperar 7 minutos, pois ele está na origem. O ônibus demora 10 minutos para chegar ao primeiro destino.</p><p>Logo, tempo gasto até o momento: 10 min.</p><p>Ao chegar lá, Ambrósio terá que esperar 4 minutos, pois um ônibus partiu no instante 0 e o outro só depois de 14 min. Ou seja, como ele está no instante 10, basta esperar mais 4 minutos para o próximo ônibus.</p><p>Logo, ao partir, Ambrósio já terá gasto 10 + 4 min = 14 min.<br/></p><p>A segunda viagem dura 20 minutos, portanto, Ambrósio chegará no próximo destino no instante 14 + 20 = 34 min.</p><p>Ao chegar lá, já teve um ônibus que saiu no instante 0, outro no instante 21 e outro está previsto para sair no instante 42. Logo, como ambrósio está no instante 34, ela terá que esperar 8 minutos. <br/></p><p>Ao partir, Ambrósio já terá gasto 34 + 8 = 42 min. <br/></p><p>Por fim, a última viagem dura 30 min. Logo, o tempo total será de 72 min.</p><p></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Primeira linha terá um inteiro <b>N</b> indicando a quantidade de locais que Ambrósio vai passar, após isso você receberá duas linhas cada uma com <b>N </b>inteiros, a primeira representa o tempo que o transporte demora para chegar no próximo destino, a segunda o intervalo fixo que cada transporte sai para o destino.<br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Apenas um inteiro indicando o tempo que Ambrósio levará para chegar ao seu destino.<br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question779/inputs/in0.txt;../app/questions/question779/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question779/inputs/in1.txt;../app/questions/question779/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question779/inputs/in2.txt;../app/questions/question779/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question779/inputs/in3.txt;../app/questions/question779/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question779/inputs/in4.txt;../app/questions/question779/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

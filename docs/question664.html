@@ -7,31 +7,154 @@
     <title>Questão 664 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 664</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 664</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Dragster
-Topicos do problema: maratona; 
-Tempo limite de execução: 3 segundo(s)
-Descrição: <p>Embora não seja uma modalidade muito popular no Brasil, as corridas de dragsters atraem multidões nos EUA. Os fãs gostam de ver os carros velozes correndo a velocidades de até 400 km/h, mesmo que só por alguns segundos. Muitos competidores são mecânicos amadores que apenas incluíram foguetes e outros artefatos para criarem carros ultra velozes. As competições de dragsters são disputadas em torneios de eliminação, onde cada disputa consiste de dois competidores correndo lado a lado e somente um deles sendo declarado o vencedor (o que chegar primeiro, claro). Os vencedores são então rearranjados em novas partidas, até que no final somente um competidor seja declarado o campeão.</p><p>Rubens é um piloto experiente, com carreira em diversas categorias, inclusive a Fórmula 1.Entretanto, após enfrentar alguns contratempos, resolveu dedicar-se a competições de dragsters.</p><p>Aproveitando-se da larga experiência que ganhou durante a Fórmula 1, ele consegue, observando os competidores, dizer qual a probabilidade de cada um dos competidores envolvidos ser o vencedor de uma dada disputa.</p><p>Embora Rubens seja bom piloto, não é muito bom em matemática nem em programação, e pediu a sua ajuda para, dadas as probabilidades calculadas por Rubens para a disputa entre cada par de pilotos, e a descrição das corridas do torneio, determinar a probabilidade que ele tem de vencer o torneio.</p>
-Formato da entrada: <p>A entrada é composta de vários casos de teste. <br/></p><p>A primeira linha de um caso de teste contém um inteiro N indicando o número de competidores do torneio (2≤N≤300). <br/></p><p>Na descrição do torneio, os competidores são identificados por inteiros de 1 a N, e as corridas são identificadas por inteiros de N + 1 a 2 × N - 1. <br/></p><p>Rubens é sempre identificado pelo número 1. <br/></p><p>As N linhas seguintes descrevem a matriz M de probabilidades calculada por Rubens. <br/></p><p>A linha i contém N números reais M[i, j] separados por espaços (0≤M[i, j]≤1, para 1≤i≤N e 1≤j≤N). <br/></p><p>Cada elemento M[i, j] da matriz indica a probabilidade de o competidor i vencer o confronto com o competidor j (0.001≤M[i, j]≤0.999 e M[i, j] + M[j, i] = 1 para i≠j , e M[i, j] =0 para i = j).</p><p>As probabilidades serão sempre dadas com três casas decimais de precisão.</p><p>Cada uma das N - 1 linhas seguintes contém dois inteiros A, B descrevendo uma corrida, sendo que A e B representam identificadores de competidores ou de corridas (1≤A≤2 x N - 1 e 1≤B≤2 x N - 1). <br/></p><p>Note que a primeira dessas linhas descreve a corrida identificada por N +1, a segunda linha descreve a corrida identificada por N +2 e assim por diante. <br/></p><p>Quando um identificador de corrida k aparece na entrada como A, isto significa que o competidor que venceu a corrida k é quem disputará a corrida contra B. <br/></p><p>Da mesma forma, quando um identificador de corrida k aparece na entrada como B, isto significa que o competidor que venceu a corrida k é quem disputará a corrida contra A.</p><p>O final da entrada é indicado por uma linha que contém apenas um número zero.</p>
-Formato da saída: <p>Para cada caso de teste da entrada seu programa deve imprimir uma única linha, contendo um número real, escrito com precisão de seis casas decimais, indicando a probabilidade de Rubens vencer o torneio.</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">maratona</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Dragster</h2>
+<p><strong>Tempo limite:</strong> 3 segundo(s)</p>
+<p>Embora não seja uma modalidade muito popular no Brasil, as corridas de dragsters atraem multidões nos EUA. Os fãs gostam de ver os carros velozes correndo a velocidades de até 400 km/h, mesmo que só por alguns segundos. Muitos competidores são mecânicos amadores que apenas incluíram foguetes e outros artefatos para criarem carros ultra velozes. As competições de dragsters são disputadas em torneios de eliminação, onde cada disputa consiste de dois competidores correndo lado a lado e somente um deles sendo declarado o vencedor (o que chegar primeiro, claro). Os vencedores são então rearranjados em novas partidas, até que no final somente um competidor seja declarado o campeão.</p><p>Rubens é um piloto experiente, com carreira em diversas categorias, inclusive a Fórmula 1.Entretanto, após enfrentar alguns contratempos, resolveu dedicar-se a competições de dragsters.</p><p>Aproveitando-se da larga experiência que ganhou durante a Fórmula 1, ele consegue, observando os competidores, dizer qual a probabilidade de cada um dos competidores envolvidos ser o vencedor de uma dada disputa.</p><p>Embora Rubens seja bom piloto, não é muito bom em matemática nem em programação, e pediu a sua ajuda para, dadas as probabilidades calculadas por Rubens para a disputa entre cada par de pilotos, e a descrição das corridas do torneio, determinar a probabilidade que ele tem de vencer o torneio.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada é composta de vários casos de teste. <br/></p><p>A primeira linha de um caso de teste contém um inteiro N indicando o número de competidores do torneio (2≤N≤300). <br/></p><p>Na descrição do torneio, os competidores são identificados por inteiros de 1 a N, e as corridas são identificadas por inteiros de N + 1 a 2 × N - 1. <br/></p><p>Rubens é sempre identificado pelo número 1. <br/></p><p>As N linhas seguintes descrevem a matriz M de probabilidades calculada por Rubens. <br/></p><p>A linha i contém N números reais M[i, j] separados por espaços (0≤M[i, j]≤1, para 1≤i≤N e 1≤j≤N). <br/></p><p>Cada elemento M[i, j] da matriz indica a probabilidade de o competidor i vencer o confronto com o competidor j (0.001≤M[i, j]≤0.999 e M[i, j] + M[j, i] = 1 para i≠j , e M[i, j] =0 para i = j).</p><p>As probabilidades serão sempre dadas com três casas decimais de precisão.</p><p>Cada uma das N - 1 linhas seguintes contém dois inteiros A, B descrevendo uma corrida, sendo que A e B representam identificadores de competidores ou de corridas (1≤A≤2 x N - 1 e 1≤B≤2 x N - 1). <br/></p><p>Note que a primeira dessas linhas descreve a corrida identificada por N +1, a segunda linha descreve a corrida identificada por N +2 e assim por diante. <br/></p><p>Quando um identificador de corrida k aparece na entrada como A, isto significa que o competidor que venceu a corrida k é quem disputará a corrida contra B. <br/></p><p>Da mesma forma, quando um identificador de corrida k aparece na entrada como B, isto significa que o competidor que venceu a corrida k é quem disputará a corrida contra A.</p><p>O final da entrada é indicado por uma linha que contém apenas um número zero.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada caso de teste da entrada seu programa deve imprimir uma única linha, contendo um número real, escrito com precisão de seis casas decimais, indicando a probabilidade de Rubens vencer o torneio.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question664/inputs/in0.txt;../app/questions/question664/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

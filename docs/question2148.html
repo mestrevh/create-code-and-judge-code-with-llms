@@ -7,31 +7,166 @@
     <title>Questão 2148 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2148</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2148</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Lista de pré-requisitos
-Topicos do problema: estrutura de dados; busca; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Você é  um(a) aluno(a) do CIn e tem a intenção de organizar quais disciplinas você vai cursar durante a sua graduação, mas essa organização não é tão simples por conta dos pré-requisitos que algumas disciplinas possuem. Então, dada uma lista de disciplinas na ordem em que devem ser cursadas, você deve procurar se a disciplina que você pretende cursar está presente nesta lista, e se estiver, anotar quais disciplinas você deve cursar antes de poder cursá-la.</p><p><br/></p><p style="text-align: center;"><img src="https://media3.giphy.com/media/B7o99rIuystY4/giphy.gif" alt="list GIF"/><br/></p><p style="text-align: center;"><br/></p><p style="text-align: center;"><br/></p><p style="text-align: left;"><b>OBS: </b>Não haverá repetição de disciplinas em uma mesma cadeia de pre-requisitos.</p><p style="text-align: left;"><b>OBS 2: </b>A lista de disciplinas deve ser armazenada em uma lista encadeada.</p><p style="text-align: left;"><b>OBS 3: </b>Todas as impressões e leituras devem ser feitas no método main.</p>
-Formato da entrada: <blockquote><p>N</p></blockquote><p>Sendo N o número de disciplinas na cadeia de pré-requisitos</p><blockquote><p>Disciplina1</p><p>Disciplina2</p><p>Disciplina3</p><p>       ...</p><p>DisciplinaN</p></blockquote><p>Seguido pelas disciplinas que você quer cursar:</p><blockquote><p>DisciplinaX1</p><p>DisciplinaX2</p><p>       ...</p><p>DisciplinaXK</p></blockquote>
-Formato da saída: <p>K linhas, onde para cada disciplina que você quer cursar a saída é uma linha informando:</p><blockquote><p>disciplinaX nao pode ser cursada nessa cadeia de pre-requisitos. (caso a disciplina não esteja na lista)</p><p>ou</p><p>disciplinaX podera ser cursada esse período. (caso ela seja a primeira da lista)</p><p>ou</p><p>disciplinaX podera ser cursada depois de M-1 periodos, depois de ter passado por: <span>Disciplina1, Disciplina2, Disciplina3 ... e DisciplinaM-1. (onde M é a posição da disciplinaX na lista, caso ela não seja a primeira da lista)</span></p><p><br/></p></blockquote>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estrutura de dados</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">busca</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Lista de pré-requisitos</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Você é  um(a) aluno(a) do CIn e tem a intenção de organizar quais disciplinas você vai cursar durante a sua graduação, mas essa organização não é tão simples por conta dos pré-requisitos que algumas disciplinas possuem. Então, dada uma lista de disciplinas na ordem em que devem ser cursadas, você deve procurar se a disciplina que você pretende cursar está presente nesta lista, e se estiver, anotar quais disciplinas você deve cursar antes de poder cursá-la.</p><p><br/></p><p style="text-align: center;"><img src="https://media3.giphy.com/media/B7o99rIuystY4/giphy.gif" alt="list GIF"/><br/></p><p style="text-align: center;"><br/></p><p style="text-align: center;"><br/></p><p style="text-align: left;"><b>OBS: </b>Não haverá repetição de disciplinas em uma mesma cadeia de pre-requisitos.</p><p style="text-align: left;"><b>OBS 2: </b>A lista de disciplinas deve ser armazenada em uma lista encadeada.</p><p style="text-align: left;"><b>OBS 3: </b>Todas as impressões e leituras devem ser feitas no método main.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><blockquote><p>N</p></blockquote><p>Sendo N o número de disciplinas na cadeia de pré-requisitos</p><blockquote><p>Disciplina1</p><p>Disciplina2</p><p>Disciplina3</p><p>       ...</p><p>DisciplinaN</p></blockquote><p>Seguido pelas disciplinas que você quer cursar:</p><blockquote><p>DisciplinaX1</p><p>DisciplinaX2</p><p>       ...</p><p>DisciplinaXK</p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>K linhas, onde para cada disciplina que você quer cursar a saída é uma linha informando:</p><blockquote><p>disciplinaX nao pode ser cursada nessa cadeia de pre-requisitos. (caso a disciplina não esteja na lista)</p><p>ou</p><p>disciplinaX podera ser cursada esse período. (caso ela seja a primeira da lista)</p><p>ou</p><p>disciplinaX podera ser cursada depois de M-1 periodos, depois de ter passado por: <span>Disciplina1, Disciplina2, Disciplina3 ... e DisciplinaM-1. (onde M é a posição da disciplinaX na lista, caso ela não seja a primeira da lista)</span></p><p><br/></p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2148/inputs/in0.txt;../app/questions/question2148/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2148/inputs/in1.txt;../app/questions/question2148/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2148/inputs/in2.txt;../app/questions/question2148/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2148/inputs/in3.txt;../app/questions/question2148/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

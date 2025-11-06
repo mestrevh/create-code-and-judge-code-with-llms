@@ -1,0 +1,20 @@
+BUSCA POR 97
+numero de elementos da tabela hash: 5
+elemento nao encontrado!
+numero de elementos acessados na tabela hash: 0
+BUSCA POR 69
+numero de elementos da tabela hash: 13
+elemento 69 encontrado!
+numero de elementos acessados na tabela hash: 1
+imprimindo tabela hash:
+[0]:33=>55=>55=>66=>77=>
+[1]:45=>78=>
+[2]:2=>13=>68=>
+[3]:14=>69=>
+[4]:15=>26=>
+[5]:16=>38=>60=>71=>
+[6]:50=>
+[7]:40=>51=>73=>
+[8]:52=>
+[9]:9=>9=>31=>42=>
+[10]:65=>

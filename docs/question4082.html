@@ -7,31 +7,166 @@
     <title>Questão 4082 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4082</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4082</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Exportações do Seu Lobato
-Topicos do problema: ponto flutuante; array; decisão; repetição; lógica matemática; ciclos; função; string; estruturas; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p dir="ltr" style="background-color: #ffffff;" id="docs-internal-guid-6939307a-7fff-80cd-3929-0f7e2dd68d61"><span style="color: #000000;background-color: transparent;"><i>Seu Lobato é um renomado agricultor e fazendeiro brasileiro que realiza exportações para países de todo o mundo. Dentre os produtos comercializados por ele estão: Abacaxi, banana, café, caju, laranja, melancia, soja, trigo, além das carnes bovinas e suínas.</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>Para automatizar o controle das exportações, seu Lobato contratou você, aluno de Computação Eletrônica da UFPE, para criar um programa em linguagem C que pudesse facilitar e auxiliar essa tarefa.</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>Seu Lobato também deixou um arquivo para auxiliar no seu programa, contendo os continentes e a taxa de frete correspondente, além dos produtos, com sua identificação e preço por lote.</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>Além de utilizar seus conhecimentos em estruturas, use também funções!</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>OBS.: Lembre-se que as transações internacionais são realizadas em dólares!</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>Adote U$ 1.00 = R$ 5,17</i></span></p><p dir="ltr" style="background-color: #ffffff;"><font color="#000000"><i>Imagem com dados: https://imgur.com/AscWzKx</i></font></p>
-Formato da entrada: <p dir="ltr" style="background-color: #ffffff;" id="docs-internal-guid-0122b0f7-7fff-daff-be73-432de340bac1"><span style="color: #282b32;background-color: transparent;"><i>O programa receberá um número inteiro N, que representará o número de operações a fazer no código. Caso N seja 0, o programa deve imprimir a mensagem &#34;Sem negociacoes por hoje!&#34;.</i></span></p><p dir="ltr" style="background-color: #ffffff;"> </p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #282b32;background-color: transparent;"><i>Para cada negociação, existem os seguintes dados:</i></span></p><ul><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>Nome do comprador ou empresa (até 30 caracteres)</i></span></li><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>País de destino (até 30 caracteres)</i></span></li><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>Continente de destino (até 10 caracteres)</i></span></li><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>Código do produto comercializado (inteiro)</i></span></li><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>Quantidade de lotes do produto comercializado (inteiro)</i></span></li></ul><p dir="ltr" style="background-color: #ffffff;"><span style="color: #282b32;background-color: transparent;"><i>Caso o código do produto não exista, o programa deve imprimir &#34;Operacao invalida!&#34;.</i></span></p>
-Formato da saída: <p dir="ltr" id="docs-internal-guid-a9cf4047-7fff-519a-d181-4283f5c1a236"><span style="color: #000000;background-color: transparent;"><i>A saída do seu programa deve conter as seguintes informações:</i></span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Nome do comprador ou empresa</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>País de destino</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Nome do produto</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Custo do produto (Em dólares)</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Custo do frete (Em dólares)</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Total a pagar</i></span></li></ul>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ponto flutuante</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">lógica matemática</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ciclos</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">função</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">string</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estruturas</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Exportações do Seu Lobato</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p dir="ltr" style="background-color: #ffffff;" id="docs-internal-guid-6939307a-7fff-80cd-3929-0f7e2dd68d61"><span style="color: #000000;background-color: transparent;"><i>Seu Lobato é um renomado agricultor e fazendeiro brasileiro que realiza exportações para países de todo o mundo. Dentre os produtos comercializados por ele estão: Abacaxi, banana, café, caju, laranja, melancia, soja, trigo, além das carnes bovinas e suínas.</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>Para automatizar o controle das exportações, seu Lobato contratou você, aluno de Computação Eletrônica da UFPE, para criar um programa em linguagem C que pudesse facilitar e auxiliar essa tarefa.</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>Seu Lobato também deixou um arquivo para auxiliar no seu programa, contendo os continentes e a taxa de frete correspondente, além dos produtos, com sua identificação e preço por lote.</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>Além de utilizar seus conhecimentos em estruturas, use também funções!</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>OBS.: Lembre-se que as transações internacionais são realizadas em dólares!</i></span></p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #000000;background-color: transparent;"><i>Adote U$ 1.00 = R$ 5,17</i></span></p><p dir="ltr" style="background-color: #ffffff;"><font color="#000000"><i>Imagem com dados: https://imgur.com/AscWzKx</i></font></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p dir="ltr" style="background-color: #ffffff;" id="docs-internal-guid-0122b0f7-7fff-daff-be73-432de340bac1"><span style="color: #282b32;background-color: transparent;"><i>O programa receberá um número inteiro N, que representará o número de operações a fazer no código. Caso N seja 0, o programa deve imprimir a mensagem &#34;Sem negociacoes por hoje!&#34;.</i></span></p><p dir="ltr" style="background-color: #ffffff;"> </p><p dir="ltr" style="background-color: #ffffff;"><span style="color: #282b32;background-color: transparent;"><i>Para cada negociação, existem os seguintes dados:</i></span></p><ul><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>Nome do comprador ou empresa (até 30 caracteres)</i></span></li><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>País de destino (até 30 caracteres)</i></span></li><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>Continente de destino (até 10 caracteres)</i></span></li><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>Código do produto comercializado (inteiro)</i></span></li><li dir="ltr" style="color: #282b32;background-color: transparent;"><span style="color: #282b32;background-color: transparent;"><i>Quantidade de lotes do produto comercializado (inteiro)</i></span></li></ul><p dir="ltr" style="background-color: #ffffff;"><span style="color: #282b32;background-color: transparent;"><i>Caso o código do produto não exista, o programa deve imprimir &#34;Operacao invalida!&#34;.</i></span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p dir="ltr" id="docs-internal-guid-a9cf4047-7fff-519a-d181-4283f5c1a236"><span style="color: #000000;background-color: transparent;"><i>A saída do seu programa deve conter as seguintes informações:</i></span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Nome do comprador ou empresa</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>País de destino</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Nome do produto</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Custo do produto (Em dólares)</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Custo do frete (Em dólares)</i></span></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;"><i>Total a pagar</i></span></li></ul></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question4082/inputs/in0.txt;../app/questions/question4082/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question4082/inputs/in1.txt;../app/questions/question4082/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question4082/inputs/in2.txt;../app/questions/question4082/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question4082/inputs/in3.txt;../app/questions/question4082/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -7,37 +7,168 @@
     <title>Questão 437 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 437</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 437</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Distância de Hamming
-Topicos do problema: busca completa; backtracking; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>A dist&acirc;ncia de Hamming entre duas strings de bis &eacute; o n&uacute;mero de posi&ccedil;&otilde;es correspondentes de bits que diferem. Isto pode ser encontrado usando o operador XOR nos bits correspondentes. Por exemplo, nas duas strings a seguir:<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 0 1 0 0 1 0 1 0 0 0<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 1 1 0 1 0 1 0 1 0 0<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A XOR B = 1 0 0 1 1 1 1 1 0 0</p>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">busca completa</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">backtracking</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Distância de Hamming</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>A dist&acirc;ncia de Hamming entre duas strings de bis &eacute; o n&uacute;mero de posi&ccedil;&otilde;es correspondentes de bits que diferem. Isto pode ser encontrado usando o operador XOR nos bits correspondentes. Por exemplo, nas duas strings a seguir:<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 0 1 0 0 1 0 1 0 0 0<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 1 1 0 1 0 1 0 1 0 0<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A XOR B = 1 0 0 1 1 1 1 1 0 0</p>
 
-<p>A dist&acirc;ncia de Hamming entre essas strings de 10 bits &eacute; 6, que &eacute; a quantidade de 1's na string do XOR.</p>
-Formato da entrada: <p>A entrada consiste de v&aacute;rios casos de teste. A primeira linha cont&eacute;m o n&uacute;mero de casos de teste e &eacute; seguida por uma linha em branco.</p>
+<p>A dist&acirc;ncia de Hamming entre essas strings de 10 bits &eacute; 6, que &eacute; a quantidade de 1's na string do XOR.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada consiste de v&aacute;rios casos de teste. A primeira linha cont&eacute;m o n&uacute;mero de casos de teste e &eacute; seguida por uma linha em branco.</p>
 
 <p>Cada caso de teste cont&eacute;m dois inteiros N e H separados por um espa&ccedil;o. N corresponde ao tamanho das strings de bits e H corresponde &agrave; dist&acirc;ncia de Hamming.</p>
 
-<p>Existe uma linha em branco entre os casos de teste.</p>
-Formato da saída: <p>Para cada caso de teste imprima a lista de todas as possíveis string de bits de tamanho N que possuem a distância de Hamming H dada, quando comparada com uma string contendo todos os bits 0.</p>&#13;<p>As strings devem ser impressas na ordem lexicográfica.</p>&#13;<p>Perceba que o número dessas strings é igual a expressão combinatorial a seguir.</p>&#13;<img src="data:image/png;base64,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"/><br/><br/>&#13;<p>Por ser um número bem grande, considere: 1&lt;= H,N &lt;=16</p>&#13;<p>Você deve imprimir uma linha em branco entre os casos de teste.</p>
-</div> 
+<p>Existe uma linha em branco entre os casos de teste.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada caso de teste imprima a lista de todas as possíveis string de bits de tamanho N que possuem a distância de Hamming H dada, quando comparada com uma string contendo todos os bits 0.</p>&#13;<p>As strings devem ser impressas na ordem lexicográfica.</p>&#13;<p>Perceba que o número dessas strings é igual a expressão combinatorial a seguir.</p>&#13;<img src="data:image/png;base64,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"/><br/><br/>&#13;<p>Por ser um número bem grande, considere: 1&lt;= H,N &lt;=16</p>&#13;<p>Você deve imprimir uma linha em branco entre os casos de teste.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question437/inputs/in0.txt;../app/questions/question437/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question437/inputs/in1.txt;../app/questions/question437/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question437/inputs/in2.txt;../app/questions/question437/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

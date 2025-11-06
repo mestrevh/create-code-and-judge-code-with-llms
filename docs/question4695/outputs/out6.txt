@@ -1,0 +1,12 @@
+Subarray: 4 6 9 10 2 7 
+Pivo: 7
+Array: 4 6 2 7 9 10 
+Subarray: 4 6 2 
+Pivo: 2
+Array: 2 6 4 7 9 10 
+Subarray: 6 4 
+Pivo: 4
+Array: 2 4 6 7 9 10 
+Subarray: 9 10 
+Pivo: 10
+Array: 2 4 6 7 9 10

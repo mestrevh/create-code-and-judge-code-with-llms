@@ -7,31 +7,154 @@
     <title>Questão 645 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 645</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 645</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Série de tubos
-Topicos do problema: grafo; vertices/arestas de corte; maratona; 
-Tempo limite de execução: 3 segundo(s)
-Descrição: <p>O ano é 2010. O espetacular resultado de um projeto ultrassecreto, iniciado três anos antes por um grupo de pesquisadores da SBC (Soluções Brasileiras em Cabeamento) está prestes a ser divulgado: a SBC conseguiu a proeza de transportar matéria através de cabos de fibra ótica! A pesquisa contraria a famosa e polêmica frase do ex-senador e atual presidente dos EUA, que na época do início da pesquisa, há três anos, afirmara que &#34;a internet não é como um caminhão de carga, em que você despeja o que quiser; a internet na verdade é uma série de tubos&#34;. Com isso, a SBC, que atualmente aluga a sua rede de cabos para uma operadora de TV paga, pensa em mudar de negócio e iniciar-se na atividade de transporte de carga -- apesar de a tecnologia desenvolvida servir também para o transporte de seres vivos, há dificuldades políticas na homologação desse meio de transporte para seres humanos.</p><p>A rede de fibra ótica da SBC cobre todas as capitais do país. A rede é composta por ramos de fibra ótica e <em>concentradores</em>. Há um concentrador em cada capital, e um ramo de fibra ótica conecta diretamente um par de concentradores. Nem todo concentrador está conectado diretamente por um ramo de fibra a todos os outros concentradores, mas a rede é <em>conexa</em>. Ou seja, a partir de um dado concentrador existe uma sequência de ramos e concentradores que permite que uma informação gerada em qualquer um dos concentradores pode ser enviada a qualquer outro concentrador da rede.</p><p>Para comunicação de dados, é normal que um ramo de fibra ótica possa ser utilizado para enviar mensagens nos dois sentidos. A tecnologia desenvolvida, no entanto, tem uma peculiaridade: depois que um ramo de fibra ótica é utilizado para transportar matéria em uma direção,a fibra ótica guarda uma <em>memória</em> desse fato, e a partir de então esse ramo somente pode ser utilizado para transportar matéria naquela direção. Concentradores não são afetados por essa memória de direção.</p><p>O grupo de pesquisa da SBC é muito bom em física, mas muito fraco em computação. Por isso, você foi contratado para determinar se a rede de fibra ótica existente poderá ser utilizada pela SBC para transportar carga entre qualquer par de capitais, mesmo considerando a restrição de memória de sentido dos ramos de fibra ótica.</p>
-Formato da entrada: <p>A primeira linha de cada caso de teste contém dois inteiros <code>N</code> e <code>M</code> separados por um espaço em branco, que representam, respectivamente, a quantidade de capitais <code>(2 ≤ N ≤ 1.000)</code> e a quantidade de ramos de fibra ótica existentes <code>(1 ≤ M ≤ 50.000)</code>. As capitais são numeradas de <code>1</code> a <code>N</code>. Cada uma das <code>M</code> linhas seguintes de um caso de teste contém dois inteiros <code>A</code> e <code>B</code><code>(1 ≤ A, B ≤ N, A ≠ B)</code> separados por um espaço em branco, indicando que existe um ramo de fibra ligando a capital <code>A</code> à capital <code>B</code>. Note que para comunicação de dados o ramo descrito pode ser utilizado para enviar mensagens tanto de <code>A</code> para <code>B</code> quanto de <code>B</code> para <code>A</code>, mas para transferência de matéria ele poderá ser utilizado em apenas uma direção. Há no máximo um único ramo de fibra ligando um par de capitais. O final da entrada é indicado por <code>N = M = 0</code>.<br/></p>
-Formato da saída: <div>Para cada caso de teste da entrada seu programa deve imprimir uma única linha, contendo a letra ‘S’ caso seja possível utilizar a rede existente conforme especificado, ou a letra ‘N’ caso contrário.</div>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">grafo</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">vertices/arestas de corte</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">maratona</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Série de tubos</h2>
+<p><strong>Tempo limite:</strong> 3 segundo(s)</p>
+<p>O ano é 2010. O espetacular resultado de um projeto ultrassecreto, iniciado três anos antes por um grupo de pesquisadores da SBC (Soluções Brasileiras em Cabeamento) está prestes a ser divulgado: a SBC conseguiu a proeza de transportar matéria através de cabos de fibra ótica! A pesquisa contraria a famosa e polêmica frase do ex-senador e atual presidente dos EUA, que na época do início da pesquisa, há três anos, afirmara que &#34;a internet não é como um caminhão de carga, em que você despeja o que quiser; a internet na verdade é uma série de tubos&#34;. Com isso, a SBC, que atualmente aluga a sua rede de cabos para uma operadora de TV paga, pensa em mudar de negócio e iniciar-se na atividade de transporte de carga -- apesar de a tecnologia desenvolvida servir também para o transporte de seres vivos, há dificuldades políticas na homologação desse meio de transporte para seres humanos.</p><p>A rede de fibra ótica da SBC cobre todas as capitais do país. A rede é composta por ramos de fibra ótica e <em>concentradores</em>. Há um concentrador em cada capital, e um ramo de fibra ótica conecta diretamente um par de concentradores. Nem todo concentrador está conectado diretamente por um ramo de fibra a todos os outros concentradores, mas a rede é <em>conexa</em>. Ou seja, a partir de um dado concentrador existe uma sequência de ramos e concentradores que permite que uma informação gerada em qualquer um dos concentradores pode ser enviada a qualquer outro concentrador da rede.</p><p>Para comunicação de dados, é normal que um ramo de fibra ótica possa ser utilizado para enviar mensagens nos dois sentidos. A tecnologia desenvolvida, no entanto, tem uma peculiaridade: depois que um ramo de fibra ótica é utilizado para transportar matéria em uma direção,a fibra ótica guarda uma <em>memória</em> desse fato, e a partir de então esse ramo somente pode ser utilizado para transportar matéria naquela direção. Concentradores não são afetados por essa memória de direção.</p><p>O grupo de pesquisa da SBC é muito bom em física, mas muito fraco em computação. Por isso, você foi contratado para determinar se a rede de fibra ótica existente poderá ser utilizada pela SBC para transportar carga entre qualquer par de capitais, mesmo considerando a restrição de memória de sentido dos ramos de fibra ótica.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A primeira linha de cada caso de teste contém dois inteiros <code>N</code> e <code>M</code> separados por um espaço em branco, que representam, respectivamente, a quantidade de capitais <code>(2 ≤ N ≤ 1.000)</code> e a quantidade de ramos de fibra ótica existentes <code>(1 ≤ M ≤ 50.000)</code>. As capitais são numeradas de <code>1</code> a <code>N</code>. Cada uma das <code>M</code> linhas seguintes de um caso de teste contém dois inteiros <code>A</code> e <code>B</code><code>(1 ≤ A, B ≤ N, A ≠ B)</code> separados por um espaço em branco, indicando que existe um ramo de fibra ligando a capital <code>A</code> à capital <code>B</code>. Note que para comunicação de dados o ramo descrito pode ser utilizado para enviar mensagens tanto de <code>A</code> para <code>B</code> quanto de <code>B</code> para <code>A</code>, mas para transferência de matéria ele poderá ser utilizado em apenas uma direção. Há no máximo um único ramo de fibra ligando um par de capitais. O final da entrada é indicado por <code>N = M = 0</code>.<br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><div>Para cada caso de teste da entrada seu programa deve imprimir uma única linha, contendo a letra ‘S’ caso seja possível utilizar a rede existente conforme especificado, ou a letra ‘N’ caso contrário.</div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question645/inputs/in0.txt;../app/questions/question645/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -1,0 +1,35 @@
+Estado inicial: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1 | 1
+Maior elemento neste passo: 1
+Estado Atual da Heap: 1
+Resultado Final: 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1

@@ -7,31 +7,554 @@
     <title>Questão 1063 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1063</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 1063</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Notas em ordem crescente
-Topicos do problema: decisão; ordenação; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p><span id="docs-internal-guid-c036e72a-4544-40d3-765d-3ab7d0ab3b7a"><span style="color: rgb(0, 0, 0);background-color: transparent;">Escreva um programa que leia as notas de três pessoas pessoas em uma prova e as exiba na saída padrão de forma crescente.</span></span><br/></p>
-Formato da entrada: <p>As notas (inteiras) de 3 pessoas com valores entre 0 e 100</p>
-Formato da saída: <p>As notas dessas 3 pessoas ordenadas de forma crescente</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ordenação</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Notas em ordem crescente</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p><span id="docs-internal-guid-c036e72a-4544-40d3-765d-3ab7d0ab3b7a"><span style="color: rgb(0, 0, 0);background-color: transparent;">Escreva um programa que leia as notas de três pessoas pessoas em uma prova e as exiba na saída padrão de forma crescente.</span></span><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>As notas (inteiras) de 3 pessoas com valores entre 0 e 100</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>As notas dessas 3 pessoas ordenadas de forma crescente</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question1063/inputs/in0.txt;../app/questions/question1063/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in1.txt;../app/questions/question1063/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in10.txt;../app/questions/question1063/outputs/out10.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in100.txt;../app/questions/question1063/outputs/out100.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in11.txt;../app/questions/question1063/outputs/out11.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in12.txt;../app/questions/question1063/outputs/out12.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in13.txt;../app/questions/question1063/outputs/out13.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in14.txt;../app/questions/question1063/outputs/out14.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in15.txt;../app/questions/question1063/outputs/out15.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in16.txt;../app/questions/question1063/outputs/out16.txt">
+            Exemplo 10
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in17.txt;../app/questions/question1063/outputs/out17.txt">
+            Exemplo 11
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in18.txt;../app/questions/question1063/outputs/out18.txt">
+            Exemplo 12
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in19.txt;../app/questions/question1063/outputs/out19.txt">
+            Exemplo 13
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in2.txt;../app/questions/question1063/outputs/out2.txt">
+            Exemplo 14
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in20.txt;../app/questions/question1063/outputs/out20.txt">
+            Exemplo 15
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in21.txt;../app/questions/question1063/outputs/out21.txt">
+            Exemplo 16
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in22.txt;../app/questions/question1063/outputs/out22.txt">
+            Exemplo 17
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in23.txt;../app/questions/question1063/outputs/out23.txt">
+            Exemplo 18
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in24.txt;../app/questions/question1063/outputs/out24.txt">
+            Exemplo 19
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in25.txt;../app/questions/question1063/outputs/out25.txt">
+            Exemplo 20
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in26.txt;../app/questions/question1063/outputs/out26.txt">
+            Exemplo 21
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in27.txt;../app/questions/question1063/outputs/out27.txt">
+            Exemplo 22
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in28.txt;../app/questions/question1063/outputs/out28.txt">
+            Exemplo 23
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in29.txt;../app/questions/question1063/outputs/out29.txt">
+            Exemplo 24
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in3.txt;../app/questions/question1063/outputs/out3.txt">
+            Exemplo 25
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in30.txt;../app/questions/question1063/outputs/out30.txt">
+            Exemplo 26
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in31.txt;../app/questions/question1063/outputs/out31.txt">
+            Exemplo 27
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in32.txt;../app/questions/question1063/outputs/out32.txt">
+            Exemplo 28
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in33.txt;../app/questions/question1063/outputs/out33.txt">
+            Exemplo 29
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in34.txt;../app/questions/question1063/outputs/out34.txt">
+            Exemplo 30
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in35.txt;../app/questions/question1063/outputs/out35.txt">
+            Exemplo 31
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in36.txt;../app/questions/question1063/outputs/out36.txt">
+            Exemplo 32
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in37.txt;../app/questions/question1063/outputs/out37.txt">
+            Exemplo 33
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in38.txt;../app/questions/question1063/outputs/out38.txt">
+            Exemplo 34
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in39.txt;../app/questions/question1063/outputs/out39.txt">
+            Exemplo 35
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in4.txt;../app/questions/question1063/outputs/out4.txt">
+            Exemplo 36
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in40.txt;../app/questions/question1063/outputs/out40.txt">
+            Exemplo 37
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in41.txt;../app/questions/question1063/outputs/out41.txt">
+            Exemplo 38
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in42.txt;../app/questions/question1063/outputs/out42.txt">
+            Exemplo 39
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in43.txt;../app/questions/question1063/outputs/out43.txt">
+            Exemplo 40
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in44.txt;../app/questions/question1063/outputs/out44.txt">
+            Exemplo 41
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in45.txt;../app/questions/question1063/outputs/out45.txt">
+            Exemplo 42
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in46.txt;../app/questions/question1063/outputs/out46.txt">
+            Exemplo 43
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in47.txt;../app/questions/question1063/outputs/out47.txt">
+            Exemplo 44
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in48.txt;../app/questions/question1063/outputs/out48.txt">
+            Exemplo 45
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in49.txt;../app/questions/question1063/outputs/out49.txt">
+            Exemplo 46
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in5.txt;../app/questions/question1063/outputs/out5.txt">
+            Exemplo 47
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in50.txt;../app/questions/question1063/outputs/out50.txt">
+            Exemplo 48
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in51.txt;../app/questions/question1063/outputs/out51.txt">
+            Exemplo 49
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in52.txt;../app/questions/question1063/outputs/out52.txt">
+            Exemplo 50
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in53.txt;../app/questions/question1063/outputs/out53.txt">
+            Exemplo 51
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in54.txt;../app/questions/question1063/outputs/out54.txt">
+            Exemplo 52
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in55.txt;../app/questions/question1063/outputs/out55.txt">
+            Exemplo 53
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in56.txt;../app/questions/question1063/outputs/out56.txt">
+            Exemplo 54
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in57.txt;../app/questions/question1063/outputs/out57.txt">
+            Exemplo 55
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in58.txt;../app/questions/question1063/outputs/out58.txt">
+            Exemplo 56
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in59.txt;../app/questions/question1063/outputs/out59.txt">
+            Exemplo 57
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in6.txt;../app/questions/question1063/outputs/out6.txt">
+            Exemplo 58
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in60.txt;../app/questions/question1063/outputs/out60.txt">
+            Exemplo 59
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in61.txt;../app/questions/question1063/outputs/out61.txt">
+            Exemplo 60
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in62.txt;../app/questions/question1063/outputs/out62.txt">
+            Exemplo 61
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in63.txt;../app/questions/question1063/outputs/out63.txt">
+            Exemplo 62
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in64.txt;../app/questions/question1063/outputs/out64.txt">
+            Exemplo 63
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in65.txt;../app/questions/question1063/outputs/out65.txt">
+            Exemplo 64
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in66.txt;../app/questions/question1063/outputs/out66.txt">
+            Exemplo 65
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in67.txt;../app/questions/question1063/outputs/out67.txt">
+            Exemplo 66
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in68.txt;../app/questions/question1063/outputs/out68.txt">
+            Exemplo 67
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in69.txt;../app/questions/question1063/outputs/out69.txt">
+            Exemplo 68
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in7.txt;../app/questions/question1063/outputs/out7.txt">
+            Exemplo 69
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in70.txt;../app/questions/question1063/outputs/out70.txt">
+            Exemplo 70
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in71.txt;../app/questions/question1063/outputs/out71.txt">
+            Exemplo 71
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in72.txt;../app/questions/question1063/outputs/out72.txt">
+            Exemplo 72
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in73.txt;../app/questions/question1063/outputs/out73.txt">
+            Exemplo 73
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in74.txt;../app/questions/question1063/outputs/out74.txt">
+            Exemplo 74
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in75.txt;../app/questions/question1063/outputs/out75.txt">
+            Exemplo 75
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in76.txt;../app/questions/question1063/outputs/out76.txt">
+            Exemplo 76
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in77.txt;../app/questions/question1063/outputs/out77.txt">
+            Exemplo 77
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in78.txt;../app/questions/question1063/outputs/out78.txt">
+            Exemplo 78
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in79.txt;../app/questions/question1063/outputs/out79.txt">
+            Exemplo 79
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in8.txt;../app/questions/question1063/outputs/out8.txt">
+            Exemplo 80
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in80.txt;../app/questions/question1063/outputs/out80.txt">
+            Exemplo 81
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in81.txt;../app/questions/question1063/outputs/out81.txt">
+            Exemplo 82
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in82.txt;../app/questions/question1063/outputs/out82.txt">
+            Exemplo 83
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in83.txt;../app/questions/question1063/outputs/out83.txt">
+            Exemplo 84
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in84.txt;../app/questions/question1063/outputs/out84.txt">
+            Exemplo 85
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in85.txt;../app/questions/question1063/outputs/out85.txt">
+            Exemplo 86
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in86.txt;../app/questions/question1063/outputs/out86.txt">
+            Exemplo 87
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in87.txt;../app/questions/question1063/outputs/out87.txt">
+            Exemplo 88
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in88.txt;../app/questions/question1063/outputs/out88.txt">
+            Exemplo 89
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in89.txt;../app/questions/question1063/outputs/out89.txt">
+            Exemplo 90
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in9.txt;../app/questions/question1063/outputs/out9.txt">
+            Exemplo 91
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in90.txt;../app/questions/question1063/outputs/out90.txt">
+            Exemplo 92
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in91.txt;../app/questions/question1063/outputs/out91.txt">
+            Exemplo 93
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in92.txt;../app/questions/question1063/outputs/out92.txt">
+            Exemplo 94
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in93.txt;../app/questions/question1063/outputs/out93.txt">
+            Exemplo 95
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in94.txt;../app/questions/question1063/outputs/out94.txt">
+            Exemplo 96
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in95.txt;../app/questions/question1063/outputs/out95.txt">
+            Exemplo 97
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in96.txt;../app/questions/question1063/outputs/out96.txt">
+            Exemplo 98
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in97.txt;../app/questions/question1063/outputs/out97.txt">
+            Exemplo 99
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in98.txt;../app/questions/question1063/outputs/out98.txt">
+            Exemplo 100
+        </option>
+        
+        <option value="../app/questions/question1063/inputs/in99.txt;../app/questions/question1063/outputs/out99.txt">
+            Exemplo 101
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

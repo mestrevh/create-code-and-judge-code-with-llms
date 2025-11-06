@@ -7,31 +7,170 @@
     <title>Questão 1248 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1248</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 1248</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: P2Q2 - Trivialus
-Topicos do problema: array; array bidimensional; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><b id="docs-internal-guid-cff13404-deb1-6b99-29d3-59eaf0fe1825"></b></span></p><p dir="ltr" style="text-align: justify;"><font color="#000000"><b id="docs-internal-guid-4c3812a7-e36c-8271-9b3b-cdbb3728e9be"></b></font></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Na palestra, após dar uma breve introdução sobre a teoria de matrizes, Sílvio começou com um exemplo prático: “Na agricultura, podemos utilizar a magia </span><span style="color: #000000;background-color: transparent;"><i>Trivialus</i></span><span style="color: #000000;background-color: transparent;"> para dividir uma área de solo em porções quadradas de tamanhos iguais e identificar quais porções estão boas para cultivo.” Cada quadrado pode ter 3 (três) cores diferentes, de acordo com a qualidade do solo, sendo:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Verde: excelente;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Amarelo: danificado;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Vermelho: danificado e infestado;</span></p></li></ul><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Como no exemplo abaixo:</span></p><p dir="ltr" style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/4e4047b713f00558b23974653bec465198a53c96M.png"/><br/></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Para recuperação do terreno, deve-se primeiro aplicar um repelente de lesmas, que resolve o problema de infestação dos terrenos danificados e infestados, tornando-os apenas danificados.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Após a aplicação do repelente, o bruxo deve dizer a palavra </span><span style="color: #000000;background-color: transparent;"><i>Trivialus e</i></span><span style="color: #000000;background-color: transparent;"> ter em mente o tamanho do terreno. Nesse momento, o terreno é dividido em quadrados e tem início a recuperação das áreas danificadas, que se tornam excelentes.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Hagrid precisa recuperar alguns terrenos. Para isso, ele foi à Travessa do Tranco comprar repelentes. Após resolver o problema de infestação, ele pediu ajuda para a Profa. Sprout para aplicar o feitiço </span><span style="color: #000000;background-color: transparent;"><i>Trivialus. </i></span><span style="color: #000000;background-color: transparent;">Como a professora estava com muita raiva de Hagrid, a qualidade da magia foi comprometida e apenas algumas porções foram atingidas pelo feitiço.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Sua tarefa é escrever um programa que ajude Hagrid a computar o lucro que irá obter após sua colheita, considerando todos os seus gastos com repelentes e ganhos com áreas cultivadas.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">OBS:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">o repelente de lesmas custa 3 Galeões por área infestada;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Hagrid só pode plantar em áreas que estão excelentes;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">ao final da colheita, ele consegue 4 Galeões por área cultivada.</span></p></li></ul><br/><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><b>É obrigatório o uso de array bidimensional para a solução da questão.</b></span></p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
-Formato da entrada: <p><b id="docs-internal-guid-4c3812a7-e36c-ea5c-9ccb-4a3f7d55b30d"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">L C</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Qij</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">S</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">X Y</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>L - número inteiro positivo (2 &lt;= N &lt;= 1000)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>C - número inteiro positivo (2 &lt;= M &lt;= 1000)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A primeira linha é composta pelo número de linhas (L) e número de colunas (C) da matriz que representa as áreas do terreno da plantação de Hagrid.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>Qij - string { “verde”, “amarelo”, “vermelho” }</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">cada uma das próximas L*C linhas contém uma cor, representando a qualidade de cada área do terreno;</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>S - número inteiro positivo (1 &lt;= S &lt;= L * C)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A próxima linha contém a quantidade de áreas atingidas pelo feitiço da professora Sprout.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>X - número inteiro positivo (1 &lt;= X &lt;= L)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>Y - número inteiro positivo (1 &lt;= Y&lt;= C)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">As próximas S linhas são compostas pelas coordenadas X e Y de cada área atingida pelo feitiço.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">OBS:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">só vai haver uma tentativa de recuperação em cada área;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">o feitiço pode atingir uma área que já é excelente, não tendo efeito;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">a cor informada será sempre “verde”, “amarelo” ou “vermelho&#34;.</span></p></li></ul>
-Formato da saída: <p><b id="docs-internal-guid-4c3812a7-e36d-65af-c933-87fe5e0cca60"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">V</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>V - número inteiro</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A linha única é composta pelo lucro em Galeões que Hagrid irá obter, após a ajuda da professora Sprout, com a colheita de todas as áreas excelentes e gastos feitos com repelentes.  </span></p><br/><span style="color: #000000;background-color: transparent;">OBS: </span><span style="color: #000000;background-color: transparent;">Caso Hagrid tenha prejuízo, é necessário imprimir apenas o texto: “prejuizo”.</span>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>P2Q2 - Trivialus</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><b id="docs-internal-guid-cff13404-deb1-6b99-29d3-59eaf0fe1825"></b></span></p><p dir="ltr" style="text-align: justify;"><font color="#000000"><b id="docs-internal-guid-4c3812a7-e36c-8271-9b3b-cdbb3728e9be"></b></font></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Na palestra, após dar uma breve introdução sobre a teoria de matrizes, Sílvio começou com um exemplo prático: “Na agricultura, podemos utilizar a magia </span><span style="color: #000000;background-color: transparent;"><i>Trivialus</i></span><span style="color: #000000;background-color: transparent;"> para dividir uma área de solo em porções quadradas de tamanhos iguais e identificar quais porções estão boas para cultivo.” Cada quadrado pode ter 3 (três) cores diferentes, de acordo com a qualidade do solo, sendo:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Verde: excelente;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Amarelo: danificado;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Vermelho: danificado e infestado;</span></p></li></ul><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Como no exemplo abaixo:</span></p><p dir="ltr" style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/4e4047b713f00558b23974653bec465198a53c96M.png"/><br/></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Para recuperação do terreno, deve-se primeiro aplicar um repelente de lesmas, que resolve o problema de infestação dos terrenos danificados e infestados, tornando-os apenas danificados.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Após a aplicação do repelente, o bruxo deve dizer a palavra </span><span style="color: #000000;background-color: transparent;"><i>Trivialus e</i></span><span style="color: #000000;background-color: transparent;"> ter em mente o tamanho do terreno. Nesse momento, o terreno é dividido em quadrados e tem início a recuperação das áreas danificadas, que se tornam excelentes.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Hagrid precisa recuperar alguns terrenos. Para isso, ele foi à Travessa do Tranco comprar repelentes. Após resolver o problema de infestação, ele pediu ajuda para a Profa. Sprout para aplicar o feitiço </span><span style="color: #000000;background-color: transparent;"><i>Trivialus. </i></span><span style="color: #000000;background-color: transparent;">Como a professora estava com muita raiva de Hagrid, a qualidade da magia foi comprometida e apenas algumas porções foram atingidas pelo feitiço.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Sua tarefa é escrever um programa que ajude Hagrid a computar o lucro que irá obter após sua colheita, considerando todos os seus gastos com repelentes e ganhos com áreas cultivadas.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">OBS:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">o repelente de lesmas custa 3 Galeões por área infestada;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Hagrid só pode plantar em áreas que estão excelentes;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">ao final da colheita, ele consegue 4 Galeões por área cultivada.</span></p></li></ul><br/><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><b>É obrigatório o uso de array bidimensional para a solução da questão.</b></span></p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><b id="docs-internal-guid-4c3812a7-e36c-ea5c-9ccb-4a3f7d55b30d"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">L C</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Qij</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">S</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">X Y</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>L - número inteiro positivo (2 &lt;= N &lt;= 1000)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>C - número inteiro positivo (2 &lt;= M &lt;= 1000)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A primeira linha é composta pelo número de linhas (L) e número de colunas (C) da matriz que representa as áreas do terreno da plantação de Hagrid.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>Qij - string { “verde”, “amarelo”, “vermelho” }</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">cada uma das próximas L*C linhas contém uma cor, representando a qualidade de cada área do terreno;</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>S - número inteiro positivo (1 &lt;= S &lt;= L * C)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A próxima linha contém a quantidade de áreas atingidas pelo feitiço da professora Sprout.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>X - número inteiro positivo (1 &lt;= X &lt;= L)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>Y - número inteiro positivo (1 &lt;= Y&lt;= C)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">As próximas S linhas são compostas pelas coordenadas X e Y de cada área atingida pelo feitiço.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">OBS:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">só vai haver uma tentativa de recuperação em cada área;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">o feitiço pode atingir uma área que já é excelente, não tendo efeito;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">a cor informada será sempre “verde”, “amarelo” ou “vermelho&#34;.</span></p></li></ul></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><b id="docs-internal-guid-4c3812a7-e36d-65af-c933-87fe5e0cca60"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">V</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>V - número inteiro</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A linha única é composta pelo lucro em Galeões que Hagrid irá obter, após a ajuda da professora Sprout, com a colheita de todas as áreas excelentes e gastos feitos com repelentes.  </span></p><br/><span style="color: #000000;background-color: transparent;">OBS: </span><span style="color: #000000;background-color: transparent;">Caso Hagrid tenha prejuízo, é necessário imprimir apenas o texto: “prejuizo”.</span></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question1248/inputs/in0.txt;../app/questions/question1248/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question1248/inputs/in1.txt;../app/questions/question1248/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question1248/inputs/in2.txt;../app/questions/question1248/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question1248/inputs/in3.txt;../app/questions/question1248/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question1248/inputs/in4.txt;../app/questions/question1248/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

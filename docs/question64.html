@@ -7,24 +7,59 @@
     <title>Questão 64 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 64</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 64</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: O Salão do Clube
-Topicos do problema: array; maratona; função; ordenação; 
-Tempo limite de execução: 60 segundo(s)
-Descrição: <p><span>O Clube Recreativo de Maceió está construindo a sua nova sede social. Os sócios desejam que o piso do salão da sede seja de tábuas de madeira, pois consideram que este é o melhor tipo de piso para os famosos bailes do clube. Uma madeireira da região doou uma grande quantidade de tábuas de boa qualidade, para serem utilizadas no piso. As tábuas doadas têm todas a mesma largura, mas têm comprimentos distintos.</span></p>&#13;<p class="western"><span>O piso do salão da sede social é retangular. As tábuas devem ser colocadas justapostas, sem que qualquer parte de uma tábua seja sobreposta a outra tábua, e devem cobrir todo o piso do salão. Elas devem ser dispostas alinhadas, no sentido longitudinal, e todas devem estar no mesmo sentido (ou seja, todas as tábuas devem estar paralelas, no sentido longitudinal). Além disso, os sócios não querem muitas emendas no piso e, portanto, se uma tábua não é longa o bastante para cobrir a distância entre um lado e o outro do salão, ela pode ser emendada a no máximo uma outra tábua para completar a distância.</span></p>&#13;<p class="western"><span>Há, porém, uma complicação adicional. O carpinteiro-chefe tem um grande respeito por todas as madeiras e prefere não serrar qualquer tábua. Assim,ele deseja saber se é possível forrar todo o piso com as tábuas doadas, obedecendo às restrições especificadas; caso seja possível, o carpinteiro-chefe deseja ainda saber o menor número de tábuas que será necessário utilizar.</span></p>&#13;<p class="western"><span>A figura abaixo lustra duas possíveis maneiras de forrar o piso de um salão com dimensões 4X5 metros para um conjunto de dez tábuas doadas, com 100 cm  de largura e comprimentos 1, 2, 2, 2, 2, 3, 3, 4, 4, e 5 metros.</span></p><p class="western"><img src="data:image/png;base64,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"/><span><br/></span></p><p><br/></p>&#13;<p> </p>
-Formato da entrada: <p><span style="font-size: x-small;">A entrada cont&eacute;m
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">maratona</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">função</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ordenação</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>O Salão do Clube</h2>
+<p><strong>Tempo limite:</strong> 60 segundo(s)</p>
+<p><span>O Clube Recreativo de Maceió está construindo a sua nova sede social. Os sócios desejam que o piso do salão da sede seja de tábuas de madeira, pois consideram que este é o melhor tipo de piso para os famosos bailes do clube. Uma madeireira da região doou uma grande quantidade de tábuas de boa qualidade, para serem utilizadas no piso. As tábuas doadas têm todas a mesma largura, mas têm comprimentos distintos.</span></p>&#13;<p class="western"><span>O piso do salão da sede social é retangular. As tábuas devem ser colocadas justapostas, sem que qualquer parte de uma tábua seja sobreposta a outra tábua, e devem cobrir todo o piso do salão. Elas devem ser dispostas alinhadas, no sentido longitudinal, e todas devem estar no mesmo sentido (ou seja, todas as tábuas devem estar paralelas, no sentido longitudinal). Além disso, os sócios não querem muitas emendas no piso e, portanto, se uma tábua não é longa o bastante para cobrir a distância entre um lado e o outro do salão, ela pode ser emendada a no máximo uma outra tábua para completar a distância.</span></p>&#13;<p class="western"><span>Há, porém, uma complicação adicional. O carpinteiro-chefe tem um grande respeito por todas as madeiras e prefere não serrar qualquer tábua. Assim,ele deseja saber se é possível forrar todo o piso com as tábuas doadas, obedecendo às restrições especificadas; caso seja possível, o carpinteiro-chefe deseja ainda saber o menor número de tábuas que será necessário utilizar.</span></p>&#13;<p class="western"><span>A figura abaixo lustra duas possíveis maneiras de forrar o piso de um salão com dimensões 4X5 metros para um conjunto de dez tábuas doadas, com 100 cm  de largura e comprimentos 1, 2, 2, 2, 2, 3, 3, 4, 4, e 5 metros.</span></p><p class="western"><img src="data:image/png;base64,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"/><span><br/></span></p><p><br/></p>&#13;<p> </p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span style="font-size: x-small;">A entrada cont&eacute;m
 
 v&aacute;rios casos de teste. A primeira linha de um caso de teste cont&eacute;m
 
@@ -48,8 +83,12 @@ indicado por uma linha que cont&eacute;m apenas dois zeros, separados por
 
 um espa&ccedil;o em branco.</span></p>
 
-<p>&nbsp;</p>
-Formato da saída: <p>Para cada um dos casos
+<p>&nbsp;</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada um dos casos
 
 de teste da entrada, seu programa deve imprimir uma &uacute;nica linha,
 
@@ -63,13 +102,101 @@ estabelecidas, imprima uma linha com a palavra 'impossivel' (letras
 
 min&uacute;sculas, sem acento)</p>
 
-<p>&nbsp;</p>
-</div> 
+<p>&nbsp;</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question64/inputs/in0.txt;../app/questions/question64/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question64/inputs/in1.txt;../app/questions/question64/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

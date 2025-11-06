@@ -7,31 +7,174 @@
     <title>Questão 2635 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2635</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2635</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L5Q5 - A Ovelhinha
-Topicos do problema: multiplas entradas; array; decisão; dividir e conquistar; recursão; string; busca; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Nossos ladrões decidiram organizar os celulares dos reféns. Para isso, eles colocaram um adesivo com o número de celular na frente de cada celular a ele associado. Depois grudaram todos os celulares na parede. Além disso, anotaram em um papel o nome do(a) dono(a) do aparelho junto ao número do celular.</p><p>Tudo corria bem, até que, por um descuido, eles deixaram Alison usar seu celular por alguns instantes sem ser vigiada. Por causa disso, a polícia acabou identificando Rio como um dos assaltantes. Visando impedir que isso aconteça de novo, os ladrões decidiram procurar pelo celular de Alison na parede a cada meia hora e depois reorganizar os celulares para dificultar para Alison procurar por seu celular na parede.</p><p>Desde que Alison tentou bancar a espertinha, os ladrões perceberam que o celular dela tem o maior número entre todos os celulares dos reféns. Sabendo disso e visando acelerar o processo de procura por seu celular, os assaltantes desenvolveram um algoritmo para procurar pelo maior número de celular em um array de números de celulares que consiste em:</p><ul><li>Se o array tem tamanho 1, o maior número de celular é o único número de celular do array.</li><li>Se o array tem tamanho <b>N</b>, divide-se o array em dois outros arrays. O maior número será o maior entre o maior do array a esquerda e o maior do array a direita.</li></ul><p>Eles, então pediram, pra você implementar esse algoritmo e lhes informar se o celular de Alison está, de fato, na parede, onde deveria estar.</p><p><br/></p><p><b>OBS:</b></p><ul><li><b>É obrigatório o uso de recursão para resolução do problema.</b></li><li>Você deverá seguir o passo a passo do algoritmo implementado acima.</li></ul>
-Formato da entrada: <p>A primeira linha consiste em um inteiro com a quantidade de celulares na parede:</p><blockquote><p><b>N</b></p></blockquote><ul><li>N - inteiro</li></ul><p>Seguem, então, N linhas no formato:</p><blockquote><p><b>Pi Ci</b></p></blockquote><ul><li>Pi - Nome da pessoa na posição i na parede</li><li>Ci - Número do celular da pessoa na posição i na parede</li></ul>
-Formato da saída: <p>Caso o celular de Alison continue na parede, deve-se imprimir:</p><blockquote><p><b>&#34;Ela nao tentou bancar a espertinha de novo!&#34;</b></p></blockquote><p>E caso o celular não esteja na parede, sendo <b>M</b> o maior número na parede, deve-se imprimir:</p><blockquote><p><b>&#34;ELA ROUBOU DE NOVO! TODOS ATRAS DE ALISON! O maior numero na parede e M!&#34;</b></p></blockquote>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">multiplas entradas</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">dividir e conquistar</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">recursão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">string</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">busca</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>L5Q5 - A Ovelhinha</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Nossos ladrões decidiram organizar os celulares dos reféns. Para isso, eles colocaram um adesivo com o número de celular na frente de cada celular a ele associado. Depois grudaram todos os celulares na parede. Além disso, anotaram em um papel o nome do(a) dono(a) do aparelho junto ao número do celular.</p><p>Tudo corria bem, até que, por um descuido, eles deixaram Alison usar seu celular por alguns instantes sem ser vigiada. Por causa disso, a polícia acabou identificando Rio como um dos assaltantes. Visando impedir que isso aconteça de novo, os ladrões decidiram procurar pelo celular de Alison na parede a cada meia hora e depois reorganizar os celulares para dificultar para Alison procurar por seu celular na parede.</p><p>Desde que Alison tentou bancar a espertinha, os ladrões perceberam que o celular dela tem o maior número entre todos os celulares dos reféns. Sabendo disso e visando acelerar o processo de procura por seu celular, os assaltantes desenvolveram um algoritmo para procurar pelo maior número de celular em um array de números de celulares que consiste em:</p><ul><li>Se o array tem tamanho 1, o maior número de celular é o único número de celular do array.</li><li>Se o array tem tamanho <b>N</b>, divide-se o array em dois outros arrays. O maior número será o maior entre o maior do array a esquerda e o maior do array a direita.</li></ul><p>Eles, então pediram, pra você implementar esse algoritmo e lhes informar se o celular de Alison está, de fato, na parede, onde deveria estar.</p><p><br/></p><p><b>OBS:</b></p><ul><li><b>É obrigatório o uso de recursão para resolução do problema.</b></li><li>Você deverá seguir o passo a passo do algoritmo implementado acima.</li></ul></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A primeira linha consiste em um inteiro com a quantidade de celulares na parede:</p><blockquote><p><b>N</b></p></blockquote><ul><li>N - inteiro</li></ul><p>Seguem, então, N linhas no formato:</p><blockquote><p><b>Pi Ci</b></p></blockquote><ul><li>Pi - Nome da pessoa na posição i na parede</li><li>Ci - Número do celular da pessoa na posição i na parede</li></ul></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Caso o celular de Alison continue na parede, deve-se imprimir:</p><blockquote><p><b>&#34;Ela nao tentou bancar a espertinha de novo!&#34;</b></p></blockquote><p>E caso o celular não esteja na parede, sendo <b>M</b> o maior número na parede, deve-se imprimir:</p><blockquote><p><b>&#34;ELA ROUBOU DE NOVO! TODOS ATRAS DE ALISON! O maior numero na parede e M!&#34;</b></p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2635/inputs/in0.txt;../app/questions/question2635/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2635/inputs/in1.txt;../app/questions/question2635/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2635/inputs/in2.txt;../app/questions/question2635/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2635/inputs/in3.txt;../app/questions/question2635/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2635/inputs/in4.txt;../app/questions/question2635/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2635/inputs/in5.txt;../app/questions/question2635/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

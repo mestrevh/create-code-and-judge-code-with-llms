@@ -7,31 +7,154 @@
     <title>Questão 651 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 651</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 651</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Zak Galou
-Topicos do problema: maratona; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Zak Galou é um famoso bruxo matador de monstros. Diz a lenda que existe uma caverna escondida nos confins da selva contendo um tesouro milenar. Até hoje nenhum aventureiro conseguiu recuperar o tesouro, pois ele é bem guardado por terríveis monstros. Mas Zak Galou não é um aventureiro qualquer e decidiu preparar-se para recuperar o tão sonhado tesouro.</p><p>Zak Galou dispõe de uma certa quantidade de <em>mana</em> (uma espécie de energia mágica) e de uma lista de <code>M</code> magias. Cada monstro tem um determinado número de <em>pontos de vida</em>. Cada vez que Zak Galou lança uma magia contra um monstro, Zak gasta uma certa quantidade demana (o <em>custo</em> da magia) e inflige um certo <em>dano</em> ao monstro. O dano infligido provoca a perda de pontos de vida do monstro (o número de pontos perdidos depende da magia). Um monstro está morto se tiver zero ou menos pontos de vida. Zak sempre luta contra um monstro a cada vez. Como é um bruxo poderoso, ele pode usar a mesma magia várias vezes, desde que possua a quantidade necessária de mana.</p><p>Em suas pesquisas, Zak Galou conseguiu o mapa do tesouro. A caverna é representada como um conjunto de salões conectados por galerias. Os salões são identificados sequencialmente de<code>1</code> a <code>N</code>. Zak sempre inicia no salão <code>1</code> e o tesouro está sempre no salão <code>N</code>. Existem <code>K</code> monstros identificados sequencialmente de <code>1</code> a <code>K</code>. Cada monstro vive em um salão, do qual não sai (note que é possível que mais de um monstro viva no mesmo salão). Durante a busca pelo tesouro,Zak Galou pode sair ou recuperar o tesouro de um salão somente se o salão estiver vazio (sem monstro). Em outras palavras, Zak deve sempre, antes de sair ou de recuperar o tesouro de um salão, matar o(s) monstro(s) que lá viver(em).</p><p>Dadas as descrições das magias, dos monstros e da caverna, sua tarefa é determinar a quantidade mínima inicial de mana necessária para que Zak Galou consiga recuperar o tesouro.</p>
-Formato da entrada: <p>A entrada contém vários casos de teste. A primeira linha de cada caso de teste contém quatro inteiros <code>M</code>, <code>N</code>, <code>G</code> e <code>K</code>, indicando respectivamente o número de magias <code>(1 ≤ M ≤ 1.000)</code>, de salões <code>(1 ≤ N ≤ 1.000)</code>, de galerias <code>(0 ≤ G ≤ 1.000.000)</code> e de monstros <code>(0 ≤ K ≤ 1.000)</code>.</p><p>Cada uma das <code>M</code> linhas seguintes descreve uma magia. A descrição de uma magia contém dois números inteiros, a quantidade de mana consumida (entre <code>1</code> e <code>1.000</code>) e o número de pontos de danos provocados (também entre <code>1</code> e <code>1.000</code>).</p><p>Em seguida, há <code>G</code> linhas, cada uma descrevendo uma galeria. Uma galeria é descrita por dois números inteiros <code>A</code> e <code>B</code> <code>(A ≠ B)</code>, representando os salões que a galeria conecta. Zak pode utilizar a galeria nos dois sentidos, ou seja, para ir de <code>A</code> para <code>B</code> ou de <code>B</code> para <code>A</code>.</p><p>Finalmente, as últimas <code>K</code> linhas de um caso de teste descrevem os monstros. A descrição de um monstro contém dois números inteiros representando respectivamente o salão no qual ele vive (entre <code>1</code> e <code>N</code> inclusive) e o seu número inicial de pontos de vida (entre <code>1</code> e <code>1.000</code> inclusive).</p><p>O final da entrada é indicado por <code>M = N = G = K = 0</code>.</p>
-Formato da saída: <p>Para cada caso de teste da entrada seu programa deve produzir uma linha na saída contendo um número inteiro, a quantidade mínima inicial de mana necessária. Caso não seja possível recuperar o tesouro, você deve imprimir <code>-1</code>.<br/></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">maratona</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Zak Galou</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Zak Galou é um famoso bruxo matador de monstros. Diz a lenda que existe uma caverna escondida nos confins da selva contendo um tesouro milenar. Até hoje nenhum aventureiro conseguiu recuperar o tesouro, pois ele é bem guardado por terríveis monstros. Mas Zak Galou não é um aventureiro qualquer e decidiu preparar-se para recuperar o tão sonhado tesouro.</p><p>Zak Galou dispõe de uma certa quantidade de <em>mana</em> (uma espécie de energia mágica) e de uma lista de <code>M</code> magias. Cada monstro tem um determinado número de <em>pontos de vida</em>. Cada vez que Zak Galou lança uma magia contra um monstro, Zak gasta uma certa quantidade demana (o <em>custo</em> da magia) e inflige um certo <em>dano</em> ao monstro. O dano infligido provoca a perda de pontos de vida do monstro (o número de pontos perdidos depende da magia). Um monstro está morto se tiver zero ou menos pontos de vida. Zak sempre luta contra um monstro a cada vez. Como é um bruxo poderoso, ele pode usar a mesma magia várias vezes, desde que possua a quantidade necessária de mana.</p><p>Em suas pesquisas, Zak Galou conseguiu o mapa do tesouro. A caverna é representada como um conjunto de salões conectados por galerias. Os salões são identificados sequencialmente de<code>1</code> a <code>N</code>. Zak sempre inicia no salão <code>1</code> e o tesouro está sempre no salão <code>N</code>. Existem <code>K</code> monstros identificados sequencialmente de <code>1</code> a <code>K</code>. Cada monstro vive em um salão, do qual não sai (note que é possível que mais de um monstro viva no mesmo salão). Durante a busca pelo tesouro,Zak Galou pode sair ou recuperar o tesouro de um salão somente se o salão estiver vazio (sem monstro). Em outras palavras, Zak deve sempre, antes de sair ou de recuperar o tesouro de um salão, matar o(s) monstro(s) que lá viver(em).</p><p>Dadas as descrições das magias, dos monstros e da caverna, sua tarefa é determinar a quantidade mínima inicial de mana necessária para que Zak Galou consiga recuperar o tesouro.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada contém vários casos de teste. A primeira linha de cada caso de teste contém quatro inteiros <code>M</code>, <code>N</code>, <code>G</code> e <code>K</code>, indicando respectivamente o número de magias <code>(1 ≤ M ≤ 1.000)</code>, de salões <code>(1 ≤ N ≤ 1.000)</code>, de galerias <code>(0 ≤ G ≤ 1.000.000)</code> e de monstros <code>(0 ≤ K ≤ 1.000)</code>.</p><p>Cada uma das <code>M</code> linhas seguintes descreve uma magia. A descrição de uma magia contém dois números inteiros, a quantidade de mana consumida (entre <code>1</code> e <code>1.000</code>) e o número de pontos de danos provocados (também entre <code>1</code> e <code>1.000</code>).</p><p>Em seguida, há <code>G</code> linhas, cada uma descrevendo uma galeria. Uma galeria é descrita por dois números inteiros <code>A</code> e <code>B</code> <code>(A ≠ B)</code>, representando os salões que a galeria conecta. Zak pode utilizar a galeria nos dois sentidos, ou seja, para ir de <code>A</code> para <code>B</code> ou de <code>B</code> para <code>A</code>.</p><p>Finalmente, as últimas <code>K</code> linhas de um caso de teste descrevem os monstros. A descrição de um monstro contém dois números inteiros representando respectivamente o salão no qual ele vive (entre <code>1</code> e <code>N</code> inclusive) e o seu número inicial de pontos de vida (entre <code>1</code> e <code>1.000</code> inclusive).</p><p>O final da entrada é indicado por <code>M = N = G = K = 0</code>.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada caso de teste da entrada seu programa deve produzir uma linha na saída contendo um número inteiro, a quantidade mínima inicial de mana necessária. Caso não seja possível recuperar o tesouro, você deve imprimir <code>-1</code>.<br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question651/inputs/in0.txt;../app/questions/question651/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

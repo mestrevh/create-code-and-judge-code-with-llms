@@ -1,0 +1,46 @@
+Pawb allan, y gweddill yn cael eu tanio
+Retire os cliente e mesas 21 22 23 24 25 26
+Retire os cliente das mesas 13 14 15 16 17 18 19 20
+Retire os clientes e mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Retire os cliente das mesas 13 14 15 16 17 18 19 20
+Retire os cliente e mesas 21 22 23 24 25 26
+prepare as mesas 21 22 23 24 25 26
+Pawb allan, y gweddill yn cael eu tanio
+Retire os cliente das mesas 13 14 15 16 17 18 19 20
+Retire os clientes das mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Retire os cliente das mesas 13 14 15 16 17 18 19 20
+Retire os clientes das mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+prepare as mesas 21 22 23 24 25 26
+prepare as mesas 21 22 23 24 25 26
+Retire os cliente e mesas 21 22 23 24 25 26
+prepare as mesas 21 22 23 24 25 26
+Pawb allan, y gweddill yn cael eu tanio
+Pawb allan, y gweddill yn cael eu tanio
+Retire os clientes e mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Retire os clientes das mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Retire os clientes e mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Retire os cliente das mesas 13 14 15 16 17 18 19 20
+prepare as mesas 21 22 23 24 25 26
+Retire os clientes das mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Pawb allan, y gweddill yn cael eu tanio
+Pedido 1 ,mesa 4 ,prato: Paçoca de Carne Seca
+Pedido 2 ,mesa 1 ,prato: Baião de Dois
+Pedido 3 ,mesa 16 ,prato: Feijão Tropeiro
+Pedido 4 ,mesa 3 ,prato: Virado à Paulista
+Pedido 5 ,mesa 14 ,prato: Frango ao molho pardo
+Pedido 6 ,mesa 21 ,prato: Feijão Tropeiro
+Pedido 7 ,mesa 15 ,prato: Tacacá
+Pedido 8 ,mesa 21 ,prato: Virado à Paulista
+Pedido 9 ,mesa 18 ,prato: Moqueca
+Pedido 10 ,mesa 21 ,prato: Virado à Paulista
+Pedido 11 ,mesa 21 ,prato: Frango ao molho pardo
+Pedido 12 ,mesa 24 ,prato: Frango ao molho pardo
+Pedido 13 ,mesa 18 ,prato: Camarão na Moranga
+Pedido 14 ,mesa 3 ,prato: Tacacá
+Pedido 15 ,mesa 11 ,prato: Baião de Dois
+Pedido 16 ,mesa 21 ,prato: Baião de Dois
+Pedido 17 ,mesa 18 ,prato: Arroz Carreteiro
+Pedido 18 ,mesa 21 ,prato: Frango ao molho pardo
+Pedido 19 ,mesa 2 ,prato: Arroz com Pequi
+Pedido 20 ,mesa 13 ,prato: Moqueca
+tchau

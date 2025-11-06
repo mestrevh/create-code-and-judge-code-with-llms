@@ -7,31 +7,190 @@
     <title>Questão 1127 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1127</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 1127</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Ordem das vilas
-Topicos do problema: decisão; ordenação; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p><span style="float: none;">O jogo </span><span style="background-color: rgb(255, 255, 255);"><i>Minecraft</i></span><span style="float: none;"> é conhecido por sua característica de blocos cúbicos, os quais (em distância real) medem 1 metro cúbico. No jogo, </span>é utilizado um sistema de coordenadas XYZ, no qual o X representa a longitude, Z a latitude e Y a elevação em blocos. Desta forma, localidades podem ser endereçadas através de triplas (X, Y, Z).</p><p>Steve (o personagem controlado pelo jogador) está em um mundo no qual existem 3 vilas (entre parênteses, encontram-se as coordenadas do centro de cada vila):</p><ul><li>Solitude (X: 140,Y: 200, Z: 456)</li><li>Kakariko (X: 0, Y: 64, Z: 10)</li><li>Hogsmeade (X: 34, Y: 110, Z: 220)</li></ul><p>Steve está interessado em obter diferentes recursos, porém, para organizar melhor suas tarefas, ele quer que cada tipo de recurso seja gerenciado em uma vila diferente. Ele precisa ter uma fazenda para criação de animais, uma plantação e também uma base de mineração, todos em vilas diferentes.</p><p>Visando maximizar o rendimento de suas atividades, ele precisa decidir qual vila escolher para gerenciar cada tipo de recurso. Considerando que ele precisa escolher a vila mais próxima para a fazenda, a segunda mais próxima para a plantação e a mais distante para a base de mineração.</p><p><br/></p><p>Sua tarefa é fazer um programa que ajude Steve a descobrir qual a vila utilizar para cada recurso, considerando suas distâncias.</p>
-Formato da entrada: <blockquote><p><b>X Y Z</b></p></blockquote><ul><li><span style="text-align: left;">X - número inteiro</span></li><li><span style="text-align: left;">Y - número natural</span></li><li><span style="text-align: left;">Z - número inteiro</span></li></ul><p><br/></p><p>A linha única da entrada é composta por uma tripla de números inteiros X, Y e Z, separados por espaço, que indica a coordenada atual de Steve.</p><p><br/></p><p>obs: Você deve considerar que a entrada é amigável, ou seja, sempre estará dentro do formato descrito.</p>
-Formato da saída: <blockquote><p><b>V1 V2 V3</b></p></blockquote><ul><li>V1 - string</li><li>V2 - string</li><li>V3 - string</li></ul><p><br/></p><p>A linha única da saída deve conter os nomes das vilas (apenas a inicial em maiúsculo), separadas por espaço, na ordem em que devem ser escolhidas para ser fazenda, plantação e base de mineração, respectivamente.</p><p><br/></p><p>obs: </p><ul><li>Em casos de distâncias iguais, você deve priorizar na seguinte ordem: Solitude -&gt; Kakariko -&gt; Hogsmeade;</li><li>Não deve haver espaço ao final da linha.</li></ul>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ordenação</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Ordem das vilas</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p><span style="float: none;">O jogo </span><span style="background-color: rgb(255, 255, 255);"><i>Minecraft</i></span><span style="float: none;"> é conhecido por sua característica de blocos cúbicos, os quais (em distância real) medem 1 metro cúbico. No jogo, </span>é utilizado um sistema de coordenadas XYZ, no qual o X representa a longitude, Z a latitude e Y a elevação em blocos. Desta forma, localidades podem ser endereçadas através de triplas (X, Y, Z).</p><p>Steve (o personagem controlado pelo jogador) está em um mundo no qual existem 3 vilas (entre parênteses, encontram-se as coordenadas do centro de cada vila):</p><ul><li>Solitude (X: 140,Y: 200, Z: 456)</li><li>Kakariko (X: 0, Y: 64, Z: 10)</li><li>Hogsmeade (X: 34, Y: 110, Z: 220)</li></ul><p>Steve está interessado em obter diferentes recursos, porém, para organizar melhor suas tarefas, ele quer que cada tipo de recurso seja gerenciado em uma vila diferente. Ele precisa ter uma fazenda para criação de animais, uma plantação e também uma base de mineração, todos em vilas diferentes.</p><p>Visando maximizar o rendimento de suas atividades, ele precisa decidir qual vila escolher para gerenciar cada tipo de recurso. Considerando que ele precisa escolher a vila mais próxima para a fazenda, a segunda mais próxima para a plantação e a mais distante para a base de mineração.</p><p><br/></p><p>Sua tarefa é fazer um programa que ajude Steve a descobrir qual a vila utilizar para cada recurso, considerando suas distâncias.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><blockquote><p><b>X Y Z</b></p></blockquote><ul><li><span style="text-align: left;">X - número inteiro</span></li><li><span style="text-align: left;">Y - número natural</span></li><li><span style="text-align: left;">Z - número inteiro</span></li></ul><p><br/></p><p>A linha única da entrada é composta por uma tripla de números inteiros X, Y e Z, separados por espaço, que indica a coordenada atual de Steve.</p><p><br/></p><p>obs: Você deve considerar que a entrada é amigável, ou seja, sempre estará dentro do formato descrito.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><blockquote><p><b>V1 V2 V3</b></p></blockquote><ul><li>V1 - string</li><li>V2 - string</li><li>V3 - string</li></ul><p><br/></p><p>A linha única da saída deve conter os nomes das vilas (apenas a inicial em maiúsculo), separadas por espaço, na ordem em que devem ser escolhidas para ser fazenda, plantação e base de mineração, respectivamente.</p><p><br/></p><p>obs: </p><ul><li>Em casos de distâncias iguais, você deve priorizar na seguinte ordem: Solitude -&gt; Kakariko -&gt; Hogsmeade;</li><li>Não deve haver espaço ao final da linha.</li></ul></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question1127/inputs/in0.txt;../app/questions/question1127/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question1127/inputs/in1.txt;../app/questions/question1127/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question1127/inputs/in2.txt;../app/questions/question1127/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question1127/inputs/in3.txt;../app/questions/question1127/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question1127/inputs/in4.txt;../app/questions/question1127/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question1127/inputs/in5.txt;../app/questions/question1127/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question1127/inputs/in6.txt;../app/questions/question1127/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question1127/inputs/in7.txt;../app/questions/question1127/outputs/out7.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question1127/inputs/in8.txt;../app/questions/question1127/outputs/out8.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question1127/inputs/in9.txt;../app/questions/question1127/outputs/out9.txt">
+            Exemplo 10
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

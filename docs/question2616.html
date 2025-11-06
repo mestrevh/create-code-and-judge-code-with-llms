@@ -7,31 +7,154 @@
     <title>Questão 2616 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2616</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2616</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: HUDP
-Topicos do problema: multiplas entradas; eof; entrada formatada; array bidimensional; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Heitorado estava frustrado porque sua questão de strings nao saiu como esperado, e o chefe da monitoria de IP lançou a lista sem ela.</p><p>Heitorado achou melhor deixar para lá, criar vergonha na cara e estudar Infraestrutura de Comunicação, porque a prova estava chegando. Enquanto lia o imenso livro do Kurose e navegava nas nuances de protocolos da camada de transporte, ele achou o protocolo UDP <b>balela</b> - era simples demais, qualquer uso dele precisaria de uma implementação extra de funcionalidades.</p><p>Ele teve então uma ideia para um novo protocolo - o <b>HUDP</b> - que usaria a confirmação de recebimento do <a href="https://pt.wikipedia.org/wiki/Transmission_Control_Protocol">TCP</a> mas permitiria múltiplas conexões e confiabilidade baixa, assim como o <a href="https://pt.wikipedia.org/wiki/User_Datagram_Protocol">UDP</a>. Ele iria disparar pacotes de dados em massa e depois de uma rotina arbitrária de abertura e fechamento de conexões, envios e confirmações de recebimento, verificaria quantos pacotes falharam, para reenviar tudo de uma vez até que todos eventualmente sejam recebidos por coerção.<br/><br/>Como ele tem que estudar pra prova de Infraestrutura de Comunicação, ele só teve tempo de gerar alguns logs de experimentos feitos com o protocolo. Mas a ciência não espera ninguém.<br/><br/>Agora, ele precisa de ajuda pra analisar os dados e validar a eficácia da sua ideia. A sorte é que os alunos de IP acabaram de aprender matrizes e estão com muito tempo livre.</p>
-Formato da entrada: <p>O log consiste em vários comandos do protocolo HUDP, sendo eles:</p><p><br/></p><code>hudpOpen(&#34;p1:p2&#34;)<br/></code><p>Abre uma conexão entre a porta <code>p1</code> do computador de origem com a porta <code>p2</code> do computador destino. O comando hudpOpen é idempotente.</p><p><br/></p><code>hudpClose(&#34;p1:p2&#34;)</code><p>Fecha uma conexão entre a porta <code>p1</code> do computador de origem com a porta <code>p2</code> do computador destino. Existe um bug nessa versão do <i>HUDP</i> onde ele tenta fechar conexões que não foram abertas. Deve-se desconsiderar essas entradas no log.</p><p><br/></p><code>hudpSend(&#34;p1:p2&#34;, msg)</code><p>Envia um pacote <code>msg</code>, que pode ser de qualquer tipo <code>(int, float, string, char...)</code>, através da porta <code>p1</code> do computador de origem para a porta <code>p2</code> do computador destino. A conexão deve ter sido aberta antes para que o pacote seja enviado.</p><p><br/></p><code>ack(&#34;p2:p1&#34;, msg)</code><p> Indica confirmação do recebimento do pacote <code>msg</code> na porta <code>p2</code> do receptor vindo da porta do emissor <code>p1</code>. ACK's vindos após o encerramento da conexão não são recebidos.</p><p><br/></p><code>3000 &lt;= p1 &lt;= p2 &lt;= 8000<br/></code>
-Formato da saída: <p>Para analisar os dados, Heitorado precisa, ara cada conexão HUDP que foi aberta, uma linha no formato:</p><code>&#34;p1:p2&#34; : x ok : y loss</code><p><br/></p><p><b>Onde:</b></p><p> <code>&#34;p1:p2&#34;</code> - Indica uma conexão HUDP aberta em algum momento entre a porta p1 do emissor e p2 do receptor;</p><p><code>x</code> - Indica a quantia de mensagens enviadas pelo emissor que foram ACKeadas;</p><p><code>y</code> - Indica a quantidade de mensagens enviadas pelo emissor em estado incerto (não foi recebido ack para aquela mensagem);<br/></p><p><br/></p><p>A ordem de impressão das linhas é definida pelas portas: Ordenar primeiro pela porta de origem e depois pela porta de destino<br/></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">multiplas entradas</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">eof</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">entrada formatada</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>HUDP</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Heitorado estava frustrado porque sua questão de strings nao saiu como esperado, e o chefe da monitoria de IP lançou a lista sem ela.</p><p>Heitorado achou melhor deixar para lá, criar vergonha na cara e estudar Infraestrutura de Comunicação, porque a prova estava chegando. Enquanto lia o imenso livro do Kurose e navegava nas nuances de protocolos da camada de transporte, ele achou o protocolo UDP <b>balela</b> - era simples demais, qualquer uso dele precisaria de uma implementação extra de funcionalidades.</p><p>Ele teve então uma ideia para um novo protocolo - o <b>HUDP</b> - que usaria a confirmação de recebimento do <a href="https://pt.wikipedia.org/wiki/Transmission_Control_Protocol">TCP</a> mas permitiria múltiplas conexões e confiabilidade baixa, assim como o <a href="https://pt.wikipedia.org/wiki/User_Datagram_Protocol">UDP</a>. Ele iria disparar pacotes de dados em massa e depois de uma rotina arbitrária de abertura e fechamento de conexões, envios e confirmações de recebimento, verificaria quantos pacotes falharam, para reenviar tudo de uma vez até que todos eventualmente sejam recebidos por coerção.<br/><br/>Como ele tem que estudar pra prova de Infraestrutura de Comunicação, ele só teve tempo de gerar alguns logs de experimentos feitos com o protocolo. Mas a ciência não espera ninguém.<br/><br/>Agora, ele precisa de ajuda pra analisar os dados e validar a eficácia da sua ideia. A sorte é que os alunos de IP acabaram de aprender matrizes e estão com muito tempo livre.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>O log consiste em vários comandos do protocolo HUDP, sendo eles:</p><p><br/></p><code>hudpOpen(&#34;p1:p2&#34;)<br/></code><p>Abre uma conexão entre a porta <code>p1</code> do computador de origem com a porta <code>p2</code> do computador destino. O comando hudpOpen é idempotente.</p><p><br/></p><code>hudpClose(&#34;p1:p2&#34;)</code><p>Fecha uma conexão entre a porta <code>p1</code> do computador de origem com a porta <code>p2</code> do computador destino. Existe um bug nessa versão do <i>HUDP</i> onde ele tenta fechar conexões que não foram abertas. Deve-se desconsiderar essas entradas no log.</p><p><br/></p><code>hudpSend(&#34;p1:p2&#34;, msg)</code><p>Envia um pacote <code>msg</code>, que pode ser de qualquer tipo <code>(int, float, string, char...)</code>, através da porta <code>p1</code> do computador de origem para a porta <code>p2</code> do computador destino. A conexão deve ter sido aberta antes para que o pacote seja enviado.</p><p><br/></p><code>ack(&#34;p2:p1&#34;, msg)</code><p> Indica confirmação do recebimento do pacote <code>msg</code> na porta <code>p2</code> do receptor vindo da porta do emissor <code>p1</code>. ACK's vindos após o encerramento da conexão não são recebidos.</p><p><br/></p><code>3000 &lt;= p1 &lt;= p2 &lt;= 8000<br/></code></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para analisar os dados, Heitorado precisa, ara cada conexão HUDP que foi aberta, uma linha no formato:</p><code>&#34;p1:p2&#34; : x ok : y loss</code><p><br/></p><p><b>Onde:</b></p><p> <code>&#34;p1:p2&#34;</code> - Indica uma conexão HUDP aberta em algum momento entre a porta p1 do emissor e p2 do receptor;</p><p><code>x</code> - Indica a quantia de mensagens enviadas pelo emissor que foram ACKeadas;</p><p><code>y</code> - Indica a quantidade de mensagens enviadas pelo emissor em estado incerto (não foi recebido ack para aquela mensagem);<br/></p><p><br/></p><p>A ordem de impressão das linhas é definida pelas portas: Ordenar primeiro pela porta de origem e depois pela porta de destino<br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2616/inputs/in0.txt;../app/questions/question2616/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

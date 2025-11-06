@@ -7,31 +7,166 @@
     <title>Questão 2222 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2222</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2222</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Pegue-a se Puder
-Topicos do problema: decisão; função; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Mário e Luigi estão bem próximos da fortaleza do Bowser. Mas antes de entrar, como sinal de afronta, eles querem realizar um salto para retirar a bandeira do Bowser de um mastro que fica a frente da fortaleza. Como Luigi sabe que isso é uma coisa muito importante a se fazer, ele resolve tentar calcular até que altura máxima seu irmão pode chegar.</p><p style="text-align: center;"><br/></p><p style="text-align: center;"><img src="http://24.media.tumblr.com/tumblr_lxpbw6bcXp1qg05quo1_500.gif" alt="Resultado de imagem para gifs mario bros"/><br/></p><p style="text-align: center;"><br/></p><p style="text-align: left;">A altura do pulo do Mário depende de sua Altura , do seu Impulso, da Distância entre ele e o mastro, do Peso e se ele vai escolher montar no Yoshi ou não. Sua missão é:</p><p style="text-align: left;"><span>Dado essas informações, desenvolva um programa que ajude o Luigi a descobrir se seu irmão conseguirá alcançar a bandeira que está a 100m do chão.</span></p><p style="text-align: left;"><span><br/></span></p><p style="text-align: left;"><span>A altura do salto é calculada pela função:</span></p><p style="text-align: center;"><span><img src="http://www.editordetextos.com.br/scripts/mimetex.cgi?(Impulso)^{3}/%20(sqrt{Altura%20Mario}%20+%20Distancia/2%20+%20Peso/3)"/>​​​​​​​&#13;&#13;<br/></span></p><p style="text-align: left;">Se ele escolher montar no Yoshi, seu peso é acrescentado em 50 e seu impulso aumenta em 5.</p>
-Formato da entrada: <p>As Entradas serão inseridas nessa ordem:</p><blockquote><h1><b style="color: inherit;">I</b><br/></h1></blockquote><div><div><ul><li><b>I - </b>número natural</li></ul><p>I é a medida do Impulso que será dado no salto.</p><blockquote><h1><b>A</b></h1></blockquote><div><ul><li><b>A - </b>número racional</li></ul><p>A é altura de Mário. Isso porque sabemos que quanto menor ele estiver, mais alto ele pula.</p></div><blockquote><h1><b>D</b></h1></blockquote></div><div><ul><li><b>D</b> - número natural</li></ul><p>D é a Distância do Mário ao Mastro.</p><blockquote><h1><b>P</b></h1></blockquote><div><ul><li><b>P </b><span>- número natural</span><br/></li></ul><p>P é o peso de Mário.</p><blockquote><h1 style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>S</b></h1></blockquote><div style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><ul><li><b>S</b> - String </li></ul><p>S será &#34;Sim&#34; se Mário for montar no Yoshi e &#34;Nao&#34; se não for.</p></div></div></div></div>
-Formato da saída: <blockquote><h1><b>R</b></h1></blockquote><div><ul><li><b>R </b>- String</li></ul><p>R será <b>&#34;Voce consegue&#34;</b> se Mário conseguir pegar a bandeira e <b>&#34;Isso e perda de tempo&#34;</b> se não conseguir.</p></div>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">função</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Pegue-a se Puder</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Mário e Luigi estão bem próximos da fortaleza do Bowser. Mas antes de entrar, como sinal de afronta, eles querem realizar um salto para retirar a bandeira do Bowser de um mastro que fica a frente da fortaleza. Como Luigi sabe que isso é uma coisa muito importante a se fazer, ele resolve tentar calcular até que altura máxima seu irmão pode chegar.</p><p style="text-align: center;"><br/></p><p style="text-align: center;"><img src="http://24.media.tumblr.com/tumblr_lxpbw6bcXp1qg05quo1_500.gif" alt="Resultado de imagem para gifs mario bros"/><br/></p><p style="text-align: center;"><br/></p><p style="text-align: left;">A altura do pulo do Mário depende de sua Altura , do seu Impulso, da Distância entre ele e o mastro, do Peso e se ele vai escolher montar no Yoshi ou não. Sua missão é:</p><p style="text-align: left;"><span>Dado essas informações, desenvolva um programa que ajude o Luigi a descobrir se seu irmão conseguirá alcançar a bandeira que está a 100m do chão.</span></p><p style="text-align: left;"><span><br/></span></p><p style="text-align: left;"><span>A altura do salto é calculada pela função:</span></p><p style="text-align: center;"><span><img src="http://www.editordetextos.com.br/scripts/mimetex.cgi?(Impulso)^{3}/%20(sqrt{Altura%20Mario}%20+%20Distancia/2%20+%20Peso/3)"/>​​​​​​​&#13;&#13;<br/></span></p><p style="text-align: left;">Se ele escolher montar no Yoshi, seu peso é acrescentado em 50 e seu impulso aumenta em 5.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>As Entradas serão inseridas nessa ordem:</p><blockquote><h1><b style="color: inherit;">I</b><br/></h1></blockquote><div><div><ul><li><b>I - </b>número natural</li></ul><p>I é a medida do Impulso que será dado no salto.</p><blockquote><h1><b>A</b></h1></blockquote><div><ul><li><b>A - </b>número racional</li></ul><p>A é altura de Mário. Isso porque sabemos que quanto menor ele estiver, mais alto ele pula.</p></div><blockquote><h1><b>D</b></h1></blockquote></div><div><ul><li><b>D</b> - número natural</li></ul><p>D é a Distância do Mário ao Mastro.</p><blockquote><h1><b>P</b></h1></blockquote><div><ul><li><b>P </b><span>- número natural</span><br/></li></ul><p>P é o peso de Mário.</p><blockquote><h1 style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>S</b></h1></blockquote><div style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><ul><li><b>S</b> - String </li></ul><p>S será &#34;Sim&#34; se Mário for montar no Yoshi e &#34;Nao&#34; se não for.</p></div></div></div></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><blockquote><h1><b>R</b></h1></blockquote><div><ul><li><b>R </b>- String</li></ul><p>R será <b>&#34;Voce consegue&#34;</b> se Mário conseguir pegar a bandeira e <b>&#34;Isso e perda de tempo&#34;</b> se não conseguir.</p></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2222/inputs/in0.txt;../app/questions/question2222/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2222/inputs/in1.txt;../app/questions/question2222/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2222/inputs/in2.txt;../app/questions/question2222/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2222/inputs/in3.txt;../app/questions/question2222/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

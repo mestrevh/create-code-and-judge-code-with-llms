@@ -7,31 +7,170 @@
     <title>Questão 1050 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1050</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 1050</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Contração de arestas
-Topicos do problema: grafo; 
-Tempo limite de execução: 2 segundo(s)
-Descrição: <p style="color: rgb(36, 41, 46);">Grafos são estruturas multifuncionais e que permitem diversas operações entre seus vértices e arestas. Uma dessas operações é a contração de arestas, na qual uma dada aresta é contraída, unindo os dois vértices que eram ligados por ela em um só, que recebe todas as arestas ligadas aos vértices que existiam anteriormente. Mais formalmente, se uma aresta<span class="Apple-converted-space"> </span><em>e=(A,B)</em><span class="Apple-converted-space"> </span>que liga os vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>é contraída, então os vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>são unidos e passam a ser identificados por um novo vértice<span class="Apple-converted-space"> </span><em>C</em><span class="Apple-converted-space"> </span>no novo grafo, a aresta<span class="Apple-converted-space"> </span><em>e</em><span class="Apple-converted-space"> </span>é removida do novo grafo e todas as arestas que ligavam um vértice<span class="Apple-converted-space"> </span><em>W</em><span class="Apple-converted-space"> </span>a<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>ou<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>no grafo original são substituídas por arestas que ligam<span class="Apple-converted-space"> </span><em>W</em><span class="Apple-converted-space"> </span>a<span class="Apple-converted-space"> </span><em>C</em><span class="Apple-converted-space"> </span>no novo grafo.</p><h3 id="exemplo-de-contra-o-" style="color: rgb(36, 41, 46);"><a class="anchor" href="#exemplo-de-contra-o-" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a>Exemplo de contração:</h3><p style="color: rgb(36, 41, 46);"><img src="http://people.math.sc.edu/cooper/contraction.gif"/><br/></p><p style="background-color: rgb(255, 255, 255);color: rgb(36, 41, 46);">(<a href="http://people.math.sc.edu/cooper/contraction.gif" style="background-color: transparent;color: rgb(3, 102, 214);">http://people.math.sc.edu/cooper/contraction.gif</a>) </p><p style="color: rgb(36, 41, 46);">Neste exemplo, os vértices ligados pela aresta contraída do grafo à esquerda correspondem ao vértice destacado em vermelho no grafo à direita.</p><p style="color: rgb(36, 41, 46);">Outra operação comum a realizar em grafos é encontrar a menor distância entre dois vértices, que se dá contando o menor número de arestas necessárias para se chegar de um vértice ao outro no grafo dado.</p><h1 id="formato-de-entrada" style="color: rgb(36, 41, 46);"><a class="anchor" href="#formato-de-entrada" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a></h1>
-Formato da entrada: <p style="color: rgb(36, 41, 46);">A primeira linha da entrada contém dois inteiros</p><p style="color: rgb(36, 41, 46);"><em>N M</em></p><p style="color: rgb(36, 41, 46);">indicando a quantidade de vértices e arestas que existirão no grafo<span class="Apple-converted-space"> </span><em>G</em>, respectivamente.</p><p style="color: rgb(36, 41, 46);">As<span class="Apple-converted-space"> </span><em>M</em><span class="Apple-converted-space"> </span>linhas seguintes indicam quais são as arestas existentes no grafo no formato</p><p style="color: rgb(36, 41, 46);"><em>A B</em></p><p style="color: rgb(36, 41, 46);">indicando que existe uma aresta entre os vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>(0 &lt;=<span class="Apple-converted-space"> </span><em>A</em>,<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>&lt;<span class="Apple-converted-space"> </span><em>N</em>). A linha seguinte contem um inteiro</p><p style="color: rgb(36, 41, 46);"><em>O</em></p><p style="color: rgb(36, 41, 46);">indicando o número de operações a serem realizadas sobre o grafo inicial<span class="Apple-converted-space"> </span><em>G</em><span class="Apple-converted-space"> </span>descrito anteriormente. Cada uma das<span class="Apple-converted-space"> </span><em>O</em><span class="Apple-converted-space"> </span>linhas que seguem contém exatamente uma operação de um dos dois tipos definidos acima, uma contração de aresta ou uma consulta de distância entre dois vértices. Uma contração de aresta tem o formato</p><p style="color: rgb(36, 41, 46);"><em>c A B</em></p><p style="color: rgb(36, 41, 46);">em que<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>são inteiros indicando que a aresta a ser contraída é a aresta correspondente no grafo atual à aresta que ligava os vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>no grafo<span class="Apple-converted-space"> </span><em>G</em><span class="Apple-converted-space"> </span>inicial.</p><p style="color: rgb(36, 41, 46);">Uma consulta de distância tem o formato</p><p style="color: rgb(36, 41, 46);"><em>d A B</em></p><p style="color: rgb(36, 41, 46);">em que<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>são inteiros indicando dois vértices do grafo<span class="Apple-converted-space"> </span><em>G</em><span class="Apple-converted-space"> </span>inicial.</p><h4 id="observa-o-" style="color: rgb(36, 41, 46);"><a class="anchor" href="#observa-o-" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a>Observação:</h4><p style="color: rgb(36, 41, 46);">Para a operação de contração indicada por<span class="Apple-converted-space"> </span><em>c A B</em>, é garantido que a aresta a ser contraída existe no grafo G e que essa aresta não foi contraída antes. Para a operação de distância indicada por<span class="Apple-converted-space"> </span><em>d A B</em>, a distância que se deseja medir é a distância no grafo<span class="Apple-converted-space"> </span><strong>atual</strong><span class="Apple-converted-space"> </span>(ou seja, que leva em consideração todas as contrações anteriores a esta operação) entre os vértices do grafo atual que correspondem aos vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>do grafo inicial<span class="Apple-converted-space"> </span><em>G</em>. Nos dois tipos de operações, os vértices indicados por<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>podem ser iguais, e o grafo inicial pode conter laços/loops. A contração de um laço/loop (aresta que liga um vértice a ele próprio) equivale a simplesmente deletar essa aresta.</p><h4 id="limites-" style="color: rgb(36, 41, 46);"><a class="anchor" href="#limites-" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a>Limites:</h4><p style="color: rgb(36, 41, 46);">0 &lt;<span class="Apple-converted-space"> </span><em>M</em><span class="Apple-converted-space"> </span>&lt;= 10⁴; 0 &lt;<span class="Apple-converted-space"> </span><em>N</em><span class="Apple-converted-space"> </span>&lt;= 10⁴; 0 &lt;<span class="Apple-converted-space"> </span><em>O</em><span class="Apple-converted-space"> </span>&lt;= 10⁵</p><h1 id="formato-de-sa-da" style="color: rgb(36, 41, 46);"><a class="anchor" href="#formato-de-sa-da" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a></h1>
-Formato da saída: <p>Para cada operação do tipo <em style="color: rgb(36, 41, 46);background-color: rgb(255, 255, 255);">d</em> (distância), deve ser impressa uma linha contendo a menor distância entre os vértices especificados. Caso não haja caminho entre os vértices, imprima uma linha com -1. Para cada operação do tipo <em style="color: rgb(36, 41, 46);background-color: rgb(255, 255, 255);">c</em> (contração), deve ser impressa uma linha contendo o número de vértices no grafo.</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">grafo</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Contração de arestas</h2>
+<p><strong>Tempo limite:</strong> 2 segundo(s)</p>
+<p style="color: rgb(36, 41, 46);">Grafos são estruturas multifuncionais e que permitem diversas operações entre seus vértices e arestas. Uma dessas operações é a contração de arestas, na qual uma dada aresta é contraída, unindo os dois vértices que eram ligados por ela em um só, que recebe todas as arestas ligadas aos vértices que existiam anteriormente. Mais formalmente, se uma aresta<span class="Apple-converted-space"> </span><em>e=(A,B)</em><span class="Apple-converted-space"> </span>que liga os vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>é contraída, então os vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>são unidos e passam a ser identificados por um novo vértice<span class="Apple-converted-space"> </span><em>C</em><span class="Apple-converted-space"> </span>no novo grafo, a aresta<span class="Apple-converted-space"> </span><em>e</em><span class="Apple-converted-space"> </span>é removida do novo grafo e todas as arestas que ligavam um vértice<span class="Apple-converted-space"> </span><em>W</em><span class="Apple-converted-space"> </span>a<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>ou<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>no grafo original são substituídas por arestas que ligam<span class="Apple-converted-space"> </span><em>W</em><span class="Apple-converted-space"> </span>a<span class="Apple-converted-space"> </span><em>C</em><span class="Apple-converted-space"> </span>no novo grafo.</p><h3 id="exemplo-de-contra-o-" style="color: rgb(36, 41, 46);"><a class="anchor" href="#exemplo-de-contra-o-" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a>Exemplo de contração:</h3><p style="color: rgb(36, 41, 46);"><img src="http://people.math.sc.edu/cooper/contraction.gif"/><br/></p><p style="background-color: rgb(255, 255, 255);color: rgb(36, 41, 46);">(<a href="http://people.math.sc.edu/cooper/contraction.gif" style="background-color: transparent;color: rgb(3, 102, 214);">http://people.math.sc.edu/cooper/contraction.gif</a>) </p><p style="color: rgb(36, 41, 46);">Neste exemplo, os vértices ligados pela aresta contraída do grafo à esquerda correspondem ao vértice destacado em vermelho no grafo à direita.</p><p style="color: rgb(36, 41, 46);">Outra operação comum a realizar em grafos é encontrar a menor distância entre dois vértices, que se dá contando o menor número de arestas necessárias para se chegar de um vértice ao outro no grafo dado.</p><h1 id="formato-de-entrada" style="color: rgb(36, 41, 46);"><a class="anchor" href="#formato-de-entrada" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a></h1></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(36, 41, 46);">A primeira linha da entrada contém dois inteiros</p><p style="color: rgb(36, 41, 46);"><em>N M</em></p><p style="color: rgb(36, 41, 46);">indicando a quantidade de vértices e arestas que existirão no grafo<span class="Apple-converted-space"> </span><em>G</em>, respectivamente.</p><p style="color: rgb(36, 41, 46);">As<span class="Apple-converted-space"> </span><em>M</em><span class="Apple-converted-space"> </span>linhas seguintes indicam quais são as arestas existentes no grafo no formato</p><p style="color: rgb(36, 41, 46);"><em>A B</em></p><p style="color: rgb(36, 41, 46);">indicando que existe uma aresta entre os vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>(0 &lt;=<span class="Apple-converted-space"> </span><em>A</em>,<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>&lt;<span class="Apple-converted-space"> </span><em>N</em>). A linha seguinte contem um inteiro</p><p style="color: rgb(36, 41, 46);"><em>O</em></p><p style="color: rgb(36, 41, 46);">indicando o número de operações a serem realizadas sobre o grafo inicial<span class="Apple-converted-space"> </span><em>G</em><span class="Apple-converted-space"> </span>descrito anteriormente. Cada uma das<span class="Apple-converted-space"> </span><em>O</em><span class="Apple-converted-space"> </span>linhas que seguem contém exatamente uma operação de um dos dois tipos definidos acima, uma contração de aresta ou uma consulta de distância entre dois vértices. Uma contração de aresta tem o formato</p><p style="color: rgb(36, 41, 46);"><em>c A B</em></p><p style="color: rgb(36, 41, 46);">em que<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>são inteiros indicando que a aresta a ser contraída é a aresta correspondente no grafo atual à aresta que ligava os vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>no grafo<span class="Apple-converted-space"> </span><em>G</em><span class="Apple-converted-space"> </span>inicial.</p><p style="color: rgb(36, 41, 46);">Uma consulta de distância tem o formato</p><p style="color: rgb(36, 41, 46);"><em>d A B</em></p><p style="color: rgb(36, 41, 46);">em que<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>são inteiros indicando dois vértices do grafo<span class="Apple-converted-space"> </span><em>G</em><span class="Apple-converted-space"> </span>inicial.</p><h4 id="observa-o-" style="color: rgb(36, 41, 46);"><a class="anchor" href="#observa-o-" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a>Observação:</h4><p style="color: rgb(36, 41, 46);">Para a operação de contração indicada por<span class="Apple-converted-space"> </span><em>c A B</em>, é garantido que a aresta a ser contraída existe no grafo G e que essa aresta não foi contraída antes. Para a operação de distância indicada por<span class="Apple-converted-space"> </span><em>d A B</em>, a distância que se deseja medir é a distância no grafo<span class="Apple-converted-space"> </span><strong>atual</strong><span class="Apple-converted-space"> </span>(ou seja, que leva em consideração todas as contrações anteriores a esta operação) entre os vértices do grafo atual que correspondem aos vértices<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>do grafo inicial<span class="Apple-converted-space"> </span><em>G</em>. Nos dois tipos de operações, os vértices indicados por<span class="Apple-converted-space"> </span><em>A</em><span class="Apple-converted-space"> </span>e<span class="Apple-converted-space"> </span><em>B</em><span class="Apple-converted-space"> </span>podem ser iguais, e o grafo inicial pode conter laços/loops. A contração de um laço/loop (aresta que liga um vértice a ele próprio) equivale a simplesmente deletar essa aresta.</p><h4 id="limites-" style="color: rgb(36, 41, 46);"><a class="anchor" href="#limites-" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a>Limites:</h4><p style="color: rgb(36, 41, 46);">0 &lt;<span class="Apple-converted-space"> </span><em>M</em><span class="Apple-converted-space"> </span>&lt;= 10⁴; 0 &lt;<span class="Apple-converted-space"> </span><em>N</em><span class="Apple-converted-space"> </span>&lt;= 10⁴; 0 &lt;<span class="Apple-converted-space"> </span><em>O</em><span class="Apple-converted-space"> </span>&lt;= 10⁵</p><h1 id="formato-de-sa-da" style="color: rgb(36, 41, 46);"><a class="anchor" href="#formato-de-sa-da" style="background-color: transparent;color: rgb(3, 102, 214);float: left;"><span class="octicon octicon-link" style="color: rgb(27, 31, 35);"></span></a></h1></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada operação do tipo <em style="color: rgb(36, 41, 46);background-color: rgb(255, 255, 255);">d</em> (distância), deve ser impressa uma linha contendo a menor distância entre os vértices especificados. Caso não haja caminho entre os vértices, imprima uma linha com -1. Para cada operação do tipo <em style="color: rgb(36, 41, 46);background-color: rgb(255, 255, 255);">c</em> (contração), deve ser impressa uma linha contendo o número de vértices no grafo.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question1050/inputs/in0.txt;../app/questions/question1050/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question1050/inputs/in1.txt;../app/questions/question1050/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question1050/inputs/in2.txt;../app/questions/question1050/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question1050/inputs/in3.txt;../app/questions/question1050/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question1050/inputs/in4.txt;../app/questions/question1050/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -7,37 +7,192 @@
     <title>Questão 228 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 228</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 228</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Movendo Blocos
-Topicos do problema: array; entrada formatada; pilha; função; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p> Muitas áreas da Ciência da Computação usam simples domínios abstratos para estudos<br/>analíticos e empíricos. Por exemplo, um estudo de IA(inteligência artificial) recente de<br/>planejamento e robótica usa um conjunto de blocos onde os braços de um robô realizam<br/>tarefas envolvendo manipulação de blocos.</p>&#13;<p> Neste problema você vai modelar um simples conjunto de blocos sob certas restrições.<br/>Em vez de determinar como chegar em uma situação específica, você vai &#34;programar&#34;<br/>braços robóticos para responder a um conjunto limitado de comandos.</p>&#13;<p> O problema é analisar uma série de comandos que instruem o braço robótico como<br/>manipular blocos que estão sobre uma mesa plana. Inicialmente há n blocos na<br/>mesa(numerados de 0 a n-1) com o bloco  <em>b</em><sub><em>i</em></sub> adjacente ao bloco <em>b</em><sub><em>i</em>+1</sub> para todo<br/>i maior ou igual a zero e menor que n-1, como mostrado na figura abaixo:</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/c5596427a5c63f4be4625c81e148f9ff.jpg" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/c5596427a5c63f4be4625c81e148f9ff.jpg" border="0" width="412" height="72"/></a></p><p><br/></p>&#13;<p> Os comandos(strings) válidos para os braços robóticos manipularem os blocos são:</p>&#13;<ul>&#13;<li> mover <em>a</em> sobre <em>b</em></li>&#13;</ul>&#13;<p>           Onde a e b são números(inteiros) de blocos, colocar o bloco a em cima do bloco b<br/>           após ter retornado todos os blocos acima de a e b para suas posições iniciais.</p>&#13;<ul>&#13;<li> mover <em>a</em> acima <em>b</em></li>&#13;</ul>&#13;<p>           Onde <em>a</em> e <em>b</em> são números de blocos, colocar o bloco <em>a</em> no topo da pilha contendo <em>b</em>,<br/>           após ter retornado todos os blocos que estão acima de <em>a</em> para suas posições iniciais</p>&#13;<ul>&#13;<li> pilha <em>a</em> sobre <em>b</em></li>&#13;</ul>&#13;<p><em>           </em>Onde <em>a</em> e <em>b</em> são números de blocos, mover a pilha de blocos formada por <em>a</em> e todos<br/>           os blocos acima de <em>a</em>, em cima de b, isso, após ter retornado todos os blocos acima<br/>           de <em>b</em> para suas posições iniciais. A pilha formada por <em>a</em> e seus blocos superiores é<br/>           colocada em cima de <em>b</em> de modo que fique na mesma ordem anterior.</p>&#13;<ul>&#13;<li>pilha <em>a</em> acima <em>b</em></li>&#13;</ul>&#13;<p>          Onde <em>a</em> e <em>b</em> são números de blocos, colocar a pilha formada pelo bloco <em>a</em> e blocos<br/>          acima de <em>a</em>, no topo da pilha contendo o bloco <em>b</em>. A pilha formada por <em>a</em> não perde<br/>          a sua ordem anterior.</p>&#13;<ul>&#13;<li>final</li>&#13;</ul>&#13;<p>           Finaliza a manipulação do conjunto de blocos.</p>&#13;<p> Qualquer comando em que a = b ou em que a e b são da mesma pilha de blocos são<br/>considerados comandos ilegais. Um comando ilegal deve ser ignorado e não deve alterar<br/>a configuração do bloco.</p>
-Formato da entrada: <p>A entrada come&ccedil;a com um inteiro n em uma linha representando o n&uacute;mero de blocos no<br />conjunto. Voc&ecirc; pode assumir que 0 &lt; n &lt; 25.</p>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">entrada formatada</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">pilha</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">função</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Movendo Blocos</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p> Muitas áreas da Ciência da Computação usam simples domínios abstratos para estudos<br/>analíticos e empíricos. Por exemplo, um estudo de IA(inteligência artificial) recente de<br/>planejamento e robótica usa um conjunto de blocos onde os braços de um robô realizam<br/>tarefas envolvendo manipulação de blocos.</p>&#13;<p> Neste problema você vai modelar um simples conjunto de blocos sob certas restrições.<br/>Em vez de determinar como chegar em uma situação específica, você vai &#34;programar&#34;<br/>braços robóticos para responder a um conjunto limitado de comandos.</p>&#13;<p> O problema é analisar uma série de comandos que instruem o braço robótico como<br/>manipular blocos que estão sobre uma mesa plana. Inicialmente há n blocos na<br/>mesa(numerados de 0 a n-1) com o bloco  <em>b</em><sub><em>i</em></sub> adjacente ao bloco <em>b</em><sub><em>i</em>+1</sub> para todo<br/>i maior ou igual a zero e menor que n-1, como mostrado na figura abaixo:</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/c5596427a5c63f4be4625c81e148f9ff.jpg" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/c5596427a5c63f4be4625c81e148f9ff.jpg" border="0" width="412" height="72"/></a></p><p><br/></p>&#13;<p> Os comandos(strings) válidos para os braços robóticos manipularem os blocos são:</p>&#13;<ul>&#13;<li> mover <em>a</em> sobre <em>b</em></li>&#13;</ul>&#13;<p>           Onde a e b são números(inteiros) de blocos, colocar o bloco a em cima do bloco b<br/>           após ter retornado todos os blocos acima de a e b para suas posições iniciais.</p>&#13;<ul>&#13;<li> mover <em>a</em> acima <em>b</em></li>&#13;</ul>&#13;<p>           Onde <em>a</em> e <em>b</em> são números de blocos, colocar o bloco <em>a</em> no topo da pilha contendo <em>b</em>,<br/>           após ter retornado todos os blocos que estão acima de <em>a</em> para suas posições iniciais</p>&#13;<ul>&#13;<li> pilha <em>a</em> sobre <em>b</em></li>&#13;</ul>&#13;<p><em>           </em>Onde <em>a</em> e <em>b</em> são números de blocos, mover a pilha de blocos formada por <em>a</em> e todos<br/>           os blocos acima de <em>a</em>, em cima de b, isso, após ter retornado todos os blocos acima<br/>           de <em>b</em> para suas posições iniciais. A pilha formada por <em>a</em> e seus blocos superiores é<br/>           colocada em cima de <em>b</em> de modo que fique na mesma ordem anterior.</p>&#13;<ul>&#13;<li>pilha <em>a</em> acima <em>b</em></li>&#13;</ul>&#13;<p>          Onde <em>a</em> e <em>b</em> são números de blocos, colocar a pilha formada pelo bloco <em>a</em> e blocos<br/>          acima de <em>a</em>, no topo da pilha contendo o bloco <em>b</em>. A pilha formada por <em>a</em> não perde<br/>          a sua ordem anterior.</p>&#13;<ul>&#13;<li>final</li>&#13;</ul>&#13;<p>           Finaliza a manipulação do conjunto de blocos.</p>&#13;<p> Qualquer comando em que a = b ou em que a e b são da mesma pilha de blocos são<br/>considerados comandos ilegais. Um comando ilegal deve ser ignorado e não deve alterar<br/>a configuração do bloco.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada come&ccedil;a com um inteiro n em uma linha representando o n&uacute;mero de blocos no<br />conjunto. Voc&ecirc; pode assumir que 0 &lt; n &lt; 25.</p>
 
 <p>O n&uacute;mero de blocos &eacute; seguido por uma sequencia de comandos, um por linha.<br />Seu programa deve processar todos os comandos at&eacute; o comando final ser encontrado.</p>
 
-<p>Voc&ecirc; pode assumir que todos os comandos estar&atilde;o na forma especificada acima. N&atilde;o<br />haver&aacute; comandos incorretos sintaticamente.</p>
-Formato da saída: <p>A sa&iacute;da deve imprimir o estado final de cada posi&ccedil;&atilde;o i (0 &lt;= i &lt; n) do conjunto.<br />Inicialmente &eacute; imprimido o n&uacute;mero da posi&ccedil;&atilde;o seguido por um caractere de dois pontos<br />e um de espa&ccedil;om a partir da&iacute; segue uma lista de n&uacute;meros dos blocos empilhados em<br />cada posi&ccedil;&atilde;o, um caractere de espa&ccedil;o &eacute; antecedido em cada n&uacute;mero.</p>
+<p>Voc&ecirc; pode assumir que todos os comandos estar&atilde;o na forma especificada acima. N&atilde;o<br />haver&aacute; comandos incorretos sintaticamente.</p></div>
+            </div>
 
-<p>Deve haver uma linha de sa&iacute;da para cada posi&ccedil;&atilde;o do conjunto( isto &eacute;, n linhas de sa&iacute;da<br />onde n &eacute; o primeiro inteiro da entrada).</p>
-</div> 
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A sa&iacute;da deve imprimir o estado final de cada posi&ccedil;&atilde;o i (0 &lt;= i &lt; n) do conjunto.<br />Inicialmente &eacute; imprimido o n&uacute;mero da posi&ccedil;&atilde;o seguido por um caractere de dois pontos<br />e um de espa&ccedil;om a partir da&iacute; segue uma lista de n&uacute;meros dos blocos empilhados em<br />cada posi&ccedil;&atilde;o, um caractere de espa&ccedil;o &eacute; antecedido em cada n&uacute;mero.</p>
+
+<p>Deve haver uma linha de sa&iacute;da para cada posi&ccedil;&atilde;o do conjunto( isto &eacute;, n linhas de sa&iacute;da<br />onde n &eacute; o primeiro inteiro da entrada).</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question228/inputs/in0.txt;../app/questions/question228/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question228/inputs/in1.txt;../app/questions/question228/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question228/inputs/in2.txt;../app/questions/question228/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question228/inputs/in3.txt;../app/questions/question228/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question228/inputs/in4.txt;../app/questions/question228/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question228/inputs/in5.txt;../app/questions/question228/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question228/inputs/in6.txt;../app/questions/question228/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question228/inputs/in7.txt;../app/questions/question228/outputs/out7.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question228/inputs/in8.txt;../app/questions/question228/outputs/out8.txt">
+            Exemplo 9
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

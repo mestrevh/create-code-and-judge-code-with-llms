@@ -1,0 +1,23 @@
+Estado inicial: 12 | 21 | 13 | 4 | 32 | 8 | 30 | 20
+
+Pivot: 20
+Partition(A,1,8): 12 13 4 8 <= 20 < 21 30 32
+Estado atual de A: 12 | 13 | 4 | 8 | 20 | 21 | 30 | 32
+
+Pivot: 8
+Partition(A,1,4): 4 <= 8 < 12 13
+Estado atual de A: 4 | 8 | 12 | 13 | 20 | 21 | 30 | 32
+
+Pivot: 13
+Partition(A,3,4): 12 <= 13 <
+Estado atual de A: 4 | 8 | 12 | 13 | 20 | 21 | 30 | 32
+
+Pivot: 32
+Partition(A,6,8): 21 30 <= 32 <
+Estado atual de A: 4 | 8 | 12 | 13 | 20 | 21 | 30 | 32
+
+Pivot: 30
+Partition(A,6,7): 21 <= 30 <
+Estado atual de A: 4 | 8 | 12 | 13 | 20 | 21 | 30 | 32
+
+Resultado Final: 4 | 8 | 12 | 13 | 20 | 21 | 30 | 32

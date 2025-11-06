@@ -1,0 +1,8 @@
+7
+and m, m
+add m, 6
+sub n, 8
+add n, m
+sub n, 1
+sub m, 3
+add n, m

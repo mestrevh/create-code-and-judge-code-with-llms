@@ -7,31 +7,154 @@
     <title>Questão 1076 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1076</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 1076</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Justificar
-Topicos do problema: array; string; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <b id="docs-internal-guid-a08a9a79-521b-f8bc-241c-bbd9c190e8e2"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Heitor aprendeu um algoritmo novo para justificar um texto, e quer comparar o desempenho do seu algoritmo comparado com os algoritmos convencionais. Então ele te pediu para implementar o algoritmos simples de justificação de texto.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">O algoritmo convencional funciona da seguinte maneira:</span></p><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Você deve fazer com que cada linha contenha exatamente C colunas;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Para cada linha você deve fazer com que ela tenha o máximo de palavras possível, pulando para a próximo somente quando a linha atual não pode conter a palavra atual;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Para uma linha (com exceção da última) os espaços adicionais devem ser adicionados entre as palavras, nunca no começo ou no final. E estes espaços devem ser igualmente distribuídos, colocando as “sobras” nas posições mais à esquerda.</span><span style="color: #000000;background-color: transparent;"><br class="kix-line-break"/></span><span style="color: #000000;background-color: transparent;">Ex: Se devo distribuir 5 espaços para 3 posições, a primeira e a segunda posição ficam com 2 espaços e a terceira com apenas 1.</span><span style="color: #000000;background-color: transparent;"><br class="kix-line-break"/></span><span style="color: #000000;background-color: transparent;">Se as linhas devem conter 24 colunas, e ela contém as palavras: “Eu”, “amo”, “muito” e “programar”; Temos um caso semelhante ao descrito acima, e resposta seria esta:</span><span style="color: #000000;background-color: transparent;"><br class="kix-line-break"/></span><span style="color: #000000;background-color: transparent;">“Eu  amo  muito programar”</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Deve conter pelo menos um espaço em branco entre palavras na mesma linha, e é garantido que C e as palavras são dados de tal forma que sempre podemos escrever no mínimos duas palavras em cada linha (exceto a última).</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;">A última linha conta somente com as palavras e um espaço entre elas, nada mais.</span></li></ol>
-Formato da entrada: <b id="docs-internal-guid-a08a9a79-521c-5a73-41c1-f98c2528fe57"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Na primeira linha temos P e C ( 1 &lt;= P, C &lt;= 10000), a quantidade de palavras que serão fornecidas e a quantidade de colunas que cada linha deve ter após a justificação.</span></p><span style="color: #000000;background-color: transparent;">Em seguida temos todas as P palavras em uma única linha, separadas por espaço. De forma que para uma palavra Pi, |Pi| &lt;= C / 2 - 1.</span>
-Formato da saída: <b id="docs-internal-guid-a08a9a79-521e-8fb8-f273-7b2b3d8f42b5"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O texto formatado com C colunas(com exceção da última, possivelmente) feitos da maneira descrita acima.</span></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">string</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Justificar</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<b id="docs-internal-guid-a08a9a79-521b-f8bc-241c-bbd9c190e8e2"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Heitor aprendeu um algoritmo novo para justificar um texto, e quer comparar o desempenho do seu algoritmo comparado com os algoritmos convencionais. Então ele te pediu para implementar o algoritmos simples de justificação de texto.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">O algoritmo convencional funciona da seguinte maneira:</span></p><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Você deve fazer com que cada linha contenha exatamente C colunas;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Para cada linha você deve fazer com que ela tenha o máximo de palavras possível, pulando para a próximo somente quando a linha atual não pode conter a palavra atual;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Para uma linha (com exceção da última) os espaços adicionais devem ser adicionados entre as palavras, nunca no começo ou no final. E estes espaços devem ser igualmente distribuídos, colocando as “sobras” nas posições mais à esquerda.</span><span style="color: #000000;background-color: transparent;"><br class="kix-line-break"/></span><span style="color: #000000;background-color: transparent;">Ex: Se devo distribuir 5 espaços para 3 posições, a primeira e a segunda posição ficam com 2 espaços e a terceira com apenas 1.</span><span style="color: #000000;background-color: transparent;"><br class="kix-line-break"/></span><span style="color: #000000;background-color: transparent;">Se as linhas devem conter 24 colunas, e ela contém as palavras: “Eu”, “amo”, “muito” e “programar”; Temos um caso semelhante ao descrito acima, e resposta seria esta:</span><span style="color: #000000;background-color: transparent;"><br class="kix-line-break"/></span><span style="color: #000000;background-color: transparent;">“Eu  amo  muito programar”</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Deve conter pelo menos um espaço em branco entre palavras na mesma linha, e é garantido que C e as palavras são dados de tal forma que sempre podemos escrever no mínimos duas palavras em cada linha (exceto a última).</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><span style="color: #000000;background-color: transparent;">A última linha conta somente com as palavras e um espaço entre elas, nada mais.</span></li></ol></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-a08a9a79-521c-5a73-41c1-f98c2528fe57"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Na primeira linha temos P e C ( 1 &lt;= P, C &lt;= 10000), a quantidade de palavras que serão fornecidas e a quantidade de colunas que cada linha deve ter após a justificação.</span></p><span style="color: #000000;background-color: transparent;">Em seguida temos todas as P palavras em uma única linha, separadas por espaço. De forma que para uma palavra Pi, |Pi| &lt;= C / 2 - 1.</span></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-a08a9a79-521e-8fb8-f273-7b2b3d8f42b5"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O texto formatado com C colunas(com exceção da última, possivelmente) feitos da maneira descrita acima.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question1076/inputs/in0.txt;../app/questions/question1076/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

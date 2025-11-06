@@ -7,31 +7,166 @@
     <title>Questão 3903 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3903</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3903</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Notas das provas
-Topicos do problema: array; ordenação; 
-Tempo limite de execução: 5 segundo(s)
-Descrição: <p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p><div class="description" style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"><p>Rafael está se preparando para o vestibular mas ele não sabe qual é a nota mínima que ele terá que tirar para ser selecionado para o curso de Ciência da Computação, então pediu sua ajuda, já que ele supõe que você já tem experiência com programação. Será dado a você um inteiro<span> </span><strong>N</strong><span> </span>representando a quantidade de notas e um valor<span> </span><strong>K</strong>. Em seguida você terá um conjunto de<span> </span><strong>N</strong><span> </span>notas. Sua tarefa é determinar qual a soma de todas as<span> </span><strong>K</strong>-ésima maiores notas deste conjunto. Este valor irá corresponder a nota que Rafael precisa.</p></div><p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p>
-Formato da entrada: <p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p>A entrada é composta por vários casos de teste e termina com <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">EOF</strong>, na primeira linha da entrada possui dois inteiros <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">N</strong> e <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">K</strong>, <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">N</strong> &lt;= 10⁶,<strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">K</strong> &gt; 0, <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">K </strong>&lt;= <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">N</strong>. Na próxima linhas haverá <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">N</strong> valores representando as nota <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">NI</strong>,<strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">NI</strong> &lt;= 10⁵<p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p>
-Formato da saída: <p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p>A saída será composta por um número representando a nota que Rafael precisa para ser aprovado no vestibular.<p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ordenação</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Notas das provas</h2>
+<p><strong>Tempo limite:</strong> 5 segundo(s)</p>
+<p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p><div class="description" style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"><p>Rafael está se preparando para o vestibular mas ele não sabe qual é a nota mínima que ele terá que tirar para ser selecionado para o curso de Ciência da Computação, então pediu sua ajuda, já que ele supõe que você já tem experiência com programação. Será dado a você um inteiro<span> </span><strong>N</strong><span> </span>representando a quantidade de notas e um valor<span> </span><strong>K</strong>. Em seguida você terá um conjunto de<span> </span><strong>N</strong><span> </span>notas. Sua tarefa é determinar qual a soma de todas as<span> </span><strong>K</strong>-ésima maiores notas deste conjunto. Este valor irá corresponder a nota que Rafael precisa.</p></div><p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p>A entrada é composta por vários casos de teste e termina com <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">EOF</strong>, na primeira linha da entrada possui dois inteiros <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">N</strong> e <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">K</strong>, <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">N</strong> &lt;= 10⁶,<strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">K</strong> &gt; 0, <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">K </strong>&lt;= <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">N</strong>. Na próxima linhas haverá <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">N</strong> valores representando as nota <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">NI</strong>,<strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">NI</strong> &lt;= 10⁵<p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p>A saída será composta por um número representando a nota que Rafael precisa para ser aprovado no vestibular.<p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);"></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question3903/inputs/in0.txt;../app/questions/question3903/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question3903/inputs/in1.txt;../app/questions/question3903/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question3903/inputs/in2.txt;../app/questions/question3903/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question3903/inputs/in3.txt;../app/questions/question3903/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

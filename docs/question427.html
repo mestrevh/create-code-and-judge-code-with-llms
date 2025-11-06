@@ -7,23 +7,54 @@
     <title>Questão 427 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 427</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 427</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Países em Guerra
-Topicos do problema: floyd warshall; grafo; maratona; 
-Tempo limite de execução: 10 segundo(s)
-Descrição: <p>No ano 2050, ap&oacute;s diversas tentativas da ONU de manter a paz no mundo, explode a terceira guerra mundial. Segredos industriais, comerciais e militares obrigaram todos os pa&iacute;ses a utilizar servi&ccedil;os de espionagem extremamente sofisticados, de forma que em cada cidade do mundo h&aacute; ao menos um espi&atilde;o de cada pa&iacute;s. Esses espi&otilde;es precisam se comunicar com outros espi&otilde;es, com</p>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">floyd warshall</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">grafo</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">maratona</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Países em Guerra</h2>
+<p><strong>Tempo limite:</strong> 10 segundo(s)</p>
+<p>No ano 2050, ap&oacute;s diversas tentativas da ONU de manter a paz no mundo, explode a terceira guerra mundial. Segredos industriais, comerciais e militares obrigaram todos os pa&iacute;ses a utilizar servi&ccedil;os de espionagem extremamente sofisticados, de forma que em cada cidade do mundo h&aacute; ao menos um espi&atilde;o de cada pa&iacute;s. Esses espi&otilde;es precisam se comunicar com outros espi&otilde;es, com</p>
 
 <p>informantes e mesmo com as suas centrais durante as suas a&ccedil;&otilde;es. Infelizmente n&atilde;o existe uma forma segura de um espi&atilde;o se comunicar em um per&iacute;odo de guerra, ent&atilde;o as mensagens s&atilde;o</p>
 
@@ -41,25 +72,117 @@ Descrição: <p>No ano 2050, ap&oacute;s diversas tentativas da ONU de manter a 
 
 <p>Duas ag&ecirc;ncias, A e B, est&atilde;o no mesmo pa&iacute;s se houver uma forma de uma carta impressa enviada de uma das ag&ecirc;ncias ser entregue na outra ag&ecirc;ncia.</p>
 
-<p>O servi&ccedil;o de espionagem do seu pa&iacute;s conseguiu obter o conte&uacute;do de todos os acordos de envios de mensagens existentes no mundo e deseja descobrir o tempo m&iacute;nimo para se enviar uma carta entre diversos pares de cidades. Voc&ecirc; seria capaz de ajud&aacute;-lo?</p>
-Formato da entrada: <p>A entrada cont&eacute;m v&aacute;rios casos de teste. A primeira linha de cada caso de teste cont&eacute;m dois inteiros separados por um espa&ccedil;o, N (1 &le; N &le; 500) e E (0 &le; E &le; N2), indicando o n&uacute;mero de cidades (numeradas de 1 a N) e de acordos de envio de mensagens, respectivamente. Seguem-se, ent&atilde;o, E linhas, cada uma com tr&ecirc;s inteiros separados por espa&ccedil;os, X, Y e H (1 &le; X, Y &le; N, 1 &le; H &le; 1000), indicando que existe um acordo para enviar uma carta impressa da cidade X &agrave; cidade Y , e que tal carta ser&aacute; entregue em H horas.</p>
+<p>O servi&ccedil;o de espionagem do seu pa&iacute;s conseguiu obter o conte&uacute;do de todos os acordos de envios de mensagens existentes no mundo e deseja descobrir o tempo m&iacute;nimo para se enviar uma carta entre diversos pares de cidades. Voc&ecirc; seria capaz de ajud&aacute;-lo?</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada cont&eacute;m v&aacute;rios casos de teste. A primeira linha de cada caso de teste cont&eacute;m dois inteiros separados por um espa&ccedil;o, N (1 &le; N &le; 500) e E (0 &le; E &le; N2), indicando o n&uacute;mero de cidades (numeradas de 1 a N) e de acordos de envio de mensagens, respectivamente. Seguem-se, ent&atilde;o, E linhas, cada uma com tr&ecirc;s inteiros separados por espa&ccedil;os, X, Y e H (1 &le; X, Y &le; N, 1 &le; H &le; 1000), indicando que existe um acordo para enviar uma carta impressa da cidade X &agrave; cidade Y , e que tal carta ser&aacute; entregue em H horas.</p>
 
 <p>Em seguida, haver&aacute; uma linha com um inteiro K (0 &le; K &le; 100), o n&uacute;mero de consultas.</p>
 
 <p>Finalmente, vir&atilde;o K linhas, cada uma representando uma consulta e contendo dois inteiros separados por um espa&ccedil;o, O e D (1 &le; O, D &le; N). Voc&ecirc; deve determinar o tempo m&iacute;nimo para se enviar uma carta da cidade O &agrave; cidade D.</p>
 
-<p>O final da entrada &eacute; indicado por N = 0.</p>
-Formato da saída: <p>Para cada caso de teste da entrada seu programa deve produzir K linhas na sa&iacute;da. A I-&iacute;sima linha deve conter um inteiro M, o tempo mınimo, em horas, para se enviar uma carta na I-&eacute;sima consulta. Se n&atilde;o houver meio de comunica&ccedil;&atilde;o entre as cidades da consulta, voc&ecirc; deve imprimir "Nao e possivel entregar a carta"(sem acentos).</p>
+<p>O final da entrada &eacute; indicado por N = 0.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Para cada caso de teste da entrada seu programa deve produzir K linhas na sa&iacute;da. A I-&iacute;sima linha deve conter um inteiro M, o tempo mınimo, em horas, para se enviar uma carta na I-&eacute;sima consulta. Se n&atilde;o houver meio de comunica&ccedil;&atilde;o entre as cidades da consulta, voc&ecirc; deve imprimir "Nao e possivel entregar a carta"(sem acentos).</p>
 
 <p>Imprima uma linha em branco ap&oacute;s cada caso de teste.</p>
 
-<div><br /></div>
-</div> 
+<div><br /></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question427/inputs/in0.txt;../app/questions/question427/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

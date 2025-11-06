@@ -1,0 +1,9 @@
+Subarray: 3 3 2 5 2 3 
+Pivo: 3
+Array: 3 3 2 2 3 5 
+Subarray: 3 3 2 2 
+Pivo: 2
+Array: 2 2 3 3 3 5 
+Subarray: 3 3 
+Pivo: 3
+Array: 2 2 3 3 3 5

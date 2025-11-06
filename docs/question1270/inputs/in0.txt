@@ -1,0 +1,26 @@
+pwd
+mkdir Q
+mkdir A
+mkdir Z
+cd A
+touch W
+mkdir S
+touch X
+cd S
+touch 1
+touch 0
+touch 2
+touch 9
+cd ..
+cd P
+ls
+touch X
+cd ..
+cd Q
+touch E
+touch D
+cd ..
+cd Z
+touch X
+cd ..
+tree --in-order

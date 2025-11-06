@@ -7,37 +7,220 @@
     <title>Questão 222 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 222</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 222</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Campeonato
-Topicos do problema: decisão; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Dois times, Cormengo e Flaminthians, participam de um campeonato de futebol,<br />juntamente com outros times. Cada vit&oacute;ria conta tr&ecirc;s pontos, cada empate um ponto. Fica<br />melhor classificado no campeonato um time que tenha mais pontos. Em caso de empate<br />no n&uacute;mero de pontos, fica melhor classificado o time que tiver maior saldo de gols. Se o<br />n&uacute;mero de pontos e o saldo de gols forem os mesmos para os dois times ent&atilde;o os dois<br />times est&atilde;o empatados no campeonato.</p>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Campeonato</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Dois times, Cormengo e Flaminthians, participam de um campeonato de futebol,<br />juntamente com outros times. Cada vit&oacute;ria conta tr&ecirc;s pontos, cada empate um ponto. Fica<br />melhor classificado no campeonato um time que tenha mais pontos. Em caso de empate<br />no n&uacute;mero de pontos, fica melhor classificado o time que tiver maior saldo de gols. Se o<br />n&uacute;mero de pontos e o saldo de gols forem os mesmos para os dois times ent&atilde;o os dois<br />times est&atilde;o empatados no campeonato.</p>
 
-<p>Dados os n&uacute;meros de vit&oacute;rias e empates, e os saldos de gols dos dois times, sua tarefa &eacute;<br />determinar qual dos dois est&aacute; melhor classificado, ou se eles est&atilde;o empatados no<br />campeonato.</p>
-Formato da entrada: <p>A entrada &eacute; descrita em uma &uacute;nica linha, que cont&eacute;m seis inteiros, separados por um<br />espa&ccedil;o em branco. Cv ,Ce, Cs, Fv, Fe, Fs, que s&atilde;o, respectivamente, o n&uacute;mero de vit&oacute;rias<br />do Cormengo, o n&uacute;mero de empates do Cormengo, o saldo de gols do Cormengo, o<br />n&uacute;mero de vit&oacute;rias do Flaminthians, o n&uacute;mero de empates do Flaminthians e o saldo de<br />gols do Flaminthians.</p>
+<p>Dados os n&uacute;meros de vit&oacute;rias e empates, e os saldos de gols dos dois times, sua tarefa &eacute;<br />determinar qual dos dois est&aacute; melhor classificado, ou se eles est&atilde;o empatados no<br />campeonato.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada &eacute; descrita em uma &uacute;nica linha, que cont&eacute;m seis inteiros, separados por um<br />espa&ccedil;o em branco. Cv ,Ce, Cs, Fv, Fe, Fs, que s&atilde;o, respectivamente, o n&uacute;mero de vit&oacute;rias<br />do Cormengo, o n&uacute;mero de empates do Cormengo, o saldo de gols do Cormengo, o<br />n&uacute;mero de vit&oacute;rias do Flaminthians, o n&uacute;mero de empates do Flaminthians e o saldo de<br />gols do Flaminthians.</p>
 
 <p>Considere:</p>
 
-<p>0 &lt;= Cv, Ce, Fv, Fe &lt;= 100<br />-1000 &lt;= Cs, Fs &lt;= 1000</p>
-Formato da saída: <p>Seu programa deve imprimir uma &uacute;nica linha. Se Cormengo &eacute; melhor classificado que<br />Flaminthians, a linha deve conter apenas a letra &lsquo;C&rsquo;, se Flaminthians &eacute; melhor classificado<br />que Cormengo, a linha deve conter apenas a letra &lsquo;F&rsquo;, e se os dois times est&atilde;o empatados<br />a linha deve conter apenas o caractere &lsquo;=&rsquo;.</p>
-</div> 
+<p>0 &lt;= Cv, Ce, Fv, Fe &lt;= 100<br />-1000 &lt;= Cs, Fs &lt;= 1000</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Seu programa deve imprimir uma &uacute;nica linha. Se Cormengo &eacute; melhor classificado que<br />Flaminthians, a linha deve conter apenas a letra &lsquo;C&rsquo;, se Flaminthians &eacute; melhor classificado<br />que Cormengo, a linha deve conter apenas a letra &lsquo;F&rsquo;, e se os dois times est&atilde;o empatados<br />a linha deve conter apenas o caractere &lsquo;=&rsquo;.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question222/inputs/in0.txt;../app/questions/question222/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in1.txt;../app/questions/question222/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in10.txt;../app/questions/question222/outputs/out10.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in11.txt;../app/questions/question222/outputs/out11.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in12.txt;../app/questions/question222/outputs/out12.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in13.txt;../app/questions/question222/outputs/out13.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in14.txt;../app/questions/question222/outputs/out14.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in15.txt;../app/questions/question222/outputs/out15.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in2.txt;../app/questions/question222/outputs/out2.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in3.txt;../app/questions/question222/outputs/out3.txt">
+            Exemplo 10
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in4.txt;../app/questions/question222/outputs/out4.txt">
+            Exemplo 11
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in5.txt;../app/questions/question222/outputs/out5.txt">
+            Exemplo 12
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in6.txt;../app/questions/question222/outputs/out6.txt">
+            Exemplo 13
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in7.txt;../app/questions/question222/outputs/out7.txt">
+            Exemplo 14
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in8.txt;../app/questions/question222/outputs/out8.txt">
+            Exemplo 15
+        </option>
+        
+        <option value="../app/questions/question222/inputs/in9.txt;../app/questions/question222/outputs/out9.txt">
+            Exemplo 16
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

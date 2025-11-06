@@ -7,31 +7,174 @@
     <title>Questão 2997 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2997</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2997</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: A Lista de Compras
-Topicos do problema: alocação dinâmica; recursão; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>Os monitores de Introdução a Programação tentando fazer a comemoração de fim de ano, começaram a fazer a lista de itens que eles comprariam pra a festa pra ter uma ideia de quanto iriam gastar.</p><p>O problema é que como o grupo era muito grande, ficava muito difícil de operar a lista porque várias pessoas estavam constantemente inserindo novos itens e removendo, então eles decidiram pedir sua ajuda para que conseguissem computar direitinho o preço total da festa.</p><p>Você precisa criar um programa que aceite os seguintes comandos:</p><ul><li>INSERIR NOME VALOR QUANTIDADE - insere um novo produto com o Nome, Valor de compra e Quantidade de itens</li><li>REMOVER NOME QUANTIDADE - remove uma determinada quantidade de itens (ou todos) de um produto pelo Nome</li><li>REMOVERGRUPO VALOR -  remove todos os produtos que tem seu valor total (por item) maiior que VALOR</li><li>CONSULTAR - consulta o preço total da Lista até o momento</li><li>PROCURAR NOME - procura se o produto de Nome está na lista e retorna seu Nome, Valor e Quantidade de itens</li></ul>
-Formato da entrada: <p>A entrada é composta de várias linhas que podem ser no formato:</p><p><br/></p><blockquote><p><b>INSERIR N X Q</b></p></blockquote><p>N sendo o nome do produto, X o valor em reais, Q a quantidade de itens.</p><blockquote><p><b>REMOVER N Q</b></p></blockquote><p>N sendo o nome do produto e Q a quantidade de itens a ser removidos (é garantido que há aquela quantidade de itens).</p><blockquote><p><b>REMOVERGRUPO X</b></p></blockquote><p>X sendo o valor que deseja-se remover todos os produtos daquele determinado valor.</p><blockquote><p><b>CONSULTAR</b></p></blockquote><p>Sendo o comando de consulta de itens na lista.</p><blockquote><p><b>PROCURAR N</b></p></blockquote><p>N sendo o nome do produto a ser procurado na lista.</p>
-Formato da saída: <p>Após cada comando CONSULTAR e PROCURAR deverá ser impresso:</p><p><b>CONSULTAR:</b></p><p>Para cada item da lista deve ser impresso suas características seguindo o padrão:</p><blockquote><p></p>Atualmente a lista esta em R$X<p></p></blockquote><p>ou</p><p><b>PROCURAR:</b></p><p>Caso o item esteja presente na lista deve ser impresso suas características seguindo o padrão:</p><blockquote><p>Nome</p><p>- Valor</p><p>- Quantidade</p></blockquote><p>ou caso não esteja:</p><blockquote><p><b>Nome </b>nao foi encontrado.</p></blockquote><p><b>Seguidos sempre de uma quebra de linha</b></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">alocação dinâmica</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">recursão</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>A Lista de Compras</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Os monitores de Introdução a Programação tentando fazer a comemoração de fim de ano, começaram a fazer a lista de itens que eles comprariam pra a festa pra ter uma ideia de quanto iriam gastar.</p><p>O problema é que como o grupo era muito grande, ficava muito difícil de operar a lista porque várias pessoas estavam constantemente inserindo novos itens e removendo, então eles decidiram pedir sua ajuda para que conseguissem computar direitinho o preço total da festa.</p><p>Você precisa criar um programa que aceite os seguintes comandos:</p><ul><li>INSERIR NOME VALOR QUANTIDADE - insere um novo produto com o Nome, Valor de compra e Quantidade de itens</li><li>REMOVER NOME QUANTIDADE - remove uma determinada quantidade de itens (ou todos) de um produto pelo Nome</li><li>REMOVERGRUPO VALOR -  remove todos os produtos que tem seu valor total (por item) maiior que VALOR</li><li>CONSULTAR - consulta o preço total da Lista até o momento</li><li>PROCURAR NOME - procura se o produto de Nome está na lista e retorna seu Nome, Valor e Quantidade de itens</li></ul></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada é composta de várias linhas que podem ser no formato:</p><p><br/></p><blockquote><p><b>INSERIR N X Q</b></p></blockquote><p>N sendo o nome do produto, X o valor em reais, Q a quantidade de itens.</p><blockquote><p><b>REMOVER N Q</b></p></blockquote><p>N sendo o nome do produto e Q a quantidade de itens a ser removidos (é garantido que há aquela quantidade de itens).</p><blockquote><p><b>REMOVERGRUPO X</b></p></blockquote><p>X sendo o valor que deseja-se remover todos os produtos daquele determinado valor.</p><blockquote><p><b>CONSULTAR</b></p></blockquote><p>Sendo o comando de consulta de itens na lista.</p><blockquote><p><b>PROCURAR N</b></p></blockquote><p>N sendo o nome do produto a ser procurado na lista.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Após cada comando CONSULTAR e PROCURAR deverá ser impresso:</p><p><b>CONSULTAR:</b></p><p>Para cada item da lista deve ser impresso suas características seguindo o padrão:</p><blockquote><p></p>Atualmente a lista esta em R$X<p></p></blockquote><p>ou</p><p><b>PROCURAR:</b></p><p>Caso o item esteja presente na lista deve ser impresso suas características seguindo o padrão:</p><blockquote><p>Nome</p><p>- Valor</p><p>- Quantidade</p></blockquote><p>ou caso não esteja:</p><blockquote><p><b>Nome </b>nao foi encontrado.</p></blockquote><p><b>Seguidos sempre de uma quebra de linha</b></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2997/inputs/in0.txt;../app/questions/question2997/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2997/inputs/in1.txt;../app/questions/question2997/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2997/inputs/in2.txt;../app/questions/question2997/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2997/inputs/in3.txt;../app/questions/question2997/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2997/inputs/in4.txt;../app/questions/question2997/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2997/inputs/in5.txt;../app/questions/question2997/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

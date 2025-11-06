@@ -7,23 +7,54 @@
     <title>Questão 390 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 390</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 390</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Método de Euler
-Topicos do problema: entrada formatada; 
-Tempo limite de execução: 10 segundo(s)
-Descrição: <p><span style="font-size: small;"><span style="font-size: x-small;">Quando buscamos uma solu&ccedil;&atilde;o de engenharia, ao final da etapa de modelagem, nos deparamos frequentemente com equa&ccedil;&otilde;es diferenciais que precisam ser resolvidas. As equa&ccedil;&otilde;es diferencias ordin&aacute;rias (EDO) de primeira ordem podem ser resolvidas numericamente utilizando o conhecido M&eacute;todo de Euler.</span></span></p>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">entrada formatada</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Método de Euler</h2>
+<p><strong>Tempo limite:</strong> 10 segundo(s)</p>
+<p><span style="font-size: small;"><span style="font-size: x-small;">Quando buscamos uma solu&ccedil;&atilde;o de engenharia, ao final da etapa de modelagem, nos deparamos frequentemente com equa&ccedil;&otilde;es diferenciais que precisam ser resolvidas. As equa&ccedil;&otilde;es diferencias ordin&aacute;rias (EDO) de primeira ordem podem ser resolvidas numericamente utilizando o conhecido M&eacute;todo de Euler.</span></span></p>
 
 <p><span style="font-size: small;"><span style="font-size: x-small;">Segundo texto no site da Wikipedia:</span></span></p>
 
@@ -39,8 +70,12 @@ Descrição: <p><span style="font-size: small;"><span style="font-size: x-small;
 
 <p><span style="font-size: x-small;"><br /></span></p>
 
-<p><span style="font-size: x-small;">Usar o seguinte valor de pi com 15 casas decimais:<br />pi =&nbsp;3.141592653589793</span></p>
-Formato da entrada: <p><span style="font-size: small;"><span style="font-size: x-small;">Para este problema s&atilde;o fornecidas as seguintes informa&ccedil;&otilde;es:</span></span></p>
+<p><span style="font-size: x-small;">Usar o seguinte valor de pi com 15 casas decimais:<br />pi =&nbsp;3.141592653589793</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span style="font-size: small;"><span style="font-size: x-small;">Para este problema s&atilde;o fornecidas as seguintes informa&ccedil;&otilde;es:</span></span></p>
 
 <p><span style="font-size: small;"><span style="font-size: x-small;">1 - Equa&ccedil;&atilde;o Diferencial Ordin&aacute;ria: string que representa a equa&ccedil;&atilde;o diferencial a ser integrada. A express&atilde;o deve estar escrita segundo a sintaxe utilizada no Octave ou MatLab de tal forma que Y' = f(X,Y) = express&atilde;o fornecida. Um detalhe importante &eacute; que nessa express&atilde;o as letras Y e X (mai&uacute;sculas!) devem ser usadas obrigatoriamente para representar o valor da fun&ccedil;&atilde;o (Y) e o valor da vari&aacute;vel independente (X).</span></span></p>
 
@@ -52,20 +87,124 @@ Formato da entrada: <p><span style="font-size: small;"><span style="font-size: x
 
 <p><span style="font-size: small;"><span style="font-size: x-small;">4 - N&uacute;mero de passos incrementais: na quarta linha &eacute; fornecido o n&uacute;mero de passos incrementais (valor num&eacute;rico) que ser&atilde;o utilizados para o c&aacute;lculo de Y=F(X), aqui referenciado como n.</span></span></p>
 
-<p><span style="font-size: small;"><span style="font-size: x-small;">5 - Valor final de X: na quinta linha &eacute; fornecido o valor final de X (valor num&eacute;rico), aqui referenciado como Xf.</span></span></p>
-Formato da saída: <p><span style="font-size: small;"><span style="font-size: x-small;">Neste problema deve-se imprimir duas colunas. Na primeira coluna os valores de X onde Y=F(X) foi calculado. Sa segunda coluna imprime-se os valores de F(X) calculados.</span></span></p>
+<p><span style="font-size: small;"><span style="font-size: x-small;">5 - Valor final de X: na quinta linha &eacute; fornecido o valor final de X (valor num&eacute;rico), aqui referenciado como Xf.</span></span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span style="font-size: small;"><span style="font-size: x-small;">Neste problema deve-se imprimir duas colunas. Na primeira coluna os valores de X onde Y=F(X) foi calculado. Sa segunda coluna imprime-se os valores de F(X) calculados.</span></span></p>
 
 <p><span style="font-size: small;"><span style="font-size: x-small;">Observa&ccedil;&atilde;o 1: o valor inicial (X0 e F(X0)) e o valor final (Xf e F(Xf)) devem ser impressos, ou seja, s&atilde;o impressos n+1 pares (X,Y).</span></span></p>
 
 <p><span style="font-size: small;"><span style="font-size: x-small;">Observa&ccedil;&atilde;o 2: todos os valores devem ser impressos com 2 casas decimais e as colunas devem ser separadas por um espa&ccedil;o.</span></span></p>
 
-<p><span style="font-size: small;"><span style="font-size: x-small;">Observa&ccedil;&atilde;o 3: ao final, deve-se imprimir uma nova linha.</span></span></p>
-</div> 
+<p><span style="font-size: small;"><span style="font-size: x-small;">Observa&ccedil;&atilde;o 3: ao final, deve-se imprimir uma nova linha.</span></span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question390/inputs/in0.txt;../app/questions/question390/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question390/inputs/in1.txt;../app/questions/question390/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question390/inputs/in2.txt;../app/questions/question390/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question390/inputs/in3.txt;../app/questions/question390/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question390/inputs/in4.txt;../app/questions/question390/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

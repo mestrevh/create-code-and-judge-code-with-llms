@@ -7,31 +7,158 @@
     <title>Questão 3624 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3624</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3624</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Compra de smartphone
-Topicos do problema: array; decisão; repetição; string; estruturas; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p><span id="docs-internal-guid-9c641774-7fff-2058-13fe-be69cac58017"><span style="color: rgb(0, 0, 0);background-color: transparent;">Um site de avaliação de dispositivos móveis deseja fazer uma aplicação para permitir que seus  visitantes encontrem os <i>smartphones</i> que desejam com mais facilidade. A aplicação permite aos usuários  cadastrar novos <i>smartphones</i> e pesquisar aqueles já cadastrados até o limite de 10 dispositivos. Faça um programa em C para  auxiliar nesta tarefa, de acordo com os itens abaixo: </span></span><br/></p><p></p><ul><li><span><span style="color: rgb(0, 0, 0);background-color: transparent;">Definir uma estrutura <i>Smartphone</i> com os campos:</span></span></li></ul><div style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/8cc3808fb8a931da6d2c3852e26a3208fca050583.png"/></div><div style="text-align: center;"><font color="#000000"><span id="selectionBoundary_1618496743618_9235498106600968" class="rangySelectionBoundary">&#65279;</span><br/></font></div><ul><li><span id="docs-internal-guid-623f81eb-7fff-c464-03a7-d48f1bb487c5"><span style="color: rgb(0, 0, 0);background-color: transparent;">Implementar a função com assinatura </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>int  cadastraSmartphone(int qnt_cadastrada, Smartphone phone[10])</b></i>, a qual deverá </span><span style="color: rgb(0, 0, 0);background-color: transparent;">acrescentar um <i>smartphone </i>ao cadastro </span><span style="color: rgb(0, 0, 0);background-color: transparent;">no final da lista, solicitar </span><span style="color: rgb(0, 0, 0);background-color: transparent;">do usuário os dados para preenchimento da estrutura e retornar a quantidade de <i>smartphones</i> na lista.</span></span><br/></li><li><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span id="docs-internal-guid-ee0a74ab-7fff-86f1-57b8-575a822f12eb"><span style="color: rgb(0, 0, 0);background-color: transparent;">Implementar a função com assinatura<b> </b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>int pesquisaSmartphones(int qnt_cadastrada, Smartphone reqMin, Smartphone phone[10])</b></i>, a qual deverá </span><span style="color: rgb(0, 0, 0);background-color: transparent;">exibir na tela os dados de todos os smartphones que se adequem aos requisitos mínimos e retornar a quantidade de <i>smartphones </i>encontrados utilizando esse critério.</span></span></span></span></li></ul><div><font color="#000000"><span id="docs-internal-guid-739c31b5-7fff-4655-f763-64a57ace5791"><span style="color: rgb(0, 0, 0);background-color: transparent;">O programa principal </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>main()</b></i></span><span style="color: rgb(0, 0, 0);background-color: transparent;"> deverá realizar as seguintes operações:</span></span></font></div><div><ol><li><font color="#000000"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span id="docs-internal-guid-63625e63-7fff-b9e2-4aa1-95e3ab75f427"><span style="color: rgb(0, 0, 0);background-color: transparent;">Em um laço, o programa receberá do usuário a resposta relacionada ao cadastro de um <i>smartphone</i>, enquanto for ‘s’ (para sim), a função </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>cadastraSmartphone </b></i></span><span style="color: rgb(0, 0, 0);background-color: transparent;">deve ser chamada, recebendo como parâmetros a quantidade cadastrada e a vetor de estrutura <i>Smarphone</i>. Caso contrário, o programa deverá parar de cadastrar novos <i>smartphones</i>.</span></span><br/></span></span></font></li><li><font color="#000000"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span id="docs-internal-guid-84e21b73-7fff-66ce-dfce-bd413a4ec8b6"><span style="color: rgb(0, 0, 0);background-color: transparent;">Após o final do laço de cadastro, o programa deverá solicitar uma estrutura <span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);"><i>Smartphone </i>com os </span>requisitos mínimos a serem procurados na função </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>pesquisaSmartphones</b></i></span><span style="color: rgb(0, 0, 0);background-color: transparent;">, a qual receberá como parâmetros <span id="docs-internal-guid-e9378ac7-7fff-8179-c1c9-85801968fb9e"><span style="color: rgb(0, 0, 0);background-color: transparent;">o número de dispositivos cadastrados, uma variável do tipo </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i>Smartphone e</i></span><span style="color: rgb(0, 0, 0);background-color: transparent;"> a lista de dispositivos cadastrados,<b> </b></span></span>para que esta procure no arquivo de cadastro os <i>smartphones</i> compatíveis. </span></span></span></span></span></span></font></li><li><font color="#000000"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span><span style="color: rgb(0, 0, 0);background-color: transparent;">Por fim, o programa deverá imprimir a quantidade de <i>smartphones</i> encontrados pela função<b> </b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>pesquisaSmartphones</b>.</i></span></span><br/></span></span></span></span></font></li></ol><div><font color="#000000">Observe que, para a  estrutura <i>Smartphone</i> com os requisitos mínimos, o campo modelo (nome do aparelho) não deverá ser preenchido, já que não é um critério avaliativo.</font></div></div><p></p>
-Formato da entrada: <b id="docs-internal-guid-ee7f5d01-7fff-e6fc-d8f2-cb66082bd168"></b><div><font color="#000000">O formato de entrada será dado por:</font></div><div><ul><li><span style="background-color: transparent;color: rgb(0, 0, 0);">Um caractere informando se o usuário deseja adicionar um <i>smartphone</i> a lista, até que um valor diferente de ‘s’ seja informado.</span></li><li><span style="background-color: transparent;color: rgb(0, 0, 0);">Uma estrutura <i>Smartphone</i> para cada cadastro.</span></li><li><font color="#000000">Os requisitos mínimos para o aparelho que servirá como base de comparação, seguindo os campos de memoriaMB, processadorMHz, cameraMPix e bateria da estrutura <i style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Smartphone.</i></font></li></ul></div>
-Formato da saída: <b id="docs-internal-guid-e4fccbbf-7fff-3eb2-aee4-62fba4a669a9"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O formato de saída será dado pelas informaçoes dos aparelhos que satisfazem os requisitos mínimos e o número de aparelhos encontrados, com duas quebras de linha, segundo o modelo abaixo:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Modelo: Galaxy J8 Plus</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Memoria: 4GB</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Processador: 2.15Ghz</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Camera: 32.00MPixels</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Bateria: 5000.00mA</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Modelo: Xiaomi Poco F2</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Memoria: 4GB</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Processador: 2.16Ghz</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Camera: 64.00MPixels</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Bateria: 4700.00mA</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">2 Smartphones encontrados.</span></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">string</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estruturas</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Compra de smartphone</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p><span id="docs-internal-guid-9c641774-7fff-2058-13fe-be69cac58017"><span style="color: rgb(0, 0, 0);background-color: transparent;">Um site de avaliação de dispositivos móveis deseja fazer uma aplicação para permitir que seus  visitantes encontrem os <i>smartphones</i> que desejam com mais facilidade. A aplicação permite aos usuários  cadastrar novos <i>smartphones</i> e pesquisar aqueles já cadastrados até o limite de 10 dispositivos. Faça um programa em C para  auxiliar nesta tarefa, de acordo com os itens abaixo: </span></span><br/></p><p></p><ul><li><span><span style="color: rgb(0, 0, 0);background-color: transparent;">Definir uma estrutura <i>Smartphone</i> com os campos:</span></span></li></ul><div style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/8cc3808fb8a931da6d2c3852e26a3208fca050583.png"/></div><div style="text-align: center;"><font color="#000000"><span id="selectionBoundary_1618496743618_9235498106600968" class="rangySelectionBoundary">&#65279;</span><br/></font></div><ul><li><span id="docs-internal-guid-623f81eb-7fff-c464-03a7-d48f1bb487c5"><span style="color: rgb(0, 0, 0);background-color: transparent;">Implementar a função com assinatura </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>int  cadastraSmartphone(int qnt_cadastrada, Smartphone phone[10])</b></i>, a qual deverá </span><span style="color: rgb(0, 0, 0);background-color: transparent;">acrescentar um <i>smartphone </i>ao cadastro </span><span style="color: rgb(0, 0, 0);background-color: transparent;">no final da lista, solicitar </span><span style="color: rgb(0, 0, 0);background-color: transparent;">do usuário os dados para preenchimento da estrutura e retornar a quantidade de <i>smartphones</i> na lista.</span></span><br/></li><li><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span id="docs-internal-guid-ee0a74ab-7fff-86f1-57b8-575a822f12eb"><span style="color: rgb(0, 0, 0);background-color: transparent;">Implementar a função com assinatura<b> </b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>int pesquisaSmartphones(int qnt_cadastrada, Smartphone reqMin, Smartphone phone[10])</b></i>, a qual deverá </span><span style="color: rgb(0, 0, 0);background-color: transparent;">exibir na tela os dados de todos os smartphones que se adequem aos requisitos mínimos e retornar a quantidade de <i>smartphones </i>encontrados utilizando esse critério.</span></span></span></span></li></ul><div><font color="#000000"><span id="docs-internal-guid-739c31b5-7fff-4655-f763-64a57ace5791"><span style="color: rgb(0, 0, 0);background-color: transparent;">O programa principal </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>main()</b></i></span><span style="color: rgb(0, 0, 0);background-color: transparent;"> deverá realizar as seguintes operações:</span></span></font></div><div><ol><li><font color="#000000"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span id="docs-internal-guid-63625e63-7fff-b9e2-4aa1-95e3ab75f427"><span style="color: rgb(0, 0, 0);background-color: transparent;">Em um laço, o programa receberá do usuário a resposta relacionada ao cadastro de um <i>smartphone</i>, enquanto for ‘s’ (para sim), a função </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>cadastraSmartphone </b></i></span><span style="color: rgb(0, 0, 0);background-color: transparent;">deve ser chamada, recebendo como parâmetros a quantidade cadastrada e a vetor de estrutura <i>Smarphone</i>. Caso contrário, o programa deverá parar de cadastrar novos <i>smartphones</i>.</span></span><br/></span></span></font></li><li><font color="#000000"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span id="docs-internal-guid-84e21b73-7fff-66ce-dfce-bd413a4ec8b6"><span style="color: rgb(0, 0, 0);background-color: transparent;">Após o final do laço de cadastro, o programa deverá solicitar uma estrutura <span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);"><i>Smartphone </i>com os </span>requisitos mínimos a serem procurados na função </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>pesquisaSmartphones</b></i></span><span style="color: rgb(0, 0, 0);background-color: transparent;">, a qual receberá como parâmetros <span id="docs-internal-guid-e9378ac7-7fff-8179-c1c9-85801968fb9e"><span style="color: rgb(0, 0, 0);background-color: transparent;">o número de dispositivos cadastrados, uma variável do tipo </span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i>Smartphone e</i></span><span style="color: rgb(0, 0, 0);background-color: transparent;"> a lista de dispositivos cadastrados,<b> </b></span></span>para que esta procure no arquivo de cadastro os <i>smartphones</i> compatíveis. </span></span></span></span></span></span></font></li><li><font color="#000000"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span><span style="color: rgb(0, 0, 0);background-color: transparent;"><span><span style="color: rgb(0, 0, 0);background-color: transparent;">Por fim, o programa deverá imprimir a quantidade de <i>smartphones</i> encontrados pela função<b> </b></span><span style="color: rgb(0, 0, 0);background-color: transparent;"><i><b>pesquisaSmartphones</b>.</i></span></span><br/></span></span></span></span></font></li></ol><div><font color="#000000">Observe que, para a  estrutura <i>Smartphone</i> com os requisitos mínimos, o campo modelo (nome do aparelho) não deverá ser preenchido, já que não é um critério avaliativo.</font></div></div><p></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-ee7f5d01-7fff-e6fc-d8f2-cb66082bd168"></b><div><font color="#000000">O formato de entrada será dado por:</font></div><div><ul><li><span style="background-color: transparent;color: rgb(0, 0, 0);">Um caractere informando se o usuário deseja adicionar um <i>smartphone</i> a lista, até que um valor diferente de ‘s’ seja informado.</span></li><li><span style="background-color: transparent;color: rgb(0, 0, 0);">Uma estrutura <i>Smartphone</i> para cada cadastro.</span></li><li><font color="#000000">Os requisitos mínimos para o aparelho que servirá como base de comparação, seguindo os campos de memoriaMB, processadorMHz, cameraMPix e bateria da estrutura <i style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Smartphone.</i></font></li></ul></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-e4fccbbf-7fff-3eb2-aee4-62fba4a669a9"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O formato de saída será dado pelas informaçoes dos aparelhos que satisfazem os requisitos mínimos e o número de aparelhos encontrados, com duas quebras de linha, segundo o modelo abaixo:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Modelo: Galaxy J8 Plus</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Memoria: 4GB</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Processador: 2.15Ghz</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Camera: 32.00MPixels</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Bateria: 5000.00mA</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Modelo: Xiaomi Poco F2</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Memoria: 4GB</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Processador: 2.16Ghz</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Camera: 64.00MPixels</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Bateria: 4700.00mA</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">2 Smartphones encontrados.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question3624/inputs/in0.txt;../app/questions/question3624/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question3624/inputs/in1.txt;../app/questions/question3624/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

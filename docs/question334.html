@@ -7,31 +7,178 @@
     <title>Questão 334 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 334</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 334</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Excedendo
-Topicos do problema: multiplas entradas; decisão; repetição; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p><span><span class="hps">Escreva um programa que</span> <span class="hps">l&ecirc;</span> <span class="hps">dois inteiros</span><span>:</span> <span class="hps">X e Z</span> <span class="hps atn">(</span><span>Z</span> <span class="hps">deve ser lido</span> <span class="hps">tantas vezes quantas forem</span> <span class="hps">necess&aacute;rias</span><span>,</span> <span class="hps">at&eacute; que um n&uacute;mero</span> <span class="hps">maior do que</span> <span class="hps">X</span> <span class="hps">&eacute; lido</span><span>)</span><span>.</span> <span class="hps">Contar quantos</span> <span class="hps">n&uacute;meros inteiros</span> <span class="hps">deve</span>m <span class="hps">ser somados</span> <span class="hps">em</span> <span class="hps">sequ&ecirc;ncia</span> <span class="hps">(a partir de</span> <span class="hps">e</span> <span class="hps">incluindo a</span> <span class="hps">X</span><span>), de modo</span> <span class="hps">que</span> <span class="hps">a soma</span> <span class="hps">excede</span> <span class="hps">Z</span> <span class="hps">o</span> <span class="hps">m&iacute;nimo poss&iacute;vel</span> <span class="hps">e</span> <span class="hps">escrever</span> <span class="hps">este</span> <span class="hps">n&uacute;mero</span><span>.</span><br /><br /><span class="hps">A</span> <span class="hps">entrada</span> <span class="hps">pode ter</span><span>,</span> <span class="hps">por exemplo</span><span>,</span> <span class="hps">os</span> <span class="hps">n&uacute;meros</span> <span class="hps">21,</span> <span class="hps">21,</span> <span class="hps">15,</span> <span class="hps">30</span><span>.</span> <span class="hps">Neste</span> <span class="hps">caso</span><span>,</span> <span class="hps">o</span> <span class="hps">n&uacute;mero</span> <span class="hps">21,</span> <span class="hps">&eacute; assumido</span> <span class="hps">para o X</span><span>,</span> <span class="hps">Os</span> <span class="hps">n&uacute;meros</span> <span class="hps">21</span> <span class="hps">e</span> <span class="hps">15</span> <span class="hps">devem</span> <span class="hps">ser</span> <span class="hps">ignorado</span><span>s, porque eles</span> <span class="hps">s&atilde;o menores</span> <span class="hps">ou iguais</span> <span class="hps">a X.</span> <span class="hps">O</span> <span class="hps">n&uacute;mero</span> <span class="hps">30</span> <span class="hps">est&aacute; dentro da</span> <span class="hps">especifica&ccedil;&atilde;o</span> <span class="hps">(superior a</span> <span class="hps">X</span><span>)</span> <span class="hps">e</span> <span class="hps">&eacute;</span> <span class="hps">v&aacute;lido</span><span>.</span> <span class="hps">Assim</span><span>,</span> <span class="hps">o</span> <span class="hps">resultado final</span> <span class="hps">deve ser de 2</span> <span class="hps">para este</span> <span class="hps">caso de teste</span><span>,</span> <span class="hps">porque</span> <span class="hps">a soma</span> <span class="hps atn">(</span><span>21</span> <span class="hps">+</span> <span class="hps">22</span><span>)</span> <span class="hps">&eacute;</span> <span class="hps">maior do que</span> <span class="hps">30</span><span>.</span></span></p>
-Formato da entrada: <p><span><span class="hps">A entrada cont&eacute;m</span> <span class="hps">apenas valores inteiros</span><span>, um por linha</span><span>, que pode ser</span> <span class="hps">positivo ou negativo.</span> <span class="hps">O primeiro n&uacute;mero &eacute;</span> <span class="hps">o valor de</span> <span class="hps">X.</span> <span class="hps">A pr&oacute;xima linha</span> <span class="hps">conter&aacute;</span> <span class="hps">Z.</span> <span class="hps">Se</span> <span class="hps">Z</span> <span class="hps">n&atilde;o atende</span> <span class="hps">a especifica&ccedil;&atilde;o</span> <span class="hps">do problema</span><span>, deve-se</span> <span class="hps">ler</span> <span class="hps">de novo,</span> <span class="hps">quantas vezes forem</span> <span class="hps">necess&aacute;rias</span><span>.</span></span></p>
-Formato da saída: <p><span><span class="hps">Imprima uma linha</span> <span class="hps">com um n&uacute;mero</span> <span class="hps">inteiro representando a quantidade</span><span class="hps"> de</span> <span class="hps">n&uacute;meros inteiros</span> <span class="hps">que devem ser</span> <span class="hps">somadas, seguido de uma quebra de linha.<br /></span></span></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">multiplas entradas</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Excedendo</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p><span><span class="hps">Escreva um programa que</span> <span class="hps">l&ecirc;</span> <span class="hps">dois inteiros</span><span>:</span> <span class="hps">X e Z</span> <span class="hps atn">(</span><span>Z</span> <span class="hps">deve ser lido</span> <span class="hps">tantas vezes quantas forem</span> <span class="hps">necess&aacute;rias</span><span>,</span> <span class="hps">at&eacute; que um n&uacute;mero</span> <span class="hps">maior do que</span> <span class="hps">X</span> <span class="hps">&eacute; lido</span><span>)</span><span>.</span> <span class="hps">Contar quantos</span> <span class="hps">n&uacute;meros inteiros</span> <span class="hps">deve</span>m <span class="hps">ser somados</span> <span class="hps">em</span> <span class="hps">sequ&ecirc;ncia</span> <span class="hps">(a partir de</span> <span class="hps">e</span> <span class="hps">incluindo a</span> <span class="hps">X</span><span>), de modo</span> <span class="hps">que</span> <span class="hps">a soma</span> <span class="hps">excede</span> <span class="hps">Z</span> <span class="hps">o</span> <span class="hps">m&iacute;nimo poss&iacute;vel</span> <span class="hps">e</span> <span class="hps">escrever</span> <span class="hps">este</span> <span class="hps">n&uacute;mero</span><span>.</span><br /><br /><span class="hps">A</span> <span class="hps">entrada</span> <span class="hps">pode ter</span><span>,</span> <span class="hps">por exemplo</span><span>,</span> <span class="hps">os</span> <span class="hps">n&uacute;meros</span> <span class="hps">21,</span> <span class="hps">21,</span> <span class="hps">15,</span> <span class="hps">30</span><span>.</span> <span class="hps">Neste</span> <span class="hps">caso</span><span>,</span> <span class="hps">o</span> <span class="hps">n&uacute;mero</span> <span class="hps">21,</span> <span class="hps">&eacute; assumido</span> <span class="hps">para o X</span><span>,</span> <span class="hps">Os</span> <span class="hps">n&uacute;meros</span> <span class="hps">21</span> <span class="hps">e</span> <span class="hps">15</span> <span class="hps">devem</span> <span class="hps">ser</span> <span class="hps">ignorado</span><span>s, porque eles</span> <span class="hps">s&atilde;o menores</span> <span class="hps">ou iguais</span> <span class="hps">a X.</span> <span class="hps">O</span> <span class="hps">n&uacute;mero</span> <span class="hps">30</span> <span class="hps">est&aacute; dentro da</span> <span class="hps">especifica&ccedil;&atilde;o</span> <span class="hps">(superior a</span> <span class="hps">X</span><span>)</span> <span class="hps">e</span> <span class="hps">&eacute;</span> <span class="hps">v&aacute;lido</span><span>.</span> <span class="hps">Assim</span><span>,</span> <span class="hps">o</span> <span class="hps">resultado final</span> <span class="hps">deve ser de 2</span> <span class="hps">para este</span> <span class="hps">caso de teste</span><span>,</span> <span class="hps">porque</span> <span class="hps">a soma</span> <span class="hps atn">(</span><span>21</span> <span class="hps">+</span> <span class="hps">22</span><span>)</span> <span class="hps">&eacute;</span> <span class="hps">maior do que</span> <span class="hps">30</span><span>.</span></span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span><span class="hps">A entrada cont&eacute;m</span> <span class="hps">apenas valores inteiros</span><span>, um por linha</span><span>, que pode ser</span> <span class="hps">positivo ou negativo.</span> <span class="hps">O primeiro n&uacute;mero &eacute;</span> <span class="hps">o valor de</span> <span class="hps">X.</span> <span class="hps">A pr&oacute;xima linha</span> <span class="hps">conter&aacute;</span> <span class="hps">Z.</span> <span class="hps">Se</span> <span class="hps">Z</span> <span class="hps">n&atilde;o atende</span> <span class="hps">a especifica&ccedil;&atilde;o</span> <span class="hps">do problema</span><span>, deve-se</span> <span class="hps">ler</span> <span class="hps">de novo,</span> <span class="hps">quantas vezes forem</span> <span class="hps">necess&aacute;rias</span><span>.</span></span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span><span class="hps">Imprima uma linha</span> <span class="hps">com um n&uacute;mero</span> <span class="hps">inteiro representando a quantidade</span><span class="hps"> de</span> <span class="hps">n&uacute;meros inteiros</span> <span class="hps">que devem ser</span> <span class="hps">somadas, seguido de uma quebra de linha.<br /></span></span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question334/inputs/in0.txt;../app/questions/question334/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question334/inputs/in1.txt;../app/questions/question334/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question334/inputs/in2.txt;../app/questions/question334/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question334/inputs/in3.txt;../app/questions/question334/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question334/inputs/in4.txt;../app/questions/question334/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question334/inputs/in5.txt;../app/questions/question334/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question334/inputs/in6.txt;../app/questions/question334/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

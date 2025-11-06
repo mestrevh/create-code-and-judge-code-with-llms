@@ -7,31 +7,166 @@
     <title>Questão 978 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 978</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 978</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Mais um problema de logística
-Topicos do problema: requer solução eficiente; 
-Tempo limite de execução: 3 segundo(s)
-Descrição: <p>Uma empresa de logística possui vários armazéns espalhados por diversos pontos do mapa. O gerente de operações precisa visitar diariamente todos os armazéns, regressando finalmente ao seu escritório, localizado no armazém #0.<br/>Cansado de fazer o percurso de maneira ineficiente, e satisfeito com a solução dada a um problema anterior de circulação de mercadorias, ele decide encomendar ao departamento de informática um programa que permita calcular o circuito de menor comprimento total e que visita cada armazém exatamente uma vez.  <br/><br/>O gerente pode deslocar-se de qualquer armazém a qualquer outro. A distância entre armazéns é estimada como sendo a soma das diferenças absolutas entre as suas respectivas latitudes e longitudes. Mais formalmente, se um ponto A tem coordenadas (Xa, Ya) e um ponto B tem coordenadas (Xb, Yb), então o custo de operar uma linha entre A e B será dado por |Xa - Xb| + |Ya - Yb|.<br/><br/>Dessa vez, entretanto, os programadores da empresa estão com alguma dificuldade em resolver o problema de maneira exata e eficiente. Eles conseguiram, entretanto, elaborar as três soluções detalhadas a seguir:<br/><br/>A) A primeira solução consiste em iniciar no armazém 0 e, a partir daí, escolher sempre o armazém não-visitado mais próximo. Em caso de empate, escolher o armazém de menor número.<br/><br/>B) A segunda solução consiste em escolher progressivamente os armazéns a serem visitados: A[0]=0 -&gt; A[1]-&gt; A[2] ... -&gt; A[n-1] -&gt; A[0]=0. Em cada momento, na escolha do k-ésimo armazém, uma cota inferior para o menor circuito que começa com aqueles k armazéns pode ser estimada somando-se a esse trajeto escolhido, a metade da soma total, para cada um dos armazéns restantes, das duas menores distâncias a quaisquer dos seus vizinhos. Se essa cota inferior for maior ou igual à melhor solução conhecida até aquele instante, essa escolha pode ser abandonada e o próximo valor possível para A[k] deve ser considerado. <br/><br/>C) O terceiro programa usa parte da solução para o tal problema anterior de circulação de mercadorias. Primeiro, uma MST é calculada utilizando-se o Alg. de Prim iniciado no armazém #0. Em caso de empate para a escolha do próximo trecho, deve-se escolher o que se inicia no armazém de menor número. Persistindo o empate, considera-se o menor número do segundo armazém. Em seguida, os armazéns são enumerados através de um percurso em profundidade da MST a partir do armazém 0 e, finalmente, os armazéns repetidos (com exceção do 0) são eliminados da enumeração. <br/></p>
-Formato da entrada: <p>A entrada é constituída de vários casos, cada um correspondente a um cenário/mapa como descrito acima. A primeira linha contém um inteiro <br/><br/>L <br/><br/>representando o número de casos. A seguir, temos a especificação dos diversos casos.<br/>  <br/>Para cada mapa, temos inicialmente uma linha com um inteiro, <br/><br/>N<br/><br/>que indica a quantidade de armazéns.<br/>  <br/>As próximas N linhas contêm um par de inteiros cada<br/><br/>X[i] Y[i]<br/><br/>onde (X[i], Y[i]) é a coordenada do i-ésimo armazém, para i=0,..,.N-1.<br/><br/>Há uma linha em branco após cada caso.<br/><br/>Limites: <br/>3 &lt;= N &lt;= 15<br/>0 &lt;= X[i], Y[i] &lt;= 1000;<br/><br/></p>
-Formato da saída: None
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">requer solução eficiente</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Mais um problema de logística</h2>
+<p><strong>Tempo limite:</strong> 3 segundo(s)</p>
+<p>Uma empresa de logística possui vários armazéns espalhados por diversos pontos do mapa. O gerente de operações precisa visitar diariamente todos os armazéns, regressando finalmente ao seu escritório, localizado no armazém #0.<br/>Cansado de fazer o percurso de maneira ineficiente, e satisfeito com a solução dada a um problema anterior de circulação de mercadorias, ele decide encomendar ao departamento de informática um programa que permita calcular o circuito de menor comprimento total e que visita cada armazém exatamente uma vez.  <br/><br/>O gerente pode deslocar-se de qualquer armazém a qualquer outro. A distância entre armazéns é estimada como sendo a soma das diferenças absolutas entre as suas respectivas latitudes e longitudes. Mais formalmente, se um ponto A tem coordenadas (Xa, Ya) e um ponto B tem coordenadas (Xb, Yb), então o custo de operar uma linha entre A e B será dado por |Xa - Xb| + |Ya - Yb|.<br/><br/>Dessa vez, entretanto, os programadores da empresa estão com alguma dificuldade em resolver o problema de maneira exata e eficiente. Eles conseguiram, entretanto, elaborar as três soluções detalhadas a seguir:<br/><br/>A) A primeira solução consiste em iniciar no armazém 0 e, a partir daí, escolher sempre o armazém não-visitado mais próximo. Em caso de empate, escolher o armazém de menor número.<br/><br/>B) A segunda solução consiste em escolher progressivamente os armazéns a serem visitados: A[0]=0 -&gt; A[1]-&gt; A[2] ... -&gt; A[n-1] -&gt; A[0]=0. Em cada momento, na escolha do k-ésimo armazém, uma cota inferior para o menor circuito que começa com aqueles k armazéns pode ser estimada somando-se a esse trajeto escolhido, a metade da soma total, para cada um dos armazéns restantes, das duas menores distâncias a quaisquer dos seus vizinhos. Se essa cota inferior for maior ou igual à melhor solução conhecida até aquele instante, essa escolha pode ser abandonada e o próximo valor possível para A[k] deve ser considerado. <br/><br/>C) O terceiro programa usa parte da solução para o tal problema anterior de circulação de mercadorias. Primeiro, uma MST é calculada utilizando-se o Alg. de Prim iniciado no armazém #0. Em caso de empate para a escolha do próximo trecho, deve-se escolher o que se inicia no armazém de menor número. Persistindo o empate, considera-se o menor número do segundo armazém. Em seguida, os armazéns são enumerados através de um percurso em profundidade da MST a partir do armazém 0 e, finalmente, os armazéns repetidos (com exceção do 0) são eliminados da enumeração. <br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada é constituída de vários casos, cada um correspondente a um cenário/mapa como descrito acima. A primeira linha contém um inteiro <br/><br/>L <br/><br/>representando o número de casos. A seguir, temos a especificação dos diversos casos.<br/>  <br/>Para cada mapa, temos inicialmente uma linha com um inteiro, <br/><br/>N<br/><br/>que indica a quantidade de armazéns.<br/>  <br/>As próximas N linhas contêm um par de inteiros cada<br/><br/>X[i] Y[i]<br/><br/>onde (X[i], Y[i]) é a coordenada do i-ésimo armazém, para i=0,..,.N-1.<br/><br/>Há uma linha em branco após cada caso.<br/><br/>Limites: <br/>3 &lt;= N &lt;= 15<br/>0 &lt;= X[i], Y[i] &lt;= 1000;<br/><br/></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">None</div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question978/inputs/in0.txt;../app/questions/question978/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question978/inputs/in1.txt;../app/questions/question978/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question978/inputs/in2.txt;../app/questions/question978/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question978/inputs/in3.txt;../app/questions/question978/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

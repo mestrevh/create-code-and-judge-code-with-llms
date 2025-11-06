@@ -7,31 +7,178 @@
     <title>Questão 3873 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 3873</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3873</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Faturas & Sofrimento
-Topicos do problema: array; ciclos; caractere; estruturas; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <b id="docs-internal-guid-a3f02360-7fff-9dee-0fee-a294dcf26b17"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O banco TalvezFalidos decidiu alterar sua política de faturas sem ligar nem um pouco para os maníacos que escolheram em algum momento confiar seu dinheiro nesse pessoal. A nova política faz com que as faturas a partir deste momento funcionem para todos os clientes, da seguinte forma:</span></p><br/><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso a soma de cada dígito do nº do cartão seja <b>maior ou igual</b> que o CVV do cartão, a fatura será <b>zerada</b>.</span></p></li></ul><br/><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso a soma de cada dígito do nº do cartão seja <b>menor</b> que o CVV do cartão, a fatura será <b>multiplicada pela diferença</b> entre o valor da soma e o CVV.</span></p></li></ul><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><span style="width: 488px;height: 325px;"><img src="https://lh4.googleusercontent.com/MBB26tCSAPeL-2Yd1m8H0zey2rKpd7qFYw8yJ2tbhBQ-W82WZ7Jb_kMXhMRGQVwxdCtyapqrcpEoM-v2Fgou3qheApaymhowDJsGQt3aOq6cLpVBxOuguCsoMH-rIgkTixqpW5sg" width="488" height="325"/></span></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Use do seu conhecimento de programação para determinar quais clientes irão se beneficiar dessa nova política, e quais irão sofrer - e provavelmente trocar de banco.</span></p>
-Formato da entrada: <b id="docs-internal-guid-346a99cb-7fff-5090-0a25-1962820fdeb0"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">A entrada enviará inicialmente um inteiro, determinando a quantidade de clientes a terem suas faturas analisadas (0 &lt; N &lt;= 6). Após isso, para cada cliente será fornecido blocos contendo as seguintes informações, na respectiva ordem:</span></p><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Nome do cliente (Máx. 31 caracteres)</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Número do cartão (16 dígitos)</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">CVV (0 &lt; CVV &lt;= 999)</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Valor (0 &lt; V &lt;= 1000, podendo possuir casas decimais)</span></p></li></ol>
-Formato da saída: <b id="docs-internal-guid-2e6ad172-7fff-7e88-669c-78fbf8c3104a"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Primeiro, imprima na tela a seguinte frase, com x sendo a quantidade de pessoas que tiveram a fatura zerada:</span></p><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;">“Um total de x clientes se beneficiaram da nova politica!”</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Seguido de uma quebra de linha e em seguida o nome de todos os clientes beneficiados, na ordem da entrada, e o valor final da fatura de cada um, sempre com quebra de linha ao final.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Em seguida, imprima na tela a seguinte frase, com y sendo a quantidade de pessoas que foram prejudicadas pela mudança:</span></p><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;">“No entanto, y clientes nao se beneficiaram da nova politica.&#34;</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Seguido de uma quebra de linha e em seguida o nome de todos os clientes prejudicados, na ordem da entrada, e o valor final da fatura de cada um, sempre com quebra de linha ao final.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Todos os valores printados devem possuir no máximo duas casas decimais.</span></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ciclos</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">caractere</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estruturas</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Faturas & Sofrimento</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<b id="docs-internal-guid-a3f02360-7fff-9dee-0fee-a294dcf26b17"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">O banco TalvezFalidos decidiu alterar sua política de faturas sem ligar nem um pouco para os maníacos que escolheram em algum momento confiar seu dinheiro nesse pessoal. A nova política faz com que as faturas a partir deste momento funcionem para todos os clientes, da seguinte forma:</span></p><br/><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso a soma de cada dígito do nº do cartão seja <b>maior ou igual</b> que o CVV do cartão, a fatura será <b>zerada</b>.</span></p></li></ul><br/><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso a soma de cada dígito do nº do cartão seja <b>menor</b> que o CVV do cartão, a fatura será <b>multiplicada pela diferença</b> entre o valor da soma e o CVV.</span></p></li></ul><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><span style="width: 488px;height: 325px;"><img src="https://lh4.googleusercontent.com/MBB26tCSAPeL-2Yd1m8H0zey2rKpd7qFYw8yJ2tbhBQ-W82WZ7Jb_kMXhMRGQVwxdCtyapqrcpEoM-v2Fgou3qheApaymhowDJsGQt3aOq6cLpVBxOuguCsoMH-rIgkTixqpW5sg" width="488" height="325"/></span></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Use do seu conhecimento de programação para determinar quais clientes irão se beneficiar dessa nova política, e quais irão sofrer - e provavelmente trocar de banco.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-346a99cb-7fff-5090-0a25-1962820fdeb0"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">A entrada enviará inicialmente um inteiro, determinando a quantidade de clientes a terem suas faturas analisadas (0 &lt; N &lt;= 6). Após isso, para cada cliente será fornecido blocos contendo as seguintes informações, na respectiva ordem:</span></p><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Nome do cliente (Máx. 31 caracteres)</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Número do cartão (16 dígitos)</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">CVV (0 &lt; CVV &lt;= 999)</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Valor (0 &lt; V &lt;= 1000, podendo possuir casas decimais)</span></p></li></ol></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-2e6ad172-7fff-7e88-669c-78fbf8c3104a"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Primeiro, imprima na tela a seguinte frase, com x sendo a quantidade de pessoas que tiveram a fatura zerada:</span></p><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;">“Um total de x clientes se beneficiaram da nova politica!”</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Seguido de uma quebra de linha e em seguida o nome de todos os clientes beneficiados, na ordem da entrada, e o valor final da fatura de cada um, sempre com quebra de linha ao final.</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Em seguida, imprima na tela a seguinte frase, com y sendo a quantidade de pessoas que foram prejudicadas pela mudança:</span></p><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;">“No entanto, y clientes nao se beneficiaram da nova politica.&#34;</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Seguido de uma quebra de linha e em seguida o nome de todos os clientes prejudicados, na ordem da entrada, e o valor final da fatura de cada um, sempre com quebra de linha ao final.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Todos os valores printados devem possuir no máximo duas casas decimais.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question3873/inputs/in0.txt;../app/questions/question3873/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question3873/inputs/in1.txt;../app/questions/question3873/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question3873/inputs/in2.txt;../app/questions/question3873/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question3873/inputs/in3.txt;../app/questions/question3873/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question3873/inputs/in4.txt;../app/questions/question3873/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question3873/inputs/in5.txt;../app/questions/question3873/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question3873/inputs/in6.txt;../app/questions/question3873/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -7,31 +7,182 @@
     <title>Questão 2449 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2449</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2449</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L2Q7 - Fuga do Tarzan
-Topicos do problema: repetição; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p style="text-align: left;">Tarzan e Jane se veem em uma enrascada quando vários babuínos estão os perseguindo, mas como Tarzan conhece muito bem a selva, ele consegue dizer qual a melhor rota de fuga. Faça um programa que simule a mente de Tarzan na escolha do melhor caminho levando em consideração os seguintes fatores:</p><p style="text-align: left;"><b>IMPORTANTE:</b><span> </span>O melhor caminho é aquele cuja distância final entre Tarzan e os babuínos seja a maior!</p><ul><li>Os babuínos pegarão Tarzan e Jane se a distância entre eles e os animais for igual ou menor que 0;</li><li>É possível que existam fatores auxiliares como cipós ou tobogãs de troncos de árvore;</li><li>Cipós rendem 15m a Tarzan e tobogãs rendem 30m a Tarzan;</li><li><span>A distância inicial entre Tarzan e os babuínos é de 20m;</span><span> </span></li><li><span>Um caminho começa quando houver um colchete aberto &#34;[&#34; e termina quando houver colchete fechado &#34;]&#34; (SEM ASPAS!!);</span></li><li>Os babuínos tem velocidade de 1m/s em relação a Tarzan;</li><li>Cada linha de entrada (que não seja um colchete, cipó ou tobogã) conterá um valor indicando quantos segundos ela durará;</li><li><b>A PARTIR DO MOMENTO</b> que o tempo se tornar maior que 20, a velocidade dos babuínos se torna 3m/s;</li><li><span>Sempre haverá pelo menos um caminho (não significa que será válido);</span></li><li>O número de um caminho é determinado pela sua ordem, se for o primeiro caminho lido, então seu número é 1, se for o n-ésimo caminho, então seu número é n;</li></ul><span><b>IMPORTANTE: </b></span><span><b> </b>m/s = metros por segundo;</span><div><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/afc6f9105c3ded0455dcf853bd4a80366841f3aen.jpg"/><br/></p>&#13;</div>
-Formato da entrada: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um quantidade não definida de caminhos será introduzida.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>A primeira linha de um caminho é dada por um colchete aberto:</span><br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>[</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">E uma sequência de linhas que podem conter:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>S ou P;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">S corresponde a um char que pode ser ou C, referente a um cipó, ou T, referente a um tobogã;</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">P corresponde a um número, referente aos segundos que essa entrada custará;</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A última linha de um caminho é dada por um colchete fechado:<br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>]</p></blockquote>
-Formato da saída: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>Caso exista um caminho pelo qual Tarzan consiga fugir, imprima:</span><br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Tarzan fugir caminho N&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso não exista, imprima:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;UoooooOOooOOooooo UooooOOooOOooo&#34;</p></blockquote>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>L2Q7 - Fuga do Tarzan</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p style="text-align: left;">Tarzan e Jane se veem em uma enrascada quando vários babuínos estão os perseguindo, mas como Tarzan conhece muito bem a selva, ele consegue dizer qual a melhor rota de fuga. Faça um programa que simule a mente de Tarzan na escolha do melhor caminho levando em consideração os seguintes fatores:</p><p style="text-align: left;"><b>IMPORTANTE:</b><span> </span>O melhor caminho é aquele cuja distância final entre Tarzan e os babuínos seja a maior!</p><ul><li>Os babuínos pegarão Tarzan e Jane se a distância entre eles e os animais for igual ou menor que 0;</li><li>É possível que existam fatores auxiliares como cipós ou tobogãs de troncos de árvore;</li><li>Cipós rendem 15m a Tarzan e tobogãs rendem 30m a Tarzan;</li><li><span>A distância inicial entre Tarzan e os babuínos é de 20m;</span><span> </span></li><li><span>Um caminho começa quando houver um colchete aberto &#34;[&#34; e termina quando houver colchete fechado &#34;]&#34; (SEM ASPAS!!);</span></li><li>Os babuínos tem velocidade de 1m/s em relação a Tarzan;</li><li>Cada linha de entrada (que não seja um colchete, cipó ou tobogã) conterá um valor indicando quantos segundos ela durará;</li><li><b>A PARTIR DO MOMENTO</b> que o tempo se tornar maior que 20, a velocidade dos babuínos se torna 3m/s;</li><li><span>Sempre haverá pelo menos um caminho (não significa que será válido);</span></li><li>O número de um caminho é determinado pela sua ordem, se for o primeiro caminho lido, então seu número é 1, se for o n-ésimo caminho, então seu número é n;</li></ul><span><b>IMPORTANTE: </b></span><span><b> </b>m/s = metros por segundo;</span><div><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/afc6f9105c3ded0455dcf853bd4a80366841f3aen.jpg"/><br/></p>&#13;</div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um quantidade não definida de caminhos será introduzida.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>A primeira linha de um caminho é dada por um colchete aberto:</span><br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>[</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">E uma sequência de linhas que podem conter:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>S ou P;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">S corresponde a um char que pode ser ou C, referente a um cipó, ou T, referente a um tobogã;</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">P corresponde a um número, referente aos segundos que essa entrada custará;</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A última linha de um caminho é dada por um colchete fechado:<br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>]</p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span>Caso exista um caminho pelo qual Tarzan consiga fugir, imprima:</span><br/></p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;Tarzan fugir caminho N&#34;</p></blockquote><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Caso não exista, imprima:</p><blockquote style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><p>&#34;UoooooOOooOOooooo UooooOOooOOooo&#34;</p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2449/inputs/in0.txt;../app/questions/question2449/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2449/inputs/in1.txt;../app/questions/question2449/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2449/inputs/in2.txt;../app/questions/question2449/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2449/inputs/in3.txt;../app/questions/question2449/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2449/inputs/in4.txt;../app/questions/question2449/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2449/inputs/in5.txt;../app/questions/question2449/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question2449/inputs/in6.txt;../app/questions/question2449/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question2449/inputs/in7.txt;../app/questions/question2449/outputs/out7.txt">
+            Exemplo 8
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+push 9
+push 18
+push 27
+push 36
+print
+sum
+average
+pop
+pop
+print
+sum
+average
+push 45
+push 54
+print
+sum
+average
+pow
+exit

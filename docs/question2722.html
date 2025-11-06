@@ -7,31 +7,174 @@
     <title>Questão 2722 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2722</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2722</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Interrogatório
-Topicos do problema: estrutura de dados; 
-Tempo limite de execução: 3 segundo(s)
-Descrição: <b id="docs-internal-guid-10e54185-7fff-4f3c-6619-f19825f3d1a5"></b><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><img src="https://lh5.googleusercontent.com/99TRmjqAydaVsnMYRmpxPtcegssr8NExeaDSnY3dyU6fFbG7643h8yhSUBVMnZKxHi_8FV8vOfozMtJe7Okt6oeHxcl_CddiECy0PTucc7R8TmjCTIM0Br4Nb1oo95FuG3FqjSAL" width="448" height="252"/></span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">A Polícia ouviu falar que um grupo de ladrões está planejando atacar a Casa da Moeda. Para impedir, ela começa a colher informações sobre o grupo e prende um dos bandidos. </span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">A estratégia da polícia é usar uma estratégia de investigação, caracterizada por uma força FI. Cada bandido investigado utiliza sua estratégia de defesa, que tem uma força FD. Durante o interrogatório podem ocorrer duas situações:</span></p><br/><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Se FI &gt;= FD, a polícia consegue que o bandido confesse e entregue um outro bandido, caso ainda exista algum do grupo que não tenha sido capturado. A polícia então captura o bandido denunciado ou finaliza a investigação com sucesso, caso todos já estejam presos.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Se FI &lt; FD , o bandido vence e o interrogatório termina com a polícia frustrada.  </span></p></li></ol><div><font color="#000000"><br/></font></div><div><font color="#000000"><b>OBS: É obrigatório o uso de lista encadeada para resolução da questão.</b></font></div>
-Formato da entrada: <b id="docs-internal-guid-d3974999-7fff-9ce6-3d49-6773f3b571b4"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">FI</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">N1 FD1</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">N2 FD2</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">N3 FD3</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">...</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Nn FDn</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">“Fim”</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Onde,</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">FI é um inteiro, que caracteriza a força de investigação da polícia.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Ni é uma String, que representa o nome do interrogado.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">FDi é um inteiro, que representa a força de defesa do interrogado.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">A String “Fim” determina que não há mais bandidos a serem interrogados.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><br/></span></p><p dir="ltr"><b id="docs-internal-guid-ead3b4f1-7fff-f13f-b9be-a08c0c534cf1"></b></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">obs1: </span><span style="color: #000000;background-color: transparent;">cada investigado referencia o próximo na entrada (Ni referencia Ni+1)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">obs2: </span><span style="color: #000000;background-color: transparent;">sempre haverá ao menos um bandido a ser interrogado.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">obs3: </span><span style="color: #000000;background-color: transparent;">sabe-se que todos na lista de interrogados fazem parte do grupo de bandidos.</span></p>
-Formato da saída: <b id="docs-internal-guid-24e95c69-7fff-c035-7bfa-de39e340da1e"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Para cada interrogado com sucesso que confessar e entregar um outro membro do grupo:</span></p><blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;"><i>Conseguimos interrogar Ni, que entregou Ni+1.</i></span></p></blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso o interrogado não confesse:</span></p><blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;"><span class="Apple-tab-span"></span></span><span style="color: #000000;background-color: transparent;"><i>Droga, a busca acabou em Ni.</i></span></p></blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso a polícia consiga interrogar todos os delatores, prendendo todos os bandidos:</span></p><blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;"><span class="Apple-tab-span"></span></span><span style="color: #000000;background-color: transparent;"><i>Agora sim, com a confissão de Ni prendemos todos os canalhas</i></span><span style="color: #000000;background-color: transparent;"><i>&#12;</i></span></p></blockquote>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estrutura de dados</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Interrogatório</h2>
+<p><strong>Tempo limite:</strong> 3 segundo(s)</p>
+<b id="docs-internal-guid-10e54185-7fff-4f3c-6619-f19825f3d1a5"></b><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><img src="https://lh5.googleusercontent.com/99TRmjqAydaVsnMYRmpxPtcegssr8NExeaDSnY3dyU6fFbG7643h8yhSUBVMnZKxHi_8FV8vOfozMtJe7Okt6oeHxcl_CddiECy0PTucc7R8TmjCTIM0Br4Nb1oo95FuG3FqjSAL" width="448" height="252"/></span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">A Polícia ouviu falar que um grupo de ladrões está planejando atacar a Casa da Moeda. Para impedir, ela começa a colher informações sobre o grupo e prende um dos bandidos. </span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">A estratégia da polícia é usar uma estratégia de investigação, caracterizada por uma força FI. Cada bandido investigado utiliza sua estratégia de defesa, que tem uma força FD. Durante o interrogatório podem ocorrer duas situações:</span></p><br/><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Se FI &gt;= FD, a polícia consegue que o bandido confesse e entregue um outro bandido, caso ainda exista algum do grupo que não tenha sido capturado. A polícia então captura o bandido denunciado ou finaliza a investigação com sucesso, caso todos já estejam presos.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Se FI &lt; FD , o bandido vence e o interrogatório termina com a polícia frustrada.  </span></p></li></ol><div><font color="#000000"><br/></font></div><div><font color="#000000"><b>OBS: É obrigatório o uso de lista encadeada para resolução da questão.</b></font></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-d3974999-7fff-9ce6-3d49-6773f3b571b4"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">FI</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">N1 FD1</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">N2 FD2</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">N3 FD3</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">...</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Nn FDn</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">“Fim”</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Onde,</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">FI é um inteiro, que caracteriza a força de investigação da polícia.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Ni é uma String, que representa o nome do interrogado.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">FDi é um inteiro, que representa a força de defesa do interrogado.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">A String “Fim” determina que não há mais bandidos a serem interrogados.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><br/></span></p><p dir="ltr"><b id="docs-internal-guid-ead3b4f1-7fff-f13f-b9be-a08c0c534cf1"></b></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">obs1: </span><span style="color: #000000;background-color: transparent;">cada investigado referencia o próximo na entrada (Ni referencia Ni+1)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">obs2: </span><span style="color: #000000;background-color: transparent;">sempre haverá ao menos um bandido a ser interrogado.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">obs3: </span><span style="color: #000000;background-color: transparent;">sabe-se que todos na lista de interrogados fazem parte do grupo de bandidos.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-24e95c69-7fff-c035-7bfa-de39e340da1e"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Para cada interrogado com sucesso que confessar e entregar um outro membro do grupo:</span></p><blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;"><i>Conseguimos interrogar Ni, que entregou Ni+1.</i></span></p></blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso o interrogado não confesse:</span></p><blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;"><span class="Apple-tab-span"></span></span><span style="color: #000000;background-color: transparent;"><i>Droga, a busca acabou em Ni.</i></span></p></blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso a polícia consiga interrogar todos os delatores, prendendo todos os bandidos:</span></p><blockquote><p dir="ltr"><span style="color: #000000;background-color: transparent;"><span class="Apple-tab-span"></span></span><span style="color: #000000;background-color: transparent;"><i>Agora sim, com a confissão de Ni prendemos todos os canalhas</i></span><span style="color: #000000;background-color: transparent;"><i>&#12;</i></span></p></blockquote></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2722/inputs/in0.txt;../app/questions/question2722/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2722/inputs/in1.txt;../app/questions/question2722/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2722/inputs/in2.txt;../app/questions/question2722/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2722/inputs/in3.txt;../app/questions/question2722/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2722/inputs/in4.txt;../app/questions/question2722/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2722/inputs/in5.txt;../app/questions/question2722/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

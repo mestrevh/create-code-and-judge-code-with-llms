@@ -7,31 +7,166 @@
     <title>Questão 4694 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 4694</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4694</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Levantando fundos para o Lulupalloza
-Topicos do problema: array; string; estruturas; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <b id="docs-internal-guid-313cb0f0-7fff-ef3c-cc73-b8d6891eecc3"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Lulu com o intuito de levantar fundos para a próxima edição grandiosa do evento anual Lulupalloza decidiu fazer um bazar com os pertences de sua casa. Com isso ela pediu ajuda à você, estudante do CIN para ajudá-la e desenvolver um programa que auxiliará ela em suas vendas, fazendo o controle de estoque e caixa.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Cada item vendido tem um </span><span style="color: #000000;background-color: transparent;"><b>código</b></span><span style="color: #000000;background-color: transparent;"> (inteiro), </span><span style="color: #000000;background-color: transparent;"><b>nome</b></span><span style="color: #000000;background-color: transparent;"> (string de até 50 caracteres), </span><span style="color: #000000;background-color: transparent;"><b>preço</b></span><span style="color: #000000;background-color: transparent;"> (float) e </span><span style="color: #000000;background-color: transparent;"><b>quantidade em estoque</b></span><span style="color: #000000;background-color: transparent;"> (inteiro).</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">O seu código depois de receber o estoque tem dois ramos:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">01 - <b>Venda</b></span><span style="color: #000000;background-color: transparent;">: Você irá receber uma lista de produtos e por final quantos reais o cliente lhe deu, devendo assim fazer a checagem do estoque para saber se tem como realizar a venda.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Em caso de sucesso você irá imprimir a compra em formato parecido com uma nota fiscal (veja o exemplo de saída para ver o formato)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Lembre de atualizar o valor do estoque após cada compra</span></p><span style="color: #000000;background-color: transparent;">02 - <b>Estoque</b></span><span style="color: #000000;background-color: transparent;">: Nesse ramo você irá imprimir uma lista de estoque contendo somente o código, nome e quantidade em estoque (em ordem lexicográfica)</span>
-Formato da entrada: <b id="docs-internal-guid-6b6ecd0e-7fff-7691-46b6-f2d09240be3a"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>N</b> </span><span style="color: #000000;background-color: transparent;">produtos (1 &lt;= N &lt;= 100)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">seguido dos N produtos (cada atributo seguirá a ordem do enunciado: código, nome, preço e qtd em estoque)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>M</b> </span><span style="color: #000000;background-color: transparent;">operações (1 &lt;= M &lt;= 10)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">uma string de conteúdo </span><span style="color: #000000;background-color: transparent;"><b>Venda</b> </span><span style="color: #000000;background-color: transparent;">ou </span><span style="color: #000000;background-color: transparent;"><b>Estoque </b></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Em caso de </span><span style="color: #000000;background-color: transparent;"><b>Venda</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>X</b> (X &lt;= N) </span><span style="color: #000000;background-color: transparent;">quantidade de códigos diferentes comprados </span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">seguidos de<b> X </b>quantidade de códigos e quantidade de cada produto comprado</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Por final um valor </span><span style="color: #000000;background-color: transparent;"><b>Y</b>(float) </span><span style="color: #000000;background-color: transparent;">que irá ser o valor em dinheiro dado pelo cliente</span></p><span style="color: #000000;background-color: transparent;">Em caso de </span><span style="color: #000000;background-color: transparent;">Estoque </span><span style="color: #000000;background-color: transparent;">não haverá nenhuma entrada extra</span>
-Formato da saída: <p></p><p></p><p></p><p></p><p><b id="docs-internal-guid-e063db40-7fff-475b-5bd8-3a9a0f43e1c6"></b></p><p><span style="color: #000000;background-color: transparent;">Para cada </span><span style="color: #000000;background-color: transparent;"><b>Venda</b></span><span style="color: #000000;background-color: transparent;"> será:</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Em caso de possível a <b>venda</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">[nome do produto 1] - R$[preço unitário 1] - [quantidade 1] - R$[preço 1 * quantidade 1]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">[nome do produto 2] - R$[preço unitário 2] - [quantidade 2] - R$[preço 2 * quantidade 2]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Total: R$[valor total]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Pago: R$[valor dado pelo cliente]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Troco: R$[valor do troco]</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso <b>não</b> for possível: “Não foi possível efetuar a compra\n”</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Para cada </span><span style="color: #000000;background-color: transparent;"><b>Estoque</b> </span><span style="color: #000000;background-color: transparent;">será:</span></p>Estoque atual:<br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">1. [código 1] - [nome 1] - [qtd em estoque 1]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">2. [código 2] - [nome 2] - [qtd em estoque 2]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">… </span></p><p></p><p></p><p></p><p></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">string</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estruturas</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Levantando fundos para o Lulupalloza</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<b id="docs-internal-guid-313cb0f0-7fff-ef3c-cc73-b8d6891eecc3"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Lulu com o intuito de levantar fundos para a próxima edição grandiosa do evento anual Lulupalloza decidiu fazer um bazar com os pertences de sua casa. Com isso ela pediu ajuda à você, estudante do CIN para ajudá-la e desenvolver um programa que auxiliará ela em suas vendas, fazendo o controle de estoque e caixa.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Cada item vendido tem um </span><span style="color: #000000;background-color: transparent;"><b>código</b></span><span style="color: #000000;background-color: transparent;"> (inteiro), </span><span style="color: #000000;background-color: transparent;"><b>nome</b></span><span style="color: #000000;background-color: transparent;"> (string de até 50 caracteres), </span><span style="color: #000000;background-color: transparent;"><b>preço</b></span><span style="color: #000000;background-color: transparent;"> (float) e </span><span style="color: #000000;background-color: transparent;"><b>quantidade em estoque</b></span><span style="color: #000000;background-color: transparent;"> (inteiro).</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">O seu código depois de receber o estoque tem dois ramos:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">01 - <b>Venda</b></span><span style="color: #000000;background-color: transparent;">: Você irá receber uma lista de produtos e por final quantos reais o cliente lhe deu, devendo assim fazer a checagem do estoque para saber se tem como realizar a venda.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Em caso de sucesso você irá imprimir a compra em formato parecido com uma nota fiscal (veja o exemplo de saída para ver o formato)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Lembre de atualizar o valor do estoque após cada compra</span></p><span style="color: #000000;background-color: transparent;">02 - <b>Estoque</b></span><span style="color: #000000;background-color: transparent;">: Nesse ramo você irá imprimir uma lista de estoque contendo somente o código, nome e quantidade em estoque (em ordem lexicográfica)</span></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-6b6ecd0e-7fff-7691-46b6-f2d09240be3a"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>N</b> </span><span style="color: #000000;background-color: transparent;">produtos (1 &lt;= N &lt;= 100)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">seguido dos N produtos (cada atributo seguirá a ordem do enunciado: código, nome, preço e qtd em estoque)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>M</b> </span><span style="color: #000000;background-color: transparent;">operações (1 &lt;= M &lt;= 10)</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">uma string de conteúdo </span><span style="color: #000000;background-color: transparent;"><b>Venda</b> </span><span style="color: #000000;background-color: transparent;">ou </span><span style="color: #000000;background-color: transparent;"><b>Estoque </b></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Em caso de </span><span style="color: #000000;background-color: transparent;"><b>Venda</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>X</b> (X &lt;= N) </span><span style="color: #000000;background-color: transparent;">quantidade de códigos diferentes comprados </span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">seguidos de<b> X </b>quantidade de códigos e quantidade de cada produto comprado</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Por final um valor </span><span style="color: #000000;background-color: transparent;"><b>Y</b>(float) </span><span style="color: #000000;background-color: transparent;">que irá ser o valor em dinheiro dado pelo cliente</span></p><span style="color: #000000;background-color: transparent;">Em caso de </span><span style="color: #000000;background-color: transparent;">Estoque </span><span style="color: #000000;background-color: transparent;">não haverá nenhuma entrada extra</span></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p></p><p></p><p></p><p></p><p><b id="docs-internal-guid-e063db40-7fff-475b-5bd8-3a9a0f43e1c6"></b></p><p><span style="color: #000000;background-color: transparent;">Para cada </span><span style="color: #000000;background-color: transparent;"><b>Venda</b></span><span style="color: #000000;background-color: transparent;"> será:</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Em caso de possível a <b>venda</b>:</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">[nome do produto 1] - R$[preço unitário 1] - [quantidade 1] - R$[preço 1 * quantidade 1]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">[nome do produto 2] - R$[preço unitário 2] - [quantidade 2] - R$[preço 2 * quantidade 2]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Total: R$[valor total]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Pago: R$[valor dado pelo cliente]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Troco: R$[valor do troco]</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Caso <b>não</b> for possível: “Não foi possível efetuar a compra\n”</span></p><br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Para cada </span><span style="color: #000000;background-color: transparent;"><b>Estoque</b> </span><span style="color: #000000;background-color: transparent;">será:</span></p>Estoque atual:<br/><p dir="ltr"><span style="color: #000000;background-color: transparent;">1. [código 1] - [nome 1] - [qtd em estoque 1]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">2. [código 2] - [nome 2] - [qtd em estoque 2]</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">… </span></p><p></p><p></p><p></p><p></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question4694/inputs/in0.txt;../app/questions/question4694/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question4694/inputs/in1.txt;../app/questions/question4694/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question4694/inputs/in2.txt;../app/questions/question4694/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question4694/inputs/in3.txt;../app/questions/question4694/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

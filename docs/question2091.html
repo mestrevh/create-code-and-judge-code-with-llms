@@ -7,31 +7,174 @@
     <title>Questão 2091 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2091</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2091</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: L3Q2 - Teoria da Branca de Neve
-Topicos do problema: array; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <h5></h5>A Branca de Neve adora preparar o jantar para os anões, mas como cada um deles come porções diferentes e estão presentes na casa em momentos diferentes, é muito comum que ela se confunda e cozinhe mais ou menos comida.<div><br/></div><div>Para evitar desperdício e também para não deixar ninguém com fome, Branca de Neve gostaria de ter uma forma segura de saber quem vai comer e quem não vai comer, então é necessário evitar que um anão possa avisar repetidamente que irá comer ou que avise mais de uma vez que não irá comer.</div><div><br/></div><div>Conseguindo manter um controle das presenças e quantidades de comida dos anões, nas refeições, ela pode saber exatamente quantos anões irão estar em casa no momento da refeição e a quantidade de comida que cada um irá comer.</div><div><br/></div><div>Para resolver esse problema ela comprou um computador na loja do Maurice e pediu a sua ajuda para criar um programa para monitorar as entradas e saídas da casa, assim ela conseguirá saber exatamente o quanto cozinhar.</div><div><br/></div><div><b>Obs: </b>No inicio do programa deve ser considerado que a casa está vazia e não se tem informações do quanto cada anão come.<br/><h6><p></p><p><br/></p></h6><h6 style="text-align: center;">.<img src="https://www.thehuxley.com/api/v1/problems/image/9b9151c949755d3daca89c08357d408bab928afd6.jpg"/></h6></div>
-Formato da entrada: <p><span>A primeira linha da entrada é composta por um inteiro N, representando o número de comandos que seguirão.</span></p><p><span><br/></span></p><p>Cada comando tem o seguinte formato:</p><blockquote><p>OP:NOME</p></blockquote><p>O comando é composto por uma operação que pode ser: &#34;ENTROU&#34; ou &#34;SAIU&#34; (ambos sem aspas), um carácter &#34;:&#34; (sem aspas) e pelo nome do anão que realizou a operação</p><p><br/></p><p>Caso o comando seja &#34;ENTROU&#34;, a próxima linha será composta por um inteiro Q, representando a quantidade de comida, em gramas, desejada pelo anão.</p><p><br/></p><p><br/></p><p><b>OBS: </b>Podem haver espaços no nome.</p>
-Formato da saída: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Apos cada comando, seu programa deverá imprimir uma linha:</p><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li>Quando um anão entra em casa: &#34;<b>NOME</b> entrou e gostaria de <b>QUANTIDADE</b>g de comida.&#34;</li><li>Quando o comando ENTROU é usado com um anão que já estava na casa: &#34;Anao ja estava em casa.&#34;</li><li>Quando um anão sai da casa: &#34;<b>NOME</b> saiu de casa.&#34;</li><li>Quando o comando SAIU é usado com um anão que não estava na casa: &#34;<b>NOME</b> nao estava na casa.&#34;</li></ul><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Após os comandos, seu programa deverá imprimir:</span><ul><li>Uma linha no seguinte formato, no qual X representa a quantidade de anões na casa: &#34;Estao na casa <b>X</b> anoes:&#34;</li><li>X linhas, cada uma contendo os nomes dos anões na casa, na ordem de entrada</li><li>Uma linha composta por um inteiro correspondente a quantia total de comida que a Branca de Neve precisará preparar (em gramas)</li></ul><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></span><div><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Deve haver uma linha em branco entre as saídas dos comandos e as saídas referentes ao fim do programa.<br/></span></div><div><b><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></b></b></div><div><b><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></b></b></div><b>OBS</b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>:</b><span><b> </b></span></span><div><ul><li><font color="#000000">Caso tenham exatamente 7 anões na casa, a linha contendo a quantidade de anões no final deverá ser desconsiderada e o programa deverá imprimir: </font><span style="color: rgb(0, 0, 0);">&#34;teoria da branca de neve: porque so ter um se eu posso ter sete?&#34;</span></li></ul><div><div><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div></div></div></div>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>L3Q2 - Teoria da Branca de Neve</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<h5></h5>A Branca de Neve adora preparar o jantar para os anões, mas como cada um deles come porções diferentes e estão presentes na casa em momentos diferentes, é muito comum que ela se confunda e cozinhe mais ou menos comida.<div><br/></div><div>Para evitar desperdício e também para não deixar ninguém com fome, Branca de Neve gostaria de ter uma forma segura de saber quem vai comer e quem não vai comer, então é necessário evitar que um anão possa avisar repetidamente que irá comer ou que avise mais de uma vez que não irá comer.</div><div><br/></div><div>Conseguindo manter um controle das presenças e quantidades de comida dos anões, nas refeições, ela pode saber exatamente quantos anões irão estar em casa no momento da refeição e a quantidade de comida que cada um irá comer.</div><div><br/></div><div>Para resolver esse problema ela comprou um computador na loja do Maurice e pediu a sua ajuda para criar um programa para monitorar as entradas e saídas da casa, assim ela conseguirá saber exatamente o quanto cozinhar.</div><div><br/></div><div><b>Obs: </b>No inicio do programa deve ser considerado que a casa está vazia e não se tem informações do quanto cada anão come.<br/><h6><p></p><p><br/></p></h6><h6 style="text-align: center;">.<img src="https://www.thehuxley.com/api/v1/problems/image/9b9151c949755d3daca89c08357d408bab928afd6.jpg"/></h6></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span>A primeira linha da entrada é composta por um inteiro N, representando o número de comandos que seguirão.</span></p><p><span><br/></span></p><p>Cada comando tem o seguinte formato:</p><blockquote><p>OP:NOME</p></blockquote><p>O comando é composto por uma operação que pode ser: &#34;ENTROU&#34; ou &#34;SAIU&#34; (ambos sem aspas), um carácter &#34;:&#34; (sem aspas) e pelo nome do anão que realizou a operação</p><p><br/></p><p>Caso o comando seja &#34;ENTROU&#34;, a próxima linha será composta por um inteiro Q, representando a quantidade de comida, em gramas, desejada pelo anão.</p><p><br/></p><p><br/></p><p><b>OBS: </b>Podem haver espaços no nome.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Apos cada comando, seu programa deverá imprimir uma linha:</p><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li>Quando um anão entra em casa: &#34;<b>NOME</b> entrou e gostaria de <b>QUANTIDADE</b>g de comida.&#34;</li><li>Quando o comando ENTROU é usado com um anão que já estava na casa: &#34;Anao ja estava em casa.&#34;</li><li>Quando um anão sai da casa: &#34;<b>NOME</b> saiu de casa.&#34;</li><li>Quando o comando SAIU é usado com um anão que não estava na casa: &#34;<b>NOME</b> nao estava na casa.&#34;</li></ul><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Após os comandos, seu programa deverá imprimir:</span><ul><li>Uma linha no seguinte formato, no qual X representa a quantidade de anões na casa: &#34;Estao na casa <b>X</b> anoes:&#34;</li><li>X linhas, cada uma contendo os nomes dos anões na casa, na ordem de entrada</li><li>Uma linha composta por um inteiro correspondente a quantia total de comida que a Branca de Neve precisará preparar (em gramas)</li></ul><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></span><div><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Deve haver uma linha em branco entre as saídas dos comandos e as saídas referentes ao fim do programa.<br/></span></div><div><b><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></b></b></div><div><b><b style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><br/></b></b></div><b>OBS</b><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>:</b><span><b> </b></span></span><div><ul><li><font color="#000000">Caso tenham exatamente 7 anões na casa, a linha contendo a quantidade de anões no final deverá ser desconsiderada e o programa deverá imprimir: </font><span style="color: rgb(0, 0, 0);">&#34;teoria da branca de neve: porque so ter um se eu posso ter sete?&#34;</span></li></ul><div><div><div style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"></div></div></div></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2091/inputs/in0.txt;../app/questions/question2091/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2091/inputs/in1.txt;../app/questions/question2091/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question2091/inputs/in2.txt;../app/questions/question2091/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question2091/inputs/in3.txt;../app/questions/question2091/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question2091/inputs/in4.txt;../app/questions/question2091/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question2091/inputs/in5.txt;../app/questions/question2091/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

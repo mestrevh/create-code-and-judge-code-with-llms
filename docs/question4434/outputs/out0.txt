@@ -1,0 +1,9 @@
+Produto adicionado no estoque!
+Produto adicionado no estoque!
+LINHA: 0 COLUNA: 0 QTD: 10 PRECO: 20.50
+Produto atualizado!
+LINHA: 0 COLUNA: 0 NOME: ProdutoA QTD: 15 PRECO: 25.50
+LINHA: 1 COLUNA: 1 NOME: ProdutoB QTD: 5 PRECO: 15.75
+Produto removido!
+LINHA: 0 COLUNA: 0 NOME: ProdutoA QTD: 15 PRECO: 25.50
+Saindo...

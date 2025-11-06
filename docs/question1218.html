@@ -7,31 +7,170 @@
     <title>Questão 1218 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 1218</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 1218</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: P2Q1 - Bruxa dos Doces
-Topicos do problema: array; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p><b id="docs-internal-guid-62b4a732-e369-d3fa-6638-310f41d58360"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Apesar de não ser bruxo, Sílvio, um entusiasta e amigo da comunidade bruxa, foi convidado para Hogwarts, com a finalidade de ministrar uma palestra sobre a importância e as principais aplicações das matrizes no mundo da magia.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Para chegar à escola de magia, Sílvio precisou embarcar no Expresso de Hogwarts e se deparou com a Bruxa dos Doces, que gostaria de saber qual o vagão mais lucrativo.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Porém, Sílvio ainda precisa se preparar para sua palestra e pede ajuda para que você resolver o problema da Bruxa dos Doces. Ele solicita que você escreva um programa que, dado as vendas realizadas pela Bruxa dos Doces nos primeiros 30 minutos, identifique qual o vagão apresenta maior volume de vendas.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">OBS: </span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">as vendas agrupam todos as compras realizadas em um vagão, por vez;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">seu programa deve considerar que não houve compra antes das informadas na entrada.</span></p></li></ul><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><b>É obrigatório o uso de array para a solução da questão.</b></span></p>
-Formato da entrada: <p><b id="docs-internal-guid-62b4a732-e36a-f503-5d42-fc637cfd4c26"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">N Q</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">V P</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>N - número inteiro positivo (2 &lt;= N &lt;= 100)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>Q - número inteiro positivo (1 &lt;= Q &lt;= 100)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A primeira linha contém o número de vagões  (N) e a quantidade de vendas realizadas (Q).</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>V - número inteiro positivo (1 &lt;= V &lt;= N)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>P - número de ponto flutuante positivo (0 &lt; P &lt;= 200.0)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">As próximas Q linhas são compostas pelo número do vagão (V) em que a venda foi realizada e o total obtido com a venda dos produtos (P) em Galeões.</span></p><br/><br/>
-Formato da saída: <p><b id="docs-internal-guid-62b4a732-e36b-4864-99ee-2eda65b26b7d"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">M T</span></p><b><br/></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>M - número inteiro positivo</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>T - número de ponto flutuante</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A saída é composta pelo número do vagão (M) com maior volume de vendas e o total de vendas realizadas (T) nesse vagão em Galeões. Esses valores devem ser separados por espaço.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">O total de vendas deve estar aproximado em uma casa decimal (utilize printf).</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">OBS: é garantido que só haverá um vagão com o maior total de vendas. Portanto, todos os vagões devem ter volume de vendas diferentes.</span></p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>P2Q1 - Bruxa dos Doces</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p><b id="docs-internal-guid-62b4a732-e369-d3fa-6638-310f41d58360"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Apesar de não ser bruxo, Sílvio, um entusiasta e amigo da comunidade bruxa, foi convidado para Hogwarts, com a finalidade de ministrar uma palestra sobre a importância e as principais aplicações das matrizes no mundo da magia.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Para chegar à escola de magia, Sílvio precisou embarcar no Expresso de Hogwarts e se deparou com a Bruxa dos Doces, que gostaria de saber qual o vagão mais lucrativo.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Porém, Sílvio ainda precisa se preparar para sua palestra e pede ajuda para que você resolver o problema da Bruxa dos Doces. Ele solicita que você escreva um programa que, dado as vendas realizadas pela Bruxa dos Doces nos primeiros 30 minutos, identifique qual o vagão apresenta maior volume de vendas.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">OBS: </span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">as vendas agrupam todos as compras realizadas em um vagão, por vez;</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">seu programa deve considerar que não houve compra antes das informadas na entrada.</span></p></li></ul><br/><p dir="ltr" style="text-align: center;"><span style="color: #000000;background-color: transparent;"><b>É obrigatório o uso de array para a solução da questão.</b></span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><b id="docs-internal-guid-62b4a732-e36a-f503-5d42-fc637cfd4c26"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">N Q</span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">V P</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>N - número inteiro positivo (2 &lt;= N &lt;= 100)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>Q - número inteiro positivo (1 &lt;= Q &lt;= 100)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A primeira linha contém o número de vagões  (N) e a quantidade de vendas realizadas (Q).</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>V - número inteiro positivo (1 &lt;= V &lt;= N)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>P - número de ponto flutuante positivo (0 &lt; P &lt;= 200.0)</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">As próximas Q linhas são compostas pelo número do vagão (V) em que a venda foi realizada e o total obtido com a venda dos produtos (P) em Galeões.</span></p><br/><br/></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><b id="docs-internal-guid-62b4a732-e36b-4864-99ee-2eda65b26b7d"></b></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">M T</span></p><b><br/></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>M - número inteiro positivo</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;"><b>T - número de ponto flutuante</b></span></p><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">A saída é composta pelo número do vagão (M) com maior volume de vendas e o total de vendas realizadas (T) nesse vagão em Galeões. Esses valores devem ser separados por espaço.</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">O total de vendas deve estar aproximado em uma casa decimal (utilize printf).</span></p><br/><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">OBS: é garantido que só haverá um vagão com o maior total de vendas. Portanto, todos os vagões devem ter volume de vendas diferentes.</span></p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question1218/inputs/in0.txt;../app/questions/question1218/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question1218/inputs/in1.txt;../app/questions/question1218/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question1218/inputs/in2.txt;../app/questions/question1218/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question1218/inputs/in3.txt;../app/questions/question1218/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question1218/inputs/in4.txt;../app/questions/question1218/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

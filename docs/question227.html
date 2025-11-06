@@ -7,31 +7,170 @@
     <title>Questão 227 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 227</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 227</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Paciência em linha
-Topicos do problema: multiplas entradas; array; pilha; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p> O problema consiste em simular uma modalidade diferente do jogo de cartas &#34;Paciência&#34;,<br/>as regras são as seguintes:</p>&#13;<p> &#34; As cartas são distribuidas uma a uma em uma linha da esquerda para a direita,<br/>   não sobrepostas. Sempre que um cartão combina com o seu vizinho à esquerda,<br/>   ou com o terceiro à esquerda, ele pode ser movido sobre o outro. Cartas combinam<br/>   se elas possuem o mesmo naipe ou a mesma classe. Após fazer um movimento,<br/>   observe se mais movimentos podem ser realizados. Somente o cartão do topo de<br/>   cada pilha pode ser movido a qualquer momento. Espaços entre as pilhas(pilhas são<br/>   compostas de uma ou mais cartas) devem ser ocupados pela pilha mais próxima à<br/>   direita. Combine o máximo de cartas possíveis, o jogador ganha se apenas uma pilha<br/>   permanece.&#34;</p>&#13;<p>  Podem surgir situações onde mais de um movimento é possível. Quando duas cartas<br/> puderem ser movidas, você deve adotar a estratégia de sempre mover a carta mais à<br/> esquerda possível. Sempre que um cartão puder ser movido de duas maneiras, mova-o<br/> três posições para a esquerda.</p>&#13;<p>Demostração de um movimento em um jogo real dividida em duas etapas:</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/2fcebc516a7f06d9105335373e3f8bc3.jpg" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/2fcebc516a7f06d9105335373e3f8bc3.jpg" border="0" width="527" height="261"/></a></p><p><br/></p>&#13;<p> A carta movida é a rainha de paus (QC), ela pode ser movida de duas maneiras possíveis, segundo<br/> a estratégia adotada ela é movida 3 posições para a esquerda, logo após, os espaços vazios são<br/> ocupados pelas pilhas vizinhas à direita.</p>&#13;<p> </p>
-Formato da entrada: <p>&nbsp;Os dados de entrada especificam a ordem em que as cartas ser&atilde;o distribuidas no bloco<br />A entrada cont&eacute;m pares de linhas, cada uma com 26 cartas separadas por um caractere de<br />espa&ccedil;o. A &uacute;ltima linha de entrada cont&eacute;m o caractere '#' como primeiro caractere. Cartas<br />s&atilde;o representadas por dois caracteres. O primeiro caractere representa a classe da carta<br />(A = &Aacute;s , 2-9, T = 10, J = Valete, Q = Rainha , K = Rei ) e o segundo caractere representa<br />o naipe (C = Paus , D = Ouros , H = Copas , S = Espadas).</p>
-Formato da saída: <p>&nbsp;Uma linha de sa&iacute;da deve ser produzida para cada par de linhas(cada par com 52 cartas).<br />Cada linha cont&eacute;m o n&uacute;mero de pilhas, assim como o n&uacute;mero de cartas de cada pilha<br />remanescente ap&oacute;s um jogo, conforme o exemplo de sa&iacute;da.</p>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">multiplas entradas</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">pilha</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Paciência em linha</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p> O problema consiste em simular uma modalidade diferente do jogo de cartas &#34;Paciência&#34;,<br/>as regras são as seguintes:</p>&#13;<p> &#34; As cartas são distribuidas uma a uma em uma linha da esquerda para a direita,<br/>   não sobrepostas. Sempre que um cartão combina com o seu vizinho à esquerda,<br/>   ou com o terceiro à esquerda, ele pode ser movido sobre o outro. Cartas combinam<br/>   se elas possuem o mesmo naipe ou a mesma classe. Após fazer um movimento,<br/>   observe se mais movimentos podem ser realizados. Somente o cartão do topo de<br/>   cada pilha pode ser movido a qualquer momento. Espaços entre as pilhas(pilhas são<br/>   compostas de uma ou mais cartas) devem ser ocupados pela pilha mais próxima à<br/>   direita. Combine o máximo de cartas possíveis, o jogador ganha se apenas uma pilha<br/>   permanece.&#34;</p>&#13;<p>  Podem surgir situações onde mais de um movimento é possível. Quando duas cartas<br/> puderem ser movidas, você deve adotar a estratégia de sempre mover a carta mais à<br/> esquerda possível. Sempre que um cartão puder ser movido de duas maneiras, mova-o<br/> três posições para a esquerda.</p>&#13;<p>Demostração de um movimento em um jogo real dividida em duas etapas:</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/2fcebc516a7f06d9105335373e3f8bc3.jpg" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/2fcebc516a7f06d9105335373e3f8bc3.jpg" border="0" width="527" height="261"/></a></p><p><br/></p>&#13;<p> A carta movida é a rainha de paus (QC), ela pode ser movida de duas maneiras possíveis, segundo<br/> a estratégia adotada ela é movida 3 posições para a esquerda, logo após, os espaços vazios são<br/> ocupados pelas pilhas vizinhas à direita.</p>&#13;<p> </p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>&nbsp;Os dados de entrada especificam a ordem em que as cartas ser&atilde;o distribuidas no bloco<br />A entrada cont&eacute;m pares de linhas, cada uma com 26 cartas separadas por um caractere de<br />espa&ccedil;o. A &uacute;ltima linha de entrada cont&eacute;m o caractere '#' como primeiro caractere. Cartas<br />s&atilde;o representadas por dois caracteres. O primeiro caractere representa a classe da carta<br />(A = &Aacute;s , 2-9, T = 10, J = Valete, Q = Rainha , K = Rei ) e o segundo caractere representa<br />o naipe (C = Paus , D = Ouros , H = Copas , S = Espadas).</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>&nbsp;Uma linha de sa&iacute;da deve ser produzida para cada par de linhas(cada par com 52 cartas).<br />Cada linha cont&eacute;m o n&uacute;mero de pilhas, assim como o n&uacute;mero de cartas de cada pilha<br />remanescente ap&oacute;s um jogo, conforme o exemplo de sa&iacute;da.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question227/inputs/in0.txt;../app/questions/question227/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question227/inputs/in1.txt;../app/questions/question227/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question227/inputs/in2.txt;../app/questions/question227/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question227/inputs/in3.txt;../app/questions/question227/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question227/inputs/in4.txt;../app/questions/question227/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

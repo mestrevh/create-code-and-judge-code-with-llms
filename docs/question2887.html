@@ -7,31 +7,158 @@
     <title>Questão 2887 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 2887</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2887</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Evolucao das especies
-Topicos do problema: array; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <div class="ng-binding"><p>Uma forma que os cientistas possuem para medir como uma espécie evoluiu para outra é encontrar como o genoma do ancestral mudou até a espécie atual. Espécies próximas possuem vários genes em comum e, logo, uma boa maneira de compará-las é comparar como seus genes trocaram de lugar.</p><p>Uma das mutações mais comuns que mudam a ordem dos genes é a &#34;reversa&#34;. Se modelarmos um genoma como uma sequência de N genes, onde cada um é um inteiro de 1 a N, então a &#34;reversa&#34; é uma mutação que muda o genoma revertendo a ordem de um bloco consecutivo de genes.</p><p>Uma reversa pode ser descrita por dois índices (i, j), onde: 1 &lt;=i &lt;=j &lt;=N. Os índices indicam que ele reverte a ordem do gene i até o gene j.  Como um exemplo, a reversa (3,6) aplicada ao genoma [1, 2, 3, 4, 5, 6, 7] tem como resultado: [1, 2, 6, 5, 4, 3, 7]. Se após essa primeira reversa, nós aplicarmos novamente uma reversa (1,3), então o genoma será: [6, 2, 1, 5, 4, 3, 7].</p><p>Um cientista estudando a evolução das espécies quer simular uma série de reversas em um genoma.  Depois ele vai querer saber a posição final de vários genes. Você deve elaborar um programa para auxiliar na resolução desse problema.<br/></p></div>
-Formato da entrada: <div class="ng-binding"><p>São vários casos de testes.</p><p>A primeira linha de um caso de teste contém um inteiro N indicando o número de genes de um genoma (1 &lt;= N &lt;= 500). Você pode assumir que a ordem inicial dos genes é uma sequência de inteiros de 1 a N em ordem crescente. Deve ser mostrada a mensagem &#34;Digite o numero de genes do genoma entre 1 e 500:&#34;<br/></p><p>A segunda linha contém um inteiro R (0&lt;=R&lt;=100) indicando o número de reversas. Então seguirão R linhas, cada uma contendo dois inteiros i,j, um em cada linha, indicando os índices da reversa. Lembre-se que nesse caso, i &lt;=1 &lt;= j &lt;= N. Deve ser mostrada a mensagem &#34;Digite o numero de reversas entre 1 e 100:&#34;, &#34;Digite a posicao inicial da reversa:&#34;e &#34;Digite a posicao final da reversa:&#34;<br/></p><p>Depois das reversas, existe uma linha contendo um inteiro Q indicando o número de consultas que serão feitas para os genes. Seguirão Q linhas, onde cada linha contém um inteiro representando um gene cuja posição final você deve determinar. Deve ser mostrada a mensagem &#34;Digite o número de consultas:&#34; e &#34;Digite a posicao a ser consultada entre 1 e N:&#34; (mostre o valor numérico de N nesta frase)<br/></p><p>A entrada só termina quando N for 0.</p></div>
-Formato da saída: <div class="ng-binding"><p>Para cada caso de teste, o seu programa produzirá Q+1 linhas de saída. A primeira linha contém o texto &#34;Genome&#34; seguida pelo número do caso de teste. As Q linhas seguintes contém a mensagem &#34;Posicao n: &#34;, seguidas de um inteiro cada, representando a resposta das consultas. O programa deve exibir as seguintes mensagens:</p><p>Digite o numero de genes do genoma entre 1 e 500:</p><p>Digite o numero de reversas entre 1 e 100:</p><p>Digite a posicao inicial da reversa:</p><p>Digite a posicao final da reversa:<br/></p><p>Digite o número de consultas:</p><p>Genome n<br/></p><p>Digite a posicao a ser consultada entre 1 e N:</p><p>Posicao n: n</p><p>Digite a posicao a ser consultada entre 1 e N:<br/></p><p>Posicao n: n<br/></p><p><br/></p></div>
-</div> 
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Evolucao das especies</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<div class="ng-binding"><p>Uma forma que os cientistas possuem para medir como uma espécie evoluiu para outra é encontrar como o genoma do ancestral mudou até a espécie atual. Espécies próximas possuem vários genes em comum e, logo, uma boa maneira de compará-las é comparar como seus genes trocaram de lugar.</p><p>Uma das mutações mais comuns que mudam a ordem dos genes é a &#34;reversa&#34;. Se modelarmos um genoma como uma sequência de N genes, onde cada um é um inteiro de 1 a N, então a &#34;reversa&#34; é uma mutação que muda o genoma revertendo a ordem de um bloco consecutivo de genes.</p><p>Uma reversa pode ser descrita por dois índices (i, j), onde: 1 &lt;=i &lt;=j &lt;=N. Os índices indicam que ele reverte a ordem do gene i até o gene j.  Como um exemplo, a reversa (3,6) aplicada ao genoma [1, 2, 3, 4, 5, 6, 7] tem como resultado: [1, 2, 6, 5, 4, 3, 7]. Se após essa primeira reversa, nós aplicarmos novamente uma reversa (1,3), então o genoma será: [6, 2, 1, 5, 4, 3, 7].</p><p>Um cientista estudando a evolução das espécies quer simular uma série de reversas em um genoma.  Depois ele vai querer saber a posição final de vários genes. Você deve elaborar um programa para auxiliar na resolução desse problema.<br/></p></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><div class="ng-binding"><p>São vários casos de testes.</p><p>A primeira linha de um caso de teste contém um inteiro N indicando o número de genes de um genoma (1 &lt;= N &lt;= 500). Você pode assumir que a ordem inicial dos genes é uma sequência de inteiros de 1 a N em ordem crescente. Deve ser mostrada a mensagem &#34;Digite o numero de genes do genoma entre 1 e 500:&#34;<br/></p><p>A segunda linha contém um inteiro R (0&lt;=R&lt;=100) indicando o número de reversas. Então seguirão R linhas, cada uma contendo dois inteiros i,j, um em cada linha, indicando os índices da reversa. Lembre-se que nesse caso, i &lt;=1 &lt;= j &lt;= N. Deve ser mostrada a mensagem &#34;Digite o numero de reversas entre 1 e 100:&#34;, &#34;Digite a posicao inicial da reversa:&#34;e &#34;Digite a posicao final da reversa:&#34;<br/></p><p>Depois das reversas, existe uma linha contendo um inteiro Q indicando o número de consultas que serão feitas para os genes. Seguirão Q linhas, onde cada linha contém um inteiro representando um gene cuja posição final você deve determinar. Deve ser mostrada a mensagem &#34;Digite o número de consultas:&#34; e &#34;Digite a posicao a ser consultada entre 1 e N:&#34; (mostre o valor numérico de N nesta frase)<br/></p><p>A entrada só termina quando N for 0.</p></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><div class="ng-binding"><p>Para cada caso de teste, o seu programa produzirá Q+1 linhas de saída. A primeira linha contém o texto &#34;Genome&#34; seguida pelo número do caso de teste. As Q linhas seguintes contém a mensagem &#34;Posicao n: &#34;, seguidas de um inteiro cada, representando a resposta das consultas. O programa deve exibir as seguintes mensagens:</p><p>Digite o numero de genes do genoma entre 1 e 500:</p><p>Digite o numero de reversas entre 1 e 100:</p><p>Digite a posicao inicial da reversa:</p><p>Digite a posicao final da reversa:<br/></p><p>Digite o número de consultas:</p><p>Genome n<br/></p><p>Digite a posicao a ser consultada entre 1 e N:</p><p>Posicao n: n</p><p>Digite a posicao a ser consultada entre 1 e N:<br/></p><p>Posicao n: n<br/></p><p><br/></p></div></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question2887/inputs/in0.txt;../app/questions/question2887/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question2887/inputs/in1.txt;../app/questions/question2887/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

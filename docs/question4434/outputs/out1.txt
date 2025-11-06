@@ -1,0 +1,8 @@
+Produto adicionado no estoque!
+Produto adicionado no estoque!
+ERRO: espaco ja ocupado
+Produto adicionado no estoque!
+LINHA: 0 COLUNA: 0 NOME: ProdutoX QTD: 8 PRECO: 15.00
+LINHA: 1 COLUNA: 1 NOME: ProdutoY QTD: 3 PRECO: 12.50
+LINHA: 2 COLUNA: 2 NOME: ProdutoZ QTD: 6 PRECO: 10.25
+Saindo...

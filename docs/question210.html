@@ -7,23 +7,54 @@
     <title>Questão 210 - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Adiciona suporte para estilos de prosa (formatacao de texto) do Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script> 
-    <style> body { font-family: 'Inter', sans-serif; } </style>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        pre {
+            white-space: pre-wrap;   
+            word-wrap: break-word;   
+        }
+        .copy-container {
+            position: relative;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background-color: #4B5563; 
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem; 
+            font-size: 0.75rem; 
+            font-weight: 500; 
+            opacity: 0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .copy-container:hover .copy-btn {
+            opacity: 1;
+        }
+        .copy-btn:active {
+            background-color: #1F2937; 
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-6 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-gray-800">Detalhes da Questão 210</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 210</h1>
             <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
         </header>
-        <main>
+        
+        <main class="space-y-6">
             <div class="bg-white p-6 rounded-xl shadow-lg">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Descrição do Problema (problem.txt)</h2>
-                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50">Título: Escalonamento Ótimo
-Topicos do problema: array; pilha; função; estruturas; 
-Tempo limite de execução: 1 segundo(s)
-Descrição: <p>O SBC (System for Batch Computing) &eacute; um sistema operacional voltado para a execu&ccedil;&atilde;o sequencial de tarefas.<br />O operador do sistema cria tarefas e o sistema operacional &eacute; respons&aacute;vel por agendar a execu&ccedil;&atilde;o destas tarefas.</p>
+                <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                    <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                    <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">pilha</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">função</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estruturas</span></div>
+                </div>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Escalonamento Ótimo</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>O SBC (System for Batch Computing) &eacute; um sistema operacional voltado para a execu&ccedil;&atilde;o sequencial de tarefas.<br />O operador do sistema cria tarefas e o sistema operacional &eacute; respons&aacute;vel por agendar a execu&ccedil;&atilde;o destas tarefas.</p>
 
 <p>Cada tarefa pode depender da conclus&atilde;o de algumas tarefas para poder come&ccedil;ar. Se uma tarefa A depende de<br />uma tarefa B, a tarefa B deve terminar antes que a tarefa A inicie sua execu&ccedil;&atilde;o.</p>
 
@@ -31,19 +62,147 @@ Descrição: <p>O SBC (System for Batch Computing) &eacute; um sistema operacion
 
 <p>Neste problema, ser&aacute; dado um inteiro N, que ir&aacute; representar o n&uacute;mero de tarefas no sistema. As tarefas ser&atilde;o<br />numeradas de 0 at&eacute; N &minus; 1. Tarefas com &iacute;ndice menor possuem prioridade maior, de forma que a tarefa 0 &eacute; a<br />tarefa de mais alta prioridade, a tarefa 1 &eacute; a tarefa com a segunda maior prioridade e assim por diante, at&eacute; a<br />tarefa N &minus;1, que &eacute; a tarefa com a menor prioridade. Al&eacute;m disso, ser&atilde;o dadas M rela&ccedil;&otilde;es de depend&ecirc;ncia entre<br />as tarefas.</p>
 
-<p>Seu objetivo ser&aacute; decidir se &eacute; poss&iacute;vel executar as tarefas em alguma ordem. Caso seja poss&iacute;vel, voc&ecirc; dever&aacute;<br />produzir uma ordem de execu&ccedil;&atilde;o &oacute;tima para as tarefas, isto &eacute;, desempate as ordens poss&iacute;veis pela prioridade da<br />primeira tarefa. Se o empate ainda persistir, desempate pela prioridade da segunda tarefa, e assim por diante.</p>
-Formato da entrada: <p>A primeira linha da entrada cont&eacute;m inteiros N e M. As pr&oacute;ximas M linhas descrevem, cada uma, uma<br />depend&ecirc;ncia entre as tarefas da entrada. Cada uma dessas linhas ir&aacute; conter dois inteiros A e B que indicam<br />que a tarefa B depende da tarefa A, isto &eacute;, que a tarefa A deve terminar antes que a tarefa B inicie.</p>
+<p>Seu objetivo ser&aacute; decidir se &eacute; poss&iacute;vel executar as tarefas em alguma ordem. Caso seja poss&iacute;vel, voc&ecirc; dever&aacute;<br />produzir uma ordem de execu&ccedil;&atilde;o &oacute;tima para as tarefas, isto &eacute;, desempate as ordens poss&iacute;veis pela prioridade da<br />primeira tarefa. Se o empate ainda persistir, desempate pela prioridade da segunda tarefa, e assim por diante.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A primeira linha da entrada cont&eacute;m inteiros N e M. As pr&oacute;ximas M linhas descrevem, cada uma, uma<br />depend&ecirc;ncia entre as tarefas da entrada. Cada uma dessas linhas ir&aacute; conter dois inteiros A e B que indicam<br />que a tarefa B depende da tarefa A, isto &eacute;, que a tarefa A deve terminar antes que a tarefa B inicie.</p>
 
 <p>Considere:</p>
 
-<p>&bull; 0 &lt;= N &lt;= 50000.<br />&bull; 0 &lt;= M &lt;= 200000.<br />&bull; 0 &lt;= A,B &lt; N.</p>
-Formato da saída: <p>Se n&atilde;o for poss&iacute;vel ordenar as tarefas de forma que as depend&ecirc;ncias sejam satisfeitas, imprima uma &uacute;nica linha<br />contendo o caracter *. Caso contr&aacute;rio, imprima N linhas contendo cada uma um n&uacute;mero inteiro. O inteiro<br />na i-&eacute;sima linha deve ser o &iacute;ndice da i-&eacute;sima tarefa a ser executada na ordem &oacute;tima de execu&ccedil;&atilde;o das tarefas.</p>
-</div> 
+<p>&bull; 0 &lt;= N &lt;= 50000.<br />&bull; 0 &lt;= M &lt;= 200000.<br />&bull; 0 &lt;= A,B &lt; N.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Se n&atilde;o for poss&iacute;vel ordenar as tarefas de forma que as depend&ecirc;ncias sejam satisfeitas, imprima uma &uacute;nica linha<br />contendo o caracter *. Caso contr&aacute;rio, imprima N linhas contendo cada uma um n&uacute;mero inteiro. O inteiro<br />na i-&eacute;sima linha deve ser o &iacute;ndice da i-&eacute;sima tarefa a ser executada na ordem &oacute;tima de execu&ccedil;&atilde;o das tarefas.</p></div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                
+                <div class="mb-4 flex items-center gap-4">
+                    <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                    <select 
+                        id="example-select" 
+                        onchange="handleSelectChange(this.value)"
+                        class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Selecione um exemplo...</option>
+        <option value="../app/questions/question210/inputs/in0.txt;../app/questions/question210/outputs/out0.txt">
+            Exemplo 1
+        </option>
+        
+        <option value="../app/questions/question210/inputs/in1.txt;../app/questions/question210/outputs/out1.txt">
+            Exemplo 2
+        </option>
+        
+        <option value="../app/questions/question210/inputs/in2.txt;../app/questions/question210/outputs/out2.txt">
+            Exemplo 3
+        </option>
+        
+        <option value="../app/questions/question210/inputs/in3.txt;../app/questions/question210/outputs/out3.txt">
+            Exemplo 4
+        </option>
+        
+        <option value="../app/questions/question210/inputs/in4.txt;../app/questions/question210/outputs/out4.txt">
+            Exemplo 5
+        </option>
+        
+        <option value="../app/questions/question210/inputs/in5.txt;../app/questions/question210/outputs/out5.txt">
+            Exemplo 6
+        </option>
+        
+        <option value="../app/questions/question210/inputs/in6.txt;../app/questions/question210/outputs/out6.txt">
+            Exemplo 7
+        </option>
+        
+        <option value="../app/questions/question210/inputs/in7.txt;../app/questions/question210/outputs/out7.txt">
+            Exemplo 8
+        </option>
+        
+        <option value="../app/questions/question210/inputs/in8.txt;../app/questions/question210/outputs/out8.txt">
+            Exemplo 9
+        </option>
+        
+        <option value="../app/questions/question210/inputs/in9.txt;../app/questions/question210/outputs/out9.txt">
+            Exemplo 10
+        </option>
+        
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                        <div class="copy-container">
+                            <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                            <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                        <div class="copy-container">
+                            <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                            <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer class="text-center text-gray-500 mt-12">
             <p>Gerado automaticamente.</p>
         </footer>
     </div>
+    
+    <script>
+        function handleSelectChange(selectedValue) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            if (!selectedValue) {
+                inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                return;
+            }
+            
+            const [inputPath, outputPath] = selectedValue.split(';');
+            loadExample(inputPath, outputPath);
+        }
+
+        async function loadExample(inputPath, outputPath) {
+            const inputDiv = document.getElementById('input-content');
+            const outputDiv = document.getElementById('output-content');
+            
+            inputDiv.textContent = 'Carregando...';
+            outputDiv.textContent = 'Carregando...';
+
+            try {
+                const inputResponse = await fetch(inputPath);
+                if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                const inputText = await inputResponse.text();
+                inputDiv.textContent = inputText;
+
+                const outputResponse = await fetch(outputPath);
+                if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                const outputText = await outputResponse.text();
+                outputDiv.textContent = outputText;
+
+            } catch (error) {
+                console.error('Erro ao carregar o exemplo:', error);
+                inputDiv.textContent = 'Erro ao carregar arquivo.';
+                outputDiv.textContent = 'Erro ao carregar arquivo.';
+            }
+        }
+
+        function copyToClipboard(elementId) {
+            const content = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Conteúdo copiado!');
+            }).catch(err => {
+                console.error('Falha ao copiar:', err);
+            });
+        }
+    </script>
 </body>
 </html>

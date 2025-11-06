@@ -1,0 +1,44 @@
+Separando o array V[0...14] : {42, -53, -17, -59, 25, 44, 65, -32, -24, 62, 46, 22, -54, 50, -36} em V[0...6] : {42, -53, -17, -59, 25, 44, 65} e V[7...14] : {-32, -24, 62, 46, 22, -54, 50, -36}
+Separando o array V[0...6] : {42, -53, -17, -59, 25, 44, 65} em V[0...2] : {42, -53, -17} e V[3...6] : {-59, 25, 44, 65}
+Separando o array V[0...2] : {42, -53, -17} em V[0...0] : {42} e V[1...2] : {-53, -17}
+Separando o array V[1...2] : {-53, -17} em V[1...1] : {-53} e V[2...2] : {-17}
+Executando o merge nos arrays {-53} e {-17}
+array ordenado : {-53, -17}
+Executando o merge nos arrays {42} e {-53, -17}
+array ordenado : {-53, -17, 42}
+Separando o array V[3...6] : {-59, 25, 44, 65} em V[3...4] : {-59, 25} e V[5...6] : {44, 65}
+Separando o array V[3...4] : {-59, 25} em V[3...3] : {-59} e V[4...4] : {25}
+Executando o merge nos arrays {-59} e {25}
+array ordenado : {-59, 25}
+Separando o array V[5...6] : {44, 65} em V[5...5] : {44} e V[6...6] : {65}
+Executando o merge nos arrays {44} e {65}
+array ordenado : {44, 65}
+Executando o merge nos arrays {-59, 25} e {44, 65}
+array ordenado : {-59, 25, 44, 65}
+Executando o merge nos arrays {-53, -17, 42} e {-59, 25, 44, 65}
+array ordenado : {-59, -53, -17, 25, 42, 44, 65}
+Separando o array V[7...14] : {-32, -24, 62, 46, 22, -54, 50, -36} em V[7...10] : {-32, -24, 62, 46} e V[11...14] : {22, -54, 50, -36}
+Separando o array V[7...10] : {-32, -24, 62, 46} em V[7...8] : {-32, -24} e V[9...10] : {62, 46}
+Separando o array V[7...8] : {-32, -24} em V[7...7] : {-32} e V[8...8] : {-24}
+Executando o merge nos arrays {-32} e {-24}
+array ordenado : {-32, -24}
+Separando o array V[9...10] : {62, 46} em V[9...9] : {62} e V[10...10] : {46}
+Executando o merge nos arrays {62} e {46}
+array ordenado : {46, 62}
+Executando o merge nos arrays {-32, -24} e {46, 62}
+array ordenado : {-32, -24, 46, 62}
+Separando o array V[11...14] : {22, -54, 50, -36} em V[11...12] : {22, -54} e V[13...14] : {50, -36}
+Separando o array V[11...12] : {22, -54} em V[11...11] : {22} e V[12...12] : {-54}
+Executando o merge nos arrays {22} e {-54}
+array ordenado : {-54, 22}
+Separando o array V[13...14] : {50, -36} em V[13...13] : {50} e V[14...14] : {-36}
+Executando o merge nos arrays {50} e {-36}
+array ordenado : {-36, 50}
+Executando o merge nos arrays {-54, 22} e {-36, 50}
+array ordenado : {-54, -36, 22, 50}
+Executando o merge nos arrays {-32, -24, 46, 62} e {-54, -36, 22, 50}
+array ordenado : {-54, -36, -32, -24, 22, 46, 50, 62}
+Executando o merge nos arrays {-59, -53, -17, 25, 42, 44, 65} e {-54, -36, -32, -24, 22, 46, 50, 62}
+array ordenado : {-59, -54, -53, -36, -32, -24, -17, 22, 25, 42, 44, 46, 50, 62, 65}
+
+O array ordenado : -59 -54 -53 -36 -32 -24 -17 22 25 42 44 46 50 62 65
