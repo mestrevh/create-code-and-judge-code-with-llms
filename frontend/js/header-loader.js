@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     
-    const headerPath = '/frontend/components/header.html';
-    console.log(headerPath)
+    const headerPath = '/create-code-and-judge-code-with-llms/frontend/components/header.html';
+
     fetch(headerPath)
         .then(response => {
             if (!response.ok)
