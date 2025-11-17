@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     
-    const headerPath = '/frontend/components/header.html';
-    
+    const headerPath = window.location.hostname + '/frontend/components/header.html';
+    console.log(headerPath)
     fetch(headerPath)
         .then(response => {
             if (!response.ok)
@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => {
             console.error('[Header] Error:', error);
-            document.getElementById('header-placeholder').innerHTML = '<p style="color:red; text-align:center;">File is note exist ' + headerPath + ' </p>';
+            document.getElementById('header-placeholder').innerHTML = '<p style="color:red; text-align:center;">File is not exist ' + headerPath + ' </p>';
         });
 });
