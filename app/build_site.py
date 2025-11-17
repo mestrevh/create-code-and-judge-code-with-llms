@@ -128,8 +128,8 @@ def create_question_page(
     options_html = '<option value="">Selecione um exemplo...</option>'
     for i in range(len(inputs_paths)):
         
-        input_path = "../app/questions/" + str(inputs_paths[i]).replace("\\", "/")
-        output_path = "../app/questions/" + str(outputs_paths[i]).replace("\\", "/")
+        input_path = "/create-code-and-judge-code-with-llms/app/questions/" + str(inputs_paths[i]).replace("\\", "/")
+        output_path = "/create-code-and-judge-code-with-llms/app/questions/" + str(outputs_paths[i]).replace("\\", "/")
 
         combined_path = f"{input_path};{output_path}"
 
@@ -305,7 +305,7 @@ def main():
     script_dir = Path(__file__).parent
     base_dir = script_dir.parent
     questions_dir = base_dir / "app" / "questions"
-    output_dir = base_dir / "docs"
+    output_dir = base_dir / "frontend" / "docs"
     output_dir.mkdir(exist_ok=True)
     question_links = {}
     print("Iniciando a geração do site...")
