@@ -58,6 +58,8 @@ def create_index_page(question_links):
     </style>
 </head>
 <body class="bg-gray-50">
+    <div id="header-placeholder"></div>
+    <script src="../js/header-loader.js" defer></script>
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-8 flex flex-wrap justify-between items-center gap-4">
             <div>
