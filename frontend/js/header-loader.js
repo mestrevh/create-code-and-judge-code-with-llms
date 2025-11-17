@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     
-    const headerPath = window.location.hostname + '/frontend/components/header.html';
+    const headerPath = '/frontend/components/header.html';
     console.log(headerPath)
     fetch(headerPath)
         .then(response => {
