@@ -34,6 +34,7 @@ def create_index_page(question_links):
     <title>Lista de Questões - TCC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/create-code-and-judge-code-with-llms/frontend/imgs/logo.png">
     <style> 
         body {{ font-family: 'Inter', sans-serif; }} 
         .copy-btn {{
