@@ -61,6 +61,7 @@ def create_index_page(question_links):
 <body class="bg-gray-50">
     <div id="header-placeholder"></div>
     <script src="../js/header-loader.js" defer></script>
+    <main class="container mx-auto pt-20">
     <div class="container mx-auto max-w-4xl p-4 sm:p-8">
         <header class="mb-8 flex flex-wrap justify-between items-center gap-4">
             <div>
@@ -78,7 +79,7 @@ def create_index_page(question_links):
         <main>
             <div class="bg-white p-6 rounded-xl shadow-lg">
                 <div class="mb-6">
-                    <label for="search-box" class="block text-sm font-medium text-gray-700 mb-1">Pesquisar por nome ou ID:</label>
+                    <label for="search-box" class="block text-sm font-medium text-gray-700 mb-1">Pesquisar por nome:</label>
                     <input type="text" id="search-box" onkeyup="filterQuestions()"
                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                            placeholder="Ex: Banda, question2, ...">
@@ -94,6 +95,7 @@ def create_index_page(question_links):
             <p>Gerado automaticamente para o projeto GitHub Pages.</p>
         </footer>
     </div>
+    </main>
     
     <script>
         function filterQuestions() {{
