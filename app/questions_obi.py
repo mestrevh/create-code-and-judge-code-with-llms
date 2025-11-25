@@ -41,6 +41,7 @@ def send_code(code_dir: str = "code_gemini_obi", i: int = 2):
         "tha": os.getenv("TOKEN_THE_HUXLEY"),
     }
 
+    codigo = ""
     try:
         with open(f"{code_dir}/question{i}.cpp", 'r', encoding='utf-8') as f:
             codigo = f.read()
@@ -65,8 +66,8 @@ def send_code(code_dir: str = "code_gemini_obi", i: int = 2):
 
         time.sleep(300)
 
-        #print("Resposta:", response.json())
-        #print("-" * 50)
+        # print("Resposta:", response.json())
+        # print("-" * 50)
 
         return True
 
@@ -147,29 +148,37 @@ def send_prompt(type="gemini", prompt="Teste"):
         return None
 
 
-def get_question_format_prompt(id : str = "2"):
+def get_question_format_prompt(id: str = "2"):
     question_dir = f"question{id}"
+    problem_text = ""
     print(question_dir)
     problem_path = os.path.join("questions", question_dir, "problem.txt")
 
     inputs_text = []
     inputs_dir = os.path.join("questions", question_dir, "inputs")
     if os.path.isdir(inputs_dir):
+        i = 0
         for input_file in sorted(os.listdir(inputs_dir)):
+            if i == 1:
+                break
             input_path = os.path.join(inputs_dir, input_file)
             with open(input_path, "r", encoding="utf-8") as f:
                 input_data = f.read()
             inputs_text.append(input_data)
+            i += 1
 
         outputs_text = []
         outputs_dir = os.path.join(
             "questions", question_dir, "outputs")
         if os.path.isdir(outputs_dir):
             for output_file in sorted(os.listdir(outputs_dir)):
+                if i == 2:
+                    break
                 output_path = os.path.join(outputs_dir, output_file)
                 with open(output_path, "r", encoding="utf-8") as f:
                     output_data = f.read()
                 outputs_text.append(output_data)
+                i += 1
 
         if os.path.isfile(problem_path):
             with open(problem_path, "r", encoding="utf-8") as f:
@@ -185,10 +194,12 @@ def get_question_format_prompt(id : str = "2"):
 
                 for i in range(len(outputs_text)):
                     problem_text += f"\nPossível saída {i}:\n\n{outputs_text[i]}\n"
-    
-    return problem_text
-
+            
+            return problem_text
+    return None
 # criar o código
+
+
 def create_code(op: str = "1", i: str = "2"):
 
     if op != "1" and op != "2":
@@ -198,14 +209,33 @@ def create_code(op: str = "1", i: str = "2"):
     problem_text = get_question_format_prompt(id=i)
     question_dir = f"question{i}"
     code = None
-    
+
     if problem_text == None:
+        print("test")
         return False
-    
+
     if op == "1":
 
-            prompt = (
-                "Você é um especialista em programação programação competitiva em C++.\n"
+        prompt = (
+            "Você é um especialista em programação programação competitiva em C++.\n"
+            "Faça um programa em C++ para o problema abaixo.\n"
+            "Responda apenas com o código, sem comentários ou texto extra.\n"
+            "O problema está no formato de string e com tags html, modifique para entender melhor o problema\n"
+            "Os links que aparecerem tente acessar e retirar informações para ajudar na resolução.\n\n"
+            f"{problem_text}"
+            "A saída tem que ser exatamente igual ao campo de saída esperada para conseguir passar nos testes de entradas futuras!"
+            "O tempo limite de execução deve ser considerado o que a questão informa, para melhorar o resultado!"
+        )
+
+        # print(f"Prompt para {question_dir}:\n{prompt}\n{'-'*50}\n")
+
+        code = send_prompt(type="gemini", prompt=prompt)
+
+    elif op == "2":
+
+        prompt = [
+            {"role": "system", "content": "Você é um especialista em programação programação competitiva em C++."},
+            {"role": "user", "content": (
                 "Faça um programa em C++ para o problema abaixo.\n"
                 "Responda apenas com o código, sem comentários ou texto extra.\n"
                 "O problema está no formato de string e com tags html, modifique para entender melhor o problema\n"
@@ -213,28 +243,10 @@ def create_code(op: str = "1", i: str = "2"):
                 f"{problem_text}"
                 "A saída tem que ser exatamente igual ao campo de saída esperada para conseguir passar nos testes de entradas futuras!"
                 "O tempo limite de execução deve ser considerado o que a questão informa, para melhorar o resultado!"
-                )
+            )},
+        ]
 
-            # print(f"Prompt para {question_dir}:\n{prompt}\n{'-'*50}\n")
-                
-            code = send_prompt(type="gemini", prompt=prompt)
-
-    elif op == "2":
-
-            prompt = [
-                {"role": "system", "content": "Você é um especialista em programação programação competitiva em C++."},
-                {"role": "user", "content": (
-                    "Faça um programa em C++ para o problema abaixo.\n"
-                    "Responda apenas com o código, sem comentários ou texto extra.\n"
-                    "O problema está no formato de string e com tags html, modifique para entender melhor o problema\n"
-                    "Os links que aparecerem tente acessar e retirar informações para ajudar na resolução.\n\n"
-                    f"{problem_text}"
-                    "A saída tem que ser exatamente igual ao campo de saída esperada para conseguir passar nos testes de entradas futuras!"
-                    "O tempo limite de execução deve ser considerado o que a questão informa, para melhorar o resultado!"
-                    )},
-                ]
-
-                # print(f"Prompt para {question_dir}:\n{prompt}\n{'-'*50}\n")
+        # print(f"Prompt para {question_dir}:\n{prompt}\n{'-'*50}\n")
 
     code = send_prompt(type="gpt", prompt=prompt)
 
@@ -243,7 +255,7 @@ def create_code(op: str = "1", i: str = "2"):
         code = code[6:len(code)-3]
     else:
         return False
-    
+
     # print(code)
 
     if op == "1":
@@ -253,7 +265,8 @@ def create_code(op: str = "1", i: str = "2"):
         with open(f"code_gemini_obi/{question_dir}.cpp", "w", encoding="utf-8") as f:
             f.write(code)
 
-            print(f"Arquivo code_gemini_obi/{question_dir}.cpp gerado com sucesso!")
+            print(
+                f"Arquivo code_gemini_obi/{question_dir}.cpp gerado com sucesso!")
 
     elif op == "2":
 
@@ -266,125 +279,130 @@ def create_code(op: str = "1", i: str = "2"):
 
     return True
 
+
 def judge_code(op: str = "1", i: str = "2") -> bool:
-    
+
     problem_text = get_question_format_prompt(id=i)
     print(f"Judge question{i}: ")
-    
+
     code = None
     result = None
-    
+
     if problem_text == None:
         return None
-    
+
     if op == "1":
-        
+
         try:
             with open(f"code_gemini_obi/question{i}.cpp", 'r', encoding='utf-8') as f:
                 code = f.read()
         except FileNotFoundError:
             print(f"ERRO: O arquivo não foi encontrado. O programa continuará.")
             return None
-            
-        prompt = (
-                "Você é um especialista em programação competitiva em C++.\n"
-                "Analise esse código, não precisa informa nada sobre analise no output e aguarde os próximos passos.\n"
-                f"\n{code}\n\n"
-                "Passo 1: Você é um especialista em programação competitiva, compile o código acima e execute. A partir da questão abaixo coloque as entradas e verifique se está condizendo com a saída esperada. Não gere nenhum output nesse passo.\n"
-                f"\n{problem_text}\n\n"
-                "Crie entradas para questão para testar ao seu critério como tempo limite e acertos no caso teste, não precisa informar quais são as entradas.\n\n"
-                "[CORRECT]: se acertou os testes da questão\n"
-                "[WRONG_ANSWER]: errou algum teste\n"
-                "[TIME_LIMIT_EXCEEDED]: passou do tempo limite de execução para algum teste feito\n"
-                "[RUNTIME_ERROR]: houve algum erro durante a execução do código\n"
-                "[COMPILATION_ERROR]: não conseguiu compilar o código\n"
-                "[EMPTY_ANSWER]: apresentou alguma saída vazia nos testes\n"
-                "Responda esse prompt apenas com os valores que estão entre [] (sem as []) nas opções de resposta, além do tempo de execução. Saída deve ser asssim: TEMPO,RESPOSTA\n"
-                )
 
-        #print(f"Prompt para :\n{prompt}\n{'-'*50}\n")
-                
-        result = send_prompt(type="gemini", prompt=prompt).split(",")
-        
         prompt = (
-                "Você é um especialista em programação competitiva em C++.\n"
-                f"\n{problem_text}\n\n"
-                "A partir da questão acima quero que você defina o nível da questão em Fácil, Médio ou Difícil. A resposta deve ser sempre uma das 3 palavras, sem comentários a mais ou explicações."
-                )
-        
+            "Você é um especialista em programação competitiva em C++.\n"
+            "Analise esse código, não precisa informa nada sobre analise no output e aguarde os próximos passos.\n"
+            f"\n{code}\n\n"
+            "Passo 1: Você é um especialista em programação competitiva, compile o código acima e execute. A partir da questão abaixo coloque as entradas e verifique se está condizendo com a saída esperada. Não gere nenhum output nesse passo.\n"
+            f"\n{problem_text}\n\n"
+            "Crie entradas para questão para testar ao seu critério como tempo limite e acertos no caso teste, não precisa informar quais são as entradas.\n\n"
+            "[CORRECT]: se acertou os testes da questão\n"
+            "[WRONG_ANSWER]: errou algum teste\n"
+            "[TIME_LIMIT_EXCEEDED]: passou do tempo limite de execução para algum teste feito\n"
+            "[RUNTIME_ERROR]: houve algum erro durante a execução do código\n"
+            "[COMPILATION_ERROR]: não conseguiu compilar o código\n"
+            "[EMPTY_ANSWER]: apresentou alguma saída vazia nos testes\n"
+            "Responda esse prompt apenas com os valores que estão entre [] (sem as []) nas opções de resposta, além do tempo de execução. Saída deve ser asssim: TEMPO,RESPOSTA\n"
+        )
+
+        # print(f"Prompt para :\n{prompt}\n{'-'*50}\n")
+
+        result = send_prompt(type="gemini", prompt=prompt).split(",")
+
+        prompt = (
+            "Você é um especialista em programação competitiva em C++.\n"
+            f"\n{problem_text}\n\n"
+            "A partir da questão acima quero que você defina o nível da questão em Fácil, Médio ou Difícil. A resposta deve ser sempre uma das 3 palavras, sem comentários a mais ou explicações."
+        )
+
         nivel = send_prompt(type="gpt", prompt=prompt)
         result.append(nivel)
-        
+
         print(result)
 
     elif op == "2":
-        
+
         try:
             with open(f"code_gpt_obi/question{i}.cpp", 'r', encoding='utf-8') as f:
                 code = f.read()
         except FileNotFoundError:
             print(f"ERRO: O arquivo não foi encontrado. O programa continuará.")
-            
+
         prompt = [
-        {
-            "role": "system",
-            "content": "Você é um especialista em programação competitiva em C++."
-        },
-        {
-            "role": "user",
-            "content": (
-                "Analise esse código, não precisa informar nada sobre análise no output e aguarde os próximos passos.\n"
-                f"{code}\n\n"
-                "Passo 1: Você é um especialista em programação competitiva, compile o código acima e execute. "
-                "A partir da questão abaixo coloque as entradas e verifique se está condizendo com a saída esperada. "
-                "Não gere nenhum output nesse passo.\n\n"
-                f"{problem_text}\n\n"
-                "Crie entradas para questão para testar ao seu critério como tempo limite e acertos no caso teste, não precisa informar quais são as entradas.\n\n"
-                "Haverá essas opções de resposta:\n"
-                "[CORRECT]: se acertou os testes da questão\n"
-                "[WRONG_ANSWER]: errou algum teste\n"
-                "[TIME_LIMIT_EXCEEDED]: passou do tempo limite de execução para algum teste feito, o TEMPO será -1\n"
-                "[RUNTIME_ERROR]: houve algum erro durante a execução do código, o TEMPO será -1\n"
-                "[COMPILATION_ERROR]: não conseguiu compilar o código, o TEMPO será -1\n"
-                "[EMPTY_ANSWER]: apresentou alguma saída vazia nos testes, o TEMPO será -1\n\n"
-                "Responda esse prompt apenas com os valores que estão entre [] (retire as []) nas opções de resposta, "
-                "além do tempo de execução. Saída deve ser assim: TEMPO,RESPOSTA"
-            )}
+            {
+                "role": "system",
+                "content": "Você é um especialista em programação competitiva em C++."
+            },
+            {
+                "role": "user",
+                "content": (
+                    "Analise esse código, não precisa informar nada sobre análise no output e aguarde os próximos passos.\n"
+                    f"{code}\n\n"
+                    "Passo 1: Você é um especialista em programação competitiva, compile o código acima e execute. "
+                    "A partir da questão abaixo coloque as entradas e verifique se está condizendo com a saída esperada. "
+                    "Não gere nenhum output nesse passo.\n\n"
+                    f"{problem_text}\n\n"
+                    "Crie entradas para questão para testar ao seu critério como tempo limite e acertos no caso teste, não precisa informar quais são as entradas.\n\n"
+                    "Haverá essas opções de resposta:\n"
+                    "[CORRECT]: se acertou os testes da questão\n"
+                    "[WRONG_ANSWER]: errou algum teste\n"
+                    "[TIME_LIMIT_EXCEEDED]: passou do tempo limite de execução para algum teste feito, o TEMPO será -1\n"
+                    "[RUNTIME_ERROR]: houve algum erro durante a execução do código, o TEMPO será -1\n"
+                    "[COMPILATION_ERROR]: não conseguiu compilar o código, o TEMPO será -1\n"
+                    "[EMPTY_ANSWER]: apresentou alguma saída vazia nos testes, o TEMPO será -1\n\n"
+                    "Responda esse prompt apenas com os valores que estão entre [] (retire as []) nas opções de resposta, "
+                    "além do tempo de execução. Saída deve ser assim: TEMPO,RESPOSTA"
+                )}
         ]
 
         # print(f"Prompt para {question_dir}:\n{prompt}\n{'-'*50}\n")
 
         result = send_prompt(type="gpt", prompt=prompt).split(",")
-        
+
         prompt = [
-        {
-            "role": "system",
-            "content": "Você é um especialista em programação competitiva em C++."
-        },
-        {
-            "role": "user",
-            "content": (
-                f"{problem_text}\n\n"
-                "A partir da questão acima quero que você defina o nível da questão em Fácil, Médio ou Difícil. A resposta deve ser sempre uma das 3 palavras, sem comentários a mais ou explicações."
-            )}
+            {
+                "role": "system",
+                "content": "Você é um especialista em programação competitiva em C++."
+            },
+            {
+                "role": "user",
+                "content": (
+                    f"{problem_text}\n\n"
+                    "A partir da questão acima quero que você defina o nível da questão em Fácil, Médio ou Difícil. A resposta deve ser sempre uma das 3 palavras, sem comentários a mais ou explicações."
+                )}
         ]
-        
+
         nivel = send_prompt(type="gpt", prompt=prompt)
         result.append(nivel)
-        
+
         print(result)
-    
+
     return result
 
+
 def main():
-    #questions = [54]
-    questions = [54, 812, 684, 814, 817, 813, 2201, 3598, 373, 3599, 176, 3601, 4662]
+    # questions = [54]
+    questions = [54, 812, 684, 814, 817, 813,
+                 2201, 3598, 373, 3599, 176, 3601, 4662]
 
     while True:
-        
-        db_send_code = pd.DataFrame(columns=['id', 'name', 'time', 'evaluation'])
-        db_send_judge = pd.DataFrame(columns=['id', 'name', 'time', 'evaluation', 'nivel'])
-        
+
+        db_send_code = pd.DataFrame(
+            columns=['id', 'name', 'time', 'evaluation'])
+        db_send_judge = pd.DataFrame(
+            columns=['id', 'name', 'time', 'evaluation', 'nivel'])
+
         print("\n\nMenu:")
         print("1 - gemini gerar o código vs chatgpt avalia o código")
         print("2 - chagpt gerar o código vs gemini avalia o código")
@@ -396,32 +414,33 @@ def main():
             exit()
 
         else:
-        
+
+            #for q in questions:
+            #    if create_code(op=choice, i=q):
+            #        print(f"Código em c++ da questão {q} foi criado!!!")
+            #    else:
+            #        print(
+            #            f"Não foi possível criar o código em c++ da questão {q}...")
+
             for q in questions:
-                if create_code(op=choice, i=q):
-                    print(f"Código em c++ da questão {q} foi criado!!!")
-                else:
-                    print(f"Não foi possível criar o código em c++ da questão {q}...")
-                    
-                    
-            for q in questions:
-                
+
                 judge = [q]
-                
+
                 if choice == "1":
                     if send_code(code_dir="code_gemini_obi", i=q):
                         submission = get_submission_the_huxley(q)
 
                         if submission[0] != None:
-                            db_send_code.loc[len(db_send_code)] = [q, submission[0], submission[1], submission[2]]
+                            db_send_code.loc[len(db_send_code)] = [
+                                q, submission[0], submission[1], submission[2]]
                             judge.append(submission[0])
                         else:
                             print("Erro ao enviar")
                     else:
                         print("Não foi possível enviar a questão!")
 
-                    judge.extend(judge_code(op = "2", i=q))
-                    
+                    judge.extend(judge_code(op="2", i=q))
+
                     db_send_judge.loc[len(db_send_judge)] = judge
                     db_send_judge.to_csv("result_judge_gpt.csv", index=False)
                     db_send_code.to_csv(
@@ -430,7 +449,7 @@ def main():
                 else:
                     if send_code(code_dir="code_gpt_obi", i=q):
                         submission = get_submission_the_huxley(q)
-                        
+
                         if submission[0] != None:
                             db_send_code.loc[len(db_send_code)] = [
                                 q, submission[0], submission[1], submission[2]]
@@ -441,14 +460,15 @@ def main():
 
                     else:
                         print("Não foi possível enviar a questão!")
-                    
-                    
-                    judge.extend(judge_code(op = "1", i=q))
-                    
+
+                    judge.extend(judge_code(op="1", i=q))
+
                     db_send_judge.loc[len(db_send_judge)] = judge
-                    
-                    db_send_judge.to_csv("result_judge_gemini.csv", index=False)
-                    db_send_code.to_csv("result_the_huxley_gpt_code.csv", index=False)
+
+                    db_send_judge.to_csv(
+                        "result_judge_gemini.csv", index=False)
+                    db_send_code.to_csv(
+                        "result_the_huxley_gpt_code.csv", index=False)
 
 
 main()

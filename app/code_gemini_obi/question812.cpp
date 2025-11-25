@@ -7,37 +7,36 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 using namespace std;
 
 int main() {
-    int N, t = 1;
-    while (cin >> N && N) {
+    int N, test = 1;
+    while (cin >> N, N != 0) {
         vector<int> saldo(N);
         for (int i = 0; i < N; ++i) {
             int x, y;
             cin >> x >> y;
             saldo[i] = x - y;
         }
-
-        int max_sum = -1e9, cur_sum = 0, start = 0, ans_l = -1, ans_r = -1;
-        int temp_l = 0;
-
+        int max_sum = -1e9, curr_sum = 0, start = 0, best_start = 0, best_end = 0, max_len = -1;
         for (int i = 0; i < N; ++i) {
-            cur_sum += saldo[i];
-            if (cur_sum > max_sum || (cur_sum == max_sum && (i - temp_l > ans_r - ans_l))) {
-                max_sum = cur_sum;
-                ans_l = temp_l;
-                ans_r = i;
+            if (curr_sum < 0) {
+                curr_sum = saldo[i];
+                start = i;
+            } else {
+                curr_sum += saldo[i];
             }
-            if (cur_sum < 0) {
-                cur_sum = 0;
-                temp_l = i + 1;
+            int len = i - start;
+            if ((curr_sum > max_sum) || (curr_sum == max_sum && len > max_len)) {
+                max_sum = curr_sum;
+                max_len = len;
+                best_start = start;
+                best_end = i;
             }
         }
-
-        cout << "Teste " << t++ << endl;
+        cout << "Teste " << test++ << "\n";
         if (max_sum > 0)
-            cout << ans_l + 1 << " " << ans_r + 1 << endl;
+            cout << best_start + 1 << " " << best_end + 1 << "\n";
         else
-            cout << "nenhum" << endl;
-        cout << endl;
+            cout << "nenhum\n";
+        cout << "\n";
     }
     return 0;
 }

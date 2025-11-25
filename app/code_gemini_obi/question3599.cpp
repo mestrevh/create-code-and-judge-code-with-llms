@@ -3,22 +3,15 @@ Código criado pelo modelo gemini-2.5-pro
 Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
-#include <vector>
 using namespace std;
 
 int main() {
-    int n;
+    int n, curr, count = 1, prev = -1;
     cin >> n;
-    vector<int> seq(n);
-    for (int i = 0; i < n; ++i) cin >> seq[i];
-
-    int count = 0, idx = 0;
-    int pattern[3] = {1, 2, 1};
-    for (int i = 0; i < n; ++i) {
-        if (seq[i] == pattern[idx]) {
-            ++count;
-            idx = (idx + 1) % 3;
-        }
+    for(int i = 0; i < n; ++i) {
+        cin >> curr;
+        if(i > 0 && curr != prev) ++count;
+        prev = curr;
     }
     cout << count << endl;
     return 0;

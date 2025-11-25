@@ -1,0 +1,14 @@
+id,name,time,evaluation,nivel
+54,Banda,0.012,CORRECT,Fácil
+812,Saldo de gols,0.012,CORRECT,Médio
+684,Carteiro,0.015,CORRECT,Médio
+814,Dominó,0.009,CORRECT,
+817,Chuva (OBI),0.005,CORRECT,Médio
+813,Macaco prego,0.013,CORRECT,Fácil
+2201,Piso,0.0004,WRONG_ANSWER,Médio
+3598,Idade,0.001,CORRECT,Fácil
+373,Capital,0.006,CORRECT,Médio
+3599,Sequência Secreta,0.001,CORRECT,Fácil
+176,Times,0.013,CORRECT,Médio
+3601,Distância entre amigos,0.001,CORRECT,Fácil
+4662,Victor Hugo e a Task Final,0.032,CORRECT,Difícil

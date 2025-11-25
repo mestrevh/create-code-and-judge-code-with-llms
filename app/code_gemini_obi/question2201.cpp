@@ -9,20 +9,12 @@ using namespace std;
 int main() {
     int L, C;
     cin >> L >> C;
+    int tipo1 = (L - 1) * (C - 1) + ((L % 2 == 0 || C % 2 == 0) ? 0 : 1);
+    tipo1 += (L - 1) + (C - 1);
+    tipo1 = L * C - L - C + 1;
 
-    int tipo1 = 0, tipo2 = 0;
-    for (int i = 0; i < L; ++i) {
-        for (int j = 0; j < C; ++j) {
-            // Para cada "quadrado unitário", conta quantas lajotas do tipo 1 têm o centro dentro do retângulo
-            // Se (i+j) % 2 == 0, centro desse quadrado é coberto por uma lajota tipo 1
-            if ((i + j) % 2 == 0) tipo1++;
-            else tipo2++;
-        }
-    }
-    tipo2 *= 2;
-
-    cout << tipo1 << endl;
-    cout << tipo2 << endl;
-
+    int tipo2 = 2 * (L + C - 2);
+    cout << tipo1 << endl << tipo2 << endl;
     return 0;
 }
+`

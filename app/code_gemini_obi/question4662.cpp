@@ -4,8 +4,7 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <bits/stdc++.h>
 using namespace std;
-typedef long long ll;
-const int MOD = 998244353;
+#define MOD 998244353
 
 int main() {
     ios::sync_with_stdio(false);
@@ -13,35 +12,30 @@ int main() {
 
     int N, M, C;
     cin >> N >> M >> C;
-    vector<pair<int,int>> intervals(M);
-    for(int i = 0; i < M; i++) {
-        cin >> intervals[i].first >> intervals[i].second;
-        intervals[i].first--;
-        intervals[i].second--;
+    vector<int> mask(N, 0);
+    vector<pair<int, int>> segs(M);
+    for (int i = 0; i < M; ++i) {
+        int l, r;
+        cin >> l >> r;
+        --l; --r;
+        segs[i] = {l, r};
+        for (int j = l; j <= r; ++j) {
+            mask[j] |= (1 << i);
+        }
     }
-    
-    // Para cada posição, marcar quais intervalos cobrem ela
-    vector<vector<int>> covers(N);
-    for(int i = 0; i < M; ++i)
-        for(int j = intervals[i].first; j <= intervals[i].second; ++j)
-            covers[j].push_back(i);
-
-    // Grupos de indistinguibilidade
-    // Dois servidores (posições) são indistinguíveis se sempre são cobertos pelo mesmo conjunto de intervalos
-    map<vector<int>, vector<int>> cls;
-    for(int i = 0; i < N; ++i)
-        sort(covers[i].begin(), covers[i].end());
-    for(int i = 0; i < N; ++i)
-        cls[covers[i]].push_back(i);
-    
-    int K = cls.size();
-    // Número de classes de indistinguibilidade K
-    // Para cada classe, a cor final depende dos últimos intervalos a cobrir todos elementos do grupo
-    // O resultado é C^K
-
-    ll ans = 1;
-    for(int i = 0; i < K; ++i)
-        ans = (ans * C) % MOD;
-    cout << ans << '\n';
+    // Troque para unordered_set para desempenho
+    unordered_set<int> uniq;
+    for (int i = 0; i < N; ++i) uniq.insert(mask[i]);
+    vector<int> vec;
+    for (int m : uniq) if (m) vec.push_back(m);
+    int k = vec.size();
+    map<int, int> rep;
+    for (int i = 0; i < k; ++i) rep[vec[i]] = i;
+    vector<vector<int>> pos(k);
+    for (int i = 0; i < N; ++i) {
+        if (mask[i]) pos[rep[mask[i]]].push_back(i);
+    }
+    // O problema se resume em colorir k blocos independentes de segmentos em C cores
+    cout << (long long)pow(C, k) % MOD << '\n';
     return 0;
 }

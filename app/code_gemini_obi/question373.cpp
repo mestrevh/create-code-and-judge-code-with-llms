@@ -6,48 +6,39 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <algorithm>
 using namespace std;
 
-bool check(int a1, int a2, int a3, int a4) {
-    int total = a1 + a2 + a3 + a4;
-    for (int i = 1; i * i <= total; ++i) {
-        if (total % i != 0) continue;
-        int h = i, w = total / i;
-        // h = altura (dividida em 2 partes a e h-a), w = largura (dividida em b e w-b)
-        // Áreas:
-        // A1 = a * b
-        // A2 = (h - a) * b
-        // A3 = a * (w - b)
-        // A4 = (h - a) * (w - b)
-        int area[4] = {a1, a2, a3, a4};
-        sort(area, area + 4);
-        do {
-            int A1 = area[0], A2 = area[1], A3 = area[2], A4 = area[3];
-            // calculando b das 2 primeiras equações
-            // A1 = a*b => b = A1/a, a divide A1
-            // depois, A2 = (h-a)*b => (h-a) = A2/b, b divide A2
-            for (int a = 1; a < h; ++a) {
-                if (A1 % a != 0) continue;
-                int b = A1 / a;
-                if (b <= 0 || b >= w) continue;
-                if (A2 % b != 0) continue;
-                if (A3 % a != 0) continue;
-                if (A4 % (h - a) != 0) continue;
-                if ((h - a) <= 0 || (w - b) <= 0) continue;
-                if (A2 / b != (h - a)) continue;
-                if (A3 / a != (w - b)) continue;
-                if (A4 / (h - a) != (w - b)) continue;
-                return true;
+bool possible(int a, int b, int c, int d) {
+    int areas[4] = {a, b, c, d};
+    sort(areas, areas + 4);
+    do {
+        int A1 = areas[0], A2 = areas[1], A3 = areas[2], A4 = areas[3];
+        // retângulo dividido por duas avenidas: {A1, A2, A3, A4} = {x*y, x*(h-y), (w-x)*y, (w-x)*(h-y)}
+        // Tem que existir inteiros positivos x, y, w, h para isso.
+        int sum1 = A1 + A2;
+        int sum2 = A3 + A4;
+        if (sum1 != sum2) continue;
+        int prod1 = A1 * A4;
+        int prod2 = A2 * A3;
+        if (prod1 != prod2) continue;
+        // Testa se existe raiz quadrada inteira positiva para prod1
+        for(int x = 1; x * x <= A1; ++x){
+            if(A1 % x == 0){
+                int y = x;
+                int h = A1 / x + A2 / x;
+                int w = A1 / y + A3 / y;
+                if (A2 % x == 0 && A3 % y == 0 && h > 0 && w > 0) {
+                    return true;
+                }
             }
-        } while (next_permutation(area, area+4));
-    }
+        }
+    } while(next_permutation(areas, areas + 4));
     return false;
 }
 
 int main() {
-    int A1, A2, A3, A4;
-    cin >> A1 >> A2 >> A3 >> A4;
-    if (check(A1, A2, A3, A4))
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    if (possible(a, b, c, d))
         cout << "S" << endl;
     else
         cout << "N" << endl;
-    return 0;
 }

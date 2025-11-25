@@ -8,10 +8,9 @@ using namespace std;
 int main() {
     int a, b, c;
     cin >> a >> b >> c;
-    int oldest, middle, youngest;
-    oldest = max({a, b, c});
-    youngest = min({a, b, c});
-    middle = a + b + c - oldest - youngest;
-    cout << middle << endl;
+    int x = a - b;
+    int y = b - c;
+    int resposta = max(x, y);
+    cout << resposta << endl;
     return 0;
 }

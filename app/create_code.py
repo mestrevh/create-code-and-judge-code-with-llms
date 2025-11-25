@@ -133,7 +133,6 @@ def main():
                         "O problema está no formato de string e com tags html, modifique para entender melhor o problema\n"
                         "Os links que aparecerem tente acessar e retirar informações para ajudar na resolução.\n\n"
                         f"{problem_text}"
-                        "Siga "
                         )}
                     ]
                  

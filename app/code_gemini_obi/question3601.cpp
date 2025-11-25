@@ -6,13 +6,13 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 using namespace std;
 
 int main() {
-    int n, d = 0;
+    int n, dist = 0, pos = 0, x;
     cin >> n;
-    int dist;
     for (int i = 0; i < n; ++i) {
-        cin >> dist;
-        d += dist;
+        cin >> x;
+        dist += abs(pos - x);
+        pos = x;
     }
-    cout << d + (n - 1) << endl;
+    cout << dist << endl;
     return 0;
 }
