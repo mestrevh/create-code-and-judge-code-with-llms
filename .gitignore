@@ -1,7 +1,9 @@
 .env
 .ipynb_checkpoints/
-judge_gemini/*
-!judge_gpt/README.md
-judge_gpt/*
-!judge_gpt/README.md
+*/judge_gemini/*
+!*/judge_gpt/README.md
+*/judge_gpt/*
+!*/judge_gpt/README.md
 .vscode
+*/.venv
+.venv
