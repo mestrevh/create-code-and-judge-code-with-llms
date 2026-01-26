@@ -10,9 +10,9 @@ class Config(BaseSettings):
             tokenTheHuxley - Token Barear para requisições na WEB, utilizando biblioteca requests
     """
     
-    apiKeyGemini: str
-    apiKeyGPT: str
-    tokenTheHuxley: str
+    GEMINI_API_KEY: str
+    GPT_API_KEY: str
+    TOKEN_THE_HUXLEY: str
     
     model_config = SettingsConfigDict(
         env_file=".env",

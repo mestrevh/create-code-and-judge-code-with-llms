@@ -1,9 +1,11 @@
 .env
 .ipynb_checkpoints/
-*/judge_gemini/*
-!*/judge_gpt/README.md
-*/judge_gpt/*
-!*/judge_gpt/README.md
+app/data/output/judge_gemini/*
+!app/data/output/judge_gpt/README.md
+app/data/output/judge_gpt/*
+!app/data/output/README.md
 .vscode
 */.venv
 .venv
+__pycache__
+database
