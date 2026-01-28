@@ -1,16 +1,153 @@
 from interfaces import DatabaseInterface
 from models import DatabaseModel, database_model
 from utils import request_web, file_manager
-from pathlib import Path
+from typing import List
+import time
+from core import config
+
 
 class DatabaseRepository(DatabaseInterface):
-    
+        
     def __init__(self, DatabaseModel: DatabaseModel):
         self.data = DatabaseModel
+        self.data.questions_id = self.__set_questions_id()
     
-    def __get_question_with_token_the_huxley() -> list:
+    def __set_questions_id(self) -> List[int]:
+        questions_id = []
+        
+        if file_manager.dir_is_exist("/database/questions"):
+            count = 0
+            id = 0
+            
+            while count != 1000:
+                if file_manager.dir_is_exist(f"/database/questions/question{id}"):
+                    count = 0
+                    questions_id.append(id)
+                else:
+                    count += 1
+                    
+                id += 1
+                    
+        return questions_id
+    
+    def update_questions_id(self):
+        self.data.questions_id = self.__set_questions_id()
+        
+    def get_questions_id(self) -> List[int]:
+        return self.data.questions_id
+    
+    def __post_send_oracle_the_huxley(self, id: int, input: str) -> str:
+        link = f"https://www.thehuxley.com/api/v1/problems/{id}/oracle"
+
+        headers = {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json;charset=utf-8",  # Essencial para enviar JSON
+            "Authorization": "Bearer " + config.TOKEN_THE_HUXLEY,
+            "Origin": "https://www.thehuxley.com",
+            "Referer": f"https://www.thehuxley.com/problem/{id}/oracle",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0",
+        }
+
+        payload = {
+            "input": input
+        }
+        response = request_web.post(link, headers=headers, json=payload)
+        print(f"Oráculo para o problema {id} consultado com sucesso!")
+        
+        if response is not None:
+
+            hash = response.json().get('hash')
+            link_oracle = f"https://www.thehuxley.com/api/v1/problems/{id}/oracle/{hash}"
+            
+            data = request_web.get(link_oracle, headers=headers)
+                
+            if data is not None:
+                return data.get('output')
+
+        return None
+    
+    def post_send_code_the_huxley(self, id: int, code: str, type: str) -> bool:
+        
+        link = f"https://www.thehuxley.com/api/v1/user/problems/{id}/submissions"
+
+        headers = {
+            "Accept": "application/json, text/plain, */*",
+            "Authorization": "Bearer " + config.TOKEN_THE_HUXLEY,
+            "Origin": "https://www.thehuxley.com",
+            "Referer": f"https://www.thehuxley.com/problem/{id}/code-editor/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/14.0",
+        }
+
+        cookies = {
+            "tha": config.TOKEN_THE_HUXLEY,
+        }
+        
+        files = {}
+        if type == "py":
+            files = {
+                "problem": (None, id),
+                "language": (None, "5"),
+                "file": ("solution.py", code.encode("utf-8"), "application/octet-stream")
+            }
+        elif type == "cpp":
+            files = {
+                "problem": (None, id),
+                "language": (None, "4"),
+                "file": ("A.cpp", code.encode("utf-8"), "application/octet-stream")
+            }
+            
+        return request_web.post(link=link, headers=headers,
+                                cookies=cookies, files=files)
+      
+    def get_last_submission_the_huxley(self, id: int) -> dict:
+        link = f"https://www.thehuxley.com/api/v1/submissions/summary?problem={id}&stats=last"
+        params = {'max': 1, 'sort': 'submissionDate', 'order': 'desc'}
+        headers = {
+            "Accept": "application/json, text/plain, */*",
+            "Authorization": "Bearer " + config.TOKEN_THE_HUXLEY,
+            "Referer": f"https://www.thehuxley.com/problem/{id}/",
+        }
+        cookies = {"tha": config.TOKEN_THE_HUXLEY}
+        
+        
+        data = request_web.get(link=link, params=params,
+                               headers=headers, cookies=cookies)
+        
+        if data is not None:
+            return data[0]
+        
+        return None
+        
+    def __get_question_with_token_the_huxley(self, id: int) -> list:
         
         examples = []
+        
+        code = "case = [input()]\n"
+        code += "try:\n"
+        code += "    while True:\n"
+        code += "        case.append(input())\n"
+        code += "except EOFError:\n"
+        code += "    raise Exception(''.join([str(x) + '\\n' for x in case]))\n"
+        
+        if self.post_send_code_the_huxley(id, code, "py") is not None:
+            submissions = self.get_last_submission_the_huxley(id)
+
+            if submissions["testCaseEvaluations"] != None:
+                for submission in submissions["testCaseEvaluations"]:
+                    
+                    if submission["errorMsg"] == None:
+                        continue
+                    
+                    case_test = {}
+                    
+                    init = submission["errorMsg"].find("\nException:") + len("\nException:")
+                    input = submission["errorMsg"][init + 1 : len(submission["errorMsg"]) - 2]
+                    
+                    
+                    case_test["input"]  = input
+                    case_test["output"] = self.__post_send_oracle_the_huxley(id, input)
+                    
+                    examples.append(case_test)
         
         return examples
     
@@ -49,7 +186,9 @@ class DatabaseRepository(DatabaseInterface):
                             file_manager.create_dir(path + "/outputs")
                         
                         file_manager.create_file(f"out{i}.txt", path + "/outputs", cases_test[i]["output"])
-            
+            else:
+                print(f"Questão {id} foi criada (não possui) entradas e saída!")
+                
             print(f"Questão {id} criado com sucesso!")
             return True
         else:
@@ -64,12 +203,15 @@ class DatabaseRepository(DatabaseInterface):
         count = 0
         id = 0
         while count != 1000:
-            id += 1
             response = request_web.get(link + "/" + str(id))
+            
+            if response is None:
+                id += 1
+                continue
             
             cases = None
             if cases_test:
-                cases = self.__get_question_with_token_the_huxley()
+                cases = self.__get_question_with_token_the_huxley(id=id)
             else:
                 cases = request_web.get(link + "/" + str(id) + "/examples")
             
@@ -81,6 +223,8 @@ class DatabaseRepository(DatabaseInterface):
             else:
                 count += 1
                 print(f"Questão {id} não está disponível")
+            
+            id += 1
                     
         return True
     
