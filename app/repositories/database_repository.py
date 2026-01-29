@@ -1,8 +1,8 @@
 from interfaces import DatabaseInterface
-from models import DatabaseModel, database_model
+from models import DatabaseModel
 from utils import request_web, file_manager
 from typing import List
-import time
+from .problem_repository import ProblemRepository
 from core import config
 
 
@@ -15,12 +15,12 @@ class DatabaseRepository(DatabaseInterface):
     def __set_questions_id(self) -> List[int]:
         questions_id = []
         
-        if file_manager.dir_is_exist("/database/questions"):
+        if file_manager.dir_exist("database/questions"):
             count = 0
             id = 0
             
             while count != 1000:
-                if file_manager.dir_is_exist(f"/database/questions/question{id}"):
+                if file_manager.dir_exist(f"database/questions/question{id}"):
                     count = 0
                     questions_id.append(id)
                 else:
@@ -176,13 +176,13 @@ class DatabaseRepository(DatabaseInterface):
                 
                 for i in range(len(cases_test)):
                     if cases_test[i]["input"] is not None:
-                        if file_manager.dir_is_exist(path + "/inputs") == False:
+                        if file_manager.dir_exist(path + "/inputs") == False:
                             file_manager.create_dir(path + "/inputs")
                         
                         file_manager.create_file(f"in{i}.txt", path + "/inputs", cases_test[i]["input"])
                     
                     if cases_test[i]["output"] is not None:
-                        if file_manager.dir_is_exist(path + "/outputs") == False:
+                        if file_manager.dir_exist(path + "/outputs") == False:
                             file_manager.create_dir(path + "/outputs")
                         
                         file_manager.create_file(f"out{i}.txt", path + "/outputs", cases_test[i]["output"])
@@ -198,6 +198,8 @@ class DatabaseRepository(DatabaseInterface):
     def get_questions_the_huxley(self, link:str = "", cases_test:bool = False) -> bool:
         
         path = "database"
+        file_manager.create_dir(path)
+        path += "/questions"
         file_manager.create_dir(path)
         
         count = 0
@@ -228,4 +230,8 @@ class DatabaseRepository(DatabaseInterface):
                     
         return True
     
-database_repository = DatabaseRepository(database_model)
+    def get_question_database(self, id:int) -> ProblemRepository:
+        problem = ProblemRepository(id)
+        return problem
+    
+database_repository = DatabaseRepository(DatabaseModel())

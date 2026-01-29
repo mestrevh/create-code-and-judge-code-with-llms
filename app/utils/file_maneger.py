@@ -28,8 +28,23 @@ class FileManager:
             print(f"Erro ao criar o diretório: {e}")
             return False
     
-    def dir_is_exist(self, path):
+    def dir_exist(self, path):
         return os.path.isdir(path)
+    
+    def file_exist(self, path):
+        return os.path.exists(path)
+    
+    def read_file(self, path: str) -> str:
+        if self.file_exist(path):
+            try:
+                with open(path,"r", encoding="utf-8") as file:
+                    return file.read()
+            except FileNotFoundError:
+                print(f"[file_maneger]: arquivo não existe no caminho {path}")
+            except Exception as e:
+                print(f"[file_maneger]: erro inesperado {e}")
+            
+        return ""
     
     def __str__():
         return "Sou apenas um gerenciador de arquivos"
