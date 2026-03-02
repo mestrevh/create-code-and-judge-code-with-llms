@@ -12,7 +12,7 @@ def main ():
         print("2 - Criar a base de dados com casos de testes possível (demora dias);")
         print("3 - Dinâmica: uma llm cria o código e outra llm julga o código.")
         print("4 - Dinâmica: fazer dinâmica 3 em comparação com the huxley;")
-        print("Para sair digite qualquer coisa")
+        print("Para sair digite qualquer coisa que não está no menu")
         
         op = input("Escolha uma opção (numero): ")
         

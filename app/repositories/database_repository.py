@@ -209,6 +209,7 @@ class DatabaseRepository(DatabaseInterface):
             
             if response is None:
                 id += 1
+                count += 1
                 continue
             
             cases = None

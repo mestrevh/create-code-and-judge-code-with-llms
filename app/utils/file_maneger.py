@@ -3,8 +3,9 @@ import os
 class FileManager:
     """
     Essa classe tem como objetivo criar, deletar 
-    ou modificar arquivos no diretório app/data/
+    ou modificar arquivos nos diretórios
     """
+    
     def create_file(self, name_file: str, path: str, content: str) -> bool:
         try:
             

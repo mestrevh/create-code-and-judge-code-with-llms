@@ -47,14 +47,14 @@ class ProblemRepository (ProblemInterface):
                 i += 1
                 cases_test.append(case_test)
             
-            self.__problem: ProblemModel = ProblemModel(id=id,
-                                                        title=title,
-                                                        description=description,
-                                                        topics=topics,
-                                                        time_limit=time_limit,
-                                                        input_format=input_format,
-                                                        output_format=output_format,
-                                                        cases_test=cases_test)
+            self.__problem = ProblemModel(id=id,
+                                          title=title,
+                                          description=description,
+                                          topics=topics,
+                                          time_limit=time_limit,
+                                          input_format=input_format,
+                                          output_format=output_format,
+                                          cases_test=cases_test)
             
             
     def print_problem(self):
