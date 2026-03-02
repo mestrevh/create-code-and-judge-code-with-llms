@@ -69,26 +69,56 @@ class ProblemRepository (ProblemInterface):
 
     def get_cases_test_of_problem(self):
         
-        output = "<casos de teste>\n"
+        output = "<test cases>\n"
         
         for i in range(len(self.__problem.cases_test)):
-            output += f"<teste {i}>\n"
+            output += f"<test {i}>\n"
             
             if self.__problem.cases_test[i]["input"] is not None:
-                output += f"<entrada do teste {i}>\n"
+                output += f"<input test {i}>\n"
                 output += self.__problem.cases_test[i]["input"]
-                output += f"</entrada do teste {i}>\n"
+                output += f"</input test {i}>\n"
             
             if self.__problem.cases_test[i]["output"] is not None:
-                output += f"<saída do teste {i}>\n"
+                output += f"<output test {i}>\n"
                 output += self.__problem.cases_test[i]["output"]
-                output += f"</saída do teste {i}>\n"
+                output += f"</output teste {i}>\n"
             
-            output += f"</teste {i}>\n"
+            output += f"</test {i}>\n"
             
-        output += "</casos de teste>"
+        output += "</test cases>"
         return output
     
     def get_format_question_prompt(self):
-        print("test")
+        output = "<title>\n"
+        output += self.__problem.title
+        output += "</title>\n"
         
+        output += "<topics>\n"
+        for i in range(len(self.__problem.topics)):
+            output += f"<t{i}>{self.__problem.topics[i]}</t{i}>\n"
+        output += "</topics>\n"
+        
+        output += "<time limit>\n"
+        output += f"{self.__problem.time_limit}"
+        output += "</time limit>\n"
+        
+        output += "<time limit>\n"
+        output += f"{self.__problem.time_limit}"
+        output += "</time limit>\n"
+        
+        output += "<descrition>\n"
+        output += f"{self.__problem.description}"
+        output += "</descrition>\n"
+        
+        output += "<input format>\n"
+        output += f"{self.__problem.input_format}"
+        output += "</input format>\n"
+        
+        output += "<output format>\n"
+        output += f"{self.__problem.output_format}"
+        output += "</output format>\n"
+        
+        output += f"\n{self.get_cases_test_of_problem()}"
+        
+        return output
