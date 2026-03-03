@@ -3,8 +3,17 @@ from repositories.problem_repository import ProblemRepository
 from utils import file_manager
 
 class LLMProvider(ABC):
+    
     @abstractmethod
     def send_prompt(self, prompt: str) -> str:
+        pass
+    
+    @abstractmethod
+    def get_path_code(self) -> str:
+        pass
+    
+    @abstractmethod
+    def get_path_judge(self) -> str:
         pass
     
     @abstractmethod
@@ -16,10 +25,8 @@ class LLMProvider(ABC):
             print("[File Manager]: Não é possível criar o arquivo")
             return False
         
-        #Retirando o markdown
-        code = code[6:len(code)-3]
         title = f"/*\nCódigo criado pelo {model_name}\n"
-        title += "Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)\n*/"
+        title += "Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)*/\n"
         code = title + code
         
         file_manager.create_dir(path)
@@ -31,7 +38,7 @@ class LLMProvider(ABC):
         return True
     
     @abstractmethod
-    def evaluate_code(self, problem: ProblemRepository, path: str, prompt: any, model_name: str) -> bool:
+    def evaluate_code(self, problem: ProblemRepository, path:str, prompt: any, model_name: str) -> bool:
         
         response = self.send_prompt(prompt=prompt)
         

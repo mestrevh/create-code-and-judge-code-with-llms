@@ -1,6 +1,6 @@
 from services import DatabaseServices
 from core import LLMOrchestrator
-from services import GeminiService
+from services import GeminiService, GPTService
 
 def main ():
     print("=" * 30)
@@ -36,12 +36,34 @@ def main ():
                     id = int(input("Digite um número: "))
                     problem = database_service.get_problem(id)
                     
-                    coder = GeminiService()
-                    judger = GeminiService()
-                    
-                    orchestrator = LLMOrchestrator(coder=coder, judger=judger)
-                    orchestrator.create_and_judge_code(problem=problem)
-                    
+                    while True:
+                        print("**** MENU *****")
+                        print("1 - Code Gemini vs judger GPT")
+                        print("2 - Code GPT vs judger Gemini")
+                        print("Para sair digite qualquer coisa que não está no menu")
+                        struct = input("Escolha uma opção: ")
+
+                        if struct == "1":
+                            coder = GeminiService()
+                            judger = GPTService()
+                            
+                            orchestrator = LLMOrchestrator(coder=coder, judger=judger)
+                            if not orchestrator.create_and_judge_code(problem=problem):
+                                print("Erro na execução da dinâmica!")
+                            
+                            print("=" * 10 + "Voltando ao menu" + "=" * 10)
+                        elif struct == "2":
+                            coder = GPTService()
+                            judger = GeminiService()
+                            
+                            orchestrator = LLMOrchestrator(coder=coder, judger=judger)
+                            if not orchestrator.create_and_judge_code(problem=problem):
+                                print("Erro na execução da dinâmica!")
+                            
+                            print("=" * 10 + "Voltando ao menu" + "=" * 10)
+                        else:
+                            break
+                        
                     break
                 except ValueError:
                     print("Não é um número! Digite novamente.")

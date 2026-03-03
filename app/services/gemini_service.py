@@ -17,23 +17,21 @@ class GeminiService(LLMProvider):
             if 'generateContent' in model.supported_generation_methods:
                 models.append(model.name)
         
-        model = "models/"
-        
         while True:
             print("Modelos:" + str(models))
             model = input("Escolha um modelo: ")
 
             if model in models:
+                self.__agent = genai.GenerativeModel(model)
                 break
             else:
                 print("Escolha um nome que está nas opções")
             
-        self.__agent = genai.GenerativeModel(model)
     
-    def __get_path_code(self) -> str:
+    def get_path_code(self) -> str:
         return "database/output/code_gemini"
     
-    def __get_path_judge(self) -> str:
+    def get_path_judge(self) -> str:
         return "database/output/judge_gemini"
     
     def send_prompt(self, prompt: str) -> str:
@@ -46,39 +44,55 @@ class GeminiService(LLMProvider):
      
     def generate_code(self, problem: ProblemRepository) -> bool:
         prompt = (
-                    "Análise os dados da questão abaixo: \n"
+                    "Você é um Grande Mestre em Programação Competitiva (estilo ICPC/Maratona) e especialista em C++ moderno.\n\n"
+                    
+                    "Sua tarefa é escrever uma solução altamente otimizada em C++ para o problema algorítmico fornecido abaixo.\n\n"
+                    
+                    "REGRAS E RESTRIÇÕES ESTRITAS:\n"
+                    "1. RETORNE EXCLUSIVAMENTE CÓDIGO: Não inclua saudações, explicações, comentários fora do código ou pensamentos.\n"
+                    "2. SEM MARKDOWN: Não envolva o código em blocos de markdown (não use ```cpp nem ```). Comece diretamente com '#include'.\n"
+                    "3. IGNORAR HTML: O problema pode conter tags HTML. Ignore a formatação visual e foque estritamente nas regras lógicas, restrições de tempo, formato de Entrada (Input) e Saída (Output).\n"
+                    "4. OTIMIZAÇÃO: Priorize complexidade de tempo O(N log N) ou O(N) sempre que possível. Inclua a otimização padrão de I/O em C++ (ios_base::sync_with_stdio(false); cin.tie(NULL);) na função main.\n"
+                    "5. DADOS FALTANTES: Como você não tem acesso à internet, ignore quaisquer links externos na descrição e resolva o problema baseando-se puramente no texto fornecido.\n\n"
+                    
+                    "--- INÍCIO DO PROBLEMA ---\n"
                     f"{problem.get_format_question_prompt()}\n"
-                    "Você é um especialista em programação programação competitiva em C++.\n"
-                    "Faça um programa em C++ para o problema abaixo.\n"
-                    "Responda apenas com o código, sem comentários ou texto extra.\n"
-                    "O problema está no formato de string e com tags html, modifique para entender melhor o problema\n"
-                    "Os links que aparecerem tente acessar e retirar informações para ajudar na resolução.\n\n"
+                    "--- FIM DO PROBLEMA ---\n"
                 )
         
         return super().generate_code(problem=problem,
-                                     path=self.__get_path_code(),
+                                     path=self.get_path_code(),
                                      prompt=prompt,
                                      model_name=self.__agent.model_name)
     
-    def evaluate_code(self, problem: ProblemRepository) -> bool:
+    def evaluate_code(self, problem: ProblemRepository, path: str) -> bool:
         
-        code = file_manager.read_file(path=f"{self.__get_path_code()}/question{problem.get_id()}.cpp")
+        code = file_manager.read_file(path=f"{path}/question{problem.get_id()}.cpp")
         
         prompt = (
-                    "Análise os dados da questão abaixo: \n"
-                    f"{problem.get_format_question_prompt()}\n"
-                    "Você é um avaliador de código experiente em C++.\n"
-                    f"Avalie o seguinte código:\n\n{code}\n\n"
-                    "Execute esse código em C++ com <test cases></test cases>.\n"
-                    "Veja que <input test></input test> tem um <output test></output test> respectivo.\n"
-                    "Saída deste prompt deve ter essa sequência:\n\n"
-                    "1. Correto, se acertar todos os <test cases></test cases>;\n"
-                    "2. Tempo de execução do código\n"
-                    "3. Avaliação do código - o código está implementado de forma eficiente e resolve o problema?"
-                  )
-        
-        
+                        "Você é um Sistema Juiz Automático (Online Judge) implacável e um Engenheiro de Software Sênior especialista em C++.\n\n"
+                        
+                        "SUA TAREFA:\n"
+                        "Realize uma análise estática rigorosa e simule mentalmente a execução do código fornecido contra os casos de teste especificados.\n\n"
+                        
+                        "REGRAS DE AVALIAÇÃO:\n"
+                        "1. SIMULAÇÃO EXATA: Rastreie a lógica do código passo a passo. Compare a saída da sua simulação usando os dados de <input test> com o resultado esperado em <output test>. A correspondência deve ser exata (espaços, quebras de linha).\n"
+                        "2. SEM ALUCINAÇÃO DE TEMPO: Como você não compila o código fisicamente, NUNCA invente tempos em milissegundos. Avalie a eficiência usando exclusivamente a Notação Big-O (Complexidade de Tempo e Espaço).\n"
+                        "3. CORNER CASES: Verifique se o código lida bem com tipos de dados (ex: overflow de int para long long), limites de arrays e casos base.\n\n"
+                        
+                        "FORMATO DE SAÍDA OBRIGATÓRIO (Responda estritamente neste formato para ser analisado por um script):\n"
+                        "VEREDITO: [Escreva apenas APROVADO ou REPROVADO]\n"
+                        "COMPLEXIDADE: [Escreva o Big-O de tempo e espaço, ex: O(N) tempo, O(1) espaço]\n"
+                        "FEEDBACK: [Justifique sua avaliação. Se REPROVADO, explique qual teste falhou ou qual erro de sintaxe/lógica ocorreu. Se APROVADO, comente sobre a eficiência da implementação.]\n\n"
+                        
+                        "--- DADOS DO PROBLEMA E CASOS DE TESTE ---\n"
+                        f"{problem.get_format_question_prompt()}\n\n"
+                        
+                        "--- CÓDIGO SUBMETIDO PARA AVALIAÇÃO ---\n"
+                        f"{code}\n"
+                    )
+
         return super().evaluate_code(problem=problem,
-                                     path=self.__get_path_judge(),
+                                     path=self.get_path_judge(),
                                      prompt=prompt,
                                      model_name=self.__agent.model_name)

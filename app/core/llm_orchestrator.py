@@ -26,7 +26,12 @@ class LLMOrchestrator:
             return False
         
         print(f"Código questão {problem.get_id()} gerado com sucesso!")
-        self.__judger.evaluate_code(problem=problem)
+        
+        if not self.__judger.evaluate_code(problem=problem, path=self.__coder.get_path_code()):
+            print(f"Não foi possível criar o judge{problem.get_id()}.md...")
+            return False
+        
+        print(f"judge{problem.get_id()}.md gerado com sucesso!")
         
         return True
         
