@@ -34,13 +34,12 @@ def main ():
                 
                 try:
                     id = int(input("Digite um número: "))
-                    problem = database_service.get_problem(id)                    
-                    
-                    print(problem.get_format_question_prompt())
+                    problem = database_service.get_problem(id)
                     
                     coder = GeminiService()
+                    judger = GeminiService()
                     
-                    orchestrator = LLMOrchestrator(coder=coder, judger=coder)
+                    orchestrator = LLMOrchestrator(coder=coder, judger=judger)
                     orchestrator.create_and_judge_code(problem=problem)
                     
                     break

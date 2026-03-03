@@ -30,7 +30,13 @@ class GeminiService(LLMProvider):
             
         self.__agent = genai.GenerativeModel(model)
     
-    def __send_prompt(self, prompt: str) -> str:
+    def __get_path_code(self) -> str:
+        return "database/output/code_gemini"
+    
+    def __get_path_judge(self) -> str:
+        return "database/output/judge_gemini"
+    
+    def send_prompt(self, prompt: str) -> str:
         try:
             response = self.__agent.generate_content(prompt)
             return response.text
@@ -39,39 +45,40 @@ class GeminiService(LLMProvider):
             return None
      
     def generate_code(self, problem: ProblemRepository) -> bool:
-        init_prompt = "Análise os dados da questão abaixo: \n"
-        init_prompt = problem.get_format_question_prompt()
-        
         prompt = (
-                    f"{init_prompt}"
+                    "Análise os dados da questão abaixo: \n"
+                    f"{problem.get_format_question_prompt()}\n"
                     "Você é um especialista em programação programação competitiva em C++.\n"
                     "Faça um programa em C++ para o problema abaixo.\n"
                     "Responda apenas com o código, sem comentários ou texto extra.\n"
                     "O problema está no formato de string e com tags html, modifique para entender melhor o problema\n"
                     "Os links que aparecerem tente acessar e retirar informações para ajudar na resolução.\n\n"
-                    
                 )
         
-        code = self.__send_prompt(prompt)
-        
-        if code is None:
-            print("[File Manager]: Não é possível criar o arquivo")
-            return False
-        
-        #Retirando o markdown
-        code = code[6:len(code)-3]
-        title = f"/*\nCódigo criado pelo {self.__agent.model_name}\n"
-        title += "Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)\n*/"
-        code = title + code
-        
-        path = "database/output/code_gemini"
-        file_manager.create_dir(path)
-        
-        if not file_manager.create_file(f"question{problem.get_id()}.cpp", path, code):
-            print("[File Manager]: Não foi possível criar o arquivo")
-            return False
-        
-        return True
+        return super().generate_code(problem=problem,
+                                     path=self.__get_path_code(),
+                                     prompt=prompt,
+                                     model_name=self.__agent.model_name)
     
-    def evaluate_code(self, code: str, problem: ProblemRepository) -> str:
-        pass
+    def evaluate_code(self, problem: ProblemRepository) -> bool:
+        
+        code = file_manager.read_file(path=f"{self.__get_path_code()}/question{problem.get_id()}.cpp")
+        
+        prompt = (
+                    "Análise os dados da questão abaixo: \n"
+                    f"{problem.get_format_question_prompt()}\n"
+                    "Você é um avaliador de código experiente em C++.\n"
+                    f"Avalie o seguinte código:\n\n{code}\n\n"
+                    "Execute esse código em C++ com <test cases></test cases>.\n"
+                    "Veja que <input test></input test> tem um <output test></output test> respectivo.\n"
+                    "Saída deste prompt deve ter essa sequência:\n\n"
+                    "1. Correto, se acertar todos os <test cases></test cases>;\n"
+                    "2. Tempo de execução do código\n"
+                    "3. Avaliação do código - o código está implementado de forma eficiente e resolve o problema?"
+                  )
+        
+        
+        return super().evaluate_code(problem=problem,
+                                     path=self.__get_path_judge(),
+                                     prompt=prompt,
+                                     model_name=self.__agent.model_name)

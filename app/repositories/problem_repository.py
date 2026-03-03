@@ -78,14 +78,14 @@ class ProblemRepository (ProblemInterface):
             output += f"<test {i}>\n"
             
             if self.__problem.cases_test[i]["input"] is not None:
-                output += f"<input test {i}>\n"
+                output += "<input test>\n"
                 output += self.__problem.cases_test[i]["input"]
-                output += f"</input test {i}>\n"
+                output += "</input test>\n"
             
             if self.__problem.cases_test[i]["output"] is not None:
-                output += f"<output test {i}>\n"
+                output += "<output test>\n"
                 output += self.__problem.cases_test[i]["output"]
-                output += f"</output teste {i}>\n"
+                output += "</output teste>\n"
             
             output += f"</test {i}>\n"
             

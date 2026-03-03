@@ -21,11 +21,12 @@ class LLMOrchestrator:
         path += "/output"
         file_manager.create_dir(path)
         
-        if self.__coder.generate_code(problem):
-            print(f"Código questão {problem.get_id()} gerado com sucesso!")
-        else:
+        if not self.__coder.generate_code(problem):
             print("Não foi possível criar o código...")
             return False
+        
+        print(f"Código questão {problem.get_id()} gerado com sucesso!")
+        self.__judger.evaluate_code(problem=problem)
         
         return True
         
