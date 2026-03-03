@@ -9,6 +9,9 @@ class ProblemRepository (ProblemInterface):
     def __init__(self, id: int):
         self.set_problem(id)
         
+    def get_id(self) -> int:
+        return self.__problem.id
+        
     def set_problem(self, id: int):
         
         path = f"database/questions/question{id}"

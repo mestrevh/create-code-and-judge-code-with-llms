@@ -41,9 +41,9 @@ class FileManager:
                 with open(path,"r", encoding="utf-8") as file:
                     return file.read()
             except FileNotFoundError:
-                print(f"[file_maneger]: arquivo não existe no caminho {path}")
+                print(f"[file_manager]: arquivo não existe no caminho {path}")
             except Exception as e:
-                print(f"[file_maneger]: erro inesperado {e}")
+                print(f"[file_manager]: erro inesperado {e}")
             
         return ""
     

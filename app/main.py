@@ -1,4 +1,6 @@
 from services import DatabaseServices
+from core import LLMOrchestrator
+from services import GeminiService
 
 def main ():
     print("=" * 30)
@@ -33,7 +35,13 @@ def main ():
                 try:
                     id = int(input("Digite um número: "))
                     problem = database_service.get_problem(id)                    
-                    problem.print_problem()
+                    
+                    print(problem.get_format_question_prompt())
+                    
+                    coder = GeminiService()
+                    
+                    orchestrator = LLMOrchestrator(coder=coder, judger=coder)
+                    orchestrator.create_and_judge_code(problem=problem)
                     
                     break
                 except ValueError:
