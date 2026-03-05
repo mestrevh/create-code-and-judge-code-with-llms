@@ -1,9 +1,10 @@
-from interfaces import DatabaseInterface
-from models import DatabaseModel
-from utils import request_web, file_manager
+from interfaces.database_interface import DatabaseInterface
+from models.database_model import DatabaseModel
+from utils.request_web import request_web
+from utils.file_manager import file_manager
 from typing import List
-from .problem_repository import ProblemRepository
-from core import config
+from repositories.problem_repository import ProblemRepository
+from core.config import config
 
 
 class DatabaseRepository(DatabaseInterface):
@@ -65,58 +66,6 @@ class DatabaseRepository(DatabaseInterface):
                 return data.get('output')
 
         return None
-    
-    def post_send_code_the_huxley(self, id: int, code: str, type: str) -> bool:
-        
-        link = f"https://www.thehuxley.com/api/v1/user/problems/{id}/submissions"
-
-        headers = {
-            "Accept": "application/json, text/plain, */*",
-            "Authorization": "Bearer " + config.TOKEN_THE_HUXLEY,
-            "Origin": "https://www.thehuxley.com",
-            "Referer": f"https://www.thehuxley.com/problem/{id}/code-editor/",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/14.0",
-        }
-
-        cookies = {
-            "tha": config.TOKEN_THE_HUXLEY,
-        }
-        
-        files = {}
-        if type == "py":
-            files = {
-                "problem": (None, id),
-                "language": (None, "5"),
-                "file": ("solution.py", code.encode("utf-8"), "application/octet-stream")
-            }
-        elif type == "cpp":
-            files = {
-                "problem": (None, id),
-                "language": (None, "4"),
-                "file": ("A.cpp", code.encode("utf-8"), "application/octet-stream")
-            }
-            
-        return request_web.post(link=link, headers=headers,
-                                cookies=cookies, files=files)
-      
-    def get_last_submission_the_huxley(self, id: int) -> dict:
-        link = f"https://www.thehuxley.com/api/v1/submissions/summary?problem={id}&stats=last"
-        params = {'max': 1, 'sort': 'submissionDate', 'order': 'desc'}
-        headers = {
-            "Accept": "application/json, text/plain, */*",
-            "Authorization": "Bearer " + config.TOKEN_THE_HUXLEY,
-            "Referer": f"https://www.thehuxley.com/problem/{id}/",
-        }
-        cookies = {"tha": config.TOKEN_THE_HUXLEY}
-        
-        
-        data = request_web.get(link=link, params=params,
-                               headers=headers, cookies=cookies)
-        
-        if data is not None:
-            return data[0]
-        
-        return None
         
     def __get_question_with_token_the_huxley(self, id: int) -> list:
         
@@ -129,8 +78,8 @@ class DatabaseRepository(DatabaseInterface):
         code += "except EOFError:\n"
         code += "    raise Exception(''.join([str(x) + '\\n' for x in case]))\n"
         
-        if self.post_send_code_the_huxley(id, code, "py") is not None:
-            submissions = self.get_last_submission_the_huxley(id)
+        if request_web.post_code_the_huxley(id, code, "py") is not None:
+            submissions = request_web.get_last_submission_the_huxley(id)
 
             if submissions["testCaseEvaluations"] != None:
                 for submission in submissions["testCaseEvaluations"]:
@@ -152,6 +101,7 @@ class DatabaseRepository(DatabaseInterface):
         return examples
     
     def __create_question(self, data: dict, path: str, id: int, cases_test: list) -> bool:
+        
         if len(data['choices']) == 0 and data['baseLanguage'] == None:
             
             problem = f"Título: {data["name"]}\n"

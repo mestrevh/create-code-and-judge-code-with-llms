@@ -1,4 +1,4 @@
-from repositories import database_repository
+from repositories.database_repository import database_repository
 
 class DatabaseServices:
     

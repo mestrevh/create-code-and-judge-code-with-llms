@@ -1,7 +1,7 @@
-from core import config
-from interfaces import LLMProvider
-from repositories import ProblemRepository
-from utils import file_manager
+from core.config import config
+from interfaces.llm_provider import LLMProvider
+from repositories.problem_repository import ProblemRepository
+from utils.file_manager import file_manager
 from openai import OpenAI
 
 class GPTService(LLMProvider):
@@ -42,6 +42,7 @@ class GPTService(LLMProvider):
     
     def send_prompt(self, prompt: str) -> str:
         try:
+            print(f"[GPT API]: Enviando prompt para o modelo: {self.__input_model}")
             response = self.__agent.responses.create(
                     model=self.__input_model,
                     input=prompt
@@ -124,3 +125,57 @@ class GPTService(LLMProvider):
                                      path=self.get_path_judge(),
                                      prompt=prompt,
                                      model_name=self.__input_model)
+    
+    def simulation_the_huxley(self, problem: ProblemRepository, code_path: str) -> bool:
+        
+        print(f"{code_path}/question{problem.get_id()}.cpp")
+        code = file_manager.read_file(path=f"{code_path}/question{problem.get_id()}.cpp")
+        
+        prompt = (
+                    "Você é um juiz automático especializado em programação competitiva em C++.\n\n"
+
+                    "TAREFA:\n"
+                    "1) Analise o código fornecido.\n"
+                    "2) Verifique se compila logicamente.\n"
+                    "3) Gere internamente casos de teste relevantes com base no problema.\n"
+                    "4) Execute logicamente o código contra esses testes.\n"
+                    "5) Compare com a saída esperada.\n\n"
+
+                    "========== CASOS DE TESTES ==========\n"
+                    f"{problem.get_format_question_prompt()}\n"
+                    "========== FIM CASOS DE TESTES ==========\n\n"
+
+                    "========== CÓDIGO ==========\n"
+                    f"{code}\n"
+                    "========== FIM CÓDIGO ==========\n\n"
+
+                    "CLASSIFICAÇÕES POSSÍVEIS:\n"
+                    "CORRECT\n"
+                    "WRONG_ANSWER\n"
+                    "TIME_LIMIT_EXCEEDED\n"
+                    "RUNTIME_ERROR\n"
+                    "COMPILATION_ERROR\n"
+                    "EMPTY_ANSWER\n\n"
+
+                    "Responda APENAS no seguinte formato JSON válido:\n"
+                    "{\n"
+                    '  "tempo_juder": "estimativa de tempo (número)",\n'
+                    '  "status_judger": "uma das classificações acima",\n'
+                    '  "total_acertos_judger": número inteiro,\n'
+                    '  "total_erros_judger": número inteiro,\n'
+                    '  "total_testes_judger": número inteiro\n'
+                    "}\n\n"
+
+                    "Regras obrigatórias:\n"
+                    "- Não inclua explicações.\n"
+                    "- Não inclua comentários.\n"
+                    "- Não inclua texto antes ou depois do JSON.\n"
+                    "- Retorne o JSON, sem markdown.\n"
+                )
+        
+        return super().simulation_the_huxley(problem=problem,
+                                             code_path=code_path,
+                                             path="database/output/json",
+                                             prompt=prompt,
+                                             model_name=self.__input_model,
+                                             code=code)

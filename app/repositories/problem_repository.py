@@ -1,6 +1,6 @@
-from interfaces import ProblemInterface
-from models import ProblemModel
-from utils import file_manager
+from interfaces.problem_interface import ProblemInterface
+from models.problem_model import ProblemModel
+from utils.file_manager import file_manager
 
 class ProblemRepository (ProblemInterface):
     
@@ -11,7 +11,10 @@ class ProblemRepository (ProblemInterface):
         
     def get_id(self) -> int:
         return self.__problem.id
-        
+    
+    def problem_is_exist(self) -> bool:
+        return self.__problem is not None
+    
     def set_problem(self, id: int):
         
         path = f"database/questions/question{id}"

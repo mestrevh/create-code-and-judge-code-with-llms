@@ -23,10 +23,10 @@ class FileManager:
     def create_dir(self, name: str) -> bool:
         try:
             os.makedirs(name, exist_ok=True)
-            print(f"Diretório '{name}' criado.")
+            print(f"[File Manager]: Diretório '{name}' criado.")
             return True
         except OSError as e:
-            print(f"Erro ao criar o diretório: {e}")
+            print(f"[File Manager]: Erro ao criar o diretório: {e}")
             return False
     
     def dir_exist(self, path):
@@ -41,13 +41,13 @@ class FileManager:
                 with open(path,"r", encoding="utf-8") as file:
                     return file.read()
             except FileNotFoundError:
-                print(f"[file_manager]: arquivo não existe no caminho {path}")
+                print(f"[File Manager]: arquivo não existe no caminho {path}")
             except Exception as e:
-                print(f"[file_manager]: erro inesperado {e}")
+                print(f"[File Manager]: erro inesperado {e}")
             
         return ""
     
     def __str__():
-        return "Sou apenas um gerenciador de arquivos"
+        return "[File Manager]: Sou apenas um gerenciador de arquivos"
     
 file_manager = FileManager() 

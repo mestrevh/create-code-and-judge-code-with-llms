@@ -1,8 +1,8 @@
 import google.generativeai as genai
-from core import config
-from interfaces import LLMProvider
-from repositories import ProblemRepository
-from utils import file_manager
+from core.config import config
+from interfaces.llm_provider import LLMProvider
+from repositories.problem_repository import ProblemRepository
+from utils.file_manager import file_manager
 
 class GeminiService(LLMProvider):
     
@@ -36,6 +36,7 @@ class GeminiService(LLMProvider):
     
     def send_prompt(self, prompt: str) -> str:
         try:
+            print(f"[GEMINI API]: Enviando prompt para o modelo: {self.__agent.model_name}")
             response = self.__agent.generate_content(prompt)
             return response.text
         except Exception as e:
@@ -96,3 +97,49 @@ class GeminiService(LLMProvider):
                                      path=self.get_path_judge(),
                                      prompt=prompt,
                                      model_name=self.__agent.model_name)
+        
+    def simulation_the_huxley(self, problem: ProblemRepository, code_path: str) -> bool:
+        
+        code = file_manager.read_file(path=f"{code_path}/question{problem.get_id()}.cpp")
+
+        prompt = (
+                    "Você é um Sistema Juiz Automático (Online Judge) especialista em Programação Competitiva (C++).\n"
+                    "Sua tarefa é simular rigorosamente a compilação e a execução do código fornecido contra os casos de teste do problema.\n\n"
+                    
+                    "--- CÓDIGO SUBMETIDO ---\n"
+                    f"{code}\n\n"
+                    
+                    "--- TESTES ---\n"
+                    f"{problem.get_cases_test_of_problem()}\n\n"
+                    
+                    "INSTRUÇÕES DE AVALIAÇÃO (Simule mentalmente os seguintes passos):\n"
+                    "1. COMPILAÇÃO: Verifique se há erros de sintaxe (COMPILATION_ERROR).\n"
+                    "2. EXECUÇÃO: Simule o código com as entradas `<input test>` e compare exaustivamente com os `<output test>`.\n"
+                    "3. CASOS OCULTOS: Avalie mentalmente corner cases (casos extremos), limites de arrays e possíveis divisões por zero (RUNTIME_ERROR).\n"
+                    "4. TEMPO DE EXECUÇÃO: Estime o tempo de execução real do código em segundos (ex: 0.015), considerando a complexidade do algoritmo e o tamanho máximo das entradas (assumindo que o C++ executa ~10^8 operações por segundo). Se exceder o tempo limite do problema, classifique como TIME_LIMIT_EXCEEDED.\n\n"
+                    
+                    "VEREDICTOS PERMITIDOS (Escolha estritamente um):\n"
+                    "- CORRECT (Passou em tudo perfeitamente)\n"
+                    "- WRONG_ANSWER (A saída simulada divergiu da esperada)\n"
+                    "- TIME_LIMIT_EXCEEDED (Passou do tempo limite de execução estimado)\n"
+                    "- RUNTIME_ERROR (Falha de segmentação, erro de memória)\n"
+                    "- COMPILATION_ERROR (Erro de sintaxe C++)\n"
+                    "- EMPTY_ANSWER (Não gerou saída alguma)\n\n"
+                    
+                    "FORMATO DE SAÍDA OBRIGATÓRIO:\n"
+                    "Não escreva textos introdutórios ou explicações fora do formato. Retorne EXCLUSIVAMENTE um objeto JSON válido contendo a sua análise, sem markdown.\n\n"
+                    "{\n"
+                    '  "tempo_judger": 0.000\n'
+                    '  "status_judger": "VEREDICTO_AQUI",\n'
+                    '  "total_acertos_judger": 0,\n'
+                    '  "total_erros_judger": 0,\n'
+                    '  "total_casos_teste_judger": 0\n'
+                    "}"
+                )
+        
+        return super().simulation_the_huxley(problem=problem,
+                                             code_path=code_path,
+                                             path="database/output/json",
+                                             prompt=prompt,
+                                             model_name=self.__agent.model_name,
+                                             code=code)
