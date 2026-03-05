@@ -165,8 +165,18 @@ class LLMProvider(ABC):
             try:
                 json_file = file_manager.read_file(path + f"/{name_file}")
                 json_file = json.loads(json_file)
-                json_file.append(instance)
                 
+                swap = -1
+                
+                for i, values in enumerate(json_file):
+                    if values.get("problem_id_the_huxley") == instance['problem_id_the_huxley']:
+                        swap = i
+                
+                if swap == -1:
+                    json_file.append(instance)
+                else:
+                    json_file[swap] = instance
+                    
                 with open(path + f"/{name_file}", "w", encoding="utf-8") as f:
                     json.dump(json_file, f, indent=4, ensure_ascii=False)
             except json.JSONDecodeError:

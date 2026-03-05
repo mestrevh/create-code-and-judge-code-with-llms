@@ -11,11 +11,7 @@ class GeminiService(LLMProvider):
     def __init__(self):
         genai.configure(api_key=config.GEMINI_API_KEY)
         
-        models = []
-        
-        for model in genai.list_models():
-            if 'generateContent' in model.supported_generation_methods:
-                models.append(model.name)
+        models = ['models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-3-pro-preview']
         
         while True:
             print("Modelos:" + str(models))
@@ -26,13 +22,22 @@ class GeminiService(LLMProvider):
                 break
             else:
                 print("Escolha um nome que está nas opções")
-            
+    
+    def __get_models_gemini(self):
+        return genai.list_models()
+    
+    def __model_name_format_dir(self) -> str:
+        model_name = self.__agent.model_name.replace('/', '-')
+        model_name = model_name.replace('.', '-')
+        model_name = model_name.replace('_', '-')
+        
+        return model_name
     
     def get_path_code(self) -> str:
-        return "database/output/code_gemini"
+        return f"database/output/code_gemini/{self.__model_name_format_dir()}"
     
     def get_path_judge(self) -> str:
-        return "database/output/judge_gemini"
+        return f"database/output/judge_gemini/{self.__model_name_format_dir()}"
     
     def send_prompt(self, prompt: str) -> str:
         try:

@@ -18,6 +18,7 @@ def main ():
         print("3 - Dinâmica: uma llm cria o código e outra llm julga o código;")
         print("4 - Dinâmica: fazer dinâmica 3 em comparação com the huxley;")
         print("5 - Converter output/file.csv para output/file.json (vice-versa);")
+        print("6 - Testar 2 modelos (coder e judger) na simulação do the huxley.")
         print("Para sair digite qualquer coisa que não está no menu.")
         
         op = input("Escolha uma opção (numero): ")
@@ -74,7 +75,7 @@ def main ():
                     break
                 except ValueError:
                     print("Não é um número! Digite novamente.")
-        
+       
         elif op == "4":
             database_service.build_questions_id()
             questions_id = database_service.get_problems()
@@ -121,6 +122,7 @@ def main ():
                     break
                 except ValueError:
                     print(f"[Erro]: Não é um número! Digite novamente.")
+        
         elif op == "5":
             
              while True:
@@ -181,6 +183,43 @@ def main ():
                         
                 else:
                     break
+        
+        elif op == "6":
+            path = Path("database/questions/")
+            problems_id = [int(dir.name.replace("question", "")) for dir in path.iterdir() if dir.is_dir()]
+            
+            print("**** MENU *****")
+            print("1 - Code Gemini vs GPT simulation the huxley")
+            print("2 - Code GPT vs Gemini simulation the huxley")
+            print("Para sair digite qualquer coisa que não está no menu")
+            struct = input("Escolha uma opção: ")
+            
+            if struct == "1":
+                coder = GeminiService()
+                judger = GPTService()
+                
+                for id in problems_id:
+                    problem = database_service.get_problem(id)
+                    orchestrator = LLMOrchestrator(coder=coder, judger=judger)
+                    if not orchestrator.simulation_the_huxley_with_llm(problem=problem):
+                        print("Erro na execução da dinâmica!")
+                                
+                        print("=" * 10 + "Voltando ao menu" + "=" * 10)
+                        
+            elif struct == "2":
+                coder = GPTService()
+                judger = GeminiService()
+                
+                for id in problems_id:
+                    problem = database_service.get_problem(id)
+                    orchestrator = LLMOrchestrator(coder=coder, judger=judger)
+                    if not orchestrator.simulation_the_huxley_with_llm(problem=problem):
+                        print("Erro na execução da dinâmica!")
+                                
+                        print("=" * 10 + "Voltando ao menu" + "=" * 10)
+            else:
+                print("=" * 10 + "Voltando ao menu" + "=" * 10)
+                
         else:
             exit()
     

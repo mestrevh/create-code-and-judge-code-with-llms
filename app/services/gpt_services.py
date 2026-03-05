@@ -12,14 +12,7 @@ class GPTService(LLMProvider):
     def __init__(self):
         self.__agent = OpenAI(api_key=config.GPT_API_KEY)
         
-        models = []
-        
-        response = self.__agent.models.list()
-        
-        for model in response.data:
-            name = model.id.lower()
-            if name.startswith("gpt-"):
-                models.append(model.id)
+        models = ['gpt-5.3-codex', 'gpt-4.1', 'gpt-4o-mini']
         
         while True:
             print("Modelos:" + str(models))
@@ -31,14 +24,21 @@ class GPTService(LLMProvider):
             else:
                 print("Escolha um nome que está nas opções")
             
+        def __get_models_gpt(self) -> list:
+            return self.__agent.models.list()
+    
+    def __model_name_format_dir(self) -> str:
+        model_name = self.__input_model.replace('/', '-')
+        model_name = model_name.replace('.', '-')
+        model_name = model_name.replace('_', '-')
         
-        
+        return model_name
     
     def get_path_code(self) -> str:
-        return "database/output/code_gpt"
+        return f"database/output/code_gpt/{self.__model_name_format_dir()}"
     
     def get_path_judge(self) -> str:
-        return "database/output/judge_gpt"
+        return f"database/output/judge_gpt/{self.__model_name_format_dir()}"
     
     def send_prompt(self, prompt: str) -> str:
         try:
@@ -159,7 +159,7 @@ class GPTService(LLMProvider):
 
                     "Responda APENAS no seguinte formato JSON válido:\n"
                     "{\n"
-                    '  "tempo_juder": "estimativa de tempo (número)",\n'
+                    '  "tempo_juder": "estimativa de tempo (número com casas decimais)",\n'
                     '  "status_judger": "uma das classificações acima",\n'
                     '  "total_acertos_judger": número inteiro,\n'
                     '  "total_erros_judger": número inteiro,\n'
