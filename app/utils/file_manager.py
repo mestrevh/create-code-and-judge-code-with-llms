@@ -1,10 +1,34 @@
 import os
+import csv
+import json
+import pandas as pd
 
 class FileManager:
     """
     Essa classe tem como objetivo criar, deletar 
     ou modificar arquivos nos diretórios
     """
+    
+    def json_to_csv(self, path: str, name_file: str) -> bool:
+        try:
+            print(path + f"/json/{name_file}.json")
+            df = pd.read_json(path + f"/json/{name_file}.json")
+            df.to_csv(path + f"/csv/{name_file}.csv", index=False, encoding='utf-8')
+            return True
+                  
+        except Exception as e:
+            print("[File Manager]: Erro na conversão csv para json")
+            return False
+        
+    def csv_to_json(self, path: str, name_file: str) -> bool:
+        try:
+            df = pd.read_csv(path + f"/csv/{name_file}.csv", encoding='utf-8')
+            df.to_json(path + f"/json/{name_file}.json", orient='records', indent=4, force_ascii=False)
+            return True
+                    
+        except Exception as e:
+            print("[File Manager]: Erro na conversão")
+            return False
     
     def create_file(self, name_file: str, path: str, content: str) -> bool:
         try:

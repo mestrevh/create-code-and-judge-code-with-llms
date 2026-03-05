@@ -2,6 +2,8 @@ from services.database_services import DatabaseServices
 from core.llm_orchestrator import LLMOrchestrator
 from services.gemini_service import GeminiService
 from services.gpt_services import GPTService
+from pathlib import Path
+from utils.file_manager import file_manager
 
 def main ():
     print("=" * 30)
@@ -13,9 +15,10 @@ def main ():
         print("**** MENU *****")
         print("1 - Criar a base de dados com poucos casos de testes;")
         print("2 - Criar a base de dados com casos de testes possível (demora dias);")
-        print("3 - Dinâmica: uma llm cria o código e outra llm julga o código.")
+        print("3 - Dinâmica: uma llm cria o código e outra llm julga o código;")
         print("4 - Dinâmica: fazer dinâmica 3 em comparação com the huxley;")
-        print("Para sair digite qualquer coisa que não está no menu")
+        print("5 - Converter output/file.csv para output/file.json (vice-versa);")
+        print("Para sair digite qualquer coisa que não está no menu.")
         
         op = input("Escolha uma opção (numero): ")
         
@@ -118,6 +121,66 @@ def main ():
                     break
                 except ValueError:
                     print(f"[Erro]: Não é um número! Digite novamente.")
+        elif op == "5":
+            
+             while True:
+                print("**** MENU *****")
+                print("1 - CSV para JSON")
+                print("2 - JSON para CSV")
+                print("Para sair digite qualquer coisa que não está no menu")
+                struct = input("Escolha uma opção: ")
+                
+                if file_manager.create_dir("database/output/csv"):
+                        print("Diretorio database/output/csv/ criado!!!!")
+                    
+                if file_manager.create_dir("database/output/json"):
+                        print("Diretorio database/output/json/ criado!!!!")
+                        
+                if struct == "1":
+                    
+                    path = Path("database/output/csv")
+                    names = [file.stem for file in path.glob("*.csv")]
+                    name = ""
+                    
+                    if names:
+                        while not (name in names):
+                            print("Nomes dos arquivos: ")
+                            for n in names:
+                                print(n)
+                            
+                            name = input("Escolha um nome: ")
+                        
+                        if file_manager.csv_to_json("database/output", name):
+                            print("Tudo certo!!!!")
+                        else:
+                            print("Tente novamente!!!!")
+                    else:
+                        print("Diretorio não possui arquivos!!!!!")
+                        
+                elif struct == "2":
+
+                        
+                    path = Path("database/output/json")
+                    names = [file.stem for file in path.glob("*.json")]
+                    name = ""
+                    
+                    if names:
+                        while not (name in names):
+                            print("Nomes dos arquivos: ")
+                            for n in names:
+                                print(n)
+                            
+                            name = input("Escolha um nome: ")
+                        
+                        if file_manager.json_to_csv("database/output", name):
+                            print("Tudo certo!!!!")
+                        else:
+                            print("Tente novamente!!!!")
+                    else:
+                        print("Diretorio não possui arquivos!!!!!")
+                        
+                else:
+                    break
         else:
             exit()
     
