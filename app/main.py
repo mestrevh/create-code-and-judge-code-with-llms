@@ -4,6 +4,7 @@ from services.gemini_service import GeminiService
 from services.gpt_services import GPTService
 from pathlib import Path
 from utils.file_manager import file_manager
+from utils.build_website import BuildWebsite
 
 # [54, 812, 684, 814, 817, 813, 2201, 3598, 373, 3599, 176, 3601, 4662] analise obi
 
@@ -22,6 +23,7 @@ def main ():
         print("5 - Converter output/file.csv para output/file.json (vice-versa);")
         print("6 - Testar todas as questões usando a Dinâmica 4;")
         print("7 - Escolher as questões e fazer Dinâmica 4.")
+        print("8 - Construir website das questões (com base em database/questions).")
         print("Para sair digite qualquer coisa que não está no menu.")
         
         op = input("Escolha uma opção (numero): ")
@@ -30,8 +32,10 @@ def main ():
         
         if op == "1":
             database_service.create_database(cases_test=False)
+        
         elif op == "2":
             database_service.create_database(cases_test=True)
+        
         elif op == "3":
             database_service.build_questions_id()
             questions_id = database_service.get_problems()
@@ -281,7 +285,11 @@ def main ():
                         print("=" * 10 + "Voltando ao menu" + "=" * 10)
             else:
                 print("=" * 10 + "Voltando ao menu" + "=" * 10)
-                
+        
+        elif op == "8":
+            website = BuildWebsite()
+            del website
+            
         else:
             exit()
     
