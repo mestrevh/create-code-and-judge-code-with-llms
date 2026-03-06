@@ -23,7 +23,7 @@ class GeminiService(LLMProvider):
             else:
                 print("Escolha um nome que está nas opções")
     
-    def __get_models_gemini(self):
+    def __get_models_gemini(self) -> list:
         return genai.list_models()
     
     def __model_name_format_dir(self) -> str:
@@ -47,7 +47,7 @@ class GeminiService(LLMProvider):
         except Exception as e:
             print(f"[GEMINI] API not response: {e}")
             return None
-     
+    
     def generate_code(self, problem: ProblemRepository) -> bool:
         prompt = (
                     "Você é um Grande Mestre em Programação Competitiva (estilo ICPC/Maratona) e especialista em C++ moderno.\n\n"

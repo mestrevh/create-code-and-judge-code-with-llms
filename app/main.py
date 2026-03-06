@@ -5,6 +5,8 @@ from services.gpt_services import GPTService
 from pathlib import Path
 from utils.file_manager import file_manager
 
+# [54, 812, 684, 814, 817, 813, 2201, 3598, 373, 3599, 176, 3601, 4662] analise obi
+
 def main ():
     print("=" * 30)
     print("Iniciando o sistema!")
@@ -16,9 +18,10 @@ def main ():
         print("1 - Criar a base de dados com poucos casos de testes;")
         print("2 - Criar a base de dados com casos de testes possível (demora dias);")
         print("3 - Dinâmica: uma llm cria o código e outra llm julga o código;")
-        print("4 - Dinâmica: fazer dinâmica 3 em comparação com the huxley;")
+        print("4 - Dinâmica: fazer Dinâmica 3 em comparação com the huxley;")
         print("5 - Converter output/file.csv para output/file.json (vice-versa);")
-        print("6 - Testar 2 modelos (coder e judger) na simulação do the huxley.")
+        print("6 - Testar todas as questões usando a Dinâmica 4;")
+        print("7 - Escolher as questões e fazer Dinâmica 4.")
         print("Para sair digite qualquer coisa que não está no menu.")
         
         op = input("Escolha uma opção (numero): ")
@@ -194,6 +197,65 @@ def main ():
             print("Para sair digite qualquer coisa que não está no menu")
             struct = input("Escolha uma opção: ")
             
+            if struct == "1":
+                coder = GeminiService()
+                judger = GPTService()
+                
+                for id in problems_id:
+                    problem = database_service.get_problem(id)
+                    orchestrator = LLMOrchestrator(coder=coder, judger=judger)
+                    if not orchestrator.simulation_the_huxley_with_llm(problem=problem):
+                        print("Erro na execução da dinâmica!")
+                                
+                        print("=" * 10 + "Voltando ao menu" + "=" * 10)
+                        
+            elif struct == "2":
+                coder = GPTService()
+                judger = GeminiService()
+                
+                for id in problems_id:
+                    problem = database_service.get_problem(id)
+                    orchestrator = LLMOrchestrator(coder=coder, judger=judger)
+                    if not orchestrator.simulation_the_huxley_with_llm(problem=problem):
+                        print("Erro na execução da dinâmica!")
+                                
+                        print("=" * 10 + "Voltando ao menu" + "=" * 10)
+            else:
+                print("=" * 10 + "Voltando ao menu" + "=" * 10)
+        
+        elif op == "7":
+            print("**** MENU *****")
+            print("1 - Code Gemini vs GPT simulation the huxley")
+            print("2 - Code GPT vs Gemini simulation the huxley")
+            print("Para sair digite qualquer coisa que não está no menu")
+            struct = input("Escolha uma opção: ")
+            
+            n = 0
+            problems_id = []
+            
+            while True:
+                try:
+                    n = int(input("Número de questões: "))
+                    
+                    questions_id = database_service.get_problems()
+                    print(str(questions_id))
+                    
+                    while len(problems_id) != n:
+                        try:
+                            id = int(input())
+                            
+                            if id in questions_id:
+                                problems_id.append(id)
+                                print(f"Falta {n - len(problems_id)} questões")
+                            else:
+                                print("Esse id não está no banco de dados!!!")
+                        except ValueError:
+                            print("Digite apenas o número!")
+                    
+                    break
+                except ValueError:
+                    print("Não é um número! Digite novamente.")
+                    
             if struct == "1":
                 coder = GeminiService()
                 judger = GPTService()

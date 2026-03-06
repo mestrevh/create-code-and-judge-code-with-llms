@@ -1,1 +1,0 @@
-# O arquivo code_exemplo é um hello world!

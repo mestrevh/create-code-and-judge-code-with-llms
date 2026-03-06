@@ -8,4 +8,3 @@ app/data/output/judge_gpt/*
 */.venv
 .venv
 __pycache__
-database
