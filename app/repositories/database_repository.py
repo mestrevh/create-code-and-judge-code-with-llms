@@ -162,7 +162,7 @@ class DatabaseRepository(DatabaseInterface):
         }
         
         count = 0
-        id = 4812
+        id = 0
         while count != 1000:
             
             response = request_web.get(link=link + "/" + str(id),
