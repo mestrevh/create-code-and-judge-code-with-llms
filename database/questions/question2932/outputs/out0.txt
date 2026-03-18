@@ -1,0 +1,15 @@
+Busca de numero 1:
+(nome, 2)
+(dinheiro, 6)
+-----
+Busca de numero 2:
+(altura, 0)
+-----
+Busca de numero 3:
+(peso, 1)
+-----
+Busca de numero 4:
+(sexo, 0)
+-----
+Busca de numero 5:
+Elemento nao encontrado!

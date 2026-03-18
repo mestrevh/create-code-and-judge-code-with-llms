@@ -1,0 +1,6 @@
+Título: Loja de sapatos.
+Topicos do problema: multiplas entradas; array; acumulador; repetição; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Uma loja trabalha com 50 modelos de sapato. Faça um programa em Java que leia o preço dos 50 modelos e depois imprima o preço de cada modelo no valor de à vista (5% de desconto) e no cartão (5% de acréscimo). Utilize o conceito de arrays.<br/></p>
+Formato da entrada: <p>Preço dos 50 sapatos.</p>
+Formato da saída: <p>O preço de cada modelo à vista.</p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">O preço de cada modelo no cartão.</span><br/></p>

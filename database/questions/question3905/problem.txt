@@ -1,0 +1,6 @@
+Título: P3-Q3
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa para determinar o número de algarismos de um número inteiro positivo lido a partir do usuário.</p>
+Formato da entrada: <p>Um número inteiro positivo. </p>
+Formato da saída: <p>Um número inteiro positivo representando o número de algarismos do valor de entrada.</p>

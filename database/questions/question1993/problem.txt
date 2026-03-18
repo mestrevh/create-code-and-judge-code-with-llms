@@ -1,0 +1,6 @@
+Título: Salário e horas extra
+Topicos do problema: multiplas entradas; decisão; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa em Python que calcule as horas trabalhadas de um funcionário em um mês, sabendo que osalário desse funcionário são de R$ 10,00 por hora trabalhada, até o limite de 160 horas. Quando o número de horasexceder 160, o funcionário tem direito a hora extra, seguindo as seguintes regras:</p><p>a) A hora extra de trabalho vale R$ 20,00 se a quantidade de horas extras for menor que 10h</p><p>b) A hora extra de trabalho vale R$ 25,00 se a quantidade de horas extras estiver entre que 10h e 45h</p><p>c) A hora extra de trabalho vale R$ 30,00 se a quantidade de horas extras for maior que 45h<br/></p>
+Formato da entrada: <p>A entrada consiste de uma linha contendo o valor inteiro das horas trabalhadas por um funcionário e seu nome<br/></p>
+Formato da saída: <p>A saída consiste de uma linha contendo o nome do funcionário e o salário total que ele irá receber no final do mês e ovalor das horas extras, levando em consideração que os valores numéricos de cada uma das linhas devem ter 2 casasdecimais.<br/></p>

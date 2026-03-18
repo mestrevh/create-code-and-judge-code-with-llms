@@ -1,0 +1,6 @@
+Título: Soma dos ímpares
+Topicos do problema: multiplas entradas; acumulador; decisão; repetição; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio sempre foi um garoto criativo e ele gosta muito de matemática, então certo dia o garoto achou algumas listas com números e enquanto estava no ônibus resolveu exercitar seu cérebro com algumas operações simples de soma, contudo, ele somaria apenas os valores ímpares de um número, ou seja, se o número for 1593, o resultado seria 18 que é o resultado de 1 + 5 + 9 + 3, chegando em casa, ele gostaria de conferir todas as somas que fez no ônibus e para isso pediu sua ajuda para escrever um programa onde dados <b>N</b> inteiros <b>M, </b>imprima a soma dos dígitos impares de cada <b>M</b> até que seja digitado -1.</p><p>Se a entrada for:<br/></p><p>5</p><p>105</p><p>12345</p><p>135</p><p>1593</p><p>-1</p><p><br/></p><p>A saída será:</p><p>5</p><p>6</p><p>9</p><p>9</p><p>18<br/></p>
+Formato da entrada: <p>A entrada consiste de vários números, considere que o número sempre será maior ou igual a zero e menor que 10000.</p><br/>
+Formato da saída: <p>A saída consiste em <b>N, </b>onde cada linha contém o resultado de uma soma (a soma dos dígitos ímpares dos números).<br/></p>

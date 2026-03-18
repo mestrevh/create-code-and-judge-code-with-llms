@@ -1,0 +1,6 @@
+Título: 3 Caracteres em ordem crescente
+Topicos do problema: decisão; caractere; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que ordene três caracteres.</p><p>Você irá receber dois conjuntos de caracteres, imprima cada um dos conjuntos ordenados de forma crescente.</p><p>Considere os valores da tabela ASCII.<br/></p><p><br/></p><p>Exemplo:</p><p><br/></p><p>Receba: <br/></p><p>c b a<br/></p><p>z y x<br/></p><p><br/></p><p>Imprima:</p><p>a b c<br/></p><p>x y z<br/></p><p><br/></p><p><br/></p>
+Formato da entrada: <p>A entrada está restrita à letras do alfabeto minúsculas.</p><p>Recebe dois conjuntos de caracteres desta maneira:<br/></p><p>c b a<br/></p><p>z y x<br/></p><p><br/></p>
+Formato da saída: <p>Imprime os dois conjuntos desta maneira:</p><p>a b c<br/></p><p>x y z<br/></p>

@@ -1,0 +1,16 @@
+3780 293 4326 4614 1354 4938 2636 2348 2255 4400 3346 2483 1109 4725 2168 
+remover 3780
+remover 4326
+parcial
+remover 4400
+parcial
+parcial
+remover 4614
+parcial
+parcial
+remover 2636
+inserir 1266
+remover 1266
+remover 2483
+inserir 609
+final

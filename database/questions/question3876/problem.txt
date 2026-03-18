@@ -1,0 +1,6 @@
+Título: AB1.P1.Convertendo para segundos
+Topicos do problema: datas/horas; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que recebe um horário (horas, minutos, segundos) e determina quantos segundos já se passaram desde que o dia começou.<br/></p>
+Formato da entrada: <p>Valores inteiros representando as horas, minutos e segundos.</p>
+Formato da saída: <p>Valor inteiro representando o número de segundos passados.</p>

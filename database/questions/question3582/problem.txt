@@ -1,0 +1,6 @@
+Título: Norma do vetor com 3 componentes
+Topicos do problema: geometria computacional; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você recebeu a missão de calcular a norma de um no espaço tridimensional. Serão fornecidas as 3 componentes do vetor (números reais) e você deve imprimir na tela a respectiva norma (número real).</p>
+Formato da entrada: <p>São dados 3 valores reais, um em cada linha.</p>
+Formato da saída: <p>Um número real com 4 casas decimais (arredonde na última casa) que representa a norma do vetor dado.</p>

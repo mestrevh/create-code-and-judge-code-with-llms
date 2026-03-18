@@ -1,0 +1,21 @@
+mkdir root imagens
+mkdir root documentos
+mkdir root videos
+mkdir videos vid1
+mkdir vid1 vid1-1
+mkdir vid1 vid1-2
+mkdir videos vid2
+mkdir imagens img1
+ls
+rm documentos
+ls
+mkdir root musicas
+mkdir musicas mus1
+mkdir musicas mus2
+ls
+rm videos
+ls
+rm musicas
+ls
+rm pdf
+quit

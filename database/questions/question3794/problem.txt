@@ -1,0 +1,6 @@
+Título: Conversor de IP
+Topicos do problema: decisão; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>No mundo da informática sabemos que tudo funciona usando o sistema binário. O sistema que só tem dois símbolos, pode representar os nossos números decimais usando apenas 0 e 1.</p><p><br/></p><p>Para fazer a conversão de um número da base decimal para a base binária temos que dividir o número por 2 e ir concatenando o resto das divisões enquanto o número for maior que 1. Para converter da base binária para a decimal elevamos a base 2 ao expoente que representa a posição do bit, começando da direita para a esquerda, e ao final somamos todos os valores onde o bit for 1. </p><p>Por exemplo o octeto 10110101:</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/4e656384d59417cee2b45d24b07e538599f14e780.png"/><br/></p><p><span>Você receberá 4 octetos que representam um endereço IP, sua função é converter os octetos da base binária para a decimal e em seguida imprimir o endereço na tela.</span><br/></p>
+Formato da entrada: <p>4 linhas com os 8 bits referente a cada octeto do endereço IP.</p>
+Formato da saída: <p>O endereço IP na base decimal.</p>

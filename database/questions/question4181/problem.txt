@@ -1,0 +1,6 @@
+Título: Idade em anos e meses
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que calcule idade. O programa receberá como entrada a data de nascimento e a data atual e calculará a idade em anos e meses completos.<br/></p>
+Formato da entrada: <p>Na primeira linha será ingressada a data de nascimento, três inteiros separados por branco correspondentes ao dia, mes e ano. Similarmente, na segunda linha, será ingressada a data autal. Suponha que sempre a data de nascimento é anterior ou igual à data atual.<br/></p>
+Formato da saída: <p>A idade em anos e meses completos tal como aparece nos exemplos.<br/></p>

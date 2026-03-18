@@ -1,0 +1,6 @@
+Título: AB1.P1.Número invertido
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que gera o invertido de um número com três algarismos.</p><p>OBS: não é permitido usar funções nativas do python, estruturas de seleção , repetição ou variáveis compostas.</p>
+Formato da entrada: <p>Número inteiro com três casas decimais.</p>
+Formato da saída: <p>Número inteiro invertido.</p>

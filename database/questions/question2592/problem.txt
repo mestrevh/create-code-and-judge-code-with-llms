@@ -1,0 +1,6 @@
+Título: Distância entre dois pontos
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Construa um programa que tendo como entrada dois pontos quaisquer do plano P1(x1,y1) e P2(x2,y2), imprima a distância entre eles.<br/></p>
+Formato da entrada: <p>coordenadas x1 e y1 do ponto 1 (x1, y1)<br/></p><p>coordenadas x2 e y2 do ponto 2 (x2, y2)<br/></p><p><br/></p><p><br/></p>
+Formato da saída: <p>distância<br/></p>

@@ -1,0 +1,6 @@
+Título: Ultramaratona
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <b id="docs-internal-guid-7fa4c297-7fff-1d50-fdc1-fc3203b32871"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Escreva um programa que, dados os tempos de dois corredores de uma ultramaratona, imprima a diferença de tempo seguindo o formato mostrado nos exemplos. A diferença entre os tempos nunca passa dos 15 dias. </span></p>
+Formato da entrada: <b id="docs-internal-guid-6492c732-7fff-e0c8-fa98-9492aa1d0d99"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Dois números naturais representando o tempo em segundos dos dois corredores. Ambos números vêm numa única linha.</span></p>
+Formato da saída: <p>A diferença de tempo seguindo a formatação dos exemplos.<br/></p>

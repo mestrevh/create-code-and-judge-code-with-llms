@@ -1,0 +1,6 @@
+Título: PROGCOMP - Vetores - H
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que exibe a média entre o maior e o menor valor de um vetor de inteiros com vinte elementos dados pelo usuário e, ao final, exibe apenas os elementos que são maiores que a média.<br/></p>
+Formato da entrada: <p>Vinte números inteiros, um por linha.</p>
+Formato da saída: <p>Na primeira linha, a frase &#34;media: #&#34; (sem aspas, em minúsculo, sem acentuação e com # substituído pela média dos números lidos e com duas casas decimais); nas linhas seguintes, os valores dados na entrada que sejam maiores do que a média, na mesma sequência que foram lidos e um por linha.</p>

@@ -1,0 +1,6 @@
+Título: PROGCOMP - Repetição - O
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><b>[while]</b> Faça um programa que recebe valores inteiros positivos até que seja digitado o valor zero, que não deverá ser contabilizado. O programa deverá exibir o maior valor lido.</p>
+Formato da entrada: <p>Diversos valores inteiros positivos, um por linha. A entrada é encerrada com a leitura do valor zero (que não deve ser contabilizado).</p>
+Formato da saída: <p>O maior valor lido.</p>

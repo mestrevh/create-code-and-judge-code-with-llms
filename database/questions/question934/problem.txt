@@ -1,0 +1,6 @@
+Título: Nlogonia e suas estradas
+Topicos do problema: grafo; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>NLogonia é um pais pequeno, e tem um numero N de cidades que sao representadas por numeros de 0 até N-1, e conectando essas cidades tem M estradas bidirecionais, mas manter essas M estradas esta muito caro, entao o presidente de NLogonia, quer reduzir para N-1 estradas, e manter todas as cidades alcancaveis a partir de todas as outras, mas para reduzir ele quer fazer com que o numero de estradas entre a capital(que é indentificada pelo valor 0), e qualquer outra cidade seja o minimo possivel, mas o presidente de NLogonia quer saber a distancia da cidade mais longe da capital apos escolher essas N-1 estradas, e pediu a você para resolver.</p><h4><br/></h4>
+Formato da entrada: <p>A primeira linha contem 2 inteiros, N e M. N representando o numero de cidades, e M o numero de estradas em NLogonia. As proximas M linhas contem 2 inteiros separados por um espaço A e B representando que existem estradas entre A e B. Não existem mais de 1 estrada entre duas cidades.(Limites: 0&lt;N&lt;101,M&lt;10000).<br/></p>
+Formato da saída: <p>A saida deve conter um inteiro X, que representa a maior distancia entre a capital e qualquer cidade apos a reforma proposta.<br/></p>

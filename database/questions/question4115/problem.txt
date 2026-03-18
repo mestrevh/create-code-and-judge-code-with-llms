@@ -1,0 +1,6 @@
+Título: Lab 7 - Exercício 2
+Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva uma função chamada imprimePotencias que recebe três parâmetros: você irá fornecer o valor limitante inicial, o valor limitante final e qual será o expoente (nesta ordem). Por exemplo, ao receber os números 2, 5 e 2, serão impressos 4, 9, 16 e 25.<br/></p>
+Formato da entrada: <p>2 5 2</p>
+Formato da saída: <p>4 9 16 25</p>

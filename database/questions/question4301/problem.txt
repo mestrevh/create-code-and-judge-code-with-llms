@@ -1,0 +1,6 @@
+Título: Boneca perdida
+Topicos do problema: busca; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Um colecionador possui pares de bonecas. Porém uma sumiu da coleção. Você consegue descobrir qual?</p>
+Formato da entrada: <p>A primeira linha é o número de casos de teste T. T casos seguem.</p><p>Para cada caso de teste, temos uma linha com a quantidade de bonecas N. N linhas seguem, cada qual com o tipo de cada boneca presente atualmente na coleção.</p>
+Formato da saída: <p>Imprima o tipo da boneca que não possui par.</p>

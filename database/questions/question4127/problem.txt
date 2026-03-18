@@ -1,0 +1,6 @@
+Título: Linear Recurrence Problem
+Topicos do problema: maratona; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Em uma certa manhã, o Protagonista estava brincando com recorrências lineares. Ele pensou na seguinte recorrência, descrita pela função f:</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/baf684fb909ffce5ca922a751ec5ea11904aa080).png"/><br/></p><p><br/></p><p>Porém, o Protagonista estava muito interessado em saber o valor de f(N), mas não sabia como calcular. Você pode ajudar ele nessa missão?</p>
+Formato da entrada: <p>A entrada vai conter cinco números inteiros A, B, C, D e N respectivamente.<br/></p><p>1 &lt;= A, B, C, D &lt;= 100<br/></p><p>0 &lt;= N &lt;= 10</p><p><br/></p>
+Formato da saída: <p>Um número inteiro indicando o valor de f(N).<br/></p>

@@ -1,0 +1,6 @@
+Título: Ingresso de cinema.
+Topicos do problema: multiplas entradas; decisão; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Os ingressos de um cinema custam X reais. Na terça-feira há um desconto de 50% e em qualquer dia menores de 14 anos também tem desconto de 50%. Faça um programa em Java que leia do usuário o dia da semana, a idade do espectador e o preço base do ingresso e escreva o valor a pagar. Considere que 1 é domingo, 2 é segunda, etc.<br/></p>
+Formato da entrada: <p>Dia da semana.</p><p>Idade do espectador.</p><p>Preço base do ingresso.</p>
+Formato da saída: <p>Valor final a ser pago.</p>

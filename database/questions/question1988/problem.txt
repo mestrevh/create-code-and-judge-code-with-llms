@@ -1,0 +1,6 @@
+Título: Treino de saltos
+Topicos do problema: decisão; lógica matemática; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Em um treino de salto em altura, cada atleta tem direito a dar quantos saltos quiser como parte de uma atividade prática. Faça um programa que recebe a altura dos saltos de cada atleta enquanto ele quiser saltar. Para informar que o atleta não quer mais saltar é informado um valor de salto negativo.</p><p>Seu programa deve receber o nome de cada atleta e informar qual a média de altura dos saltos para cada um. Devem ser recebidos novos atletas até que seja digitado &#34;sair&#34; no nome do atleta.</p>
+Formato da entrada: <p>Para cada atleta:</p><ul><li>Seu nome</li><li>Vários valores de saltos (float), até que seja informado um salto negativo</li></ul>
+Formato da saída: <p>Para cada atleta:</p><ul><li>O nome do atleta e a média de saltos (com uma casa decimal de precisão).</li></ul>

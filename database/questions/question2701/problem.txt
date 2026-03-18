@@ -1,0 +1,6 @@
+Título: Q1 - P1B
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p><span>Fazer um programa que solicite 2 números e informe:</span><span><br/></span></p><p><span>a) A soma dos números;</span><span><br/></span></p><p><span>b) O produto do primeiro número pelo quadrado do segundo;</span><span><br/></span></p><p><span>c) O quadrado do primeiro número;</span><span><br/></span></p><p><span>d) A media dos numeros<br/></span></p>
+Formato da entrada: <p>O usuario deve digitar dois numeros<br/></p>
+Formato da saída: <p>O programa deve exibir o que foi pedido na descrição, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite o primeiro numero:<br/></p><p>Digite o segundo numero:<br/></p><p><span>Soma dos numeros: n</span><span><br/></span></p><p><span>Produto do primeiro numero pelo quadrado do segundo: n</span><span><br/></span></p><p><span>Quadrado do primeiro numero: n</span><span><br/></span></p><p><span>Media dos numeros: n<br/></span></p>

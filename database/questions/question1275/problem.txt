@@ -1,0 +1,6 @@
+Título: L4Q1 - Soma Divina
+Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Em uma aula extra, Silvio vai escrever uma soma de matrizes quadradas. Como o quadro da sala é muito pequeno, a soma não pode ser feita adequadamente. Em troca de 0,125 pontos, Silvio pede sua ajuda para resolver o problema.<br/></p><p><br/></p><p>Sua tarefa é escrever um programa que dada duas matrizes, realize a soma entre as duas.<br/></p>
+Formato da entrada: <blockquote><p>N<br/>M1<br/>M2</p></blockquote><ul><li>N - número inteiro</li><li>M1</li><li>M2</li></ul><p>A primeira linha de entrada é referente a ordem das matrizes.</p><p>Depois, um número N² de elementos que descrevem a primeira matriz.</p><p>Depois, um número N² de elementos que descrevem a segunda matriz.</p><p><b><br/></b></p><p><b>obs: a ordem de leitura dos elementos é dado a cada linha, da esquerda para a direita.</b><br/></p>
+Formato da saída: <p>Em progresso</p><p><br/></p>

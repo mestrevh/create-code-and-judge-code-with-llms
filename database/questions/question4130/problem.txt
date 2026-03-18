@@ -1,0 +1,6 @@
+Título: Aventura em Aracaju
+Topicos do problema: maratona; 
+Tempo limite de execução: 5 segundo(s)
+Descrição: <p>O Protagonista estava maluco com seus N amigos em Aracaju - SE, quando de repente lhe surgiu um desafio: Maximizar o volume de bebida no copo de cada amigo, de forma que o volume fique igual em todos os copos.  Cada i-ésimo amigo se encontra com um copo com A[i] ml. Só tem um problema: Protagonista está tão louco que ao tentar transferir X ml de bebida de um copo para outro, o volume do primeiro é diminuído por X e o volume do outro copo aumenta na seguinte quantidade:<br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/bf1a3a4387b0ed00b0bba53f3defffb15019c8f3).png"/><br/></p><p>Encontre a quantidade máxima que Protagonista pode colocar no copo de cada amigo, de forma que todos os copos tenham o mesmo volume de bebida.<br/></p>
+Formato da entrada: <p>Na primeira linha vai ter dois inteiros N e K.</p><p>Na segunda linha vai ter N inteiros A[1], ..., A[N]. A[i] indica o volume inicial de bebida no copo do i-ésimo amigo.</p><p>2 &lt;= N &lt;= 100000</p><p>0 &lt;= K &lt; 100</p><p>0 &lt;= A[i] &lt;= 1000</p>
+Formato da saída: <p>Um número de ponto flutuante indicando a maior quantidade possível que o Protagonista pode colocar no copo de cada amigo. <b>O número deve ser impresso com exatamente 3 casas decimais.</b><br/></p>

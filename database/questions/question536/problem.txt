@@ -1,0 +1,12 @@
+Título: Fatorial Simples
+Topicos do problema: acumulador; 
+Tempo limite de execução: 9 segundo(s)
+Descrição: <div class="description" style="font-family: 'Trebuchet MS', Helvetica, Jamrul, sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">
+<div class="description">
+<p style="margin: 0px 0px 10px;">Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N = N * (N-1) * (N-2) * (N-3) * ... * 1.</p>
+</div>
+<h2 style="font-size: 18px; margin: 20px 0px 10px;"><br /></h2>
+<h2 style="font-size: 18px; margin: 20px 0px 10px;"><br /></h2>
+</div>
+Formato da entrada: <h3>Entrada</h3>&#13;<div class="input" style="text-align: justify;">&#13;<p>A entrada contém um valor inteiro N (0 &lt; N &lt; 13).</p></div>
+Formato da saída: <h3>Saida</h3>&#13;<p><span style="text-align: justify;">A saída contém um valor inteiro, correspondente ao fatorial de N.</span></p>

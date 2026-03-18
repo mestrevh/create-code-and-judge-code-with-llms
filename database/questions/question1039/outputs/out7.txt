@@ -1,0 +1,64 @@
+------------------------------
+The tree ab*c*d*e*f* has:
+- Left subtree: ab*c*d*e*
+- Right subtree: f
+------------------------------
+------------------------------
+The tree ab*c*d*e* has:
+- Left subtree: ab*c*d*
+- Right subtree: e
+------------------------------
+------------------------------
+The tree ab*c*d* has:
+- Left subtree: ab*c*
+- Right subtree: d
+------------------------------
+------------------------------
+The tree ab*c* has:
+- Left subtree: ab*
+- Right subtree: c
+------------------------------
+------------------------------
+The tree ab* has:
+- Left subtree: a
+- Right subtree: b
+------------------------------
+------------------------------
+The tree a has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree b has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree c has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree d has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree e has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree f has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+
+Decoding Tree is:
+
+a : 00000
+b : 00001
+c : 0001
+d : 001
+e : 01
+f : 1

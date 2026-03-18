@@ -1,0 +1,6 @@
+Título: Mapeamento genético
+Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Identificação de cadeias de DNA é uma importante atividade na Engenharia Genética.</p><p>Nesse problema iremos identificar em uma sequência de DNA onde se localiza a maior subsequência de uma determinada base e a quantidade.</p><p><span>Vamos ajudar os cientistas da área a resolver esse problema! </span><br/></p>
+Formato da entrada: <p>sequência de DNA</p><p>base a ser procurada</p>
+Formato da saída: <p>posição onde se localiza a maior subsequência</p><p>tamanho da maior subsequência</p>

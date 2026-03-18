@@ -1,0 +1,24 @@
+Pre Order:
+Node 0: previous = -1 next = 1
+Node 1: previous = 0 next = 3
+Node 2: previous = 4 next = 5
+Node 3: previous = 1 next = 4
+Node 4: previous = 3 next = 2
+Node 5: previous = 2 next = 6
+Node 6: previous = 5 next = -1
+In Order
+Node 0: previous = 4 next = 5
+Node 1: previous = 3 next = 4
+Node 2: previous = 5 next = 6
+Node 3: previous = -1 next = 1
+Node 4: previous = 1 next = 0
+Node 5: previous = 0 next = 2
+Node 6: previous = 2 next = -1
+Post Order
+Node 0: previous = 2 next = -1
+Node 1: previous = 4 next = 5
+Node 2: previous = 6 next = 0
+Node 3: previous = -1 next = 4
+Node 4: previous = 3 next = 1
+Node 5: previous = 1 next = 6
+Node 6: previous = 5 next = 2

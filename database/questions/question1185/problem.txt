@@ -1,0 +1,6 @@
+Título: Mendes e o The Huxley
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Gabriel Mendes (~ggml) é um estudante do CIn que ficou extremamente fascinado quando foi apresentado ao The Huxley. Como é muito competitivo, Mendes passou todo o seu primeiro período de Engenharia da Computação acumulando a maior quantidade de pontos que conseguiu. No entanto, ele anda extremamente preocupado por que, depois virar monitor de IP, sua conta passará a ser de professor e ele deixará de fazer parte do ranking. Por isso, em homenagem a Mendes, você deve criar um programa que receba do usuário a quantidade de questões de cada nível que ele fez no The Huxley e retorne sua pontuação e o quanto ele ganharia se tivesse usado essas horas livres num estágio.</p><p>Para isso, considere as tabelas abaixo:</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/0eb21c91c3a2a930d1ac111e664368e0f2b7a08ca.png"/><br/></p><p>Considere também que a hora de um estagiário de TI é cerca de R$7,00</p>
+Formato da entrada: <p>Cinco números que correspondem, respectivamente, a quantidade de questões dos níveis 1, 2, 3, 4 e 5.<br/></p>
+Formato da saída: <p>A pontuação e o valor que ele ganharia (com duas casas decimais) de acordo com a formatação do exemplo.<br/></p>

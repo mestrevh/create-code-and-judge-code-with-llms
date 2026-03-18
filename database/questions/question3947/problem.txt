@@ -1,0 +1,6 @@
+Título: 42 Táxi
+Topicos do problema: acumulador; entrada formatada; ciclos; função; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p class="western">A 42 Táxi está fazendo uma promoção relâmpago. Para calcular o valor de uma corrida, é necessário informar a distância percorrida e o custo por quilômetro percorrido. Se a parte inteira do valor total da corrida for umnúmero primo, 42% de desconto é dado ao cliente.</p><p class="western"><br/></p><p class="western">Observação: É necessário a utilização de função (mais de umase achar necessário) definida pelo programador(a) para a solução da questão<br/></p>
+Formato da entrada: <p>Consiste de 2 linhas</p><p>1º linha: A quantidade de corridas a serem testadas</p><p>2º linha: Dois valores numéricos, um para a distância percorrida e outro para o valor do quilômetro percorrido<br/></p>
+Formato da saída: <title></title><p class="western">O valor da corrida, com 2 casas decimais</p>

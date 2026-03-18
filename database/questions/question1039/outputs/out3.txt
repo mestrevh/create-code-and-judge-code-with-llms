@@ -1,0 +1,64 @@
+------------------------------
+The tree AD!C**RB*** has:
+- Left subtree: A
+- Right subtree: D!C**RB**
+------------------------------
+------------------------------
+The tree A has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree D!C**RB** has:
+- Left subtree: D!C**
+- Right subtree: RB*
+------------------------------
+------------------------------
+The tree D!C** has:
+- Left subtree: D
+- Right subtree: !C*
+------------------------------
+------------------------------
+The tree D has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree !C* has:
+- Left subtree: !
+- Right subtree: C
+------------------------------
+------------------------------
+The tree ! has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree C has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree RB* has:
+- Left subtree: R
+- Right subtree: B
+------------------------------
+------------------------------
+The tree R has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree B has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+
+Decoding Tree is:
+
+A : 0
+D : 100
+! : 1010
+C : 1011
+R : 110
+B : 111

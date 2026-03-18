@@ -1,0 +1,6 @@
+Título: Mais velho e mais novo
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Jõao e Maria têm quatro filhos e querem saber a diferença de idade entre o filho mais velho e o filho caçula. Como eles não são muito bons para fazer contas estão querendo que alguem os ajude escrevendo um programa para calcular esta diferença.</p>
+Formato da entrada: <p>Quatro números naturais representado<span> as idades em anos dos quatro filhos de Joâo e Maria. Os números podem vir em qualquer ordem..</span></p>
+Formato da saída: <p>A diferença de idade entre o mais velho e o mais novo.</p>

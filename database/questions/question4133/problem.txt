@@ -1,0 +1,6 @@
+Título: Juntando Pilhas e Fila
+Topicos do problema: estrutura de dados; array; decisão; repetição; pilha; função; ponteiro; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <div>Criar uma função <b>juntar_pilhas_fila</b> que consome duas pilhas e uma fila para uma nova pilha e retorne essa última pilha. A função deve preencher a <b>pilha fina</b>l na seguinte sequencia: 1 item da primeira pilha, 1 item da segunda pilha e 1 item da fila, e assim sucessivamente, até consumir por completo as pilhas e a fila.</div>
+Formato da entrada: <p>Quantidade de Elementos da 1a Pilha</p><p>Elementos da 1a Pilha</p><p>Quantidade de Elementos da 2o Pilha</p><p>Elementos da 2a Pilha</p><p>Quantidade de elementos da Fila</p><p>Elementos da Fila<br/></p><p><br/></p>
+Formato da saída: <p>Imprimir a Pilha Final<br/></p>

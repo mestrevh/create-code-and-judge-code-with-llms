@@ -1,0 +1,6 @@
+Título: Pi aproximado
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A seguinte série infinita pode ser utilizada para calcular o valor de pi.</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/2a01f410750328299f74e995d285f7789d56941f1.png"/><br/></p><p>Desenvolva um programa que calcule o valor de pi através de uma aproximação desta série usando termos até que o valor absoluto do último destes seja menor ou igual a um valor ínfimo dado.</p>
+Formato da entrada: <p>O valor ínfimo.<br/></p>
+Formato da saída: <p>O valor aproximado de pi com 12 casas decimais.<br/></p>

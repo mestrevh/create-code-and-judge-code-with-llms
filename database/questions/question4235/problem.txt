@@ -1,0 +1,6 @@
+Título: Resultados Triglicerídeos
+Topicos do problema: decisão; repetição; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio está suspeitando que houve um aumento do número de pessoas com triglicerídeos ALTO. Para confirmar, resolveu fazer um programa que lê os valores de todos os exames e traz, ao final, uma totalização com os respectivos percentuais. Para classificar os resultados, Ambrósio utilizou a tabela abaixo:<br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/496c9d7edb603ea36ed93068c27803bb3d73e9065.png"/><br/></p><p><br/></p>
+Formato da entrada: <p>Uma sequência de resultados, sendo um resultado por linha contendo um número inteiro (não negativo). Ao encontrar um caractere asterisco *, a entrada de dados está encerrada, conforme exemplo abaixo:</p><p>160</p><p>210</p><p>230</p><p>*<br/></p>
+Formato da saída: <p>Devem ser fornecidas as quantidades e os respectivos percentuais por tipo de resultado (DESEJAVEL, LIMITROFE ou ALTO). </p><p>Além disso, caso o sejam obtidos 50% ou mais de resultados ALTO, deve ser impressa um mensagem de alerta (Quantidade de ALTO acima do normal). </p><p>A saída deve seguir o formato contido nos exemplos.<br/></p>

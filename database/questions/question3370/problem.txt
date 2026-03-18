@@ -1,0 +1,6 @@
+Título: Soma de elementos
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dado um conjunto de números inteiros, determine todos os pares cuja soma é igual a um dado inteiro <b>X</b>. </p>
+Formato da entrada: <p>Um número natural <b>N</b> (1 &lt;= N &lt;= 100), representando o tamanho do conjunto de inteiros, um inteiro <b>X</b>, seguidos de <b>N</b> inteiros, sem repetição.  </p>
+Formato da saída: <p>Pares de elementos do conjunto de números, cuja soma é igual a <b>X</b>, numerados e ordenados conforme sequência de entrada, com formato de acordo com os exemplos de saída. Caso não haja pares possíveis, exibir a mensagem: &#34;Inexistente&#34;. Cada número pode ser utilizado para formar apenas um par, ou seja, na saída, não devem aparecer os pares (1, 3) e (3, 1), mas, sim, apenas um deles.</p>

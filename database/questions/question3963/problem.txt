@@ -1,0 +1,6 @@
+Título: Sobrenome não é Fácil
+Topicos do problema: acumulador; repetição; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p class="western">A região sul do Brasil é caracterizada pela ascendência multicultural de seus habitantes, sendo principalmente europeus e sobre tudo italianos, alemães e poloneses. Uma consequência interessante disso é a variação na dificuldade na pronúncia dos sobrenomes da população, o que as vezes dificulta a vida dos professores na realização da chamada de sua turma, gerando até situações constrangedoras. Dada a possibilidade de constrangimento em suas aulas, a professora Jiraiya decidiu pesquisar os sobrenomes em sua lista de chamadas. Na concepção de Jiraiya, um sobrenome é difícil se tiver três ou mais consoantes consecutivas.</p><p class="western"><br/></p><p class="western">Observação: É necessário a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão</p>
+Formato da entrada: <title></title><p class="western">A entrada consiste em um sobrenome. A string contém letras do alfabeto sem acentos, a primeira letra está sempre em maiúscula e o sobrenome pode ter no máximo 42 caracteres.</p>
+Formato da saída: <title></title><p class="western">Imprima o sobrenome e se é fácil ou não, conforme mostra o exemplo abaixo.</p>

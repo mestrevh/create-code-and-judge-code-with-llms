@@ -1,5 +1,5 @@
 Título: Qual o numero de dígitos de um numero inteiro
-Topicos do problema: repetição; lógica matemática; alocação dinâmica; 
+Topicos do problema: lógica matemática; repetição; alocação dinâmica; 
 Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Retorne o numero de dígitos de um numero inteiro qualquer</p>
 Formato da entrada: <p>12345</p>

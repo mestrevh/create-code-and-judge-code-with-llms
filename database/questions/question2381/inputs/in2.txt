@@ -1,0 +1,43 @@
+mkdir root matematica
+mkdir root fisica
+mkdir root computacao
+mkdir matematica matrizes
+mkdir matrizes transposta
+mkdir matrizes inversa
+mkdir matematica equacoes
+mkdir matematica provas
+mkdir equacoes prim-grau
+mkdir equacoes seg-grau
+mkdir seg-grau delta
+mkdir seg-grau grafica
+mkdir provas ab1
+mkdir provas ab2
+ls
+mkdir fisica optica
+mkdir fisica mecanica
+mkdir mecanica leis-de-newton
+mkdir mecanica dinamica
+mkdir fisica eletrostatica
+mkdir eletrostatica lei-de-coulomb
+mkdir eletrostatica campo-eletrico
+mkdir eletatica campo-eletrico
+mkdir eletrostatica campo-magnetico
+mkdir computacao p1
+mkdir computacao p2
+mkdir computacao p3
+mkdir p1 condicao
+mkdir p1 loop
+mkdir p1 funcoes
+ls
+mkdir p3 classes
+mkdir p3 metodos
+mkdir p3 polimorfismo
+mkdir p2 pilhas
+mkdir p2 grafos
+mkdir p5 grafos
+mkdir p2 arvores
+mkdir metodos get
+mkdir metodos set
+mkdir metodos to-string
+ls
+quit

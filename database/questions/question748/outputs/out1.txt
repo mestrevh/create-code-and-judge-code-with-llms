@@ -1,0 +1,25 @@
+Criatura: medusa
+Status:
+ Forca: 1
+ Agilidade: 2
+ Intigencia: 3
+ Sabedoria: 4
+
+Caracteristicas:
+mitologico 
+
+Habilidades:
+petrificar 
+
+Criatura: minotauro
+Status:
+ Forca: 200
+ Agilidade: 1
+ Intigencia: 0
+ Sabedoria: 0
+
+Caracteristicas:
+besta humanoide 
+
+Habilidades:
+chifrada mugido

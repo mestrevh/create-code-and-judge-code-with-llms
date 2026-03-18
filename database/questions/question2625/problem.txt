@@ -1,0 +1,6 @@
+Título: Operação diferente com vetores
+Topicos do problema: estrutura de dados; multiplas entradas; array; decisão; entrada formatada; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Estamos reinventando as operações com vetores! Implemente um programa que execute essas novas operações:</p><p>Dados v1 e v2 e a operação, imprima o vetor resultado.</p><p>As operações podem ser: &lt; ou &gt;</p><p>Se você fizer v1&lt;v2 o resultado é calculado subtraindo-se 10 de cada elemento de v1 e na sequencia soma-se os elementos de v2</p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Se você fizer v1&gt;v2 o resultado é calculado somando-se 10 a cada elemento de v1 e na sequencia subtrai-se os elementos de v2</span><br/></p>
+Formato da entrada: <p>n: dimensão do vetor</p><p>v1: valores separados por espaço</p><p>v2: valores separados por espaço</p><p>op: caractere indicando a operação</p><pre>3<br/>1 2 3<br/>4 5 6<br/>&lt;<br/></pre>
+Formato da saída: <p>Vetor de resultado, apresentando os valores com 2 casas decimais, separados por espaço.</p><pre>-5.00 -3.00 -1.00<br/></pre>

@@ -1,0 +1,37 @@
+impressao da lista de adjacencias do grafo:
+lista 0: 1 2 5 6 
+lista 1: 0 
+lista 2: 0 7 
+lista 3: 5 
+lista 4: 5 6 
+lista 5: 0 4 3 
+lista 6: 0 4 
+lista 7: 2 8 
+lista 8: 7 11 
+lista 9: 11 10 12 
+lista 10: 9 
+lista 11: 8 9 12 13 14 15 
+lista 12: 9 11 16 
+lista 13: 11 
+lista 14: 11 
+lista 15: 11 16 
+lista 16: 15 12 
+
+imprimindo vertices acessiveis:
+[0]: 0 
+[1]: 1 
+[2]: 2 
+[3]: 3 
+[4]: 4 
+[5]: 5 
+[6]: 6 
+[7]: 7 
+[8]: 8 
+[9]: 9 
+[10]: 10 
+[11]: 11 
+[12]: 12 
+[13]: 13 
+[14]: 14 
+[15]: 15 
+[16]: 16

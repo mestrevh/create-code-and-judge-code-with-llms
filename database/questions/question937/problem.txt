@@ -1,0 +1,6 @@
+Título: Cálculo com idade.
+Topicos do problema: multiplas entradas; acumulador; repetição; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Dado um número não determinado de idades de pessoas, determine:</p><p>A maior idade digitada;</p><p>A quantidade de pessoas que atingiram a maioridade (&gt;= 18);</p><p>A média de idade;</p><p>A menor idade digitada;</p>
+Formato da entrada: <p>As idades digitadas.</p><p><br/></p><p><br/></p>
+Formato da saída: <p>A maior idade;</p><p>Quantidade de pessoas que tenha 18 anos ou mais;</p><p>Média das idades;</p><p>Menor idade;</p>

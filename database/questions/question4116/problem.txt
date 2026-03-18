@@ -1,0 +1,6 @@
+Título: O Professor Ordenado
+Topicos do problema: array; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O professor pythonildo é viciado em ordenação e tem o desejo de ordenar tudo que encontrar logo faz isso com as notas de seus alunos, todo<span> fim de semana ele corrige as provas passadas e as coloca em ordem, entretanto sua mania de ordenação tem uma necessidade de ordenar de ambas maneiras, crescente e decrescente. </span></p><p><span><b>OBS.1: O número da turma inicia em 1 </b></span></p><p><span><b>OBS.2: Todos os números são inteiros</b></span></p><p><span><b>OBS.3: Na saída não tem espaço antes da quebra de linha</b></span></p>
+Formato da entrada: <p>um N onde N é um inteiro com a quantidade de turmas que varia entre 1 até 20.</p><p> Em seguida serão lidas N turmas onde cada turma tem 10 notas.</p>
+Formato da saída: <p>o número da turma </p><p>o array em ordem crescente , uma quebra de linha </p><p>o array em ordem decrescente, seguido por uma quebra de linha</p><p><br/></p>

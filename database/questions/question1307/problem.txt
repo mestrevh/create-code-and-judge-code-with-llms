@@ -1,0 +1,6 @@
+Título: Labirinto quebrado
+Topicos do problema: simulação de jogos; array bidimensional; backtracking; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Um programador está desenvolvendo um jogo que se passa num labirinto, porém, o seu gerador de labirintos parece estar com algum problema, e por isso, alguns labirintos estão sem solução. Ele precisa separar os labirintos impossíveis, e para isso ele pediu a sua ajuda.</p><p>Dado um labirinto <b>N </b>x <b>M</b> descubra se é possível resolvê-lo ou não.</p><p>(Observação: O objetivo do labirinto é chegar no canto inferior direito, partindo do canto superior esquerdo; e v<span style="float: none;">ocê só pode se mover para cima, baixo, esquerda ou direita</span>)</p>
+Formato da entrada: <p>A primeira linha do caso de teste é composta de dois inteiros <b>N</b> e <b>M</b>, representando a quantidade de linhas e a quantidade de colunas respectivamente.</p><p>As <b>N</b> linhas seguintes são compostas de <b>M</b> caracteres '.' ou '#', representando um caminho livre e uma parede, respectivamente.</p>
+Formato da saída: <p>A saída deve conter &#34;Yes&#34;, se o labirinto tiver solução ou &#34;No&#34;, se o labirinto não tiver solução.</p>

@@ -1,0 +1,6 @@
+Título: Quadrado perfeito
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Crie um algoritmo que verifique se um dado número inteiro trata-se de um quadrado perfeito, exibindo, nos casos aformativos, a sua raiz quadrada.</p>
+Formato da entrada: <p>um número lido pelo usuário</p>
+Formato da saída: <p>o numero inteiro referente ao quadrado perfeito ou uma mensagem &#34;O numero lido nao eh um quadrado perfeito&#34;, informando que o numero não se trata de um quadrado perfeito.</p>

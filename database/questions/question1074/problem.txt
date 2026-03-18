@@ -1,0 +1,6 @@
+Título: Imposto
+Topicos do problema: ponto flutuante; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>No pequeno país de Rockemburgo os governantes estão pensando em tornar mais justo o pagamento dos impostos. Para isso eles querem que quem ganha mais, pague mais e que quem ganhe menos, pague menos. </p><p>O cálculo deve ser baseado em uma cobrança de 5% de todo o salário anual juntamente com uma uma dedução de 1.5% pelo total de filhos menores de idade, %1 da despesa de educação, 2% da despesa anual com saúde. </p><p><br/></p><p>Use o comando  <b># coding: utf-8</b> na primeira linha do código fonte para poder usar caracteres especiais.</p><p><br/></p><p><span>   </span><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p>
+Formato da entrada: <p>O programa deve ler valores referentes às seguintes informações:</p><ul><li>salário anual</li><li>quantidade de filhos menores de idade</li><li>despesa anual com educação</li><li>despesa anual com saúde</li></ul><p><br/></p><p>A <b>quantidade de filhos</b> deve ser lida como inteiro e as demais como <b>ponto flutuante.</b></p><p><br/></p><p><br/></p>
+Formato da saída: <p>O programa deve exibir o valor do imposto calculado sem dedução (aproximação de duas casas decimais) e com dedução (aproximação de três casas decimais).</p><p><br/></p><p><br/></p><p><br/></p>

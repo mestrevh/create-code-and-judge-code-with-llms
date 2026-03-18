@@ -1,0 +1,13 @@
+Título: Permutação Comum
+Topicos do problema: substrings; string; busca; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Dadas duas string em caixa-baixa, <strong>a</strong> e <strong>b</strong>, imprima a maior string <strong>x</strong> de letras min&uacute;sculas tais que:</p>
+<ul>
+<li>existe uma permuta&ccedil;&atilde;o de x tal que todos os caracteres de x pertencem a "a" e</li>
+<li>existe uma permuta&ccedil;&atilde;o de x tal que todos os caracteres de x pertencem a "b"</li>
+</ul>
+<p><strong>Lembre-se que por permuta&ccedil;&atilde;o entende-se qualquer rearranjo dos caracteres na string, por exemplo "abc" pode ser permutado em "bca", "bac", "acb" e etc...</strong></p>
+Formato da entrada: <p>O arquivo de entrada cont&eacute;m v&aacute;rias linhas de entrada.</p>
+<p>A primeira linha cont&eacute;m uma string <strong>a</strong>, a segunda linha cont&eacute;m uma string <strong>b</strong>,cada string cont&eacute;m no m&aacute;ximo <strong>1000</strong> caracteres. A entrada termina com a = b = "fim", este caso n&atilde;o deve ser processado.</p>
+Formato da saída: <p>Para cada dupla de strings <strong>a</strong> e <strong>b</strong>,imprima uma linha contendo <strong>x</strong>. Se houver mais de um x que satisfa&ccedil;a o crit&eacute;iro acima, escolha o primeiro em ordem alfab&eacute;tica</p>
+<p><strong>Obs.: Se n&atilde;o houver x, imprima uma linha em branco</strong></p>

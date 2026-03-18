@@ -1,0 +1,6 @@
+Título: Encontro de amigos
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A Entidade e seus amigos querem se encontrar para fazer uma festa, mas eles estão distantes uns dos outros e precisam descobrir qual o melhor ponto de encontro. O melhor ponto de encontro é aquele que minimiza a soma das distâncias percorridas por cada pessoa. Faça um programa que ajude-a a encontrar o melhor ponto de encontro.</p><p>Observação: Um ponto de encontro não precisa ser necessariamente a posição de um amigo. E no caso de empate, escolha a posição que está mais próxima do início.</p>
+Formato da entrada: <p>A primeira linha da entrada terá um inteiro <b>n</b> (2 &lt;= <b>n</b> &lt;= 1000) indicando a quantidade de pessoas que querem se encontrar. Na linha seguinte, terão <b>n</b> inteiros <b>p_i </b>(1 &lt;= <b>p_i</b> &lt;= 1000), representando a posição da <b>i</b>-ésima pessoa.</p>
+Formato da saída: <p>A saída deverá conter dois números <b>d</b> e <b>o</b>, indicando respectivamente a soma das distâncias que cada pessoa irá percorrer e o ponto de encontro.</p>

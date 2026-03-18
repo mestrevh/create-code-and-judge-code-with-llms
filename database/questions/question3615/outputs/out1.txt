@@ -1,0 +1,24 @@
+4.a) A quantidade de veículos no país: 90000
+4.b) A quantidade de acidentes no país: 1564
+4.c) A quantidade de acidentes com vítimas fatais no país: 7
+4.d) O município com maior número de acidentes: Recife (1564)
+4.d) O município com menor número de acidentes: Recife (1564)
+
+5.a) A média de veículos por municípios: 90000.0
+5.b) A média de acidentes com vítimas fatais por municípios: 7.0
+5.b) A média de acidentes com vítimas não-fatais por municípios: 25.0
+5.b) A média de acidentes sem vítimas por municípios: 1532.0
+
+5.c) O maior IVT é de 0.018244444444444445 e pertence ao município Recife
+5.d) Nome do município: Recife
+5.d) Quantidade de veículos de Recife: 90000
+5.d) Total de acidentes com vítimas fatais em Recife: 7
+5.d) Total de acidentes com vítimas não-fatais em Recife: 25
+5.d) Total de acidentes sem vítimas em Recife: 1532
+
+5.c) O menor IVT é de 0.018244444444444445 e pertence ao município Recife
+5.d) Nome do município: Recife
+5.d) Quantidade de veículos de Recife: 90000
+5.d) Total de acidentes com vítimas fatais em Recife: 7
+5.d) Total de acidentes com vítimas não-fatais em Recife: 25
+5.d) Total de acidentes sem vítimas em Recife: 1532

@@ -1,0 +1,17 @@
+Título: Prevendo bacterias
+Topicos do problema: array; array bidimensional; 
+Tempo limite de execução: 10 segundo(s)
+Descrição: <p>Dada uma tabela que cont&eacute;m o n&uacute;mero de bact&eacute;rias, por unidade de volume, existente em uma cultura ap&oacute;s t horas, fa&ccedil;a:</p>
+<p>Obs. As medidas s&atilde;o determinadas em intervalos de tempo constantes (dt)</p>
+<p>a) verifique qual das seguintes fun&ccedil;&otilde;es ajustam melhor o diagrama de dispers&atilde;o (tempo vs. bact&eacute;rias): linear (y=a+b*t), exponencial (y=a*b^t) ou geom&eacute;trica (y=a*t^b);</p>
+<p>b) considerando que os valores de t est&atilde;o igualmente espa&ccedil;ados (dt), calcule a melhor estimativa do valor de y(t) para a pr&oacute;xima leitura ainda n&atilde;o realizada (&uacute;ltimo t + dt).</p>
+<p>Na sa&iacute;da dessa quest&atilde;o voc&ecirc; deve imprimir a matriz de coeficientes e o vetor de constantes de cada ajuste, seguido dos valores das constantes obtidas para cada fun&ccedil;&atilde;o ajustada e do respectivo res&iacute;duo. Ao final, imprima o nome da fun&ccedil;&atilde;o que teve menor res&iacute;duo e a sua melhor estimativa de x + dt. Todos os valores devem sem impressos com 2 casas decimais.</p>
+Formato da entrada: <p>Você vai receber uma matriz com 2 linhas. Na primeira linha encontra-se o número de horas decorridas até cada uma das medições. Na segunda linha encontra-se o número de bactéricas registrado em cada medida.</p>&#13;<p>A tabela a seguir apresenta um exemplo onde temos na primeira linha 7 colunas, cada uma com o tempo decorrido até cada medição. Na segunda linha vemos o número de bactérias encontrada na cultura em cada medição.</p>&#13;<p>Verifique o formato de entrada dado no exemplo. Os colchetes são obrigatórios.</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/85d9634be97994d797deb9f4ae09ebe2.jpg" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/85d9634be97994d797deb9f4ae09ebe2.jpg" border="0" width="610" height="342"/></a></p>&#13;<p> </p>&#13;<p> </p>
+Formato da saída: <p>Devem ser impressas as seguintes informa&ccedil;&otilde;es.</p>
+<p>Para cada tipo de fun&ccedil;&atilde;o (linear, exponencial e geom&eacute;trica), imprime-se:</p>
+<p>Matriz dos coeficientes calculada para o ajuste pelo M&eacute;todo dos M&iacute;nimos Quadrados, em seguida (na pr&oacute;xima linha), o vetor de coeficientes do sistema linear gerado. Nas tr&ecirc;s linhas seguintes, o par&acirc;metro "a" e o par&acirc;metro "b" calculados para dada fun&ccedil;&atilde;o de ajuste, seguidos do valor do res&iacute;duo (soma dos quadrados definida pelo m&eacute;todo).</p>
+<p>Deixa-se uma linha em branco e imprime-se novamente essas mesmas informa&ccedil;&otilde;es para as fun&ccedil;&otilde;es de ajuste que seguem.</p>
+<p>Depois de imprimir as informa&ccedil;&otilde;es das tr&ecirc;s fun&ccedil;&otilde;es solicitadas, deixa-se uma linha em branco e imprime-se o nome da fun&ccedil;&atilde;o que apresentar menor res&iacute;duo: Linear, Exponencial ou Geometrica.</p>
+<p>Por &uacute;ltimo, deixa-se uma linha em branco e imprime-se o valor da estimativa para o valor futuro solicitado na quest&atilde;o.</p>
+<p>Deixa-se uma linha em branco no final do aquivo.</p>
+<p>&Eacute; importante observar o formato dos n&uacute;meros impressos (veja no arquivo de sa&iacute;da modelo). Na maioria dos n&uacute;meros, utilizam-se duas casas decimais (9.41). No caso do valor do res&iacute;duo, utiliza-se a nota&ccedil;&atilde;o de engenharia (1.66e-01).</p>

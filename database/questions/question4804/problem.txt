@@ -1,0 +1,6 @@
+Título: Compras da dona Fofa
+Topicos do problema: acumulador; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dona fofa é uma senhora muito gentil que gosta de frutas, para fazer umas compras ela vai a feira, entretanto ela precisa de sua ajuda para calcular o valor total que ela precisará desembolsar.</p><p>Faça um programa que calcule o valor total de uma compra.</p><p>O programa deve receber um inteiro N representando quantas frutas serão compradas, seguido de N números inteiros representando o código de cada produto, o código indicará seu preço:&#13;<br/></p><p>1.Banana -&gt; 1.22</p><p>Maçã -&gt; 1.43</p><p>Pêra -&gt; 2.04</p><p>Uva -&gt; 3.25</p><p>Mamão -&gt; 5.76</p><p>Melancia -&gt; 10.6</p><p>Ao final você deve retornar o valor total da compra.</p><p>Obs: o valor atribuído aos produtos tem que ser do tipo real(double).&#13;<br/></p>
+Formato da entrada: <p>Um inteiro 1&lt;=N&lt;=1000 representando a quantidade de frutas, seguido de N's números inteiros representando os códigos das frutas.&#13;<br/></p>
+Formato da saída: <p>Um número real representando o valor total da compra.<br/></p>

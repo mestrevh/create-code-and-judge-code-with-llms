@@ -1,0 +1,6 @@
+Título: Quantos caminhos diferentes existem?
+Topicos do problema: grafo; 
+Tempo limite de execução: 5 segundo(s)
+Descrição: <p>Em uma das viagens pelo mundo, a Entidade encontrou uma cidade muito estranha: Existiam múltiplas ruas levando para um mesmo lugar, as ruas eram apenas em mão única. Como ela gosta muito de fazer análises estatísticas, ela quer saber de quantos caminhos *diferentes existem entre <b>A</b> e chegar em <b>B</b>. Ajude-a.</p><p>*diferentes significa que os caminhos não tem nenhuma rua em comum.</p>
+Formato da entrada: <p>A primeira linha da entrada consistirá de dois inteiros <b>n </b>(2 &lt;= n &lt;= 100) e <b>m</b> (n &lt;= m &lt;= 10000) que representam a quantidade de lugares na cidade e a quantidade de ruas entre lugares.</p><p>Em seguida, virão <b>m</b> linhas, onde cada linha terá dois inteiros <b>u </b>e <b>v</b>; esses inteiros são números identificadores de lugares, e significam que existe uma rua de <b>u</b> para <b>v</b>.</p><p>Cada vértice é descrito com um valor no intervalo [0, <b>n</b>).</p>
+Formato da saída: <p>A saída consistirá de um inteiro <b>w</b>, representando quantos caminhos diferentes existem entre <b>A</b> (0) e <b>B </b>(n - 1).</p>

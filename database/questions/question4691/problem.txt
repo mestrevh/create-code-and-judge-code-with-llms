@@ -1,0 +1,6 @@
+Título: Competição de altura
+Topicos do problema: lógica matemática; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Os primos Huguinho e Zezinho vivem competindo em diversas coisas. Uma das coisas é a altura, pois Huguinho é mais alto que Zezinho atualmente. </p><p>Sabendo que Huguinho cresce 2 centímetros por ano e Zezinho cresce 3 centímetros por ano, então Zezinho desafiou Huguinho dizendo que em alguns anos ele irá ser mais alto que ele. </p><p>Construa um algoritmo que calcule e imprima quantos anos serão necessários para que Zezinho seja maior que Huguinho.<br/></p>
+Formato da entrada: <p>A altura atual de Huguinho em centímetros</p><p>A altura atual de Zezinho em centímetros</p>
+Formato da saída: <p>Um inteiro que represente em quantos anos Zezinho será maior que Huguinho</p>

@@ -1,0 +1,6 @@
+Título: Maior Menor
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que receba cinco inteiros e diga qual deles é o maior e qual o menor.<br/></p>
+Formato da entrada: <p>1</p><p>5</p><p>3</p><p>9</p><p>4</p><p><br/></p>
+Formato da saída: <p>9</p><p><br/></p>

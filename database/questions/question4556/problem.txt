@@ -1,0 +1,6 @@
+Título: Ímpares até um valor dado
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Leia um valor inteiro X (1 &lt;= X &lt;= 1000). Em seguida mostre os ímpares de 1 até X, um valor por linha, inclusive o X, se for o caso.<br/></p>
+Formato da entrada: <p>A entrada contém 1 valor inteiro X.<br/></p>
+Formato da saída: <p>Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.<br/></p>

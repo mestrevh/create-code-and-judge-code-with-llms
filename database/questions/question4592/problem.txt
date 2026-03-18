@@ -1,0 +1,6 @@
+Título: Vizinhos barulhentos
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você é um proprietário de um prédio que é uma grade de apartamentos R x C; cada apartamento é uma cela quadrada unitária com quatro paredes. Você deseja alugar N desses apartamentos para inquilinos, com exatamente um inquilino por apartamento, e deixar os demais vazios. Infelizmente, todos os seus potenciais inquilinos são barulhentos, portanto, sempre que dois apartamentos ocupados compartilham uma parede (e não apenas um canto), isso adicionará um ponto de infelicidade ao edifício. Por exemplo, um edifício 2x2 em que todos os apartamentos estão ocupados tem quatro paredes que são partilhadas por inquilinos vizinhos e, portanto, a pontuação de infelicidade do edifício é 4.</p><p>Se você posicionar seus N inquilinos de maneira ideal, qual é o valor mínimo de infelicidade para seu edifício?<br/></p>
+Formato da entrada: <p>A primeira linha da entrada fornece o número de casos de teste, T. Seguem T linhas; cada um contém três inteiros separados por espaço: R, C e N.<br/></p>
+Formato da saída: <p>Para cada caso de teste, imprima uma linha contendo &#34;Case #x: y&#34;, onde x é o número do caso de teste (começando em 1) e y é a infelicidade mínima possível para o edifício.<br/></p>

@@ -1,0 +1,6 @@
+Título: Os números amigos de Sofia
+Topicos do problema: repetição; recursão; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>   Sofia, uma garota muito curiosa, estava lendo sobre os números amigos e ficou indignada com a baixa frequência que ela encontrava os números amigos em um intervalo. Entretanto, Sofia é muito esperta e decidiu criar a sua própria definição de números amigos.</p><p>   Ela decidiu que um número natural <b>a</b> seria amigo de outro número natural <b>b</b>, sendo a &lt;= b,<b>  </b>se e somente se a soma dos divisores naturais de <b>a </b>(com exceção do próprio <b>a</b>) resultassem em <b>b</b>. Para ajudá-la a encontrar os números amigos, ela pediu para que você criasse um programa e mostrasse todos os números amigos de um intervalo fechado.  </p><p><b>Obs: </b>Um número pode ser amigo dele mesmo.</p>
+Formato da entrada: <p>X Y</p><p>Onde:</p><p>[X, Y]</p><p>X representa o início  e Y representa o final do intervalo fechado</p><p>X e Y são inteiros de forma que <b>(1 &lt;= X &lt; Y &lt;= 1000) </b></p><p><b><br/></b></p><p> </p>
+Formato da saída: <p>Todos os números amigos pertencentes ao intervalo dado, percorrendo o intervalo de X até Y, separados por uma quebra de linha. Caso não haja nenhum número amigo no intervalo, você devera escrever &#34;Nao existem numeros amigos&#34; seguido de uma quebra de linha.</p>

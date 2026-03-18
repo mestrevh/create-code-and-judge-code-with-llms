@@ -1,0 +1,7 @@
+mkdir root imagens
+mkdir root documentos
+mkdir root videos
+mkdir root downloads
+mkdir videos vid1
+ls
+quit

@@ -1,0 +1,10 @@
+Digite a quantidade de amostras de DNA que serao analisadas.
+
+Digite o tamanho da Amostra.
+Integridade: Amostra com erro de pareamento.
+Posicao(oes) do(s) erro(s): 4 6
+Fita 1 --> A: 3 , T: 2 , C: 1 , G: 1
+Fita 2 --> A: 3 , T: 1 , C: 2 , G: 1
+Amostra analisada!
+
+Fim da analise!

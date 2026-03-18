@@ -1,0 +1,6 @@
+Título: Ordenação Inusitada
+Topicos do problema: decisão; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <b id="docs-internal-guid-7691342b-6e78-3d8d-da03-4577fe2f0749"></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Rita recebeu de Onofre um pedido inusitado: escrever um programa que leia três números inteiros e positivos e exiba na saída padrão de maneira ORDENADA da seguinte forma: se o primeiro número lido for ímpar, a ordem será crescente. Caso contrário, será decrescente. No entanto, se qualquer um dos valores for negativo, será exibida uma mensagem de erro. </span></p>
+Formato da entrada: <b id="docs-internal-guid-7691342b-6e79-2c89-382a-596caa246056"></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Três números inteiros lidos separadamente.</span></p><p dir="ltr" style="text-align: justify;"><br/></p>
+Formato da saída: <p>Números ordenados ou Mensagem de erro.</p>

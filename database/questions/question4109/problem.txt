@@ -1,0 +1,6 @@
+Título: Matriz Quadrada
+Topicos do problema: array; acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span>Escreva um algoritmo que leia um inteiro N (0 ≤ N ≤ 15), correspondente a ordem de uma matriz M de inteiros, e construa a matriz de acordo como exemplo abaixo.</span></font></font></font></p>
+Formato da entrada: <title></title><p><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span>A entrada consiste de vários inteiros, um valor por linha,correspondentes as ordens das matrizes a serem construídas. O final da entrada é marcado por um valor de ordem igual a zero (0).</span></font></font></font></p>
+Formato da saída: <title></title><p><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span>Para cada inteiro da entrada imprima a matriz correspondente, de acordo com o exemplo. Os valores das matrizes devem ser separados por espaço. Após o último caractere de cada linha da matriz não deve haver espaços em branco. Após a impressão de cada matriz deve ser deixada uma linha em branco, exceto a última matriz.</span></font></font></font></p>

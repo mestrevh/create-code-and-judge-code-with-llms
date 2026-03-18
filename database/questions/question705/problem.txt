@@ -1,0 +1,6 @@
+Título: Jo-Ken-Po
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Vamos jogar pedra papel e tesoura! Seu programa deve deve receber <b>duas </b>palavras chave: <b>pedra , papel ou tesoura.</b></p><p>Caso o usuário escreva qualquer coisa <b>diferente </b>o programa deve escrever na tela &#34;<b>entrada incorreta</b>&#34;.</p><p>Caso ambas sejam <b>iguais </b>deve escrever na tela &#34;<b>empate</b>&#34;.</p><p>No final seu programa deve dizer quem <b>venceu </b>a disputa!&#13;<br/></p>
+Formato da entrada: <div>Duas palavras (strings) referentes à jogada dos participantes. Elas devem ser inseridas separadamente. </div><p><br/></p><ul><li>Exemplo Entrada 1</li></ul><div>pedra</div><div>papel&#13;</div><ul><li>Exemplo Entrada 2</li></ul><div>papel</div><p>papel<br/></p><ul><li>Exemplo Entrada 3</li></ul><div>vidro</div><p>papel<br/></p><ul><li>Exemplo Entrada 4</li></ul><div>tesoura</div><p>papel<br/></p><ul><li>Exemplo Entrada 5</li></ul><div>peda</div><p>tesoura<br/></p><div><br/></div>
+Formato da saída: <p>Uma frase (string). </p><p>      •Exemplo Saída 1</p><p>papel vence</p><p>      •Exemplo Saída 2</p><p>empata</p><p>      •Exemplo Saída 3</p><p>entrada incorreta</p><p>      •Exemplo Saída 4</p><p>tesoura vence</p><p>      •Exemplo Saída 5</p><p>&#13;&#13;&#13;&#13;entrada incorreta<br/></p>

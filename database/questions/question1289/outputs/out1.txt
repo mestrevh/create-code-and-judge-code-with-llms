@@ -1,0 +1,31 @@
+pre-ordem:100 
+nivel 1:
+100 
+
+pre-ordem:100 120 
+nivel 1:
+100 
+nivel 2:
+120 
+
+pre-ordem:100 90 120 
+nivel 1:
+100 
+nivel 2:
+90 120 
+
+pre-ordem:120 90 
+nivel 1:
+120 
+nivel 2:
+90 
+
+pre-ordem:120 
+nivel 1:
+120 
+
+pre-ordem:
+
+pre-ordem:300 
+nivel 1:
+300

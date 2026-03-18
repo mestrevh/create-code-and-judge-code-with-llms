@@ -1,0 +1,6 @@
+Título: É um retângulo?
+Topicos do problema: decisão; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que identifique se os comprimentos dos lados fornecidos pelo usuário podem formar um retângulo.</p><p><b>Atenção: </b>Deve ser criada um função chamada <b><u>eRetangulo</u></b> que recebe o comprimento dos quatro lados e retorna True se for um retângulo e False caso não seja.</p>
+Formato da entrada: <p>Uma sequência de 4 inteiros contendo o comprimento de cada um dos lados da forma geométrica, um valor por linha. Considere que não há uma ordem específica ao informar o comprimento dos lados.</p><p>Assuma que todos os valores serão positivos.</p>
+Formato da saída: <p>Se for um retângulo, imprimir na tela:</p><p>RETANGULO</p><p>Caso contrário, imprimir:</p><p>NAO EH UM RETANGULO</p>

@@ -1,0 +1,6 @@
+Título: PROGCOMP - Sequência - D
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que lê o salário base de alguém e exibe o novo salário, considerando 5% de gratificação (mais dinheiro) e 7% de impostos (menos dinheiro) sobre o salário base. Também exiba a gratificação e o imposto.</p>
+Formato da entrada: <p>A entrada conterá um valor real representando o salário base.</p>
+Formato da saída: <p>A saída deverá conter um valor real com duas casas decimais representando o novo salário; um valor real com duas casas decimais representando a gratificação e; um valor real com duas casas decimais representando o imposto. Apenas um valor por linha.</p>

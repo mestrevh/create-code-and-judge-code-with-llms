@@ -1,0 +1,6 @@
+Título: PROGCOMP - Repetição - J
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><b>[for]</b> Faça um programa que lê cem idades de pacientes e exibe as idades do mais novo e do mais velho.</p>
+Formato da entrada: <p>Cem números naturais, simbolizando as idades de pacientes, um por linha.</p>
+Formato da saída: <p>Na primeira linha a idade do mais novo; na linha seguinte a idade do mais velho.</p>

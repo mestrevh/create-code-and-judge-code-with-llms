@@ -1,0 +1,72 @@
+Digite a opcao desejada:
+1- Cadastrar cliente e conta.
+2- Mostrar todas as contas cadastradas.
+3- Mostrar contas de determinado cliente.
+4- Mostre o ativo bancario.
+5- Atualizar saldo.
+0- Sair do programa.
+Digite o nome do cliente:
+Digite o saldo:
+Conta: 1 | Cliente: Joao | Saldo: R$ 1000.00
+Digite a opcao desejada:
+1- Cadastrar cliente e conta.
+2- Mostrar todas as contas cadastradas.
+3- Mostrar contas de determinado cliente.
+4- Mostre o ativo bancario.
+5- Atualizar saldo.
+0- Sair do programa.
+Digite o nome do cliente:
+Digite o saldo:
+Conta: 2 | Cliente: Pedro | Saldo: R$ 1500.00
+Digite a opcao desejada:
+1- Cadastrar cliente e conta.
+2- Mostrar todas as contas cadastradas.
+3- Mostrar contas de determinado cliente.
+4- Mostre o ativo bancario.
+5- Atualizar saldo.
+0- Sair do programa.
+Digite o nome do cliente:
+Conta: 0 | Cliente: Joao | Saldo: R$ 1000.00
+Digite a opcao desejada:
+1- Cadastrar cliente e conta.
+2- Mostrar todas as contas cadastradas.
+3- Mostrar contas de determinado cliente.
+4- Mostre o ativo bancario.
+5- Atualizar saldo.
+0- Sair do programa.
+Digite o nome do cliente:
+Digite o saldo:
+Conta: 3 | Cliente: Maria | Saldo: R$ 5000.00
+Digite a opcao desejada:
+1- Cadastrar cliente e conta.
+2- Mostrar todas as contas cadastradas.
+3- Mostrar contas de determinado cliente.
+4- Mostre o ativo bancario.
+5- Atualizar saldo.
+0- Sair do programa.
+Ativo Bancario: R$ 7500.00
+Digite a opcao desejada:
+1- Cadastrar cliente e conta.
+2- Mostrar todas as contas cadastradas.
+3- Mostrar contas de determinado cliente.
+4- Mostre o ativo bancario.
+5- Atualizar saldo.
+0- Sair do programa.
+Digite o numero da conta:
+Digite o novo saldo:
+Digite a opcao desejada:
+1- Cadastrar cliente e conta.
+2- Mostrar todas as contas cadastradas.
+3- Mostrar contas de determinado cliente.
+4- Mostre o ativo bancario.
+5- Atualizar saldo.
+0- Sair do programa.
+Digite o nome do cliente:
+Conta: 1 | Cliente: Pedro | Saldo: R$ 2000.00
+Digite a opcao desejada:
+1- Cadastrar cliente e conta.
+2- Mostrar todas as contas cadastradas.
+3- Mostrar contas de determinado cliente.
+4- Mostre o ativo bancario.
+5- Atualizar saldo.
+0- Sair do programa.

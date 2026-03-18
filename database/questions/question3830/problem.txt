@@ -1,0 +1,6 @@
+Título: Lista  - Criar lista de 5 itens classificada
+Topicos do problema: array; repetição; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Crie um programa que seja capaz de ler 5 números inteiros e inserir os mesmos (imediatamente após a leitura) em uma lista, inicialmente vazia. A inserção deverá ser já na ordem classificatória de forma crescente. </p><p>obs.: *   Não utilize o método sort para classificar em nenhum momento do código. </p><p>        **  Ao adicionar informe a posição que foi inserido o elemento, ou informe que foi inserido no final da lista. </p>
+Formato da entrada: <p>O programa deve ler os 5 números em um loop. A cada leitura, deverá armazenar o valor dessa variável em uma lista, antes de inserir verificar a posição da mesma, então inserir ou no início, ou no final da lista, ou na posição correspondente. </p>
+Formato da saída: <p>Informe uma das duas posições de inserção:</p><ul><li>valor inserido no final da lista</li><li>valor inserido na posição {X} da lista. </li></ul>O x em questão é a posição (0, 1, 2, ou 3)<p><br/></p><p>Ao final da digitação dos 5 números, a lista completa deve ser impressa.</p>

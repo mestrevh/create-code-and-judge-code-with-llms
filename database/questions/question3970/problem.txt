@@ -1,0 +1,6 @@
+Título: Números palíndromos
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Um número é palíndromo se a leitura de esquerda para direita é a mesma que a da direita para esquerda. Por exemplo, 2332 é palíndromo. No entanto, 1234 não é.Faça um programa que imprima todos os números palíndromos de 4 algarismos. Como de costume, números não começam com zero.&#13;<br/></p>
+Formato da entrada: <p>Não há entrada.</p>
+Formato da saída: <p>A sequência de todos os números palíndromos de 4 algarismos em ordem crescente, um número por linha.&#13;<br/></p>

@@ -1,0 +1,6 @@
+Título: Hello SECOMP 2021! [C]
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Talvez a frase &#34;Hello World!&#34; seja uma das mais icônicas da computação.</p><p>Sabendo disso, em uma tarde qualquer Z, o melhor amigo do Protagonista, desafiou ele para mais um desafio divertido.</p><p>Dado um número inteiro N, o Protagonista deve fazer um programa que imprima a frase &#34;Hello SECOMP 2021!&#34; N vezes, separadas por uma quebra de linha, afinal, ambos estão animados com o início da semana de computação na UFAL.</p><p>Como o Protagonista ainda não conhece muito de programação, ele pediu para que você resolvesse esse problema para ele.</p>
+Formato da entrada: <p>Um número inteiro 1 &lt;= N &lt;= 5.</p>
+Formato da saída: <p>A saída deve consistir em N linhas, cada uma contendo a frase &#34;Hello SECOMP 2021!&#34;.</p>

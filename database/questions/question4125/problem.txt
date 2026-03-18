@@ -1,0 +1,6 @@
+Título: Dividindo Chocolate
+Topicos do problema: maratona; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Em uma certa manhã, o Protagonista estava com seus M amigos e eles decidiram comer chocolate, afinal, chocolate é muito bom. Sendo assim, ele comprou uma barra de chocolate que tinha exaramente N pedaços, e como ele gosta muito dos seus amigos, ele decidiu dar pedaços de chocolate para os seus amigos. Entretanto, ele decidiu que daria a mesma quantidade de pedaços para todos os amigos.</p><p><br/></p><p>Ajude o Protagonista e diga a ele qual a maior quantidade de pedaços de chocolate ele pode dar para cada amigo.</p>
+Formato da entrada: <p>A entrada vai conter dois números inteiros N e M respectivamente.</p><p>1 &lt;= N &lt;= 100</p><p>1 &lt;= M &lt;= 100</p>
+Formato da saída: <p>Um número inteiro indicando a maior quantidade de pedaços de chocolate ele pode dar para cada amigo.</p>

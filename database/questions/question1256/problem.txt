@@ -1,0 +1,6 @@
+Título: Φ(n)
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Rodrigo Chicuta precisa realizar a prova do Teorema da Boa Ordem, mas para Isso, ele precisa usar a injetividade da função <b style="color: rgb(34, 34, 34);"><b>Φ(n).</b></b></p><p>Ajude Chicuta a implementar a função.</p>
+Formato da entrada: <p>A entrada é um número n, que será colocado na função.</p>
+Formato da saída: <p>A saída é a imagem de <b style="color: rgb(34, 34, 34);"><b>Φ(n)</b></b></p>

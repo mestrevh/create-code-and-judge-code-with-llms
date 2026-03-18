@@ -1,0 +1,24 @@
+4.a) A quantidade de veículos no país: 311951
+4.b) A quantidade de acidentes no país: 27761
+4.c) A quantidade de acidentes com vítimas fatais no país: 113
+4.d) O município com maior número de acidentes: Salvador (8112)
+4.d) O município com menor número de acidentes: Sao Luiz (5186)
+
+5.a) A média de veículos por municípios: 77987.75
+5.b) A média de acidentes com vítimas fatais por municípios: 28.25
+5.b) A média de acidentes com vítimas não-fatais por municípios: 100.0
+5.b) A média de acidentes sem vítimas por municípios: 6812.0
+
+5.c) O maior IVT é de 0.14480756826488927 e pertence ao município Sao Luiz
+5.d) Nome do município: Sao Luiz
+5.d) Quantidade de veículos de Sao Luiz: 37208
+5.d) Total de acidentes com vítimas fatais em Sao Luiz: 12
+5.d) Total de acidentes com vítimas não-fatais em Sao Luiz: 77
+5.d) Total de acidentes sem vítimas em Sao Luiz: 5097
+
+5.c) O menor IVT é de 0.05496227114821346 e pertence ao município Recife
+5.d) Nome do município: Recife
+5.d) Quantidade de veículos de Recife: 132127
+5.d) Total de acidentes com vítimas fatais em Recife: 27
+5.d) Total de acidentes com vítimas não-fatais em Recife: 92
+5.d) Total de acidentes sem vítimas em Recife: 6851

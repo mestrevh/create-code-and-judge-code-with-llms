@@ -1,0 +1,6 @@
+Título: Dieta da farofa
+Topicos do problema: multiplas entradas; decisão; entrada formatada; lógica matemática; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Diana descobriu que se realmente deseja emagrecer, deve reduzir a quantidade de farofa que consome no almoço. Para isso, ela decidiu anotar quantos gramas consomiu por dia e no final da semana calcular a média diária.</p><p>Seu objetivo é atingir um consumo diário médio de farofa <b>abaixo de 30 gramas</b>.</p><p>O seu programa deve <b>calcular o consumo médio diário por um período de uma semana</b>. Caso o consumo médio diário tenha ficado abaixo de 30 g, seu programa deve imprimir uma mensagem <b>&#34;Meta atingida&#34;</b></p><p><b><u>Observação</u>: é obrigatória a utilização de um único laço e exclusivamente do tipo While na leitura dos dados.</b><br/></p>
+Formato da entrada: <p>Uma sequência de 7 números inteiros, sendo um por linha, representando o consumo de farofa em gramas.<br/></p>
+Formato da saída: <p>Na primeira linha, deve-se imprimir o consumo médio diário de farofa (ponto flutuante com 2 casas decimais)</p><p>Na segunda linha, deve ser impressa a mensagem <b>Meta atingida</b> caso o consumo médio tenha sido inferior a 30 gramas/dia.<br/></p>

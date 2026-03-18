@@ -1,0 +1,6 @@
+Título: Único número de maior frequência
+Topicos do problema: array; acumulador; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Utilizando arrays unidimensionais, escreva um programa que leia uma sequência de números e retorne o número de maior frequência, juntamente com a quantidade de vezes que ele apareceu e a maior sequência dele dentro do array sem valores diferentes os separando.</p>
+Formato da entrada: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um valor N, tal que N maior que 0 e menor igual a 50.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um array de tamanho N.<br/></p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Observação: Não existe a possibilidade de termos a mesma quantidade de repetições das frequências.</p>
+Formato da saída: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um valor X seguido de uma quebra de linha correspondendo ao número de maior frequência.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um valor Y seguido de uma quebra de linha correspondendo a quantidade de vezes que ele aparece em todo o array.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Um valor Z correspondendo a maior sequência do valor X.<br/></p>

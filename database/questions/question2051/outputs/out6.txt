@@ -1,0 +1,93 @@
+Test 1: -2x^2 + 8x + -10
+SEM RESPOSTA
+
+Test 2: 9x^2 + -7x + -10
+X1 = 1.51
+X2 = -0.73
+
+Test 3: 1x^2 + -4x + -2
+X1 = 4.45
+X2 = -0.45
+
+Test 4: 6x^2 + -6x + 1
+X1 = 0.79
+X2 = 0.21
+
+Test 5: 3x^2 + -7x + -1
+X1 = 2.47
+X2 = -0.14
+
+Test 6: 4x^2 + 3x + 9
+SEM RESPOSTA
+
+Test 7: 4x^2 + 10x + 10
+SEM RESPOSTA
+
+Test 8: 2x^2 + -7x + 3
+X1 = 3.00
+X2 = 0.50
+
+Test 9: 10x^2 + 8x + 2
+SEM RESPOSTA
+
+Test 10: 6x^2 + -1x + 4
+SEM RESPOSTA
+
+Test 11: -1x^2 + -3x + 7
+X1 = -4.54
+X2 = 1.54
+
+Test 12: -1x^2 + -10x + -9
+X1 = -9.00
+X2 = -1.00
+
+Test 13: 6x^2 + 1x + -8
+X1 = 1.07
+X2 = -1.24
+
+Test 14: 7x^2 + 10x + -2
+X1 = 0.18
+X2 = -1.61
+
+Test 15: 9x^2 + -9x + 5
+SEM RESPOSTA
+
+Test 16: 5x^2 + -6x + 5
+SEM RESPOSTA
+
+Test 17: -7x^2 + 10x + 5
+X1 = -0.39
+X2 = 1.82
+
+Test 18: -10x^2 + 1x + 2
+X1 = -0.40
+X2 = 0.50
+
+Test 19: -5x^2 + -6x + 2
+X1 = -1.47
+X2 = 0.27
+
+Test 20: 8x^2 + -4x + 7
+SEM RESPOSTA
+
+Test 21: -9x^2 + 9x + -4
+SEM RESPOSTA
+
+Test 22: 7x^2 + 5x + 9
+SEM RESPOSTA
+
+Test 23: -1x^2 + 8x + 10
+X1 = -1.10
+X2 = 9.10
+
+Test 24: 3x^2 + -7x + -4
+X1 = 2.81
+X2 = -0.47
+
+Test 25: -6x^2 + 3x + 7
+X1 = -0.86
+X2 = 1.36
+
+Test 26: 4x^2 + -4x + -9
+X1 = 2.08
+X2 = -1.08

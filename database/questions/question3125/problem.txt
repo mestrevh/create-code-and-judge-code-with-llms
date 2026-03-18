@@ -1,0 +1,6 @@
+Título: Aumento de Salário
+Topicos do problema: ponto flutuante; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que receba o salário de um funcionário e o percentual de aumento.</p><p><span>Calcule e mostre o valor do aumento e o novo salário com as seguintes mensagens<br/></span><br/>Entrada: (um por linha, sem mensagem)<br/>Salario<br/>Percentual de aumento</p><p><br/>Saída</p><p><span>Seu salario teve aumento de &lt;x&gt; %, passando de R$ &lt;x&gt; para R$ &lt;x&gt;</span></p><p><span><br/></span></p>
+Formato da entrada: <p>1000<br/>10</p>
+Formato da saída: <p>Seu salario teve aumento de 10 %, passando de R$ 1000.0 para R$ 1100.0<br/></p>

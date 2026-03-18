@@ -1,0 +1,23 @@
+A tabela das alturas dos jogadores
+[1.78, 1.92, 1.7, 1.9, 2.15, 2.05] -> time 1
+[2.13, 2.1, 1.77, 1.74, 1.7, 1.93] -> time 2
+[1.7, 1.71, 1.8, 1.93, 1.68, 1.88] -> time 3
+[1.9, 1.99, 2.13, 2.05, 1.72, 1.71] -> time 4
+
+A tabela das camisas dos jogadores
+[7, 12, 15, 14, 13, 10]  time 1
+[1, 30, 18, 2, 3, 7]  time 2
+[2, 3, 44, 13, 10, 20]  time 3
+[1, 2, 13, 10, 5, 6]  time 4
+
+o mais alto do time 1 tem 2.15cm de altura, joga na posição 5 e veste a camisa 13.
+o mais alto do time 2 tem 2.13cm de altura, joga na posição 1 e veste a camisa 1.
+o mais alto do time 3 tem 1.93cm de altura, joga na posição 4 e veste a camisa 13.
+o mais alto do time 4 tem 2.13cm de altura, joga na posição 3 e veste a camisa 13.
+
+a média de alturas do time1 é de 1.92cm
+a média de alturas do time2 é de 1.89cm
+a média de alturas do time3 é de 1.78cm
+a média de alturas do time4 é de 1.92cm
+
+a média de alturas dos atletas do campeonato é de 1.88cm

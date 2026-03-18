@@ -1,0 +1,6 @@
+Título: testando13
+Topicos do problema: gambler's ruin; acumulador; 
+Tempo limite de execução: 4 segundo(s)
+Descrição: <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsumtestando<br/></p>
+Formato da entrada: <p>teste123<br/><br/><br/><img class="ql-image" src="https://www.thehuxley.com/api/v1/problems/image/198b8854e7a1ece12dc33e2574f6ab7ffe1d107a9.jpg"/></p>
+Formato da saída: <p>teste13</p>

@@ -1,0 +1,6 @@
+Título: ALVO
+Topicos do problema: obi; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="text-align: justify;"><span>Dadas as coordenadas (x,y) de dois pontos (A e B) e as coordenadas de um ponto alvo (ponto C), mostre qual dos pontos (A ou B) está mais próximo do alvo (ponto C). Mostre também a distância que este ponto (A <i>ou </i>B) está do alvo.</span></p><p style="text-align: justify;"><span>X e y são coordenadas inteiras no intervalo de -100 a 100.</span></p><p style="text-align: justify;"><span>A primeira linha contém as coordenadas do ponto A;</span></p><p style="text-align: justify;"><span>A segunda linha contém as coordenadas do ponto B;</span></p><p style="text-align: justify;"><span>A terceira linha contém as coordenadas do ponto C (alvo). </span></p>
+Formato da entrada: <p>2 4</p><p>5 2</p><p>3 3</p>
+Formato da saída: <p>A - 1.41</p>

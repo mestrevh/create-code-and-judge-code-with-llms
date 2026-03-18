@@ -1,0 +1,6 @@
+Título: Fibonacci++
+Topicos do problema: repetição; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A série de Fibonacci é uma das séries numéricas mais famosas, especialmente por sua relação com a razão áurea. Tal série é definida da seguinte forma: os dois primeiros termos da série são iguais a 1 e qualquer termo em uma posição maior que 2 é igual à soma dos dois termos anteriores. Assim, os sete primeiros termos da série são 1, 1, 2, 3, 5, 8, 13.<br/></p><p>O professor Trollton do Departamento de Matemática se perguntou como ficaria a série caso ao invés de somarmos os dois últimos termos da série, somássemos os três últimos termos, sendo que os três primeiros termos da série seriam iguais a 1. Ele chamou essa nova série de série de Trollton. Assim, os sete primeiros termos da série de Trollton seriam 1, 1, 1, 3, 5, 9, 17.<br/></p><p>Escreva um programa que receba como entrada um número inteiro positivo n e retorne o n-ésimo termo da série de Trollton.<br/></p><p>Obs.: O programa não pode usar qualquer função das bibliotecas matemáticas.<br/></p>
+Formato da entrada: <p>Um número inteiro N &gt; 3.<br/></p>
+Formato da saída: <p>Um número inteiro representando o N-ésimo termo da série de Trollton.<br/></p>

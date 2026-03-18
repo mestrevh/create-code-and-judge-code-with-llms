@@ -1,0 +1,9 @@
+Process [E|23] enqueued!
+Process [T|54] enqueued!
+Process [O|98] enqueued!
+[O|98] => [T|54] => [E|23]
+Process [O|98] dequeued!
+Process [T|54] dequeued!
+Process [E|23] dequeued!
+Empty process queue!
+Process [J|17] enqueued!

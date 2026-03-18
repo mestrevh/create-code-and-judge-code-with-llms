@@ -1,0 +1,6 @@
+Título: PROGCOMP - Sequência - F
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que exibe a área de um triângulo retângulo a partir da base e da altura fornecidas pelo usuário.</p>
+Formato da entrada: <p>Na primeira linha um número inteiro positivo representando a base; na linha seguinte um número inteiro positivo representando a altura.</p>
+Formato da saída: <p>Um número inteiro representando a área do triângulo.</p>

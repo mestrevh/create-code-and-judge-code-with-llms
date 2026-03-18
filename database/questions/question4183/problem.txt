@@ -1,0 +1,6 @@
+Título: Mais velho de três
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dadas as datas de nascimento de três pessoas, calcular quem é a mais velha.</p>
+Formato da entrada: <p>Três linhas, cada uma contendo o nome de uma pessoa, um string só com letras, seguido de três inteiros correspondentes ao dia, mês e ano de nascimento da pessoa. Pode-se assumir que tanto os nomes como as datas de nascimento são diferentes entre si.</p>
+Formato da saída: <p>A saída deve ser o nome da pessoa mais velha.</p>

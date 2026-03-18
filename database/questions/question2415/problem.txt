@@ -1,0 +1,6 @@
+Título: Menor caminho em um grafo
+Topicos do problema: estrutura de dados; grafo; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dado um grafo direcionado <b>G</b>, faça um programa que retorne o tamanho do menor caminho em <b>G</b> partindo de um vértice <b>S</b> até um vértice <b>E</b>. (<b>S</b> e <b>E</b> são vértices de <b>G</b>).</p><p>Por exemplo, no grafo abaixo</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/0f7331c4113af4b47c362aebaf39ac526d4caf93h.jpg"/></p><p>Partindo de 0 até 3 temos os caminhos:</p><p>0 1 3 (tamanho = 2)</p><p>0 3 (tamanho = 1)</p><p>0 1 2 3 (tamanho = 3)</p><p>Logo, o tamanho do menor caminho partindo de 0 até 3 é 1.</p>
+Formato da entrada: <p>A entrada consiste de uma linha contendo dois inteiros <b>V</b> e <b>A</b>, onde <b>V</b> representa o número de vértices do grafo <b>G</b> e <b>A</b>, o número de arestas. As próximas <b>A</b> linhas consistem de dois inteiros <b>V1i</b> e <b>V2i</b> (<b>i</b> = 1, 2, 3, ..., A) representando os vértices da i-ésima aresta. Por fim, mais dois inteiros <b>S</b> e <b>E</b> representando o vértice de início e o vértice de chegada. </p>
+Formato da saída: <p>Uma string com a mensagem &#34;Tamanho do menor caminho de G: L&#34;, onde <b>L</b> é o valor do menor caminho seguido por uma quebra de linha.</p>

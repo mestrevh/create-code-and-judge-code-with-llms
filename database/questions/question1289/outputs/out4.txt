@@ -1,0 +1,131 @@
+pre-ordem:30 
+nivel 1:
+30 
+
+pre-ordem:30 20 
+nivel 1:
+30 
+nivel 2:
+20 
+
+pre-ordem:30 20 40 
+nivel 1:
+30 
+nivel 2:
+20 40 
+
+pre-ordem:30 20 10 40 
+nivel 1:
+30 
+nivel 2:
+20 40 
+nivel 3:
+10 
+
+pre-ordem:30 20 10 25 40 
+nivel 1:
+30 
+nivel 2:
+20 40 
+nivel 3:
+10 25 
+
+pre-ordem:30 20 10 25 40 35 
+nivel 1:
+30 
+nivel 2:
+20 40 
+nivel 3:
+10 25 35 
+
+pre-ordem:30 20 10 25 40 35 45 
+nivel 1:
+30 
+nivel 2:
+20 40 
+nivel 3:
+10 25 35 45 
+
+pre-ordem:30 20 10 25 45 35 
+nivel 1:
+30 
+nivel 2:
+20 45 
+nivel 3:
+10 25 35 
+
+pre-ordem:30 25 10 45 35 
+nivel 1:
+30 
+nivel 2:
+25 45 
+nivel 3:
+10 35 
+
+pre-ordem:30 25 10 19 45 35 
+nivel 1:
+30 
+nivel 2:
+25 45 
+nivel 3:
+10 35 
+nivel 4:
+19 
+
+pre-ordem:30 25 10 19 45 35 
+nivel 1:
+30 
+nivel 2:
+25 45 
+nivel 3:
+10 35 
+nivel 4:
+19 
+
+pre-ordem:30 25 10 19 35 
+nivel 1:
+30 
+nivel 2:
+25 35 
+nivel 3:
+10 
+nivel 4:
+19 
+
+pre-ordem:30 25 19 35 
+nivel 1:
+30 
+nivel 2:
+25 35 
+nivel 3:
+19 
+
+pre-ordem:30 25 19 35 
+nivel 1:
+30 
+nivel 2:
+25 35 
+nivel 3:
+19 
+
+pre-ordem:30 19 35 
+nivel 1:
+30 
+nivel 2:
+19 35 
+
+pre-ordem:35 19 
+nivel 1:
+35 
+nivel 2:
+19 
+
+pre-ordem:19 
+nivel 1:
+19 
+
+pre-ordem:19 70 
+nivel 1:
+19 
+nivel 2:
+70

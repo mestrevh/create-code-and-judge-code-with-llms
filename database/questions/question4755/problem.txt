@@ -1,0 +1,6 @@
+Título: Comércio Eletrônico 2
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O Escambo Livre está querendo otimizar suas operações. Para tanto, decidiu fazer uma limpeza no seu catálogo, removendo os produtos menos lucrativos já que eles consomem recursos computacionais e apresentam um retorno questionável.</p><p>O atual gerente do Escambo Livre apresentou uma proposta onde seriam removidos os produtos que apresentassem um lucro líquido inferior a metade da média aritmética dos lucros líquidos de todos os produtos.</p><p>Agora cabe a você desenvolver um algoritmo que apresente a lista de produtos que serão removidos.</p><p>Obs.: Qualquer função de manipulação de Strings e de Entrada e Saída das bibliotecas pode ser utilizada no código apresentado.<br/></p>
+Formato da entrada: <p>A primeira linha da entrada consiste de um número N indicando quantos produtos existem no catálogo.</p><p>As N linhas seguintes são compostas por uma String seguida por um número real, indicando, respectivamente, o nome do produto e seu lucro líquido.<br/></p>
+Formato da saída: <p>A saída consiste de uma lista de Strings, uma por linha, indicando os nomes dos produtos a serem removidos do catálogo, na mesma ordem que apareceram na entrada.<br/></p>
