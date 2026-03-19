@@ -1,0 +1,6 @@
+Título: Teste
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa em Matlab/Octave que calcule o quadrado dos números digitados pelo usuário<br/></p>
+Formato da entrada: <p>-5<br/></p>
+Formato da saída: <p>Digite um numero: y =  25<br/></p>

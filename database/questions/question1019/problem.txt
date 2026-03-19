@@ -1,0 +1,6 @@
+Título: Matriz das Letras
+Topicos do problema: caractere; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você deverá montar uma matriz onde o elemento do centro ou os das bordas serão um caractere definido, e todas as camadas adjascentes serão formadas pelos próximos caracteres na ordem do alfabeto.<br/>Obs: considere o alfabeto  circular, ou seja, depois da letra 'z' a próxima letra é a letra 'a' novamente.</p>
+Formato da entrada: <p>Um inteiro N (1 &lt;= N  &lt;= 50) indicando o tamanho de camadas.</p><p>Um inteiro K , onde K = -1 se o caractere indicado está no centro ou 1 se está nas bordas.</p><p>Um caractere C , onde C é o caractere correspondente a borda ou ao centro de acordo com o K.</p>
+Formato da saída: <p>A matriz no formato especificado.</p>

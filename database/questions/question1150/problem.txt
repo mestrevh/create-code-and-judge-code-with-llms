@@ -1,0 +1,6 @@
+Título: Distância entre Pontos
+Topicos do problema: decisão; repetição; função; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>A distância entre os pontos A e B é a medida do segmento que tem os dois pontos como extremidade. Por se tratar de dois pontos quaisquer, representaremos as coordenadas desses pontos de maneira genérica.<br/></p><p><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/ef006a85da8a4ca2e8a227bf7d65176e76cf478at.png"/><br/></p><p><br/></p><p>Fonte: Brasil Escola</p><p><br/></p><p>Dessa forma para calcular a distância entre dois pontos faz-se necessário o seguinte:</p><p><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/173059f2cc2affbcdf8d0b8e922b85f6c55b17e4s.jpg"/><br/></p><p><br/></p><p>Nesse problema você irá desenvolver um programa que leia pares de pontos cartesianos e calcule as maiores distâncias encontradas e identifique em qual lugar do plano os pontos se encontram:</p><p>origem, eixo y positivo, eixo x positivo, eixo y negativo, eixo x negativo, quadrante 1,  quadrante 2,  quadrante 3 e  quadrante 4.</p>
+Formato da entrada: <p>Quantidade de pares de coordenadas</p><p>Sequência de pares de coordenadas</p>
+Formato da saída: <p>Maior distância encontrada</p><p>Posição de cada par de coordenada no plano cartesiano</p>

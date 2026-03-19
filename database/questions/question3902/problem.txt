@@ -1,0 +1,6 @@
+Título: Múltiplo
+Topicos do problema: decisão; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que leia dois números inteiros, <i><b>x</b></i> e <i><b>y</b></i>, e determine se <i><b>x</b></i> é <b>múltiplo </b>de <i><b>y</b></i>. A verificação deve ser feita por uma <b>função</b>, que receba os dois inteiros como parâmetros e retorne <b>1</b> (x é múltiplo de y) ou <b>0</b> (x <b>não</b> é múltiplo de y). </p>
+Formato da entrada: <p>Dois números inteiros, <b><i>x</i></b> e <b><i>y</i></b>.</p>
+Formato da saída: <p>Uma mensagem (conforme os exemplos de saída), indicando se <i><b>x</b></i> é, ou não, múltiplo de <i><b>y</b></i>.</p>

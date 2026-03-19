@@ -1,0 +1,6 @@
+Título: Soma Linha Matrizes - P1T2
+Topicos do problema: lógica matemática; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span class="fontstyle0">Construa um programa em C que leia valores inteiros para a matriz A</span><span class="fontstyle0">, sendo o numero de linhas e o numero de colunas da matriz especificados</span><span class="fontstyle0"> pelo usuário. O programa deve imprimir a soma de todas as linhas da matriz.</span><br/><br/></p>
+Formato da entrada: <p>O usuário inicialmente digita a quantidade de linhas e a quantidade de colunas da matriz. Em seguida, são inseridos os elementos da matriz, linha por linha. Devem ser exibidas as mensagens &#34;Digite o numero de linhas e colunas da matriz:&#34; e &#34;Digite os elementos da matriz:&#34;.<br/></p>
+Formato da saída: <p>O programa deve exibir a soma de todas as linhas da matriz, exibindo na tela:</p><p>Digite o numero de linhas e colunas da matriz:</p><p>Digite os elementos da matriz:<br/></p><p>Soma da linha 1: n</p><p>Soma da linha 2: n</p><p>Soma da linha 3: n<br/></p>

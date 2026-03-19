@@ -1,0 +1,6 @@
+Título: n primeiros primos
+Topicos do problema: repetição; números primos; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Listar os n primeiros números primos. Lembre que 1 não é primo.</p>
+Formato da entrada: <p>Um número inteiro n &lt;= 20000.</p>
+Formato da saída: <p>Os n primeiros números primos, um por linha.</p>

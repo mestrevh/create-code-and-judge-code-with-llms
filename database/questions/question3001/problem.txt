@@ -1,0 +1,6 @@
+Título: Criando matriz quadrada um pouco diferente
+Topicos do problema: multiplas entradas; decisão; lógica matemática; repetição; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span>Este é um problema que envolve o conceito de matriz.</span><br/></p><p>Apresente um programa que leia a ordem de uma matriz bidimensional. A ordem da matriz é um número inteiro N (0&lt; N &lt;= 100).</p><p>O objetivo é construir a matriz correspondente de acordo com o exemplo apresentado no caso de teste.</p><p>Observação: Não devem ser usadas na solução funções embutidas como map, sort, reverte, etc.</p>
+Formato da entrada: <p><span>A entrada consiste de diversos números inteiros, um por linha, que correspondem à ordem das matrizes a serem construídas (veja o modelo no caso de teste). </span><br/></p><p>O seu programa deve finalizar quando a ordem da matriz for 0 (N = 0) ou um número negativo.</p>
+Formato da saída: <p><span>Para cada inteiro fornecido (ordem da matriz), apresentar a matriz correspondente. </span><br/></p><p>Deve existir um espaço em branco após cada elemento de uma dada matriz.</p><p>Entre uma matriz e outra deve haver uma linha em branco.</p><p>Quando não for possível apresentar a matriz, deve ser apresentada a mensagem &#34;Fim&#34;.</p>

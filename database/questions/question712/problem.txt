@@ -1,0 +1,6 @@
+Título: Decomposição em fatores primos
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p><font face="Nimbus Sans L, sans-serif"><font size="2">Escrevaum programa em Python para ler um número inteiro positivo maior doque um e imprimir sua decomposição em fatores primos, conforme modelo no caso de teste usado no exemplo.</font></font></p>
+Formato da entrada: <p>36</p>
+Formato da saída: <p>2**2</p><p>3**2</p>

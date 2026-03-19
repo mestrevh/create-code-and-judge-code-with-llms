@@ -1,0 +1,6 @@
+Título: Dias entre duas datas do mesmo ano
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que calcule quantos dias há entre duas datas do mesmo ano. Tenha cuidado com ano bissexto.</p>
+Formato da entrada: <p>Duas datas ***</p>
+Formato da saída: <p>A diferença em dias entre as duas datas</p>

@@ -1,0 +1,121 @@
+Pasta 'matematica' criada
+Pasta 'fisica' criada
+Pasta 'computacao' criada
+Pasta 'matrizes' criada
+Pasta 'transposta' criada
+Pasta 'inversa' criada
+Pasta 'equacoes' criada
+Pasta 'provas' criada
+Pasta 'prim-grau' criada
+Pasta 'seg-grau' criada
+Pasta 'delta' criada
+Pasta 'grafica' criada
+Pasta 'ab1' criada
+Pasta 'ab2' criada
+root
+|---matematica
+    |---matrizes
+        |---transposta
+        |---inversa
+    |---equacoes
+        |---prim-grau
+        |---seg-grau
+            |---delta
+            |---grafica
+    |---provas
+        |---ab1
+        |---ab2
+|---fisica
+|---computacao
+Pasta 'optica' criada
+Pasta 'mecanica' criada
+Pasta 'leis-de-newton' criada
+Pasta 'dinamica' criada
+Pasta 'eletrostatica' criada
+Pasta 'lei-de-coulomb' criada
+Pasta 'campo-eletrico' criada
+Erro ao criar a pasta 'campo-eletrico'
+Pasta 'campo-magnetico' criada
+Pasta 'p1' criada
+Pasta 'p2' criada
+Pasta 'p3' criada
+Pasta 'condicao' criada
+Pasta 'loop' criada
+Pasta 'funcoes' criada
+root
+|---matematica
+    |---matrizes
+        |---transposta
+        |---inversa
+    |---equacoes
+        |---prim-grau
+        |---seg-grau
+            |---delta
+            |---grafica
+    |---provas
+        |---ab1
+        |---ab2
+|---fisica
+    |---optica
+    |---mecanica
+        |---leis-de-newton
+        |---dinamica
+    |---eletrostatica
+        |---lei-de-coulomb
+        |---campo-eletrico
+        |---campo-magnetico
+|---computacao
+    |---p1
+        |---condicao
+        |---loop
+        |---funcoes
+    |---p2
+    |---p3
+Pasta 'classes' criada
+Pasta 'metodos' criada
+Pasta 'polimorfismo' criada
+Pasta 'pilhas' criada
+Pasta 'grafos' criada
+Erro ao criar a pasta 'grafos'
+Pasta 'arvores' criada
+Pasta 'get' criada
+Pasta 'set' criada
+Pasta 'to-string' criada
+root
+|---matematica
+    |---matrizes
+        |---transposta
+        |---inversa
+    |---equacoes
+        |---prim-grau
+        |---seg-grau
+            |---delta
+            |---grafica
+    |---provas
+        |---ab1
+        |---ab2
+|---fisica
+    |---optica
+    |---mecanica
+        |---leis-de-newton
+        |---dinamica
+    |---eletrostatica
+        |---lei-de-coulomb
+        |---campo-eletrico
+        |---campo-magnetico
+|---computacao
+    |---p1
+        |---condicao
+        |---loop
+        |---funcoes
+    |---p2
+        |---pilhas
+        |---grafos
+        |---arvores
+    |---p3
+        |---classes
+        |---metodos
+            |---get
+            |---set
+            |---to-string
+        |---polimorfismo

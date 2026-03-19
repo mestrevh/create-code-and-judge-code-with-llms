@@ -1,0 +1,6 @@
+Título: Dicionário da Sofia
+Topicos do problema: array; repetição; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Sofia descobriu um dicionário antigo de uma língua estrangeira no porão da sua casa. O idioma era totalmente diferente de qualquer coisa que ela já tinha visto, entretanto o dicionário tinha uma seção de ajuda explicando como uma frase pertence aquele idioma. A sorte da Sofia era que essa seção de ajuda estava escrita em português e possuía as seguintes regras:</p><p>-As palavras possuem apenas letras;</p><p>-As palavras não podem ter mais de 10 letras;</p><p>-As palavras são separadas por exatamente 1 espaço entre elas;</p><p>-Não pode existir nenhum sinal de pontuação, acento ou caractere especial.</p><p><br/></p><p>Lendo essas regras, a Sofia ficou muito curiosa e pediu para que você, de acordo com uma frase dada pela Sofia, mostrasse se a frase dada pertence aquele idioma ou não.</p><p><b>OBS: Você deverá ignorar '\n' e '\0' na junção das linhas para formar a frase.</b></p>
+Formato da entrada: <p>A entrada é composta por inúmeras linhas (a junção das linhas formam a frase).</p>
+Formato da saída: <p>Você deverá informar se a frase pertence ao idioma ou não. Caso pertença, você também deverá mostrar a maior palavra daquela frase.</p>

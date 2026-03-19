@@ -1,0 +1,33 @@
+10
+1 arqueiro 30 70 64
+2 arqueiro 33 52 75
+3 assassino 37 75 96
+4 mago 31 72 94
+5 assassino 38 79 89
+6 assassino 40 46 74
+7 mago 40 80 74
+8 arqueiro 33 64 74
+9 arqueiro 37 31 69
+10 arqueiro 36 95 90
+assassino 20 66 0 0
+arqueiro 24 160 0 0
+1
+-1
+17
+4 3
+4 3
+3 1
+1 2
+1 1
+1 3
+1 3
+1 3
+4 2
+1 1
+1 3
+1 1
+4 4
+2 1
+4 1
+2 3
+1 2

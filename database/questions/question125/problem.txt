@@ -1,0 +1,25 @@
+Título: Cofre Automático 2
+Topicos do problema: array circular; 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <p>Um empres&aacute;rio, cansado de abrir o cofre de seu escrit&oacute;rio girando o disco da chave todos os dias, pediu para um engenheiro de mecatr&ocirc;nica criar um pequeno dispositivo e acoplou &agrave; fechadura do cofre, a id&eacute;ia &eacute; que o dispositivo reconhe&ccedil;a uma lista de comandos com a senha e gire o cofre por si s&oacute;.</p>
+<p>No entanto, o engenheiro quer terminar o mais r&aacute;pido poss&iacute;vel, por isso pediu para que voc&ecirc; escrevesse o programa enquanto ele monta o hardware.</p>
+<p>Seu programa deve receber como dados inicias os valores da roleta e a posi&ccedil;&atilde;o inicial:</p>
+<p>Com esses dados o seu programa deve executar comandos do tipo:</p>
+<p>
+<ul>
+<li>D 2, girar 2 vezes no sentido hor&aacute;rio</li>
+<li>E 1, girar 1 vez no sentido anti-hor&aacute;rio</li>
+</ul>
+<div>Ao final de cada comando, mostrar em uma linha os valores da roltea no sentido hor&aacute;rio a partir do valor atualmente apontado.</div>
+<div><br /></div>
+<div><br /></div>
+</p>
+Formato da entrada: <p>A entrada come&ccedil;a com um inteiro N &gt; 0 indicando o n&uacute;mero de elementos na roleta. Os pr&oacute;ximos N n&uacute;mros s&atilde;o os valores contidos nos slots da roleta. Onde o primeiro valor &eacute; o atualmente apontado pela roleta.</p>
+<p>As pr&oacute;ximas linhas possuem um caractere C e um valor inteiro positivo V separados por espa&ccedil;o indicando respectivamente o comando e o n&uacute;mero de vezes que o comando &eacute; executado</p>
+<p>Onde os valores de C podem ser:</p>
+<p>D - Girar para Direita (sentido hor&aacute;rio)</p>
+<p>E - Girar para esquerda (sentido anti-hor&aacute;rio)</p>
+<p>S - Sair</p>
+<p>O caso de teste termina ao receber o comando S independentemente do n&uacute;mero que vier a seguir.</p>
+Formato da saída: <p>A sa&iacute;da deve conter uma linha por comando (Exceto o &uacute;ltimo) contendo os n&uacute;meros da roleta separados por espa&ccedil;o a partir da posi&ccedil;&atilde;o inicial, h&aacute; um espa&ccedil;o e uma quebra de linha ('
+') no final de cada linha de sa&iacute;da</p>

@@ -1,0 +1,6 @@
+Título: Repetição de números lidos sequencialmente
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que lê do usuário uma sequência de números e os imprima na mesma ordem.</p>
+Formato da entrada: <p>4</p><p>5</p><p>10</p><p>-1</p><p>50</p>
+Formato da saída: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">4</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">5</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">10</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">-1</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">50</p>

@@ -1,0 +1,6 @@
+Título: Casamento de padrão.
+Topicos do problema: decisão; repetição; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p class="inserted">Uma imagem preto e branca (sem considerar escalas de cinza) pode ser representada por uma matriz cujos elementos assumem valores no conjunto {0,1}.</p><p class="inserted">Suponha que você deseja determinar se um determinado padrão AxB está contido em uma imagem de tamanho NxM</p>
+Formato da entrada: <p>asd</p>
+Formato da saída: <p>asd</p>

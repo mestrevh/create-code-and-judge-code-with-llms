@@ -1,0 +1,6 @@
+Título: Calçada da Fama
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: None
+Formato da entrada: <b id="docs-internal-guid-d43b9c02-cf5f-ab95-a321-20e4c3d12c03"></b><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">2</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">10 3</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">1 3</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">1 4</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">7 8</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">3</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">2 5 8</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">2 1</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">1 2</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">3</span></p><span style="color: #222222;background-color: #ffffff;">1 1 2</span>
+Formato da saída: <b id="docs-internal-guid-d43b9c02-cf5f-c79a-e2e3-795e80bb5c96"></b><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">Caso #1: 2</span></p><span style="color: #222222;background-color: #ffffff;">Caso #2: 3</span>

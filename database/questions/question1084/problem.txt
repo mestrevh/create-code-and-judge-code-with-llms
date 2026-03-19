@@ -1,0 +1,6 @@
+Título: Tempo de encontro
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dois carros (C1 e C2) percorrem uma pista um na direção do outro. Receba do usuário as velocidades e a distância entre eles e calcule:</p><ul><li>Em quanto tempo eles se encontram (Tm)</li><li>Considerando que depois do encontro a velocidade de C1 dobra e de C2 cai para a raiz quadrada do valor original (instantaneamente), em quanto tempo C1 atinge o ponto de partida de C2 e C2 atinge o ponto de partida de C1 (Tf)</li></ul><p><img src="https://www.thehuxley.com/api/v1/problems/image/6310aafb380f5299dca6a1d29c57ae6b603ade0bs.png"/><br/></p>
+Formato da entrada: <ul><li>A velocidade do carro 1 (10 &lt; V1 &lt; 100)</li><li>A velocidade do carro 2 (10 &lt; V2 &lt; 100)<br/></li><li>A distância inicial entre os carros (100 &lt; d &lt; 1000)</li><li>Você não precisa verificar se os dados estão dentro dos intervalos</li></ul>
+Formato da saída: <ul><li>O tempo até o encontro que será necessariamente no meio (Tm)</li><li>O tempo até C1 chegar na posição inicial de C2 (Tf1)</li><li>O tempo até C2 chegar na posição inicial de C1 (Tf2)<br/></li></ul>

@@ -1,0 +1,6 @@
+Título: zzzzz (erro)
+Topicos do problema: decisão; caractere; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="text-align: center;"><span><br/></span></p>
+Formato da entrada: <h6></h6><h6><p></p><p></p><p></p><p></p></h6><h1>S</h1><p></p><ul><li>S - String</li></ul><p>A única linha é composta de uma String de 10 caracteres.</p><p></p><p></p><p></p>
+Formato da saída: <h1>P</h1><ul><li>P - String</li></ul><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">A linha única da saída é composta por uma String, que pode ser o nome do Pokémon identificado, sendo:</span><br/></p><ul style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><li><font color="#000000">Bulbassauro, caso o caractere falho seja 'b'.</font></li><li><font color="#000000">Charmander, caso o caractere falho seja 'c'.</font></li><li><font color="#000000">Squirtle, caso o caractere falho seja 's'.</font></li></ul><p><font color="#000000"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Caso não seja um código válido, é preciso que seu programa apresente a mensagem &#34;Codigo Invalido&#34;.</span></font><br/></p>

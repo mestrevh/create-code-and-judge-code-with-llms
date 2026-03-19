@@ -1,0 +1,720 @@
+Path 1:
+    Brightness 1: 1
+    Brightness 2: 1
+    Brightness 3: 3
+    Brightness 4: 0
+    Brightness 5: 2
+    Brightness 6: 1
+    Brightness 7: 1
+    Brightness 8: 2
+    Brightness 9: 5
+Path 2:
+    Brightness 1: 0
+    Brightness 2: 1
+    Brightness 3: 1
+    Brightness 4: 4
+    Brightness 5: 0
+    Brightness 6: 1
+    Brightness 7: 2
+    Brightness 8: 3
+    Brightness 9: 3
+Path 3:
+    Brightness 1: 4
+    Brightness 2: 1
+    Brightness 3: 1
+    Brightness 4: 1
+    Brightness 5: 2
+    Brightness 6: 3
+    Brightness 7: 2
+    Brightness 8: 2
+    Brightness 9: 1
+Path 4:
+    Brightness 1: 3
+    Brightness 2: 2
+    Brightness 3: 2
+    Brightness 4: 1
+    Brightness 5: 0
+    Brightness 6: 1
+    Brightness 7: 1
+    Brightness 8: 5
+    Brightness 9: 3
+Path 5:
+    Brightness 1: 1
+    Brightness 2: 1
+    Brightness 3: 3
+    Brightness 4: 1
+    Brightness 5: 2
+    Brightness 6: 3
+    Brightness 7: 2
+    Brightness 8: 1
+    Brightness 9: 2
+Path 6:
+    Brightness 1: 2
+    Brightness 2: 0
+    Brightness 3: 0
+    Brightness 4: 4
+    Brightness 5: 3
+    Brightness 6: 0
+    Brightness 7: 0
+    Brightness 8: 2
+    Brightness 9: 1
+Path 7:
+    Brightness 1: 1
+    Brightness 2: 3
+    Brightness 3: 2
+    Brightness 4: 2
+    Brightness 5: 2
+    Brightness 6: 2
+    Brightness 7: 0
+    Brightness 8: 2
+    Brightness 9: 2
+Path 8:
+    Brightness 1: 2
+    Brightness 2: 1
+    Brightness 3: 2
+    Brightness 4: 1
+    Brightness 5: 3
+    Brightness 6: 2
+    Brightness 7: 0
+    Brightness 8: 3
+    Brightness 9: 1
+Path 9:
+    Brightness 1: 2
+    Brightness 2: 1
+    Brightness 3: 1
+    Brightness 4: 1
+    Brightness 5: 1
+    Brightness 6: 1
+    Brightness 7: 3
+    Brightness 8: 3
+    Brightness 9: 2
+Path 10:
+    Brightness 1: 2
+    Brightness 2: 4
+    Brightness 3: 0
+    Brightness 4: 1
+    Brightness 5: 2
+    Brightness 6: 1
+    Brightness 7: 4
+    Brightness 8: 1
+    Brightness 9: 1
+Path 11:
+    Brightness 1: 6
+    Brightness 2: 1
+    Brightness 3: 2
+    Brightness 4: 1
+    Brightness 5: 2
+    Brightness 6: 2
+    Brightness 7: 1
+    Brightness 8: 1
+    Brightness 9: 2
+Path 12:
+    Brightness 1: 2
+    Brightness 2: 5
+    Brightness 3: 2
+    Brightness 4: 0
+    Brightness 5: 3
+    Brightness 6: 2
+    Brightness 7: 1
+    Brightness 8: 0
+    Brightness 9: 3
+Path 13:
+    Brightness 1: 1
+    Brightness 2: 1
+    Brightness 3: 5
+    Brightness 4: 3
+    Brightness 5: 3
+    Brightness 6: 1
+    Brightness 7: 1
+    Brightness 8: 1
+    Brightness 9: 2
+Path 14:
+    Brightness 1: 0
+    Brightness 2: 3
+    Brightness 3: 3
+    Brightness 4: 1
+    Brightness 5: 3
+    Brightness 6: 0
+    Brightness 7: 1
+    Brightness 8: 4
+    Brightness 9: 2
+Path 15:
+    Brightness 1: 4
+    Brightness 2: 2
+    Brightness 3: 2
+    Brightness 4: 1
+    Brightness 5: 1
+    Brightness 6: 0
+    Brightness 7: 3
+    Brightness 8: 2
+    Brightness 9: 2
+Path 16:
+    Brightness 1: 3
+    Brightness 2: 1
+    Brightness 3: 0
+    Brightness 4: 2
+    Brightness 5: 0
+    Brightness 6: 2
+    Brightness 7: 4
+    Brightness 8: 3
+    Brightness 9: 1
+Path 17:
+    Brightness 1: 3
+    Brightness 2: 1
+    Brightness 3: 1
+    Brightness 4: 4
+    Brightness 5: 2
+    Brightness 6: 1
+    Brightness 7: 0
+    Brightness 8: 4
+    Brightness 9: 1
+Path 18:
+    Brightness 1: 1
+    Brightness 2: 1
+    Brightness 3: 2
+    Brightness 4: 2
+    Brightness 5: 0
+    Brightness 6: 3
+    Brightness 7: 2
+    Brightness 8: 4
+    Brightness 9: 2
+Path 19:
+    Brightness 1: 3
+    Brightness 2: 0
+    Brightness 3: 1
+    Brightness 4: 3
+    Brightness 5: 1
+    Brightness 6: 1
+    Brightness 7: 5
+    Brightness 8: 2
+    Brightness 9: 1
+Path 20:
+    Brightness 1: 1
+    Brightness 2: 2
+    Brightness 3: 2
+    Brightness 4: 0
+    Brightness 5: 1
+    Brightness 6: 1
+    Brightness 7: 6
+    Brightness 8: 2
+    Brightness 9: 2
+Path 21:
+    Brightness 1: 0
+    Brightness 2: 1
+    Brightness 3: 3
+    Brightness 4: 2
+    Brightness 5: 2
+    Brightness 6: 2
+    Brightness 7: 2
+    Brightness 8: 0
+    Brightness 9: 3
+Path 22:
+    Brightness 1: 1
+    Brightness 2: 4
+    Brightness 3: 0
+    Brightness 4: 3
+    Brightness 5: 1
+    Brightness 6: 1
+    Brightness 7: 2
+    Brightness 8: 2
+    Brightness 9: 3
+Path 23:
+    Brightness 1: 4
+    Brightness 2: 3
+    Brightness 3: 1
+    Brightness 4: 0
+    Brightness 5: 0
+    Brightness 6: 6
+    Brightness 7: 1
+    Brightness 8: 1
+    Brightness 9: 1
+Path 24:
+    Brightness 1: 2
+    Brightness 2: 1
+    Brightness 3: 4
+    Brightness 4: 1
+    Brightness 5: 0
+    Brightness 6: 2
+    Brightness 7: 3
+    Brightness 8: 0
+    Brightness 9: 3
+Path 25:
+    Brightness 1: 4
+    Brightness 2: 3
+    Brightness 3: 1
+    Brightness 4: 2
+    Brightness 5: 0
+    Brightness 6: 1
+    Brightness 7: 0
+    Brightness 8: 2
+    Brightness 9: 0
+Path 26:
+    Brightness 1: 2
+    Brightness 2: 3
+    Brightness 3: 4
+    Brightness 4: 1
+    Brightness 5: 2
+    Brightness 6: 0
+    Brightness 7: 1
+    Brightness 8: 1
+    Brightness 9: 2
+Path 27:
+    Brightness 1: 0
+    Brightness 2: 2
+    Brightness 3: 3
+    Brightness 4: 3
+    Brightness 5: 0
+    Brightness 6: 3
+    Brightness 7: 2
+    Brightness 8: 2
+    Brightness 9: 0
+Path 28:
+    Brightness 1: 2
+    Brightness 2: 3
+    Brightness 3: 2
+    Brightness 4: 1
+    Brightness 5: 2
+    Brightness 6: 2
+    Brightness 7: 2
+    Brightness 8: 3
+    Brightness 9: 1
+Path 29:
+    Brightness 1: 2
+    Brightness 2: 0
+    Brightness 3: 1
+    Brightness 4: 5
+    Brightness 5: 1
+    Brightness 6: 4
+    Brightness 7: 2
+    Brightness 8: 1
+    Brightness 9: 1
+Path 30:
+    Brightness 1: 3
+    Brightness 2: 1
+    Brightness 3: 0
+    Brightness 4: 2
+    Brightness 5: 1
+    Brightness 6: 3
+    Brightness 7: 3
+    Brightness 8: 3
+    Brightness 9: 1
+Path 31:
+    Brightness 1: 3
+    Brightness 2: 1
+    Brightness 3: 2
+    Brightness 4: 0
+    Brightness 5: 0
+    Brightness 6: 1
+    Brightness 7: 3
+    Brightness 8: 2
+    Brightness 9: 4
+Path 32:
+    Brightness 1: 1
+    Brightness 2: 2
+    Brightness 3: 2
+    Brightness 4: 3
+    Brightness 5: 2
+    Brightness 6: 1
+    Brightness 7: 1
+    Brightness 8: 3
+    Brightness 9: 1
+Path 33:
+    Brightness 1: 0
+    Brightness 2: 0
+    Brightness 3: 0
+    Brightness 4: 0
+    Brightness 5: 3
+    Brightness 6: 5
+    Brightness 7: 2
+    Brightness 8: 5
+    Brightness 9: 2
+Path 34:
+    Brightness 1: 5
+    Brightness 2: 2
+    Brightness 3: 3
+    Brightness 4: 2
+    Brightness 5: 5
+    Brightness 6: 1
+    Brightness 7: 0
+    Brightness 8: 0
+    Brightness 9: 0
+Path 35:
+    Brightness 1: 1
+    Brightness 2: 3
+    Brightness 3: 2
+    Brightness 4: 1
+    Brightness 5: 4
+    Brightness 6: 0
+    Brightness 7: 0
+    Brightness 8: 4
+    Brightness 9: 3
+Path 36:
+    Brightness 1: 3
+    Brightness 2: 1
+    Brightness 3: 3
+    Brightness 4: 0
+    Brightness 5: 4
+    Brightness 6: 1
+    Brightness 7: 1
+    Brightness 8: 2
+    Brightness 9: 0
+Path 37:
+    Brightness 1: 2
+    Brightness 2: 2
+    Brightness 3: 1
+    Brightness 4: 2
+    Brightness 5: 0
+    Brightness 6: 0
+    Brightness 7: 1
+    Brightness 8: 3
+    Brightness 9: 3
+Path 38:
+    Brightness 1: 4
+    Brightness 2: 2
+    Brightness 3: 2
+    Brightness 4: 3
+    Brightness 5: 0
+    Brightness 6: 1
+    Brightness 7: 2
+    Brightness 8: 0
+    Brightness 9: 4
+Path 39:
+    Brightness 1: 0
+    Brightness 2: 2
+    Brightness 3: 1
+    Brightness 4: 3
+    Brightness 5: 2
+    Brightness 6: 4
+    Brightness 7: 2
+    Brightness 8: 1
+    Brightness 9: 2
+Path 40:
+    Brightness 1: 1
+    Brightness 2: 2
+    Brightness 3: 3
+    Brightness 4: 1
+    Brightness 5: 3
+    Brightness 6: 0
+    Brightness 7: 4
+    Brightness 8: 2
+    Brightness 9: 1
+Path 41:
+    Brightness 1: 1
+    Brightness 2: 3
+    Brightness 3: 1
+    Brightness 4: 3
+    Brightness 5: 1
+    Brightness 6: 0
+    Brightness 7: 3
+    Brightness 8: 0
+    Brightness 9: 3
+Path 42:
+    Brightness 1: 2
+    Brightness 2: 0
+    Brightness 3: 2
+    Brightness 4: 2
+    Brightness 5: 2
+    Brightness 6: 1
+    Brightness 7: 2
+    Brightness 8: 3
+    Brightness 9: 3
+Path 43:
+    Brightness 1: 1
+    Brightness 2: 0
+    Brightness 3: 2
+    Brightness 4: 1
+    Brightness 5: 4
+    Brightness 6: 3
+    Brightness 7: 1
+    Brightness 8: 4
+    Brightness 9: 1
+Path 44:
+    Brightness 1: 0
+    Brightness 2: 2
+    Brightness 3: 1
+    Brightness 4: 2
+    Brightness 5: 3
+    Brightness 6: 3
+    Brightness 7: 0
+    Brightness 8: 2
+    Brightness 9: 2
+Path 45:
+    Brightness 1: 2
+    Brightness 2: 0
+    Brightness 3: 3
+    Brightness 4: 2
+    Brightness 5: 0
+    Brightness 6: 2
+    Brightness 7: 1
+    Brightness 8: 2
+    Brightness 9: 2
+Path 46:
+    Brightness 1: 1
+    Brightness 2: 4
+    Brightness 3: 2
+    Brightness 4: 0
+    Brightness 5: 3
+    Brightness 6: 2
+    Brightness 7: 2
+    Brightness 8: 0
+    Brightness 9: 3
+Path 47:
+    Brightness 1: 0
+    Brightness 2: 6
+    Brightness 3: 2
+    Brightness 4: 1
+    Brightness 5: 1
+    Brightness 6: 2
+    Brightness 7: 2
+    Brightness 8: 1
+    Brightness 9: 0
+Path 48:
+    Brightness 1: 2
+    Brightness 2: 1
+    Brightness 3: 0
+    Brightness 4: 3
+    Brightness 5: 3
+    Brightness 6: 1
+    Brightness 7: 2
+    Brightness 8: 2
+    Brightness 9: 3
+Path 49:
+    Brightness 1: 2
+    Brightness 2: 2
+    Brightness 3: 1
+    Brightness 4: 3
+    Brightness 5: 3
+    Brightness 6: 0
+    Brightness 7: 1
+    Brightness 8: 2
+    Brightness 9: 3
+Path 50:
+    Brightness 1: 3
+    Brightness 2: 3
+    Brightness 3: 0
+    Brightness 4: 2
+    Brightness 5: 2
+    Brightness 6: 2
+    Brightness 7: 3
+    Brightness 8: 2
+    Brightness 9: 0
+Path 51:
+    Brightness 1: 3
+    Brightness 2: 1
+    Brightness 3: 2
+    Brightness 4: 2
+    Brightness 5: 1
+    Brightness 6: 1
+    Brightness 7: 2
+    Brightness 8: 3
+    Brightness 9: 2
+Path 52:
+    Brightness 1: 1
+    Brightness 2: 0
+    Brightness 3: 2
+    Brightness 4: 4
+    Brightness 5: 1
+    Brightness 6: 2
+    Brightness 7: 2
+    Brightness 8: 0
+    Brightness 9: 0
+Path 53:
+    Brightness 1: 1
+    Brightness 2: 0
+    Brightness 3: 4
+    Brightness 4: 0
+    Brightness 5: 2
+    Brightness 6: 2
+    Brightness 7: 1
+    Brightness 8: 4
+    Brightness 9: 1
+Path 54:
+    Brightness 1: 2
+    Brightness 2: 2
+    Brightness 3: 3
+    Brightness 4: 1
+    Brightness 5: 2
+    Brightness 6: 1
+    Brightness 7: 1
+    Brightness 8: 2
+    Brightness 9: 3
+Path 55:
+    Brightness 1: 2
+    Brightness 2: 0
+    Brightness 3: 1
+    Brightness 4: 3
+    Brightness 5: 2
+    Brightness 6: 3
+    Brightness 7: 2
+    Brightness 8: 1
+    Brightness 9: 1
+Path 56:
+    Brightness 1: 1
+    Brightness 2: 1
+    Brightness 3: 3
+    Brightness 4: 3
+    Brightness 5: 1
+    Brightness 6: 1
+    Brightness 7: 4
+    Brightness 8: 1
+    Brightness 9: 2
+Path 57:
+    Brightness 1: 3
+    Brightness 2: 2
+    Brightness 3: 1
+    Brightness 4: 3
+    Brightness 5: 1
+    Brightness 6: 1
+    Brightness 7: 2
+    Brightness 8: 2
+    Brightness 9: 1
+Path 58:
+    Brightness 1: 4
+    Brightness 2: 2
+    Brightness 3: 1
+    Brightness 4: 2
+    Brightness 5: 0
+    Brightness 6: 0
+    Brightness 7: 2
+    Brightness 8: 1
+    Brightness 9: 5
+Path 59:
+    Brightness 1: 4
+    Brightness 2: 2
+    Brightness 3: 1
+    Brightness 4: 2
+    Brightness 5: 4
+    Brightness 6: 2
+    Brightness 7: 3
+    Brightness 8: 0
+    Brightness 9: 0
+Path 60:
+    Brightness 1: 2
+    Brightness 2: 0
+    Brightness 3: 4
+    Brightness 4: 3
+    Brightness 5: 3
+    Brightness 6: 0
+    Brightness 7: 0
+    Brightness 8: 2
+    Brightness 9: 0
+Path 61:
+    Brightness 1: 1
+    Brightness 2: 2
+    Brightness 3: 0
+    Brightness 4: 1
+    Brightness 5: 0
+    Brightness 6: 4
+    Brightness 7: 2
+    Brightness 8: 3
+    Brightness 9: 1
+Path 62:
+    Brightness 1: 3
+    Brightness 2: 1
+    Brightness 3: 2
+    Brightness 4: 2
+    Brightness 5: 4
+    Brightness 6: 3
+    Brightness 7: 0
+    Brightness 8: 0
+    Brightness 9: 1
+Path 63:
+    Brightness 1: 5
+    Brightness 2: 1
+    Brightness 3: 0
+    Brightness 4: 1
+    Brightness 5: 1
+    Brightness 6: 4
+    Brightness 7: 2
+    Brightness 8: 1
+    Brightness 9: 0
+Path 64:
+    Brightness 1: 0
+    Brightness 2: 5
+    Brightness 3: 1
+    Brightness 4: 3
+    Brightness 5: 3
+    Brightness 6: 0
+    Brightness 7: 1
+    Brightness 8: 3
+    Brightness 9: 2
+Path 65:
+    Brightness 1: 2
+    Brightness 2: 0
+    Brightness 3: 0
+    Brightness 4: 2
+    Brightness 5: 0
+    Brightness 6: 4
+    Brightness 7: 3
+    Brightness 8: 3
+    Brightness 9: 2
+Path 66:
+    Brightness 1: 0
+    Brightness 2: 2
+    Brightness 3: 3
+    Brightness 4: 4
+    Brightness 5: 0
+    Brightness 6: 0
+    Brightness 7: 2
+    Brightness 8: 3
+    Brightness 9: 2
+Path 67:
+    Brightness 1: 1
+    Brightness 2: 1
+    Brightness 3: 3
+    Brightness 4: 2
+    Brightness 5: 1
+    Brightness 6: 0
+    Brightness 7: 4
+    Brightness 8: 1
+    Brightness 9: 2
+Path 68:
+    Brightness 1: 0
+    Brightness 2: 1
+    Brightness 3: 5
+    Brightness 4: 3
+    Brightness 5: 3
+    Brightness 6: 1
+    Brightness 7: 1
+    Brightness 8: 2
+    Brightness 9: 0
+Path 69:
+    Brightness 1: 2
+    Brightness 2: 2
+    Brightness 3: 3
+    Brightness 4: 2
+    Brightness 5: 1
+    Brightness 6: 0
+    Brightness 7: 4
+    Brightness 8: 2
+    Brightness 9: 1
+Path 70:
+    Brightness 1: 3
+    Brightness 2: 0
+    Brightness 3: 2
+    Brightness 4: 1
+    Brightness 5: 1
+    Brightness 6: 3
+    Brightness 7: 2
+    Brightness 8: 3
+    Brightness 9: 2
+Path 71:
+    Brightness 1: 1
+    Brightness 2: 2
+    Brightness 3: 1
+    Brightness 4: 1
+    Brightness 5: 2
+    Brightness 6: 2
+    Brightness 7: 2
+    Brightness 8: 3
+    Brightness 9: 2
+Path 72:
+    Brightness 1: 1
+    Brightness 2: 1
+    Brightness 3: 2
+    Brightness 4: 0
+    Brightness 5: 3
+    Brightness 6: 3
+    Brightness 7: 3
+    Brightness 8: 3
+    Brightness 9: 1

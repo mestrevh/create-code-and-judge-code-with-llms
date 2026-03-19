@@ -1,0 +1,74 @@
+fila de idosos:
+ID: 1 IDADE: 90
+ID: 2 IDADE: 92
+ID: 4 IDADE: 98
+ID: 5 IDADE: 75
+ID: 6 IDADE: 81
+fila de nao-idosos:
+ID: 0 IDADE: 54
+ID: 3 IDADE: 3
+ID: 7 IDADE: 15
+ID: 8 IDADE: 45
+----------
+
+fila de idosos:
+ID: 2 IDADE: 92
+ID: 4 IDADE: 98
+ID: 5 IDADE: 75
+ID: 6 IDADE: 81
+fila de nao-idosos:
+ID: 0 IDADE: 54
+ID: 3 IDADE: 3
+ID: 7 IDADE: 15
+ID: 8 IDADE: 45
+----------
+
+fila de idosos:
+ID: 2 IDADE: 92
+ID: 4 IDADE: 98
+ID: 5 IDADE: 75
+ID: 6 IDADE: 81
+fila de nao-idosos:
+ID: 0 IDADE: 54
+ID: 3 IDADE: 3
+ID: 7 IDADE: 15
+ID: 8 IDADE: 45
+----------
+
+fila de idosos:
+ID: 4 IDADE: 98
+ID: 5 IDADE: 75
+ID: 6 IDADE: 81
+fila de nao-idosos:
+ID: 0 IDADE: 54
+ID: 3 IDADE: 3
+ID: 7 IDADE: 15
+ID: 8 IDADE: 45
+----------
+
+fila de idosos:
+ID: 5 IDADE: 75
+ID: 6 IDADE: 81
+fila de nao-idosos:
+ID: 0 IDADE: 54
+ID: 3 IDADE: 3
+ID: 7 IDADE: 15
+ID: 8 IDADE: 45
+----------
+
+fila de idosos:
+ID: 5 IDADE: 75
+ID: 6 IDADE: 81
+fila de nao-idosos:
+ID: 3 IDADE: 3
+ID: 7 IDADE: 15
+ID: 8 IDADE: 45
+----------
+
+fila de idosos:
+ID: 6 IDADE: 81
+fila de nao-idosos:
+ID: 3 IDADE: 3
+ID: 7 IDADE: 15
+ID: 8 IDADE: 45
+----------

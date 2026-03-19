@@ -1,0 +1,6 @@
+Título: Palavra com mais vogais
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dado um texto, encontre a palavra que tenha mais vogais. Por simplicidade, o texto usa o alfabeto Inglês, ou seja, letras não têm acentos.<br/></p>
+Formato da entrada: <p>Um texto em que cada palavra é separada por um ou mais espaços em branco e/ou nova linha. O texto termina com uma linha contendo unicamente a palavra ‘FIM’ e que não é considerada parte do texto.<br/></p>
+Formato da saída: <p>A palavra com maior quantidade de vogais. Se houver mais de uma, a última destas no texto. Se o texto for vazio, ou seja, se não contiver nenhuma palavra, o programa deve imprimir ‘texto vazio’.<br/></p><p>Em particular, observe que se nenhuma palavra tem vogais, que é o mesmo que todas têm 0 vogais, o programa deve retornar a última palavra.</p>

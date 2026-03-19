@@ -1,0 +1,6 @@
+Título: Intervalo entre 10 e 100
+Topicos do problema: estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>&#13;&#13;Crie um programa para ler 5 números e ao final informar quantos números estão no intervalo entre 10 (inclusive) e 100 (inclusive). &#13;&#13;<br/></p>
+Formato da entrada: <p>Informar 5 números, onde entre cada número deve ser digitado enter</p><p><br/></p>
+Formato da saída: <p>4</p><p><br/></p>

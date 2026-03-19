@@ -1,0 +1,6 @@
+Process [A|23] enqueued!
+Process [Z|42] enqueued!
+Process [K|30] enqueued!
+[Z|42] => [K|30] => [A|23]
+Process [Z|42] dequeued!
+[K|30] => [A|23]

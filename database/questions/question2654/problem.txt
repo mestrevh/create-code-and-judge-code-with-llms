@@ -1,0 +1,6 @@
+Título: PROGCOMP - Vetores - C
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que preenche um vetor com cinquenta elementos inteiros e altera todo valor negativo para seu oposto positivo, ao final o programa deve exibir o vetor já modificado.</p>
+Formato da entrada: <p>Cinquenta números inteiros, um por linha.</p>
+Formato da saída: <p>Os cinquenta números inteiros dados na entrada, na mesma sequência, em que todo negativo torna-se positivo.</p>

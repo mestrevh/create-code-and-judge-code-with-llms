@@ -1,0 +1,15 @@
+Filme1:Alien
+
+comedia: 0
+acao: 5
+suspense: 5
+
+Filme2:Predador
+
+suspense: 5
+acao: 5
+comedia: 0
+
+acao: 5
+suspense: 5
+comedia: 3

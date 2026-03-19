@@ -1,0 +1,52 @@
+Pasta 'imagens' criada
+Pasta 'documentos' criada
+Pasta 'videos' criada
+Pasta 'vid1' criada
+Pasta 'vid1-1' criada
+Pasta 'vid1-2' criada
+Pasta 'vid2' criada
+Pasta 'img1' criada
+root
+|---imagens
+    |---img1
+|---documentos
+|---videos
+    |---vid1
+        |---vid1-1
+        |---vid1-2
+    |---vid2
+A pasta 'documentos' foi removida
+root
+|---imagens
+    |---img1
+|---videos
+    |---vid1
+        |---vid1-1
+        |---vid1-2
+    |---vid2
+Pasta 'musicas' criada
+Pasta 'mus1' criada
+Pasta 'mus2' criada
+root
+|---imagens
+    |---img1
+|---musicas
+    |---mus1
+    |---mus2
+|---videos
+    |---vid1
+        |---vid1-1
+        |---vid1-2
+    |---vid2
+A pasta 'videos' foi removida
+root
+|---imagens
+    |---img1
+|---musicas
+    |---mus1
+    |---mus2
+A pasta 'musicas' foi removida
+root
+|---imagens
+    |---img1
+Erro ao remover a pasta 'pdf'

@@ -1,0 +1,6 @@
+Título: [AC5.4] - Media de notas
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Desenvolva um programa que receba um número n de notas e a seguir as leia e depois calcule a média entre elas. (usem round(media, 1) para exibir a media)</p>
+Formato da entrada: <p>n (número de notas)<br/>n linhas, contendo uma nota por linha</p>
+Formato da saída: <p>média aritmética das notas (usando round(media, 1))</p>

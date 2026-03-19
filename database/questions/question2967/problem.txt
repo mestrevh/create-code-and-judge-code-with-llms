@@ -1,0 +1,6 @@
+Título: Dados Pessoais
+Topicos do problema: estruturas; 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <p><span class="fontstyle0">Implemente um programa em C que leia o </span><span class="fontstyle2">nome</span><span class="fontstyle0">, a </span><span class="fontstyle2">idade </span><span class="fontstyle0">e o </span><span class="fontstyle2">endereço </span><span class="fontstyle0">de uma pessoa e armazene esses dados em uma estrutura. Em seguida, imprima na tela os dados da estrutura lida.</span><br/><br/></p>
+Formato da entrada: <p>O usuário deve digitar o nome, idade e endereço, que devem ser armazenados em uma estrutura<br/></p>
+Formato da saída: <p>O programa deve exibir os dados digitados, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite o nome:</p><p>Digite a idade:</p><p>Digite o endereco:</p><p>Nome: nnnnnnnn<br/></p><p>Idade: n<br/></p><p>Endereco: nnnnnnnnnnnnnn<br/></p>

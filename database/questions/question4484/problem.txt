@@ -1,0 +1,6 @@
+Título: Complexa
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Supondo que no pior caso um determinado algoritmo gerasse todos os subconjuntos de um vetor de tamanho n dado como entrada, poderíamos afirmar que a complexidade de pior caso deste algoritmo pertence à classe (marque TODAS as corretas):<br/></p>
+Formato da entrada: None
+Formato da saída: None

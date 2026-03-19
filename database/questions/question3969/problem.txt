@@ -1,0 +1,6 @@
+Título: Vogais como números
+Topicos do problema: decisão; repetição; função; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Pedrinho está precisando de um programa que produza um texto completamente em letras maiúsculas e que tenha apenas a vogal U. Qualquer outra vogal será modificada para um número, seguindo o seguinte padrão:</p><p>A ou a = 4<br/><span>E ou e = 3<br/></span><span>I ou i = 1<br/>O ou o = 0</span></p><p><span>Além disso, Pedrinho não quer espaços em branco desnecessários. Desta forma, seu programa deve deixar apenas um espaço em branco entre as palavras. Também não quer espaços em branco no início ou no final.</span></p><p><b>Observação:</b> É necessário a <b>utilização de função</b> (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão<br/></p>
+Formato da entrada: <p>O número (N) de linhas que serão digitadas por Pedrinho.<br/></p><p>As N linhas que contêm o texto de Pedrinho, podendo conter caracteres maiúsculos e minúsculos, sem acentos, além de espaços em branco e pontuação.<br/></p>
+Formato da saída: <p>Para cada linha de entrada, a saída deve conter uma linha com o número da linha de entrada correspondente junto com o caractere : e  seguido do texto convertido.<br/></p>

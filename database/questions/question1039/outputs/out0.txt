@@ -1,0 +1,20 @@
+------------------------------
+The tree vo* has:
+- Left subtree: v
+- Right subtree: o
+------------------------------
+------------------------------
+The tree v has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree o has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+
+Decoding Tree is:
+
+v : 0
+o : 1

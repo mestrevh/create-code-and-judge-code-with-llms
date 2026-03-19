@@ -1,0 +1,6 @@
+Título: Soma arquivo
+Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Implemente uma função que recebe como parâmetro dois números;</p><p>Realize a soma destes números;</p><p>Escreve o resultado no arquivo ”soma.dat”<br/></p>
+Formato da entrada: <p>2 5</p>
+Formato da saída: <p>7</p>

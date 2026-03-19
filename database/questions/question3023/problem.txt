@@ -1,0 +1,6 @@
+Título: Struct Carros T3P1
+Topicos do problema: estruturas; 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <div><span>Faça um programa em linguagem C<span> que leia os dados de 3 carros:  marca (máximo de </span><span></span><span>15 </span><span>letras), ano e preço. Os dados de cada carro devem ser armazenados em uma struct. Leia um valor p e mostre as informações </span><span>de todos os carros com </span><span>preço menor que p.</span><br/></span></div>
+Formato da entrada: <p>O usuario deve digitar <span><span>marca (máximo de </span><span></span><span>15 </span><span>letras), ano e preço</span></span><span><span> de 3 carros. Em seguida, deve digitar o valor p.</span></span><br/></p>
+Formato da saída: <p>O programa deve exibir <span><span>marca (máximo de </span><span></span><span>15 </span><span>letras), ano e preço</span> de todos os carros com preço menor que p.</span><br/></p>

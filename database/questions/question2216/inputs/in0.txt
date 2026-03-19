@@ -1,0 +1,9 @@
+push 10
+abs
+push 2
+abs
+push 1
+abs
+pop
+push 15
+abs

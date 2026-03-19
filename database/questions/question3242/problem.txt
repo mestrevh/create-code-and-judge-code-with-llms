@@ -1,0 +1,6 @@
+Título: q1 - triangulos
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que faz a leitura de três valores reais (r1, r2 e r3), representando os comprimentos de três retas, e exibe uma mensagem indicando se é possível ligar as pontas das retas formando um triângulo (pesquise qual a condição de existência de um triângulo).<br/><br/>Caso seja possível formá-lo, indique qual o seu tipo (equilátero, isósceles ou escaleno). Caso não seja, diga que é impossível<br/></p>
+Formato da entrada: <p>r1<br/>r2<br/>r3</p>
+Formato da saída: <p>O tipo do triângulo, uma palavra com letras minúsculas e sem acentos: (equilatero, isoceles, escaleno ou impossivel)<br/></p>

@@ -1,0 +1,6 @@
+Título: [AC4.2] - IRPF
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que recebe o valor do rendimento anual e o valor retido na fonte de uma pessoa e calcula quanto de imposto de renda ela deve pagar ou receber de restituição.<br/><br/>Os cálculos devem seguir a tabela do IRPF 2020:<br/><br/><div style="text-align: center;"><img class="" src="https://www.thehuxley.com/api/v1/problems/image/8c67bc92346661b1da084c6cc844df8fee48896f0.jpeg"/></div></p><p>Lembrando que o valor final deve levar em conta a parte retida na fonte e a parcela de dedução.</p><p></p>
+Formato da entrada: <p style="text-align: left;">Rendimento anual<br/>Valor retido na fonte</p>
+Formato da saída: <p>Valor do imposto devido (valor positivo) ou a receber (valor negativo). Use round(valor, 2) na resposta</p>

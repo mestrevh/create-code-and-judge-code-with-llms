@@ -1,0 +1,6 @@
+Título: Palavras mais longas
+Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Dado um texto escrito em portugês, se deseja saber quais são as palavras mais longas. Considere que cada palavra é formada com letras do alfabeto portugês incluindo caracteres acentuados.</span><br/></p>
+Formato da entrada: <p>Um<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span> </span></span>texto<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span> </span></span>escrito<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"> </span>numa<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"> única<span> </span></span>linha<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">.</span><br/></p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">As palavras mais longas, todas numa única linha, separadas por um espaço, escritas tal qual aparecem no texto de entrada e obedecendo a ordem inversa de como aparecem no texto de entrada.</span><br/></p>

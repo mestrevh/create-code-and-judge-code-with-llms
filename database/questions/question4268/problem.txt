@@ -1,0 +1,6 @@
+Título: Multiplicação de Matriz por Escalares 2
+Topicos do problema: entrada formatada; repetição; array bidimensional; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que leia uma matriz quadrada de uma ordem N. Em seguida, deve executar uma sequência de produtos por escalar. No final, seu programa deve apresentar a matriz resultante.<br/></p>
+Formato da entrada: <p>Na primeira linha deve ser lida a ordem N (N &gt; 0) da matriz quadrada.Nas linhas seguintes serão informados os valores contidos na matriz, sendo cada linha da matriz em uma linha da entrada com os valores inteiros separados entre si por um espaço em branco.</p><p>Em seguida, virá uma sequência de números inteiros, um por linha, que indicam cada valor a ser multiplicado pela matriz. As multiplicações se encerram quando é encontrada o caractere *.<br/></p>
+Formato da saída: <p>A saída consiste em N linhas, sendo cada uma delas correspondente aos dados de uma linha da matriz, separados entre si por um espaço em branco.</p><p><b>Observações:</b> <u>É obrigatório definir e chamar uma função para ler a matriz e outra para realizar o produto da matriz por um escalar.</u><br/></p>

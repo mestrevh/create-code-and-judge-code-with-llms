@@ -1,0 +1,6 @@
+Título: Fila de Prioridade
+Topicos do problema: estrutura de dados; função; alocação dinâmica; estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Criar uma função <b>atendimento</b> que consome duas filas (prioridade e normal). A função atendimento deve atender a cada 2 pessoas da fila de prioridade, 1 pessoa da fila normal. Você deve criar e preencher inicialmente as duas filas com no mínimo 15 elementos cada.<br/></p>
+Formato da entrada: <p>15 elementos da fila comum</p><p>15 elementos da fila de prioridade<br/></p>
+Formato da saída: <p>imprimir a fila final<br/></p>

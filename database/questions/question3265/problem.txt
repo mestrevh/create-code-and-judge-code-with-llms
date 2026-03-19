@@ -1,0 +1,6 @@
+Título: [AC5.2] - Soma do intervalo
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que calcule e apresente a soma dos inteiros existentes entre dois valores lidos (os dois valores das extremidades devem ser considerados).<br/></p>
+Formato da entrada: <p>Numero inicial do intervalo<br/><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Numero final do intervalo</span><br/></p>
+Formato da saída: <p>Soma dos números no intervalo</p>

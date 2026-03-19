@@ -1,0 +1,6 @@
+Título: Somando Dígitos
+Topicos do problema: array; lógica matemática; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você recebeu um desafio que requer que seu programa some os dígitos de um número. No entanto, serão dados N números, e você deve printar apenas a soma de dígitos do i-ésimo número, sendo i dado.</p><p>Por exemplo:</p><p>3          --&gt; N<br/>1          --&gt; 0-ésimo número<br/>45        --&gt; 1-ésimo número<br/>469      --&gt; 2-ésimo número<br/>1          --&gt; i</p><p>Já que i = 1, deve ser printada a soma dos dígitos do 1-ésimo número: 45. Então, deve-se printar &#34;9&#34; neste caso.</p><p>Dica1: para analisar apenas o dígito mais à direita de um número N, deve-se fazer N % 10. Por exemplo, se N = 298, N % 10 é 298 % 10 que é 8.</p><p>Dica2: para eliminar o número mais à direita de um número N, deve-se fazer N / 10. Por exemplo, se N = 298, N / 10 é 298 / 10 que é 29. (Lembrem-se que divisão inteira ignora as casas decimais).</p>
+Formato da entrada: <p>Primeiro, será dado um inteiro positivo N, que simboliza quantos números serão dados a seguir.<br/>Em seguida, serão dados os N inteiros não negativos.<br/>Finalmente, será dado o valor de i, que irá dizer qual número terá seus dígitos somados.</p>
+Formato da saída: <p>Deve-se printar a soma dos dígitos do i-ésimo número.</p>

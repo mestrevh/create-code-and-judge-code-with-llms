@@ -1,0 +1,10 @@
+Deve ser digitado pelo menos 5 notas.
+A lista de notas é:
+[50, 30, 32, 80, 80, 50]
+Foram lançadas as seguintes notas:
+[50, 30, 32, 80]
+A nota 50 repetiu 2 vezes.
+A nota 30 repetiu 1 vezes.
+A nota 32 repetiu 1 vezes.
+A nota 80 repetiu 2 vezes.
+A nota que mais se repetiu foi a: 50, ela foi responsável por 33.3% das notas

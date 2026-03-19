@@ -1,0 +1,6 @@
+Título: O jardim de Maristela
+Topicos do problema: 
+Tempo limite de execução: 9 segundo(s)
+Descrição: <p>Maristela é uma garota de sete anos de idade que acabou de ganhar <b>três</b> novas plantinhas para o seu jardim. Acontece que uma informação deixou a garota inquieta: a<b> estação do ano</b> influencia na quantidade de dias que a plantinha levará para florescer. Agora, Maristela quer de qualquer jeito saber quantos<b> dias</b> suas novas amiguinhas demorarão para desabrochar. </p>
+Formato da entrada: <p>A entrada consiste em três números inteiros A, B e C, indicando o número de dias estimado para as plantas desabrocharem na <b>primavera.</b></p><p>Em seguida, você deve ler uma caractere D, que pode ser:</p><ul><li>(V)erão</li><li>(P)rimavera</li><li>(O)utono</li><li>(I)nverno</li></ul>No <b>verão</b>, o numero de dias aumenta o dobro. <p>Na <b>primavera</b>, o numero de dias se mantém.<br/><span>No <b>outono</b>, há um acréscimo de 31 dias.<br/></span><span>E no <b>inverno</b>, aumenta em 200%.</span></p>
+Formato da saída: <p>A saída contem 3 números inteiros que indicam o número de dias que cada planta demorará para desabrochar na mesma ordem que foi feita a leitura. Caso não seja digitado nenhum caractere válido, ou a entrada tenha algum dia negativo, o programa deve reportar um erro.</p>

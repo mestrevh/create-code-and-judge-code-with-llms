@@ -1,0 +1,33 @@
+Pre Order:
+Node 0: previous = 4 next = 6
+Node 1: previous = 8 next = 2
+Node 2: previous = 1 next = 3
+Node 3: previous = 2 next = 4
+Node 4: previous = 3 next = 0
+Node 5: previous = 9 next = 7
+Node 6: previous = 0 next = 9
+Node 7: previous = 5 next = -1
+Node 8: previous = -1 next = 1
+Node 9: previous = 6 next = 5
+In Order
+Node 0: previous = 6 next = 8
+Node 1: previous = 4 next = 6
+Node 2: previous = 3 next = 4
+Node 3: previous = -1 next = 2
+Node 4: previous = 2 next = 1
+Node 5: previous = 8 next = 9
+Node 6: previous = 1 next = 0
+Node 7: previous = 9 next = -1
+Node 8: previous = 0 next = 5
+Node 9: previous = 5 next = 7
+Post Order
+Node 0: previous = 6 next = 1
+Node 1: previous = 0 next = 5
+Node 2: previous = 4 next = 6
+Node 3: previous = -1 next = 4
+Node 4: previous = 3 next = 2
+Node 5: previous = 1 next = 7
+Node 6: previous = 2 next = 0
+Node 7: previous = 5 next = 9
+Node 8: previous = 9 next = -1
+Node 9: previous = 7 next = 8

@@ -1,0 +1,6 @@
+Título: Idade em anos, meses e dias
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que calcule idade. O programa receberá como entrada a data de nascimento e a data atual e calculará a idade em anos, meses e dias.<br/></p>
+Formato da entrada: <p>Na primeira linha será ingressada a data de nascimento, três inteiros separados por branco correspondentes ao dia, mes e ano. Similarmente, na segunda linha, será ingressada a data autal. Suponha que sempre a data de nascimento é anterior ou igual à data atual.<br/></p>
+Formato da saída: <p>A idade em anos, meses e dias.<br/></p>

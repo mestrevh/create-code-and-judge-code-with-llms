@@ -1,0 +1,6 @@
+Título: Subtração de inteiros
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dado dois números inteiros x e y, sua tarefa é calcular o valor absoluto da subtração entre esses números.</p>
+Formato da entrada: <p></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">A entrada é composta por dois inteiros x e y (0 &lt; x, y &lt; 10⁹). </p><p></p>
+Formato da saída: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><span>Você deve imprimir o valor absoluto da subtração dos dois inteiros da entrada. Lembre-se da quebra de linha ao final da saída.</span><br/></p>

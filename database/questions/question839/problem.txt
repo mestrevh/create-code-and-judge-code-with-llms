@@ -1,0 +1,6 @@
+Título: Luva do Jaspion
+Topicos do problema: caractere; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Jaspion é um lutador e decidiu comprar uma luva de combate. Como Jaspion está com pouco dinheiro, decidiu que compraria a luva mais cara possível mas que não passasse do valor máximo que ele queira gastar.<br/><br/></p><p>Dado o valor máximo que Jaspion possa gastar (vm) e quatro números reais onde cada um representam o valor de uma luva, faça um programa que diga o preço da luva que Jaspion deve comprar.<br/></p>
+Formato da entrada: <p>Um número inteiro que representa o valor máximo (vm) que Jaspion pode gastar.</p><p>Quatro números reais maiores do que zero que representam o preço de quatro luvas de uma loja.</p><p>0 &lt;= vm &lt;= 10000<br/></p>
+Formato da saída: <p>Um número real com duas casas decimais que representa o valor da luva mais cara que Jaspion pode comprar.</p><p>Obs. 1: Caso o valor máximo que Jaspion possa gastar seja menor que todos os valores de luvas ou zero, imprima 'NENHUM'.</p><p>Obs. 2: Lembre-se de colocar um final de linha após a saída.<br/></p>

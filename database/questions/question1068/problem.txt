@@ -1,0 +1,6 @@
+Título: Plano Cartesiano
+Topicos do problema: decisão; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <b id="docs-internal-guid-40eb41d8-4789-fc42-ae15-56a1b2725c2a"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Faça um programa que leia da entrada padrão duas coordenadas (x e y em sequência) referente a um ponto qualquer e imprime em qual quadrante do plano cartesiano o referido ponto se encontra.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Os pontos que se encontram sobre um dos eixos (quando x ou y for zero) não se encontram em quadrante algum. Nesse caso, você deve imprimir sobre qual eixo o ponto está, ou se o ponto encontra-se sobre a origem.</span></p>
+Formato da entrada: <p>Coordenadas x e y (inteiras) de um ponto sobre um plano cartesiano.</p>
+Formato da saída: <ul><li>Caso o ponto esteja sobre a origem, imprimir &#34;Sobre a origem&#34;.</li></ul><ul><li>Caso o ponto não esteja sobre a origem mas esteja sobre um dos eixos, especifique sobre qual exio está (&#34;Sobre o eixo x&#34;, por exemplo).</li><li>Em qualquer outro caso, especifique em qual quadrante o ponto está.</li></ul>

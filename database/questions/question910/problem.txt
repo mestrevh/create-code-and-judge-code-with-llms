@@ -1,0 +1,6 @@
+Título: Idade e altura.
+Topicos do problema: multiplas entradas; array; acumulador; repetição; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Faça um programa em Java que peça a idade e a altura de 5 pessoas, armazene cada informação no seu respectivo array. Imprima a idade e a altura na ordem inversa da ordem lida.<br/></p>
+Formato da entrada: <p>Idades das 5 pessoas.</p><p>Alturas das 5 pessoas.</p>
+Formato da saída: <p>Idades na ordem inversa.</p><p>Alturas na ordem inversa.</p>

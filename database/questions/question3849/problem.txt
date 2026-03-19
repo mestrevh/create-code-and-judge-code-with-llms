@@ -1,0 +1,6 @@
+Título: Termine o Retângulo [D]
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Em outra tarde qualquer Z, o melhor amigo do Protagonista, desafiou ele para mais um jogo divertido!<br/></p><p>Inicialmente, Z escreve 4 pontos com coordenadas inteiras (X[i], Y[i]), que formam um retângulo, em seguida ele apaga um dos 4 pontos que ele escreveu, restando apenas 3 pontos.</p><p>Com isso, a missão do Protagonista é descobrir qual eram as coordenadas do ponto que foi apagado por Z. Como o Protagonista não gosta muito de geometria, ele pediu para que você ajudasse ele nessa missão.</p>
+Formato da entrada: <p>A entrada possui 3 linhas, cada uma contendo dois inteiros 1 &lt;= X[i], Y[i] &lt;= 10<sup style="color: rgb(32, 33, 36);background-color: rgb(255, 255, 255);">5</sup>.</p><p><b>Todos os pontos são distintos</b>, ou seja, não existem nenhum par de pontos i e j, tal que, X[i] == X[j] e Y[i] == Y[j].</p>
+Formato da saída: <p>Dois inteiros X e Y indicando as coordenadas do ponto que foi apagado por Z.</p>

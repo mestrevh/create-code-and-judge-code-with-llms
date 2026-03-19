@@ -1,0 +1,6 @@
+Título: A different tree 2
+Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Pensando em novas alterações para o projeto final dos próximos períodos, o professor Márcio decidiu alterar a forma como a árvore de Huffman é salva no arquivo. Ajude-o a implementar o novo algoritmo que recupera a árvore de Huffman impressa em pos-order.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A string lida não possui o caractere '*'.</p><p style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A string tem no máximo 200 caracteres.</p>
+Formato da entrada: <p>Uma string representando a Árvore de Huffman impressa em pos-order.</p>
+Formato da saída: <p>Os passos de reconstrução da árvore, após a reconstrução da árvore, imprima a codificação de cada folha percorrendo ela primeiramente a esquerda e depois a direita.</p>

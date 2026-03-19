@@ -1,0 +1,6 @@
+Título: Ambrósio Number
+Topicos do problema: multiplas entradas; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio acaba de inventar uma nova sequência de números a qual ele decidiu dar seu próprio nome a ela, um número é um Ambrósio Number se todos os seus algarismos são 0, 1, 2, 3, 4 ou 5.</p><p>Ambrósio está fascinado com sua nova sequência de números e não quer perder tempo para saber mais sobre ela, então ele confiou a você a tarefa de ajuda-lo com isso.</p><p>Dado um número <b>N </b>o seu programa deve retornar o <b>N</b>-ésimo Ambrósio Number.</p><p>Números que são Ambrósio Number: 0, 1, 2, 3, 4, 5, 10, 11, 12, 13...</p>
+Formato da entrada: <p>Uma linha com um inteiro <b>T </b>representando quantos casos de teste a entrada possui.</p><p>Seguida por <b>T </b>linhas cada uma com um inteiro <b>N</b></p><p><b>1 &lt;= T &lt;= 100</b></p><p><b>1 &lt;= N &lt;= 100000</b></p>
+Formato da saída: <p><b>T </b>linhas cada uma possuindo o <b>N</b>-ésimo Ambrósio Number</p>

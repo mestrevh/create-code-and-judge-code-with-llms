@@ -1,0 +1,6 @@
+Título: Média do produto.
+Topicos do problema: multiplas entradas; array; acumulador; repetição; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Faça um programa para ler o preço de um produto em cada um dos meses do ano e depois imprimir a média do valor do produto no ano. Utilize o conceito de arrays.<br/></p>
+Formato da entrada: <p>Preços do produto durante o ano.</p>
+Formato da saída: <p>Média do valor do produto.</p>

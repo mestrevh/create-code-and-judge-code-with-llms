@@ -1,0 +1,6 @@
+Título: Número de maior frequência
+Topicos do problema: array; acumulador; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>&#13;&#13;Escreva um programa que leia uma sequência de números e retorne o número de maior frequência, juntamente com a quantidade de vezes que ele apareceu e a maior sequência dele dentro do array sem valores diferentes os separando.<br/></p>
+Formato da entrada: <p>Um valor N, tal que N maior que 0 e menor igual a 50.</p><p>&#13;&#13;Um array de tamanho N.<br/></p><p>Observação: Se houver 2 ou mais números com a mesma quantidade de repetições, dê preferência ao de menor valor.</p>
+Formato da saída: <p>&#13;&#13;Um valor X seguido de uma quebra de linha correspondendo ao número de maior frequência.</p><p>Um valor Y <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">seguido de uma quebra de linha</span> correspondendo a quantidade de vezes que ele aparece em todo o array.&#13;&#13;&#13;<br/></p><p>Um valor Z correspondendo a maior sequência do valor X.</p>

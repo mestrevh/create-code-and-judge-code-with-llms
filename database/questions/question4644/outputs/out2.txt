@@ -1,0 +1,13 @@
+Jogador B ganhou!
+Campo A:
+0 0 0 1
+x 0 0 0
+0 2 0 0
+0 0 0 0
+0 x 0 1
+Campo B:
+0 0 0 1
+1 x 0 1
+0 0 0 0
+0 0 0 1
+1 0 0 0

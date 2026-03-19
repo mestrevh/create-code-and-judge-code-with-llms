@@ -1,0 +1,6 @@
+Título: O Jardim das Combinações
+Topicos do problema: backtracking; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>No reino de <strong>Floria</strong>, existe um grande jardim mágico com <strong>n tipos diferentes de flores</strong>, numeradas de <strong>1 a n</strong>.</p><p>A jardineira real deseja plantar <strong>k flores diferentes</strong> em um canteiro especial, mas quer testar <strong>todas as combinações possíveis</strong> antes de decidir qual arranjo usar.</p><p>Sua missão é escrever um programa que gere <strong>todas as combinações possíveis de flores</strong> que podem ser escolhidas, sem repetições e em <strong>ordem crescente</strong>, para que a jardineira possa avaliar cada arranjo.</p><p>Use <strong>backtracking</strong> para resolver o problema.</p>
+Formato da entrada: <p>Dois inteiros n e k, representando:</p><p><span>n:  o número total de tipos de flores disponíveis.</span></p><p><span>k:  o número de flores que devem compor o arranjo.</span></p>
+Formato da saída: <p>&#13;&#13;Liste todas as combinações possíveis de flores, cada uma em uma linha, com os números separados por espaço.&#13;&#13;<br/></p>

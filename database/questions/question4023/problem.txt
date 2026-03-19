@@ -1,0 +1,6 @@
+Título: Elemento da posição k do vetor
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>São dados o valor de k e os elementos de um vetor. Seu programa deve imprimir o valor do elemento da posição k.</p>
+Formato da entrada: <p>Número inteiro k (indicador da posição desejada), na linha de baixo, o número inteiro n (quantidade de elementos do vetor), nas linhas seguintes os valores dos elementos do vetor (um em cada linha)</p>
+Formato da saída: <p>Valor do elemento k (valor real com duas casas decimais)</p>

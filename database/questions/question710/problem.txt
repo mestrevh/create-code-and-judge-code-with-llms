@@ -1,0 +1,6 @@
+Título: Cosseno
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p><font face="Nimbus Sans L, sans-serif"><font size="2">Escrevaum programa em Python para calcular o valor do cosseno de um ânguloem radianos, usando a expansão do cosseno por uma série de Taylor.Seu programa deve realizar o cálculo com precisão de 5 casasdecimais e apresentar a saída com duas casas após a vírgula.</font></font></p>
+Formato da entrada: <title></title><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">1.7</font></font></p><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">3.14</font></font></p><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">.78</font></font></p>
+Formato da saída: <p>-0.13</p><p>-1.0</p><p>0.71</p><p><br/></p>

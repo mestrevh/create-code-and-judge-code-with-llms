@@ -1,0 +1,6 @@
+Título: Ordep e a censo na empresa
+Topicos do problema: array; decisão; função; estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ordep ficou encarregado de colher informações da empresa que trabalha, contudo, a empresa tem muitos funcionários e ele resolveu pedir sua ajuda como bom programador para automatizar essa tarefa, assim, ele reuniu todas as informações necessárias para o censo que vai ser feito e te passou e deseja saber quem é o funcionário que <b>ganha o maior salário</b> da empresa e quem é o funcionário <b>mais jovem</b>.</p>
+Formato da entrada: <p>A entrada contém um inteiro N (0 &lt; N &lt;= 100) que indica o número de funcionários da empresa.</p><p>Cada uma das <b>N </b>linhas seguintes possuem 2 inteiros e um valor com ponto flutuante, sendo eles  o <b>identificador do funcionário, </b>sua<b> idade</b> e o seu <b>salário.</b></p>
+Formato da saída: <p>Na saída você deve exibir todas as informações do funcionário com o maior salário e o funcionário com a menor idade que estão cadastrados na empresa como nos exemplos com uma  quebra de linha entre o maior salário e a menor idade.<br/></p>

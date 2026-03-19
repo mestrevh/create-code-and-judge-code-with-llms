@@ -1,0 +1,6 @@
+Título: Quadrado de asteriscos
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa para ler um inteiro N representando a quantidade de linhas de um quadrado, 1 &lt;=  N  &lt;=9, e exiba um quadrado composto de asteriscos conforme exemplo. <br/></p>
+Formato da entrada: <p>5</p>
+Formato da saída: <p></p>*****<br/>*****<br/>*****<br/>*****<br/>*****<br/>

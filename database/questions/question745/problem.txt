@@ -1,0 +1,6 @@
+Título: Sua mala
+Topicos do problema: 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Certo dia você ouve &#34;Pegue suas coisas e vai embora de vez.&#34; devido ao fato de que você não sabe, não sabe, não sabe amar uma mulher, mas provando que você sabe arrumar a mala faça um programa que receba do usuário o nome dos itens que são adicionados na mala e organize dizendo a quantidade (de camisa, saia, sapato  ou outros ) e especifique. O programa para de receber itens quando for recebido 00.<br/></p><p><br/></p><p>Dica :</p><p>&gt;&gt;&gt; a = &#34;mal&#34;</p><p>&gt;&gt;&gt; x = a in &#34;Vou bem!&#34;</p><p>&gt;&gt;&gt; x</p><p>False</p><p>&gt;&gt;&gt; b = &#34;morta&#34;</p><p>&gt;&gt;&gt; y = b in &#34;Eu queria estar morta&#34;</p><p>&gt;&gt;&gt; y</p><p>True&#13;<br/></p>
+Formato da entrada: <p>sequencia de strings até que seja digitado &#34;00&#34;</p>
+Formato da saída: <p>03 camisa(s): camisa1, camisa2, camisa3</p><p>01 saia(s): saia1</p><p>00 sapato(s): </p><p>02 outro(s): item1, item2</p><p><br/></p><p>obs: quando não tem nenhum item apos os &#34;:&#34; imprimir uma quebra de linha.</p><p>obs: E o espaço depois da virgula caso tenha um próximo item</p><p><br/></p><p>veja o exemplo.</p>

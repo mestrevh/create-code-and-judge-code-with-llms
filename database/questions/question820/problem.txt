@@ -1,0 +1,6 @@
+Título: Imprimir Número
+Topicos do problema: 
+Tempo limite de execução: 4 segundo(s)
+Descrição: <p><span style="color: rgb(0,0,0);">Faça um programa em Java que leia do usuário um número e escreva a mensagem: O número informado <span style="color: rgb(0,0,0);">foi &lt;número&gt;</span></span><br/></p>
+Formato da entrada: <p>10</p>
+Formato da saída: <p><span style="color: rgb(0, 0, 0);float: none;background-color: rgb(255, 255, 255);">Digite um número:<br/>O número informado </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">foi 10</span><br/></p>

@@ -1,0 +1,6 @@
+Título: AC2 - Ex. 3
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que recebe 3 notas de prova e calcula:<br/><br/>- A média delas<br/>- A média ponderada delas, considerando pesos 2, 2 e 3<br/><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">- A média ponderada delas, considerando pesos 1, 2 e 2</span><br/></p>
+Formato da entrada: <p>Nota 1<br/>Nota 2<br/>Nota 3</p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Média</span><br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Média ponderada, considerando pesos 2, 2 e 3</span><br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Média ponderada, considerando pesos 1, 2 e 2</span><br/></p>

@@ -1,0 +1,6 @@
+Título: Inverte array
+Topicos do problema: array; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva uma função que receba um vetor de números inteiros de tamanho n e inverta a ordem dos elementos desse vetor.<br/></p>
+Formato da entrada: <p>4 8 6 2 9</p>
+Formato da saída: <p>9 2 6 8 4</p>

@@ -1,0 +1,6 @@
+Título: Área do Círculo
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">A fórmula para calcular a área de uma circunferência é:<span> </span><strong>area = π . raio<sup>2</sup></strong>. Considerando para este problema que<span> </span><strong>π =<span> </span></strong>3.14159:</p><p style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">- Efetue o cálculo da área, elevando o valor de<span> </span><strong>raio</strong><span> </span>ao quadrado e multiplicando por<span> </span><strong>π</strong>.</p>
+Formato da entrada: <p>A entrada contém um valor de ponto flutuante (dupla precisão), no caso, a variável <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">raio</strong>.<br/></p>
+Formato da saída: <p>Apresentar a mensagem &#34;A=&#34; seguido pelo valor da variável <strong style="color: rgb(69, 69, 69);text-align: justify;background-color: rgb(255, 255, 255);">area</strong>, conforme exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá &#34;Presentation Error&#34;.<br/></p>

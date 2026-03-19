@@ -1,0 +1,103 @@
+Criatura: behouder
+Status:
+ Forca: 14
+ Agilidade: 13
+ Intigencia: 12
+ Sabedoria: 11
+
+Caracteristicas:
+monstro elemental mistico 
+
+Habilidades:
+petrificar silenciar  
+
+Criatura: Aspirante
+Status:
+ Forca: 28
+ Agilidade: 3
+ Intigencia: 2
+ Sabedoria: 11
+
+Caracteristicas:
+novato humano saqueador 
+
+Habilidades:
+atirar corrida roubar 
+
+Criatura: pirata
+Status:
+ Forca: 20
+ Agilidade: 15
+ Intigencia: 2
+ Sabedoria: 0
+
+Caracteristicas:
+humano 
+
+Habilidades:
+pilhar beber  
+
+Criatura: lich
+Status:
+ Forca: 5
+ Agilidade: 0
+ Intigencia: 50
+ Sabedoria: 25
+
+Caracteristicas:
+zumbi espiritual mistico sobrenatural 
+
+Habilidades:
+firebal silenciar  
+
+Criatura: almirante
+Status:
+ Forca: 14
+ Agilidade: 13
+ Intigencia: 12
+ Sabedoria: 11
+
+Caracteristicas:
+humano 
+
+Habilidades:
+nenhum 
+
+Criatura: marinheiro
+Status:
+ Forca: 1
+ Agilidade: 1
+ Intigencia: 1
+ Sabedoria: 11
+
+Caracteristicas:
+humano marinheiro 
+
+Habilidades:
+codificar 
+
+Criatura: aspirante
+Status:
+ Forca: 2
+ Agilidade: 2
+ Intigencia: 2
+ Sabedoria: 2
+
+Caracteristicas:
+mistico 
+
+Habilidades:
+sofrer atirar 
+
+Criatura: capitao
+Status:
+ Forca: 14
+ Agilidade: 0
+ Intigencia: 12
+ Sabedoria: 11
+
+Caracteristicas:
+fantasma 
+
+Habilidades:
+nenhum

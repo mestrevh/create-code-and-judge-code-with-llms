@@ -1,0 +1,11 @@
+A tabela das alturas dos jogadores
+[1.8, 1.78, 1.9, 1.96, 1.94, 1.79] -> time 1
+
+A tabela das camisas dos jogadores
+[10, 12, 13, 8, 6, 1]  time 1
+
+o mais alto do time 1 tem 1.96cm de altura, joga na posição 4 e veste a camisa 8.
+
+a média de alturas do time1 é de 1.86cm
+
+a média de alturas dos atletas do campeonato é de 1.86cm

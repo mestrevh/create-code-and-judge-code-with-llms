@@ -1,0 +1,6 @@
+Título: PROGCOMP - Repetição - N
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><b>[for]</b> Sendo <i>H = 1 + (1/2) + (1/3) + (1/4) + (1/5) + ... + (1/n</i>), faça um programa que exibe o valor de <i>H</i> após ler <i>n (n &gt; 0)</i>. Observação: use uma variável de ponto flutuante de precisão dupla (double).</p>
+Formato da entrada: <p>Um valor natural simbolizando <i>n</i>.</p>
+Formato da saída: <p>Um valor real, com duas casas decimais, simbolizando <i>H</i>.</p>

@@ -1,0 +1,6 @@
+Título: String e números - soma
+Topicos do problema: array; repetição; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O problema a ser resolvido é bem simples. <span>Consiste em somar dois números inteiros. </span></p><p>O problema é que na entrada de dados não são inseridos números e sim strings de números. </p><p>Os números são inseridos com um espaço entre seus algarismos. <br/></p><p>Por exemplo, </p><table cols="2" width="80%" style="color: rgb(0, 0, 0);"><tbody><tr><td width="20%">1ª  seqüência</td><td width="40%">      8    2    4    3    4    2    5    1</td></tr><tr><td>2ª  seqüência</td><td>+    3    3    7    5    2    3    3    7<span class="Apple-converted-space"> </span><br/><hr size="3" width="100%"/></td></tr><tr><td>Soma</td><td>1    1    6    1    8    6    5    8    8</td></tr></tbody></table>
+Formato da entrada: <p>Duas strings contendo, cada uma, uma sequência de algarismos separados por um espaço em branco.</p>
+Formato da saída: <p>A soma dos números inteiros representados pelas sequências de algarismos lidas.</p><p>No caso de em pelo menos uma sequência o usuário digitar algarismos sem espaço em branco, deve ser apresentada a mensagem <i><b>&#34;Erro em uma ou mais sequencia de entrada de dados&#34;.</b></i></p>

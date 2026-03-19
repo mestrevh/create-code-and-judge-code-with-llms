@@ -1,0 +1,6 @@
+Título: Caracteres em comum
+Topicos do problema: array; string; 
+Tempo limite de execução: 4 segundo(s)
+Descrição: <p>Considerando duas strings fornecidas pelo usuário, forneça o número de caracteres em comum entre elas. Caracteres repetidos contam em cada ocorrência.</p>
+Formato da entrada: <p>O usuário deve fornecer duas strings, uma após a outra.</p>
+Formato da saída: <p>O programa deve responder como um número inteiro, representando o número de caracteres em comum.</p>

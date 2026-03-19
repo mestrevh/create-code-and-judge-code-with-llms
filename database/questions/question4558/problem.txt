@@ -1,0 +1,6 @@
+Título: Ekul's Company
+Topicos do problema: array; decisão; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A empresa Ekul's Company possui um conjunto de carros numerados de 1 a n. A empresa possui um estacionamento com vagas padronizadas que cabem até dois carros. Suponha que cada carro possui um comprimento no intervalo aberto (0, 1) indicando o quanto que o carro ocupa a vaga. Queremos saber qual o menor número de vagas ocupadas pelos carros que cumpram essas duas condições:</p><p><br/></p><p>1- Cada vaga deve ter no máximo 2 carros.</p><p>2- O comprimento dos carros em cada vaga não pode passar de 1.</p><p><br/></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/418f2cf5d195fd9ae66c418a1aa3bfad6dc10cffi.jpg"/><br/></p>
+Formato da entrada: <p>Uma linha contendo um inteiro N representando a quantia de carros.</p><p>N valores reais representando o espaço ocupado por cada carro.</p>
+Formato da saída: <p>Exiba um inteiro K que representa a quantia mínima de vagas que serão usadas.</p>

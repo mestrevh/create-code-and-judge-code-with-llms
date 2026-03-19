@@ -1,0 +1,10 @@
+ADD
+A 23
+ADD
+Z 42
+ADD
+K 30
+PRT
+RUN
+PRT
+EXT

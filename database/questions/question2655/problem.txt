@@ -1,0 +1,6 @@
+Título: PROGCOMP - Vetores - E
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que lê um vetor de cinquenta números inteiros e exibe, ao final, o menor valor lido.<br/></p>
+Formato da entrada: <p>Cinquenta números inteiros, um por linha.</p>
+Formato da saída: <p>O menor valor lido dentre os cinquenta.</p>

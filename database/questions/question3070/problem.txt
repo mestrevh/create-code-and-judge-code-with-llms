@@ -1,0 +1,6 @@
+Título: Soma de restos
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Responda <b>q</b> queries sobre um array <b>A </b>e um divisor <b>m</b>.</p><p>Cada query será do tipo: <b>l</b> <b>r d</b>. A resposta da query deve ser a quantidade de números em <b>A</b> entre <b>l</b> e <b>r</b> que possuem resto de divisão por <b>m</b> igual a <b>d</b>.</p>
+Formato da entrada: <p>A primeira linha da entrada terá dois inteiros <b>n</b> e <b>m</b>, indicando o tamanho do array <b>A</b> e o divisor <b>m</b>. A próxima linha terá os <b>n</b> inteiros do array <b>A</b>. A terceira linha terá um inteiro <b>q</b>, representando a quantidade de queries que deverão ser respondidas. E então virão <b>q</b> linhas com três inteiros seguindo o mesmo formato da descrição: <b>l r d</b>, indicando as informações da query.</p><p>Limites:<br/>1 &lt;=<b> n</b>, <b>m</b> &lt;= 2*10^3<br/>0 &lt;= <b>A_i</b> &lt;= 10^9<br/><span>1 &lt;= </span><b>q</b><span> &lt;= 10^6<br/>1 &lt;= <b>l</b> &lt;= <b>r</b> &lt;= <b>n</b><br/>0 &lt;= <b>d</b> &lt; <b>m</b></span></p><p><br/></p>
+Formato da saída: <p>Para cada query, imprima um inteiro com a resposta da query.</p>

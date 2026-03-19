@@ -1,0 +1,6 @@
+Título: Maior múltiplo inteiro
+Topicos do problema: multiplas entradas; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que determine o maior múltiplo inteiro menor ou igual que um outro inteiro dado. Por exemplo, o maior múltiplo inteiro de 3, menor do que 8 é 6. </p>
+Formato da entrada: <p>3 </p><p>8</p>
+Formato da saída: <p>6</p>

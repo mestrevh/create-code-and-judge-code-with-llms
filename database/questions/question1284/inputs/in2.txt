@@ -1,0 +1,12 @@
+803 3397 774 3655 362 1835 1038 2097 2225 307 3922 470 3512 3547 3868 2495 
+remover 362
+remover 3547
+remover 3868
+inserir 2005
+parcial
+remover 2225
+inserir 729
+parcial
+inserir 4498
+remover 307
+final

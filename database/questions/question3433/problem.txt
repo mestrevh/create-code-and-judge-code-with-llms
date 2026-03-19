@@ -1,0 +1,6 @@
+Título: Média do aluno
+Topicos do problema: estrutura de dados; dicionário; estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você receberá os dados do aluno no seguinte formato:</p><pre>campo valor</pre><p>sendo <i>campo </i>um string que você deverá usar como o campo do seu dicionário (ou estrutura) e <i>valor </i>o valor de fato da variável.</p><p>Os campos e tipos de valores informados serão:</p><pre>nome 'string'</pre><pre>matricula 'string'<br/></pre><pre>ab1 'float'</pre><pre>ab2 'float'</pre><p>mas a entrada de dados se dará em uma ordem qualquer.</p><p>Imprima a média aritmética entre ab1 e ab2 com duas casas decimais.</p>
+Formato da entrada: <p>Uma sequência de campo e valor, conforme lista a seguir, mas em ordem aleatória.</p><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">nome 'string'</pre><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">matricula 'string'<br/></pre><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">ab1 'float'</pre><pre style="color: rgb(147, 149, 152);background-color: rgb(245, 245, 245);">ab2 'float'</pre>
+Formato da saída: <p>Valor do tipo float com 2 casas decimais indicando a média entre ab1 e ab2.</p>

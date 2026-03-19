@@ -1,0 +1,6 @@
+Título: Conversão de tempo
+Topicos do problema: lógica matemática; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span>Joselito está desenvolvendo um aplicativo em que ele converte um valor que representa a duração de um evento qualquer lida em um cronômetro em <b>segundos</b> em um formato adequado para painéis de exibição. </span></p><p><span>O evento é inicialmente representado por um único valor inteiro que compreende a duração do evento e o resultado será uma string a ser exibida no painel no formato <b>HORA(S): MINUTO(S): SEGUNDO(S). </b></span></p>
+Formato da entrada: <p>556<br/></p><p><br/></p><p>1</p><p><br/></p><p>140153</p>
+Formato da saída: <p>0:9:16<br/></p><p><br/></p><p>0:0:1<br/></p><p><br/></p><p>38:55:53</p>

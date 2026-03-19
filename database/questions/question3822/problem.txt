@@ -1,0 +1,6 @@
+Título: Números Pares e Ímpares
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Informe se o número é par ou ímpar</p>
+Formato da entrada: <p>A primeira linha informa a quantidade de número que serão informados. Os demais são os números que devem ser verificados se são pares ou ímpares.</p><p>Exemplo de entrada:</p><p><br/></p><blockquote><p>4</p><p>1</p><p>2</p><p>3</p><p>4</p></blockquote>
+Formato da saída: <p></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Informação se o número é par ou ímpar no seguinte formato:</p><blockquote><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><br/>ímpar</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">par</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">ímpar</p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">par</p></blockquote>

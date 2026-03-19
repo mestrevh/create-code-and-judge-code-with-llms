@@ -1,0 +1,6 @@
+Título: Divergência com múltiplos pares do número 7
+Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Tiago é um aluno que gosta muito de matemática. A professora ensinou que, para saber se um número é múltiplo de outro basta saber se o resto da divisão do primeiro número pelo o segundo é igual a zero, se for então o primeiro número é múltiplo do segundo. </p><p>A professora pediu uma tarefa para os alunos onde eles devem escrever os números de 1 até um certo número dado por ela. Não acreditando que a professora iria conferir se todos os números foram escritos pelos alunos, Tiago resolver fazer uma brincadeira com a professora. Ele escreveu todos os números que a professora pediu, mas os números que são múltiplos de 7 e também são pares, ele não escreveu. </p><p>Faça um programa que simule essa brincadeira, leia então um número dado pelo usuário e em seguida imprima todos os números de 1 até esse número lido (incluindo-o), mas os números que são múltiplos de 7 e são pares, não devem ser impressos.</p>
+Formato da entrada: <p>um número inteiro positivo qualquer. </p>
+Formato da saída: <p>uma sequência de números inteiros e positivos, um em cada linha.</p>

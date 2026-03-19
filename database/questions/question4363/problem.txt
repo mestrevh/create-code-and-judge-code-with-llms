@@ -1,0 +1,6 @@
+Título: Listas.py
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>faça um programa que receba uma lista e diga qual é o tamanho dela, qual é a soma de todos os seus números, a parte inteira da media de todos os números, o maior de todos os números, o menor de todos os números, os números pares e os números impares&#13;<br/></p>
+Formato da entrada: <p>uma lista(use list(input()) para receber a entrada)</p><p>     128123<br/></p>
+Formato da saída: <p>qual é o tamanho dela, qual é a soma de todos os seus números, a parte inteira da media de todos os números, o maior de todos os números, o menor de todos os números, os números pares e os números impares</p><p>      6</p><p>      17</p><p>      2</p><p>      <span>8</span></p><p><span>      1</span></p><p><span>      2</span></p><p><span>      8</span></p><p><span>      2</span></p><p><span>      1</span></p><p><span>      1</span></p><p><span>      3</span></p>

@@ -1,0 +1,6 @@
+Título: acerte o numero
+Topicos do problema: 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Faça um algoritmo para que o um usuário tente acertar um número informado por outro usuário.Inicialmente um usuário fornece um número para o algoritmo, depois o outro usuário deve informar números ao algoritmo até acertar (obviamente o segundo usuário não deve ver o número informado pelo primeiro). Para ajudar, a cada tentativa o computador deve exibir as seguintes mensagens: “Seu número é maior do que o meu” ou “Seu número é menor do que o meu”. Ao acertar imprima quantas tentativa foram necessárias.<br/></p>
+Formato da entrada: <p>os 2 valores informados </p>
+Formato da saída: <p>mensagem se é maior ou menor </p><p>quantidade de tentativas</p>

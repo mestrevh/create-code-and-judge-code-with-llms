@@ -1,0 +1,6 @@
+Título: PROGCOMP - Seleção - E
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que recebe um número inteiro e exibe uma mensagem indicando se ele é par ou ímpar (use o operador % para obter o resto de uma divisão inteira).<br/></p>
+Formato da entrada: <p>Um número inteiro.</p>
+Formato da saída: <p>Uma mensagem &#34;par&#34; (minúsculo), caso o número seja par, ou &#34;impar&#34; (minúsculo e sem acento), caso o número seja ímpar.</p>

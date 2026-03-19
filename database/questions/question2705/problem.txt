@@ -1,0 +1,6 @@
+Título: Q2 - P1C
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p dir="ltr"><span style="color: #000000;background-color: transparent;">Faça um programa que leia da duas coordenadas (x e y em sequência) referente a um ponto qualquer e imprime em qual quadrante do plano cartesiano o referido ponto se encontra.</span></p><img src="https://www.thehuxley.com/api/v1/problems/image/e2daf3e24422d73c535ea53ab1d6c4adfe60e08a).jpg"/><p dir="ltr"><span style="color: #000000;background-color: transparent;">Os pontos que se encontram sobre um dos eixos (quando x ou y for zero) não se encontram em quadrante algum. Nesse caso, você deve imprimir sobre qual eixo o ponto está, ou se o ponto encontra-se sobre a origem.</span></p>
+Formato da entrada: <p>O usuário deve digitar as coordenadas x e y, respectivamente, do ponto<br/></p>
+Formato da saída: <p>O programa deve informar em qual quadrante está o ponto, ou se está sobre algum eixo ou ainda sobre a origem, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a coordenada x:<br/></p><p>Digite a coordenada y:<br/></p><p>O ponto esta no quadrante n/O ponto esta sobre o eixo x/y / O ponto esta sobre a origem<br/></p>

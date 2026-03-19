@@ -1,0 +1,6 @@
+Título: Código entre amigas
+Topicos do problema: array; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <div class="page" title="Page 2"><div class="layoutArea"><div class="column"><font color="#000000" face="inherit">Marianna e </font><font color="#000000"><span>Marinna são amigas e conversam bastante sobre muitos segredos. Para que as demais pessoas não lessem suas conversas criaram um código entre elas.</span></font></div><div class="column"><font color="#000000">O código estabelece uma relação entre letras e números conforme mostrado abaixo.</font></div><div class="page" title="Page 2" style="color: rgb(0, 0, 0);"><div class="layoutArea"><div class="column"><p><span>Faça uma função chamada &#34;traduzir&#34;, que recebe uma uma mensagem e<span class="Apple-converted-space"> retorna a mensagem traduzida. </span></span></p></div></div></div><div class="column"><img src="https://www.thehuxley.com/api/v1/problems/image/883d5f3d156d51c5aae17325733eb597691cd26fe.png"/></div></div></div>
+Formato da entrada: <p>Como Marianna e Marianna conversam muito, a entrada consistirá de várias frases até que seja digitado &#34;fim&#34;.</p><p>Cada linha consiste de uma sequência de números separados por um espaço em branco e deve ser traduzida, com exceção da linha que corresponder à palavra &#34;fim&#34;.</p>
+Formato da saída: <p>A mensagem traduzida.</p>

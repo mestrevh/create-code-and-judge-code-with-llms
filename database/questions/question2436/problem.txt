@@ -1,0 +1,6 @@
+Título: Raízes de polinômio de 2º grau
+Topicos do problema: métodos numéricos; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Crie um programa para calcular as raízes exatas de um polinômio do segundo grau, dados os seus coeficientes.</p>
+Formato da entrada: <p>A entrada do programa deve ser o conjunto de coeficientes do polinômio, começando pelo de maior expoente.</p><p>Exemplo: 2x²-1</p><p>2</p><p>0</p><p>-1</p>
+Formato da saída: <p>A saída deve ser as duas raízes separadas por vírgula. <b>Os valores devem ser arredondados para a segunda casa decimal, acrescentando os devidos &#34;zeros&#34; caso o valor arredondado não utilize as 2 casas decimais</b>. <b>Os valores devem estar em ordem crescente.</b></p><p>Caso não existam raízes reais, deve-se imprimir a seguinte mensagem: &#34;não existem raízes reais&#34;. <b>Atenção: a string deve ser impressa exatamente como descrita, como todos os acentos e caixas alta e baixa exatamente como demonstrado.</b></p><p>Exemplo:</p><p>-0.71,0.71</p>

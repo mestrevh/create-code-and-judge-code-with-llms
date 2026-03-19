@@ -1,0 +1,118 @@
+Metodo: Bissecao
+Iteracao: 1
+NAO CONVERGIU
+Raiz final:2909.5000000000
+|a-b|:5.5000000000
+|f(x_i)|:4.2225605343
+
+Metodo: Bissecao
+Iteracao: 2
+NAO CONVERGIU
+Raiz final:2912.2500000000
+|a-b|:2.7500000000
+|f(x_i)|:0.7379087980
+
+Metodo: Bissecao
+Iteracao: 3
+NAO CONVERGIU
+Raiz final:2913.6250000000
+|a-b|:1.3750000000
+|f(x_i)|:1.3343248269
+
+Metodo: Bissecao
+Iteracao: 4
+NAO CONVERGIU
+Raiz final:2912.9375000000
+|a-b|:0.6875000000
+|f(x_i)|:0.2755474175
+
+Metodo: Bissecao
+Iteracao: 5
+NAO CONVERGIU
+Raiz final:2912.5937500000
+|a-b|:0.3437500000
+|f(x_i)|:0.2372541191
+
+Metodo: Bissecao
+Iteracao: 6
+NAO CONVERGIU
+Raiz final:2912.7656250000
+|a-b|:0.1718750000
+|f(x_i)|:0.0176778181
+
+Metodo: Bissecao
+Iteracao: 7
+NAO CONVERGIU
+Raiz final:2912.6796875000
+|a-b|:0.0859375000
+|f(x_i)|:0.1101616451
+
+Metodo: Bissecao
+Iteracao: 8
+NAO CONVERGIU
+Raiz final:2912.7226562500
+|a-b|:0.0429687500
+|f(x_i)|:0.0463345072
+
+Metodo: Bissecao
+Iteracao: 9
+NAO CONVERGIU
+Raiz final:2912.7441406250
+|a-b|:0.0214843750
+|f(x_i)|:0.0143513950
+
+Metodo: Bissecao
+Iteracao: 10
+NAO CONVERGIU
+Raiz final:2912.7548828125
+|a-b|:0.0107421875
+|f(x_i)|:0.0016574612
+
+Metodo: Bissecao
+Iteracao: 11
+NAO CONVERGIU
+Raiz final:2912.7495117188
+|a-b|:0.0053710938
+|f(x_i)|:0.0063484060
+
+Metodo: Bissecao
+Iteracao: 12
+NAO CONVERGIU
+Raiz final:2912.7521972656
+|a-b|:0.0026855469
+|f(x_i)|:0.0023458320
+
+Metodo: Bissecao
+Iteracao: 13
+NAO CONVERGIU
+Raiz final:2912.7535400391
+|a-b|:0.0013427734
+|f(x_i)|:0.0003442752
+
+Metodo: Bissecao
+Iteracao: 14
+NAO CONVERGIU
+Raiz final:2912.7542114258
+|a-b|:0.0006713867
+|f(x_i)|:0.0006565705
+
+Metodo: Bissecao
+Iteracao: 15
+NAO CONVERGIU
+Raiz final:2912.7538757324
+|a-b|:0.0003356934
+|f(x_i)|:0.0001561420
+
+Metodo: Bissecao
+Iteracao: 16
+NAO CONVERGIU
+Raiz final:2912.7537078857
+|a-b|:0.0001678467
+|f(x_i)|:0.0000940680
+
+Metodo: Bissecao
+Iteracao: 17
+CONVERGIU
+Raiz final:2912.7537918091
+|a-b|:0.0000839233
+|f(x_i)|:0.0000310367

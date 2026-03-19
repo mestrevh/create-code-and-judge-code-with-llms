@@ -1,0 +1,27 @@
+Título: Supermercado Meta Fiscal
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Numa cidade do interior da Gr&eacute;cia existe um pequeno a&ccedil;ougue chamado Metalefis. O dono deste pequeno estabelecimento te pediu para fazer um programa para facilitar o atendimento de seus clientes.&nbsp;</p>
+<p>Segue abaixo a tabela de pre&ccedil;os:</p>
+<p>&nbsp;</p>
+<p>Tabela de pre&ccedil;os:</p>
+<p>File Duplo: R$ 4,90 por kg at&eacute; 5 kg-----R$ 5,80 por kg acima de 5 kg.</p>
+<p>Alcatra: R$ 5,90 por kg at&eacute; 5 kg-----R$ 6,80 por kg acima de 5 kg.</p>
+<p>Picanha: R$ 6,90 por kg at&eacute; 5 kg-----R$ 7,80 por kg acima de 5kg.</p>
+<p>&nbsp;</p>
+<p>O usu&aacute;rio ir&aacute; passar respectivamente o tipo de carne, a quantidade de carne em kg que ele deseja comprar e se ele deseja efetuar a compra com o cart&atilde;o Metalefis (Resposta 'sim' ou 'nao').&nbsp;</p>
+<p>Se ele comprar com o cart&atilde;o Metalefis ele receber&aacute; um desconto de 5% no valor total da compra.</p>
+<p>&nbsp;</p>
+<p>No final o programa deve imprimir um cupom fiscal, contendo as informa&ccedil;&otilde;es da compra: tipo e quantidade de carne, pre&ccedil;o total, tipo de pagamento, valor de desconto e valor a pagar.</p>
+<p>Caso o usario n&atilde;o pague com o cart&atilde;o Metalefis deve-se assumir que a compra ser&aacute; feita a vista e o valor de desconto &eacute; de R$ 0.00</p>
+<div><br /></div>
+Formato da entrada: <p>ALCATRA</p>
+<p>3.3</p>
+<p>sim</p>
+Formato da saída: <p>Cupom Fiscal:</p>
+<p>Tipo da carne: alcatra</p>
+<p>Quantidade de Carne: 3.3 kg.</p>
+<p>Preco Total: R$ 19.47</p>
+<p>Tipo de Pagamento: Cartao Metalefis.</p>
+<p>Valor de Desconto: R$ 0.9735</p>
+<p>Valor a pagar: R$ 18.496499999999997</p>

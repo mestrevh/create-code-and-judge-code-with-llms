@@ -1,0 +1,6 @@
+Título: Máximo e Mínimo
+Topicos do problema: array; busca; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A aluna de Programação 1 Sofia estava com muita dificuldade para verificar o maior número e o menor número dada uma sequência de inteiros. A sua tarefa é criar um programa que mostre o maior e o menor número dessa sequência e a quantidade de vezes que eles aparecem nessa sequência.</p>
+Formato da entrada: <p>Um inteiro <b>n </b>e logo em seguida uma sequência de<b> n</b> inteiros positivos menores ou iguais a 1000.</p>
+Formato da saída: <p>A saída deverá conter o maior e o menor número dessa sequência, seguidos da quantidade de vezes que eles repetem.</p>

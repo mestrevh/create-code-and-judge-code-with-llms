@@ -1,0 +1,6 @@
+Título: Área do círculo
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que recebe o raio de um círculo e calcula a sua área.</p><p>Considere: <span style="color: rgb(32, 33, 34);background-color: rgb(255, 255, 255);">3,14159</span></p><p><br/></p>
+Formato da entrada: <p>Um número real positivo ou zero (valor do raio do círculo)</p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Um número real positivo ou zero com 3 casas decimais (valor da área do círculo)</span></p>
