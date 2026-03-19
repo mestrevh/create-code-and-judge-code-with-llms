@@ -98,7 +98,7 @@ class LLMProvider(ABC):
                 count_not_correct = 0
                 
                 for case in submission_the_huxley['testCaseEvaluations']:
-                    if case['evoluation'] == 'CORRECT':
+                    if case['evaluation'] == 'CORRECT':
                         count_correct += 1
                     else:
                         count_not_correct += 1
