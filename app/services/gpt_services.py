@@ -12,7 +12,7 @@ class GPTService(LLMProvider):
     def __init__(self):
         self.__agent = OpenAI(api_key=config.GPT_API_KEY)
         
-        models = ['gpt-5.3-codex', 'gpt-4.1', 'gpt-4o-mini']
+        models = ['gpt-5.4', 'gpt-4.1', 'gpt-4o-mini']
         
         while True:
             print("Modelos:" + str(models))
@@ -55,7 +55,7 @@ class GPTService(LLMProvider):
      
     def generate_code(self, problem: ProblemRepository) -> bool:
         prompt = (
-                    "Você é um especialista em programação competitiva em C++.\n\n"
+                    "Persona: Você é um especialista em programação competitiva em C++.\n\n"
 
                     "Abaixo está a descrição de um problema. O texto pode conter HTML.\n"
                     "Interprete corretamente o conteúdo ignorando todas as tags HTML.\n"
@@ -90,7 +90,7 @@ class GPTService(LLMProvider):
         code = file_manager.read_file(path=f"{path}/question{problem.get_id()}.cpp")
         
         prompt = (
-                    "Você é um avaliador especialista em programação competitiva em C++.\n\n"
+                    "Persona: Você é um avaliador especialista em programação competitiva em C++.\n\n"
                     "Sua tarefa é avaliar um código com base em um problema e seus casos de teste.\n\n"
 
                     "========== PROBLEMA ==========\n"
@@ -132,7 +132,7 @@ class GPTService(LLMProvider):
         code = file_manager.read_file(path=f"{code_path}/question{problem.get_id()}.cpp")
         
         prompt = (
-                    "Você é um juiz automático especializado em programação competitiva em C++.\n\n"
+                    "Persona: Você é um juiz automático especializado em programação competitiva em C++.\n\n"
 
                     "TAREFA:\n"
                     "1) Analise o código fornecido.\n"

@@ -50,7 +50,7 @@ class GeminiService(LLMProvider):
     
     def generate_code(self, problem: ProblemRepository) -> bool:
         prompt = (
-                    "Você é um Grande Mestre em Programação Competitiva (estilo ICPC/Maratona) e especialista em C++ moderno.\n\n"
+                    "Persona: Você é um Grande Mestre em Programação Competitiva (estilo ICPC/Maratona) e especialista em C++ moderno.\n\n"
                     
                     "Sua tarefa é escrever uma solução altamente otimizada em C++ para o problema algorítmico fornecido abaixo.\n\n"
                     
@@ -76,7 +76,7 @@ class GeminiService(LLMProvider):
         code = file_manager.read_file(path=f"{path}/question{problem.get_id()}.cpp")
         
         prompt = (
-                        "Você é um Sistema Juiz Automático (Online Judge) implacável e um Engenheiro de Software Sênior especialista em C++.\n\n"
+                        "Persona: Você é um Sistema Juiz Automático (Online Judge) implacável e um Engenheiro de Software Sênior especialista em C++.\n\n"
                         
                         "SUA TAREFA:\n"
                         "Realize uma análise estática rigorosa e simule mentalmente a execução do código fornecido contra os casos de teste especificados.\n\n"
@@ -108,7 +108,7 @@ class GeminiService(LLMProvider):
         code = file_manager.read_file(path=f"{code_path}/question{problem.get_id()}.cpp")
 
         prompt = (
-                    "Você é um Sistema Juiz Automático (Online Judge) especialista em Programação Competitiva (C++).\n"
+                    "Persona: Você é um Sistema Juiz Automático (Online Judge) especialista em Programação Competitiva (C++).\n"
                     "Sua tarefa é simular rigorosamente a compilação e a execução do código fornecido contra os casos de teste do problema.\n\n"
                     
                     "--- CÓDIGO SUBMETIDO ---\n"
