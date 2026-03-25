@@ -1,0 +1,6 @@
+Título: Palíndromos
+Topicos do problema: array; ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><b>Fepile </b>adora palavras palíndromos(palavras que mesmo invertendo continuam iguais), então ele escreveu uma lista de palavras e quer verificar se elas são palíndromos. Dado um valor<b> t</b>, o número de palavras, seguido de <b>t</b> linhas cada uma contendo um inteiro<b> n</b> e uma  palavra de tamanho <b>n</b>, você deve dizer se é palíndromo ou não.<br/></p>
+Formato da entrada: <p>Primeira linha contendo um inteiro<b> t</b>.</p><p>Seguido de t linhas cada uma com um inteiro <b>n </b>e uma palavra de tamanho <b>n</b>.&#13;<br/></p>
+Formato da saída: <p>&#34;V&#34; caso seja verdadeiro que a palavra seja palíndromo.</p><p>&#34;F&#34; caso não seja.<br/></p>

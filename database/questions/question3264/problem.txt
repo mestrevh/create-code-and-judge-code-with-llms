@@ -1,0 +1,6 @@
+Título: [AC5.1] - Uma simples sequência
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que apresente os n primeiros termos da seguinte sequência: 1, 4, 9, 16, 25, ...<br/></p>
+Formato da entrada: <p>Um número inteiro</p>
+Formato da saída: <p>Os n primeiros números da sequencia, um por linha</p>

@@ -1,0 +1,6 @@
+Título: Calcular média de 1 lista s/ funções internas
+Topicos do problema: array; repetição; função; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Faça um programa que receba um número n e um vetor de tamanho n. Em seguida calcula via função que retorna o valor da média desse vetor. No final do corpo principal do programa deve ser impresso a média desse vetor.</p><p>obs.: Não utilize funções internas da linguagem para calcular média, soma, ou algo do gênero, faça isso manualmente.</p>
+Formato da entrada: <p>número n </p><p>vetor de n elementos</p>
+Formato da saída: <p>a média do vetor</p>

@@ -1,0 +1,6 @@
+Título: Palavras quase iguais
+Topicos do problema: array; caractere; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A Entidade vai participar do Campeonato das Mentes Brilhantes. Nesse campeonato, os participantes competem entre si numa série de desafios, dentre eles, existe o desafio das palavras quase iguais.</p><p>Esse desafio exige que os participantes respondam se duas palavras são quase iguais, e se não, qual a quantidade <b>k</b> de letras diferentes. Uma palavra <b>A</b> é quase igual à palavra <b>B </b>se, com as letras da palavra <b>A</b>, for possível formar a palavra <b>B</b>.</p><p>Para treinar para competição, a Entidade escolheu uma série de palavras, mas ela precisa ter certeza da resposta, então, faça um programa para ajudá-la em sua prática.</p>
+Formato da entrada: <p>A primeira linha da entrada será uma cadeia de letras minúsculas sem espaços, representando a palavra <b>A</b>, e a segunda linha da entrada, outra cadeia de letras, representando a palavra <b>B</b>.</p>
+Formato da saída: <p>A saída deverá seguir a seguinte formatação:<br/>&#34;String <b>A </b>is almost equal to string <b>B</b>&#34;, se a palavra <b>A</b> for quase igual à palavra <b>B</b>.<br/>ou:<br/>&#34;They differ by <b>k</b> letters&#34;, onde <b>k</b> é a quantidade de letras diferentes.</p>

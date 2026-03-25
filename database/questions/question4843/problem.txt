@@ -1,0 +1,6 @@
+Título: Busca Binária Recursiva
+Topicos do problema: busca binária; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style="color: rgb(60, 64, 67);background-color: rgb(255, 255, 255);float: none;">Implemente uma versão da busca binária com uma estratégia recursiva.</span><br/></p><p><span style="color: rgb(60, 64, 67);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">-<span> </span></span><span style="color: rgb(60, 64, 67);background-color: rgb(255, 255, 255);float: none;">Considere um vetor estático ordenado com 20 números inteiros.</span><br/></span></p><p><span style="color: rgb(60, 64, 67);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(60, 64, 67);background-color: rgb(255, 255, 255);float: none;">- Retorne a posição do elemento a ser buscado no vetor, caso não o encontre, retorne -1.</span></span></p>
+Formato da entrada: <p>- Um número inteiro que representa o elemento a ser buscado.</p><p>- Seguido de 20 números inteiros que são os elementos do vetor</p>
+Formato da saída: <p><span style="color: rgb(60, 64, 67);background-color: rgb(255, 255, 255);float: none;">- Retorne a posição do elemento a ser buscado no vetor, caso não o encontre, retorne -1.</span></p>

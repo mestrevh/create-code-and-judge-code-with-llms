@@ -1,0 +1,6 @@
+Título: Contagem - Antecessor é Maior
+Topicos do problema: busca; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p> Faça um programa que leia uma sequência de números inteiros positivos que é encerrada com o número zero. O programa deve contar e apresentar quantas vezes, dentro da sequência, um número é menor do que o seu antecessor direto. Por exemplo, na sequência (6, *5, 10, *9 , 12, 12, 14, *8)  somente os números com asterisco satisfazem o critério, portanto a resposta é 3.(Usar, obrigatoriamente,  laço de repetição while ou do-while.)<br/></p>
+Formato da entrada: <p><span style="color: rgb(147, 149, 152);float: none;background-color: rgb(255, 255, 255);">Sequência de números inteiros positivos que é encerrada com o número zero. (O zero não entra na sequência.)</span><br/></p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);float: none;background-color: rgb(255, 255, 255);">O número de vezes que um número é menor do que o seu antecessor direto na sequência.</span><br/></p>

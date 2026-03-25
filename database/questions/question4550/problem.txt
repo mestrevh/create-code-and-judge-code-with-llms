@@ -1,0 +1,6 @@
+Título: Anagramas
+Topicos do problema: requer solução eficiente; string; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Um anagrama de uma palavra é outra palavra formada com exatamente as mesmas letras. Assim, por exemplo &#34;amor&#34; é um anagrama de &#34;roma&#34; (e viceversa), pois ambas palavras contem as mesmas letras nas mesmas quantidades. Como outro exemplo, &#34;alice&#34; é um anagrama de &#34;celia&#34;.Escreva um programa que, dado um sequência de palavras diferentes, encontre todos os conjuntos de anagramas existentes. Por simplicidade, assuma que todas as palavras usam o alfabeto Inglês (ou seja, sem acentos) e que todas as letras são minúsculas.<br/></p>
+Formato da entrada: <ol><li>O número total de palavras, em uma linha. Este número não ultrapassará 100000.</li><li>Todas as palavras, uma por linha. Qualquer palavra terá no máximo 20 caracteres.<br/></li></ol>
+Formato da saída: <p>Os conjuntos de anagramas. Cada conjunto listado em uma única linha com seus elementos ordenados lexicograficamente.</p><p>A ordem da listagem destes conjuntos segue a ordem lexicográfica da primeira palavra de cada conjunto.</p>

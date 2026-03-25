@@ -1,0 +1,6 @@
+Título: Ordenando dígitos para Entidade
+Topicos do problema: lógica matemática; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A Entidade tem vários números de 4 dígitos. Ela gosta muito de brincar com eles pois é possível desmontar de formar novos números. Mas sempre que ela termina de brincar, ela deixa os dígitos de cada número ordenados de forma crescente; pois fica mais bonito e organizado guardar assim.</p><p>Os amigos da Entidade também gostam de brincar com os números, mas eles nunca devolvem ordenados, então, a Entidade quer que você faça um programa para ordenar os números para ela.</p>
+Formato da entrada: <p>A única linha contém um inteiro de 4 dígitos com o número que a Entidade quer ordenar.</p>
+Formato da saída: <p>A única linha da saída deve conter o inteiro de 4 dígitos, onde os dígitos estão ordenados de forma crescente.</p>

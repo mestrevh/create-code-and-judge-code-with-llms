@@ -1,0 +1,6 @@
+Título: Médias
+Topicos do problema: decisão; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style="color: rgb(33, 37, 41);background-color: rgb(255, 255, 255);float: none;">Considere as expressões abaixo para cálculo das médias aritmética (A), harmônica (H) e geométrica (G).</span></p><p><span style="color: rgb(33, 37, 41);background-color: rgb(255, 255, 255);float: none;"><img src="https://www.thehuxley.com/api/v1/problems/image/9891c726332c79546e1ed1a9769c13bac5e6ae43s.PNG"/><br/></span></p><p><span style="color: rgb(33, 37, 41);background-color: rgb(255, 255, 255);float: none;"><br/></span></p><p><span style="color: rgb(33, 37, 41);background-color: rgb(255, 255, 255);float: none;">Elabore um programa que contenha uma função que receba como parâmetros: o tipo de média a calcular e três números inteiros, e retorne um número real correspondente à média calculada.</span><br/></p>
+Formato da entrada: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Um caracter representando o tipo de média (A - aritmética, H - harmônica, G - geométrica) e três números inteiros.</span><br/></p>
+Formato da saída: <p><font color="#000000">A média calculada com três casas decimais.</font></p>

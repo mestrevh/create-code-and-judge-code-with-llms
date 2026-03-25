@@ -1,5 +1,5 @@
 Título: Maior Múltiplo
-Topicos do problema: repetição; lógica matemática; 
+Topicos do problema: lógica matemática; repetição; 
 Tempo limite de execução: 1 segundo(s)
 Descrição: <p>Seu objetivo &eacute; determinar o maior m&uacute;ltiplo de um inteiro dado menor do que ou igual a um outro inteiro dado</p>
 Formato da entrada: <p>Consiste de dois inteiros positivos M e N.</p>

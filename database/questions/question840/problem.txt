@@ -1,0 +1,6 @@
+Título: Qual dia da semana será?
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que diga em que dia da semana estaremos após decorridos 'x' dias.<br/></p>
+Formato da entrada: <p>Um número inteiro 'n' que representa o dia da semana.</p><p>Um número inteiro 'x' que representa a quantidade de dias que vão se passar.</p><p>Saiba que 'n' pode ser: 1 (DOMINGO), 2 (SEGUNDA), 3 (TERCA), 4 (QUARTA), 5 (QUINTA), 6 (SEXTA), 7 (SABADO).<br/></p>
+Formato da saída: <p>O dia da semana que estará ('DOMINGO', 'SEGUNDA', 'TERCA', 'QUARTA', 'QUINTA', 'SEXTA' ou 'SABADO'), após passarem os dias desejados.<br/>Obs.: Lembre-se de colocar um final de linha após a resposta.</p>

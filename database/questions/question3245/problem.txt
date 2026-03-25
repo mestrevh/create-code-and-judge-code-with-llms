@@ -1,0 +1,6 @@
+Título: [AC4.4] - Múltiplos
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que recebe dois números (A e B) e mais um número X e imprima todos os múltiplos de X no intervalo [A, B]</p>
+Formato da entrada: <p>A<br/>B<br/>X</p><p><br/></p>
+Formato da saída: <p>Os números múltiplos de X, um por linha</p>

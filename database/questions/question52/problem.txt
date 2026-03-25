@@ -1,5 +1,5 @@
 Título: Números perfeitos
-Topicos do problema: decisão; repetição; lógica matemática; 
+Topicos do problema: decisão; lógica matemática; repetição; 
 Tempo limite de execução: 10 segundo(s)
 Descrição: <p>Um n&uacute;mero inteiro &eacute; dito perfeito se o dobro dele &eacute; igual &agrave; soma de todos os seus divisores.</p>
 <p>Por exemplo, como os divisores de 6 s&atilde;o 1, 2, 3 e 6 e 1 + 2 + 3 + 6 = 12, 6 &eacute; perfeito.</p>

@@ -1,0 +1,6 @@
+Título: [AC5.3] - Soma de algarismos
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que leia um número inteiro e calcule a soma de seus algarismos.<br/><br/><br/></p>
+Formato da entrada: <p>Um número inteiro</p>
+Formato da saída: <p>A soma de seus algarismos</p>

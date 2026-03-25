@@ -1,0 +1,6 @@
+Título: Números ordenados
+Topicos do problema: lógica matemática; ordenação; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Imagine que um número ordenado possui seus dígitos em ordem não decrescente, como 8, 123, 555 e 224488. Números que não possuem essa propriedade são chamados de não ordenados.</p><p>Imagine que alguém contou todos os valores inteiros de 1 até <b>N</b>. Qual o último número ordenado que foi contado?</p>
+Formato da entrada: <p>A primeira linha dá o número de casos de teste, <b>T</b>. Então se seguem <b>T</b> linhas, cada qual com um inteiro <b>N</b>, o último número inteiro contado para aquele caso de teste.</p><p>1 &lt;= T &lt;= 100</p><p>1 &lt;= N &lt;= 10^18</p>
+Formato da saída: <p>Para cada caso de teste, imprima uma linha seguindo o formato:</p><blockquote><p>Caso #x, y</p></blockquote><p>onde x é o número do caso de teste (começando em 1) e y é o último número ordenado contado para aquele caso.</p>

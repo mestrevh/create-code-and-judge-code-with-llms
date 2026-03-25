@@ -1,0 +1,6 @@
+Título: LETRAS
+Topicos do problema: obi; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="text-align: justify;"><span>Você foi contratado pela empresa Booble para escrever um programa que, dados uma letra e uma palavra, determina o percentual de ocorrências desta letra na palavra.</span></p><p style="text-align: justify;"><span style="color: black;">Entrada</span></p><p style="text-align: justify;"><span>A primeira linha da entrada contém um único caractere, a letra de interesse na pesquisa. A segunda linha contém uma palavra de no máximo 50 caracteres, composto apenas por letras minúsculas.</span></p><p style="text-align: justify;"><span style="color: black;">Saída</span><b><span style="color: black;"></span></b></p><p style="text-align: justify;"><span>Seu programa deve produzir uma única linha, contendo um único número real, a porcentagem de palavras do texto que contêm a letra dada, com precisão de duas casas decimais.</span></p>
+Formato da entrada: <p>p</p><p>papagaio</p>
+Formato da saída: <p>25.00</p>

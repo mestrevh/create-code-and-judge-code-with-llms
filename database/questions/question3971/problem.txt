@@ -1,0 +1,6 @@
+Título: Vogais por palavra
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dado um texto, calcule a média da quantidade de vogais por palavra. Por simplicidade, o texto usa o alfabeto Inglês, ou seja, letras não têm acentos.<br/></p>
+Formato da entrada: <p>Um texto em que cada palavra é separada por um ou mais espaços em branco e/ou nova linha. O texto termina com uma linha contendo unicamente a palavra ‘FIM’. A palavra ‘FIM’ não é considerada parte do texto e portanto não entra na conta da média.<br/></p>
+Formato da saída: <p>A média da quantidade de vogais por palavra, com duas casas decimais. Se o texto for vazio, ou seja, se não contiver nenhuma palavra, o programa deve imprimir ‘texto vazio’.&#13;<br/></p>

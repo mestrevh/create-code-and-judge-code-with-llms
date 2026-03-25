@@ -1,0 +1,6 @@
+Título: Concatenando palíndromos e não palíndromos.
+Topicos do problema: repetição; recursão; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio ficou interessado a respeito de concatenação de strings, e pediu para que você faça um programa que concatene em uma string apenas palavras que são palíndromos. Já na outra string apenas palavras que não são palíndromos.</p><p><strong>Palíndromos</strong> são palavras que podem ser lidas  da esquerda para a direita ou da direita para a esquerda, por exemplo: arara, ovo, asa...<br/></p>
+Formato da entrada: <p>Um inteiro N ( 1&lt;= N &lt;= 100) representando a quantidade de palavras que virão a seguir, cada palavra tem no máximo 100 caracteres.<br/></p><p><b>(Observar os exemplos de entrada e saída)</b><br/></p>
+Formato da saída: <p>Quantidade de palíndromos lidos, depois<br/></p><p>Quantidade de não palíndromos, <br/></p><p>Tamanho da string concatenada com palíndromos seguido pela string concatenada, logo em seguida</p><p>Tamanho da string concatenada com não palíndromos, e a string de não palíndromos.</p><p><br/></p><p>Note que: dada a entrada, o tamanho máximo das strings concatenadas é 10000.<br/></p><p><br/></p><p><b>(Observar os exemplos de entrada e saída)</b><br/></p><p><br/></p>

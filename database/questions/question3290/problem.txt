@@ -1,0 +1,6 @@
+Título: Desenha Moldura
+Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style="color: rgb(51, 51, 51);text-align: justify;float: none;">Construa uma função que desenhe um retângulo usando os caracteres ‘+’ , ‘−’ e ‘|’. Esta função deve receber dois parâmetros,<span> </span></span><em style="color: rgb(51, 51, 51);text-align: justify;">linhas</em><span style="color: rgb(51, 51, 51);text-align: justify;float: none;"><span> </span>e<span> </span></span><em style="color: rgb(51, 51, 51);text-align: justify;">colunas</em><span style="color: rgb(51, 51, 51);text-align: justify;float: none;">.</span><br/></p>
+Formato da entrada: <p>Dois valores inteiros, sendo o primeiro representando a quantidade de linhas e o segundo a quantidade de colunas.</p>
+Formato da saída: <p>A moldura conforme a quantidade de linhas e colunas.</p>

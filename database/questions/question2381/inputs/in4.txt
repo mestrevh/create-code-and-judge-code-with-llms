@@ -1,0 +1,34 @@
+mkdir root pa
+mkdir root ra
+mkdir root bens!
+mkdir pa vo
+mkdir pa ce
+mkdir pa con
+mkdir ra se
+ls
+mkdir ra guiu
+mkdir ra fa
+mkdir bens! zer
+mkdir bens! essa
+mkdir bens! ques
+mkdir vo tao
+mkdir vo e
+mkdir vo di
+mkdir ce go
+ls
+mkdir ce mais!
+mkdir ce de
+mkdir con ci
+mkdir con frou
+mkdir con a
+mkdir se men
+mkdir se sa
+mkdir se gem!
+ls
+rm pa
+ls
+rm ra
+ls
+rm bens!
+ls
+quit

@@ -1,0 +1,16 @@
+Caso 1:
+1 triangulos de base 3 formados por 1
+
+Caso 2:
+26 triangulos de base 3 formados por 1
+4 triangulos de base 5 formados por 1
+26 triangulos de base 3 formados por 0
+4 triangulos de base 5 formados por 0
+
+Caso 3:
+38 triangulos de base 3 formados por 1
+4 triangulos de base 5 formados por 1
+146 triangulos de base 3 formados por 0
+72 triangulos de base 5 formados por 0
+20 triangulos de base 7 formados por 0
+4 triangulos de base 9 formados por 0

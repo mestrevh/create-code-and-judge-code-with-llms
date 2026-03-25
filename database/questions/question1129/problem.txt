@@ -1,0 +1,6 @@
+Título: Expressões possíveis
+Topicos do problema: array; busca completa; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Expressões numéricas são conjuntos de números que sofrem operações matemáticas com uma ordem de operações preestabelecida.</p><p>Neste problema temos somente 3 operadores, soma(<b>+</b>), subtração(<b>-</b>) e multiplicação(<b>*</b>). Dado um número você pode separar seus dígitos e aplicar as operações descritas. Dada uma string que contém um conjunto de dígitos de 0 a 9 e um valor inteiro <b>T</b>, encontre todas as expressões a partir dos dígitos dados de forma que o valor resultante da aplicação das operações seja exatamente igual a <b>T.</b><br/></p>
+Formato da entrada: <p>A primeira linha será a string de dígitos <b>N </b>e a segunda linha o inteiro <b>T</b>.</p><p><br/></p><p>Restrições:</p><ul><li>N terá no máximo 10 dígitos</li><li>0 &lt;= <b>T</b> &lt;= 200<br/></li></ul>
+Formato da saída: <p>Imprima todas as expressões possíveis com os dígitos da string dada de forma que o valor seja exatamente T<br/></p><p>Você deve imprimir as expressões na ordem crescente lexicográfica (utilizando os valores da tabela ASCII como base para essa ordem).</p>

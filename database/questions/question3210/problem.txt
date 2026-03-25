@@ -1,0 +1,6 @@
+Título: AC2 - Ex. 1
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que calcula a distância d entre dois pontos A e B no espaço, isto é, com coordenadas (x, y, z) e calcule a distância entre eles usando a fórmula:</p><p style="text-align: center;"><img class="" src="https://www.thehuxley.com/api/v1/problems/image/ccba3ce96c860eb5fce22287d12b1a82767dac46o.jpg"/></p>
+Formato da entrada: <p>Coordenada x do ponto A<br/><span>Coordenada y do ponto A<br/><span style="float: none;">Coordenada z do ponto A<br/></span><span style="float: none;">Coordenada x do ponto B</span><br/>Coordenada y do ponto B<br/><span style="float: none;">Coordenada z do ponto B</span><br/></span></p><p><span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><br/></span></span></p>
+Formato da saída: <p>Distância entre os pontos dados.</p>

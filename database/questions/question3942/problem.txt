@@ -1,0 +1,6 @@
+Título: Dieta de Joãozinho
+Topicos do problema: acumulador; decisão; entrada formatada; função; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p class="western">Joãozinho está fazendo uma dieta especial e deve ingerir o mínimo possível de calorias. Em um restaurante especializado em dietas,existe no menu a opção de 5 pratos por dia, cada um com uma quantidade diferente de calorias. Para fazer o pedido, Joãozinho precisa informar no caixa a opção de menu que ele deseja, e para isso, precisa calcular o prato com a menor quantidade de calorias.</p><p class="western"><br/></p><p class="western">Observação: É necessário a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão</p>
+Formato da entrada: <title></title><p class="western">5 valores numéricos e inteiros, um por linha</p><p class="western">Todos os valores são diferentes uns dos outros</p>
+Formato da saída: <title></title><p class="western">Uma mensagem para o usuário informando qual a quantidade de caloria se em que posição do menu se encontra</p>

@@ -1,0 +1,15 @@
+Filme1:AProcuraDaFelicidade
+
+acao: 1
+suspense: 5
+comedia: 1
+
+Filme2:DeVoltaParaOFuturo
+
+acao: 4
+suspense: 3
+comedia: 3
+
+acao: 2
+comedia: 4
+suspense: 3

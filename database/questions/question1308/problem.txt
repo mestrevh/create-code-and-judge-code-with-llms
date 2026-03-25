@@ -1,0 +1,6 @@
+Título: Mini bomberman
+Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dada uma matriz NxN representando um mapa do jogo bomberman, onde '#' são paredes inquebráveis, '_' caminhos vazios e '&amp;' paredes quebráveis.</p><p>Será dado uma sequência de coordenadas de bombas que destruirão em cruz(uma para cima, uma para a direita, uma para a esquerda e uma para baixo). </p><p>Nesse novo bomberman, no lugar das bordas existem buracos de minhoca que levarão a explosão para o outro lado do mapa.</p><p>As bombas só serão válidas se forem jogadas em caminhos vazios, caso não seja, ela não terá efeito nenhum no mapa.</p>
+Formato da entrada: <p>Um valor N representando o tamanho do mapa NxN.</p><p>O mapa.</p><p>Um valor M representando o número de bombas.</p><p>Uma sequência X,Y representando as coordenadas dessas bombas.</p>
+Formato da saída: <p>Imprima o mapa após todas as explosões</p>

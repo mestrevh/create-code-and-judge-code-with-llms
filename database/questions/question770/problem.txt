@@ -1,0 +1,6 @@
+Título: Acessando notas
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Existe um array de tamanho = 5 com as notas da monitoria de programação. É preciso declarar um ponteiro e fazê-lo apontar para este array. Em seguida, usando o ponteiro, deve-se imprimir o valor que está na posição tamanho/2.</p>
+Formato da entrada: <p>Inicialmente deve-se ler as 5 notas e depois é preciso mostrar na tela a nota[5/2] usando aritimética de ponteiros.</p><p>entrada:</p><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p>
+Formato da saída: <p>3</p>

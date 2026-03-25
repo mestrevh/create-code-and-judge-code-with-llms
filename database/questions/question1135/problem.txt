@@ -1,0 +1,6 @@
+Título: Maior produto palindromo
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 5 segundo(s)
+Descrição: <p><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;">Um número palíndromo é lido da mesma forma tanto de esquerda para direita como de direita para esquerda. O maior palíndromo formado pelo produto de dois números com dois dígitos é 9009 = 91 × 99. Escreva um programa para encontrar o maior palíndromo formado pelo produto de dois números com três dígitos.</span><br/></p>
+Formato da entrada: <p>Não tem entrada.</p>
+Formato da saída: <p><span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">O maior palíndromo formado pelo produto de dois números com três dígitos.</span></p>

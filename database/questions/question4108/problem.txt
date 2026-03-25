@@ -1,0 +1,6 @@
+Título: Lanche Mais Famoso
+Topicos do problema: acumulador; ordenação; dicionário; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Uma lanchonete decidiu saber qual o seu lanche mais famoso para, assim, repor o seu estoque de forma mais rápida. Dessa forma, decidiu contar os pedidos realizados em um único dia para fazer essa contagem.<br/></p>
+Formato da entrada: <p>N pedidos separados por linha. Os pedidos se encerram quando a última linha lida for igual à palavra FIM<br/></p>
+Formato da saída: <p>O lanche com mais pedidos, acompanhado de sua quantidade<br/></p>

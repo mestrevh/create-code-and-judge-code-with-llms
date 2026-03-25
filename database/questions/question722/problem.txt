@@ -1,0 +1,6 @@
+Título: Estimando a Média
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: None
+Formato da entrada: <b id="docs-internal-guid-d43b9c02-cf65-f1fc-f0a1-b576568e0070"></b><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">2</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">2</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">8 8</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">1</span></p><span style="color: #222222;background-color: #ffffff;">0</span>
+Formato da saída: <b id="docs-internal-guid-d43b9c02-cf66-2bca-3677-b58e1acc4ab3"></b><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">Caso #1: 2</span></p><span style="color: #222222;background-color: #ffffff;">Caso #2: 1</span>

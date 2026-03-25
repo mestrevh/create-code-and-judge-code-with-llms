@@ -1,0 +1,6 @@
+Título: Melhor número
+Topicos do problema: ciclos; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa para receber um número do usuário e verificar se este número é o melhor ou não. O melhor número é aquele cuja soma de fatorial dos dígitos é igual ao número original.</p><p>Exemplo do fatorial de 3! = 3 * 2 * 1 = 6</p><p>Exemplo do fatorial de 4! = 4 * 3 * 2 * 1 = 24</p><p><br/></p><p>Logo, se a entrada do seu programa for igual a 145, o processamento deverá ser feito da seguinte forma:<br/></p><p>1! + 4! + 5! = 145</p><p>Resolvendo essa expressão temos ...</p><p>1  + 24 + 120 = 145 <br/></p>
+Formato da entrada: <p>A entrada contém 1 valor inteiro n, onde n deverá estar no intervalo de 1 até 100.000<br/></p>
+Formato da saída: <p>Imprima apenas a resposta em forma textual, “melhor numero” em caso afirmativo e “nao”, caso contrário.<br/></p>

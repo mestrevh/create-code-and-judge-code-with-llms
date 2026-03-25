@@ -1,0 +1,3 @@
+Produto [codigo=1, nome=Tomate, valor=3.5, quantidade=1000]
+Produto [codigo=3, nome=Laranja, valor=4.0, quantidade=5000]
+Produto Inexistente!

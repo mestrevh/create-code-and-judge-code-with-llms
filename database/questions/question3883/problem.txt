@@ -1,0 +1,6 @@
+Título: AB1.P1.Lanchonete
+Topicos do problema: ponto flutuante; lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p></p><div class="page" title="Page 33" style="color: rgb(0, 0, 0);"><div class="layoutArea"><div class="column"><span>O cardápio de uma lanchonete é dado abaixo. Prepare um algoritmo que leia a quantidade de cada item que você consumiu e calcule a conta final.</span></div><div class="column"><span><br/></span></div><div class="column"><span>Hambúrguer................. R$ 3,00 </span></div><div class="column"><span>Cheeseburger .............. R$ 2,50 </span></div><div class="column"><span>Fritas............................ R$ 2,50 </span></div><div class="column"><span>Refrigerante ................. R$ 1,00 </span></div><div class="column"><span>Milkshake..................... R$ 3,00</span></div></div></div><br/><p></p>
+Formato da entrada: <p>Os valores devem ser lidos por linha em formato inteiro. Caso o usuário não tenha consumido algum item, este deve ser informado com valor igual a zero.</p>
+Formato da saída: <p>O resultado deve ser exibido com a frase &#34;Conta final:&#34; e duas casas decimais após a vírgula.</p>

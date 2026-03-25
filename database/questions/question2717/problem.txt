@@ -1,0 +1,6 @@
+Título: Maiores de idade
+Topicos do problema: decisão; lógica matemática; repetição; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Faça um programa que receba a idade de dez pessoas e calcule a quantidade de pessoas com idade maior ou igual a 18 anos.<br/></p>
+Formato da entrada: <p>O usuario deve digitar a idade de cada uma das 10 pessoas<br/></p>
+Formato da saída: <p>O programa deve exibir a quantidade de pessoas que tem idade maior ou igual a 18 anos, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite a idade da pessoa 1: (impresso pela funcao input)</p><p>Digite a idade da pessoa 2: (impresso pela funcao input)</p><p>Digite a idade da pessoa 3: (impresso pela funcao input)</p><p>Digite a idade da pessoa 4: (impresso pela funcao input)</p><p>Digite a idade da pessoa 5: (impresso pela funcao input)</p><p>Digite a idade da pessoa 6: (impresso pela funcao input)</p><p>Digite a idade da pessoa 7: (impresso pela funcao input)</p><p>Digite a idade da pessoa 8: (impresso pela funcao input)</p><p>Digite a idade da pessoa 9: (impresso pela funcao input)</p><p>Digite a idade da pessoa 10: (impresso pela funcao input)<br/></p><p>Numero de pessoas com idade maior ou igual a 18 anos: n<br/></p>

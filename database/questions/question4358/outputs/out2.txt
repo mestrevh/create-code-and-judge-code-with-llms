@@ -1,0 +1,23 @@
+Reserva 1 - Cliente: c
+Livro 4.
+Reserva bem-sucedida.
+Copias disponiveis apos a reserva: 1
+
+Reserva 2 - Cliente: c
+Livro 2.
+Reserva bem-sucedida.
+Copias disponiveis apos a reserva: 1
+
+Reserva 3 - Cliente: b
+Livro 5.
+Reserva bem-sucedida.
+Copias disponiveis apos a reserva: 1
+
+Reserva 4 - Cliente: b
+Livro 1.
+Reserva bem-sucedida.
+Copias disponiveis apos a reserva: 1
+
+Reserva 5 - Cliente: c
+Livro 4.
+Reserva mal-sucedida.

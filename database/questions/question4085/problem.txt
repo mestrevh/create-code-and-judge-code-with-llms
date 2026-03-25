@@ -1,0 +1,6 @@
+Título: Operadora Tchau
+Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A operadora de telefonia celular Tchau lançou um pacote de telefonia popular por R$ 5,00 que permite que o cliente faça 5 ligações com qualquer duração. Depois desse limite, cada minuto custará R$ 0,50. Caso a conta ultrapasse o valor de R$ 50,00, será dado um desconto de 20% sobre o total da conta.</p><p>Escreva um programa que receba como entrada a duração de várias ligações (em minutos), uma por linha, até que seja digitado o caractere *. Em seguida, deve exibir o valor total que o cliente deverá pagar.</p><p><br/></p>
+Formato da entrada: <p>Uma sequência de números inteiros positivos, sendo um por linha, finalizando com um caractere asterisco (*) que indica o final da entrada de dados.<br/></p>
+Formato da saída: <p>O valor da conta com 2 casas decimais.<br/></p>

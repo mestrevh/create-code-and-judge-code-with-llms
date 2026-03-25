@@ -1,0 +1,6 @@
+Título: PROGCOMP - Seleção - G
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que mostre um menu com as opções &#34;adição&#34;, &#34;subtração&#34;, &#34;multiplicação&#34; e &#34;divisão&#34;, recebe dois valores reais, a operação escolhida pelo usuário e exibe o resultado da operação sobre os valores.<br/></p>
+Formato da entrada: <p>O operador desejado na primeira linha; um número real em outra linha; outro número real em outra linha, conforme modelo de saída.</p>
+Formato da saída: <p><span>1: adicao / 2</span><span>: subtracao / 3:</span><span> multiplicacao / 4</span><span>: divisao</span></p><p>A &lt;nome da operacao&gt; eh: &lt;resultado da operacao&gt;</p>

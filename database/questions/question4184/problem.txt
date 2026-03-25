@@ -1,0 +1,6 @@
+Título: Do meio
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dadas as datas de nascimento de três pessoas, calcular quem é a do meio com relação às idades.<br/></p>
+Formato da entrada: <p>Três linhas, cada uma contendo o nome de uma pessoa, um string só com letras, seguido de três inteiros correspondentes ao dia, mes e ano de nascimento da pessoa. Pode assumir que tanto os nomes como as datas de nascimento são diferentes entre si.<br/></p>
+Formato da saída: <p>A saída deve ser o nome da pessoa do meio com relação às idades.<br/></p>

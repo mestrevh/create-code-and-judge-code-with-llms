@@ -1,0 +1,87 @@
+pre-ordem:89 
+nivel 1:
+89 
+
+pre-ordem:89 50 
+nivel 1:
+89 
+nivel 2:
+50 
+
+pre-ordem:89 50 40 
+nivel 1:
+89 
+nivel 2:
+50 
+nivel 3:
+40 
+
+pre-ordem:89 50 40 30 
+nivel 1:
+89 
+nivel 2:
+50 
+nivel 3:
+40 
+nivel 4:
+30 
+
+pre-ordem:89 50 40 30 20 
+nivel 1:
+89 
+nivel 2:
+50 
+nivel 3:
+40 
+nivel 4:
+30 
+nivel 5:
+20 
+
+pre-ordem:89 50 40 30 20 10 
+nivel 1:
+89 
+nivel 2:
+50 
+nivel 3:
+40 
+nivel 4:
+30 
+nivel 5:
+20 
+nivel 6:
+10 
+
+pre-ordem:89 50 40 30 20 10 5 
+nivel 1:
+89 
+nivel 2:
+50 
+nivel 3:
+40 
+nivel 4:
+30 
+nivel 5:
+20 
+nivel 6:
+10 
+nivel 7:
+5 
+
+pre-ordem:89 50 40 30 20 10 5 0 
+nivel 1:
+89 
+nivel 2:
+50 
+nivel 3:
+40 
+nivel 4:
+30 
+nivel 5:
+20 
+nivel 6:
+10 
+nivel 7:
+5 
+nivel 8:
+0

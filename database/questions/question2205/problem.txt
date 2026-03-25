@@ -1,0 +1,6 @@
+Título: Soma de MDCs
+Topicos do problema: multiplas entradas; lógica matemática; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio, como é seu amigo de longa data (ou não), estava curioso para somar vários resultados de MDCs diferentes.</p><p>Obviamente, Ambrósio não que fazer o cálculo do MDC a mão, portanto lhe solicitou que escreva um programa, que dado qualquer quantidade de linhas com dois números <b>'a' e 'b</b>' acumule a soma dos MDCs.</p><p>Sabe se que para calcular o MDC, usamos o algoritmo de Euclides que pode ser descrito como:<br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/ffc5d523c906d66e5d14b9b5d55d1cadcd10d8f0c.jpg"/></p><p>O algoritmo de Euclides para quando o resto é 0, retornando a.<br/></p><p>A entrada para quando 'a' ou 'b' assumir valor igual a -1.<br/></p>
+Formato da entrada: <p>Um par de inteiro por linha da seguinte maneira:</p><p>a b</p><p>se 'a' ou 'b' forem iguais a -1, a soma é impressa e o programa é encerrado.<br/></p>
+Formato da saída: <p>A soma dos MDCs da seguinte maneira:</p><p>S<br/></p><p>Seguido por uma quebra de linha.<br/></p><p><br/></p>

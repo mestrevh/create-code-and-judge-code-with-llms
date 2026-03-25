@@ -1,0 +1,6 @@
+Título: Interessante Rotina de Krapekar
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: None
+Formato da entrada: <b id="docs-internal-guid-d43b9c02-cf69-dc99-ee06-e9112cad1353"></b><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">3</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">3524</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">0</span></p><span style="color: #222222;background-color: #ffffff;">10</span>
+Formato da saída: <b id="docs-internal-guid-d43b9c02-cf69-f6ff-815e-1a23aa735ded"></b><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">Caso #1: 3</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">Caso #2: -1</span></p><span style="color: #222222;background-color: #ffffff;">Caso #3: 5</span>

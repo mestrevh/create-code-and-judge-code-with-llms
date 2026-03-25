@@ -1,0 +1,6 @@
+Título: Conjunto perfeito [A]
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A Entidade gosta muito de números, principalmente números pares. Ela estava brincando com três números e se perguntou: &#34;Quantos subconjuntos tem soma par?&#34;. Infelizmente ela precisa dormir agora e pediu para que você fizesse um programa para resolver esse problema.</p><p>Observação: conjuntos vazios possuem soma 0.</p>
+Formato da entrada: <p>Você receberá três inteiros <b><i>a</i></b>, <b><i>b</i> </b>e<b> </b><i><b>c </b></i>separados por espaço.</p><p>Limites: 1 &lt;= <b><i>a</i></b><span style="float: none;">,<span> </span></span><b><i>b</i></b> <span style="float: none;">e</span> <b><i>c</i></b> &lt;= 10^5.</p>
+Formato da saída: <p>Imprima a quantidade de subconjuntos que possuem soma par.</p>

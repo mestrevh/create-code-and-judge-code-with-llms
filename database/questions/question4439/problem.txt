@@ -1,0 +1,6 @@
+Título: Ordenação de times - *************
+Topicos do problema: ordenação topológica; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você tem todos os resultados de um torneio de futebol todos contra todos. Cada jogo terminou com uma vitória de um dos times ou com um empate. Projete um algoritmo que lista os times em sequência de tal forma que cada time não perdeu o jogo contra o time listado imediatamente depois.</p><p>Além de submeter a solução aqui, responda qual é a classe de eficiência do seu algoritmo.</p>
+Formato da entrada: <p>Assumimos que os times são numerados de 1 até n.</p><p>A primeira linha contem o inteiro n, correspondente a número total de times participantes do torneio.</p><p>Nas próximas linhas, vem os resultados dos jogos. Um resultado por linha. Primeiro vem os resultados do time 1, depois os resultados do time 2 (exceto com o do time 1 que já foi inserido anteriormente) e assim por diante.<br/>Cada resultado é dado por quatro números inteiros, os dois primeiros representam os números dos times e os dois seguintes os gols marcados pelos correspondentes times. Assim, por exemplo, para a linha</p><p>2 3 1 0</p><p>Deve se entender que o time 2 venceu ao time 3 por 1 a 0.</p>
+Formato da saída: <p>A listagem dos times requeridam, tudo numa única linha.</p>

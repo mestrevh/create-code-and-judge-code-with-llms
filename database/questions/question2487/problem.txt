@@ -1,0 +1,6 @@
+Título: PROGCOMP - Repetição - AA
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><b>[while]</b> Um professor precisa saber qual a média das notas de uma sala e pediu sua ajuda para construir um programa que permita inserir as notas finais de cada aluno e, ao final, exibir a média da sala. Lembre-se que as notas variam de 0 a 10 e o professor digitará -1 quando quiser encerrar as entradas. Obs.: use variáveis de ponto flutuante de dupla precisão.</p>
+Formato da entrada: <p>Diversos valores reais, um por linha, simbolizando as notas finais de cada aluno.</p>
+Formato da saída: <p>Um número real, com duas casas decimais, simbolizando a média das notas da sala.</p>

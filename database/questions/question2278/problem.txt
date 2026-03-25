@@ -1,0 +1,6 @@
+Título: Palíndromo - pyhton
+Topicos do problema: palíndromos; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="text-align: justify;direction: ltr;"><span style="color: black;">Escreva um programa que verifique se um número é palíndromo. Um número é palíndromo se continua o mesmo caso seus dígitos sejam invertidos. Exemplos: 232, 50805.</span></p>
+Formato da entrada: <p>45654</p><p><br/></p><p> </p>
+Formato da saída: <p></p>Digite o numero a verificar, sem espacos: <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">44565</span><div>Posicao do ultimo caractere: 4 </div><div>e palindromo<p></p></div>

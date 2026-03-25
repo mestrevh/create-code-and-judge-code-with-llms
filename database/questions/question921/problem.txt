@@ -1,0 +1,6 @@
+Título: Troco
+Topicos do problema: programação dinâmica; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio está vendendo guloseimas na porta da UFAL.</p><p>Uma das tarefas de ambrósio é conseguir sempre um estoque de moedas para dar troco aos seus clientes. <br/></p><p>Assuma que Ambrósio tem um estoque ilimitado de moedas de 0.01, 0.05, 0.10, 0.25, 0.50, 1 e 2 reais.</p><p>Ambrósio só dá troco de no máximo 100 reais.</p><p>Dado um valor de troco que Ambrósio terá que dar, qual o mínimo de moedas que Ambrósio precisa entregar.<br/></p>
+Formato da entrada: <p>Você receberá vários casos de teste (não há um delimitador para o final da entrada, portanto, leia até não ter mais nada pra ler).</p><p>Cada caso de teste consiste de um inteiro indicando a quantidade de centavos n que ambrósio precisa dar de troco. (0 &lt;= n &lt;= 10000).<br/></p>
+Formato da saída: <p>Para cada caso de teste, imprima em uma única linha um inteiro com a quantidade mínima de moedas.<br/></p>

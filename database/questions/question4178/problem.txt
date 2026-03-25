@@ -1,0 +1,6 @@
+Título: Idade em anos
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que calcule idade. O programa deverá receber como entrada <span>a data de nascimento e a data atual e calcular a idade em anos completos.</span></p>
+Formato da entrada: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Na primeira linha será ingressada a data de nascimento, três inteiros separados por branco correspondentes ao dia, mes e ano. Similarmente, na segunda linha, será ingressada a data autal. Suponha que sempre a data de nascimento é anterior ou igual à data atual.</span><br/></p>
+Formato da saída: <p>A idade em anos completos.</p>

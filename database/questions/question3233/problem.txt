@@ -1,0 +1,6 @@
+Título: [AC3.4] Alfândega
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que leia um valor de mercadorias que um turista está trazendo de volta e calcula quanto ele terá que pagar de imposto na alfândega.<br/><br/>A regra de imposto é:<br/>Até 500 de valor: sem imposto<br/>Acima de 500: 50% sobre o excedente</p>
+Formato da entrada: <p>Valor de mercadorias</p>
+Formato da saída: <p>Valor do imposto (float)</p>

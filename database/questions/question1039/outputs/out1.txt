@@ -1,0 +1,42 @@
+------------------------------
+The tree ab*cd** has:
+- Left subtree: ab*
+- Right subtree: cd*
+------------------------------
+------------------------------
+The tree ab* has:
+- Left subtree: a
+- Right subtree: b
+------------------------------
+------------------------------
+The tree a has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree b has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree cd* has:
+- Left subtree: c
+- Right subtree: d
+------------------------------
+------------------------------
+The tree c has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree d has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+
+Decoding Tree is:
+
+a : 00
+b : 01
+c : 10
+d : 11

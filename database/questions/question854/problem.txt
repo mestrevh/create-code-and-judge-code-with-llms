@@ -1,0 +1,6 @@
+Título: Par ou ímpar?
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que dado um valor inteiro positivo, verifique se ele é par ou ímpar.</p>
+Formato da entrada: <p>A entrada deverá ser um número inteiro positivo.</p>
+Formato da saída: <p>A saída deverá ser &#34;IMPAR&#34; (sem acento) para números ímpares e &#34;PAR&#34; para números pares.</p>

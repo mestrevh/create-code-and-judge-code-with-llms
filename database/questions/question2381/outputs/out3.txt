@@ -1,0 +1,43 @@
+Pasta 'pasta1' criada
+Pasta 'pasta2' criada
+Pasta 'pasta3' criada
+A pasta 'root' esta cheia!
+Erro ao criar a pasta 'pasta4'
+root
+|---pasta1
+|---pasta2
+|---pasta3
+Erro ao remover a pasta 'pasta4'
+Erro ao criar a pasta 'pasta4-1'
+Pasta 'pasta1-1' criada
+Pasta 'pasta1-2' criada
+Pasta 'pasta1-3' criada
+A pasta 'pasta1' esta cheia!
+Erro ao criar a pasta 'pasta1-4'
+root
+|---pasta1
+    |---pasta1-1
+    |---pasta1-2
+    |---pasta1-3
+|---pasta2
+|---pasta3
+A pasta 'pasta1-2' foi removida
+A pasta 'pasta1-3' foi removida
+Pasta 'pasta1-5' criada
+Pasta 'pasta1-6' criada
+root
+|---pasta1
+    |---pasta1-1
+    |---pasta1-5
+    |---pasta1-6
+|---pasta2
+|---pasta3
+A pasta 'pasta3' foi removida
+A pasta 'pasta2' foi removida
+root
+|---pasta1
+    |---pasta1-1
+    |---pasta1-5
+    |---pasta1-6
+A pasta 'pasta1' foi removida
+root

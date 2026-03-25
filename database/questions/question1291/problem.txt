@@ -1,0 +1,6 @@
+Título: Brincando com matrizes
+Topicos do problema: array; decisão; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span>Escreva umprograma que leia uma matriz 3 x 3 de inteiros da entrada padrão e calcule a média de todos seus valores, o maior valor lido , o valor delta e a soma dos elementos da diagonal princial.</span></p><p><span></span></p><p><span>O delta é igual a 1 se o maior valor for positivo, -1 se for negativo e zero se for zero.</span></p>
+Formato da entrada: <p>9 valores inteiros referentes aos elementos da matriz.</p>
+Formato da saída: <p>4 valores numéricos: o primeiro é um número em ponto flutuante de duas casas decimais e os outros três inteiros.</p><p><br/></p>

@@ -1,0 +1,6 @@
+Título: O número Perdido
+Topicos do problema: array; busca; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você receberá como entrada um inteiro  N, logo em seguida receberá N-1 números que estão no intervalo fechado de 1 a N.</p><p>Sua missão é simples:  encontre o número que está faltando.</p>
+Formato da entrada: <p>Um inteiro N, onde 2 &lt;= N &lt; = 100000.</p><p>em seguida você receberá N-1 inteiros, os números da lista.</p>
+Formato da saída: <p>Sua saída é um inteiro representando o  número perdido.</p>

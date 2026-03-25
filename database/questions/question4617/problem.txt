@@ -1,0 +1,6 @@
+Título: Vamos combinar strings?
+Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Vamos combinar strings? </p><p>Você deve implementar  um programa denominado que receba duas strings e faça a combinação delas, alternando as letras de cada string, começando com a primeira letra da primeira string, seguido pela primeira letra da segunda string, em seguida pela segunda letra da primeira string, e assim sucessivamente.</p><p>As letras restantes da cadeia mais longa devem ser adicionadas ao fim da string resultante.<br/></p>
+Formato da entrada: <p>A entrada pode conter vários casos de teste. </p><p>A primeira linha contém um inteiro <strong style="color: rgb(0, 0, 0);">N </strong>que indica a quantidade de casos de teste que vem a seguir. </p><p>Cada caso de teste é composto por uma linha que contém duas cadeias de caracteres, cada cadeia de caracteres contém entre 1 e 50 caracteres inclusive.<br/></p>
+Formato da saída: <p>A string resultante da combinação.</p>

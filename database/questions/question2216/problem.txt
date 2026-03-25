@@ -1,0 +1,6 @@
+Título: Pilha e o valor absoluto
+Topicos do problema: pilha; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Sua tarefa é implementar uma pilha que além de possuir as funções normais de push e pop , deverá conter uma função para retornar em O(1) o valor absoluto da diferença entre o maior e o menor elemento que já foram inseridos na pilha (sem remover o topo).</p><p><br/></p>
+Formato da entrada: <p>A entrada será composta de vários comandos nos formatos:</p><p>push x</p><p>pop</p><p>abs</p><p>onde o x da entrada &#34;push x&#34; é um inteiro, onde  <b>0 &lt;= x &lt;= 1000 </b>.</p><p><br/></p><p>obs: não serão dados comandos de pop e abs se a pilha estiver vazia.</p>
+Formato da saída: <p>Para cada comando &#34;pop&#34; você deverá imprimir o topo da pilha.</p><p>Para cada comando abs você deverá imprimir o valor absoluto da diferença entre o maior e o menor elemento já inseridos.</p>

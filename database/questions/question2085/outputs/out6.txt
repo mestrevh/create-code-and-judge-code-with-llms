@@ -1,0 +1,232 @@
+fila de idosos:
+fila vazia!
+fila de nao-idosos:
+ID: 0 IDADE: 50
+----------
+
+fila de idosos:
+ID: 1 IDADE: 85
+fila de nao-idosos:
+ID: 0 IDADE: 50
+----------
+
+fila de idosos:
+ID: 1 IDADE: 85
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+----------
+
+fila de idosos:
+ID: 1 IDADE: 85
+ID: 3 IDADE: 94
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+----------
+
+fila de idosos:
+ID: 1 IDADE: 85
+ID: 3 IDADE: 94
+ID: 4 IDADE: 83
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+----------
+
+fila de idosos:
+ID: 3 IDADE: 94
+ID: 4 IDADE: 83
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+----------
+
+fila de idosos:
+ID: 3 IDADE: 94
+ID: 4 IDADE: 83
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+----------
+
+fila de idosos:
+ID: 4 IDADE: 83
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+----------
+
+fila de idosos:
+ID: 4 IDADE: 83
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+----------
+
+fila de idosos:
+ID: 4 IDADE: 83
+ID: 7 IDADE: 76
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+----------
+
+fila de idosos:
+ID: 4 IDADE: 83
+ID: 7 IDADE: 76
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+----------
+
+fila de idosos:
+ID: 4 IDADE: 83
+ID: 7 IDADE: 76
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+----------
+
+fila de idosos:
+ID: 7 IDADE: 76
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+----------
+
+fila de idosos:
+ID: 7 IDADE: 76
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+ID: 10 IDADE: 9
+----------
+
+fila de idosos:
+ID: 7 IDADE: 76
+ID: 11 IDADE: 61
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+ID: 10 IDADE: 9
+----------
+
+fila de idosos:
+ID: 7 IDADE: 76
+ID: 11 IDADE: 61
+fila de nao-idosos:
+ID: 0 IDADE: 50
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+ID: 10 IDADE: 9
+ID: 12 IDADE: 33
+----------
+
+fila de idosos:
+ID: 7 IDADE: 76
+ID: 11 IDADE: 61
+fila de nao-idosos:
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+ID: 10 IDADE: 9
+ID: 12 IDADE: 33
+----------
+
+fila de idosos:
+ID: 11 IDADE: 61
+fila de nao-idosos:
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+ID: 10 IDADE: 9
+ID: 12 IDADE: 33
+----------
+
+fila de idosos:
+ID: 11 IDADE: 61
+fila de nao-idosos:
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+ID: 10 IDADE: 9
+ID: 12 IDADE: 33
+ID: 13 IDADE: 36
+----------
+
+fila de idosos:
+ID: 11 IDADE: 61
+fila de nao-idosos:
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+ID: 10 IDADE: 9
+ID: 12 IDADE: 33
+ID: 13 IDADE: 36
+ID: 14 IDADE: 1
+----------
+
+fila de idosos:
+ID: 11 IDADE: 61
+fila de nao-idosos:
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+ID: 10 IDADE: 9
+ID: 12 IDADE: 33
+ID: 13 IDADE: 36
+ID: 14 IDADE: 1
+----------
+
+fila de idosos:
+fila vazia!
+fila de nao-idosos:
+ID: 2 IDADE: 55
+ID: 5 IDADE: 18
+ID: 6 IDADE: 45
+ID: 8 IDADE: 51
+ID: 9 IDADE: 2
+ID: 10 IDADE: 9
+ID: 12 IDADE: 33
+ID: 13 IDADE: 36
+ID: 14 IDADE: 1
+----------

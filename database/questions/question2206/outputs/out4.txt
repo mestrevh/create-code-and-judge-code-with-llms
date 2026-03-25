@@ -1,0 +1,18 @@
+Empty process queue!
+Process [A|14] enqueued!
+Process [A|14] dequeued!
+Empty process queue!
+Empty process queue!
+Process [B|42] enqueued!
+Process [C|54] enqueued!
+[C|54] => [B|42]
+Process [M|46] enqueued!
+Process [F|99] enqueued!
+Process [X|36] enqueued!
+[F|99] => [C|54] => [M|46] => [B|42] => [X|36]
+Process [F|99] dequeued!
+Process [C|54] dequeued!
+Process [K|90] enqueued!
+Process [K|90] dequeued!
+Process [M|46] dequeued!
+[B|42] => [X|36]

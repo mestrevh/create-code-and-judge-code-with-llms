@@ -1,0 +1,6 @@
+Título: Aluguel de Imóvel
+Topicos do problema: decisão; entrada formatada; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Uma Corretora de Imóveis deseja fazer um programa para calcular o valor da locação de um imóvel. Para realizar o cálculo, o programa precisa de algumas informações, sendo que o aluguel é cobrado por dia e a diária custa R$ 150 no imóvel tipo Standard e R$ 200 no imóvel tipo Premium.<br/></p><p>O cliente pode optar por TV a cabo (R$ 10 por dia) e Internet (R$ 15 por dia).</p><p>O programa deve ler o tipo do imóvel (STANDARD ou PREMIUM), o número de diárias e os números de dias de TV a cabo e de Internet que deseja.</p>
+Formato da entrada: <p>Na primeira linha, deve ser lida uma string contendo o tipo do imóvel STANDARD ou PREMIUM.</p><p>Na segunda linha, deve ser informado o número de dias do aluguel (inteiro).<br/></p><p>Na terceira linha, o número de dias de TV a Cabo (inteiro)<br/></p><p>Na quarta linha, o número de dias de Internet (inteiro)<br/></p>
+Formato da saída: <p>Um número em ponto flutuante que representa o valor total do aluguel do imóvel (com 2 casas decimais)<br/></p>

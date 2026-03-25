@@ -1,0 +1,95 @@
+Pasta 'pa' criada
+Pasta 'ra' criada
+Pasta 'bens!' criada
+Pasta 'vo' criada
+Pasta 'ce' criada
+Pasta 'con' criada
+Pasta 'se' criada
+root
+|---pa
+    |---vo
+    |---ce
+    |---con
+|---ra
+    |---se
+|---bens!
+Pasta 'guiu' criada
+Pasta 'fa' criada
+Pasta 'zer' criada
+Pasta 'essa' criada
+Pasta 'ques' criada
+Pasta 'tao' criada
+Pasta 'e' criada
+Pasta 'di' criada
+Pasta 'go' criada
+root
+|---pa
+    |---vo
+        |---tao
+        |---e
+        |---di
+    |---ce
+        |---go
+    |---con
+|---ra
+    |---se
+    |---guiu
+    |---fa
+|---bens!
+    |---zer
+    |---essa
+    |---ques
+Pasta 'mais!' criada
+Pasta 'de' criada
+Pasta 'ci' criada
+Pasta 'frou' criada
+Pasta 'a' criada
+Pasta 'men' criada
+Pasta 'sa' criada
+Pasta 'gem!' criada
+root
+|---pa
+    |---vo
+        |---tao
+        |---e
+        |---di
+    |---ce
+        |---go
+        |---mais!
+        |---de
+    |---con
+        |---ci
+        |---frou
+        |---a
+|---ra
+    |---se
+        |---men
+        |---sa
+        |---gem!
+    |---guiu
+    |---fa
+|---bens!
+    |---zer
+    |---essa
+    |---ques
+A pasta 'pa' foi removida
+root
+|---ra
+    |---se
+        |---men
+        |---sa
+        |---gem!
+    |---guiu
+    |---fa
+|---bens!
+    |---zer
+    |---essa
+    |---ques
+A pasta 'ra' foi removida
+root
+|---bens!
+    |---zer
+    |---essa
+    |---ques
+A pasta 'bens!' foi removida
+root

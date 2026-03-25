@@ -1,0 +1,64 @@
+------------------------------
+The tree bcr**d!*a** has:
+- Left subtree: bcr**
+- Right subtree: d!*a*
+------------------------------
+------------------------------
+The tree bcr** has:
+- Left subtree: b
+- Right subtree: cr*
+------------------------------
+------------------------------
+The tree b has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree cr* has:
+- Left subtree: c
+- Right subtree: r
+------------------------------
+------------------------------
+The tree c has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree r has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree d!*a* has:
+- Left subtree: d!*
+- Right subtree: a
+------------------------------
+------------------------------
+The tree d!* has:
+- Left subtree: d
+- Right subtree: !
+------------------------------
+------------------------------
+The tree d has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree ! has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree a has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+
+Decoding Tree is:
+
+b : 00
+c : 010
+r : 011
+d : 100
+! : 101
+a : 11

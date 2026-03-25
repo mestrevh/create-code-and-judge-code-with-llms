@@ -1,0 +1,45 @@
+fila de idosos:
+ID: 1 IDADE: 76
+ID: 5 IDADE: 76
+fila de nao-idosos:
+ID: 0 IDADE: 60
+ID: 2 IDADE: 25
+ID: 3 IDADE: 20
+ID: 4 IDADE: 35
+ID: 6 IDADE: 53
+ID: 7 IDADE: 36
+----------
+
+fila de idosos:
+ID: 5 IDADE: 76
+fila de nao-idosos:
+ID: 0 IDADE: 60
+ID: 2 IDADE: 25
+ID: 3 IDADE: 20
+ID: 4 IDADE: 35
+ID: 6 IDADE: 53
+ID: 7 IDADE: 36
+----------
+
+fila de idosos:
+ID: 5 IDADE: 76
+fila de nao-idosos:
+ID: 0 IDADE: 60
+ID: 2 IDADE: 25
+ID: 3 IDADE: 20
+ID: 4 IDADE: 35
+ID: 6 IDADE: 53
+ID: 7 IDADE: 36
+ID: 8 IDADE: 43
+----------
+
+fila de idosos:
+ID: 5 IDADE: 76
+fila de nao-idosos:
+ID: 2 IDADE: 25
+ID: 3 IDADE: 20
+ID: 4 IDADE: 35
+ID: 6 IDADE: 53
+ID: 7 IDADE: 36
+ID: 8 IDADE: 43
+----------

@@ -1,0 +1,6 @@
+Título: Senha com restrições
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa para testar se senhas fornecidas atendem aos seguintes requisitos:</p><p>a) Deve ter ao menos 8 dígitos</p><p>b) Ao menos 1 dígito</p><p>c) Ao menos 1 letra minúscula</p><p>d) Ao menos uma letra maiúscula</p>
+Formato da entrada: <p>Inicialmente um inteiro 1 &lt;= N &lt;= 9 indicando a quantidade de senhas que serão testadas.</p><p>Em seguida N linhas, cada uma contendo uma senha a ser testada.<br/></p>
+Formato da saída: <p>A mensagem: valida ou invalida.<br/></p><p><br/></p>

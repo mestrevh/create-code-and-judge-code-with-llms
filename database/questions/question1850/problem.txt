@@ -1,0 +1,6 @@
+Título: Primeiro Ancestral Comum
+Topicos do problema: estrutura de dados; Árvore; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O primeiro ancestral comum entre dois dados é o nó mais profundo a partir do qual ainda é possível alcançar os dois nós dados.</p><p>Por exemplo na arvore abaixo, o primeiro ancestral comum 78 e 72 é o 73 e o primeiro ancestral comum entre o 58 e o 79 é o 70.</p><p><img class="" src="https://www.thehuxley.com/api/v1/problems/image/c82468b3b11412b988f136d15a56b9f6ccd701cao.png"/></p><p><br/></p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Dada uma arvore de busca binaria, e dois nos que pertencem a essa arvore, determine, qual o primeiro ancestral comum entre os dois nos dados.</span><br/></p>
+Formato da entrada: <p>A entrada consiste em vários casos teste onde:</p><p>A primeira linha contem um numero N, representando a quantidades de nós que há árvore terá.</p><p>A segunda linha terá N números correspondendo aos nós que serão adicionados na arvore.</p><p>A ultima linha contem A e B que correspondem aos nós que devemos buscar o primeiro ancestral comum.</p><p>O programa irá para quando N for igual a 0</p>
+Formato da saída: <p>Deve-se imprimir na saída:</p><p>Case A: N</p><p>Onde A é o numero do caso que esta sendo executado e N é o no procurado para aquele caso</p>

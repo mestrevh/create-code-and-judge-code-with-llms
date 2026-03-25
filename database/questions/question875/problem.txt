@@ -1,0 +1,6 @@
+Título: Dois maiores entre 10
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa em Java, que solicita 10 números ao usuário, através de um laço while ou for, e, ao final, mostre os dois maiores números digitados pelo usuário, em ordem decrescente. Se houver números iguais e esses forem os maiores, imprimir duas vezes esses números.<br/></p>
+Formato da entrada: <p>Dez números inteiros.</p>
+Formato da saída: <p>Os dois maiores números, dentre os 10 números inteiros digitados. Um número por linha, em ordem decrescente.</p>

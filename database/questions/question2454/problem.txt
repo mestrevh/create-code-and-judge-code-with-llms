@@ -1,0 +1,6 @@
+Título: PROGCOMP - Seleção - K
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que recebe duas datas distintas e exibe a mais recente, ou seja, aquela que está mais próxima da data atual. Considere apenas datas passadas, isto é, nenhuma das datas representará um momento futuro.</p><p><span>Cada data deve ser fornecida como três valores inteiros, onde o primeiro representa o dia, o segundo o mês e o terceiro o ano. Dica: comece verificando pelo ano, depois pelo mês e, se necessário, por último pelo dia.</span><br/></p>
+Formato da entrada: <p>12 05 2018</p><p>11 05 2018</p>
+Formato da saída: <p>12 05 2018</p>

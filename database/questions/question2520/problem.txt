@@ -1,0 +1,6 @@
+Título: Entidade e a transposta do Tio Rodrigo
+Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A Entidade, como todos sabem, gosta muito de matemática. Essa semana ela estava se divertindo com matrizes quadradas e se perguntou que tipo de padrão bonito deve ser formar se ela inverter a diagonal principal, multiplicar a diagonal secundária por dois e achar a transposta da matriz. Ela está ocupada buscando outros tipos de padrões e gostaria que você fizesse um programa que aplicasse as operações na matriz.<br/></p>
+Formato da entrada: <p>A primeira linha da entrada terá um inteiro <b>n </b>(2 &lt;= <b>n</b> &lt;= 100), indicando o tamanho da matriz quadrada. Em cada uma das <b>n</b> linhas seguintes, terão <b>n</b> inteiros <b>a_i_j </b>(-100 &lt;= <b>a_i_j</b> &lt;= 100), indicando o valor da matriz na linha <b>i</b> e na coluna <b>j</b>.</p>
+Formato da saída: <p>A saída deverá ser a matriz quadrada após a aplicação das operações que a Entidade descreveu (<span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">inverter a diagonal principal, multiplicar a diagonal secundária por dois e achar a transposta da matriz).</span></p>

@@ -1,0 +1,6 @@
+Título: AC2 - Ex. 4
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que recebe uma temperatura em Fahrenheit e converte para Celsius, usando a seguinte fórmula:<br/><br/><div style="text-align: center;"><img class="" src="https://www.thehuxley.com/api/v1/problems/image/c1fa071b264a3588252d2ff8c598a63d077473f11.jpg"/></div></p>
+Formato da entrada: <p>Temperatura em Fahrenheit</p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Temperatura em Celsius</span><br/></p>

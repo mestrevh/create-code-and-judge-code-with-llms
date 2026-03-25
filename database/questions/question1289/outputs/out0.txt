@@ -1,0 +1,203 @@
+pre-ordem:7 
+nivel 1:
+7 
+
+pre-ordem:7 5 
+nivel 1:
+7 
+nivel 2:
+5 
+
+pre-ordem:7 5 13 
+nivel 1:
+7 
+nivel 2:
+5 13 
+
+pre-ordem:7 5 3 13 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 
+
+pre-ordem:7 5 3 6 13 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 
+
+pre-ordem:7 5 3 1 6 13 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 
+nivel 4:
+1 
+
+pre-ordem:7 5 3 1 0 6 13 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 
+nivel 4:
+1 
+nivel 5:
+0 
+
+pre-ordem:7 5 3 1 0 2 6 13 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 
+nivel 4:
+1 
+nivel 5:
+0 2 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 
+nivel 4:
+1 4 
+nivel 5:
+0 2 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 10 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 
+nivel 4:
+1 4 
+nivel 5:
+0 2 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 10 12 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 
+nivel 4:
+1 4 12 
+nivel 5:
+0 2 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 10 8 12 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 
+nivel 4:
+1 4 8 12 
+nivel 5:
+0 2 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 10 8 9 12 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 
+nivel 4:
+1 4 8 12 
+nivel 5:
+0 2 9 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 10 8 9 12 17 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 17 
+nivel 4:
+1 4 8 12 
+nivel 5:
+0 2 9 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 10 8 9 12 17 16 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 17 
+nivel 4:
+1 4 8 12 16 
+nivel 5:
+0 2 9 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 10 8 9 12 17 16 14 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 17 
+nivel 4:
+1 4 8 12 16 
+nivel 5:
+0 2 9 14 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 10 8 9 12 17 16 14 15 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 17 
+nivel 4:
+1 4 8 12 16 
+nivel 5:
+0 2 9 14 
+nivel 6:
+15 
+
+pre-ordem:7 5 3 1 0 2 4 6 13 10 8 9 12 17 16 14 15 20 
+nivel 1:
+7 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 17 
+nivel 4:
+1 4 8 12 16 20 
+nivel 5:
+0 2 9 14 
+nivel 6:
+15 
+
+pre-ordem:8 5 3 1 0 2 4 6 13 10 9 12 17 16 14 15 20 
+nivel 1:
+8 
+nivel 2:
+5 13 
+nivel 3:
+3 6 10 17 
+nivel 4:
+1 4 9 12 16 20 
+nivel 5:
+0 2 14 
+nivel 6:
+15

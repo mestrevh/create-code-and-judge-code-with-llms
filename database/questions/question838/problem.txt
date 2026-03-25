@@ -1,0 +1,6 @@
+Título: Possível Aprovação
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Em uma certa disciplina são feitas duas provas. A média aritmética das notas dessas provas determina se o aluno foi aprovado ou não na disciplina.</p><p>Dado um número representando o valor da média (m) necessária para a aprovação do aluno, e em seguida um número representando a nota da primeira prova (p1), faça um programa que imprima 'SIM', se de algum modo for possível o aluno passar na disciplina após fazer a segunda prova, ou &#34;NAO&#34; se não houver essa possibilidade.<br/></p>
+Formato da entrada: <p>Um número inteiro representando a média necessária que o aluno precisa ter para ser aprovado na disciplina e em seguida um número real representando a nota que o aluno tirou na primeira prova.</p><p>5 &lt;= m &lt;= 10</p><p>0 &lt;= p1 &lt;= 10</p><p><br/></p>
+Formato da saída: <p>Imprima 'SIM' se é possível o aluno conseguir a aprovação na disciplina após realizar a segunda prova, ou 'NAO' se não houver essa possibilidade.</p><p>Obs.: Lembre-se de colocar um final de linha após a resposta.<br/></p>

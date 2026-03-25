@@ -1,0 +1,6 @@
+Título: Soma de dois dígitos
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que calcule a soma do primeiro com o último dígito de um número natural.</p>
+Formato da entrada: <p>Um número natural <b>N</b>.</p>
+Formato da saída: <p>Um número natural correspondente à soma do primeiro com o último dígito do número de entrada.</p>

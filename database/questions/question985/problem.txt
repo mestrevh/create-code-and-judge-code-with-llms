@@ -1,0 +1,6 @@
+Título: Multiplicando números
+Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p></p><p>Dado uma sequência de números N1, N2, N3, ... Nm, informe quantos zeros tem no final do produto dos números.</p><p></p><p>A sequência termina quando um número negativo for lido, ou seja o número negativo não faz parte da sequência.</p><p>A sequência tem no máximo 200 números.</p><ul><li>0 &lt;= <b>N</b><b>i</b> &lt;= 100.000</li></ul>
+Formato da entrada: <p>Uma sequência de números com um número negativo no final.</p>
+Formato da saída: <p>Informe a quantidade de zeros no final do resultado.</p>

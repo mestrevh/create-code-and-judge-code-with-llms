@@ -1,0 +1,6 @@
+Título: NOM's
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>As notas das NOM's finalmente saíram, e você, ao calcular a média aritmética das suas notas, viu que o resultado estava diferente do que você esperava. Depois de pensar bastante, você percebeu que as matérias possuíam pesos diferentes e  a média calculada era a <u>ponderada</u>. </p><p><span>Depois de um longo dia de testes, você não queria usar magia para encontrar a solução. </span></p><p><span>Sua tarefa é fazer um programa que calcule a média ponderada das NOM's. Como você é um bom aluno e gosta de desafios, resolveu implementar seu programa usando arrays. </span></p><p><span><br/></span></p><p><span> </span></p>
+Formato da entrada: <p><span>A primeira linha é dada por:</span></p><blockquote><p><span>N</span></p></blockquote><p>Onde N é número natural que representa o número de NOM's feitos. </p><p>Em seguida, N linhas:</p><blockquote><p>I</p></blockquote><p>Onde I é ponto flutuante representando as notas tiradas nas N Nom's</p><p>Por fim, N linhas:</p><blockquote><p>P</p></blockquote><p>Onde P é ponto flutuante que representa o peso de cada Nom</p>
+Formato da saída: <blockquote><p>Q</p></blockquote><p>Onde Q é ponto flutuante que representa a média das NOM's. Você deve considerar aproximação de 2 casas decimais. </p>

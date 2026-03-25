@@ -1,0 +1,6 @@
+Título: Ambrósio e a caixa de moedas
+Topicos do problema: Árvore; requer solução eficiente; programação dinâmica; 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <p>Ambrósio tem N caixas de moedas numeradas de 1 a N.</p><p>Cada dia ele escolhe dois índices L e R e adiciona uma moeda a cada caixa começando de L e terminando em R(incluindo os dois).</p><p>Ele faz isso por M dias.</p><p>Após M dias Ambrósio faz uma busca, quantas caixas contém pelo menos X moedas?</p><p>Ele faz Q buscas.</p>
+Formato da entrada: <p>Primeira linha contém N - número de caixas.</p><p>Segunda linha contém M - número de dias.</p><p>Cada uma das M linhas seguintes contém L e R</p><p>Após as M linhas, segue uma linha com Q - número de buscas.</p><p>Seguem Q linhas com um inteiro X, representando o número da busca.</p>
+Formato da saída: <p>Para cada busca responda quantas caixas contém pelo menos X moedas.</p>

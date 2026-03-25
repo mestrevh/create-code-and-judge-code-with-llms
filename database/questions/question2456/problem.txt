@@ -1,0 +1,6 @@
+Título: PROGCOMP - Seleção - P
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Uma empresa decide presentear seus funcionários com um bônus de Natal. O valor é definido como segue: </p><p>(a) 20% do salário para os funcionários homens com mais de quinze anos de casa;</p><p>(b) 25% do salário para as funcionárias mulheres com mais de dez anos de casa;</p><p>(c) R$ 200,00 para os demais que não se encaixaram nas categorias anteriores. </p><p><span>Elabore um programa que recebe o sexo, o tempo de casa e o salário de um funcionário e exibe o valor total que o funcionário receberá no Natal (salário + bônus).</span><br/></p>
+Formato da entrada: <p>h</p><p>16</p><p>1000.00</p>
+Formato da saída: <p>1200.00</p>

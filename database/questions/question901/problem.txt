@@ -1,0 +1,6 @@
+Título: Intervalo entre números.
+Topicos do problema: multiplas entradas; repetição; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Faça um programa em Java que leia dois números inteiros e escreva os números inteiros que estão no intervalo compreendido entre eles.<br/></p>
+Formato da entrada: <p>Todos os números digitados.</p>
+Formato da saída: <p>Os números inteiros que estão no intervalo.</p>

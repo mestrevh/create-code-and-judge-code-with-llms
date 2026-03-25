@@ -1,0 +1,6 @@
+Título: calcule a média.
+Topicos do problema: 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Faça um programa em Java que leia do usuário as 4 notas de um aluno e calcule a média.<br/></p>
+Formato da entrada: <p>as quatro notas.</p>
+Formato da saída: <p>o resultado da media.</p>

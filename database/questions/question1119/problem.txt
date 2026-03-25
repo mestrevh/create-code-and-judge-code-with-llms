@@ -1,0 +1,6 @@
+Título: Cálculo de valores
+Topicos do problema: função; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Escreva um programa que leia n linhas contendo um nome de uma pessoa e cinco valores inteiros e identifique qual delas possui:</p><p>- maior valor total</p><p>- maior valor individual</p><p>- maior média </p>
+Formato da entrada: <p>3</p><p>Joao 4 5 7 8</p><p>Maria 2 -1 11 0 0</p><p>Jose 4 5 6 10 1</p>
+Formato da saída: <p>Jose</p><p>Maria</p><p>Jose</p>

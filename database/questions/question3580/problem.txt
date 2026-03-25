@@ -1,0 +1,6 @@
+Título: Bem-vindo ao parque
+Topicos do problema: string; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você deve escrever um programa que dê as boas-vindas personalizadas a cada ingressante do parque de diversões. O programa irá receber o nome do visitante e o nome da sua atração preferida e irá imprimir na tela a mensagem personalizada.</p>
+Formato da entrada: <p>Na primeira linha, o nome do visitante</p><p>Na segunda linha, sua atração preferida</p>
+Formato da saída: <p>Você imprimir a seguinte mensagem, substituindo no lugar de &lt;nome&gt; o nome do visitante e no lugar de &lt;atracao&gt; a atração preferida que o visitante informou.</p><pre>Bem-vindo &lt;nome&gt;! Aguardamos você na/o &lt;atracao&gt;!</pre>

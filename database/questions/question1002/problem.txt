@@ -1,0 +1,6 @@
+Título: Prefixo, Sufixo ou Subpalavra
+Topicos do problema: substrings; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Será dada uma palavra principal W (uma string), um número N e em seguida serão dadas N palavras secundárias. Você deve dizer se cada palavra é um <b>SUFIXO</b>, um <b>PREFIXO</b> ou somente uma <b>SUBPALAVRA</b> da palavra principal. Caso não seja nenhuma dessas, classifique-a como <b>PALAVRA LIVRE</b>. </p><p><b>Definições:</b></p><p><b>Prefixo </b>• qualquer sequência inicial de caracteres da palavra.</p><p><b>Sufixo </b>• qualquer sequência final de caracteres da palavra.</p><p><b>Subpalavra</b> • qualquer sequência de caracteres contíguos da palavra.</p><p><br/></p>
+Formato da entrada: <p>Uma string <b>W</b> que representa a palavra principal.</p><p>Um inteiro <b>N</b> que define o número de palavras secundárias seguintes que serão comparadas com <b>W</b>. Onde 1 &lt; N &lt; 100.<br/></p>
+Formato da saída: <p>&#34;<b>PREFIXO</b>&#34;, &#34;<b>SUFIXO</b>&#34;, &#34;<b>SUBPALAVRA</b>&#34; ou &#34;<b>PALAVRA LIVRE</b>&#34; para cada comparação da palavra principal com uma secundária. Assim como explicado na descrição.</p><p><b>Obs.: Tanto um prefixo quanto um sufixo são subpalavras. Porém você só deverá classificar a palavra como subpalavra caso não seja sufixo nem prefixo.</b></p>

@@ -1,0 +1,145 @@
+pre-ordem:18 
+nivel 1:
+18 
+
+pre-ordem:18 3 
+nivel 1:
+18 
+nivel 2:
+3 
+
+pre-ordem:18 3 5 
+nivel 1:
+18 
+nivel 2:
+3 
+nivel 3:
+5 
+
+pre-ordem:18 3 
+nivel 1:
+18 
+nivel 2:
+3 
+
+pre-ordem:18 3 17 
+nivel 1:
+18 
+nivel 2:
+3 
+nivel 3:
+17 
+
+pre-ordem:3 17 
+nivel 1:
+3 
+nivel 2:
+17 
+
+pre-ordem:3 17 
+nivel 1:
+3 
+nivel 2:
+17 
+
+pre-ordem:3 17 15 
+nivel 1:
+3 
+nivel 2:
+17 
+nivel 3:
+15 
+
+pre-ordem:3 17 15 14 
+nivel 1:
+3 
+nivel 2:
+17 
+nivel 3:
+15 
+nivel 4:
+14 
+
+pre-ordem:3 17 15 14 9 
+nivel 1:
+3 
+nivel 2:
+17 
+nivel 3:
+15 
+nivel 4:
+14 
+nivel 5:
+9 
+
+pre-ordem:3 17 15 14 9 16 
+nivel 1:
+3 
+nivel 2:
+17 
+nivel 3:
+15 
+nivel 4:
+14 16 
+nivel 5:
+9 
+
+pre-ordem:3 17 15 14 9 11 16 
+nivel 1:
+3 
+nivel 2:
+17 
+nivel 3:
+15 
+nivel 4:
+14 16 
+nivel 5:
+9 
+nivel 6:
+11 
+
+pre-ordem:3 17 15 14 9 11 16 19 
+nivel 1:
+3 
+nivel 2:
+17 
+nivel 3:
+15 19 
+nivel 4:
+14 16 
+nivel 5:
+9 
+nivel 6:
+11 
+
+pre-ordem:3 17 15 14 9 11 12 16 19 
+nivel 1:
+3 
+nivel 2:
+17 
+nivel 3:
+15 19 
+nivel 4:
+14 16 
+nivel 5:
+9 
+nivel 6:
+11 
+nivel 7:
+12 
+
+pre-ordem:3 19 15 14 9 11 12 16 
+nivel 1:
+3 
+nivel 2:
+19 
+nivel 3:
+15 
+nivel 4:
+14 16 
+nivel 5:
+9 
+nivel 6:
+11 
+nivel 7:
+12

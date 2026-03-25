@@ -1,0 +1,6 @@
+Título: Quantas famílias existem?
+Topicos do problema: array; estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Em 2019, a SBC (Sociedade Brasileira de Contagem)  decidiu fazer uma pesquisa em certa cidade brasileira. A pesquisa se baseava em descobrir quantas famílias diferentes existiam naquela cidade, quem era o integrante mais velho daquela família e qual era sua idade. Como era uma cidade pequena eles conseguiram fazer, mas após isso eles decidiram expandir a pesquisa a nível nacional, e não tinham recurso para tal. Sendo assim, sabendo que você é um bom programador, a SBC pediu a sua ajuda. </p><p><br/></p><p>Obs: Se a idade do integrante mais velho estiver empatada entre um homem e uma mulher, você deve imprimir as informações da mulher.</p>
+Formato da entrada: <p>A primeira linha contém um número <b>N</b>, indicando o número de pessoas. Após isso você receberá <b>N</b> linhas contendo o nome (string), idade(int) e sexo('1' para masculino e '0' para feminino). Por fim, uma linha contendo <b>N</b> inteiros, esses valores correspondem ao parentesco da enésima pessoa.</p>
+Formato da saída: <p>A primeira linha contendo a quantidade de famílias. Para cada família você deve imprimir o tamanho da família, o nome do integrante mais velho e a idade do mesmo. </p>

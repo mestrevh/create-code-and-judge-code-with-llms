@@ -1,0 +1,6 @@
+Título: Bolas
+Topicos do problema: obi; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Temos oito bolas, colocadas lado a lado em uma sequência. Cada bola tem um número impresso, quepode ter valor de 0 até 9. Queremos trocar algumas bolas de posição na sequência de modo que nenhum par de bolas vizinhas na sequência tenha o mesmo número. Quer dizer, não pode haver duas bolas, uma aolado da outra, com o mesmo número. A figura ao lado mostra um exemplo para o qual isso foi possível. Mas será que sempre é possível? Seu programa deve decidir se é ou não possível obter uma sequência em que não haja bolas vizinhas com o mesmo número.<br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/eb2832450d47d8773d1350fb6303cb35fb52a1df5.png"/><br/></p>
+Formato da entrada: <p>A única linha da entrada contém uma sequência de oito inteiros Bi, para 1 ≤ i ≤ 8, representando os números impressos em cada bola da sequência.<br/></p><p>• Bi é um inteiro entre 0 e 9, inclusive.<br/></p>
+Formato da saída: <p>Imprima uma linha contendo o caractere “S” se for possível trocar bolas de posição e obter a sequência sem bolas vizinhas com o mesmo número; ou o caracter “N” se não for possível.<br/></p>

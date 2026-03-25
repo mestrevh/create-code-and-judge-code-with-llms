@@ -1,0 +1,15 @@
+Filme1:Matrix
+
+acao: 5
+suspense: 4
+comedia: 0
+
+Filme2:Sociedade_do_Anel
+
+suspense: 4
+acao: 4
+comedia: 0
+
+acao: 3
+comedia: 3
+suspense: 3

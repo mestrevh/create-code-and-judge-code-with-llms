@@ -1,0 +1,6 @@
+Título: 01-Média e Situação do Aluno
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span>Crie um programa em C, que receba duas notas de um aluno, informe a sua média final e a situação (Notas maiores ou igual a 7 APROVADO). Para este problema favor considerar as seguintes variáveis:</span></p><p><span>N1, N2, MEDIA</span><br/></p>
+Formato da entrada: <p>7.5</p><p>8.5<br/></p>
+Formato da saída: <p>MEDIA = 8.0 <br/></p><p>APROVADO<br/></p>

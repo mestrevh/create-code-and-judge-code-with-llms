@@ -1,0 +1,6 @@
+Título: Rodizio no Abastecimento de Água
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Recentemente, a cidade dos Seriados passou por um colapso no abastecimento de água. Os transformadores que bombeavam o líquido precioso explodiram causando enorme transtorno a população. </p><p>Quando a concessionária conseguiu repor os transformadores, o abastecimento de água precisou ser escalado até voltar ao normal.</p><p>Para isso foi feito um rodízio de abastecimento na primeira semana, dividindo a cidade por áreas:</p><p>Área 1:<font color="#333333"> Flash, Arrow, Legends of Tomorrow, Super Girl</font></p><p>Área 2: Agent Carter,Demolidor, Agentes da Shield,</p><p>O rodizio seguiu a seguinte escala:</p><ul class="content-unordered-list" style="color: rgb(51, 51, 51);background-color: rgb(255, 255, 255);"><li>Na área 1, a água será distribuída das 8h às 20h da terça-feira;</li><li>A área 2, a água será começar a receber água a partir das 2h da quarta-feira;</li></ul>
+Formato da entrada: <p>Nome do Bairro</p><p>Dia da Semana</p><p>Horário ( em horas completas)</p>
+Formato da saída: <p>Já chegou ou não chegou água</p>

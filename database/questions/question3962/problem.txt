@@ -1,0 +1,6 @@
+Título: Números
+Topicos do problema: acumulador; lógica matemática; repetição; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p><span>Dado um conjunto de valores, Joãozinho quer calcular e mostrar quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.</span><br/></p><p><br/></p><p>Observação:É opcional a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão</p>
+Formato da entrada: <title></title><p>A entrada contém N valores inteiros até que o valor zero seja digitado</p>
+Formato da saída: <title></title><p>Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha</p>

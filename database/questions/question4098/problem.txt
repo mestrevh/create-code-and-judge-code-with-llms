@@ -1,0 +1,6 @@
+Título: Maior Soma de Dígitos
+Topicos do problema: decisão; repetição; função; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Serão dados vários números inteiros positivos. Seu programa deve calcular a soma de dígitos de cada número lido. Ao ler o valor -1, seu programa deve printar o número que resultou na maior soma de dígitos e, em outra linha, a maior soma de dígitos.</p><p>OBS1: É <b>garantido</b> que será dado, no mínimo, um inteiro positivo antes de ser dado -1;<br/>OBS2: Caso dois números resultem numa mesma soma de dígitos e essa soma for a maior, <b>considere o número que veio primeiro</b>.<br/></p>
+Formato da entrada: <p>Serão dados vários números inteiros não negativos, e, eventualmente, o valor -1.<br/>OBS: É <b>garantido</b> que os valores dados estarão no intervalo [0, 2147483647] (isto é, cabem na variável de tipo int).<br/></p>
+Formato da saída: <p>Deve-se printar o número que gerou a maior soma de dígitos, e, na próxima linha, a maior soma de dígitos.<br/></p>

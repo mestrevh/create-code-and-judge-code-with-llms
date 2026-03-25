@@ -1,0 +1,6 @@
+Título: Baile de Formatura
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: None
+Formato da entrada: <p></p><b id="docs-internal-guid-d43b9c02-cf5e-269b-d49c-3485984ab48f"></b><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">5</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">5</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">9</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">10</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">12</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">13</span></p><p></p>
+Formato da saída: <b id="docs-internal-guid-d43b9c02-cf5e-4a7e-f44b-c54244472259"></b><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">Caso #1: 25</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">Caso #2: 9</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">Caso #3: 100</span></p><p dir="ltr"><span style="color: #222222;background-color: #ffffff;">Caso #4: 36</span></p><span style="color: #222222;background-color: #ffffff;">Caso #5: 169</span>

@@ -1,0 +1,6 @@
+Título: Contando strings numa matriz
+Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dada uma matriz <b>M</b>, <i><b>n</b></i> por <i><b>m</b></i> e de letras minúsculas; conte a quantidade de ocorrências de uma string <b>s</b>. A partir da célula (<b>i</b>, <b>j</b>), é possível considerar as células (<b>i</b>, <b>j</b> - 1), (<b>i</b>, <b>j</b> + 1), (<b>i</b> - 1, <b>j</b>) e (<b>i</b> + 1, <b>j</b>); ou seja, qualquer caminho é uma ocorrência, mas não é possível utilizar a mesma célula mais de uma vez num mesmo caminho.</p>
+Formato da entrada: <p><span style="float: none;">A primeira linha da entrada contém três inteiros <b>n</b>, <b>m</b>, <b>k</b> (1 &lt;= <b>n</b>, <b>m</b>, &lt;= 100, 1 &lt;= <b>k</b> &lt;= 10), representando a quantidade de linhas, a quantidade de colunas e o tamanho da string <b>s</b>, respectivamente.</span><br/></p><p><span style="float: none;">As próximas <b>n</b> linhas terão <b>m</b> letras minúsculas, representando a matriz <b>M</b>.</span></p><p>Na linha seguinte, virá <b>k</b> caracteres, representando a string <b>s</b>.</p>
+Formato da saída: <p><span style="float: none;">Imprima a quantidade de ocorrências da string <b>s</b> na matriz <b>M</b>, seguindo as regras da descrição.</span><br/></p>

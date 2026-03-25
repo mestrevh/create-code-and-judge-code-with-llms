@@ -1,0 +1,6 @@
+Título: Dobrando o Array
+Topicos do problema: array; função; ponteiro; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Crie um código que recebe um array de inteiros e exibe o quadrado de cada um dos valores.<br/></p>
+Formato da entrada: <p>Um valor inteiro indicando quantos elementos o array vai ter.</p><p>Os elementos do array.<br/></p>
+Formato da saída: <p>O Dobro de cada um dos elementos com espaçamento simples e sem nenhum tipo de separação (Vírgulas, pontos, traços)<br/></p>

@@ -1,0 +1,6 @@
+Título: Ordenar 4 numeros Octave
+Topicos do problema: lógica matemática; ordenação; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p><span class="fontstyle0">Escreva um programa para ler 4 números (considere que  não serão lidos valores iguais) e escrevê-los em ordem crescente.</span><br/><br/></p>
+Formato da entrada: <p>O usuario deve digitar quatro números<br/></p>
+Formato da saída: <p>O programa deve exibir a sequência ordenada de maneira crescente, imprimindo na tela os valores abaixo:</p><p><br/></p><p>Digite o primeiro valor: (impresso pela funcao input)</p><p>Digite o segundo valor: (impresso pela funcao input)</p><p>Digite o terceiro valor: (impresso pela funcao input)</p><p>Digite o quarto valor: (impresso pela funcao input)</p><p>Sequencia ordenada: n n n n<br/></p>

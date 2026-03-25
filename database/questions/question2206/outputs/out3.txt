@@ -1,0 +1,20 @@
+Process [P|23] enqueued!
+Process [F|43] enqueued!
+Process [T|32] enqueued!
+Process [K|87] enqueued!
+[K|87] => [F|43] => [T|32] => [P|23]
+Process [N|44] enqueued!
+Process [C|99] enqueued!
+[C|99] => [K|87] => [N|44] => [F|43] => [T|32] => [P|23]
+Process [C|99] dequeued!
+Process [K|87] dequeued!
+Process [N|44] dequeued!
+[F|43] => [T|32] => [P|23]
+Process [F|43] dequeued!
+Process [L|22] enqueued!
+Process [Q|81] enqueued!
+[Q|81] => [T|32] => [P|23] => [L|22]
+Process [Q|81] dequeued!
+Process [T|32] dequeued!
+Process [P|23] dequeued!
+[L|22]

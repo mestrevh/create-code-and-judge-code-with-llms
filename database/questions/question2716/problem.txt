@@ -1,5 +1,5 @@
 Título: Preço do ingresso
-Topicos do problema: repetição; lógica matemática; 
+Topicos do problema: lógica matemática; repetição; 
 Tempo limite de execução: 2 segundo(s)
 Descrição: <p>Uma companhia de teatro deseja dar uma série de espetáculos. a direção calcula que a R$ 5,00 o ingresso, serão vendidos 120 ingressos. As despesas são fixas em R$ 200,00. A cada R$ 0,50 diminuídos no preço do ingresso espera-se que as vendas aumentem em 26 ingressos.</p><p>Faça um programa que escreva uma tabela de valores de lucros esperados em função do preço do ingresso, fazendo variar o preço R$ 0,50 por vez no intervalo de R$ 5,00 a R$ 1,00 (R$ 5,00; R$ 4,50; ...R$ 1,50; R$ 1,00). O programa ainda deve mostrar o público esperado para cada valor do ingresso.<br/></p>
 Formato da entrada: <p>Não há entradas no algoritmo<br/></p>

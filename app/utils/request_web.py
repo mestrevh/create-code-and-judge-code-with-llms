@@ -39,10 +39,12 @@ class RequestWeb:
     
     def post(self,
              link: str,
+             sleep: int,
              headers: dict,
              cookies: Optional[dict] = None,
              files: Optional[dict] = None,
-             json: Optional[dict] = None) -> Any:
+             json: Optional[dict] = None,
+             ) -> Any:
         try:
             response = requests.post(link,
                                     headers=headers,
@@ -53,7 +55,7 @@ class RequestWeb:
 
             print(f"[RequestWeb - post]: {link}")
             print("Submissão enviada com sucesso! Status:", response.status_code)
-            time.sleep(60)
+            time.sleep(sleep)
             return response
 
         except requests.exceptions.HTTPError as err:
@@ -96,8 +98,11 @@ class RequestWeb:
                 "file": ("A.cpp", code.encode("utf-8"), "application/octet-stream")
             }
             
-        return self.post(link=link, headers=headers,
-                                cookies=cookies, files=files)
+        return self.post(link=link,
+                         sleep=60,
+                         headers=headers,
+                         cookies=cookies,
+                         files=files)
     
     def get_last_submission_the_huxley(self, id: int) -> dict:
         link = f"https://www.thehuxley.com/api/v1/submissions/summary?problem={id}&stats=last"

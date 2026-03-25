@@ -1,0 +1,37 @@
+Test 1: 10x^2 + -8x + 9
+SEM RESPOSTA
+
+Test 2: 8x^2 + 5x + -3
+X1 = 0.38
+X2 = -1.00
+
+Test 3: -8x^2 + -8x + -8
+SEM RESPOSTA
+
+Test 4: 8x^2 + 5x + 6
+SEM RESPOSTA
+
+Test 5: -2x^2 + -6x + -10
+SEM RESPOSTA
+
+Test 6: 10x^2 + -4x + 1
+SEM RESPOSTA
+
+Test 7: 6x^2 + 1x + -8
+X1 = 1.07
+X2 = -1.24
+
+Test 8: 9x^2 + 1x + -7
+X1 = 0.83
+X2 = -0.94
+
+Test 9: -6x^2 + -6x + 8
+X1 = -1.76
+X2 = 0.76
+
+Test 10: 5x^2 + 4x + -7
+X1 = 0.85
+X2 = -1.65
+
+Test 11: 1x^2 + -3x + 8
+SEM RESPOSTA

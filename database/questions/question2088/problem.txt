@@ -1,0 +1,6 @@
+Título: Cartas do Ambrósio
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio gosta muito de jogos de cartas, ele ganhou uma promoção de uma loja de cartas no qual a loja daria a ele a opção de escolher entre N caixas cheias, na qual cada caixa tem um X correspondendo a quantidade de pacotes de cartas. Cada carta tem uma valor que corresponde a sua força.Sendo que cada pacote corresponde a 3 cartas. Ambrósio decidiu escolher a caixa com a maior força por pacote. <br/></p>
+Formato da entrada: <p>Um valor N correspondendo ao número de caixas.</p><p>X correspondendo ao número de pacotes da caixa em ordem.</p><p>F1, F2, F3 correspondendo a força de cada carta X vezes.</p><p><br/></p><p>Exemplificando:</p><p>N</p><p>X1</p><p>F1 F2 F3</p><p>F1 F2 F3</p><p>....<br/></p><p>X2</p><p>F1 F2 F3</p><p>...</p><p>Xn</p><p>F1 F2 F3</p><p>...<br/></p>
+Formato da saída: <p>Imprima o número correspondendo a caixa escolhida, levando em consideração que a primeira caixa corresponda ao número 1.</p><p>Imprima o valor do força por pacote que a caixa escolhida possui.<br/></p>

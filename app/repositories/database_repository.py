@@ -52,7 +52,7 @@ class DatabaseRepository(DatabaseInterface):
         payload = {
             "input": input
         }
-        response = request_web.post(link, headers=headers, json=payload)
+        response = request_web.post(link, sleep=10, headers=headers, json=payload)
         print(f"Oráculo para o problema {id} consultado com sucesso!")
         
         if response is not None:
@@ -81,7 +81,10 @@ class DatabaseRepository(DatabaseInterface):
         if request_web.post_code_the_huxley(id, code, "py") is not None:
             submissions = request_web.get_last_submission_the_huxley(id)
 
-            if submissions["testCaseEvaluations"] != None:
+            if submissions is None:
+                return []
+            
+            if submissions["testCaseEvaluations"] is not None:
                 for submission in submissions["testCaseEvaluations"]:
                     
                     if submission["errorMsg"] == None:
@@ -152,10 +155,18 @@ class DatabaseRepository(DatabaseInterface):
         path += "/questions"
         file_manager.create_dir(path)
         
+        headers = {
+            "Authorization": f"Bearer {config.TOKEN_THE_HUXLEY}",
+            "Accept": "application/json",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Firefox/148.0"
+        }
+        
         count = 0
         id = 0
         while count != 1000:
-            response = request_web.get(link + "/" + str(id))
+            
+            response = request_web.get(link=link + "/" + str(id),
+                                       headers=headers)
             
             if response is None:
                 id += 1
@@ -166,7 +177,8 @@ class DatabaseRepository(DatabaseInterface):
             if cases_test:
                 cases = self.__get_question_with_token_the_huxley(id=id)
             else:
-                cases = request_web.get(link + "/" + str(id) + "/examples")
+                cases = request_web.get(link=link + "/" + str(id) + "/examples",
+                                        headers=headers)
             
             if response is not None:
                 if self.__create_question(response, path, id, cases):

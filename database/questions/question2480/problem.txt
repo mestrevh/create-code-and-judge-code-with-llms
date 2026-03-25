@@ -1,0 +1,6 @@
+Título: PROGCOMP - Repetição - I
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><b>[for]</b> Faça um programa que exibe n^m (n elevado a m), considerando n (real) e m (natural) dados pelo usuário. Não usar funções prontas da linguagem para o cálculo de potência.</p>
+Formato da entrada: <p>Na primeira linha um número real, simbolizando a base da potência; na linha seguinte um número natural representando o expoente.</p>
+Formato da saída: <p>A potência da base pelo expoente, com duas casas depois do ponto.</p>

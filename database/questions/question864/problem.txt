@@ -1,0 +1,6 @@
+Título: Manipulação da corrida
+Topicos do problema: 
+Tempo limite de execução: 3 segundo(s)
+Descrição: <p>O profressor Rodrigo é dono de uma grande empresa que gerencia corrida de carros. Portanto, alguns trabalhadores da empresa ( os que cuidavam da parte de vitórias dos carros), tiveram que deixar a empresa. Então, o professor Rodrigo teve a grande ideia de chamar você para criar um programa para a empresa dele. Crie um programa que dado o numero de carros, meses e o nome do carro, calcule o numero de vitórias total.</p>
+Formato da entrada: <ol><li>0&lt;<b>N</b>&lt;6 , sendo N a quantidade de carros</li><li><span>0&lt;</span><b>M</b><span>&lt;13; M indicando a quantidade de meses</span><br/></li><li><span>Um nome indicando o nome do carro.</span></li><li>E em seguida, <b>M</b> sequencia de numeros indicando o numero de vitorias daquele mês (0&lt;numeros&lt;1000).</li></ol><p>Obs : A entrada termina quando a quantidade de carros é igual a -1.</p>
+Formato da saída: <p>Uma string seguido do numero total de vitorias daquele carro, seguido de uma quebra de linha.</p>

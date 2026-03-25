@@ -1,0 +1,6 @@
+Título: Criptografia do zipzop
+Topicos do problema: array; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Júlia gosta de trocar mensagens com sua amiga Camila, mas elas não querem que seus amigos vejam suas conversas. Para isso, elas criaram um código de criptografia, que se baseia em utilizar o tamanho da stri</span><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">ng paramultiplicar o número do caractere na tabela ASCII (Imagem) por seu tamanho, MAS SOMENTE LETRAS SÃO PERMITIDAS. <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Para isso se utiliza o valor do caractere multiplicado por o tamanho da string</span>, quando a tabela encontrar o último caractere minúsculo (z num 122) ele pula para primeira maiúscula(A num 65), e ao chegar ao último das maiúsculas (Z num 90) ele deve pular para a primeira minúscula (a 97). Entrada tem entre 1 e 100 caracteres.</span><br/></p><p><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/da36b0c31580a12d7b5aed1f271bd61d4fa0fca78.jpg"/></p>
+Formato da entrada: <p>Eu quero um bolinho<br/></p>
+Formato da saída: <p>LX wXTQJ XV MJCupbJ<br/></p>

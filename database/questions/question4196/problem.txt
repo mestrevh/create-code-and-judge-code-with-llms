@@ -1,0 +1,6 @@
+Título: Perfil do investidor
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio abriu uma corretora e precisa de um programa para traçar o perfil dos investidores, conforme alocação em renda fixa e variável. Ambrósio considera que aqueles que investem apenas <b>até 10%</b> em renda variável são considerados <b>conservadores</b>. Já aqueles que investem mais <b>de 10% a até 30%</b> são <b>arrojados</b>. Já aqueles que investem <b>mais de 30%</b> em renda variável são considerados <b>agressivos</b>. Seu programa deve receber os valores investidos em renda fixa (nacional e internacional) e renda variável (nacional e internacional), calcular os percentuais e informar o perfil do cliente junto com seu percentual em renda variável.<br/></p>
+Formato da entrada: <p>Uma única linha contendo os valores (reais) de renda fixa nacional, renda fixa internacional, renda variável nacional e renda variável internacional separados entre si por um espaço em branco.<br/></p>
+Formato da saída: <p>Seu programa deve imprimir uma única linha, contendo o perfil do investidor e o percentual de renda variável sobre o total investido com 2 casas decimais entre parênteses.<br/></p>

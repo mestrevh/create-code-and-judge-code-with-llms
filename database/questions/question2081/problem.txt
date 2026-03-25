@@ -1,0 +1,6 @@
+Título: Valor máximo da expressão
+Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><div class="page" title="Page 21"><div class="layoutArea"><div class="column"><p><span>Dados dois inteiros positivos m e n, determinar, entre todos os pares de números inteiros (x,y) tais que 0 </span><span>≤ </span><span>x </span><span>≤ </span><span>m</span><span>, e 0 </span><span>≤ </span><span>y </span><span>≤ </span><span>n</span><span>, um par para o qual o valor da expressão </span><span>xy </span><span>− </span><span>x</span><span>2 </span><span>+ </span><span>y </span><span>seja máximo, e calcular também esse valor máximo.</span></p></div></div></div>
+Formato da entrada: <p>Dois números inteiros m e n.</p>
+Formato da saída: <p>O valor x e y do par (x,y) e o valor máximo da expressão.</p>

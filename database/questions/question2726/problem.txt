@@ -1,0 +1,6 @@
+Título: Múltiplos de 2 e 3
+Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça uma função que carregue uma lista com sete números inteiros,calcule e mostre:</p><p>- Os números múltiplos de 2</p><p>- Os números múltiplos de 3</p><p>- Os números múltiplos de 2 e 3.<br/></p>
+Formato da entrada: <p>2,3,12,18,9,4,10</p>
+Formato da saída: <p>[2,4,10,12,18]</p><p>[3,9,12,18]</p><p>[12,18]</p>

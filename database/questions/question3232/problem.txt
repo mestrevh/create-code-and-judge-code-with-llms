@@ -1,0 +1,6 @@
+Título: [AC3.3] - 3 dígitos
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que leia um número inteiro de três dígitos e imprima:<br/><br/>sim, se o dígito da centena for par ou se o dígito da dezena for ímpar.<br/></p><p>nao, caso contrário.<br/><br/>(sim e nao em minúsculo e sem til)</p>
+Formato da entrada: <p>Um número de 3 dígitos (não precisa se preocupar se não for, ele TERÁ 3 dígitos.)</p>
+Formato da saída: <p><span style="float: none;">Uma string, 'sim' ou 'não'</span><br/></p>

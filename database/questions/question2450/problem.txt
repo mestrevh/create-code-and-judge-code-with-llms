@@ -1,0 +1,6 @@
+Título: PROGCOMP - Seleção - C
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que recebe dois números inteiros distintos e exibe o maior.<br/></p>
+Formato da entrada: <p>Um número inteiro na primeira linha; um número inteiro na segunda linha.</p>
+Formato da saída: <p>O maior dos números.</p>

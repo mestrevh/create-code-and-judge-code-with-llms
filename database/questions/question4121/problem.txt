@@ -1,0 +1,6 @@
+Título: Alocação Dinâmica de Vetores
+Topicos do problema: array; função; ponteiro; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa em C que receba um valor n de entrada e, em seguida:<br style="color: rgba(0, 0, 0, 0.87);text-align: left;"/>• aloque espaço dinamicamente na memória para criar um vetor de char de n elementos e verifique se o espaço foi alocado com sucesso;<br style="color: rgba(0, 0, 0, 0.87);text-align: left;"/>• preencha o vetor criado com n caracteres digitados pelo usuario (string); ´<br style="color: rgba(0, 0, 0, 0.87);text-align: left;"/>• imprima o vetor preenchido na tela; e<br style="color: rgba(0, 0, 0, 0.87);text-align: left;"/>• libere o espaço de memória alocado.<br/></p>
+Formato da entrada: <p>N - Quantidade de caracteres de uma string (inteiro)</p><p>uma sequencia de caracteres de uma palavra (ler como string)</p><p><br/></p><p><br/></p>
+Formato da saída: <p>A sequencia de caracteres</p><p>O tamanho da alocado com o comando malloc</p><p><br/></p>

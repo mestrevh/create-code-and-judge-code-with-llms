@@ -1,0 +1,23 @@
+mkdir root pasta1
+mkdir root pasta2
+mkdir root pasta3
+mkdir root pasta4
+ls
+rm pasta4
+mkdir pasta4 pasta4-1
+mkdir pasta1 pasta1-1
+mkdir pasta1 pasta1-2
+mkdir pasta1 pasta1-3
+mkdir pasta1 pasta1-4
+ls
+rm pasta1-2
+rm pasta1-3
+mkdir pasta1 pasta1-5
+mkdir pasta1 pasta1-6
+ls
+rm pasta3
+rm pasta2
+ls
+rm pasta1
+ls
+quit
