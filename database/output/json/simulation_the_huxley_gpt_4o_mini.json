@@ -1,0 +1,17 @@
+[
+    {
+        "problem_id_the_huxley": 10,
+        "status_the_huxley": "CORRECT",
+        "tempo_the_huxley": 0.001521,
+        "total_acertos_the_huxley": 6,
+        "total_erros_the_huxley": 0,
+        "total_casos_teste_the_huxley": 6,
+        "modelo_do_coder": "models/gemini-2.5-flash",
+        "tempo_juder": "0.001",
+        "status_judger": "CORRECT",
+        "total_acertos_judger": 6,
+        "total_erros_judger": 0,
+        "total_testes_judger": 6,
+        "modelo_judger": "gpt-4o-mini"
+    }
+]
