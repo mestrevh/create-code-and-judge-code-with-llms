@@ -4,37 +4,33 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 */
 #include <iostream>
 #include <vector>
-#include <string>
 
-// Função para verificar se um jogador venceu
-bool checkWinner(char player, const std::vector<std::vector<char>>& board) {
-    // Verificar linhas
+// Function to check if a player has won
+bool check_win(const std::vector<std::vector<char>>& board, char player) {
+    // Check rows
     for (int i = 0; i < 3; ++i) {
         if (board[i][0] == player && board[i][1] == player && board[i][2] == player) {
             return true;
         }
     }
-
-    // Verificar colunas
+    // Check columns
     for (int j = 0; j < 3; ++j) {
         if (board[0][j] == player && board[1][j] == player && board[2][j] == player) {
             return true;
         }
     }
-
-    // Verificar diagonais
+    // Check diagonals
     if (board[0][0] == player && board[1][1] == player && board[2][2] == player) {
         return true;
     }
     if (board[0][2] == player && board[1][1] == player && board[2][0] == player) {
         return true;
     }
-
     return false;
 }
 
 int main() {
-    // Otimização padrão de I/O em C++
+    // Standard competitive programming I/O optimization
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
 
@@ -57,57 +53,53 @@ int main() {
             }
         }
 
-        bool xWins = checkWinner('X', board);
-        bool oWins = checkWinner('O', board);
+        bool x_wins = check_win(board, 'X');
+        bool o_wins = check_win(board, 'O');
 
-        // Cenário 1: Ambos os jogadores venceram simultaneamente (impossível em um jogo legal)
-        if (xWins && oWins) {
+        // Rule 1: Basic count check (X always starts)
+        // O cannot have more moves than X (countO > countX).
+        // X cannot have more than one extra move than O (countX > countO + 1).
+        if (countO > countX || countX > countO + 1) {
             std::cout << "ILEGAL\n";
-        } 
-        // Cenário 2: X venceu
-        else if (xWins) {
-            // Se X venceu, X deve ter feito a última jogada.
-            // Isso significa que countX deve ser exatamente countO + 1.
-            // Qualquer outra contagem (e.g., countX == countO ou countX > countO + 1)
-            // é ilegal, pois implica que O jogou por último ou X jogou mais de uma vez.
-            if (countX == countO + 1) {
-                std::cout << "X_VENCEU\n";
-            } else {
-                std::cout << "ILEGAL\n";
-            }
-        } 
-        // Cenário 3: O venceu
-        else if (oWins) {
-            // Se O venceu, O deve ter feito a última jogada.
-            // Isso significa que countX deve ser exatamente countO.
-            // countX não pode ser maior que countO (X jogou por último).
-            // countX não pode ser menor que countO (O começou ou jogou mais).
-            if (countX == countO) {
-                std::cout << "O_VENCEU\n";
-            } else {
-                std::cout << "ILEGAL\n";
-            }
-        } 
-        // Cenário 4: Ninguém venceu (o jogo pode estar em andamento ou ser ilegal por contagem de jogadas)
-        else {
-            // Verificação de ilegalidade de contagem de jogadas para jogos sem vencedor:
-            // - O não pode ter mais jogadas que X (X sempre começa).
-            // - X não pode ter mais de uma jogada extra que O.
-            // Ou seja, countX deve ser countO ou countO + 1.
-            if (countO > countX || countX > countO + 1) {
-                std::cout << "ILEGAL\n";
-            } else {
-                // Se a contagem de jogadas é válida e não há vencedor:
-                // Se o tabuleiro estiver cheio (9 casas ocupadas), é um empate.
-                // Conforme a regra: "em caso de empate considere que o jogo está em andamento".
-                if (countX + countO == 9) {
-                    std::cout << "EM_ANDAMENTO\n";
-                } else {
-                    // Caso contrário, o jogo está em andamento.
-                    std::cout << "EM_ANDAMENTO\n";
-                }
-            }
+            continue;
         }
+
+        // Rule 2: Check for simultaneous wins (illegal)
+        if (x_wins && o_wins) {
+            std::cout << "ILEGAL\n";
+            continue;
+        }
+
+        // Rule 3: Check if X won
+        if (x_wins) {
+            // If X won, X must have made the last move.
+            // This means countX must be exactly countO + 1.
+            // If countX == countO, it implies O played after X won, which is illegal.
+            if (countX == countO) {
+                std::cout << "ILEGAL\n";
+            } else { // countX == countO + 1 is the only valid state if X won
+                std::cout << "X_VENCEU\n";
+            }
+            continue;
+        }
+
+        // Rule 4: Check if O won
+        if (o_wins) {
+            // If O won, O must have made the last move.
+            // This means countX must be exactly countO.
+            // If countX == countO + 1, it implies X played after O won, which is illegal.
+            if (countX == countO + 1) {
+                std::cout << "ILEGAL\n";
+            } else { // countX == countO is the only valid state if O won
+                std::cout << "O_VENCEU\n";
+            }
+            continue;
+        }
+
+        // Rule 5: If no one has won and no illegal conditions found above, the game is ongoing.
+        // This covers partially filled boards and full boards that result in a tie.
+        // The problem states: "em caso de empate considere que o jogo está em andamento".
+        std::cout << "EM_ANDAMENTO\n";
     }
 
     return 0;

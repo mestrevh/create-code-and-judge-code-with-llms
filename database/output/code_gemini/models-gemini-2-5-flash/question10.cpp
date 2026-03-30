@@ -6,7 +6,7 @@ Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
 #include <vector>
 #include <string>
 #include <algorithm>
-#include <limits> // Para std::numeric_limits
+#include <limits>
 
 int main() {
     std::ios_base::sync_with_stdio(false);
@@ -14,25 +14,20 @@ int main() {
 
     int n;
     while (std::cin >> n && n != 0) {
-        std::vector<std::string> guests;
-        guests.reserve(n);
-
-        // Após ler um inteiro com o operador >>, o caractere de nova linha
-        // (que encerra a linha onde 'n' foi digitado) permanece no buffer de entrada.
-        // Precisamos consumi-lo antes da primeira chamada a std::getline,
-        // que lê linhas completas, para evitar que a primeira linha lida seja vazia.
+        // Após ler o inteiro 'n' com 'std::cin >> n', o caractere de nova linha
+        // ('\n') permanece no buffer de entrada. É necessário descartá-lo antes
+        // de usar 'std::getline' para ler os nomes, pois 'getline' leria a linha vazia.
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
+        std::vector<std::string> guests(n);
         for (int i = 0; i < n; ++i) {
-            std::string name;
-            std::getline(std::cin, name);
-            guests.push_back(name);
+            std::getline(std::cin, guests[i]);
         }
 
         std::sort(guests.begin(), guests.end());
 
-        for (const std::string& guest : guests) {
-            std::cout << guest << '\n';
+        for (const std::string& name : guests) {
+            std::cout << name << '\n';
         }
     }
 

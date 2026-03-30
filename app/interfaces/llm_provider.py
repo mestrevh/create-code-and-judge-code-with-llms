@@ -21,6 +21,10 @@ class LLMProvider(ABC):
     @abstractmethod
     def generate_code(self, problem: ProblemRepository, path: str, prompt: any, model_name: str) -> bool:
         
+        if file_manager.file_exist(path=f"{path}/question{problem.get_id()}.cpp"):
+            print(f"[Generate Code]: Já foi criado o arquivo question{problem.get_id()}.cpp")
+            return True
+        
         code = self.send_prompt(prompt)
         
         if code[0] == "`":
@@ -48,6 +52,10 @@ class LLMProvider(ABC):
     @abstractmethod
     def evaluate_code(self, problem: ProblemRepository, path:str, prompt: any, model_name: str) -> bool:
         
+        if file_manager.file_exist(path=f"{path}/judge{problem.get_id()}.md"):
+            print(f"[Evaluate Code]: Já foi criado o arquivo judge{problem.get_id()}.md")
+            return True
+        
         response = self.send_prompt(prompt=prompt)
         
         if response is None:
@@ -69,6 +77,23 @@ class LLMProvider(ABC):
     
     @abstractmethod
     def simulation_the_huxley(self, problem: ProblemRepository, code_path: str, path: str, prompt:any, model_name: str, code: str) -> bool:
+        
+        name_file = model_name.replace('/', '_')
+        name_file = name_file.replace('.', '_')
+        name_file = name_file.replace('-', '_')
+        name_file = f"simulation_the_huxley_{name_file}.json"
+        
+        if file_manager.file_exist(path + f"/{name_file}"):
+            json_file = file_manager.read_file(path + f"/{name_file}")
+            json_file = json.loads(json_file)
+            
+            ids_existentes = [entry["problem_id_the_huxley"] for entry in json_file]
+            
+            if problem.get_id() in ids_existentes:
+                print("[SIMULATION THE HUXLEY]: simulação já foi feita!")
+                return True
+            
+            
         
         response_send_code_the_huxley = request_web.post_code_the_huxley(problem.get_id(),
                                                                          code=code,
@@ -123,6 +148,10 @@ class LLMProvider(ABC):
         
         response_prompt = self.send_prompt(prompt=prompt)
         
+        if response_prompt is None:
+            print("[LLM SERVICE]: Não produziu resposta!")
+            return False
+        
         if response_prompt[0] != '{':
             response_prompt = response_prompt[8: len(response_prompt) - 3]
             print(response_prompt)
@@ -145,11 +174,6 @@ class LLMProvider(ABC):
             print(f"[File Manager]: {path} criado com sucesso")
         else:
             return False
-        
-        name_file = model_name.replace('/', '_')
-        name_file = name_file.replace('.', '_')
-        name_file = name_file.replace('-', '_')
-        name_file = f"simulation_the_huxley_{name_file}.json"
         
         if not file_manager.file_exist(path + f"/{name_file}"):
             if file_manager.create_file(name_file=name_file, path=path, content="[]"):

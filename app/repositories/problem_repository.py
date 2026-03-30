@@ -76,16 +76,16 @@ class ProblemRepository (ProblemInterface):
     def get_cases_test_of_problem(self):
         
         output = "<test cases>\n"
-        
+        print(self.get_id())
         for i in range(len(self.__problem.cases_test)):
             output += f"<test {i}>\n"
             
-            if self.__problem.cases_test[i]["input"] is not None:
+            if self.__problem.cases_test[i].get("input") is not None:
                 output += "<input test>\n"
                 output += self.__problem.cases_test[i]["input"]
                 output += "</input test>\n"
             
-            if self.__problem.cases_test[i]["output"] is not None:
+            if self.__problem.cases_test[i].get("output") is not None:
                 output += "<output test>\n"
                 output += self.__problem.cases_test[i]["output"]
                 output += "</output teste>\n"
