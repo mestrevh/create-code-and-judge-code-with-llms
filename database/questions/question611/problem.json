@@ -1,0 +1,10 @@
+{
+    "title": "Mapa de altura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um mapa de altura é uma matriz de duas dimensões de inteiros positivos que representam um poliedro. Cada célula da matriz com valor V representa um paralelepípedo de 1 X 1 X V que está sobre uma de suas 1 X 1 faces da célula. Isso cria um poliedro com uma face simples no fundo composta de todas as faces 1X1 voltadas para baixo combinadas e, possivelmente, várias faces no topo e nos lados. Por exemplo, uma matriz 2X2 com todos os valores iguais a 2 representam um cubo de lado 2. Entretanto se um dos valores é 1, o poliedro representado é o mesmo cubo com um canto \"cortado\". Embora nem todo poliedro possa ser representado dessa forma, vários poliedros podem. Dado um mapa de altura, você deve contar o número de faces do poliedro. Note que uma face é definida como um polígono simples que descreve uma fronteira contínua e máxima de um poliedro. É possível que duas faces coplanares diferentes compartilhem o mesmo vértice, ou mesmo um lado, ou até partes de um lado.",
+    "format_input": "A primeira linha contém dois inteiros R e C, representando respectivamente o número de linhas e colunas do mapa de altura (1 <= R, C <=100). Cada uma das próximas R linhas contém C inteiros; o j-ésimo inteiro na i-ésima linha é o valor Vi,j localizado na i-ésima linha e j-ésima coluna da matriz ( 1<= Vi,j <= 10^9 para i = 1, 2, ..., R e j= 1, 2, ..., C).",
+    "format_output": "Imprima uma linha com um inteiro representando o número de faces do poliedro representado pelo mapa de altura.",
+    "topics": [
+        "maratona"
+    ]
+}

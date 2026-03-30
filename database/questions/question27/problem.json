@@ -1,0 +1,14 @@
+{
+    "title": "Jogo de Cartas-WAR",
+    "time_limit": "5 segundo(s)",
+    "descrition": "No WAR, um baralho padrão com 52 cartas é distribuído entre 02 jogadores. (1 e 2), sendo 26 cartas para cada um. Os jogadores não podem olhar as suas cartas, de tal forma que elas ficam de face para baixo em cima da mesa. O objetivo do jogo é ganhar todas as cartas. Ambos os jogadores jogam pegando a carta do topo da sua pilha de cartas, virando-a com face para cima e colocando-a sobre a mesa. Quem virar a maior carta, adiciona as duas cartas, com face para baixo, embaixo da sua pilha de cartas. As cartas são ranqueadas de forma usual, da mais alta para a mais baixa: A, K, Q, J, T, 9. 8, 7, 6, 5, 4, 3, 2. Os naipes são ignorados. Ambos os jogadores retiram a próxima carta de suas pilhas e repetem o procedimento descrito acima. O jogo continua até que um dos jogadores ganhe ficando com todas as cartas. Quando as cartas desviradas são iguais, diz-se que ocorreu um WAR. Essas cartas permanecem na mesa, cada jogador deve colocar mais uma carta na mesa, virada para baixo, e mais uma carta virada para cima. Quem obtiver a maior carta das cartas viradas para cima ganha o WAR. Caso haja empate novamente, o WAR prossegue até que não haja mais WAR. Se alguém ficar sem cartas no meio de um WAR, o outro jogador ganha automaticamente. As cartas são adicionadas no fundo da pilha de cartas do vencedor de cada rodada na mesma ordem em que elas foram colocadas, primeiro o jogador 1, depois o jogador 2.",
+    "format_input": "A entrada consiste de um inteiro n, indicando quantos jogos serão feitos. Depois serão lidos os jogos, onde cada jogo consiste de duas linhas, representando as 26 cartas de cada jogador. Sendo a primeira linha as cartas do jogador 1 e a segunda do jogador 2. Cada carta é representada por dois caracteres, o seu valor e o naipe.",
+    "format_output": "A saída consiste em informar o número de jogadas necessárias para um dos jogadores ganhar. Considera-se uma jogada, cada vez que os jogadores precisam desvirar uma carta de sua pilha de cartas. O número máximo de jogadas é 100.000 (cem mil). A saída deve impressa no seguinte formato: jogador X ganhou com Y passos. Onde, X pode ser 1 ou 2 e Y é o número de passos. Se por acaso, acontecer de chegar a 100.000 jogadas e não houver um vencedor a saída deve ser: jogo empatado apos 100000 jogadas. Jogador 1 |W| cartas e jogador 2 |Z| cartas. Onde W é o número de cartas que estão na pilha do jogador 1 e Z o número de cartas da pilha do jogador 02.",
+    "topics": [
+        "estrutura de dados",
+        "simulação de jogos",
+        "pilha",
+        "string",
+        "dicionário"
+    ]
+}

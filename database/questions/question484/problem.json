@@ -1,0 +1,12 @@
+{
+    "title": "Animais no Zoológico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Animal Zoo está realizando um cadastro de todos os animais que abriga em suas dependências. Escreva um programa que receba como entrada o tipo (Ex: elefante, jacaré, etc), o peso e o país de origem de vários animais, até que tenham sido informados todos, e exiba a quantidade de macacos, o peso médio dos tigres, e a quantidade de cobras que vieram da Venezuela.",
+    "format_input": "Para cada animal, um valor String, um valor real e outro valor String. Após informar os dados de cada animal, o usuário deverá informar também se deseja cadastrar mais animais. A entrada deve ser encerrada quando for informado o String PARAR, escrito de qualquer forma.",
+    "format_output": "Um valor inteiro, um valor real com 2 casas decimais, e outro valor inteiro Dica: Pode ser que não haja tigres nesse zoológico. Atenção para o cálculo do peso médio.",
+    "topics": [
+        "decisão",
+        "função",
+        "string"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Matriz Aleatória",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Como você é amigo de Miguelito e sempre gosta de mostrar várias questões de computação. Desta vez foi uma matriz muito especial e aparentemente aleatória. Miguelito está com dificuldades de encontrar o padrão e você decidiu ajudá-lo, ele vai informar as dimensões de uma matriz e você como bom amigo mostrará como vai ficar a matriz.",
+    "format_input": "Dois inteiros L e C representando as dimensões da matriz. 1 <= L, C <= 10",
+    "format_output": "A matriz.",
+    "topics": [
+        "ad-hoc",
+        "entrada formatada"
+    ]
+}

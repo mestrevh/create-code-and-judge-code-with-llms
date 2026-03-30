@@ -1,0 +1,11 @@
+{
+    "title": "Distribuição Eletrônica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sra. Biscoita é uma Deusa da química. Ela está estudando distribuição eletrônica, mais especificamente: O Diagrama de Linus Pauling. Ela achou muito fácil, tanto que ela achou a distribuição de todos os átomos da tabela periódica. Ela encontrou outros modelos estranhos de diagrama, e apenas para praticar, ela resolveu achar a distribuição eletrônica com base nessas tabelas. O problema é que ela não tem certeza de que sua resposta está certa. Por isso, ela pediu para você criar um programa que acha a distribuição eletrônica, com base em algum diagrama, de cada átomo da tabela periódica. Este é o Diagrama de Linus Pauling. Vamos pegar o elemento \"Na\" que tem número atômico igual a 11. Devemos somar até chegar no número atômico, e assim como é mostrado na imagem, o cálculo é feito diagonalmente, começado de cima. Daí: \"Na\" tem distribuição: 1s(2) 2s(2) 2p(6) 3s(1). Pois: 2 + 2 + 6 + 1 = 11. (Note que o último tem \"2\" disponível, mas, não podemos ultrapassar o limite)",
+    "format_input": "A primeira linha da entrada consiste em dois inteiros: N e M, representando a quantidade máxima de linhas e a quantidade máxima de colunas respectivamente. Em seguida, serão dadas N linhas, onde será dado K, representando a quantidade de configurações, seguido de K configurações. E então, a última linha contém E e Z, representando o símbolo do átomo e seu número atômico, respectivamente.",
+    "format_output": "A saída deve conter o Diagrama dado. Em seguida, deve ser escrito: \"Atom:\" seguido do nome do átomo, e \"Atomic number:\" seguido do número atômico. Em seguida, deve ser escrita a distribuição eletrônica do átomo.",
+    "topics": [
+        "acumulador",
+        "array bidimensional"
+    ]
+}

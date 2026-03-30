@@ -1,0 +1,10 @@
+{
+    "title": "Conhecendo o cliente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma loja deseja conhecer o perfil de seus (suas) clientes e para isso vai fazer uma pesquisa usando um programa que ficará no caixa. Ele vai perguntar a cada cliente no momento da compra as seguintes informações: idade, valor da compra e tipo de pagamento (C: cartão; V: à vista). Essas perguntas serão feitas enquanto a resposta for (S)IM. Quando a resposta for (N)ÃO, a pesquisa deve ser encerrada e o programa deve exibir as seguintes informações: A quantidade de vendas realizadas; O total de vendas à vista e no cartão; A idade do cliente mais jovem; O valor da maior compra; A média de compras feitas à vista;",
+    "format_input": "Você deve receber do usuário as seguintes informações: Idade (int) Valor da compra (float) Tipo de pagamento (C: cartão; V: à vista) Um caractere \"S\" ou \"N\" que indica se o programa deve continuar ou não",
+    "format_output": "A saída é dada pelos seguintes valores (nessa ordem): A quantidade de vendas realizadas (int); O valor total de vendas à vista (float); O valor total de vendas no cartão (float); A idade do cliente mais jovem (int); O valor da maior compra (float); A média de compras feitas à vista (float); Todos os valores float devem ter arredondamento de 2 casas decimais",
+    "topics": [
+        "repetição"
+    ]
+}

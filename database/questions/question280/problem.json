@@ -1,0 +1,11 @@
+{
+    "title": "Salário com Bônus",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.",
+    "format_input": "O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 números com duas casas decimais, representando o salário fixo do vendedor e montante total das vendas efetuadas por este vendedor, respectivamente.",
+    "format_output": "Imprima o total que o funcionário deverá receber, conforme exemplo fornecido. Você deve sempre arredondar. Por exemplo, se o resultado for 57.347, você deve imprimir 57.35 e não 57.34",
+    "topics": [
+        "ponto flutuante",
+        "lógica matemática"
+    ]
+}

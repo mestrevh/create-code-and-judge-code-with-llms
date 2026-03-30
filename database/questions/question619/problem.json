@@ -1,0 +1,13 @@
+{
+    "title": "Ambrósio e os números especiais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio gosta muito de números especiais. Um número é tido especial se é não negativo, e seu primeiro digito é igual ao ultimo. Ex: 0, 3, 5005, 5345, 111, são números especiais , já o número 1000 não é especial. Ambrósio tem um array A1, A2, A3 .. AN. Ele quer que você execute as seguintes Q operações: 1 L R : encontre o número de números especiais no intervalo [L, R]. 2 i K : substitua o i-ésimo elemento do array A por K. ou seja Ai = K;",
+    "format_input": "A primeira linha é composta por dois inteiros N e Q, que indicam o tamanho do array e a quantidade de operações respectivamente. Cada operação consiste de 3 inteiros como diz a descrição. O primeiro desses 3 inteiros indica qual operação deve ser feita. 1 ≤ N , Q ≤ 2*10^5 -10^18 ≤ Ai ≤ 10^18 1 ≤ L,R ≤ N -10^18 ≤ K ≤ 10^18",
+    "format_output": "Para cada operação do tipo 1, imprima a quantidade de números especiais contidos no intervalo definido , um por linha.",
+    "topics": [
+        "segment tree",
+        "números binários",
+        "binary indexed tree",
+        "requer solução eficiente"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Somatório e Produtório",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em Java que leia um valor inteiro N. Caso o valor de N seja positivo ou igual a zero, calcule e apresente a soma S definida pela sequência: S=0/1+1/2+2/3+3/4+⋯+N /(N +1). Caso o valor de N seja negativo, transforme o valor de N para positivo, calcule apresente o produto P definido pela sequência: P = 3/1 * 4/2 * 5/3 * ⋯ * (N+2)/N. Obs: Se você estiver fazendo uma divisão de dois inteiros, por exemplo N/(N+1), o resultado será um valor inteiro e as casas decimais serão truncadas. Por exemplo, 1/2 será igual a zero e não 0.5, como esperado. Você precisa usar cast para forçar que o resultado seja convertido para um número real (double).",
+    "format_input": "Um valor inteiro N.",
+    "format_output": "O valor resultante da soma S ou do produto P.",
+    "topics": [
+        "Java",
+        "Lógica de Programação",
+        "Matemática",
+        "Estruturas de Repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "L1Q9 - Mario Tennis",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após a festa, Princesa Peach resolveu fazer uma partida comemorativa de Tênis nos arredores do castelo. Porém Bowser, irritado por não ter sido chamado para as comemorações, pediu para você criar um robô disfarçado de um dos amigos do Mário, para ganhar de todos na partida. Seu objetivo é criar um código que rebata todas as bolas que entrem corretamente em uma quadra de comprimento especificado. O tênis funciona de forma simplificada no Reino do Cogumelo, então você só precisa tratar de duas situações: Saque: Se a bola está sendo sacada ela precisa cair na área de saque adversária (ver imagem). Bola Normal: Se não é um saque, a bola precisa cair em qualquer lugar dentro da quadra adversária . Ou seja, se a bola não seguir essas regras, ela não entrou corretamente, o robô precisa apenas avisar que a bola foi para fora. Importante: - O jogador adversário sempre joga do lado direito e o robô no esquerdo. - O primeiro quadrante de cada lado representa 25% da quadra inteira. - O segundo quadrante de cada lado também representa 25% da quadra inteira. - A quadra adversária representa 50% da quadra inteira. - Se a bola cair do lado do adversário, fora da quadra OU na rede é considerado bola fora.",
+    "format_input": "- Comprimento C: Comprimento da quadra (número inteiro) - Largura L: Largura da quadra (número inteiro) - Tipo Tipo: Tipo da situação (“Saque” ou “Bola Normal”) (String) - CoordenadaX - CoordenadaY Coordenadas: Aonde a bola vai chegar (X = Comprimento, Y = Largura) (ambos números inteiros)",
+    "format_output": "Resultado: Uma String com “A bola foi rebatida” OU “A bola foi para fora”.",
+    "topics": [
+        "simulação de jogos",
+        "decisão"
+    ]
+}

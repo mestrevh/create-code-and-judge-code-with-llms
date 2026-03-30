@@ -1,0 +1,11 @@
+{
+    "title": "Sequencia do Alfabeto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá uma sequência de 5 caracteres (todos minúsculos) e deverá informar se eles formam uma sequencia contínua em relação a suas posições no alfabeto. Digamos que as letras sejam (h, j, i, l, k) a resposta seria sim , pois elas formam uma sequência contínua no alfabeto (h, i, j, k, l). Já a sequencia (a, i, j, k, l) não é contínua.",
+    "format_input": "5 caracteres minúsculos do alfabeto(não necessariamente ordenados alfabeticamente), 1 por linha.",
+    "format_output": "sim , caso a ordem no alfabeto forme uma sequência contínua. nao, caso contrário",
+    "topics": [
+        "decisão",
+        "caractere"
+    ]
+}

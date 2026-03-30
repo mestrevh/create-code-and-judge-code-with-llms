@@ -1,0 +1,14 @@
+{
+    "title": "Contar letras em um texto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia um valor inteiro N seguido de uma sequência de N+1 linhas. Destas N+1 linhas, a última será uma string contendo caracteres cujas ocorrências destes nas N linhas anteriores devem ser contadas e impressas individualmente por caractere na saída do programa.",
+    "format_input": "Um número inteiro positivo N, seguido de N+1 strings, conforme exemplo abaixo: 2 Meu computador Minha vida Mabc",
+    "format_output": "K linhas, sendo que K corresponde ao número de caracteres da última string da entrada. Cada linha deve conter o caractere seguido de um espaço em branco, um símbolo de igual (=), outro espaço em branco e um número inteiro que corresponde à quantidade de vezes que o caractere foi encontrado nas N linhas anteriores.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "repetição",
+        "caractere",
+        "string"
+    ]
+}

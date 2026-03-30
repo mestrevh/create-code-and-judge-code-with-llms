@@ -1,0 +1,10 @@
+{
+    "title": "Agricultura no mundo atual",
+    "time_limit": "1 segundo(s)",
+    "descrition": "1. (Uel) Considere as frases a seguir. A “Afinal, o que é o homem dentro da natureza? [...] é-lhe impossível ver o nada de onde saiu e o infinito que o envolve.[...] O autor destas maravilhas conhece-as; e ninguém mais”. (Blaise Pascal) B “A antiga aliança rompeu-se. O homem sabe, finalmente, que está só na imensidade indiferente do universo, donde emergiu por acaso. Nem o seu destino nem o seu dever estão escritos em parte alguma”. (Jacques Monod) C “[...] a vida foi aqui lançada com microrganismos que teriam vindo nalguma forma de nave espacial enviada por uma civilização superior”. (Francis Crick) Assinale a alternativa que indica, corretamente, as frases que expressam, respectivamente, as posições em defesa de: criacionismo, panspermia e evolucionismo.",
+    "format_input": "a) A, B, C. b) A, C, B. c) B, A, C. d) B, C, A. e) C, A, B.",
+    "format_output": "null",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

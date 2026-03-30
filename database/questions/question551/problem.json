@@ -1,0 +1,11 @@
+{
+    "title": "Chaves de fuga",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Para atravessar as portas, Elrohir e seus companheiros de cela precisam descobrir as senhas que abrem cada fechadura. Soul lhes informou as chaves de cada fechadura, porém Tantan of Rivia só conseguiu decifrar a primeira depois de muito tempo, e descobriu que se aplicar a seguinte função na palavra, pode-se obter a chave: chave = ((primeiraLetra * 71) + (quartaLetra * 73)) * ((segunda*79)+(terceiraLetra*83)); Porém eles teem apenas as chaves, e como estudaram bastante, sabem que é MUITO MAIS DIFICIL descobrir a palavra revertendo a função do que validar uma palavra usando a função; Então o melhor jeito de encontrar é utilizando força bruta, que consiste em testar todas as senhas possiveis, para descobrir as senhas e então sair daquele lugar antes que Moon Moon chame a atenção de todos num raio de 1km tentando destruir as portas. Cada senha é composta por 4 letras minusculas.",
+    "format_input": "A entrada é composta por um N com o numero de chaves a serem decifradas seguida por N chaves. N key1 key2 ... keyN",
+    "format_output": "A saída é composta por N senhas de 4 caracteres cada seguidas de um final de linha. senha1 senha2 ... senhaN",
+    "topics": [
+        "função",
+        "ponteiro"
+    ]
+}

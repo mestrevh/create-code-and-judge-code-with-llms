@@ -1,0 +1,10 @@
+{
+    "title": "Cálculo do IMC",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba as características (massa e altura) de uma pessoa e retorne seu IMC - Índice de Massa Corporal. O valor de saída deve ser arredondado usando 2 casas decimais.",
+    "format_input": "A massa em Kg que pode estar entre 1 e 500. A altura em metros (m) que pode estar entre 1 e 2.8",
+    "format_output": "O índice de massa corporal da pessoa. O valor de saída deve ser arredondado usando 2 casas decimais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

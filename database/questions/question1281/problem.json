@@ -1,0 +1,10 @@
+{
+    "title": "L4Q1 - Traço de uma matriz.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fulano De Tal finalmente entrou no melhor centro de informática da América Latina. Como ele sempre gostou muito de matemática e sabia que precisaria do assunto de matrizes na cadeira de Álgebra Linear, decidiu usar seus conhecimentos de programação para calcular o traço de uma matriz quadrada. Além disso, calcular a soma dos elementos da diagonal secundária de uma matriz quadrada. Seu trabalho é fazer um programa que, dado o número de linhas e colunas de uma matriz, identificar se ela é quadrada e imprimir a matriz. Caso ela seja, seu programa deve calcular o traço (soma dos elementos da diagonal principal), e a soma dos elementos da diagonal secundária.",
+    "format_input": "N M N - número natural M - número natural A primeira e a segunda linha de entrada é referente ao número de linhas e colunas da matriz, respectivamente. Seguido de uma sequência de N*M inteiros : A00 A01 ... Aij elementos da matriz. obs: Os elementos são dados para formar a matriz linha por linha, da esquerda para direita.",
+    "format_output": "\"A matriz nao possui traco\" Caso a matriz dada não seja quadrada. Caso a matriz seja quadrada, T D T - número inteiro D - número inteiro Em que T é referente ao traço e D referente à soma dos elementos da diagonal secundária. Depois, imprimir a matriz, independentemente se é quadrada ou não, separando os elementos de mesma linha com espaço, e com quebra de linha depois do último elemento de cada linha. A00 .... A0j .... Ai0 .... Aij",
+    "topics": [
+        "array bidimensional"
+    ]
+}

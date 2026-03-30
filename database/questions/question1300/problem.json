@@ -1,0 +1,15 @@
+{
+    "title": "Laplace Expansion",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A determinante de uma matriz é um valor muito útil em diversas áreas. Esse valor é calculado utilizando utilizando os valores de uma matriz quadrada, e representa o fator de escalabilidade da transformação descrita pela matriz. No caso de uma matriz 1 x 1: |A| = |a| = a. No caso de uma matriz 2 x 2: Porém, quando as dimensões da matriz vão aumentando: Um método comum de calcular a determinante é utilizando a Expansão de Laplace. Que funciona como segue: exemplo: No caso de uma matriz 3 x 3: Porém, isso pode dar muito trabalho de ser calculado manualmente, por isso, implemente a Expansão de Laplace para calcular a determinante de uma matriz quadrada.",
+    "format_input": "A primeira linha da entrada contém um inteiro N, representando a dimensão da matriz quadrada. As N linhas seguintes contém N inteiros, representando os valores da matriz. Restrições: N < 10",
+    "format_output": "A saída deve conter um inteiro D, representando a determinante da matriz quadrada.",
+    "topics": [
+        "acumulador",
+        "lógica matemática",
+        "repetição",
+        "array bidimensional",
+        "recursão",
+        "dividir e conquistar"
+    ]
+}

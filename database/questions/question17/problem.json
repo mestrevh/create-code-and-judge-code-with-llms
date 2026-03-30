@@ -1,0 +1,8 @@
+{
+    "title": "Antecessor e Sucessor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia um número inteiro e imprima o seu antecessor (inteiro anterior) e o seu sucessor (inteiro posterior).",
+    "format_input": "Um número inteiro.",
+    "format_output": "O inteiro anterior e o sucessor, separados por um espaço.",
+    "topics": []
+}

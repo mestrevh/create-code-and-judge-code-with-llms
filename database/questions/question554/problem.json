@@ -1,0 +1,10 @@
+{
+    "title": "Pedrinhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um colecionador de rochas precisa desenvolver um programa para catalogar as suas pedrinhas. Em particular, é necessário que o programa informe quantas categorias distintas de pedras existem na coleção e qual categoria contém o maior número de exemplares. As pedras são divididas em categorias de acordo com características físicas que revelam suas componentes e processo de formação. Se, portanto, uma pedra A tem características idênticas a uma pedra B, então elas pertencem à mesma categoria. Se, por sua vez, B possui características idênticas a uma pedra C, então, nesse caso, A, B e C pertencem à mesma categoria. Num exame preliminar, foram examinados todos os pares de pedras para se determinar quais delas possuem as mesmas características.",
+    "format_input": "A entrada é constituída por C casos, cada um correspondendo a uma coleção de pedras, na forma P N X1 Y1 X2 Y2 ... XN YN onde P = quantidade de pedras na coleção. Cada pedra será representada por um número em 0,....,P-1. N = quantidade de pares de pedras com características idênticas (listados a seguir) Xj Yj (j=1,...,N) = pares de pedras com as mesmas características Após cada caso, há uma linha em branco. Limites: 1 <= C <= 50 1 <= P <= 100000 0 <= N <= 40000 0 <= X, Y < 100000",
+    "format_output": "Para cada caso no arquivo de entrada, numerados de 1 a C, o programa deverá imprimir uma linha na forma caso K: D M onde K = número do caso (1<=K<=C) D = número de categorias distintas M = número de pedras da categoria com mais exemplares.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

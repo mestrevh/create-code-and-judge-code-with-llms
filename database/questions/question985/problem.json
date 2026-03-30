@@ -1,0 +1,11 @@
+{
+    "title": "Multiplicando números",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Dado uma sequência de números N1, N2, N3, ... Nm, informe quantos zeros tem no final do produto dos números. A sequência termina quando um número negativo for lido, ou seja o número negativo não faz parte da sequência. A sequência tem no máximo 200 números. 0 <= Ni <= 100.000",
+    "format_input": "Uma sequência de números com um número negativo no final.",
+    "format_output": "Informe a quantidade de zeros no final do resultado.",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

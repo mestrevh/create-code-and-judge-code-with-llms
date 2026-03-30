@@ -1,0 +1,10 @@
+{
+    "title": "Muitas Paçocas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os alunos da monitoria de introdução a programação estavam com saudades das questões que Lucas (monitor) faz. Para isso eles decidiram arrecadar a maior quantidade de paçocas possível em troca de uma questão desafio. Com tantas paçocas - foram muitas mesmo -, Valgueiro, outro monitor, decidiu dividir todas igualmente entre os monitores, e o resto da divisão ele daria para a primeira pessoa que resolvesse a questão, assim não teria confusão sobre quem ficaria com mais paçocas no grupo. Agora todos estão curiosos para saber quantas paçocas cada um irá receber. Dado o número de paçocas arrecadadas e a quantidades de monitores na equipe de monitoria, você deve informar quantas paçocas cada monitor deve ganhar e quantas sobram para o aluno vencedor.",
+    "format_input": "A entrada consiste de três números inteiros, D (0 < D < 200), P (10^{D-1} <= P < 10^D) e M (2 < M < 500), representado a quantidade de dígitos necessários para representar P, quantidade de paçocas recebidas pelos monitores e a quantidade de monitores, respectivamente. Sabemos que P >= M e P % M != 0, assim cada monitor ganha ao menos uma paçoca o aluno vencedor também. OBS: A quantidade de paçocas pode ser muito grande, passando dos limites dos tipos básicos na maioria da linguagens de programação.",
+    "format_output": "A saída consiste em dois números inteiros L e V, separados por um espaço, representando a quantidade que cada monitor vai ganhar e a quantidade que o ganhador do desafio vai ganhar, respectivamente.",
+    "topics": [
+        "acumulador"
+    ]
+}

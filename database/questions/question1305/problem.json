@@ -1,0 +1,11 @@
+{
+    "title": "Jogo da velha com os amigos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um jogo da velha para jogar com seus amigos! O jogo iniciará automaticamente e você poderá escolher após cada partida finalizada se prefere continuar o jogo utilizando o número '1' ou encerrar utilizando o número '0'. Após iniciarmos o jogo cada jogador botará as coordenadas que quer jogar, sendo o jogador 1 o 'O' e o jogador 2 o 'X'. Termina o jogo quando alguém vencer ou der empate. Assim que o jogo terminar será visto na tela como o tabuleiro ficou após a última jogada e quem foi o vencedor ou se foi empate. OBS:Se um jogador tentar jogar em uma casa que já foi jogada, ele terá que repetir a jogada",
+    "format_input": "Uma sequência de coordenadas X, Y. Quando houver um vencedor, será digitado '1' para continuar a jogar ou '0' para parar o jogo.",
+    "format_output": "A cada jogo terminado, imprimir o tabuleiro após a última jogada, seguido de uma quebra de linha, e o resultado, também seguido de uma quebra de linha. Em caso de vitória do jogador 1 imprimir \"jogador 1 venceu\" Em caso de vitória do jogador 2 imprimir \"jogador 2 venceu\" Em caso de empate imprimir \"empate\"",
+    "topics": [
+        "array bidimensional",
+        "função"
+    ]
+}

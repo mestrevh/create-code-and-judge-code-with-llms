@@ -1,0 +1,10 @@
+{
+    "title": "Qual a posição do elemento na matriz?",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Dado uma matriz Am,n de número inteiros e que não tem valores repetidos. Dado uma lista de números, informe se cada número da lista está ou não na matriz.",
+    "format_input": "Primeira linha você irá receber dois inteiros M e N, correspondendo respectivamente o número de linhas e colunas da matriz. Logo após você receberá M linhas com N inteiros cada, correspondendo a matriz A. A matriz é sempre ordenada. Consideramos uma matriz ordenada qualquer elemento da esquerda for menor do que o da direita e qualquer elemento da linha é menor do que todos os elementos da linha abaixo, ou seja, da esquerda para direita e de cima para baixo. A próxima linha terá um inteiro Q indicando o tamanho da lista de consulta, em seguida você receberá mais uma linha com Q números representando a lista. 1 <= N , M <= 1000 1 <= Q <= 500000",
+    "format_output": "A saída terá Q linhas que em cada linha terá a resposta da pergunta. Se existir o número imprima \"YES WITH X AND Y\", X é a linha e Y a coluna do elemento. Caso o elemento não exista imprima \"NO\".",
+    "topics": [
+        "busca"
+    ]
+}

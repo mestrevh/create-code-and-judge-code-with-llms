@@ -1,0 +1,10 @@
+{
+    "title": "BoB",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bob estava estudando algoritmos quando se deparou com o seguinte problema:\n\nDado um array ordenado A, com N elementos, e um número X: Quantas vezes o número X aparece em A?\n\nBob prontamente implementou um algoritmo de força-bruta que respondia essa pergunta.\n\nQuando ele rodou uma vez se surpreendeu com a velocidade do programa. Mas quando ele tentou responder a pergunta uma grande quantidade Q de vezes, o programa demorou muito para acabar, tanto que ele nem teve paciência de esperar.\n\nA sua tarefa é resolver esse problema.\n\nDado um array ordenado A, com N elementos, responda Q perguntas do tipo: \"Quantas vezes Xi aparece em A?\"",
+    "format_input": "A primeira linha contém um inteiro T, o número de casos de teste.\n\nCada caso de teste terá o seguinte formato:\n\nN Q\nA1 A2 ... AN\nX1 X2 ... XQ\n\nonde\nN inteiro positvo indicando a quantidade de elementos no array ordenado A,\nQ inteiro indicando o número de elementos a serem procurados\nAi inteiro indicando o i-ésimo elemento de A,\nXi inteiro indicando o número referente à i-ésima pergunta.\n\nLimites:\n2^0 < T < 2^7\n2^0 < N < 2^18\n2^0 < Q < 2^15\n-2^31 < Xi < 2^31, para todo i entre 1 e Q\n-2^31 < A1 <= A2 <= ... <= AN < 2^31",
+    "format_output": "Para cada caso imprima:\n\ncaso C:\nR1\nR2\nR3\n...\nRQ\n\nonde\nC é o número do caso atual, começando em 1\nRi é a resposta para a i-ésima pergunta.\n\nATENÇÃO: Não há linhas em branco após cada caso",
+    "topics": [
+        "busca"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Fraldas no Atacado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um grupo de amigos tem filhos pequenos e gasta uma fortuna com fraldas. Eles fizeram os cálculos e perceberam que poderiam economizar bastante se comprassem grandes pacotes de fraldas com 100 unidades, já que cada criança de até 2 anos gasta 9 fraldas por dia, e que as demais gastam 6 fraldas por dia. Escreva um programa que receba como entrada a idade dos vários filhos desses amigos, até que não haja mais crianças, e exiba a quantidade de pacotões que eles terão que comprar para abastecê-los em um mês de 30 dias, e quantas fraldas sobrarão.",
+    "format_input": "Vários valores inteiros, sempre seguidos de uma palavra indicando se ainda há outras crianças. Quando a palavra NÃO for informada (ela pode estar escrita de qualquer forma), a entrada de dados deverá ser encerrada.",
+    "format_output": "Dois valores inteiros",
+    "topics": [
+        "decisão",
+        "repetição",
+        "função",
+        "string"
+    ]
+}

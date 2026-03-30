@@ -1,0 +1,11 @@
+{
+    "title": "Pegue-a se Puder",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mário e Luigi estão bem próximos da fortaleza do Bowser. Mas antes de entrar, como sinal de afronta, eles querem realizar um salto para retirar a bandeira do Bowser de um mastro que fica a frente da fortaleza. Como Luigi sabe que isso é uma coisa muito importante a se fazer, ele resolve tentar calcular até que altura máxima seu irmão pode chegar. A altura do pulo do Mário depende de sua Altura, do seu Impulso, da Distância entre ele e o mastro, do Peso e se ele vai escolher montar no Yoshi ou não. Sua missão é: Dado essas informações, desenvolva um programa que ajude o Luigi a descobrir se seu irmão conseguirá alcançar a bandeira que está a 100m do chão. A altura do salto é calculada pela função: (Impulso)^3 / (sqrt{Altura Mario} + Distancia/2 + Peso/3). Se ele escolher montar no Yoshi, seu peso é acrescentado em 50 e seu impulso aumenta em 5.",
+    "format_input": "As Entradas serão inseridas nessa ordem: I - número natural (I é a medida do Impulso que será dado no salto); A - número racional (A é altura de Mário. Isso porque sabemos que quanto menor ele estiver, mais alto ele pula); D - número natural (D é a Distância do Mário ao Mastro); P - número natural (P é o peso de Mário); S - String (S será \"Sim\" se Mário for montar no Yoshi e \"Nao\" se não for).",
+    "format_output": "R - String. R será \"Voce consegue\" se Mário conseguir pegar a bandeira e \"Isso e perda de tempo\" se não conseguir.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

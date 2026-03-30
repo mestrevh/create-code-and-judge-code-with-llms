@@ -1,0 +1,10 @@
+{
+    "title": "Soma de dois números.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia do usuário dois números e calcule a soma.",
+    "format_input": "Dois números informados.",
+    "format_output": "Soma dos números.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

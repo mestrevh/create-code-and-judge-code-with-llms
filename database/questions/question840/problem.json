@@ -1,0 +1,10 @@
+{
+    "title": "Qual dia da semana será?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que diga em que dia da semana estaremos após decorridos 'x' dias.",
+    "format_input": "Um número inteiro 'n' que representa o dia da semana. Um número inteiro 'x' que representa a quantidade de dias que vão se passar. Saiba que 'n' pode ser: 1 (DOMINGO), 2 (SEGUNDA), 3 (TERCA), 4 (QUARTA), 5 (QUINTA), 6 (SEXTA), 7 (SABADO).",
+    "format_output": "O dia da semana que estará ('DOMINGO', 'SEGUNDA', 'TERCA', 'QUARTA', 'QUINTA', 'SEXTA' ou 'SABADO'), após passarem os dias desejados. Obs.: Lembre-se de colocar um final de linha após a resposta.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

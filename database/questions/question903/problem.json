@@ -1,0 +1,13 @@
+{
+    "title": "Nota do aluno.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um algortimo que calcule e exiba a nota de um aluno em uma prova de 10 questões. Para calcular anota do aluno deve-se ler do usuário a resposta de cada uma das 10 questões e comparar com o gabarito abaixo. 01 - A 02 – B 03 - C 04 - D 05 - E 06 - E 07 - D 08 - C 09 - B 10 - A",
+    "format_input": "Respostas de cada questão.",
+    "format_output": "Nota do aluno.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "repetição",
+        "caractere"
+    ]
+}

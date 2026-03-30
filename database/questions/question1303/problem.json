@@ -1,0 +1,11 @@
+{
+    "title": "Made in Abyss",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No anime Made in Abyss é contada uma história sobre um misterioso abismo que existe no centro de uma cidade. Nessa cidade alguns habitantes são escavadores que são classificados em diferentes níveis. Cada escavador tem um apito, cada apito tem sua cor diretamente relacionada com o nível do seu escavador. (Para simplificar o problema,cada cor nesse problema será representada por um número de 1 a 10, onde o nível indica que o escavador pode descer até o andar correspondente ao nível do seu anel, e o abismo também terá apenas 10 níveis). As relíquias encontradas nos níveis mais profundos são mais raras, e consequentemente mais difíceis de ser encontradas. No nosso problema teremos N escavadores , cada escavador encontrou um mapa indicando a localização de algumas relíquias e eles irão em busca delas, algumas relíquias que existem no mapa podem ser inacessíveis ao escavador que o possui, pois ele não tem o nível mínimo para chegar até essa relíquia , devendo ser assim ignorada. Dada a quantidade de escavadores N, os número do apito de cada escavador e os mapas contendo as informações das relíquias , você deve ranquear os escavadores. O ranqueamento é feito da seguinte forma: Quem possuir mais relíquias do nível 10 vence, se empatar o desempate feito pelo 9, e assim por diante até chegar no nível 1, desempatando por quem tem o menor índice caso o empate continue depois de desempatar pelas relíquias.",
+    "format_input": "Um inteiro 1 <= N <= 1000 , indicando o número de escavadores. Seguem N entradas, uma para cada escavador com as seguintes informações: Uma linha contendo 1 <= A <= 10 , onde A representa o nível do apito do escavador Ni. Uma linha contendo 10 inteiros , cada inteiro na ordem de níveis 1 até 10 , indicando quantas relíquias são encontradas em cada nível naquele mapa, esses inteiros vão de 0 até 100000 .",
+    "format_output": "N linhas, cada linha contendo os índices dos escavadores, ordenados do melhor pro pior.",
+    "topics": [
+        "ordenação",
+        "estruturas"
+    ]
+}

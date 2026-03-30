@@ -1,0 +1,13 @@
+{
+    "title": "Moda de Conjunto de Inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa calcule a moda dos valores lidos. A moda é o valor que ocorre com mais frequência em um conjunto de valores, isto é, o que aparece mais vezes. Por simplicidade, considere que sempre haverá um único valor para a moda. Dica: o uso de um dicionário facilita a solução do problema.",
+    "format_input": "Uma lista de valores inteiros não negativos, separados por espaço, em uma única linha.",
+    "format_output": "Como saída, espera-se a impressão do nome da medida (Moda) seguida por um espaço, o sinal de igualdade, outro espaço e o valor calculado.",
+    "topics": [
+        "decisão",
+        "entrada formatada",
+        "repetição",
+        "dicionário"
+    ]
+}

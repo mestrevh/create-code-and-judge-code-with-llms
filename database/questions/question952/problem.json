@@ -1,0 +1,11 @@
+{
+    "title": "Vou Passar em P1",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Sua tarefa é bem simples, dada uma sequência de caracteres você deve informar quantas vezes é possível escrever a frase: \"vou passar em p1\", as letras podem vir em Maiúsculo ou Minúsculo. A quantidade máxima de caracteres é 1000000. Cada letra da sequencia só pode ser usada 1x :). Obs: as letras não precisão estar em ordem.",
+    "format_input": "Uma sequência de caracteres.",
+    "format_output": "A quantidade de vezes que é possível escrever a frase.",
+    "topics": [
+        "array",
+        "acumulador"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Medindo as crianças",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sandra é professora de jardim de infância e resolveu fazer uma brincadeira com seus alunos. Ela levou uma fita métrica para medir a altura das crianças da turma. Escreva um programa que receba como entrada o nome e a altura de várias crianças, até que todas tenham sido informadas, e exiba o nome da criança mais baixa e o nome da criança mais alta.",
+    "format_input": "Para cada criança, um valor String e um valor real. Após os dados de cada criança, o usuário informará se ainda há outros dados para informar. A entrada de dados deve encerrar quando for informada a palavra FIM escrita de qualquer maneira Dica: considere que sempre serão informados os dados de pelo menos uma criança",
+    "format_output": "Dois valores String em letras maiúsculas, sendo o primeiro da criança mais baixa, e o segundo da criança mais alta",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "string"
+    ]
+}

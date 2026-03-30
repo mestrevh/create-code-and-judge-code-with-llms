@@ -1,0 +1,11 @@
+{
+    "title": "Porquinhos e Lobos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Era uma vez... Existiam vários porquinhos e vários lobos em um campo bidimensional de tamanho n x m. Cada célula do campo ou está vazia, ou contém um porquinho, ou contém um lobo. Um porquinho e um lobo estão adjacentes se as células em que eles estão localizados, compartilham um lado. Os porquinhos têm medo dos lobos, então existirá no máximo um lobo adjacente à cada porquinho. Mas cada lobo pode estar adjacente à qualquer quantidade de porquinhos. Eles têm vivido pacificamente por muitos anos. Mas hoje, os lobos ficaram com fome. Um por um, cada lobo vai escolher um dos porquinhos adjacentes (se tiver), e comer o porquinho. Esse processo não se repete. Ou seja, cada lobo vai comer no máximo um porquinho. Uma vez que um porquinho é comido, ele desaparece e não pode ser mais comido por nenhum outro logo. Qual é a maior quantidade de porquinhos que podem ser comidos pelos lobos?",
+    "format_input": "A primeira linha contém os inteiros n e m (1 <= n, m <= 10) que representa o número de linhas e colunas no campo bidimensional, respectivamente. Então, seguirão n linhas contendo m caracteres, onde cada representa a descrição do campo. '.' significa que a célula está vazia. \"P\" significa que a célula contém um porquinho. \"W\" significa que a célula contém um lobo. É garantido que existirá no máximo um lobo adjacente à qualquer porquinho.",
+    "format_output": "Imprima um único número, a quantidade de porquinhos que pode ser comida pelos lobos.",
+    "topics": [
+        "fluxo máximo",
+        "algoritmo guloso"
+    ]
+}

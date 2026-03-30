@@ -1,0 +1,10 @@
+{
+    "title": "aMAZEing!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Consideramos um labirinto de tamanho N como uma grade de NxN células, numeradas em sequência de cima para baixo e da esquerda para a direita de 0 até N-1. Cada célula do labirinto é delimitada por, no máximo, quatro paredes. As paredes interiores são numeradas também da esquerda para direita, de cima para baixo de 0 até 2*(N^2-N)-1. Duas células X e Y de um labirinto são ditas conectadas quando é possível encontrar um caminho entre elas. O objetivo do exercício é determinar se pares de células em um labirinto são conectados, dada a remoção de certas paredes internas.",
+    "format_input": "O arquivo de entrada é composto de vários casos. Cada caso inicia com N (tamanho do labirinto), M (quantidade de paredes removidas) e Q (quantidade de consultas). Seguem-se M linhas com as paredes removidas (Wi) e Q linhas com pares de células consultadas (Aj Bj). LIMITES: 1 <= N <= 100, 0 <= M <= 2*(N^2-N), 1 <= Q <= N^4/2.",
+    "format_output": "Para cada caso e cada consulta j=1,...,Q, o programa deve imprimir uma lista no formato j.Cj, onde Cj=1 se as células Aj e Bj estão conectadas no labirinto ou Cj=0 caso contrário.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

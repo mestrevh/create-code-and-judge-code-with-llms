@@ -1,0 +1,13 @@
+{
+    "title": "Todos os subconjuntos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gere todos os subconjuntos de um conjunto dado.",
+    "format_input": "Um inteiro n, indicando o maior inteiro do conjunto de inteiros de 1 a n. Considere 1<= n <= 15",
+    "format_output": "Todos os subconjuntos, um por linha, cada número separado por um espaço em branco. Cada subconjunto deve ser delimitado pelos caracteres { }. A saída deve ser ordenada por ordem lexicográfica.",
+    "topics": [
+        "subconjuntos",
+        "busca completa",
+        "backtracking",
+        "formatação"
+    ]
+}

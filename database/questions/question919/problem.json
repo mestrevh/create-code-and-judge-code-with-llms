@@ -1,0 +1,11 @@
+{
+    "title": "Saldo do cliente.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "A partir do saldo bancário inicial, um cliente teve débitos e créditos ao longo do mês. Faça um programa em Java que leia o saldo inicial, o total de débitos e o total de créditos e depois escreva o saldo final do cliente através de uma dessas três mensagens: “Saldo positivo em R$ X”, “Saldo negativo em R$ X” ou “Saldo Zero”.",
+    "format_input": "Saldo inicial do cliente. Total de débitos adquiridos pelo cliente. Total de créditos adquiridos pelo cliente.",
+    "format_output": "Saldo final através de uma das mensagens.",
+    "topics": [
+        "multiplas entradas",
+        "decisão"
+    ]
+}

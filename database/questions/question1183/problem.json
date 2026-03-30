@@ -1,0 +1,11 @@
+{
+    "title": "Anagrama de uma frase",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que identifica se uma frase é anagrama de outra. Duas strings são anagramas uma da outra se elas usam exatamente as mesmas letras, desconsiderando os espaços em branco e pontuação.",
+    "format_input": "Duas strings, para que seja verificado se são anagramas uma da outra. Você deve ignorar a capitalização. Letras maiúsculas e minúsculas são consideradas iguais. Além de espaços em branco, as strings de entrada podem conter a seguinte pontuação: Ponto \".\" Vírgula \",\" Exclamação \"!\" Interrogação \"?\"",
+    "format_output": "Um valor booleano que indica se as strings são anagramas uma da outra.",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}

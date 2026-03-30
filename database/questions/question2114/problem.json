@@ -1,0 +1,12 @@
+{
+    "title": "Matriz de Vandermonde",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este problema consiste em: dado um conjunto de pares ordenados (xi,yi), encontrar a Matriz de Vandermonde correspondente e imprimí-la na tela. A Matriz de Vandermonde surge naturalmente do problema de interpolação polinomial, ou seja: dado um conjunto de n pares ordenados (xi,yi) com i variando entre 1 e n, encontrar o polinômio P(x) com n graus de liberdade (ou seja, o seu grau máximo é n-1) tal que P(xi)=yi. A solução do problema de interpolação consiste em resolver o seguinte sistema linear: Sendo os ai, os coeficientes do polinômio interpolador: P(x) = (a0) + (a1)*x^1 + (a2)*x^2 + ... + (an-1)*x^(n-1) Mais informações podem ser encontradas nos livros: 1. Cálculo Numérico – Aspectos Teóricos e Computacionais Autoras: Márcia A. Gomes Ruggiero & Vera Lúcia da Rocha Lopes 2a Edição – 1997 Editora: MAKRON Books do Brasil São Paulo – SP 2. Métodos Numéricos Autora: Maria Cristina C Cunha 2ª edição, 2000; 2ª reimpressão, 2009; 280 páginas; Editora: UNICAMP Campinas – SP 3. Cálculo Numérico. Aprendizagem com Apoio de Software Autores: Selma Arenales, Arthur Darezzo 2a Edição - 2015; 471 páginas Editora: Cengage Learning Brasil Wiki: https://pt.wikipedia.org/wiki/Matriz_de_Vandermonde",
+    "format_input": "Um inteiro informando quantos pares ordenados serão fornecidos. A sequencia de pares ordenados (xi,yi), cada par em uma linha.",
+    "format_output": "Matriz de Vandermonde com seus valores formatados com 2 casas decimais (use arredondamento). Os elementos de cada linha da matriz devem ser separados por espaço. Não incluir espaço após o último elemento de cada linha.",
+    "topics": [
+        "métodos numéricos",
+        "repetição",
+        "array bidimensional"
+    ]
+}

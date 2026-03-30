@@ -1,0 +1,10 @@
+{
+    "title": "Dividindo Pizza",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os estudantes Nelson e Jardel estão estudando na UFAL (Universidade Federal de Alagoas). Em uma de suas pausas, eles decidiram pedir pizza. Neste problema, a pizza é um círculo de algum raio. A pizza já foi entregue cortada em n fatias, A i-ésima fatia é um setor de ângulo igual a ai. Nelson e Jardel querem dividir todas as fatias de pizza em dois contínuos setores, de tal forma que a diferença entre os ângulos desses setores seja mínima. O ângulo de um setor é a soma de todos os ângulos de todas as fatias que pertencem a este setor. Note que um dos setores pode ser vazio.",
+    "format_input": "A primeira linha da entrada contém um inteiro n (1 ≤ n ≤ 360), representando o número de fatias da pizza. A segunda linha da entrada contém n inteiros ai (1 ≤ ai ≤ 360), representando os ângulos de cada fatia. A soma de todos os ai é igual a 360.",
+    "format_output": "A saída deve conter um inteiro, representando a menor diferença entre os ângulos dos setores que irão para Nelson e Jardel.",
+    "topics": [
+        "array"
+    ]
+}

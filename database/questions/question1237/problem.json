@@ -1,0 +1,10 @@
+{
+    "title": "Fichas do RU",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Todos os dias o RU, Restaurante Universitário, oferece 20 fichas grátis de almoço para os 20 primeiros a chegarem na fila, muitos alunos se interessam nessas fichas de almoço então chegam o mais cedo possível no RU para terem direito a uma dessas fichas, porém existe uma regra, os alunos membros de algum Diretório da Universidade tem prioridade sobre as fichas, ou seja, mesmo que um membro de diretório tenha chegado depois dos 20 primeiros ele receberá uma ficha antes dos demais. Sendo assim uma tarefa foi passada a você, o RU tem interesse em saber qual o último aluno, não membro de um diretório, que ficou com uma de suas fichas grátis.",
+    "format_input": "A primeira linha da entrada contém um inteiro N, o número de alunos que estão na fila. A segunda linha contém N caracteres, C1, C2, … , CN, que sejam ‘a’ ou ‘d’, separados por um espaço em branco. Onde ‘a’ são os alunos e ‘d’ são os membros de diretório.",
+    "format_output": "Seu programa deve imprimir apenas uma linha, contendo apenas um inteiro, indicando a posição do último aluno, não membro de um diretório, que ficou com uma ficha grátis. Caso apenas membros dos diretórios tinham ficados com a ficha o programa deve retornar -1.",
+    "topics": [
+        "array"
+    ]
+}

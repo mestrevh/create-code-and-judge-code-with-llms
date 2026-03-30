@@ -1,0 +1,10 @@
+{
+    "title": "Distância",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dois carros (C1 e C2) partem em uma mesma direção. O carro C1 sai com velocidade constante de X Km/h e o carro C2 sai com velocidade constante de Y Km/h. Leia a distância (em Km) e calcule quanto tempo leva (em minutos) para o carro C2 tomar essa distância Z do outro carro.",
+    "format_input": "O arquivo de entrada contém na primeira linha dois números inteiros (X, Y) que correspondem a velocidade dos carros C1 e C2 respectivamente e na segunda linha um inteiro Z que corresponde a distância a qual se quer calcular o tempo para obtê-la entre os carros. Obs.: x < y.",
+    "format_output": "Imprima o tempo necessário seguido da mensagem \" minutos\".",
+    "topics": [
+        "lógica matemática"
+    ]
+}

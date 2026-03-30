@@ -1,0 +1,13 @@
+{
+    "title": "Remover caracteres de uma string",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia duas strings e retire da primeira string todas as letras que ocorrem na segunda string. Exemplo: Sejam as strings \"chocolate\" e \"oca\", então você deve imprimir \"hlte\".",
+    "format_input": "Você receberá duas linhas, sendo cada string em uma linha. A string pode conter espaços. O tamanho máximo de cada string é 80.",
+    "format_output": "Imprima em uma linha a string resultante. Lembre de imprimir um final de linha após a string resultante.",
+    "topics": [
+        "array",
+        "substrings",
+        "caractere",
+        "string"
+    ]
+}

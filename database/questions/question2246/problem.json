@@ -1,0 +1,11 @@
+{
+    "title": "L2Q4 - Escama só de peixe",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Alguns dias antes do grande evento, Pepeu foi no Habib's encomendar algumas esfirras para o baile, quando de repente avistou sua ídola do brega funk, MC Loma. Desacreditado, Pepeu foi correndo falar com a rainha Loma e aproveitou a oportunidade para chamá-la para cantar na festa. MC Loma se dispôs a fazer o show contanto que Pepeu a pagasse o cachê exigido. Sabendo que alunos de CC pagam R$5,00 pelo ingresso, os de EC pagam R$10,00 e os alunos de demais cursos pagam R$15,00, faça um programa que calcule se Pepeu terá dinheiro suficiente para contratar MC Loma.",
+    "format_input": "D - double. Cachê cobrado por MC Loma seguido de inúmeras linhas contendo S - String que será escrita de forma \"Curso Nome\", até que todas as pessoas que compraram um ingresso sejam contabilizadas.",
+    "format_output": "R - String. Caso Pepeu tenha dinheiro suficiente, a saída será: \"Cebruthius!\". Senão, a saída será \"Escamou!\"",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

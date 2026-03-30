@@ -1,0 +1,10 @@
+{
+    "title": "Pesquisa eleitoral",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Construa um programa que recebe como entrada a quantidade de votos (alcançados na pesquisa) de 3 candidatos e a quantidade de votos nulos. O programa deverá imprimir a porcentagem de votos dos 3 candidatos e de votos nulos.",
+    "format_input": "Quantidade de votos dos 3 candidatos e a quantidade de votos nulos.",
+    "format_output": "A porcentagem dos votos.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

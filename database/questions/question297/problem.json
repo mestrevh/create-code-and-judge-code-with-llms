@@ -1,0 +1,12 @@
+{
+    "title": "Anos Bissextos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sabe-se que anos bissextos são os anos que possuem 366 dias no calendário, esse dia representa o acrescimo de 1 dia em Fevereiro, que deixa de ter 28 dias, e passa a ter 29. Para calcular os anos bissextos, utilizam-se estas regras: - A cada quatro anos, há um ano bissexto; - São bissextos todos os anos múltiplos de 400, exceto se for múltiplo de 100, mas não de 400, por exemplo: 1996, 2000, 2004, 2008, 2012, 2016, 2020; - Não são bissextos os anos múltiplos de 100. De acordo com o cálculo, os próximos anos bissextos divisíveis por 4 serão: 2024, 2028, 2032, 2036, 2040, 2048, 2052.",
+    "format_input": "Dois inteiros, representando um ano inicial, e um ano final.",
+    "format_output": "Todos os anos bissextos entre os dois anos dados, inclusive. Se não houver anos bissextos, imprimir \"-1\", sem as aspas. Obs: a saida deve ser seguida de uma quebra de linha.",
+    "topics": [
+        "datas/horas",
+        "decisão",
+        "repetição"
+    ]
+}

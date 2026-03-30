@@ -1,0 +1,10 @@
+{
+    "title": "Grande Promoção",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Grande promoção no supermercado Pão de Mel. Cada pessoa pode comprar apenas um produto de cada tipo, por exemplo, uma TV, uma cenoura ou um CD do Roberto Carlos. Entretanto, o preço está muito baixo. Nós iremos ao supermercado com a família inteira. Cada pessoa pode comprar tantos produtos quanto ela conseguir carregar. Você receberá uma lista de produtos com seus preços e pesos. Nós também sabemos o peso máximo que cada pessoa pode carregar. Qual é o maior valor em produtos que toda a família pode comprar no supermercado?",
+    "format_input": "A entrada consiste de T casos de testes ( 1<= T <= 1000). O número inteiro T é dado na primeira linha. Cada caso de teste começa com uma linha contendo um único inteiro n indicando o número de produtos (1<=n<=1000). Então, seguem n linhas contendo 2 inteiros: p e w. p corresponde ao preço do produto (1<= p <= 100). w corresponde correesponde ao peso do produto ( 1<= w <= 30). A próxima linha contém um inteiro g (1<= g <= 100) correspondendo ao número de pessoas da família. As próximas g linhas contém o máximo de peso m (  1<= m <= 30) que a i-ésima pessoa da família pode carregar. ( 1<= i <= g)",
+    "format_output": "Para cada caso de teste você deve imprimir uma linha contendo um inteiro correspondendo ao máximo de valor em produtos que a família poderá comprar.",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

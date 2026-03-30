@@ -1,0 +1,11 @@
+{
+    "title": "Entrando pelo Cano",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No começo de sua jornada, seguindo pelos canos, Mário e Luigi se depararam com uma trifurcação logo ao sair do Reino dos Cogumelos. O problema é que as descrições das placas de cada cano estão meio apagadas e eles não sabem exatamente por qual deles eles devem seguir para chegar a fortaleza do Bowser. Mesmo com as placas pouco legíveis, Mário consegue identificar algumas letras em cada uma delas. Cabe a você descobrir o cano que eles devem seguir, fazendo um programa que, dado as letras legíveis de cada placa, verifique com essas letras se podemos formar a palavra \"bowser\". Aí eles saberão que é por esse cano que devem seguir.",
+    "format_input": "Três entradas correspondentes a cada um dos canos ( Esquerda, Meio e Direita ), nessa ordem. S - String correspondente as letras legíveis. Obs: As letras legíveis são sempre minusculas.",
+    "format_output": "C - String com a direção que Mário deve seguir. Obs: É garantido que só uma das direções satisfaz a condição.",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

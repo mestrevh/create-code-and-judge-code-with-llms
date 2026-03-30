@@ -1,0 +1,11 @@
+{
+    "title": "Restaurante Universitário",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Otávio é aluno de uma universidade pública e frequentemente vai ao Restaurante Universitário. A refeição custa R$3,25 mas Otávio não gosta de andar com moedas, e sempre paga a mais do que o necessário. Um funcionário fez um acordo com o aluno, deixando ele acumular os trocos e usar posteriormente sem precisar pagar. Faça um programa que receba como entrada a quantidade de refeições que Otávio pagou (1 <= qtd <= 100) e o valor das cédulas que ele usou (2, 5, 10 ou 20 reais) e que obtenha como resposta a quantidade inteira de refeições que o restaurante deve a ele. DICA: Será necessária uma condição para o caso das notas de 2.",
+    "format_input": "5 10",
+    "format_output": "10",
+    "topics": [
+        "acumulador",
+        "decisão"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Contar eficientemente uma substring na string",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No Huxley, existe uma versão desse problema sem a necessidade de uma solução eficiente: https://www.thehuxley.com/problem/252. Entretanto, aqui, queremos que você resolva o mesmo problema só que no máximo em O(n), onde n é o tamanho da string. Dada uma string s com n (1<=n<=2000000) caracteres e uma string p com m (1<=m<=2000000, m <=n) caracteres, imprima os índices iniciais em que a string p ocorre em s.",
+    "format_input": "Consiste de duas linhas. Na primeira você receberá a string s, onde s não contém espaços. Na segunda você receberá a string p, que também não contém espaços.",
+    "format_output": "Para cada vez que você encontrar p em s, você deve imprimir uma linha contendo o inteiro correspondendo ao índice onde a string p ocorre em s. Por exemplo: s= abacate p= ate Logo, você deverá imprimir: 4 Caso, p não seja encontrado em s, imprima -1",
+    "topics": [
+        "substrings",
+        "requer solução eficiente",
+        "string"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Maior elemento pseudo aleatório",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Inicialmente, preencha três arrays, Y, X e Z ambos de comprimento 10. (X[0]......[X[9]) , com valores pseudo-aleatórios da seguinte forma: Y[0] = seedY Y[i] = (Y[i - 1] * A + B) % modC X[0] = seedX X[i] = (X[i - 1] * B + C) % modA Z[0] = seedZ Z[i] = (Z[i - 1] * C + A) % modB (seedY, seedX, seedZ, A, B, C) dados de entrada !=0; 1) Criar uma função que calcule todos esses elementos e que retorne o maior elemento de cada vetor. 2) Some todos os elementos, (int Soma = MaxX + MaxY + MaxZ); 3) Chame a função <tipo> Modulo( soma, A, B, C){....} Que faz o valor da soma se tornar = soma mod((A/B)+C); E salva na mesma variável(soma). (o tipo eh de sua escolha) 4) imprima soma seguido de um (quebra/pular a linha) OBS: scanf(\"%d %d %d %d %d %d\",&A,&B,&C,&seedX,&seedY,&seedZ);",
+    "format_input": "216 57 740 245 433 871",
+    "format_output": "359",
+    "topics": [
+        "função",
+        "ponteiro"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Concatenar palavras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia duas strings e concatene-as, ou seja , escreva o conteúdo da segunda string no final da primeira. Exemplo: Se a primeira string digitada for \"Bom dia, \" e a segunda \"Barney !\", então você deve imprimir: \"Bom dia, Barney !\".",
+    "format_input": "Você receberá duas linhas. Cada linha contém uma palavra.",
+    "format_output": "Você deve imprimir as duas palavras concatenadas em uma única linha.",
+    "topics": [
+        "array",
+        "intercalação",
+        "substrings",
+        "string"
+    ]
+}

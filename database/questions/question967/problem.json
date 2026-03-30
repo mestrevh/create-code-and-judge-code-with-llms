@@ -1,0 +1,10 @@
+{
+    "title": "Desenhando Árvores de Natal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As crianças adoram desenhar árvores de natal e você desafiou algumas delas a desenharem árvores de diversos tamanhos com apenas com o caractere asterisco \"*\". Onde não houver asterisco, complete com \"-\". A regra é simples, dividindo a árvore em duas partes (folhas e tronco). Para as folhas temos que, de baixo para cima, cada fileira de folhas será montada iniciando no tamanho de número(N) que será dado na entrada e diminuindo de dois em dois, até chegar na copa da árvore que terá apenas um asterisco. O tronco da árvore consiste no mesmo padrão das folhas, só que o tamanho para se basear nos cálculos do tronco agora será determinado pelo primeiro inteiro impar maior ou igual que a altura das folhas. Perceba que para dar certo, somente será dado números impares na entrada para o tamanhos destas árvores.",
+    "format_input": "A entrada consiste em um inteiro N (2 < N < 100).",
+    "format_output": "Para cada caso de teste de entrada, seu programa deverá desenhar uma árvore conforme especificação acima e exemplo abaixo, com uma linha em branco após cada árvore.",
+    "topics": [
+        "formatação"
+    ]
+}

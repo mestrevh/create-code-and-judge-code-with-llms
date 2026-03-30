@@ -1,0 +1,11 @@
+{
+    "title": "L5Q7 - O Mergesort",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rick percebeu que a incapacidade de Morty em ordenar arrays estava atrapalhando-os em suas aventuras. Então ele decidiu trocá-lo por um Morty de outra dimensão que soubesse ordenar arrays em tempo n*lg(n). Esse Rick, então, abriu uma competição entre os Mortys sem Ricks, para descobrir qual deles conseguiria tal façanha. O Mergesort é um algoritmo de ordenação que utiliza da estratégia de divisão e conquista para ordenar um array. O processo de divisão consiste em dividir recursivamente o array em trechos que serão ordenados. O processo de conquista é feito sobre dois trechos separadamente ordenados, juntando-os em um novo trecho ordenado, partindo do pressuposto que um trecho composto por um único elemento é trivialmente ordenado. O pseudocódigo a seguir, baseado nos algoritmos do livro Algoritmos : Teoria e Prática. Cormem, Thomas H., mostram o que pode ser implementado : Para provar a Rick que você consegue ordenar arrays rapidamente, você deve implementar um Mergesort que : Descreva os trechos do array com os quais o mergesort foi chamado, no processo de divisão. Descreva os trechos de arrays antes e depois do processo de conquista.",
+    "format_input": "N - número natural representando o tamanho do array a ser ordenado. A0 ... An-1 - os n elementos do array separados por espaço.",
+    "format_output": "Para cada chamada do merge-sort : \"Separando o array V[l...r] : {V[l], ..., V[r]} em V[l...m] : {V[l], ..., V[m]} e V[m+1...r] : {V[m+1], ..., V[r]}\" onde l, r são os índices do array a ser dividido, m é o índice que separa os trechos e V[i] ... V[j] são os elementos do trecho. Antes de cada chamada do merge : \"Executando o merge nos arrays {V[l], ..., V[m]} e {V[m+1], ..., V[r]}\". Depois de cada chamada do merge : \"array ordenado : {V[l], ..., V[r]}\". Por fim, imprimir o array ordenado : \"O array ordenado : V[0] ... V[n-1]\".",
+    "topics": [
+        "recursão",
+        "ordenação"
+    ]
+}

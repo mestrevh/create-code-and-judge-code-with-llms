@@ -1,0 +1,12 @@
+{
+    "title": "L1Q8 - Choque elétrico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ao tentar colocar um Voltorb em uma piscina, Biu acabou levando um choque do trovão. Curioso de saber qual foi a intensidade do choque que levou ele pesquisou e descobriu que existia uma relação entre o level do Voltorb e a potência de seu choque. Como descrito na tabela abaixo: Level 1-20: 20 + (level)^3; Level 21-40: 8000 + (level - 10)^2; Level 41-60: 9000 + 5*level; Level 61-80: 9300 + 2*level; Level 81-100: 9500 + level. Escreva um programa que, dado o level do Voltorb, imprima de quanto foi o choque em W segundo a tabela.",
+    "format_input": "L - número natural (1 <= L <= 100). A linha única de entrada é composta pelo level do Voltorb.",
+    "format_output": "Potencia de: P W. P - número natural. A linha única de saída é composta por um texto, seguido pela potência em W.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "função"
+    ]
+}

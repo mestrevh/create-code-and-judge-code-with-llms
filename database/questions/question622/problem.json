@@ -1,0 +1,11 @@
+{
+    "title": "O Monge Confuso",
+    "time_limit": "2 segundo(s)",
+    "descrition": "O monge quer ensinar aos seus discípulos uma lição sobre paciência, já que seus discípulos estão sempre apressados para fazer alguma coisa louca. Para ensinar isso a eles, ele da uma lista de N números, que podem ou não ser distintos. É proposto aos estudantes que resolvam uma simples equação matemática baseada nessa lista de N números. g(x) - MDC (a[ 0 ], a[ 1 ], a[ 2 ]... a[n-1] ) f(x) - (a[ 0 ] * a[ 1 ] * a[ 2 ]... * a[n-1] ) O valor do quociente do monge(QM) é 10^9 + 7. A equação a ser resolvida é : ( f(x)^g(x) ) % QM. Explicação: digamos que tenhamos uma lista de tamanho 2, com os elementos 2 e 6, o produto f(x) = 12 e o MDC g(x) = 2, 12^2 = 144.",
+    "format_input": "A primeira linha contém um Inteiro N indicando o tamanho da lista de números. A segunda linha contém N inteiros, denotando os elementos da lista. 1 ≤ N ≤ 50 1 ≤ Ai ≤ 10^3",
+    "format_output": "Imprima a resposta da equação.",
+    "topics": [
+        "requer solução eficiente",
+        "exponenciação modular rápida"
+    ]
+}

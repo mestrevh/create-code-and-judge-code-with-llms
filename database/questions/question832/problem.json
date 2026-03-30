@@ -1,0 +1,8 @@
+{
+    "title": "Caracteres de Centro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois caracteres minúsculos do alfabeto, informe o(s) caracteres(s) (máx: 2) que estão no centro entre esses dois caracteres. OBS: É garantido que existirá no mínimo um caractere entre eles, logo você não receberá entradas do tipo ('a', 'a') ou ('a', 'b'). Exemplos: 'a' e 'd', temos como resposta 'b' e 'c', já entre 'a' e 'e' , temos apenas 'c' como caractere central, pois existe um número ímpar de elementos entre eles.",
+    "format_input": "Dois caracteres minúsculos 1 por linha(não necessariamente ordenados alfabeticamente).",
+    "format_output": "Um caractere por linha (caso exista mais de um imprima em ordem alfabética).",
+    "topics": []
+}

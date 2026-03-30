@@ -1,0 +1,13 @@
+{
+    "title": "Determinante sem cálculo direto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Podemos verificar se o determinante de uma matriz é zero sob algumas condições sem ter que, necessariamente, calcular esse determinante. Dessa forma, faça um programa que verifica as seguintes propriedades: Ao observar uma matriz e verificar que os elementos de uma linha ou uma coluna são todos iguais a zero, o valor do seu determinante também será zero. Caso ocorra igualdade de elementos entre duas linhas ou duas colunas, o determinante dessa matriz será nulo. Seu programa deve também avaliar se a matriz recebida é quadrada, caso contrário deve emitir uma mensagem de erro: \"O determinante de uma matriz só existe para matrizes quadradas.\" Dica: Faça uma função para calcular se duas linhas são iguais. Para calcular se duas colunas são iguais, faça a transposta da matriz e use a mesma função de calcular se linhas são iguais.",
+    "format_input": "Uma matriz recebida uma linha por vez.",
+    "format_output": "Uma mensagem que indica se o resultado do determinante é zero ou não. Ou uma mensagem de erro se a matriz não for quadrada. O programa deve receber novas linhas da matriz até que receba a palavra \"acabou\".",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição",
+        "array bidimensional"
+    ]
+}

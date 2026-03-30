@@ -1,0 +1,12 @@
+{
+    "title": "Manipulação da corrida",
+    "time_limit": "3 segundo(s)",
+    "descrition": "O profressor Rodrigo é dono de uma grande empresa que gerencia corrida de carros. Portanto, alguns trabalhadores da empresa ( os que cuidavam da parte de vitórias dos carros), tiveram que deixar a empresa. Então, o professor Rodrigo teve a grande ideia de chamar você para criar um programa para a empresa dele. Crie um programa que dado o numero de carros, meses e o nome do carro, calcule o numero de vitórias total.",
+    "format_input": "1. 0<N<6, sendo N a quantidade de carros. 2. 0<M<13; M indicando a quantidade de meses. 3. Um nome indicando o nome do carro. 4. E em seguida, M sequencia de numeros indicando o numero de vitorias daquele mês (0<numeros<1000). Obs: A entrada termina quando a quantidade de carros é igual a -1.",
+    "format_output": "Uma string seguido do numero total de vitorias daquele carro, seguido de uma quebra de linha.",
+    "topics": [
+        "Lógica de programação",
+        "Estruturas de repetição",
+        "Processamento de dados"
+    ]
+}

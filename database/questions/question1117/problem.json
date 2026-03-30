@@ -1,0 +1,11 @@
+{
+    "title": "Carros de João e Maria",
+    "time_limit": "1 segundo(s)",
+    "descrition": "João e Maria estão querendo obter informações sobre os carros de sua cidade. Para isso eles pediram que você escrevesse um programa para ajudá-los. Eles vão digitar informações de diferentes carros e quando quiserem parar a leitura vão digitar a resposta ‘n’ ou ‘N’. Para cada carro serão lidos o ano e a velocidade. O programa deve exibir a velocidade do carro mais rápido; o ano do carro de maior ano (ou seja, o mais novo); e a média das velocidades lidas.",
+    "format_input": "Um caractere, um valor inteiro (ano) e um em ponto flutuante (velocidade).",
+    "format_output": "Maior velocidade, maior ano e velocidade média.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Display de LCD",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio comprou um novo computador. Antes disso, a máquina mais poderosa que ele já tinha usado foi uma calculadora de bolso. Ambrósio, conservador que é, ficou um pouco desapontado com o seu monitor de LED Full HD, pois ele gostava mais do seu antigo visor de LCD da sua calculadora. Para deixá-lo feliz, você prometeu escrever um programa que imprime números no estilo do antigo LCD da calculadora de Ambrósio.",
+    "format_input": "A entrada consiste de várias linhas, uma para cada número a ser exibido. Cada linha contém os inteiros s e n, onde n é o número a ser exibido (0 <= n <= 99999999999999999999) e s é o tamanho no qual o número deve ser impresso ( 1<= s <=10). A entrada termina quando uma linha contendo dois zeros é dada e nada deve ser processado.",
+    "format_output": "Você deve imprimir os números especificados no formato de LCD usando s \"-\" para os seguimentos horizontais e s \"|\" para os seguimentos verticais. Cada dígito ocupa exatamente s+2 colunas e 2s+3 linhas. Preencha todos espaços em branco com o caracter de espaço. Deve existir uma coluna entre dois dígitos. Imprima uma linha em branco depois de cada número. Veja o exemplo de entrada e saída para não errar no formato.",
+    "topics": [
+        "função",
+        "formatação"
+    ]
+}

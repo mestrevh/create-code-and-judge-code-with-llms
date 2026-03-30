@@ -1,0 +1,11 @@
+{
+    "title": "Satélite",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma empresa que utiliza dados de um satélite contratou você para reconfigurar o satélite deles. Dado a imagem inicial da visão do satélite o qual é uma matriz de caracteres, informe os passos para nova configuração. A matriz de caracteres terá somente um caractere '*' e o restante serão os caracteres '-'. Seu objetivo é focar o satélite em cima do caractere '*'. '1' - Indica focar no primeiro quadrante '2' - Indica focar no segundo quadrante '3' - Indica focar no terceiro quadrante '4' - Indica focar no quarto quadrante '0' - Finalizar as configurações Quadrantes: Perceba que toda vez que você atribui um comando muda a visualização do satélite. Exemplo:",
+    "format_input": "Primeira linha terá um inteiro T indicando a quantidade de linhas e de colunas. Seguirão T linhas com T caracteres formando a imagem. T sempre é potência de 2. 1 <= T <= 256 Considere o ponto central (T/2 , T/2).",
+    "format_output": "Uma string com os comandos necessários para focar o suspeito.",
+    "topics": [
+        "recursão",
+        "string"
+    ]
+}

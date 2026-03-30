@@ -1,0 +1,11 @@
+{
+    "title": "L3Q3 - Treinamento especial",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kakashi está preparando um treinamento especial, na aldeia da folha, para os ninjas que tiverem interesse, entretanto existe um requisito para ser aceito no treinamento. É preciso que haja algum potencial de aprendizado, que é calculado subtraindo os jutsus conhecidos da quantidade de chakra (Chakra-Jutsus), sendo considerados inaptos ao treino os ninjas que não tenham potencial maior que 0. Para isso Kakashi listou o nome das pessoas, seus chakras e quantidade de jutsus conhecidos, e precisa que você retorne, uma lista com os alunos em ordem decrescente de potencial dizendo se cada um foi classificado ou não, e por fim uma linha dizendo quantos alunos foram classificados para esse semestre. obs: é garantido que não haverão 2 ninjas ou mais com o mesmo potencial",
+    "format_input": "S - String indica se a coluna dos jutsus está invertida ou não: \"Tudo certo\" indica que está correta, e \"Esse naruto...\" indica que naruto inverteu a coluna dos jutsus. N - Um número natural que indica a quantidade de ninja que querem participar do treinamento, seguido por N linhas no formato: \"NomeDoNinja\"[i] C[i] J[i ou N-i]. Onde \"NomeDoNinja\"[i] é uma string que representa o nome do ninja da i-ésima linha, C[i] é um inteiro que indica a quantidade de chakra do ninja da i-ésima linha, e J que representa o número de jutsus conhecidos pelo ninja da i-ésima linha (caso as linhas não tenham sido invertidas) ou da linha de posição N-i (caso as linhas tenham sido invertidas).",
+    "format_output": "N linhas indicando se cada um dos N ninjas foi classificado ou não, em ordem decrescente de potencial (chakra menos número de jutsus conhecidos), no formato: \"NomeDoNinja\" esta classificado(a) caso ele seja classificado, ou então: \"NomeDoNinja\" esta desclassificado(a) caso ele tenha potencial igual ou menor que zero. Por fim, uma quebra de linha (uma linha em branco) e uma linha indicando quantos alunos foram classificados, no formato: Kakashi tera um total de X aluno(s) nesse semestre ou no caso de nenhum aluno ser aceito: Esse semestre ninguem veio treinar na aldeia da folha",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

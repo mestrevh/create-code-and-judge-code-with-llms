@@ -1,0 +1,10 @@
+{
+    "title": "O Maior",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula: ",
+    "format_input": "O arquivo de entrada contém três valores inteiros.",
+    "format_output": "Imprima o maior dos três valores seguido por um espaço e a mensagem \"eh o maior\". Desafio você fazer sem usar \"if\". hahahahaha (Risada do mal!)",
+    "topics": [
+        "função"
+    ]
+}

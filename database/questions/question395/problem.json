@@ -1,0 +1,12 @@
+{
+    "title": "Promoção de Cinema",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Hoje à noite, o cinema da cidade será inaugurado com uma promoção: crianças até 10 anos e idosos com mais de 60 anos não pagarão ingresso. Além disso, em homenagem ao mês dos pais que se aproxima, adultos do sexo masculino com mais de 25 e menos de 35 anos também terão gratuidade. Escreva um programa que receba como entrada a idade e o sexo de cada pessoa que foi ao cinema, até que a idade informada seja 111, e exiba quantas não pagaram ingresso.",
+    "format_input": "Valores inteiros representando as idades, e valores String (as iniciais M ou F, maiúsculas ou não) indicando os sexos",
+    "format_output": "Um valor inteiro",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "decisão"
+    ]
+}

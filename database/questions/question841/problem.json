@@ -1,0 +1,10 @@
+{
+    "title": "Acima da média",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados três números em ponto flutuante queremos saber quantos deles estão acima da média aritmética.",
+    "format_input": "Três números positivos, menores ou iguais a 10.0 e com dois decimais, no máximo.",
+    "format_output": "A quantidade dos que estão acima da média.",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "L5Q7 - The Upside Down II",
+    "time_limit": "1 segundo(s)",
+    "descrition": "(Se você ainda não fez as versões anteriores da questão The Upside Down, não comece por essa) Veja a questão anterior Dessa vez, as ondas eletromagnéticas do Upside Down, interferiram na comunicação do walkie-talkie do Hopper e a mensagem acabou chegando assim para você: Os 1's da matriz era o caminho que ele poderia percorrer, e os 0's eram locais perigosos Você só poderá se deslocar na vertical e horizontal Em caso L_!_+ bifurcação, @!$!dem de prio)!!dade: @!($&D > )@*DS > L@-#1 > @()!>:!. O mapa !@)($ *#48@ 1@(#(@)$@#s. Sem saber direito o que veio escrito nas partes que cortaram, você decide não por a vida deles em risco e fazer um código que indicasse se havia saída ou não somente com os dados das 2 primeiras mensagens! (este problema deve ser resolvido utilizando recursão)",
+    "format_input": "10 linhas contendo 10 numeros que podem ser 0's e 1's, correspondendo ao mapa. Sendo o primeiro numero da primeira linha sempre 1.",
+    "format_output": "Uma linha única contendo: \"RUN!\" Caso seja possível sair do Upside Down. ou \"Welcome to the Upside Down.\" Caso não tenha um caminho que leve à saída.",
+    "topics": [
+        "array bidimensional",
+        "recursão"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Hospedagem na Praia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um belo hotel na praia tem apartamentos especialmente decorados e cobra os valores indicados na tabela a seguir. Com o fim do verão, o movimento caiu e o hotel resolver oferecer 15% de desconto para hospedagens de 3 ou mais dias. Tipo de Apartamento Valor Diária Individual R$ 125 Suíte Dupla R$ 140 Suíte Tripla R$ 180 Escreva uma função chamada CalculaHospedagem que receba por parâmetro o tipo de apartamento desejado e a quantidade de diárias, e calcule e retorne o valor total a ser pago.",
+    "format_input": "Um string indicando o tipo de apartamento e um inteiro indicando a quantidade de dias.",
+    "format_output": "Um valor float com duas casas decimais",
+    "topics": [
+        "decisão",
+        "função",
+        "string"
+    ]
+}

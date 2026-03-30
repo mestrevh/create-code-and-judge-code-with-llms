@@ -1,0 +1,10 @@
+{
+    "title": "Conjuntos Complementares 2",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Dado um multiconjunto S, o qual só possui números naturais particione S em S' e S''. Os subconjuntos deverão respeitem as restrições abaixo: Restrições: S' ∪ S'' = S; S' ∩ S'' = ∅; ∀x ∈ S e ∀v ∈ S, x = v ou x + 1 = v, x ∈ S' então v também ∈ S'; ∀x ∈ S e ∀v ∈ S, x = v ou x + 1 = v, x ∈ S'' então v também ∈ S''; Mínimo | ∑S'i - ∑S''j | Limites: O conjunto S tem no máximo 1000 elementos; Cada elemento de S está no intervalo [1,300].",
+    "format_input": "Uma linha com o multiconjunto.",
+    "format_output": "Imprima a menor diferença em módulo entre os subconjuntos.",
+    "topics": [
+        "subconjuntos"
+    ]
+}

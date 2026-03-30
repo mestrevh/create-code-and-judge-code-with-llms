@@ -1,0 +1,15 @@
+{
+    "title": "Correção de Provas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para corrigir provas de múltipla escolha. Cada prova tem 10 questões, cada questão valendo um ponto. O primeiro conjunto de dados a ser lido é o gabarito para a correção da prova. Depois serão dados os números dos alunos e suas respectivas respostas. O programa encerra a entrada quando o número de um aluno dado for igual a 9999",
+    "format_input": "Uma sequência de 10 caracteres correspondendo ao gabarito. Depois é dada uma sequência de números inteiros representando o aluno e a uma sequencia de caracteres correspondendo a sua resposta.",
+    "format_output": "Para cada aluno lido, na mesma ordem de leitura, deve ser impresso seu número e sua nota. A nota deve ser formatada com uma casa decimal. Ao final, deve ser impresso a porcentagem de aprovação, sabendo-se que a nota mínima para aprovação é de 6. O percentual deve ser impresso com uma casa decimal seguido do caractere %. Por fim, deve ser impressa a nota que teve a maior frequência absoluta, ou seja, a nota que apareceu o maior número de vezes (supondo a inexistência de empates).",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "lógica matemática",
+        "caractere",
+        "string"
+    ]
+}

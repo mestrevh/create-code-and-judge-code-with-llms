@@ -1,0 +1,8 @@
+{
+    "title": "Alô Mundo",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que escreva a mensagem \"Alô mundo\".",
+    "format_input": "None",
+    "format_output": "Alô Mundo.",
+    "topics": []
+}

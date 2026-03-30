@@ -1,0 +1,11 @@
+{
+    "title": "Predecessor ou Sucessor (função iterativa)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha uma única função, além da principal, que receberá como parâmetros um natural n (0<=n<=2^30) e um dígito x (0<=x<=9) e devolverá um valor inteiro indicando se existe em n um dígito que seja o predecessor OU sucessor de x. O programa exibirá 'sim' ou 'nao', de acordo com o valor de retorno da função. Observações: (a) apenas um laço de repetição; (b) sem matrizes; (c) função iterativa.",
+    "format_input": "123456 7",
+    "format_output": "sim",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Operação com Fatoriais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "",
+    "format_input": "Um inteiro x correspondente ao X da equação e um inteiro n indicando a quantidade de termos da série, a entrada termina quando x = 0 e n = 0.",
+    "format_output": "Um número de ponto flutuante formatado com seis casas decimais.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "lógica matemática",
+        "repetição"
+    ]
+}

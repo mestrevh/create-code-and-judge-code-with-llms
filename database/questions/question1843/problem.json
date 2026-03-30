@@ -1,0 +1,14 @@
+{
+    "title": "Maior, Menor e Média",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma lista de valores inteiros, elabore um programa que obtenha o maior valor, o menor valor e a média.",
+    "format_input": "Uma lista de valores separados por vírgula entre si e envolvidos por colchetes [ ], como mostrado abaixo: [10,5,4,3,9,8]",
+    "format_output": "A saída segue o formato abaixo, sendo que os números maior e menor são inteiros e a média um valor real com 2 casas decimais. Maior: 10 Menor: 3 Media: 6.50",
+    "topics": [
+        "array",
+        "decisão",
+        "entrada formatada",
+        "string",
+        "busca"
+    ]
+}

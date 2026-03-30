@@ -1,0 +1,10 @@
+{
+    "title": "Meu produto escalar",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado dois vetores v1=(x1,x2,...,xn) e v2=(y1,y2,...,yn). O produto escalar desses vetores é um número único, calculado como x1y1+x2y2+...+xnyn. Suponha que você possa permutar as coordenadas de cada vetor como desejar. Escolha duas permutações de modo que o produto escalar de seus dois novos vetores seja o menor possível e produza esse produto escalar mínimo.",
+    "format_input": "Na primeira linha, tem-se um número inteiro C que especifica a quantidade casos de teste. Para cada caso de teste, a primeira linha contém o número inteiro n. As próximas duas linhas contêm n inteiros cada, fornecendo as coordenadas de v1 e v2, respectivamente.",
+    "format_output": "Para cada caso de teste, imprima uma linha com o produto escalar mínimo de todas as permutações dos dois vetores dados.",
+    "topics": [
+        "repetição"
+    ]
+}

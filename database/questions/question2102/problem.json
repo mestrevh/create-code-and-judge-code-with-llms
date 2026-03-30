@@ -1,0 +1,10 @@
+{
+    "title": "R2D2 em apuros!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ah não! R2D2 está com problemas! Ao tentar executar qualquer movimento, ocorre uma pane em seu sistema e você foi designado para ajudá-lo. Após algum tempo observando e revendo as anotações do seu mestre Silvio Melo, você percebeu que para resolver o problema era necessário somente que uma matriz do sistema fosse transposta. Porém, como essa matriz poderia ser grande, você resolveu fazer um programa para transpor essa matriz. Construa um programa em que dada uma matriz, retorne essa matriz transposta para ajudar o R2D2. OBS: Matriz transposta: É a matriz que se obtém da troca de linhas por colunas de uma dada matriz.",
+    "format_input": "Uma linha composta por 2 inteiros: M N. M - Número inteiro representando o número de linhas da matriz. N - Número inteiro representando o número de colunas da matriz. Após essa linha e uma linha vazia, M linhas representando a matriz A a ser transposta, com N números separados por espaço em cada linha: [A]",
+    "format_output": "[X] Sendo X a matriz transposta resultante em que os números são separados por espaço e representados em N linhas e M colunas.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "L1Q10 - A Comemoração",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Depois de muito trabalho tentando resgatar a Peach, Mario decidiu convocar Yoshi e Toad para uma corrida de Kart como comemoração do feito. A pista escolhida para a corrida era a mais difícil de todas, ela completamente no escuro e eles precisavam saber previamente o caminho antes de começar a corrida, para que não saíssem da pista e caíssem em um buraco negro. Para isso, foi lhe pedido para construir um programa. Sabe-se que existiam vários caminhos que levam a linha de chegada dessa pista, uns são mais longos que os outros. O programa sabe que se você efetuasse 3 curvas seguidas para a esquerda cairia em um buraco negro. São fornecidas as 4 curvas de cada um dos integrantes (Mario, Yoshi e Toad, respectivamente) seguidas do tamanho que aquele caminho custará até a próxima curva ou a linha de chegada (na ultima curva). Dado isso o programa deve informar aqueles que caíram em um buraco negro (caso aconteça) e o vencedor que optou pelo caminho mais curto. IMPORTANTE: Sempre haverá um vencedor. OBS: A distancia para algumas curvas pode ser muito curta (0).",
+    "format_input": "Curva1 Dist1 Curva2 Dist2 Curva3 Dist3 Curva4 Dist4 (Mario) Curva1 Dist1 Curva2 Dist2 Curva3 Dist3 Curva4 Dist4 (Yoshi) Curva1 Dist1 Curva2 Dist2 Curva3 Dist3 Curva4 Dist4 (Toad). CurvaX são strings correspondendo a \"Direita\" ou \"Esquerda\" enquanto DistX são números inteiros correspondentes a distância até a próxima curva em metros.",
+    "format_output": "\"NOME caiu em um buraco negro.\" Caso algum dos competidores tenha caído em um buraco negro. OBS: (Lembre-se de sempre manter a ordem: Mario -> Yoshi -> Toad, caso precise imprimir mais de uma vez). \"NOME venceu a corrida!\" Onde nome corresponde a Mario, Yoshi ou Toad.",
+    "topics": [
+        "decisão"
+    ]
+}

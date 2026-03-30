@@ -1,0 +1,10 @@
+{
+    "title": "Equação da reta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado dois pontos em um espaço 2D, calcule a equação da reta na forma: (ax) + (by) + (c) = 0",
+    "format_input": "Serão dados 4 inteiros x1 y1 x2 y2 separados por um espaço. Esses inteiros correspondem aos pontos (x1, y1) e (x2, y2)",
+    "format_output": "Imprima uma linha com a equação da reta na forma: (ax) + (by) + (c) = 0 Os números a, b e c devem ser formatados com duas casas decimais.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

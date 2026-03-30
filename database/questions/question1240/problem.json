@@ -1,0 +1,10 @@
+{
+    "title": "O famigerado palíndromo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que dada uma string analise se é um palíndromo ou não.",
+    "format_input": "Uma string de tamanho máximo 100.",
+    "format_output": "S, se for palíndromo. N, se não for.",
+    "topics": [
+        "palíndromos"
+    ]
+}

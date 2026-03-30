@@ -1,0 +1,10 @@
+{
+    "title": "Árvores de um grafo",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Seu objetivo é encontrar o valor da menor e segunda menor árvore geradora, considere que ambas respostas existe e seus valores são diferentes.",
+    "format_input": "A primeira linha possui dois inteiros, V e E. Onde V indica a quantidade de vértices no grafo e E indica a quantidade de arestas no grafo. Assim, terá mais E linhas descrevendo cada aresta, possuindo 3 inteiros: F, T e W. Onde F e T são os vértices da aresta e W o custo da aresta.",
+    "format_output": "Imprima duas linhas, a primeira linha contém o texto “First Spanning Tree Cost X”, onde X é o valor da menor árvore geradora e a segunda linha contém o texto “Second Spanning Tree Cost: Y”, onde Y é o valor da segunda menor árvore geradora.",
+    "topics": [
+        "árvore geradora mínima"
+    ]
+}

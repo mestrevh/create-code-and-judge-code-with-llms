@@ -1,0 +1,10 @@
+{
+    "title": "Dominó",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Todos conhecem o jogo de dominós, em que peças com dois valores devem ser colocadas na mesa em seqüência, de tal forma que os valores de peças imediatamente vizinhas sejam iguais. O objetivo desta tarefa é determinar se é possível colocar todas as peças de um conjunto dado em uma formação válida. É dado um conjuto de peças de dominó. Cada peça tem dois valores X e Y, com X e Y variando de 0 a 6 (X pode ser igual a Y). Sua tarefa é escrever um programa que determine se é possível organizar todas as peças recebidas, obedecendo as regras do jogo de dominó.",
+    "format_input": "A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de testes contém um número inteiro N ( 0<= N <= 100) que indica a quantidade de peças do conjunto. As N linhas seguintes contêm, cada uma, a descrição de uma peça. Uma peça é descrita por dois inteiros X e Y ( 0 ≤ X ≤ 6 e 0 ≤ Y ≤6) que representam os valores de cada lado da peça. O final da entrada é indicado por N = 0.",
+    "format_output": "Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira linha deve conter um identificador do conjunto de teste, no formato “Teste n”, onde n é numerado a partir de 1. A segunda linha deve conter a expressão “sim” se for possível organizar todas as peças em uma formação válida ou a expressão “nao” (note a ausência de acento) caso contrário. A terceira linha deve ser deixada em branco. A grafia mostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente",
+    "topics": [
+        "obi"
+    ]
+}

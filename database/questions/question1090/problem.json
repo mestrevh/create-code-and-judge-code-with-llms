@@ -1,0 +1,10 @@
+{
+    "title": "Peregrino das Galáxias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A empresa Grafs está negociando com o famoso peregrino Cinid para oferecer um serviço de voos intergalácticos. O universo de Cinid é formado por N galáxias e ele traçou voos bidirecionais entre alguns pares de galáxias, cada voo com um custo único associado apenas a ele. Ele também garantiu que a partir de uma galáxia ele conseguiria chegar a qualquer outra. Sua proposta foi apresentada à empresa. Entretanto, a empresa quis reduzir os custos e apresentou uma contraprosposta em que a maior quantidade possível de voos fossem removidos, contanto que ainda fosse possível chegar a qualquer galáxia a partir de alguma. Além disso, a soma dos custos dos voos restantes é a mínima possível. Sabendo que Cinid adora viajar da galáxia S para a D, você, como empresário dele, deve analisar o custo mínimo de uma rota de S para D na proposta original e na contraproposta, para que Cinid possa tomar uma decisão.",
+    "format_input": "A primeira linha da entrada contém dois inteiros N M indicando a quantidade de galáxias do universo de Cinid e a quantidade de voos propostos por ele, respectivamente. As M linhas seguintes indicam quais são os voos e seus custos no formato A B C indicando que foi proposto um voo entre as galáxias A e B (0 <= A, B < N) com custo C. A linha seguinte contém dois inteiros S D indicando a galáxia de origem S e a de destino D. Limites: 0 < M <= 3 * 10⁴ 0 < N <= 10⁴ 0 < C <= 3 * 10⁴",
+    "format_output": "Três linhas no formato D1 D2 S W[0] W[1] ... W[k] D onde: D1 = menor custo entre S e D na proposta original. D2 = menor custo entre S e D na contraproposta. W[i] = custo do i-esimo voo na rota de S para D na contraproposta.",
+    "topics": [
+        "algoritmo guloso"
+    ]
+}

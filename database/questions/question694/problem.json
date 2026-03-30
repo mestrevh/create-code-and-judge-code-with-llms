@@ -1,0 +1,11 @@
+{
+    "title": "O dobro do maior",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba dois números reais e imprima o dobro do maior dos números recebidos. Para responder essa questão, procure fazer uma função que recebe os dois números reais e retorna o dobro do maior entre eles.",
+    "format_input": "Dois números reais separados por um final de linha.",
+    "format_output": "Um número real formatado com 2 casas decimais.",
+    "topics": [
+        "ponto flutuante",
+        "decisão"
+    ]
+}

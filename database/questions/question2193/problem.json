@@ -1,0 +1,10 @@
+{
+    "title": "Comprando laranjas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade quer comprar N laranjas no mercado. Nesse mercado, a primeira laranja custa k reais, a segunda laranja custa 2k reais, e assim por diante (em outras palavras, é necessário pagar i·k reais pela i-ésima laranja). A Entidade possui R reais. Quantos reais ela precisa pedir emprestado das outras Entidades para comprar N laranjas? Exemplo: k = 2, R = 1, N = 3 Primeira laranja: 2; Segunda laranja: 4; Terceira laranja: 6 Totalizando: 12 reais. Como a Entidade só tem 1 real, ela precisa pedir 11 reais emprestado das outras Entidades.",
+    "format_input": "A primeira linha da entrada consiste de três inteiro positivos k, R, N (1 ≤ k, w ≤ 1000, 0 ≤ n ≤ 10^9), representando o custo da primeira laranja, quantos reais a Entidade possui e quantas laranjas a Entidade deseja comprar, respectivamente.",
+    "format_output": "Imprima um inteiro, representando quantos reais a Entidade vai precisar pedir emprestado para as outras Entidades. Se ela não precisar pedir dinheiro emprestado, imprima 0.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Frutas",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Dona Marta, a mãe de Mariana, pediu para ajudá-la a calcular o consumo de frutas na casa e o valor gasto por dia dessas frutas. Mariana agora deve fazer um programa a partir de uma tabela que sua mãe usava para anotações por quase um ano. Nesta tabela, a Dona Marta anotou a quantidade de dias e, em seguida, o dinheiro gasto a cada dia com estas frutas. Considere que cada fruta pesa 1Kg.",
+    "format_input": "Você vai receber um número N (0 < N < 20), correspondendo ao número de testes. Para cada teste, você receberá duas linhas. A primeira linha contém um número de ponto flutuante V (0,10 ≤ V ≤ 20,00), indicando o montante gasto com a segunda linha contém o nome de cada fruta que Dona Marta comprou, separados por espaço.",
+    "format_output": "Imprima quantos quilos de frutas Dona Marta comprou em cada dia, com a mensagem correspondente, como no exemplo de entrada. No final, imprima o consumo médio em kg por dia com 2 números decimais e a média de dinheiro gasto por dia, como no exemplo de entrada. Ao fim da saida, deve existir uma quebra de linha.",
+    "topics": [
+        "array",
+        "acumulador",
+        "string"
+    ]
+}

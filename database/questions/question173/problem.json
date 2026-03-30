@@ -1,0 +1,11 @@
+{
+    "title": "Cadeiras do auditório",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As cadeiras do auditório da escola são organizadas em um quadriculado com L linhas e C colunas. As linhas são numeradas de 1 a L, as colunas são numeradas de 1 a C, e as cadeiras são numeradas de 1 a L × C, de tal modo que uma cadeira na linha i coluna j tem o número (i - 1) × C + j. Durante a aula de teatro, a professora fez com que os alunos executassem uma sequência de mudanças na configuração da sala. Cada uma dessas mudanças intercambiou ou duas colunas ou duas linhas. A figura abaixo ilustra uma configuração original com três linhas e quatro colunas, a posição das cadeiras após uma mudança(intercâmbio das colunas 1 e 4), e a posição das cadeiras após mais uma mudança (intercâmbio das linhas 2 e 3). Ao final da aula, como era de se esperar, a numeração das cadeiras ficou bem bagunçada. O problema é que a próxima aula é de Matemática, e o professor é muito exigente, e quer começar a aula com as cadeiras perfeitamente posicionadas da maneira original. Sua tarefa é escrever um programa que, dada a posição de cada cadeira ao final da aula de teatro, determine qual é a menor sequência de mudanças que devem ser executadas para retornar as cadeiras aos seus devidos lugares, considerando que cada mudança faça o intercâmbio ou de duas linhas ou de duas colunas de cadeiras.",
+    "format_input": "A primeira linha da entrada contém dois números inteiros L e C, representando respectivamente o número de linhas e o número de colunas de cadeiras do auditório (1 <= L <= 200 e 1 <= C <= 200). Cada uma das L linhas seguintes contém C números inteiros entre 1 e L × C, separados por um espaço em branco, indicando a posição das cadeiras ao final da aula de teatro. O j-ésimo número dado na linha i é o número da cadeira que se encontra na linha i e coluna j.",
+    "format_output": "Seu programa deve imprimir, na saída padrão, uma linha com um inteiro K representando o número de mudanças necessárias para retornar as cadeiras para sua posição original.",
+    "topics": [
+        "array bidimensional",
+        "função"
+    ]
+}

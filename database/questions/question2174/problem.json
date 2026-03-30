@@ -1,0 +1,11 @@
+{
+    "title": "Conta de Água e Esgoto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba a quantidade de m3 de água consumidos e o custo por litro de água e calcule: a) O valor a ser pago pela água; b) O valor a ser pago pelo esgoto, sabendo que este corresponde a 80% do valor da água consumida; c) O valor total da conta, considerando água e esgoto. Dica: Lembre-se que 1 m3 = 1.000 litros",
+    "format_input": "A entrada consiste de uma linha contendo um valor real (ponto flutuante) que indica a quantidade em m3 consumida por uma residência e outro valor real que indica o custo em reais por litro de água.",
+    "format_output": "A saída consiste de 3 linhas. A primeira linha contém o valor a ser pago pela água, na segunda o valor do esgoto e na terceira o valor total. Os valores numéricos de cada uma das linhas devem ter 2 casas decimais.",
+    "topics": [
+        "multiplas entradas",
+        "lógica matemática"
+    ]
+}

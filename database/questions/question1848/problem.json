@@ -1,0 +1,10 @@
+{
+    "title": "Subconjuntos complementares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um multiconjunto S, o qual só possui números naturais e um valor natural D é possível fazer dois subconjuntos de S. Que respeitem as restrições abaixo: Restrições: S' ∪ S'' = S; ∀ x ∈ S, Se x ∈ S', então x ∉ S'' e Se x ∈ S'', então x ∉ S'; ∑S'i - ∑S''j = D. Limites: O conjunto S tem no máximo 100 elementos; Cada elemento de S está no intervalo [1,300].",
+    "format_input": "A entrada contém apenas duas linhas. A primeira linha contém o conjunto S com seus elementos separados por espaço e a segunda linha o inteiro D.",
+    "format_output": "Imprima Yes se for possível formar os subconjuntos e se não for possível criar os subconjuntos imprima No com as restrições.",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

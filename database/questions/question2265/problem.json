@@ -1,0 +1,13 @@
+{
+    "title": "Grace Hopper, a Vovó do Cobol",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Grace Murray Hopper, também conhecida como \"vovó do COBOL\", foi analista de sistemas e almirante da Marina dos Estados Unidos nas décadas de 1940 e 1950. Grace criou a linguagem de programação Flow-Matic que serviu como base para a criação do COBOL. Além disso, ela também participou da criação do primeiro compilador de COBOL. Também ficou conhecida por ter sido a criadora do termo BUG quando ocasionalmente descobriu um problema no seu computador e percebeu que era um inseto morto na válvula, já que naquela época os computadores eram formados por válvulas. Desde então o termo BUG passou a ser usado para erros. Grace Hopper é uma das mulheres mais importantes na história da participação feminina na computação, tendo seu nome em um dos congressos mais importantes, \"Grace Hopper Celebration of Women in Computing\". Neste problema são dadas cinco palavras em cada linha de teste separadas por hífen. Para cada linha será impressa a palavra 'GRACE HOPPER' se no texto de entrada forem encontradas as letras que formam a palavra COBOL no início ou fim de cada palavra em ordem. Caso não encontre, será impressa a palavra 'BUG'.",
+    "format_input": "A entrada contém vários casos de teste. Cada caso de teste consiste de uma única linha contendo de 1 a 50 caracteres, formado por letras minúsculas e maiúsculas ('a'-'z', 'A'-'Z') e hífens ('-'), sem espaços. Os casos de teste se encerram quando se encontra a palavra FIM.",
+    "format_output": "Para cada caso de teste imprima a palavra correspondente (GRACE HOPPER ou BUG).",
+    "topics": [
+        "decisão",
+        "substrings",
+        "repetição",
+        "string"
+    ]
+}

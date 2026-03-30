@@ -1,0 +1,13 @@
+{
+    "title": "Candidatos de um Concurso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio é o presidente da ACP (Ambrósio Concursos Públicos) e recebeu uma oferta em dinheiro (bem generosa) para gerir um concurso público que visa contratar profissionais da área de TI na cidade de AmbroCity. Uma das requisições do cliente é que o site do concurso informe a relação de todos os candidatos, em ordem de classificação de acordo com a pontuação que obtiveram na prova. O sistema também deve exibir uma linha separadora para identificar os candidatos que foram classificados e os que não foram. Esta linha separadora dependerá da Nota de Corte definida antecipadamente pelo cliente. Como você, desenvolvedor da ACP, é graduado em Ciência da Computação na UFAL e fez o curso de Estrutura de Dados, foi designado para implementar o algoritmo que exibe a relação ordenada de candidatos do site. O número de candidatos é bem grande. Por isso, Ambrósio exige que o algoritmo seja implementado usando heap.",
+    "format_input": "A entrada consiste de várias linhas. Na primeira linha serão fornecidos valores C e NC, separados por um espaço em branco, onde C é um número inteiro representando a quantidade de candidatos da relação e NC um número de ponto flutuante de dupla precisão representando a Nota de Corte. (1 < C < 100000, 0.0 < NC < 100.0). Logo após seguem C linhas contendo os valores Ni e Pi, separados por um espaço em branco, onde Ni é uma string que representa o nome do i-ésimo candidato e Pi um número de ponto flutuante de dupla precisão representando a pontuação do i-ésimo candidato. (Ni tem no máximo 20 caracteres; 0.0 < Pi < 100.0). Nos casos de teste não serão fornecidos candidatos com pontuação igual ou com nomes iguais.",
+    "format_output": "A saída é formada por C linhas no seguinte formato: #j - Nj - Pj. Onde j é a colocação do j-ésimo candidato, Nj o nome do j-ésimo candidato e Pj a pontuação do j-ésimo candidato. A relação deve exibir uma linha separadora indicando a divisão dos candidatos classificados e os não classificados (Nota de Corte). A linha segue o seguinte formato: ------------------------------ (30 caracteres '-').",
+    "topics": [
+        "heap",
+        "estrutura de dados",
+        "string",
+        "ordenação"
+    ]
+}

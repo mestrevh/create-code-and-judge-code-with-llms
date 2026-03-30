@@ -1,0 +1,10 @@
+{
+    "title": "L3Q4 - Kuchiyose no Jutsu",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Neste momento está acontecendo um evento peculiar na Aldeia da Folha, os Jounins foram convidados para escrever seus nomes no pergaminho de contrato de cada animal que queira invocar em batalha. Os animais disponíveis são: Sapos, Cobras, Lesmas, Macaco, Cães. O chefe do evento informou que a quantidade de ninjas inscritos superou o imaginado e para que o evento acontecesse pediu sua ajuda para auxiliar na lista de contratos. Seu dever é fazer um programa que dado a característica do ninja, coloque o seu nome no pergaminho de contrato do animal que é compatível com aquela característica. Sapos – Coragem, Determinação, Convicção. Cobras – Ambição, Astúcia, Expertise. Lesmas – Análise, Suporte, Técnica. Macacos – Agilidade, Inteligência, Destreza. Cães – Experiência, Perspicácia, Perícia. OBS: pode conter ninja que não apresente nenhuma característica. OBS: Caso não seja realizado nenhum contrato, imprima \"Nao havera Jounins forte esse ano\".",
+    "format_input": "A primeira linha da entrada é composta por um inteiro N, referente a quantidade de ninjas que irão participar. As próximas N linhas são compostas por um nome e, talvez, uma característica separados por um espaço (de acordo com as características especificadas na descrição). OBS: As características válidas para os ninjas estão listados em negrito na descrição da questão.",
+    "format_output": "A saída pode ser composta por várias linhas, da seguinte forma: Para cada contrato, na seguinte ordem: Sapo, Cobra, Lesma, Macaco, Cães, deve ser impressa uma linha contendo o nome da invocação seguido por um \":\" (sem aspas). Em seguida, para cada ninja que realizou um contrato, deve ser impressa uma linha no formato (hífen, espaço e nome da pessoa): - Nome Caso um ninja não apresente alguma característica, o mesmo não deve aparecer na saída. Ou Caso não seja realizado nenhum contrato, devera ser impresso: \"Nao havera Jounins forte esse ano\".",
+    "topics": [
+        "array"
+    ]
+}

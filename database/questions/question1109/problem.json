@@ -1,0 +1,12 @@
+{
+    "title": "Programador Dedicado",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Não tem dia ruim pra Demóclistenes. Ele programa todo dia e estabeleceu uma meta de fazer pelo menos 5 programas e 100 linhas de código por dia. Escreva um programa que receba como entrada a quantidade de programas e a quantidade de linhas de código feitas por ele em cada um dos sete dias da semana, e exiba em quantos dias ele cumpriu as duas metas e o dia em que ele mais produziu linhas de código. ATENÇÃO: Assuma que o primeiro dia da semana é DOMINGO. Se a produção de programas for a mesma todos os dias, será exibido o último dia da semana.",
+    "format_input": "Sequência de 14 valores inteiros e positivos não-nulos",
+    "format_output": "Quantidade de dias que atingiu meta de programas Quantidade de dias que atingiu meta de linhas de código Dia que mais produziu linhas de código",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "repetição"
+    ]
+}

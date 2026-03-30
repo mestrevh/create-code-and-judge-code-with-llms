@@ -1,0 +1,10 @@
+{
+    "title": "Masculino e Feminino",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Escreva um programa que verifique se uma letra digitada é \"F\" ou \"M\". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo nao definido.",
+    "format_input": "Será inserida uma String (\"F\" ou \"M\")",
+    "format_output": "Será retornado Feminino para entrada F, Masculino para entrada M e \"Sexo nao definido\" caso contrário.",
+    "topics": [
+        "decisão"
+    ]
+}

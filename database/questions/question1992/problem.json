@@ -1,0 +1,11 @@
+{
+    "title": "Conversão de galões para litros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa em Python que converta galões em litros. Leve em consideração que 1 galão é equivalente a 3,7854 litros.",
+    "format_input": "A entrada consiste de uma linha contendo em 3 valores inteiros.",
+    "format_output": "A saída consiste de 3 linhas contendo a conversão de galões para litros de cada um dos 3 valores da entrada. Osvalores numéricos de cada uma das linhas devem ter 2 casas decimais.",
+    "topics": [
+        "decisão",
+        "formatação"
+    ]
+}

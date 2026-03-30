@@ -1,0 +1,11 @@
+{
+    "title": "Vogais no texto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um texto como entrada, imprima a quantidade de cada uma das vogais presentes no texto. Dica para quem for desenvolver em Python: 1. Utilize dicionário para acumular os valores de cada vogal, onde cada vogal será a chave do dicionário; Dica para quem for desenvolver em c: 1. A variável que receberá a entrada deve ser declarada como um ponteiro para char; 2. Use a função gets() para receber o valor da string; 3. Faça um outro ponteiro para char percorrer a string digitada, contabilizando cada nova vogal encontrada; 4. Para contabilizar as vogais, crie um array ou uma variável para cada letra; 5. Use um switch para tomar a decisão de qual vogal deve ser contabilizada. Lembre-se de diferenciar maiúsculas e minúsculas.",
+    "format_input": "Um texto/frase, com letras maiúsculas e minúsculas.",
+    "format_output": "A quantidade de cada vogal encontrada no texto, uma em cada linha, no formato: a 3 e 2 i 1 o 5 u 7",
+    "topics": [
+        "string",
+        "ponteiro"
+    ]
+}

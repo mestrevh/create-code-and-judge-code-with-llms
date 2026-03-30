@@ -1,0 +1,12 @@
+{
+    "title": "Série Fatorial",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcule e escreva a soma dos n primeiros termos da série:",
+    "format_input": "Um inteiro n indicando a quantidade de termos da série",
+    "format_output": "Um número de ponto flutuante formatado com duas casas decimais, seguido de um final de linha. O número deve ser arrendondado, ou seja, se o seu resultado der -2963.4768, por exemplo, você deve imprimir -2963.48 e não -2963.47",
+    "topics": [
+        "array",
+        "acumulador",
+        "lógica matemática"
+    ]
+}

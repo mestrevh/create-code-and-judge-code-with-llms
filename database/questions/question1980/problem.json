@@ -1,0 +1,11 @@
+{
+    "title": "Labirinto 3D",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Resolva o Labirinto 3D! Sim, 3D. Uma forma de visualiza-los é fatiar cada plano. Então, um labirinto 3D pode ser visto como uma série de labirintos 2D conectados um atrás do outro. Sabendo isso, faça um programa que imprima os movimentos necessários para sair do canto superior esquerdo do primeiro plano e chegar no canto inferior direito do último plano. Como de costume, '.' são caminhos livres, e '#' são paredes. Os movimentos são: 'U' - Up, 'D' - Down, 'B' - Back, 'F' - Front, 'L' - Left, 'R' - Right. (Note que 'F': significa que você vai para mesma linha e coluna do plano seguinte; e 'B': significa que você vai para mesma linha e coluna do plano anterior) (Sempre é possível sair do labirinto) Exemplo do primeiro caso de teste (https://www.remix3d.com/details/G009SVKLGJ51)",
+    "format_input": "A primeira linha de entrada irá conter três inteiros Z, Y, X , representando a quantidade de planos, linhas e colunas (de cada plano), respectivamente. Em seguida, seguirão Z planos, cada plano é separado por uma quebra de linha, e são formados por Y linhas, onde cada linhas contém X caracteres. 1 <= Z, Y, X <= 69.",
+    "format_output": "A saída deverá conter um inteiro M representando a quantidade de movimentos necessários para sair do labirinto. Em seguida deverá conter M movimentos para saída do labirinto. Formato: \"M1 -> M2 -> ... -> MM\".",
+    "topics": [
+        "backtracking",
+        "recursão"
+    ]
+}

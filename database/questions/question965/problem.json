@@ -1,0 +1,10 @@
+{
+    "title": "Cavalos do Xadrez",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um jogo de xadrez, o cavalo tem como característica movimento em formato de \"L\". Um simples tabuleiro de 8x8 com somente 1 cavalo, alguns peões e casas vazias. Você recebeu a tarefa de verificar se é possível comer todos os peões passando no máximo 2 vezes pela mesma casa.",
+    "format_input": "A entrada consiste em 8 linhas e em cada linha terá 8 caracteres. Assim, representando o tabuleiro. '2' - Indica o cavalo. '1' - Indica o peão. '0' - Indica casa vazia. Exemplo:",
+    "format_output": "Uma linha com 'S' se for possível e 'N' se não for possível.",
+    "topics": [
+        "backtracking"
+    ]
+}

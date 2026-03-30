@@ -1,0 +1,11 @@
+{
+    "title": "Inverso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu programa deve receber um vetor de N valores inteiros e imprimir na ordem inversa.",
+    "format_input": "Na primeira linha de entrada o programa recebe um valor inteiro N de entrada. A segunda linha contém N inteiros separados por espaço contendo os valores do array.",
+    "format_output": "Uma linha contendo os números do vetor em ordem invertida separados por espaços em branco, seguida de um final de linha. Depois do último número, não deve existir um espaço em branco.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

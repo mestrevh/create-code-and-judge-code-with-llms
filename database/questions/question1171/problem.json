@@ -1,0 +1,10 @@
+{
+    "title": "Count Sort",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Faça a ordenação de uma lista de números.",
+    "format_input": "Terá uma única linha com todos os valores inteiros. N indica a quantidade de elementos na linha 1 <= N <= 500000 0 <= Ni <= 10^7",
+    "format_output": "Imprima um elemento por linha com a lista ordenada.",
+    "topics": [
+        "ordenação"
+    ]
+}

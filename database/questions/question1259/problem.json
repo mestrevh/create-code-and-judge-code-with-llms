@@ -1,0 +1,10 @@
+{
+    "title": "Organizando a biblioteca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi pego vagando pela Floresta Proibida pelo Sr. Filch, e agora está de detenção. Seu castigo será organizar os livros da biblioteca com base no código deles. Você, um aprendiz de bruxo muito competente, decidiu que não irá só organizar os livros colocando seus códigos em ordem crescente, mas listará aqueles que tem mesmo código. Sua tarefa é criar um programa que leia os livros a serem ordenados seguidos de seus respectivos códigos, e os imprima na ordem pedida. Além disso, identificar aqueles de mesmo código. Os códigos são todos do tipo : identificador#número, onde identificador é uma sequência de caracteres qualquer(exceto o \"#\", e identificador é um inteiro de 4 algarismos.",
+    "format_input": "N - número natural, indicando a quantidade de livros a serem ordenados. 2N linhas, tais que : L - string, a primeira linha representará o nome do livro; C - string, a segunda linha representará o código.",
+    "format_output": "L1...Ln: livros ordenados (identificadores em ordem crescente); R1...Rj: representando os livros de mesmo código, caso existam.",
+    "topics": [
+        "array"
+    ]
+}

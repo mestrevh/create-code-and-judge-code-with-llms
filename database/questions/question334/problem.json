@@ -1,0 +1,12 @@
+{
+    "title": "Excedendo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que lê dois inteiros: X e Z (Z deve ser lido tantas vezes quantas forem necessárias, até que um número maior do que X é lido). Contar quantos números inteiros devem ser somados em sequência (a partir de e incluindo a X), de modo que a soma excede Z o mínimo possível e escrever este número. A entrada pode ter, por exemplo, os números 21, 21, 15, 30. Neste caso, o número 21, é assumido para o X, Os números 21 e 15 devem ser ignorados, porque eles são menores ou iguais a X. O número 30 está dentro da especificação (superior a X) e é válido. Assim, o resultado final deve ser de 2 para este caso de teste, porque a soma (21 + 22) é maior do que 30.",
+    "format_input": "A entrada contém apenas valores inteiros, um por linha, que pode ser positivo ou negativo. O primeiro número é o valor de X. A próxima linha conterá Z. Se Z não atende a especificação do problema, deve-se ler de novo, quantas vezes forem necessárias.",
+    "format_output": "Imprima uma linha com um número inteiro representando a quantidade de números inteiros que devem ser somadas, seguido de uma quebra de linha.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "repetição"
+    ]
+}

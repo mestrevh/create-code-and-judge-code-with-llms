@@ -1,0 +1,11 @@
+{
+    "title": "Circulos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considerando dois círculos definidos por: Círculo 1: (x – 1)² + (y – 1)² ≤ 1 Círculo 2: (x – 1)² + (y – 1)² ≤ 1 Escreva um programa que recebe um ponto (x,y) e que verifica se esse ponto é exterior aos círculos, se está no interior dos dois círculos, apenas no interior do círculo 1 ou apenas no interior do círculo 2.",
+    "format_input": "A entrada consiste com os valores do ponto (x,y). Observe como é a escrita da entrada, além disso a entrada só é terminada por uma linha contendo o caractere \"&\" (sem as aspas), a qual não deve ser processada.",
+    "format_output": "A saída processada poderá ser de 4 tipos diferentes: O ponto P(x,y) é externo aos circulos. O ponto P(x,y) está no interior dos circulos. O ponto P(x,y) está no interior apenas do circulo 1. O ponto P(x,y) está no interior apenas do circulo 2.",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}

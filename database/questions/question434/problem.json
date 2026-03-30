@@ -1,0 +1,8 @@
+{
+    "title": "Futura Formanda",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gorete é aluna do curso de Jornalismo e está preocupada porque talvez não consiga se formar no tempo previsto. A carga horária total do curso é de 260 créditos, e cada aluno pode pagar no máximo 24 créditos por semestre. Sabendo disso, escreva um programa que receba como entrada a quantidade de créditos já pagos por Gorete, e exiba a quantidade de semestres que ela ainda vai passar no curso para pagar os créditos restantes. (Dica: considere que ela vai cursar sempre o máximo de créditos)",
+    "format_input": "Um número inteiro",
+    "format_output": "Um número inteiro",
+    "topics": []
+}

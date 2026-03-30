@@ -1,0 +1,11 @@
+{
+    "title": "Maior de 2 números.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia dois valores inteiros da entrada padrão e informe qual é o maior. Se os números forem iguais, imprima qualquer um deles.",
+    "format_input": "Dois valores inteiros.",
+    "format_output": "O maior dentre os 2 valores fornecidos.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

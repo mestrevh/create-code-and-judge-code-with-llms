@@ -1,0 +1,11 @@
+{
+    "title": "O número Perdido",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá como entrada um inteiro N, logo em seguida receberá N-1 números que estão no intervalo fechado de 1 a N. Sua missão é simples: encontre o número que está faltando.",
+    "format_input": "Um inteiro N, onde 2 <= N <= 100000. em seguida você receberá N-1 inteiros, os números da lista.",
+    "format_output": "Sua saída é um inteiro representando o número perdido.",
+    "topics": [
+        "array",
+        "busca"
+    ]
+}

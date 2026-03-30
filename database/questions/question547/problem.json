@@ -1,0 +1,13 @@
+{
+    "title": "Profundidade de um nó em uma árvore binária",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Escreva um programa que aceita uma árvore binária, e um inteiro N. Seu programa deve ser capaz de dizer se existe um nó cujo inteiro é N bem como em que profundidade ele se encontra.",
+    "format_input": "Uma árvore binária, representada da seguinte maneira: (5(4(11(7()())(2()()))()) (8(13()())(4()(1()())))) Que é a arvore: E um inteiro N",
+    "format_output": "Duas linhas. Em uma delas, você irá dizer ESTA NA ARVORE, caso o nó cujo inteiro é N esteja na árvore, e NAO ESTA NA ARVORE, caso contrário. Na outra linha, você irá informar em que profundidade da árvore o nó está. Caso não esteja, imprima -1. Observe o exemplo de entrada e saída.",
+    "topics": [
+        "estrutura de dados",
+        "Árvore",
+        "alocação dinâmica",
+        "busca"
+    ]
+}

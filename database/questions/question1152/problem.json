@@ -1,0 +1,10 @@
+{
+    "title": "Jornada Pokémon",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Biu é um garoto que está prestes a começar sua jornada pokémon. Para dar início, ele se dirigiu ao laboratório do Professor Carvalho para escolher um dos três pokémons ofertados para ser seu pokémon inicial. Infelizmente, o professor constatou um problema no sistema de seleção do laboratório e portanto não pôde efetuar a escolha de Biu. Sua tarefa é reescrever o sistema para que Biu possa escolher seu pokémon.",
+    "format_input": "N - número natural (1 <= P <= 3). A linha única de entrada é composta pelo número referente ao pokémon escolhido.",
+    "format_output": "P - string. A linha única da saída é composta pelo nome do pokémon escolhido, que pode ser: Bulbassauro, Charmander ou Squirtle. Será Bulbassauro quando o número escolhido for 1. Será Charmander quando o número escolhido for 2. Será Squirtle quando o número escolhido for 3.",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Empilhando Dominó",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Dado um quadro retangular de NxM quadrados e um número ilimitado de dominós de tamanho 2x1 quadrados. Sua tarefa é colocar o maior número possível de dominós no quadro obedecendo as seguintes regras: 1- Cada dominó cobre completamente 2 quadrados. 2- Nenhum dominó sobrepõe o outro. 3-Cada dominó esta inteiramente dentro do quadro. 4-É permitido tocar as bordas do quadro. 5-É permitido rotacionar as peças . Encontre o maior número possível de dominós que podem ser colocados obedecendo essas restrições.",
+    "format_input": "Uma única linha contendo os tamanhos do quadro (N e M). (1 ≤ M ≤ N ≤ 16).",
+    "format_output": "Uma única linha contendo o número máximo de peças que podem ser colocados no quadro. Seguido de uma quebra de linha.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Soma Dois Números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba dois números inteiros e exiba sua soma.",
+    "format_input": "Você receberá duas linhas. Cada linha contém um número inteiro. Obs: Não use mensagens no input",
+    "format_output": "Um número inteiro Obs: Não use mensagens no print",
+    "topics": []
+}

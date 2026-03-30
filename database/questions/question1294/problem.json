@@ -1,0 +1,10 @@
+{
+    "title": "L5Q6 - Rickslator",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Durante uma aventura, Rick e Morty acabaram em uma prisão na cidadela dividindo uma cela com Rick Robô e Morty Robô, para escapar de lá é preciso que eles trabalhem juntos. No entanto há um problema, o Rick só entende números na notação decimal e o Rick Robô só entende números na notação binária. Você deve fazer um tradutor, recursivo, binário -> decimal e decimal -> binário. Obs: Os algoritmos de conversão devem utilizar métodos recursivos.",
+    "format_input": "N O X. A entrada consiste dos: inteiro N, representando o número de conversões que serão feitas. String O, representando se a conversão será de decimal para binário, ou de binário para decimal: Se O == \"dec\", a conversão será de decimal para binário. Se O == \"bin\", a conversão será de binário para decimal. Se O for diferente de \"dec\" e \"bin\", o comando será inválido, e a saída deverá ser \"comando invalido.\" Variável X, representando o número, ou em inteiro, ou em decimal, para ser convertido.",
+    "format_output": "R. N linhas, contendo apenas R em cada uma, representando o Resultado de cada conversão, ou a String \"comando invalido.\" caso o comando daquela linha de entrada tenha sido inválido.",
+    "topics": [
+        "recursão"
+    ]
+}

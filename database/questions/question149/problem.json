@@ -1,0 +1,10 @@
+{
+    "title": "Infixo para pós-fixo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Transforme uma expressão algébrica com parêntesis na forma pós-fixa. Os operadores binários existentes, são: Precedência 0: + , - Precedência 1: *, / Precedência 2: ^ A ordem de precedência indica quem deve ser avaliado primeiro. Nesse caso, se você tiver por exemplo a expressão: x+b*c, primeiro você resolve b*c e depois soma o resultado a x. Os parênteses são representados pelos símbolos: ( ). Os operandos são representados pelas letras : a, b, ... , z. Assuma que existe somente uma forma pós-fixa, ou seja, não existirão expressões como : a*b*c.",
+    "format_input": "A entrada é dado um inteiro N, representando o número de expressões, seguida de uma lista de expressões. Assuma: N <= 100 cada expressão tem tamanho máximo de 400 caracteres",
+    "format_output": "As expressões na forma pós-fixa, uma por linha.",
+    "topics": [
+        "pilha"
+    ]
+}

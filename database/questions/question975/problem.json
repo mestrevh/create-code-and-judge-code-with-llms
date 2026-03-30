@@ -1,0 +1,11 @@
+{
+    "title": "Mensagem codificada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desde que a raça humana desenvolveu a língua escrita, usamos cifras e códigos para tornar-se difícil de compreender nossas mensagens. Os egípcios e gregos usavam códigos para transmitir as comunicações privadas, formando a base de decodificação moderna. A criptoanálise é o estudo de códigos. É um mundo de segredos e que pode ser muito divertido utilizá-lo. Por isso, a missão desse problema é ajudar o Wanwan a criar um algoritmo onde ele possa traduzir de maneira eficiente os textos codificados, ele conseguiu descobrir as codificações e agora ele deixa a missão de implementação para vocês!!",
+    "format_input": "A entrada irá consistir com uma linha de texto contendo as palavras codificadas.",
+    "format_output": "Na saída o texto deverá sair descodificado. Obs.: Lembrem-se que começo de frase é sempre maiúsculo e logo após o ponto também!!!!",
+    "topics": [
+        "caractere",
+        "string"
+    ]
+}

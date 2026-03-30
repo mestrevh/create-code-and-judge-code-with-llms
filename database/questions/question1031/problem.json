@@ -1,0 +1,12 @@
+{
+    "title": "Mike e o palíndromo",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Mike tem uma string S contendo apenas letras minúsculas. Ele quer mudar exatamente 1 caractere da string para que o resultado da mesma, seja um palíndromo. Um palíndromo é uma string que é igual quando lida de trás pra frente, por exemplo : \"z\", \"aaa\", \"aba\", \"abccba\". Mas strings como : \"relógio\", \"mouse\", não são.",
+    "format_input": "A primeira linha contem uma string S. 1<= S <= 15",
+    "format_output": "Print \"YES\" (sem as aspas) se quando Mike mudar exatamente um caractere o resultado seja um palíndromo ou \"NO\" caso contrário.",
+    "topics": [
+        "substrings",
+        "palíndromos",
+        "string"
+    ]
+}

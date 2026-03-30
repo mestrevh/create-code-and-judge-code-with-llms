@@ -1,0 +1,10 @@
+{
+    "title": "Encontro da Entidade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um certo dia, a Entidade queria ir num encontro com o Coiso. A Entidade e o Coiso vivem no plano cartesiano. A casa da Entidade fica no ponto (0, 0) e a casa do Coiso fica no ponto (a, b). Em cada passo, é possível mover-se uma unidade na horizontal ou na vertical. Em outras palavras, da posição (x, y), é possível parar em (x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1). Infelizmente, a Entidade não tem senso de direção. Então, ela aleatoriamente escolhe a direção para ir em cada passo. Ele pode acidentalmente voltar para sua casa durante sua viagem, e ela também pode não perceber que chegou na casa do Coiso, continuando assim sua viagem. Felizmente, a Entidade chegou na casa do Coiso. A Entidade disse que levou exatamente s passos para viajar da minha casa até a sua. Mas o Coiso está confuso, ele não tem certeza de que é possível sair de (0, 0) e chegar em (a, b) em exatamente s passos. Então, o Coiso pediu para que você descobrisse se é mesmo possível.",
+    "format_input": "A entrada consistirá de três inteiros a, b e s (-109 ≤ a, b ≤ 109, 1 ≤ s ≤ 2·109) em uma única linha.",
+    "format_output": "Se o Coiso estiver certo, e for realmente impossível sair da casa da Entidade e chegar na casa do Coiso em exatamente s passos, imprima \"No\"; caso contrário, imprima \"Yes\".",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Wacky Races",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Dick Vigarista e Muttley participam da Wacky Races o qual buscam o título mundial de \"Corredor Mais Louco do Mundo\". Eles não são tão honesto e sempre trapaceiam para ganhar, utilizam diversos truques como demolição de pontes, armadilhas e sabotagem os carros dos adversários. Dick e Muttley querem inviabilizar uma rodovia durante a corrida, esta rodovia impede que qualquer competidor consiga chegar na linha de chegada. A corrida é caracterizada por um mapa, ele descreve as rodovias e suas junções com sua distância. O mapa tem N junções e o ponto de largada é a junção 1 e a linha de chegada é a linha N, as rodovias são de mão dupla. Dick e Muttley querem saber se tem alguma rodovia dessa e qual a menor distância que eles irão percorrer para partindo da linha de chegada. Neste mapa, as rodovias que possuem a propriedade são 4-5, 5-6 e 6-7, podemos chegar na 4-5 percorrendo 11 de distância, 5-6 percorrendo 13 e 6-7 com 18. Então é possível inviabilizar o caminho e com a distância de 11 da largada.",
+    "format_input": "A primeira linha terá dois inteiros N e A, o qual são o número de junções e a quantidade de rodovias respectivamente. Logo em seguida receberá A linhas com três inteiros F, T e C, os dois primeiros são as junções e o terceiro inteiro é a distância entre essas junções.",
+    "format_output": "Se não tiver tal rodovia imprima \"It's not possible\", se tiver imprima \"It's possible with distance X\", X é a menor distância para chegar na rodovia.",
+    "topics": [
+        "dijkstra"
+    ]
+}

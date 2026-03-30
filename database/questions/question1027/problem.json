@@ -1,0 +1,10 @@
+{
+    "title": "Gerencia fiado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Vamos implementar uma aplicação que gerencia as contas de vendas fiadas de um mercadinho. Para a solução você precisa usar dois arrays para: 1 - Armazenar os nomes das pessoas que fazem compra fiado no mercado. Os nomes são compostos de apenas uma palavra; 2 - Armazenar os saldos das contas. A posição 0 do array que armazena os saldos, corresponde ao valor devido pela pessoa cujo nome está armazenado na posição 0 do array de nomes. Os saldos iniciam com valor zero. Dica: Para comprarar dois String, utilize o método equals, que retorna um boolean indicando se um String é igual a outro, como no exemplo abaixo: String nome = \"FIM\"; if(nome.equals(\"FIM\")) { . . . } else { . . . }",
+    "format_input": "As entradas são compostas dos seguintes valores: 1 - Um valor inteiro informando a capacidade de contas a serem gerenciadas pelo sistema; 2 - Um conjunto de nomes (tantos quantos o valor informado no item anterior). Cada nome é composto apenas de uma palavra; 3 - Um conjunto de operações que representam uma compra no mercadinho ou um pagamento de uma dívida. Cada operação deve informar o nome da pessoa, a operação (C - compra, P - pagamento), e o valor da operação (double); 4 - O String FIM define o final da entrada. Embora seu programa possa apenas aceitar vírgula como separador de decimal, o thehuxley vai requerer ponto como separador, mas você não precisa modificar nada no seu programa, pois a conversão é automática e depende apenas das configurações regionais do computador.",
+    "format_output": "No final, o programa deve imprimir um relatório com 4 linhas: 1 - Número de contas com dívida acima de 100 reais (int); 2 - Número de contas sem dívida (int); 3 - Soma de todas as dívidas (double); 4 - Nome e valor (double) da dívida do maior devedor. Os valores double devem conter dois dígitos após a vírgula.",
+    "topics": [
+        "array"
+    ]
+}

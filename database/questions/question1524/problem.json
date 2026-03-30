@@ -1,0 +1,10 @@
+{
+    "title": "Aumento condicional",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Uma empresa decidiu dar um aumento de salário aos seus colaboradores e lhe contratou para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e calcule o reajuste segundo o seguinte critério, tendo como base o salário atual: a) salários até R$ 280,00 (incluindo) : aumento de 20% b) salários entre R$ 280,00 e R$ 700,00 (não incluso) : aumento de 15% c) salários entre R$ 700,00 e R$ 1500,00 (não incluso): aumento de 10% d) salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela: o salário antes do reajuste; o percentual de aumento aplicado; o valor do aumento; o novo salário, após o aumento.",
+    "format_input": "O salário antigo do funcionário.",
+    "format_output": "o salário antes do reajuste; o percentual de aumento aplicado; o valor do aumento; o novo salário, após o aumento.",
+    "topics": [
+        "decisão"
+    ]
+}

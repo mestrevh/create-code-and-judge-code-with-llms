@@ -1,0 +1,10 @@
+{
+    "title": "L3Q2 - NOMs",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As notas das NOMs finalmente saíram e você, ao calcular a média aritmética das notas dos seus amigos do quinto ano, viu que o resultado estava diferente do que você esperava. Depois de pensar bastante, você percebeu que as matérias possuíam pesos diferentes e a média calculada era ponderada. Como você está fora de Hogwarts, não pode usar magia para encontrar solução. Sua tarefa é fazer um programa que calcule a média ponderada das NOMs. Como você é um bom aluno e gosta de desafios, resolveu implementar seu programa usando arrays.",
+    "format_input": "A primeira linha é dada por: N Onde N é número que representa o número de NOMs feitos. Em seguida, N linhas: I Onde I é o ponto flutuante representando as notas tiradas nas N NOMs. Por fim, N linhas: P Onde P é ponto flutuante que representa o peso de cada NOM.",
+    "format_output": "Q Onde Q é ponto flutuante que representa a média das NOMs. Você deve considerar aproximação de 2 casas decimais.",
+    "topics": [
+        "array"
+    ]
+}

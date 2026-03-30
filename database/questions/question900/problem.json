@@ -1,0 +1,12 @@
+{
+    "title": "Média dos números.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa Java que leia 100 números e informe a média dos números.",
+    "format_input": "Os 100 números digitados.",
+    "format_output": "A média dos números.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "repetição"
+    ]
+}

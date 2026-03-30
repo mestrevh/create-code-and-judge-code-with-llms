@@ -1,0 +1,13 @@
+{
+    "title": "Loja de sapatos.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Uma loja trabalha com 50 modelos de sapato. Faça um programa em Java que leia o preço dos 50 modelos e depois imprima o preço de cada modelo no valor de à vista (5% de desconto) e no cartão (5% de acréscimo). Utilize o conceito de arrays.",
+    "format_input": "Preço dos 50 sapatos.",
+    "format_output": "O preço de cada modelo à vista. O preço de cada modelo no cartão.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Matriz com N números em M colunas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que exiba os N primeiros números naturais, distribuídos em M colunas.",
+    "format_input": "A entrada são dois inteiros especificando a quantidade N de números naturais e M, a quantidade de colunas.",
+    "format_output": "Dados N=13 e M=4 o resultado será: 1 2 3 4 5 6 7 8 9 10 11 12 13 Os números deverão ser exibidos reservando-se três posições.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

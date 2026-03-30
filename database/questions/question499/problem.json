@@ -1,0 +1,12 @@
+{
+    "title": "Somando Múltiplos e Divisores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba como entrada dois números positivos (limites do intervalo) e exiba a soma de todos os números que são ao mesmo tempo divisores de 1000 e múltiplos de 4 entre eles. Lembre-se de que os limites podem ser informados em qualquer ordem. Obs: os limites do intervalo não devem ser considerados como parte dele",
+    "format_input": "Dois números inteiros. Lembre-se de que o primeiro número informado não necessariamente será menor que o segundo informado",
+    "format_output": "Um número inteiro",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

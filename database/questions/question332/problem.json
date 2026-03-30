@@ -1,0 +1,13 @@
+{
+    "title": "Tudo em Maiusculo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você precisa ordenar nomes em uma agenda por ondem alfabética, um jeito simples de fazer isso, é passar todos os caracteres para maiúsculos ou minúsculos, para facilitar a comparação. Escreva um programa, que dado um nome, passe ele para maiúsculo.",
+    "format_input": "Uma string de até 100 caracteres, contendo um nome.",
+    "format_output": "O nome em letras maiúsculas, seguido de uma quebra de linha.",
+    "topics": [
+        "array",
+        "caractere",
+        "função",
+        "string"
+    ]
+}

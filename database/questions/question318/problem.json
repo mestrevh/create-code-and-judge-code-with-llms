@@ -1,0 +1,10 @@
+{
+    "title": "Og",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Og é um homem das cavernas com muitos filhos, e ele quer contá-los. Og conta de seus filhos com a mão esquerda e suas filhas com a mão direita. No entanto, Og não é lá muito inteligente, e não sabe fazer somas, por isso ele pediu-lhe para escrever-lhe um programa que vai fazer a adição.",
+    "format_input": "A entrada é composta de vários casos de teste. Cada caso de teste é composto por uma única linha contendo dois inteiros L e R, separadas por um único espaço, indicando respectivamente o número de filhos e filhas (0 ≤ L, R ≤ 5). O fim da entrada é indicado por L = R = 0.",
+    "format_output": "Para cada caso de teste da entrada imprimir uma linha contendo um único inteiro, indicando quantos filhos tem Og, seguida de uma quebra de linha.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

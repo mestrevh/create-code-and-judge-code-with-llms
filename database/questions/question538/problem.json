@@ -1,0 +1,12 @@
+{
+    "title": "Soma máxima",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Motivação: Um problema que é simples de se resolver em apenas uma dimensão geralmente é muito mais difícil de se resolver em duas ou mais dimensões. Considere uma expressão booleana satisfeita na forma normal conjutiva, em que cada conjunto é composto por exatamente 3 disjuntos. Este problema (3-SAT) é NP-Completo. No entanto, o problema 2-SAT é resolvido de forma bastante eficiente. Em contraste, alguns problemas pertencem à mesma classe de complexidade independente de qual a sua dimensão. Problema: Dado uma matriz bidimensional composta de inteiros positivos e negativos, procure o sub-retângulo com a maior soma possível. A soma do retângulo é a soma de todos os elementos deste retângulo. Neste problema, o sub-retângulo com a maior soma é chamado de sub-retângulo máximo. Um sub-retângulo é qualquer sub-array contíguo de tamanho 1x1 ou maior localizado dentro da matriz. Como um exemplo, o sub-retângulo máximo desta matriz: está localizado no canto inferior esquerdo: e tem a soma igual a 15.",
+    "format_input": "A entrada consiste em um array NxN de inteiros. A entrada começa com um único inteiro positivo N indicando o tamanho da matriz bidimensional quadrada. Nas próximas linhas seguem N² inteiros separados por espaços em branco (pulos de linha e espaços). Estes N² inteiros compõem a matriz da menor linha até a maior linha, isto é, todos os números na primeira linha, da esquerda para a direita, todos os números da segunda linha, da esquerda para a direita, etc. N será sempre menor ou igual a 100. Os inteiros que preenchem a matriz sempre estarão no intervalo [-127,127].",
+    "format_output": "A saída é um inteiro representando o sub-retângulo máximo seguido por um pulo de linha.",
+    "topics": [
+        "array bidimensional",
+        "requer solução eficiente",
+        "programação dinâmica"
+    ]
+}

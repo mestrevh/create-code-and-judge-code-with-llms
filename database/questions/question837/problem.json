@@ -1,0 +1,8 @@
+{
+    "title": "Corrida do IC",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Anualmente, cinco alunos do Instituto de Computação são selecionados para participar da corrida do IC. Uma empresa chamou você para ser o programador na qual vai fazer um programa que imprima a posição de cada carro seguido de suas velocidades na hora de chegar na linha de chegada.",
+    "format_input": "Uma linha contendo 5 Inteiros N1,N2,N3,N4 e N5, na qual são as velocidades dos carros. 223 50 120 130 140",
+    "format_output": "A posição de cada carro na corrida, formatado de tal forma : 1 - 223 km/h 2 - 140 km/h 3 - 130 km/h 4 - 120 km/h 5 - 50 km/h",
+    "topics": []
+}

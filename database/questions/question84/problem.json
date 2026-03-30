@@ -1,0 +1,10 @@
+{
+    "title": "Tráfego",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Visando fazer um levantamento das atuais condições de tráfego de uma malha rodoviária e definir alternativas para um reformulação futura, foi realizada uma pesquisa de tráfego do tipo ORIGEM-DESTINO. Esta pesquisa submeteu aos motoristas que trafegavam pela região em estudo um questionário com as seguintes pergutas: De onde veio (origem) 1. Belo Horizonte 2. São Paulo 3. Santos Dumont 4. Brasília Para onde vai (destino) 1. Rio de Janeiro 2. Petrópolis 3. Juiz de Fora 4. Barbacena Qual o tipo de veículo 1. automóvel 2. caminhão 3. ônibus Seu programa deve calcular e imprimir: A matriz origem-destino para cada tipo de veículo O número de veículos que tem Belo Horizonte como Origem A quantidade de ônibus que se originam de Brasília e se destinam a Petrópolis ou Barbacena",
+    "format_input": "Seu programa recebe três inteiros O, D e T indicando respectivamente a Origem, Destino e Tipo de veículo, onde 1 <= O, D <= 4 e 1 <= T <= 3. No formato das respostas do questionário como descrito anteriormente, a entrada acaba quando os três inteiros são iguais a zero",
+    "format_output": "A saída deve imprimir uma linha contendo o tipo de veículo utilizado seguido da matriz origem x destino contendo a quantidade de pessoas que tomaram aquele percurso usando o veículo descrito, assim como no formato de saída. Depois das três matrizes seu programa deve imprimir a frase \"Origem Belo Horizonte: x\", sem aspas, onde x representa o número de pessoas que tem como origem Belo Horizonte e por último a linha \"Onibus: Brasilia ? Petropolis ou Barbacena: y\", sem aspas, onde y representa o número de ônibus com origem em Brasília e destino igual a Petrópolis ou Barbacena",
+    "topics": [
+        "array bidimensional"
+    ]
+}

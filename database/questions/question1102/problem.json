@@ -1,0 +1,12 @@
+{
+    "title": "criptografia maluca",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Arquimedes está obcecado com sistemas de criptografia e resolveu inventar o dele. O sistema denominado de CLoSS (Criptografia de Lógica Sem Sentido) usa duas palavras: A palavra a ser criptografada e a chave que será usada na criptografia. (As duas palavras irão gerar uma terceira e podem conter letras, números e símbolos especiais, tais como !, @, $). A criptografia consiste em ler duas palavras de mesmo tamanho na entrada padrão e usar a seguinte regra: (i) se o símbolo na primeira palavra for igual ao da segunda e não for uma vogal, a posição equivalente na palavra resultante receberá o valor do índice da primeira palavra. (ii) Caso isso não ocorra e a posição dos símbolos sendo analisados seja um valor par, a palavra resultante receberá o símbolo da primeira palavra em MAIÚSCULO. (iii) Caso contrário, a palavra resultante receberá duas exclamações (\"!!\"). Atenção: As duas palavras devem ser lidas na mesma linha, ser minúsculas e devem ter o mesmo tamanho. Caso contrário não deve ser feita a codificação e resultará em ERRO. A contagem das posições começa em ZERO.",
+    "format_input": "Duas palavras (strings) contendo qualquer símbolo",
+    "format_output": "Uma palavra (string) representando o resultado da criptografia da primeira palavra.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

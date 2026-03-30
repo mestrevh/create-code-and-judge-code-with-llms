@@ -1,0 +1,10 @@
+{
+    "title": "Império Intergalático da Entidade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Por muitas vezes, a Entidade sonhou que tinha um Império Intergalático. Como ela gosta muito de padrões, o Império também tem muitos padrões. Um padrão interessante é a conexão dos planetas nos sistemas planetários. Para facilitar o transporte de mercadoria, existem dois portais em cada planeta, um de chegada e outro de saída. Os portais de saída estão conectados com os portais de chegada de um jeito especial: Saindo de qualquer planeta, sempre é possível voltar para esse planeta. Ou seja, os planetas formam ciclos. Em cada sonho, o Império tem uma configuração diferente, mas, sempre seguindo as mesmas propriedades. Ela gostaria de visualizar os ciclos, então, ela já enumerou cada planeta e marcou com qual ele está conectado. Agora, faça um programa que imprima os ciclos. Exemplo: 6 1 2 0 5 3 4 Planeta 0 conectado com o planeta 1 Planeta 1 conectado com o planeta 2 Planeta 2 conectado com o planeta 0 Planeta 3 conectado com o planeta 5 Planeta 4 conectado com o planeta 3 Planeta 5 conectado com o planeta 4",
+    "format_input": "A primeira linha da entrada conterá um inteiro P, representando a quantidade de planetas do Império desse sonho. Na linha seguinte, seguirão P inteiros, onde o i-ésimo inteiro da entrada (que tem valor u), representa que o planeta i está conectado com o planeta u.",
+    "format_output": "A saída deverá conter k linhas, exibindo cada ciclo, onde k é a quantidade de ciclos existentes: \"Cycle i: planets\", i sendo o i-ésimo ciclo e planets uma lista dos planetas que formam o i-ésimo ciclo.",
+    "topics": [
+        "array"
+    ]
+}

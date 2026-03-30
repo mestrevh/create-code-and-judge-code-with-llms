@@ -1,0 +1,12 @@
+{
+    "title": "L1Q6 - Batalha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Biu capturou um Charmander! Ele descobriu que seu pokemón tem uma habilidade especial, depois de algumas batalhas que ele leva vantagem contra pokemóns que possui CPs determinados. Para o Charmander vencer a batalha, seu oponente deve ter CP com seguintes características: CP deve possuir 4 dígitos; Sendo o CP representado pelas letras ABCD, onde cada letra representa um dígito, AB + CD = EF e EF² = ABCD. O Charmander só vencerá a partida caso essas características estiverem presentes. Sua tarefa é escrever um programa que ajude Biu a escolher melhor os oponentes para que seu Charmander saia sempre vitorioso. OBS: Não é permitido o uso da função charAt(i). Os números devem ser obtidos com operações matemáticas.",
+    "format_input": "C - número natural. A linha única de entrada é composta pelo CP do oponente.",
+    "format_output": "R - string. A linha única de saída é composta pelo resultado da batalha, com uma das mensagens: \"Charmander vitorioso\" ou \"Charmander derrotado\"",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "função"
+    ]
+}

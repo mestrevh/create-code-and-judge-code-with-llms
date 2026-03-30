@@ -1,0 +1,12 @@
+{
+    "title": "Primeira Ocorrência de Caractere em String",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Identificar a posição (índice) da primeira ocorrência de um caractere C numa string S; sendo C e S dados pelos utilizador. Caso C não exista em S, retornar -1. Atenção, se C escrito em maiúsculo, somente será localizado em S se também em maiúsculo; o mesmo vale para C em minúsculo.",
+    "format_input": "Uma string S e um caractere C, em linhas distintas.",
+    "format_output": "A posição (índice) da primeira ocorrência de C em S, considerando que a primeira posição é a zero, e em caso de C não existir em S, retornar -1.",
+    "topics": [
+        "array",
+        "decisão",
+        "caractere"
+    ]
+}

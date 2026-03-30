@@ -1,0 +1,11 @@
+{
+    "title": "Quantidade de números.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia uma quantidade indefinida de números positivos e imprima cada um deles. Números negativos indicam o fim das leituras.",
+    "format_input": "Quantidade indefinida de números inteiros positivos.",
+    "format_output": "Cada um dos números inteiros positivos.",
+    "topics": [
+        "multiplas entradas",
+        "repetição"
+    ]
+}

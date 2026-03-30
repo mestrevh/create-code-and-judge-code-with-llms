@@ -1,0 +1,13 @@
+{
+    "title": "Comparação multicritério",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Considere vetores de N coordenadas V=(v[0],...,v[N-1]) correspondentes a pontos no espaço N-dimensional. Dizemos que um vetor/ponto V domina um ponto W (equivalentemente, W é dominado por V) com respeito a uma coordenada j, e escrevemos V >>(j) W, se v[j]>w[j]. O elemento dominante de um conjunto N-dimensional de pontos P com respeito à coordenada j, se existir, será o elemento V tal que V >>(j) W para todo W!=V pertencente a P. Este conceito é útil em aplicações que envolvem comparações multi-critério, onde cada elemento (ponto) é composto por N características (coordenadas) que podem ser comparadas individualmente. Considere então um T.A.D. para manutenção de um conjunto de pontos N-dimensionais P, no qual cada elemento X possui uma chave numérica única X.k e um valor X.V=(v[0],...,v[N-1]). Esse conjunto deve suportar as seguintes operações: ADD(<k,V>): adiciona um elemento com chave k e valor V ao conjunto UPD(<k,V>): atualiza o valor do elemento com chave k para V MAX(j): remove o elemento dominante com respeito à coordenada j. Em caso de elementos com mesmo valor, é considerado dominante aquele com a maior chave. Assim, sempre há um elemento dominante.",
+    "format_input": "A entrada possui a seguinte forma: N, OP[0], OP[1], ..., OP[m-1], END. Onde: N (2 < N < 100) é a dimensão (número de coordenadas) dos pontos representados. OP[i] é uma operação numa das formas a seguir: ADD k v[0] v[1] ... v[N-1] (Adiciona o elemento com chave k e valor V=(v[0],...,v[N-1]) onde 0<=k< 2^15, 0<=v[j]< 2^20); UPD k v[0] v[1] ... v[N-1] (Atualiza o valor do o elemento com chave k para V=(v[0],...,v[N-1])); MAX j (Retorna o elemento dominante com respeito à coordenada j). END indica o fim da entrada. Pode-se supor que os argumentos dados para cada operação na entrada são sempre válidos.",
+    "format_output": "Para cada operação OP[i] no arquivo de entrada, deve ser impressa uma linha com a saída correspondente na forma i result[i], onde result[i] denota a saída da operação OP[i] dada como se segue: ADD -> retorna o número de coordenadas nas quais o elemento adicionado possui o valor dominante; UPD -> retorna o número de coordenadas nas quais o elemento atualizado possui o valor dominante após a atualização; MAX -> retorna k v[0] v[1] ... v[N-1], chave e valores do elemento removido.",
+    "topics": [
+        "Comparação multicritério",
+        "TAD",
+        "Vetores N-dimensionais",
+        "Processamento de Conjuntos"
+    ]
+}

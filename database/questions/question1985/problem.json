@@ -1,0 +1,10 @@
+{
+    "title": "Robô bugado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ivan tem um robô que está situado num campo infinito. Inicialmente, o robô está em pé na célula inicial (0, 0). O robô pode processar comandos. Existem quatro tipoes de comandos que ele pode executar: U - Move-se da célula (x, y) para (x, y + 1); D - Move-se da célula (x, y) para (x, y - 1); L - Move-se da célula (x, y) para (x - 1, y); R - Move-se da célula (x, y) para (x + 1, y); Ivan entrou uma sequência de n comandos, e o robô a processou. Depois dessa sequência, o robô terminou na célula inicial (0, 0), mas Ivan duvida que a sequência é tal que depois de executá-la perfeitamente, o robô acaba na mesma célula. Ele acha que alguns comandos foram ignorados pelo robô. Para verificar se o robô está bugado, ele precisa calcular a quantidade máxima possível de comandos que foram executados corretamente. Ajude Ivan a fazer esse cálculo!",
+    "format_input": "A primeira linha contém um número n; o tamanho da sequência de comandos entrados por Ivan. (1 <= n <= 100) A segunda linha contém a sequência de n caracteres. Cada caractere pode ser: U, D, L ou R.",
+    "format_output": "Imprima a quantidade máxima possível de comandos da sequência que o robô poderia executar para terminar na célula inicial.",
+    "topics": [
+        "array"
+    ]
+}

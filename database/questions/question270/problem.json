@@ -1,0 +1,8 @@
+{
+    "title": "Extremamente Básico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e B atribuindo o seu resultado na variável X. Imprima X conforme o exemplo de entrada saída apresentado. Não apresente mensagem alguma além daquilo que está sendo especificado e não esqueça de imprimir quebra de linha após o resultado.",
+    "format_input": "O arquivo de entrada contém 2 valores inteiros.",
+    "format_output": "Imprima a variável X conforme caso de saída.",
+    "topics": []
+}

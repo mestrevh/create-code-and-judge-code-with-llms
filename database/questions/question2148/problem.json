@@ -1,0 +1,11 @@
+{
+    "title": "Lista de pré-requisitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você é um(a) aluno(a) do CIn e tem a intenção de organizar quais disciplinas você vai cursar durante a sua graduação, mas essa organização não é tão simples por conta dos pré-requisitos que algumas disciplinas possuem. Então, dada uma lista de disciplinas na ordem em que devem ser cursadas, você deve procurar se a disciplina que você pretende cursar está presente nesta lista, e se estiver, anotar quais disciplinas você deve cursar antes de poder cursá-la. OBS: Não haverá repetição de disciplinas em uma mesma cadeia de pre-requisitos. OBS 2: A lista de disciplinas deve ser armazenada em uma lista encadeada. OBS 3: Todas as impressões e leituras devem ser feitas no método main.",
+    "format_input": "N Sendo N o número de disciplinas na cadeia de pré-requisitos Disciplina1 Disciplina2 Disciplina3 ... DisciplinaN Seguido pelas disciplinas que você quer cursar: DisciplinaX1 DisciplinaX2 ... DisciplinaXK",
+    "format_output": "K linhas, onde para cada disciplina que você quer cursar a saída é uma linha informando: disciplinaX nao pode ser cursada nessa cadeia de pre-requisitos. (caso a disciplina não esteja na lista) ou disciplinaX podera ser cursada esse período. (caso ela seja a primeira da lista) ou disciplinaX podera ser cursada depois de M-1 periodos, depois de ter passado por: Disciplina1, Disciplina2, Disciplina3 ... e DisciplinaM-1. (onde M é a posição da disciplinaX na lista, caso ela não seja a primeira da lista)",
+    "topics": [
+        "estrutura de dados",
+        "busca"
+    ]
+}

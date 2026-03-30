@@ -1,0 +1,11 @@
+{
+    "title": "Cometa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O cometa Halley é um dos cometas de menor período do Sistema Solar, completando uma volta em torno do Sol a cada 76 anos; na última ocasião em que ele tornou-se visível do planeta Terra, em 1986, várias agências espaciais enviaram sondas para coletar amostras de sua cauda e assim confirmar teorias sobre suas composições químicas. Escreva um programa que, dado o ano atual, determina qual o próximo ano em que o cometa Halley será visível novamente do planeta Terra. Se o ano atual é um ano de passagem do cometa, considere que o cometa já passou nesse ano (ou seja, considere sempre o próximo ano de passagem, não considerando o ano atual).",
+    "format_input": "A única linha da entrada contém um único inteiro A (2010 <= A <= 10000), indicando o ano atual.",
+    "format_output": "Seu programa deve imprimir uma única linha, contendo um número inteiro, indicando o próximo ano em que o cometa Halley será visível novamente do planeta Terra, seguido de um final de linha.",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Sequência misteriosa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio resolveu visitar a Holanda. E lá se encantou pela arquitetura típica. Em uma das paredes ele avistou a seguinte sequência: 1, 1, 1, 2, 2, 3, 4, 5, 7, 9, 12, 16, 21, 28, ... Logo, primeiro termo desta sequência é o 1, o segundo também é um, o sexto é 3 e assim por diante. Dado um número n, escreva os n primeiros termos dessa sequência. Faça o código usando recursão.",
+    "format_input": "Um único número inteiro n, onde 1 <= n <= 100.",
+    "format_output": "Os n primeiros números da sequência. Perceba que o valor de cada um dos números pode ser grande. Portanto, use o tipo apropriado na sua linguagem. Além disso, este problema possui um desafio adicional. Você deve resolvê-lo de forma eficiente. A dica é evitar recalcular valores que você já calculou antes.",
+    "topics": [
+        "requer solução eficiente",
+        "recursão"
+    ]
+}

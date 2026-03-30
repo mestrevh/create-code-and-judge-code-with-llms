@@ -1,0 +1,11 @@
+{
+    "title": "Inversion Count (iniciante)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seja A um array de inteiros positivos, e i e j posições desse array, é dito que um par (i, j) é inversível caso i < j e A[i] > A[j]. Você deve descobrir quantos pares inversíveis existem em A. Neste problema você não deve se preocupar com a eficiência do algoritmo. Caso queira um desafio maior, procure a questão 2045",
+    "format_input": "Um inteiro N representando o tamanho do array, seguido de N inteiros M contendo seus elementos. 0 < N < 500 0 <= M < 10^6",
+    "format_output": "O número de inversões no array.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

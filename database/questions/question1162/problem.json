@@ -1,0 +1,10 @@
+{
+    "title": "Desafio Pokémon",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Antes de sair da sua cidade, Biu resolveu dar uma olhada no Contest Pokémon que estava acontecendo. Nos arredores do local, estava sendo divulgado o Desafio Pokémon, um evento que faz uma série de perguntas aos competidores se determinado tipo de ataque de pokémon possui vantagem ou não em relação a outro tipo de pokémon. Como Biu estava interessado no prêmio, ele pediu para você escrever um programa que o ajudasse a treinar para o evento. A relação para cada tipo de pokémon presente no desafio é dado na tabela a seguir, considerando o sentido de ataque para defesa. (Ex. Ataque de Fogo possui vantagem contra Planta e desvantagem contra Água).",
+    "format_input": "A D A - string D - string A primeira linha de entrada é composta por uma string, representando o tipo de ataque usado pelo pokémon que está atacando. A segunda linha de entrada é composta por uma string, representando o tipo de pokémon que está defendendo. Considere que o padrão de entrada do texto possui a letra inicial maiúscula e o restante minúscula, sem acentos. (Ex: Agua)",
+    "format_output": "R R - string A única linha de saída é composta por uma string, que pode ser: \"Vantagem\", quando o tipo do pokémon de ataque possui vantagem contra o pokémon de defesa. \"Desvantagem\", quando o tipo do pokémon de ataque possui desvantagem contra o pokémon de defesa. \"Empate\", quando o tipo de pokémon de ataque e de defesa são iguais. Dica: Utilize x.equals(y) para comparar uma String x a uma String y.",
+    "topics": [
+        "decisão"
+    ]
+}

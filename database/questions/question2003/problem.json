@@ -1,0 +1,11 @@
+{
+    "title": "Eleven",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Eleven quer escolher um novo nome para ela mesma. Como muitos geeks, seus amigos sugeriram um algoritmo para escolher o nome para ela. Eleven quer que seu nome tenha exatamente n carateres. Seu amigo sugeriu que seu nome deveria consistir de apenas letras 'o' maiúsculas e minúsculas. Mais precisamente, eles sugeriram que a i-ésima letra de seu nome deveria ser 'O' (maiúsculo) se i é um membro da sequência de Fibonacci, e 'o' (minúsculo) do contrário. As letras em seu nome são numeradas de 1 até n. A sequência de Fibonacci é uma sequência f onde: f1 = 1, f2 = 1, fn = fn - 2 + fn - 1 (n > 2). Como seus amigos são muito novos para saber o que uma sequência de Fibonacci é, eles pediram sua ajuda para determinar o novo nome dela.",
+    "format_input": "A primeira e única linha da entrada contém um inteiro n (1 ≤ n ≤ 1000).",
+    "format_output": "Imprima o novo nome de Eleven na primeira e única linha da saída.",
+    "topics": [
+        "lógica matemática",
+        "recursão"
+    ]
+}

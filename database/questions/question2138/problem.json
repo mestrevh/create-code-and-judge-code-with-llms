@@ -1,0 +1,13 @@
+{
+    "title": "A matriz dos pares!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma matriz de M colunas com os N primeiros pares. Imprima a transposta dessa matriz. Obs.: É possível que alguns pares \"sobrem\" na hora da montagem da matriz com M colunas. Nesse caso eles serão descartados. Veja o exemplo a seguir: Suponha a situação com N = 7 e M = 3. Os 7 primeiros pares são: 2 4 6 8 10 12 14. A matriz com 3 colunas é: 2 4 6 8 10 12. A matriz que deverá ser impressa é: 2 8 4 10 6 12. Observe que o último número par, o 14, foi descartado.",
+    "format_input": "Dois números inteiros na mesma linha, separados por espaço. O primeiro número (N) é a quantidade de pares e o segundo número (M) é a quantidade de colunas. Por exemplo: 7 3",
+    "format_output": "Números inteiros organizados como uma matriz. Trata-se da transposta da matriz de M colunas criada com os N primeiros pares, de acordo com as instruções dadas na descrição. Por exemplo: 2 8 4 10 6 12. Atenção na impressão dessa matriz. Separe os valores com um espaço. Não deverá haver espaço após o último elemento de cada linha. Após o último elemento inclua um final de linha.",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

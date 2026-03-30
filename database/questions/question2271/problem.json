@@ -1,0 +1,10 @@
+{
+    "title": "P1Q1 - Gasto do Baile Funk",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mário vai para uma festa de funk e precisa calcular bem seus gastos. Ele pede sua ajuda para criar um programa que, tendo como entrada uma quantia a ser gasta e os 6 produtos favoritos de Mário, calcula se será possível comprar todos.",
+    "format_input": "X: número inteiro representando a quantidade de dinheiro que ele possui. 6 linhas na forma: V NOME, sendo V um número inteiro, representando o valor do produto, e NOME uma string, representando o nome do produto, separados por espaços (o nome não pode conter espaços).",
+    "format_output": "Uma string no formato “Mario gastara um total de R$ X.” ou “Infelizmente nao sera possivel comprar tudo, faltam R$ Y.”",
+    "topics": [
+        "decisão"
+    ]
+}

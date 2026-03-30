@@ -1,0 +1,11 @@
+{
+    "title": "Múltiplo de 5",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia um valor qualquer e informe se ele é múltiplo de 5. Dica: Use o operador \"resto da divisão\".",
+    "format_input": "Um valor inteiro.",
+    "format_output": "\"Eh multiplo de 5\" se o valor de entrada for múltiplo. \"Nao eh multiplo de 5\" se o valor de entrada não for múltiplo.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

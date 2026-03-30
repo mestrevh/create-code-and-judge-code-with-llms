@@ -1,0 +1,11 @@
+{
+    "title": "Sequencia Lógica I",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que lê um inteiro N. Verifique o exemplo de entrada e saída deste problema. Ele apresenta um padrão. Sua missão nesse problema é descobrir que padrão é esse. Logo, você deve fazer um programa que ao receber um número inteiro N, imprima N * 2 linhas, de acordo com esse padrão.",
+    "format_input": "Um número inteiro N. (0 < N < 1000).",
+    "format_output": "Imprima a saída de acordo com o exemplo de saida.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

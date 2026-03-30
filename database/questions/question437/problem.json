@@ -1,0 +1,11 @@
+{
+    "title": "Distância de Hamming",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A distância de Hamming entre duas strings de bis é o número de posições correspondentes de bits que diferem. Isto pode ser encontrado usando o operador XOR nos bits correspondentes. Por exemplo, nas duas strings a seguir: A 0 1 0 0 1 0 1 0 0 0 B 1 1 0 1 0 1 0 1 0 0 A XOR B = 1 0 0 1 1 1 1 1 0 0 A distância de Hamming entre essas strings de 10 bits é 6, que é a quantidade de 1's na string do XOR.",
+    "format_input": "A entrada consiste de vários casos de teste. A primeira linha contém o número de casos de teste e é seguida por uma linha em branco. Cada caso de teste contém dois inteiros N e H separados por um espaço. N corresponde ao tamanho das strings de bits e H corresponde à distância de Hamming. Existe uma linha em branco entre os casos de teste.",
+    "format_output": "Para cada caso de teste imprima a lista de todas as possíveis string de bits de tamanho N que possuem a distância de Hamming H dada, quando comparada com uma string contendo todos os bits 0. As strings devem ser impressas na ordem lexicográfica. Perceba que o número dessas strings é igual a expressão combinatorial a seguir. Por ser um número bem grande, considere: 1<= H,N <=16 Você deve imprimir uma linha em branco entre os casos de teste.",
+    "topics": [
+        "busca completa",
+        "backtracking"
+    ]
+}

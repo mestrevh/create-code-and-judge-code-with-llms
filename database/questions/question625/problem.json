@@ -1,0 +1,11 @@
+{
+    "title": "Ajude Ambrósio",
+    "time_limit": "7 segundo(s)",
+    "descrition": "Ambrósio e Derp são melhores amigos. Um dia Derp deu um problema para testar a inteligência de Ambrósio. Dada uma lista de N números naturais, Ambrósio tem que executar as seguintes operações: Operação 0 : modificar o i-ésimo elemento da lista para o valor x. Operação 1: contar o número de elementos pares no intervalo [l,r]. Operação 2: contar o número de elementos impares no intervalo [l,r].",
+    "format_input": "Primeira linha da entrada contém um número N indicando a quantidade de elementos da lista. A segunda linha contém N inteiros, os elementos da lista. A terceira linha contém um inteiro Q, indicando o número de operações. Seguem Q linhas com um dos 3 formatos a seguir: 0 i x - modificar o i-ésimo elemento da lista para x. 1 l r - contar o número de elementos pares no intervalo [l,r] 2 l r - contar o número de elementos impares no intervalo [l,r] 1<=N,Q<=10^5 1<=l<=r<=N 0<=Ai<=10^9 (elementos da lista) 1<=x<=10^9",
+    "format_output": "Para cada operação 1 ou 2 imprima a contagem , cada uma em uma linha separada.",
+    "topics": [
+        "segment tree",
+        "requer solução eficiente"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Múltiplos de Cinco",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia dois números inteiros, representando os valores inicio e fim de um intervalo e imprima os múltiplos de 5 entre eles.",
+    "format_input": "Dois números inteiros, n e m, separados por um espaço.",
+    "format_output": "Todos os múltiplos de 5, maiores ou iguais a n e menores ou iguais a m, separados pelo caractere '|'. Note que depois do último múltiplo, não existe o caractere '|'.",
+    "topics": [
+        "lógica matemática",
+        "formatação"
+    ]
+}

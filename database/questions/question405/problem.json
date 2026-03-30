@@ -1,0 +1,12 @@
+{
+    "title": "Contando os Dígitos Pares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva uma função recursiva chamada ContaDigitosPares que receba como entrada um número e retorne a quantidade de dígitos pares que o compõem. Ex: 234 tem 3 dígitos, mas apenas 2 são pares",
+    "format_input": "Um número inteiro",
+    "format_output": "Um número inteiro",
+    "topics": [
+        "lógica matemática",
+        "função",
+        "recursão"
+    ]
+}

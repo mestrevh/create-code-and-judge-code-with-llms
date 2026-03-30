@@ -1,0 +1,10 @@
+{
+    "title": "Viagem Distante",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma existência gosta muito de viajar de carro, de alguma forma, ela foi parar num país onde não existem postos de gasolina. O desespero fez com que ela acelerasse sem parar. O carro dele é especial, a aceleração é fixa (ele sempre ganha a mesma quantidade de velocidade) e a perda de gasolina é igual a velocidade atual. Observação: Considere que o tempo é discreto e as alterações na posição, velocidade e gasolina acontecem a cada segundo. Dada a aceleração, a quantidade de gasolina e a posição da saída da cidade: Imprima a distância percorrida e \"S\" se for possível chegar na saída e \"N\" caso contrário. (Ele começa da posição x = 0) Exemplo do primeiro caso de teste: Posição | Velocidade | Gasolina 0 | 0 | 5 0 | 2 | 5 2 | 4 | 3 6 | 8 | -1",
+    "format_input": "A entrada consistirá de três inteiros: a, g e p, correspondendo à aceleração, quantidade de gasolina e posição da saída da cidadde, respectivamente.",
+    "format_output": "A primeira linha da entrada deverá conter a distância percorrida. E a segunda linha da entrada deverá dizer \"S\" se foi possível chegar no final da cidade de \"N\" caso contrário.",
+    "topics": [
+        "repetição"
+    ]
+}

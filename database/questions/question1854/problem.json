@@ -1,0 +1,11 @@
+{
+    "title": "SUS",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O SUS deseja saber quantas crianças no bairro possuem leucemia. Para isso vai iniciar uma pesquisa no bairro Feira VI da cidade de Feira de Santana. O atendente vai pedir a idade da criança e perguntar se tem leucemia - 1 ou não -0. O programa deve ser repetido até que digite s para sair. Ao finalizar o programa, ele deve exibir quantas crianças tem mais de 5 anos e a quantidade de crianças com leucemia.",
+    "format_input": "n 10 1 n 8 0 n 3 1 n",
+    "format_output": "2 2",
+    "topics": [
+        "lógica matemática",
+        "repetição"
+    ]
+}

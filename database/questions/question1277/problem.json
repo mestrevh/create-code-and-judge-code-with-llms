@@ -1,0 +1,10 @@
+{
+    "title": "L4Q6 - Matriz triangular",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em mais uma de suas aulas, Silvio ensinou o conceito de matriz triangular. Silvio explicou que: Para matrizes quadradas em que os elementos abaixo da diagonal são nulos, a matriz é denominada matriz triangular superior. Para matrizes quadradas em que os elementos acima da diagonal são nulos, a matriz é denominada matriz triangular inferior. Como reforço, ele pediu para que em casa os alunos escrevessem um programa que, dada uma matriz de ordem N, respondesse se a matriz atende às características de uma matriz triangular superior.",
+    "format_input": "N V00 .... V0N .... ..... VN0 .... VNN N - número inteiro V - número inteiro A primeira linha de entrada é referente à ordem da matriz. Em seguida, os N² números são referentes aos valores a serem inseridos na matriz, preenchida de linha em linha, da esquerda para direita.",
+    "format_output": "R R - booleano A única linha de saída é a resposta se a matriz é triangular superior ou não, sendo: true, caso a matriz seja uma matriz triangular superior. false, caso a matriz não seja uma matriz triangular superior.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

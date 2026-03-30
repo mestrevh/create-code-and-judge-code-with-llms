@@ -1,0 +1,11 @@
+{
+    "title": "CD",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você irá fazer uma viagem de carro bem longa. Mas esse carro só possui um toca-fitas e infelizmente todas as suas músicas estão em CD. Para escutá-las durante a viagem, você tem um problema a resolver: sua fita possui capacidade para N minutos. Como escolher as músicas do CD de tal forma a utilizar o máximo do espaço da fita possível. Considere: Não existem mais do que 20 músicas no CD; Nenhuma música é superior a N minutos; As músicas não se repetem; O tamanho de cada música é expresso como um número inteiro; N também é inteiro. Faça um programa que encontre o conjunto de músicas que irão compor a fita e imprima-as na mesma sequência em que elas estão armazenadas no CD.",
+    "format_input": "A entrada consiste de um número arbitrário de linhas. Cada uma das linhas contém um valor N correspondendo ao espaço disponível na fita, depois um número indicando a quantidade de músicas e finalmente cada número seguinte corresponde a duração de cada música. Os números são separados por espaços. Por exemplo: 5 3 1 3 4 Significa que temos uma fita com duração de 5 minutos e 3 músicas no CD. A primeira tem duração de 1 minuto, a segunda de 3 e a quarta de 4.",
+    "format_output": "As durações das músicas que serão armazenadas na fita seguida da string: \"sum:\" e a soma de todas as durações escolhidas. Por exemplo: 1 4 sum:5 Significa que escolhemos a música com duração de 1 minuto e a música com duração de 4 minutos, totalizando 5 minutos. Em muitos casos é possível mais de uma solução. Nesse caso, você deve sempre escolher as músicas com menor duração. Por exemplo, se existirem duas soluções: 7 3 11 sum:21 e 7 14 sum:21. Você deve optar pela primeira, pois ela contém uma música com duração de 3 minutos.",
+    "topics": [
+        "backtracking",
+        "programação dinâmica"
+    ]
+}

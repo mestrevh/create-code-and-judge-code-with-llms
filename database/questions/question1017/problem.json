@@ -1,0 +1,11 @@
+{
+    "title": "Brincando com Fibonacci",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Vamos brincar com Fibonacci. Na matemática, a Sucessão de Fibonacci (também Sequência de Fibonacci), é uma sequência de números inteiros.",
+    "format_input": "Um inteiro",
+    "format_output": "Um inteiro",
+    "topics": [
+        "lógica matemática",
+        "recursão"
+    ]
+}

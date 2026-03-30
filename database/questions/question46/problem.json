@@ -1,0 +1,13 @@
+{
+    "title": "Dias entre datas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcule o número de dias entre duas datas dadas.",
+    "format_input": "Consiste de duas datas formatadas representando a data inicial e a final.",
+    "format_output": "Uma linha contendo o número de dias entre as duas datas.",
+    "topics": [
+        "datas/horas",
+        "decisão",
+        "entrada formatada",
+        "repetição"
+    ]
+}

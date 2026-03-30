@@ -1,0 +1,12 @@
+{
+    "title": "Distante da Turma",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O professor Taubaté está querendo conhecer melhor o desempenho de sua turma e para isso resolveu desenvolver um programa e o convidou para ajudá-lo. O programa deve ler e armazenar cinco notas da entrada padrão juntamente a cinco nomes. Em seguida, o programa deve calcular a média, calcular a distância de cada nota em relação à média e identificar o nome e a posição em que foi lida a nota mais distante da média. Importante: A distância deve estar estar sempre em formato absoluto. Ou seja, o valor sempre deve ser positivo. O nome do(a) aluno procurado deve estar sempre com a primeira letra em maiúscula. Todas os valores referentes às notas devem estar com duas casas decimais.",
+    "format_input": "Cinco valores em ponto flutuante correspondendo às notas dos alunos. Cinco nomes dos alunos.",
+    "format_output": "Cinco notas lidas em formato ponto flutuante e ordenadas de forma decrescente. Média das notas. Cinco distâncias em ponto flutuante. Nome da pessoa cuja nota seja a mais distante da média. A posição em que se encontra a nota mais distante da média.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Somas no array",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Dado um array A com N inteiros a1, a2, ..., aN. Responda várias perguntas da seguinte forma: É possível somar o valor K com um subconjunto dos primeiros X elementos do array A? Por exemplo, para o array A = {1, 5, 7, 8}, as seguintes perguntas seriam possíveis: -> É possível somar 7 com os 2 primeiros elementos? Não, pois não dá para somar 7 com um subconjunto de {1, 5}. -> É possível somar 6 com os 3 primeiros elementos? Sim, pois é possível somar 6 com um subconjunto de {1, 5, 7}. Um subconjunto vazio soma 0.",
+    "format_input": "A primeira linha da entrada possui T, o número de casos de teste. Cada caso de teste é dado da seguinte forma: N M a1 a2 ... aN X1 K1 X2 K2 ... XM KM onde, N é a quantidade de elementos do array M é a quantidade de perguntas que serão feitas ai é o valor do i-ésimo elemento do array Xj e Kj são os parâmetros da j-ésima pergunta Limites: 1 <= T <= 50 1 <= N <= 100 1 <= M <= 1000 1 <= ai <= 1000, para i=1..N 1 <= Xi <= N, para i=1..M 0 <= Ki <= 10^5, para i=1..M",
+    "format_output": "Para cada caso imprima em uma linha, sem espaços no final: caso c: y1 y2 ... yM onde c é o número do caso atual, iniciando em 1 yi é 1 caso a resposta da i-ésima pergunta seja sim e 0 caso contrário.",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

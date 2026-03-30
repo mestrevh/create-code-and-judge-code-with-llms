@@ -1,0 +1,12 @@
+{
+    "title": "Direção",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu amigo está perdido no deserto e precisa encontrar um oásis. Você sabe que seu amigo está, no momento, virado para um dos pontos cardeais (norte, sul, leste, oeste). Você também sabe que o oásis mais próximo está em uma dessas quatro direções. Dadas essas duas informações, você deve dizer qual o menor ângulo, em graus, que seu amigo deverá virar para ir na direção do oásis mais próximo. Restrições: Os valores possíveis para A e B são { norte, leste, oeste, sul }.",
+    "format_input": "A entrada contém duas strings, A e B, a direção para onde seu amigo está virado originalmente e a direção do oásis, respectivamente.",
+    "format_output": "Seu programa deve produzir uma única linha, contendo um único inteiro, o menor ângulo que seu amigo deve virar para continuar na direção correta para o oásis.",
+    "topics": [
+        "geometria",
+        "lógica",
+        "pontos cardeais"
+    ]
+}

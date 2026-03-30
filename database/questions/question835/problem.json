@@ -1,0 +1,8 @@
+{
+    "title": "Caixa do banco",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O professor Rodrigo tem um banco aqui em Maceió mas infelizmente apenas um caixa está funcionando. Além disso, o caixa só pode funcionar durante duas horas (120 minutos) por manhã e o caixa demora um certo tempo para começar a funcionar além disso, a fila do banco só suporte três pessoas. O professor Rodrigo, chamou você para fazer um programa para ter o controle de pessoas que foram atendidas durante essa parte da manhã. Faça um programa que, obtendo o tempo do caixa e de 3 clientes (em minutos), calcule quantos clientes foram atendidos, lembrando que, se um cliente terminar antes das duas horas o próximo poderá ser atendido mesmo que exceda o limite das duas horas.",
+    "format_input": "Um inteiro : C -> Tempo do caixa (em minutos) 3 Inteiros : P1, P2, P3 -> Clientes 1,2 e 3",
+    "format_output": "O número de clientes atendidos",
+    "topics": []
+}

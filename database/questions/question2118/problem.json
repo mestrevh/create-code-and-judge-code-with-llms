@@ -1,0 +1,10 @@
+{
+    "title": "L3 2017.2 - Gemialidade Weasley",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Na sua primeira ida ao Beco Diagonal, você se depara com uma loja conhecida no mundo dos bruxos por vender itens \"gemiais\", a loja Gemialidade Weasley ! Ao entrar, você percebe Rony Weasley muito preocupado com o controle de estoque, pois sua varinha tinha quebrado e ele não poderia realizar mágicas para documentar o que entrava e saía da loja de seu irmão. Você deve escrever um programa que, dado um comando (CADASTRO, VENDA ou ESTOQUE), documente as alterações feitas no estoque da loja e, depois, imprima o restante do estoque.",
+    "format_input": "N - número natural, representando o número de comandos; C - string, representando o comando; P - string, representando o produto, se o comando for válido; Q - número inteiro, representando uma quantidade, se necessário.",
+    "format_output": "S - string, representando a operação e se foi realizada. \"Comando inválido\" se o comando não for um dos supracitados (ou se inserido um número Q negativo, quando exigido na entrada), \"Produto cadastrado com sucesso\", \"Produto já cadastrado\" se o produto já tiver sido cadastrado, \"Estoque realizado com sucesso\", \"Venda realizada com sucesso\", \"Produto não foi cadastrado\" se o produto não tiver sido cadastrado, \"Não há estoque para a venda\" se não houver estoque para a venda. G1 ... Gn - string, representando os produtos e o que restou de seus respectivos estoques, na ordem em que foram cadastrados.",
+    "topics": [
+        "array"
+    ]
+}

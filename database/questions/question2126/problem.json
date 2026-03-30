@@ -1,0 +1,12 @@
+{
+    "title": "L5Q6 - The Upside Down",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Numa situação completamente caótica, ninguém consegue achar onde Will está. O Xerife Hopper desconfia que o laboratório de Hawkins na realidade não seja um simples laboratório e esteja diretamente ligado com o caso. Joyce a essa altura está desesperada, ela percebe que as autoridades não conseguem resolver o mistério do desaparecimento do seu filho. Hopper, que entende perfeitamente o desespero de Joyce por conta do seu passado com sua filha, decide ir a fundo no caso. Ele descobre que o os donos do laboratório é quem tinham aberto a primeira passagem para o Mundo Invertido e que havia um portal lá dentro. Sabendo do interesse dos cientistas por Eleven, ele entrega onde ela está escondida em troca do acesso ao portal. Hooper e Joyce entram no Mundo Invertido à procura de Will, que a essa altura está quase morrendo. Depois de muito caminhar dentro do lugar conseguem achá-lo desmaiado completamente tomado pelas criaturas do lugar, junto a ele estava um mapa de todos os caminhos que ele já havia percorrido dentro do lugar, mas eles não sabiam se nele estava a saída de volta para o portal. O mapa constituía de uma Matriz 10x10, eles estavam localizados exatamente na primeira casa da linha 0 e coluna 0, e sabiam que a saída estava na ponta oposta da matriz (9 9). Hopper passou um rádio com seu walkie-talkie e pediu a você que faça um decodificador que recebia a matriz e diga se haveria saída ou não. Ele lhe forneceu as seguintes informações: Os 1's da matriz era o caminho que ele poderia percorrer, e os 0's eram locais perigosos. Você só poderá se deslocar na vertical e horizontal. Em caso de bifurcação, essa deve ser a ordem de prioridade: Sul > Leste > Norte > Oeste. O mapa não tinha caminhos circulares. (este problema deve ser resolvido utilizando recursão)",
+    "format_input": "10 linhas contendo 10 numeros que podem ser 0's e 1's, correspondendo ao mapa. Sendo o primeiro numero da primeira linha sempre 1.",
+    "format_output": "Uma linha única contendo: \"RUN!\" Caso seja possível sair do Upside Down. ou \"Welcome to the Upside Down.\" Caso não tenha um caminho que leve à saída.",
+    "topics": [
+        "array",
+        "array bidimensional",
+        "recursão"
+    ]
+}

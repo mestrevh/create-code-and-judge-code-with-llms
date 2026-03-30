@@ -1,0 +1,11 @@
+{
+    "title": "Sorveteria Tropical",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A sorveteria Tropical oferece uma diversidade de sabores e os preços são os seguintes: Morango / Cereja: R$ 4,50; Damasco / Siriguela: R$ 3,80; Outros sabores: R$ 2,75. Caso o cliente consuma mais de duas bolas, ele tem direito a uma calda de caramelo. Sabendo disso, escreva um programa que receba como entrada o sabor e a quantidade de bolas desejada por um cliente, e exiba o valor total a ser pago e uma mensagem informando se o sorvete terá calda ou não.",
+    "format_input": "Um valor String seguido por um valor inteiro. Para o valor string. use a função lower() para comparar com strings em minúsculo ou upper() para comparar com strings em maiúsculo. Exemplo: entrada=input().lower(). #transforma a entrada para minúsculo",
+    "format_output": "Um valor real com duas casas decimais, seguido por uma mensagem (COM CALDA ou SEM CALDA). Obs: Os dois resultados devem ser separados por uma quebra de linha",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

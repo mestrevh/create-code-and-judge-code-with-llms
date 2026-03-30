@@ -1,0 +1,10 @@
+{
+    "title": "Frequência de um caracterer na página",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio precisa de sua ajuda pois é analfabeto e não sabe ler. Como ele sabe que você é um excelente aluno de programação, pediu para que o ajudasse fazendo um programa que resolvesse seu problema. Ambrósio precisa que encontre em uma página de um livro o caractere que mais se repete e sua frequência. Ambrósio também ficou curioso de sua capacidade e pediu para que dissesse também a frequência de um caractere que ele queira saber.",
+    "format_input": "Um número 1 < K < 100 que representa a quantidade de linhas da página. K linhas que são as linhas da página que você deve analisar (cada linha tem no máximo 200 caracteres). Um caractere X que ele quer saber a frequência no texto.",
+    "format_output": "O caractere que mais se repete. A frequência do caractere que mais se repete. A frequência do caractere X que Ambrósio tem interesse em saber. Obs.: Caso haja mais de um caractere de maior frequência na página, imprima o primeiro da ordem crescente. Dica: Use a tabela ASCII.",
+    "topics": [
+        "caractere"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Test",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Testando a criação de um problema novo.",
+    "format_input": "Vamos verificar se está funcionando",
+    "format_output": "Parece que está sim",
+    "topics": [
+        "estrutura de dados",
+        "requer solução eficiente",
+        "rmq"
+    ]
+}

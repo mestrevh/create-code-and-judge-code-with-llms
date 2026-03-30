@@ -1,0 +1,12 @@
+{
+    "title": "CBS",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os Campeonatos Brasileiros de Seleções, masculino e Feminino, são organizados pela Federação Sede e dirigidos pela Confederação Brasileira de Voleibol (CBV), com a participação das seleções das federações estaduais, visando democratizar o voleibol e observar novos talentos. A competição é anual e dividida em: Fase Classificatória (rodízio simples, todos contra todos, em 3 sets obrigatórios) e Fase Semifinal (disputada pelos 4 melhores da fase anterior). A classificação é definida pelo número de vitórias e, em caso de empate, pelo número de sets ganhos. A pontuação funciona assim: vitória por 3x0 (3 pontos), vitória por 2x1 (2 pontos), derrota por 1x2 (1 ponto) e derrota por 0x3 (0 pontos). O objetivo é identificar os 4 primeiros colocados e definir os confrontos das semifinais (1º x 4º e 2º x 3º).",
+    "format_input": "Leitura da ordem da matriz n (4 <= n <= 8), representando a quantidade de times. Em seguida, os n nomes dos times (abreviações dos Estados). Por fim, as n linhas da matriz n x n. A diagonal principal é zero. O valor em matriz[i][j] representa quantos sets o time da linha i venceu contra o time da coluna j. A soma de matriz[i][j] e matriz[j][i] deve ser sempre 3.",
+    "format_output": "Duas linhas indicando os jogos das semifinais no formato: Jogo 1: [Time 1º] x [Time 4º] e Jogo 2: [Time 2º] x [Time 3º].",
+    "topics": [
+        "array",
+        "decisão",
+        "array bidimensional"
+    ]
+}

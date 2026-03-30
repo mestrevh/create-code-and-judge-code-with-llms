@@ -1,0 +1,10 @@
+{
+    "title": "LInk ou Llnk?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade estava conversando com outras Entidades quando uma delas sugeriu que ela entrasse em um site muito interessante. O problema é que ele não pode copiar e colar o link do site, ele precisa digitar manualmente. Isso não seria um problema se não tivéssemos \"I\" (i maiúsculo) ou \"l\" (L minúsculo) no link, pois é muito difícil identificar qual dos dois é. Como a Lei de Murphy diz: \"Se pode dar errado, vai dar errado\", e o link veio com alguns desses caracteres ambíguos. A entidade vai escrever apenas uma vez o link confuso, e quer que você faça um programa gere todos os links possíveis. Assim, ela pode clicar e descobrir qual é o link correto. (Observação: A ordem de prioridade na geração dos links deve ser: \"I\" (i maiúsculo), seguido por \"l\" (L minúsculo). E alteração deve ser dar da esquerda para direita.) Exemplo: Se o link fosse: \"lll\". Existirão 8 links possíveis, e eles são, nessa ordem: [\"I\" (i maiúsculo), \"I\" (i maiúsculo), \"I\" (i maiúsculo)] [\"I\" (i maiúsculo), \"I\" (i maiúsculo), \"l\" (L minúsculo)] [\"I\" (i maiúsculo), \"l\" (L minúsculo), \"I\" (i maiúsculo)] [\"I\" (i maiúsculo), \"l\" (L minúsculo), \"l\" (L minúsculo)] [\"l\" (L minúsculo), \"I\" (i maiúsculo), \"I\" (i maiúsculo)] [\"l\" (L minúsculo), \"I\" (i maiúsculo), \"l\" (L minúsculo)] [\"l\" (L minúsculo), \"l\" (L minúsculo), \"I\" (i maiúsculo)] [\"l\" (L minúsculo), \"l\" (L minúsculo), \"l\" (L minúsculo)]",
+    "format_input": "A entrada consiste de um inteiro N, informando quantos links a entidade precisa acessar. Em seguida, virão N strings, representando cada link.",
+    "format_output": "Para cada link da entrada, a saída deverá conter uma linha informando quantos links possíveis exitem, no formato: \"There are [quantidade] possible links\", seguido dos links possíveis. Se houver mais de um link na entrada, a resposta para cada link deve ser separada por quebras de linha.",
+    "topics": [
+        "recursão"
+    ]
+}

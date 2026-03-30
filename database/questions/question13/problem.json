@@ -1,0 +1,12 @@
+{
+    "title": "MSX",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O pai de Ambrosino é um Nerd convicto e muito apegado a tradições. Em época de Playstation 3, ele ainda gosta de jogar Atari. Ambrosino pai possui um MSX com uma memória fantástica de 16Kb. Ele pediu para você ajudá-lo a escrever um programa que leia um texto digitado e converta para letras maiúsculas. Porém, ele ainda não sabe de quantas de linhas o texto será composto. E você tem que usar a memória com bastante cuidado, para não esgotá-la. Sendo assim, você só deve alocar memória para uma linha e, caso seja necessário, para mais uma e assim por diante.",
+    "format_input": "Consiste de várias linhas, separadas por um final de linha, cada uma contendo no máximo 75 caracteres. A última linha do texto é caracterizada pela string: \"the end!\"",
+    "format_output": "Todo o texto impresso com letras maiúsculas. O \"the end!\" não deve ser impresso. A última linha não contém um separador de linha.",
+    "topics": [
+        "array",
+        "alocação dinâmica",
+        "string"
+    ]
+}

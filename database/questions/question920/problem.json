@@ -1,0 +1,11 @@
+{
+    "title": "Ingresso de cinema",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Os ingressos de um cinema custam X reais. Na terça-feira há um desconto de 50% e em qualquer dia menores de 14 anos também tem desconto de 50%. Faça um programa em Java que leia do usuário o dia da semana, a idade do espectador e o preço base do ingresso e escreva o valor a pagar. Considere que 1 é domingo, 2 é segunda, etc.",
+    "format_input": "Dia da semana. Idade do espectador. Preço base do ingresso.",
+    "format_output": "Valor final a ser pago.",
+    "topics": [
+        "multiplas entradas",
+        "decisão"
+    ]
+}

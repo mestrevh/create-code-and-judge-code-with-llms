@@ -1,0 +1,11 @@
+{
+    "title": "L2Q2 - Watchers on the Wall",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Passando então pela majestosa Muralha, você ouve dizer, do Lorde Comandante, que os elevadores da Muralha estão sendo mal usados, pois não estão respeitando o limite de pessoas ao mesmo tempo no elevador. Oferecendo-se para ajudar, você oferece ao Lorde Comandante uma ferramenta que possa dizer se o limite de pessoas no elevador foi desrespeitado. Para tal, você instalou no elevador um sensor medieval edição Meistre Tools 2000, que verá quantas pessoas saem e entram nele.",
+    "format_input": "A primeira linha da entrada é composta por dois números inteiros, N e C, sendo N o número de subidas ou descidas feitas naquele dia, e C a capacidade máxima do elevador. As próximas N linhas da entrada consistem também em dois inteiros cada: S e E, sendo E o número de pessoas que entraram antes de o elevador subir ou descer, e S o número de pessoas que desceram. N C S E S E S E No exemplo acima, N = 3.",
+    "format_output": "A saída consiste apenas de uma String, informado se em algum momento a capacidade máxima do elevador foi ultrapassada ou não. E deve ser especificada no formato abaixo: 1) caso a capacidade nunca tenha sido excedia durante todo o período observado, Viva a conscientizacao. 2) caso contrário, Selvagens sao dificeis de ensinar.",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

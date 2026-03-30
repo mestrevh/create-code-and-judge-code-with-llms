@@ -1,0 +1,11 @@
+{
+    "title": "Meses do Ano por extenso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia um número inteiro e informe qual o mês do ano correspondente por extenso. Caso seja um mês inválido, informe ao usuario.",
+    "format_input": "Você receberá um número inteiro correspondente ao mês do ano. Considere que o mês de janeiro como 1 e o mês de dezembro como 12. Qualquer inteiro fora desse intervalo deve ser considerado como um mês inválido.",
+    "format_output": "A saída deve ser um dos meses do ano, correspondendo ao inteiro dado na entrada, seguido de um final de linha. Portanto, as possíveis saídas são: janeiro, fevereiro, marco, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro. Caso o mês seja inválido, imprima como resposta: invalido. IMPORTANTE: perceba que a saída está toda em letras minúsculas e SEM ACENTOS.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

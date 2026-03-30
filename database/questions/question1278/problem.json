@@ -1,0 +1,10 @@
+{
+    "title": "Senha com restrições",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para testar se senhas fornecidas atendem aos seguintes requisitos: a) Deve ter ao menos 8 dígitos b) Ao menos 1 dígito c) Ao menos 1 letra minúscula d) Ao menos uma letra maiúscula",
+    "format_input": "Inicialmente um inteiro 1 <= N <= 9 indicando a quantidade de senhas que serão testadas. Em seguida N linhas, cada uma contendo uma senha a ser testada.",
+    "format_output": "A mensagem: valida ou invalida.",
+    "topics": [
+        "array"
+    ]
+}

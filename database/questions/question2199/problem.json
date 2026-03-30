@@ -1,0 +1,11 @@
+{
+    "title": "Brincadeira no IC",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os alunos do IC estavam brincando e inventaram um número chamado de número de Ambrósio, para calcula-lo é necessário fazer o logaritmo na base 3 (arredondado para baixo) e depois calcular o fatorial do resultado, como mostra a equação: y= (floor(log3N))! dica: y = log3 N <=> 3^y = N",
+    "format_input": "Um inteiro N. (N > 0)",
+    "format_output": "O número de Ambrósio resultante.",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Sequência Genética",
+    "time_limit": "2 segundo(s)",
+    "descrition": "CORALINA anda muito interessada no desenvolvimento de aplicações voltadas para a decodificação genética na área de Bioinformática. Para isso ela está desenvolvendo um programa capaz de gerar novas sequências a partir de uma sequência composta de símbolos C (Citosina), T (Timina), A (Adenosina), G (Guanina) e U (Uracila) informada pelo usuário e de prefixos e sufixos extraídos a partir da mesma. O PREFIXO corresponde a um conjunto de símbolos cujo valor N é especificado pelo usuário e corresponde aos n primeiros elementos de uma sequência informada pelo usuário. O SUFIXO corresponde a um conjunto de símbolos cujo valor M é especificado pelo usuário e corresponde aos últimos elementos a partir da posição M de uma sequência informada pelo usuário. Serão criadas sequências a partir dos sufixos e prefixos extraídos e de cada sequência secundária. Atenção: Caso o tamanho do prefixo ou do sufixo seja nulo ou negativo o programa emitirá mensagem de erro. Também podem ser usadas outras palavras que não sejam sequências de DNA.",
+    "format_input": "Tamanho do prefixo, Tamanho do sufixo, Palavra base, palavra secundária 1, palavra secundária 2",
+    "format_output": "palavras geradas",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

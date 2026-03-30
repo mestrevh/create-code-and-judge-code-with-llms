@@ -1,0 +1,13 @@
+{
+    "title": "Maior e menor elemento de um array",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que imprime na tela o menor e o maior elemento de um array de 6 inteiros. Você deve ter duas funções (uma para o menor e outra para o maior) que recebem como parâmetro um ponteiro para o array.",
+    "format_input": "Os 6 valores que serão inseridos no array, linha a linha.",
+    "format_output": "O menor e o maior valor do array em duas linhas, respectivamente.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "ponteiro"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Ordenar Lista Encadeada em ordem crescente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva uma função que ordena em ordem crescente uma lista encadeada sem criar uma nova lista.",
+    "format_input": "Uma lista encadeada onde cada nó possui um número.",
+    "format_output": "Uma lista encadeada onde cada nó possui um número. Os nós devem estar em ordem crescente.",
+    "topics": [
+        "estrutura de dados",
+        "alocação dinâmica",
+        "ordenação",
+        "ponteiro"
+    ]
+}

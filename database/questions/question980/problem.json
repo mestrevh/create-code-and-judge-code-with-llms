@@ -1,0 +1,12 @@
+{
+    "title": "Aumento salarial",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma empresa decide dar aumento de 30% aos funcionários com salário inferior a $1000 e de 10% aos que tem salário entre $1000 e $2000. Os outros funcionários não recebem aumento. Faça um programa que receba o salário de um funcionário e devolva o valor do salário reajustado.",
+    "format_input": "O salário do funcionário antes do aumento (um número float).",
+    "format_output": "O salário do funcionário depois do ajuste expresso com duas casas para os decimais.",
+    "topics": [
+        "condicionais",
+        "matemática",
+        "lógica de programação"
+    ]
+}

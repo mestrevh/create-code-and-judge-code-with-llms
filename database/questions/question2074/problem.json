@@ -1,0 +1,10 @@
+{
+    "title": "Strong Number",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Willy acabou de descobrir o conceito de Strong Number e ficou fascinado com esses números, então ele pediu que você o ajudasse a dizer se um número dado é Strong Number. Um número é dito Strong Number quando a soma dos fatoriais de cada um de seus números é igual a ele mesmo, exemplo: 145: 1! + 4! + 5! = 1 + 24 + 120 = 145. Logo 145 é um Strong Number. 126: 1! + 2! + 6! = 1 + 2 + 720 = 723. Logo 126 não é um Strong Number. Agora é sua vez de ajudar Willy, dado um número N diga se ele é um Strong Number.",
+    "format_input": "Uma única linha contendo um inteiro N. 1 <= N <= 1000",
+    "format_output": "Caso seja um Strong Number: Uma única linha contendo S. Caso não seja um Strong Number: Duas linhas, a primeira contendo N e a segunda contendo a soma dos fatoriais de cada número.",
+    "topics": [
+        "repetição"
+    ]
+}

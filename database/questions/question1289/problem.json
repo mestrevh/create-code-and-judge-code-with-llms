@@ -1,0 +1,10 @@
+{
+    "title": "BST com ponteiro para nó lateral",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Implemente uma árvore de busca binária em que cada nó possui um ponteiro \"lateral\" para próximo nó à sua direita (no mesmo nível), conforme a figura abaixo (ver versão em inglês): Após cada operação de inserção ou remoção, deve ser impresso o percurso em pré-ordem da árvore e todos os nós, da esquerda para a direita, de cada um dos níveis. obs: no caso de remoção de um nó que contém dois filhos não-nulos, considere substituir o nó a ser removido pelo seu sucessor. obs2: no caso de inserção de um elemento de valor igual a um elemento já existente, considere inserir na subárvore à esquerda.",
+    "format_input": "Cada linha da entrada exibe um caracter representando a operação à ser realizada ('i' para inserção ou 'r' para remoção), seguido de um número inteiro a ser inserido/removido. O caracter 'q' seguido de qualquer inteiro indica o término da entrada.",
+    "format_output": "Na saída devem ser impressos o percurso da árvore em pré-ordem e os nós de cada nível da árvore. Caso a árvore esteja vazia, deve ser impressa a saída \"pre-ordem:\" sem nenhum elemento. Antes de cada nível da árvore, deve ser impressa a string \"nivel x:\\n\" seguida dos elementos do nível. Exemplo: pre-ordem:69 56 29 85 nivel 1: 69 nivel 2: 56 85 nivel 3: 29",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

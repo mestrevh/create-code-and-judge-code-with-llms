@@ -1,0 +1,12 @@
+{
+    "title": "Passeios turísticos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Flávio organiza passeios no litoral da Paraíba e tem recebido muitos clientes nesse verão. Os turistas podem escolher fazer um mergulho em Picãozinho (R$ 50), ir de barco até Areia Vermelha (R$ 65) ou fazer um passeio de buggy pelo Litoral Sul (R$ 90). Moradores de João Pessoa têm 40% de desconto em todos os passeios, desde que apresentem um comprovante de residência. Escreva um programa que receba como entrada as escolhas de vários turistas, e exiba a quantidade de mergulhos vendidos e o total recebido por Flávio por todos os passeios.",
+    "format_input": "Um String para cada turista indicando o tipo de passeio escolhido (Mergulho, Barco ou Buggy escritos de qualquer forma) e outro String indicando se é residente em João Pessoa (Sim ou Não escritos de qualquer forma) A entrada de dados deve encerrar quando for informado um passeio inexistente",
+    "format_output": "Um valor inteiro separado por uma quebra de linha de um valor real com duas casas decimais",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "string"
+    ]
+}

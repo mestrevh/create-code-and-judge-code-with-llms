@@ -1,0 +1,12 @@
+{
+    "title": "A melhor compra de ações",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Se você pudesse voltar no tempo e visse o histórico de preços de uma determinada ação, quando você escolheria comprar e vender aquela ação? Mas você só pode escolher um momento de compra e um momento de venda.",
+    "format_input": "A entrada consiste de um inteiro n correspondendo ao tamanho da série de preços. Depois você irá receber n números correpondendo ao valor da ação a cada dia. Considere 1<= n <= 100.000 Dica: você precisará fazer um algoritmo pelo menos em O(n log n) para conseguir dar a resposta no tempo desejado.",
+    "format_output": "A saída consiste de um número indicando qual o maior lucro possível considerando que você vai poder realizar no máximo uma compra e uma venda.",
+    "topics": [
+        "requer solução eficiente",
+        "dividir e conquistar",
+        "programação dinâmica"
+    ]
+}

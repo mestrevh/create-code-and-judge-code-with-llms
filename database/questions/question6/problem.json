@@ -1,0 +1,11 @@
+{
+    "title": "Equação do Segundo Grau",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Toda vez que Ambrósio vai calcular as raízes de uma equação do segundo grau, esquece de algum detalhe e calcula errado. Para evitar esquecimentos, resolveu fazer um programa que calcula as raízes da equação de segundo grau.",
+    "format_input": "Consiste dos números reais a, b e c, que correspondem aos coeficientes da equação de segundo grau (ax²+bx+c=0).",
+    "format_output": "Caso existam as raízes da equação, consiste de dois números reais formatados com duas casas decimais, representando as mesmas. Caso as raízes não existam, o sistema deve mostrar a mensagem (não existem raízes reais): NRR. Caso não seja uma equação de segundo grau, o sistema deve mostrar a mensagem (não é uma equação do segundo grau): NEESG. Dica: O delta indica a natureza das raízes( soluções) da equação e é calculado coma fórmula b² - 4ac. Se delta é maior que 0, a equação tem duas raízes reais e distintas. As raízes são calculadas pela fórmula de Bhaskara. Se delta é igual a 0, a equação tem uma raiz real (duas raízes iguais). Se delta é menor que 0, a equação não tem raízes reais.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

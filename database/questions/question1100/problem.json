@@ -1,0 +1,10 @@
+{
+    "title": "Volume do tronco de uma pirâmide",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O tronco da pirâmide é composto de duas bases com áreas de medidas diferentes, lembrando que a área depende do formato da figura plana em questão. No tronco existem duas alturas que não devem se confundidas: uma delas é a altura (h) do tronco, que é a distância entre as duas bases de modo que o ângulo formado entre uma reta imaginária e as bases seja igual a 90º. A outra medida corresponde à geratriz (g) do tronco, que se refere à altura da lateral da face, a qual forma com as bases ângulos diferentes de 90º. Dessa forma, faça um programa para calcular o volume do tronco de uma pirâmide de acordo com a seguinte equação: Onde: V é o volume do tronco da pirâmide; h é a altura do tronco da pirâmide; A é a área da base maior da superfície; a é a área da base menor da superfície. Para fazer seus cálculos, considere que as bases são sempre quadradas.",
+    "format_input": "h - A altura do tronco da pirâmide (int); l - O tamanho do lado da base menor (int); L - O tamanho do lado da base maior (int)",
+    "format_output": "O volume da pirâmide com precisão de uma casa decimal.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

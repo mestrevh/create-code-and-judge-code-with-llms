@@ -1,0 +1,10 @@
+{
+    "title": "Método dos mínimos quadrados",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Um dia Valgueiro estava fazendo experimentos em sua casa, quando notou que os valores obtidos ao serem plotados possuíam uma relação linear visível. Porém, os dados experimentais não eram muito precisos e ele não era capaz de visualmente deduzir uma boa equação da reta que descrevesse o comportamento do seu experimento. Valgueiro lembrou que Lucas havia falado sobre o método dos mínimos quadrados, que, baseando-se em pontos fornecidos, calcula os coeficientes da reta do tipo abaixo que melhor descreve este conjunto de pontos: Como Valgueiro ainda não aprendeu como usar este método, ele pediu sua ajuda para resolver este problema. Usando as fórmulas abaixo do método dos mínimos quadráticos calcule os coeficientes da reta que se adequa aos dados e os imprima. Onde: ",
+    "format_input": "Na primeira linha da entrada seu programa receberá um inteiro n (1 <= n <= 100000), a quantidade de dados que Valgueiro tem atualmente. Nas n linhas seguintes você receberá as coordenadas x e y dos pontos (-100000 <= x, y <= 100000).",
+    "format_output": "A saída deve dizer os coeficientes A e B calculados com duas casas de precisão.",
+    "topics": [
+        "acumulador"
+    ]
+}

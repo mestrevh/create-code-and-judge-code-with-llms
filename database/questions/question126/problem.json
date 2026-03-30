@@ -1,0 +1,15 @@
+{
+    "title": "Árvore Genealógica",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A empresa Genomics faz vários serviços dedicados a famílias, principalmente para descobrir parentes e parentescos perdidos. Para mostrar a eficiência de seus serviços, a Genomics quer, para cada árvore genealógica que ela tem, achar o par de parentes com parentesco mais distante. Para isso, eles definiram uma \"função-parentesco\" definida da seguinte forma: 1. grau(A, B) = 0, se A = B 2. grau(A, B) = INT_MAX, se A ou B não existem 3. grau(A, B) = 1 + min{grau(pai(A), B), grau(A, pai(B))}, se A != B Você deve fazer um programa que, dado uma árvore genealógica, imprime o nome dos dois parentes com maior grau de parentesco. Importante: A condição 2 da função grau ocorre quando a função pai(X) é chamada e X não possui pai. Ou seja, a função pai retorna um elemento que representa o SEM_PAI. Dica: Caso você esteja fazendo o seu código na linguagem C, inclua o arquivo limits.h. Nesse arquivo existe a constante INT_MAX que representa o maior valor inteiro.",
+    "format_input": "A entrada é composta de um único caso de teste. A primeira linha contém um número inteiro positivo N, que indica o número de relações pai-filho que serão descritas. As N linhas seguintes contêm duas strings cada, P e F, indicando que P é pai de F.",
+    "format_output": "Seu programa deve imprimir uma única linha contendo os nomes do par de parentes com maior grau de parentesco, e esse grau. Essas duas strings devem estar em ordem alfabética; em caso de empate, você pode imprimir o par cujo um dos elementos aparece primeiro na entrada dada.",
+    "topics": [
+        "array",
+        "array bidimensional",
+        "alocação dinâmica",
+        "recursão",
+        "busca",
+        "estruturas"
+    ]
+}

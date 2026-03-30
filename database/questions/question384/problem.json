@@ -1,0 +1,12 @@
+{
+    "title": "Reformando a sala",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Marion decidiu mudar a decoração de sua casa começando pela sala. Ela comprou móveis e objetos novos, mas acabou perdendo a conta dos gastos. Escreva um programa que receba como entrada a descrição e o valor pago por cada item adquirido, e exiba o total gasto e o nome do item mais caro comprado.",
+    "format_input": "Um String e um float para cada item comprado. A entrada de dados deve parar quando Marion informar a descrição FIM (em maiúsculas ou minúsculas)",
+    "format_output": "Um float com duas casas decimais e um String em letras maiúsculas. Esses dois valores devem ser separados por uma quebra de linha (enter)",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "string"
+    ]
+}

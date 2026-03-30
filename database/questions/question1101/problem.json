@@ -1,0 +1,11 @@
+{
+    "title": "O inverno está chegando.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Jon Snow está se preparando para a tão aguardada batalha que irá colocar frente à frente todas as casas dos sete reinos. A guerra será sangrenta. Para isso ele vai levar apenas soldados que tenham realmente condições de sobreviver às mais sangrentas lutas e a condições de frio, sede e fome. Você será o ajudante dele e, como tal, deverá desenvolver um programa que vai coletar os dados de cada soldado para poder saber as características de sua tropa e assim decidir quem vai e quem não vai. Nesse caso, o programa vai perguntar a cada um a idade, o sexo, a casa (Stark, Patrulha da Noite, Cavaleios do Vale e Os Selvagens), altura e habilidade (arqueiro, espadachim e lanceiro). O programa deve ler esses dados enquanto quiser continuar a coleta e, ao final, deve exibir as seguintes informações: Quantidade total de soldados; Altura do soldado mais alto dos Cavaleiros do Vale; Quantidade de lanceiros da casa Stark; Idade do arqueiro mais jovem dos Selvagens; Sexo do espadachim mais alto da Patrulha da Noite.",
+    "format_input": "O usuário vai fornecer as seguintes características (Nessa sequência): A casa: (S)tark, (P)atrulha da Noite, (C)avaleios do Vale e (O)s Selvagens; Sexo: (F)eminino ou (M)asculino; Idade (int); Altura (float); Habilidade: (a)rqueiro, (e)spadachim e (l)anceiro. O programa deve colher esses dados até que o usuário digite uma casa que esteja fora das opções possíveis.",
+    "format_output": "Quantidade total de soldados (int). Se os dados de nenhum soldado forem fornecidos, a quantidade deve ser 0. Altura do soldado mais alto dos Cavaleiros do Vale (float, com 2 casas decimais de aproximação). Se os dados de nenhum soldado forem fornecidos com essas características, a altura deve ser 0. Quantidade de lanceiros da casa Stark (int). Se os dados de nenhum soldado forem fornecidos com essas características, a quantidade deve ser 0. Idade do arqueiro mais jovem dos Selvagens (int). Se os dados de nenhum soldado forem fornecidos com essas características, a idade deve ser 999. Sexo do espadachim mais alto da Patrulha da Noite. Se os dados de nenhum soldado forem fornecidos com essas características, o sexo deve ser 'X'.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

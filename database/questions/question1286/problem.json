@@ -1,0 +1,10 @@
+{
+    "title": "L5Q1 - Euclides and Morty",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mr. Goldenfold está dando aulas sobre divisibilidade e o tema de sua última aula foi o algoritmo de Euclides, que funciona da seguinte forma: A = D * Q + R no qual A é o número a ser dividido, D é o dividendo, Q é o quociente da divisão inteira de A por D, e R é o resto dessa divisão. Digamos que queremos calcular o MDC(36, 24) 36 = 24 * 1 + 12 perceba que 12 é divisor de 36 e 24, portanto, o MDC(36,24) = MDC(24,12) 24 = 12 * 2 + 0 Como o resto é zero, sabemos que 12 divide 24. MDC(36,24) = MDC(24,12) = 12 Em geral, o que o algoritmo de Euclides faz é: Escolha dois números para tirar o mdc(A,D); Divida A por D, se o resto da divisão não for zero, divida D pelo resto até achar o resto 0. Quando achar uma divisão com resto zero, o \"D\" dessa divisão será o MDC de A e D originais. Mr. Goldenfold, como dever de casa, passa aos alunos uma lista de duplas de valores inteiros e o desafio é descobrir o MDC de cada dupla contida na lista. Morty, ao ver o tamanho da lista, resolve pedir ajuda a seu avô Rick, já que não entendeu tão bem como funcionava o algoritmo. Rick resolve que a melhor forma de fazer isso seria criando uma máquina do tempo, voltando à época de Euclides, fazendo com que você (Euclides) explique a Morty como o algoritmo funciona, para que a lista possa ser resolvida e Morty tire dez em matemática. Sua tarefa é ajuda-lo a escrever um programa que dada uma quantidade de duplas de valores inteiros, imprima o resultado do MDC de cada dupla.",
+    "format_input": "A entrada é composta de várias linhas (até o fim de arquivo), no formato: A B. A - número inteiro positivo, B - número inteiro positivo. As linhas da entrada são composta por A e B.",
+    "format_output": "A saída é composta por várias linhas no formato: N. N - número inteiro. As linhas da saída são compostas por um número N, representando o MDC de A e B. obs: o MDC deve ser calculado utilizando recursão.",
+    "topics": [
+        "recursão"
+    ]
+}

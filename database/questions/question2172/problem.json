@@ -1,0 +1,11 @@
+{
+    "title": "P3Q1 - Corrida das Toupeiras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No Reino das Toupeiras, existe um jogo bastante popular, chamado corrida subterrânea. A partida ocorre em uma cadeia de túneis interligados e possui as seguintes regras: o objetivo do jogo é entrar por uma porta, encontrar sua chave, retornar para ela pelo mesmo caminho e sair da cadeia de túneis no menor tempo possível; cada túnel possui uma caixa, que pode estar vazia ou conter a chave da porta; a distância entre um túnel qualquer e todos os outros é exatamente igual; antes de iniciar a partida, a toupeira deve fornecer um mapa, informando qual será a sequência de busca que pretende seguir. Os juízes sabem antecipadamente em qual caixa estará a chave da porta. Com essa informação e com o mapa fornecido pelo jogador, o juízes utilizam um programa para estimar o tempo que a toupeira deve obter em cada partida. Seu trabalho é escrever esse programa. Obs 1: O programa assume que as toupeiras percorrem a distância entre dois túneis em um tempo médio de 1 minuto; Obs 2: a sequência de túneis indicada no mapa não pode incluir o mesmo túnel mais de uma vez; Obs 3: só existe uma chave. Obs 4: a numeração dos túneis respeitam uma sequência de inteiros, iniciada com o valor 0; por exemplo, se houver 4 túneis, eles serão numerados com 0, 1, 2 e 3. Obs 5: é obrigatório utilizar recursão.",
+    "format_input": "A primeira linha contém um inteiros N que representa a quantidade de túneis. A segunda linha contém N inteiros separados por espaço, representando a sequência de túneis informada no mapa aos juízes. Porém, os juízes substituem um dos inteiros por -1, para indicar para o ponto em que o jogador irá encontrar a chave.",
+    "format_output": "A saída deve ser composta por um valor inteiro que representa o total de minutos estimado para que a toupeira complete o circuito durante a partida.",
+    "topics": [
+        "acumulador",
+        "recursão"
+    ]
+}

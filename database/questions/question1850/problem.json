@@ -1,0 +1,11 @@
+{
+    "title": "Primeiro Ancestral Comum",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O primeiro ancestral comum entre dois dados é o nó mais profundo a partir do qual ainda é possível alcançar os dois nós dados. Por exemplo na arvore abaixo, o primeiro ancestral comum 78 e 72 é o 73 e o primeiro ancestral comum entre o 58 e o 79 é o 70. Dada uma arvore de busca binaria, e dois nos que pertencem a essa arvore, determine, qual o primeiro ancestral comum entre os dois nos dados.",
+    "format_input": "A entrada consiste em vários casos teste onde: A primeira linha contem um numero N, representando a quantidades de nós que há árvore terá. A segunda linha terá N números correspondendo aos nós que serão adicionados na arvore. A ultima linha contem A e B que correspondem aos nós que devemos buscar o primeiro ancestral comum. O programa irá para quando N for igual a 0",
+    "format_output": "Deve-se imprimir na saída: Case A: N Onde A é o numero do caso que esta sendo executado e N é o no procurado para aquele caso",
+    "topics": [
+        "estrutura de dados",
+        "Árvore"
+    ]
+}

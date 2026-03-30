@@ -1,0 +1,10 @@
+{
+    "title": "Ache o P1 dessa árvore",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma árvore binária com altura H, onde os nós são indexados de cima pra baixo e da esquerda para a direita começando por 1. O i-ésimo nó armazena um inteiro positivo Vi. Assuma que Pi é definido como: Pi = Vi se o i-ésimo nó é uma folha; Pi = max (Vi*PL, Vi*PR), onde L e R são os índices dos nós filhos de i, da esquerda e direita respectivamente. Sua tarefa é calcular o valor de P1.",
+    "format_input": "A primeira linha contém um inteiro positivo H (H<=15) significando a altura da árvore. A segunda linha contém os inteiros positivos correspondendo aos nós da árvore. O i-ésimo inteiro corresponde ao valor de Vi. Por exemplo, a árvore abaixo é representada pela entrada: 3 3 1 5 2 6 4 7 3 / \\ / \\ 1 5 / \\ / \\ 2 6 4 7 O valor de P1 nesse caso é de 105.",
+    "format_output": "Imprima o valor de P1 encontrado.",
+    "topics": [
+        "Árvore"
+    ]
+}

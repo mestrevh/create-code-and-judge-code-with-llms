@@ -1,0 +1,12 @@
+{
+    "title": "Nomeando Problemas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Piton está organizando uma maratona de programação que contém N problemas, nomeados A, B, C, etc. Ele quer nomear o primeiro problema começando com a letra A, o segundo começando com a letra B, e etc. Porém, ele não pode simplesmente escolher palavras aleatórias para os títulos do problemas; isso não faria sentido. Para cada problema, ele pensou numa lista de nomes aceitáveis. Ajude Piton a ordenar os problemas e escolher os nomes aceitáveis para cada problema, de forma que cada problema comece com a letra correta do alfabeto.",
+    "format_input": "A primeira linha da entrada dá o número de casos de teste, T. T casos de teste seguirão. Cada um inicia com um N, com a quantidade de problemas. As próximas N linhas terão a lista de nomes possíveis para cada um dos N problemas. Cada linha começa com Ki; o número de nomes aceitáveis para o problema i, seguida da lista de nomes, separadas por espaços. Cada nome é uma string não vazia de letras. Não vão ter dois nomes iguais, e não vão ter dois nomes começando com a mesma letra para o mesmo problema.",
+    "format_output": "Para cada caso de teste, primeiro imprima 'Case #x:', onde x é o número do caso de teste. Depois disso, imprima N linhas, listando o nome dos N problemas, cada com apenas a primeira letra maiúscula. É garantido que existirá exatamente uma solução.",
+    "topics": [
+        "fluxo máximo",
+        "grafo",
+        "grafo bipartido"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Ficha de RPG",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bem vindos ao jogo de RPG \"Python land\"! Como todo RPG clássico, você precisa criar sua própria ficha! Comece colocando seu nome e classe, em seguida deverá informar seus status de personagem: força, agilidade, inteligencia e carisma, respectivamente. Esses valores não podem ser maiores que 10 ou menores que 1 . Os resultados precisam ser computados da seguinte forma: força: status + 16 agilidade: status x 20 inteligencia: 30 - status carisma: 25 / status No final, o programa deve imprimir: Meu nome é [nome] e sou um [classe], tenho força [for], agilidade [agi], inteligencia [int] e carisma [car] . Dica: O resultado da divisão de carisma deverá ser ! Não existem fichas com status com decimais, jovem aventureiro!",
+    "format_input": "Duas strings (nome e classe), seguido por 4 inteiros (1<x<10) (status de força, agilidade, inteligência e carisma). Todos devem ser inseridos individualmente .",
+    "format_output": "Uma string contendo ' Meu nome é [nome] e sou um [classe], tenho força [for], agilidade [agi], inteligencia [int] e carisma [car] . '",
+    "topics": [
+        "RPG",
+        "Python",
+        "Lógica de Programação",
+        "Variáveis",
+        "Operações Aritméticas"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Soma de vetores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um problema em Linguagem C que preenche dois vetores com dez números inteiros. E seguida, seu programa deverá armazenar em um terceiro vetor a soma dos dois vetores lidos.",
+    "format_input": "2 5 1 4 6 8 7 9 0 2 1 2 3 4 2 1 0 0 8 4",
+    "format_output": "3 7 4 8 8 9 7 9 8 6",
+    "topics": [
+        "array"
+    ]
+}

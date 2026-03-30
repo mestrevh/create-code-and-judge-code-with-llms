@@ -1,0 +1,10 @@
+{
+    "title": "Novo Teclado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bob comprou um computador novo, porém ele não está muito acostumado com o teclado e às vezes demora bastante para digitar algumas palavras. Bob escolheu N palavras distintas de um dicionário, as chamou de W1, W2, ..., WN e percebeu que demorava Xi milissegundos para escrever a i-ésima delas, ou seja, demorava Xi milissegundos para escrever Wi. Agora, ele quer um programa que dados essas N palavras, junto com o tempo gasto, em milissegundos, para escrever cada uma delas, e um texto S composto por M dessas palavras (possivelmente com repetição), diga quanto tempo, também em milissegundos, ele irá demorar para escrever o texto.",
+    "format_input": "A primeira linha da entrada contém T, o número de casos de teste. Cada caso de teste consiste de várias linhas, na forma: N W1 X1 W2 X2 W3 X3 ... WN XN M S onde N é a quantidade de palavras que Bob calculou o tempo que ele demora para escrever Wi representa a i-ésima palavra do dicionário Xi representa quanto tempo Bob demora para escrever Wi M é a quantidade de palavras do texto S S é o texto que Bob quer saber quanto tempo vai demorar para escrever com seu teclado novo Limites: 1 <= T <= 50 1 <= N <= 50 1 <= |Wi| <= 20, para i=1,...,N 1 <= Xi <= 5000, para i=1,...,N 1 <= M <= 100 Cada palavra da entrada contém apenas letras [a-z] minúsculas. As palavras do texto S são mostradas em uma única linha e cada palavra é separada por exatamente um espaço.",
+    "format_output": "Para cada caso de teste imprima em uma única linha Caso X: Y onde X é o número do caso atual, começando em 1, e Y é a quanto tempo Bob vai demorar para escrever o texto, em milissegundos.",
+    "topics": [
+        "acumulador"
+    ]
+}

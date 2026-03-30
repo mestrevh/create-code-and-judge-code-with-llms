@@ -1,0 +1,10 @@
+{
+    "title": "Corrigindo Provas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A professora de programação está em apuros!! Ela tem 100 provas para corrigir e pouco tempo para a entrega das notas!! Para ter uma noção de quanto tempo precisa para terminar sua tarefa, a professora escolheu cinco provas e marcou o tempo que levou para corrigir cada uma delas. Escreva um programa que receba como entrada cada tempo, estime o tempo médio necessário por prova, e exiba o tempo total que ela levará para corrigir tudo. Dica: lembre-se que cada minuto tem 60 segundos e cada hora tem 60 minutos.",
+    "format_input": "Um inteiro (segundos) para cada uma das cinco provas escolhidas",
+    "format_output": "Um valor inteiro correspondente ao tempo médio em segundos. Três valores inteiros correspondentes ao tempo total (horas, minutos, segundos nessa ordem)",
+    "topics": [
+        "datas/horas"
+    ]
+}

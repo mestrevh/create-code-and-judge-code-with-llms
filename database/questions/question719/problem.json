@@ -1,0 +1,8 @@
+{
+    "title": "Baile de Formatura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "None",
+    "format_input": "5\n5\n9\n10\n12\n13",
+    "format_output": "Caso #1: 25\nCaso #2: 9\nCaso #3: 100\nCaso #4: 36\nCaso #5: 169",
+    "topics": []
+}

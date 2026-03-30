@@ -1,0 +1,11 @@
+{
+    "title": "Romano dividido por 5",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O sistema de numeração romana (ou números romanos) desenvolveu-se na Roma Antiga e utilizou-se em todo o seu Império. Ele é composto por sete letras maiúsculas do alfabeto latim: I, V, X, L, C, D e M. Símbolo Nome Valor I unus 1 (um) V quinque 5 (cinco) X decem 10 (dez) L quinquaginta 50 (cinquenta) C centum 100 (cem) D quingenti 500 (quinhentos) M mille 1,000 (mil) Para representar outros números, são escritos alguns algarismos, começando-se do algarismo de maior valor e seguindo a seguinte regra: Algarismos de menor ou igual valor à direita são somados ao algarismo de maior valor; Algarismos de menor valor à esquerda são subtraídos do algarismo de maior valor. Assim, XI representa 10 + 1 = 11, enquanto XC representa 100-10 = 90. Há ainda a regra adicional de que um algarismo não pode ser repetido lado a lado por mais de três vezes. Assim, para representar 300, podemos usar CCC; para representar 400, entretanto, precisamos escrever CD. Os romanos desconheciam o zero, introduzido posteriormente pelos árabes, de forma que não existia nenhuma forma de representação deste valor pelo fato de terem apenas como base o início do numeral o 1.",
+    "format_input": "Uma sequência de caracteres (M, D, C, L, X, V ou I) até encontrar um final de linha.",
+    "format_output": "Caso seja multiplo de 5: \"O numero e multiplo de 5!\" Caso não: \"O resto pela divisao por 5 do numero dado e igual a %d!\", onde %d é o resto da divisão do número por 5. Em ambos os casos a saída tem um fim de linha.",
+    "topics": [
+        "números romanos",
+        "dicionário"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "L1Q8 - Party at the castle",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após a vitória contra o Bowser, a Princesa Peach resolveu organizar um jantar em seu castelo em comemoração a sua libertação. Como você já havia ajudado Mario e Luigi antes, ela lhe deu a honrosa tarefa de dividir os lugares na mesa de maneira a atender todos os seus requisitos. Como esta era uma tarefa difícil e imprevisivel, você teve a brilhante ideia de criar um programa para ajudá-lo na tarefa de definir os locais das pessoas na mesa, ou seja, imprime o nome da pessoa em cada posição da mesa. Mesa: Requisitos: Existem 5 pessoas a se sentarem na mesa: Princesa, Mario, Toad, Luigi e Yoshi. A ordem de chegada das pessoas importa, ou seja, as pessoas que chegaram em posições pares tem de sentar em posições pares na mesa. A princesa sempre estará na cabeça da mesa, ou seja, na posição 1. O Mário, por ser a grande paixão da princesa, deve sentar numa posição perto dela( posição 2 ou posição 3, dependendo da posição em que ele chegou). Por ser seu conselheiro, o Toad deve sentar próximo da princesa, porém, se o Mário estiver no mesmo lado que ele, o Mário é quem sentará mais perto da princesa. Se o Luigi e o Yoshi estiverem no mesmo lado, o Luigi deve sentar mais próximo da princesa.",
+    "format_input": "Pessoa1, Pessoa2, Pessoa3, Pessoa4, Pessoa5. Sendo todas do tipo String, podendo ser: {Princesa, Mario, Toad, Luigi, Yoshi}. Pessoa1 sempre é Princesa.",
+    "format_output": "Posição1, Posição2, Posição3, Posição4, Posição5. Sendo todas essas posições do tipo String, que representam a pessoa que irá sentar na posição x. Todos os nomes de pessoa tem de estar separado por uma quebra de linha.",
+    "topics": [
+        "formatação"
+    ]
+}

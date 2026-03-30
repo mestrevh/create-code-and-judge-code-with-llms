@@ -1,0 +1,11 @@
+{
+    "title": "Resto da divisão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em programação uma das funções bult-in mais utilizadas é o resto da divisão, que em algumas linguagens intitula-se MOD em outras, utiliza-se o operador %. O que se pede nessa questão é que você implemente essa função. Pode-se calcular o resto da divisão, MOD, de x por y, dois números inteiros, usando-se a seguinte definição: MOD (x,y) = MOD (|x|−|y|,|y|), se |x| >= |y|. MOD (x,y) = |x|, se |x| < |y|. Então, pede-se que seja criada uma função recursiva para descrever tal definição. A função deve retornar -1 caso não seja possível realizar o cálculo. Além disso, crie um algoritmo que leia os dois valores inteiros e utilize a função criada para calcular o resto da divisão de x por y, e imprima o valor computado.",
+    "format_input": "Dois números inteiros, x e y.",
+    "format_output": "O valor do resto da divisão.",
+    "topics": [
+        "função",
+        "recursão"
+    ]
+}

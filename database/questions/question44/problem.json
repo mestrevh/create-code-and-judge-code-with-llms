@@ -1,0 +1,12 @@
+{
+    "title": "Intermediário 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia 3 números inteiros e imprima o valor intermediário (entre o menor e o maior número). Suponha que os números são diferentes.",
+    "format_input": "Consiste de 3 números inteiros.",
+    "format_output": "Consiste do número inteiro cujo valor é o intermediário entre os valores de entrada.",
+    "topics": [
+        "array",
+        "decisão",
+        "ordenação"
+    ]
+}

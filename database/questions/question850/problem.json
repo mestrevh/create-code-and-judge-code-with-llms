@@ -1,0 +1,10 @@
+{
+    "title": "Identificando Região de Procedência",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba o código da origem de um produto e informe em qual região ele foi produzido, ou seja, qual é a sua procedência. Para isso utilize a tabela abaixo que associa o código de origem à região de procedência. Código da Origem: 1 - Região de Procedência: Nordeste; Código da Origem: 2 - Região de Procedência: Norte; Código da Origem: 3 e 4 - Região de Procedência: Centro-Oeste; Código da Origem: 5 a 9 - Região de Procedência: Sul; Código da Origem: 10 a 15 - Região de Procedência: Sudeste.",
+    "format_input": "A entrada consiste de um número inteiro que corresponde ao código da origem.",
+    "format_output": "A saída do nome da região de origem do produto, conforme estabelecido na tabela.",
+    "topics": [
+        "decisão"
+    ]
+}

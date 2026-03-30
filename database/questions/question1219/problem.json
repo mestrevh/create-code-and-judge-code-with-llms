@@ -1,0 +1,11 @@
+{
+    "title": "L6Q3 - Jarvis",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após ser criado por Tony Stark e Bruce Banner, Ultron estava tentando escapar da rede fechada do prédio dos Vingadores. Para isso era necessário descobrir a senha de acesso à rede externa. A chave geradora da senha é mantida em uma lista encadeada e, para obter a senha, é necessário aplicar uma função recursiva na lista, que retorna o elemento da cabeça executando uma operação (seja de soma ou subtração) com a mesma função aplicada na \"cauda\" da lista. Quando a função é aplicada no último elemento, retorna apenas o valor do mesmo. Sua tarefa é descobrir a senha para ajudar Ultron a escapar da rede.",
+    "format_input": "N A1 A2 A3 ... AN F. N - número inteiro (1 <= N <= 30). Ai - número inteiro (1 <= Ai <= 10). F - string no formato: \"x op y\", na qual: op - string ({ \"+\", \"-\" }). A primeira linha da entrada é composta pelo tamanho da lista encadeada que representa a chave geradora. A segunda linha é composta por N inteiros separados por espaço, que são os elementos da lista encadeada, a chave geradora. A terceira linha é composta por uma função, que representa a parte do cálculo da função recursiva que calcula a senha.",
+    "format_output": "S. S - número inteiro. A linha única de saída é composta pela senha usada para poder fugir da rede interna.",
+    "topics": [
+        "estrutura de dados",
+        "função"
+    ]
+}

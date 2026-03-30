@@ -1,0 +1,10 @@
+{
+    "title": "Pares de parênteses",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça todas as possíveis combinações com N parênteses esquerdo e N parênteses direito que estejam devidamente balanceados.",
+    "format_input": "Um único inteiro N que indica a quantidade de parênteses esquerdos e direitos. 0 <= N <= 8",
+    "format_output": "Imprima uma linha contendo todas as combinações entre cochetes, se tiver mais de uma combinação separe por \",\".",
+    "topics": [
+        "recursão"
+    ]
+}
