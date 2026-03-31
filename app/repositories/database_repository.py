@@ -112,7 +112,6 @@ class DatabaseRepository(DatabaseInterface):
                           agent: GeminiService) -> bool:
         
         if len(data['choices']) == 0 and data['baseLanguage'] == None:
-            
             problem = f"Título: {data["name"]}\n"
             
             problem += "Topicos do problema: "
@@ -159,40 +158,6 @@ class DatabaseRepository(DatabaseInterface):
         else:
             return False
             
-    def format_questions(self) -> bool:
-        
-        path = "database"
-        file_manager.create_dir(path)
-        path += "/questions"
-        file_manager.create_dir(path)
-        
-        agent = GeminiService()
-        
-        for i in range(5000):
-            question_path = f"{path}/question{i}"
-            if file_manager.dir_exist(question_path):
-                
-                if file_manager.file_exist(path=f"{question_path}/problem.json"):
-                    continue
-                
-                print(f"INICIO {question_path}")
-                problem = file_manager.read_file(path=f"{question_path}/problem.txt")
-                
-                if problem is None:
-                    return False
-                
-                try:
-                    problem_json = agent.clear_format_question_to_json(problem)
-                    json_valid = json.loads(problem_json)
-            
-                    json_valid = json.dumps(json_valid, indent=4, ensure_ascii=False)
-                    
-                    file_manager.create_file("problem.json", question_path, json_valid)
-                    print(f"FIM {question_path}")
-                    
-                except Exception:
-                    return False
-                
     def get_questions_the_huxley(self, link:str = "", cases_test:bool = False) -> bool:
         
         path = "database"
@@ -210,12 +175,12 @@ class DatabaseRepository(DatabaseInterface):
         
         count = 0
         id = 0
-        while count != 1000:
+        while count != 5000:
             
             response = request_web.get(link=link + "/" + str(id),
                                        headers=headers)
             
-            if response is None or file_manager.file_exist(path=f"database/questions/question{id}"):
+            if response is None or file_manager.file_exist(path=f"database/questions/question{id}/problem.txt"):
                 id += 1
                 count += 1
                 continue

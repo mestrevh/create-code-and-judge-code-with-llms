@@ -16,8 +16,3 @@ class DatabaseServices:
         
         return problem
     
-    def format_q(self):
-        if database_repository.format_questions():
-            print("TUDO PARA JSON")
-        else:
-            print("ERRO")

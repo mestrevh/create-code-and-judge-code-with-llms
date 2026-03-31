@@ -13,10 +13,6 @@ def main ():
     print("Iniciando o sistema!")
     print("=" * 30)
     
-    database_service = DatabaseServices()
-    database_service.format_q()
-    exit(1)
-    
     while True:
         
         print("**** MENU *****")
