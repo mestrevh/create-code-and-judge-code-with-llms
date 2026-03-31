@@ -1,0 +1,10 @@
+{
+    "title": "Calculadora de Polinômios",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Defina uma função recursiva que receba como argumentos os coeficientes de um polinômio e o valor da variável x e que retorne o valor da avaliação do polinômio para este valor de x.",
+    "format_input": "Serão vários casos de teste. Cada caso de teste consta de duas linhas, a primeira contendo o valor de x e a segunda contendo os valores dos coeficientes do polinômio. Assim, por exemplo, o caso de teste 2.5 e 1 -2.1 0 6 indica que o valor da variável x é igual a 2.5. A entrada termina com a palavra FIM.",
+    "format_output": "Para cada caso de teste, o valor da avaliação do polinômio com 4 casas decimais. Um por linha.",
+    "topics": [
+        "recursão"
+    ]
+}

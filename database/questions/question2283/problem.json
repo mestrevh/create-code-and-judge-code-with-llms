@@ -1,0 +1,11 @@
+{
+    "title": "Soma dos dígitos (função recursiva)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha uma única função, além da principal, que receberá como parâmetro um natural n (0<=n<=2^30) e devolverá a soma dos dígitos de n. O programa exibirá o retorno da função. Observações: (a) sem laços de repetição; (b) sem matrizes; (c) função recursiva.",
+    "format_input": "Um número natural.",
+    "format_output": "Um número natural indicando a soma dos dígitos do número da entrada.",
+    "topics": [
+        "função",
+        "recursão"
+    ]
+}

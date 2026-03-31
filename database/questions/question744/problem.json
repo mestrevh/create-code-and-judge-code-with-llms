@@ -1,0 +1,8 @@
+{
+    "title": "SIM é primo",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Faça um programa que dado um numero inteiro N diga se é primo. se for primo imprimir \"SIM\" se não imprimir \"NAO\"",
+    "format_input": "numero inteiro menor que 1000000 seguido por uma quebra de linha. Obs: não é preciso lidar com casos de entradas menores ou iguais a um (1).",
+    "format_output": "uma string contendo \"SIM\" ou \"NAO\" seguido de uma quebra de linha.",
+    "topics": []
+}

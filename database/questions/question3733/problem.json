@@ -1,0 +1,11 @@
+{
+    "title": "Exercício de Busca - DFS",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este exercício requer os conhecimentos de Busca em profundidade (DFS) vistos em sala. A primeira linha da entrada consiste no nó inicial. A última linha da entrada consiste no nó objetivo. O resto da entrada consiste num grafo representado da seguinte forma: X->Y D tal que: X e Y são nós representados por caracteres (char) e D é uma distância em número inteiro não-negativo (int). Note que este grafo não é direcionado, ou seja: se X->Y D pertence ao grafo, então Y->X D também estará no input do grafo. A entrada termina com uma linha em branco. Para fins práticos, o código que interpreta o input (em Python) está neste pastebin, bastando você programar o DFS: https://pastebin.com/pDrfDf5x A saída deve ser impressa no formato: [estado da pilha] por linha (na ordem que cada nó foi visitado), ao fim uma linha em branca deve ser impressa. Ex: A B C D Para fins ilustrativos, a questão foi inspirada nesse grafo: https://bit.ly/3iRJQcc",
+    "format_input": "NO_ORIGEM NO_DESTINO X->Y D ... Y->X D",
+    "format_output": "X Y ...",
+    "topics": [
+        "grafo",
+        "busca"
+    ]
+}

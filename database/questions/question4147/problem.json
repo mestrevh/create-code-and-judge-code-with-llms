@@ -1,0 +1,10 @@
+{
+    "title": "Copa das Cadeiras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Na 22ª edição da Copa das Cadeiras, realizada no Cin, decidiu-se que a cadeira vitoriosa seria escolhida através do voto popular. Após uma intensa batalha entre os diversos componentes da matriz curricular, os três últimos colocados foram: -> Introdução a programação -> Introdução a computação -> Cálculo 6 Dito isso, você, encarregado do número final de votos atribuidos a cada cadeira, deve fazer um programa que determina o vencedor. Ademais, vale notar que a cadeira de Introdução a Programação é pentacampeã, portanto, a saída deve ser tratada de modo diferente caso essa cadeira vença novamente.",
+    "format_input": "Trẽs inteiros, a, b, c, com a quantidade de votos para as cadeiras de Introdução a Programação, Introdução a Computação e Cálculo 6, respectivamente. Dado que: 1 <= a b, c <= 10³ .",
+    "format_output": "A saída deve seguir o formato: \"O vencedor é <nome_da_cadeira> com um total de <número_de_votos> votos.\" Caso a resposta seja Introdução a Programação, a saída deve seguir o formato: \"O vencedor é Introducao a Programacao com um total de <número_de_votos> E O HEXA VEIO.\" Caso ocorra um empate de forma que não exista um vencedor, a saída deve seguir o formato: \"Empate.\"",
+    "topics": [
+        "decisão"
+    ]
+}

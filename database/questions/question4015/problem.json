@@ -1,0 +1,12 @@
+{
+    "title": "Apostadores de café",
+    "time_limit": "1 segundo(s)",
+    "descrition": "kcaj e Ordep são viciados em apostas, em um belo dia, Sophia apresentou a eles um jogo inovador baseado em batalhas, onde os únicos atributos eram ataque e vida, além disso, as habilidades especiais dos personagens e as regras do jogo eram definidas pelos próprios usuários. Após kcaj e Ordep estudarem bem o jogo, eles decidiram as habilidades e regras do jogo. REGRAS GERAIS: Caso a rodada esteja em um número primo, kcaj não atacará e como consequência, não conseguirá usar sua habilidade naquele momento. Caso a rodada esteja em um número resultante da potência de 2, Ordep não atacará e como consequência, não conseguirá usar sua habilidade naquele momento. OBS.1: Pode ocorrer das duas regras serem ativadas. Habilidades de Ordep: Na vez de Ordep, caso a vida de seu boneco seja maior que o ataque, os atributos serão trocados antes de atacar. Habilidade de kcaj: Na vez de kcaj, caso a vida de seu boneco seja ímpar, ele aumenta seu ataque em 5 antes de atacar. OBS.2: As habilidades podem ativar mais de uma vez na mesma batalha. Vão ocorrer X batalhas, onde serão dados o ataque e a vida do personagem de Ordep e o ataque e a vida do personagem de kcaj, em cada batalha. Ambos entraram em consenso e determinaram que Ordep sempre vai ser o primeiro a atacar em cada batalha. Uma rodada é composta pelo ataque(ou tentativa, caso a regra seja ativada) de Ordep e Kcaj. Perde aquele na qual o personagem tiver vida menor ou igual a 0 primeiro. OBS.3: Batalha não é a mesma coisa que rodada, em 1 batalha podemos ter várias rodadas. OBS.4: Considere que a rodada sempre inicia em 1. Foi determinado que o perdedor pagaria a quantidade de Batalhas perdidas em café. Caso não tenha um perdedor, ou seja, a batalha resultou em um empate, imprima a mensagem “F coffees”.",
+    "format_input": "teremos um inteiro X, determinando a quantidade de batalhas. Em seguida vamos ter X vezes, os passos abaixo: ataque e vida de Ordep (ambos inteiros) ataque e vida de kcaj (ambos inteiros) exemplo:",
+    "format_output": "caso Ordep seja o perdedor, imprima: “kcaj ganhou N coffees\" , onde N é a quantidade de batalhas que kcaj ganhou. caso kcaj seja o perdedor, imprima: “ordep ganhou N coffees” , onde N é a quantidade de batalhas que Ordep ganhou. caso não tenha perdedor, imprima: “F coffees”",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "recursão"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Anagramas a partir de pilhas",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Como é possível gerar anagramas a partir de uma sequência se operações de pilha?\n\nPor exemplo, existem duas sequências de operações de pilha que permitem converter TROT em TORT:\n\n[\n\ni i i i o o o o\n\ni o i i o o i o\n\n]\n\nonde i significa \"push\" e o significa \"pop\". \n\nSeu programa deve, dado um par de palavras, produzir sequências de operações de pilhas que convertam a primeira palavra na segunda.",
+    "format_input": "A entrada consiste de várias linhas.\n\nA primeira linha de cada par de linhas é considerada a palavra de origem. A segunda linha de cada par de linhas é a palavra de destino.",
+    "format_output": "Para cada par de linhas da entrada, você deve imprimir uma lista ordenada de sequências válidas de 'i' e 'o' que produzem a palavra destino a partir da palavra de origem. Cada lista deve ser delimitada por:\n\n[\n\n]\n\nAs sequências devem ser impressas em ordem alfabética. Dentro de cada sequência, cada i e cada ó é seguido por um espaço em branco e cada sequência é terminada por um final de linha.\n\nATENÇÃO:\n\nDepois do último elemento da sequência, não existe um espaço em branco, mas sim um final de linha\n\nA sequência em si, não deve ser ordenada. Você deve ordenar a lista de sequências, caso mais de uma seja possível.",
+    "topics": [
+        "busca completa",
+        "pilha",
+        "backtracking"
+    ]
+}

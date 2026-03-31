@@ -1,0 +1,11 @@
+{
+    "title": "Comparação numérica.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que peça dois números e imprima o maior deles.",
+    "format_input": "Dois números distintos.",
+    "format_output": "O maior número.",
+    "topics": [
+        "multiplas entradas",
+        "decisão"
+    ]
+}

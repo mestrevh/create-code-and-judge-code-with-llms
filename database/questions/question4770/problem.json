@@ -1,0 +1,11 @@
+{
+    "title": "Pares ordenados de múltiplos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você deve escrever um programa que, para um dado número X, encontre todos os pares ordenados (i, j), onde 1 ≤ i ≤ X e 1 ≤ j ≤ X, tal que: i é divisor de j e j é divisor de i. Seu programa deve contar quantos desses pares existem.",
+    "format_input": "O valor de X",
+    "format_output": "A quantidade de pares i e j existem para o X dado",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

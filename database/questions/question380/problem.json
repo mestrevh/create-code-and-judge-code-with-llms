@@ -1,0 +1,12 @@
+{
+    "title": "Escolhendo o passeio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No próximo fim-de-semana, Cristina vai sair com seus 6 primos, mas eles ainda não resolveram se vão ao cinema ou ao boliche. Escreva um programa que receba como entrada o passeio escolhido por cada um e exiba ao final aquele que teve mais votos.",
+    "format_input": "Strings contendo as palavras cinema ou boliche Dica: lembre-se que o usuário pode digitar essas palavras usando maiúsculas e/ou minúsculas",
+    "format_output": "Um String com o nome do passeio escolhido, sendo todas as letras maiúsculas",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Listas - Validação de datas",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Uma loja estará realizando no próximo final de semana o cadastro de alguns clientes. Para isso ela irá pedir que seja preenchido um certo formulário que dentre outras coisas irá validar a data de nascimento do cliente. A nossa missão aqui é receber e validar a data de nascimento. Para ser uma data válida, atente para os itens abaixo: Os dias devem ser entre 1 e 31 para os meses: 01, 03, 05, 07, 08, 10 e 12. Os dias devem ser entre 1 e 30 para os meses: 04, 06, 09 e 11 Os dias devem ser entre 1 e 28 para o mês 02 quando o ano não for bissexto, e entre 1 e 29 para o mês 02 quando o ano for bissexto. Os meses devem ser entre 01 e 12 Os anos devem ser entre 1900 e 2050. O usuário deve receber a mensagem de validação se a data estiver correta, e de \"dava inválida\" caso ela esteja incorreta. Deve-se informar o erro ao usuário, da seguinte forma: formato de data inválido, favor usar dd/mm/aaaa -> Quando a não for digitado o formato da data corretamente. É necessário que a entrada permaneça em string inicialmente. Este programa só avaliam datas entre os anos 1900 e 2050 -> Caso o usuário acerte o formato mas informe um ano fora do intervalo permitido. dia inválido, favor usar dd/mm/aaaa, sendo dia de 01 até 31 -> Caso o usuário informe um dia fora do intervalo permitido. mês inválido, favor usar dd/mm/aaaa, sendo mes de 01 até 12 -> Caso o usuário informe um mês fora do intervalo permitido. Não existe o dia 31 no mes de 'mmmm' -> Onde 'mmmm' é o nome por extenso do mês informado, caso o usuário informe um mês que não tenha 31 dias, ou seja, só tenha até do dia 30. Fevereiro só tem 28 ou 29 dias, dependendo do ano -> Caso o usuário digite 30 ou 31 de fevereiro, esse mês só tem 28 ou 29 dias. aaaa não é bissexto. -> Onde 'aaaa' é o ano digitado, caso o usuário informe dia 29 de fevereiro em um ano que não seja bissexto. OU dd de mmmm de aaaa é uma data válida. --> Onde 'dd' é o dia digitado, 'mmmm' é o mês digitado por extenso e 'aaaa' é o ano digitado, caso o usuário informe uma data correta. Um ano é considerado bissexto quando cumprir todos os seguintes requisitos: Ser divisível por 4. Não ser divisível por 100. Se for por 100, não pode ser também por 400.",
+    "format_input": "Digitação de uma data qualquer. Em string.",
+    "format_output": "Uma das mensagens definidas na descrição do problema.",
+    "topics": [
+        "array",
+        "datas/horas",
+        "decisão",
+        "repetição",
+        "caractere",
+        "string"
+    ]
+}

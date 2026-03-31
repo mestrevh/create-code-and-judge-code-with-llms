@@ -1,0 +1,11 @@
+{
+    "title": "Q06 - Contando palavras na frase",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função chamada \"contar_palavras_na_frase\" que informe quantas vezes a palavra digitada apareceu na frase Ex: que eles sabiam que eu queria almoçar e que eu estava com fome saída: 2",
+    "format_input": "uma palavra uma frase",
+    "format_output": "Quantidade de vezes que a palavra apareceu na frase",
+    "topics": [
+        "função",
+        "string"
+    ]
+}

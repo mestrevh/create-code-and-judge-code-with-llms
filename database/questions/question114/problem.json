@@ -1,0 +1,12 @@
+{
+    "title": "Problema Teste IHC",
+    "time_limit": "2 segundo(s)",
+    "descrition": "/var/lib/tomcat6/webapps/huxley/banco/114/description.pdf",
+    "format_input": "None",
+    "format_output": "None",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "acumulador"
+    ]
+}

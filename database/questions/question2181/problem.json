@@ -1,0 +1,11 @@
+{
+    "title": "n primeiros primos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Listar os n primeiros números primos. Lembre que 1 não é primo.",
+    "format_input": "Um número inteiro n <= 20000.",
+    "format_output": "Os n primeiros números primos, um por linha.",
+    "topics": [
+        "repetição",
+        "números primos"
+    ]
+}

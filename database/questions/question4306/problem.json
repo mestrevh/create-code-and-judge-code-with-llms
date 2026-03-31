@@ -1,0 +1,11 @@
+{
+    "title": "Torresmo e as bombas da Shopee",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Torresmo é um cara muito ligado nas promoções e sempre está em busca do melhor negócio, porém sua vontade de encontrar a melhor oferta as vezes o leva para lugares obscuros. Ao invés de comprar um incrível produto termina por comprar uma bela BOMBA. Cansado de ser arruinado pelas bombas ,Torresmo está pedindo sua ajuda para construir um código que o alerte sobre armadilhas. Torresmo baseia sua pesquisa sempre em torno de 4 produtos que possui eficiência fixa sendo respectivamente os valores de cada eficiência (75,50,25,50) e ele considera como uma bomba um produto que tenha custo/benefício menor que a média dos 4 produtos. Além disso, Torresmo irá fornecer um float de 1 até 10000 para seu dinheiro (d) disponível e valores de 1 até 10000 para os custos de cada produto. Com isso, construa um código que descubra se possui bombas entre os 4 produtos selecionados e fale quais deles são bombas e se caso não quais ele consegue comprar e quais não.",
+    "format_input": "d: inteiro que representa o dinheiro de torresmo. c1 c2 c3 c4: inteiros que representam o custo de cada produto. O custo benefício se baseia em eficiência/custo.",
+    "format_output": "S: imprima uma frase contendo \"eh dento\", caso o produto seja bom e barato. imprima uma frase contendo \"EH BOMBA TORRESMO\", caso o produto seja uma bomba. imprima uma frase contendo \"foi de comes\", caso não consiga comprar o produto.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

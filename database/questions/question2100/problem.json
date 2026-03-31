@@ -1,0 +1,11 @@
+{
+    "title": "Conversão de Binário para Decimal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tendo em vista que todos os computadores trabalham na base binária e nós utilizamos usualmente a base decimal, faz-se necessário saber converter binário para decimal e vice-versa.",
+    "format_input": "Número binário inteiro",
+    "format_output": "Número inteiro decimal",
+    "topics": [
+        "números binários",
+        "métodos numéricos"
+    ]
+}

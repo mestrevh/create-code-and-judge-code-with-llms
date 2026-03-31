@@ -1,0 +1,10 @@
+{
+    "title": "nunca duvide de uma swiftie.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A loirinha mais famosa do mundo, vulgo Taylor Swift, está em turnê fazendo shows ao redor do mundo e mostrando porque ela é a indústria musical (e não sou eu que estou dizendo: https://www.youtube.com/watch?v=FesURbmMG3M) ! No entanto, muitos invejosos não aceitam esse fato e começou a rolar uns boatos de que os fãs daquele-que-não-se-deve-citar-o-nome estão planejando jogar uma bomba em algum dos shows. Só que o que eles não sabem é que os swifties são muuuuito mais espertos e já descobriram como desarmar a bomba e que é necessário apenas cortar um dos fios para isso. A bomba é composta por 6 fios ao todo nomeados de A a F como está exemplificado na figura. Contudo, ela só precisa de pelo menos 4 deles conectados para funcionar perfeitamente. Os fios podem ser vermelhos (r), azuis (b), verdes (g) ou amarelos (y). As regras para desarme são: Para 4 fios conectados Se não houver fio vermelho conectado, corte o segundo fio conectado. Caso contrário, se o último fio conectado for azul, corte esse. Caso contrário, corte o primeiro conectado. Para 5 fios conectados Se os dois primeiros fios conectados forem amarelos, corte o primeiro. Caso contrário, corte o segundo fio conectado. Para 6 fios conectados Se houver exatamente um fio verde conectado, o corte. Caso contrário, corte o quinto fio conectado.",
+    "format_input": "6 caracteres que representam a cor dos fios de A a F, nessa ordem. Cada caracter pertence ao conjunto {r, b, g, y, x}, onde x indica que o fio não está conectado.",
+    "format_output": "\"corta n\", onde n corresponde ao fio que será cortado de acordo com a sua ordem alfabética. obs: o fio a ser cortado é sempre um que está conectado! por exemplo: x g x y b g, nesse caso temos 4 fios conectados e nenhum fio vermelho. pelas regras de desarme, deveremos cortar o segundo fio conectado, que é o fio amarelo(y) e portanto o fio d.",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Chandu e letras consecutiva",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Chandu tem fascínio por strings e as classificou em Good string e Bad string. - Good string : Não possui letras consecutivas iguais. - Bad string : Contém letras consecutivas iguais. Dado uma string S converta ela para Good string. Você só tem um tipo de operação: Se duas letras consecutivas são iguais, elimine uma delas.",
+    "format_input": "A primeira linha contém um inteiro T, indica o número de casos de testes. Cada caso de teste terá uma linha com uma string S. A string só possui letras minúsculas.",
+    "format_output": "Cada caso de teste imprima uma linha com Good string da palavra.",
+    "topics": [
+        "substrings",
+        "string"
+    ]
+}

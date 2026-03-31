@@ -1,0 +1,12 @@
+{
+    "title": "Homem Sino e Ford",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Homem Sino e Ford, dois turistas, chegam na grande Recife. Maravilhados pela beleza da Veneza brasileira, os dois turistas precisam achar uma forma de visitar o máximo de lugares possíveis, ao mesmo tempo de que sempre haverá um caminho disponível até o destino final. Após comprar um mapa da cidade no Marco Zero, os turistas começam sua visita. O mapa é representado na forma de uma matriz, e um passo para o próximo bloco é válido apenas se a unidade do próximo bloco for igual a do atual adicionado a um. Se todos os passos forem válidos, o caminho é válido. Existem múltiplos caminhos até a saída, o objetivo do seu programa é, partindo de todas os pontos da matriz, achar o caminho com maior número de passos até a saída.",
+    "format_input": "Um inteiro N que representa o tamanho NxN da matriz; Dois inteiros i, j representando a coordenada da saída; Matriz NxN que representa o mapa;",
+    "format_output": "Após descobrir o número máximo de passos necessário, imprima: \"Numero de passos do maior caminho: %d\"",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "array bidimensional"
+    ]
+}

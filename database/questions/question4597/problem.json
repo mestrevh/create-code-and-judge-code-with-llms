@@ -1,0 +1,11 @@
+{
+    "title": "Onde está o ponto?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi contratado para desenvolver um programa que determina se um ponto (X, Y) está dentro, fora ou sobre um círculo de raio R e centro na origem (0, 0). O programa deve ler os valores de X, Y e R, e imprimir a posição do ponto em relação ao círculo. A equação do círculo com centro na origem e raio R é: X^2 +Y^2=R^2",
+    "format_input": "A entrada consiste de três números inteiros separados por espaço: X: a coordenada X do ponto. Y: a coordenada Y do ponto. R: o raio do círculo.",
+    "format_output": "A saída deve ser uma única palavra: \"Dentro\" se o ponto está dentro do círculo. \"Fora\" se o ponto está fora do círculo. \"Sobre\" se o ponto está sobre o círculo.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

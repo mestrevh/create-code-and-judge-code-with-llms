@@ -1,0 +1,10 @@
+{
+    "title": "Área de um trapézio adap. p/a autismo.",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Faça um programa que: Leia a base maior de um trapézio Leia a base menor de um trapézio Leia a altura de um trapézio Calcule a área de um trapézio Fórmula: Mostre na tela a área do trapézio",
+    "format_input": "um número float (número com casa decimal) um número float (número com casa decimal) um número float (número com casa decimal)",
+    "format_output": "um número float (número com casa decimal)",
+    "topics": [
+        "lógica matemática"
+    ]
+}

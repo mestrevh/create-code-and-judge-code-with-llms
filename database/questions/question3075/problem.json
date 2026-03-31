@@ -1,0 +1,14 @@
+{
+    "title": "A Corrida de Lesmas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A corrida de lesmas é um esporte que cresceu muito nos últimos anos, fazendo com que várias pessoas dediquem suas vidas tentando capturar lesmas velozes, e treina-las para faturar milhões em corridas pelo mundo. Porém, a tarefa de capturar lesmas velozes não é uma tarefa muito fácil, pois praticamente todas as lesmas são muito lentas. Cada lesma é classificada em um nível dependendo de sua velocidade: Nível 1: Se a velocidade é menor que 10 cm/h . Nível 2: Se a velocidade é maior ou igual a 10 cm/h e menor que 20 cm/h . Nível 3: Se a velocidade é maior ou igual a 20 cm/h . Sua tarefa é identificar qual nível de velocidade da lesma mais veloz de um grupo de lesmas. É obrigatório usar uma função chamada calcular_nivel, que recebe um único parâmetro chamado velocidades que é uma lista de inteiros. O retorno da função deve ser obrigatoriamente um inteiro que indica o nível da lesma mais rápida contida na lista. BÔNUS: Defina uma função recursiva chamada maximo que receba como único parâmetro uma lista de valores e retorne o valor máximo de todos contidos na lista passada como parâmetro. Você deve utilizar esta função ao implementar a função calcular_nivel.",
+    "format_input": "A entrada consiste de múltiplos casos de teste, cada um contendo duas linhas: A primeira linha contém um inteiro L (1 ≤ L ≤ 500) representando o número de lesmas do grupo, e a segunda linha contém L inteiros Vi (1 ≤ Vi ≤ 50) representando as velocidades de cada lesma do grupo. A entrada termina quando for fornecido um valor para L igual a 0 (zero).",
+    "format_output": "Para cada caso de teste, imprima uma única linha indicando o nível de velocidade da lesma mais veloz do grupo.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "função",
+        "recursão"
+    ]
+}

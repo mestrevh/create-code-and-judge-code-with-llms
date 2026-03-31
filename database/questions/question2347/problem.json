@@ -1,0 +1,11 @@
+{
+    "title": "Contagem progressiva (função sem devolução)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetro um número natural estritamente positivo n e que exiba, conforme o exemplo de saída, n linhas em que a primeira tem n-n+1 valores n-n+1 com hifens entre eles; a linha seguinte tem n-n+2 valores n-n+2 (novamente com hifens entre eles) e assim por diante até n-n+n. O PROGRAMA PRINCIPAL deverá ler o valor de n e a FUNÇÃO deverá exibir as linhas.",
+    "format_input": "7",
+    "format_output": "1\n2-2\n3-3-3\n4-4-4-4\n5-5-5-5-5\n6-6-6-6-6-6\n7-7-7-7-7-7-7",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}

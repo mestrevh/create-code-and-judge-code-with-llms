@@ -1,0 +1,10 @@
+{
+    "title": "[C3] LAB - 7",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado o preço de um produto (inteiro), elabore um programa que calcule e apresente a menor quantidade de notas (de cada valor) necessárias para efetuar o pagamento da compra desse produto. Considere como valores das notas: 1, 2, 5, 10, 20, 50 e 100. Tanto na entrada, quanto na saída, não imprima nenhuma mensagem.",
+    "format_input": "Preço do produto (inteiro)",
+    "format_output": "Quantidade de notas de 100 necessárias\nQuantidade de notas de 50 necessárias\nQuantidade de notas de 20 necessárias\nQuantidade de notas de 10 necessárias\nQuantidade de notas de 5 necessárias\nQuantidade de notas de 2 necessárias\nQuantidade de notas de 1 necessárias",
+    "topics": [
+        "estruturas"
+    ]
+}

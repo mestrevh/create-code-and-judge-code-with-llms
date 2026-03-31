@@ -1,0 +1,11 @@
+{
+    "title": "São João",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lucas de Matos adora participar das competições de programação online. Vai ter uma competição às 20 horas no dia 23/6. Mas ele prometeu para a sua esposa Letícia que iria levá-la para o Parque do Povo no máximo à meia-noite (00:00) para participar da festa de São João. A competição terá n problemas ordenados por dificuldade. Ele leva 5*i minutos para resolver cada problema, onde i é o i-ésimo problema. Por exemplo, o primeiro problema ele precisará de 5 minutos (5*1) para resolver. Já o segundo problema ele precisará de 10 minutos (5*2) para resolver, e assim por diante. Além disso, Lucas de Matos levará k minutos para ir da sua casa para o Parque do Povo. A sua tarefa é identificar quantos problemas Lucas de Matos resolverá na prova considerando essas restrições. Por exemplo, considere uma prova com n=3 problemas e que Lucas de Matos leve k=222 minutos para ir da sua casa para o Parque do Povo. Nesse caso, Lucas de Matos resolverá os 2 primeiros problemas da competição em 5*1 + 5*2=15 minutos. Nesse exemplo, Lucas de Matos levará 237 minutos (15+222) para participar da competição e depois ir da sua casa para o Parque do Povo chegando às 23:57.",
+    "format_input": "A primeira linha de cada caso de teste indica um número inteiro n (1 ≤ n ≤ 10) de problemas na competição. A segunda linha contém um número inteiro k (1 ≤ k ≤ 240) indicando o número de minutos para ir da casa de Lucas de Matos até o Parque do Povo.",
+    "format_output": "Para cada caso de teste, imprima o número de questões que Lucas de Matos fará durante a competição.",
+    "topics": [
+        "lógica matemática",
+        "repetição"
+    ]
+}

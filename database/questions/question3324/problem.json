@@ -1,0 +1,11 @@
+{
+    "title": "A Sequência de Josué",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um de seus dias de trabalho nos correios, Josué, O Carteiro, teve de ficar o dia inteiro separando as encomendas no estoque. Como ele é um rapaz bastante esquisito excêntrico resolveu deixar o seu trabalho um pouco mais divertido. Como lá as encomendas são divididas por etiquetas com letras maiúsculas e minúsculas, ele resolveu encontrar determinadas sequências com apenas letras MAIÚSCULAS a cada trio de encomendas. Quando ordenadas, se as letras formarem uma sequência direta e forem apenas consoantes, como B C e D, temos uma \"Sequência perfeita.\", caso tenha vogais, será uma \"Sequência quase perfeita.\". Se a distância entre as letras for de 2 letras, teremos uma \"Bissequência perfeita.\" quando existirem apenas consoantes e \"Bissequência quase perfeita\" se possuir alguma vogal e se a distância for de 3 letras, teremos uma \"Trissequência perfeita\" quando possuir apenas consoantes e uma \"Trissequência quase perfeita\" quando possuir alguma vogal. Seu trabalho é dados 3 caracteres indicar se eles fazem uma sequência do maluco grandioso Josué ou se não.",
+    "format_input": "3 caracteres na mesma linha em qualquer ordem.",
+    "format_output": "\"Sequência perfeita.\" caso a \"distância\" entre as letras seja de apenas uma letra e possua apenas consoantes. \"Sequência quase perfeita.\" caso a \"distância\" entre as letras seja de apenas uma letra e possua vogais. \"Bissequência perfeita.\" caso a \"distância\" entre as letras seja de duas letra e possua apenas consoantes. \"Bissequência quase perfeita.\" caso a \"distância\" entre as letras seja de duas letra e possua vogais. \"Trissequência perfeita.\" caso a \"distância\" entre as letras seja de três letra e possua apenas consoantes. \"Trissequência quase perfeita.\" caso a \"distância\" entre as letras seja de três letra e possua vogais. \"Só umas letras ai...\" caso sejam apenas letras maiúsculas com distâncias variadas. \"Etiquetas erradas!\" caso possua algum caractere que não seja uma letra maiúscula. OBS: A distância de uma letra significa A + 1 = B, duas letras A + 2 = C e três letras A + 3 = D",
+    "topics": [
+        "decisão",
+        "caractere"
+    ]
+}

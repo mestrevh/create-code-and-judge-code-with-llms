@@ -1,0 +1,13 @@
+{
+    "title": "L2Q4 - Encontre a Lâmpada Mágica!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Enquanto Aladdin tinha ido visitar Jasmine, Abu, seu macaco de estimação, decidiu brincar com a Lâmpada Mágica de seu dono. Com uma chegada repentina de Aladdin, Abu guardou a lâmpada em algum baú e saiu correndo para que Aladdin não desconfiasse. Porém, ele não tem boa memória e não lembra qual dos baús. Para piorar, sequer tem certeza se realmente guardou em um baú. Sua tarefa é ajudar Aladdin a encontrar a lâmpada mágica o mais rápido possível. Será fornecido um número total de baús e seus respectivos conteúdos. Cada baú possui exatamente 4 itens. Você terá que informar em quanto tempo encontrou a lâmpada e em qual baú ela estava, bem como sua ordem dentro do baú. Caso não esteja em um dos baús, você terá de informar a Aladdin que não a encontrou e o tempo que gastou procurando.",
+    "format_input": "A entrada inicia com um inteiro N indicando a quantidade total de baús. Seguem N linhas no formato K ITEM_1 ITEM_2 ITEM_3 ITEM_4 onde: K é um inteiro correspondente ao número do baú; ITEM_I são as Strings correspondentes aos nomes dos itens contidos no baú K. Enquanto você não encontrar a lâmpada mágica, cada item que você conferir deverá contar 5 segundos. Ao terminar de checar um baú, deverá ser contabilizado 30 segundos. Este tempo deverá ser contabilizado até o momento que você encontrar. A lâmpada mágica é identificada pelo nome lampada A entrada termina após as N linhas.",
+    "format_output": "Se a lâmpada estiver em um dos baús, a saída do seu programa será no formato Encontrei a lâmpada em XmYs! É o item I do baú B! sendo XmYs, o tempo que você levou para encontrar a lâmpada mágica (ex. 1m30s); I, a ordem do item no baú; B, o número do baú. Caso a lâmpada não esteja em um dos baús, seu programa deve imprimir a mensagem Perdi XmYs da minha vida e não encontrei. Desisto!",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "formula 1",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A FIA(Federação Internacional de Automobilismo) precisa de sua ajuda para analisar alguns jovens talentos em um campeonato preparatório para a formula 1, como a soma de pontuação se torna um trabalho bastante desgastante e exaustivo, eles te contrataram por uma coxinha e uma latinha de energético para fazer um programa que automatize o processo. Em um campeonato de formula 1, os vencedores são decididos pela pontuação de sua colocação, faça um programa que receba um numero de corridas, também receba em ordem suas respectivas colocações, a saída deve retornar o nome do vencedor junto de sua pontuação total, ou empate. Competidores: 1 -> Ayrton 2 -> Bortoleto 3 -> Charles 4 -> Doohan 5 -> Esteban Colocação/Pontuação fornecida: 1° -> 6 pontos 2° -> 4 pontos 3° -> 3 pontos 4° -> 1 pontos 5° -> 0 pontos",
+    "format_input": "O programa deve receber um inteiro N representando o número de corridas realizadas na temporada, seguidos dos números 1, 2, 3, 4 e 5 representando a colocação de cada um dos pilotos, repetidos N vezes, por exemplo: 1->(representa a quantidade N de corridas) 1->(representa a colocação do primeiro piloto(Ayrton)) 2->(representa a colocação do segundo piloto) 3->(representa a colocação do terceiro piloto) 4->(representa a colocação do quarto piloto) 5->(representa a colocação do quinto piloto)",
+    "format_output": "O programa deve retornar uma mensagem retratando quem foi o vencedor do campeonato junto com sua pontuação, em caso de qualquer tipo de empate a mensagem imprimida deve ser \"empate\".",
+    "topics": [
+        "acumulador",
+        "recursão"
+    ]
+}

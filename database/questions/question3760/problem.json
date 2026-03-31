@@ -1,0 +1,11 @@
+{
+    "title": "Cadeias DNA",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O DNA é constituído por dois longos filamentos enrolados um sobre o outro, formando uma estrutura helicoidal. A estrutura simples do DNA lembra a espiral de um caderno. Cada uma das cadeias de DNA é constituída por milhares ou mesmo milhões de unidades chamadas nucleotídeos, ligados em sequência. As duas cadeias de uma molécula de DNA são sempre complementares: um nucleotídeo com timina (T) em uma das cadeias sempre correspondente a um nucleotídeo com adenina (A) na outra cadeia, e vice-versa; um nucleotídeo com citosina (C) em uma das cadeias sempre correspondente a um nucleotídeo com guanina (G) na outra cadeia, e vice e versa. Escreva um programa que recebe pares de cadeias de DNA. A primeira cadeia serve como referência e a segunda é uma cadeia de teste. Informe como saída se essas cadeias são ou não complementares. Caso não sejam, corrija a segunda cadeia para que ela torne-se complementar da primeira e também imprima a cadeia corrigida na saída.",
+    "format_input": "Um número inteiro n, que define quantos pares de cadeias serão informados; n pares de cadeias, sendo uma cadeia por linha.",
+    "format_output": "Para cada par de cadeias, será impresso se \"COMPLEMENTARES\", se as cadeias forem complementares, ou \"NAO COMPLEMENTARES\", caso não sejam. Nessa última situação, também deverá ser impressa a cadeia de teste com as correções necessárias para que ela seja complementar do seu par.",
+    "topics": [
+        "array",
+        "string"
+    ]
+}

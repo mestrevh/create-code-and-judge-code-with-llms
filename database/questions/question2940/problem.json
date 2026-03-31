@@ -1,0 +1,12 @@
+{
+    "title": "Quantas Famílas Existem? \"Fase Final\"",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em 2019, a SBC (Sociedade Brasileira de Contagem) decidiu fazer uma pesquisa em certa cidade brasileira. Inicialmente a pesquisa se baseava em apenas descobrir quem era o integrante mais velho e qual a sua idade, na segunda fase coletaram dados de todos os integrantes das famílias, mas esqueceram de contar quantos integrantes pertenciam a cada família. Sendo assim, agora na fase final da pesquisa, a SBC pediu apenas para que você, um ótimo programador, contasse quantos descendentes cada patriarca/matriarca têm.",
+    "format_input": "Na primeira linha haverão 2 inteiros, N (quantidade total de pessoas) e M(quantidade de patriarcas/matriarcas). Depois seguirão N linhas contendo uma string S (nome da pessoas) e 3 inteiros A (sexo da pessoa 0 para feminino e 1 para masculino), B e C (inteiros que representarão se a pessoa terá parentesco com outra, se não houver nenhum parentesco B e C serão -1). Na ultima linha haverá M inteiros, sendo cada um deles um patriarca/matriarca de alguma família.",
+    "format_output": "Para cada família você deve dizer o nome do patriarca/matriarca da família e a quantidade de decendentes no formato abaixo.",
+    "topics": [
+        "Árvore",
+        "array bidimensional",
+        "recursão"
+    ]
+}

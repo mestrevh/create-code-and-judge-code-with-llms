@@ -1,0 +1,11 @@
+{
+    "title": "Controle de passagens aéreas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para controlar a quantidade de passageiros por vôo, uma companhia aérea quer desenvolver um sistema de cadastro de vôos e de passageiros. Você deve fazer um programa que recebe os dados de cada vôo, seguido dos dados dos passageiros. O sistema deve prever que pode haver overbooking de 5% à 15%, dependendo das características do vôo. Em seguida, o sistema deve receber os dados das pessoas que compraram passagem. No final, o sistema deve imprimir um resumo dos vôos, indicando quantas pessoas foram afetadas pelo overbooking em cada um deles. Use pelo menos 3 funções para modularizar seu programa.",
+    "format_input": "O sistema deve receber os seguintes dados, nessa sequência: Dados dos vôos: O número do vôo, Destino, A quantidade máxima de passageiros, Percentual de overbooking. Deve parar de receber vôos quando o número do vôo for negativo. Dados dos passageiros para check-in: Nome, Número do vôo. Deve parar de receber passagegiros quando o nome for \"sair\".",
+    "format_output": "No final, o sistema deve imprimir um resumo dos vôos, indicando quantas pessoas foram afetadas pelo overbooking em cada um deles. Se uma pessoa tentar comprar uma passagem para um vôo que está lotado, ou seja, excedeu a capacidade máxima mais o overbooking. Deve ser emitida uma mensagem de erro. Se não tiver ocorrido overbooking, deve ser impressa uma mensagem. Caso tenha ocorrido, informar quantas pessoas foram afetadas por ele. Use pelo menos 3 funções para modularizar seu programa.",
+    "topics": [
+        "array bidimensional",
+        "função"
+    ]
+}

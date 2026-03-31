@@ -1,0 +1,10 @@
+{
+    "title": "P2, vamos lá!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em estrutura de dados, o projeto final é o Huffman. O qual consiste em um algoritmo guloso para compactar arquivos como os conhecidos .zip , .rar. Na parte da descompressão consiste em sair da raiz percorrer uma árvore binária e toda vez que chegamos em uma folha, o caractere dela é impresso e retornamos para a raiz e repetimos o processo até o arquivo binário acabar. O caractere '0' indica que movemos para o filho da esquerda, enquanto o caractere '1' filho para o filho a direita. O arquivo binário será uma string somente com os caracteres '0' e '1'. Sempre iniciamos na raiz, quando for lido o caractere '0' percorre para o filho da esquerda, caso contrário percorre para o filho da direita. Dado uma árvore binária em que cada nó tem três informações, o caractere do nó, o filho a esquerda e o filho a direita. Considere o nó 0 como raiz. Segue a representação da árvore: * 1 2, A -1 -1, * 3 4, * 5 6, * 7 8, D -1 -1, * 9 10, R -1 -1, B -1 -1, ! -1 -1, C -1 -1. Exemplo: Com a árvore acima e o arquivo binário sendo : 1011011111001010, o texto descomprimido é \"CABRA!\". \"1011\" - Direita, esquerda, direita, direita e folha - 'C'. \"0\" - Esquerda e folha - 'A'. \"111\" - Direita, direita, direita e folha - 'B'. \"110\" - Direita, esquerda, direita e folha - 'R'. \"0\" - Esquerda e folha - 'A'. \"1011\" - Direita, esquerda, direita, esquerda e folha - '!'.",
+    "format_input": "Um inteiro N indicando a quantidade de nós da árvore binária. Em seguida N linhas em que cada uma representa o nó da árvore com um letra e dois inteiros, representando respectivamente letra do nó, filho da esquerda e filho da direita do i-ésimo nó. - Caso o nó não possua em um ramo filho esse inteiro será -1. Mais uma linha representando o arquivo em binário.",
+    "format_output": "O texto descomprimido.",
+    "topics": [
+        "Árvore"
+    ]
+}

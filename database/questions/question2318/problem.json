@@ -1,0 +1,12 @@
+{
+    "title": "L5Q1 - Start of Something New",
+    "time_limit": "3 segundo(s)",
+    "descrition": "É a véspera do ano novo, e a neve está linda nas montanhas! O que poucos sabem, porém, é que nessa noite algo muito novo estava prestes a começar(e não é o ano!). Durante as celebrações,ocorre uma festa para todos os jovens que estavam hospedados no resort de ski. Dentre as atividades, está o karaoke, no qual qualquer jovem pode ir à frente e cantar. Em um determinado momento da noite, Troy Bolton, o capitão da equipe de basquete, juntamente com Gabriella Montez,uma novata em East high, são escolhidos pela multidão para cantar juntos. Contudo, por não estarem acostumados a cantar em público, ficavam um pouco receosos a cantar logo de cara. Portanto, ao perceber isso, a multidão decide pedir a sua ajuda, um estudante de Ciências da Computação que estava ali, para criar um programa capaz de resolver a situação. (Você deve usar recursão na solução da questão) Para isso, você fica encarregado de fazer um programa que, após fornecidos o nível de vergonha e a quantidade de bebidas ingeridas por Troy e Gabriella, diga qual a chance de cada um deles aceitar o desafio e cantar na frente de todos. E para isso, você deve seguir a seguinte função: f(0) = 0 f(1) = 1 f(n) = (f(n - 1) + f(n - 2)) ; onde N é a quantidade de bebidas ingeridas na noite. Após calcular a função, esse valor deve ser comparado ao nível de vergonha. OBS: Sua solução precisa, obrigatoriamente, utilizar recursão para calcular a função.",
+    "format_input": "X Y Sendo X o nível de vergonha de Troy, e Y o número de bebidas; Z K Sendo Z o nível de vergonha de Gabriella, e K o número de bebidas;",
+    "format_output": "Para cada um deles (primeiro Troy, depois Gabriella): Se a vergonha for maior que o resultado: \"Nao foi dessa vez!! NOME nao teve coragem o suficiente.\" Caso contrário: \"Esse pode ser o comeco de algo novo!! NOME vai cantar!!\"",
+    "topics": [
+        "lógica matemática",
+        "repetição",
+        "recursão"
+    ]
+}

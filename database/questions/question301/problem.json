@@ -1,0 +1,13 @@
+{
+    "title": "Distribuicao de Mercadorias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma das funções da parte de Logística da empresa TopFood, é cuidar de como as mercadorias, por ela produzidas, serão entregues aos seus supermercados. Para isso, a empresa normalmente terceiriza o serviço. A MaxDelivery é uma das melhores distribuidoras, pois nos ultimos anos tem tido o melhor custo/benefício da área. Na hora de contrata-la, deve-se informar: Número de caminhões requeridos. Peso da carga em Toneladas. Entrega expressa ou normal. Quantos destinos terão de ser feitos. Pois a distribuidora trabalha da seguinte forma: Máximo de 10T por caminhão em entrega normal. Máximo de 5T por caminhão em entrega expressa. Entrega normal: 100 km por dia. Entrega expressa: 250 km por dia. Preço por caminhão em entrega normal: 500 reais. Preço por caminhão em entrega expressa: 1200 reais. Dadas as informações, escreva um programa que seja capaz de informar quantos caminhões serão necessários, quanto a TopFood teria que pagar à MaxDelivery, e quantos dias demorariam para que a entrega fosse realizada. Obs: A entrega para cada destino tem que ser feita de uma única forma, ou é expressa, ou é normal, pois os caminhões viajam em comboio.",
+    "format_input": "Você vai receber: Um número de destinos a serem percorridos, N (1 <= N <= 10). E N linhas, contendo: O peso da carga em Toneladas, T ( 5 <= T <= 500). Se é entrega expressa ou normal. E (0 para normal, 1 para expressa). Distancia entre a sede e o destino em km.",
+    "format_output": "Três inteiros, C, P e D, separados por espaço, correspondendo respectivamente ao número de caminhões necessários para todas as entregas, o preço total pago pela TopFood e o número de dias que a entrega mais longa demorou para ser feita.",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "função",
+        "ordenação"
+    ]
+}

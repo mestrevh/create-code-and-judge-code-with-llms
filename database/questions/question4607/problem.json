@@ -1,0 +1,12 @@
+{
+    "title": "O último pote de ração.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No coração do quintal ocorreu um lendário duelo. De um lado Aim, uma novata em duelos e do outro Ekul, um experiente duelista que traz pavor aos corações dos alunos do IC. A disputa entre eles, foi pelo último grande tesouro: um pote de ração dourado, repleto do alimento que prometia poder e saciedade eternas. Deste lendário duelo a única coisa que nos restou foi uma sequencia de números que sempre acaba em -1. Descobrimos que Aim sempre atacava quando o valor do número era primo, enquanto Ekul atacava quando o numero pertencia a sequência de Fibonacci. Se o número for ao mesmo tempo primo e pertencer à sequência, então ambos Aim e Ekul atacam. Cabe a você criar um programa que leia esta entrada e determine quem foi o vencedor deste duelo. Caso Aim vença devera sair: Aim conquistou o pote de ração! Caso Ekul vença devera sair: Ekul conquistou o pote de ração! E em caso de empate: A ração se perdeu durante o duelo.",
+    "format_input": "Entrara uma sequencia de N números que termina em -1. Você devera checar se este numero é primo ou se pertence a sequência de Fibonacci. Obs1: Fibonacci é uma sequencia de números começados em 0 e 1 que somam o numero e seu antecessor. Ex: 0 1 1 2 3 5 ... (0 + 1) = 1. (1 + 1) = 2. (1 + 2) = 3. (2 + 3) = 5.",
+    "format_output": "Se houver mais primos na sequencia deve sair: \"Aim conquistou o pote de ração!\". Caso seja maior o numero da sequência de Fibonacci: \"Ekul conquistou o pote de ração!\" e em caso de empate devera sair \"A ração se perdeu durante o duelo\".",
+    "topics": [
+        "lógica matemática",
+        "repetição",
+        "números primos"
+    ]
+}

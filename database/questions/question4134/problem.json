@@ -1,0 +1,12 @@
+{
+    "title": "Hacker's no Valorant?",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Qnosredna e aziul são jogadores profissionais de Valorant, os cliques deles são rápidos a ponto de darem 4 tiros simultâneos em direções diferentes, nosredna atira para cima, baixo, direita e esquerda, e aziul atira para suas diagonais, o tiro de ambos tem a capacidade de percorrer até o último elemento na direção do tiro. Dado um campo NxN (matriz) com 0 indicando ausência de jogador e 1 indicando presença de jogador, informe quantos jogadores nosredna conseguiu acertar ao atirar de sua posição xy e quantos aziul conseguiu acertar de sua posição zk. neste exemplo, ambos mataram 4. aziul sempre começa atirando. Quando um jogador morre, ele n existe mais naquela posição. OBS: caso o tiro acerte um jogador (identificado como 1 na matriz ), a bala mata o jogador e NÃO ULTRASSA O JOGADOR. OBS.2: nosredna não consegue matar aziul, assim como aziul não consegue matar nosredna. OBS.3: A posição inicial de nosredna e aziul sempre serão diferentes e em locais que não existem jogadores. OBS.4: A bala de nosredna NÃO atravessa aziul, assim como a bala de aziul NÃO atravessa nosredna.",
+    "format_input": "um inteiro N, representando o tamanho do campo. inteiros 0's e 1's, representando a ausência ou presença de jogador no campo. inteiros Z e K, representando a posição de aziul. inteiros X e Y, representando a posição de nosredna.",
+    "format_output": "\"nosredna matou X\", com X sendo a quantidade de jogadores que ele matou. \"aziul matou Y\", com Y sendo a quantidade de jogadores que ela matou. As saídas são separadas por uma quebra de linha.",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "array bidimensional"
+    ]
+}

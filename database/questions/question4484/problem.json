@@ -1,0 +1,10 @@
+{
+    "title": "Complexa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Supondo que no pior caso um determinado algoritmo gerasse todos os subconjuntos de um vetor de tamanho n dado como entrada, poderíamos afirmar que a complexidade de pior caso deste algoritmo pertence à classe (marque TODAS as corretas):",
+    "format_input": "None",
+    "format_output": "None",
+    "topics": [
+        "ad-hoc"
+    ]
+}

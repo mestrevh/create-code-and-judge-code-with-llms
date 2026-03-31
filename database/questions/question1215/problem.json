@@ -1,0 +1,12 @@
+{
+    "title": "Trakynus",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Trakynus, the lost generation, é um jogo de tabuleiro milenar bastante jogado no reino de Kizorra, localizado ao sul da antiga Mandarah. Por alguma razão Trakynus voltou a ser jogado bastante ultimamente, principalmente entre adolescentes. Esse jogo tem a característica de cada participante ter personagens com poderes específicos: o troll que vomita fogo em quem discordar de suas opiniões; o reiter se movimenta aos pares, trios etc. (nunca sozinho!) e espalhamentiras; o falso sabio que mata os inimigos ao seu redor usando pensamentosnegativos. O tabuleiro é de tamanho 5 x 5 casas (semelhante ao Xadrez e Damas). (O objetivo do jogo é capturar o falso sábio do oponente, mas por questões de simplicidade vamos ignorar as regras do jogo!) Cada equipe tem inicialmente 5 trolls, 6 reiters e 1 falso sábio. O exército A tem os símbolos x(troll), y (reiter) e z (falso sábio) e o B tem os símbolos a (troll), b (reiter) e c (falso sábio). A posição vazia do tabuleiro é marcada por 0 (zeros). Todos os símbolos estão em minúsculos. Vamos escrever um programa que dada uma configuração de tabuleiro, informe o placar do jogo. Escreva um programa que leia uma configuração de tabuleiros e informe: 1. A maior quantidade de trolls do exército A em COLUNAS 2. O índice da coluna onde tem mais trolls do exército A 3. A maior quantidade de reiters do exército B nas LINHAS 4. O índice da linha onde tem mais reiters do exército B 5. A existência de um sábio do exército A e do B sobre as diagonais ao mesmo tempo Observação: o programa deve funcionar em qualquer tamanho de tabuleiro (portanto, não faça gambiarras!) Assuma que o usuário irá digitar apenas os caracteres a, b, c, x, y, z e 0. Caso existam a mesma quantidade de trolls em colunas distintas, informe o índice da menor coluna. Caso existam a mesma quantidade de reiters em linhas distintas, informe o índice da menor linha.",
+    "format_input": "Cinco linhas de caracteres alfanuméricos",
+    "format_output": "Quatro inteiros e um caractere (S ou N)",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

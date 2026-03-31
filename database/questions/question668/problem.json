@@ -1,0 +1,11 @@
+{
+    "title": "N primeiros primos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você recebeu a missão de encontar os N primeiros primos.",
+    "format_input": "A entrada é um inteiro N. N <= 78000.",
+    "format_output": "Imprima N linhas cada uma com um primo.",
+    "topics": [
+        "requer solução eficiente",
+        "números primos"
+    ]
+}

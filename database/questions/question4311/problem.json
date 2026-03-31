@@ -1,0 +1,10 @@
+{
+    "title": "Multiplicadora de Matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Certo dia Epilef cansado de fazer as multiplicação de matrizes decidiu, por si só, colocar seus conhecimentos de programação para jogo e fazer um código para multiplicar matrizes.",
+    "format_input": "A entrada consta por: na primeira linha: 4 inteiros (Ai Aj Bi Bj) que representa as linhas e colunas da matriz A e da Matriz B respectivamente. nas próximas terão as duas matrizes, primeiramente A e depois B",
+    "format_output": "Caso possível a multiplicação, a saída deve ser a matriz AxB. caso impossível a multiplicação dever ser impresso \"Nao e possivel multiplicar\" seguido por uma quebra de linha",
+    "topics": [
+        "array bidimensional"
+    ]
+}

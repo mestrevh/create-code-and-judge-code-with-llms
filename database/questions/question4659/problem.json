@@ -1,0 +1,11 @@
+{
+    "title": "Calculadora de matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi contratado para desenvolver um programa que realiza operações com matrizes 3x3. As operações a serem implementadas são soma, subtração e multiplicação entre duas matrizes de ordem 3x3. Implemente um programa que, dado um conjunto de operações, realize as seguintes etapas: 1. Soma de Matrizes: O que fazer: Some os números que estão na mesma posição nas duas tabelas. 2. Multiplicação de Matrizes: O que fazer: Pegue as linhas de uma tabela e multiplique pelos números das colunas da outra tabela, somando os resultados. 3. Subtração de Matrizes: O que fazer: Subtraia os números que estão na mesma posição nas duas tabelas.",
+    "format_input": "O programa recebe uma sequência de entradas onde, em cada uma, é fornecida uma operação (\"Soma\", \"Sub\" ou \"Multi\") seguida por duas matrizes 3x3. O programa realiza a operação correspondente entre as duas matrizes e exibe o resultado. O processo continua até que a entrada seja a palavra \"Fim\", indicando que o programa deve parar. Cada operação é realizada de acordo com o comando fornecido, e o programa exibe a matriz resultante após cada operação.\nSoma\n1 2 3\n4 5 6\n7 8 9\n9 8 7\n6 5 4\n3 2 1\nMulti\n1 1 0\n1 1 1\n0 1 1\n2 3 4\n5 6 7\n8 9 10\nSub\n10 20 30\n40 50 60\n70 80 90\n5 5 5\n5 5 5\n5 5 5\nFim",
+    "format_output": "A saída do programa deverá sempre começar com a frase \"Resultado [operação]:\", onde [operação] será o tipo de operação realizada (Soma, Sub ou Multi). Após essa frase, será exibida a nova matriz resultante da operação. A matriz será apresentada com seus elementos organizados em linhas, cada linha contendo os números da matriz separados por espaços.\nResultado Soma:\n10 10 10 \n10 10 10 \n10 10 10 \nResultado Multi:\n7 9 11 \n15 18 21 \n13 15 17 \nResultado Sub:\n5 15 25 \n35 45 55 \n65 75 85",
+    "topics": [
+        "lógica matemática",
+        "array bidimensional"
+    ]
+}

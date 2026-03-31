@@ -1,0 +1,10 @@
+{
+    "title": "1 contra todos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No Intercin de 2025, tinha um time que estava destruindo todo mundo em todos os esportes, o Computos FC, e por conta disso tiveram que juntar todos os outros times para tentar ganhar deles. O desafio é o seguinte, para que o time seja campeão, ele deve enviar uma sequência de números naturais maiores que zero, de quantidade indeterminada finalizando quando encontrar um numero menor igual a zero. A medida que vão se lendo os números, tem que checar se o número é primo e armazenar o maior valor de número primo que foi inserido nessa sequência. Caso o número não seja primo, deverá ser feita uma soma dos seus divisores sem considerar ele próprio. Ao final da lista, caso o maior número primo seja maior que 3 vezes a menor soma dos números não primos, Computos Campeão.",
+    "format_input": "Sequência de números naturais maiores que 0.",
+    "format_output": "Caso tenha números primos: \"Maior numero primo: x\" Caso não possua: \"Nenhum numero primo foi digitado\" ///////////////////////////////////////// Caso tenha números NÃO primos: \"Menor soma dos divisores: y\" Caso não possua: \"Nenhum numero nao primo foi digitado\" ////////////////////////////// Caso computos campeão: \"Deu a logica, Computos campeao!\" Caso contrário: \"eh mafiaaaaa!\"",
+    "topics": [
+        "repetição"
+    ]
+}

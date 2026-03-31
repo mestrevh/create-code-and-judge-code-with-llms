@@ -1,0 +1,10 @@
+{
+    "title": "Pagamento Hora Extra",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sam é diretor na empresa XYZ e um de seus projetos está atrasado. Para conseguir concluí-lo no tempo estimado, ele decidiu pagar a cada funcionário 5% de seu salário por cada hora extra trabalhada. Crie um programa que receba como entrada o salário de um funcionário e a quantidade de horas extras que ele trabalhou, calcule e exiba o valor total que deverá ser pago a ele.",
+    "format_input": "Um número real com duas casas decimais representando o salário. Um número inteiro representando as horas extras. Dica: não use mensagens no input.",
+    "format_output": "Um número real com duas casas decimais. Dica: Não use mensagens no print e lembre-se de formatar o número. Exemplo: print(\"%.2f\" %variavel) vai exibir a variável com duas casas decimais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

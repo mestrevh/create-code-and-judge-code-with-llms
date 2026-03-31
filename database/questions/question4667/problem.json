@@ -1,0 +1,10 @@
+{
+    "title": "Moldura para fotografia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Chegou o final do ano, e os alunos resolveram dar um presente para a docente preferida da turma: um quadro com a fotografia dos alunos. O representante da turma está pesquisando os preços de molduras em um site da internet, e precisa de sua ajuda. Ele quer encontrar uma moldura tal que: a fotografia seja inteiramente contida dentro na moldura; e a área da moldura que a fotografia não ocupa seja a menor possível; e uma moldura pode ser rotacionada para acomodar a fotografia, mas a fotografia deve ser acomodada de forma que seus lados sejam paralelos aos lados da moldura. Dada as dimensões da fotografia e das molduras disponíveis, escreva um programa para ajudar a escolher a melhor moldura, segundo os critérios acima.",
+    "format_input": "As duas primeiras linhas contêm dois inteiros A e L indicando respectivamente a altura e largura da fotografia, em centímetros. As duas linhas seguintes contêm dois inteiros indicando respectivamente a altura e largura da primeira moldura encontrada na internet, em centímetros. As duas últimas linhas contêm dois inteiros indicando respectivamente a altura e largura da segunda moldura encontrada na internet, em centímetros. Restrições: 1≤A≤100; 1≤L≤100; As medidas das molduras (altura e largura) devem ser maior ou igual a 1 e menor ou igual a 200; não há duas molduras com as mesmas dimensões.",
+    "format_output": "Seu programa deve produzir uma mensagem indicando qual moldura satisfaz os critérios ou uma mensagem indicando que nova pesquisa deve ser feita pois nenhuma moldura satisfaz os critérios apresentados. Também existem mensagens para o caso da fotografia não estar no tamanho adequado. Atenção: Para entender as mensagens, verifique os exemplos da questão.",
+    "topics": [
+        "decisão"
+    ]
+}

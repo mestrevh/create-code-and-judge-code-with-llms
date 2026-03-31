@@ -1,0 +1,10 @@
+{
+    "title": "Força de uma palavra",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Imagine que você está criando um sistema para calcular a \"força\" de uma palavra curta, onde cada letra minúscula representa um \"poder\" baseado em sua posição no alfabeto. Por exemplo, a letra 'a' tem poder 1, a letra 'b' tem poder 2, e assim por diante, até a letra 'z', que tem poder 26. Esse sistema vai ler uma sequência de exatamente 5 letras minúsculas e calcular a soma do \"poder\" de cada uma delas.",
+    "format_input": "O programa recebe cinco caracteres (garantidamente letras minúsculas do alfabeto), separados por um espaço. Ex: a b c d e",
+    "format_output": "A saída deverá exibir a soma da posição dessas letras no alfabeto: Ex: 15",
+    "topics": [
+        "caractere"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Conversão de Horas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça uma função que converta da notação de 24 horas para a notação de 12 horas. Por exemplo, o programa deve converter 17:35 em 5:35 P.M. A entrada é dada em dois inteiros separados por \":\". O programa deve repetir até que a hora seja igual a -1.",
+    "format_input": "A entrada é dada em dois inteiros, separados por \":\" . Cada linha representa uma hora e minutos a serem convertidos. Se a hora for igual a -1, o programa finaliza.",
+    "format_output": "A hora e minutos convertidos para a notação de 12h, caso a hora seja diferente de -1.",
+    "topics": [
+        "função"
+    ]
+}

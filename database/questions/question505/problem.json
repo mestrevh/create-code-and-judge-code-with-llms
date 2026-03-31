@@ -1,0 +1,11 @@
+{
+    "title": "Rotacionar um array",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá um array de inteiros e deve realizar deslocamentos à esquerda. Por exemplo, o array: 1 2 3 4 5 Com dois deslocamentos à esquerda, ficaria: 3 4 5 1 2 Perceba que todos os elementos foram deslocados de duas posições.",
+    "format_input": "Um inteiro n indicando a quantidade de inteiros no array. Uma sequência de n linhas correspondendo a cada um dos n inteiros. Um inteiro i correspondendo a quantidade de deslocamentos a serem efetuados no array. Onde: n <= 100000 0 <= i <= n",
+    "format_output": "O array com os deslocamentos. Os números devem ser separados por um final de linha. Ou seja, cada número do array deve ser impresso em uma linha.",
+    "topics": [
+        "requer solução eficiente",
+        "array circular"
+    ]
+}

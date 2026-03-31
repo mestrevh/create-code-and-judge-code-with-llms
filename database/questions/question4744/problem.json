@@ -1,0 +1,10 @@
+{
+    "title": "Fábrica CG-cola",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A fábrica de refrigerantes CG-Cola vende seu produto em três formatos: lata de 350 ml, garrafa de 600 ml e garrafa de 2 litros. Um comerciante pode comprar uma determinada quantidade de cada formato. Elabore um algoritmo para, depois de lidas as quantidades de cada formato, calcular quantos litros de refrigerante o comerciante comprou.",
+    "format_input": "Quantidade (número inteiro) de refrigerante a ser comprado de cada formato, isto é, quantidade de latas de 350 ml, quantidade de garrafas de 600 ml e quantidade de garrafas de 2l.",
+    "format_output": "Quantos litros de refrigerante o comerciante comprou usando a mensagem: \"Foram comprados xx litros de refrigerante.\"",
+    "topics": [
+        "lógica matemática"
+    ]
+}

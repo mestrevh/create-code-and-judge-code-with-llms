@@ -1,0 +1,12 @@
+{
+    "title": "Intercâmbio",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Sua organização sem fins lucrativos coordena um programa de intercambio de muito sucesso. Nos últimos anos, a demanda decolou e agora você precisa de assistência com sua tarefa. O programa que sua organização executa funciona da seguinte maneira: Todos os candidatos dizem seu local de origem e o local que gostariam de ir. O programa funciona somente se cada estudante tem um parceiro de intercâmbio adequado. Em outras palavras, se um estudante quer ir de A para B, deve haver outro estudante que quer ir de B para A. Esta era uma tarefa simples quando haviam aplenas 50 candidatos, no entanto agora existem até 500000 candidatos!",
+    "format_input": "O arquivo de entrada contém múltiplos casos. Cada caso de teste irá consistir de uma linha contendo: n - o número de candidatos(1 <= n <= 500000), seguido por n linhas representando a informação de intercâmbio para cada candidato. Cada uma destas linhas irá conter 2 inteiros, separados por um único espaço em branco, representando o lugar de origem e o lugar de destino respectivamente. Lugares serão representandos por números inteiros não negativos. Você deve assumir que nenhum candidato irá ter seu local de origem sendo igual ao seu local de destino, pois isso iria cair no caso de intercâmbio doméstico. A entrada é terminada por um caso onde n = 0; este caso não deve ser processado.",
+    "format_output": "Para cada caso de teste, imprima \"YES\" em uma única linha se existe uma maneira do programa de intercâmbio funcionar, de outro modo imprima \"NO\".",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "estruturas"
+    ]
+}

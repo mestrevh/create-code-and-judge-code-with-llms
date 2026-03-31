@@ -1,0 +1,12 @@
+{
+    "title": "Levantando fundos para o Lulupalloza",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lulu com o intuito de levantar fundos para a próxima edição grandiosa do evento anual Lulupalloza decidiu fazer um bazar com os pertences de sua casa. Com isso ela pediu ajuda à você, estudante do CIN para ajudá-la e desenvolver um programa que auxiliará ela em suas vendas, fazendo o controle de estoque e caixa. Cada item vendido tem um código (inteiro), nome (string de até 50 caracteres), preço (float) e quantidade em estoque (inteiro). O seu código depois de receber o estoque tem dois ramos: 01 - Venda: Você irá receber uma lista de produtos e por final quantos reais o cliente lhe deu, devendo assim fazer a checagem do estoque para saber se tem como realizar a venda. Em caso de sucesso você irá imprimir a compra em formato parecido com uma nota fiscal (veja o exemplo de saída para ver o formato). Lembre de atualizar o valor do estoque após cada compra. 02 - Estoque: Nesse ramo você irá imprimir uma lista de estoque contendo somente o código, nome e quantidade em estoque (em ordem lexicográfica).",
+    "format_input": "N produtos (1 <= N <= 100) seguido dos N produtos (cada atributo seguirá a ordem do enunciado: código, nome, preço e qtd em estoque). M operações (1 <= M <= 10) uma string de conteúdo Venda ou Estoque. Em caso de Venda: X (X <= N) quantidade de códigos diferentes comprados seguidos de X quantidade de códigos e quantidade de cada produto comprado. Por final um valor Y(float) que irá ser o valor em dinheiro dado pelo cliente. Em caso de Estoque não haverá nenhuma entrada extra.",
+    "format_output": "Para cada Venda será: Em caso de possível a venda: [nome do produto 1] - R$[preço unitário 1] - [quantidade 1] - R$[preço 1 * quantidade 1], [nome do produto 2] - R$[preço unitário 2] - [quantidade 2] - R$[preço 2 * quantidade 2], Total: R$[valor total], Pago: R$[valor dado pelo cliente], Troco: R$[valor do troco]. Caso não for possível: “Não foi possível efetuar a compra\\n”. Para cada Estoque será: Estoque atual: 1. [código 1] - [nome 1] - [qtd em estoque 1], 2. [código 2] - [nome 2] - [qtd em estoque 2]...",
+    "topics": [
+        "array",
+        "string",
+        "estruturas"
+    ]
+}

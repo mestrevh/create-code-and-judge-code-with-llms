@@ -1,0 +1,12 @@
+{
+    "title": "Empire Business",
+    "time_limit": "1 segundo(s)",
+    "descrition": "José Homem Rosa é um novo empreendedor na área de produção de cristais, porém, para o seu infortúnio, o atual dominante do mercado de cristais, Valter Branco, quer fazer de tudo para impedir a ascensão de José Homem Rosa. Para isso, Valter Branco, através de suas conexões, bagunçou a distribuição dos químicos necessários para a produção de cristal no mercado, dificultando a obtenção da matéria-prima. Você, ao enxergar o potencial de Josè Homem Rosa, decide ajudá-lo com um programa que encontra os produtos químicos necessários em meio a bagunça feita por Valter Branco.",
+    "format_input": "Uma string contendo o nome do produto químico, seguida de outra string na qual a busca deve ser feita. * utilize EOF para finalizar a leitura de novas linhas; * a primeira string possui um tamanho máximo de 20 caracteres; * a segunda string possui um tamanho máximo de 100 caracteres;",
+    "format_output": "Para cada busca, as seguintes devem ser imprimidas frases caso o produto seja ou não encontrado: \"I'm on the empire business.\", caso o produto seja encontrado; \"HE CAN'T KEEP GETTING AWAY WITH IT!\", caso o produto não seja encontrado;",
+    "topics": [
+        "eof",
+        "substrings",
+        "string"
+    ]
+}

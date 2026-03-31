@@ -1,0 +1,10 @@
+{
+    "title": "Pirâmide de Números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça uma função para imprimir:\n    1\n    1   2\n    1   2   3\n    .....\n    1   2   3   ...  n",
+    "format_input": "Um número inteiro n.",
+    "format_output": "Uma pirâmide impressa até a n-ésima linha.",
+    "topics": [
+        "função"
+    ]
+}

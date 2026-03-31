@@ -1,0 +1,12 @@
+{
+    "title": "Dado Cabuloso",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Ordep e Kcaj resolveram testar a sorte, eles combinaram de jogar N partidas um jogo que funciona da seguinte forma: Cada partida será dado um X, representando o número de vezes que eles vão jogar o dado, esse dado tem 1500 faces, ou seja, temos valores de 1 até 1500 (incluindo ambos), o X será o mesmo para ambos, após isso eles jogam os dados alternadamente até ambos jogarem X vezes. Caso seja colocado um valor de dado inválido, a partida é anulada e devesse printar \"valor fora do limite!\" Com isso, o fator principal dessa disputa é a soma do menor elemento do array + do maior elemento do array + o valor central do arrat (com o array ordenado). Note que cada jogador vai ter seu próprio fator principal. Nesse jogo são dadas 3 condições, aquele que conseguir passar em mais condições ganha a partida. As regras são: 1 - O fator principal ser primo. 2 - O fator principal e o maior elemento do array serem coprimos. 3 - O somatório dos dígitos do próximo primo do fator principal ser um número primo. Aquele que conseguir satisfazer mais regras vence. Caso tenha um empate, imprima \"empate\".",
+    "format_input": "um inteiro 1 <= N <= 10, Representando o número de partidas para cada partida teremos: um inteiro 3 <= X <= 23 ( X sempre ímpar), representando quantas vezes cada jogador irá jogar o dado. após isso será lido as X vezes um inteiro 0 <= A <= 1502, representando o valor do dado de Ordep um inteiro 0 <= B <= 1502, representando o valor do dado de Kcaj",
+    "format_output": "Para cada partida, imprima o nome de quem ganhou seguido do fator principal, exemplo: Caso Ordep ganhe: \"Ordep V\", onde V é o fator principal. Caso Kcaj ganhe: \"Kcaj V\", onde V é o fator principal. Em caso de Empate: \"empate\" Em caso que o valor colocado seja inválido imprima: \"valor fora do limite!\"",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "ordenação"
+    ]
+}

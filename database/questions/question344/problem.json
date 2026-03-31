@@ -1,0 +1,10 @@
+{
+    "title": "Conversão real - fração",
+    "time_limit": "1 segundo(s)",
+    "descrition": "É impotante saber converter números reais para fração na vida real e o professor tibucio pediu para você fazer um programa tal que dado um número real o programa retorne uma fração simplificada.",
+    "format_input": "Um número real de dupla precisão.",
+    "format_output": "A fração que representa esse número real (%d/%d), simplificada, sendo o primeiro %d o numeraor e o segundo o denominador.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

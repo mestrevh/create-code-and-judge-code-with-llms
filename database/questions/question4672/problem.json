@@ -1,0 +1,10 @@
+{
+    "title": "Registrando os Alunos",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Escreva um programa que leia o nome e a idade de vários alunos e armazene essas informações em uma estrutura (struct). Após finalizar as entradas, o programa deve exibir: 1. Todos os alunos com até 14 anos, na ordem em que foram inseridos. 2. Todos os alunos com mais de 14 anos, também na ordem em que foram inseridos.",
+    "format_input": "Um número N indicando quantos alunos serão inseridos, em seguida vira o nome do primeiro aluno e a idade do mesmo, seguindo assim até o N-enésimo aluno.",
+    "format_output": "O nome e idade dos alunos com até 14 anos. O nome e idade dos alunos com mais de 14 anos.",
+    "topics": [
+        "função"
+    ]
+}

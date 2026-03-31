@@ -1,0 +1,11 @@
+{
+    "title": "Sufixo Adjetivo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Antonella adora adjetivos e, por isso, está fazendo uma lista de adjetivos e seus significados. Como escrever o significado de cada adjetivo da lista pode ser tedioso, ela separou aqueles que terminam com o sufixo \"nte\" para que seus significados sejam gerados automaticamente por um programa de computador. Como ela ainda não tem muita experiência com programação, precisa de sua ajuda para fazer este programa.",
+    "format_input": "Uma string correspondendo a um adjetivo que tem sufixo \"nte\".",
+    "format_output": "A frase \"Aquilo que X.\" onde X é a string de entrada após a remoção do sufixo \"nte\".",
+    "topics": [
+        "substrings",
+        "caractere"
+    ]
+}

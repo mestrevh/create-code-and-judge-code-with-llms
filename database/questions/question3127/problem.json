@@ -1,0 +1,10 @@
+{
+    "title": "Altura máxima - movimento oblíquo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um objeto é lançado a um ângulo (theta) em relação ao solo, com uma velocidade inicial v (em m/s), num planeta com gravidade g. Construa um programa que leia o ângulo (theta) em graus, a velocidade v e a gravidade g e calcule a altura máxima h em metros alcançada pelo objeto, e em seguida exiba (imprima) o resultado h na saída do programa.",
+    "format_input": "Leia 3 números decimais (floats) representando: - O ângulo theta em graus. - A velocidade v. - A gravidade g.",
+    "format_output": "Um número decimal (float) representando a altura máxima em metros alcançada pelo objeto.",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

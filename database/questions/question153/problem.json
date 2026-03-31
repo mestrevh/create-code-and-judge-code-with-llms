@@ -1,0 +1,12 @@
+{
+    "title": "Pesquisa de intenção de voto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O candidato a um cargo eletivo contratou um instituto de pesquisa de opinião para acompanhar seu desempenho durante a campanha eleitoral. Esse instituto realizou n pesquisas ao longo da campanha, em cada uma das quais verificou o percentual de intenções de voto no candidato e em seu principal concorrente. Escreva uma função que receba como parâmetros o vetor com os percentuais de intenções de voto no candidato (candidato[ ]), o vetor com os percentuais de intenções de voto no seu concorrente (concorrente[ ]) e o tamanho desses vetores (n), e determine qual o valor da maior vantagem percentual que o candidato teve sobre seu concorrente em uma pesquisa, isto é, a maior diferença entre os percentuais de intenções de voto para um mesmo índice, considerando apenas quando o candidato esteve na frente do concorrente. Se o candidato nunca esteve em vantagem, a função deve retornar 0.00. O protótipo da função é: float vantagem(float candidato[], float concorrente[], int n); (Linguagem C) def vantagem(candidato, concorrente, n) (Python)",
+    "format_input": "Você receberá um número inteiro n correspondente a quantidade de pesquisas realizadas, um final de linha, um conjunto de n números reais correspondente aos percentuais de intenções de voto no candidato, um final de linha e um conjunto de n números reais correspondente aos percentuais de intenções de voto do concorrente.",
+    "format_output": "Um número real formatado com duas casas decimais correspondendo ao valor da maior vantagem percentual que o candidato teve em uma pesquisa.",
+    "topics": [
+        "array",
+        "repetição",
+        "função"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "O dobro dos elementos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá uma sequência de números inteiros e deve imprimir o dobro de cada número recebido.",
+    "format_input": "Você receberá um número inteiro n, indicando quantos números virão a seguir. Depois você receberá n linhas, cada uma com um número inteiro. Você deve imprimir o dobro de cada número dessas n linhas. Considere n<=20",
+    "format_output": "Você deve imprimir o dobro de cada número, sendo um por linha. Por exemplo, para a entrada: 3 10 50 110 Você deve imprimir: 20 100 220",
+    "topics": [
+        "array"
+    ]
+}

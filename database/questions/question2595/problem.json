@@ -1,0 +1,10 @@
+{
+    "title": "Maior Menor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba cinco inteiros e diga qual deles é o maior e qual o menor.",
+    "format_input": "1 5 3 9 4",
+    "format_output": "9",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Calculadora Diferente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O pequeno menino Tobias estava brincando em casa e resolveu criar operações matemáticas diferentes e como ele não sabia como pediu a você para fazer um programa para facilitar a brincadeira dele. Ele te disse que as operações eram: # onde o resultado de # é o primeiro elemento elevado ao segundo elemento vezes o segundo elemento elevado ao primeiro. @ onde o resultado de @ é o primeiro elemento elevado ao segundo elemento dividio pelo segundo elemento elevado ao primeiro. & onde o resultado de & é o segundo elemento vezes a raiz do primeiro elemento mais o primeiro elemento vezes a raiz do segundo elemento . % onde o resultado de % é o segundo elemento vezes a raiz do primeiro elemento menos o primeiro elemento vezes a raiz do segundo elemento .",
+    "format_input": "N casos de teste. Em cada caso de teste teremos 2 inteiros A e B. Separados por um caracter C.(simbolo da operação).",
+    "format_output": "O resultado de cada operação(com duas casas decimais) seguido de um final de linha.",
+    "topics": [
+        "entrada formatada"
+    ]
+}

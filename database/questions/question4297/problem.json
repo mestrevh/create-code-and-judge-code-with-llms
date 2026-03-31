@@ -1,0 +1,11 @@
+{
+    "title": "Salve o universo",
+    "time_limit": "20 segundo(s)",
+    "descrition": "A lenda urbana diz que, se você for à página inicial do Google e pesquisar por \"Google\", o universo implodirá. Temos um segredo para compartilhar... É verdade! Por favor, não tente, nem conte a ninguém. Tudo bem, talvez não. Estamos apenas brincando. O mesmo não é verdade para um universo muito distante. Nesse universo, se você pesquisar em qualquer mecanismo de pesquisa o nome desse mecanismo de pesquisa, o universo implode! Para combater isso, as pessoas criaram uma solução interessante. Todas as consultas são agrupadas. Eles são passados para um sistema central que decide qual consulta vai para qual mecanismo de busca. O sistema central envia uma série de consultas para um mecanismo de busca e pode alternar para outro a qualquer momento. As consultas devem ser processadas na ordem em que são recebidas. O sistema central nunca deve enviar uma consulta a um mecanismo de pesquisa cujo nome corresponda à consulta. Para reduzir custos, o número de comutadores deve ser minimizado. Sua tarefa é nos dizer quantas vezes o sistema central terá que alternar entre os mecanismos de pesquisa, supondo que o programemos de maneira otimizada.",
+    "format_input": "A primeira linha do arquivo de entrada contém o número de casos, N. N casos de teste a seguir. Cada caso começa com o número S -- o número de motores de busca. As próximas S linhas contêm, cada uma, o nome de um mecanismo de pesquisa. Cada nome de mecanismo de pesquisa não tem mais de cem caracteres e contém apenas letras maiúsculas, letras minúsculas, espaços e números. Não haverá dois motores de busca com o mesmo nome. A linha a seguir contém um número Q -- o número de consultas recebidas. Cada uma das próximas Q linhas conterá uma consulta. Cada consulta será o nome de um mecanismo de pesquisa no caso. 0 < N ≤ 20 2 ≤ S ≤ 10 0 ≤ Q ≤ 100",
+    "format_output": "Para cada caso de entrada, você deve produzir: Caso # X: Y onde X é o número do caso de teste e Y é o número de opções do mecanismo de pesquisa. Não conte a escolha inicial de um mecanismo de pesquisa como uma opção.",
+    "topics": [
+        "requer solução eficiente",
+        "busca"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Envoltória Convexa por Força Bruta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um conjunto de n pontos, n>3, encontrar a sua envoltória convexa. Assuma que no conjunto não há nenhum trio de de pontos colineares. A solução pode ser por força bruta. A definição de envoltória convexa encontra-se em livros clássicos de algoritmos. Por exemplo, em Introduction to Algorithms - A Creative Approach Udi Manber Introduction to The Design and Analysis of Algorithms 3rd Ed. Anany Levitin",
+    "format_input": "Na primeira linha, um número inteiro n indicando o número de pontos do conjunto. Nas próximas linhas, as coordenadas dos n pontos. Uma coordenada por linha onde a abscisa e a ordenada estão separadas por um espaço.",
+    "format_output": "Os pontos extremos da envoltória convexa, um por linha e listados em ordem lexicógráfica. Cada número com quatro casas decimais.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

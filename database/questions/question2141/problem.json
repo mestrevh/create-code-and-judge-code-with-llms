@@ -1,0 +1,11 @@
+{
+    "title": "Caracteres Ímpares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Luizinho é um menino que adora números, porém, por algum motivo ele não é muito fã de números pares. Por este motivo, quando ele vê uma palavra ele tenta ler qual palavra é formada apenas pelos caracteres que estão em posições ímpares da palavra. Assim, uma palavra como \"martelo\" seria lida como \"mreo\".",
+    "format_input": "Uma string com exatamente 7 (sete) caracteres.",
+    "format_output": "Uma string com exatamente 4 (quatro) caracteres, correspondendo aos caracteres nas posições ímpares da string de entrada.",
+    "topics": [
+        "substrings",
+        "caractere"
+    ]
+}

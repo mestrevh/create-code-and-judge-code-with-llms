@@ -1,0 +1,12 @@
+{
+    "title": "Vogais na frase",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Cacau quer descobrir quantas vogais existem em determinadas frases. Além disso, Cacau também gostaria de saber a porcentagem que essas vogais representam. Ajude Cacau nessa encruzilhada! Faça um programa que receba como entrada uma frase e armazene-a em um vetor de caracteres (cuidado com a leitura!). Em seguida, conte quantas vogais existem em determinada frase e calcule a porcentagem dessas vogais em relação a quantidade total de letras da frase.",
+    "format_input": "Uma string de no máximo 100 caracteres. Observação: não diferencie letras minúsculas e maiúsculas.",
+    "format_output": "A saída deverá seguir o seguinte formato: a <quatidade_de_a> e <quatidade_de_e> i <quatidade_de_i> o <quatidade_de_o> u <quatidade_de_u> <porcentagem> Observação: a porcentagem deverá ser representada com duas casas decimais.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Médico Atencioso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Hernandez é um médico atencioso e está bem adaptado à cidade do interior em que veio morar. Todos que chegam ao seu consultório, ele examina, afere a pressão e mede atemperatura. Ajude Hernandez a escrever um programa que identifique a quantidade de pessoas que está com pressão acima do normal e com febre. O programa deve ler a quantidade de pessoas que será atendida e para cada uma ler a temperatura, a pressão sistólica e a pressão diastólica. De acordo com o valor da temperatura você deve identificar se está com febre ou não, e com os valores da pressão sistólica e distólica, você deve classificar cada pessoa de acordo com a tabela abaixo: Observação: Considera-se que a pessoa está com febre se a temperatura > 38.",
+    "format_input": "Quantidade de pacientes Para cada paciente: três inteiros (temperatura e pressão sistólica e diastólica)",
+    "format_output": "Classificação de temperatura e pressão para cada paciente",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

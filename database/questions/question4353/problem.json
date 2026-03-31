@@ -1,0 +1,11 @@
+{
+    "title": "Análise de pares de inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escrever um programa para ler N pares de inteiros X e Y e imprimir: a) A menor soma dentre todos os pares de valores X e Y; b) A maior soma dentre todos os pares de valores X e Y; c) A média da soma de todos os pares de valores X e Y lidos. d) A média de todos os valores de X e Y lidos. Como exemplo, dados os 3 pares X e Y abaixo, as respostas seriam: (4 e 16), (5 e 2), (3 e 6) a) 5+2 = 7 b) 4+16 = 20 c) [(4+16)+(5+2)+(3+6)] / 3 = 12.00 d) (4+16+5+2+3+6) / 6 = 36 / 6 = 6.00",
+    "format_input": "Uma sequência de linhas contendo um par de valores inteiros separados entre si por uma vírgula. A sequência se encerra quando for entrado uma linha contendo apenas *.Considere que haverá pelo menos um par de X e Y.",
+    "format_output": "A saída deve conter a menor e maior soma de X, Y, a média dos pares X e Y com 2 casas decimais e a média de todos os valores de X e Y, também com 2 casas decimais, conforme mostrado no exemplo abaixo:",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

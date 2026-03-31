@@ -1,0 +1,10 @@
+{
+    "title": "Vamos ao Cinema!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Davi é o diretor de uma escola. Ele decidiu levar seus alunos de Programação para a estreia do filme da Barbie, porém ele está preocupado se a quantidade de ônibus fretados será o suficiente. Você, um aluno de Programação da escola de Davi e um entusiasta de Barbie, decide ajudá-lo. Ele lhe informa que para cada n alunos é necessário um supervisor, determine se será possível realizar a viagem ao cinema. Seu programa receberá a quantidade total de alunos que irão ao cinema, quantos alunos um supervisor pode cuidar, a quantidade planejada de ônibus, a capacidade máxima de cada ônibus. Lembre-se que os supervisores também são considerados passageiros. O programa deve retornar se é possível viajar e a quantidade de assentos vazios, caso não seja, informe quantas vagas faltam para que todos possam ir. Dica: A quantidade de supervisores é calculada a partir da quantidade de alunos e de quantos alunos um supervisor pode cuidar.",
+    "format_input": "Quantidade total de alunos que irão ao cinema; Quantos alunos um supervisor pode cuidar; Quantidade planejada de ônibus; A capacidade máxima de cada ônibus. Ex: 56 17 2 30. Cuidado! A quantidade de supervisor por aluno pode ser 0. Isso pode trazer problemas pro seu código.",
+    "format_output": "Se nenhum aluno quiser ir, informe: Davi foi assistir o filme sozinho =(. Se a vagas forem o suficiente, informe: Iremos ao cinema! Se todas as cadeiras foram preenchidas, ou seja a quantidades de vagas vazias for igual 0, informe: Todas as vagas foram preenchidas. Caso contrário, informe: Vagas Vazias = quantidade de vagas vazias. Se as vagas não forem o suficiente, informe: Não é possível. Falta x vagas.",
+    "topics": [
+        "decisão"
+    ]
+}

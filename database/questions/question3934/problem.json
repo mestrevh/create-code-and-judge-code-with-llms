@@ -1,0 +1,12 @@
+{
+    "title": "Par vs Ímpar",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Bonc de Sá estava no ponto de ônibus esperando voltar para a casa quando, no tédio, decidiu que queria jogar um jogo. Mas como um par ou ímpar tradicional é sem graça, ele decidiu que iria criar uma nova versão do jogo. A ideia dele é que vão existir dois times: par e ímpar. Também irá existir uma matriz quadrada de palavras que será usada para determinar a pontuação de cada time: A pontuação do time par será determinada pela soma do valor ascii dos caracteres em posição par nas palavras em que a soma das coordenadas dela na matriz é par. A pontuação do time ímpar será determinada pela soma do valor ascii dos caracteres em posição ímpar nas palavras em que a soma das coordenadas dela na matriz é ímpar. O time vencedor será aquele que tiver a maior pontuação. Entendeu? Não? Ninguém na parada de ônibus entendeu também, então não se sinta mal. Porém, diferente das pessoas na parada, você não tem a opção de recusar o pedido de Bonc. Então faça um programa para determinar qual time será o vencedor de acordo com a matriz de palavras utilizada.",
+    "format_input": "Primeiro você receberá um número inteiro para determinar o tamanho da matriz quadrada. Em seguida, você receberá as palavras que formarão a matriz, cada palavra com até 30 caracteres.",
+    "format_output": "Sua saída será uma fala de acordo com o resultado do jogo. Caso o time ímpar vença, sua saída será: Os impares venceram com n pontos! Caso o time par vença, sua saída será: Os pares venceram com n pontos! Caso tenhamos um empate, sua saída será: Tivemos um empate em n pontos! Em que n é a quantidade de pontos obtida pelo time vencedor ou, em caso de empate, por cada time.",
+    "topics": [
+        "ciclos",
+        "caractere",
+        "array bidimensional"
+    ]
+}

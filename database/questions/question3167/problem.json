@@ -1,0 +1,11 @@
+{
+    "title": "Maior sem if",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma variável do tipo booleana (bool) só aceita valores true (1) ou false (0). Exemplos: bool x = 5 > 2, resulta em true e bool x = 5 < 2, resulta em false. Com base nestas informações, crie uma função que retorna o valor máximo de dois inteiros (a, b). Nota: Não use a condicional if( ), nem tampouco a função max( ) do C++.",
+    "format_input": "5 2",
+    "format_output": "5",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

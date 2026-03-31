@@ -1,0 +1,10 @@
+{
+    "title": "O amor de Elias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "É carnaval, e Eliaslol está a passeio na cidade de Good Garden para curtir a festa com amigos. Durante a folia, Elias vai se deparar com algumas possíveis pretendentes e as chamará para conversar melhor no cantinho, acontece que no caminho até esse cantinho algumas coisas podem atrapalhar o romance, como por exemplo eles passarem por algum menino mais bonito que Elias e isso desencorajar a pretendente. Seu dever é escrever um código que dados dois números n m, correspondentes a quantidade de linhas e colunas da matriz, uma matriz nxm que guarda os valores # (vazio), % (menino mais bonito que Elias) e & (Elias), um número T correspondente a quantidade de casos testes e cada caso teste contendo dois inteiros x, y correspondendo à posição de Elias, uma string S correspondendo a direção em que estão indo e por fim um número L que dirá o quão disposta está a moça. Para cada posição andada pelo casal a moça perde 1 ponto de disposição, caso tenha um rapaz no meio do caminho ela perde 2 pontos, você deve determinar se é possível caminhar da posição x, y até a borda da matriz(na direção dada) sem que a menina tenha desistido.",
+    "format_input": "n m, matriz n x m, T, x y S, L",
+    "format_output": "\"O amor está no ar!\" caso a moça não tenha desistido e \"Vou voltar pra Limoeiro...\" caso contrário.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

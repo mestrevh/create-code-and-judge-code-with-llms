@@ -1,0 +1,10 @@
+{
+    "title": "Gênero",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia um caractere especificando o gênero (M, m, F, f) e imprima o gênero por extenso. Caso o caractere não represente um gênero, imprimir uma mensagem de erro.",
+    "format_input": "X: onde X é um caracter que representa um gênero (M, m, F ou f).",
+    "format_output": "Masculino - para X = 'M' ou 'm' Feminino - para X = 'F' ou 'f' \"Genero nao especificado\" - para X = qualquer outra letra",
+    "topics": [
+        "decisão"
+    ]
+}

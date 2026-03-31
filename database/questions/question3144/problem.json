@@ -1,0 +1,10 @@
+{
+    "title": "Entidade e a cerca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade gosta muito de azul, tanto que ela está disposta a pintar uma cerca com n placas de madeira. Mas ela não vai pintar sozinha, ela conseguiu contatar p pintores para lhe ajudar nessa tarefa. Cada pintor i vai pintar da placa L_i até a placa R_i. Depois de muitos dias de trabalho, ela percebeu que algumas placas não foram pintadas por nenhum pintor. Ela quer muito que todas estejam pintadas, então ela precisa q perguntas sobre quantas placas não foram pintadas por nenhum pintor num intervalo. Ajude a Entidade. Observação: Um terço dos casos possui: n <= 2*10^3, p <= 2*10^3, q <= 2*10^3, Outro terço dos casos possui: n <= 2*10^4, p <= 2*10^4, q <= 2*10^5, E o último terço possui: n <= 2*10^5, p <= 2*10^5, q <= 2*10^5",
+    "format_input": "A primeira linha da entrada apresenta dois inteiros n e p, indicando a quantidade de placas e a quantidade de pintores, respectivamente. Nas próximas p linhas, virão dois inteiros, indicando o L_i e R_i de cada pintor i. Após isso, virá um inteiro q, indicando a quantidade de perguntas que a Entidade precisa responder. E então, virão q linhas, cada linha i terá dois inteiros L_i e R_i, indicando o intervalo de placas que a Entidade vai considerar na contagem de placas não pintadas por nenhum pintor. Limites: 1 <= n, p, q <= 10^6; 0 <= L_i <= R_i < n",
+    "format_output": "Para cada pergunta q, responda com um inteiro x, representando a quantidade de placas que não foram pintadas por nenhum pintor no intervalo L_i e R_i",
+    "topics": [
+        "requer solução eficiente"
+    ]
+}

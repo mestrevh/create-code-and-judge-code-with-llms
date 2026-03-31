@@ -1,0 +1,10 @@
+{
+    "title": "Chuva (OBI)",
+    "time_limit": "6 segundo(s)",
+    "descrition": "É período de chuva no Reino Quadrado. Nos últimos anos, o Rei Maior Quadrado (RMQ) ordenou a construção de uma enorme piscina para refrescar seus súditos. A piscina é composta por diversas seções de mesma largura e comprimento, mas podem ter alturas diferentes. A altura de cada seção é um número inteiro em metros. Durante o período de chuvas fortes, o Rei nem precisa gastar água para encher a piscina - basta deixar que a chuva faça esse trabalho. A chuva cai uniformemente em todas as seções da piscina,enchendo - até que não haja mais capacidade para acumular água. O Rei o contratou para calcular quantas seções estarão cobertas com água, durante a estação de chuva. Uma seção da piscina pode ser considerada coberta com água se ela possuir água com pelo menos 1 m de profundidade. O caso do exemplo 3 pode ser visto na figura abaixo, que apresenta um corte lateral da piscina. As seções 2 a 10 e 13 a 15 ficarão cobertas de água. Restrições: 1 ≤ N ≤ 100000, 1 ≤ Hi ≤ 1000000000 (1 ≤ i ≤ N)",
+    "format_input": "A primeira linha contém um inteiro, N, o número de seções da piscina. Seguem N linhas, cada uma com um inteiro Hi, a altura da i-ésima seção, em metros.",
+    "format_output": "Seu programa deve produzir uma única linha, contendo um único inteiro, o número de seções da piscina cobertos por água.",
+    "topics": [
+        "obi"
+    ]
+}

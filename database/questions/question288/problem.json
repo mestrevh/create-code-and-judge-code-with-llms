@@ -1,0 +1,11 @@
+{
+    "title": "Apresentação do Trabalho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Toda apresentação de trabalho tem seus requisitos mínimos, que precisam ser atendidos, caso contrário, o trabalho não é aceito e o aluno fica com nota 0. A apresentação de Programação 1 está chegando, e o Professor Baldoino deixou claro que se os trabalhos não passassem por todos os requisitos mínimos, ele não iria julgar o trabalho. Eis os requisitos: Requisito 1: Inferface gráfica OU Inteligência Artificial. Requisito 2: Encapsulamento E Indentação. Requisito 3: Uso de Structs Dada a entrada, descubra se o aluno ficou com 0 ou o seu trabalho será avaliado.",
+    "format_input": "A entrada é composta de 5 números, representando respectivamente Interface Gráfica, Inteligência Artificial, Encapsulamento, Indentação e Structs. Os números podem ser: 0 - Se o trabalho não possui tal quesito. 1 - Se o trabalho possui tal quesito.",
+    "format_output": "Deve imprimir o número 0, se o aluno não atender aos requisitos e ficará com zero, e a frase \"AVALIADO\" se ele atendeu aos requisitos mínimos. Seguidos de uma quebra de linha.",
+    "topics": [
+        "acumulador",
+        "decisão"
+    ]
+}

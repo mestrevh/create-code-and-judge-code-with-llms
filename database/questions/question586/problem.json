@@ -1,0 +1,11 @@
+{
+    "title": "Padõres de Xadrez",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um colega seu gosta muito de padrões xadrez e lançou o seguinte desafio:\n\n\"Escreva um programa que imprime T padrões xadrez. Cada padrão é formado por M linhas e N colunas, num total de MxN células. Cada uma das células deve ser preenchida com um dos 2 símbolos diferentes fornecido, alternadamente, formando o padrão xadrez: símbolos da mesma célula são iguais, e símbolos de células adjacentes (esquerda, direita, acima e abaixo) são diferentes. Além disso, cada célula possui LxL símbolos.\"\n\nPara ententender melhor, veja o exemplo de entrada e saída.\n\nEntrada:\n\nA entrada consiste de um inteiro T na primeira linha informando a quantidade de descrições de padrão que segue. Depois, seguem T vezes 5 linhas com as informações de cada padrão.\n\nDepois de T (1 <= T <= 1000), temos pra cada 5 linhas seguintes:\nMt = quantidade de linhas t-ésimo padrão (1 <= Mt <= 10)\nNt = quantidade de colunas do t-ésimo padrão (1 <= Nt <= 10)\nLt = tamanho da célula (largura e altura) do t-ésimo padrão (1 <= Lt <= 5)\nAt = primeiro símbolo do t-ésimo padrão\nBt = segundo símbolo do t-ésimo padrão\n\nPode assumir que At e Bt são apenas um caracter ASCII \"visível\" (cujo valor decimal pode ser de 33 a 126).\n\nSaída:\n\nPara cada padrão, imprima o mesmo como foi descrito anteriormente. Depois de cada padrão, imprimir uma linha em branco (quebra de linha).",
+    "format_input": "5\n10\n1\n5\n|\n-\n9\n2\n3\n!\n*\n10\n3\n1\n>\n<\n1\n10\n1\n#\n!\n9\n2\n3\n[\n]",
+    "format_output": "kkk",
+    "topics": [
+        "multiplas entradas",
+        "array"
+    ]
+}

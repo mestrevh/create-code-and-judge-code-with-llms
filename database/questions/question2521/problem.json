@@ -1,0 +1,10 @@
+{
+    "title": "IMC",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O IMC significa índice de massa corporal e é usado por muitos especialistas (médicos, nutricionistas,esportistas entre outros profissionais) para verificar a relação entre o peso e a altura de um indivíduo.Crie um programa que faz a leitura do peso (em Kg) e a altura (em m) de uma pessoa e em seguida calcula e exibe o IMC. Use a fórmula a seguir:",
+    "format_input": "50 1.65",
+    "format_output": "18.4",
+    "topics": [
+        "obi"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "SISTEMA NUMÉRICO DE BASE 4 – 3 Conversões",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Há muito tempo a civilização necessita trabalhar com números, especialmente para representar as quantidades. A história nos mostra várias formas, ou sistemas numéricos como: Sistema Egípcio, Sistema Romano, Sistema Maia, Sistema Sumério, Sistema Chinês, Sistema Indo-Arábico, entre outros. O sistema adotado atualmente é o Sistema Decimal Posicional, sua origem é o sistema indo-arábico, sendo aperfeiçoado com o tempo. Nele, temos a representação de DEZ símbolos (0 1 2 34 5 6 7 8 9), representando os números e de acordo com a posição desses símbolos o seu valor (peso) pode mudar. Contudo, existem outros sistemas numéricos que são trabalhados em diversas áreas, os mais conhecidos são: Sistema de base 10 (decimal), Sistema de base 8 (Octal), Sistema de base 16(Hexadecimal) e o mais conhecido e utilizado na informática que é o Sistema de base 2 (binário). Sendo possível um sistema se comunicar com outro através de algumas regras para conversão de bases como Decimal para Binário, Binário para Octal e assim por diante. Entretanto, é possível, pela lógica desses sistemas, serem criados outros como o sistema de base 5, o sistema de base 6, Sistema de Base 12, ... nestes casos, as regras de conversão devem atender a esses sistemas também. Uma estratégia usada é seguir a regra onde é possível converter qualquer base para Decimal, e a regra que é possível converter de Decimal para qualquer base. Veja as regras abaixo: Oque fazer: Diante disso, é possível fazer um programa que receba a entrada de um número e sua base e apresente a representação em um Sistema de base 4, onde os símbolos desse sistema são(0,1,2,3) e as regras de conversão mencionadas acima, podem ser utilizadas. Faça um programa que receba vários números nas bases 2, 8, e 10, e converta para a base 4. O programa deve parar a leitura quando for lido a base 0.",
+    "format_input": "Vários números e suas bases, separados por espaço. As bases disponíveis são: 2 para binária, 8 para base octal, d para base decimal. Qualquer outra base digitada deve ser invalidada.",
+    "format_output": "O valor de entrada convertido para a 10 O valor da entrada convertido para base 4.",
+    "topics": [
+        "array",
+        "repetição",
+        "caractere",
+        "função",
+        "string"
+    ]
+}

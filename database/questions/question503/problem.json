@@ -1,0 +1,13 @@
+{
+    "title": "Lava-Jato",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Lava-jato Fresh é o mais famoso da cidade e seus clientes podem inclusive se tornarem sócios para obterem descontos. Sua tabela de preços é a seguinte: Tipo de carro / Serviço / Preço Sócio / Preço Não-sócio: Pequeno / Lavagem sem cera / R$ 20 / R$ 30; Pequeno / Lavagem com cera / R$ 30 / R$ 40; Grande / Lavagem sem cera / R$ 40 / R$ 50; Grande / Lavagem com cera / R$ 60 / R$ 80. Esse mês eles estão com uma promoção especial: os veículos que optarem pela lavagem com cera vão ganhar uma aspiração totalmente grátis. Escreva um programa que receba como entrada os dados de 5 clientes e exiba a quantidade de sócios atendidos, a quantidade de brindes concedidos, e o total arrecadado pelo lava-jato.",
+    "format_input": "Três Strings para cada cliente: um indicando o tamanho do carro (pequeno ou grande), outro indicando o tipo de lavagem (com cera ou sem cera), e um último indicando o tipo de cliente (sócio ou não-sócio)",
+    "format_output": "Dois inteiros e um real com duas casas decimais",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

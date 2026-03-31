@@ -1,0 +1,10 @@
+{
+    "title": "Dados Pessoais",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Implemente um programa em C que leia o nome, a idade e o endereço de uma pessoa e armazene esses dados em uma estrutura. Em seguida, imprima na tela os dados da estrutura lida.",
+    "format_input": "O usuário deve digitar o nome, idade e endereço, que devem ser armazenados em uma estrutura",
+    "format_output": "O programa deve exibir os dados digitados, imprimindo na tela os valores abaixo: Digite o nome: Digite a idade: Digite o endereco: Nome: nnnnnnnn Idade: n Endereco: nnnnnnnnnnnnnn",
+    "topics": [
+        "estruturas"
+    ]
+}

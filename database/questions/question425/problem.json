@@ -1,0 +1,11 @@
+{
+    "title": "Cai fora",
+    "time_limit": "1 segundo(s)",
+    "descrition": "\"Cai fora\" é o nome de um jogo de cartas bastante simples que é jogado com uma pilha de 52 cartas. As cartas são ordenadas de acordo com seu ranking (A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K), com A sendo o menor e K sendo o maior valor. Os naipes são ignorados. Os jogadores, pelo menos 2, sentam em torno da mesa, embaralham as cartas e as colocam no centro da mesa, com as faces para baixo. No começo de jogo, todos os jogadores estão \"ativos\". O jogo continua em rodadas. A cada rodada, os jogadores ativos pegam uma carta de pilha de cartas do centro da mesa. O jogo acontece no sentido horário de acordo com as posições na mesa de cada jogador. O jogador que pegou a menor carta daquela rodada, retira aquela carta do jogo e se torna inativo. Perceba que até 4 jogadores podem se tornar inativos em uma mesma rodada. O jogo termina quando sobrar apenas um jogo ativo, que é declarado como vencedor. Se a pilha de cartas acabar antes de terminar o round, o jogo termina e todos os jogadores ativos no início da última rodada são vencedores.",
+    "format_input": "Serão vários casos de teste. Cada caso de teste consiste de 6 linhas. A primeira linha contém um inteiro N, indicando o número de jogadores do jogo (2<=N<=20). A segunda linha contém uma lista de nomes de jogadores, separados por espaços. Um nome de um jogador é composto de no máximo 16 letras do alfabeto inglês (A-Z, a-z). As cartas são distribuidas aos jogadores na ordem dada por essa lista de jogadores. As próximas 4 linhas contêm a descrição do baralho. As cartas são representadas por inteiros de 1 a 13, onde 1, 11, 12 e 13, denotam respectivamente, A, J, Q, K. As cartas são descritas em 4 linhas de 13 inteiros cada, separadas por um espaço. A pilha já é dada de cima para baixo, ou seja, a primeira carta a ser distribuída aos jogadores é a primeira carta da lista. A entrada termina quando N=0",
+    "format_output": "Para cada caso de teste da entrada deve produzir uma linha de saída contendo o nome do vencedor ou dos vencedores. A lista de vencedores deve aparecer na mesma ordem dada na entrada e cada nome deve ser separado por um espaço.",
+    "topics": [
+        "simulação de jogos",
+        "maratona"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Unindo células",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Algumas células estão reunidas de maneira circular, cada uma tem um valor Ni. É garantido que não há valores repetidos. Algumas vezes duas delas se unem somando seus valores. Dado N número de células iniciais e Q a quantidade de uniões observadas, Escreva um algoritmo que mostre o estado inicial da aglomeração e seu estado após cada união. Considere a célula com menor valor como sendo a célula inicial. Considere 0 < N < 100 e 0 <= Q < N. Com -1000 <= Ni, Qi <= 1000, onde i começa com 0. Cada valor Qi indica a posição da célula que será unida com a sua posterior.",
+    "format_input": "Primeiramente serão lidos dois inteiros N e Q. Serão lidos N inteiros referentes a quantidade de elementos. Logo após serão lidos Q inteiros referentes a posição da célula que será operada.",
+    "format_output": "O estado inicial do conjunto e seu estado após cada operação. Lembre-se de considerar a célula com menor valor como sendo a posição inicial. Em cada estado, os valores das células são impressos em uma única linha, separados por um espaço, terminando com uma quebra de linha.",
+    "topics": [
+        "lógica matemática",
+        "array circular"
+    ]
+}

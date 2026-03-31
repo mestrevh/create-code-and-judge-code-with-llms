@@ -1,0 +1,10 @@
+{
+    "title": "Loja de Invenções do Maurice",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Depois de o encanto ser quebrado, e todos os móveis voltarem a ser pessoas, Maurice, o pai de Bela, teve um aumento muito grande na demanda na loja onde vendia suas invenções, desesperado, ele correu até Bela para que ela o ajudasse a organizar o estoque de seus produtos, para que ele pudesse ter tempo para conseguir montar todas as encomendas. Você então deve criar um programa que ajude Bela a controlar o estoque da loja. Seu programa deve registrar todas as alterações feitas no estoque a partir dos comandos(Registrar, Venda e Recarga). Registrar: É seguido pelo nome do produto a ser registrado. (reportar: \"Produto ja registrado\" se o produto já tiver sido registrado anteriormente e \"Produto registrado com sucesso\", se o registro tiver ocorrido!) Venda: É seguido pelo nome do produto e o número de peças vendidas. (reportar: \"Produto nao registrado\" se o produto nao tiver sido registrado, \"Sem estoque para a venda\" se não houver estoque suficiente e \"Venda realizada com sucesso\", se ela tiver sido completa!) Recarga: É seguido pelo nome do produto a ser registrado. (reportar: \"Produto nao registrado\" se o produto não tiver sido registrado e \"Recarga realizada com sucesso\", se a recarga tiver sido feita!).",
+    "format_input": "N - número natural, representando o número de comandos. Seguido por trios de informações (C, P, Q) para cada comando: C - string, representando o comando. P - string, representando o produto, se o comando for válido. Q - número natural, representando uma quantidade, se necessário.",
+    "format_output": "S - string, representando a operação e se foi realizada. Possíveis mensagens: \"Comando invalido\", \"Produto cadastrado com sucesso\", \"Produto já registrado\", \"Estoque realizado com sucesso\", \"Venda realizada com sucesso\", \"Produto não foi cadastrado\", \"Não há estoque para a venda\". Seguido por I - listagem dos produtos que ainda tiverem pelo menos uma unidade no estoque e o saldo restante, na ordem em que foram registrados.",
+    "topics": [
+        "array"
+    ]
+}

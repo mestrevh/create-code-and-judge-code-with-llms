@@ -1,0 +1,11 @@
+{
+    "title": "Produto dos elementos da diagonal principal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fazer um programa que leia os elementos de uma matriz inteira n x n e escreva o produto dos elementos da diagonal principal.",
+    "format_input": "Um número inteiro na primeira linha correspondente à ordem da matriz. n * n números reais em coluna correspondentes aos elementos da matriz, seguindo a ordem: linha 1 da matriz, linha 2 da matriz, ..., linha n da matriz.",
+    "format_output": "Número real correspondente ao produto calculado.",
+    "topics": [
+        "repetição",
+        "array bidimensional"
+    ]
+}

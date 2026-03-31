@@ -1,0 +1,10 @@
+{
+    "title": "Contando Estrelas",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Um eclipse acontece quando o Sol, a Terra e a Lua se alinham. Isso faz com que a Terra fique diretamente entre o Sol e a Lua, bloqueando a luz solar. O eclipse acontece porque a Lua entra na sombra criada pela Terra. Um eclipse famoso foi o do dia 27/07/2018 e teve a duração de aproximadamente 100 minutos. O diretor Fragalli, entusiasta em ficar vendo o céu com telescópios aqui do CCT, não ia perder esta chance. Contudo, Joinville chove, ora fica nublado devido a serra, e naquele dia, no horário do eclipse, o eclipse frustrou a torcida ali organizada. Assim, o professor Fragalli, teve uma outra ideia junto aos alunos ali frustrados em ver o eclipse. Ele bolou uma brincadeira: contar as estrelas! E assim ele definiu áreas no céu, e os alunos deveriam contar quantas estrelas estavam vendo naquelas áreas. Considere o céu sobre um espaço cartesiano. Neste espaço há os limites de um retângulo definido por retas paralelas aos eixos (x,y). Ufa, uma simplificação do problema. O objetivo é contar quantas estrelas estão neste retângulo, incluindo as estrelas que se encontrarem neste limite retangular. Outra simplificação: o campo visual deste telescópio é retangular!",
+    "format_input": "A entrada inicia com uma linha com um inteiro C, 1 <= C <= 10, indicando o número de céus (áreas retangulares) a serem avaliados. Na linha seguinte, segue a definição de dos C retângulos ou céus, onde cada retângulo é definido por 4 valores inteiros, nesta ordem xinf (reta à esquerda), xsup (reta à direita), yinf(reta inferior) ysup(reta superior). Em seguida a definição dos retângulos, seguem as coordenadas x e y das estrelas existentes em todo céu naquele momento. Estas entradas encerram com 0 0. Os limites deste céu, coordenadas das estrelas, e limites dos retângulos, são valores inteiros simples.",
+    "format_output": "Impirma o número de estrelas em cada um dos C céus no formato: CEU #i: k estrelas Veja o exemplo abaixo: CEU #1: 3 estrelas CEU #2: 1 estrelas",
+    "topics": [
+        "array"
+    ]
+}

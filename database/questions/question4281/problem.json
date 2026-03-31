@@ -1,0 +1,11 @@
+{
+    "title": "Sala da professora Asbeksa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Na sala de aula da professora Asbeksa os alunos estavam discutindo e a professora Asbeksa logo foi entender o motivo da discussão, os alunos queriam saber qual era o mais alto da sala, e para isso a professora quer a sua ajuda. Faça um programa que leia as alturas dos alunos até que seja digitado \"parar\" e ao final diga a altura do aluno mais alto da turma, junto ao seu nome.",
+    "format_input": "Nome do aluno e a sua altura. * A entrada para quando for digitado \"parar\".",
+    "format_output": "A altura do aluno mais alto junto ao seu nome.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

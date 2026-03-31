@@ -1,0 +1,10 @@
+{
+    "title": "Max Pooling",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Redes Neurais são muito usadas para reconhecimento de imagens e classificações de imagens. É muito comum encontrar redes neurais que usam técnicas de redução de dimensionalidade, dentre elas, uma técnica chamada \"Max Pooling\". Essa técnica é utilizada para gerar uma matriz menor a partir de uma matriz maior; gerando assim uma espécie de \"resumo\" da matriz grande. A técnica funciona da seguinte forma: é dada uma matriz de tamanho n por m, e um fator de escala s. A nova matriz terá tamanho n/s por m/s. Dessa forma, as linhas da matriz maior são divididas em n/s seções, e as colunas da matriz maior são divididas em m/s seções, formando assim: n/s*m/s blocos. Seguindo a ordem normal (linhas por colunas), a primeira célula da matriz menor resume o primeiro bloco da matriz maior, a segunda célula resume o segundo bloco e assim por diante. Resumir na técnica Max Pooling significa escolher o máximo dentre todos. Faça um progama que aplique a técnica de Max Pooling numa matriz.",
+    "format_input": "A primeira linha da entrada terá três inteiros s (2 <= s <= 10), n (2 <= n <= 100) e m (2 <= m <= 100), representando o fator de escala, a quantidade de linhas da matriz maior e quantidade de colunas da matriz maior. Em seguida, virão n linhas, onde a i-ésima linha terá m inteiros, onde o j-ésimo inteiro dessa linha indica o inteiro da célula (i, j) da matriz maior. Observação: n e m sempre serão divisíveis por s.",
+    "format_output": "Imprima a matriz menor resultante da aplicação da técnica Max Pooling na matriz maior.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

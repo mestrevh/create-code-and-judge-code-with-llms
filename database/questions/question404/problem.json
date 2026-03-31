@@ -1,0 +1,11 @@
+{
+    "title": "Escola de Música",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Escola de Música Melodia é bastante conceituada na cidade e forma grandes profissionais. Para isso, exige que seus alunos tenham no máximo 10 faltas por semestre, e que obtenham média mínima 7 para serem aprovados. Aqueles que não excedem o limite de faltas e conseguem média igual ou superior a 9,5 são aprovados com louvor. Escreva uma função chamada ClassificaAluno que receba como entrada a media e a quantidade de faltas de um aluno e retorne sua situação ao final do semestre.",
+    "format_input": "Um número real e um número inteiro, nessa ordem",
+    "format_output": "Um String em letras maiúsculas (APROVADO COM LOUVOR ou APROVADO ou REPROVADO ou REPROVADO POR FALTAS)",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

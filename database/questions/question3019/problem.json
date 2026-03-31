@@ -1,0 +1,10 @@
+{
+    "title": "Valor da Refeição",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O restaurante a quilo ComaBem cobra R$ 20,00 por cada quilo de refeição. Escreva um programa que leia o peso do prato montado pelo cliente (em quilos) e imprima o valor a pagar. Assuma que a balança já desconte o peso do prato.",
+    "format_input": "O programa receberá como entrada o peso do prato do cliente.",
+    "format_output": "O programa deverá imprimir o valor a ser pago da seguinte forma: O valor do prato será: R$ XX.XX onde, XX será o valor calculado para o prato.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

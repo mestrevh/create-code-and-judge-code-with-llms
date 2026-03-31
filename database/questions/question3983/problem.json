@@ -1,0 +1,10 @@
+{
+    "title": "Peregrinando por supermercados",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Com a inflação em alta e a grande variação de preços, você decide fazer um programa que lhe ajude a economizar na realização de compras em supermercados. Inicialmente, você montará uma lista de produtos que serão comprados. Depois, através de uma pesquisa de preços, obterá o valor de venda de cada produto em cada supermercado. Você então vai desenvolver um programa que com as informações obtidas lhe apresentará em que supermercado deve comprar cada um dos produtos da lista de tal forma que pagará o menos possível.",
+    "format_input": "1. A lista de produtos terminada por uma linha contendo ‘FIM’, um produto por linha. 2. Para cada supermercado, uma linha com o nome seguido de outra linha contendo a lista de preços dos produtos, cada preço separado por um espaço em branco e seguindo a mesma ordem de listagem dos produtos dados inicialmente. Os dados terminam com uma linha contendo ‘FIM’",
+    "format_output": "Os produtos que serão comprados em cada supermercado, com totais parciais por supermercado, e total de todas as compras, seguindo o formato do exemplo. Nada é impresso para supermercados que não tem produtos a ser comprados. Se para um produto há preço menor em vários supermercados, escolhe-se o supermercado listado em primeiro lugar na entrada.",
+    "topics": [
+        "array"
+    ]
+}

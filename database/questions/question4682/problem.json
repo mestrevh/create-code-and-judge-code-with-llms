@@ -1,0 +1,14 @@
+{
+    "title": "Cadastro de Alunos",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Implemente um sistema que gerencie funcionários de uma empresa, oferecendo as seguintes funcionalidades: 1. Adicionar funcionário: Cadastrar um funcionário com nome e salário. 2. Exibir funcionários: Mostrar a lista completa de funcionários com seus respectivos salários. 3. Remover funcionário: Permitir a exclusão de um funcionário pelo nome. 4. Alterar salário: Permitir que o salário de um funcionário seja atualizado. 0. Encerrar programa: Finalizar o sistema liberando todos os recursos alocados dinamicamente. Importante: Analise com cuidado o formato das entradas e saídas para evitar erros de formatação.",
+    "format_input": "A operação do programa se dá por entradas numéricas que selecionam uma das opções do menu, seguidas pelos valores necessários para cada operação. As entradas são no seguinte formato Adicionar funcionários: Recebe o nome do funcionário, seguido pelo salário. Exibir funcionários: Exibe uma lista com todos os funcionários como a seguir 1. NomeFuncionario1 Salário 2. NomeFuncionario2 Salário [Linha em branco] Remover Funcionário: Recebe o nome do funcionário e o mesmo é removido da lista. Alterar Salário: Recebe o nome do funcionário e o novo salário",
+    "format_output": "A funcionalidade de exibir funcionários deve mostrar uma lista completa com todos os funcionários, ordenados a partir do 1 e com uma linha em branco no fim, caso nenhum funcionário esteja cadastrado deve ser exibida uma linha em branco. As funcionalidade de remover e alterar o salário só exibem saída caso seja passado um nome inexistente no sistema, então deve ser exibida a mensagem Funcionario nao encontrado. Caso uma opção invalida seja solicitada no menu, o sistema deve retornar a mensagem Opcao invalida",
+    "topics": [
+        "array",
+        "função",
+        "string",
+        "ponteiro",
+        "formatação"
+    ]
+}

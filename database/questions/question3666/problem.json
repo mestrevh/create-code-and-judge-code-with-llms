@@ -1,0 +1,12 @@
+{
+    "title": "Festa da Marilda 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este problema é uma variante do problema \"Festa da Marilda\". Marilda é uma menina bem desorganizada, avessa aos computadores mas bastante festeira. Por isso, toda festa que Marilda organiza é uma confusão, não sabe direito quem convidou, uma bagunça só. Seu irmão, aluno do curso de computação está tentando convencê-la que ela deve se organizar melhor e deve utilizar um computador para registrar a lista de convidados da sua festa. Porém, os convidados podem chegar a 300 pessoas e achar um nome dentre esses trezentos pode ser complicado. Então a sua função é escrever um programa que receba uma lista inicial de convidados de Marilda e a ordene alfabeticamente. Porém, após Marilda ter a lista inicial ordenada, vez por outra ela se lembra de grupos pequenos, de no máximo 5 pessoas, que não estão na lista mas que devem ser inseridas. Restrição: Se você pretende utilizar alguma função ou método de ordenação que esteja nas bibliotecas da linguagem de programação escolhida, esta função ou método só poderá ser executado no máximo uma única vez pelo seu programa e somente para ordenar a lista inicial.",
+    "format_input": "Primeiro, uma sequência de nomes, um em cada linha e terminada pela palavra \"FIM\". Depois, várias sequências com poucos nomes (até 5), um por cada vez que Marilda se lembra de adicionar mais convidados. Cada uma destas sequências é especificada por uma linha com um número n que indica a quantidade de nomes seguida de n nomes, um por linha. As sequências terminam quando o número n é igual com 0.",
+    "format_output": "Primeiro, a lista inicial de convidados impressa em ordem alfabética. Depois, a cada vez que Marilda inserir um novo grupo de convidados, a lista atualizada, também em ordem alfabética. Cada lista deverá estar separada por uma linha contendo 50 vezes o caractere '-'.",
+    "topics": [
+        "array",
+        "entrada formatada",
+        "ordenação"
+    ]
+}

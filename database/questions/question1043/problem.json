@@ -1,0 +1,10 @@
+{
+    "title": "Conversão para dólar",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que realize a conversão de dólar para real: para cada valor lido em dólar da entrada padrão, será exibido o correspondente em reais (1 dólar = 3.55 reais).",
+    "format_input": "Um número real (float) que representa um valor em dólares.",
+    "format_output": "Um número real com duas casas decimais (float) que representa o valor de entrada convertido para reais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Forma retângulo (função sem devolução)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetros quatro números naturais estritamente positivos a, b, c e d simbolizando retas e que exiba uma frase indicando se podem formar um retângulo. O PROGRAMA PRINCIPAL deverá ler os valores e a FUNÇÃO deverá exibir a frase.",
+    "format_input": "10 20 30 40",
+    "format_output": "nao formam um retangulo",
+    "topics": [
+        "função"
+    ]
+}

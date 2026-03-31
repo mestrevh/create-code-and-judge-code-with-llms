@@ -1,0 +1,11 @@
+{
+    "title": "O mistério de Ambrosina - Parte I",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrosina estava começando uma relação com Ambrósio, para ver o quão determinado ele estava em conquistá-la. Ela deu apenas os quatro primeiros dígitos de seu número de celular e disse a ele que deveria resolver o mistério do resto do número. Após várias tentativas ele conseguiu descobrir o número, feito isso, ele percebeu que os 4 últimos dígitos tinham relação direta com os 4 primeiros, contudo, Ambrosina muda constantemente de número por ser alguém importante e Ambrósio que é seu amigo de infância pediu que você o ajudasse criando um programa que dado os quatro primeiros dígitos do número de Ambrosina resolva o mistério e imprima o número completo. Exemplo 1: Se os quatro primeiros dígitos forem 9915, então os quatro últimos vão ser 1357. Exemplo 2: Se os quatro primeiros dígitos forem 9810, então os quatro últimos vão ser 0123.",
+    "format_input": "A entrada é formada por quatro valores inteiros d1, d2, d3, d4, também é sabido que 0 <= d1 <= d2 <= d3 <= d4 <= 9",
+    "format_output": "A saída é formada por uma única linha com o número completo de Ambrósina seguido por uma quebra de linha.",
+    "topics": [
+        "acumulador",
+        "decisão"
+    ]
+}

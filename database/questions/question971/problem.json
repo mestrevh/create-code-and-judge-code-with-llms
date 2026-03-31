@@ -1,0 +1,10 @@
+{
+    "title": "Um problema de logística",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Uma empresa de logística possui vários armazéns espalhados por diversos pontos do mapa. Os produtos estão em constante circulação entre esses pontos. Para aumentar o controle e facilitar a gestão da circulação de mercadorias, a empresa decide restringir o transporte a um subconjunto fixo de linhas (bidirecionais) de conexão entre os pontos de distribuição. Naturalmente, as linhas devem ser definidas de forma que seja possível estabelecer uma rota entre quaisquer dois armazéns. Mais ainda, a empresa deseja escolher um conjunto de conexões de forma a minimizar os custos operacionais. O custo de operação de uma linha é estimado como sendo a soma das diferenças absolutas entre as suas respectivas latitudes e longitudes. Mais formalmente, se um ponto A tem coordenadas (Xa, Ya) e um ponto B tem coordenadas (Xb, Yb), então o custo de operar uma linha entre A e B será dado por |Xa - Xb| + |Ya - Yb|.",
+    "format_input": "A entrada é constituída de vários casos, cada um correspondente a um cenário/mapa como descrito acima. A primeira linha contém um inteiro L representando o número de casos. A seguir, temos a especificação dos diversos casos. Para cada mapa, temos inicialmente uma linha com um inteiro, N que indica a quantidade de armazéns. As próximas N linhas contêm um par de inteiros cada X[i] Y[i] onde (X[i], Y[i]) é a coordenada do i-ésimo armazém. Há uma linha em branco após cada caso. Limites: 1 <= N <= 1500 0 <= X[i], Y[i] <= 10000;",
+    "format_output": "Para cada caso de teste k = 0,..., L-1, deve ser impressa uma linha na forma k: C[k] onde C[k] corresponde ao menor custo possível para interligar os armazéns.",
+    "topics": [
+        "grafo"
+    ]
+}

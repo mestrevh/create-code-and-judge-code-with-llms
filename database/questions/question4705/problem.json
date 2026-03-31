@@ -1,0 +1,11 @@
+{
+    "title": "Q09 - É um palíndromo?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente uma função chamada \"inverter_string2\" que recebe uma string e informe se ela é um palíndromo palíndromos são palavras que lidas de trás para frente, são a mesma palavra Desenvolva uma função que recebe uma palavra ou frase e retorna se ela é um palíndromo (ignorar espaços e maiúsculas/minúsculas).",
+    "format_input": "Uma string",
+    "format_output": "\"Eh um palíndromo\" caso seja e \"Nao eh um palindromo\" caso não seja",
+    "topics": [
+        "função",
+        "string"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Ambrósio Romântico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O dia dos namorados chegou, e Ambrósio quer fazer dois gestos românticos para sua namorada. Após pensar em várias opções, ele está com medo de exagerar, deixando-a com vergonha, ou fazer algo muito simples, perdendo seu amor. Por isso, Ambrósio analisou todas suas idéias e as classificou em uma escala de extravagância. Sabendo a quantidade perfeita para deixar sua namorada feliz, ele precisa agora verificar se existem duas opções entre suas idéias, que somadas, combinem na extravagância perfeita. Faça um programa que mostre se é possível deixa-la feliz com as opções que Ambrósio pensou.",
+    "format_input": "Dois inteiros N (1 <= N <= 1000) e E (1 <= E <= 1000), representando o número de idéias, e a extravagância perfeita, respectivamente. N inteiros G (1 <= G <= 1000), representando a extravagância de todos os gestos.",
+    "format_output": "\"SIM\" caso seja possível, ou \"NAO\" caso contrário.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

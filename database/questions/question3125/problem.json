@@ -1,0 +1,10 @@
+{
+    "title": "Aumento de Salário",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba o salário de um funcionário e o percentual de aumento. Calcule e mostre o valor do aumento e o novo salário com as seguintes mensagens Entrada: (um por linha, sem mensagem) Salario Percentual de aumento Saída Seu salario teve aumento de <x> %, passando de R$ <x> para R$ <x>",
+    "format_input": "1000 10",
+    "format_output": "Seu salario teve aumento de 10 %, passando de R$ 1000.0 para R$ 1100.0",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

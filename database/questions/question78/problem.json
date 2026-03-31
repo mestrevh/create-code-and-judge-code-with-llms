@@ -1,0 +1,13 @@
+{
+    "title": "Contar caracteres",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você deverá fazer um programa que leia frases com até 80 caracteres, incluindo espaços em branco, letras, dígitos, enfim, qualquer caractere. Após a leitura de cada frase, você deve imprimir: Quantos espaços em branco existem na frase; Quantas vezes a letra a (que pode ser maiúscula ou minuscula) aparece; O número de vezes que o par de letras com maior frequência apareceu na frase; O par de letras de maior frequência; Obs 1: Só pares de letras são considerados, numeros ou demais caracteres especias são desconsiderados como pares. Obs 2: Lembre-se que como a letra pode ser maiúscula ou minúscula, \"Aa\" é considerado um par da mesma forma que \"aa\". Obs 3: o par de letras com maior frequência será sempre único. Ou seja, não haverá uma situação onde existem dois pares de letras diferentes empatados com a maior frequência. A entrada termina quando a frase for: NAO QUERO MAIS",
+    "format_input": "Uma sequência de frases de até 80 caracteres.",
+    "format_output": "Os inteiros abaixo, separados por um final de linha: b - representando o número de espaços em branco; a - representando a quantidade de letras a (A ou a); n - representando o número de vezes que do par de letras com maior frequência de aparecimento na frase aparece. Por exemplo, se a frase for \"abad ac\", os pares são: ab, ba, ad, ac. Caso não exista nenhum par de letras na frase, deve ser impresso: NENHUM PAR; xy - representando o par de letras que mais aparece na frase",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "busca"
+    ]
+}

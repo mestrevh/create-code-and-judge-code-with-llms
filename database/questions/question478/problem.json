@@ -1,0 +1,11 @@
+{
+    "title": "Regeneração de Vida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu projeto de Programação em C é um jogo, e você ficou encarregado o sistema de dano e regeneração de vida. Você irá receber uma sequencia de X valores de dano que foi inflingido ao inimigo, e o tempo em segundos (decorrido desde o começo do jogo). O tempo decorrido serve para você calcular a recuperação do HP do inimigo, logo, você deve determinar se o inimigo continua vivo ou se ele morreu. Todo inimigo tem 100 de vida.",
+    "format_input": "Um inteiro X, representando a quantidade de danos que foram inflingidos ao inimigo. Uma sequencia de X linhas, em cada linha, dois valores, D e T, representando os danos inflingidos, seguidos do tempo passado desde o começo do jogo em segundos. Um inteiro Y representando quanto de HP o inimigo recupera por segundo.",
+    "format_output": "Uma mensagem dizendo se o Inimigo está morto ou vivo.",
+    "topics": [
+        "função",
+        "dicionário"
+    ]
+}

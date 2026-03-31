@@ -1,0 +1,10 @@
+{
+    "title": "Enigmópolis",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Na pitoresca localidade de Enigmópolis, um enclave de inteligência e erudição, residia um prodígio da cognição cognominado Phineas. Este distinto indivíduo era venerado por sua mente fulgurante e um ardor insaciável por desafios intelectuais. Num dia que não destoava da rotina, Phineas se entregava à diversão na atmosfera serena de um parque local. Uma confraria de pares que comungavam em sua predileção por empurrar os limites do intelecto compartilhava essas incursões lúdicas. Nessa ocasião particular, Phineas propôs uma enigmática brincadeira, cuja aparente simplicidade contrastava agudamente com a perplexidade que ela acarretava. O mago mental selecionou meticulosamente cinco números exclusivos, Com clareza inquestionável, delineava-se um panorama de não mera exiguidade, mas sim, um respeitável decurso de exatas dez somatórias. Conformados com seu ímpeto desafiador, eles, em um ato de retidão e humildade, almejaram a assistência de um mestre nos caminhos do código e da lógica, um visionário que, com destemor, enfrentaria os desafios algorítmicos. Erguendo-se diante de tal encruzilhada mental, chamaram-nos, suplicando o desenvolvimento de um programa capaz de dissipar o enigma que inibia sua apreciação de um enigma cuja complexidade transcendia a compreensão humana ordinária. O propósito que norteava essa intrigante e hercúlea missão consistia na elucidativa identificação dos cinco números distintos que Phineas habilmente empregara para a engenhosa gênese das dez somas imiscíveis. E assim, o cenário estava pronto para a próxima etapa, um duelo intelectual entre a criatividade de um algoritmo e o desafio urdido pelo engenho de Phineas.",
+    "format_input": "Insira as somas em ordem crescente e não pode usar nada que o Jonin não ensinou a entrada são as dez somas, tal que as somas sejam >=0.",
+    "format_output": "A saída é os cinco números distintos (a<b<c<d<e) e todos >=0",
+    "topics": [
+        "ciclos"
+    ]
+}

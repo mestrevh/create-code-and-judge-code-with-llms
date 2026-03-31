@@ -1,0 +1,10 @@
+{
+    "title": "Caminhada estratégica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mário é um grande apreciador dos centros acadêmicos presentes na UFPE, dito isso, Mário tem um sonho que consiste em visitar todos os centros existentes no campus. Mas, como Mário gosta de ser diferente, ele decidiu realizar essas visitas de um modo específico. Para dar luz a ideia, Mário decidiu representar o campus da UFPE como um plano cartesiano e dividir os locais de interesse em relação aos quatro quadrantes. Após isso, Mário elaborou o seguinte plano: partindo de um dos quadrantes, Mário quer visitar o quadrante que fica na posição diagonal ao quadrante que Mário já está, porém, evitando um dos quadrantes adjacentes. Por exemplo, se Mário estiver na posição (3, 2), ele está no primeiro quadrante e deseja visitar o terceiro. Além disso, se Mário escolher o segundo quadrante como aquele a ser evitado, Mário deve caminhar até o terceiro, de forma que ele não passe pelo segundo. Para fazer isso, mário precisa, primeiramente, dar passos no eixo y, para só então dar passos no eixo x, evitando, assim, o segundo quadrante. Dado: Considere que a posição na qual Mário deseja chegar no quadrante de destino é (1, 1).",
+    "format_input": "A entrada consiste em três inteiros: x e y, os quais são as coordenadas do quadrante inicial, e um terceiro inteiro c, o qual indica o quadrante que deve ser evitado.",
+    "format_output": "A saída consiste em uma frase detalhando o número e sequência de passos na qual Mário deve realizar: \"K passos em x e K' passos em y\" ou \"K passos em y e K' passos em x\" Caso a caminhada não seja possível de realizar conforme as regras de Mário, deve-se imprimir: \"caminhada invalida\" Com a adição de uma quebra de linha ao final da frase.",
+    "topics": [
+        "decisão"
+    ]
+}

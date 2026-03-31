@@ -1,0 +1,13 @@
+{
+    "title": "Média móvel de 7 períodos corrigidos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcule a média móvel de 7 períodos, conforme várias publicações utilizaram para reportar os casos de covid-19. O seu programa recebe como entrada uma linha com valores inteiros separados entre si por vírgulas. De posse desses dados, deve calcular as médias móveis de 7 períodos (MM7), imprimindo cada uma delas com precisão de 2 casas decimais, em linhas separadas. Por exemplo, para calcular a MM7 referente ao período de 1 a 7, somam-se os valores 10, 20, 30, 35, 35, 40 e 40, totalizando 210. Em seguida, divide-se este valor por 7 (número de períodos) para obter a Média Móvel de 7 períodos, que no caso é 30.00. Da mesma forma, para calcular a MM7 referente ao período de 2 a 8, somam-se os valores 20, 30, 35, 35, 40, 40 e 45, totalizando 245. Em seguida, divide-se este valor por 7 (número de períodos) para obter a Média Móvel de 7 períodos, que no caso é 35.00. Dica: Utilize uma função corrigir_inteiro na sua solução (opcional). Defina uma função chamada corrigir_inteiro que receba um parâmetro chamado valor do tipo string contendo um valor que pode ser convertido para um valor inteiro, mas que pode ter letras no lugar dos algarismos. As letras aceitáveis são: A ou a no lugar 4, E ou e no lugar de 3, O ou o no lugar de 0, I ou i no lugar de 1, S ou s no lugar de 5. Por exemplo, se for passada a string “AEOIS9”, deve ser retornado pela função o valor inteiro 430159. Atenção: A função não deve ler dados e nem escrever na tela.",
+    "format_input": "A entrada contém uma linha com o valores inteiros separados entre si por uma vírgula. Considere que ao menos 7 valores serão fornecidos, já que com menos que isso não é possível calcular a Média Móvel de 7 períodos. Considere que o usuário pode digitar letras ao invés de algarismos e você deve fazer as devidas correções. Os erros aceitáveis são: A ou a no lugar 4, E ou e no lugar de 3, O ou o no lugar de 0, I ou i no lugar de 1 e S ou s no lugar de 5.",
+    "format_output": "O programa deve imprimir todas as Médias Móveis de 7 períodos que podem ser calculadas, considerando a entrada de dados fornecida, com 2 casas decimais e separadas entre si por uma quebra de linha.",
+    "topics": [
+        "decisão",
+        "entrada formatada",
+        "repetição",
+        "função"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Pré-Em-Pós-Ordem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade começou a se interessar por grafos. Ela começou analisando árvores binárias, mas ela está com uma certa dificuldade para visualizar a diferença entre percorrer a árvore em pré-ordem, em-ordem e pós-ordem. Ajude a Entidade a visualizar essa três formas de percorrer. Observação: A raíz vai ser sempre o nó 0.",
+    "format_input": "A primeira linha da entrada terá dois inteiros n (1 <= n <= 1000) e p (0 <= p <= n), representando a quantidade de nós e a quantidade de nós que são pais, ou seja, tem pelo menos um filho. Em seguida, virão p linhas, cada linha terá três inteiros: u, left, right, onde u é o nó pai, left é o filho da esquerda e right é o filho da direita. Se left ou right for -1, significa que aquele pai não tem esse filho. Observação: os nós são indexados de 0 até n - 1.",
+    "format_output": "Para cada forma de percorrer: imprima o nome e em seguida imprima a árvore utilizando essa forma de percorrer. Para facilitar a visualização da Entidade, imprima depth (profundidade) vezes o caractere '\\t' antes de imprimir o número do nó. Além disso, imprima o número usando \"%4d\" (adiciona espaços de forma que o número sempre ocupe 4 colunas).",
+    "topics": [
+        "Árvore"
+    ]
+}

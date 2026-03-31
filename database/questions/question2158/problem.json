@@ -1,0 +1,11 @@
+{
+    "title": "Palavras repetidas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um texto escrito em portugês, se deseja saber quais são as palavras que aparecem repetidas. Considere que cada palavra é formada com letras do alfabeto portugês incluindo caracteres acentuados.",
+    "format_input": "Um texto escrito numa única linha.",
+    "format_output": "As palavras que se repetem no texto, todas numa única linha, separadas por um espaço e escritas somente com letras minúsculas. A listagem obedece a ordem em que elas aparecem pela primeira vez no texto.",
+    "topics": [
+        "array",
+        "string"
+    ]
+}

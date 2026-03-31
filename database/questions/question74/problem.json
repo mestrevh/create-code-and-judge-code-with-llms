@@ -1,0 +1,12 @@
+{
+    "title": "Iguais a n",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia uma sequência de 101 números inteiros , verifique se o último número está presente nos 100 primeiros números e imprima as posições do array em que ele está presente.",
+    "format_input": "Uma sequência de 101 números inteiros",
+    "format_output": "Uma sequência de inteiros separados por um final de linha, onde cada inteiro representa a posição do array em que foi encontrado o último número lido. Se o último número não for encontrado nos 100 números anteriores não imprima nada",
+    "topics": [
+        "array",
+        "repetição",
+        "busca"
+    ]
+}

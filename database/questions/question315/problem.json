@@ -1,0 +1,13 @@
+{
+    "title": "Nomes que produzem cores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um fato curioso em HTML, é que se você digitar um nome, na área do codigo de cor de background, em vez do código fonte da cor, ainda assim ele reconhece como uma cor. Como no exemplo: <body bgcolor=\"chucknorris\"></body>. Produziria a cor vermelha, no background da página. Se usassemos: chucknorri. A cor permaneceria vermelha. Mas, ao usarmos: chucknorr, a cor agora será amarela. Eis o que acontece: Dígitos que faltam são tratados como 0 [...]. Um dígito incorrecto é interpretado simplesmente como 0. Por exemplo, os valores #f0f0f0, F0F0F, #FxFxFx e FxFxFx são todos iguais. Se aplicarmos algumas regras, temos o seguinte: Substituir todos os caracteres hexadecimais não válidos com 0 do chucknorris torna c00c0000000. Avance para o próximo número total de caracteres divisíveis por 3 (11 -> 12). Se faltarem digitos, preencha com 0s. c00c 0000 0000. Divididos em três grupos iguais, com cada componente representando o componente de cor correspondente de uma cor RGB: RGB (c00c, 0000, 0000). Truncar cada um dos argumentos da direita até 2 caracteres. Que dá o resultado RGB (c0, 00, 00) = #C00000 ou RGB (192, 0, 0). Escreva um programa capaz de transformar uma string num código RGB.",
+    "format_input": "Uma string, em caixa alta, de até 12 caracteres.",
+    "format_output": "O código RGB correspondente a cor que a string representa num código HTML de background, seguido de uma quebra de linha. Observe exemplo de entrada e saida.",
+    "topics": [
+        "array",
+        "acumulador",
+        "caractere",
+        "função"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Bit a Bit",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O mais novo microprocessador Ultra-CISC tem uma coleção de instruções para manipular bits individuais de um de seus registradores de 32 bits. As instruções são descritas da seguinte forma: CLEAR i: Salva 0 no bit i. SET i: Salva 1 no bit i. OR i j: Salva no bit i o OR lógico entre bit i e o bit j. AND i j: Salva no bit i o AND lógico entre bit i e o bit j. Faça um programa que determina o valor desse registrador após n instruções. Infelizmente, você não sabe o valor do registrador antes das n instruções.",
+    "format_input": "A entrada terá múltiplos casos de teste, e cada caso de teste começa com um inteiro n. Em seguida, virão n linhas, cada linha terá a descrição de uma instrução. A entrada para quando n for 0. 0 < n <= 100, 0 <= i e j <= 31, Existirá no máximo 100 casos de teste",
+    "format_output": "Para cada caso de teste, imprima uma linha com cada bit do registrador após as n instruções. Se não for possível determinar o valor de um bit após as n instruções, imprima '?' para esse bit.",
+    "topics": [
+        "ad-hoc",
+        "maratona"
+    ]
+}

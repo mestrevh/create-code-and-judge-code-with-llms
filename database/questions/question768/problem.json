@@ -1,0 +1,13 @@
+{
+    "title": "Soma números grandes utilizando arrays",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Por uma questão de limitação física, os tipos de uma linguagem de programação têm limites. Uma forma de manipular (armazenar e operar) grandes números inteiros (com mais de 20 dígitos) é utilizar um array de inteiros para armazenar cada um dos dígitos.Escreva um programa que soma dois números inteiros grandes (pelo menos um deles com mais de 20 dígitos). O programa deve receber os dois números como entrada e imprimir o número resultante da soma.ATENÇÃO: Use obrigatoriamente arrays para armazenar os números de entrada e computar a soma dos números. Lembre que o número resultante pode ter um dígito a mais que os o maior dos número de entrada. Os números de entrada podem ter tamanhos diferentes e, ainda assim, o resultante pode ter um dígito a mais que o maior número de entrada.",
+    "format_input": "A entrada é composta de 4 linhas: na 1a linha a quantidade de dígitos do 1o número, na 2a linha os dígitos do 1o número separados por espaço, na 3a linha a quantidade de dígitos do 2o número, e na 4a linha os dígitos do 2o número separados por espaço.",
+    "format_output": "O número grande resultante da soma dos números de entrada (SEM espaço entre os dígitos).",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "lógica matemática",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Fatorial",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Calcule os fatoriais de uma sequência de números dada.",
+    "format_input": "O programa receberá uma sequência de inteiros n, onde 0<=n<=12. O programa encerra a sua execução quando o número n dado for -1.",
+    "format_output": "Para cada n, deve-se imprimir um inteiro k seguido de um final de linha, correspondendo ao fatorial.",
+    "topics": [
+        "multiplas entradas",
+        "lógica matemática"
+    ]
+}

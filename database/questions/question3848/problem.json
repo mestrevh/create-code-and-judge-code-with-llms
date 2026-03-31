@@ -1,0 +1,10 @@
+{
+    "title": "Hello SECOMP 2021! [C]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Talvez a frase \"Hello World!\" seja uma das mais icônicas da computação. Sabendo disso, em uma tarde qualquer Z, o melhor amigo do Protagonista, desafiou ele para mais um desafio divertido. Dado um número inteiro N, o Protagonista deve fazer um programa que imprima a frase \"Hello SECOMP 2021!\" N vezes, separadas por uma quebra de linha, afinal, ambos estão animados com o início da semana de computação na UFAL. Como o Protagonista ainda não conhece muito de programação, ele pediu para que você resolvesse esse problema para ele.",
+    "format_input": "Um número inteiro 1 <= N <= 5.",
+    "format_output": "A saída deve consistir em N linhas, cada uma contendo a frase \"Hello SECOMP 2021!\".",
+    "topics": [
+        "ad-hoc"
+    ]
+}

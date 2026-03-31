@@ -1,0 +1,13 @@
+{
+    "title": "Alunos acima da média",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia um inteiro que representa a quantidade N de alunos de uma turma. Em seguida, deve ler a matrícula, nome e nota. Cada um destes valores é lido nesta ordem e em linhas separadas. Depois de ler os dados dos N alunos, o programa deve calcular a média e imprimir os alunos que estão acima da média ordenados pela nota. No final também deve ser impressa a média.",
+    "format_input": "Uma linha contendo um inteiro N que representa a quantidade de alunos. Em seguida, nas linhas seguintes devem ser lidos o número de matrícula (inteiro), o nome (string) e a nota (ponto flutuante) de cada um dos N alunos, sendo cada um destes dados fornecidos em uma linha.",
+    "format_output": "A saída consiste da lista com a nota, o número de matrícula e o nome dos alunos com nota acima da média. Os dados devem estar, ordenados pela nota. Em caso de empate na nota, a ordenação será pelo número de matrícula, que é único para cada aluno. Após os dados dos alunos, deve ser impressa a média, com 2 casas decimais. O formato de saída deve seguir o seguinte padrão: Matricula: 999999 Nome: NNN Nota: 99.9 Matricula: 999999 Nome: NNN Nota: 99.9 Media = 99.99 Note que há um espaço em branco após o caractere ':' e antes e depois do caractere '='.",
+    "topics": [
+        "estrutura de dados",
+        "array",
+        "decisão",
+        "ordenação"
+    ]
+}

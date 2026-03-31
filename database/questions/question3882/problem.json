@@ -1,0 +1,11 @@
+{
+    "title": "AB.P1.Médias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um algoritmo em Python que recebe cinco valores maiores do que zero e calcula suas médias aritmética, harmônica e geométrica.",
+    "format_input": "Cinco números inteiros maiores do que zero, lindos em uma mesma linha.",
+    "format_output": "Os valores calculados paras as médias aritmética, harmonica e geométrica com precisão de 3 casas decimais após a vírgula.",
+    "topics": [
+        "ponto flutuante",
+        "lógica matemática"
+    ]
+}

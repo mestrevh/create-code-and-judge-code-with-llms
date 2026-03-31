@@ -11,7 +11,7 @@ class GeminiService(LLMProvider):
     def __init__(self):
         genai.configure(api_key=config.GEMINI_API_KEY)
         
-        models = ['models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-3.1-flash-lite-preview']
+        models = ['models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-3.1-pro-preview', 'models/gemini-3-flash-preview']
         
         while True:
             print("Modelos:" + str(models))
@@ -47,6 +47,40 @@ class GeminiService(LLMProvider):
         except Exception as e:
             print(f"[GEMINI] API not response: {e}")
             return None
+    
+    def clear_format_question_to_json(self, content: str) -> str:
+        prompt = f"""
+            Você é um especialista avançado em extração e estruturação de dados.
+            
+            Sua tarefa é analisar o texto delimitado pelas tags <conteudo> e extrair as informações solicitadas, mapeando-as para um formato JSON estrito.
+
+            ### REGRAS DE PROCESSAMENTO E LIMPEZA ###
+            1. Remova absolutamente todas as tags HTML do texto (ex: <p>, <div>, <br>).
+            2. Decodifique todas as entidades HTML para seus caracteres reais correspondentes (ex: &gt; para >, &quot; para ", &amp; para &).
+            3. Garanta que o texto final seja limpo e direto, mantendo apenas o conteúdo útil.
+
+            ### ESTRUTURA DO JSON ESPERADA ###
+            O retorno deve seguir exatamente esta estrutura de chaves:
+            {{
+                "title": "Título da questão ou conteúdo",
+                "time_limit": "Tempo limite de execução",
+                "descrition": "Descrição do conteúdo (já limpa, sem HTML)",
+                "format_input": "Descrição detalhada do formato de entrada",
+                "format_output": "Descrição detalhada do formato de saída",
+                "topics": ["categoria1", "categoria2", "assunto_relacionado"]
+            }}
+
+            ### RESTRIÇÕES CRÍTICAS (OBRIGATÓRIO) ###
+            1. Retorne ÚNICA E EXCLUSIVAMENTE o objeto JSON.
+            2. NÃO utilize blocos de código Markdown (é terminantemente proibido o uso de ```json ou ```).
+            3. NÃO inclua saudações, explicações ou qualquer texto antes da chave de abertura {{ ou depois da chave de fechamento }}.
+
+            <conteudo>
+            {content}
+            </conteudo>
+            """
+        
+        return self.send_prompt(prompt=prompt)
     
     def generate_code(self, problem: ProblemRepository) -> bool:
         prompt = (

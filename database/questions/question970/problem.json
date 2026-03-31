@@ -1,0 +1,10 @@
+{
+    "title": "Onde estão as substrings?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá duas frases A e B, e deverá achar todas as sequências de caracteres em A que formam B, os caracteres devem estar em ordem, mas não necessariamente contínuos. Ex:  A = BBAANNAANNAA B = BANANA Repare que se eu escolher os índices em A: 1 3 5 7 9 11 ou 2 4 6 8 10 12 ou 2 3 5 8 9 12, todos eles formam B. Perceba que esses não são os únicos. sua tarefa é encontrar todos em ordem crescente de seus índices.",
+    "format_input": "Duas Frases A e B, uma por linha contendo apenas caracteres maiúsculos e espaços. obs: os espaços fazem parte da frase, ou seja, eles contam como um caractere normal. o tamanho de B sempre é menor ou igual ao tamanho de A. A terá no máximo 250 caracteres.",
+    "format_output": "Todas as sequências de incides de A que formam B. uma por linhas, e em ordem crescente de seus índices. caso não ache nenhuma sequência válida imprima -1.",
+    "topics": [
+        "backtracking"
+    ]
+}

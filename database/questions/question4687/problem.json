@@ -1,0 +1,11 @@
+{
+    "title": "Pilha de números",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Crie um programa que recebe e armazena as números inteiros em uma pilha. Esse programa deve ter as funcionalidades: push: Insere um valor na pilha. pop: Remove o valor mais antigo da pilha. sum: Exibe a soma de todos os elementos da pilha. pow: Exibe o quadrado de cada um dos elementos. average: Calcula e exibe a média dos valores na pilha. print: exibe os valores contidos na lista em ordem de inserção. exit: encerra o programa Dica: nas exibições com valores que devem ser separados por espaço, utilizem \"%d \"",
+    "format_input": "Cada linha contém um comando e no caso do push o valor a ser inserido.",
+    "format_output": "Cada linha da saída deve resultado ou do comando print, sum, pow ou average. Caso a pilha esteja vazia: print e pow exibem apenas uma quebra de linha. sum exibe apenas: 0 average exibe apenas: 0.00 pop não precisa exibir nada",
+    "topics": [
+        "estrutura de dados",
+        "ponteiro"
+    ]
+}

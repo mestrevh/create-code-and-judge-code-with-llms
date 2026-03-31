@@ -1,0 +1,10 @@
+{
+    "title": "Litros de refrigerante dietético.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um laboratório fictício concluiu que um adoçante artificial, comumente usado em refrigerantes dietéticos, pode causar a morte de ratos de laboratório. Quantos litros de refrigerante dietético poderiam levar uma pessoa à morte? Escreva o programa Python para dar essa resposta. Os dados de entrada serão a quantidade de adoçante artificial (mililitros - ml) necessária para matar um rato, o peso do rato (gramas - g) e o peso da pessoa (quilos - kg). Assuma que o refrigerante dietético contém um décimo de 1% de adoçante artificial por litro (l).",
+    "format_input": "Deverá ser informada a quantia de adoçante artificial (ml) necessária para matar um rato, seguida do peso do rato (g) e, por fim, o peso da pessoa (kg). Obs.: Os casos de testes foram baseados em valores inteiros.",
+    "format_output": "A saída deverá informar a quantidade de refrigerante (l) que poderia levar uma pessoa à morte. Obs.: as quantidades de refrigerante e peso da pessoa estão sendo apresentadas com apenas 1 (uma) casa decimal. Dica: %.1f. Lembre-se de que a saída de seu programa deverá seguir o mesmo formato do caso de teste apresentado como exemplo.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

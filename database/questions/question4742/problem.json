@@ -1,0 +1,10 @@
+{
+    "title": "Sequencial_3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um algoritmo para calcular e exibir a média ponderada de 2 notas dadas. Utilize constantes nos pesos (nota1= peso 6 e nota2= peso 4). A média ponderada consiste em multiplicar cada valor pelo seu respectivo peso, somar esses produtos e depois dividir o resultado pela soma total dos pesos. Exemplo: (nota1 x peso1 + nota2 x peso 2) / (peso1+peso2)",
+    "format_input": "Dois números reais, respectivamente, nota 1 e nota2.",
+    "format_output": "A média ponderada. Use 1 casa decimal.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

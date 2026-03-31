@@ -1,0 +1,10 @@
+{
+    "title": "Inversões",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma sequência de elementos r, uma inversão é um par (i, j) tal que i < j e r[i] > r[j]. Ou seja, uma inversão é nada mais do que um par de elementos que está fora da ordem na lista r. O objetivo deste problema é projetar um algoritmo com complexidade O(n log n) para computar o número de inversões de uma sequência.",
+    "format_input": "A quantidade n de elementos da sequência, em uma linha. Todos os n elementos, um em cada linha.",
+    "format_output": "A quantidade de inversões na sequência de entrada.",
+    "topics": [
+        "dividir e conquistar"
+    ]
+}

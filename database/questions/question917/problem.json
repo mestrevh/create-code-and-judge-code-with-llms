@@ -1,0 +1,11 @@
+{
+    "title": "Número maior.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia três números e mostre o maior deles.",
+    "format_input": "Os 3 números digitados.",
+    "format_output": "Maior número.",
+    "topics": [
+        "multiplas entradas",
+        "decisão"
+    ]
+}

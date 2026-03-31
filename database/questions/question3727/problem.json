@@ -1,0 +1,10 @@
+{
+    "title": "Escola de Artes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A escola de artes do Recife é bastante conhecida por ser rígida e formar excelentes profissionais. Para que seus alunos obtenham a aprovação eles devem possuir no máximo 5 faltas contabilizadas e média mínima 7. Escreva uma função \"CalculaMedia\" que receba como entrada 5 notas e retorne a media aritmética do aluno.",
+    "format_input": "Um número inteiro e cinco números reais, nessa ordem",
+    "format_output": "A mensagem \"APROVADO\" ou \"REPROVADO\"",
+    "topics": [
+        "função"
+    ]
+}

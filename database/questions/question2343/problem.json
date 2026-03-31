@@ -1,0 +1,11 @@
+{
+    "title": "Exibe Múltiplos (função sem retorno de valor)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetros três números naturais i, f e x e que deverá mostrar todos os valores múltiplos de x no intervalo [i, f]. O PROGRAMA PRINCIPAL deverá ler os valores e a FUNÇÃO deverá exibir os múltiplos.",
+    "format_input": "10 20 5",
+    "format_output": "10 15 20",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}

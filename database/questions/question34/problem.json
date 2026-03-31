@@ -1,0 +1,12 @@
+{
+    "title": "Saque de banco",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que gerencie a saída de notas em um caixa eletrônico. Recebendo a quantia, seu programa deve dizer quantas de cada nota devem ser retiradas. Utilize o critério da \"distribuição ótima\", ou seja, o menor número possível de cédulas. O caixa tem cédulas de R$50, R$20, R$10, R$5 e R$1.",
+    "format_input": "Um inteiro n representando a quantia a ser sacada",
+    "format_output": "Notas de 50: X\nNotas de 20: Y\nNotas de 10: Z\nNotas de 5: W\nNotas de 1: K\nonde X, Y, Z, W e K devem ser substituídos por números inteiros que correspondem a quantidade de notas",
+    "topics": [
+        "array",
+        "decisão",
+        "lógica matemática"
+    ]
+}

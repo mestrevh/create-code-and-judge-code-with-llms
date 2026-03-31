@@ -1,0 +1,10 @@
+{
+    "title": "O maior de dois números",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um Programa que peça dois números e imprima o maior deles",
+    "format_input": "3 4",
+    "format_output": "4",
+    "topics": [
+        "decisão"
+    ]
+}

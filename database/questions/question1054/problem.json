@@ -1,0 +1,10 @@
+{
+    "title": "Comprimento de um arco e área do setor.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Calcule o comprimento do arco de uma circunferência (a curva AB na figura) e a área do seu setor (delimitado pelo arco e hachurado de cinza na figura) usando os seguintes parâmetros: O raio da circunferência (entre 1.0 e 50.0) A medida do ângulo em graus (entre 0.0 e 359.0) Use pi = 3.14 O valor de saída deve ser arredondado usando 2 casas decimais.",
+    "format_input": "O raio da circunferência (entre 1.0 e 50.0) A medida do ângulo em graus (entre 0.0 e 359.0)",
+    "format_output": "A medida do comprimento do arco. A área do setor.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

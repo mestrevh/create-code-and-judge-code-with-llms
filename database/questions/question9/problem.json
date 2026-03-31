@@ -1,0 +1,13 @@
+{
+    "title": "Caracteres",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você deve ler uma sequência de caracteres e imprimir na ordem inversa da leitura.",
+    "format_input": "Consiste de um inteiro n, indicando quantos caracteres devem ser lidos e uma sequencia de n caracteres. A entrada termina quando n=0. Considere que n é sempre n<=100000.",
+    "format_output": "n caracteres impressos na ordem inversa",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "repetição",
+        "caractere"
+    ]
+}

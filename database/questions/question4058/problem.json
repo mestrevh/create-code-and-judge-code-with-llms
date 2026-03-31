@@ -1,0 +1,10 @@
+{
+    "title": "Triglicerídeos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio fez um exame de sangue e está ansioso por saber o resultado. Você deseja ajudá-lo escrevendo um programa que leia o valor obtido no exame e, de acordo com a tabela abaixo contendo as faixas de valores, informe o resultado do exame. Faixa / Resultado: Nulo ou positivo e menor que 150 mg/dl / DESEJAVEL; De 150 mg/dl a 199 mg/dl / LIMITROFE; De 200 a 500 mg/dl / ALTO; Maior que 500 mg/dl / MUITO ALTO.",
+    "format_input": "Uma linha contendo o valor (inteiro) dos triglicerídeos em mg/dl.",
+    "format_output": "O programa deve imprimir uma linha contendo mensagem no formato exemplificado abaixo (sem acentos). Considerando como exemplo o valor de 120 mg/dl, teríamos a mensagem: Triglicerideos 120 mg/dl => DESEJAVEL. Se o valor dos triglicerídeos for negativo, deve dar uma mensagem indicando valor fora da faixa no lugar da mensagem acima.",
+    "topics": [
+        "decisão"
+    ]
+}

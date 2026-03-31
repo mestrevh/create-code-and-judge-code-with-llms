@@ -1,0 +1,10 @@
+{
+    "title": "Máquina de Troco++ [GEMA PC 3.0 A 2]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A única diferença desse problema para o \"Máquina de Troco\" (https://thehuxley.com/problem/3347/edit/description) é a restrição de q_i. Entidade, X e Nil foram ao cinema. Ao comprar os ingressos, a recepção estava sem troco e pediu para entregar o troco depois do filme. Nesse momento, a recepção conseguiu trocos de 3 valores diferentes. Mas não se sabe se é possível fornecer troco para todos. Faça um programa que descubra se é possível dar troco Entidade, X e Nil.",
+    "format_input": "A entrada terá múltiplos casos de teste, e a primeira linha da entrada terá um inteiro (t), indicando quantos casos de testes. Em seguida virão t casos de teste seguindo o padrão abaixo de entrada: A primeira linha da entrada terá 3 inteiros (c_i), indicando quanto de troco Entidade, X e Nil devem receber, respectivamente. As 3 linhas seguintes terão dois inteiros (q_i e v_i), indicando que existem q_i que valem v_i. 1 <= t <= 100, 0 <= c_i <= 100, 1 <= q_i <= 15, 1 <= v_i <= 50.",
+    "format_output": "Se for possível entregar o troco para Entidade, X e Nil: imprima \"Yes\"; senão imprima \"No\".",
+    "topics": [
+        "ad-hoc"
+    ]
+}

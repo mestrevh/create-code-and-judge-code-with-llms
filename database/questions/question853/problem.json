@@ -1,0 +1,11 @@
+{
+    "title": "Desenhando Retângulos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A computação gráfica é a área da computação destinada à geração de imagens em geral — em forma de representação de dados e informação, ou em forma de recriação do mundo real. Ela pode possuir uma infinidade de aplicações para diversas áreas, desde a própria informática, ao produzir interfaces gráficas para software, sistemas operacionais e sites na Internet, quanto para produzir animações e jogos. Sua empresa foi contratada para produzir um jogo no terminal e uma das requisições do jogo é mostrar se um retângulo estar ou não estra preenchido e você ficou responsável por produzir o retângulo na tela. Considere o canto inferior esquerdo como o ponto (0,0).",
+    "format_input": "Duas linhas, a primeira terá três inteiros H, W dimensões do plano e P indicando se o retângulo tá preenchido ou não, a segunda linha terá quatro inteiros EX, EY indicando o ponto E superior esquerdo do retângulo e DX, DY indicando o ponto D inferior direito. P = 1, Retângulo preenchido P = 0, Retângulo não preenchido O retângulo deve ser desenhado com '*' e o plano com '.'. 1 <= H, W <= 1000 0 <= DY < EY <= H 0 <= EX < DX <= W",
+    "format_output": "O desenho do plano com o retângulo.",
+    "topics": [
+        "repetição",
+        "caractere"
+    ]
+}

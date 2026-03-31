@@ -1,0 +1,10 @@
+{
+    "title": "Desenha Moldura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa uma função que desenhe um retângulo usando os caracteres ‘+’ , ‘−’ e ‘|’. Esta função deve receber dois parâmetros, linhas e colunas.",
+    "format_input": "Dois valores inteiros, sendo o primeiro representando a quantidade de linhas e o segundo a quantidade de colunas.",
+    "format_output": "A moldura conforme a quantidade de linhas e colunas.",
+    "topics": [
+        "função"
+    ]
+}

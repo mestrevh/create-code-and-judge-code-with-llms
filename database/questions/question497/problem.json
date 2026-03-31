@@ -1,0 +1,11 @@
+{
+    "title": "Medindo a audiência",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A emissora ZWT está muito preocupada com seus baixos índices de audiência durante a semana. Por isso, ela resolveu fazer medições diárias das 20h às 22h para saber que programas agradam mais o público. Às segundas e quintas são exibidas novelas, às quartas são transmitidos jogos de futebol, e nas terças e sextas a emissora exibe filmes. Escreva um programa que receba como entrada os índices de audiência registrados de segunda a sexta e exiba a média de audiência da semana e o tipo de programa que atraiu o maior índice.",
+    "format_input": "Serão dados 5 números reais correspondendo às audiências de segunda à sexta.",
+    "format_output": "Um valor real com duas casas decimais correspondendo à média de audiciência, e um String em letras maiúsculas (NOVELA, FUTEBOL ou FILME) correspondendo ao tipo de programa que atraiu mais audiência.",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

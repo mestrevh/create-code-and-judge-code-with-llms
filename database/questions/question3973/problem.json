@@ -1,0 +1,11 @@
+{
+    "title": "Compra com cashback",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você está entrando no mundo do Cashback e está planejando fazer um upgrade no seu cartão. O seu cartão atual Gold oferece 1% de cashback em qualquer compra, até um certo limite de valor, mas é possível obter cartões Platinum ou Infinity, pagando anuidade ou com um gasto mínimo, que oferecem mais benefícios. O cartão Platinum oferece 2,5% de cashback e o Infinity 5%, sendo que apenas este último não tem limite para o valor do cashback em cada compra. Como os cálculos são um pouco complexos, você decidiu criar um programa para automatizar o cálculo. Observação: É necessária a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão",
+    "format_input": "Serão fornecidos os seguintes dados: Linha 1: Categoria do cartão, que pode ser Gold, Platinum ou Infinity (podendo ser informado com letras maiúsculas, minúsculas ou misturadas) Linha 2: Valor da compra (ponto flutuante com 2 casas decimais) Linha 3: Limite atual do cashback (ponto flutuante com 2 casas decimais)",
+    "format_output": "O valor (ponto flutuante com 2 casas decimais) do cashback calculado conforme as regras estabelecidas pelo cartão.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

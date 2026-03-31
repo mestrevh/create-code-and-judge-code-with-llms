@@ -1,0 +1,11 @@
+{
+    "title": "Penaltis",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A final do Torneio Universitário de Futebol se aproxima, \"Educação Fisica\" x \"Computação.rar\". O jogo terá 90 minutos, terminando empatado, Prorrogação, persistindo o empate, Penaltis. Como as duas equipes possuem uma zaga muito boa e goleiros tão bons quanto, o jogo provavelmente irá para os penaltis. Para não ter que ficar anotando cada gol ou defesa nas cobranças de penalti, o técnico do time da Computação te pediu para fazer um simples programa em C para isso. Os penaltis funcionam da seguinte maneira: 5 cobranças para cada lado, intercaladas. Se ao terminar das 5, um dos times tiver mais gols, ele vence. Se for impossivel um time alcançar o outro na pontuação, mesmo antes do fim das 5 cobranças, ele já é considerado derrotado. Se chegarem as 5 cobranças cada, e estiverem empatados em numero de gols, cada um terá mais uma cobrança para tentar o desempate, as chamadas \"Batidas Alternadas\", até que um saia vencedor.",
+    "format_input": "O resultado da cobrança de cada time, intercaladamente, começando pelo time da Computação. 0 - Se o goleiro adversário defendeu. 1 - Se foi gol. Exemplo: C: 0 EdF: 1 C: 1 EdF: 0 (Sem os nomes antes, só foram usados no exemplo para mostrar como funciona.)",
+    "format_output": "Uma linha contendo: \"COMPUTACAO.RAR\" se o time da Computação venceu ou \"EDUCACAO FISICA\" se o time da Educação Física venceu. Seguido de uma quebra de linha.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador"
+    ]
+}

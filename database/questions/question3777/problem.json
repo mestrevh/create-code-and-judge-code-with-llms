@@ -1,0 +1,10 @@
+{
+    "title": "Sistema de Ingressos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um empresário está querendo abrir um novo lugar de entretenimento na cidade e contratou você para criar um sistema de venda ingressos. Ele ainda não sabe no que vai investir, pode ser um cinema, um ginásio esportivo, um teatro... Ele te informa que os ingressos terão um valor de R$ 15,00 de segunda-feira a quinta-feira, e de sexta-feira a domingo o valor do ingresso será dobrado. - Em qualquer dia da semana, estudantes tem desconto de 30% no ingresso. - Nos finais de semana, sócios tem desconto de 20% no ingresso. Obs: Não existe a possibilidade de um cliente ser sócio e estudante! Obs 2: Para essa questão considere a sexta-feira como final de semana",
+    "format_input": "Você deverá receber um inteiro correspondente ao dia da semana: 1 - SEGUNDA-FEIRA 2 - TERÇA-FEIRA 3 - QUARTA-FEIRA 4 - QUINTA-FEIRA 5 - SEXTA-FEIRA 6 - SÁBADO 7 - DOMINGO Em seguida deverá confirmar se o cliente é estudante: (0 - NÃO, 1 - SIM). Depois confirmar se o cliente é sócio: (0 - NÃO, 1 - SIM).",
+    "format_output": "Imprimir o tipo do ingresso (COMUM, SOCIO, ESTUDANTE) e o valor do ingresso com duas casas decimais.",
+    "topics": [
+        "decisão"
+    ]
+}

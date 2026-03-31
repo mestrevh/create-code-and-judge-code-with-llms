@@ -1,0 +1,10 @@
+{
+    "title": "Fatorial simples",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um inteiro não negativo n, imprima seu fatorial.",
+    "format_input": "Inteiro não negativo n.",
+    "format_output": "Inteiro com o valor de fatorial de n.",
+    "topics": [
+        "repetição"
+    ]
+}

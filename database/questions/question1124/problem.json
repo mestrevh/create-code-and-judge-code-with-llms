@@ -1,0 +1,10 @@
+{
+    "title": "Simples multiplicação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado dois números faça a multiplicação deles e imprima.",
+    "format_input": "Consiste de dois inteiros A e B, um em cada linha. A e B são Bignumber. 0 <= A,B <= 10³⁰",
+    "format_output": "Imprima em uma linha com o produto dos dois números.",
+    "topics": [
+        "array"
+    ]
+}

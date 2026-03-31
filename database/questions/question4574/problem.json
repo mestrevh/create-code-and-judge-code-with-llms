@@ -1,0 +1,12 @@
+{
+    "title": "Divisão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Abraão é um competidor que adora números, mas está com um problema e precisa da sua ajuda. Ele tem dois números inteiros positivos a e b. Em cada rodada, é possível incrementar o valor de a em 1(substituir a por a+1). Sua tarefa é ajudar Abraão a saber quantas rodadas são necessárias para que o número a seja divisível pelo número b. Em alguns casos, é possível ter 0 rodada, no caso em que ajá seja divisível por b. Por exemplo, considere a=10 e b=5. Como o número a já é divisível pelo número b, precisaremos de 0 rodada. Considere outro exemplo em que a=10 e b=4. Na 1a rodada, o número a se torna 11mas não é divisível por b=4. Na 2a rodada, o número a se torna 12 e se torna divisível por b=4.Logo para essa entrada, precisaremos de 2 rodadas.",
+    "format_input": "Cada caso de teste contém duas linhas representando os números a e b, respectivamente.",
+    "format_output": "Para cada caso de teste, imprima a quantidade de rodadas para que a seja divisível por b.",
+    "topics": [
+        "array",
+        "decisão",
+        "lógica matemática"
+    ]
+}

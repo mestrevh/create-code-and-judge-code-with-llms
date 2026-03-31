@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Repetição - G",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[for] Faça um programa que lê um número natural e exibe o fatorial desse número. Lembre-se: 5! é 120, porque 5 * 4 * 3 * 2 * 1 = 120. Use um acumulador e um contador dentro de um laço de repetição.",
+    "format_input": "Um número natural.",
+    "format_output": "O fatorial do número dado como entrada.",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Subtrai dois inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois inteiros, efetue a subtração.",
+    "format_input": "5 2",
+    "format_output": "3",
+    "topics": [
+        "obi"
+    ]
+}

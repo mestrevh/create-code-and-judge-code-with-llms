@@ -1,0 +1,10 @@
+{
+    "title": "Adotar, um ato de amor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No Brasil, muitas crianças aguardam a chance de ter uma família. Para efetivar uma adoção, alguns critérios precisam ser cumpridos segundo o Estatuto da Criança e do Adolescente, são eles: Art. 42. Podem adotar os maiores de 18 (dezoito) anos, independentemente do estado civil. § 1º Não podem adotar os ascendentes e os irmãos do adotando. § 2o Para adoção conjunta, é indispensável que os adotantes sejam casados civilmente ou mantenham união estável, comprovada a estabilidade da família. § 3º O adotante há de ser, pelo menos, dezesseis anos mais velho do que o adotando. Art. 45. A adoção depende do consentimento dos pais ou do representante legal do adotando. § 1º. O consentimento será dispensado em relação à criança ou adolescente cujos pais sejam desconhecidos ou tenham sido destituídos do poder familiar. § 2º. Em se tratando de adotando maior de doze anos de idade, será também necessário o seu consentimento.",
+    "format_input": "A Idade do Adotante. Se o adotante é irmão ou ascendente. Se é Adoção Conjunta. Adotantes são casados ou união estável. Idade do Adotando. Pais Desconhecidos ou Adotando Destituído do Poder Familiar? Consentimento dos pais quando não desconhecidos. Consentimento do adotando maior de doze anos de idade.",
+    "format_output": "Se pode ou não adotar. Caso possa, você deve imprimir: Pode adotar. Caso não possa, você deve imprimir: Nao pode adotar. Perceba que não existe acento na sua saída.",
+    "topics": [
+        "decisão"
+    ]
+}

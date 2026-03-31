@@ -1,0 +1,11 @@
+{
+    "title": "Caracteres em comum",
+    "time_limit": "4 segundo(s)",
+    "descrition": "Considerando duas strings fornecidas pelo usuário, forneça o número de caracteres em comum entre elas. Caracteres repetidos contam em cada ocorrência.",
+    "format_input": "O usuário deve fornecer duas strings, uma após a outra.",
+    "format_output": "O programa deve responder como um número inteiro, representando o número de caracteres em comum.",
+    "topics": [
+        "array",
+        "string"
+    ]
+}

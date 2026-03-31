@@ -5,7 +5,8 @@ from utils.file_manager import file_manager
 from typing import List
 from repositories.problem_repository import ProblemRepository
 from core.config import config
-
+from services.gemini_service import GeminiService
+import json
 
 class DatabaseRepository(DatabaseInterface):
         
@@ -103,10 +104,14 @@ class DatabaseRepository(DatabaseInterface):
         
         return examples
     
-    def __create_question(self, data: dict, path: str, id: int, cases_test: list) -> bool:
+    def __create_question(self,
+                          data: dict,
+                          path: str,
+                          id: int,
+                          cases_test: list,
+                          agent: GeminiService) -> bool:
         
         if len(data['choices']) == 0 and data['baseLanguage'] == None:
-            
             problem = f"Título: {data["name"]}\n"
             
             problem += "Topicos do problema: "
@@ -124,7 +129,13 @@ class DatabaseRepository(DatabaseInterface):
             file_manager.create_dir(path)
             
             file_manager.create_file("problem.txt", path, problem)
-
+            if not file_manager.file_exist(path=f"{path}/problem.json"):
+                problem_json = agent.clear_format_question_to_json(problem)
+                json_valid = json.loads(problem_json)
+                
+                json_valid = json.dumps(json_valid, indent=4, ensure_ascii=False)
+                file_manager.create_file("problem.json", path, problem_json)
+            
             if len(cases_test) > 0:
                 
                 for i in range(len(cases_test)):
@@ -147,7 +158,6 @@ class DatabaseRepository(DatabaseInterface):
         else:
             return False
             
-    
     def get_questions_the_huxley(self, link:str = "", cases_test:bool = False) -> bool:
         
         path = "database"
@@ -161,14 +171,16 @@ class DatabaseRepository(DatabaseInterface):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Firefox/148.0"
         }
         
+        agent = GeminiService()
+        
         count = 0
         id = 0
-        while count != 1000:
+        while count != 5000:
             
             response = request_web.get(link=link + "/" + str(id),
                                        headers=headers)
             
-            if response is None:
+            if response is None or file_manager.file_exist(path=f"database/questions/question{id}/problem.txt"):
                 id += 1
                 count += 1
                 continue
@@ -181,7 +193,7 @@ class DatabaseRepository(DatabaseInterface):
                                         headers=headers)
             
             if response is not None:
-                if self.__create_question(response, path, id, cases):
+                if self.__create_question(response, path, id, cases, agent):
                     count = 0
                 else:
                     print(f"Questão {id} não é para produzir código")

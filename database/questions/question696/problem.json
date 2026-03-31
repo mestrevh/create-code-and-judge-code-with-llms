@@ -1,0 +1,11 @@
+{
+    "title": "Quantas vezes x apareceu?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia 10 números inteiros. Depois leia mais um número inteiro x. Sua missão é imprimir quantas vezes x apareceu entre os 10 primeiros inteiros lidos.",
+    "format_input": "11 linhas, cada uma contendo um inteiro. A última linha é o número x a ser buscado. Os inteiros são todos entre 0 e 10000.",
+    "format_output": "Um número inteiro indicando quantas vezes x apareceu.",
+    "topics": [
+        "array",
+        "acumulador"
+    ]
+}

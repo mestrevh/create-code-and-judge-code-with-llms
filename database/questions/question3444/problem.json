@@ -1,0 +1,11 @@
+{
+    "title": "A Saga do Protagonista: Parte 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Agora, em uma manhã qualquer, Z (o melhor amigo do Protagonista) desafiou ele para mais um jogo divertido! Z cria dois arrays de inteiros A e B que possuem tamanho N e M respectivamente (N >= M), e desafia o Protagonista para o seguinte problema: O Protagonista deve escolher um subarray do array A e que tenha um tamanho igual a M, tal que, a quantidade de movimentos necessários para fazer com que os dois arrays se tornem iguais seja a menor possível. Considere que, um subarray é uma parte contígua de um array, que começa de um índice L e vai até um índice R (0 <= L <= R <= N - 1). Por exemplo: Se temos um array A = [1, 2, 3, 4, 5]. - [1], [4, 5], [2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4, 5] são exemplos de subarrays de A. - [2, 1], [1, 3, 5], [2, 4] não são subarrays de A. Em um movimento, o Protagonista pode escolher qualquer elemento do subarray escolhido e mudar esse elemento para qualquer outro valor inteiro. Por exemplo: Se o subarray escolhido A´ = [1, 2, 3, 4] e o array B = [1, 2, 4, 3]. Precisaremos de dois movimentos para poder igualar os dois arrays: em um movimento: A´ = [1, 2, 3, 4] -> A´ = [1, 2, 4, 4] no outro movimento: A´ = [1, 2, 4, 4] -> A´ = [1, 2, 4, 3] Com isso, o Protagonista pediu a sua ajuda para resolver esse problema e ao final, deve ser impresso o subarray escolhido e um inteiro equivalente a quantidade mínima de movimentos para igualar esse subarray ao array B. OBS: Se existirem vários subarrays que precisam da mesma quantidade de movimentos e que puderem ser a resposta, imprima o subarray que começa do menor índice possível. OBS2: Cuidado, após a impressão do último inteiro do subarray, NÃO deve ser impresso o espaço, apenas a quebra de linha.",
+    "format_input": "Na primeira linha terá um inteiro (1 <= N <= 100). Em seguida virão os N inteiros equivalente ao array A (1 <= A[i] <= 1000). Na terceira linha terá um inteiro (1 <= M <= N). Em seguida virão os M inteiros equivalente ao array B (1 <= B[i] <= 1000).",
+    "format_output": "Ao final, deve ser impresso o subarray escolhido, seguido de uma quebra de linha e em seguida um inteiro equivalente a quantidade mínima de movimentos para igualar esse subarray ao array B.",
+    "topics": [
+        "array",
+        "recursão"
+    ]
+}

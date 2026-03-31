@@ -1,0 +1,11 @@
+{
+    "title": "Pi Leibniz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para implementar uma série convergente, que calcula o número Pi de Leibniz. Você deve ler um inteiro N, maior ou igual a 1, e imprimir o somatório dos N primeiros termos da série multiplicado por 4. A série utiliza o padrão apresentado abaixo: Pi/4 = 1/1 - 1/3 + 1/5 - 1/7 + 1/9 - ... Dicas: - utilize o number format para formatar sua saída. Veja um exemplo para formatar o número num com 3 dígitos: import java.text.NumberFormat; NumberFormat nf; nf = NumberFormat.getNumberInstance( ); nf.setMaximumFractionDigits(3); resposta = nf.format(num) - o numberformat utiliza as configurações regionais do seu computador. Portanto, mesmo que as configurações regionais do seu computador faça com que sua resposta seja impressa usando vírgula para separar os decimais, submeta-a, pois o Huxley vai gerar respostas com ponto e aceitará o resultado, caso o valor esteja correto; - cuidado com a divisão por zero. O resultado será infinito, se não tratar esse caso; - lembre-se de alternar os sinais; - a saída deve conter exatamente 5 dígitos após a vírgula. Por exemplo: 3.14159",
+    "format_input": "Um número inteiro.",
+    "format_output": "Um número do tipo double, com exatamente 5 dígitos depois da vírgula. Por exemplo: 3.14159",
+    "topics": [
+        "acumulador",
+        "ciclos"
+    ]
+}

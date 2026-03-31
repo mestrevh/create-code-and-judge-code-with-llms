@@ -1,0 +1,10 @@
+{
+    "title": "Tamanho do Voltorb",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Biu, um garoto curioso, queria saber a diferença de tamanho entre um Voltorb e uma Pokébola. Para isso ele utilizou um sistema em que ele enchia uma piscina retangular com dimensão da base de 5m x 4m e media o quanto a água subia, em centímetros, e assim calculava o diâmetro da Pokébola e do Voltorb. Sabe-se que o Voltorb, que tem uma altura de 0,5m (considere ele uma esfera perfeita), e a Pokébola, que tem 7cm de diâmetro, ficam completamente submersos. Seu objetivo é fazer um programa que dada a quantidade de Voltorbs e Pokébolas colocada por Biu mostre o quanto a água subiu, em centímetros. Considere π = 3,14.",
+    "format_input": "V P. V - número inteiro positivo. A - número inteiro positivo. A linha única de entrada é composta pela quantidade de Voltorbs e de Pokébolas respectivamente. obs: A entrada deve ser considerada amigável, ou seja, sempre estará no formato descrito.",
+    "format_output": "Altura da piscina aumentou: H cm. H - double. As linhas de saída são compostas por um texto seguido, seguido pela variação da altura da piscina em cm, com um texto indicando a unidade. obs: A altura deve ser aproximada em uma casa decimal.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

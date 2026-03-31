@@ -1,0 +1,10 @@
+{
+    "title": "Dias entre duas datas do mesmo ano",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que calcule quantos dias há entre duas datas do mesmo ano. Tenha cuidado com ano bissexto.",
+    "format_input": "Duas datas ***",
+    "format_output": "A diferença em dias entre as duas datas",
+    "topics": [
+        "ad-hoc"
+    ]
+}

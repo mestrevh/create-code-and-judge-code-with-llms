@@ -1,0 +1,10 @@
+{
+    "title": "Alice no País das Maravilhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após ficar depressiva ao receber as notas da área 2, Alice decide ir ao país das maravilhas. Para isso, ela irá coletar as frases que estão no último andar do bloco E. Sua função será descriptografar essas frases e achar onde estão os brownies! A partir das seguintes regras descriptografe as frases: -Você receberá n frases -De cada frase você pegará uma substring com um número x de letras -Esse número X de letras será a raiz do número de letras da frase -A primeira letra pega para a substring será a primeira vogal que aparecer, o resto serão as letras seguintes -Junte as substrings achadas por ordem lexicográfica Dica: Podem usar a biblioteca math.h",
+    "format_input": "Um número n, que será a quantidade de frases que você receberá. E em seguida, n strings com somente letras MAÍUSCULAS. Exemplo: 4 FWAFAW GERGWGEW AWVWEH WRTTA",
+    "format_output": "A string resultante da concateneação das substrings ex: AAFAWER",
+    "topics": [
+        "string"
+    ]
+}

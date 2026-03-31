@@ -1,0 +1,11 @@
+{
+    "title": "Trama",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ainda no apoio à editora de passatempos, outro desafio curioso é o trama, onde é apresentado um quadro com letras e um conjunto de palavras. As palavras usam todas as letras do quadro sem repetir e sem sobrar nenhuma. As palavras somente são escritas no quadro em uma sequência de movimentos horizontal e vertical, nunca diagonal. A você foi solicitado apresentar um gabarito de solução para cada desafio, indicando quais sequências de linhas e colunas cada palavra é encontrada no quadro.",
+    "format_input": "A entrada contém vários casos de teste. Cada caso de teste é um desafio que contém na primeira linha os valores inteiros N (0 < N < 20), A (0 < H < 10) e L (0 < L < 10) que são: o número N de palavras do quadro, a altura A do quadro em número de letras e a largura L do quadro em número de letras. Em seguida nas próximas N linhas se encontram as N palavras do desafio, e após isto, nas A linhas seguintes as A linhas de formação do quadro com L letras cada linha, sem qualquer separação entre cada letra. A entrada termina com N = A = L = 0",
+    "format_output": "Para cada caso de teste da entrada seu programa deve gerar N linhas de saída ondena i-ésima linha (0 < i <= N) teremos a solução da i- ésima palavra do desafio de entrada. A solução consiste de uma sequência de pares de números {a, l}, representando a posição de cada letra da palavra no quadro. Cada par é descrito por dois números inteiros unidos e um par é separado do próximo por um único espaço em branco. A saída de cada caso de teste é separada da saída do próximo por uma única linha em branco",
+    "topics": [
+        "grafo",
+        "backtracking"
+    ]
+}

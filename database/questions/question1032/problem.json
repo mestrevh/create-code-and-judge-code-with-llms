@@ -1,0 +1,11 @@
+{
+    "title": "Quantas tocas existem?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em uma região existe uma espécie de toupeiras, elas fazem diversos buracos. Esses buracos têm uma ligação com outro buraco, esses buracos e suas ligações foram catalogados. Uma toca de toupeira é caracterizado por um conjunto de buracos interligados. Cada buraco tem exatamente uma ligação, essa ligação é única e sempre forma um ciclo. Os buracos foram enumerados de 0 a N-1 e nunca tem dois buracos com o mesmo identificador e nem um buraco recebe duas ou mais ligações. Dado uma lista de ligação de cada buraco, informe quantas tocas diferentes existe na região. 1 <= N <= 10000 No exemplo abaixo, existem 6 buracos. A ordem da entrada já indica a ligação daquele buraco. No exemplo, a posição 0 do array dado na entrada indica que buraco 0 está conectado ao 1. Já a posição 1, indica que ele está conectado ao 2, a posição 2 indica que ele está conectado ao 0, a posição 3 indica que ele está conectado ao 5 e assim por diante. 6 1 2 0 5 3 4",
+    "format_input": "A primeira linha tem um inteiro N, indicando o número de buracos, após isso você receberá uma segunda linha com N inteiros. Esses valores correspondem a ligação do enésimo buraco.",
+    "format_output": "Um inteiro correspondendo a quantidade tocas diferentes.",
+    "topics": [
+        "array",
+        "recursão"
+    ]
+}

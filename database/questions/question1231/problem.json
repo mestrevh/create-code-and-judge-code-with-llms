@@ -1,0 +1,10 @@
+{
+    "title": "L3Q1 - Loja de Varinhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Olivaras percebeu que está tendo problemas para controlar a quantidade de varinhas que vende, para assim poder produzir mais. Para isso ele precisa computar quantas varinhas ele vende de cada tipo, sabendo a quantidade que possui no estoque. Além disso, é importante ele saber quanto dinheiro ele recebe por cada varinha vendida. Sua função é ajudar o Olivaras escrevendo um programa que, recebendo o número de varinhas disponíveis de cada tipo, abate do estoque o número de varinhas vendidas e computa o preço. Para te ajudar, ele te passou o valor de cada moeda e os preços dos quatro tipos de varinhas que estão disponíveis. Moedas: 17 Sicles = 1 Galeão, 29 Nuques = 1 Sicle. Varinhas: Pena de Fênix = 5 Galeões 16 Sicles 22 Nuques; Corda de Coração de Dragão = 1 Galeão 2 Sicles 28 Nuques; Pelo da Cauda de Unicórnio = 2 Galeões 10 Sicles 12 Nuques; Pelo da Cauda de Testrálio = 3 Galeões 10 Sicles. obs: Você precisa salvar o estoque das varinhas, obrigatoriamente, em um array de tamanho 4.",
+    "format_input": "F D U T R. F - número natural, D - número natural, U - número natural, T - número natural, R - String. A Primeira linha é referente ao número disponível de varinhas de Pena de Fênix, Corda de Coração de Dragão, Pelo de Cauda de Unicórnio e Pelo de Cauda de Testrálio, respectivamente. Depois, um número indefinido de linhas contendo String podendo ser {Fenix, Dragao, Unicornio, Testralio} representando cada linha uma varinha vendida. A entrada para quando a entrada for FIM.",
+    "format_output": "K I. G S N. K - String, I - número natural, G - número natural, S - número natural, N - número natural. Quatro linhas, onde K é String sendo {Fenix, Dragao, Unicornio, Testralio} seguindo pela quantidade de varinhas disponiveis em estoque, I. Três valores representando o valor em caixa, onde G, S e N são os valores de Galeões, Sicles e Nuques respectivamente.",
+    "topics": [
+        "array"
+    ]
+}

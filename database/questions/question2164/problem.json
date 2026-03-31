@@ -1,0 +1,11 @@
+{
+    "title": "Coloring",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um dia, para relaxar, a Entidade começou a colorir mandalas. Ela acha essa atividade muito interessante e gostaria de ver as mandalas de várias cores diferentes sem ter que colorir todas manualmente. Então, ajude a entidade a colorir as mandalas. Para isso, você receberá inicialmente a configuração da mandala, que é dado por um retângulo preenchido por dois tipos de caracteres '.' (vazio) e '#' (borda). Na sequência, você receberá uma série de posições (i, j) e cores (um caracter) para pintar a mandala. Cada pincelada cameça pintando da posição dada (se não for uma borda) e se espalha em quatro direções (cima, baixo, esquerda e direita) até as bordas (caracter '#' ou fim do retângulo).",
+    "format_input": "A primeira linha da entrada consiste de dois inteiros n e m, representando a quantidade de linhas e colunas, respectivamente. Em seguida, virão n linhas com m colunas, representando a configuração da mandala. Então, virá um inteiro t, representando a quantidade de pintadas que devem ser feitas. Seguido por t linhas, cada linha com três inteiros i, j e c representando a posição na mandala em que a pintada deve ser iniciada (i, j) e a cor (c) dessa pintada, respectivamente.",
+    "format_output": "A saída deverá ser a mandala para cada pintada executada.",
+    "topics": [
+        "flood fill",
+        "recursão"
+    ]
+}

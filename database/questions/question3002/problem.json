@@ -1,0 +1,11 @@
+{
+    "title": "Acampamento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fábio é um homem de idade avançada que ama acampar durante suas férias, ele sempre costuma se juntar a seus amigos e viajar para o mesmo acampamento de sempre : Ayalla's Park. Todas as vezes que Fábio foi ao acampamento, nunca houve problemas com a alocação de pessoas, porém, devido a má gestão atual do acampamento houve alguns problemas relacionados a alocação de visitantes. Dessa forma, Fábio decidiu definir uma regra para ajudar a solucionar o problema. A regra consiste em dividir os dormitórios de acordo com as alturas dos visitantes, de modo que nunca tenha duas pessoas com diferença de 1 centímetro de altura no mesmo dormitório. Entretanto, Fábio não sabe como aplicar esta regra de forma eficiente(não usar dormitórios desnecessariamente), então ele solicitou que você, dado as alturas de cada visitante, informe a quantidade mínima necessária de dormitórios diferentes para alocar essas pessoas de acordo com a regra proposta. OBS: É garantido que os visitantes têm alturas diferentes.",
+    "format_input": "A entrada consiste sempre de 5 inteiros: 1 <= h1, h2, h3, h4, h5 <= 1000. Correspondente às alturas dos visitantes em centímetros.",
+    "format_output": "Deverá ser impresso a menor quantidade de dormitórios diferentes, de modo a obedecer a regra, sempre seguido de uma quebra de linha.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "MDC",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcule o Máximo Divisor Comum (MDC) entre 2 números.",
+    "format_input": "Dois números em ordem crescente;",
+    "format_output": "MDC",
+    "topics": [
+        "lógica matemática"
+    ]
+}

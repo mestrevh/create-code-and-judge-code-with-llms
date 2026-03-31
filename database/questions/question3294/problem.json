@@ -1,0 +1,12 @@
+{
+    "title": "Apostas premiadas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um grupo grande de pessoas fez várias apostas na Mega Sena e precisa de um programa para ajudá-los a conferir se houve ganhadores. Você foi encarregado de fazer um programa que indica apenas quantos foram os apostadores que acertaram os 6 números. Seu programa deve conter uma função que, dado uma aposta e os valores da Mega Sena, indicar se a aposta é ou não vencedora.",
+    "format_input": "Na primeira linha é fornecido o resultado oficial, formado por 6 números inteiros separados por espaços. Nas linhas seguintes, são fornecidas as apostas. Cada aposta é formada por 6 a 10 números inteiros separados por vírgulas. A linha contendo a string 'FIM' indica o fim das apostas.",
+    "format_output": "A saída consiste da string “Total de ganhadores:” seguida por um espaço em branco e do número de apostas que contêm os números do resultado, ou seja, o número de ganhadores.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

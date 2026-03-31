@@ -1,0 +1,11 @@
+{
+    "title": "Bem-vindo ao parque",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você deve escrever um programa que dê as boas-vindas personalizadas a cada ingressante do parque de diversões. O programa irá receber o nome do visitante e o nome da sua atração preferida e irá imprimir na tela a mensagem personalizada.",
+    "format_input": "Na primeira linha, o nome do visitante. Na segunda linha, sua atração preferida",
+    "format_output": "Você imprimir a seguinte mensagem, substituindo no lugar de <nome> o nome do visitante e no lugar de <atracao> a atração preferida que o visitante informou. Bem-vindo <nome>! Aguardamos você na/o <atracao>!",
+    "topics": [
+        "string",
+        "formatação"
+    ]
+}

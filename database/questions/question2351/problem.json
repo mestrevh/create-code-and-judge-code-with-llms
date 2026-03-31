@@ -1,0 +1,11 @@
+{
+    "title": "Média dos valores (implementado em lista)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[DESCRIÇÃO] Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetros uma sequência de inteiros L e um natural n (n>=1), que representam uma sequência L de tamanho n. A função deverá devolver um valor real indicando o média dos valores de L. [RESTRIÇÕES] (a) a leitura da entrada deve ser feita no programa principal; (b) a sequência deve ser armazenada em uma lista; (c) não usar append(), a lista deve ser criada já com o tamanho necessário; (d) não usar variáveis globais; (e) a função deve devolver um inteiro.",
+    "format_input": "(a) a primeira linha da entrada contém o tamanho n da sequência; (b) as próximas n linhas representam os itens que compõem a sequência. Exemplo: 5, 10, 20, 30, 40, 50.",
+    "format_output": "(a) o programa principal deverá imprimir um número real com duas casas pós-vírgula indicando a média dos valores de L de acordo com o valor devolvido pela função. Exemplo: 30.00",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Ampulheta de Caracteres",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A ampulheta é um dos instrumento de medição de tempo mais antigos da humanidade. É constituída por duas âmbulas iguais (recipientes que contem areia), por duas hastes que as suportam e areia. A areia dentro da ampulheta deve preencher uma âmbula por completo e deixar a outra totalmente vazia. Seu programa deve imprimir na tela uma ampulheta com âmbulas triângulares de lado l e seus respectivos níveis de areia, superior e inferior.",
+    "format_input": "Entrada inicial: N - Numéro de casos (N ∈ Naturais | N >= 0). Cada caso é composto de mais duas entradas: l - Lados das âmbulas triângulares (l ∈ Naturais* | 3 < l < 40) e i - Nível inferior de areia (i ∈ Naturais | i < l-2).",
+    "format_output": "Para cada caso, deve-se imprimir a representação visual da ampulheta. Os lados da ampulheta são preenchidos por asteriscos e os níveis das âmbulas são representados por linhas de pontos.",
+    "topics": [
+        "formatação"
+    ]
+}

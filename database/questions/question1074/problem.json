@@ -1,0 +1,10 @@
+{
+    "title": "Imposto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No pequeno país de Rockemburgo os governantes estão pensando em tornar mais justo o pagamento dos impostos. Para isso eles querem que quem ganha mais, pague mais e que quem ganhe menos, pague menos. O cálculo deve ser baseado em uma cobrança de 5% de todo o salário anual juntamente com uma uma dedução de 1.5% pelo total de filhos menores de idade, %1 da despesa de educação, 2% da despesa anual com saúde. Use o comando # coding: utf-8 na primeira linha do código fonte para poder usar caracteres especiais.",
+    "format_input": "O programa deve ler valores referentes às seguintes informações: salário anual, quantidade de filhos menores de idade, despesa anual com educação, despesa anual com saúde. A quantidade de filhos deve ser lida como inteiro e as demais como ponto flutuante.",
+    "format_output": "O programa deve exibir o valor do imposto calculado sem dedução (aproximação de duas casas decimais) e com dedução (aproximação de três casas decimais).",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

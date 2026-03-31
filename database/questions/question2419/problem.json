@@ -1,0 +1,14 @@
+{
+    "title": "L1Q6 - Celulares Japoneses",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lembrando-se que o Japão é o país que produz os melhores celulares do mercado, você percebe a oportunidade de fazer uma melhoria no seu. Contudo, visto que são inúmeras as opções de smartphones nas lojas, você lembra de mais uma coisa... Que é aluno de Ciência da Computação! Seu trabalho é fazer um programa que, dado o seu orçamento e uma lista com três celulares seguidos do preço e da nota, escolher aquele que é mais vantajoso, seguindo a fórmula de Custo Benefício abaixo. E, para critério de desempate, tanto o preço quanto a ordem em que os celulares são listados devem ser levados em consideração (sendo assim prioriza-se o mais barato, mas caso ambos tenham o mesmo preço você deverá escolher aquele que apareceu primeiro).",
+    "format_input": "A entrada é composta por 4 linhas. Onde a primeira contém o orçamento do estudante: O. O - número de ponto flutuante. A segunda linha contém o nome, preço e nota, respectivamente, do primeiro celular da lista: S1 P1 N1. S1 - string, P1 - número de ponto flutuante, N1 - número de ponto flutuante. A terceira linha contém o nome, preço e nota, respectivamente, do segundo celular da lista: S2 P2 N2. S2 - string, P2 - número de ponto flutuante, N2 - número de ponto flutuante. A quarta linha contém o nome, preço e nota, respectivamente, do terceiro celular da lista: S3 P3 N3. S3 - string, P3 - número de ponto flutuante, N3 - número de ponto flutuante.",
+    "format_output": "Caso o estudante decida comprar um dos celulares deverá ser impressa a seguinte frase: Comprarei o celular S. S - string (nome do celular). Substituindo \"S\" pelo nome do celular. Se ele não tiver dinheiro para comprar nenhum dos celulares: O meu celular nem esta tao ruim assim",
+    "topics": [
+        "ponto flutuante",
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática",
+        "string"
+    ]
+}

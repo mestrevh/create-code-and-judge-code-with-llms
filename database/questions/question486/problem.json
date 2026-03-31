@@ -1,0 +1,11 @@
+{
+    "title": "Segundo Maior",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba como entrada vários números, até que seja informado o valor 99, e exiba o segundo maior número dentre os lidos. Dica: considere que sempre serão lidos pelo menos dois números",
+    "format_input": "Vários números inteiros, até que seja lido 99",
+    "format_output": "Um número inteiro",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

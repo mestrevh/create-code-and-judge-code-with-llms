@@ -1,0 +1,10 @@
+{
+    "title": "Desempenho do selection sort",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Modifique a implementação do algoritmo Selection Sort para contabilizar o número de deslocamentos que ele realiza durante a ordenação, o número de comparações realizadas e a quantidade de variáveis utilizadas. Você deve imprimir o array final ordenado, o número de deslocamentos feitos (trocas), o número de comparações. Um deslocamento ocorre quando a posição de um elemento muda no array. Não desloque um elemento se não for necessário.",
+    "format_input": "A primeira linha deve conter um inteiro n para o número de elementos a serem ordenados. A próxima linha contem n inteiros do array. Exemplo: STDIN Function ----- -------- 5 arr[] size n =5 2 1 3 1 2 arr = [2, 1, 3, 1, 2]",
+    "format_output": "Array ordenado: Array Quantidade de trocas: X Quantidade de comparações: Y",
+    "topics": [
+        "ordenação"
+    ]
+}

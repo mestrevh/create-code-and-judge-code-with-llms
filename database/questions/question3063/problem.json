@@ -1,0 +1,10 @@
+{
+    "title": "k-Tree",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade estava se divertindo estudando árvores. Inspirada, ela teve uma ideia de uma árvore diferente chamada de k-tree. Uma k-tree é uma árvore infinita onde: Cada vértice tem exatamente k filhos; Cada aresta tem um peso; As arestas de um vértice para os seus filhos têm os pesos: 1, 2, ..., k. Exemplo de começo de uma uma 3-tree: Quando a Entidade mostrou essa árvore para seu amigo X, ele imediatamente se perguntou: \"Quantos caminhos somam um peso n? Supondo que todos os caminhos comecem da raíz da k-tree e também contenha pelo menos uma aresta com peso >= d.\". Ajude X e a Entidade a encontrarem a resposta para essa pergunta. Como a resposta pode ser muito grande, imprima ela módulo 1000000007 (10^9 + 7). (Ou seja: resposta <resto da divisão> 1000000007)",
+    "format_input": "A entrada terá três inteiros n, k e d. 1 <= n, k <= 100 1 <= d <= k",
+    "format_output": "Imprima a resposta do problema módulo 1000000007 (10^9 + 7).",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

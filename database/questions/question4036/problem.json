@@ -1,0 +1,10 @@
+{
+    "title": "Aproximação exponencial",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Essa questão não permite o uso de qualquer função de math.h (com exceção a pow()) nem de qualquer outra biblioteca fora stdio.h. A função exponencial e^x pode ser representada pela seguinte relação: Ou seja, se quisermos ter um resultado aproximado de e^2, podemos somar um número de termos na seguinte forma: Sendo que quanto mais termos usarmos, mais precisa será a nossa aproximação. O valor de e^2 é aproximadamente 7.389056. Veja como a aproximação se torna mais precisa à medida que usamos mais termos em nosso somatório (sendo infinito o limite): 3 termos 5 termos 7 termos Quando somamos infinitos termos, alcançamos o valor exato de e^2. Faça um programa que simule essa aproximação, recebendo o expoente (a potência que elevará o valor e) e o número de termos a serem levados em consideração.",
+    "format_input": "A entrada consistirá em 2 inteiros, sendo o primeiro o valor do expoente (o x em e^x) e o segundo o número de termos que serão utilizados aproximação.",
+    "format_output": "A saída consistirá no valor obtido pela aproximação (com 3 casas decimais), seguido de uma mensagem que diz o quão precisa ela foi. Se a diferença entre o valor de e^x e a aproximação alcançada for maior que 10% de e^x, escreva: A aproximacao foi pouco precisa Se a diferença entre o valor de e^x e a aproximação alcançada for maior que 1% de e^x e menor que 10% de e^x, escreva: A aproximacao foi muito precisa Se a diferença entre o valor de e^x e a aproximação alcançada for menor que 1% de e^x, escreva: Os valores sao praticamente iguais Lembre-se da quebra de linha nas duas saídas e de que não se deve usar nada fora stdio.h e pow() da biblioteca math.h.",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Catálogo de Filmes",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Antônio gosta de catalogar os filmes que assiste, dando notas que variam entre 1 e 5 a cada um deles em diferentes categorias. Para melhor organizar os seus filmes e encontrar referências de filmes que assistiu mais facilmente, ele escreveu um algoritmo para armazenar e consultar os filmes que já deu nota. O algoritmo é capaz de armazenar os filmes, de maneira ordenada de modo que os filmes sejam impressos em ordem crescente de notas a partir das categorias. As categorias são roteiro, direção e atuação. ATENÇÃO: VOCÊ DEVE IMPLEMENTAR O SEU PRÓPRIO MÉTODO DE ORDENAÇÃO, ESTANDO PROIBIDOS MÉTODOS PRONTOS, COMO AS FUNÇÕES SORT E SORTED DE PYTHON.",
+    "format_input": "Considere que a lista de filmes começa vazia. A partir daí uma série de comandos será passada até que flag END seja passada como entrada, indicando o fim do caso de testes. Os comandos são: ADD <Filme> <R> <D> <A>: O comando ADD indica a adição de um filme a lista, seguida de suas notas de roteiro, direção e atuação, respectivamente, todas separadas por espaço. SHOW <L>: O comando SHOW é seguido por uma letra maiúscula (R, D ou A) que indica a categoria. Quando inserido esse comando, a lista deve ser impressa ordenada da menor para a maior nota a partir da categoria. DEL <Filme>: deve deletar o último filme fornecido como parâmetro FIRST <L> <N>: deve mostrar o primeiro filme que tenha nota N na categoria indicada pela letra L LAST <L> <N>: deve mostrar o último filme listado que tenha nota N na categoria indicada pela letra L END: encerra o caso de teste",
+    "format_output": "A saída deve ser exibida para os comandos SHOW, FIRST e LAST. SHOW O comando SHOW deve exibir a lista de filmes ordenada no seguinte formato: Nome_do_filme: R <nota>, D <nota>, A <nota> Nome_do_filme2: R <nota>, D <nota>, A <nota>",
+    "topics": [
+        "heap",
+        "ordenação"
+    ]
+}

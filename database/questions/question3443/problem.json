@@ -1,0 +1,10 @@
+{
+    "title": "A Expected Value Problem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em estatística, a definição de valor esperado se refere a soma de todos os valores(X * P(X)) tal que: X é um evento. P(X) é a probabilidade de que esse evento aconteça. Considere para esse problema que: Todos os valores possíveis de X são inteiros e que estão no intervalo fechado [1, N]. Para cada valor possível de X, P(X) = (soma de todos os valores inteiros de 1 até X) / (soma de todos os valores dos numeradores das frações). Exemplo: Para N = 3. EV = ((1 / 10) * 1) + ((3 / 10) * 2) + ((6 / 10) * 3) EV = 2.50 É garantido que a soma de todos os P(X) nesse problema, é sempre igual a 1. Sabendo disto, dado o valor de N, calcule o valor esperado da sequencia descrita. O valor deve ser impresso com uma precisão de 2 casas decimais.",
+    "format_input": "Um inteiro (1 <= N <= 100).",
+    "format_output": "Um único número de ponto flutuante, indicando o valor esperado da sequencia descrita. O valor deve ser impresso com uma precisão de 2 casas decimais.",
+    "topics": [
+        "recursão"
+    ]
+}

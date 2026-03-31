@@ -1,0 +1,10 @@
+{
+    "title": "É um número primo?",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Faça um programa que dado um número indique se ele é um primo ou não.",
+    "format_input": "Você irá receber uma sequência de números separados por um final de linha. A entrada termina quando o número lido for -1.",
+    "format_output": "Para cada número lido você deve imprimir 0 caso o número não seja primo ou 1 caso seja. Depois de cada 0 ou 1 impresso, coloque um final de linha.",
+    "topics": [
+        "números primos"
+    ]
+}

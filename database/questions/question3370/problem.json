@@ -1,0 +1,10 @@
+{
+    "title": "Soma de elementos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um conjunto de números inteiros, determine todos os pares cuja soma é igual a um dado inteiro X.",
+    "format_input": "Um número natural N (1 <= N <= 100), representando o tamanho do conjunto de inteiros, um inteiro X, seguidos de N inteiros, sem repetição.",
+    "format_output": "Pares de elementos do conjunto de números, cuja soma é igual a X, numerados e ordenados conforme sequência de entrada, com formato de acordo com os exemplos de saída. Caso não haja pares possíveis, exibir a mensagem: \"Inexistente\". Cada número pode ser utilizado para formar apenas um par, ou seja, na saída, não devem aparecer os pares (1, 3) e (3, 1), mas, sim, apenas um deles.",
+    "topics": [
+        "array"
+    ]
+}

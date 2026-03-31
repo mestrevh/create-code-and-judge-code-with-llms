@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Seleção - P",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma empresa decide presentear seus funcionários com um bônus de Natal. O valor é definido como segue: (a) 20% do salário para os funcionários homens com mais de quinze anos de casa; (b) 25% do salário para as funcionárias mulheres com mais de dez anos de casa; (c) R$ 200,00 para os demais que não se encaixaram nas categorias anteriores. Elabore um programa que recebe o sexo, o tempo de casa e o salário de um funcionário e exibe o valor total que o funcionário receberá no Natal (salário + bônus).",
+    "format_input": "Entrada composta pelo sexo do funcionário (caractere), o tempo de casa (inteiro) e o salário (valor real).",
+    "format_output": "Exibição do valor total (salário + bônus) como um valor real.",
+    "topics": [
+        "decisão"
+    ]
+}

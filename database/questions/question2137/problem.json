@@ -1,0 +1,12 @@
+{
+    "title": "Sequência de Marsenne",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A sequência de Marsenne é dada pela seguinte regra: Um número n pertence a sequência se ele é primo e se 2**n - 1 também é primo. Dessa forma, faça um programa que calcule os primeiros números da sequência de Marsenne até um limiar m (não inclusive), informado pelo usuário. O programa deve funcionar para quantos valores de m o usuário fornecer, até que ele forneça um valor negativo para m.",
+    "format_input": "Vários números que determinam o limite superior do último número da sequência de Marsenne que deve ser impressa. Itera até que o usuário forneça um número negativo.",
+    "format_output": "Sequências de Marsenne de acordo com a solicitação do usuário.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "números primos"
+    ]
+}

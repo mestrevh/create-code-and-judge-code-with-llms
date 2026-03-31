@@ -1,0 +1,10 @@
+{
+    "title": "Colorindo em duas cores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em 1976 o \"Teorema do mapa de quatro cores\" foi provado com o auxílio de um computador. Esse teorema diz que todo mapa pode ser coloerido usando apenas 4 cores de ta forma que nenhuma região colorida usa a mesma cor que uma região vizinha. Nesse problema, você deve resolver uma versão simplificada. Você tem que decidir se um grafo conectado pode ser pintado com duas cores. Isto é, se é possível atribuir cores (somente duas) para os nós de tal forma que nenhum nó adjacente tenha a mesma cor. Para simplificar o problema você deve assumir: nenhum nó conterá uma aresta para si próprio; o grafo é não direcionado. o grafo é fortemente conectado. Ou seja, existe sempre um caminho de qualquer nó para qualquer nó",
+    "format_input": "A entrada consiste de vários casos de teste. Cada caso de teste inicia com uma linha contendo um número n (1 < n < 200) indicando a quantidade de nós. A segunda linha contém o número de arestas \"e\". Depois disso, \"e\" linhas serão daddas, cada uma contendo 2 números que indicam uma aresta entre os nós que eles representam. Cada nó é representado por um número a (0 <= a < n). A entrada termina quando n=0. Essa entrada não deve ser processada.",
+    "format_output": "Você deve decidir se o grafo pode ser pintado com as duas cores satisfazendo as condições. Caso seja possível, você deve imprimir: BICOLORABLE. Caso não seja possível: NOT BICOLORABLE. obs: não esqueça o ponto final.",
+    "topics": [
+        "grafo bipartido"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Batalha Naval Para Horas Vagas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dois amigos estavam a caminho das suas aulas no CIn quando receberam uma notificação do classroom avisando que a aula para a qual estavam indo não iria acontecer hoje. No entanto, eles ainda teriam uma aula mais tarde, significando então um horário vago. Como alunos extremamente responsáveis, aproveitaram o horário para revisar os assuntos… ou ao menos isso é o que eles queriam dizer que fizeram. Não, eles só foram jogar alguma coisa mesmo. O jogo escolhido pelos dois foi uma versão simplificada de uma batalha naval. Um dos jogadores irá escolher uma quantidade determinada de quadrados para posicionar os seus “navios”. Após os navios estarem posicionados, o outro jogador terá um total de ataques igual ao dobro da quantidade de navios, e para ser o vencedor ele terá que acertar todos os navios do oponente dentro dessa quantidade de tentativas. E aqui entra você! Faça um programa para receber o tabuleiro montado pelo jogador de defesa e os ataques realizados e, a partir disso, determine quem saiu como vencedor!",
+    "format_input": "O seu programa irá primeiro receber um inteiro n que irá determinar o tamanho tabuleiro, que será por sua vez n * n. Em seguida, receberá também um número k que irá determinar a quantidade de navios presentes no tabuleiro. Logo após, uma matriz binária de tamanho n * n será enviada, em que “1” representa a presença de navios e “0” a ausência. Por fim, um total de 2 * k coordenadas serão enviadas para indicar as posições em que houve ataque.",
+    "format_output": "O seu programa irá possuir 4 possíveis saídas. Todas as entradas irão se enquadrar em um destes 4 casos, então não se preocupe com outras possibilidades. Vamos explicar cada uma. 1. Caso a quantidade de navios presentes no tabuleiro seja maior que a quantidade correta, o seu programa deve printar “Defesa invalida!”. 2. Caso algum ataque seja feito fora dos limites do tabuleiro, o seu programa deve printar “Ataque invalido!”. 3. Dado que a defesa e o ataque são válidos, caso o jogador atacando seja capaz de destruir todos os navios, o seu programa deve printar “Ataque venceu!”. 4. Dado que a defesa e o ataque são válidos, caso o jogador atacando não consiga destruir todos os navios, o seu programa deve printar “Defesa venceu!”.",
+    "topics": [
+        "array",
+        "ciclos",
+        "array bidimensional"
+    ]
+}

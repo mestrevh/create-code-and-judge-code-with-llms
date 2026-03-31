@@ -1,0 +1,12 @@
+{
+    "title": "Nota válida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um professor precisa de sua ajuda para criar um programa que valide as notas digitadas de uma turma, ou seja, 0 ≤ nota ≤ 10 é uma nota válida, caso contrário, é uma nota inválida! Resolva este problema na linguagem Python (Não use acentos no código).",
+    "format_input": "5",
+    "format_output": "Valida",
+    "topics": [
+        "obi",
+        "decisão",
+        "lógica matemática"
+    ]
+}

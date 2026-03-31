@@ -1,0 +1,10 @@
+{
+    "title": "Qual o CP?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Naruto estava prestes a entrar numa batalha. Ele ficou na entrada do CIn observando um Pokémon que estava no ginásio e achava que tinha chance vencê-lo, mas não sabia qual era o nível de Combate do seu próprio Pokémon. Naruto sabia que o nível de Combate do seu Pokémon era calculado de uma forma bem fácil, mas não tinha a fórmula. Na busca por uma forma de calcular o nível de combate do seu Pokémon, Naruto encontrou uma anotação que continha os valores do Combate + Ataque, Combate + Defesa e Ataque + Defesa do seu Pokemon. Ele sabia que com essas informações teria como descobrir o nível de Combate do seu Pokémon e decidiu pedir sua ajuda para saber se poderia ganhar a batalha. Naruto sabia que para ganhar a batalha, bastava que o Pokémon dele tivesse o nível de Combate maior do que o que estava dentro do ginásio.",
+    "format_input": "X Um numero inteiro correspondente ao nível de Combate do Pokémon que estava dentro do Ginásio. 3 valores sendo: A B C. A - a soma do Nível de Combate + Ataque do Pokémon do Naruto. B - a soma do Nível de Combate + Defesa do Pokémon do Naruto. C - a soma da Defesa + Ataque do Pokémon do Naruto.",
+    "format_output": "Uma frase que pode ser: “O Pokemon pode ser derrotado!” caso o nível de Combate do Pokémon de Naruto seja maior do que o do Pokémon que está no ginásio. ou “Melhor nao arriscar” caso o nível de Combate do Pokémon de Naruto seja menor ou igual ao do Pokémon que está no no ginásio.",
+    "topics": [
+        "decisão"
+    ]
+}

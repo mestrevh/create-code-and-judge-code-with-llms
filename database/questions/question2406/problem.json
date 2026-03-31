@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Sequência - F",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que exibe a área de um triângulo retângulo a partir da base e da altura fornecidas pelo usuário.",
+    "format_input": "Na primeira linha um número inteiro positivo representando a base; na linha seguinte um número inteiro positivo representando a altura.",
+    "format_output": "Um número inteiro representando a área do triângulo.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

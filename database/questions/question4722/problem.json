@@ -1,0 +1,10 @@
+{
+    "title": "Funções 2 - Quadrado do número",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ao receber um número, retorne seu quadrado.",
+    "format_input": "Um único inteiro a.",
+    "format_output": "Um único inteiro N, representando o quadrado da entrada.",
+    "topics": [
+        "função"
+    ]
+}

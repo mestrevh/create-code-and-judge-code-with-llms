@@ -1,0 +1,13 @@
+{
+    "title": "Alberto, o Rato",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Alberto é um rato muito esperto, preguiçoso, viciado em queijo e como ele é um rato muito comilão, Alberto sempre quer comer uma quantidade X de comida. Os cozinheiros da cozinha, sem querer, derrubam pedaços de queijo e o Alberto consegue encontrar esses pedaços de queijo pelos túneis da cozinha. Entretanto, como ele evita ao máximo sair dos túneis, Alberto traçou um mapa dos túneis e de quanto de comida cada um costuma ter. Com isso, ele observou que os túneis sempre tinham uma bifurcação se dividindo em dois até que um túnel chega ao final (o final de um túnel é dado no mapa por -1, caso não seja o final do túnel o mapa indica para qual túnel aquele buraco leva, por exemplo, se tivermos 3 e -1, isso quer dizer que a bifurcação da esquerda leva ao buraco de posição 3 e a da direita leva a um fim de túnel). Como Alberto é preguiçoso ele gostaria de comer apenas em um túnel, ou seja, ele não volta para o mesmo túnel que ele entrou. Sabendo disso, escreva um programa que recebe as conexões dos túneis e a quantidade de queijo de cada túnel e informe se ele consegue ou não comer a quantidade exata de queijo que ele deseja.",
+    "format_input": "A entrada é formada por uma linha contendo três inteiros B, I, Q, sendo B( 1 < B < 100) a quantidade de buracos, I o túnel de inicio e Q a quantidade de comida que ele deseja de comer. Depois, seguem B linhas, cada uma com três inteiros indicando a quantidade de queijo naquele túnel e dois inteiros E e D, que são pra onde as bifurcações a esquerda e a direita levam.",
+    "format_output": "A saída é formada por SIM se ele consegue, em algum momento, comer a quantidade exata de comida que ele deseja comer, e NAO caso ele não consiga.",
+    "topics": [
+        "busca completa",
+        "array bidimensional",
+        "função",
+        "estruturas"
+    ]
+}

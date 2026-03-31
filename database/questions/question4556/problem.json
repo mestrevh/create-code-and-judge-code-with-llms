@@ -1,0 +1,10 @@
+{
+    "title": "Ímpares até um valor dado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia um valor inteiro X (1 <= X <= 1000). Em seguida mostre os ímpares de 1 até X, um valor por linha, inclusive o X, se for o caso.",
+    "format_input": "A entrada contém 1 valor inteiro X.",
+    "format_output": "Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Distância de edição",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Esse é um dos problemas clássicos da computação. A solução para esse problema é aplicada em vários contextos, como por exemplo o alinhamento de sequências de DNAs. Você receberá duas strings, A e B. Você deve responder qual o menor número de operações necessárias para transformar A em B. As operações válidas são: Apagar um caractere de A, Inserir um caractere em A, Substituir um caractere de A por um de B.",
+    "format_input": "Você receberá um inteiro T correspondendo ao número de casos de teste. Para cada caso de teste, você receberá duas strings, uma em cada linha. As strings contém somente caracteres maiúsculos e não são maiores que 2000 caracteres. O inteiro T é menor ou igual a 10.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo o número mínimo de operações.",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

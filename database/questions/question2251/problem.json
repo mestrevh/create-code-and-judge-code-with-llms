@@ -1,0 +1,13 @@
+{
+    "title": "Deslocando números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio, seu amigo de longa data (ou não!), precisa lhe passar um número extremamente importante, e de forma confidencial, então Ambrósio decidiu deslocar cada número, um número fixo de vezes (deslocamento) como podemos ver na imagem abaixo: Deslocamento de 3 unidades; Veja que o número '0' se tornou '3' com esse deslocamento, e que o número '7' se tornou '0'. Observação: Deslocar cada número, se o (número + o deslocamento) for maior que 9, suponha 10, você deve tirar o resto da divisão por 10, portanto 0. E se o (número + deslocamento), deslocamento esse que pode ser negativo, for menor que 0, suponha -1, o número se torna 9. (Não é array circular!) desloque cada número. Como esse número pode ser grande, Ambrósio solicitou a você que dado n números, que devem ser guardados em um array, faça o deslocamento e assim, mude os números. E que se dado um deslocamento negativo, desfaça a operação fazendo o mesmo processo.",
+    "format_input": "Um inteiro 'n', seguido de n números (entre 0 e 9), separados por um espaço, e o deslocamento 'd'. onde: 1 <= n <= 10000, e -1000 <= d <= 1000. Exemplo: 10 0 1 2 3 4 5 6 7 8 9 3",
+    "format_output": "n números separados por um espaço, após ser impresso, inserir uma quebra de linha. Exemplo: 3 4 5 6 7 8 9 0 1 2",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "repetição",
+        "recursão"
+    ]
+}

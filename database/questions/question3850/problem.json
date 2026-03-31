@@ -1,0 +1,11 @@
+{
+    "title": "Iniciando com listas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba e armazene, em uma Lista, 10 números inteiros maiores que zero, depois calcule e informe a média dos dez valores lidos e a soma dos valores digitados que forem divisíveis por 3.",
+    "format_input": "Dez números inteiros maiores que zero.",
+    "format_output": "A média dos 10 números digitados; A soma dos números que forem divisíveis por 3. Veja nos exemplos como deve ser a saída.",
+    "topics": [
+        "array",
+        "decisão"
+    ]
+}

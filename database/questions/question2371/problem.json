@@ -1,0 +1,12 @@
+{
+    "title": "Acima ou abaixo das diagonais de uma matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em programação, por vezes, é necessário processar partes de uma matriz quadrada. Faça um programa que opere sobre os elementos de uma matriz da seguinte forma: Receba do usuário se você deve analisar acima ou abaixo da diagonal principal, de acordo com so exemplos. Você deve verificar se a soma dos elementos especificados pelos parâmetros são maiores que um limiar informado pelo usuário Exemplos: Acima da diagonal principal: Abaixo da diagonal principal:",
+    "format_input": "Se os elementos usados estarão acima ou abaixo da diagonal principal: \"acima\" ou \"abaixo\"; Um inteiro que indica o limiar para a soma; A ordem da matriz; Os elementos da matriz",
+    "format_output": "True se a soma dos elementos for maior que o limiar; False se a soma dos elementos for menor que o limiar",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

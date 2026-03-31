@@ -1,0 +1,10 @@
+{
+    "title": "Quantos zeros tem no final de um número fatorial",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Durante as aulas de matemática Ambrosino aprendeu a resolver número fatoriais. Enquanto seu professor respondia alguns exercícios, Ambrosino notou que conforme o número fatorial vai aumentando, o número de zeros no final também aumenta. Seu desafio é: Dado um número n, seu programa deve dizer quantos zeros existem no final de n!. Exemplos: Para n = 11, seu programa deve imprimir 2, pois 39.916.800 possui 2 zeros no final. Para n = 7, seu programa deve imprimir 1, pois 5040 possui 1 zero no final. 1 <= n <= 200",
+    "format_input": "Um inteiro n.",
+    "format_output": "Um inteiro contendo a quantidade de zeros no final de n! seguido de um final de linha.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

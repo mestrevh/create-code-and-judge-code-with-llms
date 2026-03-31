@@ -1,0 +1,13 @@
+{
+    "title": "Regressão Linear",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Regressão linear é uma técnica estatística que ajusta uma equação linear (da forma y = ax + b) a um conjunto de pontos dados. O problema consiste em achar uma equação linear que melhor se ajuste aos pontos dados. Um dos métodos empregados é o dos mínimos quadrados. Que consiste em minimizar a soma dos quadrados dos desvios verticais dos pontos para a linha reta As fórmulas para os coeficientes a e b, dada um conjunto de n pares de pontos (x,y), são: Uma vez encontrada a equação da reta é importante determinar a precisão de ajustamento dessa linha aos dados reais. Uma medida disso é o coeficiente de correlação R. dado pela fórmula: Seu programa deve, dado um conjunto de pares de pontos, calcular e imprimir os valores de a, b, e R.",
+    "format_input": "A entrada consiste de vários casos de teste. A primeira linha contém um inteiro N indicando o número de pares de pontos, as próximas N linhas contêm dois inteiros \"x\" e \"y\", cada, indicando as coordenadas dos pontos. O programa deve terminar quando n = 0.",
+    "format_output": "Para cada caso de teste a saída deve imprimir os valores de a, b, e R no formato do exemplo de saída seguida de um final de linha.",
+    "topics": [
+        "ponto flutuante",
+        "multiplas entradas",
+        "acumulador",
+        "lógica matemática"
+    ]
+}

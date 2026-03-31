@@ -1,0 +1,10 @@
+{
+    "title": "Contagem em string",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Eu sou fanático pela letra a. Para mim, é muito importante saber quantas vezes a letra a aparece em qualquer texto. Você pode me ajudar? Crie um programa que leia um texto qualquer e me diga quantas vezes a letra a aparece nele. OBS: desconsidere acentos, como ã e à.",
+    "format_input": "Uma linha com um texto qualquer, sem acentos.",
+    "format_output": "A quantidade de vezes que a letra a aparece no texto.",
+    "topics": [
+        "string"
+    ]
+}

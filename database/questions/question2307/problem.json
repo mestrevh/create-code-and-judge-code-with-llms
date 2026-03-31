@@ -1,0 +1,11 @@
+{
+    "title": "Quem gostou deixa o like e se inscreve",
+    "time_limit": "3 segundo(s)",
+    "descrition": "eHeitor, quem não conhece o grande Heitorado? A história que vamos contar hoje é baseada em fatos reais (https://www.youtube.com/channel/UCYDxu_I0dfVTA9_hDHpZmCw) Certo dia Heitor estava conversando com sua irmã que poderia ser o youtuber mais famoso que existe. Ela riu, duvidando das capacidades do jovem prodígio. Vendo toda descrença de sua irmã, Heitor disse que esta poderia colocar qualquer meta que ele conseguiria bater facilmente. Então, a irmã disse: “Você tem que bater a meta de X inscritos no canal em no máximo Y dias fazendo somente 2 vídeos”. Heitor não tem a menor dúvida que consegue bater a meta de sua irmã, mas ele gostaria que tivesse um programa monitorando os inscritos para provar que conseguiu. Todos sabem que Heitor é um ótimo programador, mas, já que ele está muito ocupado fazendo seus vídeos, ele pediu a sua ajuda. Por simplicidade, o mundo vai ser modelado da seguinte forma: 1. Além de Heitor, existem N pessoas no mundo. Cada uma destas pessoas é identificada por um número entre 1 e N, Heitor é identificado pelo número 0. 2. Para cada pessoa, menos Heitor, você sabe quem foi a pessoa que a contou sobre o canal Heitorado pela primeira vez. 3. No mesmo dia que a pessoa ouve falar do canal ela se inscreve (afinal é o melhor canal), mas ela só conta para os outros no próximo dia. 4. Heitor contou sobre o canal para todo mundo que conhecia no primeiro dia (estas pessoas sabem do canal no dia 1). Dados X, Y, N e, para cada uma das N pessoas, o número identificador da pessoa que a contou sobre o canal Heitorado, você deve dizer se Heitor conseguiu ou não bater a meta da sua irmã.",
+    "format_input": "A primeira linha consiste de três inteiros, X, Y e N (1 <= X, Y, N <= 300). Na segunda linha N inteiros, o i-ésimo (1 <= i <= N) destes é o número que identifica quem contou para a pessoa i sobre o canal Heitorado (lembrando que Heitor é a pessoa 0). Por exemplo, a sequência \"0 1 1\" significa que Heitor contou para pessoa 1, e a pessoa 1 contou para a pessoa 2 e a pessoa 3.",
+    "format_output": "A saída deve ser a String “S” se ele conseguiu, e “N” caso contrário.",
+    "topics": [
+        "array",
+        "função"
+    ]
+}

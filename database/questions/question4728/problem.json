@@ -1,0 +1,10 @@
+{
+    "title": "Invertor de frases",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa, utilizando pilha, que inverta a ordem das letras de uma string, deixando as palavras na mesma ordem incial. Exemplo (Entrada -> Sainda): \"Arthur Marsaro\" -> \"ruthrA orasraM\" Atenção: mantenha os espaços da frase no local correto.",
+    "format_input": "Uma string de até 50 characteres",
+    "format_output": "A frase com as suas palavras invertidas",
+    "topics": [
+        "pilha"
+    ]
+}

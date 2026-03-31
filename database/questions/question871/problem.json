@@ -1,0 +1,10 @@
+{
+    "title": "Elementos de uma matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Com o aumento do uso dos computadores a teoria das matrizes está cada vez mais sendo aplicada em áreas como, Engenharia, Matemática, dentre outras. Assim o desafio é você criar um programa que peça ao usuário a quantidade de linhas e colunas de uma matriz que ele quer. Em seguida, inserir os elementos da matriz e imprimir a saída esperada.",
+    "format_input": "A entrada consiste em uma string de dois números inteiros que indicam o número de linhas (L) e o de coluna (C), onde 0 ≤ L ≤ 100 e 0 ≤ C ≤ 100. Logo em seguida cada valor da matriz.",
+    "format_output": "Você deverá imprimir a matriz resultante no formato de matriz, onde os elementos da primeira linha aparecerão lado a lado, separados por um espaço (não deverá haver um espaço depois do último elemento de cada linha), a soma da sua diagonal principal e secundária e os elementos menores e maiores que zero. OBS.: Cada linha da matriz será separada por um final de linha, inclusive depois da última. Além disso se a matriz dada não for quadrada você não poderá determinar as somas da sua diagonal principal e secundária. Verifique os exemplos!!",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Buracos no texto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O senhor Huxley, amigo do Ambrósio, escreveu um texto em um pedaço de papel e quer saber quantos buracos existem no texto. Mas o que é um buraco? Imagine, por exemplo, que as letras \"A\", \"D\", \"O\", \"P\", \"R\" possuem apenas um buraco. Da mesma forma, a letra \"B\" possui dois buracos. Já as letras \"C\", \"E\", \"F\", \"K\" não possuem buracos. Nós devemos considerar que o número de buracos em um texto é igual ao número total de buracos nas letras do texto. Ajude o sr. Huxley a determinar quantos buracos existem no texto.",
+    "format_input": "A primeira linha contém um inteiro simples T <= 40 que indica o número de casos de testes. Depois, seguem-se T casos de teste. Cada linha do caso de teste contém um texto não vazio composto somente de caracteres maiúsculos do alfabeto inglês. O tamanho de cada texto é menor ou igual a 100. Não existem espaços na entrada.",
+    "format_output": "Para cada caso de teste, a saída consiste de uma linha contendo o número de buracos encontrado no caso de teste.",
+    "topics": [
+        "array",
+        "função",
+        "dicionário"
+    ]
+}

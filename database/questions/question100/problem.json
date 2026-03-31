@@ -1,0 +1,13 @@
+{
+    "title": "Avaliador de Jogo da Velha",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Está ocorrendo o campeonato mundial de jogo da velha em nerderlands, participantes do mundo inteiro estão jogando e há muitos jogos a avaliar, para tornar as coisas mais rápidas o comitê organizador do campeonato pediu sua ajuda Você deve escrever um programa que, dada a configuração do jogo. identifique se: O jogo está em andamento A Jogada é Ilegal 'X' venceu 'O' venceu O X sempre começa. Uma jogada é considerada ilegal se alguém jogou mais de uma vez, ou continuou jogando depois que alguém venceu.",
+    "format_input": "A primeira linha indica o número jogos a serem analisados. Para cada jogo haverão três linhas identificando cada linha contendo 3 caracteres separados por espaço que mostram a configuração do tabuleiro. Onde '_' significa que ninguém jogou nessa casa",
+    "format_output": "Para cada jogo o programa deve imprimir EM_ANDAMENTO se o jogo estiver em andamento ILEGAL se for uma configuração ilegal X_VENCEU se X venceu e O_VENCEU se O venceu. em caso de empate considere que o jogo está em andamento",
+    "topics": [
+        "multiplas entradas",
+        "simulação de jogos",
+        "caractere",
+        "array bidimensional"
+    ]
+}

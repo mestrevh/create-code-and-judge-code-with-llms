@@ -1,0 +1,12 @@
+{
+    "title": "Tamanho de uma String",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Obs.: Este problema tem a intenção de trabalhar com ponteiros na linguagem C, apesar de poder ser respondido de outras formas em outras linguagens. O objetivo desta atividade é escrever uma função chamada tamstr que tem funcionamento similar à função strlen de C. Dada uma string, a função deve recebê-la como ponteiro e retornar quantos caracteres ela tem. Para isso, use o algoritmo em pseudo-código abaixo: 1. Receba um ponteiro para char na função tamstr; 2. Faça um novo ponteiro par char, criado dentro da função, receber o ponteiro recebido como argumento da função; 3. Percorra com um laço todos os caracteres da string até chegar no char '\\0', que é o terminador de string e array em C; 4. Dentro do laço, você deve incrementar a posição do ponteiro em memória; 5. Fora do laço, você deve subtrair o ponteiro criado dentro da função do ponteiro argumento da função, retornando esse valor, que representa a quantidade de caracteres da string; Você deve usar essa função no seu programa principal, tratando a entrada e dando a saída apropriada, como descrito abaixo. Nesta atividade, vemos a importância do uso de ponteiros em C, já que os parâmetros são passados por valor, não tendo a necessidade de copiar toda uma estrutura em memória toda vez que se passa uma string ou array. Dica(s): 1 - Use array de caracteres para representar uma string, com tamanho fixo: char str[10];, ou use ponteiro para char, alocando previamente a memória: char* str = malloc(sizeof(char) * 10);",
+    "format_input": "Strings em linhas diferentes. Você deve parar quando encontrar a string FIM. Não haverá strings com espaço. A String terá, no máximo, 10 caracteres.",
+    "format_output": "O tamanho de cada string (quantidade de caracteres), por linha.",
+    "topics": [
+        "função",
+        "string",
+        "ponteiro"
+    ]
+}

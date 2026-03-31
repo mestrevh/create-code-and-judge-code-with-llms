@@ -1,0 +1,10 @@
+{
+    "title": "Diagonais de um polígono",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A diagonal de um polígono é um segmento de linha que liga 2 vértices não adjacentes Faça um programa que calcula a quantidade de diagonais de um polígono baseado na quantidade de lados desse polígono",
+    "format_input": "Um valor inteiro que representa a quantidade de lados do polígono.",
+    "format_output": "Um valor inteiro que representa a quantidade de diagonais do polígono.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

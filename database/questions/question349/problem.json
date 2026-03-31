@@ -1,0 +1,10 @@
+{
+    "title": "Quantidade de dias de um mês/ano",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para retornar a quantidade de dias de um mês dado. Se o mês for fevereiro, deve-se verificar se o ano é bissexto e retornar a quantidade de dias correta.",
+    "format_input": "Dois números inteiros representando mês e ano.",
+    "format_output": "Um número inteiro representando a quantidade de dias",
+    "topics": [
+        "datas/horas"
+    ]
+}

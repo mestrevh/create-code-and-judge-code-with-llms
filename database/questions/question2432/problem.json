@@ -1,0 +1,10 @@
+{
+    "title": "Pilha de Recursão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Recursão é uma ferramenta extremamente poderosa, e é muito importante que os alunos de Algoritmos entendam como ela funciona. Sempre que um método acaba de ser executado, dizemos que ele \"retorna\". Quando um método M1 chama outro método M2, M1 entra na pilha de execução do sistema operacional, onde irá esperar que o M2 chame seu \"return\" para voltar a ser executado. É muito importante que o programador, ao usar recursão, saiba exatamente quando cada método ou cada chamada de método irá retornar. Esse é seu trabalho nessa questão! Descreveremos uma chamada de método que pode ter chamadas a outros métodos em seu interior, e pedimos que o aluno imprima na tela a ordem em que os métodos retornarão. Use objetos para cada elemento dessa pilha. Listas/vetores ou estruturas de dados prontas são proibidas nessa questão.",
+    "format_input": "A entrada começa com um número inteiro N que representa quantos conjuntos de entradas serão inseridos. Cada conjunto de entrada possuirá a descrição de um método que poderá ou não invocar outros, ou até mesmo a si próprio. A entrada é formada por várias strings (de no máximo 30 caracteres). As strings podem ser \"return\", indicando que o último método da pilha deve ser retornado, ou a string também pode ser algo diferente de \"return\" para indicar uma chamada de método. Você implementará uma pilha para simular as recursões. Use objetos para cada elemento dessa pilha. Listas/vetores ou estruturas de dados prontas são proibidas nessa questão. Quando um return deixar a pilha vazia, você saberá que o conjunto acabou. As strings estão espaçadas por um número arbitrário de espaços em brancos e quebras de linha.",
+    "format_output": "A saída deve conter os nomes dos métodos na ordem em que são \"retornados\". Cada saída deve iniciar com \"Conjunto #X\", onde X será 1, 2, 3, ..., e deve ser impressa uma linha em branco ao final de cada conjunto.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

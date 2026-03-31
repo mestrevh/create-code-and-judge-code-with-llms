@@ -1,0 +1,10 @@
+{
+    "title": "Quadrado de asteriscos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para ler um inteiro N representando a quantidade de linhas de um quadrado, 1 <= N <= 9, e exiba um quadrado composto de asteriscos conforme exemplo.",
+    "format_input": "5",
+    "format_output": "*****\n*****\n*****\n*****\n*****",
+    "topics": [
+        "repetição"
+    ]
+}

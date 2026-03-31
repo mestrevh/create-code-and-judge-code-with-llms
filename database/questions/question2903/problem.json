@@ -1,0 +1,12 @@
+{
+    "title": "Soma Colunas Matrizes - P2T2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa em C que leia valores inteiros para a matriz A, sendo o numero de linhas e o numero de colunas da matriz especificados pelo usuário. O programa deve imprimir a soma de todas as colunas da matriz.",
+    "format_input": "O usuário inicialmente digita a quantidade de linhas e a quantidade de colunas da matriz. Em seguida, são inseridos os elementos da matriz, linha por linha. Devem ser exibidas as mensagens \"Digite o numero de linhas e colunas da matriz:\" e \"Digite os elementos da matriz:\".",
+    "format_output": "O programa deve exibir a soma de todas as colunas da matriz, exibindo na tela: Digite o numero de linhas e colunas da matriz: Digite os elementos da matriz: Soma da coluna 1: n Soma da coluna 2: n Soma da coluna 3: n",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "array bidimensional"
+    ]
+}

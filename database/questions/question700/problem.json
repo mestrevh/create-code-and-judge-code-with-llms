@@ -1,0 +1,11 @@
+{
+    "title": "Converter segundos em horas, min e segundos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que permita converter um número de segundos (fornecido pelo utilizador) no número equivalente de horas, minutos e segundos. Deve ser impresso o número de horas seguido de ‘h’, o número de minutos seguido de ‘m’ e o número de segundos seguido de ‘s’. A tabela abaixo traz exemplos de entrada e saída esperadas (atente para os espaços e cada saída).",
+    "format_input": "None",
+    "format_output": "None",
+    "topics": [
+        "datas",
+        "horas"
+    ]
+}

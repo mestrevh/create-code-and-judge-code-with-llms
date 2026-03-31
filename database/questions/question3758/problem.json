@@ -1,0 +1,19 @@
+{
+    "title": "EMAIL DA EMPRESA TESTE",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Você foi contratado para criar um programa que calcula o espaço de armazenamento da empresa de email TESTE, onde cada usuário tem um perfil com capacidade máxima de 1000 MB de e-mail, e deve ter também a informação espaço de armazenamento utilizado. Para realizar o cadastro deve ser solicitado nome e e-mail (não é permitido ter e-mails repetidos no armazenamento). Para realizar o teste você deverá criar uma matriz 4x4 e cada usuário novo deve ter suas informações salvas em um dicionário e após deve ser armazenada na matriz. Seu programa deverá conter as seguintes funções: 1 – CADASTRAR_USUARIO(): Recebe as informações, cria o dicionário e salva na matriz. Caso haja erro de informações digitadas deve ser tratado utilizando o try except e informar a seguinte mensagem: ALGUMA VARIAVEL NÃO FOI DIGITADA OU FOI DIGITADA INCORRETAMENTE. Caso o espaço de email digitado ultrapasse o limite de 1000 deve ser solicitado ao usuário essa pergunta até que ele digite corretamente, informando a mensagem: DIGITE NOVAMENTE O ESPAÇO DE E-MAIL, POIS O QUE VOCÊ INFORMOU ULTRAPASSA O LIMITE MÁXIMO. O cálculo da porcentagem de espaço utilizado deve ser automático. Deve-se verificar se o e-mail já existe (exceto se a matriz estiver vazia). Mensagens de sucesso: CONTA CADASTRADA COM SUCESSO ou JÁ EXISTE UMA CONTA COM ESSE E-MAIL. 2 – REMOVER_USUARIO(EMAIL): Recebe o e-mail, apaga da matriz pela posição. Mensagens: E-MAIL NÃO ENCONTRADO ou CONTA DE E-MAIL REMOVIDA COM SUCESSO. 3 – ATUALIZAR_USUARIO(EMAIL, DIMINUIR_ESPACO): Busca o usuário e subtrai o novo espaço utilizado. Validações: ARMAZENAMENTO DE E-MAIL DIMINUIDO COM SUCESSO; NÃO É POSSÍVEL ATUALIZAR O ARMAZENAMENTO DE E-MAILS, POIS COM ESSA ATUALIZAÇÃO SUA CAIXA FICARÁ CHEIA; E-MAIL NÃO ENCONTRADO; ou via try except: A INFORMAÇÃO DIMINUIR ESPAÇO NÃO É UM NÚMERO VÁLIDO. 4 – VERIFICAR_ESPACO_EMAIL(EMAIL): Retorna espaço disponível, 0.0 se cheio ou -1.0 se não encontrado. 5 – EXISTE_EMAIL(EMAIL): Retorna True ou False. 6 – POS_EMAIL(EMAIL): Retorna a posição do dicionário na matriz. 7 – IMPRIMIR_RESULTADOS(): Imprime a matriz formatada usando concatenação, loop e 20 hifens para separação. 8 – CASOS DE TESTES: Cadastrar contas iniciais, imprimir resultados, tentar atualizar pedrita@teste.com com +1100MB (bloquear), remover josefa@teste.com, cadastrar nova conta e imprimir resultados finais.",
+    "format_input": "É solicitado o email e nome no formato de string, por fim é solicitado o espaço de email que a conta terá no formato float e o espaço utilizado deve ser calculado automaticamente.",
+    "format_output": "A cada informação digitada deve-se pular uma linha, depois de realizado o cadastro e a cada modificação no armazenamento deve ser mostrado os resultados formatados.",
+    "topics": [
+        "estrutura de dados",
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática",
+        "repetição",
+        "dividir e conquistar",
+        "string",
+        "dicionário",
+        "busca",
+        "formatação"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Intercalação de Palavras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para intercalar os caracteres de duas palavras em uma única palavra. Para isto deve fazer uso de uma função chamada intercalar que recebe as duas palavras (strings) de mesmo tamanho como parâmetro e retorna uma palavra (string) com os caracteres das duas palavras intercalados. Os caracteres da primeira palavra devem ser convertidos para letras maiúsculas e os da segunda para minúsculas.",
+    "format_input": "Na primeira linha da entrada, o programa deve ler a quantidade pares de palavras que serão lidos pelo programa (N). Em cada uma das linhas seguintes o programa deve ler as palavras que serão intercaladas. Estas são separadas por um espaço em branco.",
+    "format_output": "A saída consiste de N linhas contendo as palavras resultantes da intercalação.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "entrada formatada",
+        "repetição",
+        "função",
+        "string"
+    ]
+}

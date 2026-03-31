@@ -1,0 +1,12 @@
+{
+    "title": "Organizando as cartas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Antigamente era comum a comunicação entre cartas, porém com a facilidade do telefone e do computador ficou mais rápido a troca de informação. A Internacional Correios (IC) encontrou várias cartas perdidas. Com isso você ficou responsável por catalogá-las. Seu objetivo é organizar primeiramente em relação a data ( mais antiga para a mais nova ), nome do remente e destinatário (alfabeticamente, não existe diferença entre maiúsculo e minúsculo ).",
+    "format_input": "Um inteiro N indicando quantas cartas foram encontradas. Em seguida terá mais 3 * N linhas a cada 3 linhas tem a informação sobre uma carta respetivamente data, nome do remetente e nome do destinatário. A data sempre será no formato : X de Y de Z. Onde X e Z são inteiros, respectivamente dia e ano e Y uma string representando o mês. Os nomes serão strings.",
+    "format_output": "As cartas de forma organizada.",
+    "topics": [
+        "string",
+        "ordenação",
+        "formatação"
+    ]
+}

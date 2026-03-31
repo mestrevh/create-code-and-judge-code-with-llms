@@ -1,0 +1,10 @@
+{
+    "title": "Mais velho de três",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dadas as datas de nascimento de três pessoas, calcular quem é a mais velha.",
+    "format_input": "Três linhas, cada uma contendo o nome de uma pessoa, um string só com letras, seguido de três inteiros correspondentes ao dia, mês e ano de nascimento da pessoa. Pode-se assumir que tanto os nomes como as datas de nascimento são diferentes entre si.",
+    "format_output": "A saída deve ser o nome da pessoa mais velha.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

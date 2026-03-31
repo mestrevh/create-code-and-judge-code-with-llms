@@ -1,0 +1,13 @@
+{
+    "title": "Inversão de pontos",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Em uma certa empresa que trabalha com mapas existe um sistema de marcação que é feito no sentido horário. Um de seus funcionários descobriu que teria uma maneira mais eficaz de fazer isso e seria mudando a ordem dos pontos. Então ele contatou o setor de tecnologia e voce ficou encarregado de criar um programa que inverta esses pontos. Você recerá um conjunto de pontos e deverá imprimí-los no sentido horário, começando do ponto mais a direita (maior valor da coordenada X). A figura abaixo mostra como seria a ordem de impressão para os pontos dados no exemplo de entrada e saída disponível para download nesse exercício.",
+    "format_input": "Consiste de uma sequencia n de 2 pontos onde n é um numero desconhecido. Os pontos tem o seguinte formato: *x, y (onde x e y são numeros com uma quantidade de casas decimais que varia de 2 a 15, positivos ou negativos) A entrada termina com uma quebra de linha.",
+    "format_output": "Seu programa deve imprimir os pontos ordenados de acordo com o sentido horário. O primeiro ponto é o ponto mais a direita (maior x). Você também deve imprimir os pontos com a mesma quantidade de casas decimais da entrada e com uma quebra de linha no final.",
+    "topics": [
+        "geometria computacional",
+        "array",
+        "ordenação",
+        "estruturas"
+    ]
+}

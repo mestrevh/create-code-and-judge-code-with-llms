@@ -1,0 +1,10 @@
+{
+    "title": "Melhorando o Desempenho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Talita está preocupada com o desempenho de seu filho na escola. No semestre passado, o boletim estava cheio de notas baixas e ele corre o risco de repetir de ano. Para motivá-lo, ela propôs um desafio: se ele conseguir melhorar de desempenho a cada avaliação mensal, ganhará um brinquedo novo! Ou seja, para mostrar que ele está se esforçando, cada nota terá que ser superior à anterior. Escreva um programa que receba como entrada as 6 notas do filho de Talita e exiba uma mensagem informando se ele ganhará brinquedo ou não.",
+    "format_input": "Seis números reais",
+    "format_output": "Um String com a mensagem \"Ganha brinquedo\" ou com a mensagem \"Sem brinquedo\"",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Alinhados",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Esquisildo é completamente obcecado por organização, agora ele quer saber se todos os seus pendrives estão perfeitamente enfileirados. Para extinguir essa dúvida ele pediu a sua ajuda. Faça um programa que dada as coordenadas X, Y de todos os pendrives, diga se estão alinhados ou não.",
+    "format_input": "A primeira linha contém um número inteiro positivo N >= 3 de pendrives, cada uma das N linhas seguintes contém dois inteiros X Y representando as posições dos pendrives sobre a mesa, para cada caso de teste as posições X Y de cada pendrive não coincidem(não há pendrives empilhados). A entrada termina quando N = 0.",
+    "format_output": "Para cada fileira de pendrives escreva ALINHADOS se todos estiverem alinhados ou NAO_ALINHADOS em caso contrário",
+    "topics": [
+        "geometria computacional",
+        "multiplas entradas",
+        "array"
+    ]
+}

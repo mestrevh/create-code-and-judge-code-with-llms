@@ -1,0 +1,8 @@
+{
+    "title": "Número informado.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em java que leia do usuário um número e escreva a mensagem: O número informado foi <número>.",
+    "format_input": "Número informado.",
+    "format_output": "Número informado.",
+    "topics": []
+}

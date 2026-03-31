@@ -1,0 +1,10 @@
+{
+    "title": "Operadores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após assistir sua primeira aula de introdução à programação, marquinhos decide criar um programa que demonstra o uso de operações matemáticas em C. Porém ele não conseguiu e pediu sua ajuda com o desafio!",
+    "format_input": "Dois números reais separados por espaço.",
+    "format_output": "respectivamente a soma, subtração, produto e divisão dos 2 números digitados seguidos por uma quebra de linha. OBS: os números devem ser separados por espaço e vírgula!",
+    "topics": [
+        "lógica matemática"
+    ]
+}

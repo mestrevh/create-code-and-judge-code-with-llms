@@ -1,0 +1,10 @@
+{
+    "title": "L3Q4 - Homem Ser",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sabendo que o primeiro passo para vencer as batalhas é a organização, o Capitão Lee ordenou que os soldados fossem medir sua altura e que depois se dispusessem em ordem crescente. Vendo a confusão deles, Mulan fez uma lista com os nomes e alturas e os organizou. Seu trabalho é ajudar Mulan a formar a fila, ela dará a você a lista com os nomes e alturas deles e você devolverá uma lista com os nomes dos soldados em ordem crescente, da menor altura para a maior. OBS: Caso dois soldados tiverem a mesma altura deve ser priorizado a ordem alfabética da primeira letra dos nomes. Em relação a ordem alfabética, diferenças de maiúsculas e minúsculas deve ser desconsideradas. É garantido que não existem dois soldados com a mesma altura e com a mesma primeira letra do nome.",
+    "format_input": "A primeira linha da entrada é composta por um inteiro N, referente a quantidade de soldados. As próximas N linhas são compostas por uma string e um inteiro que se referem, respectivamente, ao nome e a altura (em centímetros) de um soldado separados por um espaço.",
+    "format_output": "A saída deve conter apenas uma linha, composta pelos nomes dos soldados (ordenados em ordem crescente, de acordo com suas respectivas alturas) separados por um espaço. OBS: Os nomes devem ser escritos na mesma linha separados por um espaço, mas o último nome NÃO deve ter um espaço ao lado.",
+    "topics": [
+        "array"
+    ]
+}

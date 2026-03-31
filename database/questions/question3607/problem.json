@@ -1,0 +1,10 @@
+{
+    "title": "Sanduiche na Lanchonete",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Uma lanchonete vende apenas um tipo de sanduíche, cujo recheio inclui duas fatias de queijo, uma fatia de presunto e uma rodela de hambúrguer. Sabendo que cada fatia de queijo ou presunto pesa 50 gramas, e que a rodela de hambúrguer pesa 100 gramas, elabore um programa em que o dono da lanchonete forneça a quantidade de sanduíches a fazer, e o programa informe as quantidades (em quilos) de queijo, presunto e carne necessários para compra.",
+    "format_input": "A entrada deverá ser apenas o número de sanduíches. Considere que será fornecido um número inteiro positivo. Não coloque strings em seu input (não forneça instruções de preenchimento) pois o corretor automático não os espera. Exemplo de entrada: 10",
+    "format_output": "A saída deve ser formatada exatamente como no exemplo abaixo, utilizando apenas 2 casas decimais (ignore os comentários). 1.00 # quantidade de kg de queijo 0.50 # quantidade de kg de presunto 1.00 # quantidade de kg de carne",
+    "topics": [
+        "ad-hoc"
+    ]
+}

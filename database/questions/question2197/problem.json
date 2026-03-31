@@ -1,0 +1,12 @@
+{
+    "title": "Ambrósio desastrado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O jovem Ambrósio estava decifrando uma mensagem escrevendo letra por letra em pedaços de papel. Em cada pedaço Ambrósio escreveu uma letra e um número representando sua posição, da seguinte forma: 1 M 2 e 3 n 4 s 5 a 6 g 7 e 8 m Porém Ambrósio esbarrou na mesa e bagunçou todos os pedaços. Ajude-o a reorganizar a mensagem.",
+    "format_input": "Um inteiro N representando a quantidade de pedaços. (0 < N < 200) N linhas contendo um inteiro M e um caractere C. (1 < M <= N)",
+    "format_output": "Todos os caracteres dos pedaços na ordem correta.",
+    "topics": [
+        "array",
+        "repetição",
+        "ordenação"
+    ]
+}

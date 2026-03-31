@@ -1,0 +1,10 @@
+{
+    "title": "3 tipos de média",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que recebe 3 notas de prova e calcula: - A média delas - A média ponderada delas, considerando pesos 2, 2 e 3 - A média ponderada delas, considerando pesos 1, 2 e 2",
+    "format_input": "Nota 1 Nota 2 Nota 3",
+    "format_output": "Média Média ponderada, considerando pesos 2, 2 e 3 Média ponderada, considerando pesos 1, 2 e 2 obs.: Médias com 2 casas decimais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

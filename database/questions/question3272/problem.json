@@ -1,0 +1,11 @@
+{
+    "title": "Palavras com fatiamento e concatenação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa em Python que lê (nesta ordem) uma string s e 4 números inteiros i1, f1, i2 e f2. Os números i1 e f1 representam os índices inicial e final (inclusive) do fatiamento (slice) s1 da string s. Os números i2 e f2 representam os índices inicial e final (inclusive) do fatiamento (slice) s2 da string s. Seu programa deve calcular as substrings s1 e s2 e imprimir a concatenação delas, respectivamente.",
+    "format_input": "Cinco valores nesta ordem: 1- string s 2- inteiro i1 3- inteiro f1 4- inteiro i2 5- inteiro f2 Lembrete: NÃO utilize argumento na função input().",
+    "format_output": "Calcule o fatiamento s1 e s2 da string s (lida) utilizando os índices i1 até f1 (inclusive), e i2 até f2 (inclusive), respectivamente. Concatene e imprima s1 e s2.",
+    "topics": [
+        "substrings",
+        "string"
+    ]
+}

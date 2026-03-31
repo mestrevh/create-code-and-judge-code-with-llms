@@ -1,0 +1,10 @@
+{
+    "title": "Área do círculo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que recebe o raio de um círculo e calcula a sua área. Considere: 3,14159",
+    "format_input": "Um número real positivo ou zero (valor do raio do círculo)",
+    "format_output": "Um número real positivo ou zero com 3 casas decimais (valor da área do círculo)",
+    "topics": [
+        "lógica matemática"
+    ]
+}

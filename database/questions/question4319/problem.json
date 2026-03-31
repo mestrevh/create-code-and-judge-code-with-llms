@@ -1,0 +1,10 @@
+{
+    "title": "Estou aprovado?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para verificar se um aluno está ou não aprovado. São realizadas 03 provas (prova 1, prova 2 e prova de reposição). Todos os alunos são obrigados a fazer todas as provas. Caso o aluno seja maior de idade, a média final é calculada com a média ponderada entre média aritmética das provas 1 e 2 (peso 6) e a nota da prova de reposição (peso 3). Caso o aluno seja menor de idade, a nota da prova de reposição só será considerada caso a nota da prova 1 ou prova 2 for menor do que 7. Nesse caso (alguma das notas da prova 1 e 2 forem menor do que 7), a média final será a média aritmética das duas maiores notas. Caso contrário, a média final será a média aritmética das provas 1 e 2. O aluno será considerado aprovado quando a média final for igual ou maior que 5.5. Entretanto, há um requisito adicional, o aluno não pode ter nenhuma nota abaixo de 4.0. Caso contrário, será reprovado. Se o aluno estiver aprovado, o programa deve exibir a mensagem: \"Aprovado\". Caso contrário, deve exibir a mensagem: \"Reprovado\".",
+    "format_input": "Idade do aluno (valor inteiro) Nota da prova 1 (valor real) Nota da prova 2 (valor real) Nota da prova de reposição (valor real)",
+    "format_output": "Se o aluno estiver aprovado, o programa deve exibir a mensagem: \"Aprovado\". Caso contrário, deve exibir a mensagem: \"Reprovado\".",
+    "topics": [
+        "decisão"
+    ]
+}

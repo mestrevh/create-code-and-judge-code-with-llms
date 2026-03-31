@@ -1,0 +1,10 @@
+{
+    "title": "[AC3.4] Alfândega",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia um valor de mercadorias que um turista está trazendo de volta e calcula quanto ele terá que pagar de imposto na alfândega. A regra de imposto é: Até 500 de valor: sem imposto Acima de 500: 50% sobre o excedente",
+    "format_input": "Valor de mercadorias",
+    "format_output": "Valor do imposto (float)",
+    "topics": [
+        "lógica matemática"
+    ]
+}

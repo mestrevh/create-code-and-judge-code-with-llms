@@ -1,0 +1,10 @@
+{
+    "title": "Divisores de um número",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Determinar todos os divisores de um número inteiro positivo.",
+    "format_input": "Número inteiro positivo.",
+    "format_output": "Divisores desse número, menores que ele.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

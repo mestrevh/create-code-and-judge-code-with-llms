@@ -1,0 +1,10 @@
+{
+    "title": "Supermercados mais convenientes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Com a inflação em alta e a grande variação de preços, você decide fazer um programa que lhe ajude a economizar na realização de compras em supermercados. Inicialmente, você montará uma lista de produtos que serão comprados. Depois, através de uma pesquisa de preços, obterá o valor de venda de cada produto em cada supermercado. Você então vai desenvolver um programa que com as informações obtidas apresentará os três supermercados mais convenientes com relação ao preço total da lista de produtos.",
+    "format_input": "1. A lista de produtos terminada por uma linha contendo ‘FIM’, um produto por linha. 2. Para cada supermercado, o nome do supermercado, em uma linha, seguido de outra linha contendo a lista de preços dos produtos, cada preço separado por um espaço em branco e seguindo a mesma ordem de lista de produtos dada inicialmente. Os dados terminam com uma linha contendo ‘FIM’. A listagem segue a ordem de proximidade dos supermercados com a sua casa. Supermercados mais próximos são listados antes que os mais distantes.",
+    "format_output": "Os preços dos produtos nos três supermercados mais convenientes, listando primeiro os do supermercado com total menor. Se houverem menos de três supermercados, deverá imprimir os preços de todos, mas sempre mantendo a ordem de conveniência. No caso de haver igualdade no preço total de dois supermercados, deverá listar primeiro os dados do supermercado mais próximo da sua casa.",
+    "topics": [
+        "array"
+    ]
+}

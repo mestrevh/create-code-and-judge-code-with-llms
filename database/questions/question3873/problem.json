@@ -1,0 +1,13 @@
+{
+    "title": "Faturas & Sofrimento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O banco TalvezFalidos decidiu alterar sua política de faturas sem ligar nem um pouco para os maníacos que escolheram em algum momento confiar seu dinheiro nesse pessoal. A nova política faz com que as faturas a partir deste momento funcionem para todos os clientes, da seguinte forma: Caso a soma de cada dígito do nº do cartão seja maior ou igual que o CVV do cartão, a fatura será zerada. Caso a soma de cada dígito do nº do cartão seja menor que o CVV do cartão, a fatura será multiplicada pela diferença entre o valor da soma e o CVV. Use do seu conhecimento de programação para determinar quais clientes irão se beneficiar dessa nova política, e quais irão sofrer - e provavelmente trocar de banco.",
+    "format_input": "A entrada enviará inicialmente um inteiro, determinando a quantidade de clientes a terem suas faturas analisadas (0 < N <= 6). Após isso, para cada cliente será fornecido blocos contendo as seguintes informações, na respectiva ordem: 1. Nome do cliente (Máx. 31 caracteres) 2. Número do cartão (16 dígitos) 3. CVV (0 < CVV <= 999) 4. Valor (0 < V <= 1000, podendo possuir casas decimais)",
+    "format_output": "Primeiro, imprima na tela a seguinte frase, com x sendo a quantidade de pessoas que tiveram a fatura zerada: “Um total de x clientes se beneficiaram da nova politica!” Seguido de uma quebra de linha e em seguida o nome de todos os clientes beneficiados, na ordem da entrada, e o valor final da fatura de cada um, sempre com quebra de linha ao final. Em seguida, imprima na tela a seguinte frase, com y sendo a quantidade de pessoas que foram prejudicadas pela mudança: “No entanto, y clientes nao se beneficiaram da nova politica.\" Seguido de uma quebra de linha e em seguida o nome de todos os clientes prejudicados, na ordem da entrada, e o valor final da fatura de cada um, sempre com quebra de linha ao final. Todos os valores printados devem possuir no máximo duas casas decimais.",
+    "topics": [
+        "array",
+        "ciclos",
+        "caractere",
+        "estruturas"
+    ]
+}

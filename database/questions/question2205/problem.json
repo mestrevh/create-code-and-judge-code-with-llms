@@ -1,0 +1,12 @@
+{
+    "title": "Soma de MDCs",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio, como é seu amigo de longa data (ou não), estava curioso para somar vários resultados de MDCs diferentes. Obviamente, Ambrósio não que fazer o cálculo do MDC a mão, portanto lhe solicitou que escreva um programa, que dado qualquer quantidade de linhas com dois números 'a' e 'b' acumule a soma dos MDCs. Sabe se que para calcular o MDC, usamos o algoritmo de Euclides que pode ser descrito como: O algoritmo de Euclides para quando o resto é 0, retornando a. A entrada para quando 'a' ou 'b' assumir valor igual a -1.",
+    "format_input": "Um par de inteiro por linha da seguinte maneira: a b se 'a' ou 'b' forem iguais a -1, a soma é impressa e o programa é encerrado.",
+    "format_output": "A soma dos MDCs da seguinte maneira: S Seguido por uma quebra de linha.",
+    "topics": [
+        "multiplas entradas",
+        "lógica matemática",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Os arrays de Kinho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kinho recebeu uma importante tarefa que envolve arrays, mas como ele anda muito ocupado votando no paredão da Karol Conká, cabe a você, jovem discípulo de ACM assumir a responsabilidade. Dado um array {a(1), a(2), a(3), ..., a(n)} e um número d, você precisará escolher três índices i, j e k (i != j, i != k e j != k) e atribuir a soma de a(j) e a(k) para a(i), fazendo a(i) = a(j) + a(k) de forma a tornar todos os elementos do array menores ou iguais a d. Pode fazer essa operação um número indeterminado de vezes, você consegue?",
+    "format_input": "A primeira linha contém um inteiro t (1 <= t <= 2000), o número de casos de teste. A primeira linha de cada caso teste contém dois inteiros n e d, (3 <= n <= 100; 1 <= d <= 100), o número de elementos do array e o valor d. A segunda linha de cada caso teste contém n inteiros {a(1), a(2), a(3), ..., a(n)}, (1 <= a(i) <= 100).",
+    "format_output": "Para cada caso teste, você deverá printar SIM caso seja possível tornar todos os elementos do array menores ou iguais a d, e NAO caso contrário :)",
+    "topics": [
+        "array"
+    ]
+}

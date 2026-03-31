@@ -1,0 +1,11 @@
+{
+    "title": "inverta a ordem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "crie um programa que receba varias string e junte elas na ordem contraria da que foram recebidas",
+    "format_input": "n : número de strings s : sequência de n strings",
+    "format_output": "strings unidas na ordem contraria à que foram recebidas",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

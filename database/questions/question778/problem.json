@@ -1,0 +1,12 @@
+{
+    "title": "Teclado com Problemas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Há algum tempo atrás, diversas pessoas utilizavam máquinas de escrever para digitar documentos, livros, e até mesmo cartas. Porém, com o passar do tempo, a tecnologia foi sendo aprimorada e as máquinas de escrever foram sendo deixadas de lado, sendo substituídas por computadores. Um experiente datilógrafo, acostumado com essas máquinas, digitava apenas olhando para o teclado, pondo a vista para a tela apenas após o fim de cada frase. Contudo, o teclado usado por ele estava com problemas, o primeiro era que a barra de espaço estava sem funcionar, então para separar as palavras de cada frase ele utilizava ou o caractere \"_\" ou o caractere \"-\". Em segundo lugar, os botões \"Home\" e \"End\", eram pressionados por si só internamente enquanto ele escrevia. Tendo em vista a situação passada pelo datilógrafo, simule um programa que receba dele uma frase de como ele imagina que esteja escrevendo, e mostre na tela o que realmente irá sair.",
+    "format_input": "A entrada será dada por várias linhas contendo uma frase cada. Além das palavras e dos separadores, o texto das frases também tem os caracteres \"[\" e \"]\", representando respectivamente o uso das teclas \"Home\" e \"End\". Cada frase não possui mais do que 100.000 caracteres.",
+    "format_output": "Para cada linha da entrada, imprimir a frase resultante no formato citado pelo problema (levando em consideração que as teclas HOME e END serão pressionadas ocasionalmente).",
+    "topics": [
+        "String",
+        "Processamento de Texto",
+        "Algoritmos"
+    ]
+}

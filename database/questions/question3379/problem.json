@@ -1,0 +1,10 @@
+{
+    "title": "Maior Idade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia a idade de uma pessoa e determine se a pessoa é maior ou menor de idade",
+    "format_input": "Idade - numero inteiro",
+    "format_output": "Maior ou menor de idade.",
+    "topics": [
+        "decisão"
+    ]
+}

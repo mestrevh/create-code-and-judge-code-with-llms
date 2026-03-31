@@ -1,0 +1,10 @@
+{
+    "title": "Pílula do Zé",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Zé é um rapaz muito esquecido, e após esquecer dos lápis, crachá, óculos e outras coisas, decidiu procurar um médico para resolver a sua situação. O Médico receitou uma pilula, que se tomado 3x no horario correto resolveria o problema de Zé, o único desafio é que esse remédio deveria ser tomado seguinto horarios expecificos, então sabendo que Zé era monitor de IP e anotaria todos os horarios das pilulas, o médico decidiu pedir aos calouros de IP que fizessem um programa em c para verificar se Zé tomou as pílulas nos horários corretos. O Médico prescreveu o seguinte: A primeira pílula pode ser tomada apenas na primeira metade do dia; A segunda pílula deve ser tomada exatamente 3h12m após a primeira; A terceira pílula deve ser tomada exatamente 1380m após a segunda; obs: o horário é dado no sistema de 24h, e cada hora tem 60 minutos",
+    "format_input": "Entrada: 6 inteiros representando os horários que Zé tomou as pílulas; 1 00 4 12 3 12",
+    "format_output": "Saída: 'v' para cada horário certo, e 'f' para cada esquecimento, e no final a palavra sucesso, caso ele tomou todos os remédios em tempo, e falha, caso contrário. v v v sucesso",
+    "topics": [
+        "datas/horas"
+    ]
+}

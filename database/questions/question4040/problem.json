@@ -1,0 +1,11 @@
+{
+    "title": "Pipi e Mariozito vão afetar o Grêmio",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Pipi e Mariozito são treinadores da equipe de futebol do CIn e vão enfrentar o seu maior adversário, o Grêmio. Porém, eles estão brigando para escolher a melhor formação para destruir seu oponente em campo. Eles pediram que você os ajudasse criando um programa para escolher a melhor formação dentre as opções que eles têm baseado no foco que eles querem: defesa, meio ou ataque. Logo, a linha com mais jogadores é a linha com mais foco. Cabe a você ajudar Pipi e Mariozito a afetar o Grêmio!!!!!!!!!!!!!!!!!!!!!!!! OBS: - As formações tem até 4 linhas, sendo representada por: defesa-meio-meio-ataque (o meio de campo engloba os dois \"meio\") - Uma formação com 3 linhas é por: defesa-meio-ataque (a ultima linha será preenchida com zeros) Ex: a formação 4-4-2 corresponde a 4 defensores, 4 meias (apenas uma linha representando o meio campo) e 2 atacantes Abaixo segue o link para uma imagem com exemplos de esquemas https://img.freepik.com/vetores-premium/taticas-de-formacoes-de-futebol-posicao-de-planejamento_107708-102.jpg?w=826",
+    "format_input": "Um inteiro positivo \"N\" representando a quantidade de esquemas táticos Um caractere indicando o foco do jogo; A (ataque), M (meio campo), D (defesa). Uma sequencia de \"N\" matrizes representando as formações táticas (note que, pelas imagens, a linha do ataque é representada primeiro na matriz, seguida da(s) linha(s) do meio e defesa por ultimo)",
+    "format_output": "A seguinte frase dizendo o melhor esquema: \"Pipi e Mariozito deviam escolher a formacao [formacao]\" obs: a formação deve estar no formato indicado pela imagem acima, a quantia de jogadores por linha, a partir da linha da defesa, separadas por um hífen. Ex: 3-1-5-1 e 4-4-2 Após a quebra de linha, exiba a matriz que representa o esquema",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

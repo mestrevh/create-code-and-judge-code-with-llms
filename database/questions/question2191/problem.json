@@ -1,0 +1,12 @@
+{
+    "title": "3 Caracteres em ordem crescente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que ordene três caracteres. Você irá receber dois conjuntos de caracteres, imprima cada um dos conjuntos ordenados de forma crescente. Considere os valores da tabela ASCII. Exemplo: Receba: c b a z y x Imprima: a b c x y z",
+    "format_input": "A entrada está restrita à letras do alfabeto minúsculas. Recebe dois conjuntos de caracteres desta maneira: c b a z y x",
+    "format_output": "Imprime os dois conjuntos desta maneira: a b c x y z",
+    "topics": [
+        "decisão",
+        "caractere",
+        "ordenação"
+    ]
+}

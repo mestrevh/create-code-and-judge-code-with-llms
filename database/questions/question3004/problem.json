@@ -1,0 +1,10 @@
+{
+    "title": "Devorador de Mentes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "De volta ao mundo normal, o Devorador de Mentes decide atacar Hawkins novamente e escravizar os habitantes. Will e seus amigos, percebendo que a maioria dos cidadãos estavam com um comportamento estranho, decidiram investigar quão forte o Devorador de Mentes já estava. Eles sabiam que era uma tarefa um pouco difícil e decidem pedir sua ajuda para conseguir saber detalhadamente a força de todos os súditos. Através de informações sobre a força de cada cidadão possuído pelo Devorador de Mentes você deve construir uma função recursiva de soma que mostre o poder atual do monstro. Este poderia ser calculado através da soma de todos os membros que possuem força maior que 10. Os demais poderiam ser desprezados no cálculo. Para tornar o cálculo mais rápido, você precisa: 1. particionar cada grupo, representado por um array, em 2 subgrupos; 2. aplicar a função recursiva de soma na metade esquerda do array; 3. aplicar a função recursiva de soma na metade direita do array; 4. somar o resultado retornado pela aplicação da função recursiva às duas partes do array (metade direita e metade esquerda); 5. retornar a soma do passo (4) como resultado da função. Obs: caso a quantidade de elementos no array seja ímpar, na hora de particionar o array, você decide se coloca um elemento a mais do lado direito ou do lado esquerdo. Obs: A resolução da questão deve ser feita usando função recursiva. A função recursiva termina quando houver apenas um elemento no array, tornando impossível o particionamento. Quando atingir esse ponto, o valor unitário será retornado como resposta, caso ele seja maior do que 10.",
+    "format_input": "A entrada contém um número natural N representando a quantidade de membros total, seguido de N valores Xi (X1 X2 X3... Xn) representando a respectiva força que o i-ésimo membro possui.",
+    "format_output": "Um número natural S representando a soma da força calculada para os indivíduos utilizando a função recursiva descrita.",
+    "topics": [
+        "recursão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Multiplicação de 3 números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba três números inteiros, calcule e mostre a multiplicação desses números.",
+    "format_input": "O arquivo de entrada contém três valores inteiros.",
+    "format_output": "Apresente o resultado da multiplicação desses 3 números lidos.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Formato de uma lista de emails",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que verifique se o formato de um conjunto de emails está correto. Por questões de simplicidade vamos assumir que um email para estar correto deve estar na forma usuário@dominio.tipodedominio.país. O programa deve encerrar quando encontrar a palavra \"sair\".",
+    "format_input": "Vários strings, um por linha que identifica um email. Algumas restrições são adotadas: O email pode ter um único formato: usuário@dominio.tipodedominio.país; O email deve ter exatamente 2 caracteres de \".\"; Antes do símbolo \"@\" deve haver pelo menos 1 caractere ou o email é considerado inválido; Depois da arroba, antes e depois dos caracteres \".\" deve haver pelo menos 1 caractere (diferente da arroba) ou o email é considerado inválido; Não pode haver mais de uma arroba no email.",
+    "format_output": "A cada e-mail recebido, o programa deve imprimir se o e-mail é válido ou não.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "substrings",
+        "repetição",
+        "string"
+    ]
+}

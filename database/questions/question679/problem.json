@@ -1,0 +1,10 @@
+{
+    "title": "Ih, errou de novo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lucas está aprendendo a somar, mas ele ainda erra bastante, por isso ele quer que você o ajude. O problema é o seguinte: Lucas quer saber quantos pares (X,Y) existem tal que A ≤ X ≤ B e C ≤ Y ≤ D, e ainda X + Y > K.",
+    "format_input": "A primeira linha da entrada contém T (1 ≤ T ≤ 30), o número de casos de teste. As próximas T linhas descrevem os casos de teste, cada linha contém 5 inteiros: K A B C D, indicando os valores explicados anteriormente. Limites -10^4 ≤ A ≤ B ≤ 10^4 -10^9 ≤ C ≤ D ≤ 10^9 -10^15 ≤ K ≤ 10^15",
+    "format_output": "Para cada caso imprima uma linha com a resposta da questão.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Jarathus, o Conquistador",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Jarathus é um grande conquistador, sendo reconhecido por ter alcançado a marca do maior império de Askard jamais visto. Segundo a lenda, Jarathus conquistou 40 reinos do Grande Continente no período de um mês. Agora, restam apenas poucos reinos para uma total hegemonia, o que será o sinal definitivo da sua capacidade de liderança e de conquistas. Será Jarathus o rei dos conquistadores? Mas bem, sabe-se que toda vez que Jarathus conquista um reino, ele gasta a quantia necessária para a invasão, mas depois arrecada impostos dos reinos conquistados anteriormente, segundo o contrato de submissão. Quanto maior a inimizade entre o reino recém conquistado e os anteriores, maior a arrecadação de impostos. Por exemplo, dada a seguinte tabela de inimizades: A B C A' 0 5 10 B' 2 0 0 C' 5 2 0 Se Jarathus conquistar o reino A possuindo os reinos B e C, arrecadará 15. Se conquistar o reino B, possuindo o Reino A, arrecadará 2, e assim sucessivamente.",
+    "format_input": "A primeira linha da entrada contém um inteiro T (1 ≤ T ≤ 100) que corresponde ao número de casos de teste. Em cada caso de teste, a primeira linha contém um inteiro N (1 ≤ N ≤ 15), indicando o número de reinos que Jarathus precisa conquistar. A segunda linha contém N inteiros, indicando o custo Ci (-100 ≤ Ci ≤ 100) de invadir o i-ésimo reino. As seguintes N linhas contém N inteiros aij (-100 ≤ aij ≤ 100) cada, indicando a inimizade do reino i para com o reino j (não necessariamente aij = aji).",
+    "format_output": "None",
+    "topics": []
+}

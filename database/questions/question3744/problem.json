@@ -1,0 +1,11 @@
+{
+    "title": "Contrarrelógio ciclístico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Numa competição contrarrelógio, cada ciclista parte individualmente e o seu tempo é cronometrado. Cada competidor faz parte de uma equipe. Vence a equipe que tem a menor soma de tempos dos seus membros. Assumimos que todos os competidores terminam o circuito. Toda equipe é identificada por um número sequencial. Números de equipes começam a partir de 1. Todo ciclista também é identificado por um número o qual é formado juntando o número da equipe a um número sequencial dentro da equipe, começando em 0.",
+    "format_input": "Dois número n e m em uma única linha. O primeiro corresponde ao número de equipes na competição e o segundo ao número de membros por equipe. Temos que 1 <= n < 100 e 0 <= m < 10. n sequências de (m+1) nomes. Em cada uma destas sequências, o primeiro elemento é o nome da equipe enquanto que os restantes m elementos são os nomes dos ciclistas desta equipe. Cada nome, de equipe ou ciclista, é dado em uma linha. A numeração das equipes segue a ordem destas sequências, assim a equipe listada em primeiro lugar tem o número 1, a seguinte, o número 2, e assim por diante. O número sequencial de um ciclista dentro da equipe segue a ordem em que são inseridos os nomes. Por exemplo, se a primeira sequência de dados é: Movistar Nairo Quintana Alejandro Valverde Richard Carapaz. A equipe tem o nome Movistar e seu número é 1, por ser a primeira sequência. Os números de Nairo, Alejandro e Richard são 10, 11 e 12, respectivamente, onde o primeiro dígito de cada um representa o número da equipe. O tempo de cada um dos ciclistas, um por linha. A informação vem em 4 números, o primeiro é o número do ciclista enquanto que os três restantes são a quantidade de horas, minutos e segundos que o ciclista demorou para completar o percurso.",
+    "format_output": "A saída deve seguir o formato do exemplo, apresentando a classificação por equipes seguindo a ordem de melhor tempo. Dentro de cada equipe, a ordem de listagem segue também a de melhor tempo. Se os tempos de vários ciclistas forem os mesmos, segue-se a ordem alfabética dos nomes. Os tempos são dados em segundos.",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

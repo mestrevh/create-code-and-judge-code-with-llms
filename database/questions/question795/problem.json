@@ -1,0 +1,10 @@
+{
+    "title": "Números hexagonais incompletos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um número é chamado de n-ésimo número hexagonal incompleto quando representa a quantidade de elementos dentro de uma figura hexagonal de lano n, sendo o hexágono preenchido camada sim, camada não. Abaixo temos o exemplo dos quatro primeiros números hexagonais incompletos, que são respectivamente, 1, 6, 13 e 24.",
+    "format_input": "A entrada é composta de vários casos de teste. Cada caso de teste é um número inteiro N ( 0 < N <= 50000), único em uma linha. Os casos de teste de entrada terminam com o último número fornecido.",
+    "format_output": "Para cada caso de teste com o valor N, deverá ser fornecido o N-ésimo número hexagonal incompleto de acordo com a definição acima.",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

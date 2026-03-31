@@ -1,0 +1,10 @@
+{
+    "title": "Investimentos N1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Reypedrof estudante fascinado por cryptomoedas, precisava de dinheiro para investir, porém, reprovou na cadeira 'Como fugir de um agiota' e mesmo assim decidiu arriscar, e agora ele deve a LK, conhecido como 'O inimigo do trabalho', LK muito malandro recebe apenas notas de 100 reais e não devolverá troco, se houver. Faça um programa que de acordo com a quantia que LK exigir, mostre se Reypedrof conseguiu ou não pagar e o que sobrou, caso tenha pago relate se perdeu ou não mais do que devia.",
+    "format_input": "Dois números inteiros N e M separados por um espaço em branco. N referente ao dinheiro de Reypedrof e o M o quanto LK cobrou.",
+    "format_output": "Todas as frases seguidos de quebra de linha: Se não conseguir pagar \"Pedro vai ter que fugir\" Se pagar, porém a mais do que devia \"Pegou mais\" seguido de \"Esta pago\" e o que sobrou \"Sobrou N\". Caso pague exatamente o que devia apenas \"Esta pago\" seguido do que sobrou \"Sobrou N\".",
+    "topics": [
+        "decisão"
+    ]
+}

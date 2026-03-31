@@ -1,0 +1,10 @@
+{
+    "title": "O Arquivo Perdido da Nave Aurora",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A nave espacial Aurora IX está explorando um setor desconhecido da galáxia quando sofre uma pane no sistema de comunicação. O computador central — o velho módulo ORION — informa que parte dos arquivos de navegação foram corrompidos e transformados em uma grande grade de caracteres embaralhados. Felizmente, antes da pane, um dos técnicos havia registrado uma lista de palavras-chave importantes para restaurar o sistema: nomes de estrelas, códigos de rota e identificadores de sondas. Essas palavras estão em ordem alfabética, mas ninguém sabe se elas ainda existem dentro da matriz corrompida. Sua missão é ajudar a tripulação a encontrar essas palavras na matriz, indicando quais delas ainda existem e na ordem em que foram registradas, considerando que cada palavra pode estar posicionada em uma linha, em uma coluna ou em uma diagonal. A tripulação depende de você: sem recuperar essas palavras-chave, a Aurora IX ficará à deriva no vazio cósmico. Obs.: Nenhuma palavra aparecerá em ordem invertida!",
+    "format_input": "Um inteiro X, representando quantas palavras-chave foram salvas. Em seguida, leia X palavras (todas já em ordem alfabética). Um inteiro Y, representando o tamanho da matriz corrompida. Uma matriz Y × Y, contendo caracteres aleatórios.",
+    "format_output": "Ao final da busca: Imprima \"Palavras encontradas: Z\", onde Z é o total de palavras identificadas na matriz. Caso Z > 0, imprima também as palavras encontradas, cada uma em uma nova linha, seguindo a mesma ordem em que foram digitadas.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

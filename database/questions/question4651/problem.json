@@ -1,0 +1,10 @@
+{
+    "title": "Q05 - Nomes errados",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A recepcionista de um consultório digita muitos nomes em apenas um dia, e por isso o seu teclado quebrou, e todo nome que ela digita fica com as letras maiúsculas e minúsculas em lugares aleatórios. Seu trabalho é fazer um programa que corrija isso e exiba o nome corretamente.",
+    "format_input": "Um nome (com sobrenomes ou não) com letras minúsculas e maiúsculas.",
+    "format_output": "O nome com as iniciais maiúsculas e as demais letras minúsculas.",
+    "topics": [
+        "string"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Volume da Esfera",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba o raio (R) de uma esfera e forneça: O volume da esfera, sabendo que: Volume Esfera = (4πR3)/3 Observação: Considere π como tendo o valor 3.1416.",
+    "format_input": "A entrada consiste de um número real (ponto flutuante) que representa o raio da esfera.",
+    "format_output": "A saída consiste de uma linha contendo o volume da esfera, um número real (ponto flutuante) com 2 casas decimais.",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

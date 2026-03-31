@@ -1,0 +1,11 @@
+{
+    "title": "Maior de três",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função que recebe três valores inteiros e retorna o maior deles.",
+    "format_input": "2 4 6",
+    "format_output": "6",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

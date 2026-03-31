@@ -1,0 +1,13 @@
+{
+    "title": "Teh Adventujrs of Meme Man: Loop do Mercado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Meme Man conseguiu, com a sua ajuda, escapar da fila interminável de carros! Entretanto, um pouco de tempo líquido da sua pílula acabou caindo, quebrando o tecido temporal e trancando nosso querido protagonista em um loop. A cada segundo, se a quantidade atual de segundos for múltipla de 13, Meme Man volta um minuto no tempo. Entretanto, se ele voltar para um minuto exato (60 segundos, 120, ...), ele avança 30 segundos ao invés de retornar 60. Para que ele se liberte, terá que ser kickado da dimensão atual por um administrador, no caso, você, no exato momento em que ele voltar para o tempo 0 enquanto ele está muito ocupado preparando o jantar com suas compras do mercado. Como tudo tem limite, você abandonará o posto caso ele passe pelo menos n minutos preso no loop. OBS: os pulos temporais devem acontecer antes de contabilizar a passagem de segundo. Inclusive nos valores iniciais de tempo.",
+    "format_input": "Um inteiro a (0 < a < 10^6), que representa o tempo inicial (em segundos) em que o Meme Man entrou no loop. Um inteiro n (1 < n < 100), que representa o tempo (em minutos) em que você abandonará o Meme Man caso ele não tenha voltado do loop.",
+    "format_output": "O número de segundos que se passaram desde que o Meme Man entrou no loop temporal até o momento em que você o puxou, caso o tenha puxado dentro do tempo limite, ou \"fui pedir comida mesmo\", seguido de uma quebra de linha, caso sua paciência tenha se esgotado.",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

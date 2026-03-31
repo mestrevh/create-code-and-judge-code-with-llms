@@ -1,0 +1,10 @@
+{
+    "title": "L5Q3 - Dimensão das Árvores Estranhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em uma de suas aventuras, Rick e Morty viajaram para uma dimensão em que todas as espécies de árvores seguiam um determinado padrão. O número de subramos de um ramo era o mesmo para todas as árvores de determinada espécie. Todos os ramos crescem simultaneamente em uma única direção. Rick decidiu que, para facilitar a taxiologia das árvores daquela dimensão, ele deveria nomear as espécies de acordo com o número de subramos de cada ramo. Ou seja, se o número de subramos de cada ramo for 2, a espécie da árvore é 2. Infelizmente, a \"máquina de iteração\" do computador de Rick está quebrada. Sua tarefa é fazer um programa que, dada a espécie da árvore e a quantidade de ramos da última camada, calcule a áltura da árvore de maneira recursiva.",
+    "format_input": "As entradas, sempre amigáveis, consistem de: N - número natural representando a espécie da árvore; K - número de ramos da última camada.",
+    "format_output": "H - representando altura da árvore",
+    "topics": [
+        "recursão"
+    ]
+}

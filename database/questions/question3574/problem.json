@@ -1,0 +1,10 @@
+{
+    "title": "O berçário de Kinho",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Kinho ama crianças e recentemente conseguiu um emprego em um berçário/hotelzinho!!!! Ele está muito feliz com o novo trabalho, mas como nem tudo são flores, um dos bebês está causando muitos problemas por chorar demais... A solução que Kinho encontrou para não ficar surdo com tanto choro foi evitar trabalhar nos dias em que o monstrinho estivesse lá xd. Dada uma matriz NxM de inteiros, onde cada elemento corresponde a um bebê(ou criança), você deve definir: 1. A quantidade de crianças, onde cada criança corresponde a um número triangular; 2. A quantidade de bebês, onde cada bebê corresponde a um número quadrado; 3. Se Kinho irá ou não trabalhar, onde a presença do bebê chorão é determinada por pelo menos um número pentagonal. Para determinar se um número é s-gonal, você pode utilizar a fórmula abaixo, lembrando que n precisa ser inteiro. Pode acontecer de um mesmo número atender a mais de uma das propriedades acima, nestes casos, considere a ordem de prioridade triangular -> quadrado -> pentagonal",
+    "format_input": "Um número t de casos 1 <= t <= 100 Dois números N e M, as dimensões da matriz 2 <= N,M <= 100 A matriz NxM, onde cada elemento da matriz 1 < a(i)(j) <= 10000",
+    "format_output": "A quantidade de crianças, bebês e a string \"Hoje o bebê vai chorar sozinho...\" caso Kinho não vá trabalhar, e \"Oba! Kinho vai trabalhar hoje.\" caso contrário.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

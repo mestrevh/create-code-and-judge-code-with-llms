@@ -1,0 +1,10 @@
+{
+    "title": "[AC4.4] - Múltiplos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que recebe dois números (A e B) e mais um número X e imprima todos os múltiplos de X no intervalo [A, B]",
+    "format_input": "A B X",
+    "format_output": "Os números múltiplos de X, um por linha",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "É de ladinho na escrita!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você irá receber um número inteiro \"n\" e uma sequência de n números reais, um abaixo do outro. Imprima os n números reais, na mesma sequência, porém um ao lado do outro (todos na mesma linha) usando 3 casas decimais!",
+    "format_input": "Um número inteiro \"n\" e uma sequência de n números reais, um abaixo do outro.",
+    "format_output": "Imprima os n números reais, na mesma sequência, porém um ao lado do outro (todos na mesma linha) usando 3 casas decimais. Eles devem estar separados por um espaço. Não há espaço após o último número impresso.",
+    "topics": [
+        "repetição",
+        "formatação"
+    ]
+}

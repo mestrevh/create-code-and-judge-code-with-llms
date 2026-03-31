@@ -1,0 +1,10 @@
+{
+    "title": "Perfil dos alunos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O professor Garibaldo da turma de Metafísica quer conhecer o perfil de seus alunos. Para isso, você vai auxilia-lo escrevendo um programa. O programa lerá dados dos alunos até que uma nota INFERIOR a zero seja lida. Assuma que a média de aprovação é igual a 70 e que o curso pode ser Filosofia (f) ou Sociologia (s) (desconsidere outros cursos). Caso tenham dois alunos ou mais com a mesma idade apenas será considerado o que foi lido na primeira vez.",
+    "format_input": "Média. Nome do aluno. Idade. Curso. Importante: Media deve ser maior ou igual a ZERO.",
+    "format_output": "Quantidade de alunos de Filosofia aprovados. Nome do aluno mais jovem. Quantidade de alunos aprovados. Quantidade de alunos maiores de idade de Sociologia que não foram aprovados por média.",
+    "topics": [
+        "decisão"
+    ]
+}

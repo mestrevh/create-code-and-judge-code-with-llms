@@ -1,0 +1,12 @@
+{
+    "title": "Teclado Viciado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tonio tem um teclado com apenas duas letras, \"V\" e \"K\". Um dia, ele escreveu uma string S com apenas essas duas letras. Ele realmente gosta que a string \"VK\" apareça, poratanto, ele quer mudar apenas uma letra na string (ou não fazer mudanças) para maximizar o número de ocorrências dessa string. Calcule o máximo de vezes que \"VK\" pode aparecer na substring. (letra \"K\" na direita e \"V\" na esquerda).",
+    "format_input": "A primeira linha contem uma string S, com apenas letras maiúsculas \"V\" e \"K\", 1 <= S <= 100. Tamanho maior ou igual a 1 e menor ou igual a 100.",
+    "format_output": "Um único inteiro com o máximo de vezes que \"VK\" pode aparecer na substring que foi dada, depois de alterado no máximo 1 caractere.",
+    "topics": [
+        "substrings",
+        "caractere",
+        "string"
+    ]
+}

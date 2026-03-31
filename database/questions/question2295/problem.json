@@ -1,0 +1,11 @@
+{
+    "title": "Pilha dupla",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Usando o tipo TPilhaDupla visto em aula e as funções básicas de pilha (devidamente modificadas para receberem o parâmetro lado, quando necessário), construa um programa que leia: Em uma linha um natural n (1 <= n <= 15), que representa a quantidade de entradas que serão dadas pelo usuário; Na linha seguinte um caractere 'E' (Empilha) ou 'D' (Desempilha), que indica a operação que será feita sobre a pilha dupla; Na linha seguinte um ou dois valores: (a) terá dois valores se a operação for 'E', sendo um caractere 'e' ou 'd', direita e esquerda respectivamente, indicando em qual pilha será feita a operação e um item inteiro para ser empilhado; (b) terá um valor se a operação for 'D', sendo um caractere 'e' ou 'd', direita e esquerda respectivamente, indicando em qual pilha será feita a operação. Obs.: (1) Deve ser usada uma pilha dupla nas funções, ou seja, um tipo em que há um vetor e dois topos que crescem um em direção ao outro; (2) cuidado com o fflush(stdin); (3) não usar recursão; (4) aproveitar as rotinas de pilha, apenas modificando-as para que se adaptem ao novo tipo.",
+    "format_input": "Já foi descrita no enunciado.",
+    "format_output": "A cada operação 'D' (desempilha) exibir o item desempilhado e uma quebra de linha.",
+    "topics": [
+        "estrutura de dados",
+        "função"
+    ]
+}

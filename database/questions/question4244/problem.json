@@ -1,0 +1,12 @@
+{
+    "title": "Notas da Área 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Chegou o momento de maior tensão do semestre: o resultado da nota final de Cálculo II. Você foi contratado pelo nosso querido Alfredo Gomes para elaborar um programa que receba um valor n que representa a quantidade total de alunos matriculados no curso e, em seguida, leia o nome desses estudantes com suas respectivas notas da 1a, 2a e 3a unidades e armazene em vetor do tipo struct. Após isso, seu programa deverá imprimir na tela a lista dos alunos em ordem alfabética, sua media com duas casas de precisão e ainda se ele foi aprovado, se está na final ou se foi reprovado. Obs.: crie uma função para ordenar a lista de alunos em ordem alfabética.",
+    "format_input": "Um inteiro n representando o número de alunos matriculados. Os nomes dos n alunos seguidos de suas respectivas notas da 1a, 2a e 3a unidade.",
+    "format_output": "O nome dos alunos, suas médias e suas situações no seguinte formato: Nome: Joaozinho Nota: 5.70 Situação: Final Nome: Mariazinha Nota: 9.50 Situação: Aprovada [...]",
+    "topics": [
+        "array",
+        "ordenação",
+        "estruturas"
+    ]
+}

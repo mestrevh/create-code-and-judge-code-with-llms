@@ -1,0 +1,12 @@
+{
+    "title": "Extremos e meio",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Chico sempre vê numeros e vai anotando ao longo do dia(sim é esquisito) agora ele quer saber ... qual o maior o menor,o maior e o valor intermediário entre os que ele viu durante o dia. Para ajudar Chico nessa tarefa escreva um programa que recebe n números e diga quais são os números que chico procura.",
+    "format_input": "N\n\nN1 N2 N3 N4 N5 ... Nn",
+    "format_output": "NMenor NMeio N-Ultimo\n\nNão esqueça da quebra de linha no final",
+    "topics": [
+        "array",
+        "ordenação",
+        "busca"
+    ]
+}

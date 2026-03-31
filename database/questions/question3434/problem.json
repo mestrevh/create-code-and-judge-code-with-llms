@@ -1,0 +1,11 @@
+{
+    "title": "Função menor elemento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fazer uma função que receba um vetor de números reais e retorne o menor elemento do vetor. Inicialmente, deve-se criar uma função para ler o vetor recebendo como argumento o número de elementos desejados (tamanho do vetor). Escrever o módulo principal.",
+    "format_input": "Um número inteiro na primeira linha representando o número de elementos do vetor. Os elementos do vetor (números reais) em forma de coluna.",
+    "format_output": "Um número real correspondente ao menor elemento do vetor.",
+    "topics": [
+        "array",
+        "função"
+    ]
+}

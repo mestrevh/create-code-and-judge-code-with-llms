@@ -1,0 +1,11 @@
+{
+    "title": "Angra dos Reis e Ipanema, Iracema, Itamaracá",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após um longo e árduo período, Horácio e Neto planejam viajar em suas férias. Para escolher melhor os locais a serem visitados, eles decidem avaliar suas opções com base em 3 critérios: Potencial de turismo(P) Possíveis gastos(G) Indice de tranquilidade(T) e cada um pode ir de 1 até 5. A partir desses 3 critérios, é calculada uma nota final com a seguinte fórmula: (3 * P + G + 2 * T)/6 Apenas os locais que obterem pelo menos 3.5 como nota final serão considerados bons para visitar.",
+    "format_input": "Um inteiro N (1 < N < 51) que é a quantidade de lugares a serem avaliados. Seguido por N linhas no formato STRING P G T (P, G, T são floats)",
+    "format_output": "Sendo X a quantidade de lugares que são bons para visitar, o programa deve imprimir \"Temos X lugares pra visitar!\" Caso nenhum lugar tenha pelo menos 3.5 como nota, imprima \"Puts. Melhor ficar em casa mesmo\" Caso pelo menos um lugar seja bom para visitar, imprima \"Devo começar por LUGAR_COM_MAIOR_NOTA\" Obs: se mais de um lugar tiver a maior nota, considerar o que entrou no programa primeiro.",
+    "topics": [
+        "ponto flutuante",
+        "string"
+    ]
+}

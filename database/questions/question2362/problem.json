@@ -1,0 +1,11 @@
+{
+    "title": "Quantos segundos em um horário?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba a quantidade de horas, minutos e segundos de duração de um evento e calcule a quantidade de total de segundos que esse evento durou.",
+    "format_input": "O programa deve receber 3 números inteiros: o primeiro representa as horas, o segundo os minutos e o terceiros os segundos. Sendo: horas >= 0 0<= minutos <= 59 0<= segundos <= 59",
+    "format_output": "Um número inteiro representando o total de segundos",
+    "topics": [
+        "datas/horas",
+        "lógica matemática"
+    ]
+}

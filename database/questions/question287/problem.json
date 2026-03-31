@@ -1,0 +1,11 @@
+{
+    "title": "Garagem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado o tamanho de uma garagem, com L, C e H, sendo respectivamente a largura, comprimento altura da garagem, e l, c, e h sendo respectivamente a largura, comprimento e altura de um carro. Faça um programa capaz de verificar se o carro cabe dentro da garagem, sem deixar nenhuma parte dele de fora. As rodas tem sempre de estar viradas para baixo.",
+    "format_input": "6 números inteiros, representando respectivamente a Largura, Comprimento e Altura da Garagem, e Largura, Comprimento Altura do Carro.",
+    "format_output": "SIM se o carro cabe dentro da garagem. NAO se o carro não cabe dentro da garagem. Seguido de uma quebra de linha.",
+    "topics": [
+        "geometria computacional",
+        "decisão"
+    ]
+}

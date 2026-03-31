@@ -1,0 +1,11 @@
+{
+    "title": "Triângulo de Número em Ordem Crescente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que dado um número inteiro n, imprima n linhas, onde cada linha deve seguir o seguinte padrão: 1 22 333 4444 55555 666666 7777777 … nnnnnnnnnn",
+    "format_input": "Um número inteiro positivo n. ( 1<= n <= 30 )",
+    "format_output": "n linhas contendo inteiros de acordo com o padrão especificado na descrição",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

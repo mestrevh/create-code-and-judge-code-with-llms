@@ -1,0 +1,13 @@
+{
+    "title": "Sua mala",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Certo dia você ouve \"Pegue suas coisas e vai embora de vez.\" devido ao fato de que você não sabe, não sabe, não sabe amar uma mulher, mas provando que você sabe arrumar a mala faça um programa que receba do usuário o nome dos itens que são adicionados na mala e organize dizendo a quantidade (de camisa, saia, sapato ou outros ) e especifique. O programa para de receber itens quando for recebido 00. Dica : >>> a = \"mal\" >>> x = a in \"Vou bem!\" >>> x False >>> b = \"morta\" >>> y = b in \"Eu queria estar morta\" >>> y True",
+    "format_input": "sequencia de strings até que seja digitado \"00\"",
+    "format_output": "03 camisa(s): camisa1, camisa2, camisa3 01 saia(s): saia1 00 sapato(s):  02 outro(s): item1, item2 obs: quando não tem nenhum item apos os \":\" imprimir uma quebra de linha. obs: E o espaço depois da virgula caso tenha um próximo item veja o exemplo.",
+    "topics": [
+        "strings",
+        "listas",
+        "estruturas de repetição",
+        "condicionais"
+    ]
+}

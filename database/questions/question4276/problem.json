@@ -1,0 +1,10 @@
+{
+    "title": "Nosredna: O Manipulador de Números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Nosredna é um personagem misterioso que habita um mundo repleto de números. Ele tem o dom especial de combinar números para criar novos. Nosredna começa com um número específico e, passo a passo, escolhe outro número para combiná-lo com o número gerado anteriormente. Ambos os números são sempre inteiros positivos. Este processo é repetido N vezes, seguindo um conjunto específico de regras em ordem. Apenas uma regra é aplicada por vez, na sequência abaixo: 1 - Se ambos os números, a e b, forem primos, ele os soma. 2 - Se a e b não forem primos, ele faz o somatório dos dígitos de cada um e os multiplica.",
+    "format_input": "Um inteiro N, representando o número de vezes que Nosredna irá combinar os números. Um inteiro I, representando o valor inicial escolhido por Nosredna. Em seguida, uma sequência de N números a serem combinados.",
+    "format_output": "O número finalmente gerado após todas as combinações. Exemplo:",
+    "topics": [
+        "recursão"
+    ]
+}

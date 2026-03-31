@@ -1,0 +1,10 @@
+{
+    "title": "Entrega de trabalho no prazo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os alunos de Engenharia sempre se engajam em muitas atividades acadêmicas. No final de cada semestre sempre há prazos para as entregas de trabalhos. Nerdinho quer saber se conseguirá realizar a apresentação de uma dada disciplina que depende do aval da professora, isto é, ele precisa que a professora leia antes o trabalho. Logo, ele não pode entregar o trabalho no dia da apresentação. O seu objetivo é fazer um programa que informe a Nerdinho qual a situação dele em função da data de entrega do trabalho e a data final de entrega. Mais detalhes na seção de Formato de Saída.",
+    "format_input": "A entrada é composta por: um valor I (0 < I < 25) representando o dia que foi entregue o trabalho para a verificação. Um valor F (0 < F < 25) que representa a data final para apresentação.",
+    "format_output": "Mostre, para cada caso de teste, se Nerdinho conseguirá apresentar ou não o seu trabalho. Quando não for possível a professora ler o trabalho (a data final é anterior a data de entrega), apresente a mensagem \"Eu odeio a professora!\". Caso seja entregue em até 3 dias antes do prazo final, apresente a mensagem \"Muito bem! No prazo!\", caso contrário, sendo muito próximo da data limite apresente a mensagem \"Parece o trabalho do meu filho!\", nesse último caso, é adicionado mais dois dias para correções, e caso a data final seja menor que 24, ele poderá apresentar, sendo apresentada a mensagem \"Trabalho Apresentado!\", caso contrário, \"Voce falhou! Ate a proxima!\"",
+    "topics": [
+        "decisão"
+    ]
+}

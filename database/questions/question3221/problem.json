@@ -1,0 +1,12 @@
+{
+    "title": "Qual o numero de dígitos de um numero inteiro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Retorne o numero de dígitos de um numero inteiro qualquer",
+    "format_input": "12345",
+    "format_output": "5",
+    "topics": [
+        "lógica matemática",
+        "repetição",
+        "alocação dinâmica"
+    ]
+}

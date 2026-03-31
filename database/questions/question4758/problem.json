@@ -1,0 +1,11 @@
+{
+    "title": "Texto Compacto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Marcos é um aluno do curso de Sistemas de Informação e está trabalhando em um algoritmo para compactação de texto. Ele leu que existem diversos algoritmos para fazer esta tarefa que são muito eficientes, mas Marcos achou todos eles muito complicados. Então Marcos decidiu por uma abordagem mais simples. Ele percebeu que muitas palavras continuam compreensíveis quando removemos suas vogais desde que algumas regras sejam seguidas. As regras definidas por Marcos foram as seguintes: só serão removidas vogais de palavras com mais que duas letras e caso haja um encontro vocálico de duas vogais, apenas a primeira vogal será removida. Caso o encontro vocálico seja de três vogais, a primeira e a terceira vogais podem ser removidas. Nenhuma palavra contém quatro vogais juntas, então não há necessidade de se preocupar com encontros vocálicos maiores. Assim a frase: \"ja podeis da patria filho\" seria transformada na frase: \"ja pdis da ptra flh\". Obs.: Qualquer função de manipulação de Strings e de Entrada e Saída das bibliotecas pode ser utilizada no código apresentado.",
+    "format_input": "A entrada é uma String contendo a frase a ser compactada. Esta frase é formadas por palavras compostas por letras minúsculas, sem acento e separadas por um único espaço. O número máximo de caracteres em qualquer frase (contando os espaços) é menor ou igual a 200. Dica: use o retorno da função scanf para identificar o final da entrada.",
+    "format_output": "A saída é dada pela String obtida pela aplicação das regras de compactação de Marcos.",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}

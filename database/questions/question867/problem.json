@@ -1,0 +1,11 @@
+{
+    "title": "Quais letras aparecem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que dado uma sequência de caracteres (composto por letras do alfabeto) imprima na tela, em ordem crescente, as letras que estão contidas nessa sequência Obs.: Não deve ser impresso caracteres repetidos..",
+    "format_input": "Uma sequência de caracteres.",
+    "format_output": "Cada caractere existente na sequência, em ordem crescente e um por linha. Obs.: Não esqueça que não é para imprimir caracteres repetidos.",
+    "topics": [
+        "repetição",
+        "caractere"
+    ]
+}

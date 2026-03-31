@@ -1,0 +1,12 @@
+{
+    "title": "Sequencia Lógica III",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que lê quatro números X, Y, S e N. A seguir mostra uma seqüência de X a Y, com saltos de tamanho S. passando para a próxima linha a cada N números.",
+    "format_input": "A entrada contém quatro números inteiros, sendo que (1 < N <= 20), (X < Y), (S < Y), (X < Y < 100000) e (S < 100000).",
+    "format_output": "Cada sequência deverá ser impressa em uma ou mais linhas, com uma vírgula entre cada número.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "10 primeiros multiplos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "pegue todos os 10 primeiros múltiplos do número da entrada, sem usar condicional(if)",
+    "format_input": "um número N, inteiro maior que 0",
+    "format_output": "todos os 10 primeiro múltiplos de N",
+    "topics": [
+        "repetição"
+    ]
+}

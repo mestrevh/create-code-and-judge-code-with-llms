@@ -1,0 +1,10 @@
+{
+    "title": "Palavra com mais consoantes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um texto, encontre a palavra que tenha mais consoantes. Por simplicidade, o texto usa o alfabeto Inglês, ou seja, letras não têm acentos.",
+    "format_input": "Um texto em que cada palavra é separada por um ou mais espaços em branco e/ou nova linha. O texto termina com uma linha contendo unicamente a palavra ‘FIM’ que não é considerada parte do texto.",
+    "format_output": "A palavra com maior quantidade de consoantes. Se houver mais de uma, a primeira destas no texto. Se o texto for vazio, ou seja, se não contiver nenhuma palavra, o programa deve imprimir ‘texto vazio’.",
+    "topics": [
+        "repetição"
+    ]
+}

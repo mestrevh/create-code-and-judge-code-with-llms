@@ -1,0 +1,10 @@
+{
+    "title": "Troca-troca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça uma função que troque o valor de duas variáveis inteiras.",
+    "format_input": "20 10",
+    "format_output": "10 20",
+    "topics": [
+        "ponteiro"
+    ]
+}

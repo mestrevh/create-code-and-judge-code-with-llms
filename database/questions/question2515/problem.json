@@ -1,0 +1,10 @@
+{
+    "title": "IMC Octave",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba as características (massa e altura) de uma pessoa e retorne seu IMC - Índice de Massa Corporal com 1 casa decimal. O IMC é dado pelo peso dividido pela altura ao quadrado da pessoa.",
+    "format_input": "A massa em Kg A altura em metros",
+    "format_output": "O programa deve exibir o IMC calculado, imprimindo na tela os valores abaixo: Digite a massa em Kg: Digite a altura em m: IMC = n.n",
+    "topics": [
+        "lógica matemática"
+    ]
+}

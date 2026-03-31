@@ -1,0 +1,11 @@
+{
+    "title": "4 Casas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Existe um lago circular com um perímetro de P metros e 4 casas ao seu redor. As quatro casas são construídas ao redor do lago e a uma distância de Xi metros do ponto mais ao norte do lago no sentido horário. Ao viajar entre essas casas, você só pode andar ao redor do lago e sempre para a casa mais próxima no sentido horário. Encontre a distância mínima que precisa ser percorrida para visitar as 4 casas. Assuma que o ponto de partida pode ser qualquer uma das 4 casas",
+    "format_input": "Um inteiro (0 <= P <= 100 ) indicando o perímetro do lago. 4 inteiros (0 <= X1, X2, X3, X4 <= P) indicando a distância de cada casa em relação ao ponto mais norte do lago.",
+    "format_output": "Um inteiro D indicando a menor indicando a distância mínima a ser percorrida para visitar as 4 casas.",
+    "topics": [
+        "decisão",
+        "ordenação"
+    ]
+}

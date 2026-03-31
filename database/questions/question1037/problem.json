@@ -1,0 +1,12 @@
+{
+    "title": "Resolva o sistema",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sem muito tempo e criatividade, o monitor (lvcs) queria que seus monitorandos fizessem um código em C para resolver um sistema de equações lineares. O sistema possui n equações e n variáveis e é garantido que existe uma única solução para o sistema. Um sistema de n variáveis por ser representado por: a11x1 + a12x2 + … + a1nxn = c1 a21x1 + a22x2 + … + a2nxn = c2 . . . an1x1 + an2x2 + … + xnnxn = cn Neste caso as variáveis são x1, x2, ... , xn. Seu programa deve receber o sistema e devolver a solução para este sistema. Como vista na cadeira de Álgebra linear, um método muito conhecido para resolver um sistema é a eliminação de Gauss (https://pt.wikipedia.org/wiki/Eliminação_de_Gauss) . O sistema do primeiro exemplo pode ser escrito como: 2x1 + 3x2 = 6 4x1 + 9x2 = 15 A solução é: x1 = 1.5 e x2 = 1",
+    "format_input": "A entrada consiste de vários casos de teste, e deve ser lida até EOF Na primeira linha de cada caso temos um inteiro n (2 <= n <= 1000), a quantidade de variáveis. Em seguida n linhas, cada linha representa uma equação onde temos os coeficientes relacionados a cada variável da equação como representado no exemplo. Ou seja, cada linha i possui n+1 inteiros, ai1 ai2, ... , ain e ci",
+    "format_output": "A saída consiste de uma linha para cada caso. Cada linha contém n números reais com duas casas decimais, representando a solução para cada uma das variáveis x1, x2, …, xn. Como no exemplo de saída.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "array bidimensional"
+    ]
+}

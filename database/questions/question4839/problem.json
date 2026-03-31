@@ -1,0 +1,10 @@
+{
+    "title": "Lista Encadeada Ordenada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função que lê 5 inteiros e os insere de forma ordenada em uma lista simplesmente encadeada. Entrada: Uma sequência de 5 números inteiros. Saída: Deve imprimir os 5 inteiros em ordem separados por espaço.",
+    "format_input": "3 0 5 -2 -1",
+    "format_output": "-2 -1 0 3 5",
+    "topics": [
+        "ordenação"
+    ]
+}

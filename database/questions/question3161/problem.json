@@ -1,0 +1,11 @@
+{
+    "title": "Distância entre dois pontos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função que recebe as coordenadas (x, y - inteiros) de dois pontos (a, b) no plano cartesiano e retorna a distância entre a e b.",
+    "format_input": "3 5 5 5",
+    "format_output": "2",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

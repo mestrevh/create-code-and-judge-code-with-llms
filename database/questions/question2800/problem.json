@@ -1,0 +1,11 @@
+{
+    "title": "Protejam os Servidores!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O arquipélago de Ambrolândia é composto por várias ilhas. O QG do exército ambrolano é dividido em seções. Cada seção foi construída em uma das ilhas de Ambrolândia de modo que, uma seção possui um servidor e estes estão conectados aos servidores das outras seções. Esta estratégia foi adotada para que, em caso de pane ou destruição de um dos servidores, as demais seções não deixem de receber informações. Ambrosínea, nação rival de Ambrolândia, planeja atacar alguns dos servidores afim de prejudicar a troca de informações entre as bases e abrir espaço para uma invasão. Você, soldado da seção de TI do exército ambrolano, recebeu a seguinte missão: dadas n seções, informe se, depois da destruição dos seus respectivos servidores, as demais seções continuam conectadas. Dicas: Um grafo modela a estrutura de ligação dos servidores; Ao eliminar um nó de um grafo, todas as arestas desse nó também são removidas; Um grafo conexo é um grafo tal que, a partir de qualquer um de seus nós, é possível chegar em qualquer outro percorrendo um caminho; Uma grafo que não é conexo é dito desconexo; Uma articulação é um nó tal que, quando removido de um grafo conexo torna-o desconexo.",
+    "format_input": "A entrada consiste de várias linhas. A primeira linha contém dois inteiros V e E representando o número de vértices e de arestas do grafo. Em seguida serão informadas E linhas, cada uma com dois inteiros Vi e Vj que representam os nós que formam a aresta (Vi, Vj). Após isso, serão informadas n linhas, cada linha com um inteiro, representando os nós (seções) que devem ser removidos do grafo. Obs: É garantido que o nó 0 nunca será removido; V > 2",
+    "format_output": "A saída deve ser a String \"SIM\" caso as seções permaneçam conectadas após a destruição dos servidores e \"NAO\" caso contrário. Adicione uma quebra de linha após a String.",
+    "topics": [
+        "estrutura de dados",
+        "grafo"
+    ]
+}

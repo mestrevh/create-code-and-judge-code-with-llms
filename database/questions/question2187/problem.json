@@ -1,0 +1,10 @@
+{
+    "title": "Verificando grafos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um grafo é descrito por um par (V,E), onde V é o conjunto de vértices e E o conjunto das arestas que ligam pares de vértices. Um grafo pode ser dirigido ou direcionado, se as arestas tiverem uma direção, ou não dirigido, se as arestas não tiverem direção. Nesse caso, trabalharemos com grafos direcionados. Seu objetivo é ler uma sequencia de inteiros e verificar se ela é valida para o grafo dado. Exemplo:",
+    "format_input": "3 linhas contendo 2 inteiros A e B, representando uma conexão unidirecional de A para B cada, seguido de 3 inteiros representando a sequencia a ser checada.",
+    "format_output": "\"Esta contido.\" caso a sequencia seja possível no grafo, ou \"Nao esta contido.\" caso contrario.",
+    "topics": [
+        "decisão"
+    ]
+}

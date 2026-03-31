@@ -1,0 +1,10 @@
+{
+    "title": "O apartamento de Ambrosildo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrosildo está de mudança para Maceió, pois acabou de ingressar na universidade, ele quer morar o mais próximo possível da universidade pagando mínimo possível, então ele teve a ideia de fazer um ranking com as seguintes regras: - A cada 10m de distância do novo apartamento em relação a universidade adicione um ponto. - A cada R$ 50 no valor do aluguel adicione um ponto. Ele encontrou 3 apartamentos nas proximidades da universidade com um preço que ele considera bom e conversando com você, seu amigo de infância, ele pediu que o ajudasse escrevendo um programa que, dado a distância e o preço dos três apartamentos que ele selecionou mostre o ranking dos apartamentos contendo o total de pontos dos três em ordem decrescente, a distância e o preço dos alugueis.",
+    "format_input": "A entrada consiste de 3 linhas, você receberá pares de inteiros com o formato seguinte: - distancia1 preco1 - distancia2 preco2 - distancia3 preco3 Considere que: 0 < d1 <= d2 <= d3 <= 15000 0 < p1 <= p2 <= p3 <= 5000",
+    "format_output": "A saída consiste em três linhas com o ranking dos três apartamentos pelos pontos feitos por cada um (double) com duas casas decimais, a distância(int) e o preço(int), nessa ordem.",
+    "topics": [
+        "decisão"
+    ]
+}

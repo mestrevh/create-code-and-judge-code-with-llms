@@ -1,0 +1,10 @@
+{
+    "title": "Potência de 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Verificar se um número é potência de 2 para cada caso de teste T",
+    "format_input": "inteiro T, corresponde a quantidade de testes. Para cada teste T, virá um inteiro N.",
+    "format_output": "Para cada caso de teste, imprimir \"YES\" caso seja potência de 2, \"NO\" caso não seja.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

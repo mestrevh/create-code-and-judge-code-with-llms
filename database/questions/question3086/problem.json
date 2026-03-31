@@ -1,0 +1,12 @@
+{
+    "title": "Solução do enigma",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A entidade recebeu um pacote misterioso em sua casa, contendo um quadro e um bilhete. Ao prestar atenção no quadro, a Entidade percebeu que era composto por um tamanho n x m e que cada \"posição\" do quadro era composto por um número de 0 a 9. O bilhete dizia que o quadro possuía um dispositivo de bomba-relógio e que, caso a Entidade não resolvesse o seu desafio, o quadro iria explodir toda a sua casa. O desafio consiste em identificar quantos quadrados do tipo 2 x 2 compostos por 0, 1, 2, e 3 (um de cada) existem no quadro. Entretanto, como o quadro era muito grande e era difícil de identificar esses quadrados, ela pediu a ajuda a você! Por exemplo: É um quadrado válido: 1 0 2 3 É um quadrado válido: 3 0 1 2 Não é um quadrado válido: 3 9 1 2 Ainda podemos ter dois quadrados válidos com uma intersecção entre os dois: 3 0 1 1 2 3",
+    "format_input": "A entrada consiste de uma linha composta por dois inteiros n e m que representam o tamanho da matriz n x m. Logo após virão n x m inteiros representando a matriz.",
+    "format_output": "A saída deverá mostrar a quantidade de quadrados diferentes 2 x 2 que seguem a característica definida pelo desafio, seguido de uma quebra de linha.",
+    "topics": [
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

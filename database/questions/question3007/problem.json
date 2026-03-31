@@ -1,0 +1,11 @@
+{
+    "title": "Pontos no Ruxley",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio e Kinho são dois estudantes muito entusiasmados com programação. Por isso, quando descobriram um site cheio de questões chamado Ruxley, decidiram passar dias resolvendo questões. No Ruxley, quando se resolve uma questão, o usuário ganha uma quantia X de pontos e, depois de muito praticarem, Ambrósio e Kinho ficaram com tantos pontos que apareceram no top 30 do site. Ao contarem sobre o site para seu amigo Zilde, ele ficou curioso sobre a pontuação X de cada questão. Logo, perguntou as pontuações de seus amigos, mas no fim, notou que a pontuação por questão poderia ser vários valores. Por exemplo, se Ambrósio tivesse 4 e Kinho tivesse 8 pontos, X poderia ser: 1, Ambrósio resolvendo 4 questões e Kinho resolvendo 8. 2, Ambrósio resolvendo 2 questões e Kinho resolvendo 4. ou 4, Ambrósio resolvendo 1 questão e Kinho resolvendo 2. Como não lembra tão bem de Matemática Discreta, ele pediu para você ajudá-lo a determinar quantos são os possíveis valores para a pontuação de cada questão.",
+    "format_input": "Dois inteiros, A e B, as pontuações de Ambrósio e Kinho. 1 ≤ A, B ≤ 1000000000",
+    "format_output": "Um inteiro, a quantia de possíveis valores para X.",
+    "topics": [
+        "lógica matemática",
+        "requer solução eficiente"
+    ]
+}

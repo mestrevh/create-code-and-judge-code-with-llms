@@ -1,0 +1,12 @@
+{
+    "title": "Cálculo com idade.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Dado um número não determinado de idades de pessoas, determine: A maior idade digitada; A quantidade de pessoas que atingiram a maioridade (>= 18); A média de idade; A menor idade digitada;",
+    "format_input": "As idades digitadas.",
+    "format_output": "A maior idade; Quantidade de pessoas que tenha 18 anos ou mais; Média das idades; Menor idade;",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "repetição"
+    ]
+}

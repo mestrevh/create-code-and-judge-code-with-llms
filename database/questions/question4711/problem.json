@@ -1,0 +1,12 @@
+{
+    "title": "Q05 - Conversão de Moeda",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um procedimento chamado \"converter moeda\" que recebe um valor em reais (no tipo real) e exibe sua conversão para dólares, considerando uma taxa de câmbio fixa. use a cotação de US$ 1 = R$ 5,75 utilize duas casas decimais",
+    "format_input": "um número real representando a quantidade em Reais",
+    "format_output": "A quantidade de dinheiro em conversão para dólar",
+    "topics": [
+        "lógica matemática",
+        "função",
+        "formatação"
+    ]
+}

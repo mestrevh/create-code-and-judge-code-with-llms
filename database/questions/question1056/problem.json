@@ -1,0 +1,11 @@
+{
+    "title": "Ambrósio e as canoas",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A Prefeitura de Maceió comprou e colocou várias canoas no Lago dos Jacarés do Parque Municipal. As canoas permitem que várias pessoas andem nela ao mesmo tempo. Ambrósio resolveu experimentar a novidade, mas encontrou uma fila enorme. Existem n pessoas na fila. Em compensação, existem k canoas. A forma como as canoas são alocadas funciona assim: Quando a primeira canoa chega, a primeira pessoa (q1) da fila entra na canoa. Quando a segunda canoa chega, a primeira pessoa (q2) da fila que restou entra na canoa. ... A pessoa qk entra na k-ésima gôndola. Perceba que q1, q2, ..., qk são positivos. Ou seja: e qi > 0. Entretanto, as pessoas não gostam de andar na mesma canoa com estranhos. Para cada par de pessoas i e j, existe um valor uij que denota o nível de não-familiaridade. Você pode assumir que uij = uji para todo i,j ( 1 <= i, j, <=n) e uii = 0 para todo i ( 1 <= i <= n). Logo, o valor da não-familiaridade é a soma de todos os valores de não-familiaridade entre todos os pares de pessoas nas canoas. Assim, Ambrósio propôs reordenar a fila de forma a encontrar a alocação ótima para deixar as pessoas felizes. Ajude o parque a encontrar o menor valor possível de não-familiaridade para as pessoas da fila.",
+    "format_input": "A primeira linha contém dois inteiros n e k ( 1 <= n <= 4000 e 1 <= k <= min(n,800) ). Eles significam respectivamente o número de pessoas na fila e o número de canoas. Cada uma das seguintes n linhas contém n inteiros. Ou seja, você receberá a matriz u ( 0 <= uij <= 9= ujk e uii = 0)",
+    "format_output": "Um único número inteiro indicando o menor valor possível de não-familiaridade.",
+    "topics": [
+        "dividir e conquistar",
+        "programação dinâmica"
+    ]
+}

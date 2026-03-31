@@ -1,0 +1,8 @@
+{
+    "title": "Capacidade Estacionamento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Marcella é uma pequena empreendedora que comprou um terreno próximo ao shopping e o transformou em um estacionamento privativo com 42 vagas. Para atrair mais clientes, ela cobra apenas R$ 1.75 por cada carro sem limite de tempo. Ela está fazendo os cálculos de quanto pretende faturar hoje e você pode ajudá-la escrevendo um programa que receba como entrada a quantidade de veículos estacionados no momento, e exiba quanto ela ainda pode ganhar caso as vagas que estão disponíveis sejam ocupadas.",
+    "format_input": "Um valor inteiro",
+    "format_output": "Um valor real com duas casas decimais",
+    "topics": []
+}

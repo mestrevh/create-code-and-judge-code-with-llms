@@ -1,0 +1,11 @@
+{
+    "title": "Corona: Ep 6",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Foi declarada quatentena no Brasil por causa do COVID-19. Zilde e seus amigos estão muito preocupados com os seus familiares idosos, pois Zilde e seus amigos entraram em contato com diversas outras pessoas antes da quarentena, no majestoso território de good garden enquanto cavavam um enorme buraco. Você vai fazer um programa para ajudar-los. Ele dirá a probabilidade de que pelo menos uma pessoa da família se contaminar, dado: a quantidade de pessoas que a pessoa entrou em contato antes da quarentena, quantos familiares a pessoa tem em casa (sem contar com ela), a porcentagem da população que está contaminada e a probalilidade de contágio apartir do contato com uma pessoa infectada. OBS: Considere que os familiares não saíram da casa antes da quarentena, ou seja: A unica forma deles pegarem o COVID-19 será por Zilde ou seus amigos.",
+    "format_input": "A primeira linha contém dois naturais P, quantas pessoas a pessoa entrou em contato na rua, e N, quantas pessoas têm na casa, sem contar com a pessoa. A segunda linha contém dois números reais M, a porcentagem da população que está com o corona e K, qual a chance de uma pessoa doente lhe passar a doença.",
+    "format_output": "Um número real com quatro casas de precisão, a probabilidade de pelo menos uma pessoa da sua família ser contamidada por você. No segundo caso teste as chances de zilde pegar COVID19 da rua são de 0.5*0.5 = 0.25 e as chances de zilde passar para alguém da sua família são 0.25*0.5 = 0.125.",
+    "topics": [
+        "ad-hoc",
+        "lógica matemática"
+    ]
+}

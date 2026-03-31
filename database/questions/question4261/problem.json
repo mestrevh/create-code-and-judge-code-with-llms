@@ -1,0 +1,10 @@
+{
+    "title": "Área de um trapézio adaptada.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa em Python para calcular a área de um trapézio e exiba a sua parte inteira. FÓRMULA:",
+    "format_input": "Um número flutuante. Um número flutuante. Um número flutuante.",
+    "format_output": "Um inteiro.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

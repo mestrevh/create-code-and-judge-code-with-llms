@@ -1,0 +1,11 @@
+{
+    "title": "L1Q4 - Entrando pelo Cano",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No começo de sua jornada, seguindo pelos canos, Mário e Luigi se depararam com três canos logo ao sair do Reino dos Cogumelos. O problema é que as descrições das placas de cada cano estão meio apagadas e eles não sabem exatamente por onde devem seguir para chegar a Fortaleza do Bowser. Mesmo com as placas pouco legíveis, Mário acha que consegue identificar algumas letras em cada uma delas (Direita, Meio e Esquerda). Cabe a você descobrir o cano que eles devem seguir, fazendo um programa que, dado as letras que Mário identificou em cada placa, verifique se elas se assemelham as palavras \"Fortaleza do Bowser\". Assemelhar significa que elas começam e terminam com a mesma letra. Obs: Se nenhum dos três canos satisfizer a condição Mário seguirá em frente.",
+    "format_input": "P L S P, L e S - Strings correspondentes as letras de cada placa (Direita, Meio e Esquerda respectivamente).",
+    "format_output": "C C - String com a direção que Mário deve seguir (com a primeira letra maiúscula). Se nenhum dos canos satisfizer a condição deve ser impresso \"Vou em frente\". É garantido que no máximo um cano satisfaz a condição.",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

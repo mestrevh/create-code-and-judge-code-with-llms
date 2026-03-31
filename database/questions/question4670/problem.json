@@ -1,0 +1,10 @@
+{
+    "title": "A busca por vaga",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Celo Garanhuns, um aluno de Engenharia da Computação, é extremamente ansioso e cético, especialmente quando se trata de assuntos relacionados à faculdade. Ele decidiu se inscrever na disciplina \"Empreendedorismo na Informática\", que possui vagas limitadas, previamente determinadas. Por algum motivo, Celo conseguiu acesso a uma planilha com as médias gerais dos alunos concorrentes para a disciplina. Ele decidiu criar um programa em C para calcular sua chance de ser matriculado na disciplina. As chances são determinadas com base no ranking das médias gerais dos períodos cursados por Celo e seus concorrentes.",
+    "format_input": "Seu programa deve receber os seguintes dados na ordem abaixo: Um número inteiro representando a quantidade de vagas disponíveis na disciplina (0 < V < 50). Um número inteiro indicando quantos períodos Celo já cursou. (0<p<=18) Uma sequência de números reais (com precisão de até duas casas decimais), representando as médias gerais de cada período cursado por Celo. (0.00<= M <=10.00) Um número inteiro indicando a quantidade de pessoas concorrendo às vagas (0 < C < 500). Para cada concorrente, o número de períodos que o concorrente cursou. (0<CP<=18) Para cada concorrente, uma sequência de números reais (com precisão de até duas casas decimais), representando as médias gerais dos períodos cursados por esse concorrente. (0.00<= MC <=10.00)",
+    "format_output": "O programa deve determinar o ranking de Celo com base nas médias calculadas e imprimir uma das mensagens a seguir: Caso Celo fique dentro do número de vagas disponíveis: 'Matriculado, seu ranking é X dentre as Y vagas' Onde: X é a posição de Celo no ranking. Y é o número total de vagas disponíveis. Caso Celo não fique dentro das vagas, exiba: 'Se não tivesse pago Dominó Z, teria entrado...' Onde: Z é a quantidade de períodos cursados. O ranking é baseado na média geral de forma decrescente (maior média ocupa o melhor ranking). Em caso de empate na média geral, o desempate fica para quem tiver cursado mais períodos",
+    "topics": [
+        "ciclos"
+    ]
+}

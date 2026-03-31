@@ -1,0 +1,11 @@
+{
+    "title": "Preço combustível 2.0",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Imagine um posto de combustível que oferece descontos com base na quantidade de litros e no tipo de combustível escolhido. Regras de desconto: Álcool (Até 20 litros: 3% por litro; Mais de 20 litros: 5% por litro), Gasolina (Até 20 litros: 4% por litro; Mais de 20 litros: 6% por litro), Diesel (Até 25 litros: Sem desconto; Mais de 25 litros: 4% por litro). Implemente um programa que leia a quantidade de litros vendidos e o código do combustível (A para Álcool, G para Gasolina, D para Diesel). Preços por litro: Gasolina R$ 2,50, Álcool R$ 1,90 e Diesel R$ 1,66. O programa deve calcular e exibir o valor total a ser pago. Exemplo: 15 litros de gasolina resultam no valor de R$ 35.63. Objetivos: Praticar entrada e saída de dados, utilizar estruturas condicionais e realizar cálculos aritméticos.",
+    "format_input": "Uma linha contendo a quantidade de litros vendidos e uma segunda linha contendo o código do combustível (A, G ou D).",
+    "format_output": "O valor total a ser pago pelo cliente, precedido pelo prefixo R$.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

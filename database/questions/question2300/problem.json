@@ -1,0 +1,10 @@
+{
+    "title": "Soma arquivo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente uma função que recebe como parâmetro dois números; Realize a soma destes números; Escreve o resultado no arquivo ”soma.dat”",
+    "format_input": "2 5",
+    "format_output": "7",
+    "topics": [
+        "função"
+    ]
+}

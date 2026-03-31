@@ -1,0 +1,10 @@
+{
+    "title": "Média de 2 Notas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para calcular a média aritmética entre duas notas de um aluno. Apresente o resultado com duas casas decimais.",
+    "format_input": "O arquivo de entrada contém dois valores: um valor real X representando representando a 1a nota e um valor real Y representando a 2a nota.",
+    "format_output": "Apresente o valor que representa média das duas notas com 2 casas após a vírgula.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Inverter com 4 algarismos",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Faça um programa que inverta um número inteiro com quatro algarismos.",
+    "format_input": "Você receberá um único número inteiro com quatro algarismos.",
+    "format_output": "Você deve imprimir o número invertido seguido de um final de linha. Importante: se o número dado for 3000 por exemplo, o invertido dele deve ser 3 e não 0003.",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "repetição",
+        "caractere"
+    ]
+}

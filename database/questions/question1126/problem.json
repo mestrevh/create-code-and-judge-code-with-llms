@@ -1,0 +1,10 @@
+{
+    "title": "Odd Word",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um texto inverta as palavras que estejam num local par no texto.",
+    "format_input": "Um texto.",
+    "format_output": "O texto com as mudanças pedidas.",
+    "topics": [
+        "string"
+    ]
+}

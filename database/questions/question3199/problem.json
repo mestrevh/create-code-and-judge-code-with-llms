@@ -1,0 +1,10 @@
+{
+    "title": "[C3] LAB - 2/3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que lê dois valores e exibe o resultado do primeiro número dividido pelo segundo número, com no máximo seis casas decimais. Não imprima nada na entrada e na saída.",
+    "format_input": "Primeiro número Segundo número",
+    "format_output": "Resultado com no máximo seis casas decimais",
+    "topics": [
+        "estruturas"
+    ]
+}

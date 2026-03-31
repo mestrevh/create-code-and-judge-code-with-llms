@@ -1,0 +1,10 @@
+{
+    "title": "Ferrovia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma ferrovia pode ser vista como a composição de N segmentos de reta. O problema é encontrar uma posição para construir uma estação ferroviária tal que a distância da estação para um dado ponto M é mínima. A estação precisa ser construída em cima da ferrovia.",
+    "format_input": "A entrada consiste de vários casos de teste. Cada caso de teste começa com duas linhas com as coordenadas Xm e Ym do ponto M. Na terceira linha existe um inteiro N correspondendo ao número de segmentos de reta. As próximas 2N+2 linhas contém as coordenadas X e Y dos pontos de conexões entre os segmentos de reta. A entrada termina quando não houver mais entrada.",
+    "format_output": "Para cada caso de teste duas linhas devem ser impressas. A primeira contém a primeira coordenada da posição da estação e a segunda contém a segunda coordenada. As coordenadas são números de ponto flutuantes formatados com 4 dígitos após o ponto.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

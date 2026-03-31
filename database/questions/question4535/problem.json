@@ -1,0 +1,10 @@
+{
+    "title": "Mergesort bottom up",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente uma versão bottom up (sem recursão) do algoritmo de ordenação mergesort .",
+    "format_input": "Uma linha contendo o número de elementos da sequência. Todos os elementos da sequência, um em cada linha.",
+    "format_output": "A sequência ordenada.",
+    "topics": [
+        "ordenação"
+    ]
+}

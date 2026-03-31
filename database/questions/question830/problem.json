@@ -1,0 +1,12 @@
+{
+    "title": "Peso ideal.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Tendo como dados de entrada a altura de uma pessoa, construa um programa em Java que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) – 58.",
+    "format_input": "Altura da pessoa.",
+    "format_output": "Peso ideal da pessoa.",
+    "topics": [
+        "Programação",
+        "Java",
+        "Lógica de Programação"
+    ]
+}

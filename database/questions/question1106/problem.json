@@ -1,0 +1,10 @@
+{
+    "title": "Jantar de Torcedores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gervásio está organizando um jantar na sua casa com (no máximo) 10 pessoas, mas está bastante preocupado para que não haja discussões sobre futebol. O motivo é que ele quer organizar as 4 mesas mantendo pessoas que não são rivais e que tem a mesma faixa etária perto uma das outras. Por exemplo, na mesa 1 ele quer colocar pessoas que torcem por FLAMENGO, SPORT e VITÓRIA e que sejam maiores de 30 anos (inclusive) juntas. Na mesa 2 estarão torcedores do VASCO, TREZE e SANTOS e que tenham de 18 a 36 anos (inclusive). Na mesa 3 estarão BAHIA, FORTALEZA e GRÊMIO e que que estejam entre 10 e 18 anos. Na mesa 4 estarão quem torce pelos demais clubes e tem qualquer idade. Atenção: 1. Assuma que o usuário digitará a sequência corretamente e com um único espaço em branco separando cada termo; 2. O usuário poderá entrar uma quantidade igual ou menor do que 10 convidados. Nesse caso, quando o usuário desejar parar antes dessa quantidade, a linha deverá ter valor igual a -1; 3. Os nomes dos clubes serão sempre digitados corretamente, mas sem acento (por questões de simplicidade); 4. Tantos os nomes das pessoas como dos clubes estarão em maiúsculo ou em minúsculo.",
+    "format_input": "N linhas contendo a sequência (NOME, IDADE, TIME) tal que 0 < N <= 10",
+    "format_output": "Sequência de mesas organizadas",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

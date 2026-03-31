@@ -1,0 +1,11 @@
+{
+    "title": "As cinco amigas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Maria Magda, Sofia, Mikasa, Pedrita e Leticia são grandes amigas e decidiram jogar um jogo de tabuleiro que se encontrava no porão da casa da Sofia. Para deixar o jogo mais interessante, elas decidiram criar as próprias regras para o jogo e definiram que a vencedora iria ganhar R$50,00. Sendo assim, elas definiram as seguintes regras: - O jogo terá 100 rodadas. - Todas começam da casa 1. - O tabuleiro possui 50 casas. - O jogo termina imediatamente quando alguém chegar na casa 50. - Se alguém passar da última casa, ela irá retornar para o início do tabuleiro. - Se alguém parar em uma casa de número primo, ela irá avançar uma casa. - Caso ninguém chegue a casa 50 depois de 100 rodadas, então ninguém ganhou. - Maria Magda é a primeira a jogar, a segunda é a Sofia, a terceira é a Mikasa, a quarta é a Pedrita e a última a jogar é a Leticia.",
+    "format_input": "100 linhas de 5 inteiros: D1 D2 D3 D4 D5 (1 <= D1, D2, D3, D4, D5 <= 6) Onde D1, D2, D3, D4 e D5 representam, nessa sequência, a jogada de Maria Magda, Sofia, Mikasa, Pedrita e Leticia, ou seja, indicam a quantidade de casas que cada uma irá avançar.",
+    "format_output": "Caso haja uma vencedora você deverá mostrar \"X ganhou 50 reais\" seguido de uma quebra de linha, sendo X o nome da vencedora, e caso ninguém ganhe você deverá mostrar \"Ninguem ganhou\" seguido de uma quebra de linha.",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Copiando",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um novo software de educação foi recebido pelo jardim de infância. Naturalmente, as crianças descobriram-no imediatamete e querem jogar com ele o mais rápido possível. A fim de deixá-los fazer isso o software tem de ser copiado para todos os N computadores que o jardim de infância tinha comprado. No momento, o software está instalado em apenas um computador. Os outros computadores não têm drives de disquete, portas usbs e não estão ligados a uma rede local. A única forma de transferir informações de um computador para outro é copiá-lo usando um cabo null-modem (um cabo que conecta dois computadores diretamente). Assim, se o software está instalado num computador, os arquivos podem ser copiados para qualquer outro (mas apenas UM!) dentro de uma hora. Existem apenas K cabos de modem null-modem no jardim de infância. Sua tarefa é estimar o tempo mínimo necessário para copiar o softtware para todos os computadores no jardim de infância. Lembre que o software já está instalado em um computador, logo, se a escola possuir 5 computadores, você só precisará instalar em 4.",
+    "format_input": "A única linha de entrada que contém dois inteiros separados por um espaço: N e K tal que (1 ≤ N ≤ 10⁹ e 1 ≤ K ≤ 10⁹).",
+    "format_output": "O tempo mínimo (em horas) necessário para a cópia do software em todos os computadores.",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

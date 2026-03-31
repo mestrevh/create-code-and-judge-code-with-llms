@@ -1,0 +1,12 @@
+{
+    "title": "RPG-combat_help",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Você foi contratado em uma empresa de jogos para trabalhar no desenvolvimento de uma plataforma de RPG (Role-playing game) online. Sua atividade na equipe é fazer um algoritmo que controle a vida dos personagens durante um confronto. Para isso seu algoritmo deve receber o número de personagens. Além disso, para cada personagem o algoritmo deve receber o nome e um valor de vida (inteiro). Após os personagens estarem cadastrados para o confronto, o mestre irá informar o índice do personagem e quanto de dano ou vida esse personagem recebeu (considere que números negativos são dano e positivos são vida). Depois de cada inserção, o algoritmo deve mostrar o status de vida de todos os personagens. O algoritmo deve parar se o mestre digitar -1 para o índice e informar que o índice é invalido caso esteja fora da quantidade de personagens. A tabela abaixo mostra um exemplo de entradas e saídas na ordem da interação com a aplicação:",
+    "format_input": "3 Zezé 15 Uva 2 Grume 21 2 -5 0 10 -1",
+    "format_output": "Zezé = 15 Uva = 2 Grume = 16 Zezé = 5 Uva = 2 Grume = 16",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "repetição"
+    ]
+}

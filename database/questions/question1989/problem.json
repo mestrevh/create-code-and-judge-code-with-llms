@@ -1,0 +1,12 @@
+{
+    "title": "Outro treino de saltos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um treino de salto em altura, cada atleta tem direito a dar um número N de saltos como parte de uma atividade prática. Faça um programa que recebe o número de atletas e quantos saltos cada atleta pode dar no início da seção. Você também deve receber a altura dos saltos de cada atleta. No final, você deve imprimir em ordem alfabética os nomes dos atletas e a média das alturas dos saltos de cada um.",
+    "format_input": "Para cada atleta: Seu nome; Vários valores de saltos (float), informado pelo usuário.",
+    "format_output": "Para cada atleta (em ordem alfabética): O nome do atleta e a média de saltos (com uma casa decimal de precisão).",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

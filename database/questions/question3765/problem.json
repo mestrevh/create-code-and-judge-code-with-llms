@@ -1,0 +1,13 @@
+{
+    "title": "O novo jogo de Kaz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kaz Brekker adora números. Isso já não é novidade para ninguém. Certo dia, ele se deparou com um novo desafio, o qual ele precisava dominar e não dormiria antes de entender cada mecanismo desse novo truque. O jogo consiste em um código que recebe uma matriz 5x5, com números aleatórios, misturados entre algarismos 0. Kaz deve coletar os 4 números diferentes de 0 que estejam na matriz grande e passar para uma matriz 2x2. Após passar os dados, Kaz precisa ordenar os números dentro da matriz menor, de modo que esteja em conformidade com a seguinte organização: [Menor] [Segundo Maior] [Segundo Menor] [Maior] E imprimir exatamente nessa conformação na tela. Para fazer essa organização, deve-se criar uma função de assinatura void OrdenaMatriz (int *maior, int *segundo, int *terceiro, int *menor, int *matriz), que receba o endereço de memória de quatro variáveis inteiras e da matriz menor. Como Kaz tem poucos amigos e muitos oponentes, ele não deixou você fora dessa, e quer ver seu código para solucionar esse truque novo que o deixou empolgado. Vale lembrar que, caso haja menos de 4 números dentre os 0, você deve imprimir o 0 mesmo, no lugar do menor número. Além de que, caso haja algum número negativo entre os valores, ele deve ser transformado em positivo.",
+    "format_input": "25 números inteiros, organizados em forma de matriz 5x5.",
+    "format_output": "Quatro números inteiros em uma matriz 2x2, com os valores na ordem estipulada.",
+    "topics": [
+        "repetição",
+        "array bidimensional",
+        "função",
+        "ponteiro"
+    ]
+}

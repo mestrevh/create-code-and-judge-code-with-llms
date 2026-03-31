@@ -1,0 +1,11 @@
+{
+    "title": "Palindromos em uma string",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Escreva um algoritmo que dado uma string, conta quantos palindromos existem. https://pt.wikipedia.org/wiki/Palíndromo Exemplo:",
+    "format_input": "Uma unica string de tamanho N.",
+    "format_output": "Um inteiro K referente a quantidade de palindromos existentes em toda a string.",
+    "topics": [
+        "string",
+        "ponteiro"
+    ]
+}

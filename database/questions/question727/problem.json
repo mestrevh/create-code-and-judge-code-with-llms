@@ -1,0 +1,12 @@
+{
+    "title": "Jacutingas vs Jaburus",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Há N jacutingas e N árvores em uma floresta, cada jacutinga em sua respectiva árvore. Há N jaburus cansados voando nesta floresta, e eles desejam pousar em árvores diferentes o mais cedo possível (jaburus são muito briguentos e não conseguem dividir uma mesma árvore). A cada Pi minutos, a jacutinga i sai da árvore i para voar um pouco, e pode-se considerar que ela volta instantaneamente. A cada Ci minutos, o jaburu i tenta pousar na árvore i e, caso a jacutinga i esteja ocupando a árvore, volta instantaneamente a voar. Pode-se considerar que jaburus voam mais rápido que jacutingas e conseguem ocupar as árvores mais rápido do que elas. Qual o menor tempo em que todos os jaburus estarão relaxando, cada um em uma árvore diferente?",
+    "format_input": "A primeira linha da entrada contém T (1 <= T <= 100), o número de casos de teste. Cada caso de teste começa com um inteiro N (1 <= N <= 10^4), o número de jacutingas e de jaburus. A segunda linha do caso de teste contém N inteiros Pi (1 <= Pi <= 10^4), como descrito na questão. A terceira e última linha do caso de teste contém mais N inteiros Ci (1 <= Ci <= 10^4), como também descrito na questão.",
+    "format_output": "Para cada caso imprima “Caso #X: Y”, onde X é o número do caso atual, começando em 1, e Y é a resposta da questão.",
+    "topics": [
+        "Matemática",
+        "Mínimo Múltiplo Comum",
+        "Programação Competitiva"
+    ]
+}

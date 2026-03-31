@@ -1,0 +1,10 @@
+{
+    "title": "Teclado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba várias letras, separadas por um espaço (considere \"-\" como um espaço) e seja capaz de escrever a frase em uma única linha, a quantidade de de frases, a quantidade de letras da frase (desconsiderando os espaços).",
+    "format_input": "Letras * A entrada para assim que for digitado \"fim\"",
+    "format_output": "A frase em uma única linha A quantidade de palavras da frase A quantidade de letras da frase *Na quantidade de letras não deve ser levado em conta os espaços",
+    "topics": [
+        "repetição"
+    ]
+}

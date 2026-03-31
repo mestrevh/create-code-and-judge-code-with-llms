@@ -1,0 +1,10 @@
+{
+    "title": "Colisão no Mapa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você está produzindo um jogo de labirinto, ou seja, as colisões com as paredes são muito importante. Para lidar com elas, você construiu um vetor bidimensional de 0s e 1s, onde \"0\" representa parede, e \"1\" representa o caminho por onde você pode se movimentar. Vamos testar se você construiu o programa para lidar com isso precisamente. Dadas as seguintes entradas: Número de linhas; Número de colunas; Vetor bidimensional com 0s e 1s; A quantidade e sequência de comandos, informando a movimentação do seu personagem dentro do \"mapa\"; Posição (linha e coluna) inicial do personagem. Informe em que posição ele estará ao fim do programa. Os comandos de direção serão representados por: Direita: D Esquerda: E Cima: C Baixo: B",
+    "format_input": "Dois inteiros: N (representando quantidade de linhas do vetor bidimensional) e M (representando quantidade de colunas do vetor bidimensional). Vetor bidimensional com 0s e 1s; Um inteiro C representando a quantidade de comandos. Uma sequencia de C caracteres, representando os comandos. Dois inteiros X e Y representando a linha e coluna iniciais do personagem.",
+    "format_output": "A posição dele no array, representada por (x,y).",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "L4Q4 - Todo mundo odeia Xadrez",
+    "time_limit": "1 segundo(s)",
+    "descrition": "José Gabriel é um estudante que gosta muito de aprender coisas novas, e a sua mais nova empreitada é aprender a jogar xadrez. Mas tudo ainda está um pouco confuso para ele, pois apesar de entender muito bem como cada peça pode se movimentar, ele ainda tem muita dificuldade para perceber se o jogo está em uma situação de xeque (Situação quando o seu rei está sendo atacado por alguma peça do seu inimigo). Sua missão então é elaborar um programa que, dada a configuração atual das peças no tabuleiro, diga se o rei de José Gabriel está em xeque. As peças no tabuleiro serão representadas pelas seguintes letras, sendo maiúsculas as peças de José e minúsculas as peças do seu adversário: Peão - P/p Torre - T/t Cavalo = C/c Bispo = B/b Rei = K/k Rainha = Q/q Casa Vazia = - E cada uma dessas peças ameaça as seguintes casas do tabuleiro: Peão: O peão consegue atacar as 2 casas imediatamente nas diagonais a sua frente: Torre: A torre consegue atacar qualquer posição em linha reta, desde que não tenha outra peça na frente: Cavalo: O cavalo sempre anda uma casa para qualquer um dos lados, vira 90º e em seguida anda mais 2 casas nessa nova direção, formando assim um L, e diferente das outras peças, ele pode andar, mesmo se houverem outras peças no meio do caminho: Bispo: O bispo consegue atacar qualquer posição em diagonal, desde que não tenha outra peça na frente: Rei: O rei adversário ameaça todas as casas imediatamente ao seu redor. Rainha: A rainha pode se movimentar tanto como uma torre quanto como um bispo.",
+    "format_input": "A entrada consistirá de cada casa no tabuleiro representando a peça presente ou ausência de peças",
+    "format_output": "A saída consistirá apenas de uma linha dizendo \"XEQUE\" caso o rei esteja em situação de xeque e \"NAO XEQUE\" caso ele não esteja.",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

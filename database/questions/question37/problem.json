@@ -1,0 +1,11 @@
+{
+    "title": "Segundos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um intervalo de tempo pode ser dado em dias, horas, minutos, segundos ou sequências \"decrescentes\" destas unidades (em dias e horas; em horas e minutos; em horas, minutos e segundos), de acordo com o interesse de quem o está manipulando. Escreva um programa que converta um intervalo de tempo dado em segundos para horas, minutos e segundos.",
+    "format_input": "Um inteiro N indicando os segundos.",
+    "format_output": "Deve ser 3 inteiros da forma: A h B m C s",
+    "topics": [
+        "datas/horas",
+        "formatação"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "testando",
+    "time_limit": "10 segundo(s)",
+    "descrition": "/var/lib/tomcat6/webapps/huxley/banco/116/description.pdf",
+    "format_input": "None",
+    "format_output": "None",
+    "topics": [
+        "array"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Binary vs Linear",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma árvore binária é frequentemente usada para maximizar a eficiente de buscas. Mas quão eficiente essas buscas são? Nessa questão você vai receber uma sequência de inteiros. Dessa sequência você vai construir uma árvore binária. Depois você vai receber requisições, essas requisições são N inteiros, para cada inteiro você vai ter que dizer quantas comparações são feitas até achar este na busca linear e quantas são necessárias na árvore binária.",
+    "format_input": "Você receberá um inteiro N. Depois N inteiros distintos a serem armazenados na árvore binária. Depois receberá as requisições em que cada requisição é um inteiros X.",
+    "format_output": "Para cada requisição, você deve imprimir dois inteiros separados por espaços. X Y X = Número de comparações na busca linear, incluindo a comparação de igual. Y = Número de comparações na busca em árvore binária, incluindo a comparação de igual. Cada requisição deve ser separada por uma quebra de linha.",
+    "topics": [
+        "Árvore"
+    ]
+}

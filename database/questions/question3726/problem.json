@@ -1,0 +1,14 @@
+{
+    "title": "Verificar Ordem em Lista",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Verifique se os números lidos estão ordenados. Você receberá uma lista como entrada e deverá imprimir se os elementos presentes estão ordenados ou não. Utilize a função eval() da linguagem Python para interpretar a entrada como lista da linguagem. lista = eval(input()) Exemplo: [1,4,5,7,10] - Ordenado [1,0,1,4,10] - Nao ordenado",
+    "format_input": "[1,4,5,7,10]",
+    "format_output": "Ordenado",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "array bidimensional",
+        "ordenação"
+    ]
+}

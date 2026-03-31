@@ -1,0 +1,10 @@
+{
+    "title": "Números Pares e Ímpares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Informe se o número é par ou ímpar",
+    "format_input": "A primeira linha informa a quantidade de número que serão informados. Os demais são os números que devem ser verificados se são pares ou ímpares. Exemplo de entrada: 4 1 2 3 4",
+    "format_output": "Informação se o número é par ou ímpar no seguinte formato: ímpar par ímpar par",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Funções - G",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que use uma função, criada por você, que recebe como parâmetro um número natural e retorne o valor inteiro 1 se o parâmetro for par, ou 0 caso contrário. O programa deverá exibir 'par' ou 'nao par', conforme o caso.",
+    "format_input": "Um número natural.",
+    "format_output": "A mensagem 'par' (minúsculo e sem aspas), se o número dado como entrada for par, ou 'nao par' (minúsculo, sem acentuação e sem aspas), caso contrário.",
+    "topics": [
+        "função"
+    ]
+}

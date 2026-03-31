@@ -1,0 +1,11 @@
+{
+    "title": "Q10 - Odenação de Lista de números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva uma função chamada \"ordenar\" que recebe uma lista de 7 números e retorna essalista ordenada do menor para o maior. OBS.: Não use o método sort ou o sorted. É sério. Eu vou estar vendo cada submissão... Não duvide.",
+    "format_input": "uma sequência de 7 números",
+    "format_output": "A lista ordenada do menor para o maior número",
+    "topics": [
+        "função",
+        "ordenação"
+    ]
+}

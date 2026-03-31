@@ -1,0 +1,10 @@
+{
+    "title": "L5Q4 - Soma ao contrário",
+    "time_limit": "5 segundo(s)",
+    "descrition": "O dinheiro dos atracadores está preso no cofre e eles precisam conta-lo. Eles conseguiram ver o dinheiro de um jeito esquisito. O dinheiro estava disposto de trás para frente e precisam que você implemente uma função recursiva para calcular o resultado e outra para imprimi-lo. A sequência de números 3 2 1 representa o valor 123, enquanto que a sequência 7 8 representa o número 87. Nesse caso, a soma resulta em 210. Outro exemplo é o número 987 representado por 7 8 9 e 345 que é apresentado como 5 4 3. Somados, o resultado é 1332. A única operação possível é soma e não haverão números negativos. OBS: É obrigatório o uso de uma função recursiva para resolução do problema.",
+    "format_input": "A entrada é representada por um número: P P - representa o número de parcelas na operação de soma. Seguido por P números no formato: N X1 X2 ... Xn N - representa o número de dígitos na parcela. Xi - números naturais - para cada parcela - que representam cada dígito do número.",
+    "format_output": "A saida deve ser o resultado da soma.",
+    "topics": [
+        "recursão"
+    ]
+}

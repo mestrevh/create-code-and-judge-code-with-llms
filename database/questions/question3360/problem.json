@@ -1,0 +1,10 @@
+{
+    "title": "N primeiros números naturais",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Escreva um programa que receba um número inteiro N e imprima na tela os primeiros N números naturais (isto é, os números inteiros não-negativos: 0, 1, 2, 3, 4, 5, ...).",
+    "format_input": "Um número inteiro N.",
+    "format_output": "Os N primeiros números naturais, cada um em uma linha.",
+    "topics": [
+        "repetição"
+    ]
+}

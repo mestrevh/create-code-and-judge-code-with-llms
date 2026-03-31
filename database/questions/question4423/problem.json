@@ -1,0 +1,10 @@
+{
+    "title": "Noites de Vinhos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As monitoras de AVLC possuem um certo ritual: Todo mês consomem uma enorme quantidade de vinhos corrigindo MPs. O número de taças consumidas em uma noite será a média de N notas corrigidas, ao corrigirem um 0 a correção se acaba. Considerando que são X MPs em um período. Calcule quantas taças de vinho foram consumidas. O número x será a primeira entrada do problema, já o número n não será dado. Ao fazer a média de uma das MPs, arredonde o número de taças para baixo.",
+    "format_input": "A entrada consistirá de um número N, que representará a quantidade de linhas posteriores no problema. As linhas podem possuir tamanhos variados mas, todas terminam em 0",
+    "format_output": "A frase: Elas beberam x taças!",
+    "topics": [
+        "repetição"
+    ]
+}

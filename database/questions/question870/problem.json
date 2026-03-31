@@ -1,0 +1,11 @@
+{
+    "title": "Maior soma sequencial",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que dado um número inteiro X, representando a quantidade de elementos que serão dados em seguida, imprima o valor da maior soma sequencial possível. Obs.: Ao chegar ao no ultimo elemento, é possível continuar a soma a partir do primeiro.",
+    "format_input": "Um número X. X números inteiros.",
+    "format_output": "Um número inteiro representando a maior soma sequencial possível.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

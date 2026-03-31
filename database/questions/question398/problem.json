@@ -1,0 +1,11 @@
+{
+    "title": "Conta Múltiplos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba como entrada dois números e retorne a quantidade de números positivos menores que 50 que são múltiplos de ambos.",
+    "format_input": "Dois números inteiros quaisquer",
+    "format_output": "Um número inteiro",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

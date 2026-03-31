@@ -1,0 +1,12 @@
+{
+    "title": "Produto dos primos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados 04 números inteiros, calcule o produto entre eles caso os 04 números digitados sejam números primos. Se algum deles não for primo, imprima: SEM PRODUTO",
+    "format_input": "4 números inteiros",
+    "format_output": "O resultado da multiplicação entre eles, caso os 04 sejam primos ou SEM PRODUTO, caso contrário.",
+    "topics": [
+        "decisão",
+        "função",
+        "números primos"
+    ]
+}

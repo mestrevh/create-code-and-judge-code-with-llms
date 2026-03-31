@@ -1,0 +1,11 @@
+{
+    "title": "Conta Número",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você deve fazer um programa para contar a quantidade de vezes que um determinado número Y aparece entre uma sequência de números lidos. Primeiro, você deve ler o número inteiro Y, depois você deve ler, no máximo, mais 20 números inteiros. Caso o valor -1 seja lido, você deve interromper a entrada. Ao final, você deve informar: Quantas vezes o número Y apareceu entre os números lidos; A média dos valores lidos que forem maiores que zero e que estejam fora do intervalo fechado [15,20].",
+    "format_input": "O número inteiro Y. Uma sequência de, no máximo, 20 números inteiros. Pode ter menos do que os 20 números, caso seja lido o valor -1 da entrada. Nesse caso, a entrada deve parar, e o cálculo da média deve ser feito com os números lidos válidos.",
+    "format_output": "O número de vezes em que Y apareceu dentre os números lidos; A média dos números lidos que estiverem fora do intervalo fechado [15,20]. Veja as frases utilizadas na saída na tabela de exemplos de Entradas e Saídas abaixo.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

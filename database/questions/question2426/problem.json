@@ -1,0 +1,11 @@
+{
+    "title": "Somando Níveis",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sua tarefa é simples: dada uma árvore binária em notação de parênteses e um nível, informe o valor da soma de todos os nós da árvore que estão naquele nível. Por exemplo, (0(1(3()())(4()()))(2()())) é a representação em notação de parênteses da árvore. A soma dos nós do nível 1 é 3, assim como a soma dos nós do nível 2 é 7. OBS: O nível do nó raiz é 0; É garantido que a árvore sempre terá nós no nível informado.",
+    "format_input": "A entrada consiste de duas linhas. Na primeira, será informado um inteiro L que representa o nível da árvore. Na segunda linha, será informado uma string S que é a representação da árvore em notação de parênteses.",
+    "format_output": "A saída consiste de um inteiro R seguido de uma quebra de linha, representando a soma dos nós da árvore que estão no nível L.",
+    "topics": [
+        "estrutura de dados",
+        "Árvore"
+    ]
+}

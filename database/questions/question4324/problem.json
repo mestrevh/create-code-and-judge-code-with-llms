@@ -1,0 +1,10 @@
+{
+    "title": "Nerdolas do RU",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ryan, Heron, Ruan e Filipe estavam entediados enquanto comiam no RU e decidiram jogar um pequeno jogo enquanto estavam almoçando. O jogo se consistia em cada um dos quatro escolherem duas letras (duas ou mais pessoas podem escolher a mesma letra). A primeira letra escolhida seria uma entre: 'a', 'b', 'c', 'd', ou 'e'. A segunda letra escolhida seria uma entre: 'i', 'j', 'k', 'l', 'm'. Após escolherem as letras, seria dado o valor correspondente a cada letra dividido em duas linhas. Eles então iriam multiplicar os dois valores e caso o número passe de 100 ele volta ao começo. Exemplo: O número 127 se torna apenas 27, o número 382 se torna 82 e o número 74 continua como 74. Obs: Não haverá empates. Exiba na tela o nome das pessoas com o maior e menor número juntamente do seu número e diga se ele foi o vencedor ou perdedor. Exemplo: Filipe 93 - Vencedor Ruan 60 - Perdedor",
+    "format_input": "Uma linha contendo 4 caracteres, representando a primeira letra escolhida de cada pessoa. Uma linha contendo 4 caracteres, representando a segunda letra escolhida de cada pessoa. Uma linha contendo 5 números inteiros representando as letras 'a', 'b', 'c', 'd', e 'e' respectivamente. Uma linha contendo 5 números inteiros representando as letras 'i', 'j', 'k', 'l', 'm' respectivamente. A ordem de escolha de letras é: Ryan, Filipe, Ruan, Heron.",
+    "format_output": "O nomes das pessoas com maior e menor número junto de sua pontuação e diga se ele foi \"Vencedor\" ou \"Perdedor\" separando com hífen. Ex: Ruan 92 - Vencedor Heron 31 - Perdedor",
+    "topics": [
+        "decisão"
+    ]
+}

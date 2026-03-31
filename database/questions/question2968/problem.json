@@ -1,0 +1,10 @@
+{
+    "title": "Farol Aceso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Harry Potter o computeiro, estava navegando na sua caixa de entrada (de emails) tentando achar um feitiço que resolvesse todos os códigos que ele precisava construir (assim a vida dele seria muito mais fácil, ele não precisaria gastar todo o tempo que ele tinha procurando bugs nos códigos que ele criava) mas uma coisa lhe incomodava muito, tinham vários emails misturados na sua caixa de entrada sobre carros no estacionamento com o farol aceso, toda vez que ele apagava um email já surgia outro e ele não conseguia de jeito nenhum ler o conteúdo dos demais emails que eram relevantes. Para tentar resolver esse problema momentaneamente ele decidiu invocar um feitiço em cada carro que estava com o farol aceso no estacionamento naquele dia, dessa forma ele saberia que não seriam mais enviados emails com esse assunto naquele dia. Mas havia um problema, os carros estavam parados de uma forma estranha e ele teria que percorrer todos do estacionamento coluna por coluna e invertendo a ordem de busca. Ele começaria no primeiro que estava na primeira linha de vagas e desceria até o último da mesma coluna, depois, faria o mesmo passo só que continuando na última linha e subindo até a primeira linha da segunda coluna, algo como na imagem a seguir: Confuso demais ele pede a sua ajuda para que você crie um programa e lhe entregue uma lista com a ordem dos carros que ele passaria e o status atual da luz daquele carro naquele momento.",
+    "format_input": "N M Matriz NxM Sendo uma matriz de 0s e 1s em que cada um representa: 1: um carro com farol ligado 0: um carro com farol desligado",
+    "format_output": "Para cada carro presente na matriz, deve ser impresso: “Queria que todo mundo fosse assim” Caso o carro da posição atual esteja com farol desligado OU “Desliga o farol cidadao ( ._.)” Caso o carro da posição atual esteja com o farol ligado",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Fahrenheit para Celsius",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Converter uma temperatura dada em graus Fahrenheit para graus Celsius.",
+    "format_input": "A temperatura em Fahrenheit é dada como um número real.",
+    "format_output": "Um número real, formatado com duas casas decimais, seguido de um final de linha.",
+    "topics": []
+}

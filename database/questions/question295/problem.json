@@ -1,0 +1,10 @@
+{
+    "title": "Distância entre dois pontos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcule a distância entre eles, mostrando 4 casas decimais após a vírgula.",
+    "format_input": "O arquivo de entrada contém duas linhas de dados. Na primeira linha contém os valores inteiros: x1, y1 e na segunda linha contém os valores inteiros x2, y2.",
+    "format_output": "Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

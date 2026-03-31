@@ -1,0 +1,12 @@
+{
+    "title": "Prezete no paraíso dos hamsters",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Prezete está com muita saúdade do seu finado byl, seu hamster de estimação. Não conseguindo aguentar a saudade, prezete decide embarcar em uma viagem para o paraíso dos hamsters, porém ela não é bem vinda lá, pois realizou tortuturas com o pobre do byl e provavelmente prezete causou a morte do coitado de infarto cardíaco de tanto susto que dava nele. finado byl :( Para conseguir voltar a atormentar byl prezete irá ter que enfrentar um desafio. Porém, esse desafio é o maior pesadelo dela, pois envolve matemática discreta. Por isso, prezete está pedindo sua ajuda para fazer o código. O desafio é composto por vários casos seguindo o determinado padrão: dado um número X que dividido por div1 possui resto1, dividido por div2 possui resto2 e dividido por div3 possui resto3. Caso, você consiga descobrir quem é X finalmente a saudade de prezete para apertar byl irá acabar.",
+    "format_input": "R1 DIV1 R2 DIV2 R3 DIV3",
+    "format_output": "O menor número X",
+    "topics": [
+        "entrada formatada",
+        "lógica matemática",
+        "repetição"
+    ]
+}

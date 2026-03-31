@@ -1,0 +1,11 @@
+{
+    "title": "Engenharia Civil 101",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lucas Daniel desistiu de fazer engenharia de computação e passou a cursar civil. Porém, num mundo digital, ele precisa da sua ajuda para desenvolver um programa que receba as proporções de uma construção e retorne o valor total dela, assim como um esboço inicial de como ficaria. As construções sempre terão: Uma única porta no centro dos 2 primeiros andares (representada por 2 'H'). Alvenaria nos arredores e entre as janelas da construção (representada por '='). Janelas num andar sim e no outro não. As janelas (representadas por 'o') serão separadas por alvenaria. OBS: Não pode haver janelas no mesmo andar onde há a porta. Estruturas de alicerce abaixo do primeiro andar (representadas por '-'). Há estruturas de alicerce igual ao dobro da largura da construção menos um. Em relação ao custo: A porta sempre custará 500, no total. Cada janela custará 250. Cada conjunto de alvenaria custará 85. Cada estrutura de alicerce custará 133.",
+    "format_input": "A entrada consistirá em 2 inteiros da seguinte maneira: nxm n e m representando, respectivamente, a altura e a largura da construção. A largura deve ser um número ímpar. (A altura desconsidera o alicerce).",
+    "format_output": "A saída deverá mostrar uma representação gráfica da construção, usando os caracteres correspondentes separados por espaço. Em seguida, uma quebra de linha e a mensagem \"E o valor total eh ...\", mostrando o custo total da construção.",
+    "topics": [
+        "repetição",
+        "caractere"
+    ]
+}

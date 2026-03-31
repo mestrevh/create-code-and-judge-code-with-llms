@@ -1,0 +1,13 @@
+{
+    "title": "inverta a ordem de um número de n digitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "receba um numero inteiro positivo com n digitos e reescreva-o na ordem inversa",
+    "format_input": "um inteiro n com o tamanho do inteiro I o inteiro a ser invertido",
+    "format_output": "o inteiro I na ordem inversa",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "lógica matemática",
+        "repetição"
+    ]
+}

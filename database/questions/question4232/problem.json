@@ -1,0 +1,10 @@
+{
+    "title": "mdc de uma sequência",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Defina uma função que aceite como argumento uma lista de inteiros positivos ns e um inteiro positivo n e que retorne um booleano determinando se n divide todos os números da lista ns ou não. Com esta função, elabore um programa que calcule o máximo divisor comum de todos os elementos de uma lista de inteiros positivos.",
+    "format_input": "Uma sequência de números inteiros positivos, um número por linha e terminada por um número menor ou igual a zero.",
+    "format_output": "O máximo comum divisor de todos os elementos da sequência de entrada.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

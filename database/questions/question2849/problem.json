@@ -1,0 +1,10 @@
+{
+    "title": "Ordem de instalação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade ganhou um computador novo, ela está ansiosa para rodar várias simulações matemáticas. Ela já escolheu n programas para fazer as simulações, porém, vários desses programas possuem vários outros programas como dependências. Se um programa u depende de um programa v, antes de instalar o programa u, deve ser instalado o programa v. Felizmente, ela conseguiu montar uma lista com todas as dependências, mas infelizmente, a lista é grande demais. Ajude a Entidade a descobrir uma ordem de instalação que respeite todas as dependências. Observação: Para evitar ambiguidade, se a Entidade puder instalar mais de um programa num dado momento, ela sempre irá escolher aquele com o menor id.",
+    "format_input": "A primeira linha da entrada terá dois inteiros n (1 <= n <= 10^4) e m (1 <= m <= 5*10^4), representando a quantidade de programas que a Entidade quer instalar, e a quantidade de dependências entre os programas. Nas próximas m linhas, terá um par de inteiros u e v, indicando que o programa u depende do programa v. Observação: Os programas são representados por inteiros entre 1 e n. Não existirá programas que dependem de si mesmo e um programa u pode depender de um programa v no máximo uma vez.",
+    "format_output": "Se não for possível instalar todos os programas que a Entidade quer, deve ser impresso: \"Impossible\". Se for possível, deve ser impressa uma lista de inteiros separados por espaços, indicando a ordem de instalação que respeita todas as dependências.",
+    "topics": [
+        "ordenação topológica"
+    ]
+}

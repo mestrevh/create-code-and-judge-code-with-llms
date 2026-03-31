@@ -1,0 +1,10 @@
+{
+    "title": "Ache a coordenada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma matriz quadrada de lados N, imprima o produto das coordenadas onde está localizado o número 1, conforme segue o exemplo: 0 0 0 0 0 1 0 0 0 Nesse caso, o número 1 está na posição (2, 1), e o produto dessa coordenada é 2*1 = 2! Lembre-se que as coordenadas começam em (0,0), que é o canto superior esquerdo da matriz!",
+    "format_input": "Primeiramente é passado um número N, que indica o tamanho dos lados da matriz, seguido de N linhas com N colunas, representando a matriz",
+    "format_output": "A saída deve ser um inteiro, representando o produto das coordenadas.",
+    "topics": [
+        "matriz esparsa"
+    ]
+}

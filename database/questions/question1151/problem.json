@@ -1,0 +1,10 @@
+{
+    "title": "Mapeamento genético",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Identificação de cadeias de DNA é uma importante atividade na Engenharia Genética. Nesse problema iremos identificar em uma sequência de DNA onde se localiza a maior subsequência de uma determinada base e a quantidade. Vamos ajudar os cientistas da área a resolver esse problema!",
+    "format_input": "sequência de DNA. base a ser procurada",
+    "format_output": "posição onde se localiza a maior subsequência. tamanho da maior subsequência",
+    "topics": [
+        "string"
+    ]
+}

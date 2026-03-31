@@ -1,0 +1,11 @@
+{
+    "title": "Condicional - validação de data de nascimento",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Uma empresa deseja colher alguns dados de seus clientes. Para não gastar muito ela resolveu dividir o recolhimento desses dados, cada programador ficou com a tarefa de colher e validar cada informação. A nossa missão aqui é receber e validar a data de nascimento. Para ser uma data válida, atente para os itens abaixo: Os dias devem ser entre 1 e 31 para os meses: 01, 03, 05, 07, 08, 10 e 12. Os dias devem ser entre 1 e 30 para os meses: 04, 06, 09 e 11. Os dias devem ser entre 1 e 28 para o mês 02 quando o ano não for bissexto, e entre 1 e 29 para o mês 02 quando o ano for bissexto. Os meses devem ser entre 01 e 12. Os anos devem ser entre 1900 e 2020. O usuário deve receber a mensagem de validação se a data estiver correta, e de \"dava inválida\" caso ela esteja incorreta. Deve-se informar o erro ao usuário, da seguinte forma: Dia, mês ou ano inexistente quando um ou mais deles forem fora do intervalo permitido; Esse dia não existe nesse mês, quando o dia não for dentro da faixa permitido para aquele mês (ex.:31/04); Esse ano não é bissexto, quando for digitado 29/02 em um ano que não é bissexto. Um ano é considerado bissexto quando cumprir todos os seguintes requisitos: Ser divisível por 4; Não ser divisível por 100. Se for por 100, não pode ser também por 400.",
+    "format_input": "Deve ser lido os números separadamente com valores inteiros, na sequencia abaixo: Dia: Mês: Ano: ",
+    "format_output": "A saída deve ser a mensagem correspondente ao erro ou a mensagem de Data Validada quando estiver com uma data existente.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

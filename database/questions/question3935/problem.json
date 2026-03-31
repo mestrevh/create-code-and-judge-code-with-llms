@@ -1,0 +1,10 @@
+{
+    "title": "Sorteio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dois sorteios serão realizados em uma cidade do interior. Um vai sortear um carro e o outro uma moto. Para realização do sorteio, os organizadores coletaram os nomes dos participantes em uma lista e os ordenaram em ordem alfabética. Depois, sortearam dois números n1 e n2 representando a posição na lista ordenada dos ganhadores do carro e da moto, respectivamente. Porém, algumas pessoas gastaram um pouco mais e se inscreveram nos dois sorteios e agora possuem maior chance de ganhar algum prêmio. Mostre o resultado do sorteio.",
+    "format_input": "N => Quantidade de pessoas inscritas para o sorteio do carro. As próximas N linhas contém os nomes dos participantes do sorteio do carro. Os nomes não tem mais que 10 caracteres e todos os nomes são diferentes. M => Quantidade de pessoas inscritas para o sorteio da moto. As próximas M linhas contém os nomes dos participantes do sorteio de moto. Os nomes não tem mais que 10 caracteres e todos os nomes são diferentes. Na última linha dois números (n1 e n2) indicando os valores sorteados para os sorteios do carro e da moto, respectivamente.",
+    "format_output": "Se uma pessoa só foi sortuda e ganhou tudo, mostre: \"Quem ganhou tudo hoje foi [nome]\" Se os prêmios foram para duas pessoas diferentes, mostre: \"Quem ganhou o carro foi: [vencedor_carro]\" \"Quem ganhou a moto foi: [vencedor_moto]\"",
+    "topics": [
+        "string"
+    ]
+}

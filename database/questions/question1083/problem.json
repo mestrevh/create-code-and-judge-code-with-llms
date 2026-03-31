@@ -1,0 +1,11 @@
+{
+    "title": "Desconto na conta de energia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A ELETROSHOCK S.A. é uma empresa de distribuição de energia bastante justa (pelo menos ela se diz ser!). Ela faz cobrança de proporcional com a renda da família e o bairro. O programa deve imprimir uma mensagem de erro caso o bairro digitado seja inválido. Além disso, caso a renda da pessoa caia fora das faixas da tabela, não haverá desconto. Se a renda OU o consumo forem valores negativos, deve ser emitida uma mensagem de erro. O programa deve ler o código do bairro (S: Santa Ana; I: Industriários; T: Tabatinga), a renda da família e o consumo em reais e obter o desconto de acordo com a tabela abaixo:",
+    "format_input": "Um caractere que indica o bairro do cliente ((S)anta Ana, (I)ndustriários, (T)abatinga), o valor da renda do usuário e seu consumo energético em reais.",
+    "format_output": "Quanto a pessoa vai pagar já com o desconto. Caso a renda da pessoa caia fora das faixas da tabela, não haverá desconto.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

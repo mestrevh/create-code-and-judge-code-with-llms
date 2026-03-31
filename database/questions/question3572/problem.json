@@ -1,0 +1,10 @@
+{
+    "title": "Anos semanas e dias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa em C que receba uma quantidade de dias e converta esses dias para anos, semanas e dias.",
+    "format_input": "Quantidade de dias",
+    "format_output": "x anos, y semanas e z dias onde: x é a quantidade de anos, y a quantidade de semanas e z a quantidade de dias.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

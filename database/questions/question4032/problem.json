@@ -1,0 +1,10 @@
+{
+    "title": "Nova propriedade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um garoto estava bastante pensativo após descobrir sobre o número 6174 (Constante de Kaprekar) e começou a pensar em outras possibilidades. Diante disso, pensou: Quais são os números cuja soma dos dígitos é um número da sequência de Fibonacci? Ajude-o a determinar tais números. Sequência de Fibonacci:",
+    "format_input": "Um número N inteiro. 0 ≤ N ≤ 100000",
+    "format_output": "“Sim”, se a soma dos dígitos é um número da sequência de Fibonacci. “Nao”, caso contrário.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

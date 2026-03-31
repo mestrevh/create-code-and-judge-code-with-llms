@@ -1,0 +1,11 @@
+{
+    "title": "Taylor Swift e as Figurinhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Taylor Swift é uma grande colecionadora de figurinhas. Seus fãs, sabendo disso, decidiram presenteá-la ao longo de várias semanas. Para cada tipo de figurinha, Taylor já possui uma quantidade inicial de figurinhas e, a cada semana, recebe uma quantidade crescente, seguindo um padrão bem organizado: Na primeira semana, recebe Fi figurinhas; Na segunda semana, recebe Fi + Ri figurinhas; Na terceira semana, recebe Fi + 2·Ri figurinhas; E assim por diante, até completar Si semanas. Como Taylor tem muitos tipos de figurinhas e uma coleção enorme, ela não quer perder tempo contando tudo sozinha. Você, como um grande fã, deve ajudá-la a calcular o total final de figurinhas de cada tipo após todas as semanas.",
+    "format_input": "A primeira linha contém um inteiro N, o número de tipos de figurinhas. Em seguida, seguem N linhas, cada uma contendo três inteiros Fi Si Ri, onde: Fi = quantidade inicial de figurinhas do tipo i; Si = número de semanas que Taylor recebe figurinhas desse tipo; Ri = incremento de figurinhas a cada semana do tipo i.",
+    "format_output": "Para cada tipo de figurinha, imprimir um único número inteiro representando o total final de figurinhas, seguido de uma quebra de linha.",
+    "topics": [
+        "acumulador",
+        "recursão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Todas as substrings",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gerar todas as substrings de uma string dada.",
+    "format_input": "Uma string. Considere que o tamanho da string não passa de 10.",
+    "format_output": "Todas substrings, que podem ser formadas pela string.",
+    "topics": [
+        "recursão"
+    ]
+}

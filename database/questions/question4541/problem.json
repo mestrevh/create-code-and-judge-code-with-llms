@@ -1,0 +1,11 @@
+{
+    "title": "Interseção de Intervalos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma lista de n intervalos abertos (a1, b1), (a2, b2), ...,(an, bn) na reta real, encontrar qual é o maior número de intervalos que tem um ponto em comum. Por exemplo, para os intervalos (1, 4), (0, 3), (−1.5, 2) e (3.6, 5), a resposta é 3. Observe que um intervalo aberto (a, b) é definido por (a,b) = {x | a < x < b}. A solução deve ser melhor que quadrática em tempo.",
+    "format_input": "A primeira linha contém a quantidade n de intevalos. Cada linha a seguir contém o início e fim de um itervalo. São n destas linhas.",
+    "format_output": "O maior número de intervalos que se intersetam.",
+    "topics": [
+        "geometria computacional",
+        "ordenação"
+    ]
+}

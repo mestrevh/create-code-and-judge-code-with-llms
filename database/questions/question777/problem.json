@@ -1,0 +1,13 @@
+{
+    "title": "Análise de Molde de DNA",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considerando hipoteticamente um molde de DNA composto por 30 bases, sendo cada base respresentada por uma letra: A (adenina), ou C (citosina), ou G(guanina) ou T (timina). Um cientista descobriu que quanto maior a ocorrência da base timina num molde de DNA, maior é a predisposição para a força física. Escrever programa, fazendo uso de dicionário, para ler código de pacientes, seguido de respectivo molde de DNA (com 30 bases) até que se digite código 9999 (para paciente) e, identificar o código do paciente com maior predisposição para a força física. Para simplificar, considerar que as ocorrências de número de timina nos diferentes pacientes são distintas.",
+    "format_input": "Em cada linha, separados por um espaço em branco, há um número correspondendo ao código do paciente e uma string referente ao respectivo molde de DNA com 30 caracteres A, C, G ou T; sendo o último código 9999.",
+    "format_output": "Código do paciente, com maior predisposição à força física – aquele que apresenta em seu molde de DNA maior número de ocorrência de timina.",
+    "topics": [
+        "dicionário",
+        "DNA",
+        "strings",
+        "processamento de dados"
+    ]
+}

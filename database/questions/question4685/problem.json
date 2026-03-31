@@ -1,0 +1,12 @@
+{
+    "title": "Lista de Tarefas organizada",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Implemente uma código que receba tarefas e organize elas em ordem de prioridade.O programa deve conter as operações de inserção de tarefas. As tarefas são compostas por descrição e nível de prioridade. O nível de prioridade é um número inteiro que varia de 1 a 5, sendo 1 a prioridade mais alta e 5 a prioridade mais baixa. Podem existir várias tarefas com o mesmo nível de prioridade. Quando isso acontecer os mais recentes devem vir primeiro na listagem.",
+    "format_input": "MENU A entrada seleciona uma das opções entre 0 e 2, sendo: 0: Encerra o programa. 1: Cadastra uma nova tarefa 2: Exibe as tarefas cadastradas de forma ordenada. Cadastro de tarefa Recebe a descrição da tarefa e em seguida o nível de prioridade.",
+    "format_output": "A saída é exibida quando a opção 2 for solicitada na entrada. Primeiro deve haver uma quebra de linha e em seguida as tarefas, uma por linha, onde cada linha começa com o nível de prioridade, um ponto, um espaço e a descrição da tarefa. As tarefas devem ser ordenadas do 1 ao 5. Exemplo: 1. Escrever um artigo sobre inteligência artificial. 1. Estudar algoritmos de ordenação. 2. Fazer uma caminhada. 2. Organizar a estante de livros. 3. Revisar o código do projeto. 3. Limpar a garagem. 4. Assistir a uma palestra online",
+    "topics": [
+        "estrutura de dados",
+        "ordenação",
+        "ponteiro"
+    ]
+}

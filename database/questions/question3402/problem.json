@@ -1,0 +1,10 @@
+{
+    "title": "Ponto de interseção entre duas retas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A determinação do ponto de interseção entre duas retas pode ser feito igualando-se as suas equações. Com base nessa informação, escreva um programa computacional que leia os coeficientes das equações de duas retas e determine o ponto de interseção entre elas. As retas são definidas pelas equações: y = A*x + B e y = C*x + D. Escreva as coordenadas x e y do ponto de interseção encontrado.",
+    "format_input": "Consiste dos quatro números reais A, B, C e D, que correspondem aos coeficientes das duas retas, sendo A e B na primeira linha e C e D na linha seguinte.",
+    "format_output": "Consiste de dois números reais formatados com duas casas decimais, representando as coordenadas x e y do ponto de interseção entre as duas retas.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Antecessor e sucessor 2.0",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Descrição Escreva um programa que solicite ao usuário a inserção de um número inteiro. Em seguida, exiba na tela tanto o número inteiro imediatamente anterior quanto o número inteiro imediatamente posterior a ele. Exemplos Se o usuário inserir o número 5, o programa deve mostrar \"O antecessor de 5 eh 4 e o sucessor eh 6.\". Se o usuário inserir o número -3, o programa deve mostrar \"O antecessor de -3 eh -4 e o sucessor eh -2.\". Objetivos de aprendizado da questão O objetivo desta questão é desenvolver a compreensão e a prática dos seguintes conceitos de programação: 1. Entrada de Dados: Aprender como solicitar e receber dados do usuário, neste caso, um número inteiro. 2. Operações Matemáticas: Utilizar operações matemáticas simples para calcular o antecessor (subtrair 1) e o sucessor (adicionar 1) de um número inteiro dado. 3. Saída de Dados: Exibir os resultados no formato desejado, apresentando o antecessor e o sucessor do número inserido pelo usuário. 4. Manipulação de Variáveis: Utilizar variáveis para armazenar e manipular os valores do número inserido, do antecessor e do sucessor. 5. Lógica de Programação: Praticar a lógica de programação ao calcular e exibir os resultados de forma clara e compreensível para o usuário. Esses conceitos são fundamentais para o desenvolvimento de habilidades de programação em linguagens como Python, C++, Java e muitas outras, e esta questão serve como um exercício simples para consolidar esses conhecimentos.",
+    "format_input": "Um número inteiro (positivo e negativos) \"n\"",
+    "format_output": "Deve ser no seguinte formato: \"O antecessor de <VALOR DE N> é <VALOR DO ANTECESSOR> e o sucessor é <VALOR DO SUCESSOR>.\" Exemplo: O antecessor de 5 eh 4 e o sucessor eh 6.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

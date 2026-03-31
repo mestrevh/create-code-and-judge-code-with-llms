@@ -1,0 +1,12 @@
+{
+    "title": "Beiju Text",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você está digitando um texto longo com um teclado quebrado. Bem, ele não está tão quebrado assim. O único problema é que às vezes a tecla \"Home\" ou \"End\" é pressionada automaticamente (internamente). Você não percebe esse problema, já que está concentrado na digitação e nem sequer ligou o monitor! Depois que você termina de digitar, é possível ver o texto na tela (caso ligue o monitor). Em chinês, podemos chamar isso de Beiju. Sua tarefa é descobrir qual é o texto Beiju. ATENÇÃO: É IMPRESCINDÍVEL A UTILIZAÇÃO DA ESTRUTURA DE DADOS LINKED LIST",
+    "format_input": "Haverá uma única string de input (sem espaço e máximo de 500 caracteres). Os caracteres podem ser letras, sublinhados ('_') e dois símbolos especiais: '[' representa que a tecla Home (início do texto) foi pressionada internamente ']' representa que a tecla End (fim do texto) foi pressionada internamente",
+    "format_output": "Imprima a string final. (Beiju Text)",
+    "topics": [
+        "estrutura de dados",
+        "caractere",
+        "ponteiro"
+    ]
+}

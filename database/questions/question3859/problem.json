@@ -1,0 +1,11 @@
+{
+    "title": "A Linha de montagem do Dr. Zululu",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Dr. Zululu, renomado e solitário cientista, decidiu abrir a sua própria indústria. Porém, como era de se esperar, o Dr. decidiu organizar a linha de montagem de forma incomum. Primeiramente, todos os elementos da linha de montagem serão identificados por um inteiro ID. Além disso, haverá sempre uma lista de checagem, composta por N1 elementos antigos. Um elemento novo a entrar na linha de montagem, então, será contabilizado apenas se o seu ID não for igual ao ID de um elemento antigo. Por exemplo: Lista de checagem dos elementos antigos: 2  3  4 Número de elementos novos a serem recebidos: 2 Elementos recebidos: 8 2 3 4 1 Recebemos os 5 valores porque precisávamos de 2 elementos novos. Feito isso, todos os elementos (sejam novos ou antigos) na linha de montagem precisam ser processados. Para processá-los, multiplique seu ID pelo ID ORIGINAL do elemento anterior, e subtraia o ID ORIGINAL do elemento seguinte do resultado, e obtenha, então, o seu valor absoluto. No caso do primeiro item não faça nenhuma operação. Já no caso do último item, efetue apenas a multiplicação pelo anterior. Exemplo: E1  E2  E3  E4 E1  (E2*E1)-E3  (E3*E2)-E4  (E4*E3) Após isso, os elementos devem ser organizados em ordem crescente e deve-se deletar todo elemento que tiver o ID igual a algum ID da lista de checagem.",
+    "format_input": "A entrada consiste em dois inteiros N1 e N2 representando, respectivamente, o número de itens da linha de checagem e o número de elementos novos a serem recebidos. Depois, serão informados os N1 elementos da lista de checagem e todos os elementos de entrada até que o número de elementos novos (N2) seja satisfeito. Demonstração: 3  2  N1  N2 2  6  7  N1 elementos da lista de checagem (elementos antigos) 1  6  3  Elementos de entrada (até que hajam N2 elementos novos)",
+    "format_output": "A saída consistirá na lista processada em ordem crescente. Caso algum elemento seja igual a um elemento presente na lista de checagem, imprima \"DELETADO\" em seu lugar. Quebra de linha no final.",
+    "topics": [
+        "array",
+        "busca"
+    ]
+}

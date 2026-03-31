@@ -1,0 +1,13 @@
+{
+    "title": "Consultório organizado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O consultório do Dr. Mat Eimuitos é uma verdadeira bagunça. Todos os dias há, no mínimo 1 milhão de confusões entre os pacientes, que, como se percebe, não são tão pacientes assim. Isso acontece devido à falta de organização na ordem de chegada, uma vez que a secretária Helena Opresta não dá conta de lembrar quem chegou primeiro. Cansados de tanta arenga, o doutor e a secretária resolveram se aventurer pelo vasto mundo da programação em C e criar uma solução. Percebendo que não conseguiriam sozinhos, resolveram pedir ajuda a um estudante de Computação Eletrônica. Seu objetivo é, portanto, criar um programa que receba os dados dos pacientes horas antes da consulta, compute a ordem de chegada e receba o resultado da aferição da pressão arterial de cada um deles e, por fim, quando o doutor iniciar o atendimento, imprima a ordem de chegada acompanhada dos dados. Portanto, a fim de salvar as informações de cada paciente, deve-se implementar uma estrutura Paciente com os campos: Nome: string com no máximo 50 caracteres; Número do CPF: string no formato XXX.XXX.XXX-XX; Data de nascimento: string no seguinte formato XX/XX/XXXX; Número do prontuário: string com no máximo 10 caracteres composta por letras e números; Aferição da pressão arterial: string no formato XXX/XX",
+    "format_input": "Para cada paciente, o programa receberá os campos de nome, número do CPF, data de nascimento e número do prontuário da estrutura Paciente, até que o nome dado seja “SAIR” ou o limite de 50 pacientes seja atingido. Após realizado o cadastro, o programa deverá estar pronto para organizar a ordem de chegada. Para isso, ele irá receber o prontuário do paciente que for chegando e o campo referente a pressão arterial da estrutura Paciente. Isso deverá se repetir até que o prontuário do paciente dado seja -1. Caso o prontuário dado não esteja cadastrado, imprima a seguinte mensagem de advertência: “PRONTUÁRIO NÃO CADASTRADO”.",
+    "format_output": "O programa imprimirá, em ordem de chegada, todos os dados dos pacientes. Caso alguém tenha sido cadastrado, mas não compareceu durante o momento de organizar a ordem de chegada, também deve ter seus dados impressos, só que, no lugar de sua posição, com a mensagem “NÃO COMPARECEU” e sem a aferição da pressão.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string",
+        "estruturas"
+    ]
+}

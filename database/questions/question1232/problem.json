@@ -1,0 +1,12 @@
+{
+    "title": "Torneio de Quadribol",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ao final do primeiro torneio de Quadribol, os alunos precisam saber as casas com mais vitórias. Sua tarefa é escrever um programa que, dado quais times se enfrentaram em cada partida e os placares de cada partida, imprima os times que ganharam mais vezes.",
+    "format_input": "N C1XC2 P1-P2 N - número natural C1xC2 - string P1-P2 - string A primeira linha de entrada representa o número de partidas. As N linhas representadas por C1xC2 representam quais casas estão se enfrentando. As N linhas representadas por P1-P2 representam o placar das partidas. Dica: Procure sobre o método para String split() na documentação de Java.",
+    "format_output": "T T - string A única linha de saída representa o(s) time(s) com mais vitórias separadas por espaço.",
+    "topics": [
+        "array",
+        "acumulador",
+        "repetição"
+    ]
+}

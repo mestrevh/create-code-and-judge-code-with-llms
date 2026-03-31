@@ -1,0 +1,11 @@
+{
+    "title": "Conversão de Grafos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sabemos que os grafos podem ser representados de duas formas diferentes: por listas de adjacências ou por matriz de adjacências. Sua tafefa é simples: dado um grafo na forma de matriz de adjacência, converta-o para a forma de listas de adjacência e imprima a lista de adjacência gerada. A matriz 0 0 1 0 1 0 1 1 0 0 0 1 1 0 0 0 é a representação do grafo abaixo, por exemplo: - É garantido que todas os grafos deste problema contém o nó 0. - Todos os grafos fornecidos são digrafos. - Para garantir a unicidade da resposta deve-se levar em conta duas coisas: - A leitura da matriz deve ser feita da esquerda para a direita e de cima para baixo; - A inserção de um nó na lista de adjacência deve ser feita no início da lista.",
+    "format_input": "A entrada consiste de um inteiro D que informa a dimensão da matriz. Em seguida serão fornecidas D linhas, cada linha com D elementos (0's ou 1's), separados por um espaço em branco cada, representando a matriz de adjacência de um grafo G.",
+    "format_output": "A lista de adjacência gerada a partir da matriz de adjacência fornecida. Por exemplo: A matriz 0 0 1 0 1 0 1 1 0 0 0 1 1 0 0 0 gera a seguinte lista de adjacência [0]---> 2 [1]---> 3 -> 2 -> 0 [2]---> 3 [3]---> 0 - Observe atentamente os espaços em branco; - Ao final de cada linha da lista adjacências adicione uma quebra de linha.",
+    "topics": [
+        "estrutura de dados",
+        "grafo"
+    ]
+}

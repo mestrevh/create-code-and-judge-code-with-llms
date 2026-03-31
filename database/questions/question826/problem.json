@@ -1,0 +1,8 @@
+{
+    "title": "Conversão de m para cm.",
+    "time_limit": "19 segundo(s)",
+    "descrition": "Faça um programa em Java que leia do usuário um valor em metros converta para centímetros.",
+    "format_input": "Valor em metros.",
+    "format_output": "Valor em centímetros.",
+    "topics": []
+}

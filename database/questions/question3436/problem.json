@@ -1,0 +1,11 @@
+{
+    "title": "Funções para a área e o perímetro do círculo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente funções para calcular a área e o perímetro de um círculo. Ambas as funções devem receber como argumento o raio do círculo. Escrever o módulo principal fazendo chamada dessas funções. Observação: utilize o valor de pi com a maior precisão possível.",
+    "format_input": "Número real correspondente ao raio do círculo.",
+    "format_output": "Dois números reais em coluna e formatados com 5 casas decimais representando a área e o perímetro do círculo, respectivamente.",
+    "topics": [
+        "geometria computacional",
+        "função"
+    ]
+}

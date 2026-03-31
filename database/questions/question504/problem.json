@@ -1,0 +1,13 @@
+{
+    "title": "Soma de Fatoriais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba como entrada 5 números inteiros positivos, e exiba a soma dos fatoriais daqueles que são múltiplos de 3.",
+    "format_input": "Números inteiros",
+    "format_output": "Um número inteiro",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "função",
+        "recursão"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Viciada em 'a'",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Joyce é uma pessoa muito organizada e perfeccionista e ama assistir o roda a roda Jequiti. De tanto assistir, ela percebeu que, em quase todas as rodadas, a probabilidade de sair a letra ‘a’ era muito grande, então, contava quantos ‘a’ apareciam, e notou, também, que era bastante raro ter alguma palavra em que o ‘a’ fosse acompanhado por um ‘i’, e ficava ainda mais animada quando isso acontecia. Seu irmão Júnior, por ser estudante de computação, teve a brilhante ideia de criar um programa para contabilizar a quantidade de letras ‘a’ e ‘a’ acompanhado de ‘i’, independente da ordem (‘ia’ ou ‘ai’), para cada palavra ou frase. Cada 'a' soma 1 ao total, mas se este 'a' está acompanhado de um 'i' soma 2, pois traz para Joyce o dobro de felicidade.",
+    "format_input": "Você recebe uma string (S ≤ 20), apenas com letras minúsculas.",
+    "format_output": "Deve ser impresso um inteiro, que corresponde ao número da soma total de 'a's, 'ai's e/ou 'ia's, cada qual com seu peso.",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição",
+        "caractere",
+        "string"
+    ]
+}

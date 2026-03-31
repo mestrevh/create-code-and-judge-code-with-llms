@@ -1,0 +1,10 @@
+{
+    "title": "Cálculo de valores",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Escreva um programa que leia n linhas contendo um nome de uma pessoa e cinco valores inteiros e identifique qual delas possui: - maior valor total - maior valor individual - maior média ",
+    "format_input": "3 Joao 4 5 7 8 Maria 2 -1 11 0 0 Jose 4 5 6 10 1",
+    "format_output": "Jose Maria Jose",
+    "topics": [
+        "função"
+    ]
+}

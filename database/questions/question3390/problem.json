@@ -1,0 +1,10 @@
+{
+    "title": "Identificando Chás",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A degustação de chá às cegas é a habilidade de identificar um chá usando apenas os sentidos do olfato e do paladar. Como parte do Desafio Ideal dos Consumidores de Chá Puro (ICPC), um programa de TV local é organizado. Durante o show, um bule completo é preparado e cinco competidores recebem uma xícara de chá para cada um. Os participantes devem cheirar, degustar e avaliar a amostra para identificar o tipo de chá, que pode ser: (1) chá branco; (2) chá verde; (3) chá preto; ou (4) chá de ervas. No final, as respostas são checadas para determinar o número de suposições corretas. Dado o tipo real de chá e as respostas fornecidas, determine o número de concorrentes que obtiveram a resposta correta.",
+    "format_input": "A primeira linha contém um inteiro T representando o tipo de chá (1 ≤ T ≤ 4). A segunda linha contém cinco inteiros A, B, C, D e E , indicando a resposta dada por cada competidor (1 ≤ A, B, C, D, E ≤ 4).",
+    "format_output": "Produza uma linha com um inteiro representando o número de competidores que obtiveram a resposta correta.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Hambúrgueres",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade ama muito hambúrgueres, especialmente os que ela mesma faz. Ela acha que só existe três ingredientes decentes: pão, carne e queijo. A sua receita favorita é dada por uma cadeia de caracteres, onde cada ingrediente é uma letra: 'B' (pão), 'S' (carne) e 'C' (queijo). Os ingredientes serão descritos de baixo para cima, por exemplo, a receita \"BSCBS\" representa um hambúrguer que de baixo para cima tem: pão, carne, queijo, pão e carne. A Entidade tem n_b peças de pão, n_s peças de carne e n_c peças de queijo na cozinha. Existe um mercado perto de sua casa que vende cada peça de pão por p_b dinheiros, cada peça de carne por p_s dinheiros e cada peça de queijo por p_c dinheiros. A Entidade tem r dinheiros. Considerando os ingredientes que ela já tem e que ela compra mais ingredientes de forma ótima: Ela quer saber qual é a quantidade máxima de hambúrgueres que ela pode fazer. O mercado tem uma quantidade infinita de cada ingrediente, e a Entidade não pode dividir nenhum ingrediente em pedaços.",
+    "format_input": "A primeira linha da entrada contém uma cadeia de caracteres que descreve a receita favorita da Entidade. O tamanho da receita não excede 100 caracteres, e é formada apenas pelas letras 'B', 'S' e 'C'. A segunda linha da entrada contém três inteiros n_b, n_s, n_c (1 <= n_b, n_s, n_c <= 100), representando respectivamente a quantidade de pães, carnes e queijos que a Entidade possui na conzinha. A terceira linha da entrada contém três inteiros p_b, p_s, p_c (1 <= p_b, p_s, p_c <= 100), representando o preço da peça de pão, carne e queijo, respectivamente. A quarta linha da entrada contém um inteiro r (1 <= r <= 10^12), representando quantos dinheiros a Entidade possui.",
+    "format_output": "Imprima a quantidade máxima de hambúrgueres que a Entidade pode fazer, considerando os r dinheiros que ela pode gastar, e os ingredientes que ela já possui.",
+    "topics": [
+        "array"
+    ]
+}

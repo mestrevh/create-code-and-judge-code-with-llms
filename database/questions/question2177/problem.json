@@ -1,0 +1,12 @@
+{
+    "title": "Casamento de padrão.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma imagem preto e branca (sem considerar escalas de cinza) pode ser representada por uma matriz cujos elementos assumem valores no conjunto {0,1}. Suponha que você deseja determinar se um determinado padrão AxB está contido em uma imagem de tamanho NxM",
+    "format_input": "asd",
+    "format_output": "asd",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

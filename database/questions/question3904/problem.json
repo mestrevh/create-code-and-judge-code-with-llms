@@ -1,0 +1,10 @@
+{
+    "title": "Escolha dos Presentes",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Joãozinho adora o natal! Ele gosta da comida, das músicas clássicas, e, especialmente, dos presentes que o Papai Noel lhe dá todos os anos! Assim como nos anos anteriores, Joãozinho irá ganhar exatamente K presentes dentre os N presentes que Papai Noel tem disponível. Agora, ele deve decidir quais presentes ele irá pedir para o bom velhinho. Como toda criança pensa, quanto maior é o pacote do presente, mais legal o presente é! Logo, ele decidiu pedir os presentes com os K maiores volumes. Dada a descrição de todos os N presentes que o Papai Noel tem, determine os K presentes que Joãozinho deve pedir.",
+    "format_input": "A primeira linha contém um inteiro T (≤20), o número de casos de teste. A primeira linha de cada caso de teste contém dois inteiros N e K (1 ≤ N ≤ 10³ * ou 1 ≤ N ≤ 10⁵ **, 1 ≤ K ≤ N), o número de presentes que o Papai Noel tem e o número de presentes que Bruninho irá ganhar. Cada uma das próximas N linhas descrevem um presente. Cada linha contém quatro inteiros I, H, W e L (0 ≤ I ≤ 10⁹, 1 ≤ H, W, L ≤ 100), o número de identificação (id) do presente e a altura, largura e comprimento do seu pacote, em centímetros. Todos os presentes tem ids diferentes.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo K inteiros, separados por espaços, descrevendo os ids dos presentes que Bruninho deve pedir. Imprima os ids em ordem crescente. Não imprima um espaço após o último id. Se existir mais de uma solução possível, imprima a lexicograficamente menor, isto é, o menor id na saída deve ser minimizado; no caso de empate, o segundo menor id na saída deve ser minimizado, e assim por diante.",
+    "topics": [
+        "ordenação"
+    ]
+}

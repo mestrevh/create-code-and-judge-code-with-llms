@@ -1,0 +1,10 @@
+{
+    "title": "Baralho Ordenado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Carla gosta de jogar poker mas tem o hábito peculiar de sempre colocar as cartas em ordem antes de embaralhá-las. Como este processo acaba gastando mais tempo que o normal, seus amigos reclamam bastante e para reslolver o problema, Carla comprou na Shoppeeng um ordenador de cartas. Contudo, como pagou muito barato, Carla está desconfiada do funcionamento do aparelho e, por isso, decidiu testá-lo. O teste é muito simples, ela dá um baralho para a máquina e depois verifica se o baralho está ordenado. Para acelerar o processo, ela quer escrever um programa que recebe como entrada os números de 1 a 52 em alguma ordem e verifica se eles estão em ordem. Mas para iniciar ela vai fazer testes apenas com uma parte do baralho. Você pode ajudar Carla nesta tarefa? Obs.: Nenhuma função de biblioteca além daquelas de entrada e saída deve ser utilizada para resolver este problema.",
+    "format_input": "A entrada é dada por várias listas com algum subconjunto (com dois ou mais elementos) dos números de 1 a 52 em alguma ordem, representando um subconjunto das cartas de baralho (logo, cada número aparece no máximo uma vez). Os números são apresentados em uma única linha, separados por um espaço (não há espaço após o último número da lista). O fim da entrada é indicado por uma linha contendo apenas o número 0 (zero).",
+    "format_output": "Para cada lista você deve imprimir a palavra CRESCENTE caso a lista esteja ordenada em ordem crescente, a palavra DECRESCENTE, caso a lista esteja ordenada em ordem decrescente ou a palavra DESORDENADA caso a lista não esteja em ordem crescente ou decrescente. Cada uma dessas palavras deve vir seguida de uma quebra de linha.",
+    "topics": [
+        "repetição"
+    ]
+}

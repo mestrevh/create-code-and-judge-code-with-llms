@@ -1,0 +1,11 @@
+{
+    "title": "Trena Dobrável",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma trena dobrável é um tipo de trena formada de vários pedacinhos que giram pra ela poder abrir e fechar. O jovem Jailton estava observando a trena de seu pai e pensou: e se a gente pudesse produzir uma trena dobrável com outra quantidade de pedaços. Pedaços maiores, pedaços menores, (todos os pedaços de mesmo tamanho). Então dividiu uma trena em n tamanhos de 1 unidade. O seu objetivo é imprimir para CADA possibilidade de quantidade de pedaços iguais, que podemos dividir em uma trena de n unidades (ou seja, para cada divisor* de n), os números que vão ficar vizinhos. * exceto o número 1. Pq se dividir n por 1, não vai ter vizinho, nem dividiu né... Exemplo: uma trena de 6 unidades. Ao dividir em 2, temos 2 pedaços de 3 unidades. Onde: 0 é vizinho do 5; 1 é vizinho do 4; 2 é vizinho do 3; Ao dividir em 3, temos 3 pedaços de 2 unidades. Onde: 0 é vizinho do 3; 1 é vizinho do 2; 2 é vizinho do 5; 3 é vizinho do 4; E por aí vai. Porém, o irmão mais novo de Jailton, Cleitinho, quis zuar o irmão e escreveu outros números por cima dos números antigos. (isso não muda nada na questão, só garante que os números sempre serão diferentes independente da quantidade de números. Se vc fizer a lógica pensando nos índices do vetor como mostra a figura, a solução vai funcionar independente dos números que estiverem ali)",
+    "format_input": "Um inteiro n representando a quantidade de unidades na trena. Seguido dos n números representando um número escrito por Cleitinho. 2 <= n <= 100",
+    "format_output": "Para cada possibilidade de divisão deve ser impresso um inteiro dizendo em quantos pedaços a trena foi dividida. Seguido de cada número e o seu próximo vizinho separados por - Assim: x - y",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Navegação autônoma",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você está projetando um robô cuja função é se locomover até 3 pontos A, B e C localizados em um plano cartesiano, porém o robô só pode se mover até o ponto que esteja mais próximo dele. Desenvolva um programa que mostre a ordem em que o robô irá a cada um dos pontos dados. Caso dois pontos estejam à mesma distância do robô, ele deve seguir a ordem alfabética. No exemplo acima o robô está localizado no ponto (0,0) e irá seguir a sequência B C A. Dica: Utilize a função pow e sqrt da biblioteca para calcular a distância entre dois pontos.",
+    "format_input": "Uma linha contendo dois números reais x e y que indicam a posição inicial do robô; Uma linha contendo dois números reais x e y que indicam a posição do ponto A; Uma linha contendo dois números reais x e y que indicam a posição do ponto B; Uma linha contendo dois números reais x e y que indicam a posição do ponto C;",
+    "format_output": "A sequência de pontos na ordem em que o robô se locomoveu separados por espaço.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

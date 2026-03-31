@@ -1,0 +1,10 @@
+{
+    "title": "Qual o terceiro ângulo?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sabe-se que a soma dos ângulos internos de um triângulo é igual a 180. Considerando que dois dos ângulos serão informados, escreva um programa que calcule e informe o terceiro ângulo.",
+    "format_input": "Dois números inteiros devem ser informados, representando, respectivamente, o primeiro e o segundo ângulo.",
+    "format_output": "Informe qual o terceiro ângulo do triângulo como sendo um número real com 3 casas decimais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Corona: Ep 5",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após o grande alastre da Covid-19 no Brasil, o governo passou a recomendar que a população que se encontra no grupo de risco (idosos e pessoas com problemas respiratórios) se resguardassem em suas residências, de modo a evitar uma possível contaminação, sobretudo pelo enorme risco que as pessoas nesse grupo correm. Samuel é um garoto perspicaz e, mesmo não pertencendo ao grupo de risco, viu nisso uma grande oportunidade para se esquivar dos seus afazeres. Sendo totalmente audacioso, ficou em sua residência e começou a focar em quaisquer coisas, menos nas suas obrigações. Para ele, essas obrigações não mereciam seu tempo. Como era um grande admirador do jovem Rodrikinho, era maluco por propriedades matemáticas, e acabou achando no número 19 (da Covid-19) uma propriedade bem interessante: A soma dos divisores de 19 é exatamente igual ao seu sucessor numérico, ou seja, 20. E daí ele pensou: \"Olha só! Coincidentemente o nosso ano é esse resultado repetido duas vezes (2020), tudo teoria da conspiração não é mesmo? Encrenca em dobro com a Covid-19!\" Sendo assim, admirado por essa propriedade das somas dos divisores de um numero ser o seu sucessor numérico, ele ficou interessado em um programa em que, dado um intervalo (i, j), você pudesse dizer todos os números que contém essa propriedade que estejam no intervalo (i <= X <= j), onde X é o número que você está analisando. Ajude Samuel!",
+    "format_input": "Serão dados dois inteiros i e j, que definem o range em que os números serão procurados. Ex.: 4 19, então TODOS os números de 4 ATÉ 19 (este incluso) serão analisados.",
+    "format_output": "Serão printados os números que contém a propriedade que Samuel descobriu, separados por uma quebra de linha.",
+    "topics": [
+        "lógica matemática",
+        "repetição"
+    ]
+}

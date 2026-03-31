@@ -1,0 +1,13 @@
+{
+    "title": "Árvore de Busca Binária",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Escreva um programa que aceita uma árvore binária e retorna VERDADEIRO se for uma árvore de busca binária válida, e FALSO caso contrário.",
+    "format_input": "Uma árvore de busca binária, representada da seguinte maneira: (5(4(11(7()())(2()()))()) (8(13()())(4()(1()())))) Que é a arvore:",
+    "format_output": "VERDADEIRO, se a árvore for uma árvore de busca binária. FALSO, se não for.",
+    "topics": [
+        "estrutura de dados",
+        "Árvore",
+        "recursão",
+        "busca"
+    ]
+}

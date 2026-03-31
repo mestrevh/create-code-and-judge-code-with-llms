@@ -1,0 +1,11 @@
+{
+    "title": "Conversor de IP",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No mundo da informática sabemos que tudo funciona usando o sistema binário. O sistema que só tem dois símbolos, pode representar os nossos números decimais usando apenas 0 e 1. Para fazer a conversão de um número da base decimal para a base binária temos que dividir o número por 2 e ir concatenando o resto das divisões enquanto o número for maior que 1. Para converter da base binária para a decimal elevamos a base 2 ao expoente que representa a posição do bit, começando da direita para a esquerda, e ao final somamos todos os valores onde o bit for 1. Por exemplo o octeto 10110101: Você receberá 4 octetos que representam um endereço IP, sua função é converter os octetos da base binária para a decimal e em seguida imprimir o endereço na tela.",
+    "format_input": "4 linhas com os 8 bits referente a cada octeto do endereço IP.",
+    "format_output": "O endereço IP na base decimal.",
+    "topics": [
+        "decisão",
+        "recursão"
+    ]
+}

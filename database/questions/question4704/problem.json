@@ -1,0 +1,11 @@
+{
+    "title": "Q08 - Inversão de Strings",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente uma função chamada \"inverter_string\" que recebe uma string e retorna ela invertida.",
+    "format_input": "Uma string",
+    "format_output": "A string invertida",
+    "topics": [
+        "função",
+        "string"
+    ]
+}

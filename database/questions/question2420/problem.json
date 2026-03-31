@@ -1,0 +1,12 @@
+{
+    "title": "L1Q2 - Rodízio de Sushi",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O café da manhã no hotel estava muito fraco e, como o dia será longo, você e seus amigos decidem ir a um rodízio de sushi para almoçar. Chegando lá, percebes que só tem 4 opções de sushi que você gosta: Hossomaki, Futomaki, Nigirizushi e Temaki. Para poder dar conta das tarefas que lhe aguardam ao longo do dia, é preciso matar sua fome! E, para isso, você precisa criar um programa a fim de calcular o quanto de fome sua refeição abateu. Dado sua fome inicial, a cada quantidade de comida ingerida, uma certa quantia é subtraída de sua fome, seguindo a tabela abaixo (lembrando que os únicos sushis que subtraem de sua fome sāo os que você gosta, caso contrário, a comida será cuspida): Hossomaki: -3 de fome por unidade; Futomaki: -5 de fome por unidade; Nigirizushi: -7 de fome por unidade; Temaki: -10 de fome por unidade.",
+    "format_input": "A entrada é composta por 4 linhas. A primeira contém a fome inicial do estudante (F - número natural). As três linhas seguintes contêm, cada uma, o nome de um alimento (S - String) seguido pela quantidade ingerida (Q - número natural), representando S1 Q1, S2 Q2 e S3 Q3.",
+    "format_output": "A saída contém uma única linha, baseada na fome final do estudante: 'Nossa, o Japao e um otimo lugar para comer, vou dar conta do recado!' (caso a fome seja igual ou inferior a zero); 'Estou satisfeito mas nao sei se darei conta do recado' (caso a fome seja maior do que zero mas inferior ou igual a dez); 'Uma feijoada seria bem melhor... Estou me sentindo fraco' (caso a fome seja superior a dez).",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "string"
+    ]
+}

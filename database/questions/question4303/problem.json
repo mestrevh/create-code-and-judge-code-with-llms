@@ -1,0 +1,11 @@
+{
+    "title": "Cadeia de Snappers",
+    "time_limit": "20 segundo(s)",
+    "descrition": "O Snapper é um pequeno dispositivo inteligente que, de um lado, conecta seu plugue de entrada em um soquete de saída e, do outro lado, expõe um soquete de saída para conectar uma luz ou outro dispositivo. Quando um Snapper está no estado ON e recebendo energia de seu plugue de entrada, o dispositivo conectado ao seu soquete de saída também está recebendo energia. Quando você estala os dedos - fazendo um som de clique - qualquer Snapper recebendo energia no momento do estalo alterna entre os estados ON e OFF. Na esperança de destruir o universo por meio de uma singularidade, comprei dispositivos N Snapper e os encadeei conectando o primeiro a uma tomada, o segundo ao primeiro e assim por diante. A luz está conectada ao Nth Snapper. Inicialmente, todos os Snappers estão no estado OFF, então apenas o primeiro está recebendo energia da tomada e a luz está apagada. Eu estalo meus dedos uma vez, o que alterna o primeiro Snapper para o estado ON e dá energia ao segundo. Eu estalo meus dedos novamente, o que alterna os dois Snappers e, em seguida, imediatamente desliga o segundo, deixando-o no estado LIGADO, mas sem energia. Eu estalo meus dedos pela terceira vez, o que alterna o primeiro Snapper novamente e dá força ao segundo. Agora os dois Snappers estão no estado ON e, se minha luz estiver conectada ao segundo Snapper, ela estará acesa. Eu continuo fazendo isso por horas. A luz ficará acesa ou apagada depois que eu estalar os dedos K vezes? A luz está acesa se e somente se estiver recebendo energia do Snapper ao qual está conectada.",
+    "format_input": "A primeira linha da entrada fornece o número de casos de teste, T. As linhas T seguem. Cada um contém dois inteiros, N e K.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo \"Case #x: y\", onde x é o número do caso (começando em 1) e y é \"ON\" ou \"OFF\", indicando o estado da lâmpada.",
+    "topics": [
+        "array",
+        "decisão"
+    ]
+}

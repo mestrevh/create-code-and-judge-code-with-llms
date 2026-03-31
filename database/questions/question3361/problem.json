@@ -1,0 +1,10 @@
+{
+    "title": "Contar pulando múltiplos",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Sempre que Mariana faz alguma trela a professora a coloca de castigo, obrigando-a a escrever centenas de números. Para se distrair um pouco durante o castigo, a Mariana inventou uma pequena brincadeira: quando vai escrever os números, ela pula todos os múltiplos de 10. Escreva um programa que reproduza esse comportamento de Mariana.",
+    "format_input": "Um número inteiro positivo N",
+    "format_output": "Os números inteiros de 1 a N, incluindo o N. Os números que são múltiplos de 10 não devem ser impressos. Cada número deve estar em uma linha.",
+    "topics": [
+        "repetição"
+    ]
+}

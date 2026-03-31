@@ -1,0 +1,10 @@
+{
+    "title": "Múltiplos de 2 e 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça uma função que carregue uma lista com sete números inteiros,calcule e mostre:- Os números múltiplos de 2- Os números múltiplos de 3- Os números múltiplos de 2 e 3.",
+    "format_input": "2,3,12,18,9,4,10",
+    "format_output": "[2,4,10,12,18] [3,9,12,18] [12,18]",
+    "topics": [
+        "função"
+    ]
+}

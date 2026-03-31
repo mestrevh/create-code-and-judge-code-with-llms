@@ -1,0 +1,10 @@
+{
+    "title": "Área da Circunferência",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Calcular a área de uma circunferência de raio r. Comprimento do raio = r Área da circunferência = area Aproximação do PI: 4 casas decimais.",
+    "format_input": "Comprimento do raio = r",
+    "format_output": "Área da circunferência = area",
+    "topics": [
+        "geometria computacional"
+    ]
+}

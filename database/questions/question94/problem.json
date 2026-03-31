@@ -1,0 +1,11 @@
+{
+    "title": "Análise Criptográfica",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Análise Criptográfica é o processo de quebrar a criptografia de alguém. Isto algumas vezes envolve algum tipo de análise estatística de passagem do texto(encriptografado). Sua tarefa é escrever um programa o qual execute uma análise simples em um dado texto.",
+    "format_input": "A primeira linha de entrada contém um inteiro positivo n. Este é o número de linhas que se seguem na entrada. As próximas n linhas conterão zero ou mais caracteres(possivelmente incluindo espaço em branco). Este é o texto que deve ser analisado. A entrada para quando n = 0.",
+    "format_output": "Para cada caso de teste escreva uma linha contendo TESTE i, onde i representa o número do caso de teste, começando de 1. Após isso, cada linha de saída conterá uma única letra maiúscula, seguida por um espaço em branco e logo após por um inteiro positivo. Este inteiro indica quantas vezes a letra correspondente aparece no texto de entrada. Letras minúsculas e maiúsculas na entrada são consideradas iguais. Nenhum outro caractere deve ser contado. A saída deve ser ordenada em ordem descendente de contagem, isto é, a letra mais freqüente está na primeira linha, e a última linha de saída indica a letra menos frequente. Se duas letras possuem a mesma freqüência, então aquela que vem primeiro no alfabeto deve aparecer primeiro na saída. Se uma letra não aparece no texto, então a letra não deve aparecer na saída.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador"
+    ]
+}

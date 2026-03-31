@@ -1,0 +1,11 @@
+{
+    "title": "Mais outra de matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Arthur está no ensino médio e tem preguiça de fazer o livro de exercícios, ele espera que você desenvolva um programa para ajudá-lo a calcular a transposta de uma matriz e a soma dos valores acima ou abaixo da diagonal principal. Você vai receber o tamanho de uma matriz QUADRADA (números de linhas é o mesmo que o de colunas) e em seguida os valores dessa matriz. Após isso as questões do livro solicitam que você faça a transposta dessa matriz e você vai receber uma letra, \"C\" (cima) ou \"B\" (baixo) que representa os valores que serão utilizados para calcular o resultado desejado. Esse resultado desejado também será dado na entrada e você deve comparar se a soma dos valores acima ou abaixo (depende da letra recebida) da diagonal principal são iguais ao resultado desejado. Exemplo para representar os elementos acima da diagonal usaremos C, e abaixo usaremos B e a diagonal X. X C C B X C B B X Já abaixo podemos ver uma matriz sendo transposta.",
+    "format_input": "Você receberá: Um caractere \"C\" ou \"B\" Um número que corresponde ao número de linhas e colunas da matriz Os valores da matriz O resultado desejado",
+    "format_output": "Você imprimirá: Matriz transposta sem espaço no final das linhas \"S\" caso o resultado desejado seja igual a soma dos valores acima ou abaixo da diagonal principal \"N\" caso o resultado desejado seja diferente da soma dos valores acima ou abaixo da diagonal principal",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

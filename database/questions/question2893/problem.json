@@ -1,0 +1,10 @@
+{
+    "title": "Amostragem de sinal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em processamento de sinais, amostragem é a transformação de um sinal contínuo em um sinal discreto. Um exemplo comum é a conversão de uma onda sonora (sinal contínuo) para uma sequência de amostras (valores medidos em um conjunto finito de instantes de tempo). Amostragem pode ser definida como o processo de medição instantânea de valores de um sinal analógico em intervalos regulares. O intervalo entre as amostras é determinado por um pulso de sincronismo e a sua freqüência é chamada de taxa de amostragem. Faça um programa em Octave para criar dois gráficos na mesma janela da função f(x)=sen(x + 0.5) no intervalo x = [-5, 5] com passo igual a 0.5. O primeiro gráfico representará o sinal contínuo e deve ser plotado em linha tracejada azul. O segundo gráfico representará o sinal amostrado e deve ser plotado em linha tracejada magenta com marcadores na forma de quadrado. Insira os rótulos do eixos x e y, e o título do gráfico. Utilize a função plot para plotar o sinal contínuo e a função stem para plotar o sinal amostrado. Para plotar dois gráficos diferentes na mesma janela, utilize o comando hold, conforme exemplo a seguir: plot(x1,y1) hold barh(x2, y2) Faça o programa diretamente no Octave para conseguir visualizar os gráficos, de modo que o programa no The Huxley deve mostrar apenas os valores do vetor fx.",
+    "format_input": "Não há entradas.",
+    "format_output": "O programa no The Huxley deve mostrar apenas os valores calculados de f(x), conforme abaixo: fx = n n n n n n n",
+    "topics": [
+        "array"
+    ]
+}

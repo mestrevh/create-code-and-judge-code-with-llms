@@ -1,0 +1,10 @@
+{
+    "title": "Entrada e resposta explicadinha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você deve escrever um programa que leia dois inteiros (lado a lado) e imprima na tela o resultado da sua divisão, seguindo o padrão de saída especificado.",
+    "format_input": "Dois inteiros na mesma linha, separados por espaço",
+    "format_output": "Você imprimir a seguinte frase, substituindo no lugar de x1 o primeiro inteiro lido, no lugar de x2 o segundo inteiro lido e no lugar de div o valor da divisão desses dois valores.",
+    "topics": [
+        "entrada formatada"
+    ]
+}

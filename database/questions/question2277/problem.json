@@ -1,0 +1,11 @@
+{
+    "title": "L3Q7 - Perseguição",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Naruto está perseguindo uma fileira de inimigos e aliados (misturados), que estão amarrados uns aos outros (uma pessoa está amarrada a TODAS as outras na fila). Ele quer cortar a fila em dois pontos de forma a dar a ele a maior vantagem possível de combate, para isso ele considera o poder de combate dos aliados como positivo e dos inimigos como negativo. Obs1: Como Naruto quer chegar sem ser percebido ele dará prioridade às posições mais próximas do fim da fileira. Obs2: É garantido que haverá pelo menos uma pessoa na fileira. Obs3: Não haverão pessoas com poder de combate nulo.",
+    "format_input": "N - Inteiro que representa quantas pessoas estão amarradas na corda. Seguido por N linhas contendo um inteiro não nulo P que indica o poder de combate de cada pessoa (negativo se for inimigo, positivo se for aliado).",
+    "format_output": "S - String que indica que atitude Naruto deve tomar, sendo da forma: 'E uma armadilha' (Caso todos sejam inimigos); ou 'Naruto deve libertar somente a posicao X' (Caso Naruto deva libertar somente uma posição); ou 'Naruto deve libertar da posicao X ate a posicao Y' (Caso ele deva libertar um intervalo, com X e Y podendo variar de 1 a N).",
+    "topics": [
+        "array",
+        "subconjuntos"
+    ]
+}

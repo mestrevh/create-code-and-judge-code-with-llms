@@ -1,0 +1,11 @@
+{
+    "title": "Permutador de Trem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em uma antiga estação ferroviária, você ainda pode encontrar um dos últimos remanescentes ``Permutador de Trem ''. Um manobrista de trem é um empregado da estrada de ferro, cujo único trabalho é reorganizar as carruagens dos comboios. Uma vez que as carruagens são dispostas na ordem ideal, todo maquinista do comboio tem que retirar as carruagens, uma a uma, até as estações que a carga se destina. O título ``permutador de trem '' deriva da primeira pessoa que realizou essa tarefa, em um posto perto de uma ponte ferroviária. Em vez de abertura vertical, a ponte fica girando em torno de um pilar no centro do rio. Depois de girar a ponte de 90 graus, os barcos poderiam passar para a esquerda ou direita. O primeiro permutador de trem descobriu que a ponte poderia ser operada com, no máximo, duas carruagens nela. Ao girar a ponte de 180 graus, as carruagens trocavam de posição , permitindo-lhe reorganizar os carros (como um efeito colateral , as carruagens , ficam na direção oposta, mas vagões podem mover-se para qualquer direção, então isso realmente não importa). Agora que quase todos os permutadores de trem morreram, a empresa ferroviária gostaria de automatizar sua operação. Parte do programa a ser desenvolvido, é uma rotina que decide por um determinado trem o menor número de trocas de duas carruagens adjacentes necessárias para ordenar o trem. Sua tarefa é criar essa rotina. Lembre-se, a rotina usa uma lógica computacional, por isso, seguirá uma lógica de algoritmos de ordenação com função de troca dois a dois, causando um número maior de trocas do que aconteceria numa lógica normal.",
+    "format_input": "A entrada consiste em duas linhas de entrada. A primeira linha de um caso de teste contém um L inteiro, a determinação do comprimento do comboio 0 < L <= 50. A segunda linha de um caso de teste contém as permutações dos números de 1 a L, que indica a ordem atual dos vagões. Os vagões devem ser ordenados de tal forma que o vagão 1 vem em primeiro lugar, depois 2, etc, com o vagão L por ultimo.",
+    "format_output": "Para cada caso de teste de saída a frase: \"A melhor troca leva S passos\" (sem as aspas), em que S é um número inteiro, seguido de uma quebra de linha.",
+    "topics": [
+        "array",
+        "acumulador"
+    ]
+}

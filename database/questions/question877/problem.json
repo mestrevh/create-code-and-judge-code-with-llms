@@ -1,0 +1,8 @@
+{
+    "title": "Quadrado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que lê o tamanho do lado de um quadrado e imprime um quadrado do mesmo tamanho com asteriscos e espaços em branco. Seu programa deve funcionar para quadrados com lados de todos os tamanhos com valores de 2 até 10. Caso o usuário digite um valor inválido, imprimir a mensagem Entrada Invalida! O programa termina com a mensagem FIM! Sem quebra de linha. CASOS DE TESTE 4 **** *  * *  * **** FIM! === 2 ** ** FIM! === 21 Entrada Invalida! FIM! === -1 Entrada Invalida! FIM!",
+    "format_input": "Um valor inteiro, com intervalo válido de 2 até 10, representando o tamanho do quadrado.",
+    "format_output": "Um quadrado desenhado com asterisco e espaço em branco. Caso o usuário digite um valor inválido, imprimir a mensagem Entrada Invalida! O programa termina com a mensagem FIM! Sem quebra de linha.",
+    "topics": []
+}

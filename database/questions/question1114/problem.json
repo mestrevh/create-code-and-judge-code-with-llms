@@ -1,0 +1,12 @@
+{
+    "title": "Cálculo de Série",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Calcule o valor dos N elementos para a série S abaixo: S = 1 + 2/3 + 3/4 + 8/6 + 5/16 + 32/9 + 7/64 + ...",
+    "format_input": "Um número inteiro não-negativo",
+    "format_output": "Um número em ponto flutuante não-negativo",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Macarronada",
+    "time_limit": "3 segundo(s)",
+    "descrition": "A tia de lucas estava fazendo uma macarronada quando de repente deixou cair o macarrão no chão, para não jogar no lixo lucas pegou o macarrão para fazer esculturas de macarrão. Lucas precisa de triângulos para fazer sua construção. Na queda algum dos pedaços de macarrão se partiram e lucas quer saber com quais pedaços de macarrão ele pode fazer triângulos. Escreva um programa que dada as coordenadas de três pedaços de macarrão diga se lucas pode fazer um triângulo com eles.",
+    "format_input": "A primeira linha contém um inteiro N que indica o número de casos de teste. Para cada caso de teste haverão três linhas, cada qual com quatro números inteiros Xi, Yi, Xf, Yf representando as coordenadas dos pontos que definem o macarrão no chão.",
+    "format_output": "Para cada caso de teste escreva SIM se lucas puder fazer um triângulo ou NAO em caso contrário",
+    "topics": [
+        "geometria computacional"
+    ]
+}

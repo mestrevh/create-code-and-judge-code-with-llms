@@ -1,0 +1,10 @@
+{
+    "title": "Contando dígitos primos para Entidade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade encontrou, na casa de seu avô, um baú com fotos recortadas de vários números grandes, ela ficou fascinada por todos aqueles números e até se esqueceu de perguntar o motivo deles para seu avô. Ela está planejando em colocá-los na parede de seu quarto, mas antes de escolher, ela gostaria de saber quantos dígitos primos existem em cada número. Então, faça um programa que conte quantos dígitos primos existem em cada número.",
+    "format_input": "A entrada terá número N, representando a quantidade de números que a Entidade pedirá para contar a quantidade de dígitos primos. Em seguida, terão N linhas, onde cada linha terá um inteiro X, o número que deve ser contada a quantidade de dígitos primos.",
+    "format_output": "Para cada número X, a saída deverá conter a quantidade de dígitos primos (k) que o número X contém. Respeitando a seguinte formatação: Prime digits k (para cada X)",
+    "topics": [
+        "repetição"
+    ]
+}

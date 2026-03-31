@@ -1,0 +1,10 @@
+{
+    "title": "Intervalo entre 10 e 100",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa para ler 5 números e ao final informar quantos números estão no intervalo entre 10 (inclusive) e 100 (inclusive).",
+    "format_input": "Informar 5 números, onde entre cada número deve ser digitado enter",
+    "format_output": "4",
+    "topics": [
+        "estruturas"
+    ]
+}

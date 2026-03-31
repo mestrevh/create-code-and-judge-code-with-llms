@@ -1,0 +1,11 @@
+{
+    "title": "Do you like trees?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você recebe uma árvore com n nós e n - 1 arestas. Seja i e j dois nós distintos da árvore no qual j > i e uma função f, vamos definir f(i, j) como: se dist(i, j) == d, logo f(i, j) = 0. se dist(i, j) < d, logo f(i, j) = dist(i, j). Na qual dist(i, j) denota a distância entre os nós i e j. Além disso, d denota o diametro da árvore (o comprimento do caminho mais longo entre quaisquer dois nós na árvore). Sabendo disso, a sua missão é calcular a soma de todos os f(i, j) para todos os pares de nós (i, j) nos quais j > i. OBS: É garantido que o diametro da árvore será <= 500.",
+    "format_input": "Inicialmente irá ter um inteiro (2 <= n <= 100000) indicando a quantidade de nós da árvore. Em seguida virão n - 1 linhas, para cada linha terão 2 inteiros (1 <= a, b <= n) indicando uma aresta existente nessa árvore.",
+    "format_output": "Imprima um único inteiro equivalente a soma de todos os f(i, j) para todos os pares de nós (i, j) com j > i.",
+    "topics": [
+        "Árvore",
+        "programação dinâmica"
+    ]
+}

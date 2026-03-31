@@ -1,0 +1,8 @@
+{
+    "title": "Quase Primos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um número inteiro positivo é primo se ele possui exatamente dois divisores: 1 e ele mesmo. Um número que possui exatamente 3 divisores é um “quase primo”. Dado um inteiro positivo, determine se ele é quase primo ou não.",
+    "format_input": "None",
+    "format_output": "None",
+    "topics": []
+}

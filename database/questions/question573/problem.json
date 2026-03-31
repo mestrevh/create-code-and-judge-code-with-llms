@@ -1,0 +1,11 @@
+{
+    "title": "Calculadora de imposto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma empresa de importação de produtos eletrônicos em parceria com o CIn deseja fazer um programa que calcule o valor final do produto e discrimine na nota fiscal quanto o cliente pagou em impostos (Imposto de importação e ICMS), frete e total a pagar. Segue algumas informações que você precisará saber para resolver essa questão: A taxa de importação para eletrônicos é de 60%; O calculo do ICMS é dado pela formula: (Valor Final do produto x Aliquota); O valor final do produto é dado pela soma do (Valor do Produto + Frete + Impostos de Importação) / (1 - Aliquota); O operador do programa fornecerá apenas 4 valores: Cotação do Dolar; Valor do produto, em dolares; Valor do frete; Aliquota do ICMS; A empresa tem a cultura de não adicionar o frete no calculo, para valores acima de US$ 2,500. Informe isso ao fim da nota. Obs.: Use a função round, para informar o valor com apenas duas casas decimais.",
+    "format_input": "A entrada consiste em quatro valores: cotação do dólar, alíquota do ICMS (em porcentagem), valor do produto (em dólares) e valor do frete.",
+    "format_output": "A saída deve apresentar os valores calculados para a nota fiscal em reais: taxa de conversão, valor do produto, valor do frete, valor total (soma do produto e frete), imposto de importação, ICMS, total de impostos e o valor total a pagar. Por fim, deve indicar se os impostos foram calculados com ou sem o frete.",
+    "topics": [
+        "decisão",
+        "estruturas"
+    ]
+}

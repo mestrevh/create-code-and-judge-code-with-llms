@@ -1,0 +1,13 @@
+{
+    "title": "compra/venda de ações",
+    "time_limit": "5 segundo(s)",
+    "descrition": "A mulher mais rica do Brasil, lhe contratou para fazer uma aplicação que irá ajudar sua equipe de investidores. A aplicação será responsável por dar uma das informações necessárias para a equipe decidir se irá comprar ou vender uma ação. Para isso, sua aplicação deve ser dividida em duas partes. A primeira é o cadastro das ações sendo que o usuário pode cadastrar quantas ações quiser, terminando o cadastro quando informar “FIM” no código da ação. Uma ação é composta pelos seguintes dados: Código da ação (alfanumérico), Descrição (texto livre), Valor da compra (apenas números), histórico de valores (contém até os últimos 10 valores de compra) e a quantidade (quantidade de ações/cotas compradas). A segunda parte da aplicação consiste em responder ao usuário se ele deve comprar ou vender a ação, para isso, a aplicação deve receber como entrada o código da ação e o valor atual. A aplicação deve adicionar o valor no histórico e com base nas regras a seguir dizer se o usuário deve comprar ou vender a ação: 1 - se o valor da ação é maior ou menor igual que a média do histórico de valores 2 - se a ação é maior ou menor igual que o valor anterior. Se o valor da ação atual for maior que a média ou maior que a anterior a aplicação deve sugerir a VENDA, caso contrário a COMPRA. A segunda parte também deve encerrar quando o usuário digitar “FIM” no código da ação.",
+    "format_input": "MGLU3 Magazine Luiza 19.75 50 PETR3 Petrobras 22.89 100 fim MGLU3 18.00 PETR3 22.00 MGLU3 18.01 PETR3 21.97 fim",
+    "format_output": "Compra Compra Venda Compra",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "repetição",
+        "dicionário"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Passeio de Jipeiros",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Para promover o Rally de Longa Distância Brasileiro, a confederação resolveu organizar um passeio pelo Brasil. Eles definiram uma cidade de origem e uma cidade destino. Entre uma cidade e outra, eles sempre percorrem rodovias e nas rodovias poucas pessoas veem o passeio, removendo a efetividade do passeio que tem o fim de promoção. Mas ao chegar nas cidades, eles querem ser vistos pelas pessoas, não importando a distância percorrida. Como as duas cidades geralmente ficam muito distante uma da outra, eles querem minimizar a distância percorrida nas rodovias. Nesse caso, importa apenas as distâncias das rodovias, ou seja, não importam as distâncias entre os locais dentro das cidades. Porém, uma vez definida a rota, ou seja, uma vez definida quais as cidades serão visitadas entre a cidade de origem e destino, a organização ainda terá outro problema. Eles querem levar o maior número de jipeiros possível para o passeio, mas as estradas possuem uma capacidade máxima de jipes simultâneos. A organização precisa descobrir qual o número máximo de jipeiros poderá participar do passeio dentro da rota escolhida.",
+    "format_input": "n: número total de locais dentro de todas as cidades ( 1 <= n <= 5000 ) k: número de cidades ( 1 <= k <= 100) k linhas, onde cada linha contém os locais de cada cidade, identificados por 0 a n-1 m: número de estradas (1 <= m <= 100000) m linhas indicando uma estrada, onde cada estrada é representada pelos inteiros u v c d: u: local de origem v: local de destino c: capacidade máxima de jipes da estrada ( 1 <= c <= 200) d: distância entre u e v ( 1 <= d <= 10). Como a distância entre dois locais da mesma cidade não importa, será utilizado o valor 0. A distância entre as duas cidades A e B será sempre igual, não importa o local de origem em A e nem o local de destino em B. Uma linha contendo s e t, sendo respectivamente o local de origem e o local de destino. Sempre será possível encontrar um caminho entre s e t.",
+    "format_output": "Dois inteiros, um em cada linha indicando o custo da menor rota escolhida e o número máximo de jipeiros que poderão participar do passeio dentro da rota escolhida.",
+    "topics": [
+        "fluxo máximo",
+        "grafo",
+        "dijkstra"
+    ]
+}

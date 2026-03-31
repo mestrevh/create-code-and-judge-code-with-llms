@@ -1,0 +1,11 @@
+{
+    "title": "Somando Valores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Willy está com um sério problema em somar uma determinada quantidade de números, então ele pediu sua ajuda para resolver esse pequeno problema, então dado N números inteiros você deve dizer qual é a soma de todos eles.",
+    "format_input": "Uma linha contendo um inteiro N seguida por N linhas contendo um inteiro cada",
+    "format_output": "Um único inteiro contendo a soma de todos os N números dados",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

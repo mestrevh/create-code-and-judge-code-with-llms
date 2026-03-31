@@ -1,0 +1,11 @@
+{
+    "title": "Somas sucessivas como multiplicação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A multiplicação de dois números inteiros pode ser feita através de somas sucessivas. Proponha um algoritmo recursivo que calcule a multiplicação de dois inteiros. Você só poderá usar o operador soma.",
+    "format_input": "Dois números inteiros.",
+    "format_output": "Um número inteiro representando a soma sucessiva.",
+    "topics": [
+        "acumulador",
+        "função"
+    ]
+}

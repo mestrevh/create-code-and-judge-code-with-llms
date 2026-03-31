@@ -1,0 +1,10 @@
+{
+    "title": "L2Q2 - Hora da caçada",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Como parte do exame para se tornarem caçadores Gon e Killua foram trancados em uma torre e desafiados por vários grupos consecutivos de coadjuvantes, e tinham como objetivo derrotar todos esses grupos para poderem seguir para a próxima fase do exame. Não se preocupando com o resultado do desafio por saber que eram os personagens principais e não tinham chance de perder, Gon estava com sua atenção completamente destinada ao número de pessoas em cada grupo. O seu objetivo com isso era poder, ao final do desafio poder calcular quantas pessoas tinham em média por grupo e quantos desafiantes ele teria que ter derrotado no mínimo para que ele tivesse derrotado mais do que o seu amigo Killua. Seu trabalho é, dados os números de integrantes em cada grupo desafiante, calcular essas informações para o Gon. Dica: Você pode utilizar o método hasNext() da classe Scanner para validar se ainda há coisas para serem lidas. https://www.tutorialspoint.com/java/util/scanner_hasnext.htm",
+    "format_input": "N1 N2 N3 Nn Ni - Inteiro. A entrada será composta por várias linhas representando quantas pessoas tinham em cada grupo",
+    "format_output": "M V M - Double V - Inteiro. A saída deverá consistir de 2 linhas, a primeira deverá informar quantas pessoas tinham por grupo em média (com 2 casas decimais) e a segunda quantas pessoas o Gon teria que ter derrotado para ganhar do Killua em sua contagem pessoal.",
+    "topics": [
+        "repetição"
+    ]
+}

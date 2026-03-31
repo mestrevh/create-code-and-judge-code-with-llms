@@ -1,0 +1,10 @@
+{
+    "title": "Cálculo da Idade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa para calcular a idade de uma pessoa.",
+    "format_input": "A entrada é composta por dois números do tipo inteiro representando respectivamente o ano em que a pessoa nasceu e o ano atual.",
+    "format_output": "O programa deve devolver um número do tipo inteiro correspondente a idade de uma pessoa, seguido de um final de linha.",
+    "topics": [
+        "obi"
+    ]
+}

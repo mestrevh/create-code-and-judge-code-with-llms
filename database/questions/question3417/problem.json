@@ -1,0 +1,10 @@
+{
+    "title": "10 Números do Tio Willy sem array",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Determinar em um conjuto de 1000 números inteiros, quantas vezes aparece o número N. Leia um número N e uma sequência de 1000 inteiros. O programa deve ler outra sequencia de 1000 números inteiros enquanto N for diferente de -1. O programa deve parar quando o número N digitado for igual a -1.",
+    "format_input": "N - Número a ser contado/procurado. Lista de 1000 números.",
+    "format_output": "Para cada conjunto de 1000 números inteiros, imprimir a frase: N appeared K times",
+    "topics": [
+        "repetição"
+    ]
+}

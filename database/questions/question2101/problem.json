@@ -1,0 +1,10 @@
+{
+    "title": "L4Q4 - Reconstruindo a comunicação",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Após algumas guerras contra o império, o sistema de comunicação dos rebeldes foi totalmente invadido. Para resolver esse problema, você foi chamado para criar um gerador que execute uma sequência de comandos e diz a frequência de rádio que deve ser utilizada na comunicação dos rebeldes. Para simplificar, só existem dois comandos implementados: \"ataque A B\" - Troca o conteúdo da linha A pelo conteúdo da linha B. \"defesa A B\" - Troca o conteúdo da coluna A pelo conteúdo da coluna B.",
+    "format_input": "A primeira linha é composta por 2 números inteiros N e M, separados por espaço, referentes ao número de linhas e ao número de colunas respectivamente. A próxima linha é composta por um número inteiro K referente ao número de comandos executados. Cada uma das próximas N linhas é composta por M inteiros separados por espaços. Essas linhas representam os valores da matriz. As próximas K linhas são compostas por comandos, de acordo com a descrição, no qual A e B representam dois números inteiros. A última linha é composta por dois inteiros I e J, que representam a posição (índices da matriz) da frequência que deve ser escolhida pelos rebeldes. OBS: É garantido que só haverão comandos do tipo \"ataque\" e \"defesa\".",
+    "format_output": "A saída é composta por apenas um inteiro, que representa a frequência que deve ser utilizada pelos rebeldes.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

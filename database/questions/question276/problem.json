@@ -1,0 +1,10 @@
+{
+    "title": "Padrões de soma.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Conta-se que um professor de matemática mandou aos alunos de sua turma que somassem um intervalo de números de n0 a n como forma de castigo. Um aluno resolveu muito rápido, antes mesmo que o professor saísse da sala de aula. Agora sua missão é fazer um programa que simule o que este aluno fez, somar um intervalo, fechado, de números de n0 até n.",
+    "format_input": "Sua entrada recebe dois números de inteiros: n0 e n. Considere que: 1 <= n0, n1 <= 100000000000; n0 % 2 == 1; n % 2 == 0",
+    "format_output": "Sua saída produz a soma do intervalo de números de n0.",
+    "topics": [
+        "requer solução eficiente"
+    ]
+}

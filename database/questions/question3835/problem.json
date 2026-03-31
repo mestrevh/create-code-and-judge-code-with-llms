@@ -1,0 +1,11 @@
+{
+    "title": "O Campeonato de Vôlei do CIn",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Centro de Informática da UFPE organizou um campeonato de vôlei de praia para comemorar a volta das atividades presenciais! No vôlei de praia, cada equipe é composta por 2 jogadores, de sexos iguais ou diferentes. Os competidores inscritos, então, devem selecionar suas duplas para participar do evento. Os alunos que irão competir são Alan, Bianca, Carlos, Daniela, Erasmo, Fernanda, Gabriel e Helen que serão representados apenas pela letra inicial de seus nomes. Essas são as suas condições: - Alan só aceita jogar com alguém do sexo feminino. - Bianca não aceita jogar com Alan nem com Daniela. - Se Gabriel jogar com Helen, Daniela precisa jogar com Carlos. - Helen só joga com Gabriel ou Fernanda. - Se Carlos jogar com Erasmo, Fernanda jogará com Alan. Se Carlos jogar com qualquer outra pessoa, Fernanda não jogará com Alan.",
+    "format_input": "A entrada consistirá em 8 inteiros seguidos, designando os times dos alunos em ordem alfabética: A (Alan), B (Bianca), C (Carlos), D (Daniela), E (Erasmo), F (Fernanda), G (Gabriel) e H (Helen). Exemplo: 1 (Alan) 2 (Bianca) 1 (Carlos) 2 (Daniela) 3 (Erasmo) 3 (Fernanda) 4 (Gabriel) 4 (Helen) Dessa forma, Alan e Carlos formam o time 1, Bianca e Daniela formam o time 2, Erasmo e Fernanda formam o time 3 e Gabriel e Helen formam o time 4.",
+    "format_output": "Há duas saídas possíveis para o programa. Caso as condições tenham sido cumpridas, o programa imprimirá \"Conseguimos times suficientes!\". Caso alguma condição tenha sido violada, o programa imprimirá \"Alguem nao esta satisfeito...\". Ambos os casos são seguidos por quebra de linha.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

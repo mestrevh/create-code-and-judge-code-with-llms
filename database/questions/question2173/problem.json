@@ -1,0 +1,11 @@
+{
+    "title": "P3Q2 - Cadastro de partidas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os juízes da corrida subterrânea gostariam de melhorar o sistema que utilizam, criando um repositório, que deve ser implementado com Listas Encadeadas, permitindo cadastrar o nome da toupeira toda vez que ela competir. Assim, o nome de uma toupeira pode aparecer diversas vezes na base de dados. O objetivo é descobrir quantas vezes uma toupeira participou da competição.",
+    "format_input": "A primeira linha contém um inteiro N com o número de partidas ocorridas no dia. A segunda linha contém N strings com o nome de uma toupeira, indicando que ela está competindo nessa partida. A terceira linha é composta de uma única string, referente ao nome da toupeira que deverá ser consultada.",
+    "format_output": "A saída é composta por um único inteiro, representando a quantidade de vezes que a toupeira informada participou da competição.",
+    "topics": [
+        "estrutura de dados",
+        "acumulador"
+    ]
+}

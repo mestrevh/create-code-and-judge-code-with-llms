@@ -1,0 +1,11 @@
+{
+    "title": "A Saga do Protagonista: Parte Final",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Na última tarde qualquer, Protagonista e Z, o seu melhor amigo, irão jogar mais um jogo divertido! Nesse jogo, Z criou um array a contendo n inteiros e em seguida fez a seguinte pergunta para o protagonista: Qual o maior valor que você pode obter escolhendo três índices distintos i, j, k, com j > i e k > j, para a expressão (a[i] + a[j] - a[k])? Além disso, antes de escolher os três índices para realizar o cálculo, o Protagonista pode realizar no máximo um movimento do tipo: Selecione dois índices i e j, com j > i e atribua a[i] = a[j]. Note que também é perfeitamente válido que o protagonista não realize nenhum movimento. Sabendo disso, o Protagonista pediu a sua ajuda para que você o diga-o qual o maior valor que ele pode obter nesse jogo.",
+    "format_input": "Primeiramente terá um inteiro (3 <= n <= 20) indicando o tamanho do array. Na próxima linha terão n inteiros equivalentes ao array escolhido por Z (-100 <= a[i] <= 100).",
+    "format_output": "Você deve imprimir um único número inteiro indicando qual o maior valor que o Protagonista pode obter.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

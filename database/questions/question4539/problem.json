@@ -1,0 +1,11 @@
+{
+    "title": "Ekul e o campo de flores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ekul é um pequeno e corajoso cachorro que decidiu partir em aventuras pelo mundo. Na mais recente aventura de Ekul ele decidiu ir em busca de uma flor muito especial para ele em um campo de flores. Ekul é um cachorro muito preguiçoso, e só sairá de casa em busca da flor se sua disposição for maior ou igual a 70. O valor da disposição é um inteiro calculado a partir da quantidade de tempo de sono de Ekul, sendo essas grandezas diretamente proporcionais na razão de 2/19. EX: 4 horas de tempo de sono são equivalentes a 38 de disposição. Caso saia, a chance de Ekul encontrar a flor será determinada por 4 valores fornecidos: A estação do ano, o clima no momento, o horário no momento e a quantidade de tempo de sono de Ekul, de acordo com a seguinte equação: CHANCE = ESTAÇÃO + (HORARIO EM HORAS % CLIMA) * TEMPO DE SONO O valor do clima na equação será 7 caso o clima esteja ensolarado, 5 caso seja chuvoso e 3 caso seja nublado; A chance da flor nascer em determinada estação do ano é obtida multiplicando o valor da estação por 3, e Ekul só poderá encontrar a flor caso a chance de encontra-la seja maior ou igual à chance de ela nascer naquela estação. Dadas as informações do dia em que Ekul iria ao campo procurar a flor, informe se ele saiu de casa e se conseguiu. OBS1: O HORÁRIO SERÁ DADO EM MINUTOS. OBS2: CASO O VALOR DAS CHANCES EXCEDA 100%, INFORME 100%.",
+    "format_input": "Uma linha com 2 inteiros, representando o horário e a quantidade de horas de sono Uma linha com 2 caracteres, representando a estação do ano (I, V, P ou O) e o clima (E, N, C) Uma linha com 4 inteiros, atribuindo valores respectivamente às estações \"Inverno\", \"Verão\", \"Primavera\" e \"Outono\"",
+    "format_output": "A porcentagem de chance de encontrar a flor, seguida de uma das seguintes linhas de texto: \"Ekul nao acordou disposto hoje :(\", caso ele não vá em busca da flor. \"Ekul possui chances de encontrar a flor :)\", caso ele vá e consiga encontrar a flor; \"Ekul nao possui chances de encontrar a flor :(\", caso ele vá e não consiga encontrar a flor.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Bebeka e o Mapa para Casa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após uma noite particularmente animada, Bebeka, amiga tranquila de Rebeka, pegou carona para voltar para casa. Para ajudar o motorista a chegar lá, ela pediu sua ajuda para desenhar um mapa que mostre o caminho a ser seguido.",
+    "format_input": "Você deverá ler a direção e a distância (inteira) pela qual o carro deve seguir naquela direção até Bebeka chegar em casa. Direções: d: direita e: esquerda f: frente Bebeka chegará em casa quando a entrada for 'x'. Obs: Considere que Bebeka inicialmente se encontra a 10km do lado esquerdo do mapa, e nenhuma direção irá ultrapassar esse limite à esquerda, que deverá ser representado por um ponto \".\"",
+    "format_output": "-> para cada km que o carro deve seguir a direita <- para cada km que o carro deve seguir a esquerda | para cada km que o carro deve seguir em frente",
+    "topics": [
+        "ciclos"
+    ]
+}

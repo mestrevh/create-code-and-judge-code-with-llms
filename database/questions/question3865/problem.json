@@ -1,0 +1,12 @@
+{
+    "title": "Sherlirow quer dormir",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Semanas atrás, o extremamente renomado Sherlirow recebeu um convite para participar de um evento. Neste evento ocorre um jogo de tabuleiro um tanto quanto único. Primeiramente, é enunciada a quantidade de coordenadas e o tamanho do tabuleiro que será usado. Logo em seguida, os jogadores, divididos em 4 times, enumerados de 1 a 4, correm até o tabuleiro. Chegando lá, o quadrado que eles ocupam passa a ser do seu time. Quando todos os quadrados são preenchidos, Sherlirow revela as coordenadas para todos e a pontuação é calculada de tal forma: Contando com a coordenada declarada, checa-se quantas pessoas de cada time estão alinhadas, verticalmente ou horizontalmente, com aquela posição. Cada time possui uma contagem separada de pontos. Esse procedimento se repete para cada coordenada, e a pontuação das equipes é zerada entre cada coordenada. Como Sherlirow não dá a mínima para quem ganhe, ele só diz qual foi a maior pontuação obtida mesmo, e os participantes que se virem para dizer quem ganhou. Honestamente, Sherlirow não precisa da sua ajuda. Com cerca de 1% da capacidade mental de Sherlirow ele já seria capaz de resolver esse problema. Porém, como quase sempre, ele está sofrendo de um caso de preguicite aguda. Por conta disso, ele decidiu convidar você (sem opção de recusar) para fazer esse trabalho de contagem. Faça um programa que diga qual o maior valor dentre os valores associados a cada coordenada.",
+    "format_input": "A entrada será dada da seguinte forma: A primeira linha irá receber três valores, N, tamX e tamY, representando respectivamente o número de coordenadas a serem analisadas e o tamanho do tabuleiro. As próximas N linhas irão conter as coordenadas a serem analisadas do tabuleiro (em valores de matriz) . Ao fim das N linhas, será recebido o tabuleiro por fim. Os limites dos valores seguem: 1 <= N, tamX, tamY <= 10; 1 <= elem <= 4, em que elem é um possível elemento do tabuleiro.",
+    "format_output": "A saída será uma frase do tipo: A pontuacao da equipe vencedora sera K pontos! Em que K é maior pontuação obtida dentre as equipes. Não há quebra de linha ao fim.",
+    "topics": [
+        "ciclos",
+        "array bidimensional",
+        "busca"
+    ]
+}

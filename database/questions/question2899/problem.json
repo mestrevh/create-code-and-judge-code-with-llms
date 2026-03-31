@@ -1,0 +1,10 @@
+{
+    "title": "Histograma",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi contratado para desenvolver um programa para apresentar os dados de uma pesquisa com crianças e adolescentes. O pesquisador pergunta ao entrevista sua altura em m, sua idade e sexo. Os entrevistados são classificados de acordo com o sexo, idade e altura, sendo a classificação de altura conforme tabela abaixo: Elabore um programa no Octave que um gráfico de barras horizontais com a quantidade de pessoas em cada uma das classes de altura da tabela, um gráfico de barras verticais com a quantidade de pessoas para cada idade (entre 0 e 18 anos) e um gráfico de pizza que mostre a quantidade de homens e mulheres. Cada gráfico deve ser mostrado em uma nova janela. O programa deve parar a execução quando o entrevistador digitar 0 na altura. Insira um título e os rótulos dos eixos de cada gráfico. Elabore o programa diretamente no Octave para visualizar os gráficos.",
+    "format_input": "A entrada consiste de um valor de altura em m, a idade e o sexo do entrevistado (M ou F). O programa deve terminar a execução quando o entrevistador digitar 0 na altura.",
+    "format_output": "O programa deve exibir os três gráficos conforme indicado na descrição, cada gráfico em uma nova janela, imprimindo na tela. Digite a altura do entrevistado: Digite a idade do entrevistado: Digite o sexo do entrevistado (M ou F):",
+    "topics": [
+        "array"
+    ]
+}

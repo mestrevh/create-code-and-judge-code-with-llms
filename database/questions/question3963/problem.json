@@ -1,0 +1,12 @@
+{
+    "title": "Sobrenome não é Fácil",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A região sul do Brasil é caracterizada pela ascendência multicultural de seus habitantes, sendo principalmente europeus e sobre tudo italianos, alemães e poloneses. Uma consequência interessante disso é a variação na dificuldade na pronúncia dos sobrenomes da população, o que as vezes dificulta a vida dos professores na realização da chamada de sua turma, gerando até situações constrangedoras. Dada a possibilidade de constrangimento em suas aulas, a professora Jiraiya decidiu pesquisar os sobrenomes em sua lista de chamadas. Na concepção de Jiraiya, um sobrenome é difícil se tiver três ou mais consoantes consecutivas. Observação: É necessário a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão",
+    "format_input": "A entrada consiste em um sobrenome. A string contém letras do alfabeto sem acentos, a primeira letra está sempre em maiúscula e o sobrenome pode ter no máximo 42 caracteres.",
+    "format_output": "Imprima o sobrenome e se é fácil ou não, conforme mostra o exemplo abaixo.",
+    "topics": [
+        "acumulador",
+        "repetição",
+        "função"
+    ]
+}

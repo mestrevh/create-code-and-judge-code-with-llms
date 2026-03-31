@@ -1,0 +1,10 @@
+{
+    "title": "Duelo das Coxinhas: A Batalha dos Valores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Houve um duelo entre apreciadores de coxinha, no qual o vencedor receberia um cento desse delicioso salgado. Oileh e Euak participaram dessa saborosa batalha. O duelo é separado em rodadas e em cada rodada os jogadores devem puxar uma carta de um baralho com números aleatórios. Eles só saberiam quantas rodadas haveriam no duelo quando chegassem ao local. As regras foram anunciadas previamente: Multiplicação dos Valores: Deve-se multiplicar os valores das cartas retiradas na rodada. Soma dos Dígitos: Após obter o resultado da multiplicação, some os dígitos do resultado. Determinação do Vencedor da rodada: Se o número final da rodada for par, Oileh ganha um ponto. Se o número final for ímpar, Euak ganha um ponto. Há possibilidade de empate se a soma dos valores das cartas retiradas na rodada for um número primo, antes da multiplicação e soma dos dígitos. Nesse caso, ninguém ganha pontos. Ao final de cada rodada, o vencedor é anunciado. No final do duelo, é anunciado o vencedor geral, aquele que ganhou o maior número de pontos. Se os pontos de Oileh e Euak forem iguais, então ninguém ganha as coxinhas. Para melhor entendimento, segue um exemplo de duelo: 2 9 8 7 3 O duelo tem duas rodadas. Na primeira, a soma de 9 + 8 é 17, que é um número primo, então há um empate. Na segunda rodada, a multiplicação de 7 por 3 resulta em 21, e a soma dos dígitos de 21 é 2 + 1 = 3. Como 3 é ímpar, então Euak ganha um ponto. Portanto, Euak vence por 1 a 0.",
+    "format_input": "Um número K representando o número de rodadas, seguido de dois valores V1 e V2 representando as cartas retiradas por Oileh e Euak, nessa ordem, para cada rodada.",
+    "format_output": "Em cada rodada, você deverá anunciar o vencedor de cada uma, dizendo \"Oileh\" ou \"Euak\". Caso haja um empate, anuncie \"EMPATE\". Ao final do duelo, deve-se anunciar o vencedor da seguinte forma: - Oileh ganhou as coxinhas! - Euak ganhou as coxinhas! - Ninguem ganhou as coxinhas!",
+    "topics": [
+        "recursão"
+    ]
+}

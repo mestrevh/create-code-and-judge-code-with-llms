@@ -1,0 +1,10 @@
+{
+    "title": "Scar planeja seu ataque",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Scar, ao ver que foi deixado de fora da lista de “Princesos”, se revolta e decide fazer um ataque direto à equipe de Introdução a Programação de 2019.1. Para tal, ele decide se aproveitar dos alunos para pôr em prática sua vingança, criando intrigas: “Como assim não deixam vocês usarem break?” “Olha quantos casos teste essa questão tem, isso é um exagero.” “Então quer dizer que o monitor disse que era melhor você recomeçar a questão do 0?” Você, como um exemplar aluno de IP, não cai nessas semi-calúnias e decide fazer um programa que vai nos ajudar a prever o impacto da vingança de Scar. Seu programa deve dizer a porcentagem da turma que passou a concordar com Scar, baseado em um índice de frustração, calculado da seguinte maneira: F = 10*M / (D1+D2) Onde: F representa o índice de frustração da turma. D1 indica o grau de dificuldade da Lista 1 D2 indica o grau de dificuldade da Lista 2 M é o número de monitores que estão presentes a cada dia acompanhamento para ajudar os alunos.",
+    "format_input": "D1: valor do tipo inteiro maior do que zero que indica o grau de dificuldade da Lista 1 D2: valor do tipo inteiro maior do que zero que indica o grau de dificuldade da Lista 2 M: valor do tipo inteiro maior do que zero que indica o número de monitores que estão presentes a cada dia de acompanhamento para ajudar os alunos.",
+    "format_output": "“Scar conseguiu criar na turma um grau de frustração F” “Mensagem” Sendo F um valor real indicando o índice de frustração criado por Scar, com 2 casas de precisão. E sendo Mensagem um dos seguintes textos: 1. “Eu matei Mufasa”, caso F seja maior ou igual a 4, 2. “Consegui lacaios preciosos”, caso F seja menor que 4 e maior que 2, ou 3. “Mais um fracasso...”, caso F seja menor ou igual a 2.",
+    "topics": [
+        "decisão"
+    ]
+}

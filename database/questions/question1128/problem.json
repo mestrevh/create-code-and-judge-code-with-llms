@@ -1,0 +1,10 @@
+{
+    "title": "Gerar strings binárias sem 1s consecutivos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um inteiro k, imprima todas as strings binárias de tamanho k sem que existam 1s consecutivos. Veja os exemplos para identificar a ordem correta da saída.",
+    "format_input": "Um inteiro k ( 1 <= k <= 20 )",
+    "format_output": "Todas as strings binárias que satisfaçam as restrições do problema, sendo uma em cada linha.",
+    "topics": [
+        "recursão"
+    ]
+}

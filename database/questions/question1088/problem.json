@@ -1,0 +1,10 @@
+{
+    "title": "Leia vários números.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia números inteiros da entrada padrão até que seja informado um número negativo. A cada leitura o número lido deve ser escrito na saída padrão.",
+    "format_input": "Números inteiros.",
+    "format_output": "Os números que foram lidos.",
+    "topics": [
+        "repetição"
+    ]
+}

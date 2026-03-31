@@ -1,0 +1,10 @@
+{
+    "title": "L1Q2 - That's what I need!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para ajudar o seu irmão Mario, que havia esquecido sua carteira em casa, a comprar um Yoshi, Luigi resolveu usar o dinheiro de seu cofre secreto. Porém, por segurança, esse cofre utilizava um artefato, em que ao se escrever um número por extenso, transformava-o em algarismos e abria o cofre. Entretanto, na correria do dia a dia, Luigi acabou perdendo este artefato e pediu sua ajuda para criar um programa que fizesse isto por ele, já que ele não sabia escrever tais algarismos. Sua tarefa é criar um programa que, dado um número de Zero a Nove por extenso, imprima este número na forma de algarismo.",
+    "format_input": "S - String que representa o número escrito por extenso(de Zero a Nove, com a primeira letra maiúscula).",
+    "format_output": "R - Número inteiro que representa o que foi escrito na entrada.",
+    "topics": [
+        "formatação"
+    ]
+}

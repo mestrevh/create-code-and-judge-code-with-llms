@@ -1,0 +1,12 @@
+{
+    "title": "Site de vendas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Carlos Alberto está começando um site de vendas online e pediu a sua ajuda para criar um programa que deverá utilizar uma estrutura para armazenar as informações de entrega de cada cliente. O programa deverá ler as informações de cada venda até que a string lida seja “encerrar” ou o limite de 10 vendas semanais seja atingido. As informações fornecidas serão: Nome do cliente; Quantidade de produtos vendidos; Valor total da compra; Cidade de destino do produto; Após fechar a relação de vendas, imprima na tela a quantidade e o valor total de produtos vendidos naquela semana. Imprima também o nome e cidade do cliente com maior valor de venda para que ele receba um brinde junto de seus produtos.",
+    "format_input": "As informações de cada venda até que a string lida seja “encerrar” ou o limite de 10 vendas seja atingido: Struct Venda: Nome do cliente: string de no máximo 40 caracteres; Quantidade de produtos vendidos: inteiro; Valor total da compra: float; Cidade de destino do produto: string de no máximo 30 caracteres;",
+    "format_output": "A quantidade e o valor total de produtos vendidos com duas casas decimais, seguido do nome e cidade do cliente com maior valor de venda da semana.",
+    "topics": [
+        "array",
+        "string",
+        "estruturas"
+    ]
+}

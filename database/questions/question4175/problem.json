@@ -1,0 +1,10 @@
+{
+    "title": "Rebeka encontra o assassino",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em mais uma tarde procrastinando começar os trabalhos da faculdade, Rebeka viu na TV que a polícia estava atrás de um assassino e tentava descobrir onde seria seu próximo ataque. Após algumas pesquisas, ela já sabia que, desde que os assassinatos começaram, eles têm acontecido em intervalos regulares de tempo T. Só que, ao observar as coordenadas de onde as pessoas foram mortas, Rebeka chegou a um estranho padrão: aparentemente, ele soma a latitude do lugar em que matou da última vez com T multiplicado pelo cosseno do dia de seu último assassinato, enquanto soma a longitude de seu último homicídio com T multiplicado pelo seno do dia em que ele aconteceu. Apesar de achar que estava ficando maluca, ela resolveu testar sua hipótese, e você a ajudará criando um programa que calcule a data e o local do próximo assassinato para ajudar a polícia!",
+    "format_input": "A data do primeiro assassinato e o dia de hoje no formato \"dd/mm - dd/mm\" (considere que todos os meses têm 30 dias e que as datas são no mesmo ano) O intervalo de tempo T, em dias, seguido da latitude e da longitude (float) do primeiro homicídio Obs 1: considere que, no dia de hoje, ainda não houve nenhum homicídio Obs 2: use math.h para calcular o seno e cosseno necessários",
+    "format_output": "Printe \"o proximo assassinato sera dia dd/mm\" (em que dd é o dia com dois dígitos e mm é o mês também com dois dígitos) seguido de uma quebra de linha e \"As coordenadas sao lat = X°, long = Y°\\n\", sendo X e Y pontos flutuantes com duas casas decimais de precisão",
+    "topics": [
+        "array"
+    ]
+}

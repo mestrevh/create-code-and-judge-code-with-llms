@@ -1,0 +1,12 @@
+{
+    "title": "Promoção lanchonete",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma lanchonete está com preços promocionais em seu cardápio. A condição é que uma pessoa só pode escolher um item da lista, porém, a quantidade deste item é ilimitada, o cliente pode comprar quantos quiser. De acordo com o cardápio abaixo, elabore um programa que receba o código do item escolhido e a quantidade que o cliente irá comprar. Em seguida, calcule e apresente o valor da conta a pagar. Caso um código inexistente seja informado o usuário deverá receber uma mensagem de erro. A quantidade de itens só deverá ser solicitada se o usuário informar um código válido. Caso o usuário informe 0 a aplicação deve parar",
+    "format_input": "2 5 0",
+    "format_output": "X-Tudo Sua conta é de R$23,75 Código inválido",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "repetição"
+    ]
+}

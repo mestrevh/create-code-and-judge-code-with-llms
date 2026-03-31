@@ -1,0 +1,12 @@
+{
+    "title": "Inserção em Árvores de Busca Binária",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Árvores binárias consistem de árvores em que não há nenhum nó (vazias), ou cujo nó raiz tem dois filhos e ambos são nós raízes de árvores binárias. Uma árvore de busca binária é uma árvore binária onde todos os valores da subárvore à esquerda são menores do que a raiz, e todos os valores da subárvore à direita são maiores ou iguais do que a raiz. Adicionalmente, ambas as subárvores (esquerda e direita) são árvores de busca binária também. Neste problema, assuma que partimos de uma árvore de busca binária vazia inicialmente, e recebemos uma sequência de números a serem inseridos. Para cada inserção, devemos imprimir a árvore resultante da inserção, no formato de parênteses discutido abaixo.",
+    "format_input": "A entrada consiste de uma sequência de números a serem lidos e inseridos na árvore de busca binária (inicialmente vazia).",
+    "format_output": "A saída deve imprimir o valor resultante da árvore T para cada inserção de um número X, no formato: ---- Adicionando X imprime T no formato de parênteses ---- Para a impressão de uma árvore T, utilizamos o formato de parênteses, da mesma forma que em outras questões de árvores binárias. Isto é, todo nó N é representado como ( VALOR N.left N.right ), onde N.left e N.right são os nós filhos da esquerda e direita de N. Para o caso de um nó folha, contendo o valor 15, o nó deve ser impresso como ( 15 () () ).",
+    "topics": [
+        "Árvore de Busca Binária",
+        "Inserção",
+        "Estruturas de Dados"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Printando a Entrada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá um número real. Seu programa deve printá-lo com 8 casas decimais com precisão.",
+    "format_input": "Um número real.",
+    "format_output": "O número real da entrada, com 8 casas decimais de precisão.",
+    "topics": [
+        "entrada formatada"
+    ]
+}

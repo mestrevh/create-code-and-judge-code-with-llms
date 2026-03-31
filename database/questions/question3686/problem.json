@@ -1,0 +1,11 @@
+{
+    "title": "Palíndromos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fepile adora palavras palíndromos(palavras que mesmo invertendo continuam iguais), então ele escreveu uma lista de palavras e quer verificar se elas são palíndromos. Dado um valor t, o número de palavras, seguido de t linhas cada uma contendo um inteiro n e uma palavra de tamanho n, você deve dizer se é palíndromo ou não.",
+    "format_input": "Primeira linha contendo um inteiro t. Seguido de t linhas cada uma com um inteiro n e uma palavra de tamanho n.",
+    "format_output": "\"V\" caso seja verdadeiro que a palavra seja palíndromo. \"F\" caso não seja.",
+    "topics": [
+        "array",
+        "ad-hoc"
+    ]
+}

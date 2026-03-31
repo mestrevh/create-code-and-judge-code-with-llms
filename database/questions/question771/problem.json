@@ -1,0 +1,14 @@
+{
+    "title": "O ponto é interno?",
+    "time_limit": "10 segundo(s)",
+    "descrition": "São dadas informações sobre várias figuras geométricas que podem ser do tipo círculos ou retângulos. Também são dadas as coordenadas (x,y) de um ponto no espaço cartesiano bi-dimensional. Pede-se informar qual o número de retângulos e de círculos cujas áreas cobrem o ponto dado, ou seja, o ponto está dentro dessas figuras. Obs.: se o ponto estiver sobre a circunferência ou sobre algum dos lados de um retângulo, ele também é considerado interno.",
+    "format_input": "Primeiro são dados (em uma mesma linha) dois valores reais que correspondem às coordenadas do ponto (xp, yp). Na linha seguinte é dado um inteiro que corresponde ao número de figuras geométricas que serão testadas (n). Nas linhas subsequentes serão dadas as informações de cada figura geométrica, na seguinte ordem: tipo (string contendo \"retangulo\" ou \"circulo\") coordenadas (no caso de retângulo, 4 valores reais que representam as coordenadas xmin, ymin, xmax, ymax, todos na mesma linha e nessa ordem; no caso de círculo, 3 valores reais que representam xcentro, ycentro e raio, todos na mesma linha e nessa ordem). Obs. Não serão considerados válidos valores negativos para o raio. Se o usuário fornecer um valor negativo para o raio, o programa deve substituir o valor dado pelo seu valor absoluto.",
+    "format_output": "Deve-se imprimir a quantidade (valor inteiro) de retângulos e círculos quem contém o ponto dado de acordo com o formato a seguir: Retangulos: <num_ret> Circulos: <num_cir> Obs.: Lembre-se de colocar um final de linha após o num_cir.",
+    "topics": [
+        "geometria computacional",
+        "decisão",
+        "entrada formatada",
+        "repetição",
+        "estruturas"
+    ]
+}

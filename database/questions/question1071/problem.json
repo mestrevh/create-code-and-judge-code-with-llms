@@ -1,0 +1,10 @@
+{
+    "title": "Carrinho de rolimã",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Marco adora andar de carrinho de rolimã. Mas esse é um carrinho especial, com volante, que anda no barro e capaz de fazer curvas bem-fechadas. Mas para ganhar velocidade, o carrinho precisa sempre ir \"pra baixo\", ou seja, é preciso um terreno inclinado. Dada uma área representada por uma matriz de números indicando as alturas de cada parte do terreno, qual o maior caminho possível de ser percorrido. Por exemplo: 1 2 3 4 5 16 17 18 19 6 15 24 25 20 7 14 23 22 21 8 13 12 11 10 9. É possível andar de um ponto para outro somente se a altura diminui. Um ponto está conectado ao outro se está à sua esquerda, direita, acima ou abaixo. No exemplo, um possível caminho seria : 24-17-16-1. Outro caminho poderia ser 25-24-23-...-3-2-1, o qual seria um caminho muito mais longo. Na verdade, esse seria o maior possível.",
+    "format_input": "A primeira linha contém um inteiro indicando o número de casos de teste N. Cada caso de teste começa com uma linha contendo o nome (uma string), o número de linhas R e o número de colunas C. Seguem-se R linhas com C números inteiros em cada linha, significando as alturas. 1 <= R, C <= 100. 1 <= N <= 15. As alturas estarão contidas entre 0 e 100.",
+    "format_output": "Para cada caso de teste imprima uma linha contendo o nome da área, uma vírgula, um espaço e o tamanho do maior caminho possível.",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

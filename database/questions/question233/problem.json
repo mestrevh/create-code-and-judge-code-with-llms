@@ -1,0 +1,11 @@
+{
+    "title": "Pontos de feno",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Cada empregado de uma burocracia tem uma \"descrição de trabalho\" - com poucos parágrafos que descrevem as responsabilidades do trabalho. A descrição de trabalho do empregado, combinada com outros fatores, como a idade, são usadas para determinar o salário dele ou dela. Um sistema de Ponto de Feno libera o Departamento de Recursos Humanos de ter que fazer um jugamento inteligente quanto ao valor do empregado; a descrição de trabalho do empregado é meramente a verificação de palavras e frases que indicam responsabilidades. Em particular, descrições que indicam controle sobre um grande orçamento ou gestão de um número de pessoas que gerem um alto valor de Pontos de Feno. Você irá implementar uma versão simplificada de um sistema de Ponto de Feno. Serão dados um dicionário Ponto de Feno e um número de descrições. Para cada descrição você deve computar um salário associado com o trabalho, de acordo com o sistema.",
+    "format_input": "A primeira linha de entrada contém 2 inteiros positivos: m <= 1000, o número de palavras no dicionário, e n <= 100, o número de descrições de trabalho. Seguem m linhas, cada uma contendo uma palavra(com no máximo 16 letras minúsculas) e um valor em dinheiro( um inteiro de 0 a 1000000 ). Logo após, serão dadas n descrições de emprego. Cada descrição consiste de uma ou mais linhas de texto. para sua conveniência, o texto foi convertido para letras minúsculas, e não há outros caracteres além de letras, espaços e números. Cada descrição de emprego é terminada por uma linha contendo um ponto final.",
+    "format_output": "Para cada descrição de emprego, imprima o salário correspondente computado como a soma de todos os valores Ponto de Feno para todas as palavras que aparecerem na descrição. Palavras que não aparecem no dicionário tem um valor 0.",
+    "topics": [
+        "acumulador",
+        "dicionário"
+    ]
+}

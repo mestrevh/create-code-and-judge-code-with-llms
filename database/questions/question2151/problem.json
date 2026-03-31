@@ -1,0 +1,11 @@
+{
+    "title": "Qual a maior toca?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade está impressionada com a complexidade das tocas de topeiras, com vários buracos conectados, elas conseguem formar tocas em forma de ciclo. Como a Entidade gosta de números, ele gostaria de saber quantos buracos têm a maior toca. A maior toca é aquela que precisa de mais buracos para fechar o ciclo. Um buraco i está conectado com o buraco j quando no índice i contém o valor j. Um ciclo (toca) é formada quando a topeira consegue voltar para o mesmo lugar que começou, seguindo os buracos. Exemplo: 6 (buracos) 2 3 1 0 5 4 (representação das conexões entre buracos) Nesse caso, temos duas tocas: \"0, 1, 2, 3\", que tem 4 buracos, e \"4, 5\", que tem 2 buracos. Então, a maior toca tem 4 buracos.",
+    "format_input": "A primeira linha tem um inteiro 1 <= N <= 10000, indicando o número de buracos, após isso você receberá uma segunda linha com N inteiros. Esses valores correspondem a ligação do enésimo buraco.",
+    "format_output": "Um inteiro correspondendo à maior toca existente.",
+    "topics": [
+        "array",
+        "recursão"
+    ]
+}

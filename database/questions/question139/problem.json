@@ -1,0 +1,10 @@
+{
+    "title": "Foco",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Daniel está fazendo um curso de Visão Computacional e decidiu reproduzir um trabalho muito interessante visto em aula: ele tirou várias fotos de uma mesma cena, variando apenas o foco, para depois combiná-las em uma única imagem onde todos os objetos da cena estão nítidos simultaneamente. Para tal, ele precisa que cada objeto apareça nítido em ao menos uma foto. Daniel sabe que, para cada objeto, existe um intervalo fechado de planos de foco no qual aquele objeto fica nítido. Por exemplo, na figura abaixo, (i), (ii) e (iii) são três fotos da mesma cena, cada uma tirada com um foco diferente; (iv) é a imagem combinada gerada por Daniel. Como o cartão de memória de sua câmera é pequeno, ele pediu sua ajuda para, dados os intervalos de foco de todos os objetos da cena que pretende fotografar, determinar o número mínimo de fotos que ele deve tirar para que seja possível deixar cada objeto nítido em pelo menos uma foto.",
+    "format_input": "A entrada é composta por diversos casos de teste. A primeira linha de cada caso de teste contém um inteiro N indicando o número de objetos na cena. Cada uma das N linhas seguintes contém dois inteiros A e B indicando os extremos do intervalo de foco de cada objeto. A entrada termina quando N for igual a -1.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo um inteiro indicando o menor número de fotos que Daniel deve tirar.",
+    "topics": [
+        "maratona"
+    ]
+}

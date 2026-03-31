@@ -1,0 +1,10 @@
+{
+    "title": "A different tree 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pensando em novas alterações para o projeto final dos próximos períodos, o professor Márcio decidiu alterar a forma como a árvore de Huffman é salva no arquivo. Ajude-o a implementar o novo algoritmo que recupera a árvore de Huffman impressa em pos-order. A string lida não possui o caractere '*'. A string tem no máximo 200 caracteres.",
+    "format_input": "Uma string representando a Árvore de Huffman impressa em pos-order.",
+    "format_output": "Os passos de reconstrução da árvore, após a reconstrução da árvore, imprima a codificação de cada folha percorrendo ela primeiramente a esquerda e depois a direita.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

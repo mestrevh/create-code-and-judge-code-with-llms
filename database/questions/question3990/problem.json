@@ -1,0 +1,14 @@
+{
+    "title": "Análise do IPCA",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que carregue os dados referentes ao IPCA (Índice Nacional de Preços ao Consumidor Amplo) e que obtenha o maior e menor valor do IPCA e os respectivos meses/anos em que ocorreram. Além disso, o programa deve calcular a média do IPCA de todos os meses lidos.",
+    "format_input": "Cada uma das linhas possui a informação do ano/mês e o índice do IPCA (número real) separados entre si por espaço em branco. Observe que as informações do ano e do mês não são fornecidas necessariamente em ordem cronológica e que o valor do IPCA usa a vírgula para separar a parte inteira da decimal. A entrada de dados se encerra quando é encontrada uma linha contendo apenas o caractere *.",
+    "format_output": "A saída é composta por 3 linhas, seguindo o formato mostrado no caso de teste de exemplo: Linha 1: Informa o menor valor do IPCA e seu respectivo mês/ano entre parênteses. Linha 2: Informa o maior valor do IPCA e seu respectivo mês/ano entre parênteses. Linha 3: Informa a média de todos os valores do IPCA lidos pelo programa com 2 casas decimais.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "decisão",
+        "entrada formatada",
+        "repetição"
+    ]
+}

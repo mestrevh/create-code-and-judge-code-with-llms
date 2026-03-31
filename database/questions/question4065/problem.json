@@ -1,0 +1,11 @@
+{
+    "title": "Hemácias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio é dono de um laboratório e está precisando automatizar os resultados. Você deseja ajudá-lo escrevendo um programa que leia o valor obtido no exame e, de acordo com a tabela abaixo contendo os valores de referência, informe o resultado do exame. Observe que os valores de referência mudam de acordo com o paciente (mulher, homem, criança ou idoso). Valores de Referência (Hemácias/mm3) Homens: 4,50-6,10 Mulheres: 4,00-5,40 Crianças: 4,07-5,37 Idosos: 3,90-5,36",
+    "format_input": "Uma linha contendo o valor (real) da quantidade de hemácias/mm3, seguido de um espaço em branco e de uma letra que pode ser H para homem, M para mulher, C para criança ou I para idoso.",
+    "format_output": "O programa deve imprimir uma linha contendo mensagem no formato exemplificado abaixo (sem acentos). Considerando como exemplo o valor de 5.0 hemácias/mm3, em um paciente idoso, teríamos a mensagem: Hemacias 5.00/mm3: Normal Quando o resultado for abaixo do valor de referência, ao invés de Normal, deve ser mostrado o resultado Baixo. Já quando for maior que o valor de referência, deve mostrar Alto. Dica: Utilize uma função chamada analisar_faixa na sua solução (opcional). A função analisar_faixa recebe como parâmetros três valores reais, a saber: valor, mínimo e máximo. A função retorna uma string, que pode ser Baixo, Normal ou Alto, a depender das seguintes condições abaixo: Valor menor que o Mínimo (Baixo) Valor na faixa do Mínimo ao Máximo (Normal) Valor maior que o Máximo (Alto)",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

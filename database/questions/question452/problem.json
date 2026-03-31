@@ -1,0 +1,10 @@
+{
+    "title": "Editora Fronteira",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A editora Fronteira vende assinaturas de jornais e revistas, e seus valores estão indicados abaixo. Apenas esse mês, as assinaturas de revistas estão com 10% de desconto. Escreva um programa que receba como entrada o nome do item desejado, e também a duração em anos da assinatura, e exiba o valor total a ser pago. Tabela de Preços: Jornal Mural: R$ 200,00; Jornal O Coreto: R$ 235,00; Revista Meu Lar: R$ 180,00; Revista Sua Mesa: R$ 230,00.",
+    "format_input": "Um valor String (que pode combinar maiúsculas e minúsculas) e um valor inteiro",
+    "format_output": "Um valor real com duas casas decimais",
+    "topics": [
+        "decisão"
+    ]
+}

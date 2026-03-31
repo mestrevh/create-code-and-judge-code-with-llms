@@ -1,0 +1,10 @@
+{
+    "title": "Passagem da sorte",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Protagonista decidiu que vai viajar para o Catar para assistir a Seleção Brasileira na copa do mundo. Ele é uma pessoa muito supersticiosa, sendo assim, para ele é de grande importância saber se o número da passagem áerea dele é um número da sorte ou não, afinal, ele quer muito que o Brasil seja hexacampeão. Um número é considerado um número da sorte se a soma dos 3 primeiros dígitos for divisível por 7 e a soma dos 3 últimos dígitos for divisível por 2. Além disso, sabemos que todos os números de passagens áereas são compostos por exatamente 6 dígitos. Sabendo disso, diga para o Protagonista se a passagem dele para o Catar é da sorte ou não.",
+    "format_input": "A entrada contém um número inteiro com 6 dígitos, além disso, é garantido que o número dado não começa com o dígito 0.",
+    "format_output": "Caso a passagem do Protagonista para o Catar seja considerada uma passagem da sorte, imprima \"YES\" (sem as aspas). Caso contrário, imprima \"NO\" (sem as aspas).",
+    "topics": [
+        "maratona"
+    ]
+}

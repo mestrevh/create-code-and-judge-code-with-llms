@@ -1,0 +1,12 @@
+{
+    "title": "Multiplicações de matrizes",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Quando falamos de multiplicação de matrizes, podemos ter a multiplicação entre duas matrizes ou a multiplicação de uma matriz por um escalar. Faça um programa que possa fazer uma dessas multiplicações de acordo com a escolha do usuário. O termo multiplicação escalar refere-se ao produto de um número real com uma matriz. Em multiplicações escalares, cada elemento da matriz é multiplicado pelo escalar determinado. A multiplicação de matrizes é realizada de acordo com a seguinte condição: o número de colunas da 1ª matriz deve ser igual ao número de linhas da 2ª matriz. Observe alguns modelos de matrizes que podem ser multiplicadas, considerando o formato m x n: A4x3 * B3x1, A4x2 * B2x3, A1x2 * B2x2, A3x4 * B4x3. Assim, o produto das matrizes A = (aij) m x p e B = (bij) p x n é a matriz C = (cij) m x n em que cada elemento cij é obtido por meio da soma dos produtos dos elementos correspondentes da i-ésima linha de A pelos elementos da j-ésima coluna B.",
+    "format_input": "A primeira linha da entrada indica qual multiplicação será feita, se (e)scalar ou (m)atricial. Caso a multiplicação seja por escalar: A segunda linha recebe esse escalar; Em seguida, deve ser recebido o tamanho da matriz (que pode não ser quadrada) com dois números inteiros na mesma linha; Em seguida, será recebida a matriz que será multiplicada pelo escalar em formato tabular. Caso a multiplicação seja entre matrizes: Você deve receber em 2 linhas os tamanhos das matrizes (que podem não ser quadradas) com dois números inteiros em cada linha. Obs.: Todos os valores internos das matrizes são inteiros",
+    "format_output": "Caso a multiplicação seja por escalar, a saída deve ser a matriz multiplicada pelo escalar dado. Caso a multiplicação seja entre matrizes, você deve retornar o resultado da multiplicação entre as matrizes ou um erro, caso não seja possível multiplicar as matrizes.",
+    "topics": [
+        "lógica matemática",
+        "repetição",
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Ordenação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A GEMA está selecionando pessoas para participar do grupo de extensão e você tem interesse de participar. A forma que o grupo entrou para selecionar os integrantes é resolver um conjunto de desafios. Assim, o desafio da Ordenação, consiste em ordenar até 5 números inteiros.",
+    "format_input": "A primeira linha tem um inteiro N que indica a quantidade de números a ser ordenado, a segunda linha possui N inteiros enumerado como Ai para ser ordenado. 1 <= N <= 5 -32.768 <= Ai <= 32.767",
+    "format_output": "Uma linha com os N inteiros ordenados em ordem crescente separados por um espaço e com quebra de linha no final. (perceba que não há um espaço depois do último número).",
+    "topics": [
+        "decisão",
+        "ordenação"
+    ]
+}

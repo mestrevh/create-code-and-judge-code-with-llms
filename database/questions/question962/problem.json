@@ -1,0 +1,11 @@
+{
+    "title": "Matriz diferente",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Você receberá um inteiro n e deverá imprimir uma matriz nxn seguindo o modelo abaixo: n = 5 1 1 1 1 1 1 2 2 2 2 1 2 3 3 3 1 2 3 4 4 1 2 3 4 5",
+    "format_input": "Um número inteiro 1<=n<=100",
+    "format_output": "A matriz nxn de acordo com o modelo mostrado na descrição. Atente para o fato de que os elementos da matriz estão separados por espaço. Entretanto, o último elemento de cada linha não é precedido de espaço, e sim de um final de linha.",
+    "topics": [
+        "repetição",
+        "array bidimensional"
+    ]
+}

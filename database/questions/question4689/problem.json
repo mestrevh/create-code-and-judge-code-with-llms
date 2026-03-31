@@ -1,0 +1,13 @@
+{
+    "title": "Bubble Sort Passo a passo",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Crie um programa que recebe um vetor de tamanho variável e ordena o vetor de forma crescente. A ordenação deve ser realizada utilizando uma função para com o algoritmo bubble sort alterado. O algoritmo deve parar caso em uma das iterações não ocorra nenhuma troca.",
+    "format_input": "A entrada é uma sequencia de números. A leitura deve encerrar no fim do arquivo (EOF);",
+    "format_output": "A saída deve ser a exibição do passo a passo da ordenação. A cada passagem completa do algoritmo pelo array, deve-se exibir o estado atual do array.",
+    "topics": [
+        "array",
+        "grafo",
+        "repetição",
+        "ordenação"
+    ]
+}

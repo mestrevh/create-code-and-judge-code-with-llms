@@ -1,0 +1,12 @@
+{
+    "title": "Mahmoud, Ehab e a bipartidade",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Mahmoud e Ehab continuam suas aventuras! Como todos na terra dos malvados sabem, Dr. Evil adora grafos bipartidos, especialmente árvores. Uma árvore é um grafo acíclico conectado. Um grafo bipartido é um grafo no qual os vértices podem ser divididos em 2 conjuntos de tal forma que para cada aresta (u, v) pertencente ao grafo, u e v pertencem a diferentes conjuntos. Dr. Evil mostrou a Mahmoud e Ehab uma árvore com n nós e pediu a eles que adicionassem arestas de forma que o grafo continuasse bipartido. Além disso, depois de adicionar essas arestas, o grafo deve continuar sendo simples (não deve conter loops ou arestas múltiplas). Qual é o número máximo de arestas que eles podem adicionar? Um loop é uma aresta que conecta um nó com ele mesmo. Um grafo não contém arestas múltiplas quando para cada par de nós, não há mais de uma aresta os conectando. Lembre-se que um ciclo e um loop não são equivalentes.",
+    "format_input": "A primeira linha da entrada contém um inteiro n - o número de nós da árvore (1 <= n <= 10^5). As próximas n - 1 linhas contém dois inteiros u e v (1 <= u, v <= n, u ≠ v) - as arestas da árvore. É garantido que o grafo dado é uma árvore.",
+    "format_output": "Imprima um inteiro com o número máximo de arestas que Mahmoud e Ehab podem adicionar na árvore satisfazendo as condições.",
+    "topics": [
+        "estrutura de dados",
+        "Árvore",
+        "grafo bipartido"
+    ]
+}

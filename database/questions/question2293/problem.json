@@ -1,0 +1,17 @@
+{
+    "title": "Lucas e Yuki",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lucas é apaixonado por caça-palavras: acha eles intrigantes e sempre se interessou em bolar e aprender algoritmos criativos que buscassem as palavras rapidamente. Yuki é uma pequena e fofa shih-tzu que usou sua espada de brinquedo para escrever o nome dela e de seus amigos em vários caça-palavras, às vezes mais de uma vez, podendo ser em várias direções (cima, baixo, direita ou esquerda). Lucas decidiu manter todos os caça-palavras que houvessem, no máximo, X ocorrências de nomes de cachorros, que é uma quantidade que o seu amor pelos enigmas consegue suportar. Você deve escrever um programa que, dados vários caça-palavras em formato de matrizes N x M, o valor máximo de ocorrências toleradas X e os nomes dos amiguinhos de Yuki, diga quantos caça-palavras Lucas irá conseguir manter no seu quarto. Obs: para um mesmo nome, duas ocorrências são diferentes se elas diferem no ponto de partida na matriz ou na direção em que Yuki escreveu o nome.",
+    "format_input": "A entrada consiste em um único caso de teste. A primeira linha contém cinco inteiros Q, X, C, N e M, que representam, respectivamente, a quantidade de caça-palavras, a quantidade máxima de ocorrências permitidas, a quantidade de amigos de Yuki e as dimensões dos caça-palavras (linhas e colunas). Seguirão C linhas, cada uma com o nome de um amiguinho de Yuki (entre 2 e 20 caracteres). Depois, seguirão Q matrizes de N linhas, cada linha com M caracteres, com uma linha em branco separando cada matriz. Limites: 1 <= Q <= 100, 1 <= X <= 500, 1 <= C <= 10, 1 <= N <= 20, 1 <= M <= 20. As buscas não devem diferenciar letras maiúsculas de minúsculas.",
+    "format_output": "Um inteiro, dizendo quantos dos Q caça-palavras dados Lucas poderá manter consigo.",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "busca completa",
+        "substrings",
+        "repetição",
+        "array bidimensional",
+        "string"
+    ]
+}

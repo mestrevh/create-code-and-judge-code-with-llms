@@ -1,0 +1,10 @@
+{
+    "title": "A Internet do Zeca Urubu",
+    "time_limit": "2 segundo(s)",
+    "descrition": "(8) Zeca Urubu era um cara bem legal, o que estraga é a vontade que ele tem de montar redes de computadores (8) Um belo dia, Zeca estava fazendo um projeto para uma rede que usava comutação por pacotes. A empresa que contratou Zeca tinha muitos trabalhadores que precisavam ficar conectados, porém ela era bem mão de vaca (o famoso, pirangueiro) e não queria pagar um roteador carissimo que supriria toda a necessidade. Zeca que não é besta, resolveu fazer um programa que o ajudasse a escolher a melhor situação e te chamou pra ajudar!! Você, que já tinha pago Infra de comunicação, sabia que a chance da rede apresentar sobrecarga dependia de uma distribuição binomial(formula abaixo), da vazão do roteador, do consumo medio de cada usuário, da probabilidade de cada usuário estar ativo e de quantos usuários estavam conectados na rede naquele momento. Você também sabia que a rede só apresenta sobrecarga se o somatório dos dados requisitados por todos os usuários for maior que a vazão do roteador. Saca o exemplo: Se o roteador tem uma vazão de 100kbit/s e cada usuário consome 30kbits/s, e se a rede tem 5 usuários, você só precisa calcular a probabilidade de x=4 e x=5 e somá-las. Pois até 3 usuários a rede não apresentará sobrecarga.",
+    "format_input": "A entrada vai ser dada por uma linha no fomato abaixo: n B Onde n é o número máximos de usuários conectados e B é a banda requisitada por cada um em kbits/s. E por várias linhas no formato abaixo: ID p D Onde ID é a indentificação de modelo do roteador, p é uma probabilidade (0<=C<=1) de o usuário estar ativo e D é a capacidade máxima do roteador em kbits/s. Você deve parar de ler quando a linha for: -1 0 0",
+    "format_output": "A saída deve conter o modelo do roteador que teve a menor probabilidade e o valor da probabilidade: O roteador escolhido foi o ID, com probabilidade de P Obs.: Se mais de um roteador tiver o mesmo valor de probabilidade, você deve preferir o primeiro.",
+    "topics": [
+        "acumulador"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Decisão dos Ministros",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Os ministros do país remoto de Stanistan estão tendo sérios problemas com sua tomada de decisão. Tudo começou algumas semanas atrás, quando um novo processo para decidir quais projetos de lei para passar foi introduzido. Este processo funciona da seguinte forma: Durante cada sessão de votação, há vários projetos de lei para serem votados. Cada ministro expressa uma opinião, votando ou 'sim' ou 'não' para alguma desses projetos. Devido às limitações na concepção da solução técnica utilizada para avaliar a própria votação, cada ministro pode votar apenas em quatro projetos distintos. Porém, o projeto só passará se pelo menos metade dos ministros que votaram nela forem satisfeitos. Sua tarefa é escrever um programa para ajudar os ministros com algumas destas questões. Dado os votos dos ministros, o programa deve verificar se todos os ministros podem ser satisfeitos, e em caso afirmativo, determinar a decisão sobre os projetos para o qual, dadas as limitações, só há uma escolha possível.",
+    "format_input": "Entrada consiste de vários casos de teste. Cada caso de teste começa com números inteiros B (1 <= B <= 100), que é o número de projetos diferentes para votar, e M (1 <= M <= 500), que é o número de ministros. As próximas M linhas são dos votos dos ministros. Cada um desses linha começa com um inteiro 1 <= k <= 4, indicando o número de projetos que o ministro votou, seguido pelos votos k. Cada voto é do formato <projeto> <voto>, onde <projeto> é um número inteiro entre 1 e B identificando o projeto de lei que é votado, e <voto> é ou 's' ou 'n', indicando que o ministro opinião é 'sim' ou 'não'. Nenhum ministro pode votar o mesmo projeto mais de uma vez. O último caso de teste é seguido por uma linha contendo dois zeros.",
+    "format_output": "Para cada teste, imprimir o número de casos de teste (iniciando com 1), seguido por o resultado do processo. Se é impossível satisfazer todos os ministros, o resultado deve ser 'impossível'. Caso contrário, o resultado deve ser uma cadeia de comprimento B, onde o i-ésimo caractere pode ser: 'S', se passou. 'N', se não forem pelo menos 50% de votos. '?', se não der para definir se passou ou não.",
+    "topics": [
+        "estrutura de dados",
+        "array",
+        "acumulador"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Playlist de Verão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tâmara vai viajar com seus amigos nesse verão e ficou encarregada de selecionar boas músicas para o trajeto. Escreva um programa que receba como entrada a duração de cada uma das cinco músicas que ela já escolheu, e exiba qual o tempo total de entretenimento garantido.",
+    "format_input": "Números inteiros representando a quantidade de minutos e a quantidade de segundos que compõem cada música escolhida. Cada valor é separado por uma quebra de linha. Ex: Se a música tiver 3:20 de duração, primeiro será informado o 3, e depois o 20.",
+    "format_output": "Três valores inteiros representando respectivamente a quantidade total de horas, a quantidade total de minutos e a quantidade total de segundos das músicas escolhidas.",
+    "topics": [
+        "acumulador",
+        "datas/horas"
+    ]
+}

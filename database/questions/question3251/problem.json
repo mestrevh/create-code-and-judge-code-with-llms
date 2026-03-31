@@ -1,0 +1,10 @@
+{
+    "title": "Operação simples",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia 5 números racionais separados por espaço na mesma linha e coloque nas variáveis A, B, C, D e E. Em seguida realize a seguinte expressão matemática: (A+B+C)/(D+E) e imprima o resultado com duas casas decimais. Por exemplo: para A = 30, B = 20, C = 40, D = 40 e E = 50, o resultado será 1.",
+    "format_input": "Cinco números racionais separados por espaço na mesma linha.",
+    "format_output": "Resultado da expressão (A+B+C)/(D+E) com duas casas decimais.",
+    "topics": [
+        "entrada formatada"
+    ]
+}

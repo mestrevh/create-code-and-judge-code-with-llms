@@ -1,0 +1,10 @@
+{
+    "title": "Aprovado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia três notas (valores reais) de um aluno, calcule sua média aritmética e imprima uma mensagem dizendo se o aluno foi aprovado, reprovado ou deverá fazer prova final. O critério de aprovação é o seguinte: Aprovado (média >= 7); Reprovado (média < 3); Prova final ( 3 <= média < 7).",
+    "format_input": "03 números reais separados por um final de linha.",
+    "format_output": "Uma mensagem que pode ser: aprovado reprovado prova final",
+    "topics": [
+        "acumulador"
+    ]
+}

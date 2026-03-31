@@ -1,0 +1,10 @@
+{
+    "title": "Multiplica dois inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois números inteiros, efetue a multiplicação.",
+    "format_input": "2 5",
+    "format_output": "10",
+    "topics": [
+        "obi"
+    ]
+}

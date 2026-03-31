@@ -1,0 +1,11 @@
+{
+    "title": "Múltiplo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que leia dois números inteiros, x e y, e determine se x é múltiplo de y. A verificação deve ser feita por uma função, que receba os dois inteiros como parâmetros e retorne 1 (x é múltiplo de y) ou 0 (x não é múltiplo de y).",
+    "format_input": "Dois números inteiros, x e y.",
+    "format_output": "Uma mensagem (conforme os exemplos de saída), indicando se x é, ou não, múltiplo de y.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

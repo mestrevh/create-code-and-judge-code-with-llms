@@ -1,0 +1,11 @@
+{
+    "title": "Mas que árvore estranha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio resolveu fazer uma visita ao seu primo Virgulino Ambrosino. Virgulino mora no sertão nordestino e no seu jardim existe uma árvore muito diferente. O tronco da árvore é formado por uma série de bolas conectadas por caules. De cada bola podem sair 0, 1 ou 2 caules. O desenho a seguir ilustra duas possíveis árvores. Mas o que Ambrósio e Virgulino querem saber mesmo é a altura destas árvores. Para isto, eles definiram altura como sendo a quantidade máxima de bolas existentes no caminho mais longo entre a bola raiz e bola mais alta (incluindo todas as bolas). Por exemplo, na figura de exemplo, a árvore da esquerda possui altura 3. Esta altura é encontrada através de vários caminhos: 0, 1, 3; 0, 1, 4; 0, 2, 5; 0, 2, 6. Todos estes caminhos possuem altura 3, portanto a altura da árvore também é 3. Já a árvore da direita, possui os seguintes caminhos: 0, 1, 3, 6; 0, 1, 3, 7; 0, 1, 4, 8; 0, 2, 5. Nesta árvore, existem 3 caminhos com altura 4 e um caminho com altura 3. Portanto, a altura desta árvore é 4. Dada uma árvore, indique o sua altura.",
+    "format_input": "A primeira linha consiste de um inteiro n (1 <= n <= 1000000), indicando a quantidade de nós da árvore, onde cada nó é identificado de 0 a n-1, um inteiro k (1 <= k < n) indicando a quantidade de bolas que possuem filhos e um inteiro r indicando qual é a bola raiz (ou seja, a bola mais embaixo). Depois seguirão k linhas. Cada uma das k linhas, consiste de 3 inteiros: S, L, R, indicando respectivamente, a bola de origem, a bola filha da esquerda e a bola filha da direita. Quando a bola não possuir um filho de um dos lados, o número dado será -1. Por exemplo, as duas árvores da figura são representadas pelas seguintes entradas. Árvore da esquerda: 7 3 0, 0 1 2, 1 3 4, 2 5 6. Árvore da direita: 9 5 0, 0 1 2, 1 3 4, 2 5 -1, 3 6 7, 4 8 -1. Atenção: Nem sempre a bola raíz é a zero; Os nós de origem nem sempre estarão ordenados, como nos exemplo.",
+    "format_output": "Um número inteiro indicando a altura da árvore.",
+    "topics": [
+        "Árvore",
+        "recursão"
+    ]
+}

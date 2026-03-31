@@ -1,0 +1,12 @@
+{
+    "title": "Matriz Transposta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Na matemática, uma matriz transposta é o resultado da troca das linhas pelas colunas. Por exemplo: Faça um programa que receba as dimensões de uma matriz (no formato linhas colunas) e gere sua transposta. O programa deve mostrar as mensagens “Digite as dimensoes da matriz:”, \"Digite os elementos da matriz:\" e “Matriz transposta:”.",
+    "format_input": "O usuario deve digitar as dimensoes da matriz (numero de linhas e depois o numero de colunas) e em seguida digitar os elementos da matriz",
+    "format_output": "O programa deve exibir a matriz transposta da matriz digitada, utilizando 6 espaços de tela e alinhando os elementos da matriz à esquerda, de modo a formatá-la. Deve ser mostrado na tela: Digite as dimensoes da matriz: Digite os elementos da matriz: Matriz transposta: n n n n n n",
+    "topics": [
+        "array",
+        "decisão",
+        "lógica matemática"
+    ]
+}

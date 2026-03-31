@@ -1,0 +1,10 @@
+{
+    "title": "Playlist",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Antônio gosta de ouvir músicas da Lana Del Rey em sua viagem de casa até o CIn. Sua playlist está sempre ordenada de forma aleatória e por isso a combinação de músicas que ele escuta em cada uma de suas viagens acaba sendo diferente.",
+    "format_input": "A entrada começa com um número inteiro T indicando quantos casos de teste serão apresentados. Cada caso de testes começa com um inteiro M representando a quantidade de músicas. Em seguida acontecem M pares de entradas, contendo as músicas (em formato de string) seguidas pela duração (float). Por fim uma segunda linha contendo os comandos executados durante a viagem, sendo eles: “r” reproduzir “p” pular “v” ouvir novamente “s” parar (indicando o fim da viagem)",
+    "format_output": "A partir dos comandos e músicas inseridas, o formato de saída deve identificar cada caso como “Viagem x:” seguido pela duração aproximada da viagem a partir da duração das músicas reproduzidas. Por fim, a linha seguinte deve conter a lista de músicas reproduzidas separadas por vírgulas.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

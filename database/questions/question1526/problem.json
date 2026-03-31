@@ -1,0 +1,10 @@
+{
+    "title": "L6Q1 - Ache a Mark",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Iron man está enviando sua série de armaduras Mark automatizadas para diversos países ao redor do globo para reparar os destroços de um ataque alienígena. Devido ao ataque, os satélites de GPS estão fora do ar e a comunicação entre as armaduras instável, de tal forma que cada uma consegue saber apenas onde a mais próxima está. Seu trabalho como assistente do Sr. Stark é escrever um programa que simule essa condição para testes. Para isso você vai receber os números dos modelos Marks seguidos pelo número que esse modelo consegue estabelecer comunicação até o número 0, que significa que essa armadura não consegue estabelecer nenhuma comunicação, sendo o primeiro número a armadura que se tem contato a partir da Stark Tower. Após o recebimento da lista você receberá o número de uma versão da armadura Mark e deverá checar se é possível estabelecer a comunicação. É obrigatório o uso de lista encadeada na resolução.",
+    "format_input": "A entrada se da por: N1 N2 ... Nn M. Onde N1 N2 ... Nn é uma sequência de números inteiros que acaba quando o Nn = 0 e M é um número inteiro positivo que deve ser buscado na lista.",
+    "format_output": "Resposta: String que pode conter as frases: \"Comunicacao estabelecida\" ou \"404 not found\"",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

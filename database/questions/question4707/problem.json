@@ -1,0 +1,10 @@
+{
+    "title": "Q01 - Exibição de Boas Vindas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um procedimento chamado \"saudacoes\" que recebe um nome e exibe uma mensagem de saudação personalizada.",
+    "format_input": "Um nome",
+    "format_output": "A mensagem \"Olá, (nome)! Seja bem-vindo\"",
+    "topics": [
+        "função"
+    ]
+}

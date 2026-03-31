@@ -1,0 +1,11 @@
+{
+    "title": "Reduz (usando funções e ponteiros)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha apenas uma função, além da principal, que receberá como parâmetros dois endereços de variáveis reais x e y e que deverá reduzir o valor da variável apontada por x de acordo com o valor da variável apontada por y. O programa deverá exibir o valor das variáveis antes e depois da redução, como no exemplo de saída. Observações: (a) exibir os valores com duas casas pós-vírgula; (b) usar obrigatoriamente ponteiros na função.",
+    "format_input": "10.5 20.0",
+    "format_output": "-9.5 20.0",
+    "topics": [
+        "função",
+        "ponteiro"
+    ]
+}

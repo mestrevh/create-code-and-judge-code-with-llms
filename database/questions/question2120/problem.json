@@ -1,0 +1,12 @@
+{
+    "title": "Quase Snake",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que simule um pouco do jogo Snake, febre no inicio dos anos 2000. O jogo original consiste em uma cobra que anda pelo mapa comendo frutas e a cada fruta comida ela aumenta um no seu tamanho. Ela não pode bater nos obstáculos do jogo e também, dependendo do modo, não pode bater nas paredes. Para facilitar um pouco a resolução segue algumas facilidades: Não precisa ser aumentado o tamanho da cobra a medida que ela come frutas, sendo assim ela só será representada por 1 espaço na matriz. Toda vez que ela comer uma fruta presente no mapa, a fruta deve ser retirada e adicionado 1 ao numero de frutas comidas pela cobra. Podem existir obstáculos no jogo, se o jogador bater em um deles, deve perder o jogo automaticamente. Podem existir 2 modos de jogo, 1 em que não há paredes, e quando você tenta atravessar uma delas você acaba saindo do lado oposto da matriz. Outro modo caso você atinja uma parede, perde o jogo. O jogo acaba quando todas as frutas são comidas ou os passos feitos pelo jogador chegam ao fim ou atinge um obstáculo. Objetos no mapa: . - representa um espaço vazio no mapa, onde a cobra pode caminhar. O - fruta # - local em que a cobra está % - obstáculo",
+    "format_input": "N x M Representando o tamanho da matriz utilizada para o mapa. Matriz N x M Matriz N por M que representa o estado atual do mapa. X - numero inteiro Numero inteiro representando o modo de jogo escolhido: 1. Caso não possa ultrapassar as bordas do mapa. 2. Caso possa ultrapassar as bordas. Comandos Uma linha única contendo todos os comandos que seriam realizados por um jogador, que podem ser: N - representando Norte, S - representando Sul, L - representando Leste, O - representando Oeste",
+    "format_output": "Matriz N x M Matriz N por M que representa o estado do mapa ao final do jogo. \" - GAME OVER - \" Caso o jogador tenha perdido o jogo por ter batido em um obstáculo ou parede. ou \"Parabens, voce venceu!\" Caso o jogador tenha comido todas as frutas do jogo. \"Numero de frutas comidas: X\" Uma linha contendo a quantidade de frutas comidas pela cobra, sendo X um número natural.",
+    "topics": [
+        "array",
+        "simulação de jogos",
+        "array bidimensional"
+    ]
+}

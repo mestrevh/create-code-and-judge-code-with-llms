@@ -1,0 +1,10 @@
+{
+    "title": "Trabalhos da Bia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bia é uma mulher muito suspeita, conhecida por oferecer serviços que deixam todos felizes. Certo dia Ana resolveu ler a mão da Bia e isso revelou um número X! Esse número é a quantidade de trabalhos que Bia precisará realizar ou ela será incapaz de jogar beach tênis. Ela também receberá diversos valores após realizar os serviços. Para ajudá-la você precisará informar o número fatorial mais próximo do valor total recebido, se não, coisas ruins acontecerão! Obs: Como 0!=1!, use apenas 0!",
+    "format_input": "4 200 300 400 300",
+    "format_output": "Bia arrecadou 6! dinheiros e pode jogar tênis!",
+    "topics": [
+        "repetição"
+    ]
+}

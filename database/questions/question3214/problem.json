@@ -1,0 +1,10 @@
+{
+    "title": "AC2 - Ex. 5",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça programa que recebe um tempo dado em segundos e calcula quantos dias, horas, minutos e segundos ele representa.",
+    "format_input": "Número total de segundos",
+    "format_output": "Número de dias Número de horas Número de minutos Número de segundos",
+    "topics": [
+        "lógica matemática"
+    ]
+}

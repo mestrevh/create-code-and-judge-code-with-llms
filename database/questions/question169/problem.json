@@ -1,0 +1,12 @@
+{
+    "title": "Tamanho de uma frase",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fazer um programa para ler uma string e calcular seu tamanho (número de caracteres). Exemplo: Seja a string \"o rato\", então seu tamanho é 6.",
+    "format_input": "Uma string com no mínimo 1 caracter e no máximo 500.",
+    "format_output": "Um inteiro indicando a quantidade de caracteres da string.",
+    "topics": [
+        "array",
+        "acumulador",
+        "caractere"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Média e critério de aprovação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba as notas e a presença de um aluno, calcule a média e imprima a situação final do aluno. No semestre são feitas 3 provas, e faz-se a média ponderada com pesos 2, 2 e 3, respectivamente. Os critérios para aprovação são: 1 - Frequência mínima de 75%. 2 - Média final mínina de 6.0 (calculada com uma casa de precisão). E devem ser considerados os casos especiais descritos para a impressão dos resultados, com uma mensagem personalizada para cada situação. DICA: calcular com uma casa de precisão está associado ao valor que será salvo na memória e não à exibição da resposta, que deve seguir o formato especificado, independentemente de como estamos salvando o valor na memória. Uma coisa é o cálculo e outra a apresentação do resultado. Ou seja, o valor da média deve ser arredondado para uma casa de precisão antes de serem feitas as verificações que irão decidir se o aluno foi ou não aprovado. Para isso use a função round do Python, que funciona como mostrado no exemplo a seguir. Essa função recebe 2 parâmetros, o primeiro é o número a ser arredondado e o segundo é o número de casas decimais que queremos: >>> round(3.765, 1) 3.8 >>> x = 5.3158 >>> round(x, 2) 5.32",
+    "format_input": "A entrada serão três números reais no intervalo de 0 a 10, representando as notas do aluno, e um número real no intervalo de 0 a 1 representando a frequência. Não imprima nenhum texto para pedir os dados ao usuário.",
+    "format_output": "A saída do programa será um texto com a frequência e a média final do aluno, seguido de uma mensagem referente a sua situação no curso. Exemplo: Frequencia: 78% Media final: 6.5 <mensagem> Se o aluno for reprovado por faltas, a mensagem deve ser: Aluno reprovado por faltas! Caso contrário, temos 4 possibilidades de mensagens: a) aluno aprovado com média superior a 9 (não inclusivo - não inclui o 9): Aluno aprovado com louvor! b) aluno aprovado com média superior a 6 (inclusivo) e inferior a 9 (inclusivo): Aluno aprovado! c) aluno reprovado com média superior a 4 (inclusivo) e inferior a 6 (não inclusivo): Aluno de rec! b) aluno reprovado com média inferior a 4 (não inclusivo): Aluno reprovado!",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

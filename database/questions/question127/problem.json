@@ -1,0 +1,10 @@
+{
+    "title": "Teste ND",
+    "time_limit": "1 segundo(s)",
+    "descrition": "oi",
+    "format_input": "oi",
+    "format_output": "td bom?",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

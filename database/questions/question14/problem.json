@@ -1,0 +1,12 @@
+{
+    "title": "Posições Livres",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que, dado um tabuleiro e uma lista de sub-partes retangulares do tabuleiro, retorna o número de posições que não pertencem a nenhuma sub-parte.",
+    "format_input": "A entrada consiste de uma série de conjuntos de teste separados por linhas em branco. Um conjunto de teste começa com uma linha com três números W, H e N, indicando, respectivamente, a largura, a altura e o número de sub-partes do tabuleiro. Uma sub-parte é um subconjunto de casas do tabuleiro, identificado por duas coordenadas. Os valores W, H e N satisfazem as seguintes restrições: 1 <= W, H <= 500 e 0 <= N <= 99. Seguem N linhas, compostas de quatro inteiros X1, Y1, X2 e Y2, tais que (X1, Y1) e (X2, Y2) são as posições de dois cantos opostos de uma sub-parte. Estes valores satisfazem as seguintes restrições: 1 <= X1, X2 <= W e 1 <= Y1, Y2 <= H. O fim da entrada acontece quando temos W=H=N=0. Esta última entrada não deve ser considerada como um conjunto de teste.",
+    "format_output": "O programa deve imprimir um resultado por linha, seguindo o formato descrito no exemplo de saída.",
+    "topics": [
+        "acumulador",
+        "maratona",
+        "array bidimensional"
+    ]
+}

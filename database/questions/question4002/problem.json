@@ -1,0 +1,13 @@
+{
+    "title": "Surto de Covid-19 em turmas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Covid-19 é uma doença causada pelo coronavírus SARS-CoV-2. Quando a pandemia da Covid-19 foi decretada, o colégio Vai com Tudo precisou estabeleceu um Protocolo de Segurança e estabeleceu critérios para migração de aulas presenciais para remotas conforme a existência ou não de surtos. A escola vai considerar surto da COVID-19 em uma turma quando forem constatados mais de 20% de casos da doença confirmados através de exame RT-PCR em tempo real ou teste rápido para antígeno. Por isso, você foi contratado para desenvolver um programa para receber os dados das turmas e decidir qual será a modalidade de cada turma, ou seja, se será presencial ou remota.",
+    "format_input": "Um inteiro t (t>0), que representa a quantidade de turmas a serem analisadas. t linhas (t>=0) contendo o nome da turma e n caracteres (n>0), separados entre si por espaço em branco, que representam a informação se o aluno positivou ou não para a Covid ('p' para positivo, 'n' para negativo).",
+    "format_output": "Caso t=0, apresentar o texto 'Sem turmas para avaliar'. Caso t>0, seu programa deve imprimir o resultado da análise de cada uma das t turmas. Por exemplo, para a turma 8a, com oito alunos positivados e 32 alunos no total, a mensagem seria: Turma 8a volta para a modalidade remota: 8 alunos positivados de 32. Já para uma turma 9c, sem alunos positivados, a mensagem seria: Turma 9a continua na modalidade presencial",
+    "topics": [
+        "array",
+        "decisão",
+        "entrada formatada",
+        "repetição"
+    ]
+}

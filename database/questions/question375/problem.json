@@ -1,0 +1,12 @@
+{
+    "title": "Método de Leverrier",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Os autovalores de uma matriz são importantes para diversas aplicações na engenharia. Em dinâmica, os autovalores fornecem as frequências naturais do sistema. Se uma estrutura tiver frequências naturais próximas às frequências de excitação que ela irá sofrer durante sua vida útil, os deslocamentos gerados neste cenário podem ser excessivos, provocando colapso da estrutura. O caso mais famoso desse tipo de colapso é a ponte de Tacoma Narrows (EUA). http://faculty.plattsburgh.edu/margaret.campion/seconded/second/kent/kent.html https://www.youtube.com/watch?v=mfQk6ac4res Sendo assim, as estruturas devem ser projetadas de forma que suas frequências naturais sejam diferentes das frequências que a excitarão durante sua utilização (ventos, máquinas etc). O Método de Leverrier é um método numérico capaz de fornecer os coeficientes do polinômio característico de uma matriz: p(t) = det(tI-A) O polinômio característico de uma matriz A é caracterizado como o único polinômio mônico (o coeficiente de t^n é 1) de grau n tal que p(A) = a0*A^n + a1*A^(n-1) + a2*A^(n-2) + ... + a(n-1)*A + an*I = 0 As raízes do polinômio característico fornecem os autovalores da matriz. Nesta questão você deve implementar o algoritmo do Método de Leverrier de forma que dada uma matriz quadrada A, o algoritmo forneça os coeficientes do polinômio característico.",
+    "format_input": "Será fornecida uma matriz quadrada A de ordem n, cujos elementos são números reais. Exemplo: 1 0 1 2 5 0 1 0 3 Os elementos da matriz podem estar no formato convencional (-98.1) ou no formato de engenharia (-9.81e+01). Seu programa deve ler qualquer desses formatos.",
+    "format_output": "Na primeira linha devem ser impressas as somas sk = tr(A^k) (sendo 1<k<n) e, na segunda linha, os valores de pk (1<k<n), sendo: p(t) = det(tI-A) = t^n + p1*t^(n-1) + p2*t^(n-2) + ... + p(n-1)*t + pn Tanto os valores de sk quanto os de pk devem ser impressos usando a notação de engenharia com 2 casas decimais e separados por espaços. Exemplo: 9.00e+00 3.70e+01 1.65e+02 -9.00e+00 2.20e+01 -1.00e+01 Observação importante: se algum valor de pk for (em módulo) menor que a tolerância de 1*10^(-10), você deve substituí-lo por zero (0) e consequentemente sua representação impressa será 0.00e+00.",
+    "topics": [
+        "array",
+        "acumulador",
+        "formatação"
+    ]
+}

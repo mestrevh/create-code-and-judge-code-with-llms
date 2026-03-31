@@ -1,0 +1,10 @@
+{
+    "title": "Aquele dos ossos de dinossauro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ross conseguiu o patrocínio de um museu para receber alguns ossos de dinossauros e os apresentar em suas aulas, mas ele está preocupado em como esses ossos serão guardados na faculdade e está com medo que eles se misturem. Como você é um grande amigo, ele o pediu para criar um programa que determine como serão guardados no depósito. Detalhes Importantes: É necessário colocá-los em ordem alfabética por nome da espécie; Ross lhe informou que não serão recebidos dinossauros diferentes com a mesma letra inicial e a letra inicial sempre será maiúscula; Cada dinossauro tem um tamanho, portanto ele pediu que os ossos de um mesmo dinossáuro ficassem juntos. Importante: Essa questão REQUER a implementação de uma simulação de arrays dinâmicos. Dica: Se você constrói uma caixa que pode conter até 1 par de sapatos, mas você comprou outro sapato e quer ordená-los por cor. Faz-se necessário construir uma nova caixa que consiga guardar os dois pares juntos, uma vez que se você criar outra para apenas um par você não conseguirá enxergar o conteúdo e desta forma não saberá se estão ordenados por suas respectivas cores.",
+    "format_input": "Serão indeterminadas entradas compostas por: N S. N se refere ao tamanho ocupado pela espécie, ou seja, a quantidade de índices ocupados; S se refere ao nome da espécie;",
+    "format_output": "Após receber todas as entradas e armazenar os ossos corretamente, deverá ser impresso como ficaram os ossos ficaram dispostos no depósito, respeitando seu devido tamanho, separados por vírgula e espaço, iniciando e terminando com colchetes: [dinossauro1, dinossauro 2, dinossauro 3, ..., dinossauroN]",
+    "topics": [
+        "array"
+    ]
+}

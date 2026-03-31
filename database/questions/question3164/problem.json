@@ -1,0 +1,11 @@
+{
+    "title": "L2Q? - Por debaixo dos panos",
+    "time_limit": "2 segundo(s)",
+    "descrition": "É hora do grupo dos iluminados finalmente dominarem o mundo, que está fragilizado devido ao vírus criado por eles mesmo. Mas tem um problema, eles precisam se comunicar de forma que ninguém entenda. Então foi decidido que isso iria ser feito apenas através de número, e eles pediram para você programador os ajudarem nisso. Você irá receber uma sequência de dois números, que irão significar uma letra e quantas vezes, e através disso, deverá formar uma palavra. Caso sentir alguma necessidade de criar uma solução, pode se utilizar dos métodos: ord (https://www.programiz.com/python-programming/methods/built-in/ord), chr (https://www.programiz.com/python-programming/methods/built-in/chr), split (https://www.w3schools.com/python/ref_string_split.asp) e etc...",
+    "format_input": "Q Onde Q é o tamanho da palavra. Então irá repetir Q vezes: L N Onde L significa um número que irá receber uma letra, e N será a quantidade de vezes que irá ser escrita.",
+    "format_output": "P Onde P é a palavra formada, de forma que a primeira letra seja maiúscula.",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}

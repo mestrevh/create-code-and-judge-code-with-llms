@@ -1,0 +1,10 @@
+{
+    "title": "Álibi",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um crime grave ocorreu, e N pessoas prestaram depoimento na International Criminal Pernambuco Court (ICPC). O i-ésimo indivíduo, em seu depoimento, pode ter citado o j-ésimo indivíduo, se tornando álibi do mesmo, ou pode não ter citado ninguém. Em outras palavras, no caso do i-ésimo indivíduo citar, em seu depoimento, a j-ésima pessoa, o indivíduo i se torna álibi do indivíduo j. Dado a lista das pessoas citadas em cada depoimento, calcule a quantidade de pessoas que não possuem um álibi, e a quantidade de pessoas suspeitas. Uma pessoa i é suspeita se, e somente se, i não tem álibi, o único álibi de i é o próprio i, ou todos os álibis j de i que sejam diferentes do próprio i são suspeitos.",
+    "format_input": "A primeira linha da entrada contém T (1 ≤ T ≤ 200), o número de casos de teste. Cada caso começa comum inteiro N (1 ≤ N ≤ 7555), indicando a quantidade de indivíduos que prestaram depoimento. A seguir, haverá uma linha com N inteiros. Cada inteiro xi (0 ≤ xi ≤ N) indica que a i-ésima pessoa citou o x-ésimo indivíduo, ou 0 se a i-ésima pessoa não citou ninguém.",
+    "format_output": "Para cada caso de teste imprima “Caso #T: X Y”, onde T é o número do caso de teste, começando em 1, X é a quantidade de indivíduos sem álibi, e Y é a quantidade de indivíduos suspeitos, segundo a definição da questão.",
+    "topics": [
+        "grafo"
+    ]
+}

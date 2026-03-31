@@ -1,0 +1,10 @@
+{
+    "title": "Contas por categoria",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você recebeu a tarefa de totalizar os pagamentos efetuados por diversos departamentos de uma empresa e emitir um relatório organizado por categoria. Deseja-se exibir os totais por categoria e o total geral. Entrada A primeira linha contém um inteiro N, indicando a quantidade de pagamentos efetuados. As N linhas seguintes, contém, cada uma, um par de informações (A, B), onde A representa a categoria e B o valor. Saída A saída consiste em uma lista com os totais pagos por categoria e o total geral. 1 <= N <= 10 A é um caractere entre A..Z B é um valor inteiro entre 100 e 1000.",
+    "format_input": "10 A 1000 B 200 A 100 A 150 B 250 C 300 C 100 D 300 B 100",
+    "format_output": "A 1750 B 550 C 400 D 300 TOTAL3000",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

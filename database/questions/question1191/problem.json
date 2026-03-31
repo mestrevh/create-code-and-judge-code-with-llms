@@ -1,0 +1,11 @@
+{
+    "title": "L2Q3 - Red Wedding",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Passando pelas Gêmeas, você recebeu um caridoso pedido de ajudar a casa Frey a organizar uma festa de casamento que \"daria muito o que falar\". Você ajudará um guarda da casa Frey, a quem foi dada a tarefa de guardar os portões do salão do casamento que iria acontecer nas Gêmeas. Todo visitante que chegasse deveria ter o nome de sua casa anotado e, ao final de cada dia, o guarda deveria escrever \"FIM\" para denotar que os portões foram trancados. A fim de manter a segurança dentro da fortaleza, os Lannisters pediram aos Freys que, ao final do casamento, fosse feito um relatório de quantas pessoas de cada casa estiveram no casamento. Sua tarefa é fazer um sistema que receba como entrada as anotações feitas pelo guarda e retorne um relatório com as informações pedidas.",
+    "format_input": "A entrada é composta de vários nomes das casas registradas, podendo ser : Stark. Tully. Bolton. Karstark. Frey. Umber. Manderly. Caso o nome da casa não esteja nessa relação, ela será contabilizada como \"Outros\". O fim da entrada é indicado pela palavra \"FIM\" no lugar do nome da casa.",
+    "format_output": "Ao fim da execução deve ser impresso um relatório seguindo a seguinte forma: Stark: 4 Tully: 1 Bolton: 2 Karstark: 17 Frey: 5 Umber: 4 Manderly: 11 Outros: 23 O visitante é contabilizado em \"Outros\", caso o nome de sua casa não esteja na relação de casas registradas.",
+    "topics": [
+        "acumulador",
+        "decisão"
+    ]
+}

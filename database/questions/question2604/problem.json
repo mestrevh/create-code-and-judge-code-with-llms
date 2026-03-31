@@ -1,0 +1,10 @@
+{
+    "title": "Ordenação I",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente o algoritmo de ordenação que possua as seguintes propriedades: Usa a estratégia dividir e conquistar Algoritmo estável Algoritmo “not in place” Complexidade de tempo O(nlogn) Complexidade de espaço O(n) Comumente conhecido pela sua eficácia para ordenar listas encadeadas Fica absolutamente proibido o uso de métodos de ordenação nativos de quaisquer linguagens de programação. Você deve implementar seu próprio algoritmo para resolver os problemas.",
+    "format_input": "A primeira linha contém um número inteiro N que representa o número de vetores a serem ordenados. Em seguida há uma novo número de N novas entradas em formato de string. Estas entradas são os vetores a serem ordenados, estando os números do vetor separados por espaços. A string \"1, 7, 3, 4, 8, 2, 9\" representaria o array de inteiros [1, 2, 3, 4, 7, 8, 9].",
+    "format_output": "A saída deve retornar linha a linha todos os arrays ordenados.",
+    "topics": [
+        "ordenação"
+    ]
+}

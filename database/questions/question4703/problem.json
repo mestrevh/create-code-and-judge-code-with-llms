@@ -1,0 +1,10 @@
+{
+    "title": "Q07 - Contagem de Vogais em uma Palavra",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função chamada \"contar_vogais\" que recebe uma string e retorna a quantidade de vogais presentes nela no seguinte formato: Batata A: 3 E: 0 I: 0 O: 0 U: 0 descondisidere maiúsculas e minúsculas",
+    "format_input": "uma string",
+    "format_output": "a quantidade de vezes que cada vogal apareceu na frase",
+    "topics": [
+        "função"
+    ]
+}

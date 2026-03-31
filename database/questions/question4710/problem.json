@@ -1,0 +1,11 @@
+{
+    "title": "Q04 - Média de Três Notas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um procedimento chamado \"tabuada\" que recebe três notas de um aluno, calcula a média e imprime se ele foi aprovado ou reprovado (média mínima: 6.0).",
+    "format_input": "3 números reais",
+    "format_output": "\"Aprovado\" ou \"Reprovado\" de acordo com a média",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

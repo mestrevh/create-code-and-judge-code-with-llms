@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Seleção - I",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que recebe o valor de três arestas (número inteiro) e exibe uma mensagem indicando se podem formar um triângulo. Em caso afirmativo, indique se ele é equilátero, isósceles ou escaleno. Lembre-se: Para que um triângulo exista, a medida de qualquer um dos lados deve ser menor que a soma das medidas dos outros dois.",
+    "format_input": "3 4 5",
+    "format_output": "podem formar um triangulo escaleno",
+    "topics": [
+        "decisão"
+    ]
+}

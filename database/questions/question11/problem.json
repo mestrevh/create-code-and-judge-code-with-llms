@@ -1,0 +1,14 @@
+{
+    "title": "Tradução",
+    "time_limit": "1 segundo(s)",
+    "descrition": "\"Steve Trabalhos\" é um rapaz americano que gostou muito do Brasil e resolveu morar aqui. Ele descolou um trabalho de tradutor de textos. Entretanto, Steve ainda está um pouco atrapalhado com o português e cometeu alguns erros de tradução. O chefe disse a lista de palavras que estão erradas, seguidas da escrita correta. Assim, ajude o Steve a corrigir a lambança que ele fez.",
+    "format_input": "Consiste de dois inteiros n e m, indicando o número de regras de substituições, e o número de linhas do texto, respectivamente. Da segunda linha em diante, está uma sequência de n linhas indicando quais devem ser as substituições (estas são as regras de substituição) a serem realizadas e por fim, uma sequência de m linhas correspondendo ao texto errado que Steve gerou. As substituições estão no formato: STRING_A_SER_SUBSTITUIDA -> STRING_SUBSTITUTA. (perceba que existe um espaço antes e depois da string \"->\" ). A substituição pode ser somente de algumas letras em uma palavra. Por exemplo: 2 1 a -> o rei -> rainha O rato roeu A roupa do rei de roma Neste caso, a resposta correta seria: O roto roeu A roupo do rainha de romo A substituição deve distinguir maiúsculas de minúsculas. A entrada termina quando n=0 e m=0",
+    "format_output": "O texto corrigido.",
+    "topics": [
+        "multiplas entradas",
+        "entrada formatada",
+        "string",
+        "dicionário",
+        "formatação"
+    ]
+}

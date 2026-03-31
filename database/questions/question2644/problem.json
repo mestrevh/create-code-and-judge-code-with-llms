@@ -1,0 +1,10 @@
+{
+    "title": "DISPUTAS",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Felipe, um garoto apaixonado por números, se diverte fazendo cálculos, comparações e análises. Um domingo à tarde, ao observar os capitães de times escolhendo os lados do campo de futebol, por meio da técnica par ou ímpar, resolveu tomar nota dos resultados das disputas para posterior análise. As anotações do Felipe incluem a quantidade de disputas e os números apresentados pelos capitães dos times. Sua tarefa é criar um programa que recebe a quantidade de disputas (N) e os números apresentados por cada jogador (NJ). A saída deve exibir a quantidade de disputas que resultaram em pares (primeira linha) e impares (segunda linha) (Autor: Prof. Roberto). Restrições: (1 <= N <= 10) e (1 <= NJ <= 5).",
+    "format_input": "3 1 2 5 1 3 2",
+    "format_output": "1 2",
+    "topics": [
+        "obi"
+    ]
+}

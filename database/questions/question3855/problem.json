@@ -1,0 +1,16 @@
+{
+    "title": "Os registradores de Kammera Man",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kammera Man estava procurando sobre como computadores funcionam e interessou-se por Registradores e números binários e, assim, resolveu pesquisar mais sobre. Ele descobriu que: 1. Registradores são componentes presentes em circuitos que conseguem armazenar informações (bits). 2. Na linguagem assembly, os registradores de um processador são divididos em duas partes: Parte alta, que geralmente armazena instruções e a parte baixa, que geralmente armazena um valor. 3. Tanto a parte alta quanto baixa conseguem guardar uma palavra de 4 bits, cada uma, totalizando um registrador de 8 bits. Durante seu treino com Assembly, Kammera percebeu 6 instruções que a arquitetura do processador permitia fazer: Instrução 0: Lê um novo valor. Instrução 2: Mostra os valores armazenados pelo registrador na tela em decimal. Instrução 5: Mostra o valor armazenado elevado ao quadrado, em decimal. Instrução 8: Mostra o valor armazenado em hexadecimal. Instrução 12: Multiplica um inteiro (a ser lido) pelo valor armazenado e mostra na tela, em decimal. Instrução 15: Sai do programa. DICA: Como você irá receber uma palavra de 8 bits, é recomendado que você separe a parte baixa da parte alta do registrador, como se fossem duas palavras de 4 bits independentes. Após isso, você deve transformar ambas as palavras em números decimais. Caso você não esteja acostumado como funcionam números binários, aqui está um vídeo de como eles funcionam: https://www.youtube.com/watch?v=dQw4w9WgXcQ DICA 2: Use %X para imprimir o número hexadecimal maiúsculo. DICA 3: O bit da esquerda é o mais significativo.",
+    "format_input": "Você irá receber uma palavra de 8 bits, dividida da seguinte forma: As 4 primeiras (parte alta do registrador) As 4 últimas (parte baixa do registrador). Dessa forma, você estará recebendo a primeira instrução e o primeiro valor. Após isso, você ira receber apenas palavras de 4 bits (instruções), o programa roda enquanto a instrução for diferente de 15(1111). OBS: No caso em que a instrução é 0, você irá receber uma palavra de 4 bits, que será colocada na parte baixa do registrador. EXEMPLO: 0 0 0 0 1 1 1 1 -> Instrução = 0, Valor = 15. 0 1 0 1 -> Lê novo valor (5). 0 1 0 1 -> Lê a nova instrução (5) 25 -> Saída 1 1 1 1 -> Finaliza o programa. OBS2: No caso em que a instrução é 12, você irá receber um inteiro, que pode ser armazenado numa variável qualquer. EXEMPLO: 1 1 0 0 1 0 1 0 -> Instrução = 12, Valor = 10. 2 -> Lê o número a ser multiplicado. 20 -> Saída 1 1 1 1 -> Finaliza o programa",
+    "format_output": "Instrução 2: \"O registrador tem os seguintes valores:\\n\" \"High: %d\\n\" \"Low: %d\\n\" Instruções 5, 8, 12: O resultado seguido de uma quebra de linha. No caso de nenhuma das instruções: \"ERRO: A instrucao nao existe.\\n\"",
+    "topics": [
+        "números binários",
+        "multiplas entradas",
+        "array",
+        "decisão",
+        "entrada formatada",
+        "ciclos",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Série",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia da entrada padrão o valor N que representa a quantidade de termos da série abaixo e os somem de acordo com a fórmula abaixo. Um termo corresponde ao resultado da fórmula para cada valor de n. O resultado deve ser exibido na saída padrão. Atenção: O intervalo é [0,N). Após exibir o resultado da soma, o programa deve exibir os valores de cada termo da série em ordem inversa. O programa deve obrigatoriamente fazer uso de funções para resolvê-la.",
+    "format_input": "valor inteiro N",
+    "format_output": "valor em ponto flutuante",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}
