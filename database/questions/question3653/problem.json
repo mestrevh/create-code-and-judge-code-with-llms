@@ -1,0 +1,11 @@
+{
+    "title": "Verificar anterior e próximo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você vai receber um número de entradas e após ela N entradas, seu programa quer saber se na posição atual do array, ele tem o array na posição-1 um número antecessor ao número atual, e na posição do array+1 ele tem um número sucessor ao número atual, isso é uma sequência de 3 números, se sim imprima o número atual. Tenha cuidado ao acessar o primeiro e o último valor, já que eles não tem anterior nem próximo",
+    "format_input": "Receberá um número N e após isso N entradas: 4 1 5 6 7",
+    "format_output": "Como na entrava tivemos: 4 1 5 6 7 A saída são os números que possuem o antecessor e o sucessor na posição-1 e na posição+1 deles. No caso a saída seria: 6 (Se tiver + de um número da saída imprima ele com quebra de linha \"\n\")",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

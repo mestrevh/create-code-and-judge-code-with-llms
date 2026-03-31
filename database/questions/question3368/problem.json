@@ -1,0 +1,10 @@
+{
+    "title": "Soma de dois dígitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que calcule a soma do primeiro com o último dígito de um número natural.",
+    "format_input": "Um número natural N.",
+    "format_output": "Um número natural correspondente à soma do primeiro com o último dígito do número de entrada.",
+    "topics": [
+        "repetição"
+    ]
+}

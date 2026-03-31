@@ -1,0 +1,14 @@
+{
+    "title": "Vamos fazer um minHeapSort",
+    "time_limit": "4 segundo(s)",
+    "descrition": "Crie um programa que cumpre os seguintes requisitos: 1. Recebe um array númerico como entrada, que pode ter qualquer tamanho. 2. Ordena esse array usando um algoritmo Heap Sort. A ordenação deve pegar o menor elemento. 3. Exibe o array original e o array formatado.",
+    "format_input": "Um sequencia de números na mesma linha, separados apenas por um espaçamento simples.",
+    "format_output": "A saída deve exibir o array original e uma lista ordenada, com suas respectivas mensagens. (Exemplo a seguir).",
+    "topics": [
+        "estrutura de dados",
+        "array",
+        "eof",
+        "ordenação",
+        "ponteiro"
+    ]
+}

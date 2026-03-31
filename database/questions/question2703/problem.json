@@ -1,0 +1,10 @@
+{
+    "title": "Q2 - P1A",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Escreva um programa que a partir da média de 3 notas, do número de aulas e faltas do aluno, defina seu resultado na disciplina. Os resultados possíveis são: APROVADO e REPROVADO. Para ser considerado APROVADO, o aluno precisa se enquadrar em uma das seguintes situações: a) Frequência maior ou igual 75% com média maior ou igual a 5; b) Frequência maior ou igual a 50% caso a média seja maior ou igual a 7. Caso não se enquadre em pelo menos uma delas, é considerado REPROVADO.",
+    "format_input": "O usuário deve digitar cinco números, representando, respectivamente, a nota 1, a nota 2, a nota 3, o número de aulas e as faltas do aluno. As notas são digitadas de 0 a 10, e o programa deve verificar se cada nota está dentro deste intervalo.",
+    "format_output": "O programa deve exibir se o aluno foi aprovado ou não, ou se o usuário digitou uma nota inválida, imprimindo na tela os valores abaixo: Digite a nota 1: Digite a nota 2: Digite a nota 3: Digite o numero de aulas: Digite o numero de faltas: NOTA INVALIDA VALOR DEVE ESTAR ENTRE 0 E 10/APROVADO/REPROVADO",
+    "topics": [
+        "lógica matemática"
+    ]
+}

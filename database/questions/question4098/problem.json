@@ -1,0 +1,13 @@
+{
+    "title": "Maior Soma de Dígitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Serão dados vários números inteiros positivos. Seu programa deve calcular a soma de dígitos de cada número lido. Ao ler o valor -1, seu programa deve printar o número que resultou na maior soma de dígitos e, em outra linha, a maior soma de dígitos. OBS1: É garantido que será dado, no mínimo, um inteiro positivo antes de ser dado -1; OBS2: Caso dois números resultem numa mesma soma de dígitos e essa soma for a maior, considere o número que veio primeiro.",
+    "format_input": "Serão dados vários números inteiros não negativos, e, eventualmente, o valor -1. OBS: É garantido que os valores dados estarão no intervalo [0, 2147483647] (isto é, cabem na variável de tipo int).",
+    "format_output": "Deve-se printar o número que gerou a maior soma de dígitos, e, na próxima linha, a maior soma de dígitos.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "função",
+        "recursão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Estudante Vitores",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Vitores quer entrar no curso de Engenharia e decidiu estudar matemática, ele criou um programa de como encontrar os resultados de seus exercícios. Crie um programa que encontre como fazer o exercício por Vitores, sabendo que ele faria manualmente essas equações, o programa seguirá um padrão de operações: 1. Ao quadrado 2. Resto da divisão 3. Multiplicação 4. Divisão 5. Soma 6. Subtração Lembrando ele quer o mesmo resultado que manualmente, então se ele já tentou Divisão, ele não vai tentar as operações anteriores, mas as posteriores. Imprima quais operações resolvem a equação. Obs: No caso Quadrado, C é resultado de A apenas.",
+    "format_input": "A entrada deve ser 3 números inteiros, A, B e C. Onde C é o resultado entre A e B. obs: No caso Quadrado, C é resultado de A apenas.",
+    "format_output": "Verifique qual operação 'X' resolve a equação e imprima \"X Vitoris\". Se houver mais operações, imprima N linhas de \"tambem X\". Onde X é: Quadrado, Resto, Multi, Div, Soma, Sub. Lembrando que seguindo a ordem de operações, o programa não repete as equações anteriores. Caso não encontre nenhuma operação 'Impossivel vitores' Obs: No caso Quadrado, C é resultado de A apenas.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

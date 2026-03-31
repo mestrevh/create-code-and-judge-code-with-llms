@@ -1,0 +1,11 @@
+{
+    "title": "Maças",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As maçãs custam R$0,30 cada se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o valor total da compra.",
+    "format_input": "O usuário deve digitar o número de maças (inteiro)",
+    "format_output": "O programa deve exibir valor total da compra de maças, com 2 casas decimais, imprimindo na tela os valores abaixo: Digite a quantidade de macas: Valor total: R$ n",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

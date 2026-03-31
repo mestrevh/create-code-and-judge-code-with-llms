@@ -1,0 +1,10 @@
+{
+    "title": "Dias no ano",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desenvolva um programa que permita calcular quantos dias se passaram desde o início do ano. Considere a possibilidade do ano ser bissexto. O cálculo deve contar com primieiro e último dia. Assim, por exemplo, de 1 de janeiro até 3 de janeiro, se passaram três dias. O programa deve definir uma ou mais funções. Como informação que pode ser útil na sua solução, a quantidade de dias que se passaram até o último dia de cada mês em um ano que não é bissexto é dada na seguinte tabela: mês - dias até o final do mês: 1 - 31, 2 - 59, 3 - 90, 4 - 120, 5 - 151, 6 - 181, 7 - 212, 8 - 243, 9 - 273, 10 - 304, 11 - 334, 12 - 365.",
+    "format_input": "Três inteiros representando uma data (dia, mes e ano), todos na mesma linha.",
+    "format_output": "Quantos dias se passaram desde o primeiro dia do ano da data de entrada.",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Calculadora dos calouros - decimais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pedro é horrível com matemática, então decidiu pedir ajuda a você, um calouro extremamente inteligente, para fazer os cálculos para ele. Serão dados 2 números com pontos flutuantes. a primeira operação será a soma a segunda operação será uma subtração a terceira operação será uma multiplicação a quarta operação será uma divisão",
+    "format_input": "dois números n1 e n2.",
+    "format_output": "deve mostrar os resultados das operações com apenas 2 casas decimais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

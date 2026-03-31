@@ -1,0 +1,12 @@
+{
+    "title": "Analista de estoque",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Letícia é uma entusiasta da computação e foi convocada para ajudar em uma loja. Sua tarefa é criar um programa que organize os produtos em uma lista de prioridade. Para isso, ela deve implementar um algoritmo que utilize recursão para: 1. Ler N valores inteiros representando os preços dos produtos. 2. Armazenar os valores em um array. 3. Ordenar os produtos do mais caro para o mais barato. 4. Calcular e exibir o valor total do estoque (soma de todos os preços). 5. Exibir a lista de preços já ordenada.",
+    "format_input": "a primeira linha contém um valor N indicando o numero de produtos do estoque, seguido de N números indicando o valor de cada produto.",
+    "format_output": "Primeira linha: os produtos em ordem do mais caro para o mais barato, separados por espaço. Segunda linha: o valor total do estoque.",
+    "topics": [
+        "array",
+        "acumulador",
+        "recursão"
+    ]
+}

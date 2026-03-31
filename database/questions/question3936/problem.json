@@ -1,0 +1,10 @@
+{
+    "title": "Classificação nas Olimpíadas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A classificação nas olimpíadas se dá contando em primeiro lugar o número de medalhas de ouro. No caso de empate em ouros, conta-se as de prata. Por fim, no caso de empate em ouros e pratas, conta-se o número de bronzes. Escreva um programa que receba o número de cada tipo de medalhas, ou seja, ouros, pratas e bronzes, de três países e que imprima o nome dos países seguindo a ordem de classificação, imprimindo primeiro o melhor classificado. Se dois países tiverem a mesma classificação, deve-se imprimir seguindo a ordem alfabética dos seus nomes. Restrições: 1. Defina uma função que dadas as medalhas de dois países, retorne o valor booleano True se e somente se o primeiro país está melhor classificado que o segundo. 2. Só poderão ser usados elementos de Python vistos nas aulas até o momento. Defina mais funções se for conveniente.",
+    "format_input": "Três linhas, cada uma contendo o nome do país seguido de três números naturais correspondentes às quantidades de ouros, pratas e bronzes que o país obteve, respectivamente. O nome de um país não contém espaços em branco.",
+    "format_output": "O nome dos três países seguindo a ordem classificatória, cada um em uma linha própria.",
+    "topics": [
+        "decisão"
+    ]
+}

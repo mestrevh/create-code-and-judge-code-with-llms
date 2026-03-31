@@ -1,0 +1,11 @@
+{
+    "title": "Aventuras pela UFPE",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Estudar na UFPE tem seus benefícios, entre encontrar com amigos, tocar grama e conhecer as mais diversas pessoas. Porém, também tem suas desgraças, como andar que nem condenados entre os diversos departamentos, ou conseguir água para viver mais um dia. Uma determinada aluna terá que passar por uma provação ingrata que a universidade promove. Ela irá partir do CTG, indo em seguida para o CIn, depois para o CCS, por fim voltando para o CTG. No entanto, ela percebe que sua garrafa está vazia, e não acredita ser capaz de completar esse percurso sem água. Usando da tecnologia como sua melhor amiga, ela decidiu consultar amigos nesses centros sobre a presença ou não de água, e também checou o GPS para ver a distância entre os centros. Ela também tem uma noção do quão rápido ela consegue andar, mas não sabe quanto tempo irá levar no percurso ou se será capaz de completá-lo. E aqui entra você, programador! Faça um programa que diga se a aluna será capaz de fazer o percurso e, caso sim, quanto tempo ela irá levar.",
+    "format_input": "O seu programa irá receber inicialmente um valor v, referente à velocidade média da aluna, que será um número de ponto flutuante. Em seguida, serão fornecidas as informações de distância entre os centros e se há água no centro para o qual ela está indo, na ordem em que o percurso foi citado no texto. As distâncias serão números de ponto flutuante, enquanto a presença de água no centro será dada por inteiros binários (0 ou 1). O valor de velocidade será dado em metros por segundo, enquanto as distâncias serão dadas em metros. Esses valores serão sempre positivos.",
+    "format_output": "Seu programa terá dois tipos diferentes de saída. O primeiro tipo consiste em caso a aluna não seja capaz de completar o percurso, resultando na seguinte saída: Nao vai ter como completar o percurso, RIP. Caso seja possível completar o percurso, teremos uma saída diferente, informando a possibilidade de completar e quanto tempo irá levar: O percurso sera completado em t segundos! Em que t é o valor de tempo obtido a partir da velocidade média da aluna, com duas casas decimais.",
+    "topics": [
+        "números binários",
+        "decisão"
+    ]
+}

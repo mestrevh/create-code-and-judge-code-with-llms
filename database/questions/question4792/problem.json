@@ -1,0 +1,10 @@
+{
+    "title": "Segurança no Parque",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Omsare foi contratado como segurança do parque de diversões de sua cidade, entretanto devido ao enorme número de visitantes, Omsare não tem dado conta do trabalho sozinho, sabendo que você é aluna do curso de Ciência da Computação, Omsare te pediu que fizesse um programa que o ajudasse nessa tarefa. As regras são bem simples, os brinquedos possuem idade e altura mínima, caso o cliente não atenda a um desses critérios, ele não poderá entrar no brinquedo. O seu programa deverá avaliar se determinado cliente está apto a entrar no brinquedo. No entanto, devido ao recente aumento no número de acidentes, clientes menores de idade (idade < 18), OBRIGATORIAMENTE devem estar acompanhados se atenderem os critérios de idade mínima e altura mínima.",
+    "format_input": "Dois números inteiros, Im e Am representando, respectivamente, a idade mínima e altura mínima do brinquedo em cm. Em seguida, dois números inteiros, Ic e Ac representando, respectivamente, a idade do cliente e a altura do cliente em cm.",
+    "format_output": "Imprima o texto \"Sim\", caso o cliente esteja apto para entrar no brinquedo, \"Sim - Acompanhado\" caso o cliente esteja apto, mas seja menor de idade e \"Não\" caso o cliente não esteja apto.",
+    "topics": [
+        "decisão"
+    ]
+}

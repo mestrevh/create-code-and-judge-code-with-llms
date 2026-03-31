@@ -1,0 +1,10 @@
+{
+    "title": "Redenção de Polita",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Polita recebeu uma nova missão: criar um gráfico de barras baseado em uma matriz. Seu objetivo é ajudá-la a completar essa tarefa! Você vai receber uma matriz de inteiros com N linhas e M colunas, mais um número x. Seu objetivo é montar um gráfico de barras com a quantidade de vezes que esse número x aparece em cada coluna da matriz. O processo será dividido em duas partes: Primeiramente, você terá que montar um vetor em que cada elemento na posição i representa quantas vezes o número x apareceu na coluna i da matriz. Exemplo com x = 5 4 5 5 7 8 5 3 5 0 7 5 4 5 9 0 0 9 5 5 5 Resultaria no vetor: 2 1 4 1 1, Pois o número 5 aparece 2 vezes na coluna 0, 1 vez na coluna 1, 4 vezes na coluna 2, 1 vez na coluna 3, 1 vez na coluna 4. A 2º parte da sua missão é montar uma matriz de 0 e 1 que representa o gráfico de barras dessa imagem. O tamanho dessa matriz será AxM, onde A é a quantidade máxima de vezes que o número x se repetiu em uma única coluna. Em cada coluna, os primeiros i elementos (quantidade de vezes que o número x se repetiu nessa coluna) serão o número 1 e o resto será 0. baseado no exemplo anterior de vetor 2 1 4 1 1: 1 1 1 1 1 1 0 1 0 0 0 0 1 0 0 0 0 1 0 0 Ajude Polita a formar esse histograma para qualquer matriz!!!",
+    "format_input": "A entrada consiste de três inteiros N, M e X, onde N e M representam a quantidade de linhas e colunas da matriz e X representa o número a ser procurado. Esses inteiros serão seguidos de uma matriz com N linhas e M colunas.",
+    "format_output": "Um vetor que representa a quantidade de números X em cada coluna seguido de duas quebras de linha. Em seguida, uma matriz que representa o gráfico de barras",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Menor mais próximo da média",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que exiba o menor valor mais próximo da média dos elementos de um vetor de inteiros.",
+    "format_input": "A entrada consiste de um número natural N (1 <= N <= 100), correspondente à quantidade de elementos do vetor, seguido de N inteiros.",
+    "format_output": "Na primeira linha, deve ser exibida a média dos elementos do vetor com duas casas decimais. Na segunda linha, o menor inteiro mais próximo da média calculada deve ser apresentado, ou a mensagem \"Inexistente\", caso esse valor não exista no vetor.",
+    "topics": [
+        "array"
+    ]
+}

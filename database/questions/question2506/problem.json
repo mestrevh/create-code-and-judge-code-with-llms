@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Vetores - B",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que preenche um vetor com 10 números inteiros dados pelo usuário e, ao final, exibe os itens do vetor em ordem contrária à da entrada.",
+    "format_input": "Uma sequência de dez números inteiros, um por linha.",
+    "format_output": "A sequência de números inteiros dada na entrada, um número por linha, por em ordem contrária.",
+    "topics": [
+        "array"
+    ]
+}

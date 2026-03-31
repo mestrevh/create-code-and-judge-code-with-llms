@@ -1,0 +1,16 @@
+{
+    "title": "Juntando Pilhas e Fila",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Criar uma função juntar_pilhas_fila que consome duas pilhas e uma fila para uma nova pilha e retorne essa última pilha. A função deve preencher a pilha final na seguinte sequencia: 1 item da primeira pilha, 1 item da segunda pilha e 1 item da fila, e assim sucessivamente, até consumir por completo as pilhas e a fila.",
+    "format_input": "Quantidade de Elementos da 1a Pilha Elementos da 1a Pilha Quantidade de Elementos da 2o Pilha Elementos da 2a Pilha Quantidade de elementos da Fila Elementos da Fila",
+    "format_output": "Imprimir a Pilha Final",
+    "topics": [
+        "estrutura de dados",
+        "array",
+        "decisão",
+        "repetição",
+        "pilha",
+        "função",
+        "ponteiro"
+    ]
+}

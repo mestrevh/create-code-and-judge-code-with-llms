@@ -1,0 +1,10 @@
+{
+    "title": "Simple Nosedive",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em Nosedive, episódio não tão distante da realidade (que mostra a que ponto chegou o nível da classificação social de cada indivíduo), o sistema consiste em avaliar cada um por uma nota. A partir daí, as pessoas que compactuam com esse modelo, selecionaram você para desenvolver o sistema (infelizmente :( ). Seu programa deve inserir a pessoa no sistema e avaliar a mesma com uma nota. Sendo essa inserção da maior para a menor nota. A fim de facilitar a impressão ordenada decrescente dos membros do sistema. OBS: É obrigatório o uso de lista encadeada para resolução da questão.",
+    "format_input": "As entradas são : inserir : Insere e avalia a pessoa no sistema; nota : Inteiro correspondente a nota do indivíduo cadastrado no sistema. imprimir : Imprime todas pessoas inseridas no sistema; sair : Para fechar o sistema; Enquanto as entradas forem diferentes de \"sair\", seu código, processará a entrada, caso seja válida. Quando a entrada for \"sair\", seu programa deve parar a execução.",
+    "format_output": "Para cada um que o sistema inserir você deve mostrar a seguinte saída : \"[nome] foi inserido no sistema! Sua nota e de [nota].\" Sendo [Nome], uma string referente ao nome da pessoa a ser inserida. E [nota] um inteiro representando sua nota. Após, deverão ser impressas todas as pessoas cadastradas no sistema na seguinte forma : [nome0] [nota0] [nome1] [nota1] [nome2] [nota2] . . . [nomeN] [notaN] Ou seja, você deve imprimir [nome] - uma string sendo o nome da pessoa presente na lista. E sua respectiva [nota] - sendo sua nota. OBS: lembre-se que a impressão da lista deverá ser feita por ordem decrescente de nota.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

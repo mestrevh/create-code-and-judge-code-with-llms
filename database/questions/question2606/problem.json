@@ -1,0 +1,11 @@
+{
+    "title": "Substring",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado duas strings, determine se elas compartilham alguma substring em comum. Uma substring pode ser tão pequena quanto um caractere. Implemente uma função que retorne “Compartilham Substring” caso as palavras compartilhem uma substring em comum. E “Não Compartilham Substring” caso não compartilhem. Por exemplo, as palavras “musica” e “pera” compartilham em comum a substring “a”. As palavras “caixa” e “jogo” não compartilham nenhuma substring em comum.",
+    "format_input": "A primeira linha deve conter um inteiro t, o número de casos de teste. Os t pares de linhas seguintes devem conter: String1 String2",
+    "format_output": "Para cada par de string retorne “Compartilham Substring” ou “Nao Compartilham Substring”",
+    "topics": [
+        "subconjuntos",
+        "substrings"
+    ]
+}

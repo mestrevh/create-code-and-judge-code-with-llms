@@ -1,0 +1,10 @@
+{
+    "title": "Naruto e as fichas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Naruto decide ir ao Arcade depois de tanto treinamento para espairecer um pouco as suas ideias. Ao chegar lá, descobre que as fichas usadas para jogar em cada máquina possuíam tamanhos diferentes. Naruto teve a ideia de usar suas Shurikens no lugar das fichas. Para isso, ele criou uma codificação, relacionando cada tamanho de ficha com o nome de uma Shuriken. Sendo assim, Naruto pediu para você fazer um programa que realiza três atividades: 1) Associa o tamanho das fichas ao nome das Shurikens; 2) Ordena a tabela de códigos por tamanho de ficha, da menor para a maior; 3) Informa o nome da Shurikens que está na i-ésima posição da tabela de código ordenada. Segue um exemplo das três atividades: Atidade 1 - Codificação Shuriken1 13cm Shuriken2 14cm Shuriken3 12cm Shuriken4 09cm Atividade 2 - Ordenação Shuriken4 09cm Shuriken3 12cm Shuriken1 13cm Shuriken2 14cm Atividade 3 - Retorna o nome da Shurikens na i-ésima posição da tabela ordenada Assumindo i igual a 2, seria retornado o nome Shuriken3. OBS: É garantido que não haverão shurikens de tamanhos iguais DICA: Para ordenar arrays de forma crescente, utilizando o bubble sort, como visto em sala, você precisa seguir os passos: Para cada posição X do array, é realizada uma comparação com cada uma das outras posições Y do array, caso o valor na posição X seja maior que o valor na posição Y, haverá a troca dos valores nas posições X e Y. Você deve repetir estes passos N vezes, para um array de tamanho N.",
+    "format_input": "N - número de possíveis tamanhos de fichas. N linhas com a codificação no formato: NOME-1 T-1 NOME-2 T-2 … NOME-N T-N Representando a codificação, em que, Nome-i corresponde ao nome da Shuriken e T-i ao tamanho da ficha (em centímetros) Seguido de: i - índice da tabela de codificação ordenada.",
+    "format_output": "Deverá ser impresso: “Naruto devera usar a shuriken NOME para esta maquina.” Substituindo NOME pelo respectivo nome da Shuriken.",
+    "topics": [
+        "acumulador"
+    ]
+}

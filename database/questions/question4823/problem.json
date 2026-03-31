@@ -1,0 +1,14 @@
+{
+    "title": "Desenvolvendo o Code Crush",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi contratado por uma grande empresa de jogos para ajudar no desenvolvimento do Code Crush, a nova versão do clássico jogo de combinar doces, Candy Crush. Sua missão é programar uma parte essencial: o sistema de pontuação do tabuleiro! O jogo representa o tabuleiro como uma matriz quadrada de tamanho a x a, onde cada número indica o tipo de doce. Existem b tipos diferentes de doces, numerados de 1 até b. Durante os testes, o time de design decidiu que o jogo deve reconhecer sequências de exatamente três doces iguais, que podem aparecer nas seguintes direções: Linha (horizontal) → vale 1 ponto Coluna (vertical) → vale 2 pontos Diagonal da esquerda para a direita → vale 3 pontos Diagonal da direita para a esquerda → vale 4 pontos Você deve escrever um programa que leia o tamanho da matriz, a quantidade de tipos de doces e os valores da matriz, e então calcule a pontuação total e o número de sequências encontradas. Observação: Nenhuma sequência será maior do que três doces — o time de balanceamento não deixou!",
+    "format_input": "Um inteiro a, representando o tamanho da matriz (a x a); Um inteiro b, representando a quantidade de tipos de doces; Em seguida, a*a inteiros representando o tabuleiro do jogo.",
+    "format_output": "Seu programa deve exibir uma mensagem personalizada, conforme o desempenho do jogador: 1. Se não houver sequências: \"Poxa, voce nao pontuou :(\" 2. Se a pontuação total for 1: \"Voce so fez um ponto :/\" 3. Caso contrário: \"Voce fez X pontos e foram registradas Y sequencias :)\"",
+    "topics": [
+        "array",
+        "acumulador",
+        "simulação de jogos",
+        "array bidimensional",
+        "busca"
+    ]
+}

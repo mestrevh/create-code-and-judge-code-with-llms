@@ -1,0 +1,11 @@
+{
+    "title": "O Quarteto Fantástico da Matemática",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dutrinha, Alvinho, Wendel, Gersin são quatro amigos que gostam muito de estudar. Certo dia, enquanto cursavam matemática com André Costa, eles aprenderam sobre análise combinatória, um método muito interessante de encontrar o número de combinações de elementos. Eles descobriram que existe uma fórmula para calcular essas combinações que é: n!/(k!*(n – k)!), em que n representa o número de elementos do conjunto e k a quantidade de vezes que diferentes elementos desse conjunto podem ser escolhidos. O sinal de '!' representa o fatorial desse número. Ajude os quatro amigos criando um programa que receba como entrada dois números inteiros, n e k, e retorne a combinação de n escolhe k.",
+    "format_input": "Dois números inteiros n e k, respectivamente.",
+    "format_output": "O resultado da combinação de n escolhe k.",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

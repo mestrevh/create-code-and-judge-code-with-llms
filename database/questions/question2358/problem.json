@@ -1,0 +1,12 @@
+{
+    "title": "String e números - soma",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O problema a ser resolvido é bem simples. Consiste em somar dois números inteiros. O problema é que na entrada de dados não são inseridos números e sim strings de números. Os números são inseridos com um espaço entre seus algarismos. Por exemplo, 1ª seqüência: 8 2 4 3 4 2 5 1; 2ª seqüência: + 3 3 7 5 2 3 3 7; Soma: 1 1 6 1 8 6 5 8 8.",
+    "format_input": "Duas strings contendo, cada uma, uma sequência de algarismos separados por um espaço em branco.",
+    "format_output": "A soma dos números inteiros representados pelas sequências de algarismos lidas. No caso de em pelo menos uma sequência o usuário digitar algarismos sem espaço em branco, deve ser apresentada a mensagem \"Erro em uma ou mais sequencia de entrada de dados\".",
+    "topics": [
+        "array",
+        "repetição",
+        "string"
+    ]
+}

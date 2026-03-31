@@ -1,0 +1,10 @@
+{
+    "title": "3o ângulo do triângulo adaptado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em Python que peça para o usuário digitar o primeiro e o segundo ângulo de um triângulo e em seguida o seu programa deverá informar qual o terceiro ângulo do triângulo.",
+    "format_input": "Um float Um float",
+    "format_output": "Um float",
+    "topics": [
+        "lógica matemática"
+    ]
+}

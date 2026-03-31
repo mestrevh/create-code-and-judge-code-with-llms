@@ -1,0 +1,10 @@
+{
+    "title": "Maximizando amigo secreto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A empresa SuperPAA tem a tradição de oferecer uma festa de natal e, neste ano, foi decidido que não se realizará o sorteio tradicional para definir o amigo secreto. Desta vez, cada funcionário deverá manifestar à Secretaria de Eventos o nome do colega a quem gostaria de dar um presente. Com estas informações, a Secretaria precisa de sua ajuda para construir um algoritmo que maximize as vontades dos funcionários. Assim, você é convidado a escrever um programa que, seguindo o manifestado por todos os funcionários, determine o maior conjunto de funcionários que dá e recebe um e só um presente. Como a SuperPAA quer que todos os funcionários partipem da brincadeira, para aqueles que ficarão fora do conjunto a Secretaria de Eventos realizará o sorteio tradicional, mas isto não é uma questão que o seu programa deve se preocupar. Considere que a empresa pode ter um número muito grande de funcionários. Ainda que não seja realístico, casos de teste poderão considerar que há ~10^6 funcionários participando do amigo secreto.",
+    "format_input": "Para facilitar a escrita do seu programa, a Secretaria de Eventos numerou os funcionários de 1 até n. A primeira linha conterá o número n. As próximas n linhas conterão as escolhas feitas pelos funcionários, sendo que a primeira terá a escolha do funcionário número 1, a segunda será a escolha do funcionário 2, e assim por diante.",
+    "format_output": "Todos os elementos do conjunto requerido pelo problema listados um por linha e em ordem ascendente.",
+    "topics": [
+        "requer solução eficiente"
+    ]
+}

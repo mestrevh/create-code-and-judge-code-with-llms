@@ -1,0 +1,12 @@
+{
+    "title": "A travessia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você é um aluno de Engenharia da Computação que está há dias trancado no seu quarto, determinado a passar em Teoria da Computação. No entanto, devido à falta de contato com a luz do sol e com a natureza, seu amigo Rice sugeriu que você tivesse mais contato com árvores. Levando isso ao pé da letra, você decidiu explorar todas as formas possíveis de navegar em uma árvore binária. Primeiro, serão fornecidos alguns dados, e você deverá inseri-los em uma árvore de busca binária. Dados menores que o nó atual vão para a subárvore esquerda; caso contrário, seguem para a subárvore direita. Depois de construir a árvore, sua missão é imprimir todos os dados utilizando três percursos clássicos: pré-ordem, em ordem e pós-ordem.",
+    "format_input": "A primeira linha contém um número n (0 <= n <= 100). A segunda linha contém n valores i (0 < i <= 750000) que devem ser inseridos na árvore.",
+    "format_output": "A saída consiste em 3 linhas. A primeira linha começa com \"Pre order :\" e deve ser seguida pela impressão dos dados em pré-ordem. A segunda linha começa com \"In order  :\" e deve ser seguida pela impressão dos dados em ordem. A terceira linha começa com \"Post order:\" e deve ser seguida pela impressão dos dados em pós-ordem.",
+    "topics": [
+        "estrutura de dados",
+        "Árvore",
+        "busca binária"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Tiro ao Alvo Octave - T2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este mês ocorre o Mundial de Tiro Ao Alvo e as competições ocorrem em duas etapas. Para se classificar para a segunda etapa, cada competidor precisa somar pelo menos 100 pontos ao longo de 6 partidas. Escreva um programa que receba como entrada os pontos feitos por um competidor em cada uma das partidas da primeira etapa, e exiba uma mensagem informando se ele foi classificado ou não.",
+    "format_input": "O usuário deve digitar a pontuação em cada uma das seis etapas. O programa deve verificar se o valor não é negativo.",
+    "format_output": "O programa deve exibir a soma da pontuação e indicar se o competidor foi classificado ou não, imprimindo na tela os valores abaixo: Digite pontuacao da partida 1: (impresso pela funcao input) Digite pontuacao da partida 2: (impresso pela funcao input) Digite pontuacao da partida 3: (impresso pela funcao input) Digite pontuacao da partida 4: (impresso pela funcao input) Digite pontuacao da partida 5: (impresso pela funcao input) Digite pontuacao da partida 6: (impresso pela funcao input) Total de pontos: n. O competidor esta classificado/desclassificado. ou Valores negativos nao sao permitidos.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática"
+    ]
+}

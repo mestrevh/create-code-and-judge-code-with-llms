@@ -1,0 +1,12 @@
+{
+    "title": "Lucro Cantina",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Cantina do Ambrosio está passando por dificuldades e precisa analisar de quanto tem sido seu lucro ou prejuízo. Ambrósio sabe que determinados itens lhe dão prejuízo, mas que são importantes para que o cliente consuma outros que de fato lhe trazem lucro. Por isso você ficou responsável por processar uma lista de produtos contendo o nome do produto, a quantidade vendida, o custo médio unitário e o preço médio unitário de venda. Para cada produto, deve indicar o resultado obtido, isto é, qual foi o lucro ou prejuízo com aquele produto. No final você deve indicar se houve lucro ou prejuízo e de quanto foi este valor considerando todos os produtos comercializados. Observação: É necessário a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão.",
+    "format_input": "A entrada deve ser conforme o padrão abaixo: Linha 1: Nome do produto Linha 2: Quantidade, Custo médio unitário e Preço médio unitário de venda (separados por espaço) A entrada de dados se encerra quando for encontrado um produto com o nome *.",
+    "format_output": "Após a leitura dos dados de cada produto, deve imprimir uma mensagem com o nome do produto e seu lucro ou prejuízo (negativo) com 2 casas decimais. Em caso de ter havido lucro, deve seguir o padrão abaixo (valor com 2 casas decimais): Lucro de R$ 9.99 Em caso de ter havido prejuízo, deve seguir o padrão abaixo (valor com 2 casas decimais): Prejuizo de R$ 9.99 Em caso de não tido nem lucro e nem prejuízo, deve seguir o padrão abaixo: Sem lucro ou prejuizo",
+    "topics": [
+        "decisão",
+        "repetição",
+        "função"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Gabi adora desafios!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gabi entrou na faculdade de Engenharia e está muito animada com a cadeira de Cálculo 1, por isso ela quer usar seu conhecimento de linguagem C para criar um programa que calcule a derivada de uma função polinomial, ou seja: Gabi irá inserir quantos monômios terá a função e depois irá inserir um monômio de cada vez. Assim, considerando a função, teríamos o modelo de entrada: 3 3 x 3 -2 x 1 3 0 0 Observe que, no caso de uma constante, a incógnita e o expoente são iguais a 0. Dessa forma, você deve criar uma função com assinatura void derivada (int *coeficiente, int *expoente) que receba como parâmetro o endereço do coeficiente e do índice de cada monômio e calcule a derivada. Note que os valores devem ser passados por referência, com ponteiros, e não por cópia. A sua função principal deve imprimir a derivada seguindo o formato de saída até que o número de monômios inseridos seja igual a 0. Além disso, desconsidere casos com expoentes negativos. Lembre-se que: 1. Gabi pode inserir outras incógnitas além de x; 2. A derivada de uma constante é 0; 3. x^0 = 1, mas o 1 não deve ser impresso;",
+    "format_input": "A quantidade de monômios, seguido pelos monômios. Exemplo: 3 3 x 3 -2 x 1 3 0 0 0",
+    "format_output": "A derivada da função seguindo o formato: f’(x)=+9x^2-2",
+    "topics": [
+        "função",
+        "ponteiro"
+    ]
+}

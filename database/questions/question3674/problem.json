@@ -1,0 +1,11 @@
+{
+    "title": "Teh Adventujrs of Meme Man: Ida ao Mercado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Finalizando mais um dia atuando como kemist na Rubens Enterprise, empresa de encapsulamento de tempo líquido para uso pessoal da fundadora, Meme Man decide ir ao mercado reabastecer sua geladeira, seguindo seu sistema um tanto quanto louco. Entretanto, ele percebe que não tinha feito sua lista de compras, então ele liga para você e lhe pede para o dizer o quanto de cada item ele deve comprar a partir das seguintes regras: - Se ovos foram comprados, deve ser comprado leite para totalizar 2 litros juntamente com o que há em casa, caso não já se tenha pelo menos essa quantia. No entanto, se ovos não tiverem sido comprados, compre meio litro de leite; - Se laranjas foram compradas, compre duas bananas para cantar a música da Xuxa enquanto vai para casa; - * A não ser que já se tenha laranja em casa, compre uma quantidade de laranjas igual ao quadrado da quantidade de bananas que já estão em casa; - Se a quantidade total (casa + compras) de bananas for maior que a quantidade de ovos em casa, compre ovos até sua quantia total de ovos igualar-se à quantidade de laranjas compradas. Você, que possui conhecimento do sistema do Meme Man e está na casa dele nesse momento, deve informá-lo o quanto de cada item ele deve comprar, de acordo com as regras estabelecidas para garantir a nutrição do nosso querido personagem.",
+    "format_input": "Quatro inteiros positivos a, b, c, d (0 <= a, b, c, d <= 10^4) relativos à quantidade de cada item que já está na casa do Meme Man (laranjas, bananas, ovos e mililitros de leite, respectivamente).",
+    "format_output": "Se algum valor de entrada for negativo, o programa deve retornar \"lurn maf :(\", seguido de uma quebra de linha. Caso contrário, o programa deve retornar as seguintes frases, cada uma seguida por uma quebra de linha: \"w laranjas\" \"x bananas\" \"y ovos\" \"z mL de leite\" Com w, x, y e z sendo os valores encontrados a partir das regras da lista de compras. OBS: as frases devem ser printadas sem as aspas.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Área de um anel circular",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para calcular e mostrar a área de um anel circular cujos raios interno e externo são dados de entrada.",
+    "format_input": "Consiste dos números reais Ri e Re, que correspondem aos raios interno e externo, respectivamente.",
+    "format_output": "Consiste de um número real formatado com duas casas decimais, representando a área do anel circular descrito.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

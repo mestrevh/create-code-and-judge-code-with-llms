@@ -1,0 +1,13 @@
+{
+    "title": "Campeonato Maluco",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ordep e seus amigos amam futebol, eles decidiram criar um jogo de futebol onde temos N times, que se enfrentaram apenas 1 vez, ou seja se n = 3, teremos esses jogos: Note que todos os times se enfrentam apenas 1 vez. Cada time vai ter: - Um nome, com no máximo 20 caracteres - Quantidade de torcedores, o número de torcedores será o mesmo em todos os jogos - Quantidade de jogadores titular que vão jogar essa temporada - Quantidade de pontos na liga Neste campeonato, o time que ganhar a partida acrescenta 1 ponto, o que perder não acrescenta nada. OBS: Não existirá nenhuma partida com empate. Neste campeonato, o que define a vitória não é a habilidade dos jogadores, e sim a quantidade de torcedores e a quantidade de jogadores titulares. Para cada 1 torcedor, o time tem 0.001% de chance a mais de ganhar. Para cada 1 jogador titular jogando no campeonato, o time tem 3.75% de chance a mais de ganhar. Os times inicialmente tem 0% de chance de vitória. Após os cálculos citados anteriormente, o time que tiver a maior chance de vitória, ganha. No final, imprima o time com a maior pontuação.",
+    "format_input": "Um inteiro N, representando a quantidade de times em seguida vão vir N times, com as seguintes informações de cada time: - Nome, string de no máximo 20 caracteres - Inteiro t, representando a quantidade de torcedores - Inteiro j, representando a quantidade de jogadores",
+    "format_output": "A saída deve conter a seguinte frase: \"O grande vencedor foi X\", onde X é o nome do time com a maior pontuação",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição",
+        "recursão"
+    ]
+}

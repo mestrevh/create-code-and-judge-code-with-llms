@@ -1,0 +1,13 @@
+{
+    "title": "Ordep e a censo na empresa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ordep ficou encarregado de colher informações da empresa que trabalha, contudo, a empresa tem muitos funcionários e ele resolveu pedir sua ajuda como bom programador para automatizar essa tarefa, assim, ele reuniu todas as informações necessárias para o censo que vai ser feito e te passou e deseja saber quem é o funcionário que ganha o maior salário da empresa e quem é o funcionário mais jovem.",
+    "format_input": "A entrada contém um inteiro N (0 < N <= 100) que indica o número de funcionários da empresa. Cada uma das N linhas seguintes possuem 2 inteiros e um valor com ponto flutuante, sendo eles o identificador do funcionário, sua idade e o seu salário.",
+    "format_output": "Na saída você deve exibir todas as informações do funcionário com o maior salário e o funcionário com a menor idade que estão cadastrados na empresa como nos exemplos com uma quebra de linha entre o maior salário e a menor idade.",
+    "topics": [
+        "array",
+        "decisão",
+        "função",
+        "estruturas"
+    ]
+}

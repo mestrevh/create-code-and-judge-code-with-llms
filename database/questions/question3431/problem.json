@@ -1,0 +1,12 @@
+{
+    "title": "Trabalhando com listas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi contratado para escrever um programa simples de gerenciamento de pedidos para a pizzaria do seu bairro. A gerente da pizzaria precisa que seus atendentes possam adicionar e remover pedidos, além de exibir a lista atual de pedidos. Você então decidiu implementar uma primeira versão do programa, para testar a sua funcionalidade, e para isso a interação com o usuário se dará por linha de comando, sem uma interface gráfica por hora. O seu programa deverá aceitar alguns comandos pré-definidos e executar a ação correspondente.",
+    "format_input": "Cada ação realizada no programa será dada em uma linha diferente, sendo a entrada composta por um comando seguido de um valor separado por espaço quando necessário, referente ao número do pedido. As possíveis entradas são: ajuda: exibe um menu com a lista dos comandos existentes; sair: encerra o programa; exibir: exibe a lista atual de pedidos, caso a lista esteja vazia, exibe: \"sem pedidos\"; novo #pedido: adiciona o #pedido à lista de pedidos e exibe a mensagem de confirmação: \"pedido #pedido adicionado\"; cancela #pedido: remove o #pedido da lista de pedidos e exibe a mensagem de confirmação: \"pedido #pedido removido\", caso o pedido não exista na lista, deve exibir a mensagem \"pedido #pedido inexistente\". Veja os exemplos de resposta para entender melhor o funcionamento esperado para o seu programa.",
+    "format_output": "A saída devera conter o resultado correspondete aos comandos dados pelo usuário. O comando ajuda deverá exibir o seguinte texto ao usuário: ----------------------------------- Pizzaria 0.1 - menu de comandos ----------------------------------- - ajuda: exibe o menu de ajuda - sair: encerra o programa - exibir: exibe a lista de pedidos - novo #pedido: adiciona o #pedido - cancela #pedido: remove o #pedido -----------------------------------",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

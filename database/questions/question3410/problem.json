@@ -1,0 +1,12 @@
+{
+    "title": "Ponto dentro de dois círculos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considere os círculos definidos pelas equações abaixo: A: (x – 1)^2 + (y – 1)^2 <= 1 B: (x – 2)^2 + (y – 1)^2 <= 1 Escreva um programa que recebe um ponto (x,y) e verifica se esse ponto está no interior dos dois círculos, apenas no interior do círculo A, apenas no interior do círculo B, ou se ele é exterior. Observação: ponto no contorno é considerado pertencente.",
+    "format_input": "Dois números reais que correspondem às coordenadas x e y do ponto.",
+    "format_output": "'Interior A', 'Interior B', 'Interior A,B' ou 'Exterior' a depender de cada caso.",
+    "topics": [
+        "geometria computacional",
+        "decisão",
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Aninha e os Triângulos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Calma! Não são triângulos amorosos! Aninha é uma astuta matemática que sempre gostou muito de figuras geométricas, e o triângulo é sem dúvida a sua figura preferida! Certo dia ela estava treinando suas habilidades em programação e buscava por problemas envolvendo matrizes. Não contente, acabou com um enorme desejo de tentar desenvolver um código que, dada uma matriz binária m x n, achasse a quantidade de '1' (uns) que formavam o maior triângulo naquela matriz. (Obs.: Note que o triângulo deve ser INTEIRAMENTE preenchido por uns e triângulos da lado ou virados de cabeça para baixo não devem ser considerados!) Ela notou que as coisas ficariam menos complicadas se ela optasse por procurar apenas um triângulo com formatos específicos em sua matriz, então ela preferiu o triângulo isósceles pela sua enorme paixão por congruência.",
+    "format_input": "Você receberá como entrada dois inteiros m e n que indicam respectivamente a quantidade de linhas e a quantidade de colunas da matriz que será inserida. Logo após isso, você receberá uma matriz binária, ou seja, uma matriz apenas formada com zeros (0) ou uns (1), que possui dimensão m x n.",
+    "format_output": "A saída será um inteiro p, que indica a quantidade de '1' que formam o maior triângulo presente na matriz binária. Note que o menor triângulo nesse caso é formado por quatro números uns, ou seja, não considere que apenas um '1' seja considerado um triângulo válido. Atenha-se também ao detalhe de que apenas os triângulos isósceles devem ser calculados, ou seja, não procure por triângulos equiláteros ou por triângulos retângulos, mesmo que existam na matriz, não devem ser considerados nos cálculos.",
+    "topics": [
+        "ad-hoc",
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Labirinto++",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade encontrou um jogo online muito interessante: Labirinto++. Nesse jogo, os competidores apostam uma corrida num labirinto diferenciado. Esse labirinto possui t portais, cada portal i levam você de uma célula para outra célula em t_i segundos. Todos os competidores começam na célula (1, 1) (canto superior esquerdo) e devem terminar na célula (n, m) (canto inferior direito). É possível mover-se para qualquer uma das 4 células vizinhas (cima, baixo, direita e esquerda) em 1 segundo, e se a célula possuir um portal: é possível teleportar-se para o outro lado do portal em t_i segundos (os portais são bidirecionais e é possível que uma mesma célula tenha mais de um portal). A Entidade está gostando muito de jogar, mas queria comparar seu resultado com o melhor resultado possível. Ajude a Entidade a descobrir o caminho mais rápido possível para chegar na saída.",
+    "format_input": "A primeira linha da entrada possui dois inteiros n e m, indicando respectivamente a quantidade de linhas e colunas do labirinto. Em seguida virão n linhas com m caracteres o que a célula c_i_j possui ('.' - chão, '#' - parede, 'o' portal). Após isso, virá um inteiro t, indicando a quantidade de portais que existem no labirinto. E então virão t linhas, cada linha terá 5 inteiros: p1_i p1_j p2_i p2_j p_c, representando a célula dos dois lados do portal e quanto tempo leva para atravessá-lo. Limites: 1 <= n, m, t <= 1000; 1 <= p1_i, p2_i <= n; 1 <= p1_j, p2_j <= m; 0 <= p_c <= 1000",
+    "format_output": "A saída deverá conter um inteiro com o menor tempo possível para alcançar a saída do labirinto.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

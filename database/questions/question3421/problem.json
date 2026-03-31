@@ -1,0 +1,11 @@
+{
+    "title": "Função exponencial natural",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implementar um programa para calcular o valor de e elevado a x (ex). O valor de ex será calculado pela soma dos n primeiros termos da série a seguir:",
+    "format_input": "Um número real seguido de um número inteiro, correspondente ao valor de x e o número de elementos da série, respectivamente.",
+    "format_output": "Um número real formatado com 5 casas decimais correspondente ao valor de e elevado a x.",
+    "topics": [
+        "lógica matemática",
+        "repetição"
+    ]
+}

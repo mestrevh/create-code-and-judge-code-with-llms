@@ -1,0 +1,14 @@
+{
+    "title": "Ordenando Funcionários",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Crie um programa que tem a capacidade de cadastrar uma quantidade indeterminada de funcionários. Além disso o programa também deve ter funcionalidades para exibir de forma ordenada pela idade e pelo salário. O fluxo deve ser controlado por entradas numéricas conforme indicado a seguir: - O programa deve ter as seguintes funcionalidades na ordem determinada. 1. Cadastrar Funcionario (Recebe nome, idade e salário). 2. Exibir todos os funcionários cadastrados, ordenado pela idade. 3. Exibir todos os funcionários cadastrados, ordenados pelo salário.",
+    "format_input": "A entrada contém um números inteiros de 1 a 3, para indicar qual opção deve ser selecionada. Quando a opção selecionada for a 1 (Cadastrar Funcionario), nas linhas seguintes virão respectivamente o nome, a idade e o salario.",
+    "format_output": "A opção 1 não retorna nenhuma saída. As opções 2 e 3 devem exibir todos os funcionários cadastrados até o momento, diferindo apenas pela ordenação. Sendo o 2 ordenado pela idade e o 3 pelo salário. ATENÇÃO A FORMATAÇÃO E QUEBRA DE LINHA. SIGA OS EXEMPLO.",
+    "topics": [
+        "estrutura de dados",
+        "eof",
+        "entrada formatada",
+        "ordenação",
+        "ponteiro"
+    ]
+}

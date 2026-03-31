@@ -1,0 +1,10 @@
+{
+    "title": "Matriz latina",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um quadrado latino de ordem n é uma matriz n × n preenchida com n diferentes símbolos de tal maneira que cada símbolo ocorre no máximo uma vez em cada linha ou coluna. Aqui seguem dois exemplos. Um quadrado latino é considerado reduzido se os símbolos se dispõem por ordem alfabética na primeira linha e na primeira coluna ou se os números estiverem na sua ordem natural (ordem crescente). Por exemplo, o primeiro quadrado latino acima é reduzido porque a sua primeira linha e sua primeira coluna são ambos 1 – 2 - 3 (ao invés de 3 – 1 - 2 ou qualquer outra ordem). Escreva uma função que receba um número N e um vetor V e verifica se em V ocorrem todos os inteiros de 1 a N. Usando a função desenvolvida, verifique se uma dada matriz inteira de ordem N é um quadrado latino. Além disso, verifique também, caso a matriz seja um quadrado latino, se a mesma é um quadrado latino reduzido.",
+    "format_input": "Para a solução desse problema são necessários dois dados: um número inteiro N que representa a ordem da matriz (2 <= N <= 10) e N linhas com os elementos separados por um espaço em branco.",
+    "format_output": "A saída para o problema é uma das seguintes mensagens: Nao eh uma matriz latina, Matriz latina ou Matriz latina REDUZIDA.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

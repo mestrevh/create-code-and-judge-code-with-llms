@@ -1,0 +1,10 @@
+{
+    "title": "Repetição de números lidos sequencialmente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que lê do usuário uma sequência de números e os imprima na mesma ordem.",
+    "format_input": "4\n5\n10\n-1\n50",
+    "format_output": "4\n5\n10\n-1\n50",
+    "topics": [
+        "array"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "intervalo fechado passo 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que receba dois números inteiros, A e B (A<=B), e exiba os números inteiros no intervalo fechado [ A..B ] pulando de três em três.",
+    "format_input": "Na primeira linha um número inteiro A; na linha seguinte um número inteiro B.",
+    "format_output": "Todos os números inteiros do intervalo fechado [ A..B ], pulando de três em três. Cada linha deve conter apenas um número.",
+    "topics": [
+        "repetição"
+    ]
+}

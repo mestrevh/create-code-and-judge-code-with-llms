@@ -1,0 +1,13 @@
+{
+    "title": "Decifrando senhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um novo sistema de alta segurança foi criado no CIn para armazenar dados. Esse sistema usa de senhas complexas e criptografia de ponta, e é considerado \"impenetrável\". Mas você, que não nega um desafio, se viu na necessidade de quebrar essa barreira e invadir o sistema. Depois de várias tentativas sem sucesso, você conseguiu descobrir um fluxo de bits transmitidos toda vez que alguém com acesso entrava no sistema. Além disso, você percebeu que os bits representam os algarismos de 0 a 9 e vêm acompanhados de algumas \"palavras-chave\", que tornavam a senha mais complexa. Você deve desenvolver um programa que converta a sequência de bits em números, os quais serão combinados com as \"palavras-chave\" para formar as senhas necessárias para acessar o sistema. Além disso, existe um código de entrada que também deve ser decifrado. Esse código é o resultado da soma de todos os números que foram convertidos da sequência de bits. Observações: cada número na sequência de bits é composto por 4 bits seguidos. (Ex: na sequência 100101110101, os números são 1001 = 9, 0111 = 7, 0101 = 5. Logo a sequência é 975. as senhas devem ser organizadas em ordem alfabética, de acordo com as palavras-chave. as senhas são formadas pela combinação das palavras-chave com a sequência de números. (Ex: palavras = Zebra, Gato, Cachorro; sequência = 975. Logo, as senhas serão: Cachorro975; Gato975; Zebra975. Dica: utilize 100 como tamanho máximo das strings.",
+    "format_input": "A entrada é composta por um inteiro (n), que representa quantas palavras-chave serão usadas. Nas n linhas seguintes, as n palavras-chave(strings). Por fim, uma string (com tamanho máximo de 100 caracteres), que representa a sequência de bits. n p1 p2 ... pn str",
+    "format_output": "A saída terá o seguinte formato: o codigo de entrada eh: %(valor do codigo de entrada) \"palavra-chave1+senha\" (duas strings juntas) \"palavra-chave2+senha\" ... \"palavra-chaveN+senha\" OBS: Em todos os casos deve ser impresso uma quebra de linha após a frase. Caso um grupo de 4 bits na sequência de bits represente um número maior que 9, imprima a frase \"Numero invalido!\" imediatamente após esse número ser detectado e continue analisando a sequência em busca de outros números(mas esse número inválido ainda constará na soma que representará o código de entrada). Caso não tenha nenhuma palavra-chave (n = 0), imprima apenas o código de entrada. Caso a string de bits seja vazia, imprima a frase \"Sem bits no momento...\" e pare a execução do programa.",
+    "topics": [
+        "caractere",
+        "array bidimensional",
+        "string",
+        "ordenação"
+    ]
+}

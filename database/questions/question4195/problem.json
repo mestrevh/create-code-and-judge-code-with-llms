@@ -1,0 +1,11 @@
+{
+    "title": "Triglicerídeos e Colesterol (com funções)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio fez um exame de sangue e está ansioso por saber o resultado. Você deseja ajudá-lo escrevendo um programa que leia os valores obtidos no exame e, de acordo com as tabelas abaixo contendo as faixas de valores, informe o resultado do exame de triglicerídeos e colesterol total. Utilize definição de funções. Serão considerados como critérios de avaliação o uso de parâmetros, valor de retorno e se as funções têm um objetivo único e fácil de entender. Devem ser definidas no mínimo 2(duas) funções.",
+    "format_input": "Dois valores, sendo um em cada linha. O primeiro é valor dos triglicerídeos (inteiro) e o segundo é do colesterol total (ponto flutuante), ambos medidos em mg/dl.",
+    "format_output": "Se o valor dos triglicerídeos e/ou do colesterol total for negativo, deve imprimir uma única mensagem indicando que algum valor está fora da faixa. Algum valor fora da faixa. Caso nenhum dos dois valores seja negativo, o programa deve imprimir 2 linhas. A primeira linha deve conter mensagem no formato exemplificado abaixo (sem acentos). Considerando como exemplo o valor de 120 mg/dl para os triglicerídeos, teríamos a mensagem: Triglicerideos 120 mg/dl: DESEJAVEL. A segunda linha deve conter uma mensagem no formato exemplificado abaixo (sem acentos e com uma casa decimal). Considerando como exemplo o valor de 120 mg/dl para o colesterol total, teríamos a mensagem: Colesterol total 120.0 mg/dl (DESEJAVEL)",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

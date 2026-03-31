@@ -1,0 +1,11 @@
+{
+    "title": "Ocorrências (implementado em lista)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[DESCRIÇÃO] Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetros um número inteiro x, uma sequência de inteiros L e um natural n, que representam um item x que deve ter quantificada suas ocorrências na sequência L de tamanho n. A função deverá devolver um valor natural indicando a quantidade de ocorrências de x em L. [RESTRIÇÕES] (a) a leitura da entrada deve ser feita no programa principal; (b) a sequência deve ser armazenada em uma lista; (c) não usar append(), a lista deve ser criada já com o tamanho necessário; (d) não usar variáveis globais; (e) a função deve devolver um natural.",
+    "format_input": "(a) a primeira linha da entrada contém o item procurado x; (b) a segunda linha da entrada contém o tamanho n da sequência; (c) as próximas n linhas representam os itens que compõem a sequência.",
+    "format_output": "(a) o programa principal deverá imprimir um valor natural indicando a quantidade de ocorrências de x em L de acordo com o valor devolvido pela função.",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}

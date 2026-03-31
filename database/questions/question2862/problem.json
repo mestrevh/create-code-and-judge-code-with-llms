@@ -1,0 +1,10 @@
+{
+    "title": "Random - Você sabe que tudo vai ser moleza",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Alex e Justin precisam duelar para descobrir quem vai ser o novo feiticeiro da família Russo. Nesse duelo, cada um deles pode usar apenas 2 feitiços, um de defesa e um de ataque, além disso, esses feitiços podem ser dos tipos: luz, trevas e elemental, onde: luz ganha de trevas trevas ganha de elemental Elemental ganha de luz. Sabendo disso, Alex pede para que você crie um programa para ajudá-la a treinar. A equação que define o dano do ataque de cada um deles é dada por: Nível da magia no ambiente*multiplicador O multiplicador varia de acordo com os tipos de magia de defesa e de ataque: Ataque com vantagem (multiplicador 2) Ataque normal(multiplicador 1) Ataque com desvantagem (multiplicador 0,5) Ganha quem tiver mais hp no final do duelo.",
+    "format_input": "H1 D1 A1 H2 D2 A2 M. H1, H2, M - double. D1,D2,A1,A2 - String. Onde cada elemento representa a seguinte informação: H1 = HP da Alex D1 = Tipo do feitiço de defesa da Alex A1 = Tipo do feitiço de ataque da Alex H2 = HP do Justin D1 = Tipo do feitiço de defesa do Justin A1 = Tipo do feitiço de ataque do Justin M = nível de magia no ambiente",
+    "format_output": "S. Uma linha contendo a informando quem é o novo feiticeiro da familia da seguinte forma: \"O Justin ganhou, e agora ele é o feiticeiro da familia Russo, que surpresa\" - caso o Justin vença \"A Alex derrotou o Justin e é a nova feiticeira da familia, isso sim foi inesperado\" - caso a Alex vença \"O duelo terminou em empate, temos que descobrir outra forma de decidir isso logo\" - caso a disputa termine empatada",
+    "topics": [
+        "string"
+    ]
+}

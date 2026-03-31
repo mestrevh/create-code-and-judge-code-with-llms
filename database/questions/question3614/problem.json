@@ -1,0 +1,12 @@
+{
+    "title": "Pesquisa de mortalidade infantil",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Uma equipe de pesquisadores precisa fazer uma pesquisa para determinar o índice de mortalidade infantil em um certo período. Faça um programa que: Leia o número de crianças mortas no período; O sexo (M ou F) e o tempo de vida (em meses) para cada criança morta. Calcule e mostre: 1. A percentagem de crianças do sexo feminino mortas no período; 2. A percentagem de crianças do sexo masculino mortas no período; 3. A percentagem de crianças que viveram 24 meses ou menos no período. Caso o usuário informe um número de crianças menor ou igual a ZERO, mostre a mensagem \"Informe um número positivo\" e encerre o programa.",
+    "format_input": "A entrada deverá ser apenas os valores em ordem (número de crianças e depois os dados para cada criança). Não coloque strings em seu input (não forneça instruções de preenchimento) pois o corretor automático não os espera. Exemplo de entrada (ignore os comentários): 1 #número de crianças M #sexo da criança 1 12 #idade da criança 1 M #sexo da criança 2",
+    "format_output": "A saída deve ser formatada exatamente como o exemplo abaixo - ignore os comentários -, utilizando sempre 1 casa decimal: 40.0% # % das crianças que eram do sexo feminino. 60.0% # % das crianças que eram do sexo masculino. 80.0% # % das crianças que viveram 24 meses ou menos.",
+    "topics": [
+        "ad-hoc",
+        "decisão",
+        "repetição"
+    ]
+}

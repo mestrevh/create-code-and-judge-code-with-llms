@@ -1,0 +1,10 @@
+{
+    "title": "Fila",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fila é uma estrutura de dados linear capaz de armazenar uma coleção de elementos que são manipulados segundo a política FIFO (first in first out), o primeiro a entrar é o primeiro a sair. Considerando uma estrutura de dados do tipo Fila, então, implemente as seguintes operações: Enfileirar: essa operação adiciona um novo elemento da fila, ela receberá a chave do novo elemento como parâmetro. Desenfileirar: essa operação remove um elemento da Fila. Imprimir: essa operação imprime o valor de todos os elementos presentes na Fila, a impressão deve começar a partir do primeiro elementos do conjunto. A última linha da entrada contém o seguinte texto Finalizar",
+    "format_input": "A entrada será composta por várias linhas, sendo que em cada linha haverá um comando. Os comandos possíveis são: 1. Enfileirar Esse comando adiciona um novo elemento na Fila e será seguido pelo valor da chave desse elemento. 2. Desenfileirar Esse comando remove o elemento que está no início da Fila. 3. Imprimir Esse comando imprime o valor de todos elementos presentes na pilha, a impressão deve ser feita em uma mesma linha, separando os valores por espaço. 4. Finalizar Esse indica a última linha da entrada Exemplo de uma entrada: Enfileirar 4 Enfileirar 5 Imprimir Enfileirar 2 Imprimir Desenfileirar Imprimir Enfileirar 8 Enfileirar 12 Imprimir Finalizar",
+    "format_output": "Cada linha da saída terá o resultado de um comando Imprimir. Considerando a seguinte entrada: Enfileirar 4 Enfileirar 5 Imprimir Enfileirar 2 Imprimir Desenfileirar Imprimir Enfileirar 8 Enfileirar 12 Imprimir Finalizar A Saída seria: 4 5 4 5 2 5 2 5 2 8 12 Observe que, na entrada, o comando Imprimir apareceu quatro vezes, e por isso a saída tem quatro linhas.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

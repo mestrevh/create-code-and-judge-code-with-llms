@@ -1,0 +1,10 @@
+{
+    "title": "Conversão Celsius, Fahrenheit e Kelvin adp.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que converta uma escala de temperatura (kelvin, Celsius, fahrenheit) fornecida pelo o usuário. se o usuário informa que a escala é Celsius, o seu programa deve informar qual a mesma temperatura nas escalas Fahrenheit e kelvin, respectivamente. se o usuário informa que a escala é kelvin, o seu programa deve informar qual a mesma temperatura nas escalas Celsius e Fahrenheit, respectivamente. se o usuário informa que a escala é fahrenheit, o seu programa deve informar qual a mesma temperatura nas escalas Celsius e kelvin, respectivamente. obs: não use 5/9. Use 1.8.",
+    "format_input": "Uma String (str) que informa qual escala é o usuário está informando. Um número flutuante.",
+    "format_output": "Dois números flutuantes acompanhados de um uma letra informando a temperatura. C = Celsius; k = Kelvin; F = Fahrenheit.",
+    "topics": [
+        "decisão"
+    ]
+}

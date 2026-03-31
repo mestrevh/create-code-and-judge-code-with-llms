@@ -1,0 +1,10 @@
+{
+    "title": "posição no plano cartesiano",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em diversos jogos de computador, os personagens se movimentam como em um plano cartesiano. Assim, possuem coordenadas em dois eixos(x e y) que são alteradas conforme ele se movimenta. Faça um programa que apresente a nova posição do personagem a partir da direção em que anda. obs: utilizar a estrutura do switch case",
+    "format_input": "2 inteiros x e y que representam a posição inicial do personagem, onde -100000 < x,y < 100000 1 char que representa a direção a seguir pelo personagem: w (cima), a(esquerda), s(baixo) ou d(direita)",
+    "format_output": "as novas coordenadas do personagem no formato \"Nova posicao: x y\" obs: caso a direção não corresponda a um comando válido, imprima \"Direcao invalida\"",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "L4Q1 - Grad 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um dos problemas mais recorrentes das aulas de IP é a superlotação do Grad3, fazendo com que vários alunos ao chegar percam muito do seu precioso tempo até encontrar um computador livre para que possa resolver a sua lista d exercícios. Como um bom programador, e cansado de perder seu tempo atrás do lugar perfeito, você se incubiu da tarefa de maximizar o tempo de estudo dos alunos durante as aulas de IP. E para garantir o máximo de eficiência no grad, você decidiu criar um programa que encontra o computador mais conveniente para alunos que chegam atrasados. A conveniência é obtida pelo tempo (em segundos) da entrada no grad até estar sentado com o computador ligado, e esse tempo vai ser calculado da seguinte forma: Tempo = Distância * 20 Tempo = Distância * 20 Distância = √(X²+Y²) Caso o computador em questão esteja desligado, adiciona-se 40 segundos ao tempo. X e Y são coordenadas no mapa de computadores que começam em 0, da esquerda pra direita e de cima pra baixo, respectivamente. Obs: A distância será medida a partir das coordenadas (0,0)",
+    "format_input": "A entrada é composta de uma matriz de dimensões 5 x 10 que representa um mapa de disponibilidade de computadores com a seguinte legenda: * - Computador indisponível, 0 - Computador desligado e livre, 1 - Computador ligado e livre",
+    "format_output": "Se não houver computadores disponíveis: \"Tristemente voce vai ter que aturar os PCs do grad 4\" Se houver, deverá ser impresso o que leva menos tempo, e caso o tempo seja igual, o mais próximo do topo do mapa no seguinte formato: \"Vai la pro computador X da fileira Y\"",
+    "topics": [
+        "array bidimensional",
+        "busca"
+    ]
+}

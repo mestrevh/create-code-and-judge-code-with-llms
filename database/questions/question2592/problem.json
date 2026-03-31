@@ -1,0 +1,10 @@
+{
+    "title": "Distância entre dois pontos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que tendo como entrada dois pontos quaisquer do plano P1(x1,y1) e P2(x2,y2), imprima a distância entre eles.",
+    "format_input": "coordenadas x1 e y1 do ponto 1 (x1, y1) coordenadas x2 e y2 do ponto 2 (x2, y2)",
+    "format_output": "distância",
+    "topics": [
+        "lógica matemática"
+    ]
+}

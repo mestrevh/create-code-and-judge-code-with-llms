@@ -1,0 +1,11 @@
+{
+    "title": "Selecionando bolsistas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O professor Henrique precisa selecionar um bolsista para um de seus projetos. A seleção envolverá os seguintes critérios: Curso: Engenharia de Computação (EC), Telemática (TEL); Período (1 à 10); Já fez algum trabalho com Henrique e obteve êxito? (Sim / Não); CRE (0 - 100); Recomendação de outro professor (1 - 5, sendo que 1 significa não recomendado e 5 altamente recomendado). Você deve receber informações de vários alunos e identificar aquele que será indicado como bolsista do projeto. Cada uma das informações dará uma determinado um coeficiente de seleção para que o aluno possa ser classificado. O Henrique só aceitará alunos de Engenharia de Computação ou Telemática. Só serão aceitos alunos de engenharia a partir do 3º período e telemática a partir do 2º. Caso um aluno já tenha feito algum trabalho (com êxito) com o professor Henrique ele terá 50 pontos. Seu CRE também será computado (sem peso) para cálculo do coeficiente de seleção. A recomendação terá peso 10 aplicado ao cômputo do coeficiente de seleção (ou seja, irá de 10 a 50). Dessa forma, o cálculo do coeficiente de seleção se dará pela soma da pontuação nos critérios de seleção. O candidato que tiver maior pontuação será o bolsista. O programa deve parar quando receber a palavra 'sair' em vez do nome do aluno.",
+    "format_input": "Seis parâmetros: Nome do aluno, Curso, Período, Se já fez algum trabalho com Henrique e obteve êxito (Sim / Não), CRE (0 - 100), Recomendação de outro professor (1 - 5, sendo que 1 significa não recomendado e 5 altamente recomendado).",
+    "format_output": "O nome do aluno bolsista.",
+    "topics": [
+        "lógica matemática",
+        "repetição"
+    ]
+}

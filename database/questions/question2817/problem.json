@@ -1,0 +1,11 @@
+{
+    "title": "Numeros em Ordem Crescente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia 3 números inteiros e os imprima em ordem crescente.",
+    "format_input": "O usuario deve digitar 03 números inteiros separados",
+    "format_output": "O programa deve exibir os 03 números lidos impressos em ordem crescente, cada um em uma linha, imprimindo na tela os valores abaixo: Digite cada numero e pressione ENTER: Numeros em ordem crescente: n n n",
+    "topics": [
+        "decisão",
+        "ordenação"
+    ]
+}

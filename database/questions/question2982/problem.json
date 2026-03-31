@@ -1,0 +1,11 @@
+{
+    "title": "Contando notas e moedas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia um valor de ponto flutuante com duas casas decimais, que representa um valor em dinheiro. A seguir, calcule o menor número de notas e moedas no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2. As moedas possíveis são de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. A seguir mostre a relação de notas necessárias.",
+    "format_input": "A entrada será um valor em ponto flutuante N, com 0 < N ≤ 1000000.00. (Não é necessário validar)",
+    "format_output": "Imprima a quantidade mínima de notas e moedas necessárias para trocar o valor inicial, conforme exemplos dados. Note que são impressas apenas as linhas cujo número de notas ou moedas é diferente de zero. DICA: Se o seu programa calcula errado o número das moedas menores, pense em trabalhar os valores mudando a unidade, assim não precisamos lidar com números decimais. É o que fazemos na prática, falando em números inteiros tanto pros reais quanto pros centavos.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

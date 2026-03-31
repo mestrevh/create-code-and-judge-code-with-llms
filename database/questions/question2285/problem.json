@@ -1,0 +1,10 @@
+{
+    "title": "L4Q2 - 100% atualizado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bomba patch, por ser um jogo 100% atualizado, resolveu implementar a nova tática revolucionária do futebol moderno, uma espécie de 3-3-3-1 transposto criado por um técnico espanhol e que está sendo testada em vários clubes do Brasil, inclusive o Íbis, que vem apresentando um belo futebol com o seu uso. Essa tática consiste em atacar e defender de maneira diferente, em que o atacante fica fixo em sua posição esteja o time com a bola ou não, enquanto os outros jogadores se comportam de maneira transposta durante o jogo, ou seja, distribuidos no campo em forma de matriz 3x3, os jogadores agem como elementos dessa matriz e, ao atacar, essa matriz é transposta, fazendo assim que por exemplo, um ponta(jogador de ataque) troque de posição com um zagueiro(defensor) para confundir a marcação. Para implementar essa funcionalidade inovadora, a equipe do bomba patch pediu sua ajuda, para que, dada uma matriz de jogadores 3x3(que seriam os jogadores atacando, desconsiderando o atacante), você imprima essa matriz transposta, mostrando assim a equipe do bomba patch, onde os jogadores devem estar no momento de ataque. Exemplo: Defendendo: Atacando: ATENÇÃO: O algoritmo da sua solução deverá criar um array com a matriz transposta, não apenas imprimir os valores de forma transposta.",
+    "format_input": "A. Sendo A uma matriz 3x3 de strings, representando os jogadores do time defendendo, no formato: A1 A2 A3 A4 A5 A6 A7 A8 A9",
+    "format_output": "B. Sendo B uma matriz 3x3 de strings, representando a matriz transposta, no formato: B1 B2 B3 B4 B5 B6 B7 B8 B9",
+    "topics": [
+        "array bidimensional"
+    ]
+}

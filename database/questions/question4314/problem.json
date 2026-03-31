@@ -1,0 +1,11 @@
+{
+    "title": "faísca e fumaça",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Xupenio e Soneca ficaram muito curiosos pelo funcionamento de registradores após pagarem a cadeira de sistemas digitais e decidiram realizar alguns experimentos práticos. Por isso, decidiram trabalhar com luzes de natal. No entanto, Xupenio cansado de receber choques (por causa da incompetência de Soneca) pediu para você construir um código que revele o estado final de uma quantidade N de leds após C clocks. Segundo Xupenio os leds devem ser representados por O e X (os estados ligado/desligado respectivamente) e o comportamento de cada luz de natal segue a seguinte lógica: a cada clock o primeiro led (o mais a esquerda) troca de estado e caso um led for desligado o seu sucessor deve trocar de estado também. Além disso, Soneca que já não estava colaborando... decidiu que ao final dos R teste com luzes de natal deveria formar uma junção de todos os fios testados em uma só luz de natal gigante! E para cada conexão entre os fios deve haver um ornamento entre a ligação. Obs: o ornamento conta no tamanho da luz gigante. Uma @ caso a luz gigante em formação tenha tamanho par e seu último led esteja no mesmo estado do primeiro led do fio que vai ser anexado. Uma # caso a luz gigante em formação tenha tamanho ímpar e seu último led esteja no mesmo estado do primeiro led do fio que vai ser anexado. Uma $ caso a luz gigante em formação tenha tamanho par e seu último led esteja em um estado diferente do primeiro led do fio que vai ser anexado. Uma % caso a luz gigante em formação tenha tamanho ímpar e seu último led esteja em um estado diferente do primeiro led do fio que vai ser anexado.",
+    "format_input": "R: Número de casos testes (1 <= R <= 1000). S F: String contendo a configuração atual dos leds do caso teste (1 <= tamanho de S <= 60). F: Número de flashs testados.",
+    "format_output": "S: String contendo a configuração final dos leds do caso teste. Sf: String final juntando todos os casos testes.",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

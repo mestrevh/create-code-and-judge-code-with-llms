@@ -1,0 +1,10 @@
+{
+    "title": "[AC5.3] - Soma de algarismos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia um número inteiro e calcule a soma de seus algarismos.",
+    "format_input": "Um número inteiro",
+    "format_output": "A soma de seus algarismos",
+    "topics": [
+        "repetição"
+    ]
+}

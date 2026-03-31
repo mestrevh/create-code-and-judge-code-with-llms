@@ -1,0 +1,10 @@
+{
+    "title": "A disputa final",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O melhor time de robótica da UFPE, o Maracatronics, estava enfrentando seu arqui-rival (também da UFPE), o RoboCIn. Eles estavam na final da Latin America Robot Competition (LARC). Como já se era esperado, ambos os times estavam muito fortes e a disputa estava acirrada e muito bonita de se ver para todos os espectadores presentes. PJ era o responsável do Maracatronics por estar dentro de campo, gerenciando os robôs e sempre de prontidão para retirar aqueles que apresentassem problemas. Em uma situação com problemas, PJ seria o responsável por pedir timeout e perguntar a zildão qual o robô que havia apresentado problemas. Tendo que manter também o recorde do Maracatronics de pit-stop mais rápido da competição, PJ tem que ser ágil na remoção para que o pessoal possa consertar! Sabe-se que os robôs da categoria SSL (Small Size League) são identificados por cores em seu padrão (localizados na parte superior do robô), permitindo que os robôs possam ser enumerados com um identificador (ID). Um dos robôs apresentou problemas no carregamento do capacitor presente no chute, e zildão rapidamente informou a PJ o ID desse robô, já que sem chute o Maracatronics não pode marcar o gol da decisão! Dada a tabela a seguir, ajude PJ a descobrir qual é o padrão de cores do robô que ele deve remover! Note que as cores adjacentes são sempre rosa ou verde, apenas variando a sua sequência. Note que as cores centrais representam a cor do time (amarelo ou azul). Então, você deve citar na resposta apenas as cores adjacentes, que pra esse output são identificadas como:",
+    "format_input": "Um inteiro i (0 <= i <= 11), indicando o ID de um dos robôs presentes em campo.",
+    "format_output": "Quatro strings, indicando respectivamente as cores 1, 2, 3 e 4 indicadas no padrão que está na descrição, separadas por um espaço e seguidas de uma quebra de linha.",
+    "topics": [
+        "decisão"
+    ]
+}

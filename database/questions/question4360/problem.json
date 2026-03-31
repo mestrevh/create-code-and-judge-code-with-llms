@@ -1,0 +1,10 @@
+{
+    "title": "É uma nota válida?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Alunos precisam ter notas nas disciplinas que estão cursando. Mas, as notas precisam ser válidas, isto é, estar no intervalo possível. Faça um programa para verificar se a nota digitada pelo professor está no intervalo entre 0 e 10, inclusive. Caso não esteja, apresente uma mensagem de erro.",
+    "format_input": "Leia o valor de uma nota (tipo real) e apresente uma mensagem de “erro” caso ela não seja uma nota válida. A nota deve ser menor ou igual a dez e maior ou igual a zero.",
+    "format_output": "Mensagem 1: \"A nota digitada foi: <nota>\" Mensagem de erro caso a nota não seja válida: 'A nota nao esta no intervalo [0,10]'",
+    "topics": [
+        "decisão"
+    ]
+}

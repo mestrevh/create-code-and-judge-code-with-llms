@@ -1,0 +1,13 @@
+{
+    "title": "Repetição nas frases",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Arthur, uma pessoa muito linda, ficou encarregada de desenvolver uma questão para a prova de programação, ele estava sem ideia e por fim resolveu fazer o básico. QUE TAL CONTAR? Isso mesmo, vamos contas as repetição de cada letra em frases, e imprimir qual dessas letras mais se repetiu em casa frase (em caso de empate, imprima todas as letras que mais se repetiram em ordem alfabética), porém os avaliadores da questão, Lucas, Thalia e Mesquita, acharam muito simples, e sugeriram acrescentar algo, Arthur novamente sem ideia, usou a fórmula simples, QUE TAL REPETIÇÃO? Isso mesmo, também deverá ser contado qual a palavra que mais se repetiu (considerando todas as frases), ou seja, a palavra que mais se repetiu no geral (nesse caso não haverá empates), e assim finalizou a questão. Imagem meramente motivacional.",
+    "format_input": "Você receberá um inteiro X que representa o número de frases, após isso X frases terminadas por \\n. Exemplo: 4 Arthur lindo Thalia feia Lucas feio Mesquita feio OBS 1: Deve se considerar tanto as letras maiúsculas quanto as minúsculas para contagem de repetição de letras e palavras, ou seja: ArThUr = aRtHuR OBS 2: A quantidade máxima de frases é 100, a quantidade máxima de letras por frase também é 100. OBS 3: Nenhuma palavra terá acentuação OBS 4: Uma letra separada por espaço da outra, contam como uma palavra cada letra.",
+    "format_output": "A saída espera duas coisas: A LETRA que mais se repetiu em cada frase (Em minúsculo), com o número da frase antes da letra ou das letras (em caso de empate, lembre que se deve imprimir todas as letras empatadas em ordem alfabética), separado por espaço e um hífen (também seguido seguido de espaço). A PALAVRA que mais se repetiu considerando TODAS as frases (Em minúsculo), com \"Palavra que mais se repetiu: \" escrito antes da palavra. Para o caso mostrado na seção \"Entrada\", a saída seria: 1 - r 2 - a 3 - acefilosu 4 - ei Palavra que mais se repetiu: feio",
+    "topics": [
+        "array",
+        "ad-hoc",
+        "array bidimensional",
+        "string"
+    ]
+}

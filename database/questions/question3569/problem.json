@@ -1,0 +1,10 @@
+{
+    "title": "3o ângulo do triângulo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em C que o usuário entre com dois ângulos internos de um triângulo e o programa calcule o 3o ângulo do triângulo.",
+    "format_input": "Ângulo 1 (valor inteiro), Ângulo 2 (valor inteiro)",
+    "format_output": "Ângulo 3 (valor decimal com 6 casas decimais)",
+    "topics": [
+        "lógica matemática"
+    ]
+}

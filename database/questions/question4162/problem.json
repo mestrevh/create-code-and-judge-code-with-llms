@@ -1,0 +1,11 @@
+{
+    "title": "Atividades de listas - lógica dos métodos py",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Sempre que ensino listas em Python, vejo o quanto os métodos internos das listas facilitam as atividades, contudo, não temos esses métodos em muitas linguagens. Nesse sentido, sempre peço para os alunos trabalharem não só os métodos mas também sua lógica interna para que seja feito o mesmo sentido, seu sua utilização. Sendo assim, essa atividade devemos praticar essas lógicas. Leia um número inteiro informando o tamanho de uma lista a ser lida em seguida. Leia a lista de números inteiros do tamanho lido anteriormente. Sem usar métodos internos de lista do python, usando função/procedimento criados por vocês, apresentem na tela as saídas: A lista na forma que foi digitada originalmente. (use um procedimento para exibir) O maior elemento da lista e sua posição (não utilize o index) na lista original. (não utilize o max ou métodos similar, trabalhe a lógica). O menor elemento da lista e sua posição (não utilize o index) na lista original. (não utilize o min ou métodos similar, trabalhe a lógica). A média dos elementos da lista. (não utilize o sum, nem o len ou métodos similares, trabalhe a lógica). A lista classificada na ordem crescente. (não utilize o sort ou métodos similar, trabalhe a lógica).",
+    "format_input": "um número inteiro que identifica o tamanho da lista os elementos da lista na quantidade do número anteriormente lido.",
+    "format_output": "As respostas para cada um das solicitações na descrição, no formato: Original: lista original maior elemento: valor do maior -> posição do maior elemento menor elemento: valor do menor -> posição do menor elemento média da lista: valor da média Lista classificada: a lista classificada em ordem crescente.",
+    "topics": [
+        "array",
+        "função"
+    ]
+}

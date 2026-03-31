@@ -1,0 +1,12 @@
+{
+    "title": "L2Q5 - Festa do ramen!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Que maravilha, o Naruto acabou de se tornar hokage e para comemorar vai dar uma festa! Ele deseja que todos os convidados comam a vontade, mas ao mesmo tempo não gosta de desperdiçar comida. Então é aí que você entra. Como você também não gosta de desperdícios, se voluntaria a desenvolver um programa para calcular a quantidade perfeita de ramen a ser feita para a festa, baseado na quantidade de carne que há. Como um bom programador e matemático, você encontrou uma fórmula para encontrar essa quantidade perfeita. Que é a seguinte: V = X - ((X^2)/(3!)) + ((X^4)/(5!)) - ((X^6)/(7!)) + ((X^8)/(9!)) ... Onde V representa a quantidade de Ramen necessário, X a quantidade de carne e além disso, você sabe que a número de termos da equação é igual à quantidade de convidados. Obs.: Para calcular o valor de X^Y, você pode usar a função Math.pow(x,y).",
+    "format_input": "X (Quantidade de carne) e C (Quantidade de convidados para a festa)",
+    "format_output": "V (Quantidade de ramen para a festa). O valor deve ser aproximado em 3 casas decimais e impresso em sua forma absoluta (|V|)",
+    "topics": [
+        "repetição",
+        "função",
+        "formatação"
+    ]
+}

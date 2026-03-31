@@ -1,0 +1,10 @@
+{
+    "title": "Os primos gêmeos de Josué",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sheldon, um físico brilhante (e um pouco excêntrico), uma vez falava sobre números primos com seu carteiro preferido chamado Josué. Enquanto conversavam ele lhe falou como via certos tipos de números em sua \"estranha cabeça\", e para ele os números primos são vermelhos em sua mente, já os números primos gêmeos são rosa e têm cheiro de gasolina. Josué não sabia o que eram números primos gêmeos, e perguntou para Sheldon, que falou que os números primos gêmeos são números primos que a subtração do maior pelo menor resulta em 2. Como Josué é um carteiro muito ocupado, principalmente agora com a privatização dos correios, resolveu pedir para um estudante de Engenharia da Computação fazer um programa, que dados dois números, indica se eles são primos gêmeos ou não.",
+    "format_input": "Serão dados dois números A e B, na mesma linha, onde: 3 ≤ A < B ≤ 10^5",
+    "format_output": "Caso os números sejam primos gêmeos a saída sera: \"Sao gemeos!\" Caso não sejam a saída será: \"Nao sao gemeos!\" Sem as aspas e com uma quebra de linha.",
+    "topics": [
+        "repetição"
+    ]
+}

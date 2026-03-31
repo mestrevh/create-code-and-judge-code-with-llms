@@ -1,0 +1,10 @@
+{
+    "title": "I-ésimo Maior",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você vai receber uma lista com n valores e deve retornar o i-essímo maior valor.",
+    "format_input": "Uma linha contendo um valor n que corresponde a quantidade de inteiros da lista e um i (1 <= i <= n) que corresponde ao valor. Uma linha contendo n valores inteiros.",
+    "format_output": "O valor do i-essímo maior.",
+    "topics": [
+        "array"
+    ]
+}

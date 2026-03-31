@@ -1,0 +1,10 @@
+{
+    "title": "Caça Palavras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receberá um caça-palavras NxN e uma lista das palavras a serem procuradas e deve retornar a quantidade de palavras encontradas. Note que pode existir palavra na lista que não exista na \"tabuleiro\". OBS: É um caça-palavras nível fácil, ou seja, as palavras estão escondidas apenas na vertical e na horizontal.",
+    "format_input": "Um inteiro N com o tamanho do \"tabuleiro\", seguido do tabuleiro. Um inteiro M seguido de M palavras a serem caçadas.",
+    "format_output": "A quantidade de palavras achadas.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

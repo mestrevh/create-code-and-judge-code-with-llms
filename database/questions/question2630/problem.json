@@ -1,0 +1,12 @@
+{
+    "title": "Angulo de Triangulos Octave - T2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia o valor de 3 ângulos de um triângulo e escreva se o triângulo é Acutângulo, Retângulo ou Obtusângulo. Sendo que: - Triângulo Retângulo: possui um ângulo reto. (igual a 90º) - Triângulo Obtusângulo: possui um ângulo obtuso. (maior que 90º) - Triângulo Acutângulo: possui três ângulos agudos. (menor que 90º)",
+    "format_input": "O usuario deve digitar o valor dos três ângulos em graus.",
+    "format_output": "O programa deve imprimir a classificação do triângulo de acordo com seus ângulos internos, imprimindo na tela os valores abaixo: Digite o valor do primeiro ângulo: (impresso pela funcao input) Digite o valor do segundo ângulo: (impresso pela funcao input) Digite o valor do terceiro ângulo: (impresso pela funcao input) Este e um triangulo retangulo/obtusangulo/acutangulo.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática"
+    ]
+}

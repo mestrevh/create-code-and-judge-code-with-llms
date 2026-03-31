@@ -1,0 +1,11 @@
+{
+    "title": "Maças Octave - T1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As maçãs custam R$0,30 cada se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o valor total da compra.",
+    "format_input": "O usuário deve digitar o número de maças",
+    "format_output": "O programa deve exibir valor total da compra de maças, imprimindo na tela os valores abaixo: Digite a quantidade de macas: (impresso pela funcao input) Valor total: R$ n",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

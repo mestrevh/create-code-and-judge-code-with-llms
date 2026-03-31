@@ -1,0 +1,11 @@
+{
+    "title": "Predecessor ou Sucessor (função recursiva)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha uma única função, além da principal, que receberá como parâmetros um natural n (0<=n<=2^30) e um dígito x (0<=x<=9) e devolverá um valor inteiro indicando se existe em n um dígito que seja o predecessor OU sucessor de x. O programa exibirá 'sim' ou 'nao', de acordo com o valor de retorno da função. Observações: (a) sem laços de repetição; (b) sem matrizes; (c) função recursiva.",
+    "format_input": "Um número natural e um dígito natural.",
+    "format_output": "Uma string com 'sim' ou 'nao' (sem áspas e sem acentuação).",
+    "topics": [
+        "função",
+        "recursão"
+    ]
+}

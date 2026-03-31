@@ -1,0 +1,14 @@
+{
+    "title": "questão - 02322022160009",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Em uma determinada escola haverá um campeonato de Vôlei entre as salas. Cada sala poderá formar seu time de 6 jogadores para se inscrever no campeonato. O professor que organizará o campeonato está todo animado com a competição, por isso ele pediu para você desenvolver um analisador estatístico desde a inscrição. Então seu objetivo é fazer esse programa que: Leia a quantidade de times inscritos no torneio. Para cada time (6 atletas), leia em uma linha só, a altura do atleta e o número da camisa que ele irá jogar. Considere que a inscrição foi feita na sequência da posição de cada jogador, ou seja, o primeiro joga na posição 1, o segundo joga na posição 2 e assim por diante até o sexto jogar na posição 6. Após essa leitura, o analisador deverá exibir a matriz das alturas dos times, a matriz dos números de camisas de cada time, o jogador mais alto de cada time, informando sua posição de jogo e o número de sua camisa e a média de altura do campeonato.",
+    "format_input": "duas entradas: Primeira linha, a quantidade de equipes na competição. Segunda linha em diante as alturas e números de camisas de cada jogador de cada time.",
+    "format_output": "A matriz com as alturas de cada jogador (no formato de matriz) A matriz com os números de cada time. (no formato de matriz) A altura, posição e número da camisa do jogador mais alto de cada time. A média das alturas de cada time. A altura média do campeonato.",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "repetição",
+        "array bidimensional",
+        "string"
+    ]
+}

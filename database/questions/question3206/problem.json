@@ -1,0 +1,10 @@
+{
+    "title": "[C3] LAB - 10",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba a medida do ângulo 'a' (em graus) formado por uma escada apoiada no chão e a distância em que a escada está da parede, calcule e mostre a medida da escada. Dicas: - As funções trigonométricas (sin(), cos, tan(), etc...), precisam que o ângulo esteja em radianos. - O módulo matemático possui a função radians(angulo), que recebe um angulo em graus e devolve o valor em radianos.",
+    "format_input": "Medida do ângulo a (em graus) Distância da escada até a parede",
+    "format_output": "Tamanho da escada",
+    "topics": [
+        "lógica matemática"
+    ]
+}

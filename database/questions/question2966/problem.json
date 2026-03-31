@@ -1,0 +1,10 @@
+{
+    "title": "Viajando de Busão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma empresa possui ônibus com 48 lugares(24 nas janelas e 24 no corredor). Você deverá criar um programa para gerenciar a ocupação das poltronas do busão. Utilize 0 para uma poltrona desocupada e 1 para uma poltrona ocupada. Inicialmente todas as poltronas estarão livres. Depois disso o programa deverá apresentar as seguintes opções: 1-Vender uma nova passagem; 2-Mostrar mapa de ocupação do ônibus; 3-Encerrar. Quando for escolhida a opção 1, deve ser perguntado se o usuário deseja janela ou corredor e o número da poltrona. O programa deve retornar uma mensagem: Venda realizada com sucesso - caso a poltrona esteja livre, marcando-a como ocupada; Poltrona ocupada - se a poltrona solicitada já foi vendida; Onibus lotado - se todas as poltronas estiverem ocupadas. Quando for escolhida a opção 2, o programa deverá exibir uma saída semelhante a essa: JANELA: 1- Ocupada 2-Livre 3-Ocupada ... 24-Livre CORREDOR: 1-Livre 2-Livre 3-Ocupada ... 24-Ocupada. Apenas quando for escolhida a opção 3, o programa é encerrado. São permitidas as seguintes funções: Append, Remove, Upper, Lower, Split, Strip.",
+    "format_input": "opção; caso 1 deve receber se é janela ou corredor e o número da poltrona",
+    "format_output": "Quando for escolhida a opção 1, deve ser perguntado se o usuário deseja janela ou corredor e o número da poltrona. O programa deve retornar uma mensagem: Venda realizada com sucesso - caso a poltrona esteja livre, marcando-a como ocupada; Poltrona ocupada - se a poltrona solicitada já foi vendida; Õnibus lotado - se todas as poltronas forem vendidas. Quando for escolhida a opção 2, o programa deverá exibir uma saída semelhante a essa: JANELA: 1- Ocupada 2-Livre 3-Ocupada ... 24-Livre CORREDOR: 1-Livre 2-Livre 3-Ocupada ... 24-Ocupada. Deve exibir uma mensagem de opção inválida e pedir novamente a opção, caso seja diferente de 1, 2 ou 3.",
+    "topics": [
+        "array"
+    ]
+}

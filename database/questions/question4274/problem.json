@@ -1,0 +1,10 @@
+{
+    "title": "Travessia da Floresta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oguh e seus amigos estavam jogando Dungeons and Dragons, um RPG de mesa em que quase tudo é decidido com dados. Os personagens desse jogo precisam atravessar uma grande floresta, então todos os jogadores rolam N dados que precisam ser maiores ou iguais ao nível de dificuldade da floresta. Sempre serão 5 jogadores, todos rodarão um d20 (dado de 20 lados), e somarão o resultado do dado com o bônus que varia de personagem para personagem. Se o resultado for maior ou igual ao nível de dificuldade da floresta, o jogador passa, caso contrário ele se perde na floresta. Exiba na tela a quantidade de jogadores que passaram da floresta, o maior valor total e o menor valor total.",
+    "format_input": "Um inteiro representando o nível de dificuldade da floresta. Cinco inteiros representando o valor do dado de cada jogador. Cinco inteiros representando o bônus de cada jogador.",
+    "format_output": "\"Jogadores que passaram: x\"\n\"Maior valor: y\"\n\"Menor valor: z\"\nOBS: Maior valor total e menor valor total = Valor do dado + bônus.",
+    "topics": [
+        "array"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Administradora de cartão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma administradora de cartões está oferecendo uma promoção aos seus clientes. A pessoa que não puder pagar o total da fatura no mês de março poderá pagar apenas 50% do valor, e o restante poderá ser pago no mês seguinte com juros de 6,5%. Desenvolva uma solução para ajudar o cliente a descobrir qual será o valor de sua fatura no mês de abril caso ele aceite a proposta.",
+    "format_input": "O valor da fatura do mês de março (tipo float).",
+    "format_output": "O valor total da fatura, valor a pagar em março e o valor a pagar em abril. Todos os valores formatados com duas casas decimais. Atente para os exemplos apresentados.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

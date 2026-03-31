@@ -1,0 +1,10 @@
+{
+    "title": "Divide dois inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois números inteiros, efetue a divisão. Antes do exibir a saída, use o comando cout.precision(2). Isso fará o programa mostrar o resultado com duas casas decimais. Exemplo: int mani(){ ...; cout.precision(2); cout<<resultado; }",
+    "format_input": "6 3",
+    "format_output": "2",
+    "topics": [
+        "obi"
+    ]
+}

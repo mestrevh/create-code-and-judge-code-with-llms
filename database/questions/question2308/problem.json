@@ -1,0 +1,13 @@
+{
+    "title": "Planetas favoritos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade estava estudando Sistemas Intergaláticos e percebeu que os portais em planetas são organizados de um jeito muito especial: Todo planeta tem apenas portal de ida e outro de volta, de forma que nunca é possível entrar no portal de volta, apenas vir dele. Os portais de ida sempre leval para um mesmo planeta, e sempre é possível sair do planeta A e voltar para o planeta A entrando várias vezes no portal de ida. Um certo dia, ela achou uma lista contendo a quantidade de dinheiros que cada planeta tem, e se perguntou qual a soma de dinheiros do Sistema Intergalático que soma a maior quantidade de dinheiros. Como existem muitos Sistemas Intergaláticos, ajude a entidade a achar esse valor. Exemplo: 6 (quantidade de planetas) 1 2 0 5 3 4 (próximo planeta) 1 2 3 1 4 2 (dinheiros do planeta) (Cada \"bola\" da imagem tem o par: nome do planeta i e quantidade de dinheiros do planeta i, respectivamente) Resposta: Existem dois Sistemas Intergaláticos: Sistema 1 tem três planetas: 0, 1, 2; que somam 6 dinheiros Sistema 2 tem três planetas: 3, 5, 4; que somam 7 dinheiros Logo, a maior soma de dinheiros é 7, do Sistema 2.",
+    "format_input": "A primeira linha da entrada terá um inteiro n (1 <= n <= 1000), representando a quantidade de planetas existentes, que serão representados por inteiros de 0 até n - 1. A segunda linha da entrada terá n inteiros, onde o i-ésimo inteiro representa para qual planeta o portal de ida do planeta i leva. A terceira linha da entrada terá n inteiros, onde o í-ésimo inteiro representa a quantidade de dinheiros que o planeta i tem.",
+    "format_output": "A saída deverá ser um inteiro representando a maior soma de dinheiros dentre os as somas de dinheiros dos Sistemas Intergaláticos.",
+    "topics": [
+        "array",
+        "ciclos",
+        "repetição",
+        "recursão"
+    ]
+}

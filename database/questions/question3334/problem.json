@@ -1,0 +1,11 @@
+{
+    "title": "Datas entre dias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Frustados com a impossibilidade de utilizar a questão Dias entre datas na lista de laços, os amáveis monitores tiveram a brilhante ideia de criar uma nova questão baseada nela: Dias entre datas versão Boss, como disse um dos anciões da monitoria. Para que seus queridos alunos pudessem ter memórias tão fabulosas, assim como os monitores tiveram, dessa questão durante a lista de laços. Escreva um programa que, dado duas datas A e B, ele encontre a data que se localiza exatamente entre A e B. Caso a quantidade de dias entre A e B seja ímpar a saída deve conter o horário representando a metade do dia.",
+    "format_input": "Consiste de duas datas formatadas representando a data inicial e a final. (data inicial <= data final) Não há necessidade de checar se a data é válida.",
+    "format_output": "Uma linha contendo a data pedida na forma 00/00/0000 junto com o horário daquele dia onde se encontra o meio entre as duas datas. Exemplo: 05/07/2003 00:00 06/02/1990 12:00",
+    "topics": [
+        "datas/horas",
+        "repetição"
+    ]
+}

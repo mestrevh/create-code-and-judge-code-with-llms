@@ -1,0 +1,12 @@
+{
+    "title": "Terror Natalino",
+    "time_limit": "1 segundo(s)",
+    "descrition": "HOHOHO! Marquinhos é um aluno do IC. Numa certa noite de Natal, Marquinhos ficou muito irritado com a ausência do Papai Noel, então ele foi ao banheiro colocar toda sua raiva para fora dizendo, na frente do espelho: \"EU ODEIO P1, EU ODEIO P1, EU ODEIO P1!\". E ele nunca mais foi visto... Agora temos aqui um diálogo sem sentido. MARQUINHOS: Oh meu Deus! Onde eu estou!? ENTIDADE: Opa. Você está preso aqui, no Mundo Recursivo, e eu sou a entidade que aqui reina. AH AH AH. MARQUINHOS: Eu preciso sair daqui. Ainda tenho que fazer a prova de Recursão! ENTIDADE: Para sair daqui, você terá que realizar um desafio. Se conseguir, você sai, caso contrário, ficará preso aqui eternamente resolvendo os problemas deste arquivo: \"pack_1000questõesHuxley_nível_5_facinpo.zip\". MARQUINHOS: Oh céus! ENTIDADE: O desafio é o seguinte: você deverá somar os dígitos de 'n' números. MARQUINHOS: Moleza! ENTIDADE: No entanto, no Mundo Recursivo, essa operação funciona da seguinte forma: Suponha um inteiro 'x'. Se x for primo, você substitui cada dígito por (x - o fatorial desse dígito). Exemplo: 31. Dígito da unidade é 1, passa a ser 31 - 1! = 31 - 1 = 30. Dígito da dezena é 3, passa a ser 31 - 3! = 31 - 6 = 25. Soma = 30 + 25 = 55. Se x fosse par, você substitui cada dígito 'd' por (x + a soma de seus 'd' sucessores). Exemplo: 12. Dígito da unidade vale 2, passa a ser 12 + 13 + 14 = 39. Dígito da dezena vale 1, passa a ser 12 + 13 = 25. Soma = 39 + 25 = 64. Se x fosse ímpar, você substitui cada dígito 'd' por (x - a soma de seus 'd' antecessores). Exemplo: 25. Dígito da unidade vale 5, passa a ser 25 - 24 - 23 - 22 - 21 - 20 = -85. Dígito da dezena vale 2, passa a ser 25 - 24 - 23 = -22. Soma = -107",
+    "format_input": ".",
+    "format_output": ".",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "recursão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Vetores - E",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que lê um vetor de cinquenta números inteiros e exibe, ao final, o menor valor lido.",
+    "format_input": "Cinquenta números inteiros, um por linha.",
+    "format_output": "O menor valor lido dentre os cinquenta.",
+    "topics": [
+        "array"
+    ]
+}

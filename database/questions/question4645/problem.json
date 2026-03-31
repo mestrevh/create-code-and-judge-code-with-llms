@@ -1,0 +1,12 @@
+{
+    "title": "Q01 - Quantas letras há na frase",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sua tarefa é simples, dada uma letra x, onde x representa a letra, informe quantas dela há numa frase y, onde y representa a frase. Exemplo: o (letra a contar) Marcos (frase de quem contar) dessa forma, o número de letras \"o\" na frase \"Marcos\" é 1",
+    "format_input": "uma letra que representa a letra a ser contada uma frase que representa de quem contar",
+    "format_output": "um número indicando a quantidade de letras naquela frase específica",
+    "topics": [
+        "decisão",
+        "string",
+        "busca"
+    ]
+}

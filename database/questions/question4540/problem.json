@@ -1,0 +1,10 @@
+{
+    "title": "Não pule a cerca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma fazenda situada num terreno plano tem a forma de um polígono convexo de n vértices. A fazenda está completamente cercada e possui uma porteira no meio de um dos lados do polígono. João se encontra em algum ponto fora da fazenda e quer saber qual é o trajeto mais curto até a porteira. João não poderá pular a cerca, pois está eletrificada. Projete um algoritmo razoavelmente eficiente para computar este trajeto.",
+    "format_input": "1. A primeira linha contém o número inteiro n correspondente à quantidade de vértices do polígono. 2. As coordendas x e y de cada ponto do polígono que forma a cerca. Ambos números são float e estão separados por espaço. Cada ponto é listado em uma linha separada. A listagem dos pontos não segue necessariamente alguma ordem específica. Em particular, pontos extremos de um lado cerca podem não ser contíguos nesta listagem. Os dois primeiros pontos desta listagem representam os extremos do lado em que se encontra o portão. 3. Uma linha com as coordenadas x e y correspondentes à posição de João.",
+    "format_output": "O trajeto mais curto até a cerca. O trajeto está especificado pelos pontos que passa, iniciando na posição inicial de João até chegar na porteira, passando possivelmente por vértices da cerca. Cada ponto é listado em uma linha separada.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

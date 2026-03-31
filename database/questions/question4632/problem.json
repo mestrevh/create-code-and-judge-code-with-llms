@@ -1,0 +1,11 @@
+{
+    "title": "Q8 - Último da fila",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Serão dados i números. Sua função é mostrar uma lista com todos esses números, sem que haja números iguais ao último número que foi dado.",
+    "format_input": "um número i que representa a quantidade de elementos da lista.",
+    "format_output": "Uma lista que não possua números iguais aoi último número que foi dado.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

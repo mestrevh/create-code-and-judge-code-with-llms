@@ -1,0 +1,11 @@
+{
+    "title": "Evento Fictício",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oileh é o responsável pelo credenciamento em um evento realizado pela empresa Ficticia. Durante o evento, as pessoas estarão organizadas em três tipos de filas: Convidados, Empregados e Preferencial. Para facilitar o processo, Oileh chamou cada fila, respectivamente, de 0, 1 e 2. Para cada pessoa que passar pelo credenciamento, serão registrados os seguintes dados: Idade; Sexo (M para masculino e F para feminino); Indicação se paga meia entrada (1 para quem paga meia, 0 para quem não paga). O valor integral do ingresso é 40 reais, e para quem paga meia entrada, o valor é de 20 reais. Ao final do evento, Oileh deve fornecer ao seu chefe os seguintes dados: Receita total dos ingressos vendidos; Receita de uma fila específica escolhida por ele; Número total de homens e mulheres que foram credenciados; Média das idades.",
+    "format_input": "Um inteiro N, que representa a quantidade de pessoas em cada tipo de fila. Todas as filas têm a mesma quantidade de pessoas. Os dados das pessoas são fornecidos em N blocos, cada bloco possuindo os dados de 3 pessoas alternando entre pessoas de cada tipo de fila, sempre na seguinte ordem: Convidados, Empregados e Preferencial. Cada registro de uma pessoa inclui, nessa ordem: Idade, Sexo, Informação sobre pagamento de meia entrada (1 ou 0). Em seguida é fornecido um número inteiro M (0 ≤ M ≤ 2), representando a fila para a qual Oileh deseja obter a receita específica.",
+    "format_output": "A receita total do evento no formato: “Receita Total: R”, onde R é o valor total arrecadado. A receita da fila específica solicitada no formato: “Receita fila F: S”, onde F é o número da fila e S é a receita da fila específica. O número total de homens e mulheres credenciados no formato: “Homens: X” e “Mulheres: Y”, onde X e Y são os totais correspondentes. A média das idades no formato: “Media das idades: M”, onde M é a média calculada.",
+    "topics": [
+        "array bidimensional",
+        "estruturas"
+    ]
+}

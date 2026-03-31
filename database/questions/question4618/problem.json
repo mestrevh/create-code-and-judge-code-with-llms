@@ -1,0 +1,10 @@
+{
+    "title": "Arco de treinamento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após ser derrotado no duelo contra Ekul, Aim decide se preparar para a revanche. Ele resolve subir até o dojo do Sr. Miyagi para treinar. No caminho, Aim percebe que existem bandeiras de três cores: amarelas, laranjas e vermelhas, e, entediado, decide contar quantas bandeiras de cada cor aparecem ao longo do percurso. Você receberá um número inteiro N que representa o tamanho do caminho até o dojo do Sr. Miyagi, seguido por um array de inteiros que descreve cada trecho desse caminho. Cada valor no array indica a cor de uma bandeira: 1 para bandeiras vermelhas, 2 para bandeiras laranjas, 3 para bandeiras amarelas. Sua tarefa é: 1. Contar e imprimir quantas bandeiras de cada cor existem no caminho. 2. Imprimir o percurso de volta que Aim deverá seguir após terminar seu treino, que será o caminho original percorrido de trás para frente.",
+    "format_input": "Você receberá um número inteiro N, que representa o tamanho do array. Em seguida, receberá uma sequência de N números inteiros que compõem o array. Ex.: 5 1 0 1 0 2",
+    "format_output": "A saída deverá exibir a quantidade de bandeiras de cada cor, respeitando a seguinte ordem: Amarelo = 'A' Laranja = 'L' Vermelho = 'V' Após exibir as quantidades, imprima o array de trás para frente. Ex.: Amarelo = 0 Laranja = 1 Vermelho = 2 2 0 1 0 1",
+    "topics": [
+        "array"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Struct Carros T3P1",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Faça um programa em linguagem C que leia os dados de 3 carros: marca (máximo de 15 letras), ano e preço. Os dados de cada carro devem ser armazenados em uma struct. Leia um valor p e mostre as informações de todos os carros com preço menor que p.",
+    "format_input": "O usuario deve digitar marca (máximo de 15 letras), ano e preço de 3 carros. Em seguida, deve digitar o valor p.",
+    "format_output": "O programa deve exibir marca (máximo de 15 letras), ano e preço de todos os carros com preço menor que p.",
+    "topics": [
+        "estruturas"
+    ]
+}

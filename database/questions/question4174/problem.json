@@ -1,0 +1,10 @@
+{
+    "title": "Garagem da ᵈᵘᵈᶦⁿʰᵃ",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Garagem. Você é o dono de um sistema de garagem e irá criar um sistema que gerencia a entrada e saída de carros de suas garagens. Cada vaga v é representada por um número inteiro (0 <= v <= 500) onde cada vaga possui um carro indentificado por um número K (0 <= K <= 9999)",
+    "format_input": "Primeiramente, a entrada será um inteiro indicando quantas vagas tem nessa garagem. Após isso, o programa consistirá em várias linhas onde tem o formato: c K v m. Onde C é o caractere que representa a ação na vaga v. As ações podem ser: ‘i’ -> Inserir carro K na vaga v; ‘r' -> Remover o carro K da vaga v; ‘m' -> Mudar o carro K de v para a vaga m. A entrada o -1 -1 encerra o programa.",
+    "format_output": "Saída: A saída consistirá primeiramente nas mensagens: Caso a vaga v esteja preenchida, imprima “Not empty” uma vez e coloque o carro na próxima vaga disponível na ordem crescente (v+1) até retornar a v = 0 e continuar a procura por vaga. Se por acaso não existir mais vagas, apenas imprima “FULL”. Caso o carro K não exista na vaga v imprima “Not Found“. Ao término do programa imprima a situação da garagem em várias linhas da seguinte forma: Vaga v -> K. Caso v esteja vazio, não imprima.",
+    "topics": [
+        "array"
+    ]
+}

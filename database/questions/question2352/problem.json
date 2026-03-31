@@ -1,0 +1,11 @@
+{
+    "title": "Transforma pares (implementado em lista)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[DESCRIÇÃO] Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetros uma sequência de naturais L e um natural n (n>=1), que representam uma sequência L de tamanho n. A função deverá transformar todos os números pares de L no mais próximo ímpar superior ao par original. [ENTRADA] (a) a primeira linha da entrada contém o tamanho n da sequência; (b) as próximas n linhas representam os itens que compõem a sequência. [SAÍDA] (a) o programa principal deverá imprimir os itens de L já modificados, ou seja, sem a existência de nenhum par. [RESTRIÇÕES] (a) a leitura da entrada deve ser feita no programa principal; (b) a sequência deve ser armazenada em uma lista; (c) não usar append(), a lista deve ser criada já com o tamanho necessário; (d) não usar variáveis globais; (e) a função não devolve valor algum, todas as modificações devem ser feitas na lista original; (f) não usar listas auxiliares.",
+    "format_input": "5\n10\n11\n15\n22\n23",
+    "format_output": "11\n11\n15\n23\n23",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}

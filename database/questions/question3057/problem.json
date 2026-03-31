@@ -1,0 +1,12 @@
+{
+    "title": "Black Stories: Suspeitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os monitores estavam com tempo vago pois ninguém apareceu para monitoria de programação, então decidiram jogar um novo jogo de investigação para passar o tempo, o objetivo do jogo era achar o maior grupo de indivíduos suspeitos a partir dos depoimentos dos NPC's. Um grupo é considerado suspeito se uma testemunha disser que viu esse grupo cometendo o crime da história atual. Quando uma testemunha depõe, ela aponta o intervalo de indivíduos que foram vistos cometendo o crime e esses indivíduos somam um ponto de suspeita. No fim do jogo, é verificado qual foi o maior ponto de suspeita e os grupos (intervalos) de indivíduos que possuem a maior ponto de suspeita são levados para prestar depoimento. Irá ganhar aquele que apontar o grupo com o maior número de suspeita, caso haja um empate (dois ou mais monitores apontaram grupos com a maior pontuação de suspeita), ganha aquele que escolher o grupo com o maior número de indivíduos com a maior pontuação de suspeita. O jogo pode ter muitos indivíduos e muitas testemunhas o que pode dificultar na hora de conferir quem ganhou o jogo, por isso, foi pedido a você que crie um programa que determine os resultados finais do jogo.",
+    "format_input": "A primeira linha de entrada é formada por 2 inteiros S e T, sendo S o número de suspeitos e T o número de testemunhas. (1 <= S,T <= 10000). As T linhas seguintes contém os depoimentos de cada testemunha, este é formado por dois inteiros L e R, sendo L o primeiro da sequencia do grupo e R o ultimo. (0 <= L < R < S)",
+    "format_output": "A primeira linha contém a pontuação de cada individuo separada por espaço (perceba que o ultimo não tem um espaço depois) A segunda linha contém a maior pontuação de suspeito. As k linhas seguintes consistem dos grupos que houveram a maior pontuação de suspeita. Na linha seguinte ao ultimo intervalo de maior pontuação o tamanho da maior sequencia de indivíduos com a maior pontuação de suspeita, nas linhas abaixo (como descrito nos casos de exemplo), imprima o começo e o fim da referida sequencia. Obs: nunca haverá duas sequências com a maior pontuação e a maior quantidade de indivíduos.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "busca"
+    ]
+}

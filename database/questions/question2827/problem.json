@@ -1,0 +1,13 @@
+{
+    "title": "Mineração",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um dos problemas encontrados para gerenciar os recursos de uma mina é ter controle de onde cada túnel pode levar, sabendo disso a Sociedade Brasileira de Mineiros pediu para você construir um programa que, dado a quantidade de túneis, onde cada túnel leva e o túnel que quer saber onde você vai sair imprima na tela o túnel de saída. Um túnel é considerado um túnel de saída quando ele leva a -1. Obs1: sempre existe pelo menos um túnel de saída. Obs2: um túnel i sempre leva a exatamente um túnel de saída (ou seja, não existe interseções entre os túneis)",
+    "format_input": "A entrada é composta por 3 linhas, a primeira contém um inteiro N (0 < n < 30) que indica a quantidade de túneis da mina. A segunda contém N inteiros Ai(-1 <= Ai < n) representando a qual túnel o túnel i leva. A terceira linha contém um inteiro E(0 <= E < n) que indica o túnel inicial da busca.",
+    "format_output": "A saída é composta por um inteiro indicando qual o túnel de saída encontrado.",
+    "topics": [
+        "array",
+        "repetição",
+        "recursão",
+        "busca"
+    ]
+}

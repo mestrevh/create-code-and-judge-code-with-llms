@@ -1,0 +1,14 @@
+{
+    "title": "A Saga do Protagonista: Viagem no Cruzeiro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Cansados de se desafiarem em jogos, o ilustre Protagonista e seu amigo Z resolveram fazer uma viagem em um cruzeiro da empresa de Ambrósio (Royal Ambrolandean). Z levou uma câmera para fotografar as belezas em alto mar, porém esqueceu de dar zoom em algumas fotos, tornando-as difíceis de visualizar. Então Protagonista lembrou dos excelentes alunos de P1. Protagonista teve uma ideia e Z concordou, então o desafio agora é seu. Os dois pediram para você criar um programa que dê zoom em todas as fotos que Z esqueceu de o fazer. Z quer que seu programa dê zoom em determinados objetos na foto, até que alguma das bordas do objeto atinja uma das bordas da imagem. Segue um exemplo: No exemplo abaixo pode ser visto que foi aplicado um zoom de 4x até a borda da ilha tocar a parte inferior da foto. Note que a ilha vai aumentando de tamanho gradativamente ate atingir o limite desejado. Exemplo de entrada até chegar no resultado final:",
+    "format_input": "A entrada consiste de varias fotos, e para cada uma delas você receberá: i) Uma linha contendo Y colunas e X linhas; ii) Uma matriz de X linhas e Y colunas. A matriz é constituída de: 1. \".\" (pontos) representando o céu; 2. \"_\" (underlines) representando a linha da água; 3. \"#\" (cerquilhas) representando o objeto a ser focado.",
+    "format_output": "A saída consiste de: i) Uma linha contendo o numero da foto lida; ii) Uma linha contendo a quantidade de vezes que foi necessário dar zoom; iii) A matriz depois do zoom.",
+    "topics": [
+        "multiplas entradas",
+        "eof",
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Q05 - Par ou Ímpar",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função chamada \"par_ou_impar\" que recebe um número inteiro e retorna se ele é par ou ímpar.",
+    "format_input": "um número inteiro",
+    "format_output": "exiba a mensagem \"Par\" se o número digitado for par ou \"Ímpar\" caso contrário",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

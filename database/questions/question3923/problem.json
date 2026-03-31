@@ -1,0 +1,11 @@
+{
+    "title": "É um retângulo?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que identifique se os comprimentos dos lados fornecidos pelo usuário podem formar um retângulo. Atenção: Deve ser criada um função chamada eRetangulo que recebe o comprimento dos quatro lados e retorna True se for um retângulo e False caso não seja.",
+    "format_input": "Uma sequência de 4 inteiros contendo o comprimento de cada um dos lados da forma geométrica, um valor por linha. Considere que não há uma ordem específica ao informar o comprimento dos lados. Assuma que todos os valores serão positivos.",
+    "format_output": "Se for um retângulo, imprimir na tela: RETANGULO Caso contrário, imprimir: NAO EH UM RETANGULO",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

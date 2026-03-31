@@ -1,0 +1,13 @@
+{
+    "title": "Jogos de Ambrósio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Nosso amigo Ambrósio está fazendo um bazar para vender seus jogos. Como ele possui centenas, precisa de sua ajuda para ordenar os jogos, facilitando para seus clientes. Cada jogo possui uma nota de avaliação e um preço. Ambrósio quer que você ordene os jogos com avaliação maior para menor, e preço menor para maior, caso possuam a mesma avaliação.",
+    "format_input": "Um inteiro N indicando a quantidade de jogos. (1 <= N <= 10000) N linhas representando cada jogo, com um inteiro A (nota), e um número de ponto flutuante P (preço). (1 <= A <= 10), (0 < P <= 1000)",
+    "format_output": "Os jogos ordenados de forma decrescente pela nota, e caso possuam a mesma avaliação, ordenado de forma crescente pelo preço. Formatados conforme o exemplo.",
+    "topics": [
+        "array",
+        "array bidimensional",
+        "ordenação",
+        "estruturas"
+    ]
+}

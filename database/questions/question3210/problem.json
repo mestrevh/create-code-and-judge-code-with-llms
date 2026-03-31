@@ -1,0 +1,10 @@
+{
+    "title": "AC2 - Ex. 1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcula a distância d entre dois pontos A e B no espaço, isto é, com coordenadas (x, y, z) e calcule a distância entre eles usando a fórmula:",
+    "format_input": "Coordenada x do ponto A Coordenada y do ponto A Coordenada z do ponto A Coordenada x do ponto B Coordenada y do ponto B Coordenada z do ponto B",
+    "format_output": "Distância entre os pontos dados.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

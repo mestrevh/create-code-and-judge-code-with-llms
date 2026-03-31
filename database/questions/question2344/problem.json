@@ -1,0 +1,11 @@
+{
+    "title": "Sequência de Fibonacci (função sem devolução)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetros um número natural estritamente positivo n e que exiba os n primeiros elementos da Sequência de Fibonacci. O PROGRAMA PRINCIPAL deverá ler o valor n e chamar a FUNÇÃO que, por sua vez, exibirá os elementos.",
+    "format_input": "5",
+    "format_output": "1 1 2 3 5",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}

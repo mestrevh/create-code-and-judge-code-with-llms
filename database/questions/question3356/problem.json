@@ -1,0 +1,11 @@
+{
+    "title": "Próximo dia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que determine a data do dia seguinte, a partir de uma data fornecida. Considere 28 dias para o mês de fevereiro.",
+    "format_input": "Três inteiros, x, y, e z, correspondendo, respectivamente ao dia, mês e ano.",
+    "format_output": "A data do dia seguinte ao fornecido, com dia, mês e ano separados por \".\", como no exemplo, ou a mensagem \"Data invalida\", caso a data fornecida não seja válida.",
+    "topics": [
+        "datas/horas",
+        "decisão"
+    ]
+}

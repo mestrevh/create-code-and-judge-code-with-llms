@@ -1,0 +1,10 @@
+{
+    "title": "Soneca Passa em Cálculo 1!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após fazer 547 questões de cálculo 1, Xupenio ficou entediado e decidiu ajudar seu amigo emo, Sonequinha, a estudar para essa cadeira, já que ele estava passando os dias dormindo em vez de estudar. Assim, Xupenio montou um plano de estudos para que Sonequinha pudesse fazer uma quantidade X de questões por semana. Usando seus conhecimentos matemáticos, Xupenio permitiu que o próprio Sonecas escolhesse quantas questões ele deseja fazer na primeira semana. A partir de então, ele terá que estabelecer uma progressão aritmética para indicar a quantidade de questões a serem feitas nas N semanas seguintes. Xupenio afirmou que Sonequinha só alcançaria 10% do seu poder se conseguisse manter essa rotina infinitamente. O emo deseja voltar a tirar sua soneca e por isso pediu seu auxílio para fazer um código que exibe quantas questões ele vai ter que fazer na enésima semana seguinte. Seu programa vai receber quantas questões ele fez na primeira semana, o número de questões que ele terá que incrementar a cada semana e a semana a ser testada. Ajude o emo a seguir o caminho das trevas trevosas e passar em cálculo 1!",
+    "format_input": "3 inteiros Q, R e S, onde Q representa a quantidade de questões que Soneca deseja fazer na primeira semana, R indica quantas questões ele terá que fazer a mais em cada semana e S informa a semana a qual Soneca deseja saber quantas questões ele terá que fazer (S=1 representa a primeira semana de estudos e assim por diante). 0<=Q,R<=10³; 1<=S<=10³;",
+    "format_output": "A saída é uma linha no formato: “Na semana s Soneca tera que fazer x questoes”, onde x representa quantas questões ele terá que fazer na semana de índice s.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

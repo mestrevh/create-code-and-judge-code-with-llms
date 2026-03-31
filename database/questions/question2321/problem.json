@@ -1,0 +1,11 @@
+{
+    "title": "L5Q3 - Audition",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Um dos grandes eventos escolares que deixam muitos ansiosos são os musicais produzidos pelo grupo de teatro de East High. Para isso, todos os anos são feitas audições para decidir quem deverá assumir cada papel no grande espetáculo. Contudo, nesse ano, o teatro atraiu muitos concorrentes, dificultando muito o processo de decisão para cada papel! É aí que você se encaixa. A Senhora Darbus, professora do teatro, que já está cansada de fazer isso todos os anos, pediu a você que a ajudasse fazendo um programa que fosse capaz de decidir quem deve assumir o papel principal. A fim de decidir quem deverá tomar o papel, você deverá calcular a seguinte função: F(n) = (somatório dos valores de cada carácter no nome do candidato) * (nível de paciência da Senhora Darbus na hora deste candidato). OBS: O valor de cada caractere será obtido através da tabela ASCII. Note que o nível de paciência da professora decresce em 1% para cada novo candidato! Se o nome do candidato for Troy Bolton, Gabriella Montez, Sharpay Evans ou Ryan Evans, você deve somar 350 pontos extras à função daquele candidato. O vencedor é aquele que tiver o maior valor de resultado. Sua solução, precisa, obrigatoriamente, utilizar recursão",
+    "format_input": "V Sendo V o valor inicial do paciência da professora N Sendo N a quantidade de pessoas que irão tentar papéis Seguido por N linhas com uma String: X Sendo X o nome do candidato, podendo ou não ter sobrenome.",
+    "format_output": "Uma String no formato: \"O grande vencedor(a) do papel principal desse ano foi NOME!\" Na qual NOME representa o nome do vencedor.",
+    "topics": [
+        "array",
+        "recursão"
+    ]
+}

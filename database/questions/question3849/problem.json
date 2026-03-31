@@ -1,0 +1,10 @@
+{
+    "title": "Termine o Retângulo [D]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em outra tarde qualquer Z, o melhor amigo do Protagonista, desafiou ele para mais um jogo divertido! Inicialmente, Z escreve 4 pontos com coordenadas inteiras (X[i], Y[i]), que formam um retângulo, em seguida ele apaga um dos 4 pontos que ele escreveu, restando apenas 3 pontos. Com isso, a missão do Protagonista é descobrir qual eram as coordenadas do ponto que foi apagado por Z. Como o Protagonista não gosta muito de geometria, ele pediu para que você ajudasse ele nessa missão.",
+    "format_input": "A entrada possui 3 linhas, cada uma contendo dois inteiros 1 <= X[i], Y[i] <= 10^5. Todos os pontos são distintos, ou seja, não existem nenhum par de pontos i e j, tal que, X[i] == X[j] e Y[i] == Y[j].",
+    "format_output": "Dois inteiros X e Y indicando as coordenadas do ponto que foi apagado por Z.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Seno e cosseno a partir de séries de Taylor",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Você foi contratado por uma multinacional para implementar parte da lógica de um novo modelo de calculadora científica. Construa um programa para calcular o seno e o cosseno de um ângulo a partir das seguintes séries de Taylor: onde x é o ângulo em radianos. Construa um programa que lê um ângulo em graus (use a função math.radians(x) para fazer a conversão), lê o número de iterações(repetições) n dos termos das séries, e imprime o valor do seno e do cosseno calculados a partir delas respectivamente, arredondando-os em 5 casas decimais (utilize a função round(<variavel>, 5) para isso).",
+    "format_input": "Leia um ângulo em graus (converta-o para radianos). Leia o número de iterações (repetições) n.",
+    "format_output": "Calcule e imprima o valor do seno arredondado em 5 casas decimais (use a função round(seno, 5) para isso). Calcule e imprima o valor do cosseno arredondado em 5 casas decimais (use a função round(seno, 5) para isso).",
+    "topics": [
+        "repetição"
+    ]
+}

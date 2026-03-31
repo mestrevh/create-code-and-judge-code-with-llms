@@ -1,0 +1,11 @@
+{
+    "title": "A viagem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pedro gosta de viajar de Uber com sua família e/ou sua namorada. Caso ele saia num fim de semana, ele sai com todo mundo junto e, por causa disso, acaba tendo que pagar mais caro, com um aumento de 10% no valor final da tarifa. Ele só pode disponibilizar 30% do seu salário para gastar em viagens de Uber, cuja tarifa é dada pela seguinte fórmula: tarifa = valor fixo + preço por quilômetro x quilômetros rodados. Pedro se confunde muito nos cálculos para saber quanto vai sobrar dos seus 30% do salário se fizer uma viagem de Uber num determinado dia, então eu te indiquei para que o auxilie nesse problema.",
+    "format_input": "Você receberá 4 valores reais, relativos a, respectivamente, o salário de Pedro, valor fixo da tarifa, preço por quilômetro e a quilometragem a ser percorrida. Em seguida, se Pedro for viajar no fim de semana, receberá o inteiro 1, caso contrário, o 0.",
+    "format_output": "Se ele tiver dinheiro para viajar, deverá ser impresso três informações: \"Vai poder viajar.\"; Valor que ele vai gastar com o Uber, com duas casas decimais; Saldo que restou dos 30% do salário para as próximas viagens de Uber, com duas casas decimais. Caso contrário, se ele não tiver dinheiro para viajar, imprima: \"Não vai poder viajar.\"; Valor que faltou para ele fazer a viagem, com duas casas decimais. Ao fim de cada frase, terá uma quebra de linha.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

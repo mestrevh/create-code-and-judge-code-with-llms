@@ -1,0 +1,16 @@
+{
+    "title": "A Mumba de Kamyamoto (Powered by Kinho)",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Fugiro Kamyamoto se tornou um ilustre entregador e, agora faz entregas interplanetárias. Porém em uma viagem, Kamyamoto passou perto de uma batalha estelar e perdeu o controle de seu carregamento. Kamyamoto está numa posição central (0,0,0) no espaço (R3), e suas caixas estão em pontos aleatórios no R3,cada caixa tem um ID para identificá-la. Sua função é desenvolver um programa que vai indicar quais caixas Kamyamoto deve pegar primeiro, e seu critério de preferência é sempre a mais próxima em relação a ele. Ele deve se deslocar até uma caixa para pegá-la e, a partir dessa nova coordenada, julgar novamente qual caixa é a mais próxima , até coletar todas. Se, por acaso, houverem duas caixas com a MESMA distância, você deve dar preferência pela caixa com menor ID.",
+    "format_input": "A entrada consiste em vários casos teste. Um inteiro N, representando o número de caixas. x y z, três inteiros representando as coordenadas de cada caixa no R3. O programa deve rodar enquanto N!=0. A entrada termina quando o número de caixas N=0.",
+    "format_output": "O ID de cada caixa, separados por um espaço, e uma quebra de linha no final de cada busca.",
+    "topics": [
+        "array",
+        "eof",
+        "decisão",
+        "lógica matemática",
+        "ciclos",
+        "busca",
+        "estruturas"
+    ]
+}

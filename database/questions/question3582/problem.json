@@ -1,0 +1,11 @@
+{
+    "title": "Norma do vetor com 3 componentes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você recebeu a missão de calcular a norma de um no espaço tridimensional. Serão fornecidas as 3 componentes do vetor (números reais) e você deve imprimir na tela a respectiva norma (número real).",
+    "format_input": "São dados 3 valores reais, um em cada linha.",
+    "format_output": "Um número real com 4 casas decimais (arredonde na última casa) que representa a norma do vetor dado.",
+    "topics": [
+        "geometria computacional",
+        "lógica matemática"
+    ]
+}

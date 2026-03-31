@@ -1,0 +1,11 @@
+{
+    "title": "Unidade, Dezena e Centena",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A professora de matemática de uma escola infantil descobriu que seus alunos amam passar horas na frente de uma tela de equipamento tecnológico. Mas não gostam de praticar suas atividades de matemática que ela passa para fazer em casa. Assim ela resolveu fazer um programa que exercite seus conteúdos em uma tela de computador. O assunto da vez é o ensino de unidades, dezenas e centenas. Depois de dar todo o conteúdo e praticado bastante em sala, ela pediu para que os alunos utilizassem o programa chamado UNIDEZECENTE, que recebe vários números dentro do intervalo de 1 a 999 (informa que é um número inválido se for fora desse intervalo e pede para ler outro número), e para cada número lido, informa quantas unidades, quantas dezenas e quantas centenas tem cada um deles. O programa encerra quando for lido o número 0. Sua missão é desenvolver esse programa e ajudar a professora. Ao final imprima o número invertido.",
+    "format_input": "um número inteiro entre 1 e 999 (podendo incluí-los)",
+    "format_output": "3 linhas, sendo: A primeira linha informando a quantidade de centenas. A segunda linha informando a quantidade de dezenas A terceira linha informando a quantidade de unidades.",
+    "topics": [
+        "lógica matemática",
+        "repetição"
+    ]
+}

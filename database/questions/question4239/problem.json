@@ -1,0 +1,10 @@
+{
+    "title": "Mais de dois negativos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que verifique se uma sequência de números inteiroscontém mais de dois números negativos.",
+    "format_input": "A sequência de inteiros, escrita em várias linhas. Cada linha pode conter um ou mais números. A sequência é finalizada com a palavra ‘FIM’.",
+    "format_output": "Se a sequência tem mais de dois números negativos, a saída deve ser ‘SIM’, caso contrário a saída será ‘NAO’.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

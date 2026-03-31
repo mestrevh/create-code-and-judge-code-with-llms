@@ -1,0 +1,11 @@
+{
+    "title": "O Cubo LeMarchand colorido!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Beethoven dos Teclados, Danerd Ramanujan e Ícaro Tiro Certo foram convidados por Ana Paula Cigana para um workshop de cubo mágico, como palestrantes. Porém para deixar mais interessante, ela quer desafiar os três para competir contra um computador e ela lhe pediu para desenvolver um simples emulador de cubo mágico! O seu sistema contêm as seguintes regras: i) A cor é enumerada, ou seja, cada cor representa um número. NUM | COR: 0 | Amarelo, 1 | Azul, 2 | Laranja, 3 | Vermelho, 4 | Branco, 5 | Verde. - Obs: Para a solução é necessário adotar a seguinte visão: - Sendo 0 à primeira face de cor 0, 1 à segunda e assim sucessivamente. - Sendo a face 1 a face do topo! O seu referencial deve ser a face número 1(voltada para o topo), a figura abaixo ilustra o esquema de referencias, onde a seta aponta para o final da face. ii) O cubo é iniciado montado. iii) A ideia é implementar os movimentos básicos do cubo mágico.",
+    "format_input": "Você irá receber uma sequencia de tamanho indefinido de múltiplos caracteres M e D, sendo M o movimento(U, L, F, R, B, D) e D(R, L)",
+    "format_output": "Cada face do cubo após a movimentação seguido de uma quebra de linha para cada face.",
+    "topics": [
+        "ad-hoc",
+        "array bidimensional"
+    ]
+}

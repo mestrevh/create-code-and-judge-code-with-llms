@@ -1,0 +1,10 @@
+{
+    "title": "Rock in AL",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os gerentes do Rock in AL (evento conhecido em todo o munfo), decidiram trazer 3 grandes bandas/cantores(as) em um único dia, que se apresentarão na seguinte ordem: 1 -> Coldplay, 2 -> Dua Lipa, 3 -> Imagine Dragons. Onde cada banda garantiu levar um valor fixo de fãs para o show. Mas como é de se esperar, algumas pessoas gostam apenas de Coldplay, mas não gostam de Dua Lipa e Imagine Dragons, outras gostam apenas de Dua Lipa, mas não gostam de Imagine Dragons e Coldplay, e outras gostam apenas de Imagine Dragon, mas não gostam de Coldplay e Dua Lipa. Depois de muitas pesquisas, descobriram que: 35% dos fãs de Coldplay gostam apenas de Coldplay e se recusam a assistir os demais shows. 25% dos fãs de Dua Lipa gostam apenas de Dua Lipa e se recusam a assistir os demais shows. 20% dos fãs de Imagine Dragon gostam apenas de Imagine Dragon e se recusam a assistir os demais shows. Tendo essas informações os gerentes do evento pediu para que você fizesse um código que calculasse quantas pessoas assistiram todos os shows. Em seguida, diga qual a banda que trouxe mais fãs que assistiram todos os shows e qual banda trouxe menos fãs que assistiram todos os shows. OBS.1: Considere que as pessoas que gostam de todas as bandas vão chegar para assistir o primeiro show. OBS.2: Considere que o resultado dessas porcentagens sempre dará um inteiro. OBS.3: Considere que a pessoa ou gosta apenas de uma banda ou gosta de todas.",
+    "format_input": "Será dado 3 inteiros, representando a quantidade dos fãs de Coldplay, Dua Lipa e Imagine Dragon, respectivamente.",
+    "format_output": "imprima a quantidade de pessoas que assistiram todos os shows. Em seguida a banda que trouxe mais pessoas para assistirem todos os shows, da seguinte forma \"Melhor -> nome\". E depois a banda que trouxe menos pessoas para assistirem todos os shows, da seguinte forma \"Pior -> nome\".",
+    "topics": [
+        "decisão"
+    ]
+}

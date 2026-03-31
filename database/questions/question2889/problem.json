@@ -1,0 +1,12 @@
+{
+    "title": "Lista Telefonica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Suponha dois vetores de 15 elementos cada, contendo: código de área e telefone. Faça um programa em linguagem C que permita buscar um código e imprimir todos os números de telefone que começam com aquele código de área. Caso não haja nenhum telefone com aquele código, deve ser mostrada a mensagem \"Nao ha nenhum telefone com o codigo n\".",
+    "format_input": "A entrada consiste de 15 pares de números, contendo respectivamente o código de área e o numero do telefone, e o código de área desejado.",
+    "format_output": "O programa deve exibir os números de telefone que tem o código de área desejado após a mensagem \"Telefones com o codigo de area n:\" ou \"\"Nao ha nenhum telefone com o codigo n\", imprimindo na tela: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area e o telefone: Digite o codigo de area: Telefones com o codigo de area n: n n n",
+    "topics": [
+        "array",
+        "decisão",
+        "busca"
+    ]
+}

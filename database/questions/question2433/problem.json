@@ -1,0 +1,10 @@
+{
+    "title": "Maior inteiro múltiplo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que imprima o maior múltiplo de um inteiro positivo e maior que zero menor do que ou igual a um outro inteiro, este valor maior do que o primeiro (exemplo: o maior múltiplo de 7 menor que 50 é 49).",
+    "format_input": "A entrada do programa deve ser feita através de dois inputs do usuário: o primeiro deve ser o primeiro inteiro cujo maior múltiplo deve ser encontrado, e o segundo deve ser o segundo inteiro, cujo valor serve de limite para o múltiplo. Exemplo: 7 50",
+    "format_output": "A saída deve ser apenas o resultado do cálculo. Exemplo: 49",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

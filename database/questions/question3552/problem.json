@@ -1,0 +1,10 @@
+{
+    "title": "Prática de estruturas de repetição",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Construa um programa que lê dois valores inteiros x e y e imprime todos os números inteiros entre x e y.",
+    "format_input": "Dois valores inteiros x e y. OBS: Não utilize strings dentro do comando input() na plataforma TheHuxley. Errado: x = int(input(\"Informe x: \")) Correto: x = int(input())",
+    "format_output": "Todos os números inteiros entre x e y.",
+    "topics": [
+        "repetição"
+    ]
+}

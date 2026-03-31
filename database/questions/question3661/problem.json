@@ -1,0 +1,13 @@
+{
+    "title": "Caça-palavra",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Agora que Doug aprendeu a programar matriz na linguagem C, ele resolveu melhorar o jogo da sopa de letrinhas e fazer um caça-palavra. A ideia é encontrar não só uma letra, mas sim uma palavra na matriz de inteiros que será dada. Cada inteiro corresponde a uma letra na tabela ASCII. Para comparar se o valor decimal de um char é igual a um valor na matriz, basta comparar o char com o elemento da matriz. Por exemplo: a palavra: UFAL Seus caracteres na tabela ASCII ficam: U - 85 F - 70 A - 65 L - 76 No exemplo a palavra \"UFAL\" se encontra da célula C2 a célula C5. As palavras poderão estar na posição vertical ou horizontal!",
+    "format_input": "Na entrada, você receberá: Um valor correspondente ao tamanho da palavra. A palavra com todas as letras maiúscula. A quantidade de linhas e colunas da matriz. A matriz com os números inteiros.",
+    "format_output": "A saída deve conter duas linhas, a primeira linha com a letra da linha e o número da coluna onde a palavra começa, e a linha seguinte com a letra da linha e o número da coluna onde a palavra termina. Caso não exista a palavra na matriz o retorno deve ser 0.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

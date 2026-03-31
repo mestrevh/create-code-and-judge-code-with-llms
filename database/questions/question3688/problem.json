@@ -1,0 +1,11 @@
+{
+    "title": "Imprimindo cartazes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em uma pequena cidade, em uma ilha, na província de Newfoundland, Canadá, moradores locais estão organizando um protesto para reivindicar seus direitos. Nesta cidade existem 2 gráficas que imprimem cartazes personalizados, de diferentes tamanhos e cores, mas para estes cartazes não será cobrado apenas o valor da cartolina, mas, também, a quantidade de letras usadas (incluindo os espaços entre as palavras). Como os moradores querem economizar o máximo, eles precisam que você ajude-os fazendo um programa que receberá qual é a cor (1 ou 2) e a frase que será escrita no cartaz, e responderá qual será a gráfica que o valor será mais em conta e o preço a ser pago, de acordo com a tabela abaixo. Gráfica | Branco(1) | Colorido(2) | de 1 à 10 letras | de 11 à 30 letras | de 31 à 200 letras 1 | $2 | $4 | $0,75 por letra | $0,45 por letra | $0,20 por letra 2 | $6 | $9 | $0,25 por letra | $0,15 por letra | $0,10 por letra O Valor máximo de letras por cartaz é 200.",
+    "format_input": "Você recebe um inteiro e uma string (0 < letras ≤ 200).",
+    "format_output": "Deve ser impresso um inteiro informando qual será a gráfica de escolha e um float, contendo exatamente duas casas decimais.",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

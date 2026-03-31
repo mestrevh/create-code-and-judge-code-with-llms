@@ -1,0 +1,12 @@
+{
+    "title": "Red-Blue Graph",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Nessa questão, para cada vértice V de um grafo G existe duas possibilidades de cores para cada vértice: Vermelho: Se a soma dos índices dos vértices que estão na sua lista de adjacência resulta em um número par. Azul: Se a soma dos índices dos vértices que estão na sua lista de adjacência resulta em um número impar. Exemplo Sabendo disto, dado um grafo não direcionado G, imprima os pares de vértices de cores iguais que possuirem a maior distância possível (respeitando a Observação 3). Obs: Para não gerar ambiguidade nas duas impressões, primeiramente deverá ser impresso o vértice de menor índice e depois o de maior índice. Obs2: É garantido que sempre haverá no mínimo dois vértices de mesma cor Obs3: A distancia entre dois vértices a ser considerada será sempre a menor possível, ou seja, se existir vários caminhos com custos diferentes, será considerado aquele que possuir o custo menor Obs4: Os vértices são númerados de 1 a V.",
+    "format_input": "Primeiramente irão vir dois inteiros V e A (1 <= V,A <= 100) , indicando o número de vértices e de arestas do grafo. Nas próximas A linhas virão 3 inteiros S,D,C (1 <= S,D,C <= 100), indicando os dois vértices que compõem aquela aresta e o custo para passar por ela.",
+    "format_output": "Primeiramente deverá ser impresso primeiramente o par de vértices Ri e Rj cujo ambos possuam a cor vermelha e a distância entre eles seja a maior possível, sempre respeitando a observação 3 da descrição. Em seguida deverá ser impresso primeiramente o par de vértices Bi e Bj cujo ambos possuam a cor azul e a distância entre eles seja a maior possível, sempre respeitando a observação 3 da descrição.",
+    "topics": [
+        "floyd warshall",
+        "grafo",
+        "dijkstra"
+    ]
+}

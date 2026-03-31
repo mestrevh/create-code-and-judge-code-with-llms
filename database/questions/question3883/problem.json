@@ -1,0 +1,11 @@
+{
+    "title": "AB1.P1.Lanchonete",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O cardápio de uma lanchonete é dado abaixo. Prepare um algoritmo que leia a quantidade de cada item que você consumiu e calcule a conta final. Hambúrguer................. R$ 3,00 Cheeseburger .............. R$ 2,50 Fritas............................ R$ 2,50 Refrigerante ................. R$ 1,00 Milkshake..................... R$ 3,00",
+    "format_input": "Os valores devem ser lidos por linha em formato inteiro. Caso o usuário não tenha consumido algum item, este deve ser informado com valor igual a zero.",
+    "format_output": "O resultado deve ser exibido com a frase \"Conta final:\" e duas casas decimais após a vírgula.",
+    "topics": [
+        "ponto flutuante",
+        "lógica matemática"
+    ]
+}

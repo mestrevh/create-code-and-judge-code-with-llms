@@ -1,0 +1,10 @@
+{
+    "title": "Abastecimento consciente.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma distribuidora de água precisa entregar um total de X litros de água para 5 cidades diferentes. Cada cidade possui uma necessidade mínima de água que deve ser atendida. Escreva um programa que recebera: Receba a quantidade total de água disponível (X). Receba a necessidade mínima de cada uma das 5 cidades. Verifique se a quantidade total de água é suficiente para atender todas as cidades. Caso seja possível atender todas, exiba se o abastecimento foi perfeito ou quanto de água sobra após a distribuição. Caso não seja possível, exiba uma mensagem informando que a água não é suficiente.",
+    "format_input": "Um número inteiro X representando a quantidade total de água disponível, seguido de cinco números inteiros representando a necessidade mínima de cada cidade. Ex.: 100\n10 15 20 10 5",
+    "format_output": "O programa deve imprimir: Caso o valor seja suficiente e não sobre nada: Abastece perfeitamente. Caso o valor seja suficiente e sobre: Abastece e sobra: X. Caso o valor não seja suficiente: Insuficiente.",
+    "topics": [
+        "decisão"
+    ]
+}

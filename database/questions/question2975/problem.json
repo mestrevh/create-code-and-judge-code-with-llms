@@ -1,0 +1,10 @@
+{
+    "title": "Melancia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um dia quente de verão, a Entidade e seu amigo X decidiram comprar uma melancia. Eles escolheram a maior e mais madura. Eles correram para casa, morrendo de sede, mas encontraram um problema quando decidiram dividir a melancia. A Entidade e X amam número pares, por isso eles querem dividir a melancia de forma que o peso de cada parte seja par, mesmo que a divisão não fique igual para os dois. Mas eles estão muito cansados, e querem comer o mais rápido possível. Faça um programa que ajude-os a descobrir se é possível dividir a melancia em duas fatias de peso par.",
+    "format_input": "A única linha da entrada terá um inteiro w, representando o peso da melancia que eles compraram. 1 <= w <= 100",
+    "format_output": "Imprima “YES”, se for possível dividir a melancia em duas fatias de peso par, e “NO” se não for possível.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

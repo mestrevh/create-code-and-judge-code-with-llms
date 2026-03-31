@@ -1,0 +1,10 @@
+{
+    "title": "Teste de seleção 1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem positivos e se a variável A for par escrever a mensagem \"Valores aceitos\", senão escrever \"Valores nao aceitos\".",
+    "format_input": "Quatro números inteiros A, B, C e D.",
+    "format_output": "Mostre a respectiva mensagem após a validação dos valores.",
+    "topics": [
+        "decisão"
+    ]
+}

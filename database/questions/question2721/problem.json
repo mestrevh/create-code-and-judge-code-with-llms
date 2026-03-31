@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Matrizes - E",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que solicite ao usuário os valores de duas matrizes L × C e que exibe a matriz resultante da soma dessas matrizes. Considere que L e C (0 < L, C < 26) serão fornecidos pelo usuário.",
+    "format_input": "Na primeira linha um número natural L e um número natural C (0 < L, C < 26), simbolizando a quantidade de linhas e colunas das matrizes, respectivamente; para cada uma das L linhas seguintes, C valores inteiros separados por um espaço, simbolizando os itens da primeira matriz; para cada uma das próximas L linhas, C valores inteiros separados por um espaço, simbolizando os itens da segunda matriz.",
+    "format_output": "L linhas, cada uma com C colunas com as respectivas somas separadas por um espaço. Obs.: Não há espaço após o último item de cada linha.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

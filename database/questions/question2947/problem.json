@@ -1,0 +1,11 @@
+{
+    "title": "Pra bom entendedor meia palavra basta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Maricota estava sem fazer nada no intervalo das aulas e decidiu criar um jogo pra divertir os colegas. Seu jogo consiste em pegar uma frase e trocar a metade de todas as palavras por interrogações. Exemplo: Pra bom entendedor meia palavra basta Saída: P?? b?? enten????? me?? pal???? ba??? Funções permitidas: len split upper lower append",
+    "format_input": "Uma frase",
+    "format_output": "A frase alterada pelo jogo da Maricota",
+    "topics": [
+        "substrings",
+        "string"
+    ]
+}

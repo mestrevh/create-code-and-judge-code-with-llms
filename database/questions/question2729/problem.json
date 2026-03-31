@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Funções - B",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que use uma função, criada por você, que verifique se um número inteiro passado como parâmetro é menor do que zero. A função deverá retornar o valor inteiro 1 indicando verdadeiro ou 0 indicando falso. O programa deverá usar o valor de retorno da função para exibir 'menor' ou 'nao menor', de acordo com o caso.",
+    "format_input": "Um número inteiro.",
+    "format_output": "A mensagem 'menor' (minúsculo e sem aspas), se o número dado como entrada for menor que zero, ou 'nao menor' (minúsculo, sem acentuação e sem aspas), caso contrário.",
+    "topics": [
+        "função"
+    ]
+}

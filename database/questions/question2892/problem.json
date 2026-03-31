@@ -1,0 +1,12 @@
+{
+    "title": "Criando a matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa em linguagem C que crie a seguinte uma matriz quadrada N x N conforme o modelo abaixo para N = 4: Cada elemento deve ser impresso ocupando 7 espaços de tela alinhados à esquerda.",
+    "format_input": "O usuário deverá inserir a ordem N da matriz.",
+    "format_output": "O programa deve imprimir a matriz quadrada conforme exemplo da descrição, com cada elemento impresso ocupando 7 espaços de tela alinhados à esquerda, imprimindo na tela: Digite a ordem N da matriz: n n n n n n n n n n n n",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "array bidimensional"
+    ]
+}

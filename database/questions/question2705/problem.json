@@ -1,0 +1,10 @@
+{
+    "title": "Q2 - P1C",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Faça um programa que leia da duas coordenadas (x e y em sequência) referente a um ponto qualquer e imprime em qual quadrante do plano cartesiano o referido ponto se encontra. Os pontos que se encontram sobre um dos eixos (quando x ou y for zero) não se encontram em quadrante algum. Nesse caso, você deve imprimir sobre qual eixo o ponto está, ou se o ponto encontra-se sobre a origem.",
+    "format_input": "O usuário deve digitar as coordenadas x e y, respectivamente, do ponto",
+    "format_output": "O programa deve informar em qual quadrante está o ponto, ou se está sobre algum eixo ou ainda sobre a origem, imprimindo na tela os valores abaixo: Digite a coordenada x: Digite a coordenada y: O ponto esta no quadrante n/O ponto esta sobre o eixo x/y / O ponto esta sobre a origem",
+    "topics": [
+        "lógica matemática"
+    ]
+}

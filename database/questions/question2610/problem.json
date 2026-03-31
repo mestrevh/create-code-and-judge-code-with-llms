@@ -1,0 +1,12 @@
+{
+    "title": "Mais uma de lista",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma lista A com N elementos, calcular e, depois apresentar, o valor de S. O valor de S para uma lista com 20 elementos é calculado da seguinte forma: S = (A0 - A19) elevado a 2 + (A1-A18) ekevado a 2 + ...+(A9-A10) elevado a 2 Você deve apresentar uma solução para o problema lembrando que o tamanho da lista pode ser par ou ímpar.",
+    "format_input": "Ler os seguintes dados: o tamanho da lista (um inteiro N) ler N números inteiros",
+    "format_output": "A saída deve conter o valor de S, quando possível de ser calculado. Mensagens devem ser apresentadas quando o usuário informar um valor negativo para N ou quando N for igual a zero. Observe os casos de teste.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

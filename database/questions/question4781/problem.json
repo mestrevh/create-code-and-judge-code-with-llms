@@ -1,0 +1,11 @@
+{
+    "title": "Mia e o Tabuleiro das Camadas Mágicas.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mia é uma jovem aprendiz de magia no Reino dos Números Encantados. Durante suas aulas na Academia dos Feitiços Matemáticos, ela encontrou um antigo pergaminho que falava sobre o Tabuleiro das Camadas Mágicas. Esse tabuleiro é muito especial! Ele é formado por números que criam camadas de proteção. A camada mais externa tem o número 1, a próxima tem o número 2, e assim por diante, até chegar ao centro, onde está o número mais forte. Cada vez que Mia deseja criar um novo tabuleiro, ela escolhe um número N, que representa quantas camadas mágicas ela precisa. O tamanho do tabuleiro sempre segue a fórmula mágica: Tamanho = (2×N−1) linhas e (2×N−1) colunas. Agora, Mia precisa da sua ajuda para construir esse tabuleiro, preenchendo corretamente cada camada mágica!",
+    "format_input": "Um número inteiro N (1≤N≤50) representando a quantidade de camadas mágicas que Mia deseja.",
+    "format_output": "A matriz do tabuleiro, onde cada linha deve ser impressa em uma linha separada.",
+    "topics": [
+        "lógica matemática",
+        "array bidimensional"
+    ]
+}

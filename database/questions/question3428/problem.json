@@ -1,0 +1,12 @@
+{
+    "title": "Múltiplos de x da diagonal principal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fazer um programa para ler e armazenar uma matriz A com dimensão n x n. Gerar um vetor B contendo apenas os elementos múltiplos de x da diagonal principal da matriz A. Caso não existam múltiplos de x na diagonal principal da matriz imprimir 'NMDX', sem aspas.",
+    "format_input": "Dois números inteiros na primeira linha correspondentes à ordem da matriz e o número x, respectivamente. n * n números inteiros em coluna correspondentes aos elementos da matriz, seguindo a ordem: linha 1 da matriz, linha 2 da matriz, ..., linha n da matriz.",
+    "format_output": "n números inteiros, separados por 1 espaço, correspondentes aos elementos do vetor B, ou 'NMDX', sem aspas.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

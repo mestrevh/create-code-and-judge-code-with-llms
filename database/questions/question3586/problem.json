@@ -1,0 +1,10 @@
+{
+    "title": "Teste",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Teste 0",
+    "format_input": "Teste 1",
+    "format_output": "Teste",
+    "topics": [
+        "entrada formatada"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Entrada e Saída CPF",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O seu professor gostaria de fazer um programa com as seguintes características: • Leia os dados de um CPF no formato XXX.YYY.ZZZ-DD; • Imprima os quatro números, sendo um valor por linha.",
+    "format_input": "Cada caso de teste contém uma única linha com um CPF no formato XXX.YYY.ZZZ-DD, onde XXX, YYY, ZZZ, DD são números inteiros.",
+    "format_output": "A saída deve conter 4 linhas, cada uma com um número inteiro que corresponde a XXX, YYY, ZZZ e DD.",
+    "topics": [
+        "entrada formatada",
+        "string"
+    ]
+}

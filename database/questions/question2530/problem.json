@@ -1,0 +1,12 @@
+{
+    "title": "Par ou Impar Octave - T1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que ao receber um numero inteiro determine se o mesmo é par ou impar.",
+    "format_input": "O usuario deve digitar o número",
+    "format_output": "O programa deve exibir se o numero digitado é par ou impar, imprimindo na tela os valores abaixo: Digite um numero (impresso pela funcao input) O numero digitado e par/impar",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática"
+    ]
+}

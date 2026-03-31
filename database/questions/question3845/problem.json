@@ -1,0 +1,10 @@
+{
+    "title": "XORinacci [B]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade está fascinada pela sequência de Fibonacci. Essa sequência é definida recursivamente pela seguinte função: f(0) = 0 f(1) = 1 f(n) = f(n - 1) + f(n - 2) Gerando essa lindura de sequência: 0, 1, 1, 2, 3, 5, 8, 13, 21, ... Mas a Entidade começou a se perguntar: \"E se no lugar de soma, usássemos o xor?\". Com isso em mente, ela alterou a definição da função para a seguinte: f(0) = a f(1) = b f(n) = f(n - 1) xor f(n - 2) Ela está muito curiosa para saber qual o n-ésimo valor do XORinacci que ela inventou, e pediu para que você calculasse para ela. Observação: xor, exclusive or, é o ou exclusivo. A maioria das linguagens utiliza o operator ^ para calculá-lo. XOR: https://en.wikipedia.org/wiki/Bitwise_operation Para calcular x xor y: para cada bit de x e y, o bit resultante será 1 se, e somente se, o bit em x e y forem diferente. Exemplos: 6 xor 7 = 110 xor 111 = 001 = 1 11 xor 5 = 1011 xor 0101 = 1110 = 14",
+    "format_input": "A entrada terá três inteiros a, b e n, respectivamente. Limites: 1 <= a, b e n <= 10^9.",
+    "format_output": "Imprima o valor de f(n), onde f é a função XORinacci que a Entidade criou.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

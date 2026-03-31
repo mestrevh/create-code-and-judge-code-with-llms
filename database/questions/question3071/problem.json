@@ -1,0 +1,10 @@
+{
+    "title": "Entidade, animes e pipoca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade gosta muito de assistir animes, mas apenas quando tem pipoca para acompanhar. Recentemente ela começou a assistir um anime com muitos episódios, e o mais estranho é que os episódios não tem um padrão duração. Ela está incomodada com isso, pois não consegue calcular até qual episódio vai conseguir assistir com aquela quantidade de pipoca. Ajude a Entidade a responder uma quantidade q de perguntas sobre até qual episódio (partindo de um dado episódio) é possível assistir, dada a quantidade de pipoca.",
+    "format_input": "A primeira linha da entrada possui um inteiro n, indicando a quantidade de episódios do anime. A próxima linha terá n inteiros, onde o i-ésimo indica a duração t_i em segundos do episódio i. Após isso, virá um inteiro q, indicando a quantidade de perguntas que a Entidade vai lhe fazer. Cada pergunta i terá dois inteiros e_i e p_i, indicando que a entidade está no episódio e_i e possui pipoca suficiente para assistir por p_i segundos. Limites: 1 <= n, q <= 10^5; 0 <= t_i <= 10^9; 1 <= e_i <= n; 0 <= p_i <= soma de todos t_i",
+    "format_output": "Para cada pergunta, responda até qual episódio r a Entidade pode assistir com aquela quantidade de pipoca. Observação: se a Entidade não consegue assistir nem o episódio atual, imprima -1.",
+    "topics": [
+        "array"
+    ]
+}

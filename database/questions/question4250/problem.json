@@ -1,0 +1,11 @@
+{
+    "title": "Área da Superfície e Volume da Esfera",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba o raio (R) de uma esfera e forneça: a) A área da superfície esférica, sabendo que Área Superfície = 4πR2 b) O volume de uma esfera, sabendo que Volume = (4πR3)/3 Observação: Considere π como tendo o valor 3.1416.",
+    "format_input": "A entrada consiste de um número real (ponto flutuante) que representa o raio da esfera.",
+    "format_output": "A saída consiste de duas linhas, sendo que a primeira contém a área e a segunda o volume. Ambos os valores são números reais (ponto flutuantes) com 3 casas decimais.",
+    "topics": [
+        "lógica matemática",
+        "formatação"
+    ]
+}

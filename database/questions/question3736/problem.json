@@ -1,0 +1,11 @@
+{
+    "title": "Brasileirão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você vai nos ajudar a acompanhar o brasileirão de futebol nos mostrando a tabela de posições.",
+    "format_input": "Um número n que representa a quantidade de times participando do Brasileirão. O número n será obrigatoriamente um número par maior que 0. Uma sequência de n nomes de times, um por linha. O índice nesta sequência será usado como o identificador do time quando forem dados resultados de jogos. Os índices são numerados a partir de 0. Um número r que representa a quantidade de rodadas que têm sido jogadas até o momento. Os resultados de cada rodada. Uma rodada pode ser incompleta, ou seja, sem alguns jogos realizados, e é dada por uma sequência de linhas terminada pela frase “FIM DE RODADA”. Cada linha contém o resultado de um jogo especificado por 4 números naturais onde os dois primeiros são os times que participaram do jogo e os dois últimos os gols feitos por cada um, respectivamente. Todos os dados inseridos são consistentes, ou seja, você não deve se preocupar em realizar nenhuma validação de dados.",
+    "format_output": "Tabela de posições ordenada pela posição, da maior à menor. A tabela deve ter como primeira linha os seguintes cabeçalhos para as colunas: Clube PJ VIT EMP DER GF GC SG Pontos com os seguintes significados: Clube = Nome da equipe PJ = Partidas jogadas VIT = Vitórias DER = Derrotas EMP = Empates GF = Gols a favor GC = Gols contra SG = Saldo de gols As próximas linhas serão preenchidas de acordo aos resultados acumulados de todas as rodadas, listando em ordem de tal forma que vêm primeiro os times melhor posisionados. A posição é determinada analisando primeiramente os pontos. Em caso de empate na ponutação, verifica-se o saldo de gols. Se ainda há empate ao analisar saldo de gols, lista-se primeiro aquele com nome menor na ordem lexicográfica. Os nomes são alinhados à esquerda enquanto que todas as outras colunas são alinhadas à direita, como mostrado no exemplo. Lembrando que vitória dá 3 pontos, empate 1 e derrota 0.",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

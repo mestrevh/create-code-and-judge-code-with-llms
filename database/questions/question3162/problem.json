@@ -1,0 +1,11 @@
+{
+    "title": "Par ou ímpar",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função que recebe um inteiro (x) e retorna 1 se x for par ou -1 se x for ímpar.",
+    "format_input": "2",
+    "format_output": "1",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

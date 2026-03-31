@@ -1,0 +1,10 @@
+{
+    "title": "Módulo 3 - Quadrado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa em Python que que recebe um número inteiro (x) e imprime na tela o quadrado deste número.",
+    "format_input": "10",
+    "format_output": "100",
+    "topics": [
+        "lógica matemática"
+    ]
+}

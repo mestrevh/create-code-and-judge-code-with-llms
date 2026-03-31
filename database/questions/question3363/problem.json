@@ -1,0 +1,12 @@
+{
+    "title": "Espaços excedentes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que retire os espaços excedentes de uma string. obs: considere que não haverá espaços no começo da string.",
+    "format_input": "Uma string S, tamanho da string é no máximo 300 caracteres.",
+    "format_output": "A string S formatada corretamente.",
+    "topics": [
+        "acumulador",
+        "repetição",
+        "string"
+    ]
+}

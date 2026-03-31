@@ -1,0 +1,10 @@
+{
+    "title": "AC2 - Ex. 4",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que recebe uma temperatura em Fahrenheit e converte para Celsius, usando a seguinte fórmula:",
+    "format_input": "Temperatura em Fahrenheit",
+    "format_output": "Temperatura em Celsius",
+    "topics": [
+        "lógica matemática"
+    ]
+}

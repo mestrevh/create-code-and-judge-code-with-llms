@@ -1,0 +1,11 @@
+{
+    "title": "Conta de Energia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A empresa de energia está promovendo uma campanha de conscientização de recursos. Para incentivar a economia de energia, a empresa alterou os preços de seu fornecimento de forma que, proporcionalmente, aqueles clientes que consumirem menos paguem menos kilowatt hora. Todo cliente paga mensalmente uma assinatura de R$ 8, que inclui uma franquia de 10 KWh. Isto é, para qualquer consumo entre 0 e 10 KWh, o consumidor paga a mesma quantia de R$ 8 reais (note que o valor da assinatura deve ser pago mesmo que o consumidor não tenha consumido energia). Acima de 10 KWh, cada kilowatt hora subsequente tem um valor diferente, dependendo da faixa de consumo. A cobrança é feita apenas por quantidades inteiras de kilowatt hora consumidos. A tabela abaixo especifica o preço por kilowatt hora para cada faixa de consumo: Assim, por exemplo, se o consumo foi de 130 KWh, o valor da conta é: 8 reais da assinatura básica; 20 reais pelo consumo no intervalo 11 – 30 KWh; 100 reais pelo consumo no intervalo 31 – 80 KWh; 250 reais pelo consumo no intervalo 81 – 130 KWh",
+    "format_input": "A única linha da entrada contém um único inteiro N, indicando o consumo de energia da residência, em KWh",
+    "format_output": "Seu programa deve imprimir uma única linha, contendo o valor da conta de energia daquela residência.",
+    "topics": [
+        "acumulador",
+        "decisão"
+    ]
+}

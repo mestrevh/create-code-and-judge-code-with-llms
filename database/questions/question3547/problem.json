@@ -1,0 +1,10 @@
+{
+    "title": "A nave de Bilu",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bilu é um jovem e extraordinário extra-terrestre que veio nos fazer uma visitinha em meados de 2010, se tornando um fenômeno nacional após enviar a famosa mensagem em rede nacional para nós, brasileiros: \"Apenas busquem conhecimento\". Porém, apesar de ter basicamente nos chamados de ridículos em comparação a ele, Bilu demonstra ter péssimos conhecimentos de geometria e precisa de você, ser inferior, para ajudá-lo a estacionar seu disco voador! (Chegou sua hora de se mostrar ser alguém pro grande ET Bilu figura nacional, então aproveite). Como bem sabemos, já houveram diversos relatos de marcações em plantações ao redor de todo o globo. Bilu lhe contou que essas marcações foram feitas por amigos dele que simplesmente estavam com preguiça de procurarem locais menos \"marcantes\" (se é que você me entendeu). Porém, Bilu é astuto e concluiu que pousando seu disco voador em locares menos chamativos, atrairia menos atenção! Eu sei, você também nunca pensou nisso, ele é incrivel e não há como negar. Bilu viaja em um esferóide que pode ser definido pela seguinte equação, onde a e b são números reais positivos que determinam as dimensões e a forma do esferóide. (Bilu inclusive recomenda que você use alguma plataforma para verificar como a e b afetam o formato da sua nave). x^2/a^2 + y^2/b^2 + z^2/b^2 = 1",
+    "format_input": "Bilu lhe fornecerá os valores para a e b, junto com dimensões c e d de um retângulo qualquer que definem os tamanhos dos lados do local onde ele irá realizar seu pouso oculto. P.s.: Lembrem que o comprimento é dado pelo tamanho do maior lado!",
+    "format_output": "Você deverá responder \"Pousa, bilu\" (sem aspas) se for possível realizar o pouso ou \"Procura outro lugar, bilu\" (sem aspas) em caso contrário.",
+    "topics": [
+        "decisão"
+    ]
+}

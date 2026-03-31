@@ -1,0 +1,10 @@
+{
+    "title": "Fazenda de Oileh Adaptada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oileh é um mago experiente que quer criar uma POÇÃO para ajudar as plantas de seu jardim a crescerem mais rápido. No entanto, a EFICIÊNCIA dessa poção depende de alguns FATORES importantes: 1. FASE DA LUA: Se a poção for preparada durante a LUA CRESCENTE representado pela letra C maiúscula, sua eficiência AUMENTA EM 50%. Se for feita durante a LUA CHEIA representado pela letra F maiúscula, sua eficiência AUMENTA EM 20%. 2. TEMPERATURA AMBIENTE: QUENTE (representado pela letra Q maiúscula) -> EFICIÊNCIA DIMINUI 15% FRIO (representado pela letra F maiúscula) -> EFICIÊNCIA AUMENTA 25%",
+    "format_input": "A ENTRADA VAI SER UM INTEIRO REPRESENTANDO A EFICIÊNCIA DA POÇÃO, UM CARACTERE REPRESENTANDO A FASE DA LUA E POR ÚLTIMO UM CARACTERE REPRESENTANDO A TEMPERATURA.",
+    "format_output": "A SAÍDA É A NOVA EFICIÊNCIA DA POÇÃO, COM DUAS CASAS DECIMAIS.",
+    "topics": [
+        "decisão"
+    ]
+}

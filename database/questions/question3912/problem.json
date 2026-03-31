@@ -1,0 +1,11 @@
+{
+    "title": "o grande duelo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gabrielly é uma menina que adora desafiar seu pai em jogos, dessa vez ela decidiu desafiá-los a jogar o famoso jogo da velha enquanto não dá o horário de ir para escola. Como podem ser muitas partidas, Gabrielly decidiu pedir a você para criar um jogo da velha, que também conferisse quem seria o vencedor de cada partida e no fim do desafio mostrasse quem venceu esse grande duelo. Gabrielly sempre começa cada partida. Gabrielly sempre joga com 'X'. Pai sempre joga com 'O'. No fim de cada partida adicione '-' para cada posição que não foi utilizado.",
+    "format_input": "Uma sequência de coordenadas dos pontos X e Y, indicando as posições no tabuleiro. Quando houver um vencedor, será digitado '1' para continuar a jogar ou '0' para parar o jogo.",
+    "format_output": "A cada jogo terminado, imprimir o tabuleiro após a última jogada: imprimir 'gabrielly venceu essa partida' quando a gabrielly ganhar; imprimir 'pai venceu essa partida' quando o pai ganhar; imprimir 'empate' para quando houver empate. Depois que o jogo for parado mostrar quem foi o grande vencedor desse duelo: caso gabrielly ganhe o maior número de partida contra seu pai imprimir 'gabrielly foi a grande vencedora desse grande duelo'; caso o pai ganhe o maior número de partida contra seu pai imprimir 'pai foi a grande vencedora desse grande duelo'; caso o número de vitória entre gabrielly e pai forem iguais imprimir 'esse grande duelo terminou em empate'.",
+    "topics": [
+        "decisão",
+        "array bidimensional"
+    ]
+}

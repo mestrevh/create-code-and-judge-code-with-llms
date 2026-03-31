@@ -1,0 +1,12 @@
+{
+    "title": "Cálculo da Sequência de Fibonacci",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Neste problema, o objetivo é implementar um algoritmo que calcule o n-ésimo número da sequência de Fibonacci. A sequência começa com 0 e 1, e cada número subsequente é a soma dos dois anteriores. A sequência de Fibonacci pode ser definida como: Fibonacci(0) = 0 Fibonacci(1) = 1 Fibonacci(n) = Fibonacci(n-1) + Fibonacci(n-2), para n ≥ 2. Dado um número inteiro n, sua tarefa é retornar o valor correspondente ao n-ésimo número da sequência.",
+    "format_input": "Um número inteiro n (0 ≤ n ≤ 30), representando a posição desejada na sequência de Fibonacci.",
+    "format_output": "O n-ésimo número da sequência de Fibonacci.",
+    "topics": [
+        "lógica matemática",
+        "repetição",
+        "recursão"
+    ]
+}

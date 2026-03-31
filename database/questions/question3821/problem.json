@@ -1,0 +1,12 @@
+{
+    "title": "União, interseção e diferença",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba os elementos de 2 vetores e imprima na saída a união, a interseção e a diferença entre os 2 vetores. Você deve usar apenas arrays unidimensionais (em python, apenas listas) e deve evitar uso de funções embutidas. Sugiro o uso apenas dos operadores \"in\" e \"not in\" para verificar se um item está ou não em uma lista e da função \"append()\" para incluir o elemento na lista. Pode também usar a função \"copy() para copiar os elementos da lista.\"",
+    "format_input": "No começo o usuário informa 2 inteiros que determinam a quantidade de elementos dos 2 vetores. Em seguida, o usuário informa os elementos do vetor.",
+    "format_output": "Os conjuntos união, interseção e diferença entre os vetores de acordo com os exemplos.",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "repetição"
+    ]
+}

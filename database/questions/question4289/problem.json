@@ -1,0 +1,10 @@
+{
+    "title": "A Jornada Espiral de Aurélio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Aurélio está progredindo em suas habilidades de programação e agora ele se deparou com um problema mais complexo. Ele está trabalhando em um sistema que usa uma matriz 2D quadrada de dimensões N x N (N ≤ 50), onde N sempre será um numero impar e cada elemento da matriz é um número inteiro representando a quantidade de um item em um armazém. No entanto, o sistema tem uma peculiaridade: ele lê as quantidades na matriz de uma maneira diferente. O sistema lê a matriz em uma espiral, começando do elemento superior esquerdo, movendo-se para a direita, depois para baixo, para a esquerda e para cima, em um padrão de espiral, até chegar ao centro da matriz. Aurélio precisa criar um algoritmo que reformule a matriz para que, quando lida da esquerda para a direita, linha por linha, a matriz represente a ordem espiral que o sistema precisa. Ajude Aurélio a criar um algoritmo em C que realiza a seguinte tarefa: 1. Recebe a matriz do armazém como entrada. 2. Transforma a matriz em uma matriz unidimensional que representa a leitura em espiral da matriz original. 3. Imprime a matriz unidimensional resultante.",
+    "format_input": "A primeira linha da entrada contém um único número inteiro N (1 ≤ N ≤ 50), que representa a dimensão da matriz quadrada e N sempre será um numero impar. As próximas N linhas contêm N números inteiros cada, representando os elementos da matriz.",
+    "format_output": "Valores inteiros representando o espiral.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Sequencial_2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A fábrica de fardas do IFPB produz os tamanhos pequeno, médio e grande, cada uma custando respectivamente 10, 12 e 15 reais. Leia a quantidade de fardas pequenas, médias e grandes referentes a uma venda e informe quanto será o valor total da venda.",
+    "format_input": "Quantidade (valor inteiro) de fardas tamanho P, tamanho M e tamanho G.",
+    "format_output": "O valor total da venda.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

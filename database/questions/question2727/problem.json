@@ -1,0 +1,10 @@
+{
+    "title": "Contando strings numa matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma matriz M, n por m e de letras minúsculas; conte a quantidade de ocorrências de uma string s. A partir da célula (i, j), é possível considerar as células (i, j - 1), (i, j + 1), (i - 1, j) e (i + 1, j); ou seja, qualquer caminho é uma ocorrência, mas não é possível utilizar a mesma célula mais de uma vez num mesmo caminho.",
+    "format_input": "A primeira linha da entrada contém três inteiros n, m, k (1 <= n, m, <= 100, 1 <= k <= 10), representando a quantidade de linhas, a quantidade de colunas e o tamanho da string s, respectivamente. As próximas n linhas terão m letras minúsculas, representando a matriz M. Na linha seguinte, virá k caracteres, representando a string s.",
+    "format_output": "Imprima a quantidade de ocorrências da string s na matriz M, seguindo as regras da descrição.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

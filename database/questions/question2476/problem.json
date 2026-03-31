@@ -1,0 +1,11 @@
+{
+    "title": "Fila Hospitalar",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Você foi contratado para desenvolver o sistema de gerenciamento de filas de unidades de saúde. Cada unidade de saúde possui uma capacidade máxima de fila e deve atender os pacientes que chegam de acordo com a prioridade dos casos. Se a capacidade máxima da fila for atingida os pacientes que chegarem serão transferidos para um outro hospital.",
+    "format_input": "A entrada começa com um número inteiro T que determina quantos casos de teste serão executados; Em seguida, recebe-se um número inteiro N que indica a capacidade máxima da fila do hospital. Por fim, recebe-se uma lista de comandos até que a flag de finalização END seja recebida. Os comandos são os seguintes: ARR <nome do paciente> <nível de prioridade>: Indica a chegada de um novo paciente CLL: Indica a chamada do próximo paciente da fila END: Indica o fim do caso de teste",
+    "format_output": "Para cada comando deve ser impresso o destino do paciente. Por exemplo, ao chegar, deve ser impresso o lugar em que o paciente foi colocado na fila ou, caso a fila esteja cheio, deve ser indicado que o paciente foi transferido. Quando o próximo paciente da fila for chamado, deverá ser exibido na tela qual paciente saiu da fila de espera para a sala de atendimento.",
+    "topics": [
+        "heap",
+        "estruturas"
+    ]
+}

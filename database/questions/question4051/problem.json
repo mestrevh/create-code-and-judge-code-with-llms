@@ -1,0 +1,10 @@
+{
+    "title": "Calculadora dos calouros - inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pedro é horrível com matemática, então decidiu pedir ajuda a você, um calouro extremamente inteligente, para fazer os cálculos para ele. Serão dados 2 números inteiros. a primeira operação será a soma a segunda operação será uma subtração a terceira operação será uma multiplicação a quarta operação será uma divisão a quinta operação será o resto",
+    "format_input": "Dois inteiros n1 e n2.",
+    "format_output": "deve mostrar os resultados das operações",
+    "topics": [
+        "lógica matemática"
+    ]
+}

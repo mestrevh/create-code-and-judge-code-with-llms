@@ -1,0 +1,12 @@
+{
+    "title": "Link chateado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Link é um herói famoso e por isso recebe várias cartas de seus fãs. Mas mesmo sendo famoso, todos continuam a chamá-lo de Zelda. Por causa disso, Link fica chateado, tão chateado que toda vez que recebe uma carta ele confere a maneira que o/a fã se referiu a ele na carta, e caso perceba o trecho \"zelda\" no nome ele se irrita e joga o cartão fora. Sua tarefa é determinar se Link ficará bravo ou não, por causa da forma como seu fã o chamou na carta.",
+    "format_input": "Contém uma string S (1 ≤ | S | ≤ 105) que representa como o/a fã do Link se referiu a ele na carta. A string é composta apenas de letras maiúsculas e minúsculas.",
+    "format_output": "Seu programa deve exibir \"Link Bolado\" se o nome tiver a palavra \"zelda\" ou \"Link Tranquilo\" caso contrário.",
+    "topics": [
+        "array",
+        "substrings",
+        "string"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Connect Four",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio esteve jogando Connect Four e ficou encantado com este simples jogo! Como Ambrósio é seu amigo de longa data, sugeriu que você criasse uma versão de computador, para que vocês possam jogar juntos. Connect Four funciona da seguinte maneira: - Dois jogadores com turnos alternados, ou seja, Jogador 1 -> Jogador 2 -> Jogador 1 ... - O jogo tem gravidade, o jogador escolhe a coluna que vai jogar e a peça irá cair na casa vazia mais profunda da coluna escolhida. - Ganha o jogador que conseguir conectar quatro peças. (Connect Four !? - que conveniente, não?) - As peças podem ser conectadas em qualquer direção. Diagonal, vertical ou horizontal. Por Conveniência, iremos representar o jogo por uma matriz de 6 linhas e 7 colunas. Inicialmente, todas as posições da matriz devem estar preenchidas com '0', que irá representar uma casa vazia. Serão dadas as colunas que cada jogador escolheu, alternadamente, começando pelo Jogador 1. Na coluna escolhida deverá ser colocado o valor 1 ou 2, representando a peça do Jogador 1 e a peça do Jogador 2. Analogamente a figura, suponha que '1' represente a peça amarela e '2' a vermelha. Note que a entrada possui 42 jogadas, que é exatamente o tamanho do tabuleiro (6x7).",
+    "format_input": "Serão dados 42 valores C, que representam a coluna escolhida por cada jogador, alternadamente. *Observar exemplos de entrada e saída.",
+    "format_output": "A saída deverá indicar o jogador vencedor e o estado final da matriz, dispostos da seguinte maneira: Jogador 2 Venceu! Estado Final do Jogo: | 0 0 0 0 0 0 0 | | 0 0 0 0 0 0 0 | | 0 0 0 0 0 0 0 | | 0 0 1 0 0 0 0 | | 1 0 1 0 0 0 2 | | 1 2 2 2 2 0 1 | *Atente também para os exemplos de entrada e saída.",
+    "topics": [
+        "simulação de jogos",
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

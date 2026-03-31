@@ -1,0 +1,10 @@
+{
+    "title": "Máquina de saque",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Há um caixa eletrônico. Inicialmente, ele contém um total de K unidades monetárias. N pessoas (numeradas de 1 a N) desejam sacar dinheiro; para cada i válido, a i-ésima pessoa deseja sacar Ai​ unidades de dinheiro. As pessoas entram e tentam sacar dinheiro uma a uma, na ordem crescente de seus índices. Sempre que alguém tentar sacar dinheiro, se a máquina tiver pelo menos a quantia necessária, ela distribuirá a quantia necessária. Caso contrário, ele lançará um erro e não fornecerá nada; nesse caso, essa pessoa voltará para casa diretamente sem tentar fazer mais nada. Para cada pessoa, determine se ela receberá a quantia necessária de dinheiro ou não.",
+    "format_input": "A primeira possui T, o número de casos de teste. T casos seguem. A primeira linha de cada caso possui dois valores, N e K. N denota a quantidade de pessoas que irão tentar sacar dinheiro. K é o total de dinheiro que a máquina possui disponível. A segunda linha de cada caso contém N inteiros, que é a quantia que cada pessoa tenta sacar.",
+    "format_output": "Para cada caso de teste, imprima uma única linha contendo uma string com comprimento N. Para cada i válido, o i-ésimo caractere desta string deve ser '1' se a i-ésima pessoa retirar seu dinheiro com sucesso ou '0' caso contrário .",
+    "topics": [
+        "lógica matemática"
+    ]
+}

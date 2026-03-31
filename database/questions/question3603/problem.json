@@ -1,0 +1,10 @@
+{
+    "title": "Intercala",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva uma função que receba vetores disjuntos x[0..m-1] e y[0..n-1], ambos em ordem crescente, e produza um vetor z[0..m+n-1] que contenha o resultado da intercalação dos dois vetores dados. Atenção: a função deve tratar a situação caso os vetores não estejam ordenados. Assim, quando um dos arrays passados como entrada não estiver ordenado, o programa deve retornar -1 como código de erro.",
+    "format_input": "Dois vetores disjuntos x[0..m-1] e y[0..n-1]. Representados com linhas de dados diferentes.",
+    "format_output": "Uma linha de dados z[0..m+n-1] representando os vetores de entrada ordenados. Caso um dos vetores não estejam ordenados, deve-se retornar -1.",
+    "topics": [
+        "ordenação"
+    ]
+}

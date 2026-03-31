@@ -1,0 +1,10 @@
+{
+    "title": "Sistema do Detran",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi contratado para trabalhar como programador no Detran! Sua primeira tarefa é escrever um programa para catalogar as novas placas no padrão Mercosul. O programa deve detectar erros de digitação encontrados dentre as placas digitadas no sistema. Para isso sabe-se que as placas desse novo padrão possuem sempre 7 algarismos sendo 4 deles números e 3 letras. OBS: Considere que todas as placas foram digitadas com 7 caracteres e que as letras digitadas são sempre maiúsculas.",
+    "format_input": "Uma linha contendo um inteiro N representando a quantidade de placas a serem lidas. N linhas contendo todas as placas.",
+    "format_output": "Uma linha contendo: “X placas:” onde X é a quantidade de placas corretas. X linhas contendo todas as placas que estão no padrão. Uma linha contendo ‘Y erros: “ onde Y é a quantidade de placas incorretas Y linhas contendo todas as placas fora do padrão.",
+    "topics": [
+        "array"
+    ]
+}

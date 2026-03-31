@@ -1,0 +1,13 @@
+{
+    "title": "Ansa x Kcaj: O desafio dos triângulos 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Depois da competição internacional de Geometria Computacional (CIGC), Kcaj e Ansa encontraram um novo desafio vindo do seu amigo DJMS. Eles ainda estão tentando encontrar os triângulos (como o da questão http://thehuxley.com/problem/3059?quizId=4778), mas desta vez eles podem rotacionar. O problema é bem simples, você deve indicar quantos triângulos de cada base existe para o inteiro 0 e para o inteiro 1. Entretanto, nessa versão, além de indicar a quantidade de triângulos de cada base, os triângulos (que são isósceles) também podem ser \"girados\", ou seja, existe um triângulo para cima, um para baixo, um para a direita e um para a esquerda. Por exemplo, temos um triângulo de base 3 para cada direção: Para Cima: 1 1 1 1 Para Baixo: 1 1 1 1 Para Esquerda: 1 1 1 1 Para Direita: 1 1 1 1 OBS: A base de um triângulo é sempre um número ímpar e o triângulo é sempre isósceles. OBS2: Para ser um triângulo, não pode conter inteiros diferentes dentro do seu perímetro.",
+    "format_input": "Você receberá um inteiro c indicando o número de casos. Na primeira linha de cada caso, você receberá um inteiro M. Depois do inteiro M, você receberá MxM inteiros, que representam a matriz do caso.",
+    "format_output": "Para cada caso você deverá informar a quantidade de triângulos para cada base (que possui pelo menos 1 triângulo). Caso não haja nenhum triângulo para determinada base de um inteiro 0 ou 1, você não deverá informar nada. Caso haja pelo menos um triângulo para determinada base, a saída deverá ser a seguinte: \"x triangulos formados por b\", onde x é a quantidade de triângulos da base e b é a base utilizada. Você deverá informar primeiro sobre as bases do inteiro 1 e depois sobre as bases do inteiro 0. OBS: Você deverá incluir uma quebra de linha ao final de toda frase OBS: Existe a possibilidade de não haver nenhum triângulo para o inteiro 0 ou 1 (ou para os dois), então você deverá fazer o que foi especificado e não informar nada. OBS: As bases informadas devem ser feitas de forma crescente, ou seja, primeiro a base 3 (se existir), depois sobre a base 5 (se existir) e assim em diante.",
+    "topics": [
+        "array",
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

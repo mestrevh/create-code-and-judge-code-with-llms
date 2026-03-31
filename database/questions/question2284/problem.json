@@ -1,0 +1,11 @@
+{
+    "title": "Camisa para o laboratório",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os alunos do laboratório de robótica precisam de camisas para participar de uma competição. Cada um quer uma camisa diferente e o professor da área resolveu fazer um sistema para determinar como será a camisa. Os alunos ficaram responsáveis por trazer algumas cotações e alguns fatores influenciarão a escolha. São eles: A cor da camisa; Se é com bordado ou serigrafia; O preço. O sistema deve receber uma cotação e dizer se ela atende aos requisitos do professor. Quais sejam: O professor não quer cor escura na camisa. Dessa forma, se a cor da camisa for escura (preta, marrom, azul, verde), ela só será aceita se a camisa for bordada e o preço for menor ou igual que R$ 35,00. Caso a camisa seja clara (branca, amarela, rosa), ela pode ser bordada ou com serigrafia, mas o preço tem que ser menor ou igual a R$ 35,00. Em qualquer outro caso, a cotação deve ser marcada com \"analisar em último caso\". Não será aceita nenhuma cotação com preço maior que R$ 45,00.",
+    "format_input": "O três parâmetros da competição: A cor da camisa (preta, marrom, azul, verde, branca, amarela, rosa); Se é com (b)ordado ou (s)erigrafia; O preço",
+    "format_output": "Um string informando se a cotação é: aceita; rejeitada; analisar em último caso",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

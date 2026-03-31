@@ -1,0 +1,14 @@
+{
+    "title": "Kcaj vs Ordep: A busca do número perfeito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kcaj e Ordep são crianças muito criativas para inventar novos jogos, particularmente são apaixonados por jogos que envolvem matemática, certo dia eles criaram um jogo que chamaram de a busca do número perfeito. Um número perfeito, segundo eles, é todo número que é primo e, ao mesmo tempo, faz parte da sequencia Fibonacci, como, por exemplo o 2, que é o 4º número da sequencia Fibonacci e é um número primo, além disso existem os números quase perfeitos que são aqueles que são OU primos OU fazem parte da sequencia Fibonacci como o 7, por exemplo, é um número primo, mas não faz parte da sequencia Fibonacci, já o 8 é parte da sequencia Fibonacci, mas não é primo. No inicio eles definem o número N (0 < N <= 50) de rodadas do jogo, em cada rodada eles escrevem no papel o primeiro número X (1 <= X <= 10000) que vem a sua cabeça, após escreverem eles verificam a pontuação. A pontuação é feita da seguinte maneira: Se é um número perfeito o jogador ganha 3 pontos. Se é um número quase perfeito o jogador ganha 1 ponto. Se não é nem perfeito, nem quase perfeito o jogador não ganha pontos. Em caso de empate ganha aquele que escolheu maior número. É garantido que os dois números são sempre diferentes.",
+    "format_input": "A primeira linha de entrada contém um número inteiro N (0 < N <= 50). As N linhas seguintes contém dois inteiros X, Y (1 <= X, Y <= 10000) (os números escolhidos por Kcaj e Ordep)",
+    "format_output": "A saída contém o nome do jogador vitorioso seguido por uma quebra de linha.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "função",
+        "recursão",
+        "números primos"
+    ]
+}

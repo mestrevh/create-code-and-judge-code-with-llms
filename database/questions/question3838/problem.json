@@ -1,0 +1,11 @@
+{
+    "title": "Sherliro impede The Wrath of Khanmerer",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Sherliro e R2-ur Dee Tuo são muito famosos na galáxia EC CInláctea por suas habilidades de resolver problemas dos outros (principalmente os causados por eles rs). Durante o mês de setembro, houve um campeonato de Napoléocity, que consiste num jogo de execução de 5 instruções em que cada instrução tem um peso, e ao executá-la o jogador ganha uma quantia de pontos que é a ID da instrução multiplicada pelo seu peso. Após concluir todas as instruções, o contador de pontos do usuário salva sua quantia no registro geral e ao fim do campeonato indica os vencedores. As regras são: Se o ID da instrução for um número par múltiplo de um dos primos de 3 a 10, o peso dobra. Se o resultado de peso * ID for ímpar e múltiplo de um dos primos de 11 a 20, o valor da operação cai pela metade Se o ID for múltiplo de 17 e par, o valor é zerado Caso não se encaixe em nenhuma das condições acima, o resultado normal é mantido Porém, como nem tudo é flores, há uma suspeita de roubo no campeonato e o presidente Khanmerer, que estava MUITO irritado e a fim de evitar sua wrath, pediu a ajuda de Sherliro para identificar se houve roubo ou não segundo as seguintes condições: CASO 1 - Tem mais pontos do que deveria, cabe a Sherliro fazer a contagem CASO 2 - Se adulterou instruções para terem o mesmo ID Sherliro é um jovem muito ocupado e precisa que você o ajude a construir um programa que facilite seu trabalho.",
+    "format_input": "5 linhas com 2 inteiros cada, o primeiro é a ID da instrução e o segundo é o peso da mesma. A 6a linha contém o total de pontos do jogador analisado",
+    "format_output": "Caso houve o roubo, exiba na tela “UEPAAA TEMOS UM RATINHO”, caso não “barra limpa, khan”.",
+    "topics": [
+        "acumulador",
+        "lógica matemática"
+    ]
+}

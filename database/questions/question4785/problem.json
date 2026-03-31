@@ -1,0 +1,10 @@
+{
+    "title": "Arena Virtual",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Esoj, um jovem programador cheio de criatividade, está organizando uma arena virtual de provocações entre pets — uma competição onde cachorros e gatos “brigam” usando sons como \"au\" (latidos) e \"miau\" (miados). Porém, Esoj está com dificuldade para organizar todas as provocações registradas, que estão em formato de uma cadeia: cada pet pode ser provocado por outro, que por sua vez pode ter sido provocado por outro, formando uma sequência de provocações ligada. Ele pediu sua ajuda para implementar um programa que organize essa estrutura e analise: Quantos latidos (\"au\") e miaus (\"miau\") ocorreram (no total). A cadeia completa das provocações recebidas por um pet, mostrando quem o provocou, quem provocou esse provocador, e assim por diante, até o topo da cadeia. Observação: Não há ciclos nas provocações. Ou seja, as provocações não porem formar um ciclo (loop).",
+    "format_input": "Seu programa deve (respectivamente): Receber até 100 provocações, cada uma contendo: Nome do pet provocador, Nome do pet provocado, Som da provocação (\"au\" ou \"miau\"). Encerrar a entrada quando o nome do pet provocador for \"FIM\". Após isso, informar o pet a ser analisado.",
+    "format_output": "Para um pet informado pelo usuário, exibir: 1. O total de provocações do tipo \"au\" e \"miau\". 2. A cadeia completa das provocações recebidas por esse pet, mostrando quem o provocou, quem provocou quem o provocou, e assim por diante, com recuos para indicar os níveis da cadeia.",
+    "topics": [
+        "string"
+    ]
+}

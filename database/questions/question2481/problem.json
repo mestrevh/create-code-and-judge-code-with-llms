@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Repetição - J",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[for] Faça um programa que lê cem idades de pacientes e exibe as idades do mais novo e do mais velho.",
+    "format_input": "Cem números naturais, simbolizando as idades de pacientes, um por linha.",
+    "format_output": "Na primeira linha a idade do mais novo; na linha seguinte a idade do mais velho.",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Baskhara",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para ler os coeficiente A, B e C de uma equação do segundo grau na forma Ax² + Bx + C e calcular as suas raízes, levando em consideração a existência de raízes reais (∆ > 0, a equação possui duas raízes reais e distintas; ∆ = 0, a equação possui raízes reais iguais; ∆ < 0, a equação não possui raízes reais). Se ∆ < 0, deve ser informado ao usuário que a função não tem raízes reais.",
+    "format_input": "O usuario deve digitar os coeficiente A, B e C de uma equação do segundo grau na forma Ax² + Bx + C",
+    "format_output": "O programa deve exibir as raízes da equação ou uma mensagem informando que não há raízes reais, imprimindo na tela os valores abaixo: Digite o coeficiente A: Digite o coeficiente B: Digite o coeficiente C: Primeira raiz: n Segunda raiz: n A funcao nao tem raizes reais (impresso se ∆ < 0)",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática"
+    ]
+}

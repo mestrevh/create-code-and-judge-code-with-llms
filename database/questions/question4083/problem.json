@@ -1,0 +1,12 @@
+{
+    "title": "Hemácias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio é dono de um laboratório e está precisando automatizar os resultados das análises. Você deseja ajudá-lo escrevendo um programa que lê o valor obtido no exame e, de acordo com a tabela abaixo contendo os valores de referência, informa o resultado do exame. Observe que os valores de referência mudam de acordo com o paciente (mulher, homem, criança ou idoso).",
+    "format_input": "Uma sequência de linhas nas quais cada uma contém um valor (real) que indica a quantidade de hemácias/mm3, seguido de um espaço em branco e finalizando a linha com uma letra que pode ser H para homem, M para mulher, C para criança ou I para idoso. A sequência de valores se encerra quando é encontrada uma linha contendo o caractere asterisco (*).",
+    "format_output": "O programa deve imprimir para cada linha da entrada uma mensagem no formato exemplificado abaixo (sem acentos). Considerando como exemplo o valor de 5.0 hemácias/mm3, em um paciente idoso, teríamos a mensagem: Hemacias 5.00/mm3 (Idoso) = Normal Quando o resultado for abaixo do valor de referência, ao invés de Normal, deve ser mostrado o resultado Baixo. Já quando for maior que o valor de referência, deve mostrar Alto. Dica: Defina e utilize as funções paciente_por_extenso e analisar_hemacias na sua solução, conforme descritas abaixo (opcional). Defina uma função chamada paciente_por_extenso que receba como parâmetro uma sigla que pode ser H, M, I ou C e retorne uma string com os valores Homem, Mulher, Idoso e Crianca, respectivamente. Defina uma função chamada analisar_hemacias que receba como parâmetros dois valores, a saber: valor (real) e tipo_paciente (string). A função deve retornar uma string, que pode ser Baixo, Normal ou Alto, a depender do valor fornecido como parâmetro estar, respectivamente, abaixo, entre ou acima dos valores de referência contidos na tabela.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "função"
+    ]
+}

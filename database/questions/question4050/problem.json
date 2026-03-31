@@ -1,0 +1,10 @@
+{
+    "title": "Identificador de idade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que dada uma idade, informe se a pessoa é adulta, adolescente ou criança. Idade maior ou igual a 18: adulto Idade maior ou igual a 10 e menor que 18: adolescente Idade maior ou igual a 0 e menor que 10: crianca Desafio: Use apenas 1 if, 1 else if, 1 else.",
+    "format_input": "Um inteiro N, representando a idade.",
+    "format_output": "Imprima se é adulto, adolescente ou crianca, a depender da idade enviada.",
+    "topics": [
+        "decisão"
+    ]
+}

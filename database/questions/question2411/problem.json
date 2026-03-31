@@ -1,0 +1,11 @@
+{
+    "title": "Raiz Digital",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Hoje na aula de matemática, Ambrósio aprendeu sobre Raiz Digital. A Raiz Digital de um inteiro não-negativo é o valor de digito único resultado do processo de iteração da soma de seus dígitos; cada iteração usando o valor resultante da soma dos dígitos da anterior para fazer a nova soma. O processo continua até chegar em um valor de único digito. Por exemplo, se a Raiz Digital de x for representada por S(x), temos que: S(7) = 7; S(49) = S(4+9) = S(13) = S(1+3) = S(4) = 4. Como dever de casa, Ambrósio tem n tarefas do seguinte tipo: Encontre o k-º número positivo cujo a Raiz Digital é x",
+    "format_input": "A primeira linha contém um inteiro n (1 <= n <= 100), número de tarefas de Ambrósio. As próximas n linhas contém dois inteiros cada, k(1 <= k <= 10³) e x(1 <= x <= 9)",
+    "format_output": "Para cada tarefa, encontrar o k-º número positivo que possui a Raiz Digital especificada x.",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Gráfico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Observe o comportamento do gráfico a seguir e crie uma função que retorna corretamente o valor de y (inteiro) para qualquer x (inteiro).",
+    "format_input": "1",
+    "format_output": "0",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

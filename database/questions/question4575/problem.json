@@ -1,0 +1,11 @@
+{
+    "title": "Operação Matemática",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Raphael adora resolver problemas de lógica. Recentemente ele está tentando resolver um problema e precisa da sua ajuda. Considere três números inteiros a, b, e c, Raphael precisa identificar qual a operação matemática que relaciona os três números. Os números podem ser relacionados pela operação matemática de soma ou subtração de tal forma que exatamente uma das seguintes equações seja verdadeira:• a+b=c • a-b=c Por exemplo, considere os seguintes valores: a = 1, b = 2, e c = 3. Esses três números estão relacionados pela operação matemática de soma (1 + 2 = 3). Nesse exemplo, imprima na saída o operador +. Considere outro exemplo: a = 2, b = 9, e c = -7. Nesse caso, os três números estão relacionados pela operação matemática de subtração (2 - 9 = -7). Nesse exemplo, imprima na saída o operador -. A sua tarefa é ajudar Raphael saber qual operação matemática relaciona os números.",
+    "format_input": "Cada caso de teste contém três linhas representando os números a, b, e c (0 ≤ a, b, c < 106), respectivamente.",
+    "format_output": "Para cada caso de teste, imprima a operação matemática que relaciona os números a, b e c",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

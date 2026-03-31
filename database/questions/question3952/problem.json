@@ -1,0 +1,11 @@
+{
+    "title": "Vencedor das Olimpíadas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A classificação nas olimpíadas se dá contando em primeiro lugar o número de medalhas de ouro. No caso de empate em ouros, conta-se as de prata. Por fim, no caso de empate em ouros e pratas, conta-se o número de bronzes. Escreva um programa que receba o número de cada tipo de medalhas, ou seja, ouros, pratas e bronzes de vários países e que imprima o nome do país vencedor. No caso de haver empate, o programa deverá imprimir todos os vencedores. Restrição: Defina uma função que dadas as medalhas de dois países, retorne o valor booleano True se e somente se o primeiro país está melhor classificado que o segundo. Defina mais funções se for conveniente. Só poderão ser usados elementos de Python vistos nas aulas até o momento.",
+    "format_input": "Uma linha por cada país contendo o nome do país seguido de três números naturais correspondentes às quantidades de ouros, pratas e bronzes que o país obteve, respectivamente. O nome de um país não contém espaços em branco. A entrada termina com uma linha contendo a string ‘FIM’.",
+    "format_output": "Uma única linha com nome do(s) país(es) vencedor(es). Em caso de haver vários vencedores, os nomes dos países estarão separados por um espaço em branco e a ordem segue a da listagem na entrada.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

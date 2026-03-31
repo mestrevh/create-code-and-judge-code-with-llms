@@ -1,0 +1,10 @@
+{
+    "title": "03 - Você sabe que tudo vai ser moleza",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A familia Russo teve uma viagem de férias muito conturbada, de tal modo que a situação ficou tão alarmante que para tentar solucionar eles tiveram que definir de uma vez por todas quem seria o feiticeiro da família. Por conta das coisas que aconteceram durante a viagem Max não estava disponível para participar da competição, então estava entre Alex e Justin. A competição se tratava de um duelo. Nesse duelo, e o ganhador do duelo irá se tornar de uma vez por todas o feiticeiro da família. No duelo cada um dos irmãos só poderá usar 2 feitiços, um de defesa e um de ataque, além disso, esses feitiços só poderão ser dos tipos: luz, trevas e elemental, onde: luz tem vantagem sobre trevas trevas tem vantagem sobre elemental Elemental tem vantagem sobre luz. E a equação que define o dano causado pelo feitiço de ataque de cada um deles é dada por: Nível de magia no ambiente*multiplicador O nível de magia no ambiente é comum aos 2 feiticeiros mas o multiplicador varia de acordo com os tipos de magia de defesa e de ataque: Ataque com vantagem (multiplicador 2) Ataque normal(multiplicador 1) Ataque com desvantagem (multiplicador 0.5) O seu programa deverá definir quem será o próximo feiticeiro da família Russo, ganhará aquele que tiver mais HP ao final do duelo.",
+    "format_input": "H1 D1 A1 H2 D2 A2 M H1-double D1-String A1-String H2-double D2-String A2-String M-int Onde: H1-hp inicial de Alex D1-Tipo da magia de defesa de Alex A1-Tipo da magia de ataque de Alex H2-hp inicial de Justin D2-Tipo da magia de defesa de Justin A2-Tipo da magia de ataque de Justin M-magia ambiente",
+    "format_output": "Caso Alex ganhe: “Parabéns, Alex! Você é a nova feiticeira da família” Caso Justin ganhe: “Parabéns, Justin! Você é o novo feiticeiro da família” Caso empate: “temos um empate! Vamos terminar esse duelo outro dia”",
+    "topics": [
+        "ad-hoc"
+    ]
+}

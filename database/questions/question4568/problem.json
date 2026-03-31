@@ -1,0 +1,10 @@
+{
+    "title": "Operações com matrizes!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Vamos criar um programa que faz um mergulho nas profundezas de uma matriz 3 x 3 de números inteiros. Ele calcula a média de todos os valores, identifica o maior valor presente e determina o valor delta. O delta é 1 se o maior valor for positivo, -1 se for negativo e 0 se for zero. Além disso, o programa também soma os elementos da diagonal principal.",
+    "format_input": "9 valores inteiros referentes aos elementos da matriz.",
+    "format_output": "4 valores numéricos: o primeiro é um número em ponto flutuante de duas casas decimais e os outros três inteiros.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

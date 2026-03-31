@@ -1,0 +1,11 @@
+{
+    "title": "Casa de Show",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pedro tem uma banda com mais 6 amigos. Todos os dias da semana tem um ensaio na casa de uma pessoa diferente, ou seja, não terá dois ensaios na casa da mesma pessoa, na mesma semana. Todos os integrantes da banda, tem uma limitação de metros que conseguem andar em uma semana, caso essa limitação seja ultrapassada, o integrante que ultrapassou o limite não irá se apresentar no show. No último dia da semana, ou seja, sábado, além do ensaio, Pedro e seus amigos farão uma apresentação na casa de show onde terá o maior pagamento acumulado. Pedro não é muito bom com números, então ele pediu para você fazer um programa que calculasse qual a casa de show que pagará o maior valor, qual o valor que essa casa de show pagará e quantos integrantes vão se apresentar. Obs: CASA 1 pagará 10 reais por integrante; Obs: CASA 2 pagará 20 reais por integrante; Obs: CASA 3 pagará 30 reais por integrante; Obs: Sempre será feito o menor caminho; Obs: No caso de ter casas de show's diferentes pagando o mesmo valor, o critério de desempate será a quantidade de integrantes que irão se apresentar, ou seja, deverá ser pego a casa de show onde irá mais integrantes.",
+    "format_input": "A entrada será composta por 7 inteiros, representando a limitação em metros de Pedro, Túlio, Gabriel, Yanka, Paloma, Vinicius e Elias, respectivamente.",
+    "format_output": "Deverá ser impresso a casa de show onde a banda foi se apresentar, o valor acumulado que os integrantes receberam e a quantidade de integrantes que irão participar do show, todos separados por uma quebra de linha. Obs: caso nenhum integrante consiga se apresentar, deverá ser impresso a seguinte frase: NAO TERA SHOW!",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

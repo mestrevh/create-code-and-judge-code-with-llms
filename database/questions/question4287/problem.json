@@ -1,0 +1,10 @@
+{
+    "title": "Está em equilíbrio?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Guilherme é um menino muito estudioso, porém sempre falta as aulas de física. Por isso, seu professor resolveu ensinar a ele uma lição: Guilherme recebe as forças que afetam um corpo no espaço e deve dizer se este corpo está em equilíbrio. Ele achou a atividade muito fácil, pois é só checar se a soma de todos os vetores (as colunas) é igual a zero. Então, ele começou a resolver a lição. Porém, a lição era muito grande e ele não consegue terminar sem a sua ajuda. Escreva um programa que determine se um corpo está em equilíbrio ou em movimento de acordo com os vetores das forças que forem dados.",
+    "format_input": "A primeira linha contém dois números inteiros positivos n e m (1 <= n <= 50)(1 <= m <= 50). As próximas n linhas contêm m inteiros cada: as forças aplicadas sobre o corpo.",
+    "format_output": "Escreva na tela \"Sim\" se o corpo estiver em equilíbrio, ou \"Nao\" se o corpo não estiver em equilíbrio.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

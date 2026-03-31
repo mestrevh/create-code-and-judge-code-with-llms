@@ -1,0 +1,11 @@
+{
+    "title": "Fuga de Tarzan",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tarzan e Jane se veem em uma enrascada quando vários babuínos estão os perseguindo, mas como Tarzan conhece muito bem a selva, ele consegue dizer qual a melhor rota de fuga. Faça um programa que simule a mente de Tarzan na escolha do melhor caminho levando em consideração os seguintes fatores: IMPORTANTE: O melhor caminho é aquele cuja distância final entre Tarzan e os babuínos seja a maior! Os babuínos pegarão Tarzan e Jane se a distância entre eles e os animais for igual ou menor que 0; É possível que existam fatores auxiliares como cipós ou tobogãs de troncos de árvore; Cipós rendem 15m a Tarzan e tobogãs rendem 30m a Tarzan; A distância inicial entre Tarzan e os babuínos é de 20m; Um caminho começa quando houver um colchete aberto \"[\" e termina quando houver colchete fechado \"]\" (SEM ASPAS!!); Os babuínos tem velocidade de 1m/s em relação a Tarzan; Cada linha de entrada (que não seja um colchete, cipó ou tobogã) conterá um valor indicando quantos segundos ela durará; A PARTIR DO MOMENTO que o tempo se tornar maior que 20, a velocidade dos babuínos se torna 3m/s; Sempre haverá pelo menos um caminho (não significa que será válido); O número de um caminho é determinado pela sua ordem, se for o primeiro caminho lido, então seu número é 1, se for o n-ésimo caminho, então seu número é n; IMPORTANTE: m/s = metros por segundo;",
+    "format_input": "Serão várias linhas de entrada: A primeira linha de um caminho é dada por um colchete aberto: [ E uma sequência de linhas que podem conter: S ou P; S corresponde a um char que pode ser ou C, referente a um cipó, ou T, referente a um tobogã; P corresponde a um número, referente aos segundos que essa entrada custará; A última linha de um caminho é dada por um colchete fechado: ]",
+    "format_output": "Caso exista um caminho pelo qual Tarzan consiga fugir, imprima: \"Tarzan fugir caminho N\" Caso não exista, imprima: \"Tarzan improvisar!\"",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

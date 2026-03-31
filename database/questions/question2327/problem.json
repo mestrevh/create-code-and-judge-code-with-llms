@@ -1,0 +1,10 @@
+{
+    "title": "Menor (função com retorno de valor)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[ENUNCIADO] Crie um programa que possua uma única função além do programa principal. A função deverá receber como parâmetros três números reais distintos X, Y e Z e devolver o valor do menor. Observe que os valores podem ser, inclusive, valores negativos. [RESTRIÇÕES] a) A leitura dos valores de entrada deverá ser feita no programa principal, ou seja, não haverá interação com o usuário na função; b) O programa principal deverá imprimir o menor dos inteiros de acordo com o retorno da função. c) O valor impresso deverá ser exibido com duas casas decimais.",
+    "format_input": "20 10 30",
+    "format_output": "10.00",
+    "topics": [
+        "função"
+    ]
+}

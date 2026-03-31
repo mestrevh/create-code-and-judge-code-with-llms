@@ -1,0 +1,11 @@
+{
+    "title": "Senha Octave - T1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que verifique a validade de uma senha fornecida pelo usuário.A senha válida é o número1234.Devem ser impressas as seguintes mensagens: ACESSO PERMITIDO caso a senha seja válida. ACESSO NEGADO caso a senha seja inválida.",
+    "format_input": "O usuario deve digitar a senha numerica",
+    "format_output": "O programa deve exibir uma mensagem informando se o acesso será permitido ou não, imprimindo na tela os valores abaixo: Digite a senha numerica: (impresso pela funcao input) ACESSO PERMITIDO/ACESSO NEGADO",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

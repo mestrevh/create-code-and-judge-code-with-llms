@@ -1,0 +1,11 @@
+{
+    "title": "É de ladinho na leitura!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você irá receber uma sequência de números reais, numa mesma linha, um ao lado do outro. Imprima todos eles, na mesma sequência, porém um abaixo do outro usando 3 casas decimais!",
+    "format_input": "Uma sequência de números reais, numa mesma linha, um ao lado do outro.",
+    "format_output": "Uma sequência de números reais, um abaixo do outro, usando 3 casas decimais.",
+    "topics": [
+        "array",
+        "entrada formatada"
+    ]
+}

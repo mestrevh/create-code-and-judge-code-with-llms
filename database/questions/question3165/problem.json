@@ -1,0 +1,11 @@
+{
+    "title": "Triângulo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função que recebe três inteiros (a, b, c) e retorna true (1) se existir a condição do triângulo abc ou false (0) se a condição não existir.",
+    "format_input": "3 5 5",
+    "format_output": "1",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

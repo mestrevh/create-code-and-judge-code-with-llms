@@ -1,0 +1,11 @@
+{
+    "title": "Super Poder",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A TFG é a maior desenvolvedora de jogos mobile da América Latina e uma das 10 maiores do mundo. A missão da empresa é fazer os jogos que irão marcar gerações. Ao longo de 8 anos, já publicaram mais de 60 títulos e atingiram o ranking dos 20 maiores publishers de aplicativos do mundo, com mais de 1 bilhão de downloads! A equipe começou com dois irmãos, e hoje já tem mais de 350 pessoas na sede em São Paulo e no escritório em Dublin. Um dos seus jogos mais populares é o Castle Crush. O objetivo desse jogo é matar os oponentes. Cada oponente possui um valor inteiro representando a sua força. Guthyerrz é um dos líderes de desenvolvimento de jogos na TFG e precisa da sua ajuda. Ele gostaria de implementar uma funcionalidade que permita o usuário saber quando ganhará um superpoder. Sempre que a pontuação for um número cuja soma dos dígitos é divisível por 4, o usuário ganhará esse super poder. A sua tarefa é ajudar Guthyerrz a implementar uma funcionalidade que indique ao usuário a partir de uma pontuação atual x, qual a pontuação n (x ≤ n) tal que n é o menor número cuja soma dos dígitos é divisível por 4. Ou seja, mostre ao usuário qual a pontuação mínima necessária para ele ganhar um super poder.",
+    "format_input": "Cada caso de teste contém um número com a pontuação atual (1 ≤ x ≤ 1.000) do jogador.",
+    "format_output": "Para cada caso de teste, qual a pontuação n (x ≤ n) tal que n é o menor número cuja soma dos dígitos é divisível por 4.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

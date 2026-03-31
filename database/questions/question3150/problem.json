@@ -1,0 +1,12 @@
+{
+    "title": "Corona: Ep 9",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Infelizmente o pior está acontecendo: uma guerra civil. Nesse estágio, as pessoas que ainda não foram infectadas pelo vírus estão revoltadas graças ao isolamento social e a escassez de suprimentos, elas não aguentam mais o racionamento de alimentos e estão saindo nas ruas atacando umas as outras no objetivo de pegar o pouco que tem nas prateleiras dos supermercados. Entre essas pessoas está Pedro Victor, o pobre garoto que respeitou a quarentena e passou os últimos dias em casa estudando algoritmos decide sair na rua em busca de sobrevivência. O caminho até o supermercado é longo e durante o trajeto Pedro encontrará 3 inimigos. Será que ele conseguirá chegar com vida?",
+    "format_input": "Você deve escrever um programa que recebe como entrada inicialmente 3 números A, B e C, que são cada um a vida dos três inimigos que Pedro irá encontrar. Após isso, você receberá mais um número, que indica a quantidade de energia de Pedro, por último, receberá também um caractere, que pode ser 'C'(chinelo) ou 'V'(vassoura), representando o objeto com que ele atacará o inimigo. Quando equipado com chinelo, cada ataque de Pedro tira 40 de vida do inimigo e 15 de sua energia, quando equipado com a vassoura, cada ataque tira 50 de vida do inimigo e 20 de sua energia. Mas tem um detalhe! Se a energia de Pedro chegar em menos de 30% da inicial, a imunidade dele cai e ele contrai corona vírus, dobrando a perda de energia. Pedro deve derrotar os 3 inimigos antes que sua energia chegue em zero!",
+    "format_output": "Caso ele consiga derrotar os 3 inimigos, deverá ser printada na tela a mensagem: \"Eba! Pedro sobreviveu\", caso contrário, printe \"Que pena... Era um jovem tao promissor\"",
+    "topics": [
+        "decisão",
+        "repetição",
+        "caractere"
+    ]
+}

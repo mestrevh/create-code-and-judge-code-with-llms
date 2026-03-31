@@ -1,0 +1,11 @@
+{
+    "title": "Maior múltiplo inteiro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que determine o maior múltiplo inteiro menor ou igual que um outro inteiro dado. Por exemplo, o maior múltiplo inteiro de 3, menor do que 8 é 6.",
+    "format_input": "3 8",
+    "format_output": "6",
+    "topics": [
+        "multiplas entradas",
+        "lógica matemática"
+    ]
+}

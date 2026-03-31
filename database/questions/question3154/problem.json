@@ -1,0 +1,13 @@
+{
+    "title": "Corona: EP 1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kinho era um cara legal mas tinha um gosto diferenciado por comidas peculiares. Um belo dia, enquanto dava um rolê pela Ásia, Kinho sentiu um desejo diferente... Ele queria uma sopa de Batman!! Sabendo que ia ser difícil arrumar um Batman dando sopa por aí, ele resolveu dar uma passadinha em Wuhan na China com o seu codemóvel para comprar uns morceguinhos e fazer um caldinho maravilhoso! Infelizmente, o carro de Kinho era um pouco gastador demais e para conseguir fazer grandes viagens, o grande Kinho chamou seu amigo Zilboi para fazer umas modificações estilo Velozes e Furiosos-Tesla Edition. Zilboi meteu uma bateria elétrica no carro e configurou para que o carro funcionasse da seguinte forma: 1- Nos primeiros 5km, o carro consome apenas a bateria elétrica. 2- Após os primeiros 5km, a bateria cai 10V e o consumo de gasolina começa a ser de 13km/L. A partir disso, a cada 2,5km a bateria do carro cai 5V. 3- Após os primeiros 5km, a cada 2,5km o consumo de gasolina piora em 0,5Km/L. Ou seja, aos 7,5km o consumo passa a ser de 12,5km/L. E assim segue. 4- Se a Tensão for menor que 50V, o carro para de usar a bateria, passa a consumir 10km/L e não muda mais. 5- Se inicialmente a bateria do carro estiver abaixo dos 75V, ele não liga e manda um recado \"zilboi trollou o kinho\" Obs.: na hora de ligar o carro, a distância prevalece sobre a tensão da bateria.",
+    "format_input": "Dois números reais, onde o primeiro é a tensão da bateria e o segundo é a quantidade de litros de combustível no tanque. Na outra linha, um inteiro com a distância total da viagem. V C D",
+    "format_output": "Caso Kinho consiga completar a viagem sem que o tanque chegue a 0 litros, a saída deve ser uma mensagem \"Parabens, Kinho. Vc vai comer um morceguinho.\". Caso Kinho NÃO consiga completar a viagem, a saída deve ser uma mensagem \"Pobre Kinho. Vai ficar no meio do caminho.\". Caso o carro nem ligue, a saída deve ser uma mensagem \"Zilboi trollou o kinho\". Caso a distancia seja negativa, a saída deve ser uma mensagem \"Vai pa onde, kinho?\".",
+    "topics": [
+        "ponto flutuante",
+        "decisão",
+        "entrada formatada",
+        "repetição"
+    ]
+}

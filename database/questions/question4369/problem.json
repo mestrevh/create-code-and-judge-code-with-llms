@@ -1,0 +1,10 @@
+{
+    "title": "Soma ou subtração?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sr. Frusteco adora resolver problemas de lógica e recentemente ele quer um programa que receba três números inteiros e que identifique qual a operação matemática que relaciona os três números. Os números podem estar relacionados pela operação matemática de soma ou de subtração. Ou seja, a+b= c ou a-b = c. Por exemplo, considere os valores: a=1, b=2 e c=3. Esses números estão relacionados pela operação de soma (1+2=3). Nesse caso, a saída deve ser o operador ‘+’. Considere o exemplo: a=2, b= 10 e c= 8. Nesse caso, os três números estão relacionados pela operação matemática de subtração (2-10= 8) e a saída deve ser o operador ‘-’.",
+    "format_input": "A entrada do programa devem ser três números inteiros maiores ou iguais a zero.",
+    "format_output": "A saída deve ser o operador que represente a operação que relaciona os números. Caso a restrição seja violada, apresente a mensagem “Restrição violada”.",
+    "topics": [
+        "decisão"
+    ]
+}

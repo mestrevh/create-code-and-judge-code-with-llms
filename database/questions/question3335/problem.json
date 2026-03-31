@@ -1,0 +1,11 @@
+{
+    "title": "O pi de zeca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Zeca estava aprontando sua próxima maior vigarície e, de repente, recebeu uma ligação da π Enterprises para ir até os escritórios realizar um teste que poderia lhe render um emprego. Animado, ele correu para se aprontar e, ao chegar no escritório, recebeu diversos papéis contendo diversas equações que aparentemente geravam valores aproximados para π. A tarefa de Zeca era provar que as equações realmente resultavam em π, mas como ele era também um exímio programador, decidiu construir um código que automatizasse o processo dos somatórios para ele. Zeca deve indicar o resultado de cada equação para n iterações e também deve indicar (em termos percentuais) o quão próximo do valor de pi o resultado chegou. Tanto para os resultados em porcentagem quanto para os resultados das equações, utilize 6 casas decimais! Equação 1: Somatório de x = 0 até n de ((-1)^x) / (2x+1) = π/4. Equação 2: Somatório de x = 0 até n de 2 / ((4x + 1)(4x + 3)) = π/4. Equação 3: π = 3 + 4/(2 * 3 * 4) - 4/(4 * 5 * 6) + 4/(6 * 7 * 8) - 4/(8 * 9 * 10) + ... Obs.: O valor de π pode ser encontrado na biblioteca \"math.h\", usando o define M_PI! Obs2.: Se estiver compilando no ubuntu, não se esqueça da flag de compilação \"-lm\" para a math.h! Obs3.: Utilize variáveis do tipo double!",
+    "format_input": "Zeca informará um valor n (1 <= n <= 1000) que será o numero de iterações que você deverá realizar.",
+    "format_output": "Você deve mostrar (em ordem), os resultados de n iterações para cada equação na descrição, junto a porcentagem de semelhança ao número M_PI presente na biblioteca \"math.h\". Esses valores são separados por um \" - \" e seguidos por uma quebra de linha, observe os casos de exemplo para se atentar à saida!",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

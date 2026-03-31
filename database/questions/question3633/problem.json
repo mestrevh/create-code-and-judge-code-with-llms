@@ -1,0 +1,12 @@
+{
+    "title": "Pedra, papel e tesoura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kyara e Vinicius estão brigando para ver quem irá lavar a louça do brigadeiro, sua tarefa consiste em ajudá-los fazendo um programa para resolver essa empreitada com base no jogo de Jakenpo, mas ao invés de utilizarem as mãos, eles deverão escrever qual movimento será escolhido. A brincadeira consiste na entrada de três opções: pedra, papel ou tesoura, onde os cenários possíveis são: Mesma opção para os dois jogadores: empate; Pedra vs papel ou papel vs pedra: vitória de papel; Pedra vs tesoura ou tesoura vs pedra: vitória de pedra; Tesoura vs papel ou papel vs tesoura: vitória de tesoura; Observação: considere que Kyara sempre será a primeira a jogar.",
+    "format_input": "A entrada consiste em um inteiro N indicando quantas vezes seu algorítimo irá ser executado, com 0 <= N <= 10. Para cada execução, serão lidas duas strings, onde cada uma representará uma das três palavras: pedra, papel ou tesoura. Caso algum deles insira uma palavra inválida, a partida não deverá ser contabilizada. Observação: não diferencie maiúsculas de minúsculas, todo tipo de variação será aceita.",
+    "format_output": "A saída deverá seguir o seguinte formato: 1. Caso Kyara tenha tido o maior número de vitorias, imprima na tela \"VINICIUS VAI LAVAR A LOUÇA!\". 2. Caso Vinicius tenha tido o maior número de vitórias, imprima na tela “KYARA VAI LAVAR A LOUÇA!”. 3. Caso termine em empate, imprima na tela “OS DOIS VÃO LAVAR A LOUÇA JUNTOS!”. Observação: todas as mensagens devem estar exatamente conforme os exemplos dados.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

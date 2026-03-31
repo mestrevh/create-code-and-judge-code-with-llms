@@ -1,0 +1,10 @@
+{
+    "title": "Swaps and Queries [I]",
+    "time_limit": "8 segundo(s)",
+    "descrition": "Em mais uma tarde qualquer, Protagonista e Z (o seu melhor amigo), irão jogar mais um jogo divertido! Inicialmente, os dois recebem uma permutação de tamanho N, e com isso, eles querem processar os 3 tipos de operações listadas a seguir: 1 i j - Troque os elementos a[i] e a[j], ou seja, a[i] passará a ter o valor de a[j] e a[j] passará a ter o valor de a[i]. 2 l r x - Considerando apenas o subarray a[l, r], qual o menor elemento >= x que está presente nesse subarray? Se nenhum número é >= x no subarray, imprima \"-1\" (sem aspas) 3 l r x - Considerando apenas o subarray a[l, r], qual o maior elemento <= x que está presente nesse subarray? Se nenhum número é <= x no subarray, imprima \"-1\" (sem aspas) Como os dois ainda não sabem resolver esse problema de forma eficiente, eles pediram a sua ajuda, afinal, você é um excelente programador. Observação: Uma permutação de tamanho N é o array a = {1, 2, ..., N} embaralhado de alguma maneira.",
+    "format_input": "Inicialmente, terá um inteiro 1 <= N <= 10^5, indicando o tamanho da permutação. Em seguida virão N inteiros 1 <= a[i] <= N, indicando a permutação dada. Em seguida é dado um inteiro 1 <= Q <= 10^5, indicando a quantidade de operações a serem realizadas. As próximas Q linhas irão ter uma operação a ser realizada. Para operações do tipo 1: 1 <= i, j <= N. Para operações do tipo 2: 1 <= l <= r <= N, 1 <= x <= N. Para operações do tipo 3: 1 <= l <= r <= N, 1 <= x <= N.",
+    "format_output": "Para cada operação do tipo 2 ou 3, imprima a resposta seguida de uma quebra de linha.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

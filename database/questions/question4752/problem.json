@@ -1,0 +1,10 @@
+{
+    "title": "Área - OPI 2024",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Juliana está ensinando geometria para a sua filha, mas precisa da sua ajuda. Existem dois retângulos. Os lados do primeiro retângulo são A e B, enquanto que os lados do segundo retângulo são C e D. A área de um retângulo é dada pela multiplicação dos seus lados. A sua tarefa é ajudar Juliana a saber a área do retângulo com a maior área.",
+    "format_input": "Cada caso de teste contém os números inteiros A, B, C e D (1 ≤ A, B, C, D ≤ 10 elevado a 4), respectivamente.",
+    "format_output": "Para cada caso de teste, imprima a área do maior retângulo.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

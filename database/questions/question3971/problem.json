@@ -1,0 +1,10 @@
+{
+    "title": "Vogais por palavra",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um texto, calcule a média da quantidade de vogais por palavra. Por simplicidade, o texto usa o alfabeto Inglês, ou seja, letras não têm acentos.",
+    "format_input": "Um texto em que cada palavra é separada por um ou mais espaços em branco e/ou nova linha. O texto termina com uma linha contendo unicamente a palavra ‘FIM’. A palavra ‘FIM’ não é considerada parte do texto e portanto não entra na conta da média.",
+    "format_output": "A média da quantidade de vogais por palavra, com duas casas decimais. Se o texto for vazio, ou seja, se não contiver nenhuma palavra, o programa deve imprimir ‘texto vazio’.",
+    "topics": [
+        "repetição"
+    ]
+}

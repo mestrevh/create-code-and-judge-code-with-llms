@@ -1,0 +1,10 @@
+{
+    "title": "Perfil do investidor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio abriu uma corretora e precisa de um programa para traçar o perfil dos investidores, conforme alocação em renda fixa e variável. Ambrósio considera que aqueles que investem apenas até 10% em renda variável são considerados conservadores. Já aqueles que investem mais de 10% a até 30% são arrojados. Já aqueles que investem mais de 30% em renda variável são considerados agressivos. Seu programa deve receber os valores investidos em renda fixa (nacional e internacional) e renda variável (nacional e internacional), calcular os percentuais e informar o perfil do cliente junto com seu percentual em renda variável.",
+    "format_input": "Uma única linha contendo os valores (reais) de renda fixa nacional, renda fixa internacional, renda variável nacional e renda variável internacional separados entre si por um espaço em branco.",
+    "format_output": "Seu programa deve imprimir uma única linha, contendo o perfil do investidor e o percentual de renda variável sobre o total investido com 2 casas decimais entre parênteses.",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Amigos do Habay",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Todo final de ano ocorre uma festa na Instituição de Educação Fantástica (IEF). Logo no início de julho, são abertas as inscrições para participar dela. No momento da inscrição, o usuário pode escolher se quer ser \"O Amigo do Habay\" na festa ou não. O mais lógico seria escolhera opção Sim, afinal, é um privilégio ser O Amigo do Habay, já que ele é a pessoa mais descolada do IEF. Porém, há indivíduos que definitivamente não pretendem ser O Amigo do Habay, e por motivos desconhecidos. Somente um será o escolhido. Em vista disso, muitos alunos que escolheram a opção YES realizaram a inscrição diversas vezes para aumentar a própria probabilidade de ser O Amigo do Habay. O organizador geral da festa contratou você para organizar as inscrições do site, pois está havendo um spam de inscrições. O critério para ser o escolhido é a quantidade de letras do primeiro nome, e em caso de empate, vence aquele que realizou primeiro a inscrição. A organização final dos inscritos deverá seguir a ordem de escolha YES ou NO, mas respeitando a ordem alfabética. Observação: Ninguém que escolheu a opção Não realizou a inscrição mais de uma vez.",
+    "format_input": "A entrada contém somente um caso de teste. Cada linha é composta pelo primeiro nome do participante (sem espaços), seguido da opção YES (caso o usuário queira ser O Amigo do Habay) ou NO (caso não queira). A entrada termina assim que o usuário digita \"FIM\" (sem as aspas).",
+    "format_output": "Seu programa deverá imprimir os inscritos (sem repetição) pela ordem de escolha (primeiro YES) e por ordem alfabética, seguido do nome do vencedor. Imprima uma linha em branco entre a lista de inscritos e o nome do vencedor.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "ordenação"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "L6Q1 - Montanha Russa no Del Perro Pier",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Andando pelas ruas de Los Santos, CJ decide espairecer um pouco na montanha russa do Del Perro Pier, mas era um dia de sorte e lá estava ocorrendo um sorteio valendo uma AK-47 com munições eternas. Em cada carrinho da montanha russa, havia um bilhete com um número. Ao começar a corrida, seria anunciado o número que ganharia o prêmio e, caso o envelope que estivesse no carrinho tivesse o número dito, levaria o prêmio. CJ sabe qual o número que seria sorteado, mas não em qual carrinho estava. Como ele não poderia perder o prêmio sob nenhuma hipótese, ele pediu que você fizesse um programa que, identificasse em qual carrinho o número sorteado estivesse.",
+    "format_input": "Várias linhas na forma N Representando o número da sorte em cada carrinho. -1 Indicando o início da corrida Seguido de um número natural K Que representa o número sorteado",
+    "format_output": "Caso o número K esteja presente na lista, deve-se imprimir: O bilhete sorteado e o N e esta no carrinho I Onde N e I são números naturais que representam, respectivamente, o número premiado e em qual carrinho foi encontrando, começando a contar de 1. Caso o número premiado não esteja presente em nenhum carrinho, deve-se imprimir: Nenhum carrinho foi sorteado",
+    "topics": [
+        "estrutura de dados",
+        "estruturas"
+    ]
+}

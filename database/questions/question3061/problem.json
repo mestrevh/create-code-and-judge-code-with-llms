@@ -1,0 +1,12 @@
+{
+    "title": "Tio Fabio vs Tio Keke - O Duelo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tio Fábio é um homem de idade avançada que é apaixonado por matrizes, assim como seu velho amigo Tio Keke. Ambos adoram se aventurar em desafios triviais relacionados aos torneios promovidos pela Sociedade Brasileira de Geometria Computacional (SBGC). Dessa vez o torneio foi relacionado à matrizes, o que fez com que Tio Fábio ficasse bastante animado para competir e convidasse seu amigo Tio Keke para competir contra ele. O torneio consiste em: Dada várias matrizes quadradas (NxN) formadas por inteiros, por partida, vence aquele que acumular mais vitórias durante as rodadas. Foi decidido pela SBCG que Tio Keke seria responsável pela diagonal principal da matriz e Tio Fábio seria responsável pela diagonal secundária. Condição de vitória por partida: Vence a partida quem tiver a maior quantidade de números primos em sua respectiva diagonal. OBS: O resultado final será de acordo com o acúmulo de vitórias a cada rodada.",
+    "format_input": "Primeiro será informada a quantidade P (1 <= P <= 100) de partidas. Para cada partida P virá um inteiro N (1 <= N <= 100) que corresponde a dimensão da matriz NxN e, após isso, a matriz correspondente a rodada.",
+    "format_output": "Para cada partida imprima a seguinte string: Caso haja um vencedor: \"Partida P: Tio keke acumulou X pontos Tio fabio acumulou Y pontos Vencedor da partida atual: S\". Onde: P é a partida correspondente, X é a quantidade de números primos do Tio keke e Y é a quantidade de números primos de Tio fabio, e S é uma string que corresponde ao vencedor da partida. Caso haja empate em determinada partida, você deverá imprimir: \"Partida P: Tio keke acumulou X pontos Tio fabio acumulou Y pontos Houve um empate\". OBS: Sempre ao final de cada partida imprima uma quebra de linha a mais. E ao final de todas as partidas, deverá ser impresso: Caso haja vencedor: \"Resultado final do campeonato: S venceu o torneio com V vitorias\". Onde: S é o nome do respectivo vencedor e V a quantidade de partidas vencidas por S. Caso haja empate: \"Resultado final do campeonato: Empate\".",
+    "topics": [
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

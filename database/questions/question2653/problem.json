@@ -1,0 +1,10 @@
+{
+    "title": "Intervalo de não-primos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que receba como entrada um número natural n (n > 0) e exiba os números não-primos que estão no intervalo fechado [ 1..n ].",
+    "format_input": "Um número natural n (n > 0).",
+    "format_output": "Os números não-primos no intervalo [ 1..n ], separados entre si por um espaço.",
+    "topics": [
+        "repetição"
+    ]
+}

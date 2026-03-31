@@ -1,0 +1,14 @@
+{
+    "title": "Matriz Minada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O explorador Tarek, famoso por mapear ruínas antigas, encontrou um pergaminho mostrando um campo cheio de armadilhas escondidas. O mapa é representado por uma matriz onde: \"*\" indica uma mina explosiva \".\" indica um terreno seguro (por enquanto!) Para atravessar as ruínas com segurança, Tarek precisa transformar esse mapa em outro mais detalhado, que mostra quantas minas existem ao redor de cada posição segura — exatamente como nos antigos mapas de campo minado. Sua missão é ajudá-lo escrevendo um programa em C que: Leia duas dimensões N e M Leia uma matriz N × M contendo \"*\" e \".\" Gere uma nova matriz onde: As minas continuam sendo \"*\" Cada \".\" é substituído pela quantidade de minas nos 8 vizinhos (acima, abaixo, esquerda, direita e diagonais) Assim, Tarek saberá exatamente por onde pode pisar sem virar poeira.",
+    "format_input": "Dois inteiros N e M Uma matriz formada por \"*\" e \".\"",
+    "format_output": "A matriz resultante, com números de 0 a 8 indicando minas próximas, ou \"*\" onde houver mina.",
+    "topics": [
+        "acumulador",
+        "busca completa",
+        "repetição",
+        "array bidimensional",
+        "busca"
+    ]
+}

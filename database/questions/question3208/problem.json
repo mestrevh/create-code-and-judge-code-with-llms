@@ -1,0 +1,10 @@
+{
+    "title": "Cálculo do IMC",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa para calcular o IMC (índice de massa corporal). Seu programa deve ler a altura (em metros) e o peso (em kg) de uma pessoa. O programa deve exibir o IMC arredondado em duas casas decimais, e em outra linha exibir um status dependendo do valor do IMC. Para arredondar em duas casas decimais, utilize a função round(imc, 2), onde imc é a variável que armazena o valor do IMC. Para calcular o IMC, utilize a seguinte fórmula: peso/(altura * altura)",
+    "format_input": "Leia os seguintes números: -A altura da pessoa em metros (ponto flutuante) -O peso da pessoa em kg (ponto flutuante)",
+    "format_output": "-Um número decimal (float) representando o IMC da pessoa. -Uma string (das 7 possibilidades a seguir) representando o status da pessoa: Muito abaixo do peso, Abaixo do peso, Peso normal, Acima do peso, Obesidade grau I, Obesidade grau II, Obesidade grau III",
+    "topics": [
+        "lógica matemática"
+    ]
+}

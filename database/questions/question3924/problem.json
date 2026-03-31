@@ -1,0 +1,15 @@
+{
+    "title": "Bonxai foi para forca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bonxai foi para forca e precisa da sua ajuda para tentar tirá-lo de la. Para tirá-lo de la, você precisa participar de um joguinho parecido com um jogo da forca padrão, entretanto, este está mais para um jogo da forca \"matemático\". Você irá receber uma palavra arbitrária da qual você deve somar cada caractere (Valor ASCII) resultando no valor total dessa palavra. Após isso, seu código deverá ler suas entradas e somá-las a fim de chegar ao mesmo valor da palavra. Porém, obviamente não pode ser tão simples assim, afinal, Bonxai cometeu crimes gravíssimos que não devem ser comentados, e o Carrasco aplicou mais algumas regras ao jogo: Se a soma da palavra for múltiplo de 3 primos diferentes: O valor da palavra é multiplicado por 3. Entretanto, se a soma for múltipla de 17: Bonxai não escapará da forca, pois tanto o Carrasco quanto Bonxai não gostam do número 17. Você tem apenas 6 tentativas e, se a soma equivalente aos seus chutes passarem do valor da palavra, a forca é acionada.",
+    "format_input": "Uma palavra, composta de quaisquer caracteres, exceto \"\\n\" e o espaço, seguida dos chutes feitos pelo jogador. A entrada acaba depois de 6 tentativa ou se a soma dos chutes passar do valor da palavra. OBS: Caso o valor da palavra seja múltiplo de 17, não haverá mais entradas (Até pq o programa vai fechar depois ).",
+    "format_output": "Caso o número seja múltiplo de 17: \"Agora estou Putin, Bonxai!\" Caso acabem suas tentativas: \"Bonxai foi de base.\" Caso você passe do valor da palavra: \"Agora voce passou dos limites!\" Caso você acerte os chutes, ou seja, a soma dos seus chute foi igual ao valor da palavra: \"Parabueins! Voce ajudou Bonxai a escapar.\" OBS: As saídas devem ser avaliadas nesta ordem e só pode haver uma delas. OBS2: Vale lembrar que, mesmo com as tentativas zeradas, caso você tenha acertado o valor da palavra, Bonxai será salvo. OBS3: Todas as saídas são seguidas de uma quebra de linha.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "ciclos",
+        "repetição",
+        "caractere",
+        "números primos"
+    ]
+}

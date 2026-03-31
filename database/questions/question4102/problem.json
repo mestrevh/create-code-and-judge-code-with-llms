@@ -1,0 +1,12 @@
+{
+    "title": "questão - 02322022162772",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Um certo professor gosta de fazer levantamento das notas de sua disciplina. Ele sempre faz tabelas, gráficos, estatísticas para saber qual o rendimento da turma, entre outros levantamentos, baseados sempre nas notas dos alunos. Para facilitar o trabalho desse professor, você foi escalado para desenvolver um programa que: Leia uma sequência de notas (na mesma linha) qualquer. Para que os dados tenham respeitabilidade, só aceite entradas de no mínimo 5 notas. Após a leitura, emita um relatório informando: A lista de notas digitadas. Quais pontuações foram feitas (notas exclusivas). Quantas vezes cada pontuação foi repetida na leitura inicial Qual a nota que mais se repetiu e qual o percentual que isso representa. Informe o % com 1 casa decimal.",
+    "format_input": "Uma lista de notas, espera-se que, no mínimo 5.",
+    "format_output": "Um relatório com as informações solicitadas: A lista de notas digitadas. Quais pontuações foram feitas (notas exclusivas). Quantas vezes cada pontuação foi repetida na leitura inicial Qual a nota que mais se repetiu e qual o percentual que isso representa. Informe o % com 1 casa decimal.",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "repetição"
+    ]
+}

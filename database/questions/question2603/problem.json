@@ -1,0 +1,11 @@
+{
+    "title": "L4Q3 - Runeterra World",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Jubileu, que está estudando para se tornar um Cientista da computação, depois de várias horas estudando, foi aproveitar que havia conseguido entrar no Beta do recém lançado MMORPG Runeterra World. Durante sua exploração pelo mapa a procura de uma Dungeon introdutória, foi abordado por um Yordle que lhe ofereceu a opção de pegar um atalho para a Dungeon que procurava, mas como parecia suspeito, ele resolveu criar um programa que analisava o mapa e via se o atalho tinha saída ou não. O programa, dado uma matriz MxN(M e N >= 2), que possui um E que é a entrada do Atalho, um S que é a saída, um ou vários * que representam o caminho para travessia e vários # que são as paredes, ele deve procurar um caminho até o fim do atalho ou verificar se não existe um caminho até o fim do atalho. Para tal, você deve verificar, a partir da sua posição atual, as posições acima, a direita, abaixo e a esquerda, nessa ordem, sem voltar atrás. Você sempre irá começar pela entrada.",
+    "format_input": "Um inteiro M que representa a quantidade de linhas da matriz M Um inteiro N que representa a quantidade de colunas da matriz N Uma matriz A de tamanho M x N A",
+    "format_output": "Se caso você encontrar a saída: Esse Yordle é confiável, vamos por esse atalho. Caso não haja saída: Não tem saída, deve ser a LeBlanc tentando me enganar, melhor dar o fora daqui.",
+    "topics": [
+        "simulação de jogos",
+        "array bidimensional"
+    ]
+}

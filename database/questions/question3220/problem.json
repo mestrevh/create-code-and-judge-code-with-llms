@@ -1,0 +1,12 @@
+{
+    "title": "Inverta os dígitos de um inteiro de 5 dígitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Inverta os digitos de um numero inteiro de 5 digitos.",
+    "format_input": "12345",
+    "format_output": "54321",
+    "topics": [
+        "estrutura de dados",
+        "lógica matemática",
+        "alocação dinâmica"
+    ]
+}

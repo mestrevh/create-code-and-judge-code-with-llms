@@ -1,0 +1,10 @@
+{
+    "title": "Celsius para Fahrenheit",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um algoritmo para ler uma temperatura dada na escala Celsius (C) e exibir o equivalente em Fahrenheit (F). Dica: C/5 = (F-32)/9",
+    "format_input": "Valor da temperatura na escala Celsius (número inteiro).",
+    "format_output": "Valor da temperatura em Fahrenheit com uma casa decimai.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

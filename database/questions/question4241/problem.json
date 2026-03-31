@@ -1,0 +1,11 @@
+{
+    "title": "Oficina do Miguelito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Migueito é dono de uma oficina mecânica especializada em carros de luxo. Como Miguelito é um grande entusiata desses veículos, ele gostaria muito de descobrir quais veículos de sua oficina são os melhores. Para isso, ele contratou você, estudante de Computação Eletrônica da UFPE para desenvolver um programa que informe quais os melhores carros da oficina de Miguelito. Cada automóvel possui 3 características principais: motor, suspensão e turbo. Cada característica receberá uma nota de 0 a 10. O desempenho do carro será obtido pela média ponderada entre a nota desses atributos. Segue a tabela com pesos de cada característica: Motor: Peso 5 Suspensão: Peso 2 Turbo: Peso 3",
+    "format_input": "Seu programa irá receber um número n representando a quantidade de carros que Miguelito deseja analisar. Logo em seguida, você receberá o nome do modelo e a nota de cada atributo dada por Miguelito para esses n carros.",
+    "format_output": "Ao final, seu programa deverá apresentar como saída o modelo dos carros que obtiveram seu desempenho acima ou igual à média aritmética geral na ordem em que foram inseridos.",
+    "topics": [
+        "array",
+        "estruturas"
+    ]
+}

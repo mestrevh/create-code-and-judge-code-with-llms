@@ -1,0 +1,10 @@
+{
+    "title": "Melhor número",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para receber um número do usuário e verificar se este número é o melhor ou não. O melhor número é aquele cuja soma de fatorial dos dígitos é igual ao número original. Exemplo do fatorial de 3! = 3 * 2 * 1 = 6 Exemplo do fatorial de 4! = 4 * 3 * 2 * 1 = 24 Logo, se a entrada do seu programa for igual a 145, o processamento deverá ser feito da seguinte forma: 1! + 4! + 5! = 145 Resolvendo essa expressão temos ... 1 + 24 + 120 = 145",
+    "format_input": "A entrada contém 1 valor inteiro n, onde n deverá estar no intervalo de 1 até 100.000",
+    "format_output": "Imprima apenas a resposta em forma textual, “melhor numero” em caso afirmativo e “nao”, caso contrário.",
+    "topics": [
+        "ciclos"
+    ]
+}

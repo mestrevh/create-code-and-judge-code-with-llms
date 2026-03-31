@@ -1,0 +1,11 @@
+{
+    "title": "L3Q10 - Procurando os preguiçosos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mestre Bimba estava muito irritado com o rendimento dos outros tripulantes em suas partidas. Ele queria que você fizesse um relatório das quantidades de tarefas realizadas pelos tripulantes, e para facilitar a sua visualização ele pede à você que imprima esse relatório em ordem crescente(de menos tarefas para mais tarefas). Ele também informou que caso o número de tarefas fosse igual, o critério seria a ordem lexicográfica dos nomes(ordem do dicionário). Ele garantiu que todos os nomes estariam em minúsculo e proibiu que você usasse conceitos que ele não sabia ainda por ex: Dicionários, Tuplas, Listas multidimensionais e Funções lambda, uma vez que queria entender o código.",
+    "format_input": "Relatório das tarefas realizadas pelos tripulantes T Número natural que indica quantidade de tripulantes. Seguida por T linhas: N1 Q1 Sendo N uma string que representa o nome do tripulante e Q é um inteiro que representa a quantidade de tarefas realizadas dele. N2 Q2 . . . NT QT Última linha que representa o último tripulante.",
+    "format_output": "Imprima a lista de tripulantes de acordo com a ordem crescente de tarefas realizadas, e em caso de quantidades iguais, considerar ordem lexicográfica(do dicionário). Seguem T linhas: N1 Q1 Onde N é uma string que representa o nome do jogador que fez menos tarefas, e Q é um inteiro que representa sua quantidade de tarefas. N2 Q2 . . . NT QT Onde N é uma string que representa o nome do jogador que fez mais tarefas, e Q é um inteiro que representa sua quantidade de tarefas.",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

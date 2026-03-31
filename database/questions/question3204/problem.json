@@ -1,0 +1,10 @@
+{
+    "title": "[C3] LAB - 12",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A padaria Hotpão vende uma quantidade de pães franceses e uma quantidade de broas a cada dia. Cada pãozinho custa R$ 0,45 e a broa custa R$ 2,25. Ao final do dia, o dono quer saber quanto arrecadou com a venda dos pães e broas (juntos), e quanto deve guardar numa conta de poupança (15% do total arrecadado). Você foi contratado para fazer os cálculos para o dono. Com base nestes fatos, faça um programa para ler as quantidades de pães e de broas, e depois calcular os dados solicitados. Lembrem de arredondar os valores para duas casas decimais. Não imprima nada na entrada/saída além dos valores pedidos.",
+    "format_input": "Quantidade de pães Quantidade de broas",
+    "format_output": "Arrecadação total Quanto guardar na poupança",
+    "topics": [
+        "estruturas"
+    ]
+}

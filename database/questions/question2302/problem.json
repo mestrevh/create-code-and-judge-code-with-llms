@@ -1,0 +1,10 @@
+{
+    "title": "A ladra de jóias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma ladra percebeu que seu dinheiro está acabando. Enquanto ela caminhava, pensando numa forma de recuperar sua fortuna, ela passou por uma joalheria. O dono da loja era um suspeito de cometer pequenos furtos, como cortar arbustos e roubar pães velhos. Ela odeia pessoas que cortam arbustos, então ela decidiu roubar a loja para vingar-se e ganhar dinheiro. A loja tem n jóias, enfileiradas, uma após a outra. Cada jóia i pode ser vendida no mercado negro por um valor v_i. Ela quer roubar o máximo possível, mas se ela roubar tudo, o dono da loja vai perceber, então se ela roubar a i-ésima jóia, ela não pode roubar as jóias (i - 1), (i - 2), (i + 1) e (i + 2). Usando a melhor estratégia possível, calcule a quantidade máxima de dinheiro que a ladra pode obter.",
+    "format_input": "A primeira linha da entrada terá um inteiro n (1 <= n <= 10^6), representando a quantidade de jóias na loja. Na próxima linha terão n inteiros, representando o valor v_i (1 <= v_i <= 10^3) da i-ésima jóia.",
+    "format_output": "Imprima a quantidade máxima de dinheiro que a ladra pode obter.",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

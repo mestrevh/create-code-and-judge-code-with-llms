@@ -1,0 +1,10 @@
+{
+    "title": "Quadrado perfeito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para verificar se um inteiro dado é um quadrado perfeito, exibindo, nos casos afirmativos, a mensagem \"sim\" e, nos casos negativos, a mensagem \"não\". Atente para a escrita de cada resposta. O sistema exigirá que as respostas sejam dadas exatamente como descrito no enunciado.",
+    "format_input": "O programa deve receber apenas um número como entrada.",
+    "format_output": "O programa deve escrever \"sim\" caso a resposta seja positiva e \"não\" caso a resposta seja negativa.",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

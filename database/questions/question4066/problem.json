@@ -1,0 +1,11 @@
+{
+    "title": "Média Móvel de 7 Períodos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcule a média móvel de 7 períodos, conforme várias publicações utilizaram para reportar os casos de covid-19. Seu programa deve calcular e imprimir um número determinado (N) de médias móveis de 7 períodos (MM7). Por exemplo, para calcular a MM7 referente ao período de 1 a 7 contido na tabela abaixo, somam-se os valores 10, 20, 30, 35, 35, 40, 40, totalizando 210. Em seguida, divide-se este valor por 7 (número de períodos) para obter a Média Móvel de 7 períodos, que no caso é 30.00.",
+    "format_input": "A primeira linha indica quantas médias móveis se deseja calcular (N). Após a primeira linha, seguirão N linhas, contendo valores inteiros separados entre si por um hífen. Considere que exatamente 7 valores serão fornecidos, já que com menos que isso não é possível calcular a Média Móvel de 7 períodos.",
+    "format_output": "O programa deve imprimir todas as N Médias Móveis de 7 períodos, considerando a entrada de dados fornecida, com 2 casas decimais e separadas entre si por uma quebra de linha. Importante: Não é permitido utilizar a funções predefinidas para somar os valores em listas, a exemplo da função sum de Python.",
+    "topics": [
+        "entrada formatada",
+        "repetição"
+    ]
+}

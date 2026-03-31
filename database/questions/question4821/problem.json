@@ -1,0 +1,10 @@
+{
+    "title": "O Jardim das Combinações",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No reino de Floria, existe um grande jardim mágico com n tipos diferentes de flores, numeradas de 1 a n. A jardineira real deseja plantar k flores diferentes em um canteiro especial, mas quer testar todas as combinações possíveis antes de decidir qual arranjo usar. Sua missão é escrever um programa que gere todas as combinações possíveis de flores que podem ser escolhidas, sem repetições e em ordem crescente, para que a jardineira possa avaliar cada arranjo. Use backtracking para resolver o problema.",
+    "format_input": "Dois inteiros n e k, representando: n: o número total de tipos de flores disponíveis. k: o número de flores que devem compor o arranjo.",
+    "format_output": "Liste todas as combinações possíveis de flores, cada uma em uma linha, com os números separados por espaço.",
+    "topics": [
+        "backtracking"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Notação Científica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A GEMA está selecionando pessoas para participar do grupo de extensão e você tem interesse de participar. A forma que o grupo entrou para selecionar os integrantes é resolver um conjunto de desafios. Assim, o desafio da Notação científica, consiste dado um número flutuante informar a ordem de grandeza deste número.",
+    "format_input": "A primeira linha tem um número flutuante X. 1 <= X <= 10^10",
+    "format_output": "Uma linha com um inteiro informando a ordem de grandeza do número X com uma quebra de linha.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

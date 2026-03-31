@@ -1,0 +1,10 @@
+{
+    "title": "[C3] LAB - 5",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba três números quaisquer e apresente: a) a soma dos quadrados dos três números b) o quadrado da soma dos três números. Não imprima nada na entrada/saída",
+    "format_input": "Primeiro número Segundo número Terceiro número",
+    "format_output": "Soma dos quadrados dos três números Quadrado da soma dos três números.",
+    "topics": [
+        "estruturas"
+    ]
+}

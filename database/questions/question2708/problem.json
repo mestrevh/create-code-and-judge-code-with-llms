@@ -1,0 +1,12 @@
+{
+    "title": "Prejudicando o adversário",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você e seu amigo adoram jogos! Vocês usam uma matriz para armazenar a situação atual do jogo. Você tem percebido que está ficando para trás em relação ao seu amigo e resolveu alterar (nada ético, por sinal) a matriz para dificultar a vida do seu amigo. Para isso, você precisa de um programa para executar sua ideia que é trocar as linhas pelas colunas da matriz, e toda vez que encontrar um número negativo, multiplicar por dois. Como entrada, deve ser lido um número inteiro para representar a ordem da matriz e depois os valores contidos em cada linha da matriz.",
+    "format_input": "a ordem da matriz (inteiro n); matriz quadrada de inteiros de ordem n",
+    "format_output": "A matriz resultante das alterações realizadas onde cada elemento de uma linha deve estar separado por um espaço em branco.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

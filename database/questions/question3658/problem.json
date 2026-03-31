@@ -1,0 +1,11 @@
+{
+    "title": "Calculando cesta básica",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Uma ONG vai receber uma grande doação em dinheiro para a compra de cestas básicas, porém quem vai fazer a doação solicitou que a cesta básica fosse completa (contendo alimentos e materiais de higiene/limpeza), também solicitou que ficasse claro quanto custaria cada cesta por pessoa. Após alguns estudos e cálculos a ONG chegou a uma lista com 27 produtos que eles consideraram básicos para uma pessoa usar durante 1 mês. Faça uma aplicação que recebe uma lista com a quantidade de cada item (separado por virgulas) e o valor da doação em reais (apenas números) e retorne o valor da cesta e quantas cestas podem ser compradas com o valor informado. Se a quantidade for 0 o produto não deve ser considerado.",
+    "format_input": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 10000",
+    "format_output": "O valor da cesta básica ficou em: R$95.08 Com o valor doado pode ser comprada 105 cestas básicas",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

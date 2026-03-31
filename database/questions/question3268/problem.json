@@ -1,0 +1,10 @@
+{
+    "title": "[AC5.4] - Media de notas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desenvolva um programa que receba um número n de notas e a seguir as leia e depois calcule a média entre elas. (usem round(media, 1) para exibir a media)",
+    "format_input": "n (número de notas) n linhas, contendo uma nota por linha",
+    "format_output": "média aritmética das notas (usando round(media, 1))",
+    "topics": [
+        "repetição"
+    ]
+}

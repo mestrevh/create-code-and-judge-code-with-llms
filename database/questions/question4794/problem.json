@@ -1,0 +1,11 @@
+{
+    "title": "Corrida de Sorvetes da Sanrio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um dia ensolarado, Hello Kitty e seus amigos decidiram fazer uma competição diferenciada: quem consegue comer mais sorvetes em menos tempo. Badtz-maru e Keroppi se sentaram lado a lado, cada um com uma pilha infinita de sorvetes, e o desafio era bem simples: eles comeriam sorvetes sem parar durante um determinado tempo e o vencedor seria quem terminasse com mais sorvetes devorados. Cada sorvete leva exatamente o mesmo tempo para ser comido, e eles comem a um ritmo constante. Acontece que os dois ficaram tão ocupados aproveitando o sorvete que nem pararam pra contar quantos comeram. Então, para que Hello Kitty possa coroar um vencedor, ela decidiu que quem vai calcular a pontuação de cada um é você! Mas não é só isso: como alguém que adora organização, Hello Kitty exigiu que o cálculo fosse feito usando uma função especial que retornasse o número de sorvetes comidos por cada um; \"Assim fica mais elegante e fácil de usar nas próximas competições\", ela disse.",
+    "format_input": "Tempo total B que Badtz-Maru ficou comendo. (int) Tempo total K que Keroppi ficou comendo. (int) Tempo T necessário para comer 1 sorvete. (int) TODOS OS TEMPOS SÃO DADOS EM MINUTOS e OS VALORES FORNECIDOS PERMITIRÃO SEMPRE UM CÁLCULO EXATO (sem sobras de tempo).",
+    "format_output": "As frases \"Badtz-Maru comeu X sorvetes.\" e \"Keroppi comeu Y sorvetes.\", onde X e Y são as quantidades de sorvetes que cada um conseguiu comer.",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

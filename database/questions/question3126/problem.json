@@ -1,0 +1,10 @@
+{
+    "title": "Distância entre duas coordenadas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que calcula a distância dAB entre dois pontos A = (xA, yA) e B = (xB, yB) no espaço bidimensional.",
+    "format_input": "Leia 4 números decimais (floats), cada um representando um valor de coordenada.",
+    "format_output": "Um número decimal (float) com a distância entre os pontos A e B.",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Pamonha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em Catolé do Rocha, Maria das Graças come pamonha especialmente durante o São João. Mas ela tem uma relação de amor e ódio com a pamonha. Em um dia ela ama comer pamonha, mas no dia seguinte odeia comer pamonha, e assim sucessivamente. Por exemplo, no dia n=1, o sentimento dela é: ‘eu amo comer pamonha’. No dia n=2, o sentimento dela é: ‘eu odeio comer pamonha’. No dia n=3, o sentimento dela é: ‘eu amo comer pamonha’, e assim por diante. A sua tarefa é identificar o sentimento de Maria das Graças pela pamonha no dia n.",
+    "format_input": "Cada caso de teste contém um número inteiro indicando o dia n (1 ≤ n ≤ 10 elevado a 6).",
+    "format_output": "Para cada caso de teste, imprima o sentimento de Maria das Graças sobre comer pamonha.",
+    "topics": [
+        "decisão"
+    ]
+}

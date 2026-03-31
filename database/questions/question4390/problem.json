@@ -1,0 +1,10 @@
+{
+    "title": "Intervalo de números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você precisa ler dois números inteiro e mostrar em sequencia os números que estão entre eles.",
+    "format_input": "A entrada contém dois números inteiros N1 e N2.",
+    "format_output": "Seu programa deve imprimir todos os números entre N1 e N2 incluindo N1 e N2.",
+    "topics": [
+        "ciclos"
+    ]
+}

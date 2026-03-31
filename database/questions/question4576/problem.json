@@ -1,0 +1,11 @@
+{
+    "title": "Temperatura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Maria das Graças vive em Catolé do Rocha, que é uma cidade que varia muito a temperatura. Antes de ir para o trabalho, ela checa a previsão do tempo para saber se vai levar ou não roupa de frio para o trabalho. Letícia deu um celular novo para ajudar a avó que indica a previsão do tempo. Entretanto, o celular está configurado para apresentar a temperatura na escala Kelvin. Mas Maria das Graças só entende a temperatura na escala Celsius. A fórmula que relaciona as duas temperaturas é: TK = TC + 273, onde TK é a temperatura na escala Kelvin, e TC é a temperatura na escala Celsius. Por exemplo, se a temperatura no celular for 273 Kelvin, a temperatura é 0 Celsius (Tc = Tk – 273 = 273 – 273 = 0 Celsius). Um outro exemplo é o celular indicar a temperatura de 293 Kelvin. Nesse caso, a temperatura é 20 Celsius (Tc = Tk – 273= 293 – 273 = 20 Celsius). A sua tarefa é implementar um algoritmo que dada uma temperatura na escala Kelvin, converta para a escala Celsius.",
+    "format_input": "Cada caso de teste contém um número inteiro indicando a temperatura em Kelvin (0 ≤ n ≤ 999).",
+    "format_output": "Para cada caso de teste, imprima a temperatura na escala Celsius.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

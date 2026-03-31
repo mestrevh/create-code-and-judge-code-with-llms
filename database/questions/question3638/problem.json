@@ -1,0 +1,12 @@
+{
+    "title": "Substituindo palavras no texto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Juvenal Budega é o dono de uma importante e bilionária empresa, a muito famosa Algebrando, que desenvolve editores de texto eficientes e, o mais importante, com licença de baixo preço, ideal para estudantes. Ele, como um bom patrocinador de novos talentos, está em busca de algum estudante que conheça o básico de C e possa o ajudar a implementar uma útil ferramenta do seu mais novo projeto: um editor de texto que possibilite ao usuário substituir palavras de um texto. Talvez você ache isso simples e de pouca relevância, mas, para aqueles que escrevem longos textos, isso poderá trazer um benefício sem tamanho, realizando, em poucos segundos, o que demoraria horas ou até mesmo dias.",
+    "format_input": "O programa receberá um texto com, no máximo, 500 caracteres e duas palavras com, no máximo, 20 caracteres cada uma, as quais serão, respectivamente, a que se deseja substituir e a substituta.",
+    "format_output": "O programa deverá imprimir o texto com as atualizações realizadas.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

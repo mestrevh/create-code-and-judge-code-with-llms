@@ -1,0 +1,10 @@
+{
+    "title": "Maior de Idade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Descrever se, dada a idade como entrada se o usuário é maior ou menor de idade.",
+    "format_input": "Idade",
+    "format_output": "Maior ou menor de idade.",
+    "topics": [
+        "decisão"
+    ]
+}

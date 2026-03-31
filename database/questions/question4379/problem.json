@@ -1,0 +1,12 @@
+{
+    "title": "Montando uma Ficha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Yuto adora jogar RPG com seus amigos, mas tem muito dificuldade na criação de ficha de personagem. No Dungeon and Dragons, que é o seu sistema favorito, há 6 atributos: Força, Destreza, Constituição, Sabedoria, Inteligência e Carisma, e seus valores são determinados pela seguinte regra: São jogados 4d6 (4 dados de 6 faces) e os três maiores valores são somados. Yuto está desesperado, hoje a noite terá a primeira sessão e ele ainda não determinou os atributos de seu guerreiro, Kayn. Você, como um bom amigo e programador, decidiu ajudá-lo criando um programa para determinar esses atributos. Dado os dados rolados por ele e a ordem dos atributes, retorne os valores de cada atributo.",
+    "format_input": "A entrada consiste em 6 linhas com 4 números, e uma outra linha com a \"ordem de prioridade\" dos atributos, ou seja, 2 1 5 3 6 4 significa que: For receberá a 2º maior soma Des receberá a 1º maior soma Con receberá a 5º maior soma Sab receberá a 3º maior soma Int receberá a 6º maior soma Car receberá a 4º maior soma",
+    "format_output": "A saída consiste no nome do atributo com seu respectivo valor. For = Des = Con = Sab = Int = Car =",
+    "topics": [
+        "array",
+        "decisão",
+        "recursão"
+    ]
+}

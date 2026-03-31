@@ -1,0 +1,11 @@
+{
+    "title": "Positivo, Negativo ou Nulo Octave - T1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ler um número e informar se ele é positivo, negativo ou nulo.",
+    "format_input": "O usuario deve digitar um número",
+    "format_output": "O programa deve informar se o numero digitado é positivo, negativo ou nulo, imprimindo na tela os valores abaixo: Digite um numero: (impresso pela funcao input) O numero e positivo/negativo/nulo",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

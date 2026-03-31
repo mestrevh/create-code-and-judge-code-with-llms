@@ -1,0 +1,11 @@
+{
+    "title": "Valor máximo (implementado em lista)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[DESCRIÇÃO] Crie um programa que tenha apenas uma função, além do programa principal, que receberá como parâmetros uma sequência de inteiros L e um natural n (n>=1), que representam uma sequência L de tamanho n. A função deverá devolver um valor inteiro indicando o maior valor de L. [ENTRADA] (a) a primeira linha da entrada contém o tamanho n da sequência; (b) as próximas n linhas representam os itens que compõem a sequência. [SAÍDA] (a) o programa principal deverá imprimir um valor inteiro indicando o valor máximo de L de acordo com o valor devolvido pela função. Note que existe a possibilidade de uma sequência apenas com valores negativos. [RESTRIÇÕES] (a) a leitura da entrada deve ser feita no programa principal; (b) a sequência deve ser armazenada em uma lista; (c) não usar append(), a lista deve ser criada já com o tamanho necessário; (d) não usar variáveis globais; (e) a função deve devolver um inteiro.",
+    "format_input": "8 65 99 88 44 23 10 9 4",
+    "format_output": "99",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}

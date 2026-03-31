@@ -1,0 +1,12 @@
+{
+    "title": "Hipotenusa Octave - T2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcule o valor da hipotenusa de acordo com o teorema de pitágoras.",
+    "format_input": "O usuário deve digitar os valores dos dois catetos. (o programa deve verificar se os valores são positivos)",
+    "format_output": "O programa deve exibir o valor da hipotenusa do triangulo, imprimindo na tela os valores abaixo: Digite o valor do primeiro cateto: (impresso pela funcao input) Digite o valor do segundo cateto: (impresso pela funcao input) O triangulo cujos catetos sao n e n tem hipotenusa n. ou Valor de cateto invalido.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática"
+    ]
+}

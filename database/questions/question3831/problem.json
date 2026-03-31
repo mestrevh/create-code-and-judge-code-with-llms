@@ -1,0 +1,11 @@
+{
+    "title": "Lista - Achar posição do maior/menor item",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia uma lista de no mínimo 3 números distintos e apresente na tela qual o maior elemento da lista e sua posição, como também qual o menor elemento da lista e sua posição. A lista deve terminar quando for digitado o valor 0. O valor zero não entra na lista. O programa não deve permitir ser digitado menos que 3 elementos na lista, nem deve permitir ser números repetidos.",
+    "format_input": "Digitar uma lista de números inteiros e ser adicionado em uma lista. Caso seja digitado um número repetido, o programa deve informar que o número já existe. Quando desejar terminar a lista, deve ser digitado 0, mas o 0 não deve entrar na lista.",
+    "format_output": "Ao final do programa deve ser impresso: A lista; O maior elemento e a sua posição; O menor elemento e a sua posição. De acordo com os valores digitados, deve-se mandar mensagem para o usuário: 1. Se digitar o 0 antes do terceiro elemento: você deve digitar pelo menos 3 números antes do 0. 2. Se digitar um número que já exista na lista: numero já existe na lista, tente outro.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

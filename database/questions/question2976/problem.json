@@ -1,0 +1,10 @@
+{
+    "title": "Entidade e as Pedras de Granizo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma teoria interessante da matemática é a que existe um gerador de sequência que sempre termina em 1, se o início for um inteiro positivo. Embora isto nunca foi provado, essa conjectura é conhecida como Collatz Conjecture. Dado um inteiro, n >= 1, essa conjectura diz que a sequência gerada pela função h(n) vai terminar em 1. Essa função é definida recursivamente da seguinte forma: Se n == 1, a sequência é composta apenas pelo número 1. Se n é par, a sequência é composta por n seguido pela sequência de h(n / 2). Se n é ímpar, a sequência é composta por n seguido pela sequência de h(3*n + 1). Exemplo: h(5) = (5, 16, 8, 4, 2, 1), h(7) = (7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1). Essa sequência é conhecida como hailstone sequence, por causa da sua natureza de subir e descer como um pedra de granizo antes de cair na Terra. A Entidade é apaixonada por essa sequência, e gostaria muito de saber qual a soma da sequência h(n), dado um n.",
+    "format_input": "A única linha da entrada terá um inteiro n. 0 < n <= 2^32 - 1",
+    "format_output": "A saída deverá ter um inteiro com a soma dos valores da sequência de h(n).",
+    "topics": [
+        "repetição"
+    ]
+}

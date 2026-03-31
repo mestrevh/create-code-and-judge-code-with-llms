@@ -1,0 +1,12 @@
+{
+    "title": "Insertion sort passo a passo",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Crie um programa que recebe um array de tamanho variável e ordena o array de forma crescente. A ordenação deve ser feita ultilizando um insertion sort. Além disso, sempre que um número for movido para sua posição o programa deve exibir o array.",
+    "format_input": "A entrada é um array numérico.",
+    "format_output": "A saída deve exibir o array original e a cada linha mostrar a atualização dos valores do array quando um número for movido de sua posição original para sua nova posição.",
+    "topics": [
+        "estrutura de dados",
+        "array",
+        "ordenação"
+    ]
+}

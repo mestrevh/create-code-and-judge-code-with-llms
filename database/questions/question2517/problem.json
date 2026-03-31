@@ -1,0 +1,10 @@
+{
+    "title": "Torres",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade ganhou vários blocos de encaixar, mas infelizmente, os blocos só se encaixam quando têm exatamente o mesmo tamanho. Ela quer encaixar os blocos de forma que consiga a menor quantidade de torres possível. Faça um programa que preveja o tamanho da maior torre e a quantidade de torres no final.",
+    "format_input": "A primeira linha da entrada terá um inteiro n (1 <= n <= 1000) indicando a quantidade de blocos a Entidade ganhou. Na linha seguinte, terão n inteiros h_i (1 <= h_i <= 1000), representando o tamanho do i-ésima bloco.",
+    "format_output": "A saída deverá conter dois inteiros t e k, representando respecitvamente o tamanho da maior torre e quantas torres ficaram no final.",
+    "topics": [
+        "array"
+    ]
+}

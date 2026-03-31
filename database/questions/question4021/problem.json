@@ -1,0 +1,11 @@
+{
+    "title": "Uma Ajudinha Aqui!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "É o seguinte: Preciso de um código em C que receba 10 pares de entrada, dos quais serão sempre um número seguido de um caractere. Deixe-me explicar melhor. Eu preciso colocar, em ordem decrescente, as notas de 10 alunos de P1, das turmas de Engenharia e Ciência da Computação. Para isso, vou te passar 10 pares de valores, onde o primeiro valor de cada par será a nota de um aluno, de 0 a 10, e o segundo valor será um caractere para representar o curso do aluno em questão, sendo \"e\" para Engenharia e \"c\" para Ciência. Lido todos os valores, printe-os em duas linhas, sendo na primeira linha: \"EC: (notas, em ordem decrescente e com espaços entre elas, dos alunos de Engenharia)\" na segunda linha: \"CC: (notas, em ordem decrescente e com espaços entre elas, dos alunos de Ciência)\" Se você conseguir - antes do término da prova =D - te dou 5 pontos. OBS.: Assuma que em todos os casos testes, terão pelo menos uma nota de ambos os cursos (Engenharia e Ciência), ou seja, nunca vão ter notas APENAS de um curso.",
+    "format_input": "Você receberá 10 valores reais (entre 0 e 10) TODOS seguidos de um caractere (\"e\" ou \"c\").",
+    "format_output": "Deve ser impresso duas linhas, referentes as notas dos alunos de Engenharia e Ciência da Computação em ordem decrescente(da maior para a menor), respectivamente, com duas casas decimais. Não esqueçam da quebra de linha(\\n) no final de cada linha!!!",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

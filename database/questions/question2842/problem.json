@@ -1,0 +1,11 @@
+{
+    "title": "Divisivel por três",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcule a quantidade de divisores de um número (incluindo 1 e o próprio número) que são divisíveis por 3.",
+    "format_input": "O usuário deve digitar um inteiro N.",
+    "format_output": "O programa deve exibir um inteiro R, sendo R o número de divisores de N que são divisiveis por 3. Caso não tenha nenhum, imprima \"O numero nao possui divisores multiplos de 3\" sem as aspas. O programa deve imprimir Digite um numero inteiro: Quantidade de divisores divisiveis por 3: n / O numero nao possui divisores multiplos de 3",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

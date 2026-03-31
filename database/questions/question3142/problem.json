@@ -1,0 +1,10 @@
+{
+    "title": "Adivinha aí, Toph!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Toph Beifong, também conhecida como Toph, é uma mestre de Dobra de Terra, uma das mais poderosas de seu tempo, e a descobridora da Dobra de Metal. Cega desde o nascimento, Toph foi tratada constantemente de maneira condescendente por causa de sua inabilidade, particularmente por seus pais ultra protetores, Lao e Poppy Beifong. Ao descobrir Toupeiras-Texugo, animais que dominavam a Terra e que também eram cegos, ela aprendeu a usar a dobra de terra como uma extensão de seus sentidos. Isso lhe deu a habilidade de \"ver\" todas as vibrações que passam pelo chão. Um belo dia o sokka, brincalhão como sempre, propôs uma brincadeira para testar as habilidades “visuais” de Toph. A brincadeira se chama “Adivinha aí, Toph!” e funciona da seguinte forma: A cada rodada, uma pessoa é colocada silenciosamente na frente da Toph e o objetivo da Toph é usar a sua “visão por dobra de terra” para descobrir quem é a pessoa. A Toph, sendo muito habilidosa, consegue descobrir 3 características das pessoas na frente dela, são elas: 1 - Peso 2 - Altura 3 - Batimentos por minuto",
+    "format_input": "A entrada consiste em 3 linhas: P A B P - Peso - string A - Altura - string B - Batimentos por minuto - string OBS: As possibilidades para cada medida encontram-se na tabela abaixo:",
+    "format_output": "A saída deve consistir em uma linha: Ja sei, voce eh NOME! Onde NOME é o nome da personagem, caso a Toph consiga adivinhar quem é através das medidas que ela conseguiu. OU Quem eh voce, novato? caso ela não consiga adivinhar.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

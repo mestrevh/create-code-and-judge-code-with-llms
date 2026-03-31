@@ -1,0 +1,12 @@
+{
+    "title": "Soma das Recursivas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que execute as seguintes proposições e utilizando o conceito de recursividade de funções:",
+    "format_input": "Receba 3 números inteiros",
+    "format_output": "A soma do fatorial de cada um dos números",
+    "topics": [
+        "ciclos",
+        "função",
+        "recursão"
+    ]
+}

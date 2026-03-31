@@ -1,0 +1,10 @@
+{
+    "title": "Pilha Antigo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pilha é uma estrutura linear na qual as inserções (empilhar) e as exclusões (desempilhar) ocorrem no topo da pilha. Implemente uma estrutura abstrata de dados para pilhas, que realize as operações de empilhar e desempilhar os elementos. Em seguida, faça um programa que receba como entrada a informação de qual operação deve ser realizada na estrutura de dados e então execute a operação. As operação permitidas são: Empilhar ou Desempilhar. Após a realização de cada operação o programa deve imprimir todos os elementos presentes na pilha, separados por espaço e em uma mesma linha. As operações de Empilhar recebem um parâmetro adicional que é o valor do novo elemento. A última linha da entrada contém o seguinte texto Fim",
+    "format_input": "Cada linha da entrada tem um dos seguintes comandos: Empilhar, Desempilhar, Fim. O comando Empilhar recebe um parâmetro adicional que é o valor do elemento que será empilhado. O comando Desempilhar apenas remove o elemento que está no topo da pilha. O comando Fim indica o final dos comandos de entrada. Exemplo: Empilhar 4, Empilhar 5, Empilhar 2, Desempilhar, Empilhar 8, Empilhar 12, Fim",
+    "format_output": "Para cada comando de entrada Empilhar ou Desempilhar deve ser impresso todos os elementos presentes na pilha. Exemplo: 4, 5 4, 2 5 4, 5 4, 8 5 4, 12 8 5 4. A primeira linha foi impressa após o primeiro comando (Empilhar 4), enquanto que a segunda linha foi impressa após o segundo comando (Empilhar 5), e assim por diante.",
+    "topics": [
+        "pilha"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Senha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma senha de acesso a um programa deve ser definida por 4 algarismos, todos diferentes de zero. Elabore um programa que recebe um valor inteiro e verifica se este número pode ou não ser uma senha.",
+    "format_input": "9999",
+    "format_output": "Pode",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

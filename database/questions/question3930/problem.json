@@ -1,0 +1,10 @@
+{
+    "title": "Marquinhos e a goteira",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um dia chuvoso, ideal para uma bela procrastinação, marquinhos evitava pensar em todas as listas de exercício que tinha para fazer quando viu uma goteira no teto de seu quarto. A goteira ficava perto da parede e marquinhos logo percebeu que o rumo da água mudaria ao encontrar as diversas prateleiras que haviam na parede. Fascinado pelo que viu marquinhos quer agora criar um programa que replique o mesmo comportamento como no exemplo abaixo: Obs 1: '.' são espaços vazios na parede, '#' são as prateleiras e 'O' as gotas d'água. Obs 2: Não há prateleiras posicionadas na diagonal de outras nem exatamente uma linha acima ou abaixo.",
+    "format_input": "Dois inteiros m,n (m,n >= 3) separados por espaço que indicam respectivamente a altura e largura da matriz que representa a parede. m linhas com n char cada que representam a parede.",
+    "format_output": "A matriz atualizada com o trajeto tomado pela água.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

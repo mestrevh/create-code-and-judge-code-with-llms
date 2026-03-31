@@ -1,0 +1,13 @@
+{
+    "title": "Telefone no display de 7 segmentos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Essa questão foi baseada no problema 3528, de Jeferson Fernando. Um display de 7 segmentos é um dispositivo barato que pode ser utilizado para exibir números e algumas letras. Como o nome já sugere, ele possui 7 elementos luminosos diferentes e a combinação deles, ligados ou desligados, é o que torna isso possível (ver foto abaixo). Considerando que você receberá uma matriz que cada coluna corresponde ao array de 7 posições, onde cada uma armazena o estado de um segmento do display como 1 ou 0 (ligado ou desligado), sua missão é exibir qual número de telefone o display está exibindo (este exemplo não exibirá letras). Fonte da imagem: https://pt.wikipedia.org/wiki/Ficheiro:7_segment_display_labeled.svg Array[0] = A; Array[1] = B; Array[2] = C; . . . Array[6] = G.",
+    "format_input": "Você receberá uma matriz de 9 colunas e 7 linhas, onde cada coluna corresponde a um dígito do número de telefone.",
+    "format_output": "Você deve imprimir o número de telefone exibido no display, formatado com 5 números hífen e os outros 4 números.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

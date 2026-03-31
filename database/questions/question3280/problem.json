@@ -1,0 +1,10 @@
+{
+    "title": "Aumento de salário",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa que receba o salário de um funcionário, calcule e mostre o novo salário, sabendo-se que este sofreu um aumento de 7,5%.",
+    "format_input": "100",
+    "format_output": "107.5",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

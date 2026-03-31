@@ -1,0 +1,10 @@
+{
+    "title": "Esfiha do Zildão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Era um belo dia comum na Área 2... O sol estava escondido atrás das nuvens, não se ouvia pássaros cantando e o único som presente era o das lágrimas escorrendo sobre as provas de Cálculo 1... Enquanto isso, o grande Zilde estava em sua Zilcasa em mais uma tarefa: Codar um Árbitro automático para uma competição que iria acontecer em 3 semanas! Como todos nós sabemos, Zilde é um cara bem legal e que é viciado em programar com seus famosos dedos rápidos e as vezes ele esquece de comer. Sabendo disso, seu companheiro de equipe, chamado Led (famosissimo por trazer ideias que iluminam todo o espaço), resolveu pedir uma grande quantidade de Esfihas lá do PJbibs, uma cópia barata daquela empresa que faz comida árabe. Mas, eis que surge um problema... Os programadores da PJbibs estavam cansados e deixaram o aplicativo sem calcular o valor final com os descontos de uma promoção. Como todos nós sabemos, a zilfome é gigantesca e com Led do lado, ela fica maior ainda. Ajude Zildão e Led a comprarem suas esfihas com o pouco dinheiro que eles possuem. E lembre: Se for pago com cartão de crédito -> 5% de desconto Se for pago com dinheiro ou cartão de débito -> 15% de desconto",
+    "format_input": "Uma linha contendo um inteiro A com o quanto Zilde pode gastar. Em seguida, uma linha contendo um inteiro B com o quanto Led pode gastar. Terceira linha contendo um inteiro C informando a forma de pagamento (0-> cartão de crédito e 1-> dinheiro ou débito) e um inteiro D com a quantidade de esfihas desejadas. Quarta linha contendo um inteiro E informando o preço da esfiha. A B C D E",
+    "format_output": "Caso o preço total do pedido seja menor ou igual ao valor que Led e Zilde podem gastar juntos, você deve imprimir \"Faz um Ifood!\" (sem aspas). Caso o preço total do pedido seja maior que valor que Led e Zilde podem gastar juntos, você deve imprimir \"pede menos que as esfihas nao vao acabar hoje!\" (sem aspas).",
+    "topics": [
+        "decisão"
+    ]
+}

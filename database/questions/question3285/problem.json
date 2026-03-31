@@ -1,0 +1,12 @@
+{
+    "title": "IMC",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcula o IMC (Índice Massa Corporal) de uma pessoa. O programa recebe 2 números racionais, peso e altura, e usa a fórmula IMC = peso/altura² para calcular a saída. O programa deve imprimir como saída o valor do IMC com precisão de uma casa decimal.",
+    "format_input": "2 números racionais, sendo o primeiro o peso e o segundo a altura.",
+    "format_output": "O resultado da aplicação da fórmula do IMC ( peso/altura² ) com precisão de uma casa decimal.",
+    "topics": [
+        "ponto flutuante",
+        "entrada formatada",
+        "lógica matemática"
+    ]
+}

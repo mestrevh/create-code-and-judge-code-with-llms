@@ -1,0 +1,13 @@
+{
+    "title": "Percorrendo e Somando",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gabriel Barbosa é um aluno de matemática bem dedicado e estava pesquisando sobre problemas matemáticos na internet para resolver. Ele encontrou um bastante interessante o qual envolvia calcular a soma de um percurso na matriz de acordo com uma sequência de comandos. O problema consiste em, dado uma matriz NxM, Gabriel deve começar de uma posição (X, Y) dada na questão e a partir dela percorrer a matriz de acordo com os comandos dados e realizar a soma de todos os valores que o Gabriel obter durante esse percurso. Os comandos podem ser: Código 0 -> Diagonal inferior à esquerda Código 1 -> Diagonal superior à esquerda Código 2 -> Diagonal inferior à direita Código 3 -> Diagonal superior à direita Entretanto, Gabriel estava com muita preguiça nesse dia e pediu para que você resolvesse esse problema para ele! OBS1: A soma total deverá começar com o valor 0 e não deverá somar com o valor do ponto inicial. Você deverá somar a partir das movimentações e somando os valores que encontrar durante o percurso. OBS2: Caso algum comando mande você ir para fora da matriz, você não deverá fazer o movimento e irá somar o valor que está na posição atual.",
+    "format_input": "A entrada é composta por dois inteiros N e M representando o tamanho da matriz. Após isso, virão NxM inteiros que formarão a matriz. Depois de ler a matriz por completo, terão dois inteiros representando a posição inicial na matriz (X e Y iniciais). Logo após isso, virá um inteiro K representando a quantidade de comandos para percorrer a matriz. Com isso, você terá de ler K linhas que serão os comandos descritos na descrição.",
+    "format_output": "A saída deverá ser o resultado da soma após ter percorrido a matriz de acordo com as regras definidas. Após a soma, você deverá colocar uma quebra de linha.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

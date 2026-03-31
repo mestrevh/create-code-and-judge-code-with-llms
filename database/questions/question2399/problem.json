@@ -1,0 +1,11 @@
+{
+    "title": "Tempo de Jogo com Minutos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia a hora inicial, minuto inicial, hora final e minuto final de um jogo. A seguir calcule a duração do jogo.Observação: O jogo tem duração mínima de um (1) minuto e duração máxima de 24 horas.",
+    "format_input": "Quatro números inteiros separados por um espaço em branco representando, respectivamente, a hora e minuto de início do jogo e hora e minuto de fim do jogo.",
+    "format_output": "Mostre a seguinte mensagem: “O JOGO DUROU HH HORA(S) E MM MINUTO(S)” , aonde HH é o número de horas e MM o número de minutos de duração do jogo.",
+    "topics": [
+        "entrada formatada",
+        "formatação"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A votação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Depois que os alunos tiveram contato com vários tipos de animes, o professor decidiu fazer uma votação para decidir qual anime (Pokémon ou Cavaleiros do Zodíaco) é mais popular entre os alunos. Essa votação foi feita em diferentes turmas de alunos. Sua missão é fazer um programa que ajude a computar todos os votos e decidir qual dos dois animes foi o mais votado. Existem apenas dois tipos de votos, o \"c\" que significa que a pessoa votou em Cavaleiros do Zodíaco e \"p\" que significa que a pessoa votou em Pokémon. OBS: Nunca haverá empate, sempre um dos dois vai ser o mais votado",
+    "format_input": "A primeira linha é composta por um inteiro T que representa quantidade de turmas que participaram desta votação. T Em seguida, são informadas T linhas no seguinte formato: N V Onde N é um inteiro que representa a quantidade de pessoas de uma turma que participaram da votação e V é uma String que representa os votos das pessoas nessa turma. Exemplo: 4 ppcp Nesse caso, 4 pessoas de uma determinada turma participaram desta votação, com 3 pessoas votando em Pokémon e apenas uma votando em Cavaleiros do Zodíaco.",
+    "format_output": "Ao final, deve ser exibida a seguinte frase: \"X ganhou e teve o total de Q votos\" Onde, X representa qual dos dois tiveram mais votos: \"Cavaleiros do zodiaco\" ou \"Pokemon\" E Q a quantidade de votos que o mais votado obteve.",
+    "topics": [
+        "repetição"
+    ]
+}

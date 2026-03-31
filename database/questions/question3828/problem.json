@@ -1,0 +1,14 @@
+{
+    "title": "Bingo em família",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma família muito querida por todos nós, formada por Ambrosinha, Ambrosio e Ambrosio Junior, decidiu ir à um churrasco. Lá, eles tiveram a ideia de passar mais tempo juntos participando de um joguinho. Mas, somente eles três quiseram jogar, pois o resto da galera estava comendo. O jogo se chama bingo, um amigo da família se despôs a sortear as bolas. Teu trabalho é fazer um programa que analise quem ganhou esse jogo. Cada jogador fica com uma cartela 3x3, que tem números aleatórios de 1 a 100. O jogo consiste em sortear bolas até algum jogador zerar a cartela, ou seja, até todos os seus números da cartela serem sorteados. Ganha quem conseguir zerar a cartela primeiro. Boa Sorte :)",
+    "format_input": "Na primeira linha serão dados os 15 números inteiros que foram sorteados. O nome da \"Ambrosinha\" seguido da sua cartela 3X3. O nome do \"Ambrosio\" seguido da sua cartela 3x3. O nome do \"Ambrosio Junior\" seguido da sua cartela 3x3. Nessa ordem.",
+    "format_output": "A saída consiste no nome do ganhador(a) em caixa alta, exemplo: \"AMBROSINHA GANHOU!!\" E logo depois, informações de quantas cartas foram sorteadas na cartela de cada um, até o ganhador ser encontrado. Exemplo: \"Ambrosinha: x numeros sorteados Ambrosio: x numeros sorteados Ambrosio Junior: x numeros sorteados\" NO FINAL DE CADA LINHA EXISTE UMA QUEBRA DE LINHA!",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição",
+        "array bidimensional",
+        "string"
+    ]
+}

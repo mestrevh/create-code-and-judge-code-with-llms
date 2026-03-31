@@ -1,0 +1,11 @@
+{
+    "title": "Brincando com os LEDs",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Doug está aprendendo a programar um pequeno painel com LEDs, e para isso resolveu brincar com as cores nas colunas do painel. Quando ele quiser ver a cor verde(G) ele acenderá os LEDs pares da coluna escolhida, quando escolher a cor azul(B) ele acenderá os LEDs ímpares, e quando escolher a cor vermelha(R) ele acenderá todos os LEDs da coluna. Ele decidiu numerar os LEDs para facilitar a visualização como no exemplo abaixo: Painel de LED com tamanho 5x5. No exemplo foi feito o teste de acender os LEDs na cor vermelha na coluna 3, LEDs na cor azul na coluna 1 e os LEDs na cor verde na coluna 5. Obs: um LED nunca poderá ficar sozinho numa linha.",
+    "format_input": "Você receberá o tamanho do display dado por dois inteiros L1 x L2: L1 = quantidade de colunas. L2 = quantidade de linhas. E em seguida o número correspondente a coluna e a cor a ser exibida na mesma: R - vermelho G - verde B - azul Este teste será executado 3 vezes para o mesmo painel.",
+    "format_output": "Você deverá imprimir os números dos LEDs que serão acesos na respectiva coluna, pulando uma linha a cada teste.",
+    "topics": [
+        "decisão",
+        "recursão"
+    ]
+}

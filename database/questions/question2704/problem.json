@@ -1,0 +1,10 @@
+{
+    "title": "Q2 - P1B",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Uma pesquisa realizada no COLTEC em turmas da disciplina Introdução à Programação calculou a chance de aprovação a partir do cumprimento de atividades no The Huxley. Constatou-se que a chance aprovação cresce conforme as atividades colocadas para os alunos semanalmente são cumpridas pelos mesmos. As faixas são apresentadas na tabela abaixo: %de atividades cumpridas | Chance de aprovação | Conceito. [0,20) | 4,40% | Pessimo. [20,40) | 31,65% | Ruim. [40,60) | 56,82% | Bom. [60,80) | 80,00% | Muito Bom. [80,100] | 94,00% | Excelente. Escreva um programa no qual o usuário digite a quantidade de problemas passados pelo professor e a quantidade de questões resolvidas por um aluno. Em seguida, o programa deve calcular e imprimir na tela o percentual de atividades cumpridas juntamente com a chance de aprovação do aluno, conforme regras da tabela acima. Além disso, deve atribuir um conceito variando de Pessimo a Excelente, conforme consta na tabela acima.",
+    "format_input": "O usuário deve digitar a quantidade de problemas passados pelo professor e a quantidade de questões resolvidas por um aluno.",
+    "format_output": "O programa deve exibir o percentual de atividades cumpridas com 1 casa decimal, a chance de aprovação do aluno com 2 casas decimais e o seu respectivo conceito, imprimindo na tela os valores abaixo: Digite a quantidade de problemas passados pelo professor: Digite a quantidade de problemas resolvidos pelo aluno: Percentual de problemas resolvidos: n.n % Chance de aprovacao: n.nn % Conceito: PESSIMO/RUIM/BOM/MUITO BOM/EXCELENTE",
+    "topics": [
+        "lógica matemática"
+    ]
+}

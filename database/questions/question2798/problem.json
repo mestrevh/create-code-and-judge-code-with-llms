@@ -1,0 +1,10 @@
+{
+    "title": "Divisores I",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ler um número inteiro N e calcular todos os seus divisores.",
+    "format_input": "A entrada contém um valor inteiro N (1 ≤ N ≤ 100000).",
+    "format_output": "Escreva todos os divisores positivos de N, um valor por linha.",
+    "topics": [
+        "repetição"
+    ]
+}

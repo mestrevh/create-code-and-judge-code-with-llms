@@ -1,0 +1,11 @@
+{
+    "title": "O campeonato de Kinho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kinho é um exímio jogador de Call of Duty Mobile e está organizando um campeonato entre amigos. Para isso, Kinhobandido(nickname de Kinho no jogo), contou com a ajuda de Day para fazer uma lista com os nicks de todos os amigos que vão participar. O que ele não imaginava é que Eliaslol, seu arqui-inimigo, iria sabotar a lista trocando algumas letras dos nicks por números aleatórios. Seu dever como programador é salvar o campeonato de kinho! A entrada consiste primeiramente de um número(que não possui dígitos repetidos) e uma string, os dois fazem correspondência da seguinte forma: 1234567 abcdefgh: (1,a), (2,b), (3,c)... 5435678 abcdefgh: (5,a), (4,b), (3,c)... Em seguida, é fornecido um número N de casos testes e então N strings, cada uma simbolizando um dos nicks sabotados por Eliaslol, seu trabalho é decifrar os nicks usando a correspondência do número e da string.",
+    "format_input": "um número D e uma string S, um numero N de casos teste e N strings.",
+    "format_output": "as N strings traduzidas, seguidas de \\n",
+    "topics": [
+        "substrings",
+        "string"
+    ]
+}

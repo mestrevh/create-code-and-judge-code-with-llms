@@ -1,0 +1,11 @@
+{
+    "title": "Q9 - Fora, repetidos! v2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "À essa altura, você já deve ter feito a \"Q4 - Fora, repetidos!\", certo? Senão, tudo bem! Sua missão é receber n números que serão alocados para uma primeira lista; n2 números alocados para a segunda lista e, por fim, mostrar: 1 - Uma lista apenas com os números que se repetiram, sem repetidos (por exemplo, se 6 se repetiu 3 vezes, essa lista de repetidos terá apenas um 6.) 2 - Uma lista com todos os números sem números repetidos 3 - Uma lista com todos os números, excetos os números repetidos que estão na lista de repetidos. (Por exemplo, se há 6 na lista com todos os números e há 6 na lista de repetidos, essa lista não deve conter o número 6.)",
+    "format_input": "Primeiramente, um número n que representa a quantidade de elementos da primeira lista. Segundamente, serão lidos n números que serão alocados para a primeira lista. Terceiramente, n2 números que representa a quantidade de elementos da segunda lista. Quartamente, serão lidos n2 números que serão alocados para a segunda lista.",
+    "format_output": "3 LIstas: Uma apenas com os números que se repetiram Uma com todos os números, incluindo os repetidos, mas sem repetí-los Uma com todos os números, exceto os que estão na lista de repetidos.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

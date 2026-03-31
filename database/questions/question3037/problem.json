@@ -1,0 +1,11 @@
+{
+    "title": "Série de Mineirin",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Mineirin é estudante de computação, após assistir uma aula de discreta ficou apaixonado pelo estudo de teoria dos números, e decidiu criar uma sequência finita de números, com a seguinte característica: Dados os 2 primeiros números dessa sequência, a partir deles é possível descobrir os próximos números, em que: O termo A[i] ( 3 <= i <= N), sendo N o tamanho da série, é definido por: Se A[i - 1] for primo, o elemento A[i] será o dobro do elemento A[i - 1]; Senão se A[i - 1] e A[i - 2] forem primos entre si, o elemento A[i] será o dobro da soma de A[i - 1] e A[i - 2] decrescido de 3; Caso nenhuma das condições anteriores seja satisfeita, A[i] será o sucessor do elemento A[i - 1].",
+    "format_input": "Virão três inteiros T, N, M. Sendo T a quantidade requerida de elementos da série, N e M os dois primeiros elementos da série, respectivamente.",
+    "format_output": "Uma sequência de inteiros separados por espaço, representando a série de Mineirin.",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

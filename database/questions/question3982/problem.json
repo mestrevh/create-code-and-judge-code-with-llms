@@ -1,0 +1,15 @@
+{
+    "title": "Vestibular",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um determinado concurso as provas são objetivas, de múltipla escolha, onde cada questão possui cinco alternativas e somente uma correta. Para agilizar a correção e publicação do resultado a coordenação do concurso solicitou à equipe de TI um programa para permitir a leitura do gabarito, o nome de cada um dos participantes e a resposta em cada uma das dez questões da prova; Após a leitura destas informações, o programa deve imprimir, usando a formatação do exemplo: a) A lista de participantes e suas respectivas notas em ordem alfabética; b) A maior pontuação, a menor pontuação e o(s) nome(s) do(s) respectivo(s) participante(s); c) O percentual de participantes com mais da metade das questões certas. Observações: • Cada questão possui 5 opções de resposta (1, 2, 3, 4 e 5)",
+    "format_input": "Primeira linha contendo 10 inteiros representando o gabarito da prova; Demais linhas contendo o nome do participante e mais 10 inteiros representando as respostas do participante; A última linha contendo * informa o fim da leitura dos dados.",
+    "format_output": "Relação dos participantes em ordem alfabética com suas respectivas notas; Relação dos participantes com a melhores pontuação; Relação dos participantes com a pior pontuação; Percentual de participantes com mais da metade de questões certas (precisão de 1 casa decimal).",
+    "topics": [
+        "decisão",
+        "repetição",
+        "função",
+        "ordenação",
+        "dicionário",
+        "formatação"
+    ]
+}

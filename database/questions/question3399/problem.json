@@ -1,0 +1,10 @@
+{
+    "title": "Raiz de uma equação do primeiro grau",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia os coeficientes de uma equação do primeiro grau (A*x + B = 0), calcule a sua raiz e escreva a raiz calculada. Considere que A é diferente de zero.",
+    "format_input": "Consiste dos números reais A e B, que correspondem aos coeficientes da equação do primeiro grau (A*x + B = 0).",
+    "format_output": "Consiste de um número real formatado com duas casas decimais, representando a raiz calculada.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

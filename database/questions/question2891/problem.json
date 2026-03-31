@@ -1,0 +1,11 @@
+{
+    "title": "Lucro do comerciante",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um comerciante deseja fazer o levantamento do lucro de 10 mercadorias que ele comercializa. Para isto, mandou digitar uma linha para cada mercadoria com o preço de compra e preço de venda das mesmas. Fazer um programa que: Calcule quantas mercadorias proporcionam lucro menor ou igual a 10%; Calcule quantas mercadorias proporcionam lucro maior que 10% e menor que 20%; Calcule quantas mercadorias proporcionam lucro maior ou igual a 20%; Calcule o total de compra das mercadorias; Calcule o total de venda das mercadorias; De acordo com o total de compra e total de venda, calcule o percentual de lucro total (com 4 casas decimais).",
+    "format_input": "A entrada consiste do preço de compra e preço de venda das 10 mercadorias.",
+    "format_output": "O programa deve exibir os valores pedidos da descrição, mostrado na tela: Digite o preco de compra: Digite o preco de venda: Mercadorias com lucro menor ou igual a 10%: n Mercadorias com lucro maior que 10% e menor que 20%: n Mercadorias com lucro maior ou igual a 20%: Total de compra das mercadorias: R$ n Total de venda das mercadorias: R$ n Percentual de lucro total: n %",
+    "topics": [
+        "array",
+        "lógica matemática"
+    ]
+}

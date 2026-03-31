@@ -1,0 +1,12 @@
+{
+    "title": "Rede Celular",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá n pontos numa linha, representando a posição das cidades, e receberá m pontos numa linha, representando a posição das antenas. Todas as antenas funcionam da mesma forma: fornecem serviço de telefonia para todas as cidades localizadas a uma distância r dessa antena. Faça um programa que encontre o r mínimo que garante que todas as cidades tenham serviços telefonia através de pelo menos uma antena. Note que é possível as antenas funcionarem com r = 0, mas vai alcançar apenas as cidades com distância 0 da antena, ou seja, no mesmo ponto.",
+    "format_input": "A primeira linha da entrada terá dois inteiros n e m, representando o número de cidades e o número de antenas. A segunda linha terá n inteiros a_1, a_2, …, a_n, onde a_i é a posição da i-ésima cidade. A terceira linha terá m inteiros b_1, b_2, …, b_n, onde b_i é a posição da i-ésima antena. 1 <= n, m <= 10^5 -10^9 <= a_1 <= a_2 <= … <= a_n <= 10^9 -10^9 <= b_1 <= b_2 <= … <= b_m <= 10^9",
+    "format_output": "Imprima o menor r que garante a cobertura de todas as cidades.",
+    "topics": [
+        "Two Pointers Technique",
+        "maratona",
+        "busca binária"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Corte Diagonal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Quido e Hugo estão fazendo um bolo de chocolate. O ingrediente central do bolo é uma larga barra de chocolate, que está fora da embalagem na mesa da cozinha. A barra é uma tabela retangular de M x N blocos de chocolate. Todos os M x N blocos são retângulos de formato e tamanho idênticos. A barra de chocolate é de alta qualidade e os amigos querem comer parte dela, antes do resto ser usado no bolo. \"OK\", disse Quido, \"Vamos dividir a barra em dois pedaços triangulares cortando na diagonal do canto superior esquerdo ao canto inferior direito. Então, nós vamos comer todos os blocos que foram cortados exatamente ao meio, em pedaços com áreas idênticas. Você come uma metade e eu como a outro metade do bloco. Todos os outros blocos, ou seja, todos os blocos que ou não foram cortados ou foram cortados em partes de tamanhos diferentes, irão diretamente para o bolo. Obviamente, nós garantiremos que o corte seja perfeitamente preciso. Vamos ver quanto chocolate nós iremos comer!\"",
+    "format_input": "A entrada consiste de dois inteiros M e N, separados por um espaço, dados numa única linha. (onde 1 ≤ M, N ≤ 10^18). Os números M e N denotam o número de blocos em uma coluna e em uma linha, respectivamente, na barra de chocolate.",
+    "format_output": "Imprima o número de blocos da barra de chocolate que são cortados em exatamente dois pedaços de áreas iguais.",
+    "topics": [
+        "lógica matemática",
+        "maratona"
+    ]
+}

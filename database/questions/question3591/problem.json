@@ -1,0 +1,10 @@
+{
+    "title": "Vogal ou Consoante",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em C que receba uma letra do alfabeto e imprima uma mensagem indicando se ela é uma vogal ou uma consoante. Informar se a entrada não for nem vogal nem consoante.",
+    "format_input": "caractere X",
+    "format_output": "A letra X é uma vogal - se a entrada/variável X for uma vogal A letra X é uma consoante - se a entrada/variável X for uma consoante O caractere X nao eh nem consoante nem vogal - para os outros casos.",
+    "topics": [
+        "decisão"
+    ]
+}

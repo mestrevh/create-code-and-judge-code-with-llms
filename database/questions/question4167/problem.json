@@ -1,0 +1,12 @@
+{
+    "title": "Salário Hellístico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um belo dia no vilarejo Puro Hell, Safirovisque e Nati Natini Nia estavam avaliando aplicações para fazer no Banco Klebios, como sempre faziam ao trocar de emprego, Nati Natini Nia em toda sua vida e em todos seus trabalhos ganhou um salário que equivale a um terço do salário de Safirovisque, um acaso completamente infeliz na sua vida. No Banco Klebios há 3 tipos de aplicações: Poupança - rende 2% ao mês, CDB - rende 5% ao mês, Tesouro Direto - rende 7% ao mês. Safirovisque e Nati Natini Nia decidem investir seus salários integralmente e escolhem uma dessas três aplicações. Nati Natini Nia ficou curiosa em saber se havia a possibilidade de, algum dia, com essa aplicação, ultrapassar o valor aplicado por Safirovisque, além de verificar o mesmo ao longo dos diferentes trabalhos que teve na vida. Construa um programa que evidencia se o valor de Nati pode igualar ou ultrapassar o de Safirovisque, se sim, calcule e mostre a quantidade de meses necessários para que o valor pertencente a Nati iguale ou ultrapasse o valor pertencente a Safirovisque.",
+    "format_input": "Ler o salário que Safirovisque recebe, ler o rendimento da aplicação feita por Safirovisque, ler o rendimento da aplicação feita por Nati Natini Nia. OBS: Ler essas entradas até o Salário de Safirovisque ser igual a zero ('0').",
+    "format_output": "Caso a aplicação feita por Safirovisque seja menor que a aplicação feita por Nati, significa que há como Nati ultrapassar ou igualar em algum momento, calcule quantos meses são necessários para isso ocorrer e imprima: \"Serao %d meses para alcancar Safirovisque\\n\". Caso contrário imprima: \"Nesse emprego e nessa aplicacao voce nao conseguiu ultrapassar Safirovisque\\n\".",
+    "topics": [
+        "ponto flutuante",
+        "lógica matemática",
+        "repetição"
+    ]
+}

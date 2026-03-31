@@ -1,0 +1,10 @@
+{
+    "title": "Mais novo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que determine qual é a pessoa mais nova.",
+    "format_input": "Uma sequência de linhas terminadas por uma linha contendo a palavra ‘FIM’. Cada linha conterá a data de nascimento de uma pessoa, seguido pelo seu nome. A data de nascimento é dada por três inteiros separados por branco representando o dia, mês eano de nascimento, respectivamente.",
+    "format_output": "O nome da pessoa mais nova. Considere que só há uma pessoa mais nova.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

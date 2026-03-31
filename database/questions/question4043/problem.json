@@ -1,0 +1,13 @@
+{
+    "title": "Exponential Expansion",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ezequiel é aluno da Area II e está aprendendo que funções podem ser aproximadas por meio de séries como a série de Taylor. Ele deseja que seu amigo (você), crie um programa que o ajude a calcular o valor aproximado da função exponencial para um valor dado com um erro baixo. Como é visto nos cursos de Cálculo 3 e 4, a função exponencial e^x pode ser expressa por meio da expansão mostrada na imagem acima. Sua tarefa é seguir os passos de Ezequiel e criar um programa com duas funções RECURSIVAS que resolva seu problema.",
+    "format_input": "A entrada será o número x (do tipo double e não negativo), em que se quer calcular e^x.",
+    "format_output": "A saída será constituída por i (inteiro) linhas, que mostram o valor aproximado de e^x a cada iteração ex para x=1: e^1.0 com 0 iteracoes -> 1.00000 e^1.0 com 1 iteracoes -> 2.00000 e^1.0 com 2 iteracoes -> 2.50000 e^1.0 com 3 iteracoes -> 2.66667 e^1.0 com 4 iteracoes -> 2.70833 e^1.0 com 5 iteracoes -> 2.71667 e^1.0 com 6 iteracoes -> 2.71806 e^1.0 com 7 iteracoes -> 2.71825 Seguido de duas quebras de linha e a quantidade de iterações necessárias para que a diferença entre o valor real de e^x e sua aproximação, ou seja, o erro, apareça na quarta casa decimal (menor ou igual a 10^-4)",
+    "topics": [
+        "lógica matemática",
+        "repetição",
+        "função",
+        "recursão"
+    ]
+}

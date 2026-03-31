@@ -1,0 +1,12 @@
+{
+    "title": "O Melhor Banco de Dados",
+    "time_limit": "17 segundo(s)",
+    "descrition": "Um Banco de Dados é uma coleção de dados inter-relacionados, representando informações sobre um domínio específico, ou seja, sempre que for possível agrupar informações que se relacionam e tratam de um mesmo assunto, posso dizer que tenho um banco de dados. Bancos de Dados são conhecidos por armazenar informações de forma eficiente e, geralmente, pouco custosas. Na maioria das vezes, ele é disposto na forma de uma árvore binária. Dado uma série de informações para serem armazenadas em um banco, você deverá fornecer algumas informações sobre os arquivos dispostos no seu banco. Sua missão é fazer um banco de dados que possua o melhor tipo de busca possível das informações pedidas!",
+    "format_input": "A entrada consiste de algumas informações: 1. O número N de arquivos que serão armazenados no banco (1 <= N <= 40000); 2. Seguirão N linhas, cada uma contendo um inteiro K (1 <= K <= 256) que é uma chave identificadora do local em que se deseja armazenar a informação, um inteiro X (0 <= X <= 40000) que representará o id da informação a ser armazenada, um inteiro Z que representa o tamanho do nome da informação e uma string S (tamanho de S < 10) que representa o nome da informação que será guardada; 3. Após as N linhas, será fornecido um inteiro Y (Y <= N) que representa a quantidade de buscas a serem realizadas no banco de dados. 4. Seguirão Y linhas, cada uma com 4 inteiros: ki, que será a chave identificadora do grupo, xi que representará o grau de relevância da informação a ser armazenada, zi o tamanho do nome da informação si que é uma string, visando as buscas a serem feitas no banco. A busca será realizada no ki-ésimo grupo procurando-se pelo si-ésimo nome de informação.",
+    "format_output": "Para cada uma das yi buscas, deverá ser impresso na tela a string \"Busca de número i:\", onde i é o loop da busca que está sendo feita, seguido de todos os nós visitados na notação pré-ordem. Caso o nó não seja encontrado, deverá ser printado todos os nós, que foram visitados na busca e a string \"Elemento nao encontrado!\".",
+    "topics": [
+        "estrutura de dados",
+        "Árvore",
+        "requer solução eficiente"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Valor total conta de energia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A conta de energia elétrica de uma determinada cidade é composta por um valor que depende da quantidade de energia elétrica usada no mês e uma taxa de iluminação pública de 5% do valor pago pela energia. O preço de cada KWh depende da bandeira utilizada, que varia de acordo com a época do ano e do histórico de chuvas. No momento, a bandeira verde está sendo utilizada e o valor do KWh é de R$ 0,75. Diante do contexto, você deve desenvolver uma solução para ajudar o consumidor dessa cidade a saber quanto será o valor total de sua conta de energia a partir da informação do consumo em KWh, informando também o valor a ser pago pela taxa de iluminação pública.",
+    "format_input": "O valor do consumo da família (KWh).",
+    "format_output": "O valor a pagar pelo consumo. O valor a pagar pela taxa de iluminação. O valor total a pagar pela conta de energia. Observação: atente para os exemplos apresentados.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

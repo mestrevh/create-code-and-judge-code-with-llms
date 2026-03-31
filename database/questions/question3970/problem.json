@@ -1,0 +1,10 @@
+{
+    "title": "Números palíndromos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um número é palíndromo se a leitura de esquerda para direita é a mesma que a da direita para esquerda. Por exemplo, 2332 é palíndromo. No entanto, 1234 não é. Faça um programa que imprima todos os números palíndromos de 4 algarismos. Como de costume, números não começam com zero.",
+    "format_input": "Não há entrada.",
+    "format_output": "A sequência de todos os números palíndromos de 4 algarismos em ordem crescente, um número por linha.",
+    "topics": [
+        "repetição"
+    ]
+}

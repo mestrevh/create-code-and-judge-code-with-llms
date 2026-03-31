@@ -1,0 +1,10 @@
+{
+    "title": "Média, Mediana e Moda",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você vai receber uma lista com n inteiros e deverá retornar a média aritmética, a moda e a mediana dessa lista. Obs: Caso haja duas modas, informe aquela com o maior valor.",
+    "format_input": "Uma linha contendo um valor n, que representa a quantidade de itens na lista. Uma linha contendo os n inteiros.",
+    "format_output": "Uma linha com a média, a mediana e a moda, respectivamente, com duas casas decimais.",
+    "topics": [
+        "array"
+    ]
+}

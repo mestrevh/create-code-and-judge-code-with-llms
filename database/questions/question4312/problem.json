@@ -1,0 +1,12 @@
+{
+    "title": "Índice de plágio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O objetivo desta questão é receber dois textos em formato de string, e calcular o índice de plágio entre eles. O índice de plágio deve ser calculado da forma: (número de repetições únicas entre os textos / (soma do total de palavras de ambos os textos)) * 100 DICA: para ler os dois textos de forma apropriada, utilize o seguinte trecho de código. scanf(\"%[^\\n]%*c%[^\\n]%*c\", text1, text2);",
+    "format_input": "Duas strings, ambas com, no máximo, 50 palavras e 100 caracteres por palavra.",
+    "format_output": "O índice de plágio, com uma casa de precisão.",
+    "topics": [
+        "multiplas entradas",
+        "caractere",
+        "string"
+    ]
+}

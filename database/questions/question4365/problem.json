@@ -1,0 +1,11 @@
+{
+    "title": "Pedra, Papel, Tesoura, Lagarto, Spock!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ficou marcada para hoje a última sessão de RPG e todos combinaram de levar lanches. Yuri e Kaio ficaram de levar amendoins, porém ambos esqueceram de comprar e agora estavam discutindo sobre quem iria no Supermercado Bom Dia comprar os amendoins. Kaio então propôs que o embate fosse resolvido com um N partidas de \"Pedra, Papel, Tesoura, Lagarto, Spock\", que é uma variação do clássico Pedra Papel Tesoura. Nessa versão temos 5 elementos, que aqui serão representados por números assim como está representado na figura. Por exemplo, se o Kaio escolhe 3 e o Yuri escolhe 1, então Yuri ganha, pois na figura tem uma seta indo de 1 até 3. Depois de N rodadas, o vencedor da partida é o jogador que mais ganhou rodadas. Porém, como será jogada várias rodadas, eles pediram a você para criar um programa que computasse quem vai comprar os amendoins. OBSERVAÇÃO: 1- Não haverá empates. 2- Os jogadores não irão escolher as mesmas mão.",
+    "format_input": "A primeira linha da entrada contém um inteiro N, o número de rodadas na partida. Cada uma das N linhas seguintes contém dois inteiros Y e K, representando a mão que os jogadores Yuri e Kaio, respectivamente, jogaram em uma rodada.",
+    "format_output": "A saída deve conter o conter o nome de quem vai comprar os amendoim, ou seja, do perdedor! \"Kaio foi o perdedor.\" \"Yuri foi o perdedor.\"",
+    "topics": [
+        "decisão",
+        "recursão"
+    ]
+}

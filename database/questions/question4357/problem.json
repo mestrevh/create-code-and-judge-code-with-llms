@@ -1,0 +1,10 @@
+{
+    "title": "O Caminho da Roça",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Davi é um trabalhador da roça, cuja função é conduzir um rebanho de um local para o outro. Como ele trabalha sozinho, não consegue conduzir o rebanho e mudar as direções das porteiras ao mesmo tempo, mas percebeu que poderia mudar com antecedência as configurações das porteiras e preparar o percurso para o rebanho. Cada porteira pode estar nas direções \"E\", que significa virada para esquerda, ou na direção \"D\", que significa virada para direita. Considerando a figura acima há 4 porteiras, onde as porteiras 1, 2, 3 e 4, estão, respectivamente, nas seguintes direções: \"D\", \"D\", \"D\", \"E\". Assim, o rebanho será conduzido para \"Abrigo\". Seu objetivo é escrever um programa que, dada as direções que Davi deixou as porteiras 1, 2, 3 e 4, tal como na figura, determine para qual destino o rebanho irá seguir, de acordo com a figura.",
+    "format_input": "A entrada consiste em uma única linha contendo as direções (\"E\" ou \"D\") das porteiras 1, 2, 3 e 4 respectivamente.",
+    "format_output": "A saída consiste em uma única linha contendo o destino final do rebanho, de acordo com a figura. Obs. Os nomes são sem acentos.",
+    "topics": [
+        "decisão"
+    ]
+}

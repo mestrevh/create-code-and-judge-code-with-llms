@@ -1,0 +1,11 @@
+{
+    "title": "N-ésimo termo da Série de Fibonnaci",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que calcule o n-ésimo termo da série de fibonacci. Para mais informações: https://pt.wikipedia.org/wiki/Sequência_de_Fibonacci",
+    "format_input": "A entrada deve ser um número inteiro indicando o valor 'n' para cálculo do n-ésimo elemento da série de fibonacci. Exemplo: 5",
+    "format_output": "A saída deve ser o n-ésimo termo da série de fibonacci. Exemplo: 3",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

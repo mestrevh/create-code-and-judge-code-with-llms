@@ -1,0 +1,13 @@
+{
+    "title": "Tabuleiro Amigo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um tabuleiro, um jogador decidiu se movimentar para descobrir onde iria parar. No entanto, seu tabuleiro não deixava o jogador sair por suas bordas. Isto é, se um jogador tenta sair pela extremidade esquerda, ele aparece na extremidade direita, e vice versa (mesma lógica com as extremidades de cima e baixo). Desse modo, o jogador precisa de sua ajuda para saber em qual valor do tabuleiro ele vai parar após realizar seus movimentos! OBS: o jogador inicia na posição (0, 0) Será possível se movimentar apenas para cima, baixo, direita e esquerda. Direita: representado por 0; Baixo: representado por 1; Esquerda: representado por 2; Cima: representado por 3.",
+    "format_input": "Primeiro, serão dados os valores N e M, que são o número de linhas da matriz e o número de colunas da matriz (respectivamente). Em seguida, serão dados os valores da matriz. Então, será dado o número X de movimentos que serão feitos. Finalmente, serão dados os X movimentos. Os movimentos são os seguintes: 0: direita 1: para baixo 2: esquerda 3: para cima",
+    "format_output": "Deve-se printar o valor do elemento da matriz o qual o personagem chegou após executar os movimentos.",
+    "topics": [
+        "array",
+        "repetição",
+        "array bidimensional",
+        "array circular"
+    ]
+}

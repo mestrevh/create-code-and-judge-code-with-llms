@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Seleção - C",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que recebe dois números inteiros distintos e exibe o maior.",
+    "format_input": "Um número inteiro na primeira linha; um número inteiro na segunda linha.",
+    "format_output": "O maior dos números.",
+    "topics": [
+        "decisão"
+    ]
+}

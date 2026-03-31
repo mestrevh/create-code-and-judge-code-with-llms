@@ -1,0 +1,14 @@
+{
+    "title": "Novo Ranking da CBF",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Após o fracasso de diversos clubes da série B e até da série A se classificarem para as próximas fases da Copa do Brasil, a CBF, liderada pelo suposto flamenguista Marc de la Ondes, decidiu que iria mudar a forma com que os clubes brasileiros são ranqueados. Para isso, reuniram diversos dados relativos aos clubes: Nome do clube, Valor de mercado do elenco (em milhões), Quantidade de grandes jogadores, Quantidade de títulos, Tem o Neymar? e É o Flamengo de 2019? Tirando o nome, cada dado vai render uma pontuação. O valor de mercado será dado em pontos, cada grande jogador rende cem pontos, cada título vale dois mil pontos, se o time tiver o Neymar são mais dez mil pontos e, por fim, caso seja o Flamengo de 2019 serão vinte mil pontos. Marc de la Ondes precisa urgentemente que esse ranking esteja funcionando, então decidiu pedir para você fazer um algoritmo para determinar o ranking dos clubes a partir dos critérios ditos, antes que seja tarde demais e descubram seu plano para deixar o Flamengo de 2019 eternamente no topo.",
+    "format_input": "Primeiro será fornecido a quantidade de clubes que estarão envolvidos no ranking. Uma vez com essa informação, serão fornecidos os dados de cada clube, na seguinte ordem: Nome do clube -> String de até 15 caracteres; Valor de mercado do elenco -> Número de ponto flutuante; Quantidade de grandes jogadores -> Número inteiro; Quantidade de títulos -> Número inteiro; Tem o Neymar? -> String que pode ser \"sim\" ou \"nao\"; É o Flamengo de 2019? -> String que pode ser \"sim\" ou \"nao\".",
+    "format_output": "A saída será composta cada linha por um dos clubes e sua pontuação com até duas casas decimais, em ordem seguindo os critérios do ranking.",
+    "topics": [
+        "ponto flutuante",
+        "array",
+        "ciclos",
+        "string",
+        "estruturas"
+    ]
+}

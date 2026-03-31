@@ -1,0 +1,11 @@
+{
+    "title": "L4Q5 - Chega de Puzzles!!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você e sua companheira Lydia estão procurando itens se aventurando em uma dungeon na grande terra de Skyrim, depois de usar Lydia de escudo de corpo para matar alguns inimigos vocês avançam e se deparam com um puzzle impedindo que vocês continuem com a parte divertida da aventura. Como você quer muito continuar, vai tentar resolver esse enigma bastante misterioso. Aparentemente o problema consiste em rotacionar estruturas de pedra de forma que as faces fiquem na ordem correta para poderem prosseguir, como grande mago entendedor das artes misticas da programação, você decide desenvolver um programa que resolva esse e outros enigmas parecidos que podem aparecer futuramente para atrapalhar. Você representa todas as possíveis soluções em uma matriz NxM (N é o número de combinações possíveis de imagens na face das pedras e M o número de pedras a serem rotacionadas) e você com sua perspicácia computeira sabe que ao rotacionar essa matriz X vezes em 90º (Sentido Horário) a resposta do enigma estará sempre nos M primeiros elementos da linha X mod(N). Obs: Se por algum acaso o número de elementos na linha de resposta for menor que M deve-se imprimir todos os elementos da linha mais \"Qualquer\" nos elementos que restam para M.",
+    "format_input": ".A entrada consiste em: N Inteiro que representa o numero de soluções possíveis M Inteiro que representa o numero de pedras que podem ser giradas X Inteiro que representa o numero de vezes que se deve girar em 90° Matriz de Strings Matriz de tamanho NxM com as possíveis soluções a ser rotacionada Obs: Entrada Amigável.",
+    "format_output": ".A Saída consiste em: M primeiros elementos da Linha X mod(N) Obs: Se a linha X mod(N) tiver menos de M elementos deve-se imprimir \"Qualquer\" nos elementos restantes até M.",
+    "topics": [
+        "simulação de jogos",
+        "array bidimensional"
+    ]
+}

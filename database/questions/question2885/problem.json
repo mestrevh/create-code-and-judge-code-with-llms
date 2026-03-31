@@ -1,0 +1,12 @@
+{
+    "title": "Pastelaria da Ambrosina",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrosina virou empresária. Decidiu vender pastéis, empadas e kibes. O problema é que de uns tempos pra cá, os preços dos ingredientes se alteram bastante e isso reflete no custo do produto final. Logo ambrosina contratou você para escrever um programa em linguagem C para calcular automaticamente o custo de cada produto assim que o preço do ingrediente for alterado. Seguem os exemplos das tabelas que a Ambrosina fez.",
+    "format_input": "A entrada consiste de 4 linhas. Da linha 1 a 3, serão dados quatro números reais por linha, correspondendo a quantidade de ingredientes utilizados em cada produto. A sequência de ingredientes é sempre: ovo, farinha, açúcar e carne. E os produtos são na sequência: pastel, empada e kibe. A quarta linha consiste de quatro números reais correspondendo ao preço do ovo, farinha, açúcar e carne, respectivamente.",
+    "format_output": "O programa deve imprimir os custos dos 3 produtos (pastel, empada e kibe, respectivamente), com duas casas decimais. Cada produto deve ser impresso em uma linha. O programa deve imprimir os valores abaixo: Digite a quantidade de ingredientes em cada produto (ovo, farinha, acucar e carne): Digite o preco de cada ingrediente (ovo, farinha, acucar e carne): O custo do pastel e R$ n. O custo da empada e R$ n. O custo do kibe e R$ n.",
+    "topics": [
+        "array",
+        "decisão",
+        "array bidimensional"
+    ]
+}

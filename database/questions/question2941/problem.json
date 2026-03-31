@@ -1,0 +1,11 @@
+{
+    "title": "Maiores Sequências Crescentes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado uma matriz, você deverá informar qual o tamanho da maior sequência crescente daquela linha. OBS: Não você não poderá aplicar os conceitos de array/matriz circular para essa questão.",
+    "format_input": "A entrada é composta por dois números N e M que representam a quantidade de linhas e de colunas da matriz. Logo em seguida virá uma matriz N X M.",
+    "format_output": "A saída deverá informar o tamanho da maior sequência crescente de cada linha e no final deverá informar qual foi a maior sequência de todas.",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

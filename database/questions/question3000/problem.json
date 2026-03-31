@@ -1,0 +1,10 @@
+{
+    "title": "A Grande Amizade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Eleven gostaria de fazer uma pesquisa para descobrir quantos amigos ela tem com determinada idade. Para isso, ela vai coletar o nome e a idade de todos os seus amigos e, a partir dessa informação, verificar quais são os que têm uma idade específica. OBS: A resolução dessa questão deverá ser feita usando lista encadeada.",
+    "format_input": "Q onde Q é um número inteiro que representa a quantidade de amigos de Eleven. Logo em seguida, serão informadas Q linhas no seguinte formato: N I onde, N é o nome de um amigo(a) e I é a idade dele(a). S onde S é a idade de interesse para a pesquisa (quantos amigos têm a idade S?)",
+    "format_output": "Os nomes dos seus amigos que tem a idade que ela está procurando (S), separados por espaço: “Nome1 Nome2... NomeN” Caso não seja encontrado nenhum amigo com a idade que Eleven procura, deve ser informada a seguinte frase: \"Eleven nao tem amigos com essa idade.\"",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

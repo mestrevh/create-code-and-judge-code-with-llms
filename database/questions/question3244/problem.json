@@ -1,0 +1,10 @@
+{
+    "title": "[AC4.3] - Médias (com funções)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que recebe duas notas e calcula 3 médias por meio de funções (usem os mesmos nomes): media_a(n1, n2) -> calcula a média tradicional media_g(n1, n2) -> calcula a média geométrica [https://pt.wikipedia.org/wiki/Média_geométrica] media_h(n1, n2) -> calcula a média harmônica [https://pt.wikipedia.org/wiki/Média_harmônica] (Obs.: Na média harmônica, se qualquer um dos valores for 0, a média deve ser 0) As funções não devem receber input nem fazer nenhum print. Usem round(nota, 2) quando forem imprimir a saída",
+    "format_input": "nota 1 nota 2",
+    "format_output": "média normal média geométrica média harmônica",
+    "topics": [
+        "lógica matemática"
+    ]
+}

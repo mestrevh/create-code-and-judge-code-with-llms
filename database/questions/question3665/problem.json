@@ -1,0 +1,12 @@
+{
+    "title": "Sopa de letrinhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Doug e seu amigo Joel estavam conversando na tarde de um dia e Joel propôs um jogo para Doug: Seria como um caça-palavras, mas ao invés de palavras a intenção é encontrar uma letra. Como Joel e Doug são estudantes da área de TI a letra será buscada numa matriz de números inteiros, esses números correspondem as letras maiúsculas na tabela ASCII: A = 65 B = 66 ... Z = 90 Doug resolveu fazer um código para este jogo, mas ainda não apendeu a programar matrizes, por isso pediu a sua ajuda para desenvolver esse novo game. Cada linha da matriz equivale a uma letra, por exemplo: 1ª linha = A 2º linha = B ... Cada coluna da matriz equivale a um número, por exemplo: 1º coluna = 1 2º coluna = 2 ...",
+    "format_input": "Você irá receber o número de linhas e colunas da matriz. Em seguida, a letra a ser buscada na matriz. Depois, a matriz de inteiros.",
+    "format_output": "A saída deve conter a letra da linha e o número da coluna onde a letra se encontra na matriz.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

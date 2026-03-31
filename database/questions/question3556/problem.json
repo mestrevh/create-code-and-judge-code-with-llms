@@ -1,0 +1,11 @@
+{
+    "title": "Big Problem Brasil",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Deyene e Kinho amam o BBB (Big Brother Brasil), e na edição 21 já declaram torcida para Gil do Janga e Juliette de Juliette. Eles amam tanto esses dois personagens no jogo que decidiram criar um bot de votação para ajudá-los, porém, a Gl0b0 descobriu a malícia por trás da ideia de Deyene e Kinho e decidiu colocar captchas para que o bot não conseguisse acertar. Como Kinho e Dey ainda não sabem mexer com Deep Learning, decidiram que o bot irá escolher captchas aleatórios com a probabilidade de acerto em 25%. O que eles não sabiam, é que toda vez que o captcha era selecionado errado, o bot era penalizado no envio de requisitos para o servidor da Globo, essa penalidade era: Dado uma chave K e uma base B, descubra qual o código correto para enviar os requisitos. Para descobrir o código é simples, você apenas deve somar todos os números de K na base B. Exemplos: 18 2 = 10010 = 1+0+0+1+0 = 2. O código é 2. 107 5 = 412 = 4+1+2 = 7. O código é 7. Veja mais sobre bases N-árias aqui: https://pt.wikipedia.org/wiki/Conversão_de_base_numérica. Ajude Kinho e Deyene a resolver este Big Problem. Escreva o algoritmo que descobre qual o código para cada chave e base recebida.",
+    "format_input": "A entrada contém vários casos testes. Cada caso teste é composto por uma linha contendo a chave K e a base B. A entrada termina quando não houver mais linhas para processar. Restrições: 0<=K<=1000000000000000000, 2<=B<=1000000000000000000",
+    "format_output": "Para cada caso teste, seu programa deve imprimir apenas o número correspondente a cada chave e base recebida.",
+    "topics": [
+        "eof",
+        "acumulador"
+    ]
+}

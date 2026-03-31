@@ -1,0 +1,12 @@
+{
+    "title": "Função REMOVE - sua versão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Quando se usa estrutura de dados homogêneas ( também conhecidas como array, vetores, arranjos) algumas manipulações são necessárias. Dentre elas está a necessidade de remover um elemento da estrutura. Em Python existe uma função denominada REMOVE cujo objetivo é remover o primeiro item encontrado na lista que corresponde ao valor informado pelo usuário. Se não existir valor igual, uma exceção é apresentada. O objetivo dessa atividade é implementar uma versão adaptada da função REMOVE. A sua solução deve receber um número (N) que corresponde ao número de elementos da sua lista e, em seguida, serão lidos N números inteiros. Após isso, deve ser lida um valor corresponde ao que você deseja procurar na lista e que deve ser removido caso exista na lista. Na saída devem ser apresentados, na seguinte ordem: a lista criada, o item procurado, a lista sem o item procurado. ATENÇÃO: A sua solução NÃO DEVE conter nenhuma função específica de Python para remoção de elementos em listas. Ou seja, apenas as funções básicas (append e len) podem ser utilizadas na sua solução.",
+    "format_input": "Os dados da entrada são: número de elementos que se deseja colocar na lista (N); N números inteiros (elementos da lista); O valor do elemento que se deseja remover da lista",
+    "format_output": "A saída deve ter: A lista com seus elementos; O item procurado e a ser removido; A nova lista sem o item procurado. Caso não seja possível remover elemento da lista porque a lista está vazia, apresentar a mensagem: \"A lista estah vazia - nao eh possivel remover elemento\". Em outro caso, apresentar a mensagem: \"Nao eh possivel remover o elemento\".",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

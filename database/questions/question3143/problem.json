@@ -1,0 +1,11 @@
+{
+    "title": "L1Q? - Dobrando agua",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Equipe Avatar chega à Tribo da Água do Norte. O chefe da tribo gera uma grande festa em comemoração da chegada do Avatar ao Polo Norte. Aang procura aprender a dominação de água de um mestre chamado Pakku, e ele decide ensinar-lhe. O básico para que Aang consiga dominar a água é que ele consiga executar 5 movimentos de acordo com a seguinte regra: Nunca se deve fazer um movimento na direção oposta ao último movimento feito. Por exemplo se ele fez um movimento para baixo, ele não pode fazer um movimento para cima, somente a esquerda ou direita. Seu objetivo é fazer um programa que dado os movimentos que Aang executa, ele te diga se o movimento é válido ou não e quantos movimentos válidos ele executou.",
+    "format_input": "A entrada pode ser composta de até 5 linhas, onde cada uma é somente uma string que indica a direção do movimento para dobrar água. Direção1 Direção2 ... Direção5 Direção - String",
+    "format_output": "Caso quaisquer dos movimentos de Aang não seja para uma das quatro direções(Cima, Baixo, Esquerda, Direita) deve ser informado: Aang nao realizou nenhum movimento comum, deve estar com a cabeca em outro lugar. Caso quaisquer dos movimentos de Aang depois do primeiro não seja para uma das quatro direções deve ser informado: Aang realizou X movimento(s) e tentou algo estranho, deve estar com a cabeca em outro lugar. X - Inteiro que representa a quantidade de movimentos válidos que Aang fez antes do movimento estranho. Caso um movimento seja na direção oposta do anterior: Aang realizou somente X movimento(s). X - Inteiro que representa a quantidade de movimentos válidos que Aang fez antes do movimento errado. Caso Aang consiga todos os 5 movimentos: Aang realizou todos os 5 movimentos e conseguiu dobrar agua. Obs: Nas respostas contendo número variável, fique atendo ao singular e plural.",
+    "topics": [
+        "multiplas entradas",
+        "decisão"
+    ]
+}

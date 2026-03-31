@@ -1,0 +1,10 @@
+{
+    "title": "É triângulo é?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba os três lados de um triângulo e diga se ele é isósceles, escaleno, equilátero ou se não é triangulo.",
+    "format_input": "Três valores inteiros a b c que serão os lados do triângulo.",
+    "format_output": "A saída deve ser o tipo de triangulo se os valores correspoderem a um triangulo ou se não é triangulo",
+    "topics": [
+        "decisão"
+    ]
+}

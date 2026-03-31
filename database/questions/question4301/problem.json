@@ -1,0 +1,10 @@
+{
+    "title": "Boneca perdida",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Um colecionador possui pares de bonecas. Porém uma sumiu da coleção. Você consegue descobrir qual?",
+    "format_input": "A primeira linha é o número de casos de teste T. T casos seguem. Para cada caso de teste, temos uma linha com a quantidade de bonecas N. N linhas seguem, cada qual com o tipo de cada boneca presente atualmente na coleção.",
+    "format_output": "Imprima o tipo da boneca que não possui par.",
+    "topics": [
+        "busca"
+    ]
+}

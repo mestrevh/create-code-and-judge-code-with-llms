@@ -1,0 +1,12 @@
+{
+    "title": "MMC de n números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que ache o MMC de n números",
+    "format_input": "Um inteiro n, seguido de n números inteiros 5 1 2 3 4 5",
+    "format_output": "O MMC de todos os n inteiros 60",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Maior, menor e média",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Senhor Incrível cansou de criar de escrever códigos para comparar o maior e menor valor de uma lista, então resolveu criar uma única função para sempre usá-la nesses casos. Ajude o Senhor Incrível a criar a função void mmm(int lista[20], int *menor, int *maior, float *média) que recebe um vetor de números inteiros e 3 ponteiros apontando para as variáveis que irão receber menor, maior e média.",
+    "format_input": "A lista de 20 números inteiros que serão comparados em qualquer ordem",
+    "format_output": "O maior e o menor valor da lista separados por espaço, e abaixo a média dos dois escrita com apenas uma casa decimal.",
+    "topics": [
+        "lógica matemática",
+        "ponteiro"
+    ]
+}

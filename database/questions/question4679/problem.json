@@ -1,0 +1,12 @@
+{
+    "title": "Adicionando valores",
+    "time_limit": "2 segundo(s)",
+    "descrition": "O objetivo desta atividade é criar um programa que receba informações de alunos e os organize em diferentes turmas, de acordo com a turma informada na entrada. O programa deve permitir a entrada de dados até o fim da entrada (EOF) e deve armazenar essas informações utilizando alocação dinâmica de memória. Requisitos: 1. O programa deve ser capaz de ler os dados de cada aluno a partir de duas linhas de entrada: A primeira linha deve conter o nome do aluno, podendo ser composto por várias palavras. A segunda linha deve conter um número inteiro representando a turma do aluno (1, 2 ou 3). 2. O número de alunos é ilimitado, portanto, o programa deve utilizar alocação dinâmica de memória para armazenar os dados dos alunos. 3. O programa deve ser capaz de: Armazenar os alunos nas turmas correspondentes. Exibir, ao final da entrada de dados, os nomes dos alunos organizados por turma. As turmas devem ser exibidas separadamente, conforme a ordem de entrada dos alunos, e sem repetição de alunos entre as turmas.",
+    "format_input": "A entrada será fornecida até o final do arquivo (EOF). Para cada aluno, será fornecida duas linhas: A primeira linha contém o nome completo do aluno. A segunda linha contém o número da turma (1, 2 ou 3).",
+    "format_output": "A saída será o nome de cada turma seguidos por todos os alunos daquela turma.",
+    "topics": [
+        "array",
+        "alocação dinâmica",
+        "ponteiro"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Enigma",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Enigma era uma máquina eletromecânica capaz de criptografar as mensagens trocadas entre os nazistas durante a Segunda Guerra Mundial (1939 - 1945), evitando que essas mensagens fossem facilmente lidas pelos Aliados ao serem interceptadas. A tecnologia responsável por quebrar a criptografia da Enigma foi desenvolvida por Alan Turing e sua equipe, no projeto de codinome \"Ultra\", e tinha a capacidade de decifrar as mensagens em larga escala, quase em tempo real. Acredita-se que esse feito foi responsável por encurtar a guerra em 2 anos, poupando milhões de vidas. O ano é 1940 e Alan Turing convocou você, discípulo de acm, para compor a equipe de desenvolvimento do projeto Ultra. Turing pediu a sua ajuda para desenvolver um programa em linguagem C, capaz de decifrar as mensagens nazistas interceptadas pelos Aliados, usando os seguintes padrões observados por ele: - As mensagens são compostas por strings alfabéticas deslocadas, podendo conter espaços; - Apenas as letras foram deslocadas, utilizando uma chave numérica + posição da letra na string (começando no índice 1 e sem contar os espaços); - Foi utilizado um deslocamento circular em um alfabeto contínuo de 52 letras (A-Z seguido de a-z), de modo que ultrapassar ‘Z’ continua em ‘a’, e ultrapassar ‘z’ continua em ‘A’.",
+    "format_input": "- Um inteiro C, onde -10000 ≤ C ≤ 10000, representando a chave de criptografia - Em seguida, o programa deverá ler as strings criptografadas (máx. 50 caracteres cada), uma por linha, até que a palavra \"FIM\" seja digitada",
+    "format_output": "- O programa deve imprimir cada mensagem descriptografada, uma por linha, na mesma ordem em que foram lidas",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição",
+        "função",
+        "string"
+    ]
+}

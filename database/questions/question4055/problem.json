@@ -1,0 +1,11 @@
+{
+    "title": "Missão da South Gate Station",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi recentemente aceito como o mais novo morador de South Gate Station, um lugar seguro em South Underrail. Para sua primeira missão, Tanner, um conselheiro da South Gate Station, lhe enviou para as cavernas ao leste para retomar antigos outposts da SGS. No entanto, os túneis estão repletos de rathounds perigosos. Você inicia sua aventura pelos túneis das cavernas e encontra um rathound à espreita, com dentes tortos e afiados, com carne presa entre os vãos de seus dentes. Você deve analisar suas chances de ganhar uma luta contra a criatura. Se seu HP multiplicado pelo ataque for maior que o HP multiplicado pelo ataque do rathound, então você ganhará a luta. Caso contrário, você perderá o confronto contra a criatura. Com o NavCom disponibilizado por Tanner, avise-o \"Matei um rathound\" ou \"Fugi de um rathound\", dependendo da sua análise da luta.",
+    "format_input": "Seu HP e seu ataque. Após isso, o HP e o ataque do rathound (todos os valores são números inteiros).",
+    "format_output": "Deve-se informar a Tanner \"Matei um rathound\" se você ganhar a luta, ou \"Fugi de um rathound\" se você não ganhar a luta.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

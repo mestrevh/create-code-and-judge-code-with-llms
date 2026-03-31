@@ -1,0 +1,10 @@
+{
+    "title": "Corona: Ep 10",
+    "time_limit": "2 segundo(s)",
+    "descrition": "O mundo não tem mais salvação. A pandemia causou o caos, a desordem e a falta de amor ao próximo. Enquanto o mundo enfrentava uma guerra civil, Dayane estava escondida escutando Mc Loma. Ao acabar a sua música favorita, um podcast toca logo em seguida. No podcast estavam todas as informações de um asteroide que iria passar próximo à terra nos próximos dias. Dayane logo pensa: \"posso pegar carona para me livrar do corona\". Ela então criará uma cápsula capaz de sobrevoar por alguns segundos a terra e ir de encontro ao asteroide. No momento do encontro, a cápsula grudará no asteroide e assim viajará para um outro planeta, começando uma nova era sem o corona vírus. Dayane não quer viver em um outro planeta sozinha (imagina ficar sem o BBB, sem amigos e sem a Mc Loma ?), então ela decide levar todo mundo que não tenha a covid-19. Cada pessoa dará o seu exame para ser avaliado (um número inteiro). Essa pessoa terá a covid-19 se e somente se, existir 3 números inteiros a,b,c de tal forma que a*b*c = número do exame e (a+b+c) = 19. exemplo: 17 é o número do exame de Diana. Como 1*1*17 = 17 e 1+1+17 = 19, então ela tem a covid-19. Caso essa condição não tivesse sido satisfeita, Diana estaria livre do vírus e, portanto, teria acesso para entrar na cápsula. Ajude Dayane !! Dado o número do exame de cada candidato, diga se esse candidato pode ou não entrar na cápsula.",
+    "format_input": "A entrada consiste em vários casos teste. Cada caso teste consiste em um inteiro N. 0<=N<=100. A entrada termina com o número -1, ele não deve ser processado.",
+    "format_output": "Para cada número imprima \"INFECTADO\" se a pessoa possui a covid-19. Caso contrário, imprima \"SAFE\" se ela não possui a covid-19.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Funções 3 - Somar Lista",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Complete o codigo abaixo para que seja uma função que receba uma lista de números e retorne a soma de todos os valores:\ndef somar_lista(numeros):\n    soma = 0\n    for num in ___________: # Seu código aqui\n        soma += ___________ # Seu código aqui \n    return soma\n\nnumeros = [int(n) for n in input().split()]\nresultado = somar_lista(numeros)\nprint(resultado)",
+    "format_input": "Uma lista de números inteiros",
+    "format_output": "Um único número representando a soma de todos os elementos da lista.",
+    "topics": [
+        "função"
+    ]
+}

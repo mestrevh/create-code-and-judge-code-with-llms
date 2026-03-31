@@ -1,0 +1,10 @@
+{
+    "title": "Adedanha",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Enquanto Alan e seus amigos estavam brincando, uma senhora os pediu para capinar seu lote. As crianças preferem brincar, mas, como são educadas, decidiram escolher uma das crianças para capinar o lote enquanto as outras se divertem. Para escolher quem capinará, jogarão adedanha. Adedanha funciona da seguinte forma: todas as crianças esticam alguns dedos e o número de dedos esticados (um número de 0 a 20, dedos do pé também são dedos!) de cada criança são somados para um valor S. Depois disso conta-se circularmente as N crianças que são numeradas de 0 (Alan) a N-1. Logo a contagem se dá na seguinte ordem: 0, 1, ..., N-2, N-1, 0, 1, .... Depois de contarmos S crianças, a criança em que a contagem parou será escolhida para a árdua tarefa de capinar o lote. Alan é muito esperto e decidiu trapacear: ele só vai decidir o número de dedos que vai esticar logo depois de ver o número que cada uma das outras crianças esticou (Alan consegue contar dedos muito rápido, as outras crianças nem percebem sua trapaça!). Dada a sua informação privilegiada, Alan quer saber, para cada criança (incluindo ele próprio), se ele consegue escolher algum número de dedos para esticar de forma que esta criança capine. Se vários números de dedos esticados forem possíveis para fazer certa criança capinar, imprima o menor deles, ou caso seja impossível, -1. Como no Exemplo 1, se N=4 e os amigos de Alan esticarem 1, 3 e 2 dedos, Alan pode esticar 1 dedo e assim o fim da contagem caia na criança 3 (D na figura).",
+    "format_input": "A primeira linha da entrada contém um inteiro N (1 <= N <= 10^5), o número de crianças participando da adedanha (incluindo Alan). Depois disso temos N-1 linhas com inteiros de 0 a 20. A i-ésima linha contém o número de dedos que a criança 1, ..., N-1 esticou (todas as crianças menos Alan).",
+    "format_output": "A saída deve conter N linhas com números d0, d1, ..., dN-1. O número di deve ser o menor número de dedos que Alan deve esticar para que a criança i capine o lote e -1 caso seja impossível que i capine.",
+    "topics": [
+        "array"
+    ]
+}

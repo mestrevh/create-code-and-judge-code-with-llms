@@ -1,0 +1,14 @@
+{
+    "title": "Dieta de Joãozinho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Joãozinho está fazendo uma dieta especial e deve ingerir o mínimo possível de calorias. Em um restaurante especializado em dietas,existe no menu a opção de 5 pratos por dia, cada um com uma quantidade diferente de calorias. Para fazer o pedido, Joãozinho precisa informar no caixa a opção de menu que ele deseja, e para isso, precisa calcular o prato com a menor quantidade de calorias. Observação: É necessário a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão",
+    "format_input": "5 valores numéricos e inteiros, um por linha. Todos os valores são diferentes uns dos outros",
+    "format_output": "Uma mensagem para o usuário informando qual a quantidade de caloria se em que posição do menu se encontra",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "entrada formatada",
+        "função",
+        "formatação"
+    ]
+}

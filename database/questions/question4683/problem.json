@@ -1,0 +1,10 @@
+{
+    "title": "Projeção de Polita",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Na área de processamento de imagem, é muito comum o uso da técnica de análise de projeção de histograma, onde é feita a contagem de quantos pixels de uma determinada cor existem em cada coluna da matriz. Em documentos de texto com fundo branco e letra preta, por exemplo, você pode pegar apenas as submatrizes que apresentam pixels pretos e assim você terá diversas matrizes menores apenas com uma letra nelas. Seu objetivo será semelhante! Polita recebeu uma mensagem subliminar em uma matriz NxM preta e branca (valores 0 ou 1). Seu objetivo é ajudar Polita a dividir essa matriz em várias matrizes menores onde cada matriz vai ter apenas um símbolo branco formado por vários pixels. Para dividir essa matriz considere que um símbolo começa quando há pelo menos um pixel branco na coluna e continua até que não tenha mais pixels brancos. As submatrizes divididas também devem incluir os pixels pretos ao redor do símbolo, de forma que: Na região entre símbolos, metade dos pixels pretos estão na primeira submatriz e a outra metade estão na segunda (Figura abaixo). Se houver um número ímpar de colunas entre os dois, a primeira matriz vai ter 1 coluna de pixels pretos a mais. No caso da primeira e última letra, elas devem incluir todos os pixels pretos que iniciam/finalizam a matriz. Seu programa deve mostrar cada símbolo separadamente e, por fim, mostrar quantos símbolos foram encontrados! Obs: Não terão pixels brancos na primeira ou na última coluna",
+    "format_input": "A entrada consiste de dois números n e m que indicam a quantidade de linhas e colunas da matriz Nas n linhas seguintes existirão m caracteres variando entre 0 e 1",
+    "format_output": "Cada matriz segmentada separadas por DUAS quebras de linha para deixar um espaço em branco entre elas No final, uma linha no seguinte formato: \"Foram encontrados x simbolos!\" seguido de uma quebra de linha",
+    "topics": [
+        "array bidimensional"
+    ]
+}

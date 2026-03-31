@@ -1,0 +1,10 @@
+{
+    "title": "Fazenda de Oileh",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oileh é um mago experiente que quer criar uma poção para ajudar as plantas de seu jardim a crescerem mais rápido. No entanto, a eficácia dessa poção depende de alguns fatores importantes: 1. Fase da Lua: Se a poção for preparada durante a lua crescente ('C'), sua eficiência aumenta em 50%. Se for feita durante a lua cheia ('F'), sua eficiência aumenta em 20%. Se for feita em qualquer outra fase da lua ('M' para minguante e 'N' para nova), a eficiência diminui em 10%. 2. Hidratação das Plantas: As plantas precisam de pelo menos 2 litros de água para cada metro quadrado de plantação. Se estiverem corretamente hidratadas, a eficiência da poção aumenta em 30%. Se não estiverem bem hidratadas, a eficiência da poção diminui em 25%. 3. Temperatura Ambiente: Menos de 10°C -> Eficiência diminui 15% (frio excessivo reduz a absorção da poção). Mais de 25°C -> Eficiência aumenta 25% (o calor acelera o crescimento). A eficiência da poção é medida em metros quadrados, indicando a área em que ela fará efeito. Se ela fizer efeito em uma área maior que a fazenda Oileh terá prejuízos.",
+    "format_input": "Um número X representando a área que a poção fará efeito. Um caractere Y representando a fase da lua. Um número Z representando a área da fazenda. Um número W representando a quantidade de água para irrigação. Um número inteiro T representando a temperatura ambiente no momento da preparação.",
+    "format_output": "Você deve dizer a área que a poção teve efeito com duas casas decimais e se essa área ultrapassar o tamanho da fazenda você deve escrever em outra linha \"Oh nao, a fazenda cresceu demais!\".",
+    "topics": [
+        "decisão"
+    ]
+}

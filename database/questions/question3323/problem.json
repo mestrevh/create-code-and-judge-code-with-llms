@@ -1,0 +1,13 @@
+{
+    "title": "Expressão Lógica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ao iniciar o curso de engenharia da computação no CIn você já está atrasado na cadeira de Matemática Discreta. Você já está lascado, deveria ter começado a estudar 1 ano antes. Mas calma, nem tudo está perdido. Você pode dar a volta por cima e correr atrás do seu sonho de passar em Matemática Discreta. Então, para provar para Nivan Senpai que você é capaz, já tá manjando de tabela verdade e expressões lógicas e tá pronto pra devorar o Matemática Discreta e Suas Aplicações by Kenneth H. Rosen, 6ª edição, tradução técnica de Helena Castro e Professor João Guilherme Giudice, 1000 páginas, capa brochura... eu te desafio a resolver algumas expressões lógicas :) Seu desafio é resolver uma expressão lógica de 3 variáveis e 2 operadores lógicos (conjunção e disjunção). OBS.: Como em C não existe os tipos verdadeiro e falso, vamos utilizar 1 como valor verdadeiro e 0 como falso. DICA: As expressões estão sem parenteses, então lembre-se que o operador ^ tem precedência sobre o v. WARNING: não vale fazer 32 ifs pra listar todas as possibilidades não viu.......",
+    "format_input": "Formato da entrada: A X B Y C Onde A, B e C, são número inteiros que podem ser 0 ou 1. E X, Y são caracteres que podem ser '^' ou 'v'.",
+    "format_output": "Um único número inteiro correspondendo ao resultado da expressão lógica. 1 para verdadeiro e 0 para falso.",
+    "topics": [
+        "números binários",
+        "decisão",
+        "lógica matemática",
+        "caractere"
+    ]
+}

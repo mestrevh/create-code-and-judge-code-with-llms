@@ -1,0 +1,10 @@
+{
+    "title": "AC2 - Ex. 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que permite ao usuário digitar dois números inteiros e exibir o resultado para cada uma das seguintes operações: +, -, *, /, //, %, **. Por exemplo: se o usuário digitar 7 e 5, a saída do seu programa deverá ser: 12 2 35 1.4 1 2 16807",
+    "format_input": "Primeiro número Segundo número",
+    "format_output": "Resultado da operação + Resultado da operação - Resultado da operação * Resultado da operação / Resultado da operação // Resultado da operação % Resultado da operação **",
+    "topics": [
+        "lógica matemática"
+    ]
+}

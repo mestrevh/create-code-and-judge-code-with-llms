@@ -1,0 +1,10 @@
+{
+    "title": "Avaliação financeira",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sua empresa está tendo dificuldades financeiras e você como bom programador deve analisar o valor de suas ações. Dado N valores representando o valor diário da ação de sua empresa, identifique o maior intervalo (aquele que ocorre a maior soma dos valores) em que houve um crescimento contínuo, marcando sua data inicial, data final e a soma dos valores desse intervalo para análises futuras. *Caso haja mais de um intervalo com o mesmo resultado, considerar o primeiro.",
+    "format_input": "Na primeira linha: um inteiro N, representando a quantidade de valores (dias). (N >= 2) Na segunda linha: N inteiros M, onde Mi (1 <= M < 10000) indica o valor da cotação de seu respectivo dia i (1 <= i <= N). Sempre haverá ao menos um crescimento, ou seja, para o caso de N ser 2, a cotação do primeiro dia será obrigatoriamente menor que a do segundo dia para que haja o crescimento. * Atente que para ser considerado crescimento deve haver aumento de, no mínimo, uma unidade, então se os valores vizinhos forem iguais deve-se reiniciar a contagem.",
+    "format_output": "Três inteiros: dia inicial, dia final, soma dos valores do intervalo. Considere o primeiro dia como 1 e não como 0.",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Triangulos Octave - T2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia as medidas dos lados de um triângulo e escreva se ele é Equilátero, Isósceles ou Escaleno. Sendo que: - Triângulo Equilátero: possui os 3 lados iguais. - Triângulo Isósceles: possui 2 lados iguais. - Triângulo Escaleno: possui 3 lados diferentes.",
+    "format_input": "O usuario deve digitar os lados A, B e C do triangulo.",
+    "format_output": "O programa deve exibir a classificação do triangulo, de acordo com o comprimento dos seus lados, imprimindo na tela os valores abaixo: Digite o comprimento do lado A: (impresso pela funcao input) Digite o comprimento do lado B: (impresso pela funcao input) Digite o comprimento do lado C: (impresso pela funcao input) Este e um triangulo isosceles/escaleno/equilatero.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

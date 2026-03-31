@@ -1,0 +1,11 @@
+{
+    "title": "Soma de 2 inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em Python3 que receba dois números inteiros e imprima a sua soma.",
+    "format_input": "O programa não deve imprimir nenhuma mensagem para pedir os dados de entrada.",
+    "format_output": "O programa não deve imprimir nenhum outro texto além do resultado numérico.",
+    "topics": [
+        "métodos numéricos",
+        "lógica matemática"
+    ]
+}

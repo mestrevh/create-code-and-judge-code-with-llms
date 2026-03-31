@@ -1,0 +1,12 @@
+{
+    "title": "Excursão do IC",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A coordenação do IC está planejando uma excursão com seus alunos para a SpaceX, para que possam observar de perto o Elon Musk fazer foguetes em pleno 2022. Para ter o melhor controle da grande quantidade de alunos, cada turma irá se locomover em fila indiana pelas instalações do local. Como não houve 100% de adesão devido ao alto custo da viagem, o número de alunos matriculados numa turma NÃO representa necessariamente o número de alunos presentes no dia. No dia do evento será passada uma lista por turma, onde cada aluno escreverá o código de sua matrícula (do primeiro da fila até o último). SEMPRE que todos da fila preencherem será escrito o número -1 logo abaixo. Sua função é construir um programa que seja capaz de localizar exatamente qual o código de matrícula do aluno pela posição na fila.",
+    "format_input": "Primeiro, será dada a quantidade N de alunos matriculados naquela turma. Então, serão dados os códigos de matrícula de cada aluno, até que seja dado o valor -1, que simboliza que todos os códigos de matrícula foram dados. Finalmente, será dada a posição X do aluno o qual deve-se printar o código da matrícula (1 <= X <= N).",
+    "format_output": "O código de matrícula do aluno na posição X",
+    "topics": [
+        "array",
+        "repetição",
+        "recursão"
+    ]
+}

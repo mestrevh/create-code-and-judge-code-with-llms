@@ -1,0 +1,10 @@
+{
+    "title": "Astolfo e seu amigo esquisito",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Ajude Astolfo a saber qual a data e horário que seu amigo esquisito está querendo dizer. Esse amigo esquisito tem uma mania de falar uma data em horas e minutos que ao serem adicionadas a data e horário atual resulta na data e hora do compromisso que ele está se referindo. Dica: Todo ano é bissexto se for múltiplo de 4 com a exceção dos anos múltiplos de 100 que não são múltiplos de 400.",
+    "format_input": "Você vai receber 7 números. Sendo os três primeiros respectivamente dia, mês e ano iniciais. Em seguida dois números que representam a hora e os minutos atuais. E por último outros dois números que significam as horas e minutos que o amigo esquisito de Astolfo falou, ou seja as horas e minutos que serão adicionadas. Restrições: 1 ≤ Dia ≤ 31 1 ≤ Mês ≤ 12 1 ≤ Ano ≤ 2100 Horário inicial: 0 ≤ Hora ≤ 23 0 ≤ Minutos ≤ 59 Horário que amigo esquisito falou: 0 ≤ Hora ≤ 600 0 ≤ Minuto ≤ 600",
+    "format_output": "Você retornará a data do compromisso que o amigo de Astolfo está se referindo e o horário dele. Em seguida dirá quantos dias faltam até esse compromisso. Para a data você deve retorna ela no formato DD/MM/YYYY seguido por uma quebra de linha. Na linha seguinte você deve retorna o horário no formato HH:MM e novamente seguido por uma quebra de linha. E por ultimo a mensagem \"Falta X dias até a data que o Esquisito falou\", sendo X o número de dias e com uma quebra de linha ao final.",
+    "topics": [
+        "datas/horas"
+    ]
+}

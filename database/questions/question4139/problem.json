@@ -1,0 +1,12 @@
+{
+    "title": "As horas de Danerd Ramanujan",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Danerd Ramanujan, apesar de ser muito bom em cálculo diferencial e integral, possui grande dificuldades em realizar operações simples, como calcular o horário de suas aulas. Ajude Danerd criando para ele uma calculadora de horário. Seu programa deverá obter como entrada um horário inicial no formato HORA:MINUTO e a quantidade de minutos que deverão ser somados ao horário inicial. Imprima na tela o resultado dessa soma no formato HORA:MINUTO",
+    "format_input": "Horário incial no formato HH:MM Quantidade de minutos a ser somada",
+    "format_output": "Horário final no formato HH:MM",
+    "topics": [
+        "datas/horas",
+        "decisão",
+        "entrada formatada"
+    ]
+}

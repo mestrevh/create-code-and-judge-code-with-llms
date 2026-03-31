@@ -1,0 +1,10 @@
+{
+    "title": "Triângulo de Pascal",
+    "time_limit": "2 segundo(s)",
+    "descrition": "O Triângulo de Pascal é uma organização de números em linhas, onde cada elemento representa um coeficiente binomial (usado em combinatória e na expansão de (a+b)^n). Uma forma de obter cada valor do triângulo é por combinações: o elemento na linha n e coluna k (com 0 <= k <= n) é dado por: C(n, k) = n! / (k! * (n - k)!). Tarefa: Leia um inteiro N (0 <= N <= 20) e imprima as N primeiras linhas do Triângulo de Pascal, começando da linha n = 0. Se N = 0, não imprima nada. Em cada linha, separe os números por um espaço e não coloque espaço no final da linha.",
+    "format_input": "5",
+    "format_output": "1\n1 1\n1 2 1\n1 3 3 1\n1 4 6 4 1",
+    "topics": [
+        "algoritmo guloso"
+    ]
+}

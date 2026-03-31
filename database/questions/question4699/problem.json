@@ -1,0 +1,10 @@
+{
+    "title": "Q03 - Maior entre dois numeros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Cria uma função chamada \"maior_numero\" que receba como parâmetro dois números reais e diga qual é o maior número se forem iguais, diga que são iguais",
+    "format_input": "dois numeros reais",
+    "format_output": "qual é o maior numero digitado. Caso sejam iguais, o programa deve dizer \"São iguais\"",
+    "topics": [
+        "função"
+    ]
+}

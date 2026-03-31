@@ -1,0 +1,15 @@
+{
+    "title": "Fila de materias com pilhas de atividades",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Os alunos de uma turma decidiram que precisam de um programa para organizar melhor suas atividades; no entanto eles não sabem como fazer isso, então você deve criar um código que satisfaça as demandas dessa turma. O programa deve armazenar as matérias numa estrutura de Fila e as atividades dessa matéria em uma estrutura de Pilha. Considere como removível um uma matéria que não tem nenhuma atividade pendente. O programa receberá como entrada uma lista de todas as matérias e suas respectivas atividades, e uma vez que os dados tenham sido armazenados o programa deve: 1. Remover um item (Primeiro verificar na Fila de matérias se a matéria é removível (Seguir o principio de FIFO),caso seja a matéria é removida, caso não seja remove-se um item da Pilha de atividades dessa matéria (FILO). OBS: A escolha de qual matéria e atividade serão removidas primeiro deve seguir o que se espera das estruturas que elas estão. 2. Exibir todas as matérias e suas atividades sempre que uma operação de remover for realizada. 3. O programa deve continuamente remover os valores até que a Fila de matérias esteja vazia.",
+    "format_input": "A entrada consiste em uma sequencia de linhas que podem começar com M, para indicar que é uma matéria ou A, para indicar que é uma atividade.",
+    "format_output": "A saída deve seguir o seguinte formato. Nome da Materia1 e suas atividades com tabulação de 4 espaços, seguidos pelas próximas matérias e suas atividades, no fim da saída deve ter uma linha formada por 17 undelines com uma linha em branco acima e abaixo. Após a linha segue a próxima saída. Materia: NomeDaMateria1     Atividade: NomeDaAtividade1     Atividade: NomeDaAtividade2     Atividade: NomeDaAtividade3 Materia: NomeDaMateria2     Atividade: NomeDaAtividade4     Atividade: NomeDaAtividade5     Atividade: NomeDaAtividade6 _________________ Materia: NomeDaMateria1     Atividade: NomeDaAtividade1     Atividade: NomeDaAtividade2 Materia: NomeDaMateria2     Atividade: NomeDaAtividade4     Atividade: NomeDaAtividade5     Atividade: NomeDaAtividade6",
+    "topics": [
+        "estrutura de dados",
+        "eof",
+        "entrada formatada",
+        "pilha",
+        "recursão",
+        "ponteiro"
+    ]
+}

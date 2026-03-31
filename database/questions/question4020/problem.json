@@ -1,0 +1,14 @@
+{
+    "title": "Confusão de Bits",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após observar padrões interessantes com seu telescópio, Corneana ficou obcecada com alguns grupos de bits observados pelo espaço. Ela notou que, algumas vezes, os bits alternavam seus valores entre 1 e 0 (ou entre 0 e 1). Foi definido que o \"tamanho de uma sequência\" é o tamanho da maior sequência que tem seus bits alternando entre 1 e 0 (ou 0 e 1). Por exemplo, dado o grupo de bits 1 0 0 1 0 1 0 0, o tamanho da sequência é 5 (1 0 0 1 0 1 0 0). Aqui estão alguns exemplos: 0 1 1 0 1 -> tamanho da sequência é 3 (0 1 1 0 1) 0 0 0 0 0 -> tamanho da sequência é 1 (0 0 0 0 0) 1 1 1 1 1 1 1 -> tamanho da sequência é 1 (1 1 1 1 1 1 1) 0 1 0 0 1 0 1 0 0 1 -> tamanho da sequência é 5 (0 1 0 0 1 0 1 0 0 1) Serão dados N grupos de bits. Printe o tamanho da maior sequência.",
+    "format_input": "Será dado um inteiro N (número de grupos que serão dados). (1 <= N <= 20) Então, serão dados N pares de linhas no seguinte formato: -Tamanho do grupo de bits. (1 <= tamanho do grupo de bits <= 20) -Grupo de bits",
+    "format_output": "Printe o tamanho da maior sequência.",
+    "topics": [
+        "array",
+        "decisão",
+        "lógica matemática",
+        "função",
+        "recursão"
+    ]
+}

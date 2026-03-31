@@ -1,0 +1,11 @@
+{
+    "title": "Loja de cerâmicas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que realiza cálculos para uma loja de cerâmicas. Neste programa, considere que o preço de 1 metro quadrado de qualquer cerâmica custa R$ 25,00. Como entrada, o programa deverá pedir o tamanho em metros quadrados da área onde serão colocadas as cerâmicas, e o tamanho em metros quadrados da cerâmica desejada. Como saída, o programa vai informar a quantidade de cerâmicas necessárias e o preço total das cerâmicas compradas. Observação: é necessário que a quantidade de cerâmicas consiga cobrir todo o espaço desejado.",
+    "format_input": "2 números inteiros indicando o tamanho em metros quadrados da área onde serão colocadas as cerâmicas e o tamanho em metros quadrados da cerâmica desejada. No exemplo de entrada a seguir, 15 é o tamanho da área e 3 o tamanho da cerâmica desejada. 15 3",
+    "format_output": "2 números inteiros. No exemplo de saída a seguir, o primeiro inteiro indica a quantidade de cerâmicas e o segundo o preço total. 5 375",
+    "topics": [
+        "entrada formatada",
+        "lógica matemática"
+    ]
+}

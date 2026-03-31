@@ -1,0 +1,11 @@
+{
+    "title": "Xupenio Transportes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O senhor Xupenio será um convidado de honra da próxima edição do Lulupalooza e portanto, Lulu fornecerá um veículo especial para levá-lo junto com seus amigos. Como Xupenio estava na academia, seu objetivo é construir um código que diga quais carros ele pode escolher dentre as opções dadas: a) Kwid Laranja b) Tesla Branco c) Gol Bolinha Cuidado para não sugerir um carro acima do limite de velocidade da rua ou abaixo da velocidade mínima aceitável (número inteiro inferior mais próximo da metade da velocidade máxima).",
+    "format_input": "Seu programa receberá um número inteiro correspondente ao limite máximo de velocidade e um número real que representa a distância até a academia de Xupenio. Seu programa então receberá 3 números reais a, b, c que correspondem ao tempo necessário para cada carro chegar no Lulupalooza.",
+    "format_output": "Seu programa deve imprimir a seguinte mensagem para todo carro que está dentro dos limites de velocidade: “Xupenio pode utilizar o carro (nome do carro), cuja velocidade no percurso eh (velocidade)”. A ordem da mensagem deve ser dada de modo decrescente de velocidade e caso duas velocidades sejam iguais, respeite a ordem apresentada na questão. Caso nenhum carro possa levar Xupenio imprima “Infelizmente Xupenio nao podera ir ao evento mais importante do ano”.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

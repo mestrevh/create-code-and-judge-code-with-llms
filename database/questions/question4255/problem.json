@@ -1,0 +1,11 @@
+{
+    "title": "2 números em ordem crescente - Adp.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Receba dois números inteiros e os imprima em ordem crescente.",
+    "format_input": "Dois números inteiros.",
+    "format_output": "Dois números inteiros separados por uma quebra de linha.",
+    "topics": [
+        "decisão",
+        "ordenação"
+    ]
+}

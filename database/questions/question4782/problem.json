@@ -1,0 +1,12 @@
+{
+    "title": "Duracell",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma expressão composta por parênteses (), colchetes [] e chaves {}, verifique se ela está corretamente balanceada e bem aninhada. Uma expressão é considerada válida se: Cada parêntese, colchete ou chave de abertura possui um correspondente de fechamento. O fechamento ocorre na ordem correta, respeitando o aninhamento. Por exemplo, a expressão ([)] é inválida, pois fecha os parênteses de forma incorreta.",
+    "format_input": "Um número inteiro N (1 <= N <= 20), representando a quantidade de expressões que serão verificadas. Em seguida, N linhas, cada uma contendo uma expressão composta exclusivamente pelos seguintes caracteres: (, ), [, ], {, }. Não haverá espaços na expressão e seu tamanho máximo será de 100 caracteres.",
+    "format_output": "Para cada expressão, imprima: \"True\" se ela for válida (balanceada e corretamente aninhada). \"False\" caso contrário.",
+    "topics": [
+        "pilha",
+        "caractere",
+        "string"
+    ]
+}

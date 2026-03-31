@@ -1,0 +1,11 @@
+{
+    "title": "Letras e números no telefone",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Alguns aparelhos de telefone fixo possuem números que contém letras no lugar de dígitos a fim de facilitar a memorização de um número de telefone. Para convertê-los de volta para dígitos, a maioria dos telefones tem letras nas suas teclas: Ao invés de discar uma letra, disca-se a tecla que contém aquela letra. Por exemplo, se você quiser discar o número 0800–FALE–SBC, você na realidade discaria 0800–3253–722. Para quem tem problemas de vista, não consegue enxergar direito as letrinhas nas teclas do telefone, e por isso a sua tarefa é fazer um programa que converta as letras em um número de telefone para dígitos.",
+    "format_input": "A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente o teclado). A entrada é composta de apenas uma linha, contendo o número de telefone que deve ser traduzido. O número de telefone contém entre 1 e 15 caracteres, que podem ser dígitos e ‘0’ a ‘9’, letras de ‘A’ a ‘Y’ e hífens (‘-’).",
+    "format_output": "Seu programa deve imprimir, na saída padrão, uma única linha, contendo o número de telefone com as letras convertidas para dígitos. Hífens no número telefone devem ser mantidos no número de telefone de saída.",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}

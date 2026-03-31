@@ -1,0 +1,11 @@
+{
+    "title": "AL1-Vetor-01",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que leia N números inteiros e os armazene em um array e os exiba na tela.",
+    "format_input": "A primeira linha contém um inteiro N, satisfazendo 1 <= N <= 10000. As N linhas seguintes conterão os N inteiros que devem ser armazenados no array.",
+    "format_output": "Uma única linha com a sequência de números armazenados no array.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

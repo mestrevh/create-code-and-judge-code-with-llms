@@ -1,0 +1,10 @@
+{
+    "title": "Monstros Energia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Matheusinho é um jovem dedicado aos estudos. Mas longas noites de estudos movidos a Monstro Energia estão afetando sua saúde! Certo dia, preocupado com a saúde de seu amigoJayve decidiu calcular quantos dias de vida Matheusinho ainda tinha. Num dia X, Jayve acompanhou Matheusinho em N sessões de estudo, e em cada sessão identificou a quantidade Q de Monstros Energia consumidos por Matheusinho por sessão. Uma peculiaridade dessa bebida é que se a quantidade Q consumida for um número ímpar e primo, Matheusinho perde exatamente Q dias de vida, se não, ganha Q dias de vida. Se a quantidade final de dias de vida Y for negativa, Matheusinho vai de F, se não, ele ainda tem essa mesma quantidade de dias para se recuperar. Querendo mais exatidão, Jayve queria calcular também em que dia, Matheusinho precisaria parar de consumir Monstros Energia, sabendo que no calendário deles 1 ano é sempre composto de 12 meses de 30 dias;",
+    "format_input": "Suaentrada consistirá no seguinte: Uma linha no formato dd/mm/aaaa consistindo nos valores inteiros da data; Uma linha de um inteiro N contando a quantidade de sessões; N linhas contendo o inteiro Q de Monstros consumidas por Matheusinho;",
+    "format_output": "Se a quantidade final de dias for negativa a saída será: Uma linha consistindo em “Matheusinho precisa parar AGORA ou vai de F”; Se a quantidade final de dias for positiva a saída será: Uma linha consistindo em “Matheusinho ainda tem Y dias para se recuperar”; Uma linha consistindo em “Se não vai de F em dd/mm/aaaa” sendo essa data a data inicial adicionada de Y dias;",
+    "topics": [
+        "repetição"
+    ]
+}

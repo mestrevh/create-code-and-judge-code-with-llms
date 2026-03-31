@@ -1,0 +1,13 @@
+{
+    "title": "Senha da empresa Calculaí",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma pequena empresa, com 5 funcionários, chamada Calculaí, está em busca de criar uma nova forma de identificar seus funcionários. Assim, o seu objetivo é fazer um programa que receba uma estrutura com os campos correspondentes ao NOME COMPLETO, DATA DE NASCIMENTO, CIDADE NATAL e IDADE de um funcionário dessa empresa e retorne a sua senha de identificação. Para a formação da senha, você, estudante de Computação Eletrônica, deverá concatenar alternadamente a primeira letra do nome, o primeiro número da data de aniversário, a primeira letra da cidade natal e assim sucessivamente, até atingir as cinco primeiras letras do nome, o dia e mês do aniversário, as quatro primeiras letras do nome da cidade natal e, para diminuir a possibilidade de haver repetições, terminar com a idade. Ou seja, se a entrada for dada por NomeC, 28/12, Cidade e 77, a senha gerada deverá ser N2Co8im1de2aC77.",
+    "format_input": "O programa receberá de cada um dos funcionários os campos correspondetes a estrutura, com: Uma string com, no máximo, 50 caracteres para o NOME COMPLETO. Uma string para a DATA DE NASCIMENTO no formato DIA/MÊS/ANO. Uma string com, no máximo, 50 caracteres para a CIDADE NATAL. Um inteiro para a IDADE. Os dados serão computados até que o NOME COMPLETO seja “SAIR” ou a quantidade de funcionários da empresa seja atingida. Observação: o primeiro nome do NOME COMPLETO sempre terá no mínimo cinco letras.",
+    "format_output": "A saída deverá seguir o modelo, com uma quebra de linha dupla após ser printado a senha do funcionário: Nome: <nome_completo> Data de Nascimento: <XX/XX/XXXX> Cidade Natal: <cidade_natal> Idade: <idade> Cadastro: <senha_gerada>",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string",
+        "estruturas"
+    ]
+}

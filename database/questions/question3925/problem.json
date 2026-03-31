@@ -1,0 +1,11 @@
+{
+    "title": "Marquinhos e o telefone borrado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Marquinhos é definitivamente uma pessoa esquecida. Sabendo disso ao ouvir o anúncio de um tônico para memória decidiu anotar o número de telefone na palma de sua mão. Porém, após alguns minutos ele esqueceu que o número estava em sua mão e passou um pouco de álcool em gel borrando o contato. Exemplo: 4002-8922 -> 4__2-8922. O que ele se lembra, no entanto, é que o resultado da divisão inteira entre o número formado pelos algarismos apagados e seu sucessor, bem como pelo seu anterior, era um número primo. Sabendo que 2 números foram apagados e que eles estão na sequencia mostrada no exemplo, crie um programa que diga todas as possibilidades de telefones possíveis. Caso não seja encontrado nenhum o programa deve printar “Marquinhos esta louco!\\n”",
+    "format_input": "Uma linha com nove caracteres no formato: 4__2-8922 onde os números antes e após '_' são sempre maiores que 0.",
+    "format_output": "N linhas com diferentes combinações de possíveis números de telefone. (deve ser exibida considerando em ordem crescente dos números que haviam sido apagados)",
+    "topics": [
+        "repetição",
+        "números primos"
+    ]
+}

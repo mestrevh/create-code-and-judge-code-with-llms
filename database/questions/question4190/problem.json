@@ -1,0 +1,14 @@
+{
+    "title": "Avaliação de Filmes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rotten Tomatoes, IMDb e Metacritic são três dos sites mais populares de avaliação de filmes, séries e até jogos de videogame. Com isso, você foi designado para fazer um programa que leia uma série de dados e classifique, pelos critérios apresentados, quais as obras melhores rankeadas. Como os 3 sites possuem uma votação diferente, o Rotten com duas porcentagens de 0 a 100%, o IMDb com 0 a 5 estrelas e o Metacritic com uma nota dos críticos de 0 a 100 e outra da audiência de 0 a 10, para isso, vamos adaptá-las para o padrão de 0 a 10, fazendo a multiplicação ou divisão da nota máxima pelo fator respectivo, exemplo: Caso as porcentagens do Rotten sejão 67 ou se a nota dos críticos no Metacritic for 75, divide-se a nota por 10. Assim que todas as notas estiverem niveladas, utilize a média ponderada para traçar uma média para as notas de críticos e público do Rotten Tomatoes e Metacritic. Ao final, basta realizar a média aritmética entre as notas gerais do Rotten, IMDb e Metacritic. Até 20 filmes ou séries podem ser inseridos. Utilize o conceito de funções e de struct!",
+    "format_input": "Um vetor de caracteres de tamanho 30. Um inteiro indicando o ano de lançamento da obra. Um caractere que indique 'F' para filme e 'S' para série. Cinco números reais representando as médias das notas dos críticos e da audiência do Rotten Tomatoes, do IMDb e dos críticos e da audiência do Metacritic, respectivamente. Esse processo deve ocorrer até o programa receber \"0\" na entrada. Dois inteiros indicando o peso da nota dos críticos e do público (ambos válidos para o Rotten e Metacritic), nessa ordem, para calcular as notas finais.",
+    "format_output": "Deve imprimir na tela o texto \"RANKING DOS MELHORES FILMES\" e listar os filmes conforme a colocação numa média ponderada 1) Filme 1 (Ano 1) - Nota 2) Filme 2 (Ano 2) - Nota ... Após uma quebra de linha, deve imprimir na tela o texto \"RANKING DAS MELHORES SERIES\" e listar as series conforme a colocação numa média ponderada 1) Serie 1 (Ano 1) - Nota 2) Serie 2 (Ano 2) - Nota ...",
+    "topics": [
+        "decisão",
+        "ciclos",
+        "função",
+        "string",
+        "estruturas"
+    ]
+}

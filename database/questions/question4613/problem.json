@@ -1,0 +1,11 @@
+{
+    "title": "Cadeias Intercaladas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Olívia gosta de trocar mensagens \"secretas\" com sua irmã, para isso elas inventaram uma forma simples de criptografar as mensagens. Cada mensagem é dividida em duas partes e a mensagem original é a composição das duas partes intercaladas (um caractere de uma depois um caractere da outra etc.). Como as mensagens podem chegar fora de ordem, elas decidiram que precisariam garantir que a primeira parte da mensagem sempre fosse lexicograficamente menor que a segunda parte. Como o trabalho de reconstruir a mensagem original é um pouco chato, Olívia decidiu escrever um programa que recebe como entrada as duas partes da mensagem e reconstrói a mensagem original.",
+    "format_input": "A entrada é composta por duas linhas, cada uma contém uma string composta por letras minúsculas e caracteres especiais (espaços, pontos etc.) representando uma das partes da mensagem. Note que as duas strings não precisam ter o mesmo tamanho.",
+    "format_output": "A saída é dada por uma única string representando a mensagem original, ou seja, é a intercalação da string que é lexicograficamente menor com a string que é lexicograficamente maior. Caso uma das partes seja menor que a outra, a mensagem é completada com o que restou da parte de maior comprimento. A impressão da mensagem deve ser terminada com uma quebra de linha. Obs.: Na definição da ordem lexicográfica os caracteres seguem a ordem da tabela ASCII.",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}
