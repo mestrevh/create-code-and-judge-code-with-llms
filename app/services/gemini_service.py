@@ -11,7 +11,7 @@ class GeminiService(LLMProvider):
     def __init__(self):
         genai.configure(api_key=config.GEMINI_API_KEY)
         
-        models = ['models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-3.1-pro-preview', 'models/gemini-3-flash-preview']
+        models = ['models/gemini-2.5-flash', 'models/gemini-3.1-pro-preview', 'models/gemini-3-flash-preview']
         
         while True:
             print("Modelos:" + str(models))

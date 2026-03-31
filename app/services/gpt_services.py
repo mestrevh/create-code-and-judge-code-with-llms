@@ -12,7 +12,7 @@ class GPTService(LLMProvider):
     def __init__(self):
         self.__agent = OpenAI(api_key=config.GPT_API_KEY)
         
-        models = ['gpt-4.1-mini', 'gpt-4.1', 'gpt-4o-mini']
+        models = ['gpt-5.4-nano', 'gpt-5.4', 'gpt-4o-mini']
         
         while True:
             print("Modelos:" + str(models))
