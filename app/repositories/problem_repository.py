@@ -116,9 +116,9 @@ class ProblemRepository (ProblemInterface):
             print("Descrição:", self.__problem.description)
             print("Formato de entrada:", self.__problem.input_format)
             print("Formato de saída:", self.__problem.output_format)
-            print(self.get_cases_test_of_problem())
+            print(self.get_cases_test_of_problem(size=len(self.__problem.cases_test)))
 
-    def get_cases_test_of_problem(self):
+    def get_cases_test_of_problem(self, size: int = 2):
         
         output = "<test cases>\n"
         for i in range(len(self.__problem.cases_test)):
@@ -136,7 +136,45 @@ class ProblemRepository (ProblemInterface):
             
             output += f"</test {i}>\n"
             
+            if i + 1 >= size:
+                output += "</test cases>"
+                return output        
+            
         output += "</test cases>"
+        return output
+    
+    def get_format_question_prompt_simulation(self):
+        output = "<title>\n"
+        output += self.__problem.title
+        output += "</title>\n"
+        
+        output += "<topics>\n"
+        for i in range(len(self.__problem.topics)):
+            output += f"<t{i}>{self.__problem.topics[i]}</t{i}>\n"
+        output += "</topics>\n"
+        
+        output += "<time limit>\n"
+        output += f"{self.__problem.time_limit}"
+        output += "</time limit>\n"
+        
+        output += "<time limit>\n"
+        output += f"{self.__problem.time_limit}"
+        output += "</time limit>\n"
+        
+        output += "<descrition>\n"
+        output += f"{self.__problem.descrition}"
+        output += "</descrition>\n"
+        
+        output += "<input format>\n"
+        output += f"{self.__problem.input_format}"
+        output += "</input format>\n"
+        
+        output += "<output format>\n"
+        output += f"{self.__problem.output_format}"
+        output += "</output format>\n"
+        
+        output += f"\n{self.get_cases_test_of_problem(size=len(self.__problem.cases_test))}"
+        
         return output
     
     def get_format_question_prompt(self):

@@ -126,7 +126,7 @@ class GeminiService(LLMProvider):
                         "FEEDBACK: [Justifique sua avaliação. Se REPROVADO, explique qual teste falhou ou qual erro de sintaxe/lógica ocorreu. Se APROVADO, comente sobre a eficiência da implementação.]\n\n"
                         
                         "--- DADOS DO PROBLEMA E CASOS DE TESTE ---\n"
-                        f"{problem.get_format_question_prompt()}\n\n"
+                        f"{problem.get_format_question_prompt_simulation()}\n\n"
                         
                         "--- CÓDIGO SUBMETIDO PARA AVALIAÇÃO ---\n"
                         f"{code}\n"
