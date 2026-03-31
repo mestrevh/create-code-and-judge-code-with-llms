@@ -1,0 +1,12 @@
+{
+    "title": "Triângulos de Bonifácio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bonifácio recebe n triângulos, e de cada um, mede o tamanho de seus três lados. Ele quer que você o ajude a ordená-los pela área, do menor ao maior, calculando esta área com a função void calculaArea(int a, int b, int c, double *area) A melhor forma de calcular a área de um triângulo de lados a, b e c, é pela fórmula de Heron: OBS: Deverá ser feito o uso de uma estrutura que tem nela os três lados do triângulo, e sua área.",
+    "format_input": "o número inteiro n de triângulos que serão calculados; n linhas com três inteiros separados por espaços, que são os três lados do triângulo. Restrições: a+b > c ; a+c > b ; b + c > a.",
+    "format_output": "Os lados do triângulos ordenados da menor área para a maior área.",
+    "topics": [
+        "estrutura de dados",
+        "array",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A Viagem Dos Gêmeos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rafa e Beto são irmãos que foram separados na maternidade, mas se reencontraram quando Beto entrou na faculdade. Com o intuito de se conhecerem melhor, ambos começaram a vender brownies e cookies no campus para arrecadar dinheiro para viajarem juntos. Como Rafa é um amante das artes, os irmãos decidiram ir para a França visitar o Louvre. Porém, foi despertada a curiosidade em Beto, e ele decidiu calcular quanto é para construir uma estrutura de vidro que nem a do Louvre, com N andares. Assim, Beto do Brownie montou um programa para isso. Para isso, ele decidiu montar a construção da pirâmide da seguinte forma: \".\" REPRESENTA ESPAÇO VAZIO \"&\" REPRESENTA JANELA QUE CUSTA 200 REAIS CADA \"-\" REPRESENTA CORDÕES DE SUSTENTAÇÃO QUE CUSTA 50 REAIS CADA \"#\" REPRESENTA A BASE DA CONSTRUÇÃO QUE CUSTA 100 REAIS CADA",
+    "format_input": "O número n de andares da pirâmide. Entre 1 e 99.",
+    "format_output": "A pirâmide montada de acordo com o número de andares, '\\n' e o valor de toda a construção da pirâmide.",
+    "topics": [
+        "repetição"
+    ]
+}

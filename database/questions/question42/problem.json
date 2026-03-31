@@ -1,0 +1,10 @@
+{
+    "title": "Eleitor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia a idade (valor inteiro) de uma pessoa e informe sua classe eleitoral: nao eleitor (abaixo de 16 anos) eleitor obrigatorio (maior ou igual a 18 e menor ou igual a 65 anos) eleitor facultativo (entre 16 e 18 anos (18 não incluso) ou acima dos 65 anos)",
+    "format_input": "Consiste de um número inteiro indicando a idade da pessoa.",
+    "format_output": "Uma linha escrita como: \"nao eleitor\", \"eleitor obrigatorio\" ou \"eleitor facultativo\" (sem as aspas) de acordo com o critério da descrição.",
+    "topics": [
+        "decisão"
+    ]
+}

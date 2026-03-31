@@ -1,0 +1,11 @@
+{
+    "title": "Q06 - Operações entre dois números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "crie um procedimento chamado \"calculadora\" que recebe dois números A e B que mostre: a soma deles; a diferença deles; a multiplicação entre eles; a divisão entre eles; da seguinte maneira: A + B = C B - A = D A * B = E B / A = F Qual C, D, E e F são os resultados dessas operações em caso de A for 0, mostre a, na parte de divisão: \"B / A = Indeterminado\"",
+    "format_input": "dois números reais",
+    "format_output": "A + B = C B - A = D A * B = E B / A = F",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

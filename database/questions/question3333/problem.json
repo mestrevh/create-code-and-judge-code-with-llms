@@ -1,0 +1,11 @@
+{
+    "title": "Triangulo do Vinicius",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Vinicius é um ótimo programador, mas é meio doido também. Certo dia ele foi desafiado por seu amigo a escrever um programa que gerasse um triangulo, como o abaixo, dado uma letra do alfabeto que representa até onde ele deve ir. assim ele pensou num programa para fazer um triângulo desses para ele. Escreva um programa que dada uma letra (entre A e Z) imprima um triangulo até ela.",
+    "format_input": "Uma letra C (Entre A e Z) que dirá até onde será feito o triângulo",
+    "format_output": "Um triângulo como o da imagem acima.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

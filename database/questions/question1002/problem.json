@@ -1,0 +1,11 @@
+{
+    "title": "Prefixo, Sufixo ou Subpalavra",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Será dada uma palavra principal W (uma string), um número N e em seguida serão dadas N palavras secundárias. Você deve dizer se cada palavra é um SUFIXO, um PREFIXO ou somente uma SUBPALAVRA da palavra principal. Caso não seja nenhuma dessas, classifique-a como PALAVRA LIVRE. Definições: Prefixo • qualquer sequência inicial de caracteres da palavra. Sufixo • qualquer sequência final de caracteres da palavra. Subpalavra • qualquer sequência de caracteres contíguos da palavra.",
+    "format_input": "Uma string W que representa a palavra principal. Um inteiro N que define o número de palavras secundárias seguintes que serão comparadas com W. Onde 1 < N < 100.",
+    "format_output": "\"PREFIXO\", \"SUFIXO\", \"SUBPALAVRA\" ou \"PALAVRA LIVRE\" para cada comparação da palavra principal com uma secundária. Assim como explicado na descrição. Obs.: Tanto um prefixo quanto um sufixo são subpalavras. Porém você só deverá classificar a palavra como subpalavra caso não seja sufixo nem prefixo.",
+    "topics": [
+        "substrings",
+        "string"
+    ]
+}

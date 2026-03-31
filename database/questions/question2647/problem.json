@@ -1,0 +1,10 @@
+{
+    "title": "ALVO",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dadas as coordenadas (x,y) de dois pontos (A e B) e as coordenadas de um ponto alvo (ponto C), mostre qual dos pontos (A ou B) está mais próximo do alvo (ponto C). Mostre também a distância que este ponto (A ou B) está do alvo. X e y são coordenadas inteiras no intervalo de -100 a 100. A primeira linha contém as coordenadas do ponto A; A segunda linha contém as coordenadas do ponto B; A terceira linha contém as coordenadas do ponto C (alvo).",
+    "format_input": "2 4 5 2 3 3",
+    "format_output": "A - 1.41",
+    "topics": [
+        "obi"
+    ]
+}

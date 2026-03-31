@@ -1,0 +1,12 @@
+{
+    "title": "Analisando o CRE",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fernanda tem um projeto de extensão e precisa selecionar alunos. Escreva um programa para que ela possa informar matrícula e CRE dos vários inscritos, e ver, ao final, a matrícula do aluno com menor CRE e o CRE médio de todos os candidatos.",
+    "format_input": "Um String (matrícula) e um float (CRE) para cada candidato. A entrada de dados deve parar quando for informada a matrícula 999",
+    "format_output": "Um String com a matrícula que teve o menor CRE, seguida por um float com duas casas decimais para a média de CREs. Esses valroes devem ser separados por uma quebra de linha (enter)",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

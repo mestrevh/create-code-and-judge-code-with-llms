@@ -1,0 +1,11 @@
+{
+    "title": "Q08 - Desenhe o retângulo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desenvolva um procedimento chamado \"formarRetangulo\" que recebe dois números inteiros representando largura e altura e imprime um retângulo de asteriscos (*).",
+    "format_input": "dois numeros inteiros que representam largura e altura, respectivamente",
+    "format_output": "Um retângulo de asteriscos com largura e altura que foram inseridas na entrada",
+    "topics": [
+        "caractere",
+        "função"
+    ]
+}

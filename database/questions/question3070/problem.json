@@ -1,0 +1,10 @@
+{
+    "title": "Soma de restos",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Responda q queries sobre um array A e um divisor m. Cada query será do tipo: l r d. A resposta da query deve ser a quantidade de números em A entre l e r que possuem resto de divisão por m igual a d.",
+    "format_input": "A primeira linha da entrada terá dois inteiros n e m, indicando o tamanho do array A e o divisor m. A próxima linha terá os n inteiros do array A. A terceira linha terá um inteiro q, representando a quantidade de queries que deverão ser respondidas. E então virão q linhas com três inteiros seguindo o mesmo formato da descrição: l r d, indicando as informações da query. Limites: 1 <= n, m <= 2*10^3 0 <= A_i <= 10^9 1 <= q <= 10^6 1 <= l <= r <= n 0 <= d < m",
+    "format_output": "Para cada query, imprima um inteiro com a resposta da query.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

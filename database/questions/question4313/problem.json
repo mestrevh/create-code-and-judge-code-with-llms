@@ -1,0 +1,11 @@
+{
+    "title": "As senhas de Neg",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Neg é um menino muito sábio e sempre se esforça para tirar as melhores notas. Porém, ele tem um problema, Neg nunca consegue lembrar de suas senhas de redes sociais e aplicativos, pois tem um caso grave de esquecimento. Por isso, Neg precisa anotar suas senhas toda vez quando cria uma conta nova em uma plataforma. Para ajudar Neg, você deve desenvolver um sistema de criptografia para ele guardar todas suas senhas, sem suas senhas serem expostas. Baseado na tabela de decodificação abaixo, criptografe as senhas de Neg. Letras e números que não estão na tabela não devem ser modificados.",
+    "format_input": "A quantidade de senhas que vão ser inseridas , seguido pelas senhas, uma em cada linha. As plataformas requerem que a senha seja composta por letras maiúsculas e digitos, exclusicamente.",
+    "format_output": "Em uma única linha deve ser apresentado todas as senhas criptografadas juntas, separadas por um '-', e a soma da quantidade de caracteres de todas as senhas. Se a senha houver um caractere diferente de letra maíuscula ou digito, deve ser apresentado \"Alguma senha eh invalida!\".",
+    "topics": [
+        "array",
+        "string"
+    ]
+}

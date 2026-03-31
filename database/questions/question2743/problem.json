@@ -1,0 +1,10 @@
+{
+    "title": "Qual a somatória?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sofia e Maria Magda estão cursando a matéria de PAA na UFAL. Ao realizarem uma prova teórica, as duas observaram que para resolver questões de complexidade de algoritmo elas deveriam descobrir a somatória, de apenas 5 termos, relacionada à equação de recorrência. Entretanto, Maria Magda e Sofia não eram boas em matemática e como a prova já estava acabando elas mandaram os termos em ordens aleatórias. O seu trabalho é identificar a qual somatória a entrada pertence. Somatórios: Somatoria I n1 + (n1 + 1) + (n1 + 2) + (n1 + 3) + (n1 + 4) Somatoria II n1 + (n1 + 1)² + (n1 + 2)² + (n1 + 3)² + (n1 + 4)² Somatória III (n1)³ + (n1 + 1)³ + (n1 + 2)³ + (n1 + 3)³ + (n1 + 4)³ Dica: Ordene a entrada de forma crescente",
+    "format_input": "Você receberá cinco doubles em uma ordem aleatória.",
+    "format_output": "Na primeira linha você deverá informar se a entrada pertence a alguma somatória e, caso positivo, você deverá informar qual o tipo dela.",
+    "topics": [
+        "decisão"
+    ]
+}

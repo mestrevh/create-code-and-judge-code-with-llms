@@ -1,0 +1,12 @@
+{
+    "title": "Organizando a confraternização",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tales e seus amigos do futebol estão decidindo onde e quando será a confraternização de Natal deles. Como não houve um consenso, resolveram fazer uma enquete em que cada um teria que escolher uma opção de dia (sexta ou domingo) e uma opção de local (bar ou praia). Escreva um programa que receba como entrada os votos das 11 pessoas do grupo e exiba qual o dia e o destino escolhidos.",
+    "format_input": "Dois Strings para cada pessoa. Podem ser usadas letras maiúsculas e/ou minúsculas",
+    "format_output": "Dois String em letras maiúsculas, sendo o primeiro correspondente ao dia, e o segundo ao local",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

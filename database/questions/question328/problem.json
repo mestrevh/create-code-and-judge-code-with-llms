@@ -1,0 +1,10 @@
+{
+    "title": "Quadrante",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para ler as coordenadas (X, Y) de um ponto no sistema cartesiano. E escrever à qual quadrante ele pertence.",
+    "format_input": "Dois números inteiros.",
+    "format_output": "Imprima o quadrante correspondente que estas coordenadas pertencem, que pode ser: primeiro, segundo, terceiro, quarto, eixo x, eixo y, origem. Será eixo x quando a coordenada y for zero. Será eixo y quando a coordenada x for zero. Os outros basta achar a localização do ponto no plano cartesiano. A saida deve ser seguida de uma quebra de linha.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

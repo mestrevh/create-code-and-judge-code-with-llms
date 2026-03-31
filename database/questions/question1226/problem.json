@@ -1,0 +1,11 @@
+{
+    "title": "Maior par",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore uma função para calcular o maior elemento par de uma lista passada por parâmetro.",
+    "format_input": "Uma lista com valores inteiros",
+    "format_output": "O maior elemento par da lista",
+    "topics": [
+        "array",
+        "função"
+    ]
+}

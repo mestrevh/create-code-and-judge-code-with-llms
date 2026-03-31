@@ -1,0 +1,11 @@
+{
+    "title": "Divisão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que encontra e imprime todos os pares de números com cinco dígitos que entre eles usam os dígitos 0 a 9 somente uma vez. Além disso, o primeiro número dividido pelo segundo é igual a um inteiro n. Ou seja, abcde / fghij = n onde cada letra representa um dígito diferente. É possível que o primeiro dígito de qualquer um dos números seja 0.",
+    "format_input": "Cada linha de entrada consiste de um inteiro n. Uma entrada de 0 indica o fim do programa. Considere: 2<=n<=79",
+    "format_output": "Seu programa deve imprimir todos os pares de inteiros que se qualificam nas regras acima. Os pares devem ser ordenados em ordem crescente pelo numerador e, em caso de empate, pelo denominador. A saída deve seguir o seguinte formato: xxxxx / xxxxx = N xxxxx / xxxxx = N . . No caso onde não existirem pares que satisfaçam as condições, você deve imprimir: There are no solutions for n. Substitua n pelo número lido. Separa a saída de dois diferentes valores de N por uma linha em branco. Veja o exemplo de entrada e saída.",
+    "topics": [
+        "busca completa",
+        "backtracking"
+    ]
+}

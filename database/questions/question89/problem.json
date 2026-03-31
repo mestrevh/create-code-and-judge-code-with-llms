@@ -1,0 +1,12 @@
+{
+    "title": "Permutação Comum",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Dadas duas string em caixa-baixa, a e b, imprima a maior string x de letras minúsculas tais que: existe uma permutação de x tal que todos os caracteres de x pertencem a \"a\" e existe uma permutação de x tal que todos os caracteres de x pertencem a \"b\". Lembre-se que por permutação entende-se qualquer rearranjo dos caracteres na string, por exemplo \"abc\" pode ser permutado em \"bca\", \"bac\", \"acb\" e etc...",
+    "format_input": "O arquivo de entrada contém várias linhas de entrada. A primeira linha contém uma string a, a segunda linha contém uma string b, cada string contém no máximo 1000 caracteres. A entrada termina com a = b = \"fim\", este caso não deve ser processado.",
+    "format_output": "Para cada dupla de strings a e b, imprima uma linha contendo x. Se houver mais de um x que satisfaça o critério acima, escolha o primeiro em ordem alfabética. Obs.: Se não houver x, imprima uma linha em branco",
+    "topics": [
+        "substrings",
+        "string",
+        "busca"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Lista de contatos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Joãozinho está criando uma lista de contatos e precisa de sua ajuda. Ele precisa que para cada contato você crie uma estrutura com os seguintes itens: Nome e sobrenome; Número no formato (00)01234-5678; Código informando a relação que João tem com a pessoa, sendo: 1 para família; 2 para faculdade; 3 para amigo. Você deve criar um programa que receba essas informações e também permita que Joãozinho pesquise os contatos, através do nome, retornando as informações referentes ao mesmo, até que o usuário digite \"#\". Caso Joãozinho não tenha cadastrado essa pessoa, imprima um aviso: \"<nome pesquisado> nao foi cadastrado\". Note que Joãozinho irá pesquisar apenas pelo primeiro nome, então caso existam duas pessoas com o mesmo primeiro nome, imprima as duas. Exemplo: - Entrada: Maria Eduarda (00)01234-5678 1 Maria Julia (00)01234-5678 2 # - Saída: Se Joãozinho pesquisar por Maria, você deve imprimir: Nome: Maria Eduarda Numero: (00)01234-5678 Vinculo: Familia Nome: Maria Julia Numero: (00)01234-5678 Vinculo: Faculdade",
+    "format_input": "O formato de entrada consiste em: 1. Um inteiro n indicando quantos contatos serão adicionados (0<n<50); 2. As informações dos contatos na ordem: Nome: string de no máximo 50 caracteres; Número: string no formato (00)01234-5678; Inteiro indicando o código de vínculo; 3. Os nomes a serem pesquisados, até o usuário digitar \"#\".",
+    "format_output": "O formato de saída consiste nas informações abaixo separadas por quebra de linha dupla: Nome: Nome Sobrenome Numero: (00)01234-5678 Vinculo: Familia, Faculdade ou Amigo (de acordo com o código de vínculo) Observe que, os nomes devem ser impressos na ordem em que foram pesquisados e caso o nome pesquisado tenha mais de um contato, imprimir na ordem em que foi recebido. Por fim, se o nome pesquisado não estiver cadastrado, imprimir: \"<nome pesquisado> nao foi cadastrado\".",
+    "topics": [
+        "string",
+        "estruturas"
+    ]
+}

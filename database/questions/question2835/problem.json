@@ -1,0 +1,14 @@
+{
+    "title": "Contando frequência de caracteres",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba um texto em uma única linha e imprima cada caractere e o número de vezes que ocorre no texto, na ordem inversa à alfabética.",
+    "format_input": "Uma linha contendo qualquer caractere, que pode incluir letras, números, pontuação e caracteres especiais.",
+    "format_output": "Uma sequência linhas onde cada linha contém um caractere e seu respectivo número de ocorrências no texto. A sequência de caracteres segue a ordem alfabética decrescente.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "ordenação",
+        "dicionário"
+    ]
+}

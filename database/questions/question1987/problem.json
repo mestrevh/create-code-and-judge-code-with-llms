@@ -1,0 +1,10 @@
+{
+    "title": "Confraternização Justa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os funcionários de uma empresa chamada QUALQUER S.A. vão se confraternizar e como sempre acontece, começou a se discutir qual seria o valor mais justo a ser pago por cada um. O problema é que há pessoas que ganham mais e são beneficiadas em outras situações. Então eles fizeram o seguinte para estimular cada um a dar o máximo que pudesse: cada um daria um valor igual ou inferior ao total sem ver quanto os demais dariam. Ao final se calcularia a média e quem deu o maior valor de todos receberia o excedente. Para isso nosso programa vai receber um valor N (número de funcionários), o valor total da conta, o nome e o valor pago de cada um dos N funcionários e ao final vai exibir o valor da conta, a média, o nome de quem pagou mais e o excedente.",
+    "format_input": "Um valor em ponto flutuante (Valor total da conta), Um valor inteiro N (número de funcionários), N strings correspondentes aos nomes de cada funcionário N valores correspondentes ao valor pago de cada um dos N funcionários",
+    "format_output": "Nome de quem pagou mais (string), Valor do excedente (float). Observação: veja formato da frase de saída em casa um dos exemplos usados.",
+    "topics": [
+        "repetição"
+    ]
+}

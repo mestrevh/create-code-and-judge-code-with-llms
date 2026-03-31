@@ -1,0 +1,10 @@
+{
+    "title": "A rainha gulosa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um tabuleiro de xadrez de dimensão N×N, uma rainha está posicionada em uma das casas. Algumas casas do tabuleiro contêm peças inimigas que a rainha deseja capturar, enquanto outras contêm obstáculos que bloqueiam sua visão e movimento. Regras: A rainha pode se mover em qualquer direção: horizontal, vertical e diagonal. Ela pode capturar uma peça inimiga se houver uma linha reta (em qualquer das direções mencionadas) entre sua posição e a peça, sem que haja obstáculos no caminho. Após capturar uma peça, a rainha não pode continuar se movendo na mesma direção além da peça capturada.",
+    "format_input": "Um inteiro N (3 ≤ N ≤ 100), representando o tamanho do tabuleiro. Uma matriz N×N, onde cada célula contém: 0 para uma casa vazia, 1 para a posição da rainha, 2 para uma peça inimiga, 3 para um obstáculo.",
+    "format_output": "Um inteiro representando o número total de peças inimigas que a rainha pode capturar a partir de sua posição atual.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

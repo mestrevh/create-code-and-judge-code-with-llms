@@ -1,0 +1,10 @@
+{
+    "title": "Mediana",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um valor mediano é representado pelo valor central de um conjunto de dados. Por exemplo, olhando a ilustração abaixo o valor mediano entre o conjunto de dados \"2 4 5 6 7 8 9\" é 6, pois corresponde exatamente ao valor central do conjunto. No segundo exemplo da ilustração, o valor mediano é representado pela média aritmética entre os dois elementos centrais, isso ocorre porque não conseguimos estimar exatamente o valor central, pois o número de elementos do nosso conjunto é PAR. Você precisa fazer um programa que calcule a mediana. Observação IMPORTANTE! Você só poderá utilizar os conhecimentos que foram passados na disciplina!! Caso contrário sua nota será ANULADA.",
+    "format_input": "A entrada é composta por duas linhas. Na primeira linha informa-se a quantidade Q de números do conjunto de dados. Na segunda linha informa-se todos os elementos do conjunto separados por um espaço em branco.",
+    "format_output": "A saída do caso de teste deve apresentar um inteiro que representa o valor mediano.",
+    "topics": [
+        "ciclos"
+    ]
+}

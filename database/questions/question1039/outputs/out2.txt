@@ -1,0 +1,31 @@
+------------------------------
+The tree abc** has:
+- Left subtree: a
+- Right subtree: bc*
+------------------------------
+------------------------------
+The tree a has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree bc* has:
+- Left subtree: b
+- Right subtree: c
+------------------------------
+------------------------------
+The tree b has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+------------------------------
+The tree c has:
+- Left subtree: 
+- Right subtree: 
+------------------------------
+
+Decoding Tree is:
+
+a : 0
+b : 10
+c : 11

@@ -1,0 +1,12 @@
+{
+    "title": "L1Q? - O resgate de Aang",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Katara e Sokka receberam a notícia de que Aang acaba de ser aprisionado em uma das bases dos dobradores de fogo e precisam da sua ajuda para resgatar seu amigo. Para isso precisam calcular se é possível chegar até a base em que Aang está aprisionado, seu meio de transporte é o bisão voador Appa. Appa possui uma quantidade X relativa a eficiência km/kg de comida a qual pode voar com uma quantidade Y de alimento. Eles terão de passar por um total de 4 cidades, faça um programa que calcula se Appa conseguirá chegar ao destino final sem ter que parar para se alimentar.",
+    "format_input": "A entrada será composta por 10 linhas. A primeira linha contém Y (quantidade de comida que Appa comeu) e X (eficiência em km/kg): Y X N - número inteiro, 0 <= N <= 50 X - número de ponto flutuante, X > 0 As próximas 8 linhas são no formato: S D S - String (nome da cidade) D - número inteiro (distância em km entre o último ponto visitado e S), D >= 0",
+    "format_output": "Caso Katara e Sokka não tenham dado comida para Appa (N = 0), a saída deverá ser: Appa não vai a lugar algum sem comer! Obs: esta saída é obrigatória caso N = 0. Caso seja possível completar o trajeto sem precisar alimentar Appa, a saída será: Chegamos finalmente, agora vamos libertar Aang! Caso tenham alimentado Appa, mas não o suficiente para completar o percurso, a saída será: Vamos de carroça mesmo!",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "string"
+    ]
+}

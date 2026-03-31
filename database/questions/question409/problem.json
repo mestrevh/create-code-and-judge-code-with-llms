@@ -1,0 +1,11 @@
+{
+    "title": "Série de Miguelito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Miguelito gosta muito de séries numéricas e resolveu criar uma com seu nome. O primeiro valor da série de Miguelito é 3, e cada novo número é gerado somando-se ora 4 ora 1 ao valor anterior, de acordo com o exemplo abaixo: 3 7 8 12 13 17 18 22 23 27 ... Escreva uma função recursiva chamada SerieMiguelito que receba como entrada o índice do elemento na sequência e retorne seu valor.",
+    "format_input": "Um valor inteiro",
+    "format_output": "Um valor inteiro",
+    "topics": [
+        "função",
+        "recursão"
+    ]
+}

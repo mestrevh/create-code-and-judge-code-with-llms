@@ -1,0 +1,11 @@
+{
+    "title": "L5Q2 - Communication",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Depois que o grupo se estabelece no banco, a polícia local tem a ideia de colocar escutas no banco. Com o objetivo de escutar o planejamento do bando. Contudo,o que eles não contavam é que, o professor por ser um pessoa inteligentíssima, bolou um sistema de comunicação muito genial! Seu sistema consiste na comunicação de sequência de letras, para a formação de uma única letra. - O que isso significa ? Significa que a partir de um palavra, iremos formar uma única letra e a partir dessas, formar palavras. O método consiste em pegar uma palavra, somar todas suas letras(com base na tabela ASCII-Decimal).Logo após, aplicar a \"mod 90\" na soma. Caso o resultado da aritmética modular aplicada anteriormente, seja < 65, o número será igual 65 + o número \"mod 26\". Sua tarefa é implementar o sistema de comunicação, para auxiliar o Professor. OBS: É obrigatório a utilização de recursão.",
+    "format_input": "Um número inteiro N Indicando o número de \"palavras\" a ser dita. E uma string S Referente às N \"palavras\" que serão inseridas.",
+    "format_output": "A saída consiste numa string R Sendo R, a concatenação de todas as letras, calculadas anteriormente.",
+    "topics": [
+        "acumulador",
+        "recursão"
+    ]
+}

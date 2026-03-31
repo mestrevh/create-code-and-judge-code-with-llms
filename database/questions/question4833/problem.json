@@ -1,0 +1,10 @@
+{
+    "title": "Cifra Maluca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A turma de telemática é muito animada, e queriam trocar mensagens entre si sem que outras pessoas soubessem seu conteúdo. Para isso, criaram uma cifra maluca, que consiste em trocar cada consoante pela vogal anterior a ela, dessa forma enviariam mensagens que, apenas quem conhece a cifra poderia decifrar.",
+    "format_input": "A entrada deve ter na primeira linha um inteiro T que indica o número de casos de teste. Depois, seguem-se T casos de teste. Cada linha do caso de teste contém um texto não vazio composto somente de caracteres maiúsculos do alfabeto sem espaços.",
+    "format_output": "Saída: a mensagem cifrada em caixa alta(todas as letras maiúsculas)",
+    "topics": [
+        "string"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Corona: Ep 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os níveis que o novo vírus atingiu são arrebatadores, a mais nova notícia é que a OMS (Organização Mundial de Saúde) decretou que estamos vivenciando uma Pandemia.Com essa declaração, até cidades pequenas do interior estão em estado de alerta para a doença, como a cidade de Surubim, onde o vigarista Ian teve uma grande idéiapara lucrar em tempos de pânico. Ian agora vende luvas de tamanhos variados, porém, o preço das luvas varia com a quantidade de casos confirmados no grande estado de Pernambuco. As luvas de tamanho P são vendidas a R$25, as de tamanho M, R$40, e as de tamanho G são vendidas por uma bagatela de R$70. Mas Ian, com seu jeitinho estranho de ser, só irá explorar a população da megalópole Surubim quando o número de casos for um número primo. Taxas por cada caso confirmado: %12,5 nas luvas P, em %29 nas luvas M e em %22 nas luvas G (juros compostos). Seu trabalho deve ser calcular, em reais, a soma de taxas que Ian cobrou (só os juros) e o quanto ele faturou (montante de juros + vendas sem adicionais). Esses números serão necessários para denunciar Ian ao PROCON.",
+    "format_input": "Receba um número N ( 1 < N <= 100) casos confirmados em Pernambuco, depois, leia a quantidade de luvas compradas na ordem (Primeiro as luvas P, depois M e G)",
+    "format_output": "O resultado do seu programa deve ser a soma das taxas com duas casas decimais, seguido por uma quebra de linha, e depois o valor total das vendas, também com duas casas, de Ian, o Mercenário.",
+    "topics": [
+        "ponto flutuante",
+        "acumulador",
+        "decisão",
+        "repetição",
+        "números primos"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Integrando pela Matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em Cálculo 2, existe uma operação para calcular área debaixo do gráfico de uma função f(x). O nome de tal operação é \"integração\". Nessa questão, vamos simular uma integração de modo simplificado. Deve-se integrar a função f(x) = ax² + bx + c, sendo a, b e c dados na entrada Exemplo de integração: Dados os valores a, b e c, faça o gráfico da função f(x) numa matriz 10x10. Para todo x entre [1, 10], pinte todos os locais da matriz debaixo do valor de f(x) (deve-se arredondar o valor de f(x) para baixo de modo que só retorne o valor inteiro), por exemplo: sendo a = 1, b = 0 e c = 0: 0 0 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 Para x = 1: f(1) = 1, logo, deve-se pintar tudo abaixo de 1 (incluindo 1) Para x = 2: f(2) = 4, logo, deve-se pintar tudo abaixo de 4 (incluindo 4) Para x = 3: f(3) = 9, logo, deve-se pintar tudo abaixo de 9 (incluindo 9) Para x = 4: f(4) = 16 (note que 16 está fora da matriz, então deve-se pintar tudo que está dentro da matriz, isto é, de 10 para baixo). ... Para x = 10: f(10) = 100, logo, deve-se pintar tudo abaixo de 100 (apenas pintar de 10 para baixo pois o restante está fora da matriz). Após pintar a matriz, deve-se calcular a sua \"integral\". Isto é, deve-se contar quantos 1s estão na matriz. OBS: a, b e c são valores reais.",
+    "format_input": "Serão dados os valores de a, b e c, sendo todos valores reais.",
+    "format_output": "Primeiro, deve-se printar a matriz pintada. Depois, deve-se printar o valor da \"integral\". OBS: DESSA VEZ, TEM ESPAÇO ANTES DA QUEBRA DE LINHA NA MATRIZ!",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "array bidimensional",
+        "função"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Produto interno (com funções)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fazer um programa para calcular o produto interno entre dois vetores, seguindo as orientações abaixo: •Escrever uma função para ler um vetor cujo número de elementos é passado como argumento; •No módulo principal, chamar essa função duas vezes gerando dois vetores independentes; •Escrever outra função que receba como argumentos esses dois vetores e o número indicando a quantidade de elementos que eles têm. Essa função deve retornar o produto interno entre os vetores; •Fazer o módulo principal.",
+    "format_input": "Número inteiro correspondente ao número de elementos dos dois vetores. Elementos do primeiro vetor (números reais) seguidos dos elementos do segundo vetor (também números reais), em coluna.",
+    "format_output": "Número real representando o produto interno entre os dois vetores.",
+    "topics": [
+        "array",
+        "função"
+    ]
+}

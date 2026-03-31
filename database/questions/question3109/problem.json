@@ -1,0 +1,12 @@
+{
+    "title": "Ansa vs Kcaj: The Final Maze",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os dois amigos Ansa e Kcaj estão de volta em mais um desafio divertido ! Certo dia Ansa e Kcaj estavam entediados e decidiram comprar um novo jogo para jogarem em seu incrível Polystation 4, logo eles foram na loja mais próxima e acabaram comprando o jogo The Final Maze. Ao chegarem em casa ambos estavam anciosos para poder finalmente se divertirem com o novo jogo, porém ao tentarem jogar pela primeira vez eles notaram que o seu console não estava exibindo as mensagens que eles acumularam durante a jogatina. Mas, Ansa e Kcaj resolveram pedir a sua ajuda para resolver esse problema ! Detalhes sobre o jogo: - O jogo tem um mapa bidimensional, no qual cada posição do mapa possui um inteiro equivalente a um caractere da tabela ASCII diferente do caractere '#' (representado pelo número 35) que indica que ali existe um caminho válido ou o inteiro 35 indicando existe uma parede naquela posição. - O início do mapa é sempre na posição (0,0). - Para cada posição válida que Ansa ou Kcaj passarem, eles devem imprimir o caractere equivalente ao inteiro daquela posição como forma de salvarem o caminho que foi percorrido. - Os jogadores não podem sair do mapa e nem passar por paredes, ou seja, se um comando vai pra uma posição não existente ou inválida, ele deve ser ignorado. - O caractere da posição inicial (0,0) deve sempre ser impresso e e ele sempre será diferente de '#' (representado pelo número 35). - No máximo, serão impressos T + 1 caracteres, caso se todos os comandos forem para posições válidas. Os comandos são: 3 - Esquerda  2 - Direita 1 - Cima 0 - Baixo",
+    "format_input": "Primeiro você irá receber dois inteiros N e M ( 2 <= N,M <= 100) equivalentes as dimensões do mapa. Em seguida você receberá NXM inteiros indicando o mapa de jogo. Logo em seguida será dado um inteiro T (0 <= Ta <= 100) indicando a quantidade de comandos que serão feitos por Ansa. Os próximos Ta inteiros indicam os comandos de Ansa. Logo em seguida será dado um inteiro Q (0 <= Tk <= 100) indicando a quantidade de comandos que serão feitos por Kcaj. Os próximos Tk inteiros indicam os comandos de Kcaj.",
+    "format_output": "Deverá ser impresso primeiramente o caminho feito por Ansa, seguido de uma quebra de linha Em seguida deverá ser impresso o caminho feito por Kcaj",
+    "topics": [
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

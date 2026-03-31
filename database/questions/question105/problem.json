@@ -1,0 +1,12 @@
+{
+    "title": "Crypt kicker",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Um método comum, mas inseguro de criptografia de texto é permutar as letras do alfabeto. Em outras palavras, cada letra do alfabeto é substituída no texto por alguma outra letra. Para garantir que a criptografia é reversível, não há duas letras substituídas pela mesma letra. Sua tarefa é decifrar várias linhas de texto codificados, partindo do princípio que cada linha utiliza um conjunto diferente de substituições, e que todas as palavras no texto decifrado são de um dicionário de palavras conhecidas.",
+    "format_input": "A entrada consiste de uma linha contendo um inteiro n , seguida de n palavras em minúsculas, uma por linha, em ordem alfabética. Estas n palavras compõem o dicionário de palavras que podem aparecer no texto decifrado. Depois do dicionário, existem várias linhas de entrada. Cada linha está codificada como descrito acima. Não existem mais de 1.000 palavras no dicionário. Nenhuma palavra é superior a 16 letras. As linhas criptografadas possuem apenas letras minúsculas e espaços e não excedem 80 caracteres de comprimento.",
+    "format_output": "Decifrar cada linha e imprimi-la na saída padrão. Se existem múltiplas soluções, qualquer uma vai funcionar. Se não houver solução, substituir cada letra do alfabeto por um asterisco.",
+    "topics": [
+        "busca completa",
+        "maratona",
+        "backtracking"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Brincando com Ambrosinho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrosinho ganhou um brinquedo de seu pai, um tabuleiro que rotaciona tanto no sentido horário quanto no anti-horário sempre em 90º graus. O jogo consiste em mostra de maneira correta como ficará o tabuleiro dando um N de rotação. Se N for negativo significa que vamos rotacionar N vezes no sentido anti-horário, caso o N seja positivo vamos rotacionar N vezes no sentido horário. Tabuleiro recebido Uma rotação horária Duas rotações horária Três rotações horária",
+    "format_input": "Dado três inteiros L, C e N, indicando respectivamente número de linhas, número de colunas do tabuleiro e número de rotações. Você receberá mais L linhas com C inteiros representando os valores do tabuleiro. 1 <= L, C <= 10000 -10000 <= N <= 10000",
+    "format_output": "O estado que o tabuleiro ficará após as rotações, em cada linha os números serão separados com um espaço em branco.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

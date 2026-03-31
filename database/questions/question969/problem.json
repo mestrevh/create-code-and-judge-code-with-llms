@@ -1,0 +1,12 @@
+{
+    "title": "Resolvendo o Sistema",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio estava estudando sistema de equações e se deparou com o seguinte sistema: X * Y * Z = A X² + Y² + Z² = B X⁴ + Y⁴ + Z⁴ = C Quantas soluções existem de que X, Y e Z não nulos?",
+    "format_input": "Três inteiros indicando A, B e C , respectivamente. 1 <= A , B , C <= 10^6",
+    "format_output": "Um inteiro indicando a quantidade de soluções possíveis.",
+    "topics": [
+        "lógica matemática",
+        "backtracking",
+        "requer solução eficiente"
+    ]
+}

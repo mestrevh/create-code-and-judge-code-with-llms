@@ -1,0 +1,11 @@
+{
+    "title": "Menor de 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia 3 números inteiros e imprima o menor deles.",
+    "format_input": "03 números inteiros separados por um final de linha.",
+    "format_output": "O menor dos números digitados.",
+    "topics": [
+        "decisão",
+        "ordenação"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Alunos abaixo e acima da média",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia um inteiro que representa a quantidade N de alunos de uma turma. Em seguida, deve ler a matrícula, o nome e a nota de cada um dos alunos. Depois de ler os dados dos N alunos, o programa deve calcular a média das notas dos alunos, imprimir os alunos que têm nota abaixo da média de todos os alunos, seguido dos alunos que têm nota igual ou maior que a média, ordenados de forma crescente pela nota. No final também deve ser impressa a média de todos os alunos.",
+    "format_input": "Uma linha contendo um inteiro N que representa a quantidade de alunos. Nas linhas seguintes devem ser lidos o número de matrícula (inteiro), o nome (string) e a nota (ponto flutuante) de cada um dos N alunos, sendo todos os dados de um aluno fornecidos em uma linha e separados por um hífen (sinal de menos).",
+    "format_output": "A saída consiste da lista com a nota (uma casa decimal), o número de matrícula e o nome dos alunos com nota abaixo da média, seguido de uma lista com os dados dos alunos com nota maior ou igual à média dos alunos. Os dados devem estar, ordenados pela nota. Em caso de empate na nota, a ordenação será pelo número de matrícula, que é único para cada aluno. Após os dados dos alunos, deve ser impressa a média, com 2 casas decimais. O formato de saída deve seguir o seguinte padrão: Alunos abaixo da media: Matricula: 999999 Nome: NNN Nota: 99.9 Matricula: 999999 Nome: NNN Nota: 99.9 Alunos acima ou iguais a media: Matricula: 999999 Nome: NNN Nota: 99.9 Media = 99.99 Note que há um espaço em branco após o caractere ':' e antes e depois do caractere '='. Observe também que é necessário colocar as strings “Alunos abaixo da media:” e “Alunos iguais ou acima da media:”.",
+    "topics": [
+        "ponto flutuante",
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "decisão",
+        "entrada formatada",
+        "repetição",
+        "string",
+        "ordenação"
+    ]
+}

@@ -1,0 +1,6 @@
+Título: A different tree
+Topicos do problema: estrutura de dados; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Pensando em novas alterações para o projeto final dos próximos períodos, o professor Márcio decidiu alterar a forma como a árvore de Huffman é salva no arquivo. Ajude-o a implementar o novo algoritmo que gera a representação da árvore de Huffman, substituindo a impressão em pre-order por in order, r<span>ealizando também a impressão da codificação dos caracteres. </span></p><p>Ao implementar fila de prioridade, utilize uma lista. Se houver caracteres com a mesma frequência considere os valores da tabela ascii, caracteres de menor valor tem maior prioridade. A string lida não possui o caractere '*'.</p>
+Formato da entrada: <p>Uma string com até 256 caracteres.</p>
+Formato da saída: <p>Na primeira linha a palavra Tree seguida por '\t'-'\t' e a árvore printada em in order. Em seguida, nas<b> N</b> próximas linhas os <b>i</b>-ésimos caracteres contidos na string impressos pela ordem da tabela ASCII seguida por '\t'-'\t' e a codificação dos mesmos segundo a árvore de Huffman.</p>

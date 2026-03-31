@@ -1,0 +1,10 @@
+{
+    "title": "L5Q4 - CUIDADO!Sujeito a ataque de Demogorgon",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os ataques de um misterioso sequestrador ainda não cessaram, desesperados com os desaparecimentos de Will e Barbs, moradores de Hawkins decidem se juntar e criar um programa para calcular a chance de encontrarem a pessoa que estava sequestrando os habitantes locais de acordo com o horário do dia. Mal sabiam eles que não era uma pessoa que andava sequestrando pela cidade. O Xerife Hopper, que já duvidava sobre a sobrenaturalidade dos casos, disse ao programador que a chance de aparecimento dependia de 2 fatores, o horário do dia e a quantidade de sangue presente no local. \"Para saber a chance de aparecimento numa hora X deve-se utilizar uma sequencia que alterna entre somar uma quantidade Y de sangue ou o resto da divisão da hora anterior por um número de acordo com a fórmula a seguir: Se a hora for 05am: 5. De 06am às 03pm: (chance da hora anterior) + Sangue/2 (se hora for par). (chance da hora anterior) + (chance da hora anterior)%7 (se hora for impar). De 04pm às 04am: (chance da hora anterior) + Sangue (se hora for par). (chance da hora anterior) + (chance da hora anterior)%10 (se hora for impar). Ou seja, comece sempre contando das 5 da manhã.\" - Xerife Hopper (este problema deve ser resolvido utilizando recursão)",
+    "format_input": "H am/pm Sendo H um número natural. S Sendo S a quantidade de sangue presente no local em ml.",
+    "format_output": "Uma linha única no seguinte formato: \"A chance de aparecimento de Demogorgon e de X%.\" Com sendo X um número com 1 casa decimal. Em seguida, caso a chance seja maior ou igual a 100%: \"Ou seja, nao olhe para tras.\" ou: Caso a hora não exista ou a quantidade de ml seja negativa. \"Dados Invalidos.\"",
+    "topics": [
+        "recursão"
+    ]
+}

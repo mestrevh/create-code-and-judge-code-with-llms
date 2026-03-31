@@ -1,0 +1,10 @@
+{
+    "title": "P3.Q3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que, dado um valor n de entrada representando um número máximo de asteriscos por linha, imprima na tela o seguinte padrão (nesse caso, n= 5):\n\n* \n* * \n* * * \n* * * * \n* * * * * \n* * * * \n* * * \n* * \n*",
+    "format_input": "Um número inteiro n.",
+    "format_output": "O padrão de acordo com o número n lido.",
+    "topics": [
+        "repetição"
+    ]
+}

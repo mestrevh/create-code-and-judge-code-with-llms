@@ -1,0 +1,14 @@
+{
+    "title": "Caçador de Tesouros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sr. TimeTraveler adora jogar Treasure Hunter, um jogo onde o objetivo é pegar a maior quantidade de tesouros. O jogo se passa num labirinto N por M, onde as paredes são marcadas com '#' e os caminhos livres com '.'. Existem 4 tipos de tesouros, cada um com sua respectiva pontuação e marcadores: 1 - Bronze - 'b' 5 - Prata - 'p' 10 - Ouro - 'o' 50 - Diamante - 'd' Neste jogo, você sempre começa da posição (0, 0), e você não pode voltar pelo caminho que veio, pois as paredes se fecham. Mas, o Sr. TimeTraveler tem uma máquina do tempo, assim, ele pode voltar no tempo e escolher outro caminho. Assim, ele sempre consegue a maior pontuação possível. Porém, Sr. TimeTraveler percebeu que viajar no tempo é muito perigoso, e pediu para você encontrar um jeito de descobrir a maior pontuação possível. (Observação: Você só pode se mover para cima, baixo, esquerda ou direita) execute seus exemplos em -> https://barbosajackson.github.io/Visualization/TreasureHunter/index.html",
+    "format_input": "A primeira linha da entrada terá dois inteiros N, M, indicando a quantidade de linhas e colunas respectivamente. As N próximas linhas terão M caracteres, indicando o que cada lugar representa no labirinto. Restrições: 0 <= N, M <= 10",
+    "format_output": "A saída deverá conter um inteiro, indicando a maior pontuação possível.",
+    "topics": [
+        "acumulador",
+        "busca completa",
+        "array bidimensional",
+        "backtracking",
+        "recursão"
+    ]
+}

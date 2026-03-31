@@ -1,0 +1,11 @@
+{
+    "title": "Produtos Infectados",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um gerente de supermercado está enfrentando uma situação inusitada: uma substância perigosa caiu perto de uma prateleira e contaminou alguns de seus produtos. Agora, ele precisa identificar os produtos infectados e calcular o valor total do prejuízo causado. As regras para a contaminação são as seguintes: Um produto é infectado se for atingido diretamente pela substância. Se o produto infectado for uma bebida, após ele ser infectado, todos os produtos adjacentes a ele também serão infectados. Sendo infectados nesta ordem: acima, abaixo, à esquerda e à direita. Se o produto adjacente for uma bebida, a regra não se aplica a ele, pois o gerente foi rápido e o removeu assim que foi infectado. Considere produtos adjacentes somente aqueles que estão uma casa ao lado e na mesma linha e mesma coluna.",
+    "format_input": "Um inteiro N, representando o tamanho da prateleira (0 < N < 6). A prateleira é modelada como uma matriz N×N. Uma matriz N×N, onde cada posição contém: Um caractere S do alfabeto para identificar o produto. Um caractere 'B' ou 'C', indicando se o produto é uma bebida ou comida. Um número decimal D representando o preço do produto. Cada posição representa um produto na prateleira, da esquerda para a direita, conforme os produtos são dados. Um inteiro X, representando a quantidade de respingos da substância perigosa. X pares de inteiros (A,B), indicando a posição na matriz onde a substância caiu (linha A e coluna B, indexadas a partir de 0).",
+    "format_output": "Uma lista com os caracteres que identificam os produtos infectados, na ordem em que foram infectados, separados por quebra de linha. O valor total do prejuízo causado pelos produtos infectados, com duas casas decimais.",
+    "topics": [
+        "array bidimensional",
+        "estruturas"
+    ]
+}

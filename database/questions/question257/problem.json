@@ -1,0 +1,13 @@
+{
+    "title": "Quantos dígitos existem na string?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você irá receber uma string contendo letras e dígitos. Sua missão é imprimir a quantidade de dígitos que aparecem na string.",
+    "format_input": "Uma linha com até 200 caracteres contendo letras e números",
+    "format_output": "Uma linha contendo um número inteiro indicando a quantidade de dígitos encontrados.",
+    "topics": [
+        "array",
+        "acumulador",
+        "caractere",
+        "função"
+    ]
+}

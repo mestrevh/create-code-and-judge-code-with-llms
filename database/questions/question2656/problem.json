@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Vetores - H",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que exibe a média entre o maior e o menor valor de um vetor de inteiros com vinte elementos dados pelo usuário e, ao final, exibe apenas os elementos que são maiores que a média.",
+    "format_input": "Vinte números inteiros, um por linha.",
+    "format_output": "Na primeira linha, a frase \"media: #\" (sem aspas, em minúsculo, sem acentuação e com # substituído pela média dos números lidos e com duas casas decimais); nas linhas seguintes, os valores dados na entrada que sejam maiores do que a média, na mesma sequência que foram lidos e um por linha.",
+    "topics": [
+        "array"
+    ]
+}

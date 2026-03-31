@@ -1,0 +1,12 @@
+{
+    "title": "Períodos da História Numéricos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considerando que os períodos da história são quatro: (1) período anterior a 4000 aC; (2) de 3999 aC até 476 dC; (3) de 477 dC até 1789 dC; e (4) após 1790 dC. Observar que aC corresponde a antes de Cristo, e dC corresponde a depois de Cristo, e o marco de nascimento de Cristo é o ano 0 (zero). Escrever função que tem como parâmetros de entrada, o ano e referência quanto à era cristã, e retornar o número correspondente ao respectivo período da história: 1, 2, 3 ou 4. Em seguida, ler 3 pares de ano e referência à era cristã e identificar a mais recente (maior).",
+    "format_input": "3 pares de ano e referência à era cristã, cada uma em linha distinta.",
+    "format_output": "Número correspondente ao período da história mais recente (maior) considerando as entradas dadas.",
+    "topics": [
+        "História",
+        "Lógica de Programação",
+        "Condicionais"
+    ]
+}

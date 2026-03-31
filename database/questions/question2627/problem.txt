@@ -1,0 +1,6 @@
+Título: É de ladinho na escrita!
+Topicos do problema: repetição; formatação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você irá receber um número inteiro &#34;n&#34; e uma sequência de n números reais, um abaixo do outro.<br/></p><p>&#13;Imprima os n números reais, na mesma sequência, porém um ao lado do outro (todos na mesma linha) usando 3 casas decimais!<br/></p>
+Formato da entrada: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Um número inteiro &#34;n&#34; e uma sequência de n números reais, um abaixo do outro.</span><br/></p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">&#13;Imprima os n números reais, na mesma sequência, porém um ao lado do outro (todos na mesma linha) usando 3 casas decimais. Eles devem estar separados por um espaço. Não há espaço após o último número impresso.</span><br/></p>

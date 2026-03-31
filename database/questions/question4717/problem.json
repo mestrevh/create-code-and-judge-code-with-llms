@@ -1,0 +1,10 @@
+{
+    "title": "Bandeira Radical 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O partido Radical é pequeno mas muito ativo e está propondo uma mudança na bandeira nacional, para refletir suas ideias avançadas. A bandeira deverá ter L x C caracteres, ou seja, L linhas de C caracteres cada. Os caracteres usados na bandeira devem ser pontos e estrelas (asteriscos). Todos os caracteres de uma mesma linha são do mesmo tipo. A bandeira tem como principal característica o fato de que a primeira e última linha são formadas apenas por asteriscos. As linhas intermediárias devem conter apenas pontos. A seguir dois exemplos de bandeiras possíveis: Exemplo 1: Bandeira com 4 linhas e 5 colunas ***** ..... ..... ***** Exemplo 2: Bandeira com 4 linhas e 3 colunas *** ... ... *** O que se deseja é que, dados os números de linhas e de colunas da bandeira, a bandeira correspondente seja apresentada de acordo como Partido Radical. A solução deve usar comando de repetição.",
+    "format_input": "A primeira linha contém um inteiro que corresponde ao número de linhas da bandeira (L) e a segunda linha contém o número de colunas da bandeira (C). As linhas são numeradas de 1 a L e as colunas são numeradas de 1 a C. Caso as restrições sejam violadas, deve-se apresentar a mensagem de erro: Não é possível gerar a bandeira. Restrições: 3 <= L <= 10 3 <= C <= 10",
+    "format_output": "A bandeira gerada ou a mensagem para o caso de violação de restrições.",
+    "topics": [
+        "repetição"
+    ]
+}

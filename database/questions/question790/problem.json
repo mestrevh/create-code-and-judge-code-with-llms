@@ -1,0 +1,12 @@
+{
+    "title": "Mochila",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O problema da mochila é um clássico na computação. Seu desafio é maximizar o valor dentro da mochila sem extrapolar o peso, você como excelente aluno de programação aceitou esse desafio. Consiste em escolher itens de uma lista, cada item tem duas característica um peso e valor. Exemplo: 3 15 4 2 10 12 1 4 Legenda : ( X , Y ) , X é o valor adquirido até o momento e Y é o quanto a mochila ainda pode suportar. Neste caso, o maior valor que pode ser levado na mochila sem extrapolar o peso é 12.",
+    "format_input": "Dado dois inteiros N e P sendo, respectivamente o tamanho lista dos itens e a capacidade da mochila e será dada mais duas linhas com N números inteiros, a primeira linha corresponde aos valores dos itens e a segunda linha corresponde ao peso do item. A posição i-th corresponde ao valor do item e o peso dele na lista. 1 <= N <= 10, 1 <= P <= 1000",
+    "format_output": "Um linha com um inteiro corresponde maior valor que pode ser levado na mochila.",
+    "topics": [
+        "busca completa",
+        "recursão",
+        "estruturas"
+    ]
+}

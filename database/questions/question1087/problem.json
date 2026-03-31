@@ -1,0 +1,10 @@
+{
+    "title": "100 primeiros números naturais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que exiba na saída padrão os 100 primeiros números naturais (inteiros positivos incluindo o zero).",
+    "format_input": "Não há entrada.",
+    "format_output": "Os 100 primeiros números naturais (inteiros positivos incluindo o zero).",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Contar números coprimos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio começou um projeto de pesquisa na Universidade Federal de Ambrolândia (UFAD), e deparou-se com um grande problema: ele tem dois grandes arranjos de números, e precisa para cada par de elemento ( um elemento do arranjo A, e outro do Arranjo B), contar se eles são coprimos. Para sabermos se dois números são coprimos, basta calcular o MDC(A , B), se resultado for 1, A e B são coprimos. Será dado um inteiro 'n' correspondendo a quantidade de elementos de ambos os conjuntos. Logo em seguida você irá receber duas linhas com 'n' inteiros cada, uma representando o primeiro arranjo e a outra representando o segundo arranjo. Para cada elemento do conjunto 'A' calcular o MDC com o elemento da mesma posição do conjunto 'B', EX: MDC(A[ i ], B[ i ]), onde i é o índice do array.",
+    "format_input": "Um inteiro n, 1 <= n <= 10000, logo em seguida duas linhas com n inteiros, onde cada um desses inteiros é positivo e pode ter valor máximo de 10^7. Exemplo: 5 21 10 18 22 3 20 30 33 31 2",
+    "format_output": "Um inteiro representando quantos pares de números são coprimos. Exemplo: 3",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "lógica matemática",
+        "repetição",
+        "recursão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Trofeu (ou placa) para três",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Três alunos e alunas da escola conseguiram classificar-se para a Final da prestigiosa e muito difícil Competição Estadual de Programação, que será realizada no próximo mês. Independentemente da classificação que os alunos da escola conseguirem na Final, a direção da escola decidiu que vai fazer uma premiação para os seus alunos. Quem conseguir a maior pontuação na Final, entre os alunos da escola, vai receber um troféu. E quem receber a segunda maior pontuação, entre os alunos da escola, vai receber uma placa comemorativa. O problema é que pode haver alunos com as mesmas pontuações, de forma que dependendo dos resultados muitas combinações de prêmios são possíveis, como por exemplo, entre outros: • três troféus (empate, todos com a mesma pontuação) • um troféu (maior pontuação) e duas placas (empate na segunda maior pontuação) • dois troféus (empate na maior pontuação) e uma placa (empate na segunda maior pontuação) Dadas as pontuações dos três alunos e alunas, determine quantos troféus e placas deverão ser entregues.",
+    "format_input": "A entrada consiste de três linhas, cada uma contendo um inteiro Pi a pontuação de um aluno ou aluna. As pontuações serão dadas em ordem decrescente (ou seja, da maior para a menor pontuação).",
+    "format_output": "Seu programa deve produzir uma única linha, contendo dois inteiros. O primeiro inteiro deve ser o número de troféus, seguido da palavra ‘trofeu’ (no singular ou plural, dependendo da quantidade) e o segundo inteiro o número de placas comemorativas a serem entregues, seguido da palavra ‘placa’ (no singular ou plural, dependendo da quantidade). Restrições: 1 <= Pi <= 100",
+    "topics": [
+        "decisão"
+    ]
+}

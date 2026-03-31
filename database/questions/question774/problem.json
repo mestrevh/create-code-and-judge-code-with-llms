@@ -1,0 +1,12 @@
+{
+    "title": "Snake",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Snake, também conhecido como jogo da cobrinha é um jogo muito popular entre estudantes de computação. Consiste em controlar uma longa e fina criatura que se arrasta pela tela, coletando comida, não podendo colidir com seu próprio corpo ou as \"paredes\" que cercam a área de jogo. Cada vez que a serpente come um pedaço de comida, seu rabo cresce, aumentando a dificuldade do jogo. O usuário controla a direção da cabeça da serpente (para cima, para baixo, esquerda e direita) e seu corpo segue. Existe diversas variações do jogo, neste vamos considerar que teremos 4 comandos. Teremos um tabuleiro, N x N com informações sobre o tabuleiro. '.' - Posição livre 'o' - Comida Teremos também uma lista de comandos. 'C' - move a cabeça da snake para cima 'B' - move a cabeça da snake para baixo 'D' - move a cabeça da snake para direita 'E' - move a cabeça da snake para esquerda - Nunca recebemos comandos inválidos, qualquer outro carácter ou movimento inválido ( direções opostas, como por exemplo: DE ). - Nunca a snake vai se chocar com ela e nem com a parede. 3 <= N <= 10 1 <= |Comandos| <= 100 A snake começa com tamanho 1 e sempre começa na posição inferior esquerda.",
+    "format_input": "Consiste em um inteiro N, após seguem N linhas com N caracteres, no final teremos mais uma linha com os comandos.",
+    "format_output": "Terá N + 1 linhas, sendo a primeira o tamanho da snake e depois o tabuleiro, onde a snake estiver imprima '*', onde não '.' .",
+    "topics": [
+        "simulação de jogos",
+        "array bidimensional",
+        "string"
+    ]
+}

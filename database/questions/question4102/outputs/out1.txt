@@ -1,0 +1,10 @@
+A lista de notas é:
+[10, 82, 80, 70, 75, 70]
+Foram lançadas as seguintes notas:
+[10, 82, 80, 70, 75]
+A nota 10 repetiu 1 vezes.
+A nota 82 repetiu 1 vezes.
+A nota 80 repetiu 1 vezes.
+A nota 70 repetiu 2 vezes.
+A nota 75 repetiu 1 vezes.
+A nota que mais se repetiu foi a: 70, ela foi responsável por 33.3% das notas

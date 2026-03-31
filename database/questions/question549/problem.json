@@ -1,0 +1,11 @@
+{
+    "title": "Soma de custo mínimo",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Sua tarefa neste problema é bem simples, apenas somar um conjunto de números! Mas, para tornar a tarefa mais interessante, vamos atribuir a cada operação um custo exatamente igual ao valor da soma. Por exemplo, somar 2 com 5 possui um custo de valor 7 e somar 8 com 1 tem um custo de valor 9. Dada a associatividade da adição, existem várias maneiras de somar um conjunto de N números conduzindo ao mesmo resultado. Por exemplo, se temos 3 números: {2, 8, 4}, podemos somá-los das seguintes formas: -> (2 + 8) + 4 -> (2 + 4) + 8 -> (4 + 8) + 2 Todas essas expressões dão o mesmo resultado, 14, mas cada uma dessas formas possui um custo diferente: -> (2 + 8) + 4 Primeiramente somamos 2 com 8, por um custo 10. Depois somamos 10 com 4, por um custo 14. O custo total é 10 + 14 = 24. -> (2 + 4) + 8 Primeiro somamos 2 com 4, por um custo 6. Depois somamos 6 com 8, por um custo 14. O custo total é 6 + 14 = 20. -> (4 + 8) + 2 Primeiro somamos 4 com 8, por um custo 12. Depois somamos 12 com 2, por um custo 14. O custo total é 12 + 14 = 26. Sua tarefa é somar os números de forma que o custo seja o menor possível, logo para o conjunto {2, 8, 4}, sua tarefa é encontrar o valor 20, que é o menor custo para somar os números desse conjunto. Para o conjunto {1, 2, 4, 3}, podemos somar os números da seguinte forma: (((1 + 2) + 3) + 4), obtendo um custo total, e mínimo, 19. Um conjunto de N inteiros a serem somados será gerado da seguinte forma: conjunto[0] = seed conjunto[i] = (conjunto[i-1] * a + b) % c, para 1 <= i < N onde seed, a, b e c são valores dados.",
+    "format_input": "A entrada consiste de vários casos de teste, sendo um por linha, e cada um deles constituido por 5 inteiros N seed a b c onde N é o número de elementos do conjunto seed, a, b e c são os valores explicados anteriormente Limites: 1 <= N <= 10^5 0 <= seed, a, b, c < 2^15 0 <= conjunto[i-1] * a + b < 2^31, para 1 <= i < N 0 <= conjunto[0] + conjunto[1] + ... + conjunto[N-1] < 2^31",
+    "format_output": "Para cada caso da entrada, deve ser impressa uma linha S C onde S é a soma de todos os números C é o menor custo de somar todos os números",
+    "topics": [
+        "heap",
+        "estrutura de dados"
+    ]
+}

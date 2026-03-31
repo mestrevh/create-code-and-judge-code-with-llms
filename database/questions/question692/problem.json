@@ -1,0 +1,10 @@
+{
+    "title": "Contagem - Antecessor é Maior",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia uma sequência de números inteiros positivos que é encerrada com o número zero. O programa deve contar e apresentar quantas vezes, dentro da sequência, um número é menor do que o seu antecessor direto. Por exemplo, na sequência (6, *5, 10, *9 , 12, 12, 14, *8) somente os números com asterisco satisfazem o critério, portanto a resposta é 3.(Usar, obrigatoriamente, laço de repetição while ou do-while.)",
+    "format_input": "Sequência de números inteiros positivos que é encerrada com o número zero. (O zero não entra na sequência.)",
+    "format_output": "O número de vezes que um número é menor do que o seu antecessor direto na sequência.",
+    "topics": [
+        "busca"
+    ]
+}

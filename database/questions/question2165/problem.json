@@ -1,0 +1,11 @@
+{
+    "title": "Produtos mais dispendiosos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados os preços dos produtos e uma lista de compras queremos saber quais são os produtos mais dispendiosos da lista. Considere que a lista de compras poderá conter vários itens de um mesmo produto.",
+    "format_input": "A entrada consiste de duas sequências de dados. A primeira é uma sequência de pares: código do produto e preço. O código do produto é um número inteiro e o preço um float. A segunda sequência é a lista de compras Cada item da lista é um par de inteiros, o primeiro é o código do produto e o segundo a quantidade do produto. Para ambas as sequências, cada par é digitado numa linha. Ambas sequências terminam com um par com dois zeros que deverá ser ignorado.",
+    "format_output": "Se a lista de compras não tiver itens deve se escrever \"nao tem compras\", senão deverá ser escrito o maior dispendio com um único produto e logo depois, para cada produto mais dispendioso, em ordem crescente pelo código, o código, o preço e a quantidade total do produto na lista, seguindo o formato do exemplo. Valores float são escritos com duas casas decimais.",
+    "topics": [
+        "array",
+        "estruturas"
+    ]
+}

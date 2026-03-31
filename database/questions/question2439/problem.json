@@ -1,0 +1,11 @@
+{
+    "title": "L2Q3 - Olá, Jasmine!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Com a saudade aumentando, Aladdin decide visitar Jasmine. Para isso, ele fará uma viagem de tapete voador até a casa de sua amada. Sabendo a distância de Aladdin até a casa de Jasmine (a distância sempre será maior que 0), quanto de gasolina o tapete voador tem (cada litro de gasolina equivale a 1 km) e quantos postos têm ao longo do caminho (a parada no posto é obrigatória, os postos são separados de 20 em 20 km e, em cada parada, Aladdin enche 15 litros de gasolina), sua missão é fazer um programa que ajude Aladdin a chegar na casa de Jasmine, informando em quantos postos ele abasteceu ao longo do caminho.",
+    "format_input": "A entrada é composta por 3 linhas, onde a primeira é a distância até a casa de Jasmine: D D - número inteiro A segunda linha contém a quantidade de gasolina no tapete voador: G G - número inteiro A terceira linha deve informar a quantidade de postos pelo caminho P P - número inteiro",
+    "format_output": "Caso Aladdin consiga chegar na casa de Jasmine deverá ser impressa a seguinte frase: \"Finalmente cheguei, tive que abastecer em X postos\" X - número de postos onde Aladdin parou. Se Aladdin nao conseguir chegar, deverá ser impressa a seguinte frase: \"Xii... Acho que nao vai dar pra te ver, Jasmine\"",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

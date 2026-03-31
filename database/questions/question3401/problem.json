@@ -1,0 +1,10 @@
+{
+    "title": "Volume de um cilindro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desenvolva um programa computacional que calcule o volume de um cilindro, cujo raio e altura devem ser lidos, e escreva o resultado calculado.",
+    "format_input": "Consiste dos números reais R e H, que correspondem ao raio e à altura do cilindro, respectivamente.",
+    "format_output": "Consiste de um número real formatado com duas casas decimais, representando o volume do cilindro.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

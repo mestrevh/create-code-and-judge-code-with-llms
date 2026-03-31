@@ -1,0 +1,6 @@
+Título: Sequencia Lógica III
+Topicos do problema: decisão; repetição; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que lê quatro números X, Y, S e N.</p><p>A seguir mostra uma seqüência de X a Y, com saltos de tamanho S. passando para a próxima linha a cada N números.<br/></p>
+Formato da entrada: <p>A entrada contém quatro números inteiros, sendo que (1 &lt; N &lt;= 20), (X &lt; Y), (S &lt; Y), (X &lt; Y &lt; 100000) e (S &lt; 100000).<br/></p>
+Formato da saída: <p>Cada sequência deverá ser impressa em uma ou mais linhas, com uma vírgula entre cada número.</p>

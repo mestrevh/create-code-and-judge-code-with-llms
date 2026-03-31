@@ -1,0 +1,13 @@
+{
+    "title": "Mediana em uma faixa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você precisa calcular a mediana de um conjunto de valores inteiros. Porém, deseja apenas os valores contidos dentro de uma certa faixa, delimitada por um valor mínimo e um por um valor máximo. Para calcular a mediana, o primeiro passo é colocar os valores em ordem crescente. Em seguida, basta pegar o valor do meio, se a quantidade de números for ímpar. Caso seja par, deve calcular a média aritmética dos 2 valores centrais. Veja os exemplos de cálculos abaixo: Valores: 9,8,7,6,5,1,2,3,4 Mínimo: 2 Máximo: 8 Em ordem crescente: 2,3,4,5,6,7,8 Mediana: 5 Valores: 9,8,7,6,5,1,2,3,4 Mínimo: 3 Máximo: 8 Em ordem crescente: 3,4,5,6,7,8 Mediana: 5.5",
+    "format_input": "A primeira linha contém os valores inteiros, separados entre si por vírgula. A segunda linha contém o mínimo e a terceira linha, o máximo, sabendo que mínimo é sempre menor que o máximo.",
+    "format_output": "A primeira linha da saída é o conjunto de valores inteiros, ordenados crescentemente e incluindo apenas os que estão no intervalo fechado do mínimo até o máximo. Os valores são separados entre si por vírgula. Na segunda linha deve ser impresso o valor da mediana, com 2 casas decimais.",
+    "topics": [
+        "array",
+        "decisão",
+        "entrada formatada",
+        "repetição"
+    ]
+}

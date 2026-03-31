@@ -1,0 +1,10 @@
+{
+    "title": "P2 2017.2 - Bruxa dos Doces",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Apesar de não ser bruxo, Sílvio, um entusiasta e amigo da comunidade bruxa, foi convidado para Hogwarts, com a finalidade de ministrar uma palestra sobre a importância e as principais aplicações das matrizes no mundo da magia. Para chegar à escola de magia, Sílvio precisou embarcar no Expresso de Hogwarts e se deparou com a Bruxa dos Doces, que gostaria de saber qual o vagão mais lucrativo. Porém, Sílvio ainda precisa se preparar para sua palestra e pede ajuda para que você resolver o problema da Bruxa dos Doces. Ele solicita que você escreva um programa que, dado as vendas realizadas pela Bruxa dos Doces nos primeiros 30 minutos, identifique qual o vagão apresenta maior volume de vendas. OBS: as vendas agrupam todos as compras realizadas em um vagão, por vez; seu programa deve considerar que não houve compra antes das informadas na entrada. É obrigatório o uso de array para a solução da questão.",
+    "format_input": "N Q V P N - número inteiro positivo (2 <= N <= 100) Q - número inteiro positivo (1 <= Q <= 100) A primeira linha contém o número de vagões (N) e a quantidade de vendas realizadas (Q). V - número inteiro positivo (1 <= V <= N) P - número de ponto flutuante positivo (0 < P <= 200.0) As próximas Q linhas são compostas pelo número do vagão (V) em que a venda foi realizada e o total obtido com a venda dos produtos (P) em Galeões.",
+    "format_output": "M T M - número inteiro positivo T - número de ponto flutuante A saída é composta pelo número do vagão (M) com maior volume de vendas e o total de vendas realizadas (T) nesse vagão em Galeões. Esses valores devem ser separados por espaço. O total de vendas deve estar aproximado em uma casa decimal (utilize printf). OBS: é garantido que só haverá um vagão com o maior total de vendas. Portanto, todos os vagões devem ter volume de vendas diferentes.",
+    "topics": [
+        "array"
+    ]
+}

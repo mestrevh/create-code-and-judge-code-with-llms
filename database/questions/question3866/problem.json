@@ -1,0 +1,11 @@
+{
+    "title": "Kammera Man Corrompeu suas Matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kammera Man tinha sua coleção de Matrizes Voldemort, porém depois de mexer com os registradores de seu computador de forma indevida, ele acabou corrompendo sua coleção. Ele então, pede sua ajuda para tentar recuperar suas matrizes. Acredita-se que, na verdade, o nome correto da sua coleção deveria ser \"Matrizes de Vandermond\". A razão máxima para as Progressões Geométricas é 11. ᴱ ᶜᵒᵐ ᶦˢˢᵒ, ᴷᵃᵐᵐᵉʳᵃ ᵐᵃⁿ ᵈᵉˢᶜᵒᵇʳᶦᵘ ˢᵉᵘ ᵒᵈᶦᵒ ᵖᵉˡᵃ ᶠᵘⁿᶜᵃᵒ ᵖᵒʷ ᵈᵃ ᵐᵃᵗʰ.ʰ . OBS: A função pow só aceita valores Double.",
+    "format_input": "A entrada consiste de dois inteiros N e M, seguidos de uma Matriz NxM. Com 0<N<12 e 2<M<12 A matriz é composta por inteiros positivos, as entradas que são iguais a -1, são justamente os dados corrompidos.",
+    "format_output": "A saída é a Matriz de Vandermond recuperada. Deve haver uma quebra de linha ao final de cada linha.",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

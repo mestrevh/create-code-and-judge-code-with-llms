@@ -1,0 +1,12 @@
+{
+    "title": "Desafio Cartográfico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leonardo Nascimento é um garoto de 13 anos apaixonado por cartografia. Ele assina a lista de discussões da Sociedade Brasileira de Cartografia (SBC) para ficar por dentro de todas as novidades. Em um tópico de discussão na lista da SBC, o presidente da sociedade descobriu que Leonardo tinha apenas 13 anos, e ficou muito feliz em saber que uma pessoa tão jovem tinha tanto interesse pela arte de traçar mapas geográficos e topográficos. Foi então que o presidente resolveu criar desafios com intuito de difundir a cartografia. Um dos desafios era o seguinte: dado um mapa de cidades ligadas por estradas, determinar a distância entre um par de cidades mais distantes. Como o objetivo era fazer as crianças se divertirem, o presidente resolveu selecionar mapas bem simples. As restrições adotadas foram: (a) todas as estradas são de mão dupla; (b) todas as estradas possuem 1km de comprimento, e portanto toda estrada ligando duas cidades tem o mesmo comprimento; (c) toda estrada conecta apenas duas cidades, e (d) dadas duas cidades quaisquer A e B, só existe uma única maneira de chegar em A partindo de B, e vice-versa. O presidente da SBC resolveu pedir sua ajuda para escrever um programa de computador que, dado um mapa seguindo as restrições acima, devolva a resposta. Assim, ele conseguirá gerar um gabarito para enviar junto com o desafio.",
+    "format_input": "A primeira linha da entrada contém um inteiro N representando o número de cidades no mapa. Cada uma das N - 1 linhas seguintes da entrada contém dois inteiros A e B indicando que existe uma estrada entre as cidades A e B. Considere: • 2 <= N <= 1000000 • 1 <= A,B <= N e A != B",
+    "format_output": "A única linha da saída contém um inteiro indicando a distância entre um par de cidades mais distantes. Na figura temos 5 cidades identificadas por 1, 2, . . . , 5. As cidades 1 e 4 estão a uma distância de 3km, assim como as cidades 1 e 5. Não temos nenhum par de cidades que estão a uma distância maior que 3km.",
+    "topics": [
+        "grafo",
+        "array bidimensional",
+        "estruturas"
+    ]
+}

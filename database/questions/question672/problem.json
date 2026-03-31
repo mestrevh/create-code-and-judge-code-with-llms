@@ -1,0 +1,13 @@
+{
+    "title": "Comida de Graça é Bom ou Ruim?",
+    "time_limit": "3 segundo(s)",
+    "descrition": "João é um funcionário de uma empresa que tem comida de graça durante todo o dia, e ele gosta muito de comer. Na verdade, comer, para João, já virou uma questão de necessidade quando ele está trabalhando. João acredita bastante que cada comida encontrada nas cozinhas da empresa lhe dá uma certa quantidade de energia, medida em minutos. Isso é, que a comida x lhe dá f(x) minutos de energia para trabalhar. João gostaria muito de ser um funcionário bastante produtivo, tendo energia para trabalhar bem durante todo o seu expediente (8 horas de trabalho, ou 480 minutos). Porém, João começou a se preocupar com a concorrência para arrumar acompanhantes no Vale do Silício, e não quer comer mais do que o necessário para se manter em forma.",
+    "format_input": "Na primeira linha, a quantidade de casos T (1 ≤ T ≤ 100). Para cada caso, 2 linhas. Na primeira linha, o inteiro N, que representa a quantidade de comidas diferentes que há na empresa (1 ≤ N ≤ 1000). Na segunda linha, N números inteiros f(i) (1 ≤ f(i) ≤ 480) que representam a quantidade de energia que a comida i dá para João. Como João é um cara que gosta de diversificar, ele só consome cada comida i no máximo uma vez.",
+    "format_output": "Para cada caso, imprima uma única linha: o máximo que João pode produzir no seu dia de trabalho, em minutos, sem comer mais do que o necessário, isso é, sem acumular mais do que 480 minutos de energia.",
+    "topics": [
+        "multiplas entradas",
+        "requer solução eficiente",
+        "recursão",
+        "programação dinâmica"
+    ]
+}

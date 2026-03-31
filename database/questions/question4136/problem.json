@@ -1,0 +1,11 @@
+{
+    "title": "Produto e a razão de dois números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Analise o produto e a razão de dois números do tipo float, com base na entrada de dois números.",
+    "format_input": "Insira dois números do tipo float.",
+    "format_output": "A saída deve exibir o produto e a razão com 4 casas decimais de precisão.",
+    "topics": [
+        "ponto flutuante",
+        "formatação"
+    ]
+}

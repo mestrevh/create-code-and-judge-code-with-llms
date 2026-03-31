@@ -1,0 +1,10 @@
+{
+    "title": "Prova Final 2017.1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa Java que faz a leitura de 10 valores inteiros (2,0 pt) e armazena esses valores em um array (2,0 pt). O programa imprime o índice do maior valor inteiro armazenado no array (3,0 pt). Caso o maior valor apareça mais de uma vez no array, deve ser impresso o somatório dos índices de todas as suas ocorrências (3,0 pt).",
+    "format_input": "1 2 3 1 2 3 1 2 3 1",
+    "format_output": "15",
+    "topics": [
+        "busca completa"
+    ]
+}

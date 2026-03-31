@@ -1,0 +1,11 @@
+{
+    "title": "Série de Euler",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os alunos do IC estavam curiosos sobre o número de Euler, muito usado na matemática, e resolveram pesquisar para aprender um pouco mais sobre ele. Descobriram que uma das maneiras de achar uma aproximação é através da seguinte série: e = Σ(1/i!) para i de 0 a ∞. Dado o inteiro n, calcule a série com n termos.",
+    "format_input": "Um inteiro n (n > 0), onde e = Σ(1/i!) para i de 0 até n-1 = 1/0! + 1/1! + ... + 1/(n-1)!",
+    "format_output": "Um número real com 15 casas decimais resultado da aproximação através da série.",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

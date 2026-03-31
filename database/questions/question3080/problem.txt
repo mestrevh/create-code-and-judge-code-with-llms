@@ -1,0 +1,6 @@
+Título: OBI URI
+Topicos do problema: decisão; entrada formatada; substrings; repetição; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Mariazinha criou um exercício para as suas irmãs Paula e Marta: ela distribui um texto e pede que ambas corrijam este texto, sabendo que apenas as palavras OBI e URI podem estar escritas de forma errada, e o erro pode estar apenas na última letra.</p><p>Sua tarefa aqui é automatizar este processo, ou seja, criar um programa que faça a correção dos textos distribuídos pela Mariazinha para que ela possa conferir as correções de suas irmãs sem muito trabalho.</p><p>Note que se &#34;OB&#34; ou &#34;UR&#34; forem o início ou parte de uma palavra maior e tiverem mais que 3 letras, como por exemplo &#34;OBOS&#34; ou &#34;URAT&#34;, estas palavras não devem ser alteradas.<br/></p>
+Formato da entrada: <p>A entrada contém duas linhas. A primeira linha contém um valor inteiro N (1 &lt; N &lt; 10000) que indica a quantidade de palavras do texto. A segunda linha contém as palavras do texto, cada uma com 1 a 20 caracteres ('A'-'Z').<br/></p>
+Formato da saída: <p>Deve apresentar o texto distribuído por Mariazinha corrigido segundo os critérios acima estabelecidos.<br/></p>

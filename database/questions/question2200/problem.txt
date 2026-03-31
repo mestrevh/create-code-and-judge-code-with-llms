@@ -1,0 +1,6 @@
+Título: Entidade e a soma dos dígitos
+Topicos do problema: repetição; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A Entidade foi desafiada pelos seus amigos à encontrar todos os números, entre 0 e <b>N</b>, cujas somas dos dígitos sejam exatamente igual a<b> K</b>. Ela se divertiu muito, mas ficou curiosa para saber <u>quantos</u> números mais podem ser encontrados e também <u>quais</u> são esses números. Ajude a Entidade a matar sua curiosidade.</p>
+Formato da entrada: <p>A entrada consistirá de dois inteiros<b> N</b> e<b> K</b>, que representam, respectivamente, o maior número deve ser considerado na busca e a soma alvo.</p>
+Formato da saída: <p>A saída deverá conter várias linhas, cada linha deverá conter um inteiro: o número cuja soma dos seus dígitos é exatamente<b> K</b>.<br/>Em seguida, a saída deverá conter a quantidade de números que atendem à essa propriedade, veja o exemplo de saída para entender a formatação.<br/></p><p><br/></p>

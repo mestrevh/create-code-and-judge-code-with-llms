@@ -1,0 +1,10 @@
+{
+    "title": "Status da impressão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Durante a impressão de um conjunto de páginas, o software da impressora mostrou a mensagem: “Imprimindo… 75 páginas impressas (12,5% completo) “ Doyoon não lembrava mais quantas páginas tinha o documento dele e, portanto, quantas ainda faltavam ser impressas e gostaria de um programa que respondesse isso para ele. Desenvolva uma solução para resolver o problema de Doyoon.",
+    "format_input": "Um número inteiro correspondente ao número de páginas já impressas e o percentual (float) de páginas já impressas.",
+    "format_output": "Três mensagens como apresentado a seguir, informando o número de páginas do documento, a quantidade de páginas já impressas e a quantidade de páginas que faltam. O documento possui 600 paginas Já foram impressas 75 paginas Faltam 525 paginas",
+    "topics": [
+        "lógica matemática"
+    ]
+}

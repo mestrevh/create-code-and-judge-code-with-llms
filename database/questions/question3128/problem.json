@@ -1,0 +1,10 @@
+{
+    "title": "Cadastro de pessoas e idades (soma, médias)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desenvolva um programa que leia o nome de 5 pessoas e suas respectivas idades. Para tornar o programa mais robusto contra erros, as idades podem ser negativas, portanto você terá que garantir que seus valores sempre serão convertidos para valores positivos (dica: use a função fabs() do módulo math). Outra restrição é que as idades devem obrigatoriamente ser valores inteiros. Caso o usuário informe um número decimal, ele deverá ser convertido para o tipo int. Em seguida: a) Imprima os nomes e as idades das 5 pessoas no formato do exemplo a seguir (Atenção: utilize exatamente a mesma saída, com a mesma quantidade de espaços, pontuação, etc): Pessoa: Nome Completo da Pessoa , 20 Pessoa: Fulano de Tal , 7 Pessoa: Ciclano , 78 Pessoa: Outro Nome Completo , 43 Pessoa: Algum Nome Completo , 35 b) Calcule e exiba em uma única linha na saída do programa a soma das idades. c) Calcule e exiba em linhas separadas na saída do programa a média aritmética e a média geométrica das idades. Somente para o caso da média geométrica, o valor deverá ser truncado:",
+    "format_input": "Leia um nome. Leia uma idade. Leia um nome. Leia uma idade. Leia um nome. Leia uma idade. Leia um nome. Leia uma idade. Leia um nome. Leia uma idade.",
+    "format_output": "Imprima os 5 nomes e as 5 idades de acordo com o exemplo e formatação da letra a). Imprima a soma das idades. Imprima a média aritmética das idades. Imprima a média geométrica truncada das idades.",
+    "topics": [
+        "string"
+    ]
+}

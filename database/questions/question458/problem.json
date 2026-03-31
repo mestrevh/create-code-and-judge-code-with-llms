@@ -1,0 +1,10 @@
+{
+    "title": "TV por assinatura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para incentivar os clientes a pagarem com débito automático, a empresa resolveu oferecer descontos e canais extras àqueles que aderirem nessa forma de pagamento. Clientes dos pacotes Básico e Entretenimento ganham 5% de desconto e mais 6 canais, e os dos demais pacotes ganham 10% de desconto e mais 11 canais. Escreva um programa que receba como entrada o nome do pacote e a forma de pagamento escolhida por um cliente e exiba o valor final da mensalidade e a quantidade total de canais à qual ele terá direito. Básico - 32 canais e custa R$ 80.80 Entretenimento - 55 canais e custa R$ 100.40 Multicultural - 70 canais e custa R$ 130.23 Completo - 112 canais e custa R$ 215.50",
+    "format_input": "Dois Strings que podem estar escritos em maiúsculas ou minúsculas e que têm acentos",
+    "format_output": "Um valor real com duas casas decimais e um valor inteiro",
+    "topics": [
+        "decisão"
+    ]
+}

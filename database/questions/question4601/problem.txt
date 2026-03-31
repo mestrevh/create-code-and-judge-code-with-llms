@@ -1,0 +1,6 @@
+Título: Colorindo Mapas
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Em 1852 Francis Guthrie conjecturou que quatro cores sempre seriam suficientes para colorir um mapa. Essa conjectura que mais tarde ficou conhecida como o Problema das Quatro Cores só foi provada em 1976 por Appel e Haken, essa prova foi considerada controversa por fazer uso de muitos contra-exemplos construídos com o auxílio de computador. Mais tarde outras provas foram apresentadas dissipando qualquer dúvida remanescente sobre o que agora é conhecido como o Teorema das Quatro Cores.<br/></p><p><br/></p><p>Sabendo que quatro cores são suficientes para colorir qualquer mapa, seu trabalho é escrever um programa para determinar qual cor utilizar para colorir uma determinada região de um mapa dadas as cores utilizadas para colorir as regiões vizinhas.<br/></p><p><br/></p><p><br/></p>
+Formato da entrada: <p>A entrada consiste de três linhas onde cada linha contém o nome de uma das cores utilizadas pelas regiões vizinhas (as três cores sempre serão diferentes). As cores utilizadas na coloração do mapa são: LARANJA, VERDE, AZUL e ROXO.<br/></p>
+Formato da saída: <p>A saída consiste de uma única linha contendo o nome da cor a ser utilizada para colorir a região em questão.<br/></p>

@@ -1,0 +1,10 @@
+{
+    "title": "Ambrósio, o Rei do Futebol",
+    "time_limit": "7 segundo(s)",
+    "descrition": "Ambrósio ficou rico! Ele acabou de comprar o time Huxley Dynamic Players (HDP). Como manager do time, ele possue um orçamento e vários campeonatos para participar, porém às vezes não é possível atuar em todos o campeonatos. Assim, você irá ajudar o Ambrósio a ter a melhor campanha com o histórico de cada campeonato. O Ambrósio informou os custos de cada campeonato e definiu que a beleza de um campeonato é dado pelo maior acumulo (contiguo) do saldo de gols. Ambrósio quer saber a maior soma de belezas que ele pode conseguir, se escolher os campeonatos certos.",
+    "format_input": "A primeira linha contêm 2 inteiros C e D, a quantidade de campeonatos e a quantidade de dinheiro em caixa, respectivamente. Assim será descrito cada campeonato. Para cada campeonato terá 2 inteiros J e P, a quantidade de jogos e o gasto com o campeonato, desta maneira será descrito cada jogo do campeonato. Para cada jogo serão 2 inteiros F e S, gols feitos e gols sofridos, respectivamente. Limites: 1 <= C <= 100, 1 <= D <= 1000, 1 <= J <= 10000, 0 <= P <= 1000, 0 <= F , S <= 100",
+    "format_output": "A saída deve ser um inteiro representando a maior soma (não contigua) de belezas que ele pode conseguir, se escolher os campeonatos certos.",
+    "topics": [
+        "array"
+    ]
+}

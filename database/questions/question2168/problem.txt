@@ -1,0 +1,6 @@
+Título: Todas as substrings
+Topicos do problema: recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Gerar todas as substrings de uma string dada.</p>
+Formato da entrada: <p>Uma string.</p><p>Considere que o tamanho da string não passa de 10.</p>
+Formato da saída: <p>Todas substrings, que podem ser formadas pela string.</p>

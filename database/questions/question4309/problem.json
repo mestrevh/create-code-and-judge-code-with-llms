@@ -1,0 +1,10 @@
+{
+    "title": "Alfabeto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "escreva um programa que receba letras separadas por espaço até o eof e então printe todas elas ordenadas!",
+    "format_input": "Uma série de letras sendo todas elas maicúsculas e separadas por espaço.",
+    "format_output": "a sequência correta de letras em ordem alfabética e separadas por espaço.",
+    "topics": [
+        "array"
+    ]
+}

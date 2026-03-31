@@ -1,0 +1,11 @@
+{
+    "title": "Pais das Folhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada a descrição de uma árvore, você deverá informar uma lista de todos os nós que contém como filhos uma ou duas folhas. Uma folha da árvore é um nó que não contém nenhum filho. A lista dos pais deve ser ordenada em ordem crescente. O nó raiz sempre será o nó 0.",
+    "format_input": "A entrada consiste em um número N, seguido de N linhas, cada linha Ni contém 2 inteiros, o filho da esquerda e o filho da direita do i-ésimo nó.(começando do nó 0) caso o nó não possua nenhum filho esse inteiro será -1.",
+    "format_output": "Uma lista de inteiros ordenada em ordem crescente, com os pais das folhas.",
+    "topics": [
+        "Árvore",
+        "recursão"
+    ]
+}

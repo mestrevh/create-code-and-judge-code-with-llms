@@ -1,0 +1,12 @@
+{
+    "title": "Avaliando o gabarito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que avalie o gabarito de vários alunos e diga quem teve as melhores notas. Seu programa deve receber um gabarito de 5 questões. Em seguida, receberá o nome do aluno e suas respostas para as questões. Você deve verificar quantas questões ele acertou e atribuir-lhe uma nota. Cada questão vale 20 pontos. No final você deve informar quantos alunos ficaram acima da média da turma e qual o aluno que obteve a maior nota. Em caso de empate, você deve imprimir o nome do último aluno com a maior nota. Seu programa deve encerrar quando receber 'sair' em vez do nome de um aluno.",
+    "format_input": "O gabarito da prova (que deve ser recebido uma única vez). Os nomes de vários alunos e suas respectivas respostas.",
+    "format_output": "Quantos alunos ficaram acima da média da turma. Qual aluno obteve a maior nota.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

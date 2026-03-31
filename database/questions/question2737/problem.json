@@ -1,0 +1,12 @@
+{
+    "title": "Help Mineirin!",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Mineirin estava estudando sobre as estrututas de dados ensinadas em Programação 2, porém ele não conseguiu visualizar de forma correta como seria formada uma árvore de busca binária. Um colega de sua turma, apostou com ele, que não conseguiria fazer esse desenho por meio de um programa que só possuirá estruturas dinâmicas, ou seja, sem vetores (arrays) e matrizes. Caso o programa não possa ser feito, Mineirin nunca mais poderá comer pão de queijo na sua vida. Por isso, ele pediu a sua ajuda para desenhar a árvore para ele. Lembrando que sempre existirá um filho a direita ou a esquerda, sendo ele nulo ou não. Dito isso, para ajudar Mineirin, escreva um programa que desenhe essa árvore de busca binária, para ele poder viver feliz para sempre comendo seus pães de queijo.",
+    "format_input": "A entrada é composta por um caso de teste. A primeira linha contém um número N (0 < N <= 50), que indica a quantidade de nós que terão na sua árvore. Em seguida, haverá uma linha contendo N números, tal que Ni (0 <= Ni <= 9) é um número que irá compor a árvore de busca binária, sendo o primeiro deles a raíz.",
+    "format_output": "Para cada entrada você deverá printar o desenho da árvore como mostrado nos exemplos abaixo, note que a quantidade de caracteres por linha está relacionado a profundidade da árvore. Para cada filho de um nó que seja nulo, deverá ser impresso um \"x\". Dica: note que a quantidade de espaços por nível é de 2 * h + 1, onde h é a maior profundidade da árvore.",
+    "topics": [
+        "Árvore",
+        "formatação",
+        "estruturas"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Média Aritmética.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Escreva um algoritmo que calcule a média aritmética das 3 notas dos alunos de uma classe. O algoritmo deverá ler, além das notas, o código do aluno e deverá ser encerrado quando o código for igual a 0.",
+    "format_input": "O código e as 3 notas do aluno.",
+    "format_output": "A média do aluno.",
+    "topics": [
+        "multiplas entradas",
+        "repetição"
+    ]
+}

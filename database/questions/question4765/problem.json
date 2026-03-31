@@ -1,0 +1,10 @@
+{
+    "title": "Uma gota de água",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A formiguinha está com sede! No entanto, para se hidratar, a água precisa atravessar um labirinto vertical cheio de obstáculos. Sua missão é determinar se a água conseguirá chegar até a formiguinha. Você receberá uma matriz 5x5 representando o labirinto. A água sempre começa em uma coluna da primeira linha (informada na entrada) e desce linha por linha. No caminho, podem existir obstáculos que desviam o fluxo da água: O número 0 representa um espaço livre (ar), por onde a água continua descendo na mesma coluna. O número 1 desvia a água para a direita. O número 2 desvia a água para a esquerda. O número 3 representa a formiguinha e estará sempre presente em uma das posições da última linha. Importante: Se a água sair dos limites da matriz (ou seja, bater na lateral), ela para imediatamente, e a formiguinha continua com sede. (Não existem obstáculos no chão do labirinto)",
+    "format_input": "Um número inteiro C (0 ≤ C ≤ 4), representando a coluna inicial onde a gota de água começa a cair. Uma matriz 5x5 de inteiros, contendo apenas os valores 0, 1, 2 e 3, representando o labirinto.",
+    "format_output": "Imprima: \"AGUA\" — se a água conseguir alcançar a posição da formiguinha. \"Me molhou!\" — caso a água caia em cima da formiguinha. \"Tenho sede\" — caso contrário.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

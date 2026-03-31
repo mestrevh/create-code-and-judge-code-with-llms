@@ -1,0 +1,10 @@
+{
+    "title": "Próximo número",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que lê um número inteiro como entrada e imprime o inteiro seguinte.",
+    "format_input": "Um número inteiro.",
+    "format_output": "O número inteiro seguinte.",
+    "topics": [
+        "entrada formatada"
+    ]
+}

@@ -1,0 +1,139 @@
+Metodo: Bissecao
+Iteracao: 1
+NAO CONVERGIU
+Raiz final:50.0000000000
+|a-b|:50.0000000000
+|f(x_i)|:268334.0925888074
+
+Metodo: Bissecao
+Iteracao: 2
+NAO CONVERGIU
+Raiz final:25.0000000000
+|a-b|:25.0000000000
+|f(x_i)|:514.9310907252
+
+Metodo: Bissecao
+Iteracao: 3
+NAO CONVERGIU
+Raiz final:12.5000000000
+|a-b|:12.5000000000
+|f(x_i)|:19.7228618046
+
+Metodo: Bissecao
+Iteracao: 4
+NAO CONVERGIU
+Raiz final:6.2500000000
+|a-b|:6.2500000000
+|f(x_i)|:12.2117113414
+
+Metodo: Bissecao
+Iteracao: 5
+NAO CONVERGIU
+Raiz final:9.3750000000
+|a-b|:3.1250000000
+|f(x_i)|:0.7536558769
+
+Metodo: Bissecao
+Iteracao: 6
+NAO CONVERGIU
+Raiz final:10.9375000000
+|a-b|:1.5625000000
+|f(x_i)|:9.4767317562
+
+Metodo: Bissecao
+Iteracao: 7
+NAO CONVERGIU
+Raiz final:10.1562500000
+|a-b|:0.7812500000
+|f(x_i)|:4.2373856812
+
+Metodo: Bissecao
+Iteracao: 8
+NAO CONVERGIU
+Raiz final:9.7656250000
+|a-b|:0.3906250000
+|f(x_i)|:1.6908712679
+
+Metodo: Bissecao
+Iteracao: 9
+NAO CONVERGIU
+Raiz final:9.5703125000
+|a-b|:0.1953125000
+|f(x_i)|:0.4532344451
+
+Metodo: Bissecao
+Iteracao: 10
+NAO CONVERGIU
+Raiz final:9.4726562500
+|a-b|:0.0976562500
+|f(x_i)|:0.1543849071
+
+Metodo: Bissecao
+Iteracao: 11
+NAO CONVERGIU
+Raiz final:9.5214843750
+|a-b|:0.0488281250
+|f(x_i)|:0.1484226004
+
+Metodo: Bissecao
+Iteracao: 12
+NAO CONVERGIU
+Raiz final:9.4970703125
+|a-b|:0.0244140625
+|f(x_i)|:0.0032368694
+
+Metodo: Bissecao
+Iteracao: 13
+NAO CONVERGIU
+Raiz final:9.5092773438
+|a-b|:0.0122070312
+|f(x_i)|:0.0725295832
+
+Metodo: Bissecao
+Iteracao: 14
+NAO CONVERGIU
+Raiz final:9.5031738281
+|a-b|:0.0061035156
+|f(x_i)|:0.0346304555
+
+Metodo: Bissecao
+Iteracao: 15
+NAO CONVERGIU
+Raiz final:9.5001220703
+|a-b|:0.0030517578
+|f(x_i)|:0.0156928076
+
+Metodo: Bissecao
+Iteracao: 16
+NAO CONVERGIU
+Raiz final:9.4985961914
+|a-b|:0.0015258789
+|f(x_i)|:0.0062269714
+
+Metodo: Bissecao
+Iteracao: 17
+NAO CONVERGIU
+Raiz final:9.4978332520
+|a-b|:0.0007629395
+|f(x_i)|:0.0014948014
+
+Metodo: Bissecao
+Iteracao: 18
+NAO CONVERGIU
+Raiz final:9.4974517822
+|a-b|:0.0003814697
+|f(x_i)|:0.0008710964
+
+Metodo: Bissecao
+Iteracao: 19
+NAO CONVERGIU
+Raiz final:9.4976425171
+|a-b|:0.0001907349
+|f(x_i)|:0.0003118369
+
+Metodo: Bissecao
+Iteracao: 20
+CONVERGIU
+Raiz final:9.4975471497
+|a-b|:0.0000953674
+|f(x_i)|:0.0002796336

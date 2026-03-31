@@ -1,0 +1,12 @@
+{
+    "title": "Dobrando o Array",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Crie um código que recebe um array de inteiros e exibe o quadrado de cada um dos valores.",
+    "format_input": "Um valor inteiro indicando quantos elementos o array vai ter. Os elementos do array.",
+    "format_output": "O Dobro de cada um dos elementos com espaçamento simples e sem nenhum tipo de separação (Vírgulas, pontos, traços)",
+    "topics": [
+        "array",
+        "função",
+        "ponteiro"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Clínica",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Você foi contratado para criar um controle automatizado de uma clínica médica. Sabe-se que essa clínica deseja ter um controle semanal (de segunda a sexta-feira) das consultas realizadas. As informações de cadastro dos médicos são o código, nome, endereço e telefone. As consultas possuem as informações sobre código da consulta, dia da semana, hora, código do médico e código do paciente. O programa deverá: Inicie o menu. Digite a opcao desejada: 1- Cadastrar médico. 2- Cadastrar consulta. 3- Pesquisar consulta. 0- Sair do programa. A opção 1 do menu deve iniciar o cadastro do médico. Antes de receber os dados do médico o programa deve apresentar as mensagens “Digite codigo do medico:” e “Digite o nome do medico:” Os dados devem ser digitados após cada mensagem. Ao final do cadastro deve ser apresentada uma mensagem com as informações cadastradas, exemplo: “Codigo: 321 | Medico: Joao”. A opção 2 do menu deve iniciar o cadastro de consultas. Antes de receber os dados da consulta o programa deve apresentar as mensagens “Digite o codigo da consulta:”, “Digite o dia da semana:”, “Digite a hora:” e “Digite o codigo do medico:” Os dados devem ser digitados após cada mensagem. Caso os dados informados já tenham sidos informados o programa deve informar que o horário não está disponível através da mensagem “Horario não disponivel.”, após essa mensagem o programa deve repetir o procedimento de cadastro da consulta. Ao final do cadastro deve ser apresentada uma mensagem com as informações cadastradas, exemplo: “Codigo: 5 | Semana: Segunda | Hora: 15 | Cod. Medico: 123”. A hora é um número inteiro que será informado entre 7 e 18. A opção 3 deve pedir o código da consulta, “Digite o codigo da consulta: ”, e após receber o código deve apresentar as informações dessa consulta, exemplo “Codigo: 5 | Semana: Segunda | Hora: 15 | Cod. Medico: 123”. A opção 0 deve fechar o programa. Caso o usuário digite uma opção diferente das apresentadas o programa deve informar “Opcao invalida.” E o programa deve retornar ao menu. O programa deve retornar ao menu ao final da execução de cada opção exceto a opção 0.",
+    "format_input": "Variada a depender das opções.",
+    "format_output": "Irá depender das entradas.",
+    "topics": [
+        "array",
+        "string",
+        "dicionário"
+    ]
+}

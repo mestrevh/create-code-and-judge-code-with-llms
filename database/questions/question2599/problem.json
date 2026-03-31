@@ -1,0 +1,15 @@
+{
+    "title": "L4Q2 - Capture um Charmander!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você sempre quis capturar um Charmander. Contudo, como você é um estudante do CIn, não lhe sobra muito tempo para sair numa caçada. É de conhecimento seu, também, que em dias chuvosos a chance de dar de encontro com um Charmander é bem menor. Tendo isso em mente, você decide criar um programa que lhe informe o melhor dia do ano, que seja um final de semana, para sair numa caçada, ou seja, o dia em que a chance de chover é a menor, sempre priorizando a data mais próxima ao começo do ano! Somando a isso, se não tiver nenhum dia ideal para ir à busca, você deve desistir e esperar o próximo ano. *Considere o ano sendo de Janeiro a Dezembro e com 4 finais de semana em cada mês. *Considere como um dia não ideal para caçar, aquele cujo qual a chance de chover seja superior a 0,5.",
+    "format_input": "A entrada consiste em 12 linhas (Janeiro-Dezembro), com 8 elementos em cada representando a chance de chuva nos sábados e domingos, respectivamente. S1 D1 S2 D2 S3 D3 S4 D4 . . . S1 D1 S2 D2 S3 D3 S4 D4 *Todos os elementos possuem ponto flutuante",
+    "format_output": "A saída é composta por uma linha: O melhor dia e no [O] [S/D] de [Mes] * [O]: Primeiro, Segundo, Terceiro ou Quarto * [S/D]: Sabado ou Domingo * [Mes]: Janeiro a Dezembro Caso coincida de não ter nenhum dia ideal no ano: Proximo ano eu tento denovo...",
+    "topics": [
+        "estrutura de dados",
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "matriz esparsa",
+        "array bidimensional"
+    ]
+}

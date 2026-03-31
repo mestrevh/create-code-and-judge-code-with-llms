@@ -1,0 +1,10 @@
+{
+    "title": "Mais uma série",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escrever um programa para calcular o valor de uma sequência S de N termos (com 4 casas decimais). Por exemplo, dado o valor de N igual a 50, a sequência é igual à mostrada abaixo:",
+    "format_input": "Um inteiro N (N>0) que indica o número de termos da sequência que segue o padrão do exemplo acima.",
+    "format_output": "O valor calculado da sequência S com 4 casas decimais, considerando o valor de N fornecido na entrada.",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Sopa de Letrinhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kammera Man perdeu sua criatividade e, para passar o tempo (talvez se inspirar?), ele pediu para você fazer um código que se comporta da seguinte forma: Dado um conjunto de letras, o programa verifica quantas palavras podem ser formadas usando essas letras. Porém, como você está usando o computador de Kammera Man, você só tem espaço para digitar 5 palavras diferentes. Toda vez que uma palavra é formada, as letras desta são retiradas do conjunto. Porém, se uma palavra não consegue ser formada, nenhuma das letras são retiradas do conjunto, ou seja: Somente as palavras que podem ser formadas completamente, retiram letras do conjunto. OBS: As strings não tem espaço incluído. OBS2: A string não precisa estar contida no conjunto. Por que será que o computador de Kammera Man só tem espaço para verificar 5 palavras?",
+    "format_input": "Uma string de até 29 caracteres. Um inteiro N menor ou igual a 5, indicando a quantidade de palavras a serem checadas. N strings de até 29 caracteres.",
+    "format_output": "\"E possivel formar x palavras com esse conjunto\" Sem as aspas, seguida de uma quebra de linha. Onde x é o número de palavras que podem ser formadas.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "caractere",
+        "string",
+        "busca"
+    ]
+}

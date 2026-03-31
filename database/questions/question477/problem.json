@@ -1,0 +1,11 @@
+{
+    "title": "Escolhendo a Vocação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você está criando um jogo de RPG, no estilo D&D, seu personagem tem as seguintes skills: Força Inteligência Destreza Furtividade Peso Você tem 25 pontos para destribuir entre essas skills e dependendo da distribuição, sua profissão será escolhida. As profissões são: Knight, Mage, Paladin, Orc. Que são geradas da seguinte maneira: Knight: Força > 5 Inteligência = ? Destreza > 5 Furtividade = ? Peso > 5 Mage: Força < 5 Inteligência > 5 Destreza = ? Furtividade > 5 Peso < 5 Paladin: Força > 5 Inteligência > 5 Destreza > 5 Furtividade > 5 Peso < 5 Orc: Força > 10 Inteligência < 5 Destreza < 5 Furtividade < 5 Peso > 5",
+    "format_input": "Entrada será dos atributos será na sequencia, todos inteiros. Força Inteligencia Destreza Furtividade Peso",
+    "format_output": "A saida deverá ser a profissão a qual o personagem foi qualificado, seguido de uma quebra de linha.",
+    "topics": [
+        "decisão",
+        "estruturas"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Array de Pares e Ímpares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Numa entrada de N números inteiros, você foi indicado para construir um programa em C que crie dois arrays e separe os números pares em um e os ímpares em outro, na ordem que eles forem inseridos no programa.",
+    "format_input": "Um número inteiro N, indicando a quantidade de números que serão inseridos. Os N números inteiros a serem classificados",
+    "format_output": "Deve ser representada como: pares[0] = A pares[1] = B ... pares[i] = F impares[0] = G impares[1] = H ... impares[j] = L",
+    "topics": [
+        "array",
+        "ciclos",
+        "repetição",
+        "função"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Jo-Ken-Po",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Vamos jogar pedra papel e tesoura! Seu programa deve deve receber duas palavras chave: pedra , papel ou tesoura. Caso o usuário escreva qualquer coisa diferente o programa deve escrever na tela \"entrada incorreta\". Caso ambas sejam iguais deve escrever na tela \"empate\". No final seu programa deve dizer quem venceu a disputa!",
+    "format_input": "Duas palavras (strings) referentes à jogada dos participantes. Elas devem ser inseridas separadamente. Exemplo Entrada 1: pedra, papel. Exemplo Entrada 2: papel, papel. Exemplo Entrada 3: vidro, papel. Exemplo Entrada 4: tesoura, papel. Exemplo Entrada 5: peda, tesoura.",
+    "format_output": "Uma frase (string). •Exemplo Saída 1: papel vence •Exemplo Saída 2: empata •Exemplo Saída 3: entrada incorreta •Exemplo Saída 4: tesoura vence •Exemplo Saída 5: entrada incorreta",
+    "topics": []
+}

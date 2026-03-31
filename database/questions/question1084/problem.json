@@ -1,0 +1,10 @@
+{
+    "title": "Tempo de encontro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dois carros (C1 e C2) percorrem uma pista um na direção do outro. Receba do usuário as velocidades e a distância entre eles e calcule: Em quanto tempo eles se encontram (Tm); Considerando que depois do encontro a velocidade de C1 dobra e de C2 cai para a raiz quadrada do valor original (instantaneamente), em quanto tempo C1 atinge o ponto de partida de C2 e C2 atinge o ponto de partida de C1 (Tf)",
+    "format_input": "A velocidade do carro 1 (10 < V1 < 100); A velocidade do carro 2 (10 < V2 < 100); A distância inicial entre os carros (100 < d < 1000); Você não precisa verificar se os dados estão dentro dos intervalos",
+    "format_output": "O tempo até o encontro que será necessariamente no meio (Tm); O tempo até C1 chegar na posição inicial de C2 (Tf1); O tempo até C2 chegar na posição inicial de C1 (Tf2)",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Sistema de Gerenciamento de Biblioteca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você está desenvolvendo um sistema de gerenciamento de biblioteca que permite aos usuários reservarem livros. Cada livro possui uma quantidade limitada de cópias disponíveis, e o sistema deve controlar as reservas e informar ao cliente se a reserva foi bem-sucedida ou não. O sistema deve ser capaz de lidar com múltiplas tentativas de reserva, sem permitir que o mesmo livro seja reservado mais de uma vez para um mesmo cliente. Caso o cliente tente fazer uma reserva para um livro que já está completamente reservado, o sistema deve informar que a reserva não foi bem-sucedida. A função que você deve implementar em C é chamada fazerReservaLivro e recebe como parâmetros o identificador do livro e a primeira letra do nome do cliente que está fazendo a reserva. A função deve retornar 1 se a reserva foi bem-sucedida (ou seja, há cópias disponíveis do livro) ou 0 caso contrário. Cada livro possui um identificador único (código) para ser identificado no sistema. Estão inicialmente disponíveis 5 livros, com os identificadores 1, 2, 3, 4 e 5. Considere que cada livro possui 2 cópias disponíveis inicialmente. Serão feitas 5 reservas. Além disso, o sistema deve apresentar a seguinte informação após cada reserva: Quantidade total de cópias disponíveis do livro.",
+    "format_input": "Serão 5 linhas. Cada linha contém o identificador do livro a ser reservado e o primeiro caractere do nome da pessoa que reservou. 2 J 3 M 1 Z 2 R 2 Y",
+    "format_output": "Como são sempre 5 reservas, use o exemplo abaixo que foi gerado usando o exemplo dado no formato de entrada para identificar o formato de saída. Perceba que se não houver mais livros disponíveis, a mensagem muda. Veja a reserva 5 abaixo como exemplo. Reserva 1 - Cliente: J Livro 2. Reserva bem-sucedida. Copias disponiveis apos a reserva: 1 Reserva 2 - Cliente: M Livro 3. Reserva bem-sucedida. Copias disponiveis apos a reserva: 1 Reserva 3 - Cliente: Z Livro 1. Reserva bem-sucedida. Copias disponiveis apos a reserva: 1 Reserva 4 - Cliente: R Livro 2. Reserva bem-sucedida. Copias disponiveis apos a reserva: 0 Reserva 5 - Cliente: Y Livro 2. Reserva mal-sucedida.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

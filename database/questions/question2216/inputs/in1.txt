@@ -1,0 +1,12 @@
+push 100
+push 48
+push 12
+push 7
+abs
+pop
+abs
+pop
+abs
+pop
+abs
+pop

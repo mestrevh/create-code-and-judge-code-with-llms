@@ -1,0 +1,8 @@
+{
+    "title": "Comprando medicamentos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Heriberto tem um problema crônico de estômago e precisa tomar medicamentos todos os dias. O médico receitou dois comprimidos no café da manhã e mais dois no jantar. Sabendo que cada caixa vem com 35 comprimidos, escreva um programa que receba como entrada a quantidade de caixas compradas por ele e exiba quantos dias seu estoque vai durar, e quantos comprimidos sobrarão após esses dias.",
+    "format_input": "Um número inteiro",
+    "format_output": "Dois valores inteiros, sendo o primeiro a quantidade de dias, e o segundo a quantidade de comprimidos que sobraram. Os valores devem ser separados por uma quebra de linha (use dois prints)",
+    "topics": []
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Os Colonos de Catam",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No jogo \"Os Colonos de Catam\" de 1995 os jogadores tentam dominar um ilha construindo caminhos, assentamentos e cidades em todo o deserto inexplorado. Você foi contratado por um empresa de software que decidiu desenvolver uma versão para computador deste jogo, e você foi escolhido para implementar uma das principais regras do jogo: Quando o jogo termina, o jogador que construiu a maior estrada ganha dois pontos extras. O problema aqui é que os jogadores geralmente constroem redes de estradas complexas, e não somente estradas lineares. Portanto, determinar o maior caminho não é trivial (embora jogadores humanos geralmente notem isso imediatamente). Comparado com o jogo original, você ira resolver um problema simplificado aqui: Dados o número de nós (cidades) e o conjunto de arestas(segmentos de estradas) de comprimento 1 conectando os nós. A maior estrada é definida pelo maior caminho na rede que não passa pela mesma aresta duas vezes. Porém os nós podem ser visitados mais de uma vez. Exemplo: a rede abaixo contém um caminho de comprimento 12.",
+    "format_input": "A entrada contém um ou mais casos de teste. A primeira linha de cada teste contém dois inteiros: o número de nós( 2 <= n <= 25 ) e o número de arestas m ( 1 <= m <= 25 ). As próximas m linhas descrevem as m arestas. Para cada aresta é dado o número dos dois nós que ela se conecta. Nós são numerados de 0 a n-1. Arestas são indirecionadas. Nós geram 3 arestas ou menos. A rede pode estar não necessariamente conectada. A entrada termina quando os dois valores n e m forem 0.",
+    "format_output": "Para cada caso de teste, imprima o comprimento(inteiro) da maior estrada seguido de uma quebra de linha.",
+    "topics": [
+        "array",
+        "grafo",
+        "função",
+        "recursão",
+        "busca",
+        "estruturas"
+    ]
+}

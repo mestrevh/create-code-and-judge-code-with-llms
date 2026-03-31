@@ -1,0 +1,10 @@
+{
+    "title": "Calculando áreas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que faz a leitura de três inteiros (X, Y e Z) que correspondem as dimensões de figuras geométricas. Este programa gera três saídas, do tipo ponto flutuante, com duas casas decimais de precisão com arredondamento, que são explicadas a seguir. Saída 1 - Área do triângulo retângulo. Considere X corresponde a base e Y a altura Saída 2 - Área do círculo. Considere Z é o raio, e o valor da constante PI é igual a 3,14159 Saída 3 - Área do trapézio retângulo. Considere que X e Y são as bases e Y a altura Dica: Utilizar a função type, para checar o tipo de saída da variável.",
+    "format_input": "A entrada consiste em três inteiros, cada inteiro em uma linha distinta. No exemplo a seguir, X = 4, Y = 6 e Z = 9. 4 6 9",
+    "format_output": "A saída consiste em três números, pontos flutuante, com duas casas de precisão. No exemplo a seguir, 12 é a área do retângulo, 254.46 é a área do círculo, e 45.00 a área do trapézio. 12.00 254.46 45.00",
+    "topics": [
+        "entrada formatada"
+    ]
+}

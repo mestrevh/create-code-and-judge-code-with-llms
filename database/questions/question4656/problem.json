@@ -1,0 +1,10 @@
+{
+    "title": "Q11 - Palavras cruzadas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba uma palavra e transforme-a nas seguintes formatações: Uma string somente com os caracteres que estejam nas posições pares e uma string que tenha os caracteres das posições pares. Retorne, também, a string de trás para frente.",
+    "format_input": "Uma String com vários caracteres.",
+    "format_output": "Uma String somente com os elementos das posições ímpares Uma String somente com os caracteres das posições pares Uma String com os caracteres invertidos.",
+    "topics": [
+        "string"
+    ]
+}

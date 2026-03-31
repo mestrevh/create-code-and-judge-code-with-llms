@@ -1,0 +1,12 @@
+{
+    "title": "Está em ordem crescente?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Serão fornecidos valores inteiros, um em cada linha, até que 'x' seja informado. Ao final você deve analisar os valores e imprimir duas informações: a. se estão em ordem crescente: true ou false b. Caso estejam em ordem crescente, qual a posição (índice do array, considerando o início da contagem em zero) onde está o primeiro elemento igual ou acima da média",
+    "format_input": "Sequência de inteiros, um em cada linha. A entrada para quando é fornecido o caractere \"x\"",
+    "format_output": "São esperadas duas informações: a. texto indicando se estão em ordem crescente: true ou false b. caso estejam em ordem crescente, inteiro indicando qual a posição (índice do array, considerando o início da contagem em zero) onde está o primeiro elemento igual ou acima da média 2 Observe o exemplo a seguir",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

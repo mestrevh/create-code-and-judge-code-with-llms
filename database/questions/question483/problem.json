@@ -1,0 +1,13 @@
+{
+    "title": "Plebiscito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A cidade Topázio está passando por cortes no orçamento e o prefeito decidiu fazer um plebiscito com a população para saber se deve ou não realizar uma queima de fogos no reveillon. Cada cidadão poderá votar SIM, NAO (sem acento) ou NULO de acordo com sua escolha, e só será realizada a queima de fogos se a quantidade de votos SIM superar a soma dos votos NAO e NULO. Escreva um programa que receba como entrada o voto de vários moradores da dicada, até ser informado o voto ENCERRAR, e exiba se haverá fogos ou não.",
+    "format_input": "Vários Strings escritos usando maiúsculas e/ou minúsculas sem acento",
+    "format_output": "Uma das seguintes mensagens em letras maiúsculas: COM FOGOS SEM FOGOS",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

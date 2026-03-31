@@ -1,0 +1,12 @@
+{
+    "title": "Posições ímpares.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia 30 números em um array e imprima os números localizados nas posições ímpares do array.",
+    "format_input": "Os 30 números informados.",
+    "format_output": "Números das posições ímpares.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "repetição"
+    ]
+}

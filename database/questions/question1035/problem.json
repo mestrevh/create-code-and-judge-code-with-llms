@@ -1,0 +1,10 @@
+{
+    "title": "Área do retângulo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcule a área de um retângulo a partir dos tamanhos de seu lado maior e de seu lado menor.",
+    "format_input": "Os valores em sequência dos lados do retângulo. Os valores estão necessariamente entre 1 e 1000.",
+    "format_output": "O valor da área do retângulo.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

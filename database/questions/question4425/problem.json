@@ -1,0 +1,12 @@
+{
+    "title": "O menino Epilef e mais um emulador",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O menino Epilef ama modelar jogos e tabuleiros e ultimamente ele aprendeu a montar um quebra cabeça deslizante! O seu orientador gostou bastante e pediu para o menino Epilef implementar um emulador que na sua primeira versão será testado apenas a movimentação do jogo, entretanto o menino Epilef não está com tempo ultimamente, pois está cheio de projetos, mas o menino Epilef lhe conhece e acredita em você! O jogo funciona com os seguintes movimentos: (por favor, clique para abrir em outra aba :( )",
+    "format_input": "- Um inteiro N como tamanho do tabuleiro NxN; - Um conjunto de N linhas para cada linha N caracteres, tal que 'C' é cor e 'x' uma casa vazia; - Um conjunto de tamanho indefinido de movimentos(R, L, U, D). * Restrições1 <= N <= 10",
+    "format_output": "A imagem da matriz após os movimentos",
+    "topics": [
+        "eof",
+        "ad-hoc",
+        "array bidimensional"
+    ]
+}

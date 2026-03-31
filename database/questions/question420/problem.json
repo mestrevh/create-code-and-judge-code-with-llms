@@ -1,0 +1,12 @@
+{
+    "title": "Crypt Kicker II",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma maneira popular, mas insegura, de criptografar um texto é permutar as letras do alfabeto. Isto é, no texto, cada letra do alfabeto é consistentemente substituída por alguma outra letra. Para garantir que a criptografia é reversível, duas letras diferentes não podem ser substituídas pela mesma letra. Um método poderoso de cripto-análise é conhecido como ataque de texto puro (plain text). Nesse ataque, o cripto-analista descobre uma frase conhecida e verifica como ela foi criptografada. A partir daí, ele deduz como a criptografia ocorreu. Sua tarefa é decriptar várias linhas criptografadas, assumindo que cada linha usa o mesmo conjunto de substituições e, que uma das linhas da entradada é a forma criptografada da sentença: the quick brown fox jumps over the lazy dog",
+    "format_input": "A entrada começa com um inteiro positivo indicando o número de casos de testes. Depois segue-se uma linha em branco. Também existirá uma linha em branco entre cada caso de teste consecutivo. Cada caso de teste consiste de várias linhas, criptografada conforme descrito no problema. As linhas criptografadas contém somente letras minúsculas e espaços. Elas não excedem 80 caracteres no tamanho. Podem existir no máximo 100 linhas para cada caso de teste.",
+    "format_output": "Para cada caso de teste, decodifique a linha e imprima na saída padrão. Se não for possível decodificar, imprima: No solution. A saída de dois casos de testes consecutivos deve ser separada por uma linha em branco.",
+    "topics": [
+        "busca completa",
+        "backtracking",
+        "dicionário"
+    ]
+}

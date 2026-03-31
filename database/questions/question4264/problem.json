@@ -1,0 +1,12 @@
+{
+    "title": "Raizes da equacao Adp.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pegue três números reais(a, b, c); e use-os na formula de Bhaskara; Sabendo que a raiz quadrada de x é igual á x**0.5",
+    "format_input": "Três números reais (a, b, c)",
+    "format_output": "O dois resultados da formula de Bhaskara",
+    "topics": [
+        "ponto flutuante",
+        "decisão",
+        "lógica matemática"
+    ]
+}

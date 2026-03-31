@@ -1,0 +1,10 @@
+{
+    "title": "PIT03 - Aumento salário funcionário",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba o salário de um funcionário e o percentual de aumento, calcule e mostre o valor do aumento e o novo salário.",
+    "format_input": "1000 10",
+    "format_output": "100.00 1100.00",
+    "topics": [
+        "lógica matemática"
+    ]
+}

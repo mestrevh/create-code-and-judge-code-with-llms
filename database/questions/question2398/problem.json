@@ -1,0 +1,11 @@
+{
+    "title": "Entrada e Saída de Data",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O seu professor gostaria de fazer um programa que executasse os seguintes passos: 1. Ler uma data no formato DD/MM/AA; 2. Imprimir a data no formato MM/DD/AA; 3. Imprimir a data no formato AA/MM/DD; 4. Imprimir a data no formato DD-MM-AA.",
+    "format_input": "A entrada consiste de uma linha contendo uma data no formato DD/MM/AA, onde DD, MM e AA são números inteiros.",
+    "format_output": "A saída consiste de três linhas contendo a data digitada em diferentes formatos, conforme detalhando nos passos 2, 3 e 4 do programa.",
+    "topics": [
+        "entrada formatada",
+        "formatação"
+    ]
+}

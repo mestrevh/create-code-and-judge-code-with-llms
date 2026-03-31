@@ -1,0 +1,11 @@
+{
+    "title": "Restaurante do Vladimir",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Vladimir é dono de um restaurante que vende lasanhas e pizzas. Os preços cobrados são os seguintes: Pizza (Sabor: Calabresa ou Marguerita): R$ 20,60; Pizza (Sabor: Outros sabores): R$ 30,90; Lasanha (Sabor: Queijo): R$ 18,00; Lasanha (Sabor: Bolonhesa): R$ 23,00. Escreva um programa que receba como entrada o tipo de produto desejado, o sabor e a quantidade, e exiba o valor total a ser pago pelo cliente, sabendo que a taxa de entrega é de R$ 2 por cada item do pedido para qualquer bairro da cidade.",
+    "format_input": "Duas entradas String (produto e sabor, nessa ordem), seguidas por uma entrada inteira (quantidade)",
+    "format_output": "Um valor real com duas casas decimais",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

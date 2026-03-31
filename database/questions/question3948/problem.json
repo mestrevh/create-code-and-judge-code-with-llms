@@ -1,0 +1,11 @@
+{
+    "title": "Monitoria bonus",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O monitor da cadeira de IP gostaria de dar um ponto extra para quem fez sua questão mara, faça um programa que preencha os dados da planilha de alunos da cadeira, dê um ponto a mais para quem fez a questão 3 da lista N e exiba o nome do aluno, monitor associado e quantos pontos foram adquiridos da planilha. Estrutura da planilha: Aluno: 1. Nome do aluno 2. ID do monitor 3. Dados das listas (são 3) 4. Pontuação. Listas: 1. Questão 1 (0 ou 1) 2. Questão 2 (0 ou 1) 3. Questão 3 (0 ou 1). Monitores: 1. ID 2. Nome do monitor.",
+    "format_input": "Inteiro, 1 <= A <= 10 referente a quantidade de monitores: 1. ID do monitor (1 <= ID <= 50) 2. Nome do monitor (até 50 caracteres). Inteiro, 1 <= B <= 40 referente a quantidade de alunos: 1. Nome do aluno (até 50 caracteres) 2. ID do monitor associado tal que, 1 <= ID <= 50. Considerando a quantidade dos alunos: 9 inteiro binários (0, 1) referente as questões que foram impostas a cada aluno. Obs: 1 lista são 3 questões, portanto, 9 questões são as 3 listas, isto para cada aluno. Inteiro, 1 <= N <= 3 referente a lista que se encontra a questão 3 que receberá ponto extra. Obs: Ponto extra é +1 em sua pontuação. Considerações: 1. A escolha da lista N, como a escolha do ID do monitor, não é considerado o número 0, é a partir do 1. 2. São 3 listas de 3 questões cada, onde será recebido 0 para questão não feita e 1 para questão concluída, portanto recebe 1 ponto. 3. O aluno só receberá 10 com a questão bônus concluída.",
+    "format_output": "Imprima o nome de cada aluno na ordem recebida, monitor associado e quantos pontos foram adquiridos. Cada sentença seguido de quebra de linha.",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}

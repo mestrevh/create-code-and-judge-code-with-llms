@@ -1,0 +1,11 @@
+{
+    "title": "Comprando Pregos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lissandra comprou vários quadros novos para seu apartamento e agora precisa de pregos para pendurá-los. Pesquisando, ela descobriu que uma caixa com 12 pregos custa R$ 7,89. Escreva um programa que receba a quantidade de pregos necessários para cada quadro, até que seja informada uma quantidade ímpar, e exiba o valor total que será gasto e a quantidade de pregos que vão sobrar.",
+    "format_input": "Vários números inteiros até que seja informado um ímpar",
+    "format_output": "Na primeira linha, um valor real com duas casas decimais. Na segunda linha, um valor inteiro",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

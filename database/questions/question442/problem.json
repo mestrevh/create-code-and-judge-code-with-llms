@@ -1,0 +1,8 @@
+{
+    "title": "Comprando laranjas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Soraia foi fazer compras no supermercado de seu bairro e tomou um susto!! A dúzia de laranjas está caríssima, custando R$ 8,35!! Escreva um programa que receba como entrada a quantidade total de laranjas que Soraia deseja comprar, e exiba quantas dúzias ela vai adquirir e o valor total necessário para realizar a compra. (Dica: uma dúzia corresponde a 12 laranjas, mas cada laranja também pode ser vendida separadamente)",
+    "format_input": "Um valor inteiro",
+    "format_output": "Um valor inteiro, e um valor real com duas casas decimais, separados por uma quebra de linha Dica: use dois prints",
+    "topics": []
+}

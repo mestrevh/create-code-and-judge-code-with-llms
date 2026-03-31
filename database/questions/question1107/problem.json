@@ -1,0 +1,12 @@
+{
+    "title": "Matriz de permutação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dizemos que uma matriz inteira Anxn é uma matriz de permutação se em cada linha e em cada coluna houver n-1 elementos nulos e um único elemento igual a 1. Exemplo: A matriz abaixo é de permutação: Observe que não é de permutação. Dada uma matriz inteira Anxn, verificar se A é de permutação.",
+    "format_input": "Um número inteiro que indica a ordem da matriz. Os valores (inteiros) das entradas matriz em uma única linha, separados por um espaço",
+    "format_output": "A própria matriz em formato tabular. Um valor booleano (True ou False) que indica se a matriz é de permutação ou não.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

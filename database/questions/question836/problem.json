@@ -1,0 +1,10 @@
+{
+    "title": "Soma de frações",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rodrigo quer ensinar seu filho Miguel a somar duas frações válidas. Você como aluno aplicado de programação decidiu ajudá-lo, mas vai apresentar o resultado em forma de número real com duas casas decimais.",
+    "format_input": "Receberá a entrada formatada no seguinte formato A/B + C/D, sendo A, B, C e D números inteiros. Restrições: -10.000 <= A, B, C, D <= 10.000 B e D != 0.",
+    "format_output": "Número real com duas casas decimais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

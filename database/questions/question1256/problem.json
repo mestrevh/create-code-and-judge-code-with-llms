@@ -1,0 +1,10 @@
+{
+    "title": "Φ(n)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rodrigo Chicuta precisa realizar a prova do Teorema da Boa Ordem, mas para Isso, ele precisa usar a injetividade da função Φ(n). Ajude Chicuta a implementar a função.",
+    "format_input": "A entrada é um número n, que será colocado na função.",
+    "format_output": "A saída é a imagem de Φ(n)",
+    "topics": [
+        "lógica matemática"
+    ]
+}

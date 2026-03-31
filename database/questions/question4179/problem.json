@@ -1,0 +1,14 @@
+{
+    "title": "A Viagem de Bruninho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bruninho está viajando para Paris e, para qualquer mochileiro, seu melhor amigo é o Google Maps. Para este dia, Bruninho resolveu fazer o seguinte: Ir ao banco para sacar dinheiro, visitar um museu local, almoçar num restaurante, conhecer as margens rio Sena e ir ao shopping. Entretanto, temos diversas possibilidades de bancos, museus, restaurantes, pontos do rio e shoppings que Bruninho pode visitar. Para isso, o Google convidou você para fazer uma sugestão ao Bruno: Construa um programa em C que simule um mapa dos pontos que Bruno vai visitar e ofereça um trajeto mais curto e rápido para ele, visto que a Google observou Bruno e percebeu seu nível de preguiça. Considerando que a velocidade média de uma pessoa a passeio é 5 km/h e que Bruninho optou por não utilizar ônibus, metrô ou quaisquer outro meio de transporte, também calcule o tempo que ele percorreria esse trajeto. No mapa, adote 'X' para a posição inicial de Bruno, 'O' para quaisquer pontos que não nos interessam, 'B' para o Banco, 'M' para o museu, 'R' para o Restaurante, 'S' para o rio Sena e 'C' de compras para o shopping. Além disso, considere que cada ponto no mapa possui 800m de cada lado e, no novo trajeto, Bruno não pode passar no Shopping, Restaurante ou Museu antes de ir ao Banco, que a 3ª para deve ser no Restaurante e ele só irá ao Shopping depois do almoço no Restaurante. Vale dizer que Bruno parte sempre do ponto inicial (0,0) do mapa.",
+    "format_input": "Dois inteiros representando o tamanho da matriz M, N. Dez números inteiros representando as posições I (linha) e J (coluna), respectivamente, de cada um dos 5 pontos que Bruno deseja passar, na ordem em que foi apresentada na descrição .",
+    "format_output": "Uma matriz M x N, com os devidos locais sinalizados. A sugestão de trajeto na forma: \"Ponto 1, Ponto 2, Ponto 3, Ponto 4 e Ponto 5\". A distância que Bruno irá percorrer e o tempo que irá durar a caminhada.",
+    "topics": [
+        "array",
+        "repetição",
+        "array bidimensional",
+        "string",
+        "busca"
+    ]
+}

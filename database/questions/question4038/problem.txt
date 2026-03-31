@@ -1,0 +1,6 @@
+Título: Matrizes Contidas Em Matrizes?
+Topicos do problema: array; acumulador; decisão; repetição; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Pepeu estava dirigindo seu Gol distraidamente, quando percebeu um padrão peculiar em uma matriz que estava atravessando a rua. Ele percebeu que, dentro da matriz, existia outra matriz que se repetia dentro da matriz inicial.<br/></p><p>Dadas duas matrizes, seu código deve informar quantas vezes a segunda matriz apareceu dentro da primeira. Assim, Pepeu não perderá tempo contando e (possivelmente) conseguirá desviar da matriz atravessando a rua.</p>
+Formato da entrada: <p>Serão dados dois inteiros L1 e C1 que representam o número de linhas e o número de colunas, respectivamente, da primeira matriz.<br/>Em seguida, serão dados L1*C1 inteiros que compõem a primeira matriz.<br/><br/>Então, serão dados dois inteiros L2 e C2 que representam o número de linhas e o número de colunas, respectivamente, da segunda matriz.<br/>Finalmente, serão dados L2*C2 inteiros que compõem a segunda matriz.</p>
+Formato da saída: <p>Deve-se printar a quantidade de vezes que a segunda matriz aparece na primeira.</p>

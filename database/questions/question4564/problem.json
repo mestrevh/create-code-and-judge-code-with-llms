@@ -1,0 +1,15 @@
+{
+    "title": "Descendentes matemáticos de Luke",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Luke teve 4 descendentes, são eles Davince, Almoxarifado, Laika e Mirabel, todos são amantes de matemática e amam triângulos, dado um campo de areia de tamanho NxN, eles decidiram caminhar nesse campo com intuito de fazer triângulos, onde 1 identifica locais onde eles passaram e 0 identifica locais onde eles não passaram. Todos eles tem opiniões diferentes em relação a qual direção está o maior triângulo, Davince fala que o maior triângulo está apontando para cima, Almoxarifado fala que o maior triângulo está apontando para esquerda, Laika fala que o maior triângulo está apontado para baixo e Mirabel fala que está apontado para direita. Eles descobriram que você é um ótimo programador, e pediram para que você fizesse um algoritmo que mostrasse o tamanho do maior triângulo nas 4 direções mencionadas. Exemplo: dado uma matriz 5x5 com valores: Davince - 9, Almoxarifado - 4, Laika - 4, Mirabel - 9.",
+    "format_input": "Um inteiro N, 3 < N < 21, Representando o tamanho da matriz NxN. NxN inteiros (0 e 1), preenchendo a matriz.",
+    "format_output": "Deve ser printado o tamanho do maior triângulo de cada descendente, na seguinte ordem: Davince: TAMANHO, Almoxarifado: TAMANHO, Laika: TAMANHO, Mirabel: TAMANHO.",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "lógica matemática",
+        "repetição",
+        "array bidimensional",
+        "busca"
+    ]
+}

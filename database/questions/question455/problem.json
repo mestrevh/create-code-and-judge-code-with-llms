@@ -1,0 +1,10 @@
+{
+    "title": "Excesso de bagagem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A companhia aérea Fly Fast tem rigorosas regras para as bagagens conduzidas por seus passageiros. O limite aceitável é de 20 kg, e bagagens acima disso são taxadas: Peso: Até 20 kg - Regra: Nenhuma taxa é cobrada. Peso: Entre 21 kg e 25 kg - Regra: Cobrança de taxa de R$ 12,50 por kg adicional. Peso: Entre 26 kg e 30 kg - Regra: Cobrança de taxa de R$ 32,75 por kg adicional. Peso: Acima de 30 kg - Regra: Peso não permitido pela empresa. Escreva um programa que receba como entrada o peso da bagagem de um cliente e exiba o valor da taxa a ser paga, ou uma mensagem informando que o peso limite foi excedido.",
+    "format_input": "Um valor real",
+    "format_output": "Um valor real OU a mensagem PESO LIMITE EXCEDIDO. Obs: a mensagem exibida não pode diferente dessa e deve estar toda em maiúsculas",
+    "topics": [
+        "decisão"
+    ]
+}

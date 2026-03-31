@@ -1,0 +1,10 @@
+{
+    "title": "matriz transposta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dois amigos decidiram fazer uma brincadeira na qual ambos escolhem uma matriz NxN, e querem saber se uma é a transposta da outra. Exemplo: Neste exemplo, uma matriz é a transposição da outra.",
+    "format_input": "um inteiro N, 1 <= N <= 10 serão lidos n*n inteiros, que são os valores da matriz 1 serão lidos n*n inteiros, que são os valores da matriz 2",
+    "format_output": "caso uma matriz seja a transposta da outra, imprima verdadeiro, caso contrário imprima falso.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

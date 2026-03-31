@@ -1,0 +1,10 @@
+{
+    "title": "Convite de filme",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oguh quer chamar seus amigos para assistir um filme com ele mas está com medo de convidar e eles não aceitarem. Para lidar com esse problema ele pediu para você calcular a chance do convite dar certo baseado nos gostos deles. As chances começam em 0% e aumentam ou diminuem de acordo com as informações do filme. Gênero do filme 1. Ação aumenta a chance em 27.4% 2. Romance diminui a chance em 10.5% 3. Terror aumenta a chance em 19.7% Dia do filme 1. Durante a semana diminui a chance em 41.3% 2. Durante o fim de semana aumenta a chance em 40.4% Horário do filme 1. De manhã diminui a chance em 22.8% 2. De tarde aumenta a chance em 11.4% 3. De noite aumenta a chance em 38.6% Amigos Cada amigo convidado aumenta a chance em 2.3%",
+    "format_input": "A entrada consiste de uma linha com 4 valores que são respectivamente: Um número inteiro de 1 a 3 representando o gênero do filme. Um número inteiro de 1 a 2 representando o dia do filme. Um número inteiro de 1 a 3 representando o horário do filme. Um número inteiro de 1 a 10 representando os amigos convidados.",
+    "format_output": "Caso a chance seja menor ou igual a 40%, mostre a mensagem \"Melhor nao tentar.\" Caso a chance seja maior que 40% e menor ou igual a 80%, mostre a mensagem \"Chances boas, pode convidar.\" Caso a chance seja maior que 80%, mostre a mensagem \"Provavelmente vao aceitar.\" OBS: Sem caractere especial na saída",
+    "topics": [
+        "decisão"
+    ]
+}

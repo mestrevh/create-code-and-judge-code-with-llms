@@ -1,0 +1,10 @@
+{
+    "title": "Quantidade de dias do mês",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em C que leia o valor do mês e imprima o total de dias deste mês.",
+    "format_input": "Mês - de 1 a 12",
+    "format_output": "Numero de dias do mes: X - onde X é a quantidade de dias do mês. ou Voce entrou com um mes invalido! - para um valor de mês diferente de 1 - 12",
+    "topics": [
+        "decisão"
+    ]
+}

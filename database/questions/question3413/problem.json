@@ -1,0 +1,10 @@
+{
+    "title": "Números pares de 1 até n",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Encontrar os números pares de 1 até N. Imprimir os números lado a lado com 3 espaços entre eles.",
+    "format_input": "N (calcular números pares até N)",
+    "format_output": "Números Pares.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

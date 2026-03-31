@@ -1,0 +1,11 @@
+{
+    "title": "Operador ternário",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O operador condicional ?: permite avaliar uma expressão condicional e retornar um entre dois valores. Observe: int a = 2; int b = 5; x = a < b ? a : b. Neste caso, x vale a (2), pois a é menor que b. Já em:  int a = 2 int b = 5; x = a > b ? a : b, x vale 5. Com base neste conceito, crie uma função que recebe três inteiros (a, b, c) e retorna 2 * a, se c > a; caso contrário, retorna 3 * b.",
+    "format_input": "3 4 5",
+    "format_output": "6",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

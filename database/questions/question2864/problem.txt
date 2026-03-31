@@ -1,0 +1,6 @@
+Título: Exame Chunin
+Topicos do problema: repetição; números primos; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Para se tornar um Chūnin, um genin participa de um exame em larga escala, conhecido como os <i>Exames de Seleção Chūnin</i>, com a sua equipe.<br/></p>
+Formato da entrada: <blockquote><p>P<br/></p></blockquote><p style="text-align: left;">A entrada é composta por um único número inteiro <i>P</i>,</p><p style="text-align: center;">2 ≤<i> P </i>≤ 1000,</p><p style="text-align: left;">representando o número de participantes da prova.<br/></p>
+Formato da saída: <blockquote><p>D</p></blockquote><p>A saída deverá conter um único inteiro positivo <i>D</i>. Ele deverá corresponder ao número de maneiras distintas com que Iruka poderia dividir os <i>N</i> genins, respeitando-se as condições exigidas.<br/></p>

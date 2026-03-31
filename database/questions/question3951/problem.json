@@ -1,0 +1,12 @@
+{
+    "title": "Ultramaratona 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desenvolva um programa que, dados os tempos dos corredores de uma ultramaratona, escreva as diferenças de tempo do primeiro para o segundo, do segundo para o terceiro e assim sucessivamente. Os tempos são registrados em segundos à medida que os corredores chegam à meta. As diferenças devem seguir o formato mostrado nos exemplos. A diferença entre os tempos nunca passa de alguns dias.",
+    "format_input": "A sequência de tempos dos ultramaratonistas, cada um em uma linha e expresso em segundos. A sequência termina com um inteiro negativo que não deve ser considerado. Haverão pelo menos dois participantes.",
+    "format_output": "A sequência das diferenças de tempo expressas em dias, horas, minutos e segundos, seguindo a formatação do exemplo.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "formatação"
+    ]
+}

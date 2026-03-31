@@ -1,0 +1,6 @@
+Título: Precisando de Funções
+Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que receba como entrada 5 números inteiros positivos. Cada número lido da entrada vai gerar um novo valor que depende do seguinte:</p><ol><li> Se o número lido da entrada for múltiplo de 3, o novo valor será o fatorial do número lido;</li><li>Se o número lido da entrada NÃO for múltiplo de 3, o novo valor será dado por S em que S é o resultado da série:</li><ul><li><b>S = num/fat(0) + num/fat(1) + num/fat(2) + ... + num/fat(num)</b></li><li>Em que, <b>fat(x)</b> corresponde ao fatorial do número <b>x</b>.<b><br/></b></li></ul></ol><div>O resultado deve ser <b>a soma dos valores gerados</b> <b>a partir de cada número lido</b>.</div><p><br/></p><p>Para isso, <b>é obrigatório</b> a criação de três funções: <b>uma</b> para calcular o fatorial de um número, <b>uma</b> para calcular o valor de S e <b>uma</b> para verificar se um número é ou não múltiplo de 3.<br/></p><p><br/></p>
+Formato da entrada: <p>Cinco números inteiros. (Considere que todas os valores da entrada são maiores ou iguais a zero.)<br/></p>
+Formato da saída: <p>Um número real com duas casas decimais.<br/></p>

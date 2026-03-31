@@ -1,0 +1,13 @@
+{
+    "title": "Estoque de Celular",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Numa loja de uma marca famosa de celulares, a saida dos celulares é muito grande, porém, o espaço para estoque dos aparelhos é pequeno. Logo, a loja fica recebendo novos aparelhos semanalmente, de acordo com a demanda de saida, se o aparelho esgota, fica numa lista de espera para a próxima semana. Chegou um novo modelo de aparelho, que está sendo super requisitado, mas a clientela só é grande nos dias de sexta, sabado e domingo. Suponha que a saida desse aparelho de segunda à quinta é uma constante, K. E que nos dias de sexta, sabado e domingo, são variaveis SE, SA, DO. Dado um numero N de semanas, e a quantidade de aparelhos que foram requisitados na sexta, sábado e domingo, de cada semana, informe qual é o estoque final após as N semanas. Se o estoque esgotar antes das N semanas, informar qual foi a semana e quantos aparelhos ficaram na lista de espera.",
+    "format_input": "Um inteiro E, correspondente ao estoque inicial. Um inteiro K, correspondente à constante do aparelho que sai POR DIA de segunda à quinta. Um inteiro N, correspondendo às N semanas observadas. Seguem-se N linhas, correspondendo às semanas, cada uma recebendo três inteiros, SE, SA, DO, sendo respectivamente à requisição do aparelho na Sexta, Sábado e Domingo de cada semana.",
+    "format_output": "Se o estoque esgotar antes das N semanas, imprimir uma linha, contendo qual foi a semana (1 - N) e quantos aparelhos ficaram na lista de espera para a próxima semana (será 0 ou um número negativo). Se não, imprimir APENAS o estoque final após as N semanas. As saidas devem ser seguidas de uma quebra de linha.",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

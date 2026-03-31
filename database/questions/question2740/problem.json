@@ -1,0 +1,11 @@
+{
+    "title": "Mineirin vs Cubano II",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mineirin precisa estudar P.G. (Progressão Geométrica), pois seu professor da disciplina marcou a prova para a próxima semana. Ele estava respondendo as questões do livro, até que percebeu que não tinha um gabarito daquelas questões para poder conferir se a resposta dele estava certa, então ele foi pedir ajuda a seu amigo Cubano que sabia um pouco mais do assunto, mas Cubano não o ajudou, pois queria ter a maior nota da turma. Mineirin ficou com raiva e veio pedir ajuda a você. Sua tarefa é fazer um programa que dados 5 números, diga se é possível ou não formar um P.G. em ordem crescente com tais números, se sim, diga como ficaria a P.G. e qual a razão da mesma. Progressão geométrica é uma sequencia numérica que cresce ou decresce (no caso, uma sequência numérica crescente) pelo produto por uma taxa constante. Nessa progressão, os seus termos a partir do segundo é igual ao produto do termo anterior por uma constante denominada razão q. Exemplo: Sequência: 1 2 4 8 16 Podemos observar que qualquer termo da sequência a partir do segundo é o dobro do anterior, sendo assim a razão q = 2.",
+    "format_input": "São dados 5 números inteiros positivos A, B, C, D, E (0 < A, B, C, D, E <= 1000000) Obs: Nem sempre os 5 números estarão ordenados crescentemente.",
+    "format_output": "Há duas possibilidades de saída: 1- Se a resposta for sim, a primeira linha terá \"S\", a segunda linha terá a P.G. em ordem crescente e a terceira linha a razão da P.G.; 2- Caso contrário, a saída será \"N\".",
+    "topics": [
+        "lógica matemática",
+        "ordenação"
+    ]
+}

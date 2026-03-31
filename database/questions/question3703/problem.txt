@@ -1,0 +1,6 @@
+Título: Comparador de Matriz
+Topicos do problema: decisão; repetição; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Desta vez você terá que comparar se duas matrizes são iguais, mas para isso você deverá somar todos valores da matriz para poder comparar com o resultado da soma da outra matriz.</p><p><br/></p><p>Por exemplo nas matrizes:</p><p>1 2        4 3</p><p>3 4        2 1</p><p><br/></p><p>A soma da primeira matriz é 10, e a soma da segunda matriz também é 10, portanto as matrizes são iguais.</p><p><br/></p><p><b><span>As matrizes sempre serão quadradas, ou seja, terão o mesmo número de linhas e colunas.</span></b></p><p><br/></p>
+Formato da entrada: <p>Você receberá um inteiro que informa o tamanho da matriz, e em seguida receberá as duas matrizes.</p>
+Formato da saída: <p>Se o resultado das somas forem iguais deve ser impresso &#34;SIM&#34;, se não forem iguais deve ser impresso &#34;NÃO&#34;.</p>

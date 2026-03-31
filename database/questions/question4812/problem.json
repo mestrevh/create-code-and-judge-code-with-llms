@@ -1,0 +1,12 @@
+{
+    "title": "Os dois menores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que realize as seguintes operações: 1. Leia um número inteiro N que representa a quantidade de notas, onde 2 ≤ N ≤ 100. 2. Leia N notas (float) e armazene-as em um array de uma dimensão. 3. Crie uma função chamada calcularMediaFinal que receba o array de notas e seu tamanho como parâmetros. 4. Dentro da função, localize as duas notas mais baixas do array. 5. Calcule a média aritmética de todas as notas, descartando as duas notas mais baixas. 6. A função deve retornar a média final. 7. Na main, chame a função e imprima o resultado com duas casas decimais.",
+    "format_input": "A entrada consiste em duas linhas: A primeira linha contém o inteiro N. A segunda linha contém N números de ponto flutuante, que são as notas.",
+    "format_output": "Seu programa deve imprimir a média final das notas com duas casas decimais. Caso o número de notas seja menor que 3, imprima a mensagem \"Numero de notas insuficiente.\"",
+    "topics": [
+        "array",
+        "ciclos",
+        "função"
+    ]
+}

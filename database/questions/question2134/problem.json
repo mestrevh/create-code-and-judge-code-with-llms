@@ -1,0 +1,11 @@
+{
+    "title": "Listas - exibindo nota e posição",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O objetivo dessa tarefa é aprender a manipular listas em Python. Deve-se apresentar um programa que leia até 5 notas de um determinado aluno e as guarde em uma lista. Em seguida, o programa deve exibir cada nota lida indicando sua posição na lista.",
+    "format_input": "Um número inteiro n indicando o número de notas a ser lido ( 0 < n <=5). As n notas do aluno. As notas devem ser do tipo float.",
+    "format_output": "O programa deve exibir cada nota com sua posição da seguinte forma: Nota 1: 10.0 Nota 2: 9.0 Em seguida, a média das notas lidas, com duas casas decimais. 9.50 A mensagem \"Número de notas inválido.\" deve ser exibida caso o valor de n não obedeça ao critério estabelecido.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

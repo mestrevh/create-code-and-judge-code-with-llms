@@ -1,0 +1,13 @@
+{
+    "title": "Diagramas de Euler",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um Diagrama de Euler (nomeado em homenagem a Leonhard Euler) consiste de curvas fechadas simples (normalmente círculos) em um dado plano, que representam conjuntos. O relacionamento espacial entre as regiões vizinhas de circundantes de cada curva (sobrepostas, contidas ou separadas) correspondem a relacionamento em termos de conjuntos (interseção, subconjunto e disjunção, respectivamente). Dependendo da localização relativa e do tamanho das curvas, o plano é dividido em um dado número de zonas, cada qual representando uma interseção entre os conjuntos originais. Uma forma mais restritiva dos diagramas de Euler são os Diagramas de Venn, que devem incluir todas as possíveis zonas entre as curvas. Formalmente, dada uma região circular S1, S2, ..., Sn, em um plano, nós definimos como um conjunto não vazio na forma , onde, para cada i, ou (o complemento de Si em relação à superfície).",
+    "format_input": "A entrada consiste de vários casos de testes. Cada caso de teste inicia com 3 valores inteiros separados por um espaço em branco, W, H e n, que representam, respectivamente, a largura do plano, a altura do plano e o número de círculos no diagrama ( 8 <= W,H <= 64 e 0 <= n <= 8 ). Em seguida, são passadas n linhas consistindo de 3 valores inteiros positivos, x, y e r, especificando o centro (x,y) e o raio r do círculo. 0 <= x <= W; 0 <= y <= H; 1 <= r <= W+H. Pode-se assumir as seguintes propriedades: Cada círculo está completamente inserido na área do círculo. Dois círculos não se intersectam em um único ponto. Não há dois círculos exatamente iguais ( mesmos x, y e r) e que as bordas da superfície não tangenciam nenhum círculo. O final da entrada é dada por W = H = n = 0, que não deve ser processado como um caso de teste.",
+    "format_output": "Para cada caso de teste imprima uma linha com o número de zonas que a superfície foi dividida pelos círculos.",
+    "topics": [
+        "Diagramas de Euler",
+        "Diagramas de Venn",
+        "Geometria Computacional",
+        "Teoria dos Conjuntos"
+    ]
+}

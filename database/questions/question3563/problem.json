@@ -1,0 +1,10 @@
+{
+    "title": "Contratando Tv por assinatura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A televisão por assinatura, até o mês de agosto do ano de 2011, possuía 11,6 milhões de clientes em todo o país. O setor era praticamente monopolizado por duas empresas, no entanto, outras empresas começaram a atuar e acirrar a concorrência. Para aumentar os clientes e, também incentivar os clientes a pagarem com débito automático, a empresa TáComTudo resolveu oferecer descontos e canais extras àqueles que aderirem nesta forma de pagamento. Clientes que escolherem pacotes Básico e Entretenimento ganham 5% de desconto e mais 6 canais, e para os demais pacotes ganham 10% de desconto e mais 11 canais. Escreva um programa que receba como entrada o código do pacote e a forma de pagamento escolhida por um cliente, de acordo com a tabela abaixo, e exiba o valor final da mensalidade e a quantidade total de canais à qual ele terá direito. Pacotes: Básico (código 1) - 32 canais e custa R$ 80.80; Entretenimento (código 2) - 55 canais e custa R$ 100.40; Multicultural (código 3) - 70 canais e custa R$ 130.23; Completo (código 4) - 112 canais e custa R$ 215.50. As opções de pagamento podem ser: d ou D para Débito Automático; c ou C para Cartão de crédito; a ou A para À vista.",
+    "format_input": "um inteiro relativo ao código do pacote a ser contratado. No caso de ser informado um pacote inexistente, deve ser apresentada a mensagem: “Pacote selecionado invalido.”. um caracter relativo à forma de pagamento. No caso de ser informado uma forma de pagamento inexistente, deve ser apresentada a mensagem: “Esta forma de pagamento não é possível”.",
+    "format_output": "Um valor real com duas casas decimais (valor final da mensalidade) e um inteiro (a quantidade total de canais à qual ele terá direito), da seguinte forma: Valor contratado= R$ 80.80 Quantidade de canais= 32",
+    "topics": [
+        "decisão"
+    ]
+}

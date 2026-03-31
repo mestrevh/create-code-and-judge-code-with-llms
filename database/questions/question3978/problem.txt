@@ -1,0 +1,6 @@
+Título: Curvas na Estrada
+Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que conte a quantidade de curvas para a esquerda e para a direita indicadas por um GPS. Tome cuidado que o GPS às vezes não é muito preciso e dá indicações incorretas.</p><p>Para uma curva à esquerda, o GPS pode indicar: E, Esq ou Esquerda (e qualquer variante destas em maiúsculas e minúsculas)</p><p>Para uma curva à direita, o GPS pode indicar D, Dir ou Direita (e qualquer variante destas em maiúsculas e minúsculas)</p><p>Qualquer outra indicação do GPS que não seja curva à esquerda ou à direita deve ser contada como incorreta.</p><p>Seu programa deve ler as indicações do GPS e contar quantas curvas foram à esquerda, quantas à direita e quantas indicações incorretas foram dadas.</p>
+Formato da entrada: <p>Uma sequência de indicações do GPS, sendo uma por linha, até atingir uma linha contendo o caractere *, que indica o final da entrada de dados.</p>
+Formato da saída: <p>3 linhas contendo, respectivamente: número de curvas à esquerda (X), curvas à direita (Y) e direção incorreta (Z), conforme formato abaixo:</p><p>Esquerda: X<br/><span>Direita: Y<br/>Incorretas: Z</span></p>

@@ -1,0 +1,6 @@
+Título: Odd Word
+Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dado um texto inverta as palavras que estejam num local par no texto.<br/></p>
+Formato da entrada: <p>Um texto.<br/></p>
+Formato da saída: <p>O texto com as mudanças pedidas.<br/></p>

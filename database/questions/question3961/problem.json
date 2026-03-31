@@ -1,0 +1,13 @@
+{
+    "title": "Fórmula de Bhaskara",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 ou raiz de numero negativo. Observação 1: É necessário a utilização de função (mais deu uma se achar necessário) definida pelo programador(a) para a solução da questão Observação 2: Não utilizar nenhuma importação. Para fazer a raiz quadrada, use a potência por 1/2",
+    "format_input": "Três valores de ponto flutuante, todos na mesma linha e separados por um espaço em branco Os coeficientes se correspondem aos termos de grau 2, 1 e 0, respectivamente.",
+    "format_output": "Se não houver possibilidade de calcular as raízes, apresente a mensagem \"Impossivel calcular\". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, com uma mensagem correspondente conforme exemplo abaixo.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática",
+        "função"
+    ]
+}

@@ -1,0 +1,6 @@
+Título: Jornada ao centro
+Topicos do problema: decisão; array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Há muito tempo, em uma galáxia muito muito distante, uma civilização enfrentava o desafio de mover uma unidade única, representada pelo número 1, para o centro de uma matriz quadrada preenchida por zeros. Esse desafio era um teste de habilidade e compreensão profunda dos padrões do universo. Aqueles que dominavam a arte de guiar o 1 para o centro eram considerados verdadeiros mestres da sabedoria e eram honrados dentro da ordem dos programadores. <br/></p><p>Prove que você é um mestre da sabedoria e calcule o número mínimo de passos para mover o 1 para o centro da matriz.</p>
+Formato da entrada: <p>Sua entrada irá conter:</p><ul><li>Um número N, que irá representar o tamanho da matriz NxN.</li><li>Uma matriz NxN, composta por 0's e um único 1.</li></ul><p><b>obs: seu N será sempre ímpar.</b></p><p><br/></p>
+Formato da saída: <p>Sua saída deverá conter:</p><ul><li>O número mínimo de passos calculados para mover o 1 para o centro da matriz.</li><li>Uma linha abaixo com a matriz com o 1 no centro.</li></ul><p><b>obs: existe espaço no final de cada linha.</b></p><p><br/></p>

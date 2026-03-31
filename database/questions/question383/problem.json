@@ -1,0 +1,12 @@
+{
+    "title": "Média de 3 inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que recebe três números inteiros e exibe a média aritmética dos mesmos.",
+    "format_input": "Três números inteiros separados por um final de linha.",
+    "format_output": "Um número real. ** Utilizar formato científico com precisão de 2 casas decimais! A saída deve terminar com uma quebra de linha!",
+    "topics": [
+        "Matemática",
+        "Média Aritmética",
+        "Fundamentos de Programação"
+    ]
+}

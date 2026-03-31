@@ -1,0 +1,6 @@
+Título: valor do array
+Topicos do problema: 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Faça um programa em Java que leia um array de 500 posições de números reais e divida todos os seus elementos pelo maior valor do array. Imprima os valores do array após os cálculos.<br/></p>
+Formato da entrada: <p>500 valores informados </p>
+Formato da saída: <p>valor do array</p>

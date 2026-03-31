@@ -1,0 +1,10 @@
+{
+    "title": "Competição",
+    "time_limit": "1 segundo(s)",
+    "descrition": "AtCoder.jp é um site muito bom para treinamento para as competições de programação. Além de ter um conjunto de problemas, quase toda semana temos competições de programação. Mike começou a treinar por essa plataforma de programação. Mike usa o seguinte critério para saber quais competições participa. Ele participa da competição AtCoder Beginner Contest (ABC) se sua classificação atual no ranking for inferior a 1.200. Caso contrário, Mike participa da competição AtCoder Regular Contest (ARC). Você receberá a classificação atual de Mike no ranking (x). Imprima ABC se Mike participará da competição ABC, e imprima ARC caso contrário.",
+    "format_input": "Cada caso de teste contém um número inteiro indicando a posição de Mike no ranking do AtCoder (1 ≤ x ≤ 3.000).",
+    "format_output": "Para cada caso de teste, imprima a competição que Mike participará.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

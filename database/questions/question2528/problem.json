@@ -1,0 +1,10 @@
+{
+    "title": "Dia da semana",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um número natural n (1 <= n <= 7), exiba o dia da semana correspondente. Adote que a semana inicia em domingo.",
+    "format_input": "Um número natural n (1 <= n <= 7) representando o dia da semana.",
+    "format_output": "O n-ésimo dia da semana (domingo, segunda, terça, quarta, quinta, sexta ou sábado), em minúsculo e sem acentuação. Vide exemplos.",
+    "topics": [
+        "decisão"
+    ]
+}

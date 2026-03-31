@@ -1,0 +1,10 @@
+{
+    "title": "Imprima o número real formatado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você irá receber um número real e deve imprimir o número recebido entre dois caracteres '|' e com várias formatações diferentes: a) Com 2 casas decimais; b) Com 5 casas decimais; c) Com 6 espaços antes do número e com 1 casa decimal; d) Com 6 espaços depois do número e com 1 casa decimal; Por exemplo: Entrada: 5.324658 Saída: |5.32| |5.32465| |      5.3| |5.3      | Esse problema possui outro desafio. Em muitas linguagens, se você mandar imprimir o número 3.928 com duas casas decimais, o comando de impressão irá arredondar para 3.93. Entretanto, nesse problema isso não é permitido. Você precisaria imprimir 3.92",
+    "format_input": "Você irá receber um número real com no máximo 6 casas decimais.",
+    "format_output": "Você deve imprimir 4 linhas, de acordo com a especificação dada na descrição desse problema.",
+    "topics": [
+        "formatação"
+    ]
+}

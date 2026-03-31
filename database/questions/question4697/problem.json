@@ -1,0 +1,11 @@
+{
+    "title": "Q01 - Soma de dois numeros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desenvolva uma função chamada \"somar\" que receba dois números reais como parâmetros e retorne a soma deles.",
+    "format_input": "dois números reais",
+    "format_output": "A soma dos dois numeros no formato: \"O resultado de a + b eh c\" onde c seria o resultado",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "L6Q5 - Visitas de Catalina",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após encontrar com Catalina, ela te diz que precisa fazer umas visitas em alguns estabelecimentos da cidade antes de sair com você em uma corrida. Porém ela deixa com você o trabalho de decidir a ordem dos lugares que receberão suas visitas. Seu trabalho aqui é, dados os nomes dos lugares e suas distâncias até vocês, escrever uma lista de elementos ordenados em ordem crescente de distância. Saiba que nunca haverão duas localidades com a mesma distância Vocês não têm muito tempo, então você já deve inserir os elementos na lista de forma ordenada. Nada de escrever todos e depois ordená-los, ou a Catalina vai perder a paciência com você!",
+    "format_input": "A entrada consiste em diversos pares de linhas: S L Onde S representa o nome do lugar e L, a distância até você.",
+    "format_output": "Sua resposta deve consistir apenas de diversas linhas: S0 S1 S2 ... Onde cada S é o nome de uma localidade a ser visitada",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Cavalos em um haras.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia do usuário o número de cavalos de um haras e calcule quantas ferraduras devem ser compradas.",
+    "format_input": "Número de cavalos.",
+    "format_output": "Quantidade de ferraduras.",
+    "topics": []
+}

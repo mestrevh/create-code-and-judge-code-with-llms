@@ -1,0 +1,10 @@
+{
+    "title": "Inverter uma Lista Encadeada em uma só passada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva uma função para inverter uma lista encadeada usando somente uma \"passada\" pela lista.",
+    "format_input": "Uma lista encadeada. Cada nó da lista deve possuir um número.",
+    "format_output": "A mesma lista, mas em ordem inversa.",
+    "topics": [
+        "repetição"
+    ]
+}

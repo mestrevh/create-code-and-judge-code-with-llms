@@ -1,0 +1,10 @@
+{
+    "title": "MaxMin",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um grafo simples conexo G=(V,E) com N vértices rotulados de 0 a N-1, isto é V={0,...,N-1}, definimos a \"distância mínima\" (ou simplesmente \"distância\") entre dois vértices A e B, d(A,B), como o menor comprimento L (número de arestas) de um caminho P: v[0] - v[1] - ... - v[L] tal que v[0] = A, v[L] = B, (v[I-1],v[I]) pertence a E, para todo I=1,...,L. Por exemplo, no grafo: 0-----1-----5 |\\ | | | \\ | | | 2 | | | \\ | | | \\| | 3 4 6 temos d(0,3) = 1, d(0,4) = 2, d(2,5) = 3, d(3,6) = 4. Ao fixarmos um vértice de origem S num grafo conexo, temos 0 <= d(S,X) <= N-1, para todo vértice X em V, ou seja, a distância mínima é limitada inferiormente e superiormente. Assim sendo, definimos dmax(G,S) = max{d(S,X) | X em V}, ou seja, dmax(G,S) é a maior distância (mínima) de S a um vértice qualquer de G. Definimos também Nmax(G,S) como sendo o número de vértices de G que estão a essa distância máxima de S. No exemplo acima, temos dmax(G,1)=2, Nmax(G,1)=3 e dmax(G,3)=4, Nmax(G,3)=1. Neste exercício, queremos calcular máximos de distâncias mínimas em grafos conexos.",
+    "format_input": "A entrada inicia-se com uma linha contendo um inteiro positivo C indicando o número de casos. Os casos são numerados de 0 a C-1. Em seguida, tem-se os diversos casos, cada um correspondendo a um grafo conexo. Cada caso está na forma: N S, seguido por N linhas contendo D[i] E[i,0] E[i,1] ... E[i,D[i]-1], onde N é o número de vértices do grafo (rotulados de 0 até N-1), S é o vértice de origem, D[i] é o grau do vértice i e E[i,j] é a lista de vizinhos do vértice i em ordem crescente. Após cada caso, há uma linha em branco. Limites: 0 < N <= 250, 1 <= D[i] < N.",
+    "format_output": "Para cada caso K = 0,...,C-1 da entrada, o programa deve imprimir uma linha na forma: K dmax Nmax. Onde K é o número do caso, dmax é a maior distância mínima da origem S a qualquer outro vértice do grafo e Nmax é o número de vértices do grafo cuja distância até S é dmax.",
+    "topics": [
+        "grafo"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Seleção - G",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que mostre um menu com as opções \"adição\", \"subtração\", \"multiplicação\" e \"divisão\", recebe dois valores reais, a operação escolhida pelo usuário e exibe o resultado da operação sobre os valores.",
+    "format_input": "O operador desejado na primeira linha; um número real em outra linha; outro número real em outra linha, conforme modelo de saída.",
+    "format_output": "1: adicao / 2: subtracao / 3: multiplicacao / 4: divisao A <nome da operacao> eh: <resultado da operacao>",
+    "topics": [
+        "decisão"
+    ]
+}

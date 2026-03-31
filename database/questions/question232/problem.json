@@ -1,0 +1,13 @@
+{
+    "title": "Rotação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sua missão é rotacionar uma série de sentenças 90 graus no sentido horário. Logo, ao invés de exibir as sentenças da esquerda para a direita e de cima para baixo, seu programa deve exibi-las de cima para baixo e da direita para a esquerda.",
+    "format_input": "Seu programa receberá um máximo de 100 sentenças, cada uma delas não excederá 100 caracteres. Os caracteres de nova linha, espaço, qualquer pontuação, dígitos, letras são todos válidos. Só não é possível o caractere TAB. Você deve ler sentenças até não existirem mais sentenças na entrada. Ou seja, leia até o final da entrada. Veja a dica sobre a função gets() logo abaixo, na seção de descrição do formato de saída.",
+    "format_output": "O seu programa deve imprimir a última sentença verticalmente da coluna mais a esquerda da tela. Consequentemente, a primeira sentença da entrada será impressa por ultimo, na posição mais a direita. Dicas: Ele sempre dará uma entrada válida de acordo com o que foi especificado. Não precisa verificar, por exemplo, se o tamanho de uma sentença é maior que 100. O número máximo de caracteres é 100, lembre-se de alocar um a mais para o ‘\\0’ Como não existe um comando para o fim da entrada, leia enquanto houver entrada. O comando gets retorna “” quando não houver mais entrada lida; Use as funções do string.h Você pode inicializar um array com 0, fazendo: char array[10] = {}; O mesmo se aplica para arrays bidimensionais Lembre de testar para entradas diferentes A função gets retorna NULL quando alcança o final do arquivo e não há mais nada para ler",
+    "topics": [
+        "array",
+        "caractere",
+        "string",
+        "formatação"
+    ]
+}

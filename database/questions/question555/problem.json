@@ -1,0 +1,11 @@
+{
+    "title": "Texto justificado",
+    "time_limit": "4 segundo(s)",
+    "descrition": "Você receberá uma sequẽncia de palavras e um limite no números de caracteres que podem ser colocados em uma linha. Assuma que o tamanho de cada palavra é sempre menor ou igual ao tamanho da linha. O objetivo é distribuir as palavras na linhas de tal forma que elas fiquem balanceadas em termos de espaços em branco da linha. O custo de uma linha é: (número de espaços em branco)^3. O custo total do texto é a soma dos custos da linhas. Sua função é distribuir todas as palavras nas linha de tal forma a obter o menor custo total do texto. Por exemplo, considere a seguinte entrada com o tamanho de linha sendo 15: \"Geeks for Geeks presents word wrap problem\". A distribuição ótima seria: Geeks for Geeks, presents word, wrap problem. O número de espaços das linhas 1, 2 e 3 seriam: 2, 3 e 4, respectivamente. Portanto, o custo dessa solução é de: 8 + 27 + 64 = 99.",
+    "format_input": "Na primeira linha você receberá um número inteiro correspondendo ao tamanho da linha. Na segunda linha você receberá uma lista de palavras separadas por espaços. Considere que você receberá no máximo 1500 palavras.",
+    "format_output": "Em cada linha você deve imprimir as palavras que fazem parte dela. Veja o exemplo de saída para maiores detalhes.",
+    "topics": [
+        "requer solução eficiente",
+        "programação dinâmica"
+    ]
+}

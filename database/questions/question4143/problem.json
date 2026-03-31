@@ -1,0 +1,11 @@
+{
+    "title": "Operações",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você deve conhecer muito bem as 4 operações fundamentais da matemática, certo? Então faça um programa que execute essas operações de acordo com a escolha do usuário. Use switch case.",
+    "format_input": "Dois valores do tipo double e depois o tipo de operação que deve ser realizada entre eles da seguinte maneira: +: adição -: subtração *: multiplicação /: divisão",
+    "format_output": "Para cada operação, exiba a mensagem da seguinte forma: \"Número 1 (operação) Número 2 = Resultado\" Quando uma operação inválida for inserida, exiba: \"A operacao (operação) eh invalida!\"",
+    "topics": [
+        "ponto flutuante",
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Supermercado Meta Fiscal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Numa cidade do interior da Grécia existe um pequeno açougue chamado Metalefis. O dono deste pequeno estabelecimento te pediu para fazer um programa para facilitar o atendimento de seus clientes. Segue abaixo a tabela de preços: Tabela de preços: File Duplo: R$ 4,90 por kg até 5 kg-----R$ 5,80 por kg acima de 5 kg. Alcatra: R$ 5,90 por kg até 5 kg-----R$ 6,80 por kg acima de 5 kg. Picanha: R$ 6,90 por kg até 5 kg-----R$ 7,80 por kg acima de 5kg. O usuário irá passar respectivamente o tipo de carne, a quantidade de carne em kg que ele deseja comprar e se ele deseja efetuar a compra com o cartão Metalefis (Resposta 'sim' ou 'nao'). Se ele comprar com o cartão Metalefis ele receberá um desconto de 5% no valor total da compra. No final o programa deve imprimir um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor de desconto e valor a pagar. Caso o usario não pague com o cartão Metalefis deve-se assumir que a compra será feita a vista e o valor de desconto é de R$ 0.00",
+    "format_input": "Tipo de carne (em maiúsculas), quantidade em kg (valor decimal) e confirmação de uso do cartão Metalefis ('sim' ou 'nao').",
+    "format_output": "Cupom Fiscal detalhando o tipo da carne, quantidade, preço total, tipo de pagamento, valor do desconto e valor final a pagar.",
+    "topics": [
+        "Estruturas Condicionais",
+        "Cálculos Matemáticos",
+        "Formatação de Texto"
+    ]
+}

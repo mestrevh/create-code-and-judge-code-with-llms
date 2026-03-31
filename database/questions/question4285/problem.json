@@ -1,0 +1,15 @@
+{
+    "title": "Ajudando Adryan na atividade de português",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Adryan é um menino muito inteligente, principalmente na matéria de português. A professora estava ensinando formas nominais, foi quando ele teve a brilhante ideia de criar um programa que informa se uma série de palavras digitadas pelo o usuário está no gerúndio, particípio ou infinitivo. Mas ele não sabe programar, e então pediu a sua ajuda. A sua função é criar um programa que receba várias palavras até que o usuário digite a palavra fim, é quando o seu programa deve parar e informar quais palavras pertencem as formas nominais: gerúndio, particípio e infinitivo, e ainda deve informar quais palavras não pertencem a nenhuma dessas formas. Se o usuário digitar apenas a palavra \"fim\", o seu programa deve informar a seguinte mensagem: *Programa finalizado, você digitou apenas a palavra *fim*, desejando encerrar o programa.* Se alguma das formas nominais estiver vazio, o seu programa deve informar a seguinte frase: *Você não digitou nenhuma palavra no forma nominal!*",
+    "format_input": "Várias palavras",
+    "format_output": "A classificação de cada palavra.",
+    "topics": [
+        "array",
+        "decisão",
+        "substrings",
+        "repetição",
+        "caractere",
+        "string"
+    ]
+}

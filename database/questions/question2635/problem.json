@@ -1,0 +1,16 @@
+{
+    "title": "L5Q5 - A Ovelhinha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Nossos ladrões decidiram organizar os celulares dos reféns. Para isso, eles colocaram um adesivo com o número de celular na frente de cada celular a ele associado. Depois grudaram todos os celulares na parede. Além disso, anotaram em um papel o nome do(a) dono(a) do aparelho junto ao número do celular. Tudo corria bem, até que, por um descuido, eles deixaram Alison usar seu celular por alguns instantes sem ser vigiada. Por causa disso, a polícia acabou identificando Rio como um dos assaltantes. Visando impedir que isso aconteça de novo, os ladrões decidiram procurar pelo celular de Alison na parede a cada meia hora e depois reorganizar os celulares para dificultar para Alison procurar por seu celular na parede. Desde que Alison tentou bancar a espertinha, os ladrões perceberam que o celular dela tem o maior número entre todos os celulares dos reféns. Sabendo disso e visando acelerar o processo de procura por seu celular, os assaltantes desenvolveram um algoritmo para procurar pelo maior número de celular em um array de números de celulares que consiste em: - Se o array tem tamanho 1, o maior número de celular é o único número de celular do array. - Se o array tem tamanho N, divide-se o array em dois outros arrays. O maior número será o maior entre o maior do array a esquerda e o maior do array a direita. Eles, então pediram, pra você implementar esse algoritmo e lhes informar se o celular de Alison está, de fato, na parede, onde deveria estar. OBS: É obrigatório o uso de recursão para resolução do problema. Você deverá seguir o passo a passo do algoritmo implementado acima.",
+    "format_input": "A primeira linha consiste em um inteiro com a quantidade de celulares na parede: N. N - inteiro. Seguem, então, N linhas no formato: Pi Ci. Pi - Nome da pessoa na posição i na parede. Ci - Número do celular da pessoa na posição i na parede.",
+    "format_output": "Caso o celular de Alison continue na parede, deve-se imprimir: \"Ela nao tentou bancar a espertinha de novo!\" E caso o celular não esteja na parede, sendo M o maior número na parede, deve-se imprimir: \"ELA ROUBOU DE NOVO! TODOS ATRAS DE ALISON! O maior numero na parede e M!\"",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "decisão",
+        "recursão",
+        "dividir e conquistar",
+        "string",
+        "busca"
+    ]
+}

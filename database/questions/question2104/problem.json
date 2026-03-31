@@ -1,0 +1,10 @@
+{
+    "title": "L4Q2 - Han Solo e o quadrado mágico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Como pagamento de uma dívida, Jabba dá uma tarefa inusitada para Han Solo. Ele quer que o mercenário lhe entregue um quadrado mágico, muito raro na galáxia. Porém, para ter certeza que Han não pegou um quadrado qualquer, Jabba quer um programa para identificar a veracidade dos quadrados e entrega a você essa tarefa. Você, sabendo que um quadrado mágico consiste em uma matriz que possui a soma dos valores de cada coluna, cada linha e cada diagonal iguais, decide fazer o programa. Exemplo de quadrado mágico:",
+    "format_input": "A primeira linha da entrada é composta por um número natural L referente a quantidade de linhas e colunas da matriz. (A matriz será de formato LxL). As próximas L linhas são compostas, cada, de L números inteiros separados por espaços, representando os valores da matriz.",
+    "format_output": "Imprimir: \"A matriz e magica\" - Caso a matriz seja mágica; \"A matriz nao e magica\" - Caso a matriz não seja mágica",
+    "topics": [
+        "array bidimensional"
+    ]
+}

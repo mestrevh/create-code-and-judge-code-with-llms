@@ -1,0 +1,10 @@
+{
+    "title": "01 - It's On, It's On, It's On",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O acampamento de férias Camp Rock está com sérios problemas com a chegada do acampamento Camp Star logo do outro lado do lago que começou a atrair muitos dos alunos e funcionários do Camp Rock para lá, e para definirem de uma vez por todas qual dos 2 acampamentos é o melhor eles se desafiam para o Final Jam. a Para competir no Final Jam cada acampamento tem o direito de escolher 3 alunos para os representar, e a soma das notas desses representantes definirá qual dos 2 é o melhor acampamento, enquanto que o outro terá que fechar as suas portas. O camp Rock escolhe as representantes Mitchie, Caitlyn e Peggy, enquanto que o Camp Star escolhe o Luke, a Dana e a Tess. O seu programa deverá receber as notas de cada participante e computar qual foi o acampamento campeão, e também quem foi que obteve a maior nota.",
+    "format_input": "M L C T P D. Onde: M - Double, L - Double, C - Double, T - Double, P - Double, D - Double. Cada letra representa a nota de um dos representantes: M = Mitchie, L = Luke, C = Caitlyn, T = Tess, P = Peggy, D = Dana.",
+    "format_output": "A C. A primeira linha da saída deverá dizer qual o acampamento que foi campeão: \"O Camp Rock ganhou, alguem duvidava?\" (caso Camp Rock ganhe); \"Infelizmente o Camp Rock perdeu e teremos que fechar nossas portas\" (caso Camp Star ganhe); \"Tivemos um empate, acho que teremos que compartilhar o lago\" (caso empate). A segunda linha da saída deve informar o nome do representante com a maior nota. Em caso de empate, mostrar o nome do último a se apresentar entre os empatados.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

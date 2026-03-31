@@ -1,0 +1,10 @@
+{
+    "title": "A Princesa Comilona",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Serimah é uma princesa comilona, sempre que dá uma volta na cidade, os vendedores do mercado gostam de dar presentes a ela. Seu sonho de princesa é poder comer tudo sem engordar, mas seu pai percebeu que isso não está acontecendo e Serimah está ganhando uns quilinhos. Alguns vendedores do mercado pensando nisso fizeram uma receita que faz Serimah emagrecer, porém essa comida pode não ser saborosa e deixar Serimah um pouco triste. Cada comida contém dois valores, um representa a felicidade de Serimah ao comer essa comida (podendo ser negativo , caso ela não seja saborosa) , e outro valor indicando quantos quilos serão ganhos ou perdidos (valores negativos) caso Serimah coma essa comida. Sua tarefa é descobrir qual a quantidade maxima de felicidade que Serimah pode conseguir dado que ela só pode engordar no máximo Q quilos. Ps: considere que Serimah pode perder o quanto de peso ela quiser, ou seja, pode comer todas as comidas que fazem ela perder peso.",
+    "format_input": "A primeira linha contém dois inteiros , (1 <= N <= 17) indicando quantas comidas estão disponíveis entre seus presentes e (1 <= Q <= 20) indicando a maior quantidade de quilos que Serimah aceita ganhar. Seguem N linhas, cada linha com 2 inteiros, (-20<= F <= 20) indicando a felicidade de Serimah ao comer a comida Ni, e (-20 <= K <= 20) indicando a quantidade de quilos que Serimah irá ganhar ou perder.",
+    "format_output": "Um único inteiro indicando a maior quantidade de felicidade que Serimah irá conseguir caso escolha as comidas de forma ótima , ou 0 caso não consiga obter nenhum valor positivo de felicidade.",
+    "topics": [
+        "recursão"
+    ]
+}

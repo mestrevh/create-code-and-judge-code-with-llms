@@ -1,0 +1,11 @@
+{
+    "title": "Filminho pra Relaxar",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após uma longa semana fazendo vários exercícios de programação como preparação para a prova de programação imperativa, assistir um filminho pra relaxar após a prova parece uma boa ideia. O problema é que muitas vezes nós acabamos passando muito tempo olhando o catálogo de filmes e não escolhemos filme nenhum. Mas, desta vez, nós temos um plano, vamos definir o que assistir com base em um algoritmo simples que decide entre dois filmes. O algoritmo leva em consideração uma quantificação de gêneros e os pesos que nós damos para cada gênero e nos diz qual filme está mais próximo do que a gente procura. Vamos levar em consideração os seguintes gêneros: ação, suspense e comédia. Cada filme receberá uma pontuação de 0 a 5 em cada um dos três gêneros indicando quanto daquele gênero está presente no filme. Deste modo, o filme Matrix, por exemplo, poderia receber pontuação 5 para ação, 4 para suspense e 0 para comédia. O peso que nós atribuimos para cada gênero também varia de 0 a 5. Poderíamos, por exemplo, atribuir os pesos 3 para ação, 3 para suspense e 3 para comédia. Neste caso, o filme Matrix teria nota final igual a 3. Seu objetivo é escrever um programa que determine qual filme vamos assistir hoje. Em caso de empate, escolhemos o filme que aparece primeiro na lista.",
+    "format_input": "A entrada é dada por 2 listas com o seguinte formato: FilmeX:Nome gênero: pontuação gênero: pontuação gênero: pontuação Onde o X em FilmeX é ou o número 1 ou o número 2. E a palavra gênero é substituida por um dos três gêneros que consideramos (sem acentos). Após essas duas listas vem uma terceira lista com o formato: gênero: pontuação gênero: pontuação gênero: pontuação Indicando o peso que atribuímos a cada um dos gêneros. Perceba que a ordem dos gêneros pode variar em cada lista.",
+    "format_output": "A saída é dada por um único número inteiro entre 1 e 2 indicando qual dos dois filmes vamos assistir.",
+    "topics": [
+        "decisão",
+        "entrada formatada"
+    ]
+}

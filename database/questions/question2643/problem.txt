@@ -1,0 +1,6 @@
+Título: EEPAR
+Topicos do problema: obi; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);text-align: justify;"><span>Vamos definir números pares e ímpares de acordo com a concepção pitagórica:</span></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);text-align: justify;"><span>Par é o número que pode ser dividido em duas partes iguais, sem que uma unidade fique no meio, e ímpar é aquele que não pode ser dividido em duas partes iguais, porque sempre há uma unidade no meio<span> </span></span><span>(http://www.matematica.br/historia/parimpar.html).</span><span></span></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);text-align: justify;"><span>Construa uma função que recebe como parâmetro um número inteiro (N) e devolve como saída 1 se (N) for par e -1 se (N) for ímpar.</span></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);text-align: justify;"><span>Restrições: 0 &lt; N &lt; 1000.</span></p>
+Formato da entrada: <p>2</p>
+Formato da saída: <p>1</p>

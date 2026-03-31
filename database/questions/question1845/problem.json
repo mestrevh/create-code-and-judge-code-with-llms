@@ -1,0 +1,10 @@
+{
+    "title": "Nome ao contrário",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente, a primeira e a última letra devem estar em maiúsculo. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.",
+    "format_input": "Nome informado",
+    "format_output": "Nome invertido com a primeira e a última letra devem estar em maiúsculo.",
+    "topics": [
+        "string"
+    ]
+}

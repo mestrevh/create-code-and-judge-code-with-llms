@@ -1,0 +1,10 @@
+{
+    "title": "Diamantes para Shiro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Shiro estava tão entretida com uma partida de xadrez que acabou não percebendo que alguém roubou o diamante que seu irmão deu para ela. Esse diamante é muito precioso para ela, então, ajude a imprimir cartazes de vários tamanhos, mostrando como é o diamante.",
+    "format_input": "A entrada consiste de um inteiro, representando o raio do diamante que deverá ser impresso.",
+    "format_output": "A saída deverá conter a impressão do diamante de Shiro.",
+    "topics": [
+        "repetição"
+    ]
+}

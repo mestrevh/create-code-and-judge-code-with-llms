@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Passagem de Parâmetros - D",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que use uma função, criada por você, que recebe como parâmetros um vetor de inteiros V e o tamanho do vetor n (0 < n < 200). A função deve reduzir para dez o valor de todos os itens de V que tenham valor superior a dez. O programa deverá, após o término da execução da função, exibir todos os itens de V.",
+    "format_input": "Na primeira linha um número natural n (0 < n < 200), indicando a quantidade de itens do vetor V. Nas n linhas posteriores um número inteiro por linha simbolizando os itens do vetor, que deverão ser armazenados na mesma sequência em que foram dados.",
+    "format_output": "Os itens de V depois da execução da função, na mesma ordem em que foram dados na entrada.",
+    "topics": [
+        "função"
+    ]
+}

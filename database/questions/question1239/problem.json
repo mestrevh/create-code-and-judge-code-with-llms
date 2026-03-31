@@ -1,0 +1,11 @@
+{
+    "title": "Sequência Fibonacciana",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A sequência de Fibonacci (1, 1, 2, 3, 5, 8...) foi inicialmente descrita para mostrar o crescimento da população de coelhos geração a geração, no entanto, existem muitas outras aplicações para essa sequência matemática, uma vez que ela pode ser encontrada em inúmeras configurações biológicas. Fascinado com as distintas aplicações dessa sequência, Ambrósio desenvolveu sua própria derivação da sequência, trata-se de N sequências de Fibonacci, cada uma com M elementos, ele a batizou de Sequência Fibonacciana, o detalhe importante sobre essa nova sequência é que a N-ésima sequência começa sempre pelo N-ésimo termo da sequência original de Fibonacci. Hoje, Ambrósio confiou a você o desenvolvimento de um programa que dado o N número de sequências e o M número de elementos de cada sequência retorne a Sequência Fibonacciana gerada.",
+    "format_input": "Uma linha contendo um inteiro N, o número de sequências, e um inteiro M, o número de elementos em cada sequência.",
+    "format_output": "Seu programa deve imprimir a Sequência Fibonacciana gerada.",
+    "topics": [
+        "array",
+        "acumulador"
+    ]
+}

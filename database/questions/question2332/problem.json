@@ -1,0 +1,10 @@
+{
+    "title": "Tamanho da string",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Você deve criar um programa que imprima o tamanho da palavra",
+    "format_input": "Uma string (S) que pode conter letras e números Dica: Em python você pode usar a função len() EX: banana",
+    "format_output": "6",
+    "topics": [
+        "string"
+    ]
+}

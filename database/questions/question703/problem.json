@@ -1,0 +1,11 @@
+{
+    "title": "Desvio padrão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sua missão é calcular o desvio padrão de n números dados. Considere o cálculo do desvio padrão como sendo da população e não da amostra.",
+    "format_input": "A primeira linha da entrada contém um inteiro n ( 2<=n<=10000), correspondendo a quantidade de números reais que serão fornecidos. Na sequência, serão fornecidos n linhas, cada linha contendo um número real (menor que 10000).",
+    "format_output": "Imprima um número real formatado com duas casas decimais, correspondendo ao desvio padrão.",
+    "topics": [
+        "acumulador",
+        "lógica matemática"
+    ]
+}

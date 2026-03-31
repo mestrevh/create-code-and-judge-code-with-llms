@@ -1,0 +1,10 @@
+{
+    "title": "Mais uma festa da Marilda",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Marilda e seu esposo finalmente aprenderam a se organizar. Eles pretendem dar uma festa e, como agora são organizados, cada um montou em ordem alfabética a sua própria lista de convidados. No entanto, eles agora precisam da sua ajuda para juntar as duas listas de convidados, que também deverá estar em ordem alfabética e sem convidados repetidos. Como no seu curso de programação você aprendeu recursividade e gostou muito do assunto, a sua solução usará esta técnica. Em particular, você não utilizará nenhuma função pré-definida para ordenar, como por exemplo o método sort ou a função sorted em Python.",
+    "format_input": "A lista de convidados de Marilda, um nome por linha e terminada pela palavra FIM. A lista estará ordenada alfabeticamente e não conterá repetições. A lista de convidados do esposo de Marilda, um nome por linha e terminada pela palavra FIM. Esta lista também estará ordenada alfabeticamente e sem repetições.",
+    "format_output": "A lista conjunta de convidados, ordenada alfabeticamente e sem repetições.",
+    "topics": [
+        "recursão"
+    ]
+}

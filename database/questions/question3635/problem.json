@@ -1,0 +1,11 @@
+{
+    "title": "Mochila Binária - Busca exaustiva",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implementar o problema clássico da mochila que consiste em maximizar o valor dentro da mochila sem extrapolar o peso. Porém a estratégia a ser utilizada aqui obrigatoriamente é a busca exaustiva ou busca completa. Devem ser gerados todas as possibilidades de combinações entre os elementos da mochila e apenas o melhor deve ser escolhido.",
+    "format_input": "Dado dois inteiros N e P sendo, respectivamente o tamanho lista dos itens e a capacidade da mochila e será dada mais duas linhas com N números inteiros, a primeira linha corresponde aos valores dos itens e a segunda linha corresponde ao peso do item. A posição i-th corresponde ao valor do item e o peso dele na lista. 1 <= N <= 10 1 <= P <= 1000",
+    "format_output": "Uma serie de linhas cada uma com a combinação de itens gerados. Onde teremos como exemplo para 3 itens possíveis: V1 VT PT V2 VT PT V3 VT PT V1 V2 VT PT V1 V3 VT PT V2 V3 VT PT V1 V2 V3 VT PT Onde: V1 - valor do primeiro item V2 - valor do segundo item V3 - valor do terceiro item VT - valor total somado PT - Peso total somado Ao final deve ser impresso uma linha com um inteiro corresponde maior valor que pode ser levado na mochila.",
+    "topics": [
+        "busca completa",
+        "busca"
+    ]
+}

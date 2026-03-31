@@ -1,0 +1,30 @@
+Digite a opcao desejada:
+1- Cadastrar médico.
+2- Cadastrar consulta.
+3- Pesquisar consulta.
+0- Sair do programa.
+Digite codigo do medico:
+Digite o nome do medico:
+Codigo: 123 | Medico: Joao
+Digite a opcao desejada:
+1- Cadastrar médico.
+2- Cadastrar consulta.
+3- Pesquisar consulta.
+0- Sair do programa.
+Digite o codigo da consulta:
+Digite o dia da semana:
+Digite a hora:
+Digite o codigo do medico:
+Codigo: 5 | Semana: Segunda | Hora: 15 | Cod. Medico: 123
+Digite a opcao desejada:
+1- Cadastrar médico.
+2- Cadastrar consulta.
+3- Pesquisar consulta.
+0- Sair do programa.
+Digite o codigo da consulta:
+Codigo: 5 | Semana: Segunda | Hora: 15 | Cod. Medico: 123
+Digite a opcao desejada:
+1- Cadastrar médico.
+2- Cadastrar consulta.
+3- Pesquisar consulta.
+0- Sair do programa.

@@ -1,0 +1,11 @@
+{
+    "title": "Números Primos No Intervalo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba como entrada dois números positivos (limites do intervalo) e exiba todos os números primos entre eles em ordem decrescente. Lembre-se de que os limites podem ser informados em qualquer ordem. Obs: os limites do intervalo devem ser considerados como parte dele Dica: o número 1 não é considerado primo",
+    "format_input": "Dois números inteiros Lembre-se de que o primeiro número informado não necessariamente será menor que o segundo informado",
+    "format_output": "Números inteiros, sendo um por linha, em ordem decrescente.",
+    "topics": [
+        "repetição",
+        "números primos"
+    ]
+}

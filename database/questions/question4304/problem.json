@@ -1,0 +1,11 @@
+{
+    "title": "Bot de confiança",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Blue e Orange são robôs amigáveis. Um computador gênio do mal os trancou em corredores separados para testá-los e, possivelmente, dar-lhes bolo. Cada corredor contém 100 botões rotulados com os inteiros positivos {1, 2, ..., 100}. O botão k está sempre a k metros do início do corredor e os dois robôs começam no botão 1. No período de um segundo, um robô pode caminhar um metro em qualquer direção ou pode pressionar o botão em sua posição uma vez, ou pode ficar na posição e não apertar o botão. Para completar o teste, os robôs precisam apertar uma determinada sequência de botões em uma determinada ordem. Ambos os robôs conhecem a sequência completa com antecedência. Quão rápido eles podem completá-lo? Por exemplo, vamos considerar a seguinte sequência de botões: O 2, B 1, B 2, O 4. Aqui, O 2 significa o botão 2 no corredor de Orange, B 1 significa o botão 1 no corredor de Blue e assim por diante. Os robôs podem apertar esta sequência de botões em 6 segundos usando a estratégia mostrada abaixo: Tempo | Orange | Blue ---------+-----------------------------+----------------- 1 | Mover para o botão 2 | Ficar no botão 1 2 | Pressionar o botão 2 | Ficar no botão 1 3 | Mover para o botão 3 | Pressionar o botão 1 4 | Mover para o botão 4 | Mover para o botão 2 5 | Ficar no botão 4 | Pressionar o botão 2 6 | Pressionar o botão 4 | Ficar no botão 2. Observe que o Blue tem que esperar até que o Orange tenha terminado de pressionar o botão O 2 antes de começar a pressionar o B 1.",
+    "format_input": "A primeira linha da entrada fornece o número de casos de teste, T. T casos de teste a seguir. Cada caso de teste consiste em uma única linha começando com um inteiro positivo N, representando o número de botões que precisam ser pressionados. Isso é seguido por N termos da forma \"Ri Pi\", onde Ri é uma cor de robô (sempre 'O' ou 'B') e Pi é uma posição de botão.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo \"Caso #x: y\", onde x é o número do caso (começando em 1) e y é o número mínimo de segundos necessários para os robôs apertarem os botões fornecidos, em ordem.",
+    "topics": [
+        "array",
+        "busca"
+    ]
+}

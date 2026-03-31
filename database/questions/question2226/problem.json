@@ -1,0 +1,11 @@
+{
+    "title": "L1Q1 - Oh No!!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Nosso velho amigo encanador do Reino dos Cogumelos estava com a princesa Peach em seu castelo discutindo o novo sistema de encanamento do reino. Quando de repente, o Bowser destruiu as paredes do castelo e raptou a princesa na frente dos olhos dele. Mário está determinado a salvá - la e para isso vai precisar sair em uma longa viagem. Por causa disso, ele vai se preparar escolhendo um dos itens a seguir : 1. Life Mushroom 2. Fire Flower 3. Boost Star 4. Mega Mushroom Como é algo muito difícil de decidir, Mário preferiu pegar um item aleatório de olhos fechados. Cabe a você escrever um programa que dado um desses números diga a Mário o respectivo item que ele irá levar.",
+    "format_input": "N - número natural Obs: 1 <= N <= 4",
+    "format_output": "U - String A única linha de saída é composta pelo respectivo item do valor da entrada.",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

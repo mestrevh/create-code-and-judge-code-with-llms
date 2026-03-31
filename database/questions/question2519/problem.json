@@ -1,0 +1,12 @@
+{
+    "title": "Concatenando palíndromos e não palíndromos.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio ficou interessado a respeito de concatenação de strings, e pediu para que você faça um programa que concatene em uma string apenas palavras que são palíndromos. Já na outra string apenas palavras que não são palíndromos. Palíndromos são palavras que podem ser lidas da esquerda para a direita ou da direita para a esquerda, por exemplo: arara, ovo, asa...",
+    "format_input": "Um inteiro N ( 1<= N <= 100) representando a quantidade de palavras que virão a seguir, cada palavra tem no máximo 100 caracteres. (Observar os exemplos de entrada e saída)",
+    "format_output": "Quantidade de palíndromos lidos, depois Quantidade de não palíndromos, Tamanho da string concatenada com palíndromos seguido pela string concatenada, logo em seguida Tamanho da string concatenada com não palíndromos, e a string de não palíndromos. Note que: dada a entrada, o tamanho máximo das strings concatenadas é 10000. (Observar os exemplos de entrada e saída)",
+    "topics": [
+        "repetição",
+        "recursão",
+        "string"
+    ]
+}

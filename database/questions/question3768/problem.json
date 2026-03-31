@@ -1,0 +1,11 @@
+{
+    "title": "Criptografia do zipzop",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Júlia gosta de trocar mensagens com sua amiga Camila, mas elas não querem que seus amigos vejam suas conversas. Para isso, elas criaram um código de criptografia, que se baseia em utilizar o tamanho da string paramultiplicar o número do caractere na tabela ASCII (Imagem) por seu tamanho, MAS SOMENTE LETRAS SÃO PERMITIDAS. Para isso se utiliza o valor do caractere multiplicado por o tamanho da string, quando a tabela encontrar o último caractere minúsculo (z num 122) ele pula para primeira maiúscula(A num 65), e ao chegar ao último das maiúsculas (Z num 90) ele deve pular para a primeira minúscula (a 97). Entrada tem entre 1 e 100 caracteres.",
+    "format_input": "Eu quero um bolinho",
+    "format_output": "LX wXTQJ XV MJCupbJ",
+    "topics": [
+        "array",
+        "string"
+    ]
+}

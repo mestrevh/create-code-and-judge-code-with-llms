@@ -1,0 +1,12 @@
+Título: TDA Racional
+Topicos do problema: entrada formatada; estruturas; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>A tarefa aqui neste problema &eacute; ler uma express&atilde;o matem&aacute;tica na forma de dois n&uacute;meros Racionais (numerador / denominador) e apresentar o resultado da opera&ccedil;&atilde;o. Cada operando ou operador &eacute; separado por um espa&ccedil;o em branco. A sequ&ecirc;ncia de cada linha que cont&eacute;m a express&atilde;o a ser lida &eacute;:</p>
+<p>N&uacute;mero, caractere, n&uacute;mero, caractere, n&uacute;mero, caractere, n&uacute;mero.</p>
+<p>A resposta dever&aacute; ser apresentada e posteriormente simplificada.</p>
+<p>Dever&aacute; ent&atilde;o ser apresentado o sinal de igualdade e em seguida a resposta simplificada. No caso de n&atilde;o ser poss&iacute;vel uma simplifica&ccedil;&atilde;o, deve ser apresentada a mesma resposta ap&oacute;s o sinal de igualdade.</p>
+Formato da entrada: <p>A entrada contem v&aacute;rios casos de teste.</p>
+<p>A primeira linha de cada caso de teste contem um inteiro N (1 &le; N &le; 1*104), indicando a quantidade de casos de teste que devem ser lidos logo a seguir.</p>
+<p>Cada caso de teste cont&eacute;m um valor racional X (1 &le; X &le; 1000), uma opera&ccedil;&atilde;o (-, +, * ou /) e outro valor racional Y (1 &le; Y &le; 1000).</p>
+Formato da saída: <p>A sa&iacute;da consiste em um valor racional, seguido de um sinal de igualdade e outro valor racional, que &eacute; a simplifica&ccedil;&atilde;o do primeiro valor.</p>
+<p>No caso do primeiro valor n&atilde;o poder ser simplificado, o mesmo deve ser repetido ap&oacute;s o sinal de igualdade.</p>

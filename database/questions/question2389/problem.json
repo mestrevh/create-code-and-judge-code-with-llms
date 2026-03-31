@@ -1,0 +1,10 @@
+{
+    "title": "Planejando a expedição",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Natasha está planejando uma expedição à Marte para N pessoas. Uma importante tarefa é providenciar comida para cada participante. O armazém tem M pacotes de alimentos. Cada pacote tem o tipo do alimento Ai. Cada participante deve comer exatamente um pacote de alimentos por dia. Devido a cargas extremas, cada participante deve comer o mesmo tipo de comida durante toda a expedição. Diferentes participantes podem comer diferentes (ou os mesmos) tipos de alimentos. Para cada participante, Natasha deve escolher um tipo de comida que o ele deverá comer o mesmo alimento durante toda expedição. Quantos dias a expedição pode durar respeitando as restrições descritas? Restrições: 1 <= Ai, N e M <= 100",
+    "format_input": "A primeira linha contém dois inteiros N e M, quantidade de viajantes e a quantidade de pacotes, respectivamente. A segunda linha terá M inteiros que descreve o tipo de comida.",
+    "format_output": "Uma única linha contendo um inteiro que indica a quantidade máxima que a expedição pode durar.",
+    "topics": [
+        "busca binária"
+    ]
+}

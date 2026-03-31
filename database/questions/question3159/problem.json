@@ -1,0 +1,11 @@
+{
+    "title": "Corona: Ep 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em uma viagem pela Europa, Pedro Jorge, carinhosamente chamado de PJ, resolveu conhecer a Itália. Infelizmente o momento não era o melhor para o país, então em poucos dias de estadia, PJ se deparou em uma situação crítica, onde as ruas estão cheias de pessoas infectadas com o COVID-19 sem que saibam com certeza. Mas como PJ é um programador exemplar ele criou um sistema que acoplado a um óculos de realidade aumentada que permite com que ele saiba quem está infectado e assim ele pode saber com quem evitar contato. Você fará um programa que simula o programa feito por PJ.",
+    "format_input": "Seu programa receberá três números inteiros onde 0<=a,b,c<=1000.",
+    "format_output": "Seu programa deverá imprimir \"Seguro\" caso não exista um número primo entre esses números, \"Possível Risco\" caso haja apenas um número primo e \"Perigo\" caso haja mais de um número primo. Sempre com uma quebra de linha.",
+    "topics": [
+        "decisão",
+        "números primos"
+    ]
+}

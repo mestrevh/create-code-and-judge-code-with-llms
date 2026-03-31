@@ -1,0 +1,6 @@
+Título: Palavra com mais consoantes
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dado um texto, encontre a palavra que tenha mais consoantes. Por simplicidade, o texto usa o alfabeto Inglês, ou seja, letras não têm acentos.</p><p><br/></p>
+Formato da entrada: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">Um texto em que cada palavra é separada por um ou mais espaços em branco e/ou nova linha. O texto termina com uma linha contendo unicamente a palavra ‘FIM’ que não é considerada parte do texto.</span><br/></p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">A palavra com maior quantidade de consoantes. Se houver mais de uma, a primeira destas no texto. Se o texto for vazio, ou seja, se não contiver nenhuma palavra, o programa deve imprimir ‘texto vazio’.</span><br/></p>

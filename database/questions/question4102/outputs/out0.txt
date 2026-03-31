@@ -1,0 +1,8 @@
+A lista de notas é:
+[50, 50, 50, 50, 50, 50, 50, 50, 10, 80]
+Foram lançadas as seguintes notas:
+[50, 10, 80]
+A nota 50 repetiu 8 vezes.
+A nota 10 repetiu 1 vezes.
+A nota 80 repetiu 1 vezes.
+A nota que mais se repetiu foi a: 50, ela foi responsável por 80.0% das notas

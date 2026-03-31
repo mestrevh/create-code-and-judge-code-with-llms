@@ -1,0 +1,10 @@
+{
+    "title": "Guerreiro Oileh: A Torre da Dragoa Vermelha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O grande guerreiro Oileh precisa escalar uma torre para resgatar sua amada gata Sylvie, que foi capturada pela temida Dragoa Vermelha. A torre é composta por vários andares, e em cada andar há um inimigo com vida e ataque específicos que Oileh deve enfrentar. Durante a escalada, Oileh pode receber um ou mais Power-Ups em andares que melhoram suas habilidades: A cada andar múltiplo de 5, ele ganha +20 de vida. A cada andar múltiplo de 10, ele ganha +5 de ataque (acumulando com o bônus de vida, se aplicável). Regras do Combate: Oileh ataca primeiro. Em cada turno, ele causa dano igual ao seu ataque atual. O inimigo revida com seu ataque até que um dos dois seja derrotado. Se a vida de Oileh chegar a 0 ou menos, ele morre e não consegue seguir (Se a vida ficar negativa, mostrar 0). Os Power-Ups são recebidos após ele derrotar o inimigo do andar.",
+    "format_input": "Vida e Ataque inicial de Oileh: dois números inteiros (0 < v, a <= 100) Quantidade de andares da torre: um número inteiro 0 < x <= 50 Para cada andar (1 a x), dois inteiros: vida e ataque do inimigo",
+    "format_output": "A vida final e o ataque final de Oileh após todos os combates (se estiver negativa, mostrar 0). Se ele conseguir vencer todos os inimigos e resgatar Sylvie, imprimir: \"Vamos para casa!\", Senão, imprimir: \"Eu voltarei!\"",
+    "topics": [
+        "array"
+    ]
+}

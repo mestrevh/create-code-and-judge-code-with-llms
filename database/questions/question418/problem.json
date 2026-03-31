@@ -1,0 +1,11 @@
+{
+    "title": "Todas as permutações",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gere todas as permutações de um conjunto de números inteiros.",
+    "format_input": "Um inteiro n, indicando o maior inteiro do conjunto de 1 a n. Considere: 1<= n <= 10",
+    "format_output": "Todas as permutações, uma por linha. A saída deve ser ordenada na ordem lexicográfica. Veja o arquivo de exemplo para ficar mais claro.",
+    "topics": [
+        "busca completa",
+        "backtracking"
+    ]
+}

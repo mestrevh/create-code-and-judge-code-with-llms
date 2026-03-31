@@ -1,0 +1,11 @@
+{
+    "title": "Soma de matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "São dadas duas matrizes, A e B. Seu programa deve informar o resultado da soma dessas duas matrizes, se a soma for possível. Caso contrário, seu programa deve informar \"Soma impossivel\". Obs. Para identificar se é possível somar, lembre das regras de soma de matrizes.",
+    "format_input": "São informados na primeira linha dois inteiros que são o número de linhas e o número de colunas de A. Na segunda linha serão informados os elementos da primeira linha de A (números reais), separados por espaços. Nas linhas seguintes virão as demais linhas de A com seu elementos separados por espaços.\n3 3\n1.5 2.23 3.05\n4.87 5.65 6.07\n7.23 8.14 9.31\nTerminados os elementos de A, segue-se o mesmo padrão para a entrada de B: dois inteiros separados por espaço representando número de linhas e colunas de B e nas linhas seguintes os elementos das linhas de B separados por espaço.\n3 3\n2 4 6\n8 10 12\n14 16 18\nVeja exemplo de entrada.",
+    "format_output": "Se for possível calcular a soma, apresenta-se na saída os elementos de do resultado de C = A+B, sendo cada linha de C apresentada em uma linha, com os elementos das colunas separados por espaços e com 2 casas decimais.\n3.50 6.23 9.05\n12.87 15.65 18.07\n21.23 24.14 27.31\nSe não for possível, apresentar a seguinte mensagem:\nSoma impossivel",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

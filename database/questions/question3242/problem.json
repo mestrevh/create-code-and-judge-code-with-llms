@@ -1,0 +1,10 @@
+{
+    "title": "q1 - triangulos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que faz a leitura de três valores reais (r1, r2 e r3), representando os comprimentos de três retas, e exibe uma mensagem indicando se é possível ligar as pontas das retas formando um triângulo (pesquise qual a condição de existência de um triângulo). Caso seja possível formá-lo, indique qual o seu tipo (equilátero, isósceles ou escaleno). Caso não seja, diga que é impossível",
+    "format_input": "r1 r2 r3",
+    "format_output": "O tipo do triângulo, uma palavra com letras minúsculas e sem acentos: (equilatero, isoceles, escaleno ou impossivel)",
+    "topics": [
+        "lógica matemática"
+    ]
+}

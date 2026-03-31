@@ -1,0 +1,12 @@
+{
+    "title": "Fornecimento de Energia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma empresa de fornecimento de energia elétrica faz a leitura mensal dos medidores de consumo. Para cada consumidor, são digitados os seguintes dados: • número do consumidor • quantidade de kWh consumidos durante o mês • tipo (código) do consumidor: 1-residencial, preço em reais por kWh = 0,3; 2-comercial, preço em reais por kWh = 0,5; 3-industrial, preço em reais por kWh = 0,7. Os dados devem ser lidos até que seja encontrado o consumidor com número 0 (zero). Faça um programa em linguagem C que calcule e imprima: • O custo total para cada consumidor (com duas casas decimais); • O total de consumo para os três tipos de consumidor; • A média de consumo dos tipos 1 e 2 (com uma casa decimal).",
+    "format_input": "O usuário deve digitar o número do consumidor, a quantidade de KWh consumidos e o tipo de consumidor. A entrada de dados é finalizada quando o número do consumidor digitado for zero 0.",
+    "format_output": "O programa deve mostrar o custo total para cada consumidor (com duas casas decimais), o total de consumo para os três tipos de consumidor e a média de consumo dos tipos 1 e 2 (com uma casa decimal). Deve ser exibido na tela: Digite o numero do consumidor: Digite a quantidade de KWh consumidos: Digite o tipo de consumidor: Custo total para o consumidor n: R$ n Total de consumo acumulado: n Kwh Media de consumo dos tipos 1 e 2: n KWh",
+    "topics": [
+        "decisão",
+        "repetição",
+        "formatação"
+    ]
+}

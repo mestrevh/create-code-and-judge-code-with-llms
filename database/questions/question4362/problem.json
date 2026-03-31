@@ -1,0 +1,13 @@
+{
+    "title": "Restaurante a beira mar",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Leandros Julyan é um chefe renomado da grecia que recentemente criou restarante em joão pessoa - lucena o restaurante a beira mar funciona primariamente por reserva. o restarante tem 26 mesas sendo as mesas de 1 à 12 são dentro do restaurante, mesas de 13 à 20 são nopatio na frente do restaurante e as mesas de 21 à 26 são na praia. Leandros está te contratando para fazer um programa que guarde todos os pratos quecada mesa pede e diga o que fazer quando o clima mudaro programa só deve parar quando a entrada for \"Fechando\"",
+    "format_input": "a entrada pode ser a palavra prato seguido do numero da mesa e o nome do prato ou a palavra clima seguida de um tipo de clima entre: \"Mare alta\" : escreva \"Retire os cliente e mesas 21 22 23 24 25 26\" \"Mare baixa\" : escreva \"prepare as mesas 21 22 23 24 25 26\" \"chuva baixa\" : escreva \"Retire os cliente das mesas 13 14 15 16 17 18 19 20\" \"chuva\" : escreva \"Retire os clientes das mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26\" \"Tempestade\" : escreva \"Retire os clientes e mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26\" \"Armagedom\" : escreva \"Pawb allan, y gweddill yn cael eu tanio\"",
+    "format_output": "dependendo do clima escreva: \"Mare alta\" : escreva \"Retire os cliente e mesas 21 22 23 24 25 26\" \"Mare baixa\" : escreva \"prepare as mesas 21 22 23 24 25 26\" \"chuva leve\" : escreva \"Retire os cliente das mesas 13 14 15 16 17 18 19 20\" \"chuva\" : escreva \"Retire os clientes das mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26\" \"Tempestade\" : escreva \"Retire os clientes e mesas 13 14 15 16 17 18 19 20 21 22 23 24 25 26\" \"Armagedom\" : escreva \"Pawb allan, y gweddill yn cael eu tanio\" depois escreva todos os pedidos: Pedido 1 ,mesa x ,prato: -------------- Pedido 2 ,mesa x ,prato: -------------- Pedido 3 ,mesa x ,prato: --------------",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "repetição",
+        "ponteiro"
+    ]
+}

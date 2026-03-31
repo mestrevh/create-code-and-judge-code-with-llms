@@ -1,0 +1,11 @@
+{
+    "title": "Fatorial",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Calcule o fatorial de um número.",
+    "format_input": "Número digitado.",
+    "format_output": "Fatorial do número.",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

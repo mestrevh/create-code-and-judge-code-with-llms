@@ -1,0 +1,11 @@
+{
+    "title": "07 - Chama, liga, que eu sou tua amiga",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kim Possible é uma adolescente que tem que conciliar sua vida normal com seu trabalho de agente secreta combatendo o crime. No fim do ano, Kim mal consegue lidar com a grande quantidade de provas e missões que lhe são atribuidas, além de ter que cuidar de sua vida amorosa. É domingo, e Kim tem um encontro marcado com seu namorado Ron. Entretando, antes de sair, ela recebeu um chamado para uma missão,e no próximo dia ela terá que fazer uma prova de introdução a programação. Seu dever é ajudar Kim a decidir se deve sair com Ron, estudar pra prova ou sair na sua missão para combater o crime.",
+    "format_input": "U D. U - String. D - String. Onde a primeira linha representa o nivel de urgência da missão que Kim recebeu, podendo ser: \"Muito Urgente\", \"Urgente\", \"Pouco Urgente\". Enquanto a segunda linha representa a dificuldade de sua prova, podendo ser: \"Dificil\", \"Media\", \"Facil\".",
+    "format_output": "R. R - String. A linha única da saída é composta pelas atividades que Kim decidiu realizar neste domingo: \"Aceitar a missao\", \"Aceitar a missao e [outra atividade, a ser avaliada]\", \"Estudar\", \"Estudar e Sair com Ron\", \"Sair com Ron\". Saiba que, Kim usará seu dia todo para fazer a missão, se esta for muito urgente, e irá dividir seu dia com outra atividade, caso a missão seja urgente. Além disso, se a missão for pouco urgente, Kim não a aceitará. Kim não irá sair com Ron se sua prova for difícil, irá dividir seu dia entre estudar e namorar se a mesma for média, e não estudará para a prova se ela for fácil.",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Banco",
+    "time_limit": "14 segundo(s)",
+    "descrition": "Em Maricá – RJ circula uma moeda social com o intuito de incentivas o crescimento local. Esse dinheiro tem o nome Mumbuca e é gerenciado por um banco comunitário de desenvolvimento que está informatizando seus controles de clientes e contas. Sobre cada cliente dispõe-se dos seguintes dados: número de suas contas, nome e saldo. As contas válidas têm número diferente de zero. Cada conta possui um só cliente, porém um cliente pode ter mais de uma conta. As informações das contas são as seguintes: número da conta, cliente e saldo atual. Crie um programa que: Inicie o menu. Digite a opcao desejada: 1- Cadastrar cliente e conta. 2- Mostrar todas as contas cadastradas. 3- Mostrar contas de determinado cliente. 4- Mostre o ativo bancario. 5- Atualizar saldo. 0- Sair do programa. A opção 1 do menu deve iniciar o cadastro de um cliente. A mensagem “Digite o nome do cliente:” deve aparecer e o programa deve recebe e armazenar o nome do cliente, em seguida deve apresentar a mensagem “Digite o saldo:” e o programa deve recebe e armazenar o saldo dessa conta. Por fim o programa deve apresentar o número da conta, nome do cliente e saldo, exemplo: “Conta: 5 | Cliente: Joao | Saldo: R$ 1500.00 ”. A opção 2 do menu deve apresentar todas as contas cadastradas seguindo o exemplo: Conta: 1 | Cliente: Joao | Saldo: R$ 100.00 Conta: 2 | Cliente: Maria | Saldo: R$ 1300.00 ... A opção 3 do menu deve apresentar a mensagem “Digite o nome do cliente:” e em seguida apresentar todas as contas do cliente informado seguindo o exemplo: Conta: 1 | Cliente: Joao | Saldo: R$ 100.00 Conta: 5 | Cliente: Joao | Saldo: R$ 1500.00 A opção 4 do menu deve mostra a soma de todos os saldos seguindo o exemplo: Ativo Bancario: R$ 123400.00 A opção 5 do menu deve apresentar a mensagem “Digite o numero da conta:”, esse número deve ser digitado pelo usuário e de forma similar a mensagem “Digite o novo saldo:” e em seguida deve atualizar o saldo desta conta. A opção 0 deve fechar o programa. Caso o usuário digite uma opção diferente das apresentadas o programa deve informar “Opcao invalida.” E o programa deve retornar ao menu.",
+    "format_input": "Obedece as opções escolhidas.",
+    "format_output": "Variável, depende das entradas.",
+    "topics": [
+        "acumulador",
+        "string",
+        "busca"
+    ]
+}

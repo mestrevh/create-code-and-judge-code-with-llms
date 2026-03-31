@@ -1,0 +1,12 @@
+{
+    "title": "Sequência de 10",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia uma sequência de 10 números e informe o total de ocorrências do último número lido.",
+    "format_input": "O programa receberá uma sequência de 10 números inteiros.",
+    "format_output": "O numero X apareceu N vezes. Onde X é o último número lido e N foi o número de vezes que esse número apareceu. A saída deve ser seguida de um final de linha.",
+    "topics": [
+        "array",
+        "acumulador",
+        "dicionário"
+    ]
+}

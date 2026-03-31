@@ -1,0 +1,10 @@
+{
+    "title": "Cálculo de Aposentadoria 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O INSS calcula o tempo de serviço de um trabalhador e determina se pode se aposentar ou não. Para se aposentar, um trabalhador deve atender a um desses dois requisitos: Ter pelo menos 65 anos completos e trabalhado pelo menos 5 anos Ter trabalhado pelo menos 30 anos completos Quando nenhum dos requisitos é atendido, o trabalhador deve ser informado quanto tempo falta para a sua aposentadoria em anos. O tempo que falta deve ser informado em anos completos, ou seja, se, por exemplo, faltarem apenas alguns dias, o trabalhador será informado que falta um ano completo. Observação: É necessário a utilização de funções definidas pelo programador(a) para resolver a questão. Mais de uma se for necessário.",
+    "format_input": "Três linhas, cada uma consistindo de 3 números inteiros correspondentes a uma data especificada com dia, mês e ano, respectivamente. A primeira linha contém a data de nascimento, a segunda linha contém a data em que o trabalhador começou a trabalhar e, finalmente, a terceira linha contém a data atual. Supomos que o trabalhador nunca parou de trabalhar após ele ter começado.",
+    "format_output": "A idade e o tempo de serviço do trabalhador, ambos em anos completos, um por linha. Adicionalmente, em uma nova linha, uma mensagem para o usuário informando se pode ou não se aposentar. Caso não possa, informar o quanto tempo faltam para a aposentadoria. A formatação deve seguir a usada nos exemplos abaixo.",
+    "topics": [
+        "decisão"
+    ]
+}

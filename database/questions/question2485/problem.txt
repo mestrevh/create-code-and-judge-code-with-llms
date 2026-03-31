@@ -1,0 +1,6 @@
+Título: PROGCOMP - Repetição - X
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><b>[while]</b> Uma empresa está fazendo uma pesquisa, ligando para telespectadores e perguntando qual canal de televisão (4, 5 ou 9) eles estão assistindo. A cada ligação a resposta é registrada em um <i>software</i>. No final do dia, alguém digita zero e os canais com seus respectivos votos são exibidos em ordem decrescente. Construa esse <i>software</i>. Obs.: Considere que não haverá empate.</p>
+Formato da entrada: <p>Diversos números naturais, representando o canal que o telespectador está assistindo.</p>
+Formato da saída: <p>Os canais válidos com suas respectivas quantidades de votos, conforme exemplo.</p>

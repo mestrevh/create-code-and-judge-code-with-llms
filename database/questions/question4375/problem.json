@@ -1,0 +1,11 @@
+{
+    "title": "Chapeuzinho Vermelho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Chapeuzinho Vermelho gosta de fazer visitas para sua avó durante o dia. No entanto, Chapeuzinho Vermelho tem muitos compromissos semanais, como:escola, natação, balé, inglês, aulas de costura e aulas de piano. Quando sobra um tempinho entre os seus compromissos ela resolve ir visitar a vovó, no entanto precisa tomar cuidado com um lobo que sempre a persegue. O Lobo é muito esperto, está sempre de tocaia, sua estratégia é ficar sempre nos caminhos mais curtos, do ponto onde se encontra Chapeuzinho Vermelho até a casa da vovó. O caminho mais curto neste contexto é dado pela relação de vizinhança, ou seja, sempre haverá um ponto P (Partida) ao ponto D (Destino) de ligação direta entre Chapeuzinho Vermelho e a casa da vovó. Como são muitos locais e caminhos diferentes para chegar até a casa da vovó, Chapeuzinho Vermelho fica perdida para qual caminho deve seguir. Sua preocupação é sempre fazer o caminho mais seguro, evitando ser surpreendida pelo lobo. Neste contexto, Chapeuzinho Vermelho teve a ideia de utilizar o celular para prever qual caminho é mais seguro, mas não sabe programar. Ela descobriu que no IFSP Barretos se concentra os melhores programadores do Brasil, então resolveu pedir ajuda a eles.",
+    "format_input": "A entrada consiste em uma matriz de adjacência representando o mapa local onde se encontra Chapeuzinho Vermelho e a casa da vovó. Na primeira linha de entrada é dada dois inteiros, separados por um espaço, representando a dimensão M X N da matriz de adjacência. A segunda linha possui dois inteiros separados por um espaço, onde o primeiro número representa o ponto de origem P de Chapeuzinho Vermelho, e o segundo número o ponto de destino D, a casa da vovó. As próximas N linhas de entrada alocam os dados da matriz de adjacência. Restrições: Sempre haverá apenas 2 caminhos diferentes entre o ponto de partida ao de destino. Todos os caminhos possuem dupla ligação, ou seja, bidirecional.",
+    "format_output": "Mostre o caminho mais seguro que Chapeuzinho Vermelho deve caminhar para chegar até a casa de sua avó. Siga o exemplo de saída conforme os exemplos abaixo.",
+    "topics": [
+        "array bidimensional",
+        "busca"
+    ]
+}

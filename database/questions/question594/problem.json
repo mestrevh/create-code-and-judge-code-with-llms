@@ -1,0 +1,10 @@
+{
+    "title": "Reino dos Macacos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Esta é a história no Zimbo , o reino feito oficialmente por macacos. Nosso Monge visitou Zimbo e declarou aberto um desafio no reino, assim falou a todos os macacos :\n\n\"Vocês todos têm de fazer equipes e ir em uma caça por Bananas . A equipe que retorna com o maior número de Bananas será recompensado com o maior número de moedas de ouro equivalente ao número de Bananas com eles. Que a força esteja com você!\"\n\nDado N o número de macacos no reino. Cada macaco que quer juntar-se com um outro macaco tem que realizar um ritual de união . Dado M a quantidade de rituais a ser executados. Cada ritual tem dois macacos . Se Macaco A e B se uniram e Macaco B e C se unem ,então, Macacos A e C também estão na mesma equipe.\n\nVocê receberá uma matriz A que indica a quantidade de bananas de cada macaco.\n\nDescubra o número de moedas de ouro que o nosso Monge deve reservar para o prêmio.",
+    "format_input": "A primeira linha contém um inteiro T, indicando o número de testes. Cada caso de teste inicia com os números N e M, indicando a quantidade de macacos e a quantidade de rituais de união . as próximas M linhas contem dois inteiros A e B, indicando que o macaco A se uniu ao macaco B. A ultima linha de cada caso de teste contém N inteiros separados por espaço indicando a quantidade de bananas que cada macaco possui. 1 ≤ T ≤ 10 1 ≤ N ≤ 10^5 0 ≤ M ≤ 10^5 0 ≤ Ai ≤ 10^12",
+    "format_output": "Imprima a quantidade de ouro que o monge entregará aos vencedores.",
+    "topics": [
+        "grafo"
+    ]
+}

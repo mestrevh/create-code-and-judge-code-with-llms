@@ -1,0 +1,11 @@
+{
+    "title": "Conjugação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pedrinho está estudando verbos na escola e observando sua gramática, ele observou que em muitos verbos, a conjugação da terceira pessoa do singular do presente do indicativo é obtida simplesmente removendo o \"r\" do verbo no infinitivo. Desta forma, a terceira pessoa do singular do presente do indicativo do verbo \"vender\" é \"vende\". Outra observação interessante que ele fez foi que o gerúndio de muitos verbos pode ser obtido removendo o \"r\" do infinitivo e acrescentando o sufixo \"ndo\". Seguindo este raciocínio, o gerúndio do verbo \"vender\" é \"vendendo\". Faça um programa para ajudar Pedrinho a testar sua teoria.",
+    "format_input": "Uma string correspondendo a um verbo no infinitivo.",
+    "format_output": "Duas strings, uma correspondendo ao verbo no infinitivo removendo o \"r\" e outra removendo o \"r\" e acrescentando o \"ndo\".",
+    "topics": [
+        "substrings",
+        "caractere"
+    ]
+}

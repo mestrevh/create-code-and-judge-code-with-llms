@@ -1,0 +1,10 @@
+{
+    "title": "Oileh no espaço",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oileh, um aventureiro espacial, está explorando o aglomerado de estrelas JADES-GS-z14-0 quando começa a receber sinais enigmáticos de um planeta com vida biológica. Intrigado, ele percebe que cada transmissão segue um padrão peculiar: Primeiro, Oileh recebe um número X de mensagens que foram enviadas. Cada mensagem contém as seguintes entradas: Um número inteiro n. Em seguida, recebe uma sequência de caracteres com comprimento igual à soma dos dígitos de n. Além disso, Oileh nota que essas mensagens chegam invertidas. Por exemplo, se a mensagem original fosse \"certo\", ele receberia \"otrec\". Escreva um programa que leia e processe essas mensagens, corrigindo a inversão e exibindo-as na ordem correta.",
+    "format_input": "Um número inteiro X, representando a quantidade de mensagens recebidas. Para cada uma das X mensagens: Um número inteiro n. Uma sequência de caracteres com tamanho igual à soma dos dígitos de n.",
+    "format_output": "Para cada mensagem recebida, imprima a versão corrigida (desinvertida) em uma nova linha.",
+    "topics": [
+        "recursão"
+    ]
+}

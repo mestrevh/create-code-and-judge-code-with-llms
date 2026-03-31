@@ -1,0 +1,6 @@
+Título: Série de Ambrósio
+Topicos do problema: multiplas entradas; repetição; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio está impressionado com várias séries matemáticas, e resolveu criar a sua própria série.</p><p>A série de Ambrósio funciona da seguinte maneira:</p><p>Inicia com 0;</p><p> 1 - Soma 1 ao valor anterior e vai para o passo 2;</p><p> 2 - Soma o resto da divisão do valor anterior por 2 ao valor anterior e vai para o passo 3;</p><p>3 - Soma o resto da divisão do valor anterior por 5 ao valor anterior e volta para o passo 1;</p><p><br/></p><p>Por exemplo: 0, 1 (passo 1), 2 (passo 2), 4 (passo 3), 5 (passo 1) ...<br/></p>
+Formato da entrada: <p>Será dado um inteiro <b>'k'</b>, em seguida para cada inteiro <b>k</b>, será dado um inteiro <b>'n'</b>, representando o <b>n-ésimo</b> termo da sequencia a ser impresso (0 é o termo 0 da sequência) ou seja se n = 0, a saída será = 0.</p><p>3</p><p>1</p><p>2</p><p>3<br/></p>
+Formato da saída: <p><b>k </b>inteiros seguidos por uma quebra de linha, correspondendo ao <b>n-ésimo</b> termo da sequencia.</p><p>1</p><p>2</p>4

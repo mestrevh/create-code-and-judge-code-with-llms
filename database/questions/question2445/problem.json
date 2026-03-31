@@ -1,0 +1,13 @@
+{
+    "title": "L2Q2 - Esteja preparado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Hércules, após ter notícia do que aconteceu com Tarzan, decidiu que precisava estar preparado para qualquer situação. Então ele planeja fazer um upgrade em sua arma para poder enfrentar os Titãs sem muitos inconvenientes quando a hora chegar. Sua tarefa é ajudar Hércules a escolher o melhor aprimoramento para sua espada. Para isso, será necessário realizar análises locais dos itens da entrada. Ao final, o melhor dos itens deve ser o escolhido.",
+    "format_input": "A entrada começa com um inteiro N indicando a quantidade de aprimoramentos disponíveis. O atual dano da espada de Hércules é um inteiro D que vem em seguida. Seguem N linhas de formato K B sendo K, uma constante que ajudará a determinar o novo dano da espada; B, um valor de bônus pela nova combinação. A fórmula para o cálculo do novo dano será: A entrada é encerrada após a listagem de todos os elementos.",
+    "format_output": "Para cada nova combinação da entrada, seu programa deverá ter como saída: ELEMENTO #E\nDANO: X\nAUMENTO: Y%\nonde E é o número do elemento; X o novo dano da espada de Hércules; Y é um inteiro que indica a porcentagem de aumento do dano em relação ao dano original D (considere o teto deste número). Uma linha em branco separa cada uma dessas saídas. Ao final do programa, você deverá exibir qual foi o elemento escolhido pro aprimoramento. Esta saída deverá ser na forma: ELEMENTO ESCOLHIDO: #E\nNOVO DANO DA ESPADA: P\nAUMENTO: Q%\nsendo E e Q as informações correspondentes ao maior dano P. Se houverem danos iguais ao aplicar os elementos, considere apenas o primeiro dano para escolher como o melhor. Ex: se houverem três danos iguais a 6250, dos elementos 3, 7 e 9, você deverá considerar como o melhor o elemento 3.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

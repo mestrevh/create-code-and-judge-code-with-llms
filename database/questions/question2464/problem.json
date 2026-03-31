@@ -1,0 +1,12 @@
+{
+    "title": "Mario de Ambrolândia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No Mario de Ambrolandia, jogo o qual você ficou encarrecado de projetar, existe apenas um objetivo: pular todos os obstáculos. Seguindo a mesma lógica acima, o Mario de Ambrolandia pode andar casa por casa, ou pular X casas de uma vez. Durante o desenvolvimento do jogo, você estava decidindo quantas casas o Mario de Ambrolandia iria pular(X) a cada pulo que ele desse, de forma que permitisse uma boa jogabilidade. Porém seu amigo Ambrósio, sempre inconveniente, fez um desafio: Descobrir o X mínimo necessário do pulo, de forma que fosse possível concluir uma fase do jogo dada por ele. *O pulo é fixo, após decidir o seu valor(X), cada \"loop\" do jogo haverá uma decisão: Andar(1 casa) ou Pular(X casas) *Se o jogador esta na casa 1 e anda 1 casa, ele vai para a casa 2. *Se o jogador esta na casa 1 e pula 1 casa (X = 1), ele vai para a casa 3. Você obviamente aceitou o desafio. Ambrósio irá te dar a posição dos obstáculos e você deve desenvolver um programa que encontre o X mínimo do pulo (quantas casas o Mario de Ambrolândia terá que pular por vez) de forma que seja possível passar por todos os obstáculos.",
+    "format_input": "Um inteiro N representando o número de obstáculos (1 <= N <= 1000) N inteiros M, em ordem crescente, representando a posição dos obstáculos (1 <= M <= 5000) *O Mário começa na posição 0",
+    "format_output": "Cada casa da fase dada por Ambrosio contendo 0 para casas vazias e 1 para casas com obstáculos Quantas casas cada pulo do Mario de Ambrolandia deve saltar (X), conforme o exemplo.",
+    "topics": [
+        "array",
+        "repetição",
+        "recursão"
+    ]
+}

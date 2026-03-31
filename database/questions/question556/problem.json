@@ -1,0 +1,11 @@
+{
+    "title": "Ciclos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um ciclo num grafo simples (não-dirigido) G=(V,E) é uma sequência de vértices v[i_1], v[i_2],..., v[i_k]=v[i_1] tal que (v[i_q],v[i_q+1]) pertence a E, para todo q=1,...,k-1. Num grafo simples, ciclos podem ser detectados através de um simples percurso em profundidade: se, e somente se, um vizinho de algum vértice sendo visitado, diferente do seu precursor, já tiver sido visitado, então o grafo possui um ciclo. O objetivo deste exercício é implementar um algoritmo para detecção de ciclos em grafos simples.",
+    "format_input": "A entrada consiste de C casos, cada um consistido de um grafo. Cada caso possui a forma N M v[i_1] v[j_1] v[i_2] v[j_2] ... v[i_M] v[j_M] onde * N = número de vértices do grafo. Os vértices são numerados de 0 a N-1. * M = número de arestas do grafo * v[i_q] v[j_q] denota a aresta v[i_q]--v[i_q], para q=1,...,M Após cada caso há uma linha em branco. IMPORTANTE: As arestas não são listadas em nenhuma ordem específica. Limites: 1 <= C <= 100 2 <= N <= 200 0 <= M <= N*(N-1)/2",
+    "format_output": "Para cada caso k=1,...,C o programa deve imprimir uma linha na forma k has_cycle[k] onde has_cycle[k] = 1, se o grafo correspondente ao caso k tem um ciclo, ou 0, caso contrário.",
+    "topics": [
+        "grafo",
+        "ciclos"
+    ]
+}

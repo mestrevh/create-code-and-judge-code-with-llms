@@ -1,0 +1,6 @@
+Título: Soma de diagonais
+Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dada duas matrizes quadradas de mesmo tamanho, cada qual com lado de tamanho L (onde L &gt; 1), realize a soma dos elementos da diagonal principal da matriz 1 e da diagonal principal da matriz 2 rotacionada 90º para a direita.</p>
+Formato da entrada: <p>Duas matrizes quadradas de mesmo tamanho e de lado L, onde L &gt; 1, e informadas em linhas separadas. Os elementos dessas matrizes são números inteiros.</p>
+Formato da saída: <p>Um número inteiro representando a soma dos elementos da diagonal principal da primeira matriz mais os elementos da diagonal principal da segunda matriz rotacionada para a direita 90º</p>

@@ -1,0 +1,10 @@
+{
+    "title": "Ingresso no Cinema",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O valor normal de um ingresso em um determinado cinema é R$ 20,00. Entretanto, se o cliente é estudante ou idoso, o cinema cobra apenas meia-entrada. Faça um programa que leia um valor inteiro (0 ou 1) que indica se o cliente é estudante e outro valor inteiro (0 ou 1) que indica se o cliente é idoso. Com base nos valores lidos, o programa deve indicar, utilizando 0 ou 1, se este cliente paga entrada completa (falso - 0) ou meia-entrada (verdadeiro - 1).",
+    "format_input": "Dois números inteiros (0 ou 1) separados por um fim de linha, indicando se o cliente é estudante e idoso, respectivamente.",
+    "format_output": "1 número inteiro (0 ou 1) indicando como deve ser o pagamento do cliente: 1 caso seja meia-entrada 0 caso seja entrada completa",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Números Congruentes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dizemos que um número i é congruente módulo m a j se i%m = j%m. Por exemplo, 35 é congruente módulo 4 a 39, pois 35%4 = 3 = 39%4. Escreva uma função, que permita imprimir os n primeiros naturais congruentes a j módulo m.",
+    "format_input": "Três valores inteiros: a quantidade de números naturais congruentes, a quem será o congruente, o módulo m",
+    "format_output": "o n primeiros números congruentes a j módulo m caso não sejam encontrados congruentes com os parâmetros informados retorna-se -1",
+    "topics": [
+        "função"
+    ]
+}

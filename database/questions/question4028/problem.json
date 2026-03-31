@@ -1,0 +1,10 @@
+{
+    "title": "Piratas encantam sereias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O capitão pirata busca salvar o mundo, verdade e universo impulsionando seu navio para viajar através tempo e espaço, porém, para alcançar a velocidade do som, deve primeiro convencer as sereias a carregarem seu navio pelos treze mares. As sereias exigem números mágicos que representam a música, os tripulantes do navio foram atrás de números que pudessem ter algum significado e o capitão fez um programa que pudesse verificar se aquele número tem harmonia. Faça um programa que verifica se um número gera um acorde desejado pelas sereias. As unidades (0 - 9) podem ser traduzidas por notas, os piratas descobriram que a tradução é dada da seguinte maneira: Dó - 0 // Ré - 1 // Mi - 2 // Fá - 3 // Sol - 4 // Lá - 5 // Si - 6. O acorde será gerado a partir de uma tríade (3 notas), como adquirir as notas? A nota tônica é gerada dividindo o número recebido por 100. A terça é gerada dividindo o número recebido por 10. A quinta é gerada pelo próprio número. Você deve tomar o quociente de cada valor acima e traduzir para uma nota. (Use seu conhecimento de módulo - lembre-se que há somente 7 notas conhecidas pelos piratas). Acordes desejados estão localizados no campo Harmônico de Dó maior, são constituídos da seguinte maneira: Dó: Tônica - Dó, Terça - Mi, Quinta - Sol; Ré: Tônica - Ré, Terça - Fá, Quinta - Lá; Mi: Tônica - Mi, Terça - Sol, Quinta - Si; Fá: Tônica - Fá, Terça - Lá, Quinta - Dó; Sol: Tônica - Sol, Terça - Si, Quinta - Ré; Lá: Tônica - Lá, Terça - Dó, Quinta - Mi; Si: Tônica - Si, Terça - Ré, Quinta - Fá",
+    "format_input": "Você receberá dos piratas somente um número (Inteiro > 100) que representa um acorde desejado ou não.",
+    "format_output": "Decifre as notas do acorde e caso seja formado retorne o acorde formado ou um aviso. Caso encontre o número recebido seja um acorde escreva: Acorde X satisfaz. Onde X é o acorde encontrado (do, re, mi, fa, sol, la, si) sem acento, caso não seja um acorde desejado: Combinacao nao satisfaz.",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Mensagem alienígena",
+    "time_limit": "1 segundo(s)",
+    "descrition": "RECEBEMOS MENSAGENS ALIENÍGENAS! E elas são... Números?! Infelizmente, essas mensagens estão criptografadas. Por isso, a NASA chamou você para traduzir essas mensagens. Cada mensagem veio junto com dois inteiros x e y. Depois de muito esforço, foi descoberto que é possível mapear cada número para tabela ASCII! Dada um número a, ele é mapeado para tabela ASCII com: (a * x + y) mod 127. Observação: mod se refere à operação modular (resto de divisão). Veja https://pt.wikipedia.org/wiki/Aritmética_modular. Observação 2: A tabela ASCII é o padrão para strings na maioria das linguagens, como C. Veja https://pt.wikipedia.org/wiki/ASCII. .",
+    "format_input": "A primeira linha da entrada terá três inteiros n, x e y. Representando respectivamente, o tamanho da mensagem e os valores usados para a tradução. Limites: 1 <= n <= 10⁵ 0 <= y <= 1 <= x <= 10³",
+    "format_output": "A saída é a mensagem traduzida (como string, seguindo a tabela ASCII).",
+    "topics": [
+        "ad-hoc"
+    ]
+}

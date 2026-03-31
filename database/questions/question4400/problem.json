@@ -1,0 +1,10 @@
+{
+    "title": "War IV",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oguh estava jogando um jogo de guerra chamado War IV, um simples jogo que acontece num tabuleiro NxM e que cada quadrado do tabuleiro possui um número de tropas. Em cada jogo ele tem A ataques que atingem uma área 3x3 para usar no campo de batalha do tabuleiro, e a cada ataque ele mostra a coordenada x y e o dano D que será dado nas casas. Infelizmente Oguh não é muito inteligente e o jogo não mostra o estado do tabuleiro depois de todos os ataques feitos, então ele decidiu pedir para você criar um programa para ajudar ele com esse problema. Crie um programa que recebe a matriz do tabuleiro do jogo e os ataques e então exibe na tela a matriz do tabuleiro após receber todos os ataques de Oguh. OBS 1: OS ESPAÇOS ADJACENTES A COORDENADA DO ATAQUE RECEBEM METADE DO DANO OBS 2: A MATRIZ FINAL NÃO PODE EXIBIR NÚMEROS NEGATIVOS OBS 3: N >= M >= 3 OBS 4: X INDICA A LINHA E Y INDICA A COLUNA OBS 5: AS DIAGONAIS TAMBÉM CONTAM COMO ESPAÇOS ADJACENTES",
+    "format_input": "Dois inteiros N e M representando o tamanho do tabuleiro NxM inteiros representando as tropas em cada quadrado do tabuleiro Um inteiro A representando quantos ataques serão feitos A linhas contendo 'x y D' indicando a coordenada e o valor do ataque",
+    "format_output": "Exiba a matriz que representa o tabuleiro após todos os ataques serem feitos",
+    "topics": [
+        "array bidimensional"
+    ]
+}

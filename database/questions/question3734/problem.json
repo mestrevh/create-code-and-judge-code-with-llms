@@ -1,0 +1,11 @@
+{
+    "title": "Exercício de Busca - UCS",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este exercício requer os conhecimentos de Busca de Custo Uniforme (UCS) vistos em sala. É liberado o uso de implementação de fila de prioridade do Python. A primeira linha da entrada é o nó inicial. A segunda linha da entrada é o nó final. O resto da entrada consiste num grafo representado da seguinte forma: X Y D, tal que: X e Y são nós representados por caracteres (char) e D é uma distância em número inteiro não-negativo (int). Note que este grafo é direcionado (ou seja, se A S está no input, então S A não estará necessariamente também). A entrada termina com uma linha em branco. Para fins práticos, o código que interpreta o input (em Python) está disponível no pastebin https://pastebin.com/V7c8fhxz, bastando programar a busca. A saída deve ser impressa no formato: [estado da fila de prioridade] por linha (na ordem que cada nó foi visitado). Imprima a fila de prioridade completa a cada linha (ordenada alfabeticamente). Na última linha, o percurso feito deverá ser impresso na ordem de visita.",
+    "format_input": "A entrada consiste em: 1) Uma linha com o caractere do nó inicial; 2) Uma linha com o caractere do nó final; 3) Múltiplas linhas representando as arestas do grafo no formato 'X Y D' (origem, destino e distância); 4) Uma linha em branco sinalizando o fim da entrada.",
+    "format_output": "Uma sequência de linhas exibindo o estado da fila de prioridade (lista de tuplas com custo e identificador do nó) a cada etapa da busca, ordenada alfabeticamente pelo identificador do nó. A última linha deve apresentar uma lista com os nós que compõem o percurso percorrido na ordem de visita.",
+    "topics": [
+        "grafo",
+        "busca"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "L1Q10 - Encontro lendário",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Biu conseguiu encontrar um Pokémon lendário, a ave de fogo Moltres. Após uma árdua batalha, Biu conseguiu deixar o Moltres dormindo, porém ainda não atingiu um golpe nele. Enquanto o Moltres esta nesse estado Biu terá a chance de acertar 4 vezes o mesmo golpe. Para isso ele deve selecionar o Pokémon que irá usar entre o seu Slowbro (Level: 30, Ataque: 50) e seu Dragonite (Level: 40, Ataque: 128). Ambos possuem apenas os ataques Surf (Poder: 90), do tipo água; Flamethrower (Poder: 90), do tipo fogo; e Grass Knot (Poder: 120), do tipo planta. O HP (Health Points, Pontos de Vida) do Moltres é calculado em função do seu Level, e o objetivo de Biu é deixa-lo com o HP menor que 10, para que possa captura-lo, porém maior que zero, para que ele não morra. Se isso não ocorrer ao final dos 4 golpes o Moltres escapará. O HP do Moltres é dado pela equação onde: Base = 90, IV = 9, EV = 25600. O dano de um Ataque é dado através de uma equação onde: O Level é do Pokémon que ataca, O Power é o poder do golpe utilizado, A letra A representa o ataque do Pokémon que ataca, A letra D representa a defesa do Pokémon defensor, O Modifier representa se o ataque possui vantagem (Modifier = 2), desvantagem (Modifier = 0,5) ou é neutro (Modifier = 1). Para se calcular a defesa do Moltres se utiliza essa equação, com os dados utilizados acima. Seu trabalho é escrever um programa que dados o Pokémon utilizado, o ataque utilizado e o level do Moltres, diga se ele fugiu, foi capturado ou morreu. Obs.: A defesa e o HP máximo devem ser arredondadas para baixo.",
+    "format_input": "P, A, L. P - string ({Slowbro, Dragonite}). A - string ({Surf, Flamethrower, Grass Knot}). L - número natural. Onde: a primeira linha é o nome do Pokémon selecionado, a segunda linha é o nome do ataque selecionado e a terceira linha é o level do Moltres encontrado.",
+    "format_output": "R - string. A única linha de saída é composta por um dos seguintes: \"Pokemon invalido\", caso o usuário tente escrever um Pokémon diferente dos apresentados; \"Ataque invalido\", caso o usuário tente escreve um ataque diferente dos apresentados e um Pokémon válido; \"Moltres fugiu\", quando o HP do Moltres terminar maior ou igual a 10; \"Moltres capturado\", quando o HP do Moltres terminar maior que 0 e menor que 10; \"Moltres morto\", quando o HP do Moltres zerar.",
+    "topics": [
+        "decisão",
+        "função",
+        "string"
+    ]
+}

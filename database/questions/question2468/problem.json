@@ -1,0 +1,15 @@
+{
+    "title": "Multas e Pontos no DETRAN",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O DETRAN precisa de um programa para calcular o valor total das multas e pontos registrados por veículo. Para isso você deve criar um programa que inicialmente crie um banco de dados com todos os tipos de infração de trânsito, ou seja, lê e guarda em memória o código, o valor e o número de pontos associados a cada tipo de infração de trânsito. Com base no banco de dados, o programa receberá dados dos veículos e as infrações registradas, calculando o valor total de multas e de pontos para cada veículo. O programa deve apresentar esses dados ordenados crescentemente pela placa do veículo.",
+    "format_input": "A entrada de dados divide-se em 2 grupos: tipos de infrações e veículos/infrações. O primeiro grupo de dados inicia-se com os dados referentes às infrações. Em cada linha será fornecido o código da infração (alfanumérico), o valor em reais da infração (ponto flutuante) e o número de pontos (inteiro), separados entre si por um espaço em branco. Quando for encontrada uma linha contendo apenas o caractere '*', chegou-se ao fim da leitura dos dados referentes aos tipos de infrações. O segundo grupo de dados do programa deve ler, em cada linha, a placa de cada veículo e o código das infrações registradas (até o limite de 100 infrações por veículo). Quando for encontrada uma linha contendo apenas o caractere '*', a entrada de dados está concluída.",
+    "format_output": "Deve ser impressa uma listagem de veículos ordenada pelas placas. Cada linha deve conter a placa do veículo, o valor total de multas (2 casas decimais) e de pontos registrados para o mesmo, separados entre si por um espaço em branco.",
+    "topics": [
+        "array",
+        "entrada formatada",
+        "repetição",
+        "ordenação",
+        "dicionário",
+        "formatação"
+    ]
+}

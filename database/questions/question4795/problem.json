@@ -1,0 +1,11 @@
+{
+    "title": "Trêsberto e a média mais média já medida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Trêsberto (O irmão do Humberto e do Doisberto) é um fã ÁVIDO DA MATEMÁTICA, em especial da média, ele gosta TANTO que sempre que faz a média TRÊS VEZES! o processo é o seguinte ele pensa em 2 numeros A e B, então faz a média entre eles, depois disso, ele gosta de fazer a média dessa média com o numero A, e pra finalizar ele pega esse ultimo resultado e tira a média com A, ele chama isso de “MÉDIA MAIS MÉDIA JÁ MEDIDA!” ficando algo como: média de ((média de (média de A e B) e A) e A)) Você deve fazer um código que diga o resultado da operação, para que Trêsberto descubra se ele acertou mesmo.",
+    "format_input": "A entrada consiste de dois números inteiros A e B.",
+    "format_output": "A saída consiste de um único número inteiro, o resultado da operação que Trêsberto chama de \"média mais média já medida\"",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

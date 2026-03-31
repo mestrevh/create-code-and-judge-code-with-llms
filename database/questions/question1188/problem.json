@@ -1,0 +1,10 @@
+{
+    "title": "Jogo da Velha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que recebe matrizes 3x3 que representa uma \"Jogo da Velha\" preenchido e verifica se a condição do jogo. Se acabou (e nesse caso, quem é o vencedor) ou se está em andamento. Você deve receber matrizes até que o usuário digite \"sair\" na entrada padrão.",
+    "format_input": "Uma quantidade indeterminada de matrizes, até que o usuário digite \"sair\". Exemplo: X X O X O X _ X O",
+    "format_output": "Uma mensagem que identifica o andamento do jogo: Se já terminou, o jogo deve informar também quem é o vencedor ou se foi empate. Se não terminou, deve imprimir \"EM ANDAMENTO\"",
+    "topics": [
+        "função"
+    ]
+}

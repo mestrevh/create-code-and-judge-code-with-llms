@@ -1,0 +1,10 @@
+{
+    "title": "Cavalos e ferraduras",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Faça um programa para calcular quantas ferraduras são necessárias para equipar todos os cavalos comprados para um haras. O programa deve mostrar as mensagens “Digite a quantidade de cavalos:” e “São necessárias n ferraduras”.",
+    "format_input": "O usuario deve digitar o número de cavalos",
+    "format_output": "O programa deve exibir o numero de ferraduras necessárias, imprimindo na tela os valores abaixo: Digite a quantidade de cavalos (impresso pela funcao input) Sao necessarias n ferraduras",
+    "topics": [
+        "lógica matemática"
+    ]
+}

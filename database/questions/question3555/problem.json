@@ -1,0 +1,10 @@
+{
+    "title": "Primo de 4",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Tire esse sorriso do rosto! Não é nada disso que você está pensando, muito pelo contrário, este problema irá te fazer chorar ;-; Kinho, Zilde, Pejota e Deyene descobriram que possuem algo em comum :suspense: Um primo em comum O nome deste primo é Assême. Este primo tem uns gostos peculiares, nas horas vagas ele gosta de encontrar bugs em satélites da NASA e brincar com números primos. Ele é um prodígio, não? Descobrindo que os seus primos cursavam EC, decidiu ceder um pequeno desafio a eles, que também envolve primos. O desafio é o seguinte: Dado um inteiro N, decida se este número também é primo de 4. Ou seja, descubra se existem apenas 4 números primos a,b,c,d tal que a*b*c*d = N Exemplo: 16 é um número primo de 4, pois 16 = 2*2*2*2 210 é um número primo de 4, pois 210 = 2*3*5*7 32 não é um número primo de 4, pois 32 = 2*2*2*2*2 8 não é um número primo de 4, pois 8 = 2*2*2 Como Zilde, Deyene, Pejota e Kinho estavam ocupados, e eles eram monitores de IP, decidiram colocar este problema na lista da monitoria. Ou seja, resolva você este problema e impressione Assême!",
+    "format_input": "A entrada contém vários casos testes Cada caso é composto por uma única linha contendo um inteiro N A entrada acaba quando N = -1. Esta linha não deve ser processada. Restrições 1 <= N <= 1000000000000",
+    "format_output": "Para cada caso teste você deve imprimir: \"N eh um primo de 4\", onde N é o número que você está avaliando. Se N não for um primo de 4, você deve imprimir apenas: \"N, eu nunca duvidei\", onde N é o número que você está avaliando.",
+    "topics": [
+        "números primos"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Datas entre dias: o retorno",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um array de números inteiros, seu trabalho deve ser encontrar quais elementos do array original continuam na mesma posição depois que o array for ordenado e qual é sua posição. Exemplo: Array original: 3, 2, 4, 10, 9, 11. Array ordenado: 2, 3, 4, 9, 10, 11. Número 4, posição 3 Número 11, posição 6",
+    "format_input": "Um número N representando a quantidade de elementos do vetor e um vetor de números inteiros. (0 < n < 1000)",
+    "format_output": "A quantidade de elementos que manteve sua posição depois da ordenação do vetor e esses elementos junto com sua posição no vetor.",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

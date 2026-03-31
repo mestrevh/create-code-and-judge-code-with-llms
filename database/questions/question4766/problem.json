@@ -1,0 +1,10 @@
+{
+    "title": "Soma de números positivos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia diversos valores inteiros, consecutivamente. Porém, quando o número zero for digitado a leitura deve ser parada. Logo em seguida é mostrada a soma dos números positivos digitados.",
+    "format_input": "Vários números inteiros.",
+    "format_output": "A mensagem \"A soma dos valores eh: \" seguida da soma dos valores positivos.",
+    "topics": [
+        "repetição"
+    ]
+}

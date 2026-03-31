@@ -1,0 +1,10 @@
+{
+    "title": "O Grande Golpe",
+    "time_limit": "4 segundo(s)",
+    "descrition": "(A SOLUÇÃO PARA ESSA QUESTÃO DEVERÁ USAR RECURSÃO. TODAS AS IMPRESSÕES DEVERÃO SER FEITAS NO MÉTODO MAIN) Necessitado de dinheiro pra sair da casa de sua tia, Franklin convoca Trevor e Michael para um golpe na cidade de Los Santos. Eles sabiam que no fim do mês teria um grande jogo de basquete da escola East High e o astro Troy Bolton estaria lá, seria muito mais fácil para eles realizarem o golpe durante o jogo, já que milhares de cidadãos estariam no evento e a cidade estaria mais vazia. De acordo com o plano, eles irão roubar a bilheteria do estágio e decidem juntar no mínimo uma quantia de U$10.000.000,00 (dez milhões de dólares). Por conta dos diferentes tipos de ingresso disponíveis e políticas de cobrança, o dinheiro total arrecadado é calculado pela fórmula: f(0) = 0; f(1) = M; f(x) = x + f(x-1) //(se x for par) f(x) = M + f(x-1) //(se x for ímpar) Em que M representa o valor de um ingresso básico e x representa a quantidade de pessoas que pagaram ingresso. Franklin pede sua ajuda para que faça um programa que diga quantas pessoas no mínimo precisam assistir ao jogo para arrecadar o 10 milhões de dólares ou mais.",
+    "format_input": "M Sendo M um número natural representando o valor do ingresso individual.",
+    "format_output": "“X pessoas precisam assistir ao jogo.” Sendo X um número natural representando a quantidade mínima de alunos para eles arrecadarem 10 milhões.",
+    "topics": [
+        "recursão"
+    ]
+}

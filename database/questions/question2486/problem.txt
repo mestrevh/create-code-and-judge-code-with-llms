@@ -1,0 +1,6 @@
+Título: PROGCOMP - Repetição - Y
+Topicos do problema: repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><b>[while]</b> Certa pessoa (A) possui R$ 10.000,00 e tem sua fortuna crescendo em R$ 100,00 por mês. Outra pessoa (B) tem sua fortuna crescendo em R$ 300,00 ao mês e possui R$ 5.000,00. Faça um programa que exibe, mês a mês, a diferença das duas fortunas até que a pessoa (B) tenha mais dinheiro do que a pessoa (A).</p>
+Formato da entrada: <p>Esse programa não possui entrada de dados.</p>
+Formato da saída: <p>Em cada linha a diferença da fortuna da pessoa (A) em relação à pessoa (B). Vide exemplo.</p>

@@ -1,0 +1,16 @@
+{
+    "title": "Bandersnatch",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Cooper está na Inglaterra sem dinheiro o suficiente para voltar para casa. Pensando nisso, ele decide procurar por um trabalho temporário. Para isso, ele baixa o LinkedIn e encontra uma oferta de emprego da Tuckersoft. Eles estão procurando por voluntários para testar um novo jogo, Bandersnatch. O jogo consiste em acompanhar os personagens em suas trajetórias e, eventualmente, escolher entre duas opções, onde cada escolha cria uma nova trajetória pros personagens. Porém, a fabricante do jogo estava preocupada com a quantidade de finais trágicos no jogo (indicado pela escolha \"Fracasso\"). Com isso em mente, eles querem que Cooper teste Bandersnatch a procura de finais felizes (indicado pela escolha \"Sucesso\"). Para isso, Cooper vai indicar suas escolhas e, eventualmente, terá de escolher entre \"Fracasso\" e \"Fracasso\" ou entre \"Fracaso\" e outro caminho. Toda vez que ele chegar em \"Fracasso\", ele deve voltar a última escolha em que ele ainda tem a possibilidade de escolher outro caminho e, obrigatoriamente, escolher este outro caminho. A partir disso, o jogo segue normalmente mais uma vez, até que ele, finalmente, chegue em \"Sucesso\".",
+    "format_input": "A entrada consiste em múltiplas linhas no formato: D. D é a descrição da escolha feita por Cooper. Caso D seja igual a \"Fracasso\", a próxima linha será a descrição da escolha que tomará o lugar da última escolha que ele é capaz de mudar. Caso contrário, a próxima linha será a descrição da nova escolha feita por Cooper. A entrada acaba quando D é igual a \"Sucesso\".",
+    "format_output": "Toda vez que Cooper chegar em \"Fracasso\", deve ser impressa toda a lista de escolhas feitas por ele para chegar a esse ponto. No final, deve ser impressa toda a lista de escolhas feitas por ele que o levou a \"Sucesso\". A lista deve ser impressa no formato: D1 -> D2 -> D3 -> ... -> Dn. Di é a descrição na posição i da lista. n é a quantidade de elementos na lista. Cada Di deve ser separado de D(i-1) e D(i+1), se esses existirem, por \" -> \".",
+    "topics": [
+        "estrutura de dados",
+        "multiplas entradas",
+        "decisão",
+        "função",
+        "recursão",
+        "string",
+        "busca"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Gabigol e o óleo de Dendê",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Durante as férias o famoso jogador Gabigol decidiu visitar o estado da Bahia. Passeando pelas ruas de Salvador ficou encantado com a cultura local e em um dos seus passeios conheceu uma linda baiana que só deixaria ele provar o seu óleo de dendê, somente se ele conseguir realizar um desafio. O Desafio consiste em dada uma string S formada apenas de 'A', 'B' e 'C'. Você deve remover a substring \"abc\" deixando S sem nenhum \"abc\" restante. Gabigol, após ver o desafio pede sua ajuda para construir um código que consiga resolver o desafio. Para assim provar o tão esperado óleo dendê.",
+    "format_input": "S string S de tamanho: 1 < tam < 2 x 10^5",
+    "format_output": "S String S após remoções caso o tamanho da string final seja 0, a saída deve ser \"string vazia\"",
+    "topics": [
+        "array",
+        "substrings",
+        "repetição",
+        "string"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "L2Q5 - Quantos dias para o casamento?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após Shrek resgatar Fiona do castelo e salvá-la do dragão com a ajuda do Burro, ele a leva para casar com o Lord Farquaad, mas o casamento não acontece, pois Fiona e Shrek estão apaixonados. Depois de um certo tempo os dois decidem se casar, e para isso precisam marcar a data do casamento. Como Shrek quer casar no pantano, eles decidem colocar a data do casamento em um dia que fique acessível para quem mora em Tão Tão Distante conseguir se programar para a viagem. Sua tarefa é fazer um programa que dado a data atual em dia/mês/ano e a data do casamento em dia/mês/ano, seu programa descubra quantos dias faltam para esse dia tão tão especial. Obs: É possível que exista ano bissexto no intervalo dado.",
+    "format_input": "A entrada é formada por duas linhas, cada uma com três inteiros separados por espaço, onde a primeira linha representa a data atual, e a segunda linha representa a data do casamento. Ex: 05 08 1999 02 07 2010",
+    "format_output": "Um numero inteiro x onde x contem a quantidade de dias que faltam para o casamento",
+    "topics": [
+        "datas/horas",
+        "repetição"
+    ]
+}

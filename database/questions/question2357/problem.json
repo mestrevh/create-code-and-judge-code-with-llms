@@ -1,0 +1,11 @@
+{
+    "title": "L6Q2 - Livro de Rimas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O folgado do Og Loc precisa do livro de rimas do famoso rapper Madd Dogg, pois OG não tem talento e criatividade nenhuma para criar rimas, então CJ vai ''pegar emprestado'' o livro na mansão de Dogg. Para ajudar CJ a procurar o livro em cada uma das estantes, sua tarefa é criar um algoritmo que dada a quantidade de estantes, o número de livros em cada uma e o nome dos livros presentes nela, diga exatamente em qual posição e estante o livro se encontra. O nome do livro procurado por OG é \"Livro de Rimas\". Observações: Os livros serão inseridos em ordem. É garantido que não haverá o mesmo livro em outro lugar. É obrigatório o uso de lista encadeada",
+    "format_input": "Um inteiro correspondente ao número de estantes N. N - Inteiro. Para cada estante, o número de livros presentes nela L. L - Inteiro. Seguido de uma quantidade L de strings S, referentes aos nomes dos livros daquela estante, em ordem. S 0, S 1, ..., S L-1. S - String.",
+    "format_output": "Uma linha no formato: T. T - String. Sendo T, \"Og Loc, o livro ta na estante N, na posicao L\", se o livro for encontrado; \"Og Loc, o livro nao esta aqui!\", caso não tenha sido achado; \"Nao tem livros por aqui\", caso não exista nenhuma estante.",
+    "topics": [
+        "estrutura de dados",
+        "busca"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Trakynus II",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Trakynus, The Lost Generation, fez mais sucesso do que se esperava! Até pessoas de idade mais avançada se identificaram com ele. Especula-se que o discurso fácil dos reiters e a agressividade dos trolls seja responsável por atrair tantas pessoas. Agora os seus criadores, financiados pelos guardiões das armas e pelos criadores de bois, apoiados pelo sacerdote de um olho só, resolveram aperfeiçoar o jogo adicionando novas funcionalidades. (Leia a descrição do problema Trakynus antes de prosseguir caso ainda não o conheça). Vamos escrever um programa que dada uma configuração de tabuleiro, informe o placar do jogo. Escreva um programa que leia uma configuração de tabuleiros e informe: 1. A maior quantidade de trolls do exército A ('x') em COLUNAS ímpares (Se houver mais de uma coluna com a mesma quantidade de trolls, o índice da MENOR coluna é que será levada em consideração) 2. O índice da coluna que tem uma quantidade par de trolls do exército A ('x') (Se houver mais de uma coluna que tenha quantidade par de trolls, o índice da MAIOR coluna é que será levada em consideração.) 3. A maior quantidade de reiters ('b') agrupados do exército B nas LINHAS 4. A quantidade de linhas onde não tem reiters do exército B ('b') 5. A existência de um sábio do exército A e do B sobre as diagonais ao mesmo tempo (Caso os falso sábios estejam sobre as diagonais (principal e/ou secundária), a saída deve ser 'S'(sim). Caso contrário, será 'N' (não). )",
+    "format_input": "Cinco linhas de caracteres alfanuméricos",
+    "format_output": "Quatro inteiros e um caractere (S ou N)",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,6 @@
+Título: Quadrado perfeito
+Topicos do problema: ponto flutuante; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa para verificar se um inteiro dado é um quadrado perfeito, exibindo, nos casos afirmativos, a mensagem &#34;sim&#34; e, nos casos negativos, a mensagem &#34;não&#34;. <b>Atente para a escrita de cada resposta. O sistema exigirá que as respostas sejam dadas exatamente como descrito no enunciado.</b><br/></p>
+Formato da entrada: <p>O programa deve receber apenas um número como entrada.</p>
+Formato da saída: <p>O programa deve escrever &#34;sim&#34; caso a resposta seja positiva e &#34;não&#34; caso a resposta seja negativa.</p>

@@ -1,0 +1,6 @@
+Título: Pra bom entendedor meia palavra basta
+Topicos do problema: substrings; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Maricota estava sem fazer nada no intervalo das aulas e decidiu criar um jogo pra divertir os colegas. Seu jogo consiste em pegar uma frase e trocar a metade de todas as palavras por interrogações.</p><p>Exemplo:</p><p>Pra bom entendedor meia palavra basta</p><p>Saída:</p><p><span>P?? b?? enten????? me?? pal???? ba???</span><br/></p><p><span>Funções permitidas:</span></p><p>len</p><p>split</p><p>upper</p><p>lower</p><p>append</p>
+Formato da entrada: <p>Uma frase</p>
+Formato da saída: <p>A frase alterada pelo jogo da Maricota</p>

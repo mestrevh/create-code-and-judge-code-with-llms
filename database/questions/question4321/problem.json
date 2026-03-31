@@ -1,0 +1,10 @@
+{
+    "title": "Preço da roupa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que de acordo com a entrada retorne o custo final da roupa. Te pediram para fazer um programa que irá receber como entrada o custo do material, o tamanho da roupa (P, M, G) e o tipo dela que será bermuda, camisa ou moletom (B, C e M respectivamente). A forma que você calculará o preço final da roupa é a média aritmética entre o custo do material multiplicado pelo tamanho e o custo do material multiplicado pelo tipo da roupa. O valor da roupa deve ser impresso com duas casas decimais e acompanhado de R$. Valores de cada tamanho da roupa: P = 2.75 M = 3.66 G = 5.17 Valores de cada tipo de roupa: Bermuda = 3.82 Camisa = 4.55 Moletom = 7.12 Exemplo: Custo do material = 7.12 Tamanho da roupa = M Tipo de roupa = B Valor final = (7.12 * 3.66 + 7.12 * 3.82) / 2 = 26.63 R$",
+    "format_input": "Número real representando o custo do material. Caractere representando o tamanho da roupa. Caractere representando o tipo da roupa. Dica 1: Lembre-se de colocar um espaço ' ' antes do %c no scanf. Dica 2: Lembre que as comparações com caracteres usam aspas simples em if. Ex: if(variavel == 'A')",
+    "format_output": "Um número real com duas casas decimais acompanhado de R$. Exemplo: \"23.81 R$\"",
+    "topics": [
+        "decisão"
+    ]
+}

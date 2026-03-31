@@ -1,0 +1,10 @@
+{
+    "title": "Sorteio de Ambrósio e seus amigos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Quando mais jovem, Ambrósio sempre jogava um jogo com seus amigos. Para relembrar os velhos tempos ele resolveu pedir para seus alunos criarem um programa que demonstre o funcionamento do jogo. O jogo começa com as n crianças formando um círculo. Cada criança recebe um número em ordem crescente, no sentido horário. A primeira criança é a 0 e a última criança é a n-1. Então um número x (1 <= x <= 1000) é sorteado. Então, inicialmente começa-se a contar da criança 0 e até a criança x-1. Por exemplo, se inicialmente o número sorteado for 2, então contamos a criança 0 e a criança 1. Ou seja, x crianças. A criança em que a contagem termina sai da roda. Na próxima rodada, a contagem será iniciada da criança imediatamente seguinte, no sentido horário, da última criança que saiu da roda. No exemplo anterior, como a criança 1 saiu da roda, a contagem se iniciaria da criança 2. Esse procedimento se repete até que sobre somente uma única criança na roda. Essa será a criança vencedora.",
+    "format_input": "A primeira linha da entrada contém um inteiro n (2 <= n <= 500), correspondendo ao número de crianças que participam da brincadeira. A segunda linha contém n - 1 números sorteados. Cada número sorteado é maior ou igual a 1 e menor ou igual a 1000.",
+    "format_output": "Seu programa deve imprimir o número da criança vencedora da brincadeira.",
+    "topics": [
+        "array circular"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Bourne-Again SHell",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio não gosta de como a estrutura de diretórios é exibida no bash. Como aluno de Estrutura de Dados, você deve ajudá-lo a implementar o Nubash, que reconhece comandos de criar e remover pastas e as lista de forma hierárquica. O Nubash reconhece quatro comandos: mkdir <pasta_destino> <nova_pasta> (cria uma pasta dentro de uma existente), rm <pasta_a_ser_deletada> (apaga a pasta e todas as subpastas), quit (encerra o programa) e ls (mostra a hierarquia de pastas). Observações: deve ser usada uma estrutura de árvore; a raiz é sempre 'root'; cada pasta comporta no máximo três subpastas; a inserção ocorre da esquerda para a direita; nomes de pastas são únicos.",
+    "format_input": "A entrada contém várias linhas com os comandos: mkdir D N (onde D é a pasta destino e N a nova pasta), rm R (onde R é a pasta a ser excluída), ls (lista a hierarquia) e quit (encerra o programa).",
+    "format_output": "Para mkdir: 'Pasta 'P' criada' (sucesso), 'Erro ao criar a pasta 'P'' (falha) ou 'A pasta 'P' esta cheia!\\nErro ao criar a pasta 'N'' (limite de 3 pastas atingido). Para rm: 'A pasta 'P' foi removida' (sucesso) ou 'Erro ao remover a pasta 'P'' (falha). Para ls: cada nível abaixo na hierarquia deve ter um recuo de 4 espaços em branco.",
+    "topics": [
+        "estrutura de dados",
+        "Árvore"
+    ]
+}

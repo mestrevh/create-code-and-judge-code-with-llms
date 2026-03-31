@@ -1,0 +1,12 @@
+{
+    "title": "Investimentos N3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Reypedrof nosso estudante fascinado por cryptomodas precisou fugir de uma tal de Manuela, executora do agiota LK, agora Reypedrof precisa se esconder dele, usando os conhecimentos adquiridos na cadeira 'Locais para se esconder de um agiota', crie um programa que conta os locais da cidade que o Pedro passou e mostre qual é o local que Manuela estará esperando ele. A cidade está separada em uma matriz bidimensional 4x4, adicione +1 para cada passo que Pedro seguir. Exemplo da contagem:",
+    "format_input": "Entrada deve ser uma sequência de 20 variáveis N do tipo char, no qual vão decidir para onde Pedro levar seu esconderijo, no qual: 'c' para cima, 'b' para baixo, 'e' para esquerda, 'd' para direita. Dica: Perceba acima que a matriz não parte do canto inferior esquerdo, mas sim, do superior esquerdo.",
+    "format_output": "Imprima a coordenada do local que ele não deve ir, 'Coordenada X: N, Y: M '; tal que N, M são inteiros referentes ao índice da matriz bidimensional.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

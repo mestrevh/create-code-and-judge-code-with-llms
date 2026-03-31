@@ -1,0 +1,11 @@
+{
+    "title": "Somatório em um array circular",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um inteiro 'n', representando a quantidade de elementos seguintes (inteiros) que irão ser dados na entrada. Faça o somatório de 'x' elementos consecutivos, dado um número 'i' que indica a posição do elemento (começando em 0 até n-1), onde você deverá começar o somatório. 'x' indica a quantidade de elementos consecutivos que você deve somar. Obs.: O array é circular (caso chegue ao final do array e ainda tiver elementos para somar, continue da primeira posição). Obs.: 'i' pode ser um número maior do que o tamanho do array (caso seja, encontre o correspondente a ele no array). Obs.: 'x' pode ser um número maior do que o tamanho do array.",
+    "format_input": "Um número 'n' (quantidade de elementos do array). n números para preencher o array. 'i' que indica a posição do elemento onde você iniciará o somatório. 'x' que representa a quantidade de elementos consecutivos a serem somados.",
+    "format_output": "Um número inteiro que represente o somatório, seguido de uma quebra de linha.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

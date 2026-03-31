@@ -1,0 +1,6 @@
+Título: Listas ERRO - Lista de Mercado
+Topicos do problema: string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Complete o código abaixo para que faça uma lista, adicione um novo item e remova outro<br/></p><p><br/></p><pre># Lista inicial&#10;compras = [&#34;leite&#34;, &#34;pao&#34;, &#34;ovos&#34;]&#10;&#10;# Adicione um item à lista&#10;_________ # Complete aqui&#10;&#10;# Remova um item da lista&#10;_________ # Complete aqui&#10;&#10;print(compras)  &#10;&#10;</pre>
+Formato da entrada: <p><b></b></p><li>Um item a ser adicionado</li><li>Um item a ser removido</li><p></p>
+Formato da saída: <p>&#13;&#13;A lista modificada<br/></p>

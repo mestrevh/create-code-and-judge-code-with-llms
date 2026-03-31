@@ -1,0 +1,11 @@
+{
+    "title": "L1Q1 - Jornada Pokémon",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Biu é um garoto que está prestes a começar sua jornada pokémon. Para dar início, ele se dirigiu ao laboratório do Professor Carvalho para escolher um dos três pokémons ofertados para ser seu pokémon inicial. Cada um dos pokémons tem um código associado e são: Bulbassauro - 1, Charmander - 2, Squirtle - 3. Infelizmente, o professor constatou um problema no sistema de seleção do laboratório e portanto não pôde efetuar a escolha de Biu. Sua tarefa é reescrever o sistema para que Biu possa escolher seu pokémon.",
+    "format_input": "N. N - número natural ( { 1, 2, 3 } ). A linha única de entrada é composta pelo código referente ao pokémon escolhido. obs: A entrada deve ser considerada amigável, ou seja, sempre estará no formato descrito. Todas as questões quem seguem, terão a entrada amigável.",
+    "format_output": "P. P - string. A linha única da saída é composta pelo nome do pokémon com o código escolhido.",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

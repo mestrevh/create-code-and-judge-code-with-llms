@@ -1,0 +1,11 @@
+{
+    "title": "Mestres do Capital",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Dois investidores, Soile e Otrebs, decidiram competir para ver quem conseguia acumular mais dinheiro ao longo de um determinado número de dias. Cada um começa com um incremento diário, e as regras para o crescimento dos seus investimentos são as seguintes: 1. Soile tem uma vantagem nos dias em que o número do dia for um número primo. Nesse caso, Soile recebe um bônus de 5% sobre seu incremento diário. 2. Otrebs se beneficia sempre que o maior divisor comum (MDC) entre o número do dia e o incremento diário de Otrebs for 1. Quando isso ocorre, 10% do saldo acumulado de Soile é transferido para o saldo acumulado de Otrebs. A competição ocorre por x dias, começando do dia 1, e ao final do período, o saldo total de cada investidor é comparado. O investidor com o maior saldo acumulado é declarado vencedor. Implemente um programa que receba os valores iniciais de x, p1 e p2 e determine qual investidor venceu, mostrando também o valor acumulado do vencedor. OBS.1: As regras somente serão utilizadas ao fim de cada rodada. Portanto, o saldo acumulado só é somado ao fim. OBS.2: Os investidores entraram num acordo e decidiram que primeiro deve ser feita a verificação da regra de Soile e depois a de Otrebs.",
+    "format_input": "Um número inteiro x representando o número de dias da competição. Dois números inteiros p1 e p2, representando os incrementos diários de Soile e Otrebs, respectivamente.",
+    "format_output": "O programa deve imprimir o nome do jogador vencedor (\"Soile ganhou!\" ou \"Otrebs ganhou!\") e o valor acumulado ao final da competição, formatado com duas casas decimais.",
+    "topics": [
+        "recursão",
+        "números primos"
+    ]
+}

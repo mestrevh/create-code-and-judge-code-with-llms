@@ -1,0 +1,10 @@
+{
+    "title": "L3Q6 - Torneio de Quadribol",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ao final do primeiro torneio de Quadribol, os alunos de Gryffindor, Slytherin, Hufflepuff e Ravenclaw precisam saber as casas com mais vitórias. Sua tarefa é escrever um programa que, dado quais casas se enfrentaram em cada partida e os placares de cada partida, imprima o nome das casas que tiveram mais vitórias.",
+    "format_input": "N C1XC2 P1-P2 N - número natural C1xC2 - string P1-P2 - string A primeira linha de entrada representa o número de partidas. As N linhas representadas por C1xC2 representam quais casas se enfrentaram. Na qual C1 e C2 representam o nome de duas casas diferentes. As N linhas representadas por P1-P2 representam os respectivos placares das partidas informadas anteriormente. Na qual P1 e P2 representam os placares de cada casa, como número inteiro. Dica: Procure sobre o método para String split() na documentação de Java. Utilize int num = Integer.parseInt(\"10\") para transformar a string \"10\" em um valor inteiro. obs: Considere que as entradas são amigáveis, então as únicas casas testadas pertencem ao conjunto {Gryffindor, Slytherin, Hufflepuff , Ravenclaw} e não há partidas em que uma casa enfrenta ela mesma. Observe que nenhum nome de casa contém o caractere \"x\".",
+    "format_output": "T T - string As linhas da saída representam o(s) time(s) com mais vitórias, cada time em uma linha, respeitando a ordem: Gryffindor, Slytherin, Hufflepuff e Ravenclaw. Se existir algum caso em que não houver vitórias, o programa deve imprimir o nome de todas as casas na ordem descrita acima.",
+    "topics": [
+        "array"
+    ]
+}

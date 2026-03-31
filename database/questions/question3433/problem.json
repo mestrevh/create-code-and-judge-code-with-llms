@@ -1,0 +1,12 @@
+{
+    "title": "Média do aluno",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá os dados do aluno no seguinte formato: campo valor sendo campo um string que você deverá usar como o campo do seu dicionário (ou estrutura) e valor o valor de fato da variável. Os campos e tipos de valores informados serão: nome 'string' matricula 'string' ab1 'float' ab2 'float' mas a entrada de dados se dará em uma ordem qualquer. Imprima a média aritmética entre ab1 e ab2 com duas casas decimais.",
+    "format_input": "Uma sequência de campo e valor, conforme lista a seguir, mas em ordem aleatória. nome 'string' matricula 'string' ab1 'float' ab2 'float'",
+    "format_output": "Valor do tipo float com 2 casas decimais indicando a média entre ab1 e ab2.",
+    "topics": [
+        "estrutura de dados",
+        "dicionário",
+        "estruturas"
+    ]
+}

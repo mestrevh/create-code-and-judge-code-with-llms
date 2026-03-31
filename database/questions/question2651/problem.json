@@ -1,0 +1,10 @@
+{
+    "title": "Preenchimento de caracteres",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que receba como entrada um número de linhas L (L > 0), um número de colunas C (C > 0) e um caractere X. O programa deverá exibir L linhas com C colunas preenchidas com o caractere X.",
+    "format_input": "A primeira linha contém o número de linhas L; a linha seguinte contém o número de colunas C; a linha seguinte contém o caractere X.",
+    "format_output": "O programa deverá exibir L linhas com C colunas preenchidas com o caractere X.",
+    "topics": [
+        "repetição"
+    ]
+}

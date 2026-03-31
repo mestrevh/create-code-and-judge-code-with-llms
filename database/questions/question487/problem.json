@@ -1,0 +1,12 @@
+{
+    "title": "Revistas em ordem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Margarida assina revistas sobre viagens há muitos anos e tem uma coleção enorme. Fazendo uma arrumação, ela teve a curiosidade de observar se as revistas estavam guardadas na ordem em que foram recebidas. Escreva um programa que receba como entrada o número de série de várias revistas, até que seja informado o número zero, e exiba uma mensagem indicando se estavam todas em ordem ou não. Dica: para que uma sequência de números esteja ordenada, é necessário que todos os números sejam menores que seus sucessores",
+    "format_input": "Vários números inteiros até que seja informado o número zero.",
+    "format_output": "Um String \"EM ORDEM\" caso as revistas estejam organizadas da menor para a maior, ou um String \"FORA DE ORDEM\" caso elas não estejam arrumadas assim",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "repetição"
+    ]
+}

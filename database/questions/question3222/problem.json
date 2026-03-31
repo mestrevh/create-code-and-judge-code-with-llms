@@ -1,0 +1,12 @@
+{
+    "title": "Inverter os dígitos um numero inteiro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Inverter os dígitos um numero inteiro qualquer",
+    "format_input": "12345",
+    "format_output": "5432",
+    "topics": [
+        "lógica matemática",
+        "repetição",
+        "ordenação"
+    ]
+}

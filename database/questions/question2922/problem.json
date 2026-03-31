@@ -1,0 +1,11 @@
+{
+    "title": "Primos sexy de Aninha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Calma aí, não é isso que você ta pensando! Aninha gosta muito de números primos e descobriu essa classificação um tanto quanto interessante deles. Um par de números primos sexy são dois números na forma (p, p+6) onde ambos são primos. Muito curiosa, Aninha parou pra pensar se não existiriam não somente pares, mas triplas, quádruplas, etc. Ela então quer a sua ajuda para descobrir, dado um intervalo [a,b[, qual é o tamanho da maior sequência possível de números primos sexy",
+    "format_input": "Dois inteiros 2 <= A < B <= 2000",
+    "format_output": "Um inteiro N informando a maior sequência de números primos sexy encontrada no intervalo dado",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

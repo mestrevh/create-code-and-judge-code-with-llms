@@ -1,0 +1,10 @@
+{
+    "title": "Faixa etária idade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia a idade de uma pessoa e determine se a pessoa é: Bebe - Indivíduos de até 2 anos; Crianca - Indivíduos com idade entre 2 até 12 anos; Adolescente - Indivíduos com idade entre 12 até 18 anos; Jovens - Indivíduos de até 19 anos; Adulto, para a faixa etária de 20 aos 45 anos Adulto de Meia-idade, para as pessoas que possuem idade entre 45 e 60 anos. Idosos - Indivíduos de 60 anos em diante. Anciao - Indivíduos com idade entre 75 até 90 anos;",
+    "format_input": "Idade.",
+    "format_output": "Qual a faixa etária da pessoa. O indivíduo é um Bebê Jovem Menor de Idade. O indivíduo é uma Criança Jovem Menor de Idade. O indivíduo é um Adolescente Jovem Menor de Idade. O indivíduo é um Jovem Maior de Idade. O indivíduo é um Adulto Maior de Idade. O indivíduo é um Adulto de Meia Idade Maior de Idade. O indivíduo é um Idoso Maior de Idade. O indivíduo é um Idoso Ansião Maior de Idade. O indivíduo é um Idoso na Velhice Extrema Maior de Idade.",
+    "topics": [
+        "decisão"
+    ]
+}

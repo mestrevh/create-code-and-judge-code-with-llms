@@ -1,0 +1,6 @@
+Título: Lista de divisores
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p><font face="Nimbus Sans L, sans-serif"><font size="2">Escrevaum programa em Python para ler um número inteiro positivo e imprimirseus divisores em ordem crescente.</font></font></p>
+Formato da entrada: <p>30</p>
+Formato da saída: <title></title><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">1</font></font></p><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">2</font></font></p><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">3</font></font></p><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">5</font></font></p><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">6</font></font></p><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">10</font></font></p><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">15</font></font></p><p style="text-align: left;"><font face="Nimbus Mono L, monospace"><font size="2">30</font></font></p>

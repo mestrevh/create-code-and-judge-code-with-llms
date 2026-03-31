@@ -1,0 +1,10 @@
+{
+    "title": "Uninho do povo",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Um grupo de estudantes do CIn, chamados GH, costumam almoçar/jantar em uma das cantinas que tem em outros dois centros da UFPE, no CAC e no CCSA, porém como são preguiçosos eles semprem tentam ir de carro e, infelizmente, no único carro disponível, o uninho da querida matriarca Line. Certo dia, indagado com tal situação e buscando otimizar o tempo de todos em saber se vai dar para ir ou não, Danerd decidiu desenvolver um programa para tal situação.",
+    "format_input": "A entrada consta de 4 valores. Dois valores de até duas casas decimais (0 <= X < 24 && 0 <= Y < 24 && X < Y) que representam a hora de saida e a hora que tem que estar de volta (0,5 representa 30min, 0,75 representa 45 min e a assim por diante), seguidos por uma Letra (A para CAC, e B para CCSA) e por fim uma valor numerico (N > 0) que representa a quantidade de pessoas que irão ser transportadas.",
+    "format_output": "A Saida pode variar entre 3 possibilidades de acordo com uma série de regras: • Se decidirem ir para o CAC, tem q ter mais que 1hora, caso forem para o CCSA tem que mais que 45 minutos. • A capacidade máxima do uno é de 5 pessoas, porém, em ambos os destinhos, se o tempo que tem q estar de volta for maior ou igual à 50% a mais do prazo o querido uninho consegue fazer um esforço de levar até 4 pessoas a mais. • As entradas devem ser válidas Caso as propriedades forem satisfeitas, deve se imprimir “O uninho faz a boa, obrigado querida mãe line” Caso não, deve ser impresso “Infelizmente o uninho nao tanka, rodamos!” se as entradas forem válidas porém não seguem as demais propiedades ou “Entrada Invalida” caso a entrada seja inválida. (Em todos os casos deve ser impresso uma quebra de linha após a frase).",
+    "topics": [
+        "decisão"
+    ]
+}

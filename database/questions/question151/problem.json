@@ -1,0 +1,10 @@
+{
+    "title": "Sim City",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Provavelmente, você já passou horas e horas jogando Sim City. Neste jogo, você tem o privilégio e a honra de construir uma cidade exatamente do jeito que você deseja. Você pode construir aeroportos, estádios, escolas, fábricas, casas e muitas outras construções. O sua missão era deixar os cidadãos felizes e prósperos. Infelizmente, para pagar por essas construções, você precisa cobrar impostos. Mesmo no mundo virtual, as pessoas odeiam pagar impostos e querem que você gaste o dinheiro público de maneira inteligente. Mais especificamente, você também precisará construir ruas que conectem cada construção da forma mais eficiente possível. Dada as coordenadas das construções da cidade, você deve conectá-las de tal forma que todas as construções sejam alcançáveis através de ruas, minimizando a quantidade de pavimento que você precisará utilizar para fazer as conexões.",
+    "format_input": "A entrada é uma série de coordenadas, referentes às construções, especificadas por um conjunto de pontos. A primeira linha do conjunto denota a quantidade de pontos N, seguida por N pares de pontos X Y. O final da entrada ocorre quando N=0. Considere que N<=100.",
+    "format_output": "Para cada conjunto de localizações, imprima o tamanho total de ruas que precisarão ser construídas para conectar todas as construções. O total deve ser impresso com duas casas decimais. O tamanho de uma rua entre duas construções é dado pela distância entre as coordenadas dessas duas construções.",
+    "topics": [
+        "Árvore"
+    ]
+}

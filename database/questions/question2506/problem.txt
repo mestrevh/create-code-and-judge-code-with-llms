@@ -1,0 +1,6 @@
+Título: PROGCOMP - Vetores - B
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que preenche um vetor com 10 números inteiros dados pelo usuário e, ao final, exibe os itens do vetor em ordem contrária à da entrada.</p>
+Formato da entrada: <p>Uma sequência de dez números inteiros, um por linha.</p>
+Formato da saída: <p>A sequência de números inteiros dada na entrada, um número por linha, por em ordem contrária.</p>

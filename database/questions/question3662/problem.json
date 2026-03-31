@@ -1,0 +1,13 @@
+{
+    "title": "Mais uma de matriz?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá o tamanho de uma matriz \"I\" (linhas) x \"J\" (colunas) e deverá imprimir: A soma dos valores de cada linha A soma dos valores de cada coluna A soma da diagonal principal (Se \"I\" for igual a \"J\")",
+    "format_input": "Você receberá \"I\" (linhas) x \"J\" (colunas) e os valores da matriz, exemplo: 2 3 1 2 3 4 5 6",
+    "format_output": "Soma dos valores linha por linha. Soma dos valores coluna por coluna. Soma da diagonal principal. Caso a matriz não seja quadrada, a diagonal não precisa ser impressa, logo não imprima nada relativo a essa parte. Ex. (para a matriz demonstrada na entrada): Linha 0: 6 Linha 1: 15 Coluna 0: 5 Coluna 2: 7 Coluna 3: 9",
+    "topics": [
+        "acumulador",
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

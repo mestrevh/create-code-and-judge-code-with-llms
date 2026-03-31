@@ -1,0 +1,12 @@
+{
+    "title": "L2Q8 - The keeper of the Gates",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Saindo da Cidadela, você decide seguir a Estrada da Rosa sem um rumo certo. Passando por Highgarden, você viu que precisa reabastecer seus suprimentos. Apesar da grande fama de Highgarden, como um castelo muito organizado, limpo e cheiroso, você deu o azar de encontrar um guarda substituto responsável pelos portões do castelo. Esse guarda, após participar de um torneio de justa, sofreu um grave ferimento na cabeça e começou a ter loucas ideias e paranóias. Ele decidiu que apenas as pessoas de grande sabedoria iriam ser aceitas no castelo. Foi determinado que, para ter seu acesso ao castelo liberado, você precisaria resolver um problema. Foi dado um pergaminho e você precisaria reajustar as letras, de cada linha e reescrever no verso, seguindo as seguintes restrições: - As linhas precisam estar invertidas - Todos os espaços e símbolos devem ser removidos - Dígitos devem ser substituídos pelos símbolos, como definidos: 0 = *, 1 = ), 2 = $, 3 = !, 4 = +, 5 = @, 6 = -, 7 = /, 8 = (, 9 = % - Letras maiúsculas precisam ser substituídas pelo seu dígito identificador no alfabeto, no qual: A = 1, B = 2, C = 3, ..., Z = 26 - Letras minúsculas devem ser em sua forma: Maiúscula, se a quantidade de símbolos a esquerda da letra for par; Minúscula, se a quantidade de símbolos a esquerda da letra for ímpar. Obs: Cada regra só será aplicada uma vez, isto é, se um character maiúsculo for substituído por um dígito, por exemplo, esse dígito não será substituído por um símbolo. O conjunto de símbolos usado é: * ) $ ! + @ - / ( %. Mesmo que você já saiba utilizar, não serão aceitas respostas que façam uso de arrays. Dica: Você pode utilizar a String \"\\n\" para quebra de linha.",
+    "format_input": "A entrada é composta por várias linhas no formato descrito abaixo, até o fim do arquivo: L. L - string. Cada linha da entrada é composta por caracteres que podem ser: Letras, Dígitos, Espaços.",
+    "format_output": "A saída é composta por várias linhas no formato descrito abaixo: S. S - string. Cada linha de saída é composta por caracteres seguindo as restrições informadas na descrição.",
+    "topics": [
+        "repetição",
+        "caractere",
+        "função"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Busca em largura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A busca em largura é um algoritmo utilizado para percorrer ou buscar itens dentro das estruturas de dados grafos. Como característica temos que a busca sempre ocorre em vértices mais próximos ao vértice pelo qual a busca foi iniciada. Desenvolva um programa para percorrer um grafo a partir de um vértice inicial e apresentar a ordem em que os vértices foram visitados.",
+    "format_input": "A primeira linha contém a quantidade de vértices do grafo de entrada (inteiro). A segunda linha contém o vértice de origem da busca (inteiro). As demais linhas representam as arestas do grafo, onde cada linha possui dois vértices para identificar a aresta.",
+    "format_output": "A saída deve mostrar a sequência em que os vértices foram visitados, com um vértice por linha.",
+    "topics": [
+        "grafo"
+    ]
+}

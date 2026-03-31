@@ -1,0 +1,11 @@
+{
+    "title": "Fatores primos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que transforme um número n em todos os seus fatores primos n1,n2,n3,n4... Lembrando que n1*n2*n3*n4... == n",
+    "format_input": "um inteiro positivo n 50",
+    "format_output": "todos os fatores primos de n (use print(*lista) para apresentar os valores) em ordem crescente 2 5 5",
+    "topics": [
+        "array",
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Tabuada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia um número inteiro e imprima a tabuada de multiplicação deste número. Suponha que o número lido da entrada é maior que zero.",
+    "format_input": "Um número inteiro.",
+    "format_output": "A tabuada de multiplicação correspondente ao número digitado. Verifique o exemplo de saída para a especificação do formato.",
+    "topics": [
+        "formatação"
+    ]
+}

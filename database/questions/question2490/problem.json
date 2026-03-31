@@ -1,0 +1,10 @@
+{
+    "title": "Distância entre três pontos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que receba as coordenadas (x,y) de três pontos (A, B e C) e exiba a distância entre eles na seguinte ordem: distância de A para B; distância de B para C e; distância de C para A. Dica: lembre-se do teorema de Pitágoras. Obs.: A distância deve ser exibida com duas casas decimais.",
+    "format_input": "Na primeira linha haverá a coordenada x do ponto A; na linha seguinte a coordenada y do ponto A; na linha seguinte a coordenada x do ponto B; na linha seguinte a coordenada y do ponto B; na linha seguinte a coordenada x do ponto C e; por último, a coordenada y do ponto C.",
+    "format_output": "As distâncias entre os pontos, na ordem solicitada pelo enunciado e conforme o exemplo.",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Vacinação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Esse mês o Ministério da Saúde deseja vacinar crianças de toda a rede pública de ensino para evitar epidemias. As crianças que têm entre 3 e 6 anos deverão ser vacinadas contra o sarampo, e aquelas que tiverem entre 5 e 8 anos receberão vacina contra a hepatite. Escreva um programa que receba como entrada a idade de vários alunos de uma escola, até que seja informada a idade 100, e calcule e exiba quantas vacinas de cada tipo serão necessárias, e quantas crianças receberão as duas vacinas.",
+    "format_input": "Vários valores inteiros, um de cada vez, até que seja informado o valor 100. Observe que os extremos devem ser considerados (Ex: de 1 a 4 significa que 1 e 4 também estão inclusos)",
+    "format_output": "Três valores inteiros representando respectivamente: - A quantidade de vacinas de sarampo - A quantidade de vacinas de hepatite - A quantidade de crianças que receberão ambas as vacinas",
+    "topics": [
+        "multiplas entradas",
+        "decisão"
+    ]
+}

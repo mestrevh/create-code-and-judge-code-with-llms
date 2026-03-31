@@ -1,0 +1,11 @@
+{
+    "title": "Ekul e a sopa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ekul é um pequeno e corajoso cachorro que decidiu partir em aventuras pelo mundo. Apesar de corajoso, Ekul ainda é um cachorro pequeno e frágil, e certo dia teve problemas de saúde. Preocupado com Ekul, seu amigo Solrac resolveu ir ao mercado comprar alguns ingredientes a fim de cozinhar uma sopa para Ekul. Dado o estoque de produtos e os produtos que Solrac pretende comprar, determine o valor total da compra. OBS: NENHUM PRODUTO TERÁ ESPAÇAMENTO E/OU ACENTO.",
+    "format_input": "Um inteiro N, representando a quantidade de produtos que o mercado vende, seguido de N linhas informando o nome, preço e quantidade disponível de cada produto. Um inteiro M, representando a quantidade de produtos que Solrac pretende comprar, seguido de M linhas informando o nome de cada produto no carrinho.",
+    "format_output": "O valor total da compra com 2 casas decimais.",
+    "topics": [
+        "array bidimensional",
+        "estruturas"
+    ]
+}

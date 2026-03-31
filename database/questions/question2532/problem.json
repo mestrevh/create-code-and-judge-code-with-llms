@@ -1,0 +1,12 @@
+{
+    "title": "Maior numero Octave - T1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para ler dois números e escrever o maior.",
+    "format_input": "O usuario deve digitar os números A e B",
+    "format_output": "O programa deve exibir o maior numero digitado, imprimindo na tela os valores abaixo: Digite o valor de A: (impresso pela funcao input) Digite o valor de B: (impresso pela funcao input) O maior valor digitado foi: n",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática"
+    ]
+}

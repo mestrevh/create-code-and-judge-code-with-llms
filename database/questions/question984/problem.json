@@ -1,0 +1,10 @@
+{
+    "title": "Os Extremos e os Múltiplos.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma sequência de inteiros não negativos você deverá imprimir o menor inteiro e o maior inteiro até o momento. A impressão deve ser feita a cada entrada de dado, ou seja, a resposta pode ser alterada a cada passo. No final você receberá o número -1 indicando o final da entrada(não é para incluir o -1 na resposta). Por fim, você deverá imprimir todos os múltiplos do menor número, que estão entre o menor e o maior (incluindo os dois se for o caso).",
+    "format_input": "uma sequência de inteiros seguida de -1.",
+    "format_output": "a cada inteiro você deverá imprimir o menor inteiro x e o maior inteiro y no formato \"menor  = x || MAIOR = y\". por fim você deverá imprimir todos os múltiplos de x que estão entre x e y incluso os dois, os números devem ser separados por \"||\"..",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Exportações do Seu Lobato",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu Lobato é um renomado agricultor e fazendeiro brasileiro que realiza exportações para países de todo o mundo. Dentre os produtos comercializados por ele estão: Abacaxi, banana, café, caju, laranja, melancia, soja, trigo, além das carnes bovinas e suínas. Para automatizar o controle das exportações, seu Lobato contratou você, aluno de Computação Eletrônica da UFPE, para criar um programa em linguagem C que pudesse facilitar e auxiliar essa tarefa. Seu Lobato também deixou um arquivo para auxiliar no seu programa, contendo os continentes e a taxa de frete correspondente, além dos produtos, com sua identificação e preço por lote. Além de utilizar seus conhecimentos em estruturas, use também funções! OBS.: Lembre-se que as transações internacionais são realizadas em dólares! Adote U$ 1.00 = R$ 5,17 Imagem com dados: https://imgur.com/AscWzKx",
+    "format_input": "O programa receberá um número inteiro N, que representará o número de operações a fazer no código. Caso N seja 0, o programa deve imprimir a mensagem \"Sem negociacoes por hoje!\". Para cada negociação, existem os seguintes dados: Nome do comprador ou empresa (até 30 caracteres) País de destino (até 30 caracteres) Continente de destino (até 10 caracteres) Código do produto comercializado (inteiro) Quantidade de lotes do produto comercializado (inteiro) Caso o código do produto não exista, o programa deve imprimir \"Operacao invalida!\".",
+    "format_output": "A saída do seu programa deve conter as seguintes informações: Nome do comprador ou empresa Nome do comprador ou empresa País de destino Nome do produto Custo do produto (Em dólares) Custo do frete (Em dólares) Total a pagar",
+    "topics": [
+        "ponto flutuante",
+        "array",
+        "decisão",
+        "lógica matemática",
+        "ciclos",
+        "repetição",
+        "função",
+        "string",
+        "estruturas"
+    ]
+}

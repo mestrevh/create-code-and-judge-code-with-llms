@@ -1,0 +1,11 @@
+{
+    "title": "Conversão de tempo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Joselito está desenvolvendo um aplicativo em que ele converte um valor que representa a duração de um evento qualquer lida em um cronômetro em segundos em um formato adequado para painéis de exibição. O evento é inicialmente representado por um único valor inteiro que compreende a duração do evento e o resultado será uma string a ser exibida no painel no formato HORA(S): MINUTO(S): SEGUNDO(S).",
+    "format_input": "Um valor inteiro representando a duração total em segundos (Exemplos: 556, 1, 140153).",
+    "format_output": "O valor convertido para o formato HORA(S): MINUTO(S): SEGUNDO(S) (Exemplos: 0:9:16, 0:0:1, 38:55:53).",
+    "topics": [
+        "lógica matemática",
+        "formatação"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Plano de vacinação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Secretaria Estadual de Saúde divulgou os detalhes do Plano de Vacinação contra a Covid-19. A meta mínima, segundo o órgão, é vacinar 95% dos grupos prioritários durante todo o ano de 2021. Entre os maiores grupos estão pessoas com algum tipo de comorbidades e pessoas com deficiência permanente severa. O Plano está dividido em quatro fases, conforme apresentado na Tabela abaixo. O seu objetivo é fazer um programa que receba como entrada a idade de um cidadão, sua profissão, se possui comorbidades e se mora em residência institucionalizada. O intuito é informar ao usuário a qual grupo ela pertence e em qual fase será vacinado. As profissões consideradas são: 1 – Trabalhadores da Saúde 2- Indígena 3- Professores 4- Forças de segurança e salvamento 5- Funcionário do sistema prisional 6 – Outro",
+    "format_input": "idade (um inteiro); profissão (um inteiro); existência de comorbidades (caracter, s para se tem comorbidades e n para não tem); residência institucionalizada (caracter, s para mora em residência institucionalizada e n para não)",
+    "format_output": "Mensagem informando o grupo e fase do usuário de acordo com a tabela do plano de vacinação. Se a profissão informada não for válida, deve ser apresentada mensagem de erro. Verificar os exemplos a seguir.",
+    "topics": [
+        "decisão"
+    ]
+}

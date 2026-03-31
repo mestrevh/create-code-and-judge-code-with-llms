@@ -1,0 +1,6 @@
+Título: Seleção Brasileira
+Topicos do problema: decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p class="inserted">O técnico da seleção brasileira vai escalar os 11 titulares que jogarão a copa do mundo e ele precisa de você para ajudar a colher algumas estatísticas dos jogadores.</p><p class="inserted">Você vai receber os nomes dos jogadores até completar os 11 ou até que o treinador digite sair no nome do jogador.</p><p class="inserted">Além do nome você recebrá da entrada padrão a idade e a posição do jogador.</p><p class="inserted">Em seguida você deve imprimir:</p><ul class="inserted"><li>O nome do jogador mais jovem</li><li class="inserted">A posição do jogador mais velho</li><li class="inserted">A média de idade</li></ul>
+Formato da entrada: <ul><li>Nome</li><li class="inserted">Idade</li><li class="inserted">Posição</li><ul><li class="inserted">(A)tacante</li><li>(M)eio-campo</li><li>(D)efensor</li><li>(G)oleiro</li></ul></ul>
+Formato da saída: <ul class="inserted" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><li>O nome do jogador mais jovem</li><li class="inserted">A posição do jogador mais velho</li><li class="inserted">A média de idade com uma casa decimal de aproximação</li></ul>

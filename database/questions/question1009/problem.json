@@ -1,0 +1,11 @@
+{
+    "title": "Palíndromo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um número é palíndromo se ele pode ser lido de trás para frente e ainda assim obtermos o mesmo valor. Por exemplo: 10301 é palíndromo, já 12342 não é. Então, dado um número de 5 algarismos, você deve determinar se ele é palíndromo.",
+    "format_input": "Um número inteiro de 5 algarismos.",
+    "format_output": "S se o número é palíndromo e N se ele não é.",
+    "topics": [
+        "ad-hoc",
+        "decisão"
+    ]
+}

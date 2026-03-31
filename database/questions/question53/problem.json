@@ -1,0 +1,13 @@
+{
+    "title": "Séries divergentes",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A série harmônica é divergente: Isto significa que dado qualquer real k existe n0 tal que: Por exemplo se k = 2, o programa deve fornecer n0 = 4, pois e Ps.: Atenção, cuidado com problemas de precisão do ponto flutuante. Procure usar o tipo de dados com maior precisão.",
+    "format_input": "O programa receberá uma sequência de inteiros k, onde k <=15 O programa encerra a sua execução quando o número k dado for -1",
+    "format_output": "Para cada k, deve-se imprimir um inteiro n seguido de um final de linha, correspondendo ao n0 descrito acima",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "lógica matemática"
+    ]
+}

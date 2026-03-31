@@ -1,0 +1,13 @@
+{
+    "title": "Construir Heap Máxima",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este exercício tem como objetivo a implementação do algoritmo build-max-heap, como descrito em \"Introduction to Algorithms\", por Cormen et al. A ideia é aplicar a operação max-heapify repetidamente de maneira bottom-up, construindo a max-heap de baixo pra cima. O pseudo-código do algoritmo está descrito abaixo:  A função build-max-heap faz uso de max-heapify, cujo pseudo-código segue abaixo: ",
+    "format_input": "A entrada é constituída por uma linha contendo uma sequência de números a serem organizados na forma de uma max-heap.",
+    "format_output": "A entrada deve ser impressa separada por barras verticais, como no exemplo. A cada passo do algoritmo, o estado atual da heap deve ser exibido usando a mesma formatação. Ao final, deve ser impresso o resultado da execução do algoritmo.",
+    "topics": [
+        "heap",
+        "array",
+        "Árvore",
+        "recursão"
+    ]
+}

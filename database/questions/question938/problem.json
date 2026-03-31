@@ -1,0 +1,12 @@
+{
+    "title": "5 valores para a.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Escrever um algoritmo que lê 5 valores para \"a\", um de cada vez, e conta quantos destes são negativos, escrevendo esta informação.",
+    "format_input": "Os 5 valores digitados.",
+    "format_output": "A quantidade de números negativos digitados.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "repetição"
+    ]
+}

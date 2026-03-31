@@ -1,0 +1,20 @@
+Metodo: Newton-Raphson
+Iteracao: 1
+NAO CONVERGIU
+Raiz final:-120.3636340153
+|x_i-x_(i-1)|:0.6363659847
+|f(x_i)|:0.0413786445
+
+Metodo: Newton-Raphson
+Iteracao: 2
+NAO CONVERGIU
+Raiz final:-120.4083302979
+|x_i-x_(i-1)|:0.0446962826
+|f(x_i)|:0.0001503330
+
+Metodo: Newton-Raphson
+Iteracao: 3
+CONVERGIU
+Raiz final:-120.4084938812
+|x_i-x_(i-1)|:0.0001635832
+|f(x_i)|:0.0000000021

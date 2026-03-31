@@ -1,0 +1,10 @@
+{
+    "title": "Dimensões Terreno",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A imobiliária TerrenoBonito vende apenas terrenos retangulares. Faça um programa para ler as dimensões de um terreno e depois exibir a área do terreno.",
+    "format_input": "O programa deve receber dois valores (reais) como entrada, sendo a largura e o comprimento do terreno.",
+    "format_output": "O programa deve apresentar um único valor, com duas casas decimais, correspondendo a área do terreno.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

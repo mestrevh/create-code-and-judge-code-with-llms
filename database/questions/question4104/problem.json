@@ -1,0 +1,10 @@
+{
+    "title": "Função no ponto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada a função f(x) definida por: Faça um programa que calcula e exibe o valor da função no ponto, ou seja, o usuário deve fornecer o valor de x e o programa deve calcular o resultado de f(x) com base na definição da função.",
+    "format_input": "Um número inteiro para x",
+    "format_output": "O valor resultante da função f(x) no ponto x informado. A saída deve ser apresentada como nos exemplos de saída na tabela abaixo.",
+    "topics": [
+        "decisão"
+    ]
+}

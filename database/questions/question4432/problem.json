@@ -1,0 +1,10 @@
+{
+    "title": "Binários no Lulupalooza",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Para o grande Lulupalooza, Lulu reservou uma mesa de apenas 30 lugares, porém ela convidou muito mais pessoas do que essa capacidade. Então ela resolveu organizar os espaços no bar a partir de strings binárias que serão repassadas para os organizadores do evento. Cada participante terá uma string binária correspondente, de forma que toda string binária terá o mesmo número de bits e será dividida em 2 sequências: - Posição: Respresenta o número da cadeira em que essa pessoa vai se sentar e seu tamanho é igual ao log na base 2 do tamanho da string binária - ID: Representa a identificação da pessoa e seu tamanho é (tamanho da string binária) - (tamanho da posição) Perceba que posição é um número binário, nesse caso, a posição 110 será 6. Você terá que fazer um programa que registra todos os IDs dos convidados nas suas respectivas posições. Atenção, se ao registrar um convidado, sua posição já estiver ocupada, ele seleciona a posição seguinte. Exemplo: tentando registrar 1010 e depois 1001, como a posição 2 (10 em decimal) já estava ocupada, a pessoa de ID 01 vai ficar na posição 3 (11 em decimal). Perceba que a quantidade de cadeiras na festa vai ser 2 elevado a quantidade de bits da posição.",
+    "format_input": "Um número N1 inteiro seguido de N1 strings binárias de mesmo tamanho (número máximo de 32 bits). Um número N2 inteiro seguido de N2 números inteiros",
+    "format_output": "Para cada um dos N2 números recebidos você deve printar o ID da pessoa que está nessa posição. Caso não haja ninguém, seu programa deverá printar \"Nao tem ninguem\".",
+    "topics": [
+        "string"
+    ]
+}

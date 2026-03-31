@@ -1,0 +1,11 @@
+{
+    "title": "L4Q3 - O Gladiador das galáxias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Quando criança, Han Solo jogava o O Gladiador das galáxias, um jogo de tabuleiro de guerra entre naves. Após uma invasão do Lord Vader, todas as unidades desse jogo foram destruídas para evitar que crianças se tornassem rebeldes. Para relembrar sua infância, Han Solo pediu que você recriasse esse jogo e você, como sempre quis entrar na Millennium Falcon, obviamente aceitou. Regras do jogo: Todas as naves ocupam apenas uma posição do tabuleiro (O tabuleiro pode ser pensado como uma matriz). Uma partida é jogada por exatamente duas pessoas. Os 2 jogadores tem a mesma quantidade de naves, no começo da partida. As linhas são representadas por letras e as colunas são representadas por números. As letras vão de A até I e os números de 1 a 9. Os turnos são alternados, ou seja, após o jogador A fazer sua jogada, joga o B, depois novamente o A e assim sucessivamente. Ao final das jogadas, vence o jogador com o maior número de naves. (Haverá um empate caso ambos tenham a mesma quantidade). OBS: Uma posição do tabuleiro pode ser representada por um par de letra e número, que representam a linha e coluna, por exemplo: A7. O jogador A sempre começa jogando.",
+    "format_input": "Uma linha composta por um número natural N que representa o número de jogadas da partida. 9 linhas compostas por 9 números inteiros em cada separados por espaço, correspondente a matriz de posição das naves do jogador A. Segue uma linha vazia. 9 linhas compostas por 9 números inteiros separados por espaço, correspondente a matriz de posição das naves do jogador B. Segue uma linha vazia. As próximas N linhas são compostas por posições de tabuleiro (par de letra maiúscula representando linha e número representando coluna, nessa ordem). OBS: Nas matrizes de posições de naves, o número 1 representa a presença de nave e o 0 a ausência. É garantido que esses são os únicos valores para as posições das matrizes.",
+    "format_output": "Imprimir: \"O jogador A venceu\" - Caso o jogador A tenha vencido ao final das jogadas. \"O jogador B venceu\" - Caso o jogador B tenha vencido ao final das jogadas. \"Empate\" - Caso ocorra empate ao final das jogadas.",
+    "topics": [
+        "simulação de jogos",
+        "array bidimensional"
+    ]
+}

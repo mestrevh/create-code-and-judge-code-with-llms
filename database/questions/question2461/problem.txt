@@ -1,0 +1,6 @@
+Título: Teste
+Topicos do problema: lógica matemática; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Crie um programa que gere o gráfico de uma parábola com vértice na origem para os valores de -5 a 5.<br/></p>
+Formato da entrada: <p>[-5:5]<br/></p>
+Formato da saída: <p>[-25 -16 -9 -4 -1 0 1 4 9 16 25]<br/></p>

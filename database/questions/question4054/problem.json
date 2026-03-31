@@ -1,0 +1,10 @@
+{
+    "title": "Números Negativos?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois números reais, seu programa deve printar \"NEGATIVOS\" caso ambos sejam valores negativos. Caso contrário, seu programa deve printar \"NAO SAO AMBOS NEGATIVOS\".",
+    "format_input": "Dois números reais.",
+    "format_output": "Deve-se printar \"NEGATIVOS\" caso ambos sejam valores negativos. Caso contrário, seu programa deve printar \"NAO SAO AMBOS NEGATIVOS\".",
+    "topics": [
+        "decisão"
+    ]
+}

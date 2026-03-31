@@ -1,0 +1,11 @@
+{
+    "title": "Compras de Fim de Ano",
+    "time_limit": "2 segundo(s)",
+    "descrition": "As festas de fim de ano estão chegando. Carlita Maria tem bastante dinheiro e adora comprar presentes para familiares e amigos. Como Carlita Maria vai comprar vários presentes, ela precisa de sua ajuda para contabilizar o total da compra.",
+    "format_input": "Carlita Maria irá te fornecer várias linhas com o nome de cada produto que pretende comprar. Cada produto será acopanhado de seu preço da seguinte forma: AAAA X em que AAAA é o nome do produto e X é um número real que representa o preço do produto. O nome do produto é separado de seu preço por um espaço em braco. Note que o nome de um produto pode ser composto por mais de uma palavra. Quando Carlita Maria terminar de informar todos os produtos que pretende comprar, ela digitará *. Logo em seguida, ela poderá digitar alguns comandos antes de pedir o total da compra, tais como: retire AAAA para retirar da lista de compras o produto AAAA, ou quantidade caso ela queira saber a quantidade de produtos que ainda há em sua lista de compras. Entretanto, quando Carlita Maria digitar total o programa deve se encerrar.",
+    "format_output": "Ao final do programa você deve imprimir o valor total da compra de Carlita Maria com duas casas decimais.",
+    "topics": [
+        "estrutura de dados",
+        "dicionário"
+    ]
+}

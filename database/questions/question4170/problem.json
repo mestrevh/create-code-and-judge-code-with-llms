@@ -1,0 +1,13 @@
+{
+    "title": "Jogo entre amigos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os jovens Thiago e Caio, filhos dos professores Marcos e Petrônio, gostam de criar jogos que envolvam números. Os dois decidiram criar um jogo que consiste em perguntar a uma pessoa qualquer uma lista com 10 números inteiros. Assim que eles recebem a lista, cada um tem que encontrar algumas informações sobre os números, que são: Quantas vezes o último número informado aparece na lista; Quantos dos números informados na lista são pares (contar mesmo se houver repetições); Quantos dos números informados são divisíveis por 3 (contar mesmo se houver repetições); A lista dos números informados que são maiores que a média dos 10 números. Ganha o jogo aquele que encontrar todas as respostas mais rápido. Depois de se divertirem bastante jogando apenas com lápis e papel, eles pediram a sua ajuda para que você criasse um programa para eles conferirem os resultados encontrados nas partidas jogadas. Logo, você deve fazer um programa que lê os 10 números e informa as saídas desejadas do jogo.",
+    "format_input": "Os dez números inteiros separados por espaços em branco.",
+    "format_output": "Textos indicativos (sem acentos) e os valores pedidos no jogo. Veja na tabela abaixo exemplos de entradas e saídas. Note que a média usa apenas uma casa decimal.",
+    "topics": [
+        "array",
+        "acumulador",
+        "lógica matemática",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Idade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "",
+    "format_input": "52 14 18",
+    "format_output": "20",
+    "topics": [
+        "obi"
+    ]
+}

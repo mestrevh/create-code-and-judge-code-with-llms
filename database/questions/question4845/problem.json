@@ -1,0 +1,11 @@
+{
+    "title": "Biblioteca Inteligente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma biblioteca digital armazena os códigos de identificação de seus livros em um vetor desordenado. Seu sistema precisa: 1. Ordenar os códigos em ordem crescente. 2. Responder consultas informando se um determinado código existe na biblioteca. Para cada consulta, informe: \"SIM\" se o código existir. \"NAO\" caso contrário. A ordenação deve ser feita utilizando Merge Sort ou Quick Sort. A busca deve ser feita utilizando Busca Binária.",
+    "format_input": "A primeira linha contém um inteiro N (1 ≤ N ≤ 10⁵), representando a quantidade de livros. A segunda linha contém N inteiros representando os códigos dos livros. A terceira linha contém um inteiro Q (1 ≤ Q ≤ 10⁵), representando a quantidade de consultas. As próximas Q linhas contêm um inteiro cada, representando o código a ser buscado.",
+    "format_output": "Para cada consulta, imprima: SIM se o código existir no vetor. NAO caso contrário. Cada resposta deve ser impressa em uma nova linha.",
+    "topics": [
+        "ordenação",
+        "busca binária"
+    ]
+}

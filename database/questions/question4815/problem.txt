@@ -1,0 +1,6 @@
+Título: Analista de estoque
+Topicos do problema: array; acumulador; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Letícia é uma entusiasta da computação e foi convocada para ajudar em uma loja.<br/>Sua tarefa é criar um programa que organize os produtos em uma <strong>lista de prioridade</strong>. Para isso, ela deve implementar um algoritmo que utilize <strong>recursão</strong> para:</p><ol><li><p>Ler <strong>N valores inteiros</strong> representando os preços dos produtos.</p></li><li><p>Armazenar os valores em um <strong>array</strong>.</p></li><li><p>Ordenar os produtos do <strong>mais caro para o mais barato</strong>.</p></li><li><p>Calcular e exibir o <strong>valor total do estoque</strong> (soma de todos os preços).</p></li><li><p>Exibir a lista de preços já ordenada.</p></li><li><p><img src="https://www.thehuxley.com/api/v1/problems/image/3825c7652656727d0133b6587767488f32d42b983.png"/></p></li></ol>
+Formato da entrada: <p>a primeira linha contém um valor N indicando o numero de produtos do estoque, seguido de N números indicando o valor de cada produto.</p>
+Formato da saída: <p>&#13;&#13;Primeira linha: os produtos em ordem <strong>do mais caro para o mais barato</strong>, separados por espaço.&#13;&#13;<br/></p><p>&#13;&#13;Segunda linha: o valor total do estoque.</p>

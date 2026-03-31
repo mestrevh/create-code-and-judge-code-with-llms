@@ -1,0 +1,10 @@
+{
+    "title": "Sistema de desconto progressivo em uma loja",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma loja de informática está com uma promoção baseada no valor da compra e no tipo de cliente. Existem três tipos de cliente: Comum VIP Funcionário A loja descontos diferentes de acordo com o valor total da compra e o tipo do cliente, conforme a tabela abaixo: Além disso, se a compra for feita no mês do aniversário do cliente, ele ganha um desconto extra de 5%, independente do tipo e valor da compra. Escreva um programa em Python que: 1. Leia o nome do cliente, o valor da compra, o tipo de cliente e o mês de aniversário. 2. Pergunte o mês atual. 3. Calcule o valor final da compra com base nas regras acima. 4. Mostre na tela um relatório com: nome do cliente, tipo, valor original, valor do desconto, valor final.",
+    "format_input": "Nome do cliente, Valor da compra, Tipo de cliente, Mês de aniversário.",
+    "format_output": "Um relatório com: nome do cliente, tipo, valor original, valor do desconto, valor final.",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "L1Q? - Lucros do vendedor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O vendedor de repolhos teve bastante lucros após comprar seu novo estabelecimento e depois de um longo mês de vendas ele ficou sobrecarregado de moedas, então ele decidiu trocar o valor acumulado por outras moedas priorizando sempre as de maior valor. A sua função vai ser ajudar o vendedor a definir a quantidade de moedas que ele vai precisar para trocar todo o seu dinheiro sabendo que só é possível trocar por moedas de 100, 50, 25, 10, 5, 1.",
+    "format_input": "A entrada consiste de uma única linha: V inteiro, valor total acumulado pelo vendedor",
+    "format_output": "A saída é no seguinte formato: T foi o total de moedas acumulado X moedas de 100 Y moedas de 50 Z moedas de 25 W moedas de 10 K moedas de 5 L moedas de 1 T - inteiro, referente ao total de moedas X, Y, Z, W, K, L são inteiros referentes a quantidade de moedas de cada tipo Obs: não é necessário imprimir a quantidade de moedas de um tipo caso não exista nenhuma moeda daquele tipo.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Quadrado Teatralnaya",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Quadrado Teatralnaya na cidade capital da Berland tem um formato retangular de tamanho n x m metros. No aniversário da cidade, houve uma decisão de pavimentar o Quadrado com lajes de granito. Cada laje tem tamanho a x a. Qual é a menor quantidade de lajes que são necessárias para pavimentar todo o Quadrado. É permitido cobrir uma superfície maior que a do Quadrado Teatralnaya, mas o Quadrado tem que ser coberto. Não é permetido quebrar lajes. Os lados das lajes devem ser paralelos aos lados do Quadrado.",
+    "format_input": "A entrada consiste de três inteiros: n, m, a (1 <= n, m, a <= 10000).",
+    "format_output": "A saída deve ser a menor quantidade de lajes necassárias.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Coelho Branco e os Relógios Desajustados",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um coelho branco, muito apressado, corre para avisar um jovem sobre um evento trágico. No entanto, no meio de sua correria, ele deixa cair todos os seus inúmeros relógios. Esse coelho, por ser bastante serelepe, tem um hábito peculiar: ele mantém quase todos os seus relógios desajustados, exceto um. A regra é simples: - O relógio com o horário mediano é o único que está correto. - Todos os demais estão errados, indicando um adiantamento ou atraso em relação a este horário de referência. Sua tarefa: Dado um conjunto de horários (em minutos) representando os relógios do coelho, determine: - Qual é o horário correto (o mediano). Para cada relógio, o valor de atraso (número negativo) ou adiantamento (número positivo) em relação ao horário correto.",
+    "format_input": "A primeira linha contém um numero inteiro ímpar (o numero de relógios do coelho branco) A segunda linha contém uma sequência de inteiros representando os horários dos relógios (em minutos)",
+    "format_output": "Uma sequência de inteiros representando, para cada relógio, o desvio em relação ao horário correto, os relógios devem ser exibidos na ordem em que foram passados, para que o Coelho Branco não se confunda.",
+    "topics": [
+        "array",
+        "decisão",
+        "ordenação"
+    ]
+}

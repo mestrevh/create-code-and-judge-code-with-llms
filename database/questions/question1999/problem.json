@@ -1,0 +1,13 @@
+{
+    "title": "Atribuindo notas aos questionários",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para corrigir automaticamente um conjunto de questionários. O programa deve receber primeiro o gabarito em uma única linha. Em seguida, o programa deve receber várias respostas de questionários e informar ao usuário o percentual de questões que ele acertou. O tamanho do questionário deve ser recebido no começo. O programa deve receber respostas de usuários até que o usuário digite \"sair\" no lugar da resposta. Se você receber um questionário de tamanho diferente do gabarito, você deve emitir uma mensagem de erro.",
+    "format_input": "O tamanho do gabarito (e também das respostas). O gabarito de respostas contendo letras. Exemplo: a b e f d a g h b c a. Várias respostas para verificar a igualdade com o gabarito.",
+    "format_output": "Uma linha contendo o percentual de questões certas para cada resposta apresentada. Ou uma mensagem de erro caso o gabarito seja menor que o tamanho desejado.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição",
+        "string"
+    ]
+}

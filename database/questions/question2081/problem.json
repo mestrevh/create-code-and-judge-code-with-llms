@@ -1,0 +1,11 @@
+{
+    "title": "Valor máximo da expressão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois inteiros positivos m e n, determinar, entre todos os pares de números inteiros (x,y) tais que 0 ≤ x ≤ m, e 0 ≤ y ≤ n, um par para o qual o valor da expressão xy − x2 + y seja máximo, e calcular também esse valor máximo.",
+    "format_input": "Dois números inteiros m e n.",
+    "format_output": "O valor x e y do par (x,y) e o valor máximo da expressão.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

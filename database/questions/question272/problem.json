@@ -1,0 +1,11 @@
+{
+    "title": "Produto Simples",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia valores inteiros. A seguir, calcule o produto entre TODOS estes valores. A seguir mostre o produto com mensagem correspondente.",
+    "format_input": "O arquivo de entrada contém n valores inteiros. Você não receberá um número indicando quantos inteiros você receberá. Portanto, você deverá ler os números até não ter mais nenhum número na entrada. Embora essa questão seja simples, o desafio está em descobrir usando a sua linguagem de programação, como você irá ler os números da entrada até não ter mais entrada. Isso é diferente da maioria dos outros problemas do Huxley em que você sabe quando a entrada irá terminar. DICA: o produto dos números pode ser bem grande! Talvez até não cabendo no seu tipo inteiro.",
+    "format_output": "Imprima a mensagem conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça o fim de linha após o produto.",
+    "topics": [
+        "eof",
+        "acumulador"
+    ]
+}

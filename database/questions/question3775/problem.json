@@ -1,0 +1,12 @@
+{
+    "title": "A prova na Escola Salvatore",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Escola Salvatore para Jovens Especiais aceita seres sobrenaturais de todo tipo de espécie, o que inclui vampiros, lobisomens, bruxas, sifonadoras, híbridas, tríbridas, fênix… Um professor de habilidades relacionadas a velocidade precisa avaliar os alunos quanto a velocidade média em 1 prova, que consiste em numa quadra reta e plana os estudantes especiais demonstrarão sua habilidade. Por isso, ele resolveu pedir sua ajuda. Crie um programa que dadas as posições dos estudantes em um intervalo de tempo, calcule a velocidade média do estudante, usando float velmed (float p1, float p5, int t), e caso solicitado dê também a média das posições, usando a função float media (float p1, float p2, float p3, float p4, float p5), o desvio padrão, usando float desvio (float p1, float p2, float p3, float p4, float p5, float med), e o desvio padrão da média, usando float desviom (float desv).",
+    "format_input": "5 valores reais representando as posições; O intervalo de tempo inteiro (em segundos) gasto da posição 1 à 5; dois caracteres, separados por espaço, para solicitar ou não a média e/ou desvio padrão, respectivamente.",
+    "format_output": "Um valor real, com duas casas decimais, correspondente à velocidade média E caso solicitados valores reais, com duas casas decimais, representando a média das posições e/ou os desvios.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "função"
+    ]
+}

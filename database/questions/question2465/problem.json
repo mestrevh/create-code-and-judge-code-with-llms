@@ -1,0 +1,11 @@
+{
+    "title": "Viajem de negócios",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Que maravilha! Os pais da Entidade viajaram numa viagem de negócios pelo ano inteiro e a Entidade ficou sozinha. Ela estava muito feliz com isso. Calculou a trajetória do travesseiro, fez contas na parede e se divertiu o dia todo... Hoje a Entidade abriu seu armário e achou um bilhete assustador. Seus pais deixaram deveres: ele deve regar as plantas todos os dias de manhã, de tarde e de noite. \"PERA AÍ, PÔ!\" - pensou a Entidade. Ela sabe que se cumprir essa tarefa durante o i-ésimo mês do ano, a flor vai crescer a_i centímetros, e se ele não regar as plantas nesse mês, a planta vai permanecer igual. A Entidade também sabe que seus pais não vão acreditar que ela regou as plantas se elas não crescerem pelo menos k centímetros. Ajude a Entidade a escolher a menor quantidade de meses que ela deve regar as plantas, dado que seus pais acreditarão se elas crescerem pelo menos k centímetros.",
+    "format_input": "A primeira linha da entrada contém um inteiro k (0 <= k <= 100), representando o menor também que os pais da Entidade irão acreditar. A próxima linha da entrada terá 12 inteiros, representando a quantidade de centímetros a_i (0 <= a_i <= 100) que a planta vai crescer no i-ésimo mês.",
+    "format_output": "Imprima um inteiro, representando a quantidade mínima de meses que a Entidade deve regar as plantas de forma que seus pais irão acreditar. Se não for possível, mesmo que ela regue todos os meses: imprima o inteiro -1.",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

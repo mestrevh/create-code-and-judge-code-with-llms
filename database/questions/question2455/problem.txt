@@ -1,0 +1,6 @@
+Título: PROGCOMP - Seleção - N
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que recebe a idade de um nadador e exibe a categoria que ele pertence. Sendo o critério: &#34;infantil&#34; (0 a 10 anos); &#34;junior&#34; (11 a 14 anos); &#34;adolescente&#34; (15 a 20 anos); &#34;jovem&#34; (21 a 35 anos) e; &#34;master&#34; (&gt; 35 anos). <br/></p>
+Formato da entrada: <p>Um número inteiro representando a idade de um nadador.</p>
+Formato da saída: <p>A categoria a que o nadador pertence.</p>

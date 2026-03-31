@@ -1,0 +1,11 @@
+{
+    "title": "Lua Cheia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio resolveu perder a barriguinha dando uma corridinha na praia. Depois de alguns dias treinando, ele achou que já era hora de competir provas de curta distância. Mas onde ele mora, o sol é muito forte e, portanto, ele só corre a noite. Ele descobriu que existe uma corrida que ocorre a cada lua cheia. A lua cheia se repete a cada 30 dias, aproximadamente. Logo, se você souber a data da última lua cheia, conseguirá prever qual será a próxima. Escreva um programa que recebe a data da última lua cheia e imprime a data da próxima lua cheia.",
+    "format_input": "Você receberá uma data no formato dd/mm/aaaa. Por exemplo: 12/05/2017",
+    "format_output": "Você deve imprimir a data da próxima lua cheia no formato dd/mm/aaaa. Por exemplo: 03/01/2001",
+    "topics": [
+        "datas/horas",
+        "entrada formatada"
+    ]
+}

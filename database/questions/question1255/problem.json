@@ -1,0 +1,11 @@
+{
+    "title": "Shinobu's Saga III",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Muito bem, com sua ajuda decifrando a carta, agora Shinobu-san sabe que Araragi está em um grande labirinto subterrâneo, embora o caminho esteja cheio de monstros à espera para atacar. Shinobu não tem tempo a perder com inimigos, e como você é um bom programador, Shinobu pediu sua ajuda mais uma vez. O que você não faz pela Shinobu? Faça um programa que ajude Shinobu a atravessar o caminho sem cruzar com inimigos. O labirinto é composto de vários salões cupulares ligados por corredores, os corredores fecham-se quando você chega ao final deles, de forma que você nunca pode voltar pelo caminho que veio. Os caminhos são unidirecionais, ou seja, se existe um caminho entre A e B, não necessariamente existe um entre B e A. Os monstros ficam em seus respectivos salões cupulares, entretanto eles não conseguem manter uma forma física por muito tempo. Os monstros levam alguns minutos para recuperar a energia necessária e retomar sua forma física. Assim que a energia está recuperada, eles efetuam ataques por 1 minuto, quando a energia se esgota e a recuperação de energia é necessária novamente. Todos os corredores têm exatamente o mesmo tamanho, levando exatamente 1 minuto para percorrer qualquer um deles. Agora ajude Shinobu a atravessar o labirinto. Você deve escrever um algoritimo que ache o menor caminho até o salão de saída.",
+    "format_input": "A entrada começará com N, E, S, M. Onde N representa o número de salas, E representa a sala de origem, S representa a sala de saída e M o número de corredores interligando as salas do labirinto. Será dada uma linha com N inteiros, representando o período de tempo que o monstro do salão N leva para voltar à forma física. Considere que todos os monstros iniciaram a recuperação de energia no minuto 0. Depois serão seguidas M linhas com 2 inteiros, representando os corredores, com os 2 inteiros representando o salão de origem e o salão de destino respectivamente.",
+    "format_output": "A saída deve ser uma única linha contendo: N minutos Onde N é o menor tempo que Shinobu-san levou para atravessar o labirinto. Caso não haja modo de passar sem esbarrar em monstros, Shinobu chegou tarde demais, e você deve imprimir: Araragi morreu",
+    "topics": [
+        "estrutura de dados",
+        "grafo"
+    ]
+}

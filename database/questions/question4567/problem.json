@@ -1,0 +1,10 @@
+{
+    "title": "Multi multi",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu objetivo é realizar uma multiplicação de matriz. Lembre-se nem sempre é possível ser feita e é preciso checar isso no código.",
+    "format_input": "Um int N para as linhas da matriz 1. Um int M para as colunas da matriz 1. Um int A para as linhas da matriz 2. Um int B para as colunas da matriz 2. N linhas de M inteiros para os elementos da matriz 1. A linhas de B inteiros para os elementos da matriz 2.",
+    "format_output": "A saída deve ser a nova matriz, mas caso não seja possível realizar a operação a saída é \"Nao eh possivel multiplicar!\"",
+    "topics": [
+        "array bidimensional"
+    ]
+}

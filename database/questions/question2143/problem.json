@@ -1,0 +1,11 @@
+{
+    "title": "Vending Machine",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você, aluno do CIn e morrendo de fome como sempre, deicidiu que ia comprar um lanche enquanto não dava a hora do almoço. Para isso decidiu ir até a maquina de lanches que tinha no seu centro, mas ao chegar lá, percebeu que que a lâmpada tinha queimado e ninguem conseguia saber o que havia lá dentro e nem o preço! Haviam deixado ali do lado, anotado numa folha de papel, os itens que foram inseridos em cada slot da maquina (em ordem) bem como o preço de cada slot. Você sabia que a máquina tinha 10 slots e em cada slots cabem até 10 produtos. Sabendo disso, você tem a missão de criar um programa que dada a lista de produtos que foram inseridos nos slots e seus respectivos preços, diga se um produto X está disponível para compra (encontrasse na parte da frente da máquina) e o quanto foi gasto pelo usuário ao final de(as) sua(s) compra(s). OBS: Um slot corresponde a uma fileira de itens. Os itens são inseridos na máquina na ordem que são dados aos programa, ou seja, o último a ser inserido será o da frente (tipo uma pilha de pratos). Os slots da máquina são contados de 30 a 39. A máquina ainda está com o 35 de graça ;) Em caso de o produto estar disponível em mais de um slot, você deve escolher o slot mais acima (de acordo com a ordem de entrada, ou seja, o primeiro slot é o mais acima de todos).",
+    "format_input": "10 linhas no formato: Produto1 Produto2 Produto3 ... ProdutoN Cada linha pode conter até 10 produtos e corresponde a um slot da máquina. Uma única linha no formato: Preço1 Preço2 Preço3 ... Preço10 N (0 <= N <= 100) linhas correspondendo ao produto que o usuário deseja comprar: Produto",
+    "format_output": "Uma linha: \"Nao temos Y disponivel no momento.\" Se o item Y não estiver disponível no momento. Uma linha: \"Opa, um item 0800!\" Para cada vez que o usuário pegar um item do slot 35. Uma linha no formato: \"Compras realizadas com sucesso. Voce gastou R$X.\" Sendo X o valor gasto com 2 casas decimais.",
+    "topics": [
+        "estrutura de dados",
+        "pilha"
+    ]
+}

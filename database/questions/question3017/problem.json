@@ -1,0 +1,10 @@
+{
+    "title": "Quantos dias você já viveu?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para ler o nome e a idade de uma pessoa. Exiba em seguida o nome da pessoa e quantos dias de vida ela possui. Considere sempre anos completos, e que um ano possui 365 dias. Ex: uma pessoa com 20 anos em possui 7300 dias de vida.",
+    "format_input": "O programa deverá receber o nome da pessoa e sua idade.",
+    "format_output": "O programa deverá imprimir o nome e a quantidade de dias vivido conforme exemplo abaixo para o nome José e a idade 20 anos: José, você já viveu 7300 dias!",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

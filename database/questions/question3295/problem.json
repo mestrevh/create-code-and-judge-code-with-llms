@@ -1,0 +1,12 @@
+{
+    "title": "Notas da turma",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O professor Ambrósio planejou 4 avaliações para sua turma de Programação Imperativa. As avaliações têm pesos 1, 2, 3 e 4, respectivamente. Ajude o professor Ambrósio com um programa que leia as quatro notas (valores reais) dos alunos de uma turma, calcule sua média ponderada e imprima uma mensagem indicando a média aritmética da turma, a quantidade de alunos com média superior à media da turma, a quantidade de alunos reprovados (média do aluno < 3), que farão prova final (3 ≤ média do aluno < 7), aprovados (7 ≤ média do aluno < 9) e aprovados com louvor (9 ≤ média). O professor Ambrósio pede que seu programa possua uma função que, dado as notas de um aluno, retorne sua média ponderada.",
+    "format_input": "Uma sequência de linhas finalizadas pela string \"FIM\". Cada linha, exceto a última, contêm 4 números reais separados por espaço relativos às notas de um aluno.",
+    "format_output": "String 'MEDIA DA TURMA', seguida por espaço em branco, seguida pela média da turma apresentada com duas casas decimais; String 'ALUNOS ACIMA DA MEDIA DA TURMA', seguida por espaço em branco, seguida pela quantidade de alunos com média superior à média da turma; String 'APROVADOS COM LOUVOR', seguida por espaço em branco, seguida pela quantidade de alunos aprovados com louvor; String 'APROVADOS', seguida por espaço em branco, seguida pela quantidade de alunos aprovados; String 'PROVA FINAL', seguida por espaço em branco, seguida pela quantidade de alunos que farão prova final; String 'REPROVADOS', seguida por espaço em branco, seguida pela quantidade de alunos reprovados.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

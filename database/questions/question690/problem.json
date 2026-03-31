@@ -1,0 +1,11 @@
+{
+    "title": "Exponenciação de matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sua missão é receber uma matriz quadrada n X n e elevar essa matriz a k-ésima potência. Considere: 2 <= n <= 10; 1 <= k <= 1.000.000.000",
+    "format_input": "Você receberá vários casos de teste. Cada caso de teste é descrito como a seguir: Na primeira linha você receberá dois inteiros separados por um espaço: n e k, respectivamente. Depois, você receberá n linhas, cada linha contendo n números de ponto flutuante separados por espaço.",
+    "format_output": "Para cada caso de teste, imprima a matriz com o resultado da exponenciação. Cada número deve ser formatado com 3 casas decimais. Veja o exemplo de saída para mais detalhes sobre o formato. Não há nenhuma linha em branco entre os casos de teste.",
+    "topics": [
+        "array bidimensional",
+        "requer solução eficiente"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Contar uma substring na string",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia duas strings e verifique o número de ocorrências da segunda string na primeira. Exemplo: Se a primeira string digitada for \"abracadabra\" e a segunda \"bra\", então o número de ocorrências é 2.",
+    "format_input": "Você receberá duas linhas. Cada linha com uma string.",
+    "format_output": "Você deve imprimir um número inteiro indicando o número de ocorrências encontradas. Imprima também o final de linha.",
+    "topics": [
+        "substrings",
+        "string"
+    ]
+}

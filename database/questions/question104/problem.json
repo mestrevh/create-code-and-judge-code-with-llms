@@ -1,0 +1,10 @@
+{
+    "title": "Forma canônica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A representação canônica de uma string pode ser útil para a resolução de vários problemas, principalmente os relacionados a casamento de padrões. Analise as seguintes palavras e veja a sua forma conônica equivalente: abacaxi -> abacade melancia -> abcdefgd morango -> abcdefb jabuticaba -> abcdefgbcb jaca -> abcb 12341234111 -> abcdabcdaaa Perceba o padrão de transformação. Toda vez que um caracter aparece primeiro na frase, ele é transformado para 'a', se um caracter distinto aparece em seguida, ele é transformado em 'b' e assim por diante. Quando um caracter se repete, ele é transformado no caracter que já foi utilizado antes.",
+    "format_input": "Um inteiro n indicando o número de palavras que serão digitadas seguido de n palavras. As palavras podem conter qualquer caracter exceto os de espaço. Considere que cada palavra contém pelo menos 1 caracter e no máximo 500.",
+    "format_output": "Para cada palavra da entrada, deve ser impressa a sua forma canônica.",
+    "topics": [
+        "string"
+    ]
+}

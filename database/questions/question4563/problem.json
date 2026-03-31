@@ -1,0 +1,11 @@
+{
+    "title": "Jornada ao centro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Há muito tempo, em uma galáxia muito muito distante, uma civilização enfrentava o desafio de mover uma unidade única, representada pelo número 1, para o centro de uma matriz quadrada preenchida por zeros. Esse desafio era um teste de habilidade e compreensão profunda dos padrões do universo. Aqueles que dominavam a arte de guiar o 1 para o centro eram considerados verdadeiros mestres da sabedoria e eram honrados dentro da ordem dos programadores. Prove que você é um mestre da sabedoria e calcule o número mínimo de passos para mover o 1 para o centro da matriz.",
+    "format_input": "Sua entrada irá conter: Um número N, que irá representar o tamanho da matriz NxN. Uma matriz NxN, composta por 0's e um único 1. obs: seu N será sempre ímpar.",
+    "format_output": "Sua saída deverá conter: O número mínimo de passos calculados para mover o 1 para o centro da matriz. Uma linha abaixo com a matriz com o 1 no centro. obs: existe espaço no final de cada linha.",
+    "topics": [
+        "decisão",
+        "array bidimensional"
+    ]
+}

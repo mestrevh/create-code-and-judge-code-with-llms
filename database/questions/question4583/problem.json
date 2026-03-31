@@ -1,0 +1,10 @@
+{
+    "title": "Terror na última volta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A temporada de fórmula 1 está chegando ao fim, mas por azar o programa que faz a soma dos pontos dos pilotos parou de funcionar, faltando poucas corridas é impossível determinar quem vai ganhar o campeonato entre os dois líderes, marquinhos vatapá ou luís humildade, cabe a você escrever um código que salve a temporada!!",
+    "format_input": "A entrada deve ser dois inteiros M e L que representam a pontuação atual de marquinhos e luis seguido de um inteiro N representando a quantidade de corridas que faltam, nas N linhas seguintes devem ser escritas o nome da corrida e a posição de marquinhos e luis respectivamente em cada uma delas, ex: 50 45 3 Monaco 1 3 Interlagos 8 4 spa 3 1 No sistema de pontos da formula 1 apenas os 10 primeiros colocados de uma corrida recebem pontos, sendo: 1º-25 2º-18 3º-15 4º-12 5º-10 6º-8 7º-6 8º-4 9º-2 10º-1",
+    "format_output": "A saída deve falar quem ganhou o campeonato com quantos pontos a mais e quais corridas o piloto vencedor ficou a frente do segundo colocado, no exemplo a cima a resposta seria: O vencedor é Luis com 3 pontos a mais!! Ficando a frente em Interlagos/spa/ Caso ocorra empate use como critério de desempate quem ficou a frente em mais corridas ex:O vencedor e Marquinhos com 0 pontos a mais, ficando a frente em monza/mexico/",
+    "topics": [
+        "estruturas"
+    ]
+}

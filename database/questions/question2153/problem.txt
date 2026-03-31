@@ -1,0 +1,6 @@
+Título: Intercalação de Palavras Recursiva
+Topicos do problema: substrings; função; recursão; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <title></title><p>Escreva um programa para intercalar os caracteres de duas palavras em uma única palavra. Para isto deve fazer uso de uma <u><b>função recursiva</b></u> chamada <font face="Courier New, serif"><b>intercalar</b></font> que recebe as <b>duas palavras (strings) como parâmetro</b> e <b>retorna uma palavra (string) com os caracteres das duas palavras intercalados</b>. <u>Os caracteres da primeira palavra devem ser convertidos para letras maiúsculas e os da segunda para minúsculas.</u></p>
+Formato da entrada: <title></title><p>O programa deve ler a quantidade pares de palavras que serão lidos pelo programa (N). Em cada uma das linhas seguintes o programa deve ler as palavras que serão intercaladas. Estas são separadas por um espaço em branco.</p>
+Formato da saída: <title></title><p>A saída consiste de N linhas contendo as palavras resultantes da intercalação.</p>

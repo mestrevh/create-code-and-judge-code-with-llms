@@ -1,0 +1,6 @@
+Título: Q1 - Soma de Dois Números
+Topicos do problema: lógica matemática; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Desenvolva uma função chamada &#34;soma&#34; que receba dois números reais como parâmetros e retorne a soma deles.</p>
+Formato da entrada: <p>Dois números reais a e b em linhas separadas</p>
+Formato da saída: <p>O resultado da soma dos números a e b</p>

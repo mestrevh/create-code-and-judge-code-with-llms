@@ -1,0 +1,13 @@
+{
+    "title": "Inverte digitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que recebe um número inteiro e imprime esse número na ordem inversa de seus dígitos",
+    "format_input": "Uma sequência de números inteiros positivos. A entrada termina quando o número inteiro passado for igual a zero.",
+    "format_output": "Cada dígito do número ao contrário e entre os símbolos []. Nos casos em que o número digitado possui zeros a esquerda, eles devem ser ignorados. Por exemplo, se o número digitado for 001, você deve imprimir [1] e não [1][0][0]. Se o número for 000, ele deve imprimir [0].",
+    "topics": [
+        "array",
+        "repetição",
+        "caractere",
+        "formatação"
+    ]
+}

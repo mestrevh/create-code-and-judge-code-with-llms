@@ -1,0 +1,14 @@
+{
+    "title": "Ambrósio e os Palíndromos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio ficou animado com sua pesquisa sobre palíndromos, para isso ele precisa de alguns dados da pesquisa para uma palavra particular S. Para obter esses dados ele tem algumas buscas com o seguinte formato: 1 L x - atualiza a L-ésima letra da palavra s com a letra x. 2 L R - descobre se todas as letras da palavra s do índice L até o índice R pode ser rearranjadas de uma forma que elas possam formar um palíndromo. Se formarem um palíndromo imprima \"yes\" caso contrário imprima \"no\". Você decidiu ajudar Ambrósio com sua pesquisa, é sua responsabilidade obter esses dados o mais rápido possível.",
+    "format_input": "A primeira linha contém dois inteiros N e Q, indicando o tamanho da palavra S e a quantidade de buscas respectivamente. A segunda linha contém a palavra S de tamanho N , S só possui os caracteres de ('a' - 'z') todos minúsculos. As próximas Q linhas contém as buscas, se for do tipo 1 virá no formato(1 L x), onde L é um inteiro e x um caractere, caso seja do tipo 2 virá no formato(2 L R) onde L e R são dois inteiros. 1 ≤ N ≤ 10^5 1 ≤ Q ≤ 10^5 1 ≤ L,R ≤ N Todas as letras da palavra S estão no intervalo ('a' - 'z' )",
+    "format_output": "Para cada busca do tipo 2 imprima \"yes\" ou \"no\" de acordo com o enunciado e sem as aspas, uma por linha.",
+    "topics": [
+        "segment tree",
+        "números binários",
+        "binary indexed tree",
+        "palíndromos",
+        "requer solução eficiente"
+    ]
+}

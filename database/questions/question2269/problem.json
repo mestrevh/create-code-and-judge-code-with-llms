@@ -1,0 +1,11 @@
+{
+    "title": "L3Q1 - O tratado do Ramen",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Depois que conseguiu ser aprovado na acadêmica ninja, e finalmente conquistar sua bandana, Naruto tem lidado com o dever de realizar muitas missões diariamente. Por conta disso, ele tem ficado muito cansado e até diminuiu sua frequência de ir comer ramen, sua refeição favorita. Pensando nisso, Teuchi, o dono do estabelecimento onde Naruto come ramen, decidiu fazer um acordo por D dias com Naruto para incentivá-lo a retomar o ânimo. Durante os D dias, Naruto pode comer quantas tigelas de ramen quiser e receberá um desconto dependendo da quantidade de tigelas que ele comer por dia. As regras são: Uma tigela custa 10 ryōs. Se Naruto comer 1 tigela no dia, devido a conta ficar pequena, o preço da tigela permanece inalterado. Casos coma de 2 a 10 tigelas, o desconto recebido em cima do preço de cada uma é 10%. Se for mais de 10, cada uma tem 20% de desconto. Você deve fazer um programa que ajude o tio do ramen a contabilizar o quanto que Naruto terá que pagar. Sendo dado inicialmente o dinheiro que Naruto tem, diga se ele pagou, não pagou ou não comeu nenhuma vez. Caso Naruto não tenha comido nenhuma tigela durante durante todo o acordo, constata-se que ele não compareceu nenhum dia.",
+    "format_input": "V - Inteiro Que representa o dinheiro de Naruto ao início do acordo. D - Inteiro Que representa o número de dias a serem avaliados. Seguido de D linhas contendo T - Inteiro Que representa o número de tigelas consumidas no respectivo dia.",
+    "format_output": "C - String Caso Naruto tenha dinheiro para pagar sua conta, a saída será \"Naruto conseguiu pagar a sua conta!\". Se Naruto não conseguiu pagar, a conta a saída será \"Naruto, faltam X ryos!\", onde X é o que falta para pagar a conta. Se Naruto não compareceu nenhum dia, a saída será \"Naruto nao apareceu para comer\".",
+    "topics": [
+        "array",
+        "acumulador"
+    ]
+}

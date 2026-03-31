@@ -1,0 +1,11 @@
+{
+    "title": "L6Q3 - Pedidos de Big Smoke",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Antes de ir ao centro de Los Santos, CJ, junto com Big Smoke, Ryder e Sweet, passou no drive thru pra forrar o estômago. Porém, diferente dos demais, Smoke abriga um poço sem fundo no lugar do estômago e perdeu o freio na hora de fazer seu pedido. CJ ainda não tem essa grana toda pra pagar pelo pedido, então, antes de partir com o carro, falou baixinho ao microfone pedindo o cancelamento de alguns dos pedidos de Smoke. Seu trabalho aqui é fazer um programa que imprima a nota fiscal do pedido final do grupo. Atenção: Caso o mesmo pedido tenha sido feito mais de uma vez em momentos diferentes, o pedido removido será o primeiro. Obrigatoriamente você deve usar Listas Encadeadas para resolver este problema... Ou os Ballas vão te botar pra correr!",
+    "format_input": "Várias linhas da seguinte forma S Com S sendo um pedido de Smoke. Seguidas de uma linha com a inscrição: The End Após esta linha, serão escritas várias outras linhas da seguinte forma X Onde cada X é um item a ser removido do pedido final. É sabido que CJ não é um maluco, então todos os pedidos a serem removidos obrigatoriamente estavam no pedido inicial.",
+    "format_output": "Várias linhas no formato: S0 S1 S2 S3 .... Onde cada S é um ítem restante do pedido original, na ordem em que foram pedidos. Caso não restem pedidos, você deve printar: U gotta null pointer ma man",
+    "topics": [
+        "estrutura de dados",
+        "recursão"
+    ]
+}

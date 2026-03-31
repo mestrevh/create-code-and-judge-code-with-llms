@@ -1,0 +1,6 @@
+Título: Mais novos
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que determine quais são as pessoas mais novas.<br/></p>
+Formato da entrada: <p>Uma sequência de linhas terminadas por uma linha contendo a palavra ‘FIM’. Cada linha conterá a data de nascimento de uma pessoa, seguido pelo seu nome. A data de nascimento é dada por três inteiros separados por branco representando o dia, mês eano de nascimento, respectivamente.<br/></p>
+Formato da saída: <p>O nome da pessoa mais nova ou, se há mais de uma pessoa mais nova, os nomes de todas as mais novas, cada um em uma linha e seguindo a ordem da sequência de entrada.</p>

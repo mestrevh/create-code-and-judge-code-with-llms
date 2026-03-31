@@ -1,0 +1,6 @@
+Título: Jogo da Velha
+Topicos do problema: função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que recebe matrizes 3x3 que representa uma &#34;Jogo da Velha&#34; preenchido e verifica se a condição do jogo. Se acabou (e nesse caso, quem é o vencedor) ou se está em andamento. Você deve receber matrizes até que o usuário digite &#34;sair&#34; na entrada padrão.</p>
+Formato da entrada: <p>Uma quantidade indeterminada de matrizes, até que o usuário digite &#34;sair&#34;. Exemplo:</p><p>X X O</p><p>X O X</p><p>_  X O</p>
+Formato da saída: <p>Uma mensagem que identifica o andamento do jogo:</p><ul><li>Se já terminou, o jogo deve informar também quem é o vencedor ou se foi empate</li><li>Se não terminou, deve imprimir &#34;EM ANDAMENTO&#34;</li></ul>

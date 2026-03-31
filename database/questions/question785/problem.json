@@ -1,0 +1,12 @@
+{
+    "title": "TeleZika",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um vírus de celular espalha-se automaticamente, infectando, a cada segundo, os celulares dos contatos de quem já está infectado. O objetivo do problema é descrever o processo de infestação a partir de um primeiro celular infectado. Especificamente, queremos saber quantos celulares estão infectados a cada segundo",
+    "format_input": "A entrada é constituída por C casos 0..C-1, cada um correspondendo a um cenário de espalhamento do vírus. Cada caso possui a forma N S K[0] A[0] A[1] ... A[K[0]] K[1] A[0] A[1] ... A[K[1]] ... K[N-1] A[0] A[1] ... A[K[N-1]] //linha em branco onde N (0<N<=10000) = Quantidade de celulares. S (0<=S<N) = O primeiro celular infectado. K[j] = quantidade de contatos do celular j. A[0] ... A[K[j]] = os contatos do celular j.",
+    "format_output": "Para cada caso 0...C-1 na entrada, o programa deve imprimir caso C: t[0] t[1] t[2] ... t[n] //linha em branco onde t[s] = quantidade de celulares infectados cumulativamente no segundo s, ou seja, tn é a quantidade máxima de celulares infectados. Note que no segundo 0 apenas o celular S está infectado.",
+    "topics": [
+        "Grafos",
+        "Busca em Largura",
+        "Simulação"
+    ]
+}

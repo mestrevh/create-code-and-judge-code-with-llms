@@ -1,0 +1,14 @@
+{
+    "title": "Sequência Lógica III",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que lê 3 números X, Y e Z (X < Y e Z >= 1). Em seguida, o programa exibe uma seqüência de 1 a Y, com valores incrementados pelo valor de Z, passando para a próxima linha a cada X números serem impressos na linha.",
+    "format_input": "A entrada contém três números inteiros X (1 < X < 20), Y (X < Y < 100000) e Z (Z >= 1).",
+    "format_output": "Cada seqüência deverá ser impressa em uma linha, com um espaço em branco entre cada número, como o exemplo de saída.",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

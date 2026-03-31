@@ -1,0 +1,11 @@
+{
+    "title": "Tipos de Média",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Numa escola temos 3 tipos de média durante o ano. Para calcular a nota os professores pediram algum tipo de auxílio, e você como boa pessoa sugeriu escrever um algoritmo para ajudar os professores. Os tipos de média da escola são: - Média aritmética, soma de todas as notas dividida pela quantidade de notas, representada pelo caractere \"a\"; - Média ponderada, agora temos uma diferença, devemos receber também os pesos das notas, e o cálculo se dá por: soma das notas com seus pesos, (nota 1 * peso 1) + (nota x * peso x)... dividido por a soma dos pesos. Essa média é representada pelo caractere \"p\". - Média harmônica, é feita a divisão da quantidade de notas por a soma do inverso das notas, no caso: quantidade de notas / ((1 / nota 1) + (1 / nota 2) + (1/nota x)...). Essa média é representada pelo caractere \"h\"; Você fará um programa que dado 3 notas e o tipo da nota você vai gerar a média e a situação do aluno.",
+    "format_input": "Você receberá o tipo de média pelo caractere \"a\", \"p\" ou \"h\". Obs: No caso de média \"p\", você deve receber mais 3 valores que correspondem aos pesos. Você receberá três notas entre 1 e 10 (Notas corretas), podem ocorrer entradas acima de 10 e nesse caso você entra em \"Notas erradas\" (Ler saída). Você pode receber também caracteres tipo \"X\", \"Y\", \"Z\", e deverá informar que o caractere recebido foi inválido.",
+    "format_output": "Todas as mensagens devem ser sem aspas e sem acentos. Em caso de caractere inválido a mensagem informada será: \"Caractere invalido\". Em caso de tipo de média válido deverá ser mostrado: Valor da média com duas casas decimais. E deverá ser impresso a situação de aluno de acordo com a organização abaixo: \"Aprovado\", se a média estiver entre: 7 (incluso) e 10 (incluso); \"Reprovado\", se a média estiver entre: 0 (incluso) e 4 (incluso); \"Prova final\", se a média estiver entre: 4 (não incluso) e 7 (não incluso); Se a média for algum valor que não esteja nesses casos deve ser impresso apenas (a nota não deverá ser impressa): \"Notas erradas\".",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

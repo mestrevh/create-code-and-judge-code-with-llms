@@ -1,0 +1,10 @@
+{
+    "title": "Tuplas 1 - Tupla de Frutas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Complete o código para que ele crie uma tupla com as frutas \"banana\", \"laranja\", \"melancia\" e \"morango\", e exiba a terceira fruta. # Crie uma tupla com quatro frutas frutas = ___________ # Exiba a terceira fruta da tupla print(_________)",
+    "format_input": "nenhuma",
+    "format_output": "Uma string representando a terceira fruta da tupla.",
+    "topics": [
+        "string"
+    ]
+}

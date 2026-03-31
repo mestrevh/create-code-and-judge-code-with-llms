@@ -1,0 +1,10 @@
+{
+    "title": "Linha de montagem [F]",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Uma fábrica de carros contabilizou quanto tempo cada passo do processo de montagem leva. Como o processo é complexo, eles não sabem a forma ótima para montar os carros. O diagrama do processo de montagem é o seguinte: Como tempo é precioso, a empresa pediu para que você encontrasse o menor tempo necessário para montar um carro.",
+    "format_input": "A primeira linha da entrada terá um inteiro t indicando a quantidade de casos de teste. Em seguida, virão t casos de teste seguindo este padrão: A primeira linha do caso de teste terá dois inteiros n, indicando a quantidade nós na linha de montagem. Em seguida, virão 2 inteiros e_1 e e_2. Depois, virão 2 linhas com n inteiros, indicando a_1_1, a_1_2, ..., a_1_n na primeira linha, e a_2_1, a_2_2, ..., a_2_n na segunda. E então, virão 2 linhas com n - 1 inteiros, indicando t_1_1, t_1_2, ..., t_1_n-1 na primeira linha, e t_2_1, t_2_2, ..., t_2_n-1 na segunda. Finalmente, virão 2 inteiros x_1 e x_2. Limites: 1 <= t <= 10^3; 1 < n <= 10^5; 0 <= e_i, a_i_j, t_i_j, x_i <= 10^5; A soma de n de todos os casos de teste será no máximo 10^5.",
+    "format_output": "Para cada caso de tese, imprima o menor tempo necessário para montar um carro.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

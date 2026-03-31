@@ -1,0 +1,13 @@
+{
+    "title": "Loja",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Aninha criou uma loja online, depois de muitas pesquisas ele descobriu que os itens mais vendidos de forma online eram livros, celulares e roupas. Então ela decidiu iniciar sua loja vendendo apenas estes 3 produtos. Dada a quantidade de cada produto, e as compras que ocorreram no período de 1 semana, informe qual a situação do estoque e qual foi o último comprador de cada item. id's dos itens: 1 -> Livro 2 -> Celular 3 -> Roupa OBS: Os nomes dos compradores tem no máximo 10 letras e tem apenas 1 palavra.",
+    "format_input": "um inteiro L, representando quantos livros tem no estoque um inteiro C, representando quantos celulares tem no estoque um inteiro R, representando quantas roupas tem no estoque um inteiro Q, representando quantas vendas ocorreram Para cada venda, será lido: - Nome com comprador - id do item comprado",
+    "format_output": "livro <quantidade de livros restantes>, <Nome de quem comprou o último livro> celular <quantidade de celulares restantes>, <Nome de quem comprou o último celular> roupa <quantidade de roupas restantes>, <Nome de quem comprou a última roupa>",
+    "topics": [
+        "array",
+        "decisão",
+        "string",
+        "estruturas"
+    ]
+}

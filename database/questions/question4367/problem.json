@@ -1,0 +1,10 @@
+{
+    "title": "Print(input())",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que receba uma string S e depois, mostre esse valor na tela",
+    "format_input": "Uma string S",
+    "format_output": "A string S",
+    "topics": [
+        "string"
+    ]
+}

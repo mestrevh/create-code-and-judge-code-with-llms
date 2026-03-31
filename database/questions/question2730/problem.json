@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Funções - C",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que use uma função, criada por você, que recebe como parâmetro um inteiro n e exibe, a partir da posição atual do cursor no console, uma linha composta por n asteriscos.",
+    "format_input": "Um número inteiro n (0 < n < 100).",
+    "format_output": "n asteriscos na mesma linha.",
+    "topics": [
+        "função"
+    ]
+}

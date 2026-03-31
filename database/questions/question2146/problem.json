@@ -1,0 +1,11 @@
+{
+    "title": "Controle de várias armas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O estado brasileiro deseja realizar o controle de armas na fronteira. Para ajudar nessa tarefa, você deve fazer um programa que determina se um conjunto de pessoas pode ultrapassar a fronteira com a quantidade de armas que ela leva. Você deve receber as características de pessoas até que o usuário digite um valor inválido para a nacionalidade da pessoa. Lembre-se de que ao receber a nacionalidade inválida, você deve sair imediatamente do programa e não receber mais nenhum dado. Primeiro você deve receber se a nacionalidade da pessoa: (B)rasileiro (E)strangeiro Em seguida, você deve receber a ocupação da pessoa, que pode ser: (M)ilitar (T)urista (C)aminhoneiro (O)utro Depois você deve receber a quantidade de armas que a pessoa está carregando e qual o calibre das armas (inteiros). Se a quantidade for zero é indicativo que a pessoa não está portando nenhuma arma. Em seguida o programa deve liberar ou barrar a entrada da pessoa de acordo com as seguintes regras: Caso a pessoa seja estrangeira, ela só pode ser liberada se não estiver portando nenhuma arma. Caso seja brasileira: Como militar, ela pode portar qualquer quantidade de armas de qualquer calibre que sua entrada é liberada. Como Turista, ou outro ela só pode portar uma única arma com calibre até o 22. Como Caminhoneiro, ela pode portar até 2 armas com calibre no máximo até o 38.",
+    "format_input": "A nacionalidade A ocupação da pessoa A quantidade de armas O calibre da arma",
+    "format_output": "\"Liberado\" ou \"Barrado\" de acordo com as regras descritas acima.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

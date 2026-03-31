@@ -1,0 +1,11 @@
+{
+    "title": "Confraternização chegando",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os funcionários do sindicato sempre se confraternizam no final do ano e o problema sempre está relacionado a como será a divisão da conta. Isto é, qual o modo mais justo a ser pago por cada sindicalista dado que há pessoas que ganham mais do que outras. Uma sugestão enviada para a comissão organizadora foi: cada um daria um valor igual ou inferior ao total sem ver quanto os demais dariam. Ao final, se calcularia a média e quem deu o maior valor de todos receberia o excedente. Dessa forma, cada um seria estimulado a dar o máximo que pudesse. A sugestão foi aceita! Sendo assim, a sua função é construir um programa para simular a divisão da conta. O programa deve receber o valor total da conta, o número de sindicalistas que participarão da confraternização, o nome e o valor pago de cada um dos sindicalistas. Ao final, deve ser exibida uma mensagem indicando quem pagou mais e quanto e quanto recebeu.",
+    "format_input": "Um valor representando o valor total da conta a ser paga (ponto flutuante). Esse valor deve ser maior que zero. Um valor inteiro indicando o número de sindicalistas (interior N), que deve ser maior que zero. N strings correspondentes aos nomes de cada sindicalista. N valores correspondentes ao valor pago pord cada um dos N sindicalistas.",
+    "format_output": "Nome de quem pagou mais e quanto. Valor do excedente. Duas situações são possíveis: 1. O valor arrecadado foi maior do que o valor da conta. Nesse caso, o sindicalista que pagou mais receberá um \"troco\", que é o valor excedente. 2. O valor arrecadado foi menor do que o valor da conta. Nesse caso, o valor arrecadado foi insuficiente para pagar a conta. Observação: verifique os formatos possíveis de saída.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Viagem de amigos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Luiza vai viajar com seus amigos e está pesquisando preços. O grupo está em dúvida entre alugar uma casa em Pipa ou em Fortaleza. Caso escolham ir para Pipa, o aluguel de uma casa com 2 quartos sai por R$ 600 e o de uma com 3 quartos custa R$ 900. Lá eles pretendem fazer um passeio de barco, que custa R$ 75 por pessoa. Caso a escolha do grupo seja Fortaleza, eles poderão pagar R$ 950 por uma casa com 3 quartos ou R$ 1120 por uma com 4 quartos. A atração que querem visitar é um parque aquático cujo ingresso individual custa R$ 60. Escreva um programa que receba como entrada a quantidade de pessoas do grupo, a cidade escolhida (1 - Pipa e 2 - Fortaleza), e a quantidade de quartos que querem na casa, e calcule e exiba o valor total da viagem, e quanto cada um irá pagar (ambos com duas casas decimais). Obs: Considere que todos do grupo irão para o passeio da cidade.",
+    "format_input": "O usuário deve digitar a quantidade de pessoas do grupo, a cidade escolhida (1 - Pipa e 2 - Fortaleza) e a quantidade de quartos que querem.",
+    "format_output": "O programa deve exibir o valor total da viagem e quanto cada um irá pagar (ambos com duas casas decimais), imprimindo na tela os valores abaixo: Digite a quantidade de pessoas: Selecione a cidade escolhida: (1 - Pipa e 2 - Fortaleza) Digite a quantidade de quartos: Valor total da viagem: R$ n Valor por pessoa: R$ n",
+    "topics": [
+        "decisão"
+    ]
+}

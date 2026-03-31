@@ -1,0 +1,12 @@
+{
+    "title": "Pastelaria da Ambrosina",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrosina virou empresária. Decidiu vender pastéis, empadas e kibes. O problema é que de uns tempos pra cá, os preços dos ingredientes se alteram bastante e isso reflete no custo do produto final. Logo ambrosina contratar você para escrever um programa para calcular automaticamente o custo de cada produto assim que o preço do ingrediente for alterado. Seguem os exemplos das tabelas que a Ambrosina fez.",
+    "format_input": "Consiste de 4 linhas. Da linha 1 a 3, serão dados quatro números reais por linha, correspondendo a quantidade de ingredientes utilizados em cada produto. A sequência de ingredientes é sempre: ovo, farinha, açúcar e carne. E os produtos são na sequência: pastel, empada e kibe. A quarta linha consiste de quatro números reais correspondendo ao preço do ovo, farinha, açúcar e carne, respectivamente.",
+    "format_output": "A saída consiste de 03 números reais formatados com duas casas decimais. Cada número consiste do custo do pastel, empada e kibe, respectivamente. Cada número deve ser impresso em uma linha.",
+    "topics": [
+        "array",
+        "decisão",
+        "array bidimensional"
+    ]
+}

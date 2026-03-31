@@ -1,0 +1,6 @@
+Título: Bingo de Quermesse
+Topicos do problema: ciclos; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p style="text-align: left;">Duda é um professor do IFSP Barretos que adora participar de bingos em quermesses. Nas últimas quermesses, ele percebeu que o maior prêmio estava sendo sorteado por meio de um desafio, proposto pelos organizadores. No desafio, o organizador pega um globo de N bolinhas e pergunta ao público qual é a soma dos números das bolinhas dentro do globo. Por exemplo, quando o organizador pega um globo com 5 bolinhas, o público precisa rapidamente responder que a soma das bolinhas é 15, ou seja, 1 + 2 + 3 + 4 + 5. Quem responder mais rápido ganha o prêmio. Pensando em ganhar os prêmios na quermesse, Duda teve a incrível ideia de criar um programa para calcular a resposta. No entanto, Duda é um péssimo programador e resolveu pedir sua ajuda. Você pode ajudá-lo?<br/></p><img src="https://www.thehuxley.com/api/v1/problems/image/e20a41dd8a000ab9f3fe314a5e0f19e8561ea12eo.jpg"/><p><br/></p><p><br/></p>
+Formato da entrada: <p>A entrada é composta de um único número inteiro K, representando o número de bolas do globo, onde (1&lt;= K &lt;= 10<sup>9</sup>).</p>
+Formato da saída: <p>A saída consiste de um único número inteiro, a soma dos números das bolinhas contidas no globo.<br/></p>

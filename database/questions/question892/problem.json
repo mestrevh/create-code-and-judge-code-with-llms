@@ -1,0 +1,11 @@
+{
+    "title": "Tower defense",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O objetivo de jogos de tower defense é tentar impedir que inimigos percorram por um mapa por meio de armadilhas para atrasá-los e torres (ou turrets) que atiram neles enquanto passam. Inimigos e torres geralmente possuem diferentes habilidades, custos e custos de habilidade. Quando um inimigo é derrotado, o jogador recebe dinheiro ou pontos, que são usados para comprar ou aperfeiçoar torres e armadilhas, ou aumentar o limite de dinheiro ou pontos que são recompensados, ou até elevar a taxa com a qual eles são recebidos. A seleção e posicionamento de torres pessoais é a estratégia essencial do jogo, dado a situação do jogo, você tem o objetivo de verificar se é possível atacar todos os inimigos. A torre tem seu raio de alcance sempre 1. Representações: '&' - Torres. '.' - Vazio. '*' - Inimigos.",
+    "format_input": "A primeira linha tem H e C dois inteiros representando as dimensões do mapa, respectivamente altura e largura. Logo em seguida terá mais H linhas com C caracteres.",
+    "format_output": "Imprima uma única linha com \"S\", caso seja possível atacar todos os inimigos, caso contrário imprima \"N\".",
+    "topics": [
+        "array bidimensional",
+        "string"
+    ]
+}

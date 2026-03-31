@@ -1,0 +1,10 @@
+{
+    "title": "Em nome de Esparta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A cidade grega de Esparta tem sofrido ataques violentos de sua arqui-rival, a Pérsia. Sua população tem sofrido ataques de pessoas infiltradas em meio à sua população. Para impedir que isso volte a acontecer, o rei Leonidas I mandou desenvolver um sistema que procura suspeitos e inimigos e exibe um relatório de como está o estado atual da cidade sempre que necessário. O programa deve receber uma matriz N X N e analisar se há pessoas com determinada característica nas ruas. As pessoas são caracterizadas pelos seguintes símbolos: suspeitos (s), guardas (g), populares (p) e inimigos(i). O símbolo (x) indica uma posição da cidade que não tem ninguém. 1. Se houver guardas nas colunas pares e populares nas colunas ímpares da matriz, deve se emitir um código BRANCO. 2. Se houver dois ou mais suspeitos em qualquer uma das linhas, deve se emitir um código AMARELO. 3. Se houver pelo menos um inimigo em qualquer das diagonais (principal ou secundária), deve se emitir um código LARANJA. 4. Se a quantidade de inimigos e suspeitos for maior do que o de guardas nas cercanias da cidade (colunas e linhas mais externas), deve se emitir um código VERMELHO. Em cada uma dessas situações, se for caso contrário, deve emitir um código TRANSPARENTE. Se a cidade não estiver em nenhuma dessas condições, deve-se informar o código AZUL.",
+    "format_input": "Valor inteiro (representa o tamanho da matriz). Matriz de caracteres (só recebem valores válidos: x, s, i, p, g).",
+    "format_output": "Mensagem de status (string)",
+    "topics": [
+        "array bidimensional"
+    ]
+}

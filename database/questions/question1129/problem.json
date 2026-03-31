@@ -1,0 +1,11 @@
+{
+    "title": "Expressões possíveis",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Expressões numéricas são conjuntos de números que sofrem operações matemáticas com uma ordem de operações preestabelecida. Neste problema temos somente 3 operadores, soma(+), subtração(-) e multiplicação(*). Dado um número você pode separar seus dígitos e aplicar as operações descritas. Dada uma string que contém um conjunto de dígitos de 0 a 9 e um valor inteiro T, encontre todas as expressões a partir dos dígitos dados de forma que o valor resultante da aplicação das operações seja exatamente igual a T.",
+    "format_input": "A primeira linha será a string de dígitos N e a segunda linha o inteiro T. Restrições: N terá no máximo 10 dígitos; 0 <= T <= 200",
+    "format_output": "Imprima todas as expressões possíveis com os dígitos da string dada de forma que o valor seja exatamente T. Você deve imprimir as expressões na ordem crescente lexicográfica (utilizando os valores da tabela ASCII como base para essa ordem).",
+    "topics": [
+        "array",
+        "busca completa"
+    ]
+}

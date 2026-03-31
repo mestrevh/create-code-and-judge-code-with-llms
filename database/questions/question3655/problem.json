@@ -1,0 +1,14 @@
+{
+    "title": "Gerenciador de user/senha",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Você foi contratado por uma empresa de segurança para desenvolver um gerenciador de usuários e senhas super seguro, a aplicação deve gerar uma senha com base em um trecho de música escolhida pelo usuário. A senha deve conter 15 caracteres. O usuário pode gerar quantas senhas quiser com base nesse trecho de música, além de dizer se aceita aquela senha ou não. Uma vez que o usuário aceitou uma senha ele deve dizer qual é o username para aquela senha. Discutindo com a sua equipe, foram decididas as seguintes regras: 1. A música inserida não pode ter quebras de linha 2. O usuário deve dizer quantas senhas quer gerar 3. Toda letra \"a\", “E”, 'e', 'i', 'o', 'u' deve ser substituída por @, %, !, @, #, $ respectivamente 4. Todo o espaço deve ser removido 5. Apenas a primeira letra de cada palavra deve ser maiúscula 6. O usuário deve dizer um número entre 6 e o tamanho da música - 6 (numero mágico) 7. A senha é gerada com base: 5 primeiras letras a partir do número de senhas geradas + 5 últimas letras + 5 próximas letras após o numero mágico pelo usuário. Dica: Se é a 5 senha que está sendo gerada, as 5 letras iniciais devem começar em 5. 8. A senha deve ser invertida 9. O usuário deve receber a senha e aceitar (S), ou pedir para gerar outra (N) 10. Por fim o gerador de senhas deve mostrar um dicionário com os usuários e senhas",
+    "format_input": "Hello darkness, my old friend I've come to talk with you again Because a vision softly creeping Left its seeds while I was sleeping And the vision that was planted in my brain Still remains Within the sound of silence\n3\n5\n50\ns\nuser01\n25\ns\nuser02\n15\nn\n100\ns\nuser03",
+    "format_output": "@c!Bn!cn!lD#ll!H\nC!V'I!cn!l@D#ll!\nFdlOy!cn!lR@D#ll\np!!lS!cn!lR@D#ll\n{'user01': '@c!Bn!cn!lD#ll!H', 'user02': \"C!V'I!cn!l@D#ll!\", 'user03': 'p!!lS!cn!lR@D#ll'}",
+    "topics": [
+        "array",
+        "substrings",
+        "repetição",
+        "string",
+        "dicionário"
+    ]
+}

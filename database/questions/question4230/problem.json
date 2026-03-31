@@ -1,0 +1,10 @@
+{
+    "title": "Mais positivos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que verifique se uma sequência de números inteiros tem mais números positivos que negativos.",
+    "format_input": "A sequência de inteiros, escrita em várias linhas. Cada linha pode conter um ou mais números. A sequência é finalizada com a palavra ‘FIM’.",
+    "format_output": "A depender do caso, uma das três mensagens: ‘Mais positivos que negativos’, ‘Mais negativos que positivos’ ou ‘Mesma quantidade de positivos e negativos’.",
+    "topics": [
+        "acumulador"
+    ]
+}

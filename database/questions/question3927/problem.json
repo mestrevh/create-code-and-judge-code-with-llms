@@ -1,0 +1,12 @@
+{
+    "title": "Dominó área 2",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Vitores entrou no curso de Engenharia ABI, UFPE e está participando do torneio de dominó da área 2 contra LK, o inimigo do trabalho! Agora é a vez de Vitores de jogar, porém, ele tem uma peça a mais, dando maior chance de vitória para o LK! Crie um programa que dirá quais peças de dominó LK irá jogar para vencer o torneio. Obs: Como iniciante em dominó, sua única estratégia é jogar a primeira peça que encaixa no lance.",
+    "format_input": "Vitores tem 4 peças (2 inteiros cada, A[8] tal que cada elemento é 0 <= A <= 6) LK tem 3 peças (2 inteiros cada, B[6] tal que, cada elemento é 0 <= B <= 6). Vitores jogará uma das peças (0 <= C <= 4) a cada rodada, aguardando seu lance. Portanto, são 16 inteiros, para as peças de Vitores e as de LK, seguidos de 3 inteiros para os lance de Vitores.",
+    "format_output": "A cada lance de Vitores, imprima uma linha contendo qual peça LK irá jogar: X-Y Z Onde X (0 <= X <= 6) é o primeiro valor da peça e Y (0 <= Y <= 6) o segundo valor da peça e Z qual das peças são (1 <= Z <= 3). Obs: Lembre-se que se ele jogou uma peça, não pode usar novamente.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

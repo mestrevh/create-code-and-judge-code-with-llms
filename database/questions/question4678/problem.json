@@ -1,0 +1,10 @@
+{
+    "title": "A escolha de Poatan",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Alex Poatan, campeão dos meio-pesados do UFC, está procurando uma academia para treinar. Ele possui uma superstição que exige que o número total de lutas de um participante nos últimos M anos seja um número primo. Com isso, ele decidirá se irá treinar na academia.",
+    "format_input": "Dois inteiros N e M, representando o número de participantes na academia e o número de anos considerados no histórico. Uma matriz de tamanho NxM, onde cada elemento é um inteiro representando o número de lutas de um participante em um determinado ano.",
+    "format_output": "\"Chama\": Se mais da metade dos participantes tiverem um número primo como soma total de lutas nos últimos M anos. \"Não chama\": Caso contrário. \"Han??\": Se N ou M não estiverem nos intervalos permitidos ( 0 < N <= 10 e 0 < M <= 10 ).",
+    "topics": [
+        "array bidimensional"
+    ]
+}

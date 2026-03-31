@@ -1,0 +1,9 @@
+Título: Condutor
+Topicos do problema: 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span><span>Todos que fazem tradu&ccedil;&otilde;es de Ingl&ecirc;s para Russo sabe que a frase em Ingl&ecirc;s "</span></span><span><span>Naked conductor runs along the bus"</span><span> tem dois significados muito diferentes.</span></span></p>
+<p><span><span>Cada &ocirc;nibus na cidade Ekaterinburg tem um homem especial (ou mulher) chamado condutor. </span><span>Quando voc&ecirc; andar de &ocirc;nibus, voc&ecirc; tem que dar dinheiro para o condutor. </span><span>Sabemos que existem mais de P% condutores e menos de Q% condutores de todos os cidad&atilde;os de Ekaterinburg. </span><span>Sua tarefa &eacute; determinar um n&uacute;mero m&iacute;nimo poss&iacute;vel de cidad&atilde;os Ekaterinburg. </span><span>Pela porcentagem, sabemos que existem mais de P % condutores e menos de Q % condutores de todos os cidad&atilde;os russos na cidade</span></span></p>
+Formato da entrada: <p><span><span>Dois n&uacute;meros de P , Q tal que 0,01 &le; P , Q &le; 99,99. </span><span>Os n&uacute;meros s&atilde;o dados com dois d&iacute;gitos de precis&atilde;o e s&atilde;o separados por espa&ccedil;o.</span><span> </span></span></p>
+Formato da saída: <p><span><span>O n&uacute;mero m&iacute;nimo de cidad&atilde;os Ekaterinburg, seguidos de uma quebra de linha.</span></span></p>
+<p>&nbsp;</p>
+<p>OBS: <span><span>Se existem 15 cidad&atilde;os e 2 condutores entre eles, em Ekaterinburg, h&aacute; 2 condutores, 13,33% de todos os cidad&atilde;os.</span></span></p>

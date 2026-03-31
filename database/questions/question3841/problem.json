@@ -1,0 +1,11 @@
+{
+    "title": "Teclado com problema",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O teclado de Okabe está com defeito, algumas teclas não funcionam e ele precisa arrumar um novo. Mas, antes disso, ele deseja fazer alguns testes com seu velho teclado. Seu objetivo é saber quantas sequências de caracteres e quantos números ele consegue formar com as teclas que ainda funcionam. Mas Okabe é um pouco excêntrico e não quer escrever sequências cujo tamanho seja um número primo, porém só quer escrever números se a quantidade de dígitos for um número primo. OBS: Para todas variáveis usadas nos cálculos use o long long int Para ler um inteiro do tipo long long int use: %lld",
+    "format_input": "Você receberá um número X que é a quantidade de teclas funcionando As próximas X linhas contém as teclas que ainda funcionam Letras de a - z e números de 1 - 9 Na última linha um inteiro K",
+    "format_output": "Você deve mostrar o total de sequências e números que ele vai escrever usando cada um dos tamanhos do intervalo [1,K].",
+    "topics": [
+        "acumulador",
+        "lógica matemática"
+    ]
+}

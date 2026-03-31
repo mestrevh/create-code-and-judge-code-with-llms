@@ -1,0 +1,10 @@
+{
+    "title": "Falando em línguas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Criamos a melhor linguagem possível aqui no Google, chamada Googlerese. Para traduzir texto para Googlerese, pegamos qualquer mensagem e substituímos cada letra em inglês por outra letra em inglês. Esse mapeamento é um para um e sobre, o que significa que a mesma letra de entrada sempre é substituída pela mesma letra de saída, e letras de entrada diferentes sempre são substituídas por letras de saída diferentes. Uma letra pode ser substituída por ela mesma. Os espaços são deixados como estão. Por exemplo (e aqui vai uma dica!), nosso incrível algoritmo de tradução inclui os três mapeamentos a seguir: 'a' -> 'y', 'o' -> 'e' e 'z' -> 'q'. Isso significa que “a zoo” se tornará “y qee”. O Googlerese é baseado no melhor mapeamento de substituição possível e nunca iremos alterá-lo. Será sempre o mesmo. Em todos os casos de teste. Não contaremos o resto do nosso mapeamento porque isso tornaria o problema muito fácil, mas há alguns exemplos abaixo que podem ajudar. Dado algum texto em Googlerese, você pode traduzi-lo de volta ao texto normal?",
+    "format_input": "Normalmente, os problemas do Google Code Jam têm 1 entrada pequena e 1 entrada grande. Este problema tem apenas 1 entrada pequena. Depois de resolver a entrada Pequena, você terá concluído a solução deste problema.",
+    "format_output": "A primeira linha da entrada fornece o número de casos de teste, T. Seguem-se T casos de teste, um por linha. Cada linha consiste em uma string G em Googlerese, composta por uma ou mais palavras contendo as letras 'a' - 'z'. Haverá exatamente um caractere de espaço (' ') entre palavras consecutivas e nenhum espaço no início ou no final de qualquer linha.",
+    "topics": [
+        "busca"
+    ]
+}

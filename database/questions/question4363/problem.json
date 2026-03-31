@@ -1,0 +1,10 @@
+{
+    "title": "Listas.py",
+    "time_limit": "1 segundo(s)",
+    "descrition": "faça um programa que receba uma lista e diga qual é o tamanho dela, qual é a soma de todos os seus números, a parte inteira da media de todos os números, o maior de todos os números, o menor de todos os números, os números pares e os números impares",
+    "format_input": "uma lista(use list(input()) para receber a entrada) 128123",
+    "format_output": "qual é o tamanho dela, qual é a soma de todos os seus números, a parte inteira da media de todos os números, o maior de todos os números, o menor de todos os números, os números pares e os números impares 6 17 2 8 1 2 8 2 1 1 3",
+    "topics": [
+        "array"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Descobrindo dígitos de um número",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba como entrada um número de três dígitos do teclado e, através de operações matemáticas, descubra os três dígitos deste número. O valor do número deve estar entre 0 e 999. Dica: Com o primeiro e o último dígito em mãos, é possível deduzir o 2o dígito de um número de três dígitos. Lembrando que se N é um número de 03 dígitos (D1, D2 e D3), N = D1*100 + D2*10 + D3. Ou seja, sabendo D1 e D3, é possível calcular D2. Ao final, exiba na tela os 3 digitos descobertos, separados por um espaço. Os 3 digitos de saída devem ser inteiros.",
+    "format_input": "None",
+    "format_output": "None",
+    "topics": [
+        "array",
+        "caractere",
+        "string"
+    ]
+}

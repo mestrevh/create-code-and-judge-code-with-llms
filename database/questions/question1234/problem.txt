@@ -1,0 +1,6 @@
+Título: Balanceando números
+Topicos do problema: array; acumulador; decisão; repetição; pilha; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Balanceamento de parênteses é algo fundamental na computação e na matemática. Mas, e se no lugar de parênteses, tivéssmos números? Faça um programa que avalie se uma sequência de números está balanceada ou não.</p><p>Sendo '(' representado por 0 e ')' representado por 1, a sequência: 0 0 1 1 está balanceada, assim como: 0 1 0 1 está balanceada.</p>
+Formato da entrada: <p>A primeira linha da entrada contém <i>A</i>, <i>F</i> e <i>T</i>, indicando respectivamente: O número que representa um '(', o número que representa ')' e o tamanho da sequência de números.<br/>Em seguida, seguirá uma sequência de <i>T</i> números que devem ser avaliados.</p>
+Formato da saída: <p>&#34;Balanceada!&#34; caso a sequência esteja balanceada.<br/><span>&#34;</span><span>Desbalanceada!&#34; caso a sequência esteja desbalanceada.</span></p>

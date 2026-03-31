@@ -1,0 +1,10 @@
+{
+    "title": "Direito à isenção no Enem 2018",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em 2018, o Exame Nacional do Ensino Médio (Enem) comemora 20 anos com algumas novidades. Quem tem direito a não pagar a taxa de inscrição deverá fazer essa solicitação em um período anterior ao da inscrição. Quem pode pedir: - inscritos no Exame Nacional para certificação de Competências de Jovens e Adultos (Encceja) 2017 que atingiram nota mínima (400 pontos). - Estudantes que estão cursando a última serie do ensino médio em 2018 em escola da rede pública - Concorrentes que cursaram todo o ensino médio em escola de rede publica ou como bolsista integral nas rede privada, e têm renda, por pessoa, igual ou menor que um salário mínimo e meio (R$ 1.431,00)",
+    "format_input": "O usuário deve informar os seguinte dados: 1. Situação em relação ao ensino médio: - Concluiu o ensino médio: usar CLD; - Cursando a última série do ensino médio e vai concluir: usar CVC; - Cursando o ensino médio mas não vai concluir: usar CSC; - Não está cursando e nem concluiu: NCC. 2. Se fez o ENCCEJA 2017: Usar a letra s para sim e n para não. 3. Nota no ENCCEJA 2017: a nota deve estar no intervalo inteiro fechado de -1 a 800. Usar o valor -1 quando o usuário não tiver feito o ENCCEJA 2017. 4. Tipo de escola que estudou: - Somente da rede pública: usar PUB; - Somente privada com bolsa integral: PCB; - Somente privada sem bolsa integral: PSB; - Pública e privada sem bolsa: PPS; - Pública e privada com bolsa: PPB; - Não frequentou escola: NFE. 5. Renda pessoal: um valor do tipo real.",
+    "format_output": "A saída deverá ser uma mensagem informando se o aluno terá ou não direito à isenção. No caso positivo exibir a mensagem “Você terah direito a isencao”. Em caso negativo, exibir: “Infelizmente voce nao tem direito a isencao”. Quando a situação do ensino médio informada pelo usuário não for um valor válido deve ser exibida a mensagem: \"Informacao sobre ensino medio invalida\"",
+    "topics": [
+        "decisão"
+    ]
+}

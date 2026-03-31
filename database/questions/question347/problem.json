@@ -1,0 +1,12 @@
+{
+    "title": "Números triangulares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um número triangular é um número natural que pode ser representado na forma de triângulo equilátero ou triângulo retângulo. Reza um lenda que foi desenvolvido por Gauss em 1788 quando ele tinha apenas 10 anos. Os dez primeiros números triangulares: 1, 3, 6, 10, 15, 21, 28, 36, 45, 55.",
+    "format_input": "A entrada consiste de uma única linha, contendo um inteiro N. Considere: 1 <= N <= 100",
+    "format_output": "Imprima o n-ésimo número triangular a soma do n-ésimos números triangulares e caso os dois números sejam par, imprima na tela um 'P'. Caso os dois números sejam impar, imprima na teta um 'I'. Caso contrário imprima um 'N'. Em todos os casos deve ter um final de linha.",
+    "topics": [
+        "acumulador",
+        "repetição",
+        "dicionário"
+    ]
+}

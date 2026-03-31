@@ -1,0 +1,10 @@
+{
+    "title": "Posição final no MRUV",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você está estudando física e aprendeu a função horária da posição, mostrada abaixo: https://www.thehuxley.com/api/v1/problems/image/b7de6d4d4f60135b61752ac5d3234a9e710b9eeb9.png Então resolveu criar um programa para calcular a posição final de um veículo a partir da sua posição inicial (S0), velocidade inicial (v0), aceleração (a) e tempo de deslocamento (t). Como você é organizado, já quis utilizar funções. Desta forma, defina uma função denominada posicao, a qual recebe como parâmetros S0, v0, a e t, e que retorna o valor da posição final (a função não deve imprimir valores). Em seguida, o programa deve ler os valores de S0(em metros), v0 (em m/s), a (em m/s2) e t (em segundos), nesta ordem, separados por espaço em branco, em uma única linha da entrada, chamar a função e imprimir a posição obtida.",
+    "format_input": "A entrada contém os valores (ponto flutuante) de S0, v0, a e t na mesma linha e separados entre si por um espaço em branco.",
+    "format_output": "O programa deve imprimir a posição obtida no formato abaixo (com 2 casas decimais): Posicao:1528.35m",
+    "topics": [
+        "função"
+    ]
+}

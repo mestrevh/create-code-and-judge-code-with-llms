@@ -1,0 +1,10 @@
+{
+    "title": "Nota cortada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "https://www.thehuxley.com/api/v1/problems/image/76606d9c87e3d3ee3ec9114ff1b1317bd76ada221.PNG https://www.thehuxley.com/api/v1/problems/image/b2d56121da78249bd7a1ac60b6463c9e78debe632.PNG https://www.thehuxley.com/api/v1/problems/image/36cae9fd2889c7e37f80c3c6bf2f18109ac28f723.PNG https://www.thehuxley.com/api/v1/problems/image/e8124aaf4cc3865baee7402cde8a31ece2ccf6d14.PNG",
+    "format_input": "Leia a imagem acima",
+    "format_output": "Leia a imagem acima",
+    "topics": [
+        "obi"
+    ]
+}

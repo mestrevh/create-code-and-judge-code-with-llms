@@ -1,0 +1,12 @@
+{
+    "title": "Investimentos N2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Reypedrof conseguiu terminar a cadeira 'Como fugir de um agiota' de seu curso especializado em finanças, investimento e administração no Brasil: com seu aprendizado ele pretende fugir de LK, conhecido como 'O inimigo do trabalho' para não pagar a terceira parcela de sua dívida adquirida em sua decisão precipitada de praticar o que aprende, portanto, para fugir comprou uma bicicleta que chega até 30km/h, Reypedrof vai fugir por toda a cidade efetuando curvas muito arriscadas e acelerando cada vez mais, será que ele conseguirá fugir de LK? Crie um programa que calcula e mostra se Pedro conseguiu ou não fugir por meio de suas curvas.",
+    "format_input": "Dois números inteiros A e C separados por um espaço em branco. A referente a aceleração produzida por Reypedrof e o C quantas curvas foram necessárias para fugir de LK. A, C > 0, onde A irá alterar a velocidade de Reypedrof em sua bicicleta que chega a 30km.",
+    "format_output": "1. Verifique se A+1 é divisor de 30 (velocidade máxima de Reypedrof), se sim imprima 'Curvou', caso contrário 'Pedro se cagou todo e foi pego.' e finalize o programa. 2. C (curvas) é o número de vezes que você irá verificar o caso 1, a cada curva, A recebe +1 e retorna ao caso 1. Cada sentença separado por quebra de linha.",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

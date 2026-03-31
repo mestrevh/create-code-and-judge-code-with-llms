@@ -1,0 +1,10 @@
+{
+    "title": "Trabalhando com Listas",
+    "time_limit": "7 segundo(s)",
+    "descrition": "Faça um programa que leia um número indeterminado de valores, correspondentes a idades, encerrando a entrada de dados quando for informado um valor igual a 0 ou negativo (que não deve ser armazenado). Após esta entrada de dados, faça: 1. Mostre a quantidade de idades válidas; 2. Mostre a soma das idades (pode usar função pré-definida); 3. Mostre a média das idades (pode usar função pré-definida); 4. Calcule e mostre a quantidade de idades acima da média calculada; 5. Calcule e mostre a quantidade de valores abaixo de 25; 6. Finalize o programa com uma mensagem de encerramento.",
+    "format_input": "Vários números inteiros. Exemplo Entrada: 20 40 12 50 -1",
+    "format_output": "String seguida por inteiro, String seguida por inteiro, String seguida por float, String seguida por inteiro, String seguida por inteiro, String. Exemplo Saída: Quantidade de idades válidas: 4 Soma das idades: 122 Média das idades: 30.5 Quant. de idades acima da média: 2 Quant. de idades abaixo de 25: 2 Programa encerrado",
+    "topics": [
+        "array"
+    ]
+}

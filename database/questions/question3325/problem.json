@@ -1,0 +1,10 @@
+{
+    "title": "Fazendo Amizades",
+    "time_limit": "1 segundo(s)",
+    "descrition": "inicialmente existem N crianças que estudam em uma escola e nenhuma dessas crianças são amigas no primeiro dia de aula. Com o passar dos M dias de aulas as crianças podem se entrosar e desenvolver amizades entre-si, também considera-se que se uma criança X é amigo de Y e Y é amigo de Z, logo X e Z também são amigos. Como dito anteriormente, irão ter M dias de aula até o fim do ano letivo e acontecimentos de dois tipos podem acontecer em cada dia: 1 A B, as crianças A e B tornam-se amigas naquele dia. 2, a professora da escola fica preocupada por não ter nenhum par de crianças que se tornaram amigas naquele dia, e se pergunta qual a quantidade mínima de amizades que podem ser feitas para que todas as N crianças sejam amigas entre-si. Sua missão é ajudar a professora da escola com os acontecimentos do tipo 2 até o fim do ano letivo.",
+    "format_input": "inicialmente irão vir 2 inteiros (1 <= N, M <= 10^5). Nas próximas M linhas terão um inteiro (1 <= T <= 2) indicando o tipo de acontecimento que aconteceu no dia. Se o acontecimento for do tipo 1, virão em seguida 2 inteiros (1 <= A, B <= N).",
+    "format_output": "Para cada acontecimento do tipo 2 ajude a professora e imprima a resposta.",
+    "topics": [
+        "conjuntos disjuntos"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "A Fuga de Rebeka",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após furar o pneu de seu amado professor de Cálculo 2, Rebeka precisava fugir o mais rápido possível. Tendo a noção geográfica de um estadunidense bêbado, ela precisa da sua ajuda para escapar do labirinto que é a Área 2. Por isso, construa um programa que receba uma matriz, representando um mapa, e ache a menor distância da origem de Rebeka até a saída da faculdade antes que nossa querida estudante seja pega.",
+    "format_input": "O tamanho da matriz no tipo \"linhasxcolunas\" seguido do mapa de matriz de caracteres, com as seguintes notações: 'o' representa a origem de Rebeka; 'd' a saída; '#' paredes que ela não pode atravessar por ainda não possuir poderes mágicos; '_' caminho livre. Obs: Cada caractere representa um metro de distância e não se pode andar na diagonal.",
+    "format_output": "Caso Rebeka consiga fugir, a frase \"Apos correr X metros e quase desistir por causa da distância, Rebeka conseguiu escapar!\\n\", em que X é a menor distância percorrida da origem ao destino. E a frase \"Poxa... Parece que nao foi dessa vez que Rebeka conseguiu fugir\\n\" se não houver nenhum caminho de fuga.",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

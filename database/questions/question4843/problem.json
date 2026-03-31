@@ -1,0 +1,10 @@
+{
+    "title": "Busca Binária Recursiva",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente uma versão da busca binária com uma estratégia recursiva. - Considere um vetor estático ordenado com 20 números inteiros. - Retorne a posição do elemento a ser buscado no vetor, caso não o encontre, retorne -1.",
+    "format_input": "- Um número inteiro que representa o elemento a ser buscado. - Seguido de 20 números inteiros que são os elementos do vetor",
+    "format_output": "- Retorne a posição do elemento a ser buscado no vetor, caso não o encontre, retorne -1.",
+    "topics": [
+        "busca binária"
+    ]
+}

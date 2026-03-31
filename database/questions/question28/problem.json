@@ -1,0 +1,12 @@
+{
+    "title": "Inverter com 2 algarismos",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Faça um programa que inverta um número inteiro com dois algarismos.",
+    "format_input": "Você receberá um único número inteiro com dois algarismos.",
+    "format_output": "Você deve imprimir o número invertido seguido de um final de linha. Não é preciso imprimir o 0 mais a esquerda. Por exemplo, se o número digitado for 30, basta que você imprima 3 e não 03.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "caractere"
+    ]
+}

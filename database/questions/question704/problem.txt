@@ -1,0 +1,6 @@
+Título: Raiz quadrada aproximada
+Topicos do problema: 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>Faça um programa que calcule a raiz quadrada aproximada <i>r</i> de um número positivo <i>x</i> da seguinte forma: </p><p>- Use um valor <i>baixo </i>e um valor <i>alto</i>. Comece com o valor baixo 0 e como valor alto <i>x</i>. Obtenha o valor <i>r </i>entre <i>baixo </i>e <i>alto</i> como sendo o ponto médio entre eles.</p><p>- Se o valor <i>r </i>ao quadrado for menor que <i>x</i>, então atribua o valor <i>r </i>ao valor <i>baixo</i>. Atribua o valor de <i>r</i> ao valor <i>alto</i>, caso contrário</p><p>- Repita enquanto o módulo da diferença entre <i>r</i> ao quadrado e <i>x</i> seja maior que um número <i>e</i>.</p><p>Indique como saída o valor de <i>r</i> e a quantidade de repetições <i>l</i> usadas para encontrá-lo.</p>
+Formato da entrada: <p>n</p><p>x_1</p><p>x_2</p><p>...</p><p>x_n</p>
+Formato da saída: <p>r_1 l_1</p><p>r_2 l_2</p><p>...</p><p>r_n l_n</p>

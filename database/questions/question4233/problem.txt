@@ -1,0 +1,6 @@
+Título: Mais velho
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que determine qual é a pessoa mais velha.<br/></p>
+Formato da entrada: <p>Uma sequência de linhas terminadas por uma linha contendo a palavra ‘FIM’. Cada linha conterá o nome de uma pessoa, seguido pela sua data de nascimento, três inteiros separados por branco representando o dia, mês e ano de nascimento, respectivamente.<br/></p>
+Formato da saída: <p>O nome da pessoa mais velha. Considere que só há uma pessoa mais velha.<br/></p>

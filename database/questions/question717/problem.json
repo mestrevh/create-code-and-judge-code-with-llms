@@ -1,0 +1,11 @@
+{
+    "title": "Ordenação de matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Simplesmente ordenar uma matriz. Consideramos ordenar uma matriz qualquer elemento da esquerda for menor do que o da direita e qualquer elemento da linha é menor do que todos os elementos da linha abaixo, ou seja, da esquerda para direita e de cima para baixo.",
+    "format_input": "Na primeira linha receberá M e N inteiros no qual será as dimensões da matriz. Logo em seguida receberá M linhas , onde cada linha terá N valores inteiros. 1 <= N , M <= 10.",
+    "format_output": "M linhas onde cada linha terá N inteiros ordenados.",
+    "topics": [
+        "ordenação",
+        "matrizes"
+    ]
+}

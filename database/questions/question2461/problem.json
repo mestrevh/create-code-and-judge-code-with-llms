@@ -1,0 +1,10 @@
+{
+    "title": "Teste",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que gere o gráfico de uma parábola com vértice na origem para os valores de -5 a 5.",
+    "format_input": "[-5:5]",
+    "format_output": "[-25 -16 -9 -4 -1 0 1 4 9 16 25]",
+    "topics": [
+        "lógica matemática"
+    ]
+}

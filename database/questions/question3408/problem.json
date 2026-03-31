@@ -1,0 +1,11 @@
+{
+    "title": "Salário mais bonificação e auxílio-escola",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba o salário de um funcionário, calcule e mostre o novo salário desse funcionário, acrescido de bonificação e de auxílio-escola, conforme as seguintes regras: 1) salário até R$5.000,00 => bonificação de 5%; salário entre R$5.000,01 e R$12.000,00 => bonificação de 12%; salário maior que R$12.000,00 => sem bonificação. 2) salário até R$6.000,00 => auxílio-escola de R$150, salário maior que R$6.000,00 => auxílio-escola de R$100.",
+    "format_input": "Número real que corresponde ao salário do funcionário.",
+    "format_output": "Número real com duas casas decimais que corresponde ao novo salário do funcionário.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

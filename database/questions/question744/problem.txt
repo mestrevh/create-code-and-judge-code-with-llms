@@ -1,0 +1,6 @@
+Título: SIM é primo
+Topicos do problema: 
+Tempo limite de execução: 10 segundo(s)
+Descrição: <p>Faça um programa que dado um numero inteiro N diga se é primo.</p><p>se for primo imprimir &#34;SIM&#34;</p><p>se não imprimir &#34;NAO&#34;</p>
+Formato da entrada: <p>numero inteiro menor que 1000000 seguido por uma quebra de linha.</p><p>Obs: não é preciso lidar com casos de entradas menores ou iguais a um (1).</p>
+Formato da saída: <p>uma string contendo &#34;SIM&#34; ou &#34;NAO&#34; seguido de uma quebra de linha.</p>

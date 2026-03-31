@@ -1,0 +1,11 @@
+{
+    "title": "Nome em escada",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa que solicite o nome do usuário e imprima o nome em formato de escada.",
+    "format_input": "Nome informado",
+    "format_output": "Nome deverá ser imprimido em escada",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}

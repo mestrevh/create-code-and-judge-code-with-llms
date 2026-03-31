@@ -1,0 +1,15 @@
+{
+    "title": "Hang the DJ",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Frank estava desesperançado na procura de um amor até se deparar com uma nova tecnologia lançada para juntar pessoas. Essa nova invenção promete sucesso em mais de 90% dos casos devido à dinâmica da plataforma, que gera simulações. Nas simulações, há um \"sistema\" que pede a confiança dos usuários para os fazer passar por uma série de relacionamentos, muitos deles ruins e desestimulantes, para que o aplicativo possa aprender sobre seus padrões e finalmente sugerir o relacionamento definitivo. O objetivo dessa dinâmica é rodar várias simulações de um relacionamento para detectar combinações de casais que gerariam um relacionamento corajoso o suficiente para viver a vida que sonham, fugindo das garras do \"sistema\". Frank, que já estava desmotivado até para sair de casa, resolve ir para uma festa e testar essa nova tecnologia. Seu objetivo é analisar as pessoas da festa a cada hora passada e dizer quem é a melhor match para Frank. Para isso lhe é informado a lista de convidados presente em cada momento (hora) da festa. OBS: É obrigatório o uso de lista encadeada para resolução da questão.",
+    "format_input": "A primeira linha será composta pela quantidade de horas que terão a festa: H. H - inteiro. As seguintes linhas serão da seguinte forma: Nome HoraDaChegada Horas Porcentagem. Nome - nome da pessoa que acabou de chegar. HoraDaChegada - Hora na qual a pessoa chegou. Horas - Quantidade de horas que a pessoa passará na festa. Porcentagem - Probabilidade de sucesso com Frank. - OBS: As chegadas não necessariamente estarão ordenadas.",
+    "format_output": "Para cada hora da festa, deve-se imprimir quem é a melhor match naquele instante (Quem tem a maior porcentagem de sucesso com Frank). Serão H linhas no seguinte formato: \"A melhor match para Frank é Nome\". Sendo \"Nome\" uma string representando o nome da pessoa que possui a maior porcentagem naquele horário. Caso não haja ninguém na lista até essa hora, deve-se imprimir: \"Não tem ninguém para Frank agora\".",
+    "topics": [
+        "ponto flutuante",
+        "multiplas entradas",
+        "array",
+        "repetição",
+        "string",
+        "ordenação"
+    ]
+}

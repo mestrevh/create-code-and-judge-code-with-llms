@@ -1,0 +1,11 @@
+{
+    "title": "Jogo da cobrinha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No jogo da cobrinha, nós temos uma cobra em um mapa com o objetivo de comer ratos, a cada rato que a cobra come ela aumenta o tamanho, porém se ela morder ela mesma, ela acaba morrendo, sendo assim criaremos um jogo similar. Nesse jogo nós diremos o tamanho do mapa (N x N), a quantidade de ratos no mapa (R), a posição dos ratos no mapa (X, Y), a quantidade de movimentos que ele poderá fazer(M) e os movimentos que serão: C - para cima B - para baixo D - para direita E - para esquerda Dica: \"A cobra só poderá ir na direção oposta que ela se encontra se ela tiver tamanho 1\"",
+    "format_input": "N - tamanho do mapa (N x N) R - quantidade de ratos uma sequência de X , Y representando a posição dos ratos no mapa M - quantidade de movimentos que ela fará sequência de comandos de movimento",
+    "format_output": "se a cobra não morrer enquanto completa todos os movimentos, imprimiremos o tamanho da cobra, seguido de uma quebra de linha, e a posição do mapa que se encontra a cabeça da cobra, porém se ela morrer, deveremos informar uma frase \"a cobra morreu\",seguido de uma quebra de linha e a posição que eles se chocaram.",
+    "topics": [
+        "array bidimensional",
+        "array circular"
+    ]
+}

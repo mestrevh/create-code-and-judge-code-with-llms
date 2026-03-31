@@ -1,0 +1,10 @@
+{
+    "title": "Conversão de temperatura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para converter uma temperatura dada na escala Farenheit para a escala Celsius. Por exemplo, 7.6°F equivale a aproximadamente 24.44°C.",
+    "format_input": "Um valor real representando uma temperatura em graus Farenheit.",
+    "format_output": "24.44",
+    "topics": [
+        "lógica matemática"
+    ]
+}

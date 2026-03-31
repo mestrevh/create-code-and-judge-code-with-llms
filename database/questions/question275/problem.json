@@ -1,0 +1,10 @@
+{
+    "title": "Passadas do Relógio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um relógio de 12 horas, com display analógico, com um ponteiro das horas e um ponteiro dos minutos. Quantas vezes o ponteiro dos minutos passa o ponteiro das horas em um determinado intervalo de tempo? Obs: O ponteiro das horas funciona de maneira ideal. (Exemplo: 1h e 30 minutos. O ponteiro ficará no 1 até que seja 2h)",
+    "format_input": "O arquivo de entrada contém uma linha, que contém quatro números, separados por espaço. O primeiro par de números representa um \" tempo inicial \", o segundo par representa um \"tempo final\". Em cada par de números, o primeiro número representa as horas, e o segundo número representa os minutos. As horas serão na gama de 1 .. 12 , os minutos no intervalo de 0 .. 59. Não acontecerá dos dois ponteiros estarem no mesmo local (Em particular, 12 00, não irá ocorrer como um tempo inicial ou final ).",
+    "format_output": "O número de vezes que o ponteiro dos minutos passou pelo das horas, seguido de uma quebra de linha.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

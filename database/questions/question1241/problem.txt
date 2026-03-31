@@ -1,0 +1,6 @@
+Título: Os iguais não têm vez
+Topicos do problema: array; ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <b id="docs-internal-guid-67885660-3dc7-6ebc-5686-2d144eb68322"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Dado um conjunto de números, exclua os repetidos e imprima o conjunto em ordem crescente.</span></p>
+Formato da entrada: <b id="docs-internal-guid-67885660-3dc7-a8b2-0aa0-eece3cb87313"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;">Um valor N, tal que N&lt;50.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Um array com N números.</span></p>
+Formato da saída: <p><span id="docs-internal-guid-67885660-3dc8-114b-447f-d065ce9a9702"><span style="color: rgb(0, 0, 0);background-color: transparent;">O conjunto de números sem números repetidos, em ordem crescente, separados por espaço e com uma quebra de linha no último valor.</span></span><br/></p>

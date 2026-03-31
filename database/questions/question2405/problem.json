@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Sequência - D",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que lê o salário base de alguém e exibe o novo salário, considerando 5% de gratificação (mais dinheiro) e 7% de impostos (menos dinheiro) sobre o salário base. Também exiba a gratificação e o imposto.",
+    "format_input": "A entrada conterá um valor real representando o salário base.",
+    "format_output": "A saída deverá conter um valor real com duas casas decimais representando o novo salário; um valor real com duas casas decimais representando a gratificação e; um valor real com duas casas decimais representando o imposto. Apenas um valor por linha.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

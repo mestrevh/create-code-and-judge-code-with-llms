@@ -1,0 +1,10 @@
+{
+    "title": "Interrogatório",
+    "time_limit": "3 segundo(s)",
+    "descrition": "A Polícia ouviu falar que um grupo de ladrões está planejando atacar a Casa da Moeda. Para impedir, ela começa a colher informações sobre o grupo e prende um dos bandidos. A estratégia da polícia é usar uma estratégia de investigação, caracterizada por uma força FI. Cada bandido investigado utiliza sua estratégia de defesa, que tem uma força FD. Durante o interrogatório podem ocorrer duas situações: 1. Se FI >= FD, a polícia consegue que o bandido confesse e entregue um outro bandido, caso ainda exista algum do grupo que não tenha sido capturado. A polícia então captura o bandido denunciado ou finaliza a investigação com sucesso, caso todos já estejam presos. 2. Se FI < FD , o bandido vence e o interrogatório termina com a polícia frustrada. OBS: É obrigatório o uso de lista encadeada para resolução da questão.",
+    "format_input": "FI N1 FD1 N2 FD2 N3 FD3 ... Nn FDn “Fim” Onde, FI é um inteiro, que caracteriza a força de investigação da polícia. Ni é uma String, que representa o nome do interrogado. FDi é um inteiro, que representa a força de defesa do interrogado. A String “Fim” determina que não há mais bandidos a serem interrogados. obs1: cada investigado referencia o próximo na entrada (Ni referencia Ni+1) obs2: sempre haverá ao menos um bandido a ser interrogado. obs3: sabe-se que todos na lista de interrogados fazem parte do grupo de bandidos.",
+    "format_output": "Para cada interrogado com sucesso que confessar e entregar um outro membro do grupo: Conseguimos interrogar Ni, que entregou Ni+1. Caso o interrogado não confesse: Droga, a busca acabou em Ni. Caso a polícia consiga interrogar todos os delatores, prendendo todos os bandidos: Agora sim, com a confissão de Ni prendemos todos os canalhas",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

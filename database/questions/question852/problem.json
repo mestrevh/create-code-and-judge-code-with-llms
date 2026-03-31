@@ -1,0 +1,12 @@
+{
+    "title": "Sistemas Planetários",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rodrigo, como excelente pai, está construindo com seu filho uma maquete de um sistema planetário. No início todos estão alinhados, ele observou e anotou que o tempo de translação em cada planeta era diferente. Seu filho curioso perguntou a ele depois de quanto tempo os planetas estarão alinhados novamente. Como o Rodrigo anda muito atarefado, ele requisitou aos seus alunos um programa que dado a quantidade de planetas e o tempo de translação de cada um mostraria o tempo mínimo para o alinhamento.",
+    "format_input": "Duas linhas, a primeira N inteiro representando a quantidade de planetas e a segunda linha terá N valores reais com uma casa decimal representando o tempo de translação um planeta em minutos. 1 <= N <= 100 0.1 <= Ti <= 1000.0",
+    "format_output": "Será uma string no formato: \"O tempo para o alinhamento dos planetas e X minutos\". Onde X é um valor real com uma casa decimal.",
+    "topics": [
+        "array",
+        "lógica matemática",
+        "repetição"
+    ]
+}

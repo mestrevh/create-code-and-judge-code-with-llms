@@ -1,0 +1,12 @@
+{
+    "title": "Pix para Aurélio 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Aurélio ainda não conseguiu um emprego e está de novo pedindo dinheiro para comprar seu lanche, porém, desta vez, ele está pedindo para todas as pessoas que cruzam seu caminho, não somente seus amigos. Ele está decidido a não comprar o lanche com o próprio dinheiro e, por isso, fez uma aposta com as pessoas que pegou dinheiro emprestado, se ele vencer a aposta, ele fica com o dinheiro das pessoas e compra seu lanche, se ele perder, ele vai ter que comprar o lanche de quem ele pediu dinheiro emprestado. A aposta tem as seguintes condições: Para saber se conseguiu o dinheiro, ele sempre irá considerar exatamente 3 pessoas, mesmo que ele tenha pedido à mais de 3. Ele nunca vai considerar o dinheiro da mesma pessoa mais de uma vez. Ele quer o valor exato do lanche.",
+    "format_input": "A entrada irá conter duas linhas, na primeira linha terão dois números inteiros X e N. X -> O valor do lanche. N -> A quantidade de pessoas que Aurélio pediu dinheiro. Na segunda linha terão os valores que as pessoas emprestaram para Aurélio.",
+    "format_output": "Se Aurélio conseguir cumprir as condições, será printada a frase: \"Aurelio ganhou a aposta\" Se Aurélio não conseguir cumprir as condições, será printada a frase: \"Aurelio perdeu a aposta\"",
+    "topics": [
+        "array",
+        "repetição",
+        "recursão"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Batalha de Fluxos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade e X encontraram um jogo de cartas interessante. O jogo funciona da seguinte forma: O jogo é de dois jogadores, em turnos, e a Entidade começa. No início do jogo, eles puxam aleatoriamente n cartas do baralho, e ficam com elas até o final do jogo. Cada carta tem health de vida, power de força e uma lista at de inteiros indicando quais cartas podem ser atacadas por esta. As cartas são mágicas, e automaticamente geram essa lista de acordo com as cartas do inimigo no início do jogo. Quando uma carta ataca, é possível distribuir essa força de qualquer forma para os inimigos que forem atacáveis por esta carta. Mas a força deve ser distribuída de forma inteira (não decimal). E não existe limite para quantas cartas podem ser utilizadas num único turno. Nenhuma carta morre e nem fica impossibilitada de atacar. Vence o jogador que zerar a vida de todas as cartas do outro jogador. Se a Entidade e X jogarem de forma ótima, quem vai vencer?",
+    "format_input": "A primeira linha da entrada terá um inteiro n indicando quantas cartas a Entidade e X puxaram. Para cada jogador, virão n linhas, sendo as primeiras n para Entidade e as outras para X. Na i-ésima linha, virá a descrição da i-ésima carta do jogador atual. A descrição de uma carta terá inteiros h (vida), p (força), k (quantidade de atacáveis), e ainda nessa linha: terá k inteiros at_i, indicando as cartas do inimigo que são atacáveis pela carta atual. 1 <= n <= 100, 1 <= h, p <= 1000 0 <= k <= n, 0 <= at_i < n e uma carta ataca outra no máximo uma vez num mesmo turno",
+    "format_output": "Imprima o nome do vencedor e a quantidade de turnos que leva para ele ganhar; seguindo o seguinte padrão: \"<nome_do_vencedor> wins in <turnos_para_ganhar> turns\".",
+    "topics": [
+        "fluxo máximo",
+        "simulação de jogos",
+        "busca binária"
+    ]
+}

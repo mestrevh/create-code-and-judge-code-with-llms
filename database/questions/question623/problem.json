@@ -1,0 +1,10 @@
+{
+    "title": "Interseção entre retas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois pontos pertencentes a uma reta e dois pontos pertencentes a outra reta, indique em que ponto as duas retas se interceptam.Caso elas nunca se interceptem, escreva \"NUNCA\".",
+    "format_input": "Consiste de vários casos de teste. Cada caso de teste possui duas linhas. A primeira linha de cada caso de teste contém os dois pontos presentes na primeira reta: x1, y1, x2, y2 ( -10000 <= x1, y1, x2, y2 <=10000). Os números inteiros são separados por espaços. A segunda linha contém os dois pontos presentes na segunda reta: x3, y3, x4, y4 ( -10000 <= x3, y3, x4, y4 <=10000).",
+    "format_output": "A saída deve ser o ponto em que as duas retas se interceptam. Consiste de dois números reais, formatados com duas casas decimais e separados por um espaço em branco. Caso as retas não se interceptem, você deve imprimir: \"NUNCA\"",
+    "topics": [
+        "geometria computacional"
+    ]
+}

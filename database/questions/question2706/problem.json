@@ -1,0 +1,10 @@
+{
+    "title": "Rodizio no Abastecimento de Água",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Recentemente, a cidade dos Seriados passou por um colapso no abastecimento de água. Os transformadores que bombeavam o líquido precioso explodiram causando enorme transtorno a população. Quando a concessionária conseguiu repor os transformadores, o abastecimento de água precisou ser escalado até voltar ao normal. Para isso foi feito um rodízio de abastecimento na primeira semana, dividindo a cidade por áreas: Área 1: Flash, Arrow, Legends of Tomorrow, Super Girl Área 2: Agent Carter, Demolidor, Agentes da Shield, O rodizio seguiu a seguinte escala: Na área 1, a água será distribuída das 8h às 20h da terça-feira; A área 2, a água será começar a receber água a partir das 2h da quarta-feira;",
+    "format_input": "Nome do Bairro, Dia da Semana, Horário ( em horas completas)",
+    "format_output": "Já chegou ou não chegou água",
+    "topics": [
+        "decisão"
+    ]
+}

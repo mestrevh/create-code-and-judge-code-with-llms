@@ -1,0 +1,10 @@
+{
+    "title": "Mais velho e mais novo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Jõao e Maria têm quatro filhos e querem saber a diferença de idade entre o filho mais velho e o filho caçula. Como eles não são muito bons para fazer contas estão querendo que alguem os ajude escrevendo um programa para calcular esta diferença.",
+    "format_input": "Quatro números naturais representado as idades em anos dos quatro filhos de Joâo e Maria. Os números podem vir em qualquer ordem..",
+    "format_output": "A diferença de idade entre o mais velho e o mais novo.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Troco do Seu Sirigueijo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu Sirigueijo, antigo morador da Fenda do Bikini, ama dinheiro. Ele é dono do Siri Cascudo, um restaurante coordenado pelo chef Bob Esponja. Famoso e muito procurado pelos turistas, as vendas sempre vão bem. A Fenda do Bikini está com problemas inflacionários e a moeda está mudando constantemente, mas sempre só são emitidas notas com 04 valores diferentes. Na hora de dar o troco, o Sirigueijo não quer vacilar. Dado um valor do troco, ele precisa decidir quais e quantas notas ele deverá entregar ao cliente. Seu Sirigueijo gosta ter a maior quantidade de notas possível, logo, ele pede para que você priorize isso fazendo com que seja entregue ao cliente a maior quantidade possível de notas maiores. Você deve calcular a quantidade de notas da maior para a menor. Ao final, se não obtiver o valor exato do troco, o saldo ficará como gorjeta para o Bob Esponja.",
+    "format_input": "A entrada consistirá de um inteiro N, representando a quantidade de clientes que devem ser atendidos. Em seguida, seguirão N linhas contendo: n1, n2, n3, n4 e T, representando o valor de cada nota e, por fim, o total de troco a ser pago ao cliente.",
+    "format_output": "A saída deverá indicar qual é o cliente (customer), e, em seguida, da maior nota para a menor, escrever em cada linha a quantidade e o valor da nota a ser entregue como troco. Ao final, escrever a gorjeta do Bob Esponja. (Observe o exemplo para entender a formatação correta)",
+    "topics": [
+        "repetição"
+    ]
+}

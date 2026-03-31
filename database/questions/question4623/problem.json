@@ -1,0 +1,10 @@
+{
+    "title": "Q5 - Alunos em recuperação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Marcos é um professor muito organizado e quer guardar as notas dos alunos que ficaram em recuperação. Para isso você deve desenvolver um programa que leia a quantidade de alunos que ficaram em recuperação e guarde cada uma em um vetor simples. Ao final deve-se imprimir a lista com todos as notas e a soma delas. Caso o total de alunos em recuperação seja 0, imprima a seguinte mensagem (\"Nenhuma nota informada!\")",
+    "format_input": "Um inteiro N, representando a quantidade de alunos que ficaram em recuperação, e em seguida N reais representando cada nota.",
+    "format_output": "A saída deverá conter a lista com todas as notas e a soma (com duas casa decimais) de todos os elementos da lista.",
+    "topics": [
+        "array"
+    ]
+}

@@ -1,0 +1,6 @@
+Título: Sistema Simplificado para Gestao de alunos
+Topicos do problema: array; acumulador; decisão; lógica matemática; repetição; 
+Tempo limite de execução: 5 segundo(s)
+Descrição: <p></p><title></title><p class="western"><font size="3"><font face="Times New Roman, serif">Nest etrabalho, cada aluno deve implementar um sistema simplificado paragestão de alunos de uma disciplina </font><font face="Times New Roman, serif">com</font><font face="Times New Roman, serif">36 aulas. O sistema deve armazenar os alunos cadastrados em um VETOR(a quantidade de alunos na disciplina deve ser fornecida peloprogramador). Os seguintes dados devem ser informados e armazenadossobre cada aluno: matrícula do aluno, quatro notas do tipo real equantidade de faltas do tipo inteiro.</font></font></p><p class="western"><font size="3"><font face="Times New Roman, serif"></font></font></p>
+Formato da entrada: <p>1</p>
+Formato da saída: <p>1</p>

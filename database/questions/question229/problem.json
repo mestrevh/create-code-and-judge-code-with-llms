@@ -1,0 +1,10 @@
+{
+    "title": "Jogo da Vida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Jogo da Vida é um jogo sem jogadores, todos os eventos ocorridos são consequências do estado inicial do campo, esse campo é uma matriz formada por células vivas ou mortas (1 ou 0 respectivamente), o estado dessas células é alterado ou mantido dependendo das condições ao seu redor, as condições estão descritas abaixo: Qualquer célula viva com menos de dois vizinhos vivos morre de solidão. Qualquer célula viva com mais de três vizinhos vivos morre de superpopulação. Qualquer célula morta com exatamente três vizinhos vivos se torna uma célula viva. Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração. Para cada alteração no campo(todas ocorrem simultaneamente) temos uma geração. Exemplo com 2 gerações(Células pretas estão vivas, as brancas estão mortas): Oberve que na próxima geração o estado do campo voltará ao mesmo estado anterior, e assim sucessivamente, porém não é sempre que isso acontece. O problema é, dados um campo n x m, as posições onde há células vivas inicialmente, e um número de gerações, imprimir o campo de cada geração seguindo o formato de saída. Considere que qualquer célula fora do campo está sempre morta.",
+    "format_input": "Na primeira linha de entrada temos quatro números inteiros N,M,V e G representando respectivamente o número de linhas do campo, o número de colunas do campo, o números de células vivas no campo inicial, e o número de gerações a serem computadas. Considere 1 <= N,M <= 45. A partir daí seguem V linhas com dois inteiros Y e X representando a posição da matriz (linha e coluna) onde há uma célula viva.",
+    "format_output": "Primeiro é impresso o campo inicial e logo após os G campos de cada geração, G maior ou igual a 1. Os estados nos campos são representados por números, 0 representa célula morta, 1 representa uma célula viva. Os campos são impressos linha a linha, cada uma com um espaço antes de cada número e uma quebra de linha. No final de cada campo deve haver mais uma quebra de linha.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

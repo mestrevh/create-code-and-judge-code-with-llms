@@ -1,0 +1,11 @@
+{
+    "title": "Áreas de 2 círculos.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia os valores (reais) dos raios de dois círculos diferentes e informe qual dos dois possui área maior ou se possuem a mesma área. Use pi = 3.14",
+    "format_input": "Os raios (tipo float) de 2 círculos em sequência.",
+    "format_output": "Caso a área do primeiro círculo seja maior, escreva na saída: \"Primeiro círculo\" Caso a área do segundo círculo seja maior, escreva na saída: \"Segundo círculo\" Caso sejam iguais, escreva: \"Iguais\"",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

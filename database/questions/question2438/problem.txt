@@ -1,0 +1,6 @@
+Título: N-ésimo termo da Série de Fibonnaci
+Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Crie um programa que calcule o n-ésimo termo da série de fibonacci.</p><p>Para mais informações: https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci</p>
+Formato da entrada: <p>A entrada deve ser um número inteiro indicando o valor 'n' para cálculo do n-ésimo elemento da série de fibonacci.</p><p>Exemplo:</p><p>5</p>
+Formato da saída: <p>A saída deve ser o n-ésimo termo da série de fibonacci.</p><p>Exemplo:</p><p>3</p>

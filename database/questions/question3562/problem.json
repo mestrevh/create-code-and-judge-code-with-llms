@@ -1,0 +1,10 @@
+{
+    "title": "Funções da biblioteca math.h",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um número real lido como parâmetro, calcule o piso, o teto, a sua raiz quadrada, o seno, o cosseno e esse número elevado a potência 6.",
+    "format_input": "Número real x.",
+    "format_output": "Piso do número, Teto do número, Raiz quadrada do número, Seno do número, Coseno do número, Número elevado a 6a potencia",
+    "topics": [
+        "lógica matemática"
+    ]
+}

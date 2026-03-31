@@ -1,0 +1,10 @@
+{
+    "title": "Distribuição do Roubo",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Depois do roubo, os ladrões precisam distribuir o dinheiro ganho entre todos, mas, durante o roubo, houve vários desentendimentos e agora uns não confiam mais nos outros. O professor, vendo essa situação toda, criou uma estratégia para elevar a confiabilidade do processo de distribuição do dinheiro e lhe pediu para fazer um programa que imprimisse a lista de assaltantes que receberam o dinheiro após cada rodada de distribuição. Ele definiu que cada ladrão que aparece na lista será chamado, receberá sua parte do dinheiro e chamará o próximo da lista. A distribuição termina quando alguém que já recebeu dinheiro aparece na lista para receber novamente (essa condição é sempre garantida). Quando isso acontece, termina uma rodada de distribuição e seu programa finaliza com a impressão de todos que receberam dinheiro durante a rodada. O professor os manda para fora da sala para que outra rodada inicie. Obs1: é obrigatório o uso de recursão para resolução da questão. Obs2: NÂO é obrigatório o uso de listas encadeadas. Obs3: lembre-se que não pode ser feito impressões fora do main. Obs4: nem todos os nomes que aparecem na lista vão receber dinheiro, pois o programa pára quando alguém que já recebeu é chamado para receber novamente.",
+    "format_input": "N Sendo N um número inteiro representando a quantidade de ladrões que participaram do roubo. Seguem N linhas no formato: NOME DESTINO Sendo NOME e DESTINO duas strings correspondendo ao ladrão e para quem ele repassará o dinheiro, respectivamente. Seguido de uma linha no formato NOMEX Sendo NOMEX o nome do ladrão que começará a passar o dinheiro para os outros.",
+    "format_output": "Uma única linha contendo os nomes dos assaltantes que receberam algum dinheiro, separados por espaço. Nome1 Nome2 … NomeN",
+    "topics": [
+        "recursão"
+    ]
+}

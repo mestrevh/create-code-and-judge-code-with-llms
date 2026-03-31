@@ -1,0 +1,6 @@
+Título: Teclado Viciado
+Topicos do problema: substrings; caractere; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Tonio tem um teclado com apenas duas letras, &#34;V&#34; e &#34;K&#34;.</p><p>Um dia, ele escreveu uma string S com apenas essas duas letras. Ele realmente gosta que a string &#34;VK&#34; apareça, poratanto, ele quer mudar apenas uma letra na string (ou não fazer mudanças) para maximizar o número de ocorrências dessa string. Calcule o máximo de vezes que &#34;VK&#34; pode aparecer na substring. <b>(letra &#34;K&#34; na direita e &#34;V&#34; na esquerda)</b>.</p><p><br/></p>
+Formato da entrada: <p>A primeira linha contem uma string S, com apenas letras maiúsculas &#34;V&#34; e &#34;K&#34;, 1 &lt;= S &lt;= 100. <b>Tamanho maior ou igual a 1 e menor ou igual a 100.</b></p>
+Formato da saída: <p>Um único inteiro com o máximo de vezes que &#34;VK&#34; pode aparecer na substring que foi dada, depois de alterado no máximo 1 caractere.</p>

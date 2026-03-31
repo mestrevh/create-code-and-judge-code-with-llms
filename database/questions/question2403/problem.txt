@@ -1,0 +1,6 @@
+Título: Divisor mais frequente
+Topicos do problema: lógica matemática; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que encontre o divisor mais frequente <b><i>d</i></b> de um número <b><i>x</i></b>, e quantas <b><i>n</i></b> vezes <b><i>d </i></b>o divide. O divisor mais frequente é o número que pode dividir mais vezes o número <b><i>x</i></b>.</p><p>Se houver dois números que dividem<b><i> x</i></b> a mesma quantidade de vezes, então imprima o menor deles.</p><p><b></b><i></i>Exemplo: o divisor mais frequente de 12 é 2, pois o divide 2 vezes.</p><p>(Observação: Apenas divisores maiores ou iguais a 2 serão considerados.)</p>
+Formato da entrada: <p>A entrada é um inteiro contendo o número<b><i> x</i></b>.</p><p>2 &lt;=<b><i> x</i></b> &lt;= 1000000</p>
+Formato da saída: <p>A saída deve seguir o seguinte formato: &#34;mostFrequent:<b><i> d</i></b>, frequency:<b><i> n</i></b>&#34;, onde<b><i> d</i></b> e<b><i> n</i></b> são especificados na descrição.</p>

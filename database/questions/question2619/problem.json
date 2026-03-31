@@ -1,0 +1,11 @@
+{
+    "title": "Somando termos de Fibonacci",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio estava observando as séries, e ficou impressionado com a série de Fibonacci. A série de Fibonacci é enunciada recursivamente como: O enésimo termo da série é a soma dos dois termos anteriores, como na imagem abaixo: Já os termos iniciais são: Onde F1 é o termo 1 da série, e F2 o termo 2. Sabendo Disto, Ambrósio solicitou que faça um programa que some vários termos da sequência de Fibonacci.",
+    "format_input": "Um inteiro N, representando a quantidade de termos que virão a seguir. N ( 0 < N < 101) inteiros X, onde 0 < X < 20. Exemplo: 3 (N) 1 (X)... 2 3",
+    "format_output": "A soma dos N termos da série de Fibonacci. Usando o Exemplo acima, temos N = 3, portanto iremos somar três termos quaisquer de Fibonacci. Termo 1 = 1, Termo 2 = 1, Termo 3 = 2, Soma = 4. Observe os exemplos de entrada e saída.",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

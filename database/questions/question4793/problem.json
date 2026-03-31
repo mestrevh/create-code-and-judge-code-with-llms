@@ -1,0 +1,11 @@
+{
+    "title": "Matemática 2: O retorno",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Doisberto, irmão de Humberto, é um grande fã de matemática e de operações simples com números inteiros. Mas ele também é um inovador nato! Cansado da “matemática tradicional” e de toda essa conversa de ordem de precedência, ele decidiu criar algo novo: a Matemática 2! Na Matemática 2, você deve ignorar a ordem de precedência. Isso significa que as operações são feitas sempre da esquerda para a direita, independentemente de serem multiplicação, divisão, soma ou subtração. Sua tarefa é, dado quatro números decimais A, B, C, D calcular o resultado da seguinte expressão: A×B+C÷D Mostre o resultado usando a Matemática 1 (ordem tradicional) e a Matemática 2 (esquerda para a direita).",
+    "format_input": "Uma única linha contendo quatro números decimais A,B,C,D.",
+    "format_output": "Duas linhas: Na primeira linha, o resultado da expressão usando a Matemática 1 (ordem tradicional). Na segunda linha, o resultado usando a Matemática 2 (ordem esquerda para a direita). Cada valor deve ser exibido com duas casas decimais.",
+    "topics": [
+        "multiplas entradas",
+        "lógica matemática"
+    ]
+}

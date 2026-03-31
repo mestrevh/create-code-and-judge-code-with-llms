@@ -1,0 +1,13 @@
+{
+    "title": "Idade e altura.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que peça a idade e a altura de 5 pessoas, armazene cada informação no seu respectivo array. Imprima a idade e a altura na ordem inversa da ordem lida.",
+    "format_input": "Idades das 5 pessoas. Alturas das 5 pessoas.",
+    "format_output": "Idades na ordem inversa. Alturas na ordem inversa.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "[AC3.3] - 3 dígitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que leia um número inteiro de três dígitos e imprima: sim, se o dígito da centena for par ou se o dígito da dezena for ímpar. nao, caso contrário. (sim e nao em minúsculo e sem til)",
+    "format_input": "Um número de 3 dígitos (não precisa se preocupar se não for, ele TERÁ 3 dígitos.)",
+    "format_output": "Uma string, 'sim' ou 'não'",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Inverter uma string",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia uma string e inverta o seu conteúdo. Exemplo: Se a string digitada for \"JANELA\", então você deve imprimir: \"ALENAJ\".",
+    "format_input": "Você receberá uma única linha contendo uma string com no máximo 255 caracteres.",
+    "format_output": "Imprima a string recebida com os seus caracteres invertidos também em uma única linha, seguida de um final de linha.",
+    "topics": [
+        "array",
+        "repetição",
+        "caractere",
+        "string"
+    ]
+}

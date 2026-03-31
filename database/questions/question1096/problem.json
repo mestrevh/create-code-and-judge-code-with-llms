@@ -1,0 +1,13 @@
+{
+    "title": "Série de Burrier",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A série de Bourrier, um matemático obscuro do século I, se caracteriza por mudanças a cada termo. Escreva um programa que calcule a série de Bourrier abaixo para os N valores: Assuma que PI = 3.14",
+    "format_input": "A quantidade N de termos a serem somados.",
+    "format_output": "O somatório S da série de Bourrier.",
+    "topics": [
+        "ponto flutuante",
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Olimpíadas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A UFAL está organizando uma olimpíada e precisa de sua ajuda para escrever um programa que dada à quantidade de medalhas dos países por modalidade, gere a lista de classificação. Os países serão identifcados por números inteiros. A colocação é definida da seguinte forma, do país com o maior número de medalhas de ouro ao de menor número. Se houver empate, o melhor colocado é o país que conseguiu o maior número de medalhas de prata. Se houver empate também no número de medalhas de prata, o melhor colocado é o país que recebeu o maior número de medalhas de bronze. Se ainda assim houver empate, o melhor classifcado é o que tem o menor número de identifcação.",
+    "format_input": "A entrada contém um conjunto de testes, que deve ser lido do dispositivo de entrada padrão. A primeira linha da entrada contém dois números inteiros N e M, separados por um espaço em branco, indicando respectivamente o número de países (1 <= N <= 100) e o número de modalidades esportivas envolvidas na competição (1 <= M <= 100). Os países são identificados por números inteiros de 1 a N. Cada uma das M linhas seguintes contém três números inteiros O, P e B, separados por um espaço em branco, representando os países cujos atletas receberam respectivamente medalhas de ouro (1 <= O <= N), prata (1 <= P <= N) e bronze (1 <= B <= N). Assim, se uma das M linhas contém os números 3 2 1, significa que nessa modalidade a medalha de outro foi ganha pelo país 3, a de prata pelo país 2 e a de bronze pelo país 1.",
+    "format_output": "Seu programa deve imprimir na saída padrão, N linhas, cada uma contendo o número que representa o país. Os países devem ser impressos na ordem decrescente de classificação (o primeiro número representa o país que é o primeiro colocado, o segundo número representa o país que é o segundo colocado, e assim por diante).",
+    "topics": [
+        "repetição",
+        "função",
+        "ordenação",
+        "estruturas"
+    ]
+}

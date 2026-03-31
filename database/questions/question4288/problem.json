@@ -1,0 +1,10 @@
+{
+    "title": "Bombas no mapa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lucas e seus amigos estavam jogando bomberfriends. Este jogo consiste em um mapa, no qual os jogadores podem colocar bombas para destruí-lo. Porém, dada a posição em que a bomba vai ser colocada, eles não sabiam o estrago que ela ia fazer e pediram que você faça um programa que dado o mapa inicial, construa o mapa depois da explosão da bomba. Você vai receber uma matriz inteira NxN, na qual -1 são as paredes que não podem ser destruídas, 0 são espaços vazios e 1 são paredes que podem ser destruídas. Além disso, você receberá as coordenadas em que as bombas serão colocadas. observação: as bombas destroem uma casa para cima, uma para baixo, uma para a direita e uma para a esquerda, sempre. observação 2: caso a bomba vá destruir uma posição fora do mapa (nas bordas), ela destrói do outro lado do mapa. exemplo da observação 2: supondo que a coordenada da bomba seja (0,0), como ela destrói 1 posição para cima, mas 0 já é a borda da matriz, então ela destruirá a posição (n-1, 0). observação 3: considere que a bomba só terá efeito se for jogada em um espaço vazio.",
+    "format_input": "Sua entrada consiste de um valor N que representa o tamanho do mapa NxN. N linhas e N colunas de números inteiros que representam o mapa. Um valor Q, representando o número de bombas. Q linhas, com x,y valores, representando as coordenadas das bombas.",
+    "format_output": "Sua saída deverá conter o mapa após as explosões das bombas.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

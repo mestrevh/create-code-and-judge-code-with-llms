@@ -1,0 +1,6 @@
+Título: O maior entre dez
+Topicos do problema: 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Faça um programa que dada a entrada de 10 números diga qual o maior numero.</p><p>Obs: Na entrada pode ser fornecido tantos números negativos quanto positivos.</p>
+Formato da entrada: <p>10 números inteiros cada um deles seguido por uma quebra de linha.</p>
+Formato da saída: <p>o maior numero inteiro seguido por uma quebra de linha.</p>

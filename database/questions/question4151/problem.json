@@ -1,0 +1,12 @@
+{
+    "title": "A Fuga do Paffocan",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gabriel Paçoqueiro, nosso não tão querido Paffocan, foi preso recentemente por seus crimes inomináveis contra seus funcionários. Contudo, em um belo dia, Paffocan engenhosamente escapou da cadeia e agora está solto, pondo em risco a vida de seus ex-assessores e novinhas desavisadas nas ruas. Ele deixou pistas para a polícia, desafiando-os a encontrá-lo, contendo coordenadas de possíveis locais que ele pode estar, bem como mensagens codificados indicando o nome desses locais. Sherlock Holmes, em toda sua sabedoria, notou que a codificação utilizada pelo Paffocan nas mensagens se assemelha à Cifra de César, que consiste em substituir letras do texto por outras seguindo um número fixo de vezes de acordo com a ordem alfabética. Por exemplo, se chave da codificação for 3, significa que na mensagem original as letras estavam 3 posições atrás em relação à mensagem codificada seguindo a ordem alfabética. Seu trabalho é ajudar a polícia, criando uma programa que seja capaz de decodificar as mensagens deixadas pelo Paffocan e, no final, imprima uma matriz 12x12 preenchida com \"o\" nos lugares onde Paffocan não esteve e \"x\" nos lugares que ele indicou em suas mensagens.",
+    "format_input": "Um número inteiro n representando a quantidade de mensagens que Paffoca deixou (Logo após, um inteiro x indicando a chave de de codificação e em seguida a mensagem codificada. Por fim, a coordenada desse local no formato x y) isso se repetirá n vezes.",
+    "format_output": "As mensgens decodificadas na ordem em que foram inseridas no programa Uma matriz 12x12 com \"o\" nos nas coordenadas onde Paffoca não passou e \"x\" nas coordenadas indicadas por ele.",
+    "topics": [
+        "array",
+        "array bidimensional",
+        "string"
+    ]
+}

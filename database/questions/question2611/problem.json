@@ -1,0 +1,11 @@
+{
+    "title": "PROVENGE - Aproveitamento em Engenharia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A coordenação de Engenharia da Computação está querendo verificar o aproveitamento dos alunos do P1 e para isso criou o PROVENGE, uma prova no final do período contemplando cada uma das seguintes disciplinas: 1. Pré - Cálculo 2. Sistemas Digitais 3. Introdução a Engenharia 4. Algoritmos 5. Medição Eletro-Eletrônica 6. Inglês. A prova consiste em 2 questões para cada disciplina, onde cada questão tem 5 alternativas possíveis(a,b,c,d ou e). O aproveitamento é dado por porcentagem de acertos, devendo ser considerado de forma geral e para cada disciplina. Os gabaritos serão strings de 12 caracteres onde cada caractere será correspondente a alternativa de cada questão, seguindo a ordem acima para as disciplinas, ou seja: Se o gabarito é: ABABCDEABDEE, A é a resposta da questão 1 de Pré Cálculo, B a resposta da questão 2 de Pré-Calculo, A é a resposta da questão 1 de Sistemas Digitais e assim sucessivamente. O programa deverá receber o gabarito oficial da prova, a quantidade de alunos da turma, o nome e o gabarito de cada aluno e ao final exibir as seguintes informações sobre desempenho: Aproveitamento médio Aluno com maior aproveitamento geral (no caso de empate será exibido o primeiro aluno) Maior aproveitamento geral Aluno com maior aproveitamento em Algoritmos (no caso de empate será exibido o primeiro aluno) Maior aproveitamento em Algoritmos",
+    "format_input": "Gabarito Oficial da Prova Quantidade de Alunos da Turma Nome de Cada Aluno Gabarito de Cada Aluno",
+    "format_output": "Aproveitamento médio Aluno com maior aproveitamento geral Maior aproveitamento geral Aluno com maior aproveitamento em Algoritmos (no caso de empate será exibido o primeiro aluno) Maior aproveitamento em Algoritmos",
+    "topics": [
+        "array",
+        "string"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Vamos ao Cinema",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um cinema existiam dois caixas funcionando, um preferencial e um normal. Também existem duas filas, uma regular e outra preferencial. Quando o caixa A está disponível, a próxima pessoa da fila regular é chamada. Quando o caixa B está disponível, a primeira pessoa da fila preferencial é chamada. Se uma das filas estiver vazia, os caixas atendem pessoas de qualquer uma das filas.",
+    "format_input": "A entrada começa com um inteiro T, que indica o número de casos de teste. Cada caso começa com um inteiro N que indica quantos comandos terá o caso. Cada pessoa que chega na fila contém um número de identificação. As próximas N linhas contém os comandos: \"f x\" = chegou uma pessoa com identificação x na fila regular. \"p x\" = chegou uma pessoa com identificação x na fila preferencial. \"A\" = o caixa A chama a próxima pessoa. \"B\" = o caixa B chama a próxima pessoa. \"I\" = imprima, em uma linha, as pessoas que estão na frente das filas f e p, nessa ordem. Se nenhuma pessoa estiver na fila, imprima 0. Para cada caso de teste, as filas começam vazias. Podem existir pessoas diferentes com identificações iguais.",
+    "format_output": "Para cada caso de teste, imprima \"Caso y:\" para cada vez que aparecer o comando \"I\", imprima em uma linha as primeiras pessoas das filas f e p, nessa ordem. Obs: O cursor deve estar na última linha (em branco).",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

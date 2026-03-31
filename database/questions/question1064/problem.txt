@@ -1,0 +1,6 @@
+Título: Strings Ambrosianas
+Topicos do problema: dividir e conquistar; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Na aula de PAA o Ambrósio aprendeu sobre o que são Strings Ambrosianas. Duas strings a e b de tamanhos iguais são chamadas Ambrosianas se um dos 2 casos abaixo ocorre:</p><ul><li>Elas são iguais</li><li>Se nós dividirmos a em duas metades de mesmo tamanho a1 e a2, e a string b em duas metades de mesmo tamanho b1 e b2, e um dos seguintes casos ocorrer:</li><ul><li>a1 é equivalente a b1 e a2 é equivalente a b2</li><li>a1 é equivalente a b2 e a2 é equivalente a b1</li></ul></ul>Dado duas strings indique se elas são equivalentes.
+Formato da entrada: <p>As 2 primeira linhas da entrada contém duas strings a e b. Cada uma delas pode ter entre 1 e 200000 letras minúsculas, sem acento. a e b possuem o mesmo tamanho.</p>
+Formato da saída: <p>Imprima YES caso as strings sejam equivalentes e NO caso contrário.</p>

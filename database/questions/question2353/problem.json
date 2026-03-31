@@ -1,0 +1,11 @@
+{
+    "title": "Calculando o CRE",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Coeficiente de Rendimento Escolar (CRE) é calculado semestralmente e corresponde à média ponderada das notas finais obtidas em cada disciplina cursada, com aprovação ou não. O peso corresponde à carga horária total das disciplinas. O Coeficiente de Rendimento Escolar é determinado pela seguinte expressão: CRE= ((N1xH1) + (N2xH2) + … + (Nk x Hk))/(H1+H2+H3+...+Hk) onde: Nk= Nota da disciplina k e Hk= Carga horária da disciplina k. As notas devem ser consideradas numa escala de 0 a 100. OBS: Não são considerados no cálculo do CRE: Disciplinas trancadas (T), Aproveitamento de Disciplinas (AD), Disciplinas excluídas (DE), Aceleração de estudos (AE), Disciplinas dispensadas (DD), Disciplinas em curso (DC). Exemplo: Considerando o histórico a seguir, ao final do primeiro semestre o CRE do aluno será: ((50x53) + (33x45)+(50x64))/(50+33+50) = 55,15. O objetivo é escrever um algoritmo para calcular o CRE de um aluno a partir dos dados de entrada.",
+    "format_input": "Um número inteiro representando o semestre da disciplina. Um número inteiro representando a carga horária da disciplina (possibilidades: 33, 50, 67, 83). Um número inteiro de 0 a 100, inclusive, representando a nota obtida na disciplina. Uma string indicando a situação da disciplina: Aprovado (A), Reprovado (R), Reprovado por falta (RF), Disciplina trancada (DT), Aproveitamento de Disciplina (AD), Disciplinas excluídas (DE), Aceleração de estudos (AE), Disciplina dispensada (DD), Disciplina em curso (DC). O usuário deverá informar uma ou mais disciplinas. Considerar como condição de parada quando o semestre for igual ou menor a zero ou maior que 10.",
+    "format_output": "O valor do CRE do aluno (float com duas casas decimais). Quando o usuário informar valor inválido para o semestre ou não for possível calcular o CRE, apresentar como saída a mensagem entrada invalida.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

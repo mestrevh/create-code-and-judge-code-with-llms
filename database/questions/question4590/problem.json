@@ -1,0 +1,10 @@
+{
+    "title": "Erro I/O",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Nossos computadores estão tão entusiasmados com o próximo Google I/O que começaram a armazenar seus uns como letras maiúsculas I e seus zeros como letras maiúsculas Os! Por exemplo, o caractere A, que é 65 em ASCII, normalmente seria armazenado como o byte 01000001, mas nossos computadores o armazenam como OIOOOOOI. Dada uma sequência de \"bytes\" de 8 caracteres consistindo em Is e Os, você pode traduzi-la usando ASCII? É garantido que cada \"byte\" seja traduzido em um caractere imprimível (um valor decimal entre 32 e 126, inclusive). Observe que um desses caracteres (aquele com valor decimal 32) é um espaço. Nenhuma mensagem traduzida começará ou terminará com espaço, mas pode haver caracteres de espaço internos.",
+    "format_input": "A primeira linha da entrada fornece o número de casos de teste, T. Seguem-se T casos de teste; cada um consiste em duas linhas. A primeira linha de cada caso de teste contém um inteiro representando o número B de “bytes” na string a ser traduzida. A segunda linha de cada caso de teste contém 8 caracteres *B, todos I ou O.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo \"Case #x: y\", onde x é o número do caso de teste (começando em 1) e y é a mensagem traduzida.",
+    "topics": [
+        "string"
+    ]
+}

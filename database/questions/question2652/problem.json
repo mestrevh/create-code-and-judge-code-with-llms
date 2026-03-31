@@ -1,0 +1,10 @@
+{
+    "title": "Linhas alfabéticas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que receba como entrada um caractere alfabético maiúsculo e exiba a sequência do alfabeto maiúsculo de 'A' até o caractere lido. O programa deverá repetir o procedimento até que seja dado como entrada o caractere 'F'.",
+    "format_input": "Um caractere alfabético maiúsculo [ 'A' .. 'Z' ].",
+    "format_output": "Para cada caractere dado como entrada, uma linha com a sequência alfabética maiúscula de 'A' até o caractere informado, separados por um espaço.",
+    "topics": [
+        "repetição"
+    ]
+}

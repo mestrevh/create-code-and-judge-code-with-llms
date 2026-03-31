@@ -1,0 +1,6 @@
+Título: AL1-Vetor-01
+Topicos do problema: array; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Elabore um programa que leia N números inteiros e os armazene em um array e os exiba na tela.</p>
+Formato da entrada: <p>A primeira linha contém um inteiro N, satisfazendo 1 &lt;= N &lt;= 10000. As N linhas seguintes conterão os N inteiros que devem ser armazenados no array.</p>
+Formato da saída: <p>Uma única linha com a sequência de números armazenados no array.</p>

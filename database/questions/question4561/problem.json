@@ -1,0 +1,10 @@
+{
+    "title": "Igualdade de Figuras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O H. Knight está com um problema. Ele possui uma figura em formato de uma matriz NxN e quer contar quantas outras figuras iguais a dele existem numa caixa. A caixa possui X figuras com o mesmo tamanho da figura dele porém elas podem estar viradas(rotação em 90, 180 ou 270 graus). Seu objetivo é criar um programa que receba a matriz representando a figura do H. Knight, após isso receber as X matrizes e verificar se elas são iguais a figura original. A saída deve ser a quantia de figuras que foram iguais a figura do H. Knight. OBS: LEMBRE DE ROTACIONAR!!!",
+    "format_input": "Um N representando o tamanho da matriz. Uma matriz NxN representando a figura de H. Knight. Um X representando a quantia de matrizes (figuras) que serão comparadas. X matrizes NxN representando as figuras.",
+    "format_output": "A quantia de figuras que foram iguais a figura do H. Knight",
+    "topics": [
+        "array bidimensional"
+    ]
+}

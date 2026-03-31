@@ -1,0 +1,12 @@
+{
+    "title": "Q03 - Primeira Posição na Frase",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma letra qualquer, informe a posição da primeira aparição dela na frase (que também será dada na entrada). exemplo: a Marcos. a letra \"a\" aparece pela primeira vez na posição 1. Se a letra não existir, mostre: \"a frase nao possui a letra\"",
+    "format_input": "uma letra qualquer, uma frase qualquer",
+    "format_output": "o número da posição que a letra aparece pela primeira vez na frase ou \"a frase nao possui a letra\" caso não exista",
+    "topics": [
+        "decisão",
+        "string",
+        "busca"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "RLE",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Codificação RLE é uma forma simples de compressão sem perda de dados onde sequências longas de valores repetidos são armazenadas como um único valor e sua contagem no lugar de sua sequência original. É principalmente útil em dados com muitas repetições de valores. Neste problema você tem o objetivo de fazer a decodificação do método, ou seja, dado um código RLE, seu programa precisa exibir como saída a amostra original.",
+    "format_input": "A entrada é composta por N linhas, contendo a sempre um par de (frequência/dado). O final da entrada é indicado por EOF.",
+    "format_output": "Exiba a reconstrução do dado de entrada que se encontra no padrão RLE, para uma matriz bidimensional, conforme exemplos de saída. É garantindo que a dimensão da matriz resultante não ultrapasse de 30 x 30, e a matriz resultante seja sempre quadrada.",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

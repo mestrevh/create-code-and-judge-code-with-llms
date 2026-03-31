@@ -1,0 +1,10 @@
+{
+    "title": "Escolhendo um carro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O professor Henrique deseja trocar de carro e precisa que o carro que ele vai comprar tenha a melhor relação custo-benefício possível. No entanto, Henrique gostaria que certas características fossem respeitadas. Algumas delas são obrigatórias, outras Obrigatórias: Deve ter amplo espaço interno; Deve ter porta-malas grande; Desejáveis: Custar abaixo de R$ 100.000,00; Motor 1.5 ou superior; Ter câmbio automático. Faça um programa que verifique as condições de um carro e dê uma indicação à Henrique para a compra ou não do carro. Para ser considerado o carro deve atender a todos os requisitos obrigatórios. Feito isso, você deve verificar os requisitos desejáveis antes de imprimir uma mensagem. Se não atender os requisitos obrigatórios, imprima a mensagem \"Nao compre!\". Caso ele atenda a todos os requisitos desejáveis, imprima na saída a mensagem \"Pode comprar!\". Caso ele atenda a apenas 2 requisitos desejáveis, imprima a mensagem \"Boa compra.\". Caso ele atenda a apenas 1 requisito desejável, imprima a mensagem \"Pode ser uma opcao.\". Caso o carro não atenda nenhum requisito desejável, imprima a mensagem \"Recomendo pensar melhor...\"",
+    "format_input": "As cinco características na seguinte ordem: Espaço interno: (A)mplo ou (C)ompacto; Porta-malas: (G)rande ou (P)equeno; Valor do carro (float); Motor (float); Câmbio: (A)utomático ou (M)anual.",
+    "format_output": "Uma mensagem de acordo com a análise das características (vide descrição).",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Salve a Princesa Cremosa!!!",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Em uma de suas inúmeras aventuras, a Princesa Cremosa decidiu explorar um antigo castelo abandonado e você, o guarda-costas dela, foi designado para levá-la e trazê-la em segurança. Entretanto, no meio da exploração o castelo começou a desabar e vários escombros começaram a cair pelo chão e um deles iria atingir diretamente a princesa. Você, determinado a proteger a princesa, decidiu prever se será possível ou não salvá-la. Para isso, você receberá o número máximo de passos que será possível dar antes da princesa ser atingida e também receberá a matriz que representa a sala do castelo onde vocês estão, para decidir qual caminho é o que salvará a Princesa Cremosa, de forma que você só pode andar para a direita ou para baixo.",
+    "format_input": "A entrada consiste em 3 números positivos int P: O número máximo de passos que você pode dar até alcançar a princesa; int M: O número de linhas da matriz que representa a sala; int N: O número de colunas da matriz que representa a sala; Depois, deverá ser lida a matriz de caractéres MxN que representa a sala. De modo que, - O char 'C' representa a sua posição inicial; - O char 'P' representa a posição da princesa (sempre estará na última linha e última coluna); - O char '#' representa os escombros no chão por onde você não pode andar; - O char '-' representa o caminho livre para andar.",
+    "format_output": "- Caso você fique impossibilitado de andar para direita ou para baixo, deverá printar \"Você ficou preso e não conseguiu salvar a princesa\\n\"; - Caso exceda o número de passos necessários para alcançar a princesa, deverá printar \"Você não conseguiu salvar a princesa a tempo e ela foi de f :(\\n\"; - Caso consiga alcançar a princesa em número menor ou igual ao número máximo de passos, deverá printar \"Com Q passos você conseguiu salvar a princesa Cremosa!\\n\", em que Q é o número de passos necessários.",
+    "topics": [
+        "decisão",
+        "array bidimensional"
+    ]
+}

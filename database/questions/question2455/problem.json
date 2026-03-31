@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Seleção - N",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que recebe a idade de um nadador e exibe a categoria que ele pertence. Sendo o critério: \"infantil\" (0 a 10 anos); \"junior\" (11 a 14 anos); \"adolescente\" (15 a 20 anos); \"jovem\" (21 a 35 anos) e; \"master\" (> 35 anos).",
+    "format_input": "Um número inteiro representando a idade de um nadador.",
+    "format_output": "A categoria a que o nadador pertence.",
+    "topics": [
+        "decisão"
+    ]
+}

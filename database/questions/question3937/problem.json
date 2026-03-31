@@ -1,0 +1,10 @@
+{
+    "title": "Ultramaratona",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que, dados os tempos de dois corredores de uma ultramaratona, imprima a diferença de tempo seguindo o formato mostrado nos exemplos. A diferença entre os tempos nunca passa dos 15 dias.",
+    "format_input": "Dois números naturais representando o tempo em segundos dos dois corredores. Ambos números vêm numa única linha.",
+    "format_output": "A diferença de tempo seguindo a formatação dos exemplos.",
+    "topics": [
+        "decisão"
+    ]
+}

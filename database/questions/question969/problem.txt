@@ -1,0 +1,6 @@
+Título: Resolvendo o Sistema
+Topicos do problema: lógica matemática; backtracking; requer solução eficiente; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Ambrósio estava estudando sistema de equações e se deparou com o seguinte sistema:</p><p><br/></p><p><b>X  *  Y  *  Z   =  A</b></p><p><b>X² + Y² + Z²  </b><b>=  B</b></p><p><b><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"></b>X⁴ + Y⁴ + Z⁴   =  C</b></p><p><br/></p><p>Quantas soluções existem de que <b>X</b>, <b>Y</b> e <b>Z</b> não nulos?</p><p><br/></p>
+Formato da entrada: <p>Três inteiros indicando <b>A</b>, <b>B</b> e <b>C</b> , respectivamente.</p><p><br/></p><p>1 &lt;= <b>A</b> , <b>B</b> , <b>C</b> &lt;= 10^6</p>
+Formato da saída: <p>Um inteiro indicando a quantidade de soluções possíveis.</p>

@@ -1,0 +1,13 @@
+{
+    "title": "Manipulando uma Lista de Inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que permita manipular uma lista de inteiros. Inicialmente o programa deve ler os inteiros separados por espaço em branco e armazenar em uma lista. Dado que os valores inteiros estão armazenados, o programa deve aceitar 4 comandos: inserir, remover, parcial e final. O comando inserir é acompanhado na mesma linha do valor inteiro a ser inserido na lista. Da mesma forma, o comando remover é acompanhado do valor a ser removido da lista. Já o comando parcial deve fazer com que os dados contidos na lista sejam impressos na tela, separados por espaços em branco e dispostos em ordem crescente(numérica). O mesmo deve fazer o comando final, exceto que este encerra a execução do programa.",
+    "format_input": "Lista de valores inteiros separados por um espaço em branco na primeira linha. Nas linhas seguintes, há 4 possíveis comandos: inserir, remover, parcial e final. Cada um destes ocupa uma linha. No caso dos comandos inserir e remover, é informado um valor inteiro.",
+    "format_output": "Linhas contendo os valores inteiros dispostos em ordem crescente (numérica) e separados por um espaço em branco.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "ordenação",
+        "formatação"
+    ]
+}

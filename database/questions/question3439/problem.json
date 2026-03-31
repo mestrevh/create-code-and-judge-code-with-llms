@@ -1,0 +1,10 @@
+{
+    "title": "A Saga do Protagonista: Parte 2",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Em outra tarde qualquer, Z (o melhor amigo do Protagonista) desafiou ele para mais um jogo divertido! Inicialmente, o jogo começa com um inteiro N sendo escrito em uma folha de papel, e então eles se revezam jogando. Na vez de cada jogador, ele deve escolher um inteiro X que satisfaça as seguintes condições: - Se for a vez do Protagonista, ele vai escolher o menor X possível tal que: 1) 1 < X < N. 2) X é um divisor de N. 3) X é par. 4) O valor de X tem que ser o menor possível. - Se for a vez de Z, ele vai escolher o menor X possível tal que: 1) 1 < X < N. 2) X é um divisor de N. 3) X é primo. 4) O valor de X tem que ser o menor possível. Em seguida, o número N será dividido pelo inteiro X escolhido pelo jogador da vez. Como o Protagonista é muito gentil, Z irá começar jogando. Caso o jogador atual não possa escolher nenhum número que satisfaça as suas condições, ele perde o jogo. Sua missão nesse problema é dizer quem vai ser o ganhador do jogo e o número de rodadas que irão ser realizadas. Irão ter vários casos de teste e a entrada acaba quando o número informado for -1.",
+    "format_input": "Vários inteiros (2 <= N <= 300) separados por uma quebra de linha.",
+    "format_output": "Para cada caso de teste, a saída deve consistir em duas linhas: Na primeira linha deverá ser impresso \"Protagonista\" sem as aspas, caso o Protagonista seja o vencedor da partida. Caso contrário, deverá ser impresso \"Z\" sem as aspas. Na segunda linha deverá ser impresso um inteiro R equivalente a quantidade de rodadas que irão ser realizadas.",
+    "topics": [
+        "recursão"
+    ]
+}

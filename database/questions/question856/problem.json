@@ -1,0 +1,13 @@
+{
+    "title": "Comutação",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Uma estação ferroviária recebe composições de vagões por uma entrada única e os encaminha através de dois terminais de comutação. Uma vez chegado à estação, cada vagão é dirigido a um ou outro terminal. Em ambos os terminais, os vagões são admitidos por uma entrada e liberados por uma saída, ambos de sentido único. No Terminal 0, os vagões admitidos entram numa área de manobra por um acesso único, de onde são depois retirados na ordem inversa de entrada pelo mesmo acesso. No Terminal 1, os vagões que são admitidos na entrada podem entrar na área da manobra tanto pela extremidade esquerda quanto pela direita. Da mesma maneira, um vagão pode sair da área de manobra e, consequentemente, do terminal, tanto pela esquerda quanto pela direita. Esses dois terminais permitem permutar a ordem de composição dos vagões. Sua tarefa será a determinar a ordem de saída dos vagões sujeitos a manobras de comutação.",
+    "format_input": "A entrada consiste de vários casos, cada um correspondendo a um cenário de comutação. Em cada caso, supomos que os vagões chegam à estação em ordem numérica crescente (vagões #0, 1, 2, 3,...). Os terminais estão inicialmente vazios. Ao final, queremos determinar a ordem dos vagões na saída. Cada caso consiste em uma sequência de operações, uma por linha. As seis operações possíveis são: E0 (entrada no Terminal 0), S0 (saída do Terminal 0), E1E (entrada no Terminal 1 pela esquerda), E1D (entrada no Terminal 1 pela direita), S1E (saída do Terminal 1 pela esquerda) e S1D (saída do Terminal 1 pela direita). O final do caso é indicado pela operação FIM seguido por uma linha em branco. Supomos que as áreas de manobra são ilimitadas. Após a operação FIM, podem ainda restar vagões nos terminais.",
+    "format_output": "Em cada caso, devem ser impressos o número dos vagões por ordem de saída da estação, sendo um por linha. Por fim, devem ser impressas duas linhas contendo o número de vagões restantes nos terminais 0 e 1, respectivamente, após a operação FIM. Após cada caso, deve ser impressa uma linha em branco.",
+    "topics": [
+        "estruturas de dados",
+        "pilha",
+        "deque",
+        "simulação"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Número de Armstrong",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O número de Armstrong é um número de N dígitos cujo a soma dos dígitos elevado à N é igual ao próprio número, por exemplo: 371 => 3^3 + 7^3 + 1^3 = 371. Dado um número, diga se ele é um número de Armstrong, caso negativo, imprima a soma resultante. Na linguagem C, existe uma função chamada pow, que pode ser utilizada para elevar um número a outro. Por exemplo: /* pow example */ #include <stdio.h> /* printf */ #include <math.h> /* pow */ int main () { printf (\"7 ^ 3 = %f\\n\", pow (7.0, 3.0) ); printf (\"4.73 ^ 12 = %f\\n\", pow (4.73, 12.0) ); printf (\"32.01 ^ 1.54 = %f\\n\", pow (32.01, 1.54) ); return 0; } Para compilar, você deve adicionar o parâmetro -lm, por exemplo: gcc arquivo.c -lm",
+    "format_input": "Um inteiro M. (M >= 0)",
+    "format_output": "Uma mensagem \"Armstrong\" se for um número de Armstrong, caso contrário, imprima sua soma de Armstrong.",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

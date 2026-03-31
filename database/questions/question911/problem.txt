@@ -1,0 +1,6 @@
+Título: pedagio do mês
+Topicos do problema: 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <p>O guichê de pedágio de uma rodovia possui um equipamento que registra diariamente a quantidade de carros que passaram. Faça um programa em Java para ler cada registro do mês de setembro e informar qual o maior volume de carros que passou e em qual dia do mês. Utilize o conceito de arrays .<br/></p>
+Formato da entrada: <p>registro do mês de setembro</p>
+Formato da saída: <p>o maior volume de carro  e o dia do mês.</p>

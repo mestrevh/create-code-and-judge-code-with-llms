@@ -1,0 +1,6 @@
+Título: Labirinto para P2
+Topicos do problema: array bidimensional; backtracking; recursão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Um grupo de alunos sonhava chegar em Programação 2, porém eles acabaram se perdendo num desafiador labirinto. Agora tudo depende de você, construa um mapa para solucionar esse labirinto e assim garanta que esses alunos cheguem em Programação 2.<br/></p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/9de46ff4940634128e173c0b59fee77f4779c4a4u.jpg"/><br/></p><p>Para facilitar a saída deste labirinto, exiba também os comandos que devem ser seguidos para chegar na saída: 'U' - Up (Cima), 'R' - Right (Direita), 'D' - Down (Baixo), 'L' - Esquerda.</p>
+Formato da entrada: <p>A primeira linha da entrada terá dois inteiros N<span> </span>e M<span> </span>(0 &lt;= N, M &lt;= 501), representando a quantidade de linhas e a quantidade de colunas.<br/></p><p>As próximas N linhas terão M caracteres representando o labirinto.</p>
+Formato da saída: <p>A saída deve ter o labirinto com o caminho para a saída, e em outra linha, os comandos que devem ser seguidos para chegar na saída.</p><p>(Sempre existirá uma única solução)</p>

@@ -1,0 +1,6 @@
+Título: SUS
+Topicos do problema: lógica matemática; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>O SUS deseja saber quantas crianças no bairro possuem leucemia. Para isso vai iniciar uma pesquisa no bairro Feira VI da cidade de Feira de Santana. O atendente vai pedir a idade da criança e perguntar se tem leucemia - 1 ou não -0. O programa deve ser repetido até que digite s para sair. Ao finalizar o programa, ele deve exibir quantas crianças tem mais de 5 anos e a quantidade de crianças com leucemia.</p><p><br/></p>
+Formato da entrada: <p>n</p><p>10</p><p>1</p><p>n</p><p>8</p><p>0</p><p>n</p><p>3</p><p>1</p><p><span>n</span><br/></p>
+Formato da saída: <p>2</p><p>2</p><p><br/></p>

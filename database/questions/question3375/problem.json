@@ -1,0 +1,10 @@
+{
+    "title": "Latas de Tinta para Pintar Cilindro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que calcule a quantidade de latas de tinta necessárias e o custo para pintar tanques cilíndricos de combustível, onde são fornecidos a altura e o raio desse cilindro.",
+    "format_input": "Altura do Cilindro Raio do Cilindro Custo lata de Tinta Conteúdo lata Tinta (l) Quanto cada litro de tinta pinta (m2)",
+    "format_output": "Quantidade de latas de tinta Custo total",
+    "topics": [
+        "geometria computacional"
+    ]
+}

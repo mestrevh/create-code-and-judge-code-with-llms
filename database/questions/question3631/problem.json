@@ -1,0 +1,10 @@
+{
+    "title": "Quadrado perfeito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um algoritmo que verifique se um dado número inteiro trata-se de um quadrado perfeito, exibindo, nos casos aformativos, a sua raiz quadrada.",
+    "format_input": "um número lido pelo usuário",
+    "format_output": "o numero inteiro referente ao quadrado perfeito ou uma mensagem \"O numero lido nao eh um quadrado perfeito\", informando que o numero não se trata de um quadrado perfeito.",
+    "topics": [
+        "decisão"
+    ]
+}

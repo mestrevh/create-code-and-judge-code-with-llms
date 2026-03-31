@@ -1,0 +1,12 @@
+{
+    "title": "Média de n números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcule a média, o desvio padrão e a quantidade de números maiores que a média de n números reais dados. O número máximo de números dados é 10000.",
+    "format_input": "Uma sequência de n, onde n<=10000, números reais separados por um final de linha. A entrada se encerra quando o número lido for -1",
+    "format_output": "A média formatada com duas casas decimais. O desvio padrão formatado com duas casas decimais. Um inteiro indicando a quantidade de notas maiores que a média. Cada um dos três números acimas deve ser seguido de um final de linha.",
+    "topics": [
+        "ponto flutuante",
+        "multiplas entradas",
+        "array"
+    ]
+}

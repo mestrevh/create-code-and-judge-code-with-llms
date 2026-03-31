@@ -1,0 +1,14 @@
+{
+    "title": "Labubu Jones e o Corredor Infinito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Labubu Jones estava seguindo a trilha do lendário Bobbie Goodies perdido quando caiu em uma armadilha do terrível Eixo Tribufu: um corredor infinito! Sempre que Labubu chega ao fim do corredor, ele retorna imediatamente ao início. No entanto, ele percebeu que em certas partes do piso havia botões. Usando seu grande intelecto (e com um pouco de “forçação de roteiro” — afinal, não é fácil criar historinhas, me deem um desconto!), Labubu deduziu que precisaria apertar todos os botões escondidos para escapar. O problema é que ele não sabe exatamente onde eles estão. E, por algum motivo inexplicável, Labubu não consegue voltar para trás — ele só pode avançar para a frente. Escreva um programa que, dados: o tamanho do corredor, o número de botões, as i-éssimas posições dos botões no corredor, a posição inicial de Labubu Jones, a quantidade de paradas e a quantidade de passos por i-éssima parada. Retorne se Labubu Jones conseguiu escapar do corredor infinito. Observações: O início do corredor sempre será na posição 0. O corredor é unidimensional e circular: após a posição N - 1, ele retorna para a posição 0. A cada parada, Labubu avança Pi posições e fica parado na nova posição Xi. Um botão só é pressionado se, em algum momento, Labubu parou exatamente sobre ele após realizar uma parada. Para escapar, todos os botões precisam ser pressionados pelo menos uma vez.",
+    "format_input": "Um número inteiro N (2 ≤ N ≤ 1000), referente ao tamanho do corredor, Um número inteiro M (1 ≤ M ≤ N), referente a quantidade de botões, M números inteiros, referente a posição do i-éssimo botão, Um número inteiro X0 (0 ≤ N - 1), referente a posição inicial de Labubu Jones, Um número inteiro K (1 ≤ K ≤ 9999), referente a quantidade de paradas, K números inteiros, referente quantidade de passos por i-éssima parada.",
+    "format_output": "Um caractere 'S' se Labubu Jones conseguiu escapar do corredor, 'N' caso o contrário.",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "array circular",
+        "recursão"
+    ]
+}

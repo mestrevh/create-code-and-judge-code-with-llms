@@ -1,0 +1,10 @@
+{
+    "title": "Teh Adventujrs of Meme Man: Sanduíche",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após comer o lendário tchunfly de anteburguer e voltar para a sua linha do tempo original, nosso protagonista resolve se demitir da Rubens Enterprise após o incidente com a pílula, e arruma um emprego como supervisor de qualidade da DomDetour. Porém, ainda estocado com bandeclays de vina com togles que ele pegou emprestado permanentemente (e furtivamente) do Cybermarket, ele está muito ocupado para tal, e pediu para que você automatizasse a tarefa para ele. Sabendo que você não vai recusar tal pedido, seguem as regras: Tanto o primeiro quanto o último ingrediente precisa, necessariamente, ser um tipo de pão, e as duas fatias de pães devem ser do mesmo tipo; A carne (se houver), tem prioridade de ser adicionada; Até 3 ingredientes extras podem ser adicionados após a carne, mas não podem ser pão, carne ou molho. Para finalizar, molho picante. Qualquer outra seleção de molho (ou a falta de molho) ocasionará no acionamento do MemeSinal, e nosso protagonista será chamado para arremessar o \"sanduíche\" no \"cliente\" e o \"cliente\" na rua para outro lugar para comer >:). O sanduíche também é invalidado nesse caso. Pães: Integral: '.' (ponto final) Italiano: ':' (dois pontos) Carnes: Bovina: 'b' Frango: 'f' Peixe Peixoto Pisciano: 'p' Extras: Alface: 'A' Tomate: 'T' Cebola acebolada: 'C' Pickle Rick: 'R' Molhos: Picante: 'P' Desinteressante: 'D' Meh: 'M' Errado: 'E' Lembre-se de pegar seu cookie grátis na saída!",
+    "format_input": "7 caracteres (i0, i1, i2, i3, i4, i5, i6), cada um representando um ingrediente. Devem ser lidos como i1i2i3i4i5i6 Os ingredientes extras podem ser repetidos. A falta de algum ingrediente é indicada por um espaço em branco. Checar exemplos.",
+    "format_output": "\"Valido\", seguido de uma quebra de linha, caso o sanduíche seja válido. \"Invalido\", seguido de uma quebra de linha, caso o sanduíche seja inválido. Adicionado de \"...Mas pelo menos ganhou um chute\", seguido de outra quebra de linha, caso a regra do molho não seja cumprida.",
+    "topics": [
+        "decisão"
+    ]
+}

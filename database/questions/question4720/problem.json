@@ -1,0 +1,10 @@
+{
+    "title": "Listas ERRO - Lista de Mercado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Complete o código abaixo para que faça uma lista, adicione um novo item e remova outro\n\n# Lista inicial\ncompras = [\"leite\", \"pao\", \"ovos\"]\n\n# Adicione um item à lista\n_________ # Complete aqui\n\n# Remova um item da lista\n_________ # Complete aqui\n\nprint(compras)",
+    "format_input": "Um item a ser adicionado. Um item a ser removido.",
+    "format_output": "A lista modificada",
+    "topics": [
+        "string"
+    ]
+}

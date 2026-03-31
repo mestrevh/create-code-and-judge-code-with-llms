@@ -1,0 +1,12 @@
+{
+    "title": "Ambrósio e a escolha dos números",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Professor Ambrósio está ensinando números binários para sua filha Ambrosinita, então ele decidiu fazer um jogo. Ambrósio dará N números e Ambrosinita poderá escolher K desses N números, para cada número que Ambrosinita escolher, ela ganha uma pontuação equivalente a quantidade de 1's da representação binária do número escolhido. Ajude Ambrosinita a descobrir a maior quantidade de pontos que ela pode conseguir.",
+    "format_input": "A primeira linha contém um inteiro T que indica a quantidade de casos de teste. Seguem T casos: cada caso inicia com uma linha contendo N e K. a ultima linha de cada caso de teste contém N inteiros , representando os números que Ambrosinita pode escolher. 1 ≤ T ≤ 10 1 ≤ N ≤ 10^3 0 ≤ K ≤ N 0 ≤ Números ≤ 10^5",
+    "format_output": "Para cada caso de teste imprima uma linha contendo o maior número de pontos que Ambrosinita pode conseguir.",
+    "topics": [
+        "números binários",
+        "requer solução eficiente",
+        "exponenciação modular rápida"
+    ]
+}

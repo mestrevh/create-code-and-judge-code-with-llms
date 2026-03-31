@@ -1,0 +1,10 @@
+{
+    "title": "Eficiência de uma equipe de desenvolvimento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia a quantidade de linhas de um programa (QUANTL), o número de funções existente nele (QUANTF), o tamanho da equipe (TAMEQ) e o número de bugs encontrados (NUMB) e calcule a eficiência da equipe de acordo com a seguinte formula: EFICIENCIA = ( QUANTL / QUANTF ) / TAMEQ - 4.2 x NUMB",
+    "format_input": "Quatro valores em sequência que representam a quantidade de linhas de um programa (QUANTL), o número de funções existente nele (QUANTF), o tamanho da equipe (TAMEQ) e o número de bugs encontrados (NUMB)",
+    "format_output": "O valor da eficiência da equipe.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

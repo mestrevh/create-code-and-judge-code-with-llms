@@ -1,0 +1,6 @@
+Título: Maior abaixo da média
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dadas os nomes e as notas de um conjunto de alunos, escreva um programa que liste os alunos com a maior nota abaixo da média da turma.</p>
+Formato da entrada: <p><span>Para cada aluno usam-se duas linhas: a primeira para o nome e a segunda para a nota.</span><br/></p><p>O final é marcado pela palavra FIM.</p>
+Formato da saída: <p>A maior nota abaixo da média da turma seguido dos <span>nomes dos alunos com esta nota. Cada informação será escrita em uma linha.<br/>Se não houver nenhum aluno abaixo da média, deverá ser escrito &#34;Ninguem abaixo da media&#34;.</span></p>

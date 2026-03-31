@@ -1,0 +1,8 @@
+{
+    "title": "Espaços demais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A tecla de espaço do computador de Ambrósio está quebrada. Quando ele digita um texto, cada vez que aperta a tecla de espaço um número não determinístico de espaços é inserido. Por sorte, Ambrósio tem um amigo que está cursando a disciplina de programação. O amigo decidiu ajudar Ambrósio fazendo um programa que elimina os espaços desnecessários dos textos que ele digita.",
+    "format_input": "Um texto de no máximo 80 caracteres formado somente por letras do alfabeto inglês e espaços.",
+    "format_output": "O texto da entrada eliminando os espaços iniciais e finais e deixando somente um espaço entre cada palavra.",
+    "topics": []
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Ana Paula Cigana no modo Xadrez!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ana Paula Cigana na sua última sessão de Tarot acabou brincando com o tabuleiro de Xadrez do seu amigo Danerd Ramanujan e decidiu criar uma nova peça representada por 'A' e pensou em montar um simples problema de matemática. As peças capturam nas posições ortogonais, se a peça está em (x, y) os possíveis ataques são: - (x, y+1) - (x, y-1) - (x+1, y) - (x-1, y) Ela perguntou a Danerd Ramanujan qual é a configuração que é possível para alocar o máximo de peças 'A' num tabuleiro NxN sem que as peças ataquem umas às outras. Obs: A primeira casa (0, 0) deve ser alocada obrigatoriamente uma peça 'A'.",
+    "format_input": "Um natural N representando o tamanho do tabuleiro",
+    "format_output": "A configuração do tabuleiro após a alocação das peças 'A'.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

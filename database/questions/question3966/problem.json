@@ -1,0 +1,13 @@
+{
+    "title": "Animal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Neste problema, você deverá ler 3 palavras que definem o tipo de animal possível segundo o esquema abaixo, da esquerda para a direita. Em seguida conclua qual dos animais seguintes foi escolhido, através das três palavras fornecidas. Observação: É necessário a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão",
+    "format_input": "A entrada contém 3 palavras, uma em cada linha, necessárias para identificar o animal segundo a figura acima, com todas as letras minúsculas.",
+    "format_output": "Imprima o nome do animal correspondente à entrada fornecida.",
+    "topics": [
+        "decisão",
+        "função",
+        "string",
+        "busca"
+    ]
+}

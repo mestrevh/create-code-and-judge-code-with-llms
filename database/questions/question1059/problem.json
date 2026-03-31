@@ -1,0 +1,10 @@
+{
+    "title": "Teste da Matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio é um professor de programação na universidade federal de Ambroslândia. Sabendo que você é um ótimo programador, pediu-lhe que fizesse um código para usar como exemplo na sua sala de aula e testar os conhecimentos dos seus alunos sobre manipulação de matrizes. No seu código existirá uma Matriz Quadrada de Inteiros de tamanho 'm' onde cada posição se inicializará com zero. Em seguida será dado vários pares de números (posições na matriz) na entrada. Para cada par você deve somar 1 na linha e na coluna dessa posição dada. Entretanto existe uma exceção, caso o par dado se refira a uma quina na matriz, em vez de somar na linha e na coluna você deve somar 1 nas duas diagonais principais. Assim que um par de entrar existir um número negativo as somas se encerram e você deve imprimir o valor da seguinte equação: X * Y Onde X é a soma dos valores da diagonal principal e Y é a soma dos valores da diagonal secundária.",
+    "format_input": "O tamanho da Matriz Quadrada - um inteiro 'm' Pares de inteiros - posições na matriz (Haverá entrada até que um desses pares ser um inteiro negativo)",
+    "format_output": "Você deve imprimir o valor da seguinte equação: X * Y Onde X é a soma dos valores da diagonal principal e Y é a soma dos valores da diagonal secundária.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

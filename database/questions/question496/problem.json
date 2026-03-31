@@ -1,0 +1,13 @@
+{
+    "title": "Classificação de Hotéis",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma agência de turismo resolveu fazer um cadastro das hospedagens mais populares da Paraíba, e para isso pediu que seus clientes fizessem uma classificação de qualidade, indicando quantas estrelas (de 1 a 5) cada hotel merecia. Escreva um programa que receba como entrada o tipo (hotel ou pousada), a quantidade de estrelas e a cidade de 10 estabelecimentos e exiba quantos hotéis em João Pessoa são 5 estrelas, qual a média de estrelas dos estabelecimentos de Campina Grande, e quantas pousadas existem em Rio Tinto.",
+    "format_input": "Um String, um inteiro e outro String para cada estabelecimento. Dica: os usuários podem usar minúsculas e/ou maiúsculas nos Strings",
+    "format_output": "Três valores inteiros",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

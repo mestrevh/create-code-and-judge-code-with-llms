@@ -1,0 +1,8 @@
+{
+    "title": "Calcula Número de Algarismos",
+    "time_limit": "10 segundo(s)",
+    "descrition": "Faça um programa que lê um número inteiro, com no máximo 5 algarismos, e informe quantos algarismos o número lido possui.",
+    "format_input": "None",
+    "format_output": "None",
+    "topics": []
+}

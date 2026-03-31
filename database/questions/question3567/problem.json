@@ -1,0 +1,10 @@
+{
+    "title": "Os vetores de Samuel",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Como Samuel muitas vezes está pensativo, passa seu tempo pensando em coisas divertidas para programar. Um belo dia ele resolveu fazer um código que ao receber dois vetores de tamanhos iguais ele criará alguns vetores com informações totalmente desnecessárias sobre eles. Mas quando ele iria \"codar\", ACM pediu para que ele organizasse a planilha de notas da turma de IP, então ele deixou esse trabalho para você. A mirabolante ideia de Samuel é: dados dois vetores, o programa deve mostrar qual é o seu VetOUr, ANDrray, e um vetor de frequência para cada um dos vetores dados. OBS: As operações de OR e AND devem ser feitas com os operadores bitwise (bit a bit). Caso você não saiba sobre, uma breve pesquisa no google vai te ajudar. Nesse vídeo você pode entender um pouco sobre também: https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "format_input": "Um inteiro n, onde 1 <= n <= 101; n números que fazem parte do 1º vetor, com os valores variando entre 0 e n; n números que fazem parte do 2º vetor, com os valores variando entre 0 e n;",
+    "format_output": "A saída possui uma formatação específica: \"VetOUr:\" (Sem as aspas) *os valores do VetOUr separados por espaço e no ultimo elemento ao invés de um espaço, uma quebra de linha* \"ANDrray:\" (Sem as aspas) *os valores do ANDrray separados por espaço e no ultimo elemento ao invés de um espaço, uma quebra de linha* \"Frequencia em A:\" (Sem as aspas) *para cada número entre 0 e n, indicar quantas vezes apareceu no vetor A, onde todos os números são separados por espaço e no ultimo elemento ao invés de um espaço, uma quebra de linha* \"Frequencia em B:\" (Sem as aspas) *para cada número entre 0 e n, indicar quantas vezes apareceu no vetor B, onde todos os números são separados por espaço e no ultimo elemento ao invés de um espaço, uma quebra de linha*",
+    "topics": [
+        "array"
+    ]
+}

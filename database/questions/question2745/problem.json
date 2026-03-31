@@ -1,0 +1,10 @@
+{
+    "title": "Sr. Indeciso e o evento II",
+    "time_limit": "9 segundo(s)",
+    "descrition": "Com sua ajuda (https://thehuxley.com/problem/2742), as coisas estavam indo muito bem durante a organização do evento do Sr. Indeciso. Como dito anteriormente, existem n dinheiros, e eles estavam organizados de forma crescente numa linha. Ele gostou bastante da organização, mas ele gosta das coisas bem dinâmicas, e decidiu fazer requisições ainda mais malucas; a organização do evento vai surtar se ninguém ajudá-los. Dessa vez, o Sr. Indeciso tem dois tipos de requisições: 1 - ele quer que seja exibido a soma s e o menor valor m dos dinheiros desde a posição L até a posição R. 2 - ele quer substituir o dinheiro da posição p por outro dinheiro com valor v. Ajude a organização do evento a não perder sua sanidade.",
+    "format_input": "A primeira linha da entrada terá um inteiro n (1 <= n <= 10^5), indicando quantos dinheiros serão usados na exibição do evento. A próxima linha da entrada terá n inteiros, onde cada inteiro representa o valor v_i (-10^5 <= v_i <= 10^5) do i-ésimo dinheiro. Em seguida, um inteiro q (1 <= q <= 10^5), indicando a quantidade de requisições que o Sr. Indeciso vai fazer. E então, virão q linhas, onde cada linha tem uma requisição do Sr. Indeciso: O primeiro tipo de requisição será da forma: Q L R, indicando o tipo da requisição, a posição inicial e a final, respectivamente. O segundo tipo de requisição será da forma: U p v, indicando o tipo da requisição, a posição da substituição e o valor do novo dinheiro, respectivamente. Limites: 0 <= L <= R < n 0 <= p < n -10^5 <= v <= 10^5",
+    "format_output": "Para cada requisição do tipo 1, deve ser impresso o valor da soma, e o valor mínimo no intervalo especificado da requisição.",
+    "topics": [
+        "segment tree"
+    ]
+}

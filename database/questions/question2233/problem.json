@@ -1,0 +1,12 @@
+{
+    "title": "Palavras quase iguais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade vai participar do Campeonato das Mentes Brilhantes. Nesse campeonato, os participantes competem entre si numa série de desafios, dentre eles, existe o desafio das palavras quase iguais. Esse desafio exige que os participantes respondam se duas palavras são quase iguais, e se não, qual a quantidade k de letras diferentes. Uma palavra A é quase igual à palavra B se, com as letras da palavra A, for possível formar a palavra B. Para treinar para competição, a Entidade escolheu uma série de palavras, mas ela precisa ter certeza da resposta, então, faça um programa para ajudá-la em sua prática.",
+    "format_input": "A primeira linha da entrada será uma cadeia de letras minúsculas sem espaços, representando a palavra A, e a segunda linha da entrada, outra cadeia de letras, representando a palavra B.",
+    "format_output": "A saída deverá seguir a seguinte formatação: \"String A is almost equal to string B\", se a palavra A for quase igual à palavra B. ou: \"They differ by k letters\", onde k é a quantidade de letras diferentes.",
+    "topics": [
+        "array",
+        "caractere",
+        "string"
+    ]
+}

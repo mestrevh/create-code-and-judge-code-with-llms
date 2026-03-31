@@ -1,0 +1,10 @@
+{
+    "title": "Teorema de Pitágoras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcule o valor da hipotenusa de acordo com o teorema de pitágoras. Você não precisa se preocupar com casos em que os catetos fornecidos não podem formar um triângulo. Pesquise como fazer a operação de raiz quadrada. O valor de saída deve ser arredondado usando 2 casas decimais.",
+    "format_input": "Os valores (reais) dos dois catetos.",
+    "format_output": "O valor da hipotenusa.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

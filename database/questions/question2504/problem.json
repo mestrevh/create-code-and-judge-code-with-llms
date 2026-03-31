@@ -1,0 +1,11 @@
+{
+    "title": "Senha secreta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Hércules, o príncipe Adam (a Fera), Aladim, John Smith e Tarzan, afastados do set de gravação, decidiram juntos fazer uma viagem para o Japão com finalidade de aprender um pouco mais sobre a cultura do país. Ao chegar lá, em um dos dias de sua estadia eles aprenderam uma técnica japonesa para criptografar senhas e mensagens. A técnica era muito simples, mas os viajantes acharam incrível, uma vez que não conheciam nenhuma outra. O professor que havia lhes ensinado pediu para que eles criassem um programa que pudesse agilizar esse processo de tradução, mas como eles não entendiam de programação, pediram sua ajuda para que conseguissem completar a tarefa. Dada uma frase de X caracteres, para ser codificada bastaria trocar N caracteres pelos novos caracteres fornecidos ao programa. Sua tarefa é construir um programa que receba a frase original junto a uma lista de caracteres e imprima a frase criptografada com os novos caracteres a serem alterados. Restrições: Proibido usar replace()/replaceAll(); Proibido usar arrays; É obrigatório o uso de laços de repetição para resolução desta questão; É obrigatório o uso de charAt(). Exemplo: String str = \"Vou tirar dez nessa prova!\"; char c = str.charAt(4); // atribui o caracter t à variável c; in.next().charAt(0); // Lê um caracter do teclado",
+    "format_input": "Uma string S representando a frase original; um inteiro N que indica o número de caracteres a serem trocados; seguidos de N linhas no formato: um inteiro I (indicando a posição na frase do caractere a ser trocado) e um caractere C (o novo caractere a ser colocado na posição I). OBS: as posições I são fornecidas em ordem crescente.",
+    "format_output": "SC - uma string representando a nova frase criptografada",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

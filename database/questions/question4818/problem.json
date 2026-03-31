@@ -1,0 +1,11 @@
+{
+    "title": "Buffer circular de mensagens",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um buffer circular é uma estrutura de tamanho fixo que funciona como uma “fila”: quando o buffer enche, os elementos mais novos sobrescrevem os mais antigos; o acesso é sempre feito por índices “cíclicos”. Você deve implementar um programa em C que simule um buffer circular de inteiros.",
+    "format_input": "1. Um inteiro n (1 ≤ n ≤ 100), representando o tamanho do buffer. 2. Um inteiro m (0 ≤ m ≤ 1000), representando o número de operações. 3. Em seguida, m linhas descrevendo operações, que podem ser: ADD x → adiciona o inteiro x ao fim do buffer. Se o buffer ainda não está cheio, apenas adiciona. Se já está cheio, o elemento mais antigo é descartado e x entra no lugar dele. REM → remove o elemento mais antigo do buffer (se estiver vazio, ignore). PRINT → imprime o conteúdo do buffer em ordem de chegada. Se estiver vazio, imprimir EMPTY. Caso contrário, imprimir os elementos separados por espaço.",
+    "format_output": "Deve conter as saídas de todas as operações PRINT, na ordem em que aparecem.",
+    "topics": [
+        "array",
+        "array circular"
+    ]
+}

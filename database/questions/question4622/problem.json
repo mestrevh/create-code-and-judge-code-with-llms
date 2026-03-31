@@ -1,0 +1,11 @@
+{
+    "title": "Dicionário de inglês",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oileh quer viajar para os Estados Unidos e precisa de ajuda com algumas palavras em inglês. Você irá criar um programa com um dicionário pré-determinado, e ele fornecerá uma frase em inglês. O programa deve substituir automaticamente as palavras da frase que estão no dicionário pelas suas traduções em português. Caso uma palavra não esteja no dicionário, ela permanece inalterada. Abaixo, estão os termos que Oileh pediu para que o dicionário traduzisse: hello: olá, world: mundo, apple: maçã, car: carro, orange: laranja, house: casa, book: livro, sun: sol, dog: cachorro, water: água, food: comida, street: rua, city: cidade, i: eu, want: quero, am: estou, a: um(a), table: mesa",
+    "format_input": "A entrada será uma frase em inglês composta por uma sequência de palavras. A entrada sempre deverá acabar com END. Todas as palavras, exceto END, deverão estar em minúsculo. Exemplo: i want water END",
+    "format_output": "A saída deve ser a mesma frase, mas com as palavras que possuem tradução no dicionário substituídas pelo equivalente em português. No final, a palavra END. Todas as palavras, exceto END, deverão estar em minúsculo. Além disso, não deverão possuir acento. Exemplo: eu quero agua END",
+    "topics": [
+        "recursão",
+        "string"
+    ]
+}

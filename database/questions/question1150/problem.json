@@ -1,0 +1,12 @@
+{
+    "title": "Distância entre Pontos",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A distância entre os pontos A e B é a medida do segmento que tem os dois pontos como extremidade. Por se tratar de dois pontos quaisquer, representaremos as coordenadas desses pontos de maneira genérica. Fonte: Brasil Escola Dessa forma para calcular a distância entre dois pontos faz-se necessário o seguinte: Nesse problema você irá desenvolver um programa que leia pares de pontos cartesianos e calcule as maiores distâncias encontradas e identifique em qual lugar do plano os pontos se encontram: origem, eixo y positivo, eixo x positivo, eixo y negativo, eixo x negativo, quadrante 1, quadrante 2, quadrante 3 e quadrante 4.",
+    "format_input": "Quantidade de pares de coordenadas Sequência de pares de coordenadas",
+    "format_output": "Maior distância encontrada Posição de cada par de coordenada no plano cartesiano",
+    "topics": [
+        "decisão",
+        "repetição",
+        "função"
+    ]
+}

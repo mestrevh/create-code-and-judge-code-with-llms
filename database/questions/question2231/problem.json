@@ -1,0 +1,10 @@
+{
+    "title": "L1Q7 - Batalha Final",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Depois de uma longa jornada, Mário e Luigi chegaram à fortaleza onde encontra-se a princesa Peach, mas antes de conseguirem finalmente resgatar a princesa, eles terão mais um desafio pela frente, o próprio Bowser. Os nossos heróis estarão equipados com uma das flores que lhes concedem poderes especiais, e os seus respectivos danos estão definidos na tabela a seguir: O nosso herói escolhido será capaz de desferir 4 golpes consecutivos no Bowser antes que ele fuja. Caso o dano causado pelo nosso herói seja maior, ou igual, à vida do Bowser, ele conseguiu derrotá-lo e salvar a princesa Peach, caso contrário, o Bowser conseguiu se trancar em sua fortaleza e raptou a princesa Peach para sempre.",
+    "format_input": "H\nI\nL\nH - String ({Mario, Luigi})\nI - String ({FireFlower, IceFlower, BoomerangFlower})\nL - numero natural\nonde:\na primeira linha é o nome do herói atacante\na segunda linha é o nome da flor equipada\na terceira linha é o total de vida que o Bowser possui naquele momento",
+    "format_output": "R\nR - string\nA única linha de saída é composta por um dos seguintes:\n\"*Nome do Herói* conseguiu derrotar o Bowser e salvar a princesa Peach.\", caso o dano causado pelo herói seja maior do que a vida do Bowser\n\"O Bowser conseguiu escapar.\", caso a vida do Bowser seja maior do que o dano causado",
+    "topics": [
+        "decisão"
+    ]
+}

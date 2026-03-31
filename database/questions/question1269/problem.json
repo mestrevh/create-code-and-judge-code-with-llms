@@ -1,0 +1,10 @@
+{
+    "title": "Diamante embutido",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um diamante, apesar de ser a pedra mais forte no corte de outras, é bastante frágil quando sofre pancadas. Vamos fazer um programa para gerar um diamante protegido contra pancadas?",
+    "format_input": "Um inteiro 2 <= N <= 9 que determinará a dimensão do diamante conforme exemplo.",
+    "format_output": "Para N=4 será gerado o seguinte diamante: \n*********\n****.****\n***...***\n**.....**\n*.......*\n**.....**\n***...***\n****.****\n*********",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,6 @@
+Título: Pamonha
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>&#13;&#13;Em Catolé do Rocha, Maria das Graças come pamonha especialmente durante o São João. Mas ela tem uma relação de amor e ódio com a pamonha. Em um dia ela ama comer pamonha, mas no dia seguinte odeia comer pamonha, e assim sucessivamente. Por exemplo, no dia n=1, o sentimento dela é: ‘eu amo comer pamonha’. No dia n=2, o sentimento dela é: ‘eu odeio comer pamonha’. No dia n=3, o sentimento dela é: ‘eu amo comer pamonha’, e assim por diante. A sua tarefa é identificar o sentimento de Maria das Graças pela pamonha no dia n.&#13;&#13;<br/></p>
+Formato da entrada: <p>&#13;&#13;Cada caso de teste contém um número inteiro indicando o dia n (1 ≤ n ≤ 10 elevado a 6).&#13;&#13;&#13;<br/></p>
+Formato da saída: <p>&#13;&#13;Para cada caso de teste, imprima o sentimento de Maria das Graças sobre comer pamonha.&#13;&#13;&#13;<br/></p>

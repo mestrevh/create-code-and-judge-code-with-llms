@@ -1,0 +1,10 @@
+{
+    "title": "testando criaçao de problemas",
+    "time_limit": "4 segundo(s)",
+    "descrition": "uma descrição qualquer",
+    "format_input": "um formato de entrada",
+    "format_output": "um formato de saida",
+    "topics": [
+        "array"
+    ]
+}

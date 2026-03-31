@@ -1,0 +1,11 @@
+{
+    "title": "Estações do Ano",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As quatro estações do ano variam de acordo com as datas: Primavera: 21 setembro até 20 dezembro Verão: 21 dezembro até 20 março Outono: 21 março até 20 junho Inverno: 21 junho até 20 setembro Escreva uma função chamada EstacaoAno que receba como entrada um dia e um mês e retorne o nome da estação correspondente. Obs: Não use acento em VERAO",
+    "format_input": "Dois valores inteiros, representando o dia e o mês nessa sequência",
+    "format_output": "Um String em letras maiúsculas",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

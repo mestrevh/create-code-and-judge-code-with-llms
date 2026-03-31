@@ -1,0 +1,10 @@
+{
+    "title": "Mediana de 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva uma função que receba um vetor de inteiros [0..n-1] e que utilize o método da mediana de 3 para particionar o array de entrada. O resultado final deve constar de uma linha com o pivô e outra linha de dados com o array com os valores particionados. Ou seja, elementos menores ou iguais que o pivot devem estar à \"esquerda\"(entre a posição inicial do vetor indicada pelo índice p e q-1) do pivot (indicado pelo índice q representado pela cor verde). Elementos maiores que p pivot devem estar à \"direita\" (da posição q+1 até o final do array indicado pelo índice r). Finalmente o pivot selecionado deve se localizar na posição indicada pelo índice q separando os dois grupos de valores.",
+    "format_input": "Um vetor de valores inteiros [0..n-1] com os números separados por espaço entre eles.",
+    "format_output": "Uma linha de dados informando o valor do pivô. Uma linha de dados z[0..n-1] representando os vetores de entrada classificados.",
+    "topics": [
+        "ordenação"
+    ]
+}

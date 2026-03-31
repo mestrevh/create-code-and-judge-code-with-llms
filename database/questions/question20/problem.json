@@ -1,0 +1,10 @@
+{
+    "title": "Loop de inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que imprima os números inteiros de 1 a 1000.",
+    "format_input": "Nenhuma entrada é necessária",
+    "format_output": "Todos os números inteiros da descrição, um por linha.",
+    "topics": [
+        "repetição"
+    ]
+}

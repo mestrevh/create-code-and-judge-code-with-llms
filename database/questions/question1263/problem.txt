@@ -1,0 +1,6 @@
+Título: Enésima raiz
+Topicos do problema: dividir e conquistar; 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <div style="text-align: left;">Dado um número <b>a </b>real e um inteiro <b>n</b>, encontre o valor de <b>b</b>.<br/></div><div style="text-align: center;"><br/></div><div style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/e4be5b1799579836ec31d0f4968e2b6233dca44fz.png"/></div><br/>
+Formato da entrada: <p>A primeira linha terá um inteiro <b>Q </b>que indica a quantidade de consultas. Em seguida teremos <b>Q</b> linhas com dois valores <b>a</b> e <b>n, </b>onde <b>x</b><br/> é um valor real e <b>n </b>é inteiro indicando o índice da raiz.</p><p>Restrições:</p><ul><li>1 &lt;= <b>Q</b> &lt;= 100.000</li><li>0 &lt;= <b>a</b> &lt;= 100.000</li><li>1 &lt;= <b>n</b> &lt;= 100</li></ul><p><b>Dica</b>: Você deve parar quando a sua resposta tiver uma precisão maior que 10^(-6) , ou seja, se a raiz de um número for 3.456789223546 você pode parar se encontrar 3.456789, independentemente do que vier depois do algarismo nove da sua resposta. Lembrando que a impressão deve ser apenas 3.4<br/></p>
+Formato da saída: <p>Para cada consulta imprima <b></b>o valor de<b> b </b>com uma casa decimal.<br/></p>

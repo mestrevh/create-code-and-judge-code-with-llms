@@ -1,0 +1,6 @@
+Título: Palíndromos Entre Parênteses
+Topicos do problema: estrutura de dados; palíndromos; pilha; caractere; string; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um algoritmo que, dada uma cadeia de caracteres, contendo parêntesis, letras maiúsculas e minúsculas, mostre se os parêntesis estão balanceados e se a string formada pela união de todas as letras forma um palíndromo.</p>
+Formato da entrada: <p>A entrada consiste de várias linhas, onde em cada linha contém uma string contendo letras maiúsculas, minúsculas e parênteses.</p>
+Formato da saída: <p>Para cada string lida, seu algoritmo deverá imprimir duas linhas. Uma linha com a mensagem &#34;<b>PARENTESES: X</b>&#34; e outra linha com a mensagem &#34;<b>PALINDROMO: Y</b>&#34;, onde <b>X</b> deve ser substituído por &#34;<b>BALANCEADOS</b>&#34;, se os parêntesis estiverem balanceados e &#34;<b>NAO BALANCEADOS</b>&#34;, caso contrário.</p><p><b>Y </b>deve ser substituído por &#34;<b>SIM</b>&#34; se a união das string formar um palíndromo e &#34;<b>NAO</b>&#34;, caso contrário. Estas duas linhas devem estar delimitadas por linhas contendo &#34;<b>----</b>&#34;.</p><p>Exemplo:</p><ul><li>Entrada: (aba)</li><li>Saída:</li></ul>                    ----<div>                    PARENTESES: BALANCEADOS</div><div>                    PALINDROMO: SIM<br/><p>                    ----</p></div>

@@ -1,0 +1,11 @@
+{
+    "title": "Atividades Complementares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os projetos pedagógicos dos cursos de graduação do Departamento de Computação prevêem que os alunos precisam fazer atividades complementares e após um determinado número de horas dessas atividades, os alunos solicitam créditos, sem os quais eles não conseguem se formar. Contudo, nem todas as atividades podem ser aceitas para contagem de horas de atividades complementares. Assim, precisamos de uma forma de dadas as características de uma atividade, determinar se ela pode ou não ser aceita para contagem de atividades complementares. As características que serão avaliadas são: Tipo de atividade, podendo ser: Seminários e Palestas Congressos Minicursos Carga-horária Se é em computação ou em outras áreas Se há justificativa Uma atividade é aceita para contagem de horas complementares se for um congresso ou minicurso com carga-horária de pelo menos 12 horas. Seminários e palestras precisam ter carga-horária de pelo menos 1 hora. Qualquer tipo de atividade precisa ser uma atividade em computação ou, caso seja atividade em outra área, precisa ter justificativa válida.",
+    "format_input": "A entrada é dada por 4 linhas onde a primeira é composta por uma palavra (seminario, congresso, minicurso) indicando o tipo de atividade, a segunda linha é composta por um número real indicando a duração em horas da atividade, a terceira linha é composta por uma palavra (computacao, outras) indicando a área da atividade e, finalmente, a quarta linha contém um caractere (S ou N) indicando se há ou não justificativa.",
+    "format_output": "A saída será a palavra ACEITA caso a atividade cumpra os critérios para contagem de horas complementares ou REJEITADA caso contrário.",
+    "topics": [
+        "decisão",
+        "entrada formatada"
+    ]
+}

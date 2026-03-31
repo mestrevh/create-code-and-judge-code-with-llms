@@ -1,0 +1,11 @@
+{
+    "title": "Soma alternada de inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia um número inteiro positivo N e, em seguida, leia N números inteiros. Seu programa deve calcular a soma alternada desses números, ou seja, deve somar o primeiro, subtrair o segundo, somar o terceiro, subtrair o quarto, e assim por diante, alternando entre soma e subtração.",
+    "format_input": "Um número inteiro N (1 ≤ N ≤ 1000). Uma sequência de N números inteiros.",
+    "format_output": "Um único número inteiro representando o resultado da soma alternada.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

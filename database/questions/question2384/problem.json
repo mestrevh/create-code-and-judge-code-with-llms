@@ -1,0 +1,11 @@
+{
+    "title": "Caminhos em Grafos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma região de Ambrolândia, uma enchente atingiu vários vilarejos. Muitas pessoas estão ilhadas e precisam de resgate urgente. A defesa civil dispõe apenas de um helicóptero e uma van para fazer os resgates. Como a situação é crítica, a defesa civil enviará a van e o helicóptero ao mesmo tempo, porém, devido à grande força da enchente, algumas pontes que ligam uns vilarejos aos outros foram totalmente destruídos impossibilitando assim o acesso via terrestre. O combustível é pouco, então é imprescindível saber quais vilarejos estão acessíveis por terra e quais não. Por sorte, a equipe de resgate possui o mapeamento da região e esse mapeamento é modelado por um grafo não direcionado. Ajude a defesa civil elaborando um algoritmo que, dadas as coordenadas dos vilarejos, um vilarejo A e um vilarejo B, informe se existe caminho partindo do vilarejo A e chegando no vilarejo B.",
+    "format_input": "A entrada consiste de dois inteiros V e P indicando o número V de vilarejos e o número P de pontes do grafo. Em seguida serão informadas P linhas, cada uma composta por dois inteiros V1 e V2 indicando a ligação de dois vilarejos. Por fim serão fornecidos mais dois inteiros S e D representando o vilarejo de origem e o vilarejo de destino. Por exemplo, a entrada 3 2 0 1 1 2 0 2 representa o seguinte mapeamento de três cidades onde a última linha significa que deseja-se saber se existe caminho do vilarejo 0 ao vilarejo 2.",
+    "format_output": "A saída consiste de um linha contendo a mensagem \"EXISTE\" caso exista caminho do vilarejo de origem ao de destino e \"NAO EXISTE\" caso contrário. A mensagem deve conter uma quebra de linha no final.",
+    "topics": [
+        "estrutura de dados",
+        "grafo"
+    ]
+}

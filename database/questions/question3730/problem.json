@@ -1,0 +1,11 @@
+{
+    "title": "Teste",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este exercício requer os conhecimentos de Busca em profundidade (DFS) vistos em sala. A entrada consiste num grafo representado da seguinte forma: X->Y D tal que: X e Y são nós representados por caracteres (char) e D é uma distância em número inteiro não-negativo (int). Note que este grafo não é direcionado, ou seja: se X->Y D pertence ao grafo, então Y->X D também estará no input do grafo. A entrada termina com uma linha em branco. O nó inicial é o S, e o nó objetivo é o G. Para fins práticos, o código que interpreta o input (em Python) está neste pastebin, bastando você programar o DFS: https://pastebin.com/pDrfDf5x A saída deve ser impressa no formato: um nó por linha (na ordem que cada nó foi visitado), ao fim uma linha em branca deve ser impressa. A ordem de visita deverá priorizar a ordem de aparição no input (que também é a ordem alfabética).",
+    "format_input": "A->B 4\nA->C 3\nA->S 2\nB->A 4\nB->G 10\nC->A 3\nG->B 10\nS->A 2",
+    "format_output": "['S']\n['A']\n['B', 'C', 'A']\n['G', 'B', 'C', 'A']",
+    "topics": [
+        "grafo",
+        "busca"
+    ]
+}

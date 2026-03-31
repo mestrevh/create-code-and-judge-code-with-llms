@@ -1,0 +1,6 @@
+Título: Lista Encadeada Ordenada
+Topicos do problema: ordenação; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Crie uma função que lê 5 inteiros e os insere de forma ordenada em uma lista simplesmente encadeada.</p><p>Entrada: Uma sequência de 5 números inteiros.</p><p>Saída: Deve imprimir os 5 inteiros em ordem separados por espaço.<br/></p>
+Formato da entrada: <p><span>3</span></p><p>0</p><p>5</p><p>-2</p><p>-1</p>
+Formato da saída: <p>-2 -1 0 3 5</p>

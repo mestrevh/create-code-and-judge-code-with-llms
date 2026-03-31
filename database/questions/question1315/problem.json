@@ -1,0 +1,10 @@
+{
+    "title": "Bissexto",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Construa um algortimo que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.",
+    "format_input": "Ano",
+    "format_output": "Bissexto ou não",
+    "topics": [
+        "decisão"
+    ]
+}

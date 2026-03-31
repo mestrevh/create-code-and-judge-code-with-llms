@@ -1,0 +1,10 @@
+{
+    "title": "É um número triangular?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um número natural é triangular se ele é produto de três números naturais consecutivos. Por exemplo: 120 é triangular, pois 4*5*6 = 120. O número 2730 é triangular, pois 13*14*15 = 2730. Dado um número natural (inteiro não-negativo) n, verifique se ele é triangular ou não.",
+    "format_input": "Um número natural",
+    "format_output": "Caso o número seja triangular, apresentar quais números formam o número triangular e a mensagem Verdadeiro. Veja exemplo a seguir: 13*14*15 = 2730 Verdadeiro Caso o número não seja triangular, apresente a mensagem Falso.",
+    "topics": [
+        "repetição"
+    ]
+}

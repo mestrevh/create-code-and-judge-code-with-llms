@@ -1,0 +1,11 @@
+{
+    "title": "Bônus",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Garfield criou um jogo, baseado em uma matriz NxM (N linhas e M colunas), onde cada posição tem uma bonificação/pontuação, o objetivo desse jogo é sair da posição 0x0 e chegar até a posição (N-1)x(M-1), buscando a maior pontuação acumulada saindo de 0x0 e chegando em (N-1)x(M-1). Garfield decidiu colocar uma regra para facilitar esse jogo, somente são permitidos movimentos para direita e movimentos para baixo. exemplo: Neste exemplo de matriz 3x3, a maior pontuação é 16. OBS.1: A posição 0x0 sempre terá pontuação 0.",
+    "format_input": "Um inteiro N e um inteiro M, onde 1 < N,M < 6. Em seguida serão lidos os N*M valores da matriz.",
+    "format_output": "imprima apenas o valor da maior pontuação, exemplo: 16",
+    "topics": [
+        "backtracking",
+        "recursão"
+    ]
+}

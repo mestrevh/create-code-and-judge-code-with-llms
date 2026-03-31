@@ -1,0 +1,13 @@
+{
+    "title": "Interior da área",
+    "time_limit": "1 segundo(s)",
+    "descrition": "",
+    "format_input": "Um coordenadas x e y separadas por um espaço em branco. Cada ponto é dado em uma linha separada.",
+    "format_output": "A string INTERIOR ou EXTERIOR.",
+    "topics": [
+        "geometria computacional",
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática"
+    ]
+}

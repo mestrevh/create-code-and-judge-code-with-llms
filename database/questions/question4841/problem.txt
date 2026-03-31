@@ -1,0 +1,6 @@
+Título: Estações do Ano (Hemisfério Sul)
+Topicos do problema: decisão; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p><span style='color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);float: none;'>As quatro estações do ano no hemisfério Sul variam de acordo com as datas:<br/><br/><strong>Primavera</strong>: 21 setembro até 20 dezembro<br/><strong>Verão</strong>: 21 dezembro até 20 março<br/><strong>Outono</strong>: 21 março até 20 junho<br/><strong>Inverno</strong>: 21 junho até 20 setembro<br/><br/>Escreva uma função chamada EstacaoAno que receba como parâmetros o número do dia e do mês e retorne o nome da estação correspondente.<br/><br/></span></p>
+Formato da entrada: <p><span style='color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);float: none;'>Na primeira linha deve ser lido o número do dia (1 a 31)<br/><br/>Na segunda linha, deve ser lido o número do mês (1 a 12).</span></p>
+Formato da saída: <p><span style='color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);float: none;'>Uma String em letras maiúsculas podendo ser um dos seguintes valores: PRIMAVERA, VERAO, OUTONO e INVERNO.</span></p>

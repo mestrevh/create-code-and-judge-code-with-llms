@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Repetição - B",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[while] Elabore um programa que recebe valores inteiros até que seja digitado o valor zero. O programa deverá exibir a média aritmética dos valores recebidos. Lembre-se: o valor zero apenas sinaliza o fim da entrada, não deve ser contabilizado. Obs.: Não existe média sem que pelo menos um valor seja dado antes do zero, portanto neste problema ESTÁ GARANTIDO QUE HÁ MÉDIA.",
+    "format_input": "Diversos valores inteiros, um por linha. A entrada é encerrada com a leitura do valor zero.",
+    "format_output": "A média aritmética dos valores lidos, não considerando o zero que encerra a entrada.",
+    "topics": [
+        "repetição"
+    ]
+}

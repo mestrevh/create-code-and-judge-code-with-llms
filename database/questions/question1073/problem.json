@@ -1,0 +1,11 @@
+{
+    "title": "Esfera",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Dado o valor da altura do segmento e do raio, calcule o volume do segmento de um círculo usando a fórmula abaixo: Atenção: assuma que PI = 3.14. Na figura abaixo temos um segmento representado pela parte azul (fonte: Wikipedia):",
+    "format_input": "A entrada será dois valores em ponto flutuante, sendo um correspondente ao raio e o outro à altura do segmento da esfera.",
+    "format_output": "A saída deverá ser uma mensagem contendo a palavra \"VOLUME\" conforme o exemplo fornecido abaixo, com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto. VOLUME = 113.097",
+    "topics": [
+        "ponto flutuante",
+        "lógica matemática"
+    ]
+}

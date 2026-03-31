@@ -1,0 +1,10 @@
+{
+    "title": "Linear Recurrence Problem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em uma certa manhã, o Protagonista estava brincando com recorrências lineares. Ele pensou na seguinte recorrência, descrita pela função f: Porém, o Protagonista estava muito interessado em saber o valor de f(N), mas não sabia como calcular. Você pode ajudar ele nessa missão?",
+    "format_input": "A entrada vai conter cinco números inteiros A, B, C, D e N respectivamente. 1 <= A, B, C, D <= 100 0 <= N <= 10",
+    "format_output": "Um número inteiro indicando o valor de f(N).",
+    "topics": [
+        "maratona"
+    ]
+}

@@ -1,0 +1,6 @@
+Título: Avaliando o gabarito
+Topicos do problema: array; decisão; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que avalie o gabarito de vários alunos e diga quem teve as melhores notas.</p><p class="inserted">Seu programa deve receber um gabarito de 5 questões.</p><p class="inserted">Em seguida, receberá o nome do aluno e suas respostas para as questões. Você deve verificar quantas questões ele acertou e atribuir-lhe uma nota. Cada questão vale 20 pontos.</p><p class="inserted">No final você deve informar quantos alunos ficaram acima da média da turma e qual o aluno que obteve a maior nota. Em caso de empate, você deve imprimir o nome do último aluno com a maior nota.</p><p class="inserted">Seu programa deve encerrar quando receber 'sair' em vez do nome de um aluno.</p>
+Formato da entrada: <ul class="inserted"><li>O gabarito da prova (que deve ser recebido uma única vez)</li><li class="inserted">Os nomes de vários alunos e suas respectivas respostas</li></ul>
+Formato da saída: <ul><li class="inserted">Quantos alunos ficaram acima da média da turma</li><li>Qual aluno obteve a maior nota<br/></li></ul>

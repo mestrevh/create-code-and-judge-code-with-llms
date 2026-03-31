@@ -1,0 +1,6 @@
+Título: Alô Mundo
+Topicos do problema: 
+Tempo limite de execução: 20 segundo(s)
+Descrição: <ol type="1" style="color: rgb(51, 51, 51);text-align: justify;"><li>Faça um Programa que mostre a mensagem &#34;<b>Alô mundo!</b>&#34; na tela.</li></ol>
+Formato da entrada: None
+Formato da saída: <p><span style="color: rgb(51, 51, 51);text-align: justify;background-color: rgb(255, 255, 255);">Alô mundo!</span><br/></p>

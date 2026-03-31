@@ -1,0 +1,12 @@
+{
+    "title": "Ambrósio e as pirâmides",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio, seu amigo de longa data (ou não!), fez uma viagem para o Egito e ficou fascinado com as pirâmides de Gizé. Como ele descobriu que você começou a programar, ele lhe pediu para desenhar uma pirâmide. Lhe será dado a quantidade de níveis que ela possui (altura), por exemplo, uma pirâmide de 10 níveis, tem 10 linhas de altura.",
+    "format_input": "Um inteiro 'P' correspondendo a altura da pirâmide. (Observe os exemplos de entrada!)",
+    "format_output": "A pirâmide desenhada. (Observe os exemplos de saída!)",
+    "topics": [
+        "repetição",
+        "recursão",
+        "formatação"
+    ]
+}

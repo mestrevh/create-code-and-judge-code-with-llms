@@ -1,0 +1,6 @@
+Título: Itens de Caruaru
+Topicos do problema: 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Dudu está voltando dos Estados Unidos e pretende comprar, no máximo, M lembrancinhas na feira de Caruaru para matar as saudades do seu querido estado. Na feira, há N itens que podem ser comprados.Dudu organizou estes itens em G grupos, de maneira que todos os itens em um grupo são similares e,assim sendo, Dudu comprará, no máximo, um item de cada grupo. Dudu tem X reais para gastar com estas compras e quer gastar o máximo, obedecendo todas as restrições anteriores. Ajude Dudu a calcular o quanto ele gastará com estas compras.<br/></p>
+Formato da entrada: <p>A primeira linha da entrada contém T (1 ≤ T ≤ 100), o número de casos de teste. Cada caso de teste começará com 4 inteiros, N​, M​, G e X (1 ≤ M​, G ≤ N ≤ 200, 0 ≤ X ≤ 300). As próximas G linhas listarão quantos itens estão no grupo, e qual o valor de cada um dos itens. A soma das quantidades de todos os grupos será igual à N​.<br/></p>
+Formato da saída: <p>Para cada caso de teste imprima em uma única linha “Caso #T​: X​”, onde T é o número do caso atual,começando em 1, e X​ é o quanto Dudu irá gastar com suas compras.<br/></p>

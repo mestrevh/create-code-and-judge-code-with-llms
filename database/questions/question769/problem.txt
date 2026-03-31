@@ -1,0 +1,6 @@
+Título: Troca-troca
+Topicos do problema: ponteiro; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça uma função que troque o valor de duas variáveis inteiras.</p>
+Formato da entrada: <p><span>20</span><br/></p><p>10</p>
+Formato da saída: <p>10</p><p>20</p>

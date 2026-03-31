@@ -1,0 +1,12 @@
+A lista de notas é:
+[10, 30, 50, 50, 50, 32, 30, 32, 50, 10, 18, 90, 90, 90, 50, 32, 80, 90, 90, 90, 18, 32, 10, 10, 10, 90, 90, 90, 90, 90, 50, 90, 32]
+Foram lançadas as seguintes notas:
+[10, 30, 50, 32, 18, 90, 80]
+A nota 10 repetiu 5 vezes.
+A nota 30 repetiu 2 vezes.
+A nota 50 repetiu 6 vezes.
+A nota 32 repetiu 5 vezes.
+A nota 18 repetiu 2 vezes.
+A nota 90 repetiu 12 vezes.
+A nota 80 repetiu 1 vezes.
+A nota que mais se repetiu foi a: 90, ela foi responsável por 36.4% das notas

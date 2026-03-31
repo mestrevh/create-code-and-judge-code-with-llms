@@ -1,0 +1,13 @@
+{
+    "title": "Andando na via",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um engenheiro responsável pela manutenção das calçadas da cidade pediu para você criar um programa que informa a ele se determinada via está ou não completa. Você receberá como entrada uma matriz de tamanho NxN, que representa o mapa de um determinado local. O objetivo é saber se existe um caminho de 1's que liga o canto superior esquerdo da matriz ao canto inferior direito. A matriz é preenchida por 1's nas posições em que há uma via e a mesma está em boas condições, e por 0's por onde não tem via ou a mesma está obstruída, desse modo, um caminho completo trata-se de uma linha contínua de 1's que liga os cantos. Só existe uma via na matriz, ou seja, não haverá cruzamentos ou 1's fora dela, em caso de um caminho completo. Uma determinada posição da via só é ligada a outra caso essa esteja imediatamente acima, abaixo ou em um dos lados da mesma, logo, uma via que estiver na diagonal de outra não estará imediatamente ligada a ela.",
+    "format_input": "Primeiramente, você receberá um inteiro N, que informa o tamanho dos lados da matriz, logo após, receberá uma matriz de tamanho NxN.",
+    "format_output": "Caso a via que liga o canto superior esquerdo ao canto inferior direito esteja completa, imprima \"OK\". Caso contrário, imprima \"NOT OK\", ambos sem aspas.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

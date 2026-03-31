@@ -1,0 +1,6 @@
+Título: Soma das diagonais
+Topicos do problema: decisão; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Dada uma matriz quadrada, informe qual a maior soma: a dos números presentes na diagonal principal ou na diagonal secundária. <br/></p><p>Exemplo:</p><p>10 20 48</p><p>28 37 84</p><p>25 49 33</p><p>Diagonal principal: 10 + 37 + 33 = 80.</p><p>Diagonal secundária:  48 + 37 + 25 = 110.</p><p>Nesse caso, a soma dos números da diagonal secundária é maior!<br/></p>
+Formato da entrada: <p>Primeiramente é informado um inteiro N, indicando o tamanho da matriz quadrada, seguido pela matriz NxN.<br/></p>
+Formato da saída: <p>Caso a soma dos números da diagonal principal seja maior, deve-se imprimir &#34;Principal&#34;, caso contrário, deve-se imprimir &#34;Secundaria&#34;. Caso haja empate, deve-se imprimir &#34;Empate&#34;. Não deve haver acentos ou aspas!<br/></p>

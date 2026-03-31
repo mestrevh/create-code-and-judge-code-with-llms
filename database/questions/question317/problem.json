@@ -1,0 +1,13 @@
+{
+    "title": "Teclado Quebrado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você está digitando um texto longo com um teclado quebrado. Bem, ele não está tão quebrado... O único problema com o teclado é que às vezes a tecla \"home\" ou a tecla \"end\" é automaticamente pressionado (internamente). Você não está ciente deste problema, já que você está focando o texto e nem sequer olha pro monitor! Depois que você terminar de digitar, você pode ver um texto na tela (se você olhar para o monitor). Em chinês, esse tipo de texto é chamado Beiju. Sua tarefa é encontrar o texto Beiju.",
+    "format_input": "Uma única linha que contém pelo menos uma e, no máximo, quinhentas letras, sublinhados e dois caracteres especiais '[' e ']'. O '[' Significa que a tecla \"Home\" é pressionada internamente, e ']' significa que a tecla \"End\" é pressionada internamente",
+    "format_output": "Uma linha, contendo o texto que apareceu na tela do digitador, seguida de uma quebra de linha.",
+    "topics": [
+        "pilha",
+        "função",
+        "alocação dinâmica",
+        "ponteiro"
+    ]
+}

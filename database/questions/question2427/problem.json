@@ -1,0 +1,11 @@
+{
+    "title": "L1Q9 - Trem Bala",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O metrô do japão é bem famoso, por suas extensas linhas que cobrem toda capital, além de sua pontualidade, nunca se atrasando e quando isso ocorrem, a empresa faz questão de pedir desculpa aos usuarios. Os alunos do Cin depois de não terem abastecido o carro que alugaram com combustível suficiente, tiveram que seguir o seu tour pelo japão de metrô. Porém justo no dia que eles foram utilizar o serviço, o metrô estava com um problema na exibição das linhas, que normalmente são identificadas por uma letra seguida de um número, no seguinte formato: A-23 Mas um bug no programa de exibição do painel estava mostrando a posição da letra no alfabeto, no lugar da letra em si, e no caso acima estava sendo mostrado: 01-23 Dessa forma para agilizar o reconhecimento de qual metrô deveriam pegar, pediram a você que fizesse um programa que identificasse qual deveriam ir de acordo com o que estava sendo exibido no painel. Abaixo segue a lista das estações: A-91. Meguro B-82. Shirokanedai C-73. Shirkane-Takanawa D-64. Mita E-55. Shiba-Koen F-46. Oniramon G-37. Uchi-Saiwaicho H-28. Hibiva I-19. Otemachi J-50. Jimbocho K-41. Siudobashi L-32. Kasuga M-23. Hakusan N-14. Sengoku O-65. Sugamo P-76. Nishi-Sugamo Q-87. Shin- Itabashi R-98. Itabashe-Kuyakushomae S-09. Itabashi-Honcho T-26. Motohasunuma U-27. Shimura-Sakaue V-28. Shimura-Sanchome W-29. Hasune X-20. Nishidai Y-21. Takashimadeira Z-22. Shin-Takashimadaira",
+    "format_input": "A entrada será composta por um única linha, contendo a estação que desejam ir: 02-82",
+    "format_output": "A saída deve ser composta por uma linha informando o número de identificação e nome da estação destino: Nós estamos indo para estação Y, cujo nome é X. X e Y são strings",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

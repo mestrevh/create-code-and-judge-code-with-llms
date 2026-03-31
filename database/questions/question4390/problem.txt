@@ -1,0 +1,6 @@
+Título: Intervalo de números
+Topicos do problema: ciclos; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Você precisa ler dois números inteiro e mostrar em sequencia os números que estão entre eles.<br/></p>
+Formato da entrada: <p> A entrada contém dois números inteiros N1 e N2.<br/></p>
+Formato da saída: <p>Seu programa deve imprimir todos os números entre N1 e N2 incluindo N1 e N2.<br/></p>

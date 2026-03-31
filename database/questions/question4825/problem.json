@@ -1,0 +1,11 @@
+{
+    "title": "Pokérus: O vírus Pokémon.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Riquelme é um treinador experiente, mas recentemente esqueceu de limpar as prateleiras onde guarda seus Pokémons em Pokébolas. Por descuido, um perigoso vírus conhecido como Pokérus começou a se espalhar entre eles! As prateleiras são organizadas em uma matriz de tamanho N x N, onde cada posição representa o local de um Pokémon. A posição é identificada pelas coordenadas (x, y), em que x indica a linha e y a coluna. Felizmente, Riquelme tomou algumas precauções: ele vacinou parte de seus Pokémons e também sabe quais deles são capazes de espalhar o vírus. As regras de contágio são as seguintes: 1. Cada Pokémon pode ou não estar vacinado. 2. Cada Pokémon pode ou não ter capacidade de contágio. 3. Pokémons vacinados nunca são infectados. 4. Se um Pokémon tem capacidade de contágio, todos os Pokémons não vacinados que estão adjacentes a ele (acima, abaixo, à esquerda e à direita) serão infectados. 5. Pokémons que foram infectados por contágio não transmitem o vírus, mesmo que tivessem essa capacidade originalmente. Sabendo disso, Riquelme precisa da sua ajuda! Ele fornecerá a posição e as informações de cada Pokémon, e o seu programa deverá determinar quais Pokémons serão infectados após o contágio se espalhar.",
+    "format_input": "A entrada é composta por: Um inteiro N, representando o tamanho da matriz N x N (as prateleiras). Um inteiro M, representando a quantidade de Pokémons armazenados. Em seguida, M linhas, cada uma contendo as seguintes informações: x y nome vacinado contagioso infectado Em que: x e y -> posição do Pokémon na matriz nome -> nome do Pokémon (string sem espaços de tamanho <= 100) vacinado -> 1 se o Pokémon está vacinado, 0 caso contrário contagioso -> 1 se o Pokémon pode espalhar o vírus, 0 caso contrário infectado -> 1 se o Pokémon já está infectado, 0 caso contrário",
+    "format_output": "A lista de pokémon infectados após o contágio separados por uma quebra de linha, baseado na posição deles, da esquerda pra direita, de cima pra baixo.",
+    "topics": [
+        "array bidimensional",
+        "string"
+    ]
+}

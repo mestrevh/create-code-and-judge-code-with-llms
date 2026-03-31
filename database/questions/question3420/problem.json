@@ -1,0 +1,11 @@
+{
+    "title": "Série de Fetuccine",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A série de Fetuccine é gerada da seguinte forma: os dois primeiros termos são fornecidos pelo usuário; a partir daí, os termos são gerados com a soma ou subtração dos dois termos anteriores, da seguinte forma: Escreva um programa que imprima os n primeiros termos dessa série.",
+    "format_input": "3 números inteiros na mesma linha representando: o primeiro termo, o segundo termo e o número de termos da série (maior ou igual a 2), respectivamente.",
+    "format_output": "Os termos da série escritos em coluna.",
+    "topics": [
+        "lógica matemática",
+        "repetição"
+    ]
+}

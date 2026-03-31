@@ -1,0 +1,6 @@
+Título: O famigerado palíndromo
+Topicos do problema: palíndromos; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>&#13;&#13;Faça um programa que dada uma string analise se é um palíndromo ou não.<br/></p>
+Formato da entrada: <p>&#13;&#13;Uma string de tamanho máximo 100.&#13;&#13;&#13;<br/></p>
+Formato da saída: <p>&#13;&#13;S, se for palíndromo.</p><p>N, se não for.&#13;&#13;&#13;<br/></p>

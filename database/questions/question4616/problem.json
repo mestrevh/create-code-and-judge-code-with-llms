@@ -1,0 +1,10 @@
+{
+    "title": "Fórmula secreta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oileh, recentemente, abriu uma lanchonete de sucesso, onde vende uma variedade de hambúrgueres. Graças a uma fórmula secreta para cada sanduíche no cardápio, a lanchonete rapidamente conquistou popularidade. No entanto, com o aumento da fama, Oileh percebeu que concorrentes estavam interessados em obter as receitas secretas dos seus sanduíches. Preocupado, ele bolou um plano: criar um sistema avançado de criptografia para proteger as receitas, de modo que os ingredientes secretos fossem codificados. Assim, contratou Nosdul, um especialista em segurança, para desenvolver um sistema de proteção perfeito. Após muito trabalho, Nosdul criou um programa que gerava os códigos dos pedidos dos clientes e pediu a você, um amigo dele, para desenvolver o programa que decifraria esses códigos em ingredientes. Instruções: O código de cada pedido será representado por um número inteiro. O programa deverá decifrar o código e determinar os ingredientes do pedido com base nas seguintes regras: 1. Se o primeiro dígito do pedido (contando da direita para esquerda, ou seja, a casa das unidades) for par, o pedido conterá \"picles\". 2. Se a soma do primeiro e segundo dígito do pedido for par, o pedido conterá \"maionese\". 3. Se o número de dígitos ímpares no código for maior que o número de dígitos pares, o pedido conterá \"cebola\". 4. Se a soma de todos os dígitos for maior que 20, o pedido conterá \"alface\". 5. Se o código for múltiplo de 5, o pedido conterá \"presunto\". 6. Se o código for múltiplo de 3, o pedido conterá \"frango\". 7. Se o código não for primo, o pedido conterá \"bife\".",
+    "format_input": "Um número inteiro representando o código do pedido.",
+    "format_output": "A frase \"ingredientes:\", seguida de uma quebra de linha, e depois uma lista dos ingredientes presentes no pedido, de acordo com a ordem apresentada nas regras, cada um em uma linha separada.",
+    "topics": [
+        "recursão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Soma dois inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois números inteiros efetue a soma.",
+    "format_input": "2 3",
+    "format_output": "5",
+    "topics": [
+        "obi"
+    ]
+}

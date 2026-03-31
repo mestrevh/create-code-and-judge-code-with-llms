@@ -1,0 +1,10 @@
+{
+    "title": "A = B",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois números inteiros A e B (A > B), subtraia potências de 2 de A até que o valor de A seja igual a o de B. Obs: O mesmo número não pode ser usado mais de uma vez. Obs2: Para não gerar ambiguidade os números devem ser impressos em ordem decrescente.",
+    "format_input": "Dois inteiros A e B (1 <= A,B <= 10^12).",
+    "format_output": "Vários inteiros em ordem decrescente indicando os números a serem subtraídos de A.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Pedra, Papel e Tesoura",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Miguel e Maria Rita são irmãos e sempre brigam para resolver quem tem que fazer o quê no apartamento que dividem. Então, eles decidiram usar um jogo chamado Pedra, Papel e Tesoura para tomar decisões. Nesse jogo, cada um tem que escolher que escolher um dos elementos e, de acordo com as regras abaixo, é definido um vencedor: - Papel enrola Pedra (Papel ganha) - Pedra amassa Tesoura (Pedra ganha) - Tesoura corta Papel (Tesoura ganha) Se forem colocados dois símbolos iguais, o jogo fica empatado. Para decidir quem vai lavar a louça durante a semana inteira, eles resolveram fazer um campeonato: em 5 partidas sem empates, quem conseguir mais vitórias vence e se livra da obrigação. Escreva um programa que receba como entrada as escolhas de cada irmão a cada partida, e no final exiba o nome daquele que terá que lavar os pratos sujos.",
+    "format_input": "Vários valores String que poderão estar escritos de qualquer maneira Observe que serão 5 partidas sem empate. Caso haja empate, a partida deverá ser jogada novamente",
+    "format_output": "O nome de um dos irmãos em letras maiúsculas Perceba que quem ganhar o jogo não lavará pratos",
+    "topics": [
+        "simulação de jogos",
+        "função"
+    ]
+}

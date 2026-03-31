@@ -1,0 +1,12 @@
+{
+    "title": "É palíndromo?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um palíndromo é uma sequencia de caracteres que tem o mesmo significado e grafia quando lida da esquerda para a direita e da direita para a esquerda. Exemplos de palíndromo são: Ovo, Esse, 12321, Arara, Megabobagem. Além disso, frases também podem ser um palíndromo: O teu dueto, Ame o poema, A torre da derrota. DICA 1: Espaços em branco são desprezados para avaliar se uma frase é um palíndromo. DICA 2: Não serão testados caracteres com acentuação. DICA 3: Como acessar algumas informações de String em Java: String s = \"Testar\"; s.charAt(0); // retorna o char 'T' s.charAt(5); // retorna o char 'r' s.length(); // retorna o int 6. DICA 4: Como nos exemplos de palíndromo acima, não faz diferença se os caracteres que representam letras são minúsculos ou maiúsculos no momento de definir se uma palavra/frase é ou não palíndromo. Considere a tabela unicode para auxiliar na elaboração do algoritmo que vai comparar caracteres maiúsculo e minúsculo na solução em Java.",
+    "format_input": "Um string (palavra ou frase)",
+    "format_output": "Uma resposta se o string de entrada é ou não um palíndromo. As opções de saída são: SIM ou NAO",
+    "topics": [
+        "substrings",
+        "repetição",
+        "palíndromos"
+    ]
+}

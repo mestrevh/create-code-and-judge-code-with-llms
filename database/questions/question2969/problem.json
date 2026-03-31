@@ -1,0 +1,10 @@
+{
+    "title": "Nota peculiar",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Zé e seus amigos fizeram uma prova que foi bastante comentada por eles, pois o jeito que o professor informa as notas é um pouco peculiar. As notas são informadas em forma de uma lista onde cada nota que está na lista é referente a metade da nota da prova de um aluno (caso a quantidade de notas na lista for par), mas caso a quantidade de notas da lista seja ímpar, isso significa dizer que a nota de um dos amigos de zé foi informada completa (essa nota é a do meio da lista). Segue como as notas são informadas pelo professor: Exemplo para quantidade par de números na lista: Exemplo para quantidade ímpar de números na lista: Como deu pra perceber as notas dos amigos de Zé estão organizadas de uma forma que será complicado dele calcular tudo sozinho, então Zé pediu para você desenvolver um programa que calcule a nota total da prova de cada aluno, onde essa nota é a soma das duas metades da nota, caso ela já não esteja completa.",
+    "format_input": "N onde N representa o tamanho da lista de notas que o professor irá informar. n1 n2 n3… nN Que são N inteiros que representam as notas dos amigos de Zé que estão na lista que o professor informou.",
+    "format_output": "Q onde Q representa a quantidade de alunos que estão na lista de notas que foram informadas pelo professor. Em seguida são informadas Q linhas no formato: “O amigo X ficou com nota M nessa prova.” onde X(1, 2, 3, 4, 5...) representa qual é o amigo de Zé que ficou com a nota M nessa prova. Onde M é a nota desse amigo.",
+    "topics": [
+        "array"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Matriciando",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia dois valores inteiros relativos aos tamanhos da coluna e da linha de uma matriz. O programa deve realizar as seguintes operações: 1. identificar o maior valor de cada linha e o maior de cada coluna. 2. identificar o maior valor de toda a matriz 3. calcular a soma dos valores positivos da diagonal principal 4. calcular a diferença dos valores da diagonal secundária. Caso o usuário informe valores do tamanho da matriz negativos ou nulos uma mensagem de erro deve ser informada bem como para o caso dela não ser quadrada.",
+    "format_input": "Dois valores inteiros referentes à quantidade de linhas e colunas (um por linha) Um conjunto de valores para preencher a matriz.",
+    "format_output": "Duas listas de inteiros Três valores inteiros",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

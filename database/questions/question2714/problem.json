@@ -1,0 +1,10 @@
+{
+    "title": "Soma 100 primeiros inteiros",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Apresentar o valor da soma dos cem primeiros números inteiros (1+2+3+... +97+98+99+100).",
+    "format_input": "Não há entradas no algoritmo",
+    "format_output": "O programa deve exibir a soma dos 100 primeiros números inteiros, imprimindo na tela os valores abaixo: Soma dos 100 primeiros inteiros: n",
+    "topics": [
+        "repetição"
+    ]
+}

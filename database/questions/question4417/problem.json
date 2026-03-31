@@ -1,0 +1,10 @@
+{
+    "title": "Menino epilef - uma ficção sobre o trabalho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "censurado Esses são os índices do tabuleiro, agora o passo é transformar B em binário, uma dica que o autor da questão dar é não se preocupar com isso! Por fim os bits 1 do valor binário são marcados com um 'x' no tabuleiro e os bits 0 são ignorados e a casa continua vazia(descrita pelo caractere '-') [ Como podemos ver o tabuleiro 8x8 recebeu um B igual a 10 e foram marcados as posições [0][1] e [0][3]. 10 em binário é da forma 1010 Neste caso do tabuleiro 8x8 B é igual a 11 e 11 em binário é da forma 1011 Vale salientar que a marcação ocorre do bit menos significativo para o mais significativo. Outra dica é usar o operador >>, confio em você e sei que vai dar BOM!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "format_input": "N B dado N sendo o tamanho do tabuleiro NxN e B o número de marcação",
+    "format_output": "Um tabuleiro NxN onde 'x' indica casa ocupada e '-' casa vazia",
+    "topics": [
+        "ad-hoc"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Prepare-se para a guerra!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você é o comandante de um dispositivo de defesa automatizado em um mapa retangular de dimensões NxM, onde cada célula contém um número inicial de tropas. Seu sistema executa A ataques localizados, cada um definido pela coordenada (x, y) e um dano D. O ataque atinge a célula central com força total D e todas as oito vizinhas (horizontal, vertical e diagonal – 3x3) com D/2, sem jamais permitir valores negativos. Ao final, além de imprimir o mapa atualizado, seu programa deve exibir duas estatísticas: 1. A media da soma das tropas da diagonal principal. 2. A media da soma das tropas da diagonal secundária. Obs: para a diagonal principal em tabuleiros não quadrados, some apenas enquanto i < N e i < M.",
+    "format_input": "N M: dimensões do mapa (3 ≤ M ≤ N). N linhas com M inteiros cada: tropas iniciais. A: número de ataques. A linhas com três inteiros x y D (0 ≤ x < N, 0 ≤ y < M, D ≥ 0).",
+    "format_output": "N linhas com M inteiros: tropas remanescentes em cada célula. Uma linha com S1 (media da soma da diagonal principal) e outra com S2 (media da soma da diagonal secundária), ambas com duas casas decimais.",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

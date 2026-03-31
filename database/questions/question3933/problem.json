@@ -1,0 +1,12 @@
+{
+    "title": "Quem matou o Jefteson?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O ilustríssimo Jeftson, da família Jeftsons foi alvo de um assassinato, devido a... coisas inexplicáveis. Dessa forma, os políciais estão procurando o criminoso responsável e eles tem apenas três amostras de DNA a disposição para achar o criminoso. Além disso eles também já tem uma lista de pessoas consideradas SuS da qual irão comparar os fragmentos de DNA com as amostras dos suspeitos. Obviamente aquele que apresentar maior compatibilidade com os fragmentos da cena do crime será o culpado. Basicamente os policiais querem sua ajuda para fazerem a seguinte tarefa: Você deve pegar o DNA de cada suspeito da lista e, checar se cada fragmento de DNA está contido no DNA do suspeito. A pessoa que tiver mais fragmentos contidos será a culpada. \"Ah, mas policial, se houver duas ou mais pesssoas com o mesmo número de fragmentos contidos no DNA, como eu faço?\" Você deverá verificar a soma do tamanho de cada fragmento contido. A pessoa que tiver a maior soma será a culpada. \"Ah, mas se mesmo assim der empate?\" Então por hoje é só, você não tem dados suficientes para julgar quem é o verdadeiro culpado.",
+    "format_input": "Inteiro M -> Quantidade de suspeitos da lista. 3 strings, com no máximo 10 letras -> Fragmentos de DNA da cena do crime. Uma lista contendo M suspeitos e seus respectivos trechos de DNA, com o seguinte formato: Nome - DNA. Observações: 0 < M < 11. Os fragmentos de DNA tem no máximo 10 caracteres. O nome tem no máximo 20 caracteres. O DNA de cada suspeito tem no máximo 50 caracteres. Os nomes não tem caracteres especiais, nem espaço e, o DNA é composto apenas pelos nucleotídeos: A, G, C, T.",
+    "format_output": "Em caso de empate: \"Nao pegamos x pilantra desse vez...\" Else: \"X reponsavel por essa atrocidade foi Fulano!\" Onde \"Fulano\" é o nome de uma das pessoas da lista. E \"X\" é apenas um artigo de gênero indefinido. OBS1: Todas as saídas são com quebras de linha. OBS2: X não é uma variável, é apenas X.",
+    "topics": [
+        "subconjuntos",
+        "array bidimensional",
+        "string"
+    ]
+}

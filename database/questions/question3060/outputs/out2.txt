@@ -1,0 +1,20 @@
+Path to vertex 1: -
+Path to vertex 2: 1 and distance 1
+Path to vertex 3: 1 and distance 2
+Path to vertex 4: 1, 2 and distance 5
+Path to vertex 5: 1, 3 and distance 8
+Path to vertex 6: 1, 2, 4 and distance 13
+Path to vertex 7: 1, 3, 5 and distance 18
+Path to vertex 8: 1, 2, 4, 6 and distance 25
+Path to vertex 9: 1, 3, 5, 7 and distance 32
+Path to vertex 10: 1, 3, 5, 7, 9 and distance 48
+Path to vertex 11: 1, 3, 5, 7, 9, 10 and distance 65
+Path to vertex 12: 1, 3, 5, 7, 9, 10 and distance 66
+Path to vertex 13: 1, 3, 5, 7, 9, 10, 11 and distance 85
+Path to vertex 14: 1, 3, 5, 7, 9, 10, 12 and distance 88
+Path to vertex 15: 1, 19, 17 and distance 88
+Path to vertex 16: 1, 19, 17 and distance 89
+Path to vertex 17: 1, 19 and distance 60
+Path to vertex 18: 1, 20 and distance 60
+Path to vertex 19: 1 and distance 30
+Path to vertex 20: 1 and distance 30

@@ -1,0 +1,14 @@
+{
+    "title": "Raiz quadrada aproximada",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa que calcule a raiz quadrada aproximada r de um número positivo x da seguinte forma: - Use um valor baixo e um valor alto. Comece com o valor baixo 0 e como valor alto x. Obtenha o valor r entre baixo e alto como sendo o ponto médio entre eles. - Se o valor r ao quadrado for menor que x, então atribua o valor r ao valor baixo. Atribua o valor de r ao valor alto, caso contrário - Repita enquanto o módulo da diferença entre r ao quadrado e x seja maior que um número e. Indique como saída o valor de r e a quantidade de repetições l usadas para encontrá-lo.",
+    "format_input": "n x_1 x_2 ... x_n",
+    "format_output": "r_1 l_1 r_2 l_2 ... r_n l_n",
+    "topics": [
+        "matemática",
+        "raiz quadrada",
+        "busca binária",
+        "algoritmos",
+        "iteração"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "L2Q4 - Dia da morte",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A história centra-se em Light Yagami, um estudante do ensino médio que descobre um caderno sobrenatural chamado \"Death Note\", com o qual pode matar pessoas se os nomes forem escritos nele enquanto o portador visualizar mentalmente o rosto da pessoa que quer assassinar. A partir daí Light tenta eliminar todos os criminosos e criar um mundo onde não exista o mal, mas seus planos são contrariados por L, um famoso detetive particular. Como todo bom estrategista, Light Yagami calcula cada um de seus passos, logo, precisa saber quantos dias faltam para a morte da pessoa que teve seu nome escrito no Death Note. Para isso, Light pediu que você criasse um programa que calculasse isso para ele. Obs: É possível que exista ano bissexto no intervalo dado.",
+    "format_input": "A entrada é formada por duas linhas, cada uma com três inteiros separados por espaço, onde a primeira linha representa a data atual, e a segunda linha representa a data da morte. Ex: 05 08 1999 02 07 2010",
+    "format_output": "A saída deverá ser composta apenas por um numero inteiro x: x onde x contem a quantidade de dias que faltam para a morte.",
+    "topics": [
+        "datas/horas",
+        "repetição"
+    ]
+}

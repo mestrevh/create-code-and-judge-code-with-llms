@@ -1,0 +1,11 @@
+{
+    "title": "Exercício de Busca - Greedy",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este exercício requer os conhecimentos de Greedy Best First Search vistos em sala. Link para imagem ilustrativa contendo função heurística e distâncias: https://bit.ly/3q5Gt2J. A entrada consiste em: Cidade de Origem, Cidade de Destino e várias linhas no formato de uma Cidade acompanhada do valor de uma função heurística aplicada previamente. Em seguida, após uma linha em branco, seguem várias linhas no formato Cidade de Origem, Cidade de Destino e a distância, representando as ligações do grafo. A saída deve imprimir os estados da fila de prioridade e o trajeto percorrido na última linha.",
+    "format_input": "A entrada contém o nome da cidade de origem e da cidade de destino. Seguem-se linhas com o nome da cidade e seu valor heurístico (ex: CARUARU 0). Após uma linha em branco, são listadas as conexões entre as cidades no formato 'CIDADE_ORIGEM CIDADE_DESTINO DISTANCIA' (ex: RECIFE OLINDA 6).",
+    "format_output": "A saída apresenta os estados da fila de prioridade em cada etapa no formato de lista de listas, contendo o nome da cidade e o valor da heurística. A última linha exibe o trajeto percorrido, listando os nomes das cidades na ordem visitada.",
+    "topics": [
+        "grafo",
+        "busca"
+    ]
+}

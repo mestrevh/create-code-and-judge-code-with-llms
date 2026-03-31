@@ -1,0 +1,10 @@
+{
+    "title": "Ângulo entre pontos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados 3 pontos a, b, c, calcule o ângulo abc em graus.",
+    "format_input": "São dadas 3 linhas. Cada linha contém as coordenadas x e y de cada ponto. Não existe entrada que contenha os 3 pontos colineares.",
+    "format_output": "A saída é um número real formatado com duas casas decimais correspondendo ao ângulo encontrado.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

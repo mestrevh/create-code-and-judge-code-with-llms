@@ -1,0 +1,11 @@
+{
+    "title": "Média das Médias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que dadas várias listas de valores, obtenha a média de cada uma das listas e depois obtenha a média destas médias. Observação: É necessária a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão.",
+    "format_input": "Uma sequência de listas de valores reais separados entre si por vírgulas. A sequência de listas acaba quando há um caractere * no lugar de uma lista de valores reais.",
+    "format_output": "Deve ser impressa uma lista de valores (separados entre si por um espaço em branco) contendo as médias (com 2 casas decimais) de cada uma das listas da entrada. Na linha seguinte, devem ser impressos estes mesmos valores, mas em ordem decrescente. Por último, deve ser informado o valor da média destas médias, com 2 casas decimais.",
+    "topics": [
+        "array",
+        "entrada formatada"
+    ]
+}

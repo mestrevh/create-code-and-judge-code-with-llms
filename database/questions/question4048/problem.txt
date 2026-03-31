@@ -1,0 +1,6 @@
+Título: Árvore Binária Completa
+Topicos do problema: Árvore; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Crie uma árvore binária completa de profundidade n, onde os valores dos nós seguem uma ordem crescente, varrendo-a da esquerda para direita.</p><p> </p>
+Formato da entrada: <p>n - valor inteiro representando a profundidade da árvore </p>
+Formato da saída: <p>árvore binaria completa com valores crescentes em cada nó (percorrendo da esquerda para direita) na notação de parenteses.</p>

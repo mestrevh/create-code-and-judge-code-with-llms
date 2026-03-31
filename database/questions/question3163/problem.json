@@ -1,0 +1,11 @@
+{
+    "title": "Raiz enésima",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função que recebe dois inteiros (a, b) e retorna a raiz b de a.",
+    "format_input": "8 3",
+    "format_output": "2",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

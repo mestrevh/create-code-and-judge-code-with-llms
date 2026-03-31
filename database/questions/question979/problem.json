@@ -1,0 +1,10 @@
+{
+    "title": "listar descendentemente 4",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba três números em ordem crescente, obrigatoriamente, e um quarto número que não siga essa regra. Mostre, em seguida, os quatro números em ordem decrescente. Suponha que o usuário digitará números diferentes.",
+    "format_input": "Quatro números inteiros. Os três primeiros são diferentes entre si e são dados em ordem crescente. O quarto é um número inteiro qualquer diferente dos três iniciais.",
+    "format_output": "Os quatro números da entrada listados em ordem decrescente.",
+    "topics": [
+        "ordenação"
+    ]
+}

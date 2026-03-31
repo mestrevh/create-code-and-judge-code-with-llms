@@ -1,0 +1,10 @@
+{
+    "title": "Mini bomberman",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma matriz NxN representando um mapa do jogo bomberman, onde '#' são paredes inquebráveis, '_' caminhos vazios e '&' paredes quebráveis. Será dado uma sequência de coordenadas de bombas que destruirão em cruz(uma para cima, uma para a direita, uma para a esquerda e uma para baixo). Nesse novo bomberman, no lugar das bordas existem buracos de minhoca que levarão a explosão para o outro lado do mapa. As bombas só serão válidas se forem jogadas em caminhos vazios, caso não seja, ela não terá efeito nenhum no mapa.",
+    "format_input": "Um valor N representando o tamanho do mapa NxN. O mapa. Um valor M representando o número de bombas. Uma sequência X,Y representando as coordenadas dessas bombas.",
+    "format_output": "Imprima o mapa após todas as explosões",
+    "topics": [
+        "array bidimensional"
+    ]
+}

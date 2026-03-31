@@ -1,0 +1,10 @@
+{
+    "title": "Funções Math.h",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faca um programa que dado um número real lido como parâmetro, calcule o piso, o teto, a sua raiz quadrada, o seno, o cosseno e esse número elevado a potência 3.",
+    "format_input": "Número Real",
+    "format_output": "piso teto raiz quadrada seno cosseno potencia 3",
+    "topics": [
+        "decisão"
+    ]
+}

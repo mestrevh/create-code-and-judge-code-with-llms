@@ -1,0 +1,10 @@
+{
+    "title": "Intercalação",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dadas duas listas de elementos ordenados L1[1..n1] e L2[1..n2], descreva um algoritmo iterativo para produzir uma lista ordenada L[1..(n1+n2)] com todos os elementos de L1 e L2.",
+    "format_input": "As duas primeiras linhas da entrada consistem em inteiros n1 e n2 correspondendo aos tamanhos das listas L1 e L2. As n1 linhas seguintes correspondem aos elementos da lista L1 e os n2 elementos após estes correspondem aos elementos de L2.",
+    "format_output": "A saída consiste nos elementos da lista ordenada L contendo todos os elementos de L1 e L2 com um elemento por linha.",
+    "topics": [
+        "repetição"
+    ]
+}

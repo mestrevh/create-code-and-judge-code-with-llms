@@ -1,0 +1,17 @@
+{
+    "title": "Aquele do gato de Ross e Julie (Extra)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sem sucesso enviando currículos, Rachel decide levar mais a sério o trabalho em Central Perk. Por isso, ela não está mais entregando os pedidos dos clientes que não são amigos dela aleatoriamente. Porém, ela acabou de descobrir que Ross e Julie vão adotar um gato e não consegue parar de pensar nisso. Enquanto ela atende várias mesas, a cada 3 pedidos de uma determinada mesa, pensando no gato, ela acaba anotando o último dos 3 pedidos na conta da próxima mesa que ela vai atender (para a última mesa, ela simplesmente anota tais pedidos, mas esquece de entregar). Para não piorar a situação, ela precisa de sua ajuda para saber a ordem em que deve entregar os pedidos de cada cliente. Seu trabalho é, dado os pedidos de cada mesa, seus respectivos tempos de preparo e suas respectivas categorias (Bebida, Acompanhamento ou Sobremesa), imprimir a ordem em que Rachel deve entregar os pedidos. Ela deve sempre entregar as bebidas primeiro, seguido dos acompanhamentos, depois as sobremesas e, por último, os pedidos da mesa anterior que ela anotou na conta da mesa atual (estes últimos, na ordem em que foram solicitados pela mesa anterior). Para cada categoria, ela deve sempre entregar primeiro o produto que ficar pronto mais rapidamente (caso dois produtos da mesma categoria tenham o mesmo tempo de preparo, ela deve entregar primeiro o que foi pedido primeiro). Além disso, Rachel quer saber quão bem foi atendendo os clientes, para poder tomar uma atitude, caso necessário. Para isso, ela quer saber a porcentagem de pedidos entregues para a mesa certa com relação ao número total de pedidos.",
+    "format_input": "A primeira linha da entrada consiste em um inteiro M que representa o número de mesas que Rachel deverá servir hoje: M Para cada uma das M mesas, seguirá um inteiro P que representa o número de pedidos daquela mesa: P Para cada um dos P pedidos, seguirão linhas da forma: Pi Ti Ci. Pi (String) - Representa o nome do iésimo pedido da mesa atual. Ti (inteiro) - Representa o tempo de preparo do iésimo pedido da mesa atual. Ci (String) - Representa a categoria do iésimo pedido da mesa atual, que pode ser \"Bebida\", \"Acompanhamento\" ou \"Sobremesa\". OBS.: Caso o pedido atual (Pi) seja um dos pedidos que Rachel anotou na conta da mesa errada, não serão informados Ti e Ci.",
+    "format_output": "Para cada uma das M mesas, deverá ser impressa uma linha no formato: Mesa I: P1, P2, ..., Pn. I é o número da mesa atual (I varia de 1 a M). Cada um dos Pj (0 < j <= n) representa o j-ésimo pedido entregue para a mesa I. n é o número de pedidos entregues para a mesa I. Sendo p a porcentagem de pedidos que Rachel entregou para a mesa certa, no final de tudo, deverá ser impressa uma das seguintes frases: Caso p seja menor que 70%: Eu preciso esquecer o Ross, vou ligar pra ele e falar que eu o superei. Caso p seja maior ou igual a 70% e menor que 85%: Not bad, e so um trabalho temporario mesmo. Caso p seja maior ou igual a 85%: That's what I call closure, Ross!",
+    "topics": [
+        "ponto flutuante",
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "decisão",
+        "repetição",
+        "string",
+        "ordenação"
+    ]
+}

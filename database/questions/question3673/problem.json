@@ -1,0 +1,11 @@
+{
+    "title": "Teclado velho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O teclado de Ambrósio é muito velho e vez por outra repete várias vezes o caracter digitado. Você vai ajudar Ambrósio escrevendo um programa que elimina todos os caracteres adjacentes repetidos. Como a sua última aula foi sobre recursão e você não quer perder a chance de praticar este assunto tão empolgante, você vai definir uma função recursiva que recebe como argumento um string txt e retorna um string com os mesmos caracteres que txt, porém eliminando todos os caracteres adjacentes repetidos, ou seja, retirando todos os mesmos caracteres consecutivos, exceto um.",
+    "format_input": "O texto formado por várias linhas e finalizado por uma linha contendo apenas o caracter '*'.",
+    "format_output": "O texto sem adjacentes repetidos.",
+    "topics": [
+        "array",
+        "recursão"
+    ]
+}

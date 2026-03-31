@@ -1,0 +1,13 @@
+{
+    "title": "Mapas para Shiro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Shiro está com problemas! Ela foi desafiada para um jogo onde deve ser encontrada a saída de um labirinto enorme, porém, a memória dela é apagada de 10 em 10 segundos, fazendo com que o desafio se torne praticamente impossível. Felizmente, você pode ajudar, então, faça um mapa para ajudar Shiro a encontrar a saída deste labirinto. Dada a imagem aérea do labirinto, ajude-a fazendo um mapa, marcando o caminho que ela deve seguir com: '^' - cima, 'v' - baixo, '>' - direita, '<' - esquerda. (Observação, começa do canto superior esquerdo e termina no canto inferior direito)",
+    "format_input": "A primeira linha da entrada terá dois inteiros N e M (0 <= N, M <= 501), representando a quantidade de linhas e a quantidade de colunas. As próximas N linhas terão M caracteres representando o labirinto.",
+    "format_output": "A saída deve ser o labirinto com o caminho para a saída. (Sempre existirá uma única solução)",
+    "topics": [
+        "busca completa",
+        "array bidimensional",
+        "backtracking",
+        "recursão"
+    ]
+}

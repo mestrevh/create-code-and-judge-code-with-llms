@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Sequência - H",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que exibe quantos litros de combustível são gastos por um carro em um dado percurso. Serão fornecidos pelo usuário a distância percorrida (em km) e a quantidade de litros gastos por km.",
+    "format_input": "Na primeira linha haverá um número inteiro representando a distância que será percorrida; na linha seguinte haverá um número real representando a quantidade de litros gastos por km.",
+    "format_output": "Um valor real com duas casas decimais representando a quantidade de litros gastos para realizar o percurso.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Flow [GEMA PC 3.0 C]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você já jogou flow? Nesse jogo, seu objetivo é conectar todas as cores de forma que nenhuma célula fique vazia. A Entidade gosta muito desse jogo, mas está travada em algumas fases e gostaria que você fizesse um programa que resolva o puzzle.",
+    "format_input": "A entrada terá múltiplos casos de teste, e a primeira linha da entrada terá um inteiro (t), indicando quantos casos de testes. Em seguida virão t casos de teste seguindo o padrão abaixo de entrada: A primeira linha da entrada terá três inteiros (n, m e c), indicando respectivamente a quantidade de linhas, colunas e cores. Na linha seguinte terá uma palavra com c caracteres indicando quais são as cores que existirão no puzzle. E por fim, virão n linhas, cada uma com m caracteres, representando o puzzle (o caractere '.' (ponto) representa que aquela célula está vazia. 1 <= t <= 50 3 <= n, m e c <= 10 n * m <= 30",
+    "format_output": "Se for possível vencer o puzzle, imprima \"Yes\"; senão, imprima \"No\".",
+    "topics": [
+        "ad-hoc"
+    ]
+}

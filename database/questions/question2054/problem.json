@@ -1,0 +1,10 @@
+{
+    "title": "Soma não tão simples",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para sua primeira aula do semestre, Serra resolveu criar um simples problema para seus alunos. Dado três números inteiros N, A e B, sua tarefa é calcular o valor da soma de todos os números inteiros de 1 até N, excluindo os números múltiplos de A ou B.",
+    "format_input": "Você receberá em uma linha três números inteiros N, A e B, tais que N <= 100.000, A, B <= N. Além disso é garantido que A e B são primos entre si, ou seja, o MDC (máximo divisor comum) entre A e B é 1.",
+    "format_output": "Imprima em única linha, a resposta do problema, ou seja, a soma dos números inteiros de 1 até N com exceção dos que são múltiplos de A ou B.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

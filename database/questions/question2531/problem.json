@@ -1,0 +1,11 @@
+{
+    "title": "Maior que 10 Octave - T1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para ler um número e informar se este é maior que 10.",
+    "format_input": "O usuario deve digitar o número",
+    "format_output": "O programa deve exibir uma mensagem informando que o número é maior que 10, imprimindo na tela os valores abaixo: Digite um numero: O numero e maior que 10 (impresso se o numero é maior que 10)",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

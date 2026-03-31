@@ -1,0 +1,10 @@
+{
+    "title": "INSS 2023 - tabela progressiva",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desde o início de 2023, as contribuições dos trabalhadores ao INSS ficaram assim: Faixa de salário / Alíquota Aplicada: Até um salário-mínimo (R$ 1.302,00 em 2023): 7,5%; De R$ 1.302,01 a R$ 2.571,29: 9%; De R$ 2.571,30 a R$ 3.856,94: 12%; De R$ 3.856,95 a R$ 7.507,49 (Teto do INSS em 2023): 14%. O cálculo é progressivo, isto quer dizer que a alíquota se aplica apenas à parcela do salário dentro daquela faixa e não ao salário total. Por exemplo, se seu salário é de R$3000, o cálculo da contribuição pode ser feito assim: 1ra faixa salarial: 1.302,00 × 0.075 = 97,65; 2da faixa salarial: [2.571,29 - 1.302,00] × 0.09 = 114,2361; Faixa que atinge o salário: [3000 - 2.571,29] × 0,12 = 51,4452; Total a contribuir = 97,65 + 114,2361 + 51,4452 = 263,3313. Escreva um programa que receba como entrada o salário e que escreva como saída o valor do salário líquido, ou seja o valor do salário menos a contribuição ao INSS.",
+    "format_input": "O valor do salário, um valor do tipo float.",
+    "format_output": "O valor do salário líquido com duas casas decimais.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

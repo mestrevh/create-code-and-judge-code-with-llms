@@ -1,0 +1,11 @@
+{
+    "title": "Inversões na Flixrede",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Flixrede oferece serviço de streaming de filmes junto com uma rede social. Todos os assinantes ranquearam um mesmo conjunto de n filmes pela preferência de cada um. Cada filme neste conjunto é representado por um número de 1 a n e o ranqueamento de cada assinante é registrado em uma lista onde o primeiro da lista é o menos ranqueado enquanto que o último é o mais ranqueado. A Flixrede quer sugerir novas amizades ao seu assinante Ambrósio quem, por coincidência, tem seu ranqueamento formado pela lista [1, 2, 3, ..., n]. Dado o ranking de um outro assinante, a Flixrede precisa de uma métrica para saber quão perto ou distante r está das preferências de Ambrósio. Uma métrica que parece ser adequada é o número de inversões na lista do assinante, onde uma inversão é um par (i, j) com i < j e r[i] > r[j]. Ou seja, uma inversão é nada mais do que um par de elementos que está fora da ordem na lista r. Quanto menos inversões r tiver, r estará mais próximo das preferências de Ambrósio. Sua missão é construir um programa que dada uma lista r com n elementos, calcule quantas inversões há em r. Dica: Talvez seu algoritmo possa contar o número de inversões ordenando a lista r de tal forma que, no processo de ordenação, conta o número de trocas de pares feitas. Mas para isto, você precisa escolher o algoritmo de ordenação certo.",
+    "format_input": "Um número inteiro n correspondente ao número de filmes rankeados. Uma sequência de n inteiros, um número por linha, representando o ranking r. Os números desta sequência serão obrigatoriamente uma permutação da sequência [1, 2, ..., n].",
+    "format_output": "O número de inversões da sequência r.",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

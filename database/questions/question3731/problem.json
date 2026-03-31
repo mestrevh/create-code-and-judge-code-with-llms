@@ -1,0 +1,14 @@
+{
+    "title": "A Biblioteca de Dorian",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dorian e Aelin são leitores ávidos, que não conseguem ficar longe de livros por tempo demais. Para alimentar sua paixão, Dorian mandou construir uma biblioteca gigantesca em sua casa, para que nunca lhe faltassem livros com os quais se divertir. Contudo, conhecendo o amigo, Aelin resolveu pregar uma peça nele, e desorganizar sua coleção. Para que Dorian nunca perdesse seus livros no espaço amplo da biblioteca, ele endereçou um número para representar o código do seu livro e outro para indicar a posição em cada prateleira específica. Sabendo disso, Aelin resolveu embaralhar os livros de uma prateleira, de modo que a ordem ficasse toda trocada, mas, seguindo uma ordem lógica, se precisasse colocar as coisas no lugar novamente e não despertar a ira de seu amigo. Pensando nisso, Aelin criou uma fórmula para transformação dos números do código e da posição de cada livro. Para o código ela fez o seguinte: O número do novo código seria igual ao antigo somado ao primeiro número primo sucessor desse, dividido pela soma dos algarismos do código antigo. Ex: Se o código antigo é 49, o novo código será (49+53)/13 = 7 Note que os decimais são ignorados nesse caso. Para a posição, a fórmula é outra: A nova posição é igual ao módulo da subtração entre a soma de todos os múltiplos de 6 menores que o código antigo pela posição inicial. Ex: Se o código antigo é 49 e a posição antiga é 33, a nova posição será: 6 + 12 + 18 + 24 + 30 + 36 + 42 + 48 - 33 = 183. Lembre-se também que, depois das alterações, não podemos ter dois livros com o mesmo código ou mesma posição, pois isso confundiria a todos, então, se e quando esse fenômeno ocorrer, é importante que o último livro alterado seja acrescentado de uma unidade no número que se repetir em relação ao outro livro. Crie um programa que receba, em cada linha, dois números inteiros, colocando o primeiro em um vetor de códigos e o segundo em um vetor de posições. Atente-se também para o fato de que Aelin não vai alterar mais de 100 livros por vez. O programa deve parar de receber quando o código do livro for igual a 0. Nesse programa, crie uma função com assinatura void MudancaDeLivros (int *codigo, int *posicao) que faça as alterações tanto no código quanto na posição do livro em questão. Por fim, imprima em cada linha o código e a posição novos, só que na ordem dos últimos livros que foram alterados para os primeiros.",
+    "format_input": "Dois inteiros m e n, sendo m o código e n a posição, tal que 0 < m < 999.",
+    "format_output": "Uma linha por livro registrado que tenha: Novo código - Nova Posição",
+    "topics": [
+        "array",
+        "repetição",
+        "função",
+        "ponteiro",
+        "números primos"
+    ]
+}

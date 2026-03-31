@@ -1,0 +1,10 @@
+{
+    "title": "Ressacassembly e Mariozin",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Mariozin é um menino muito curioso e viu que seus colegas do 3° período estavam sofrendo com o Assembly x86, a linguagem mais baixo nível que se tem. Por ser um curioso teimoso, ele decidiu aprender uns comandos para chegar aquecido no próximo período e conseguiu convencer seu amigo Peter Pão a dar uma aula no domingo. Porém, Mariozin tava de ressaca no dia e pediu sua ajuda para entender o código em Assembly. Você irá receber um conjunto de instruções em assembly e deve traduzir elas para C. As instruções são as seguintes: - Mov a, b -> a = b - Add a, b -> a += b - Sub a, b -> a -= b - And a, b -> a = a & b Seu trabalho será realizar as conversões acima para ajudar o ressacado mariozin!",
+    "format_input": "Um inteiro 0 < N <= 10 representando o número de instruções a serem lidas N strings representando as instruções em assembly que devem ser convertidas",
+    "format_output": "As N instruções convertidas",
+    "topics": [
+        "string"
+    ]
+}

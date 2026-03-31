@@ -1,0 +1,11 @@
+{
+    "title": "Mínimo múltiplo comum",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois numeros inteiros positivos, calcular o mínimo múltiplo comum",
+    "format_input": "Dos números inteiros m e n, ambos maiores que zero.",
+    "format_output": "O menor número que é multiplo tanto de m como de n.",
+    "topics": [
+        "lógica matemática",
+        "repetição"
+    ]
+}

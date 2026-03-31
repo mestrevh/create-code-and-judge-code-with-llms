@@ -1,0 +1,6 @@
+Título: Função com menor resultado
+Topicos do problema: decisão; função; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Na última aula de matemática, Rafael, Beto e Carlos aprenderam algumas novas funções matemáticas. Cada um deles se identificou com uma função em especial, e resolveram competir para ver quem tinha a função de menor resultado.</p><p><span>A função que Rafael escolheu é </span><b>r(x, y) = (2x)³ + y²</b><span>.</span><br/></p><p>Já Beto escolheu a função <b>b(x, y) = 3(x²) - (5y)²</b>.</p><p>Carlos, por sua vez, escolheu a função <b>c(x, y) = -10x + y³</b>.</p><p>Dados os valores x e y, diga quem escolheu a função com o menor resultado.</p><p><b>Observação: </b>É obrigatório definir e utilizar as funções r, b e c, conforme especificado acima<br/></p>
+Formato da entrada: <p>A única linha de entrada contém dois inteiros x (-100 ≤ x ≤ 100) e y (-100 ≤ y ≤ 100), indicando as variáveis a serem passadas como parâmetros para as funções.</p>
+Formato da saída: <p>Uma linha contendo uma frase indicando quem ganhou a competição. Por exemplo, se Rafael ganhar a competição, imprima “Rafael ganhou”. Assuma que nunca haverá empates.<br/></p>

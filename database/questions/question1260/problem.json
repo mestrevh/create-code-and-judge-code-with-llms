@@ -1,0 +1,10 @@
+{
+    "title": "L3Q5 - Organizando a biblioteca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi pego vagando pela Floresta Proibida pelo Sr. Filch, e agora está de detenção. Seu castigo será organizar os livros da biblioteca com base no código deles. Você, um aprendiz de bruxo muito competente, decidiu que não irá só organizar os livros colocando seus códigos em ordem crescente, mas listará aqueles que tem mesmo código. Sua tarefa é criar um programa que leia os livros a serem ordenados seguidos de seus respectivos códigos, e os imprima na ordem pedida. Os códigos são todos do tipo : nome#identificador, onde nome é uma sequência de caracteres qualquer (exceto o \"#\"), e identificador é um número natural. Para o melhor controle da entrada e saída de livros da biblioteca, os identificadores são únicos.",
+    "format_input": "N - número natural, indicando a quantidade de livros a serem ordenados. N linhas: L - string, representará o nome do livro com o seu identificador, e será do tipo nome#identificador. Dica: Pesquise sobre o método split",
+    "format_output": "L1... Ln - strings, livros com os respectivos identificadores em ordem crescente.",
+    "topics": [
+        "array"
+    ]
+}

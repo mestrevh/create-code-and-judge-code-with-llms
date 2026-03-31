@@ -1,0 +1,10 @@
+{
+    "title": "Casa de câmbio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Suponha que você precise comprar dólares numa casa de câmbio e encontrou as seguintes custos para o dólar: Casa 1: dólar do dia + 4% de spread + taxa fixa de R$9,99 Casa 2: dólar do dia + 3,9% de spread + taxa fixa de R$29,99 Casa 3: dólar do dia + 4,1% de spread Escreva um programa que recebe a quantidade de dinheiro, em dólares, que precisamos comprar. Receba, também, o valor da cotação do dólar do dia. Calcule e apresente o custo total da operação nas 3 casas de câmbio para conseguirmos escolher o mais em contaconvertido em dólares.",
+    "format_input": "Montante de dólares a ser adquirido Cotação do dólar no dia",
+    "format_output": "Valor da operação na casa 1 Valor da operação na casa 2 Valor da operação na casa 3 (um por linha, sem mensagem)",
+    "topics": [
+        "estruturas"
+    ]
+}

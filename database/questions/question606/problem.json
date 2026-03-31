@@ -1,0 +1,11 @@
+{
+    "title": "No máximo duas vezes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um número inteiro positivo U, encontre o maior inteiro L tal que L <= U e L não contém qualquer dígito mais que duas vezes.",
+    "format_input": "Consiste de uma única linha contendo o inteiro U ( 1<=U<=10^18)",
+    "format_output": "Imprima uma linha contendo o inteiro representando o maior número menor ou igual a U que não contém qualquer dígito mais que duas vezes.",
+    "topics": [
+        "caractere",
+        "maratona"
+    ]
+}

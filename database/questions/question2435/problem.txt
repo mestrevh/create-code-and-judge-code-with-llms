@@ -1,0 +1,6 @@
+Título: Contando dias de vida
+Topicos do problema: acumulador; repetição; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Escreva um programa que, dada a data de nascimento e a data atual fornecidos pelo usuário, calcule quantos dias de vida uma pessoa nascida nesta data teria hoje. O programa deve assumir que o usuário sempre digitará uma data válida (não há necessidade de se fazer uma verificação da validade da data).</p>
+Formato da entrada: <p>A entrada deve ser fornecida pelo usuário através de 6 valores inteiros em 6 entradas diferentes. O primeiro valor deve ser o dia de nascimento, o segundo deve ser  o mês de nascimento e o último deve representar o ano de nascimento. Os últimos 3 valores devem ser o dia, mês e ano da data corrente, nesta ordem.</p><p>Exemplo: 10 de julho de 1988 - 6 de março de 2019</p><p>10</p><p>7</p><p>1988</p><p>6</p><p>3</p><p>2019</p>
+Formato da saída: <p>A saída deve ser o número de dias vividos pela pessoa que nasceu na data de nascimento fornecida pelo usuário até a data presente.</p><p>Exemplo:</p><p>11196</p>

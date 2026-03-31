@@ -1,0 +1,10 @@
+{
+    "title": "Cosseno e saguis",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Zarzar caminhava pelo CCEN com seu livro de Física I. De repente seu amigo Zé aparece ao longe e o chama. Zarzar olha rapidamente para Zé, mas ele tropeça e acaba jogando o livro pra longe. Em seguida uns saguis marotos abrem seu livro e arrancam algumas páginas, uma delas era a tabela de valores do cosseno. Agora Zé quer sua ajuda para fazer um programa que dado um ângulo em radianos e uma \"precisão\", ele calcule o cosseno do ângulo mostrando suas 4 casas decimais. CALCULE O COSSENO USANDO ESTA FÓRMULA: https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/11156257_943419622356457_9096310178017859772_n.jpg?oh=8856b49238799003ddb2811185d3cf87&oe=55D60AEC&__gda__=1436000816_5c2c162e19a29adc9bf03cd167169034",
+    "format_input": "Entrada: A entrada é composta por um número inteiro K que será a quantidade de casos teste, e cada um dos K casos serão compostos por 2 inteiros m e n. K m1 n1 m2 n2 ... mK nK onde m é o ângulo em radianos e n é a precisão (diferença absoluta entre resultados sucessores do cosseno). OBS: 0 < m <= 20; 0 < n < 1 Exemplo de Entrada: 2 1 0.01 2 0.001",
+    "format_output": "Saída: O cosseno de cada caso teste seguido de um final de linha, '\\n'. Exemplo de Saída: 0.5403 -0.4161",
+    "topics": [
+        "acumulador"
+    ]
+}

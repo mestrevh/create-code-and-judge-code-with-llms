@@ -1,0 +1,11 @@
+{
+    "title": "Bora de Valorant?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Nosbor acabou de comprar um mouse novo, e para testá-lo decidiu chamar seu amigo Felipe para jogar uma partida ranqueada de valorant, porém estava a bastante tempo sem jogar e não sabia das mudanças no Ato novo, agora pessoas só podem jogar ranqueadas juntas se tiverem uma diferença máxima de três ranques de diferença para mais ou para menos na ordem de divisões. Onde os ranques são em ordem crescente de divisão: Ferro III (F 3) < Ferro II (F 2) < Ferro I (F 1) < ... < Bronze I (B 1) < ... < Prata I(P 1) < ... < Ouro I(O 1). Cada ranque possui também um valor acompanhando, onde III é o mais baixo e I é o mais alto, portanto Ferro III é mais baixo que Ferro I. Por exemplo: Nosbor está no Ferro II e Felipe está no Bronze I, assim não poderão jogar uma ranqueada, pois Felipe possui 4 ranques acima de Nosbor, portanto não poderão jogar juntos. Dado o ranque de Nosbor e Felipe, diga se é possível que eles joguem juntos.",
+    "format_input": "Dois chars A e B, que indicam respectivamente o ranque de Nosbor e Felipe(Onde \"F\" = Ferro, \"B\" = bronze, \"P\" = Prata e \"O\" = Ouro).Dois inteiros C e D(entre 1 e 3), indicando respectivamente o valor acompanhando do ranque de Nosbor e Felipe.",
+    "format_output": "Imprima \"YES\" caso eles possam jogar juntos, SEM ASPAS e com letras MAIÚSCULAS. Imprima \"NO\" caso contrário.",
+    "topics": [
+        "ad-hoc",
+        "decisão"
+    ]
+}

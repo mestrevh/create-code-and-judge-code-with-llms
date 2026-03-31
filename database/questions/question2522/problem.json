@@ -1,0 +1,12 @@
+{
+    "title": "Conjuntos - Intersecção",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que leia dois conjuntos (A e B - sem repetições em A e sem repetições em B) com 5 números inteiros em cada um. Em seguida mostre um terceiro conjunto com todos os elementos que estão em A e B.",
+    "format_input": "1 2 3 4 5 2 4 6 8 10",
+    "format_output": "2 4",
+    "topics": [
+        "obi",
+        "decisão",
+        "repetição"
+    ]
+}

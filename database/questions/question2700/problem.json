@@ -1,0 +1,10 @@
+{
+    "title": "Q1 - P1A",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A empresa Hipotheticus paga R$10,00 por hora normal trabalhada, e R$15,00 por hora extra. Faça um algoritmo no qual o usuário digite a quantidade de horas normais e a quantidade de horas extras trabalhadas e seja impresso o salário bruto e o salário líquido de um determinado funcionário. Considere que o salário líquido é igual ao salário bruto descontando-se 10% de impostos.",
+    "format_input": "O usuário deve digitar a quantidade de horas normais e a quantidade horas extras trabalhadas",
+    "format_output": "O programa deve exibir o salário bruto e o salário liquido do funcionário, imprimindo na tela os valores abaixo: Digite a quantidade de horas normais: (impresso pela funcao input) Digite a quantidade de horas extras: (impresso pela funcao input) Salario Bruto: R$ n Salario Liquido: R$ n",
+    "topics": [
+        "lógica matemática"
+    ]
+}

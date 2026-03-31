@@ -1,0 +1,10 @@
+{
+    "title": "L5Q10 - The Upside Down V",
+    "time_limit": "2 segundo(s)",
+    "descrition": "(Se você ainda não fez as versões anteriores da questão The Upside Down, não comece por essa) Veja a questão anterior. Hopper e Joyce correram por diversos metros com Will nos braços antes de lhe pedir para fazer o programa que achasse a saída, pois um Demogorgon estava tentando pegá-los. Quando finalmente conseguiram despistá-lo, não tinham mais um tamanho definido de mapa, mas dessa vez eles não estavam preocupados para onde ir, eles só queriam saber qual seria o caminho menos complexo para a saída: Os 1's da matriz era o caminho que podemos percorrer, e os 0's eram locais perigosos. Só podemos andar na horizontal e na vertical aqui. Passamos por alguns caminhos circulares. Agora preciso lhe dar o tamanho do mapa que será usado, pois não estamos mais no mesmo local. A complexidade do caminho aumenta a medida que fazemos curvas (cada curva aumenta em 1 a complexidade). Aflito com o bem estar deles, você decide o mais rápido possível tentar achar uma solução para o problema. (este problema deve ser resolvido utilizando recursão)",
+    "format_input": "M e N, numeros naturais correspondentes ao tamanho do mapa. M linhas contendo N numeros que podem ser 0's e 1's, correspondendo ao mapa. Sendo o primeiro numero da primeira linha sempre 1.",
+    "format_output": "Uma linha única contendo: \"O caminho tem complexidade: X\" Sendo X um número natural referente ao menor nivel de complexidade dos caminhos que levam a saida. ou \"Welcome to the Upside Down.\" Caso não tenha um caminho que leve à saída.",
+    "topics": [
+        "recursão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Troca de valores (usando macros)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha apenas uma macro, e nenhuma função além da principal, que receberá como parâmetros dois inteiros a e b e que deverá trocar os valores das variáveis originais passadas como parâmetros. O programa deverá exibir o valor das variáveis antes e depois da troca, como no exemplo de saída.",
+    "format_input": "10 20",
+    "format_output": "a: 10 b: 20 a: 20 b: 10",
+    "topics": [
+        "ad-hoc"
+    ]
+}

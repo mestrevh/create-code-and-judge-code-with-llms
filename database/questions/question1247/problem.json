@@ -1,0 +1,12 @@
+{
+    "title": "P1Q1 - Who's that Pokémon",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após a Rebelião Greyjoy, Euron Greyjoy foi exilado e descobriu criaturas estranhas. Ele montou uma tabela para identificá-las: Bulbasaur (terrestre, quadrupede, verde), Squirtle (terrestre, bipede, azul), Charmander (terrestre, bipede, laranja), Pikachu (terrestre, bipede, amarelo), Horsea (aquatico, outro, azul), Caterpie (terrestre, outro, verde), Pidgey (voador, bipede, marrom), Rattata (terrestre, quadrupede, lilas), Magikarp (aquatico, outro, vermelho), Eevee (terrestre, quadrupede, marrom), Voltorb (terrestre, outro, vermelho), Goldeen (aquatico, outro, branco) e Zubat (voador, bipede, azul). Visando acelerar o trabalho, você deve escrever um programa que identifique os pokémons baseado nas características. Atenção: por conta da distância, nem sempre será possível identificar a cor. Apenas conceitos vistos até a última aula devem ser utilizados.",
+    "format_input": "Três linhas: a primeira contém M (string: aquatico, terrestre, voador); a segunda contém L (string: bipede, outro, quadrupede); a terceira contém C (string: amarelo, azul, branco, laranja, lilas, marrom, verde, vermelho ou a string nao identificada).",
+    "format_output": "Uma única linha contendo: o nome do pokémon (caso apenas um coincida); a quantidade no formato X pokemons (caso mais de um coincida); ou a string Pokemon desconhecido (caso nenhum coincida).",
+    "topics": [
+        "string",
+        "condicionais",
+        "busca"
+    ]
+}

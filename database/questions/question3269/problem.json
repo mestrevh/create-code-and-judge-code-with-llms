@@ -1,0 +1,10 @@
+{
+    "title": "Common Prefixes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um conjunto com N strings {S1, S2, ..., SN} ache os prefixos com tamanho >= 1 que são comuns a pelo menos K strings do conjunto. Um prefixo de uma string S é uma substring obtida pela exclusão de 0 ou mais caracteres a partir do final de S. Por exemplo, se S = \"abracadabra\": \"a\", \"ab\", \"abra\", \"abraca\" e \"abracadabra\" são exemplos de prefixos de S. Para não gerar ambiguidade os prefixos válidos devem ser impressos em ordem lexicográfica.",
+    "format_input": "Dois inteiros (1 <= N, K <= 30000). N strings de tamanho (1 <= T <= 20).",
+    "format_output": "Primeiramente deverá ser impresso a quantidade Q de prefixos válidos. Em seguida os Q prefixos {P1, P2, ..., PQ} em ordem lexicográfica.",
+    "topics": [
+        "string"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Teste",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em Matlab/Octave que calcule o quadrado dos números digitados pelo usuário",
+    "format_input": "-5",
+    "format_output": "Digite um numero: y = 25",
+    "topics": [
+        "lógica matemática"
+    ]
+}

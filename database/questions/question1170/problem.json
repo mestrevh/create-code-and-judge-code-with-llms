@@ -1,0 +1,12 @@
+{
+    "title": "z.Falha nos Códigos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Antes de sair do laboratório do Professor Carvalho, Biu percebe que o sistema de cadastro de treinadores do professor tem uma falha muito grave de privacidade. Quando um certo treinador vai pela primeira vez em seu laboratório, é gerado um código de 10 caracteres que o identifica para futuros contatos. Porém, esse código tem uma peculiaridade. O sétimo caractere do código identifica qual Pokémon foi escolhido pelo jogador, o que compromete a segurança do código, que deveria ser apenas uma identificação do treinador e não de sua escolha. Sua tarefa é escrever um programa que, dado um código único de 10 caracteres, mostra qual Pokémon está relacionado a ele, se for um código válido. obs: Considere que todos os códigos que serão testados têm, exatamente, 10 caracteres.",
+    "format_input": "S - String. A única linha é composta de uma String de 10 caracteres.",
+    "format_output": "P - String. A linha única da saída é composta por uma String, que pode ser o nome do Pokémon identificado, sendo: Bulbassauro, caso o caractere falho seja 'b'. Charmander, caso o caractere falho seja 'c'. Squirtle, caso o caractere falho seja 's'. Caso não seja um código válido, é preciso que seu programa apresente a mensagem \"Codigo Invalido\".",
+    "topics": [
+        "decisão",
+        "caractere",
+        "string"
+    ]
+}

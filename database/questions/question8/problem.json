@@ -1,0 +1,12 @@
+{
+    "title": "Matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Isquesildo é um rapaz muito criativo e inventou um novo jogo para ensinar matemática aos seus filhos. Ele desenha em uma folha de papel um tabuleiro de dimensões n X m. Depois numera cada um das células do tabuleiro da esquerda para a direita, de cima para baixo, começando com o valor 1. Então ele pede ao seus filhos que executem as seguintes operações: Some todos os valores de todas as células do tabuleiro, chame esse valor de t; Some todos os valores da diagonal superior direita da célula 1, incluindo a própria célula, chame esse valor de x; Some os valores da primeira e da última coluna do tabuleiro e chame-os de a e b, respectivamente; Some todos os valores da primeira e da última linha e chame-os de c e d, respectivamente; Some todos os valores da diagonal superior esquerda da ultima célula da última linha (linha mais abaixo) do tabuleiro , chame esse valor de y; Qual o resultado da expressão ( t - (x+y) + (a *b) - (c*d) ) / (n*m) ?",
+    "format_input": "Consiste de 02 números inteiros n e m (n>=0, m>=0) representando, respectivamente, o número de linhas e colunas do tabuleiro. A entrada acaba quando n=0 e m =0.",
+    "format_output": "Consiste de um número real, arredondado para duas casas decimais, resultado da expressão destacada na descrição. Para o caso onde n = 0 ou m = 0 a resposta deve ser 0.00",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "array bidimensional"
+    ]
+}

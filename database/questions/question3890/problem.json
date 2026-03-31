@@ -1,0 +1,11 @@
+{
+    "title": "Estações do ano",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Há quatro estações no ano: verão, outono, inverno e primavera. Esses períodos são definidos com base em padrões ou variações climáticas. Estações do ano no hemisfério norte: verão: de 21 de junho a 20 de setembro; outono: de 21 de setembro a 20 de dezembro; inverno: de 21 de dezembro a 20 de março; primavera: de 21 de março a 20 de junho. Estações do ano no hemisfério sul: verão: de 21 de dezembro a 20 de março; outono: de 21 de março a 20 de junho; inverno: de 21 de junho a 20 de setembro; primavera: de 21 de setembro a 20 de dezembro. Elabore um programa que contenha uma função que receba como parâmetros: hemisfério, dia e mês e exiba a estação do ano correspondente.",
+    "format_input": "Três números inteiros, representando o hemisfério (0 - norte, 1 - sul), o dia e o mês nessa sequência.",
+    "format_output": "Uma cadeia de caracteres em letras maiúsculas, sem acentuação.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

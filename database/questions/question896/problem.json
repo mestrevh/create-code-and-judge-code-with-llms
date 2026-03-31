@@ -1,0 +1,11 @@
+{
+    "title": "Notas de 0 a 10.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.",
+    "format_input": "Valores indefinidos de notas.",
+    "format_output": "Valor válido ou inválido.",
+    "topics": [
+        "multiplas entradas",
+        "repetição"
+    ]
+}

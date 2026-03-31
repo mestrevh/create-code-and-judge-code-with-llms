@@ -1,0 +1,10 @@
+{
+    "title": "Maior abaixo da média",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dadas os nomes e as notas de um conjunto de alunos, escreva um programa que liste os alunos com a maior nota abaixo da média da turma.",
+    "format_input": "Para cada aluno usam-se duas linhas: a primeira para o nome e a segunda para a nota. O final é marcado pela palavra FIM.",
+    "format_output": "A maior nota abaixo da média da turma seguido dos nomes dos alunos com esta nota. Cada informação será escrita em uma linha. Se não houver nenhum aluno abaixo da média, deverá ser escrito \"Ninguem abaixo da media\".",
+    "topics": [
+        "array"
+    ]
+}

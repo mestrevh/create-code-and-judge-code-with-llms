@@ -1,0 +1,10 @@
+{
+    "title": "MDC como combinação linear",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que mostre o MDC entre dois numeros como uma combinação linear entre eles, obs: existem infinitas combinações, você deve mostrar a que dá pra chegar com a manipulação do algoritmo de euclides",
+    "format_input": "dois inteiros a e b",
+    "format_output": "o mdc na forma de combinação linear na forma : c1*x - c2*y",
+    "topics": [
+        "array"
+    ]
+}

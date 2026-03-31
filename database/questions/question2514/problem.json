@@ -1,0 +1,10 @@
+{
+    "title": "Diferença Octave",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia quatro valores numéricos A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D.",
+    "format_input": "O algoritmo terá como entrada 4 valores numéricos",
+    "format_output": "O algoritmo deve imprimir na tela: DIGITE O VALOR A: DIGITE O VALOR B: DIGITE O VALOR C: DIGITE O VALOR D: DIFERENCA = n (sendo n o valor da diferenca)",
+    "topics": [
+        "lógica matemática"
+    ]
+}

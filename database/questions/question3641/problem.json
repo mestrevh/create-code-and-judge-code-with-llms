@@ -1,0 +1,13 @@
+{
+    "title": "Par e ímpar - lista",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma lista com nomes de pessoas de tamanho N e um número identificador G, ordene a lista de modo que todas as pessoas com identificador par sejam mostradas primeiro, seguidas das pessoas com identificador ímpar. A primeira linha será formada por um inteiro N. As N linhas seguintes receberão o nome da pessoa seguido de um espaço e o seu número G. Sabe-se que os nomes serão escritos em minúsculo, sem espaços e sem acentos. A saída será formada por N nomes ordenados de acordo com o critério acima. ( 1 <= N <= 100) ( 1 <= G <= 9 )",
+    "format_input": "10 ana 1 pedro 6 carol 4 maria 3 joao 2 bia 3 felipe 7 mateus 8 helena 9 marcos 2",
+    "format_output": "pedro carol joao mateus marcos ana maria bia felipe helena",
+    "topics": [
+        "estrutura de dados",
+        "array",
+        "decisão",
+        "ordenação"
+    ]
+}

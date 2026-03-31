@@ -1,0 +1,10 @@
+{
+    "title": "Ferraduras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para calcular quantas ferraduras são necessárias para equipar todos os cavalos comprados para um haras.",
+    "format_input": "O programa terá como entrada apenas um valor inteiro referente ao número de cavalos.",
+    "format_output": "O programa deve exibir a quantidade de ferraduras necessárias para equipar os cavalos. Ex.: para 1 cavalo o programa deverá gerar a saída: Total de Ferraduras = 4",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

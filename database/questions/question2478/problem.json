@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Repetição - E",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[for] Desenvolva um programa que exibe a tabuada de um número natural escolhido pelo usuário. Os múltiplos apresentados devem ser de 1 a 10.",
+    "format_input": "Um número natural.",
+    "format_output": "A saída deve ser a tabuada do número natural dado como entrada, conforme o formato do exemplo.",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Média simples",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em Python3 que receba 4 valores, referentes à altura de 4 pessoas, calcule e imprima a média desses valores.",
+    "format_input": "As entradas serão números reais positivos não nulos. Não deve ser impresso nenhum texto para pedir os dados de entrada. Não é necessário fazer nenhum tipo de validação dos dados de entrada",
+    "format_output": "A saída devera ser formatada conforme o exemplo: A media das alturas eh: <valor> onde <valor> será substituído pelo resultado calculado. OBS.: Atenção aos acentos no texto de saída. o The Huxley trabalha com a tabela ASCII, portanto não aceita caracteres acentuados mesmo nas strings (embora o Python aceite pois usa a tabela UTF-8), portanto não use acentos no seu código.",
+    "topics": [
+        "métodos numéricos",
+        "lógica matemática"
+    ]
+}

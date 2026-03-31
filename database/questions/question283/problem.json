@@ -1,0 +1,13 @@
+{
+    "title": "Saltando Primos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Professor Jaime adora tudo relacionado a números primos. Lembre-se que um número primo é um número positivo maior do que um e somente divisível por 1 e por si mesmo. Ele está trabalhando agora em uma propriedade de um conjunto de números primos chamado de campeão de salto. Um número inteiro N é chamado de \"campeão salto\" se é a diferença mais frequente entre primos consecutivos. Por exemplo, considere os números primos consecutivos 2 3 5 7 11. As diferenças entre os números primos são 1 2 2 4. Portanto, para este conjunto de números primos, o campeão de salto é exatamente 2 (que ocorre duas vezes). Ele realmente gostaria de saber para qualquer conjunto de números primos que é o seu campeão salto correspondente. Você pode ajudá-lo?",
+    "format_input": "A entrada é uma linha com dois números inteiros L e U (0 < L < 1000), separados por um espaço único, que representam os limites inferior e superior (respectivamente) a considerar.",
+    "format_output": "Um número, representando o campeão de salto, seguido de uma quebra de linha. Caso não haja campeão de salto, imprima \"-1\", sem as aspas, também seguido de uma quebra de linha.",
+    "topics": [
+        "array",
+        "acumulador",
+        "lógica matemática",
+        "números primos"
+    ]
+}

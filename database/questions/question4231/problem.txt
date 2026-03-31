@@ -1,0 +1,6 @@
+Título: mmc de uma sequência
+Topicos do problema: ad-hoc; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Defina uma função que aceite como argumento uma lista de inteiros positivos ns e um inteiro positivo n e que retorne um booleano determinando se n é múltiplo de todos os números da lista ns ou não.</p><p>Com esta função, elabore um programa que calcule o mínimo múltiplo comum de todos os elementos de uma lista de inteiros positivos.</p><p><br/></p>
+Formato da entrada: <p>Uma sequência de números inteiros positivos, um número por linha e terminada por um número menor ou igual a zero.&#13;&#13;<br/></p>
+Formato da saída: <p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">O mínimo múltiplo comum de todos os elementos da sequência de entrada.</span><br/></p>

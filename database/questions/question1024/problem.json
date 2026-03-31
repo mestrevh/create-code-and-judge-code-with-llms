@@ -1,0 +1,10 @@
+{
+    "title": "Critical Links",
+    "time_limit": "3 segundo(s)",
+    "descrition": "In a computer network a link L, which interconnects two servers, is considered critical if there are at least two servers A and B such that all network interconnection paths between A and B pass through L. Removing a critical link generates two disjoint sub{networks such that any two servers of a sub{network are interconnected. For example, the network shown in figure 1 has three critical links that are marked bold: 0 - 1, 3 - 4, and 6 - 7. It is known that: 1. the connection links are bi{directional; 2. a server is not directly connected to itself; 3. two servers are interconnected if they are directly connected or if they are interconnected with the same server; 4. the network can have stand{alone sub{networks. Write a program that finds all critical links of a given computer network.",
+    "format_input": "The first line contains a positive integer no_of_servers(possibly 0) which is the number of network servers. The next no_of_servers lines. one for each server in the network, are randomly ordered and show the way servers are connected. the line corresponding to serverk, 0 <= k <= no_of_servers - 1, specifies the number of direct connections of serverk and the server which are directly connected to serverk. Servers are represented by integers from 0 to no_of_servers-1. Input data are correct. The first data set from sample input below corresponds to the network in figure 1, while the second data set specifies an empty network. There are multiple test cases, and they will be separated by a single blank space.",
+    "format_output": "The result of the program is on standard output. For each data set the program prints the number of critical links and the critical links, one link per line, starting from the beginning of the line, as shown in the sample output below. The links are listed in ascending order according to their first element. The output for the data set is followed by an empty line.",
+    "topics": [
+        "grafo"
+    ]
+}

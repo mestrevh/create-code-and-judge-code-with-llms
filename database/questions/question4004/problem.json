@@ -1,0 +1,10 @@
+{
+    "title": "Música Para os Meus Ouvidos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um belo dia de “não tem o que fazer”, Will decidiu brincar de classificar algumas músicas de sua \"playlist\". Basicamente, após ouvir uma música, ele atribui a ela um Estilo Primário (Eletronic, Indie ou Rock), um Estilo Secundário (Hard ou Amistoso) e um Fator Musical (valor de 1 até 10) para tal música e, só então, ele a classifica como “Essa eh punk”, “Aumenta mais!”, “Legal” ou “Hoje eu choro”. Alguns exemplos: Sabe-se que a classificação padrão para: Eletronic Hard é \"Aumenta mais!\"; Eletronic Amistoso é \"Legal\"; Indie Hard é \"Essa eh punk\"; Indie Amistoso é \"Hoje eu choro\"; Rock Hard é \"Aumenta mais!\"; Rock Amistoso é \"Legal\". Além do mais, quando o Fator Musical é: maior ou igual a 1 e menor ou igual 4, ele fica :'( maior do que 4 e menor ou igual a 7, ele fica ^_^ maior do que 7 e menor ou igual a 10, ele fica =D Crie um algoritmo que, dado três inputs (Estilos Primário e Secundário e o Fator Musical), mostre a classificação dada por Will, bem como sua reação. OBS.: Considere 1. Eletronic 2. Indie 3. Rock 1. Hard 2. Amistoso",
+    "format_input": "Você receberá 3 valores, sendo: um inteiro(1, 2 ou 3) representando o ESTILO PRIMÁRIO; um inteiro(1 ou 2) representando o ESTILO SECUNDÁRIO; um valor real(entre 1 e 10, incluindo-os) representando o FATOR MUSICAL.",
+    "format_output": "Imprima na tela a classificação dada pelo Will, como também um emoticon representando a reação dele ao ouvi-la. OBS.: Não esqueçam da quebra de linha no final de cada frase!!! Na dúvida de como fazer o emoticon, copia e cola ;).",
+    "topics": [
+        "decisão"
+    ]
+}

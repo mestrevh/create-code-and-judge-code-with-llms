@@ -1,0 +1,11 @@
+{
+    "title": "Vagões e mais vagões.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Aim é a nova maquinista do Trem Expresso Sul e precisa da sua ajuda para organizar a entrada de passageiros! O trem é composto por vários vagões, e cada vagão pode transportar até 4 pessoas. No momento em que Aim começa seu turno, alguns vagões já estão parcialmente ocupados. Novos passageiros chegam e precisam ser distribuídos nos vagões da seguinte forma: O embarque deve começar do último vagão para o primeiro. Em cada vagão, Aim deve acomodar o máximo possível de pessoas, sem ultrapassar a capacidade de 4. Caso não seja possível acomodar todos os passageiros, Aim precisa saber quantos ficaram de fora. Sua tarefa é criar um programa que ajude Aim a: Ler o número de vagões do trem. Ler a quantidade de pessoas que já estão sentadas em cada vagão. Ler a quantidade de novos passageiros que querem embarcar. Distribuir as pessoas pelos vagões de trás para frente. Informar se todos foram acomodados ou quantos passageiros ficaram sem vaga. Exibir o estado final dos vagões após o embarque.",
+    "format_input": "Um número inteiro N representando o número de vagões. Um array com N números inteiros representando a quantidade de pessoas em cada vagão no momento atual (valores entre 0 e 4). Um número inteiro P representando a quantidade de novos passageiros. Exemplo: 5 2 3 1 0 4 7",
+    "format_output": "Uma mensagem indicando se \"Todos foram acomodados\" ou \"N ficaram de fora.\" caso não caibam todos os passageiros. Uma linha mostrando a quantidade final de pessoas em cada vagão, separados por espaço. Exemplo: Todos foram acomodados 4 4 4 4 4",
+    "topics": [
+        "array",
+        "lógica matemática"
+    ]
+}

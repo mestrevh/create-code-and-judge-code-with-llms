@@ -1,0 +1,11 @@
+{
+    "title": "L3Q5 - Quase Lá",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O príncipe Naveen, que foi transformado em sapo por voodoo, quer ajudar Tiana a realizar seu sonho, abrir um restaurante em Nova Orleans quando eles voltarem a ser humanos. Já que perdeu sua herança, ele decidiu passar os dias coletando moedas nas pedras ao redor dos lagos. Você receberá quantas pedras tem no lago e quantas moedas tem em cada uma delas. Sabendo que: O príncipe vai coletar moedas de qualquer pedra que ele pare; Ele só pode coletar as moedas de cada pedra uma vez; Ele sempre começa na primeira pedra. Seu trabalho é calcular a quantidade total de moedas que Naveen conseguiu coletar nesse dia simulando o caminho dele pelo lago. OBS: Sempre que Naveen chega na última pedra do lago e precisar continuar se movendo no sentido +, ele volta continua o movimento na mesma direção, da primeira pedra. De forma contrária, se Naveen chegar a primeira pedra e precisar continuar se movendo no sentido -, ele continua o movimento na mesma direção, da última pedra. Podem existir lagos que não tem nenhuma pedra.",
+    "format_input": "A primeira linha a entrada é composta de um inteiro N (0 <= N < 10000), representando o número de pedras. A segunda linha é composta por N números inteiros Ai (0 < Ai <= 100), separados por espaço, representando a quantidade de moedas na i-ésima pedra. As próximas linhas da entrada, até o fim do arquivo, são compostas por uma string C, na qual a primeira letra corresponde ao sentido do avanço e os dígitos posteriores correspondem ao número de casas a serem saltadas. Sabe-se que o sentido pode ser \"+\" ou \"-\" (sem aspas), representando, respectivamente, salto para frente e salto para trás. OBS: Os comandos informados não consideram a quantia de pedras no lago.",
+    "format_output": "A linha única de saída deve ser composta por um inteiro, representando o total de moedas coletadas.",
+    "topics": [
+        "array",
+        "array circular"
+    ]
+}

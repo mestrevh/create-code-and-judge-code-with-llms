@@ -1,0 +1,10 @@
+{
+    "title": "Competição de Arco e Flecha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Arquinhos Maia e Flecha Fonseca estão disputando uma emocionante competição de arco e flecha, valendo uma grande bolada em dinheiro! Se Arquinhos Maia vencer, ele promete realizar uma festa épica e convidar o lendário Labubu como presença ilustre. Caso Flecha Fonseca leve a melhor, ela finalmente conhecerá o famoso jogador Tiro Jr. O alvo da competição é um quadrado formado por camadas internas também quadradas. O quadrado mais externo vale 1 ponto, e cada camada para fora aumenta o valor em +1 ponto. Exemplo: Para um alvo 3×3: 111 121 111 Sua tarefa é criar um programa que, dado o tamanho do alvo N×N e as posições dos tiros de cada jogador, retorne a pontuação final de ambos e indique o vencedor.",
+    "format_input": "Um número inteiro N, representando o tamanho da matriz N×N (1 < N < 10³); Um número inteiro K, representando a quantidade de tiros (1 < K < 10⁶); Para cada tiro, dois números inteiros i j (0 < i < n - 1, 0 < j < n - 1), representando a posição Aᵢⱼ onde a flecha atingiu o alvo, onde é dado todos os K tiros de Arquinhos Maia e em seguida todos os K tiros de Flecha Maio.",
+    "format_output": "O texto \"Arquinhos Maia: \" seguido da pontuação de Arquinhos Maia, acompanhado de uma quebra de linha; O texto \"Flecha Fonseca: \" seguido da pontuação de Flecha Fonseca, acompanhado de uma quebra de linha; Em seguida: Caso Arquinhos Maia vença, imprima: \"Na festa do Arquinhos Maia, só Labubu!\" Caso Flecha Fonseca vença, imprima: \"Flecha Fonseca vai conhecer o Fini Jr.!\" Em caso de empate, imprima: \"Empatou! :P\" Exemplo de saída: Arquinhos Maia: 12 Flecha Fonseca: 10 Na festa do Arquinhos Maia, só Labubu! DICA: Use long long int (%lld) para imprimir a pontuação.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

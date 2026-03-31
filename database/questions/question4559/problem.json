@@ -1,0 +1,12 @@
+{
+    "title": "Problema: Aventura na Caverna dos Dragões",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em uma terra distante, há uma caverna misteriosa conhecida como a Caverna dos Dragões. Diz a lenda que esta caverna é habitada por diferentes espécies de dragões, cada um com seu próprio tesouro guardado. Você, um destemido aventureiro, decide explorar essa caverna em busca de riquezas, mas há um problema: a caverna é um labirinto escuro e você só pode se mover para frente, para a esquerda ou para a direita. Além disso, a caverna é dividida em salas, cada uma com um número indicando a quantidade de ouro que você pode encontrar nela.",
+    "format_input": "A primeira linha contém dois inteiros N e M, representando as dimensões da matriz. As próximas N linhas contêm M inteiros cada, representando a matriz do labirinto. A entrada do labirinto é indicada pela letra \"E\" e a saída pela letra \"S\". O labirinto é representado por uma matriz de tamanho N x M (1 <= N, M <= 1000), onde cada posição contém um número inteiro representando a quantidade de ouro na sala ou um obstáculo representado pelo valor -1. Você começa na posição da entrada.",
+    "format_output": "Uma única linha contendo um inteiro representando a quantidade total de ouro coletada. Você deve encontrar a rota que maximize a quantidade total de ouro coletado, indo da entrada até a saída. Ao chegar à saída, você deve informar a quantidade total de ouro coletada.",
+    "topics": [
+        "recursão",
+        "ordenação",
+        "ponteiro"
+    ]
+}

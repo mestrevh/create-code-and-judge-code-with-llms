@@ -1,0 +1,6 @@
+Título: Criação de um losango com números.
+Topicos do problema: array; repetição; string; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p dir="ltr" id="docs-internal-guid-1ab3d066-7fff-074a-e1a3-5310d5ffe2d8"><span style="color: #000000;background-color: transparent;">Faça um programa que seja capaz de desenhar um losango formado pelo número de 1 até X, onde X é o tamanho da bissetriz do mesmo. </span></p><p dir="ltr" id="docs-internal-guid-1ab3d066-7fff-074a-e1a3-5310d5ffe2d8"><span style="color: #000000;background-color: transparent;">O losango deve ter como diâmetro a quantidade de linhas indicadas em X. Cada linha deve ter a numeração do número da linha até 1 e de 1 até o número da linha. A linha central deve ser do X até o X, passando pelo 1. </span></p><p dir="ltr" id="docs-internal-guid-1ab3d066-7fff-074a-e1a3-5310d5ffe2d8"><span style="color: #000000;background-color: transparent;">obs: Para facilitar a visualização, imprima antes e depois do losango o diâmetro de x a x passando pelo 1.</span></p>
+Formato da entrada: <p>Um número inteiro indicado pelo usuário. Esse número deve ser positivo, maior que zero e menor que 13. </p>
+Formato da saída: <p>O losango desenhado pelos números ou a mensagem que o número é fora da faixa permitida</p>

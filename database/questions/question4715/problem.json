@@ -1,0 +1,13 @@
+{
+    "title": "Q09 - Exibição de Sequência Aritmética",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um procedimento chamado \"sequencia_aritmetica\" que recebe um número inicial, um valor de razão e um número de termos, e exibe a sequência aritmética correspondente.",
+    "format_input": "Um número inteiro indicando de onde a sequência começa; Um número inteiro indicando qual vai ser a razão; Um número inteiro indicando qual vai ser a quantidade de termos da sequência",
+    "format_output": "A sequência aritmética baseada no valor inicial, na razão e na quantidade de termos",
+    "topics": [
+        "lógica matemática",
+        "função",
+        "string",
+        "formatação"
+    ]
+}

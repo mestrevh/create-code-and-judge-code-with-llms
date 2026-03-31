@@ -1,0 +1,11 @@
+{
+    "title": "L3Q5 - Atividade da Himawari",
+    "time_limit": "3 segundo(s)",
+    "descrition": "A professora de programação da escolinha da Vila da Folha passou uma questão para Himawari e ela pediu ajuda para você e para Boruto. Ela precisa fazer um programa que manipule uma array de maneira que após o último valor ela volte ao primeiro, como um círculo. O programa deverá pegar um array em \"forma de círculo\" e ir somando seus valores até descobrir em que posição ele chegará ao atingir um valor pré-estabelecido e quantos loops foram precisos para isso, ou seja, quantas \"voltas no array\" foram dadas até chegar no valor. Caso durante a soma o número fique maior (para casos positivos) ou menor (para casos negativos), esta soma deve ser considerada inatingível e o programa deverá informar na saída.",
+    "format_input": "T - Número Natural Representando o tamanho do Array Seguido de 1 linha com T valores V V - Inteiro Sendo o valor de cada posição do array, respectivamente (A[0], ..., A[T - 1]) OBS: O array será sempre composto totalmente por número positivos e zero (0) OU totalmente por números negativos e zero (0). X - Inteiro Sendo o valor a ser alcançado com a soma dos valores do array",
+    "format_output": "S - String \"Esse numero deve estar errado...\" se for um número inalcançável ou P L - P: Inteiro, L: Inteiro Sendo P a posição que foi obtido um número igual ao valor dado e L a quantidade de loops dados para obter esse valor",
+    "topics": [
+        "array",
+        "array circular"
+    ]
+}

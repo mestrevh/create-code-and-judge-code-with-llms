@@ -1,0 +1,10 @@
+{
+    "title": "L6Q3 - Casamento Nobre",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ainda aborrecida pela chegada do Doctor ter arruinado o seu casamento e decepcionada com o seu ex-noivo embuste, Donna Noble decidiu criar uma empresa focada em formar casais perfeitos entre seus clientes, e de preferência que não estejam envolvidos com alienígenas semi-aracnídeos que pretendem dominar a terra. Ela então lhe contrata como o cara do TI dessa sua nova empresa. Sua função é ajudá-la e fazer um programa que ajude as pessoas a encontrar o seu casal perfeito, onde será informado uma lista de pessoas com seus respectivos identificadores e o objetivo é encontrar a primeira pessoa que tenha o mesmo identificador que a pessoa que está na primeira posição da lista. Quando isso acontecer é sinal de que um novo casal foi formado (sendo esse casal formado pela primeira pessoa da lista com a primeira pessoa depois dela que tenha o mesmo identificador) e os dois devem ser retirados da lista e uma saída deve ser impressa. Caso não exista nenhuma pessoa com o mesmo identificador da pessoa que está na primeira posição da lista, apenas ela deve ser removida da lista e uma saída será impressa. OBS: A primeira posição da lista é 0.",
+    "format_input": "Serão informadas várias linha no seguinte formato: N I Onde N é o nome da pessoa e I é o seu identificador.",
+    "format_output": "Caso um casal seja formado, a seguinte frase deverá ser impressa: \"N1 seu parceiro esta na posicao P e o seu nome e N2.\" onde N1 é o nome da atual primeira pessoa da lista , P é a posição onde o parceiro foi encontrado e N2 é o nome do parceiro. OU Caso não seja encontrado um parceiro para a primeira pessoa da lista, a seguinte frase deverá ser impressa: \"N1 nao existe um parceiro para voce.\" onde N1 é o nome da atual primeira pessoa da lista.",
+    "topics": [
+        "busca"
+    ]
+}

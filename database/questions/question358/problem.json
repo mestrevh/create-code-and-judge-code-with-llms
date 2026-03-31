@@ -1,0 +1,10 @@
+{
+    "title": "Prestação para amortização de financiamento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "De acordo com a Matemática Financeira, o cálculo das prestações para amortização de um financiamento de valor F em n prestações e a uma taxa de juros t é dada pela fórmula P = F/an¬t, onde an¬t = ((1 + t)^n – 1)/(t . (1 + t)^n). Escreva um programa que determine o valor das prestações para amortização de um financiamento, dados o valor do financiamento, o número de prestações para amortização e a taxa de juros. Cada uma dessas variáveis em uma linha. obs.: o acento ^ representa potência.",
+    "format_input": "Três números, um em cada linha. O primeiro é um ponto flutuante representando o valor do financiamento. O segundo é um inteiro representando a quantidade de prestações. E o terceiro é um ponto flutuante representado a taxa de juros.",
+    "format_output": "Um único valor inteiro representando o valor das prestações.",
+    "topics": [
+        "função"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Campo Minado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você já jogou campo minado? Este jogo vem instalado junto com o Windows! O objetivo do jogo é descobrir onde as minas estão localizadas em um campo M x N. O jogo mostra um número em um quadrado que indica quantas minas existem adjacentes ao quadrado do número. Cada quadrado possui no máximo 08 outros quadrados adjacentes.",
+    "format_input": "Consiste de um número arbitrário de campos minados. A primeira linha de cada campo contém dois inteiros n e m (0 < m, n <= 100). Esse inteiros significam o número de linhas e colunas do campo, respectivamente. Cada uma das próximas n linhas contém exatamente m caracteres, representando o campo. Quadrados seguros (que não possuem bombas) são representados pelo caracter \".\" e a bomba pelo caracter \"*\". Quando n=m=0, significa que a entrada terminou e portanto, nada mais deve ser processado.",
+    "format_output": "Para cada campo, imprima a mensagem Field #x: em uma linha, onde x indica o número do campo, começando por 1. As próximas linhas devem mostrar o campo, mas onde tinha \".\", deve ser substituído pelo número de minas adjacentes ao quadrado. É preciso que haja uma linha em branco entre cada campo.",
+    "topics": [
+        "multiplas entradas",
+        "array bidimensional",
+        "flood fill"
+    ]
+}

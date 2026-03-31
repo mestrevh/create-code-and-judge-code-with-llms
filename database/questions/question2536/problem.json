@@ -1,0 +1,12 @@
+{
+    "title": "Linha de Credito Octave - T1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma empresa abriu uma linha de crédito para os funcionários. O valor de cada prestação não pode ultrapassar 30% do salário. Faça um programa que receba o salário, o valor do empréstimo e o número de prestações e informe se o empréstimo pode ser concedido. Nenhum dos valores informados pode ser zero ou negativo.",
+    "format_input": "O usuario deve digitar o salário, o valor do empréstimo e o número de prestações",
+    "format_output": "O programa deve exibir uma mensagem falando se o emprestimo pode ser concedido ou não, imprimindo na tela os valores abaixo: Digite o salario: Digite o valor do emprestimo: Digite o numero de prestacoes: O emprestimo pode/não pode ser concedido",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Sistema de equação de primeiro grau",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio aprendeu hoje sobre sistemas de equação, mas percebeu que alguns sistemas possuem várias soluções. Entretanto, seu professor passou uma lista de exercícios somente com sistemas que possuem uma única solução. Como você já sabe este assunto e é amigo do Ambrósio, você decidiu fazer um programa que resolve os sistemas de equação da lista de exercícios do Ambrósio. As equações estão na forma: Ax + By = C Dx + Ey = F Sua missão é encontrar os valores de x e y dado que você receberá A, B, C, D, E e F.",
+    "format_input": "Você receberá 6 inteiros A, B, C, D, E, F, respectivamente, no seguinte formato: Ax + By = C Dx + Ey = F Considere todos os inteiros maiores ou iguais a 1 e menores ou iguais a 10000.",
+    "format_output": "Você imprimir duas linhas correspondendo aos valores de x e y, respectivamente. Ambos serão números reais formatados com 2 casas decimais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

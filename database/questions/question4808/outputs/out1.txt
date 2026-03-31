@@ -1,0 +1,32 @@
+Digite a quantidade de amostras de DNA que serao analisadas.
+
+Digite o tamanho da Amostra.
+Integridade: Amostra valida e correta.
+Fita 1 --> A: 2 , T: 2 , C: 1 , G: 0
+Fita 2 --> A: 2 , T: 2 , C: 0 , G: 1
+Amostra analisada!
+
+Digite o tamanho da Amostra.
+Integridade: Amostra com erro de pareamento.
+Posicao(oes) do(s) erro(s): 1 3
+Fita 1 --> A: 3 , T: 2 , C: 0 , G: 1
+Fita 2 --> A: 3 , T: 2 , C: 0 , G: 1
+Amostra analisada!
+
+Digite o tamanho da Amostra.
+Integridade: Amostra com erro de pareamento.
+Posicao(oes) do(s) erro(s): 0 6
+Fita 1 --> A: 1 , T: 2 , C: 1 , G: 1
+Fita 2 --> A: 2 , T: 1 , C: 1 , G: 1
+Alerta: Mutacao detectada!
+Amostra analisada!
+
+Digite o tamanho da Amostra.
+Integridade: Amostra com erro de pareamento.
+Posicao(oes) do(s) erro(s): 0 3
+Fita 1 --> A: 2 , T: 1 , C: 2 , G: 2
+Fita 2 --> A: 0 , T: 3 , C: 2 , G: 2
+Alerta: Mutacao detectada!
+Amostra analisada!
+
+Fim da analise!

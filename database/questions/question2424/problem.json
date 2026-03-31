@@ -1,0 +1,12 @@
+{
+    "title": "L1Q8 - Posto Ipiranga",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A fim de conhecer alguns pontos turísticos do Japão, nosso grupo de alunos alugou um carro de eficiência X km/L e o abasteceram com N litros de gasolina. Eles separaram quatro lugares para visitar, de forma que eles sempre sabem a distância do último ponto visitado para o próximo. Sua tarefa é, com todas as informações em mãos, informar nossos estudantes se eles conseguirão seguir o roteiro de viagem completo sem precisar reabastecer o carro.",
+    "format_input": "A entrada é composta por 5 linhas. A primeira linha contém N (quantidade de litros de gasolina no carro) e X (eficiência do carro em km/L): N X. N - número inteiro, 0 <= N <= 50. X - número de ponto flutuante, X > 0. As próximas 4 linhas são no formato: Si Di. Si - String (nome do ponto turístico). Di - número inteiro (distância em km entre o último ponto visitado e Si), Di >= 0.",
+    "format_output": "Caso os estudantes não tenham abastecido o carro (N = 0), a saída deverá ser: Vamos pro posto Ipiranga ja! Obs: esta saída é obrigatória caso N = 0. Caso seja possível completar o trajeto sem precisar reabastecer o carro, a saída será: Tokyo e demais, temos que vir de novo! Caso tenham abastecido o carro, mas não o suficiente para completar o percurso, a saída será: Vamos de metro mesmo!",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "string"
+    ]
+}

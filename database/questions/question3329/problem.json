@@ -1,0 +1,10 @@
+{
+    "title": "Ajude o Leo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leo é um cara muito habilidoso com matemática, porém ele está com um problema. A cada véspera de prova muitas pessoas vão atrás de Leo para tirar dúvidas, mas ele não consegue dar conta de ajudar a todos. Como Leo é um cara muito esperto, ele percebeu que as dúvidas sempre são no mesmo formato e agora quer a sua ajuda para escrever um programa para resolver as dúvidas sozinho. As perguntas sempre chegam neste formato: onde (x,y) é um ponto e D é o domínio de uma função de duas variáveis. Essas funções sempre são uma fração. Por sorte Leo lhe explicou que para os tipos de fração que os seus colegas têm dúvidas, basta saber se o seu denominador é diferente de 0 no ponto (x,y). Outro padrão que Leo percebeu é que os denomidadores dessas frações sempre são dados no formato: Dica: Para exponenciação em C use a função pow(base, pot) que está incluída no header math.h para compilar pela linha de comando no linux com a math.h, você tem que compilar com a flag -lm ex: gcc solucao.c -lm -o executavel",
+    "format_input": "A entrada será duas linhas, a primeria contendo o ponto (x,y), e a segunda, o denomidador da função. OBS: Todos os números dados sempre serão inteiros positivos.",
+    "format_output": "Se a função for definida do ponto (x,y) a saída deverá ser: a função está definida em (x,y) caso contrário: a função não está definida em (x,y) .-. onde (x,y) é o ponto dado.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

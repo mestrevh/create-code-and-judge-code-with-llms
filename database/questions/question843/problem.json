@@ -1,0 +1,15 @@
+{
+    "title": "Contar palavras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fazer um programa para ler uma string e calcular o número de palavras que ele contém. Exemplo: casa amarela, o número de palavras é 2.",
+    "format_input": "Uma string com no mínimo 1 caracter e no máximo 500.",
+    "format_output": "Um inteiro indicando a quantidade de palavras na string, seguido de um fim de linha.",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "repetição",
+        "caractere",
+        "string"
+    ]
+}

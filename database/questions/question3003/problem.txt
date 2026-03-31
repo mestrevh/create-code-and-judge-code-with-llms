@@ -1,0 +1,6 @@
+Título: Soma
+Topicos do problema: acumulador; Two Pointers Technique; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Temos uma sequência deNquadrados desenhados lado alado.  Cada quadrado possui um número natural anotadodentro dele. Dados a sequência dosNquadrados e um va-lorK, quantos retângulos distintos existem cuja soma dosnúmeros dentro do retângulo é exatamente igual aK? Porexemplo, a figura mostra uma sequência deN= 10quadra-dos para a qual existem5retângulos cuja soma dos númerosé igual aK= 4.<br/></p>
+Formato da entrada: <p>A primeira linha da entrada contém dois inteirosNeKrepresentando o número de quadrados nasequência e o valor da soma desejada. A segunda linha da entrada contémNnúmeros naturaisXi,para1≤i≤N, indicando a sequência de números anotados dentro dos quadrados.<br/></p>
+Formato da saída: <p>Seu programa deve imprimir uma linha contendo um número inteiro representando quantos retân-gulos existem na sequência cuja soma é igual aK.<br/></p>

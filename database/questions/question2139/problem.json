@@ -1,0 +1,11 @@
+{
+    "title": "Prefixo Negativo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O senhor Electro fez uma lista com as palavras que ele mais gosta. Depois de pronta, o senhor Protônio pegou a lista feita pelo senhor Electro mas não gostou porque achou as palavras muito negativas. Acontece que todas as palavras da lista do senhor Electro começam com o prefixo de negação \"des\". O senhor Protônio decidiu melhorar a lista do senhor Electro e, para isso, ele precisa da sua ajuda. Escreva um programa que para cada palavra lida, imprima uma equivalente removendo o prefixo \"des\".",
+    "format_input": "Uma palavra que começa com o prefixo \"des\".",
+    "format_output": "A palavra lida removendo o prefixo \"des\".",
+    "topics": [
+        "substrings",
+        "caractere"
+    ]
+}

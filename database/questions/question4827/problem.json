@@ -1,0 +1,12 @@
+{
+    "title": "Perdido no Labirinto",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Omsare foi teleportado e acabou perdido no labirinto de Murici City. Você, usando seus poderes mágicos, consegue enxergar todo o labirinto do alto. Entretanto, este labirinto possui algo especial: pontos de teleporte! Cada ponto de teleporte leva diretamente ao seu par correspondente — e sempre que existir um, há outro formando o par. A partir da posição inicial (0,0), que é sempre um espaço livre, desenvolva um programa capaz de determinar se Omsare conseguirá escapar sozinho ou se será necessário chamar reforço para resgatá-lo!",
+    "format_input": "Um número inteiro N, representando o tamanho de uma matriz N × N com 10 < N < 10³; Uma matriz A de tamanho N × N, onde: 0 representa espaços livres pelos quais Omsare pode se locomover; 1 representa paredes; 2 representa pontos de teleporte. 3 representa o fim do labirinto. Um número inteiro T, representando a quantidade de pares de teleportes do labirinto, com 0 < T < N / 2. Para cada par de teleporte Ti, são dados 4 inteiros, representando as coordenadas das duas posições que formam o par de teleporte Ti. DICA: Use struct para saber a coordenada que cada ponto de teleporte leva. DICA: É possível fazer um array e até matrizes com struct.",
+    "format_output": "Imprima \"Omsare conseguiu fugir!\" seguido de uma quebra de linha, caso ele consiga escapar do labirinto. Caso contrário, imprima \"Chamem reforços para resgatar Omsare!\", seguido de uma quebra de linha.",
+    "topics": [
+        "array bidimensional",
+        "backtracking",
+        "estruturas"
+    ]
+}

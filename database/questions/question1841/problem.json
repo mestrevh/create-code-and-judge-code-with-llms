@@ -1,0 +1,10 @@
+{
+    "title": "Jogadores de basquete",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba os nomes e a pontuação de vários jogadores de basquete até que o usuário digite \"sair\" em vez do nome de um jogador. No final, mostre: O nome do jogador que fez a menor quantidade de pontos O nome do jogador que fez a maior quantidade de pontos A média dos pontos de todos os jogadores Se não for fornecido os dados de nenhum jogador, imprima na saída: \"Nenhum jogador foi registrado.\" Se houver mais de um jogador com a mesma pontuação, para efeito de cálculo do jogador com maior (ou menor) quantidade de pontos, deve ser considerado o último jogador inserido. (Vide casos de teste)",
+    "format_input": "Em sequência os nomes e a pontuação de vários jogadores de basquete ou \"sair\" para terminar o programa.",
+    "format_output": "Assim que o usuário digitar sair, imprima: O nome do jogador que fez a menor quantidade de pontos O nome do jogador que fez a maior quantidade de pontos A média dos pontos de todos os jogadores (com duas casas decimais de aproximação) Se não for fornecido os dados de nenhum jogador, imprima na saída: \"Nenhum jogador foi registrado.\"",
+    "topics": [
+        "repetição"
+    ]
+}

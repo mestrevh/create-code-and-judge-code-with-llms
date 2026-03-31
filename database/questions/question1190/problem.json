@@ -1,0 +1,11 @@
+{
+    "title": "L2Q4 - Valar Morghulis",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Comovido com todas as mortes que estão ocorrendo, você parou para pensar na família dessas pessoas e decidiu criar uma ferramenta para dar um pouco de consolo às pobres almas. Para isso, você desenvolveu um transmissor automático de mensagens de pêsames, que recebe a quantidade de pessoas que morreram no dia. Cada uma das linhas seguintes contém o nome completo de um falecido (primeiro nome seguido pelo nome da família). Para cada nome, gerar esta mensagem: Cara família nomeDaFamilia, sentimos muito pela tragica morte de nomeDoFalecido. Porém, caso o Falecido seja das famílias Lannister, Stark ou Targaryen, uma mensagem especial deve ser impressa logo após a mensagem acima. Para os Lannister: Os campos agora o ouvirao rugir. Para os Stark: O inverno chega para todos. Para os Targaryen: Voces sao superestimados mesmo.",
+    "format_input": "A entrada consiste de um número inteiro positivo não neutro N, informando a quantidade de pessoas que morreu neste dia. Seguido por uma sequência de N nomes completos, cada um em uma linha.",
+    "format_output": "A saída deve exibir o texto \"Cara familia nomeDaFamilia, sentimos muito pela tragica morte de nomeDoFalecido.\" Caso o falecido pertença às famílias Lannister, Stark ou Targaryen, um texto adicional deve ser impresso logo após, conforme a descrição do problema.",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}

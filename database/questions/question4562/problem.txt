@@ -1,0 +1,6 @@
+Título: Caça Palavras
+Topicos do problema: array bidimensional; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Faça um programa que receberá um caça-palavras NxN e uma lista das palavras a serem procuradas e deve retornar a quantidade de palavras encontradas. Note que pode existir palavra na lista que não exista na &#34;tabuleiro&#34;.</p><p><br/></p><p><b>OBS:</b> É um caça-palavras nível fácil, ou seja, as  palavras estão escondidas apenas na <b>vertical</b> e na <b>horizontal</b>.</p>
+Formato da entrada: <p>Um inteiro <b>N</b> com o tamanho do &#34;tabuleiro&#34;, seguido do tabuleiro.</p><p>Um inteiro <b>M</b> seguido de <b>M</b> palavras a serem caçadas.</p>
+Formato da saída: <p>A quantidade de palavras achadas.</p>

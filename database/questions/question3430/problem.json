@@ -1,0 +1,14 @@
+{
+    "title": "Sistema Simplificado para Gestao de alunos",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Neste trabalho, cada aluno deve implementar um sistema simplificado para gestão de alunos de uma disciplina com 36 aulas. O sistema deve armazenar os alunos cadastrados em um VETOR (a quantidade de alunos na disciplina deve ser fornecida pelo programador). Os seguintes dados devem ser informados e armazenados sobre cada aluno: matrícula do aluno, quatro notas do tipo real e quantidade de faltas do tipo inteiro.",
+    "format_input": "1",
+    "format_output": "1",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

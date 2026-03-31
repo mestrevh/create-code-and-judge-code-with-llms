@@ -1,0 +1,11 @@
+{
+    "title": "L4Q4 - Snake",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Diretamente do Nokia 3310, faça um programa que simule um pouco do jogo Snake, febre no inicio dos anos 2000. O jogo original consiste em uma cobra que anda pelo mapa, ela não pode bater nos obstáculos do jogo, mas pode atravessar para o lado oposto do mapa ao atingir uma das bordas. Para facilitar um pouco a resolução segue algumas facilidades: Podem existir obstáculos no jogo, se o jogador bater em um deles, deve perder o jogo automaticamente. Existe apenas 1 modo de jogo, em que não há paredes, e quando você tenta atravessar uma delas você acaba saindo do lado oposto da matriz. O jogo acaba quando os passos feitos pelo jogador chegam ao fim OU ele atinge um obstáculo. Objetos no mapa: * - representa um espaço vazio no mapa, onde a cobra pode caminhar. # - local em que a cobra está @ - obstáculo",
+    "format_input": "M: Sendo m um inteiro positivo que representa o tamanho do mapa; N: Numero natural, representando a quantidade de movimentos do jogador; A: Onde A é uma matriz MxM que representa o estado inicial do mapa. Os caracteres estarão separados por espaço em cada linha; Em seguida serão informadas N linhas contendo os movimentos da cobra, as quais: \"D\" - Movimenta a cobra para a direita. \"E\" - Movimenta a cobra para a esquerda. \"C\" - Movimenta a cobra para cima. \"B\" - Movimenta a cobra para baixo.",
+    "format_output": "B: Onde B é uma matriz mxm que representa o estado final do mapa; Caso a cobra atinja um obstáculo, é necessário informar: \"Game over.\"",
+    "topics": [
+        "array bidimensional",
+        "array circular"
+    ]
+}

@@ -1,0 +1,6 @@
+Título: O apelido de Aninha
+Topicos do problema: array; 
+Tempo limite de execução: 1 segundo(s)
+Descrição: <p>Aninha possui um apelido secreto, é seu dever descobrir qual é?</p>
+Formato da entrada: <p>O numero 1.</p>
+Formato da saída: <p>Um printf com o apelido de aninha</p>

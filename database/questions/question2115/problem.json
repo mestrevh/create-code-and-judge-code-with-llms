@@ -1,0 +1,12 @@
+{
+    "title": "Função sinal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um número real, a função sinal desse número será definida como: f(x) = -1, se x for um número negativo ou 1, se x for um número positivo ou 0, se x for zero Você deve indicar qual o valor de f(x) para um dado x.",
+    "format_input": "Um número real.",
+    "format_output": "De acordo com o valor de x dado, você deve imprimir: sinal(<inclua aqui o valor de x dado>) = -1 ou sinal(<inclua aqui o valor de x dado>) = +1 ou sinal(<inclua aqui o valor de x dado>) = 0 O valor de x deve estar formatado segundo a notação de engenharia com 4 casas decimais (use arredondamento) e 2 dígitos para o expoente. Por exemplo: 8.6235 = 8.6235e+00 -0.086235 = -8.6235e-02 8623.5 = 8.6235e+03",
+    "topics": [
+        "ponto flutuante",
+        "decisão",
+        "formatação"
+    ]
+}

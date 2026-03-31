@@ -1,0 +1,12 @@
+{
+    "title": "Cifra de César",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio, seu amigo de longa data (ou não!), está fascinado com as técnicas de criptografia, e gostaria de se comunicar de uma forma mais segura com você. Então lhe pediu um programa que criptografe ou descriptografe uma mensagem usando os conceitos da Cifra de César. A Cifra de César é uma das mais simples técnicas de criptografia, é uma cifra de substituição, onde cada letra do alfabeto é substituída por outra letra, que se apresenta no alfabeto abaixo dela um número fixo de vezes (que chamaremos de deslocamento). Neste exemplo, o deslocamento foi de três. Veja que após a criptografia, 'B' se torna 'E', Observe também que 'X' se tornou 'A'. Suponha um deslocamento de 3. Antes de criptografar: Ataque Agora! Depois de criptografar: Dwdtxh Djrud! Para descriptografar, aplicamos o processo inverso. Para um deslocamento de 3, a descriptografia exige um deslocamento de -3. Antes de descriptografar: Dwdtxh Djrud! Depois de descriptografar: Ataque Agora! Os caracteres que podem ser deslocados estão nos intervalos de 'a' - 'z' e de 'A' - 'Z', da tabela ASCII, ou seja, o alfabeto minúsculo e maiúsculo, caracteres diferentes destes não devem ser deslocados. Note que para criptografar, o deslocamento será > 0; E que para descriptografar, o deslocamento será < 0. Se o deslocamento for 0, a mensagem fica inalterada. Se o deslocamento for maior que o número de caracteres do alfabeto (tabela ASCII), tiramos o resto da divisão.",
+    "format_input": "Um inteiro 'n', representando o deslocamento, onde n pode ser maior que a quantidade de caracteres do alfabeto. Uma string de até 100 caracteres. A string pode conter quaisquer caracteres do intervalo ' ' - 'z' (do 'espaço' até 'z') , da tabela ASCII, atente para os que podem ser deslocados. Dispostos da seguinte maneira: 3 Ataque Agora!",
+    "format_output": "Imprima a mensagem criptografada, descriptografada, ou inalterada, da seguinte maneira: Dwdtxh Djrud! ATENÇÃO: veja que nem o 'espaço' nem o '!' foram deslocados.",
+    "topics": [
+        "repetição",
+        "recursão",
+        "string"
+    ]
+}

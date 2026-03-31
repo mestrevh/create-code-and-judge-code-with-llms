@@ -1,0 +1,11 @@
+{
+    "title": "Teh Adventujrs of Meme Man: Volta do Mercado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O relógio marca meia-noite, e o calendário diz ser primeiro de Janeiro de 2017. Voltando do mercado após suas comprinhas, Meme Man tamborila seus dedos no volante do seu Honc & Bonc 14023 * 3. O trânsito aparenta não ter fim mesmo após 7 intermináveis horas, e nosso protagonista já escutou todos os seus discos de vinil da Xuxa. Ele, que trabalha na Rubs Enterprise, ingere uma pílula de tempo líquido que ele... Pegou emprestado da empresa. Desorientado, ele te liga para saber onde no tempo ele está!",
+    "format_input": "Um inteiro tempo, relativo à quantidade de horas que se passaram desde que Meme Man ingeriu a pílula.",
+    "format_output": "\"Stonks has been born!\", seguido de uma quebra de linha, se nosso protagonista voltar para casa no dia 5 de Junho de 2017. \"...Ainda no transito...\", seguido de uma quebra de linha, caso menos de 62 horas tenham se passado. \"Lar doce lar\", seguido de uma quebra de linha, caso ele vá para qualquer outro horário no futuro. \"Meme man quebrou o tempo! De volta ao transito :(\", seguido de uma quebra de linha, se uma quantidade negativa de horas se passou após ele ter ingerido a pílula.",
+    "topics": [
+        "datas/horas",
+        "decisão"
+    ]
+}

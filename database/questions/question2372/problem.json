@@ -1,0 +1,11 @@
+{
+    "title": "[Matrizes] Contando itens pares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função que receba como parâmetros uma matriz de números naturais M de L linhas por C colunas e devolva a quantidade de itens pares da matriz. Você deverá criar um programa que leia os valores de L e de C (cada um em uma linha) e em seguida construir a matriz M com os próximos L x C valores (cada um em uma linha). O programa deverá chamar a função e exibir o valor devolvido dela.",
+    "format_input": "2 3 10 20 30 40 50 60",
+    "format_output": "6",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

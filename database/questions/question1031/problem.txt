@@ -1,0 +1,6 @@
+Título: Mike e o palíndromo
+Topicos do problema: substrings; palíndromos; string; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Mike tem uma string S contendo apenas letras minúsculas. Ele quer mudar <b>exatamente 1 caractere </b>da string para que o resultado da mesma, seja um palíndromo.</p><p>Um palíndromo é  uma string que é igual quando lida de trás pra frente, por exemplo : &#34;z&#34;, &#34;aaa&#34;, &#34;aba&#34;, &#34;abccba&#34;. Mas strings como : &#34;relógio&#34;, &#34;mouse&#34;, não são.</p>
+Formato da entrada: <p>A primeira linha contem uma string S.</p><p> 1&lt;= S &lt;= 15</p>
+Formato da saída: <p>Print &#34;<b>YES</b>&#34; (sem as aspas) se quando Mike mudar <b>exatamente</b> um caractere o resultado seja um palíndromo ou &#34;<b>NO</b>&#34; caso contrário.</p>

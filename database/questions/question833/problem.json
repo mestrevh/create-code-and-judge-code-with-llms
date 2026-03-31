@@ -1,0 +1,13 @@
+{
+    "title": "Palíndromo Simples",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Palíndromos podem ser palavras ou frases que são iguais quando lidas de frente para trás e de trás para frente. ex : Arara é 1 palíndromo, já João não. Você receberá 5 caracteres restritos (a, b ou c). e deverá decidir se é possível formar um palíndromo com os caracteres dados. Obs: perceba que você pode receber os caracteres desordenados, exemplo (a, a, b, a, b) , a palavra aabab não forma um palíndromo, porém a palavra ababa forma, e você tem letras suficientes para forma-la , logo a resposta é sim.",
+    "format_input": "5 caracteres restritos(a, b ou c) , um por linha.",
+    "format_output": "sim (caso possa ser formado um palíndromo). nao (caso contrário)",
+    "topics": [
+        "palíndromo",
+        "strings",
+        "lógica",
+        "caracteres"
+    ]
+}

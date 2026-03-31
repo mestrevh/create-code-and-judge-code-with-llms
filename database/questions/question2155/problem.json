@@ -1,0 +1,11 @@
+{
+    "title": "Seleção Brasileira",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O técnico da seleção brasileira vai escalar os 11 titulares que jogarão a copa do mundo e ele precisa de você para ajudar a colher algumas estatísticas dos jogadores. Você vai receber os nomes dos jogadores até completar os 11 ou até que o treinador digite sair no nome do jogador. Além do nome você recebrá da entrada padrão a idade e a posição do jogador. Em seguida você deve imprimir: O nome do jogador mais jovem; A posição do jogador mais velho; A média de idade.",
+    "format_input": "Nome, Idade e Posição: (A)tacante, (M)eio-campo, (D)efensor, (G)oleiro.",
+    "format_output": "O nome do jogador mais jovem, a posição do jogador mais velho e a média de idade com uma casa decimal de aproximação.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

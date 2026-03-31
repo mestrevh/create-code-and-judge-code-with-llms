@@ -1,0 +1,10 @@
+{
+    "title": "Operação bancária",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Escreva um programa para implementar uma aplicação que lê um conjunto de operações bancárias e depois executa as mesmas. O programa aceita até 100 operações de crédito e débito. O programa deve obrigatoriamente ser dividido em 3 partes que: 1 - Lê as operações de uma vez salvando-as em um array com duas dimensões (operação e valor); 2 - Varre o array executando as operações; 3 - Imprime um resumo com os totais de valores a) creditados, b) debitados, e c) o saldo final resultante. Todas as operações são executadas em uma mesma conta bancária. O saldo inicial da conta é zero.",
+    "format_input": "Uma sequência de até 100 linhas, cada uma contendo dois valores. O primeiro (do tipo int) indica as operações de crédito (1) ou débito (0), o segundo (do tipo double) representa o valor a ser utilizado na operação. O que define o final da lista de operações é uma linha adicional, contendo apenas o valor int -1. Esta linlha final não deve ser armazenada no array. Embora seu programa possa apenas aceitar vírgula como separador de decimal, o thehuxley vai requerer ponto como separador, mas você não precisa modificar nada no seu programa, pois a conversão é automática e depende apenas das configurações regionais do computador.",
+    "format_output": "Um resumo das operações realizadas em três linhas: a 1a linha indica o total de valores creditados; a 2a linha indica total de valores debitados; a 3a linha indica o saldo da conta. Os valores devem conter dois dígitos após a vírgula.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Questão sobre migrações",
+    "time_limit": "1 segundo(s)",
+    "descrition": "(UDESC) As regiões metropolitanas das cidades têm forte integração econômica e estão integradas por migrações pendulares, que é o movimento: a) diário de trabalhadores entre o local de moradia e o local de trabalho. b) de migrantes entre diferentes cidades. c) de migrantes de cidades menores para cidades maiores. d) da população rural em direção aos grandes centros urbanos. e) de trabalhadores rurais em busca de trabalhos em áreas urbanas.",
+    "format_input": "null",
+    "format_output": "null",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Comparador de Matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desta vez você terá que comparar se duas matrizes são iguais, mas para isso você deverá somar todos valores da matriz para poder comparar com o resultado da soma da outra matriz. Por exemplo nas matrizes: 1 2 4 3 3 4 2 1 A soma da primeira matriz é 10, e a soma da segunda matriz também é 10, portanto as matrizes são iguais. As matrizes sempre serão quadradas, ou seja, terão o mesmo número de linhas e colunas.",
+    "format_input": "Você receberá um inteiro que informa o tamanho da matriz, e em seguida receberá as duas matrizes.",
+    "format_output": "Se o resultado das somas forem iguais deve ser impresso \"SIM\", se não forem iguais deve ser impresso \"NÃO\".",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

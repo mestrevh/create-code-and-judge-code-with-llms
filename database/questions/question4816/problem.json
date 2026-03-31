@@ -1,0 +1,11 @@
+{
+    "title": "A Caixinha Mágica de Luana",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Luana adora brincar de organizar números como se fossem pedrinhas mágicas. Um dia, ela decidiu fazer um desafio para si mesma: 1. Primeiro, ela vai escolher um número n, que representa quantas pedrinhas ela vai observar. 2. Depois, Luana vai anotar n números, um a um, como se fossem as energias dessas pedrinhas. 3. Em seguida, um número especial vai aparecer para ela — o chamado número mágico. A regra do jogo de Luana é simples: sempre que uma pedrinha tiver um número que seja múltiplo do número mágico, ela guarda essa pedrinha em sua caixinha mágica, que começa com o valor 0. Mas não para por aí: em vez de apenas guardar, Luana soma todas as pedrinhas que colocou na caixinha, acumulando a energia delas. No fim, Luana quer que você descubra qual foi o valor final que ficou dentro da caixinha mágica.",
+    "format_input": "A primeira linha contém um número inteiro n, representando a quantidade de pedrinhas que Luana vai observar; Em seguida, n números inteiros, representando as energias das pedrinhas. Por fim, um único número inteiro, representando o número mágico.",
+    "format_output": "Um único número inteiro, representando a soma das pedrinhas que são múltiplos do número mágico.",
+    "topics": [
+        "array",
+        "decisão"
+    ]
+}

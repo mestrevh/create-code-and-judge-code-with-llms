@@ -1,0 +1,10 @@
+{
+    "title": "Q04 - Frase boa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Eduardo gosta de conversar com seus amigos na internet, entretanto, ele só gosta de mandar mensagens que tenham quantidades pares de palavras (Ex.: \"Bom dia\" -> 2 palavras). Faça um programa que veja a quantidade de palavras e diga se é uma mensagem boa para Eduardo ou não.",
+    "format_input": "Uma string com no mínimo um caractere.",
+    "format_output": "\"SIM\", caso seja uma mensagem boa ou \"NÃO\", caso seja uma mensagem ruim.",
+    "topics": [
+        "string"
+    ]
+}

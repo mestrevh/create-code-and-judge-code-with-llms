@@ -1,0 +1,10 @@
+{
+    "title": "UACSA - Fração",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcule o resultado dessa expressão, sem simplificar: https://www.thehuxley.com/api/v1/problems/image/f539d477687489ecc41498f13dd06b188139627e2.png",
+    "format_input": "Este programa não tem entrada (input), basta calcular o resultado da fração",
+    "format_output": "O resultado precisa ser exatamente o resultado da fração, sem qualquer outro texto. Ou seja, apenas 7.5",
+    "topics": [
+        "lógica matemática"
+    ]
+}

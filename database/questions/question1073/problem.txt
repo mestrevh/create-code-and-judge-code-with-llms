@@ -1,0 +1,6 @@
+Título: Esfera
+Topicos do problema: ponto flutuante; lógica matemática; 
+Tempo limite de execução: 2 segundo(s)
+Descrição: <p>Dado o valor da altura do segmento e do raio, calcule o volume do segmento de um círculo usando a fórmula abaixo:</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/1f42b4451dd97147d10ed3d69f22afc5bad2039e1.png"/></p><p><span>Atenção: assuma que PI = 3.14. </span></p><p><span>Na figura abaixo temos um segmento representado pela parte azul (fonte: Wikipedia):</span></p><p><br/></p><p><img src="https://www.thehuxley.com/api/v1/problems/image/3fd17a126501f24b33b049343e8e9db4b130f1bdg.png"/><br/></p>
+Formato da entrada: <p>A entrada será dois valores em ponto flutuante, sendo um correspondente ao raio e o outro à altura do segmento da esfera.<br/></p><p><br/></p>
+Formato da saída: <p>A saída deverá ser uma mensagem contendo a palavra &#34;VOLUME&#34; conforme o exemplo fornecido abaixo, com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto.<br/></p><p><br/></p><p>VOLUME = 113.097<br/></p><p><br/></p><p><br/></p>

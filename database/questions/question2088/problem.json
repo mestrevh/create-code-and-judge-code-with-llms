@@ -1,0 +1,10 @@
+{
+    "title": "Cartas do Ambrósio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio gosta muito de jogos de cartas, ele ganhou uma promoção de uma loja de cartas no qual a loja daria a ele a opção de escolher entre N caixas cheias, na qual cada caixa tem um X correspondendo a quantidade de pacotes de cartas. Cada carta tem uma valor que corresponde a sua força.Sendo que cada pacote corresponde a 3 cartas. Ambrósio decidiu escolher a caixa com a maior força por pacote.",
+    "format_input": "Um valor N correspondendo ao número de caixas. X correspondendo ao número de pacotes da caixa em ordem. F1, F2, F3 correspondendo a força de cada carta X vezes. Exemplificando: N X1 F1 F2 F3 F1 F2 F3 .... X2 F1 F2 F3 ... Xn F1 F2 F3 ...",
+    "format_output": "Imprima o número correspondendo a caixa escolhida, levando em consideração que a primeira caixa corresponda ao número 1. Imprima o valor do força por pacote que a caixa escolhida possui.",
+    "topics": [
+        "repetição"
+    ]
+}

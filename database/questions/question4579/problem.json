@@ -1,0 +1,11 @@
+{
+    "title": "A melhor sala",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma escola planeja premiar a melhor sala, baseando-se na quantidade de aprovados dela. Entretanto, está com problemas no seu sistema e não consegue ter acesso a esse dado. As únicas informações que possuem são as notas e o registro de presença de cada aluno, logo você deve ajudá-la a calcular quantos alunos de cada sala foram aprovados, para que, assim, ocorra a premiação.",
+    "format_input": "Primeiramente receberá um inteiro n, referente à quantidade de salas a serem analisadas. Logo em seguida, para cada sala,receberá um inteiro id, referente ao identificador da sala (considere que as entradas sempre constarão com ids únicos), e outro inteiro q (máximo 50), referente á quantidade de alunos, daquela sala, a terem seus dados lidos. Para cada alunos, receberá, incialmente, seu nome (considere que não haverá espaço na string, ex: \"Rafael\", \"Pedro\", \"Ana\"), e um float indicando sua porcentagem de presença (ex: 0.50 , 0.85 , ...). Após isso, receberá, 3 notas (inteiros de 0 a 10) de matemática, 3 de português e 3 de história, nessa ordem. Observe um exemplo de entrada no caso teste de exemplo.",
+    "format_output": "Você deve deve calcular a quantidade de aprovados da seguinte forma: para um aluno ser aprovado, ele precisa ter as 3 médias (matemática, português e história) maior ou igual a 7, e ter uma presença maior ou igual a 0.75 (ou seja, 75%). Após calcular quantos alunos foram aprovados em cada sala, você deve ordena-las com base nessa quantidade, de forma que a primeira do ranking seja a com mais alunos aprovados. Caso haja empate, conserva-se a ordem em que foi recebida a entrada. O output deverá ser da seguinte forma: \"<rank>. [SALA #<id>] APROVADOS: <qtd aprovados>\"",
+    "topics": [
+        "ordenação",
+        "estruturas"
+    ]
+}

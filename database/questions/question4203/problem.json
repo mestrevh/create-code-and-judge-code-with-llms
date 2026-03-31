@@ -1,0 +1,10 @@
+{
+    "title": "Pentágono Mágico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados n > 5 pontos, P1 = (x1 , y1 ), ..., Pn = (xn , yn ), em posição geral (não existem três pontos colineares) no plano cartesiano, projete um algoritmo para verificar se existe um pentágono convexo com seus vértices em cinco dos pontos dados tal que todos os pontos estão contidos neste pentágono. P.S.: pode-se assumir uma precisão máxima de 10^-6",
+    "format_input": "Cada caso de teste é composto por uma linha contendo um número natural n (5 < n < 100) indicando o número de pontos dados em seguida. A seguir são apresentadas n linhas cada uma contendo um par de números naturais entre 0 e 10000 representando as coordenadas dos n pontos.",
+    "format_output": "Caso exista um pentágono convexo com seus vértices em cinco dos pontos dados tal que todos os pontos estão contidos neste pentágono, deve-se imprimir a mensagem \"pentagono magico!\" (sem as aspas). Caso contrário, deve-se imprimir \"cade a magia?\".",
+    "topics": [
+        "ad-hoc"
+    ]
+}

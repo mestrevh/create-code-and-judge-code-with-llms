@@ -1,0 +1,10 @@
+{
+    "title": "Uma calculadora diferente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O grande matemático Oileh se encontrava filosofando durante sua casa quando de repente notou algo: Sua calculadora estava quebrada! Sendo assim, ele contatou seu amigo, Euak, que se encontrava igualmente desocupado, e lhe fez uma proposta: Pediu para que lhe construísse uma calculadora nova, mas diferente do resto. Sendo assim, Euak bolou seu plano maligno e resolveu criar uma calculadora de cinco operações: A (Add/Adicionar a), S (Subtract/Subtrair a), M(Multiply/Multiplicar por), D(Divide/Dividir por) e C (Change to/Trocar por). Para entender melhor, imagine o seguinte exemplo: 3 8.00 A 5 C 4 S 1 Nesse exemplo, o valor inicial da calculadora é 8.00. A primeira operação, adiciona 5 ao valor anterior, que é 8. Assim, o resultado parcial é 13. Depois o valor é substituído por 4. Fazendo com o que o resultado parcial seja 4. Por fim, o valor é subtraído de 1. Assim, o resultado final seria 3.",
+    "format_input": "Um número N e um valor float inicial X, seguidos por N linhas, cada uma contendo uma operação e um valor float Y.",
+    "format_output": "Deve ser impresso: \"Valor final: [resultado]\", em que [resultado] deverá possuir no máximo dois dígitos após a pontuação.",
+    "topics": [
+        "recursão"
+    ]
+}

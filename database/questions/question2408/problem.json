@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Sequência - J",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que recebe duas notas e exibe a média ponderada dessas notas, considerando peso dois para a primeira e peso três para a segunda.",
+    "format_input": "Na primeira linha haverá um número real representando a primeira nota; na linha seguinte haverá um número real representando a segunda nota.",
+    "format_output": "Deverá ser um valor real com duas casas decimais simbolizando a média ponderada.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

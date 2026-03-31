@@ -1,0 +1,10 @@
+{
+    "title": "Lista de Produtos",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Você deve complementar o código de um programa que trabalha com uma lista de produtos. Um produto possui quatro atributos: 1) um inteiro com o código do produto; 2) um String com o nome do produto; 3) um double com o valor do produto; 4) um inteiro com a quantidade de produtos em estoque. Você deve: 1. complementar a implementação do método “procurar”, que recebe o código do produto e retorna um String com os dados do produto (resultado do método toString da classe Produto”), caso ele seja encontrado, ou a frase “Produto Inexistente!”, caso o produto não seja encontrado. 2. Implementar o método “inserir”, que insere um novo produto no final da lista de produtos. Para que você implemente o que falta é essencial estudar o código fornecido e compreender como a estrutura de dados com a lista de produtos (classe ListaProdutos) está implementada. Atenção: você não pode modificar o método main!",
+    "format_input": "1aLinha - String com o nome do produto; 2aLinha – double com o valor do produto; 3aLinha – int com a quantidade de produtos; 4aLinha - String com o nome do produto; 5aLinha – double com o valor do produto; 6aLinha – int com a quantidade de produtos; 7aLinha - String com o nome do produto; 8aLinha – double com o valor do produto; 9aLinha – int com a quantidade de produtos.",
+    "format_output": "1aLinha – String retornado pelo método “procurar”, quando chamado com código igual a 1 como parâmetro; 2aLinha – String retornado pelo método “procurar”, quando chamado com código igual a 3 como parâmetro; 3aLinha – String retornado pelo método “procurar”, quando chamado com código igual a 5 como parâmetro.",
+    "topics": [
+        "ordenação topológica"
+    ]
+}

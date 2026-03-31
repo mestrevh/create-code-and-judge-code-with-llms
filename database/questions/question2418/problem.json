@@ -1,0 +1,13 @@
+{
+    "title": "L1Q1 - Hotel? Trivago",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um grupo de alunos do CIn viajou para o Japão e precisa da sua ajuda para encontrar um hotel para a estadia. Eles já fizeram uma busca adiantada e agora estão na dúvida entre apenas dois hotéis. Sua missão é criar um programa que seja capaz de escolher a melhor opção de hotel para eles. Para isso, eles te dirão o número de estrelas que cada hotel tem, se o hotel fornece café da manhã ou não e o preço da diária de cada hotel. Em primeiro lugar, o hotel que tiver mais estrelas será o escolhido pela turma. Caso os hotéis tenham a mesma quantidade de estrelas, o hotel que fornecer café da manhã será o escolhido. Caso os dois hotéis forneçam café da manhã ou nenhum dos dois forneça, os alunos escolherão aquele hotel com a diária mais em conta. Ainda, se todas as informações dos hotéis forem iguais, você deve informá-los que os dois hotéis são boas opções.",
+    "format_input": "A entrada é composta por 5 linhas. As duas primeiras linhas são os nomes de cada hotel: Nome1 Nome2. Nome1 - String, Nome2 - String. A terceira linha tem o número inteiro de estrelas de cada hotel separados por espaço: E1 E2. 1 <= E1, E2 <= 5. A quarta linha contém a informação sobre o café da manhã dos hotéis separada por espaço. Se o hotel tiver café da manhã, a entrada será \"Sim\", caso contrário será \"Nao\". C1 C2. C1 - String (\"Sim\" ou \"Nao\"), C2 - String (\"Sim\" ou \"Nao\"). A quinta e última linha tem os preços dos hotéis (números de ponto flutuante) separados por espaço: P1 P2. P1, P2 > 0.",
+    "format_output": "Caso o hotel X leve a vantagem em uma das comparações, a saída deverá ser: O hotel X e a melhor opcao de estadia! Caso contrário, a saída será: Ambos os hoteis sao boas opcoes de estadia!",
+    "topics": [
+        "ponto flutuante",
+        "multiplas entradas",
+        "decisão",
+        "string"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Viagens do Caminhão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um caminhão de frete faz diversas viagens por dia, sempre carregando o caminhão o máximo possível no inicio e o descarregando ao fim da viagem. O motorista do caminhão nunca sabe quantas caixas vai carregar por dia, nem o peso de cada uma delas, por isso está tendo problemas em escolher as caixas que vão ser levadas a cada viagem, por isso ele confiou em você a tarefa de desenvolver um programa que faça essa escolha para ele. As seguintes regras para o carregamento do caminhão foram dadas: - O motorista deseja que a cada viagem o caminhão faça o mais cheio possível; - Em caso de duas combinações de cargas terem o mesmo peso, sempre deve-se escolher as caixas que foram dadas primeiro; - Caixas podem sobrar ao fim das viagens, as caixas mais pesadas que a capacidade do caminhão sempre sobram; - O programa não deve exibir viagens onde nenhuma carga foi levada;",
+    "format_input": "Uma linha com um inteiro P representando o peso que o caminhão suporta, seguido de um inteiro V representando quantas viagens o caminhão pode fazer durante o dia. 1 < P <= 1000; 1 < V <= 10; Na linha seguinte o peso de cada uma das caixas que devem ser carregadas neste dia, o peso de todas as caixas é um inteiro positivo e nunca haverá mais de 1000 caixas num mesmo dia.",
+    "format_output": "Para cada viagem feita pelo caminhão, você deve imprimir uma linha com \"Viagem I: X\" onde I é a i-ésima viagem e X é o peso carregado na i-ésima viagem.",
+    "topics": [
+        "array",
+        "recursão"
+    ]
+}

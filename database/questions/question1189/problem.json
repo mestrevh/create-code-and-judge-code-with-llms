@@ -1,0 +1,10 @@
+{
+    "title": "L2Q5 - Rains of Castamere",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Chegando então a Porto Real, você se depara com a Rainha Cersei Lannister, que está procurando um novo cavaleiro para a Guarda Real, pois já enjoou de Montanha, que tem se mantido muito frio. Assim que souberam da vaga, vários cavaleiros se candidataram. A escolha será baseada em uma única informação: poder. Eles formam uma fila e cada cavaleiro informa seu poder. Observando-os cuidadosamente, Cersei sempre mantém em mente o cavaleiro com maior poder, que no final da apresentação será presenteado com a vaga aberta para a Guarda Real. Cersei porém, irrita-se com muita facilidade e assim que ela vê um cavaleiro com poder 0, toma como insulto pessoal, irrita-se e termina o processo de apresentação de cavaleiros, aceitando de imediato o cavaleiro com maior poder informado até o momento.",
+    "format_input": "A entrada consiste dos poderes informados pela fila de cavaleiros, que é uma sequência de números inteiros positivos, cuja quantidade é indefinida. A sequência sempre termina com 0 (zero).",
+    "format_output": "Seu programa deve responder com o poder do cavaleiro aceito por Cersei Lannister para ocupar a vaga de Montanha",
+    "topics": [
+        "repetição"
+    ]
+}

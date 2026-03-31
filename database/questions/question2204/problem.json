@@ -1,0 +1,11 @@
+{
+    "title": "A festa de Ambrósio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio é famoso por organizar as melhores festas, pois ele consegue juntar as melhores atrações com um preço acessível garantindo o maior lucro. Para fazer o cálculo ele dispõe de algumas informações: o valor mínimo do ingresso, o valor máximo do ingresso, quantos ingressos a mais são vendidos a cada real de desconto e a quantidade de ingressos vendidos se o valor for máximo, o desconto sempre é de um real. Dadas essas informações informe o maior lucro possível. Por exemplo, se a entrada for: 5 10 20 100 A saída vai ser: 1120 Que vai acontecer quando o valor do ingresso for 8 e a quantidade de ingresso for 140, ou quando o valor do ingresso for 7 e a quantidade for 160.",
+    "format_input": "A entrada é composta por 4 valores inteiros, o primeiro é o valor mínimo do ingresso, o segundo o valor máximo do ingresso, o terceiro valor é a quantidade de ingressos que vai aumentar a cada real a mais de desconto, o quarto valor é a quantidade de ingressos inicial para o valor máximo.",
+    "format_output": "A saída consiste de um inteiro contendo o maior valor que pode ser arrecadado com as vendas dos ingressos.",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

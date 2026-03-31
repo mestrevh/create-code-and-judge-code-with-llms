@@ -1,0 +1,8 @@
+{
+    "title": "Imprimir Número",
+    "time_limit": "4 segundo(s)",
+    "descrition": "Faça um programa em Java que leia do usuário um número e escreva a mensagem: O número informado foi <número>",
+    "format_input": "10",
+    "format_output": "Digite um número:\nO número informado foi 10",
+    "topics": []
+}

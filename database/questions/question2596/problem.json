@@ -1,0 +1,10 @@
+{
+    "title": "Quantidade de Tinta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que calcule a quantidade de latas de tinta necessárias e o custo para pintar tanques cilíndricos de combustível, onde são fornecidos a altura e o raio desse cilindro. Sabendo que: cada lata contém 5 litros. cada litro de tinta pinta 3 metros quadrados. Área do cilindro= 2 vezes a área da base + circunferência da base vezes a altura e que raio e altura são dados de entrada.",
+    "format_input": "Altura do cilindro; Raio da base do Cilindro; Custo da lata de tinta;",
+    "format_output": "Área do cilindro; Quantidade de litros de tinta; Quantidade de latas de tinta; Custo total.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

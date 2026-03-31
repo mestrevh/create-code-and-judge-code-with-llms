@@ -1,0 +1,10 @@
+{
+    "title": "Escalonamento de Sistemas Lineares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para a resolução dos sistemas de equações lineares através do Método da Eliminação de Gauss, é necessário ter uma matriz triangular superior. Para isso, é necessário a transformação do sistema original num sistema equivalente, usando o escalonamento.",
+    "format_input": "Duas matrizes, uma de coeficientes do sistema linear e outra com os termos independentes.",
+    "format_output": "Duas matrizes, uma de coeficientes do sistema linear e outra com os termos independentes.",
+    "topics": [
+        "métodos numéricos"
+    ]
+}

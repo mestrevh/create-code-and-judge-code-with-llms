@@ -1,0 +1,13 @@
+{
+    "title": "Cálculo de Aposentadoria",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O INSS calcula o tempo de serviço de um trabalhador e determina se esse pode se aposentar ou não. Para se aposentar, um trabalhador deve atender a um desses 3 requisitos: Ter pelo menos 65 anos e trabalhado pelo menos 5 anos; Ter trabalhado pelo menos 30 anos; Ter pelo menos 60 anos e trabalhado pelo menos 25 anos. Quando nenhum dos requisitos é atendido, o trabalhador deve ser informado quanto tempo falta para a sua aposentadoria. Observação: É necessário a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão",
+    "format_input": "Consiste de 2 inteiros: um para a idade e outro para o tempo trabalhado",
+    "format_output": "Uma mensagem para o usuário informando se pode ou não se aposentar. Caso não possa, informar o quanto tempo faltam para a aposentadoria",
+    "topics": [
+        "acumulador",
+        "entrada formatada",
+        "função",
+        "formatação"
+    ]
+}
