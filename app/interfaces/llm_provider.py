@@ -27,12 +27,13 @@ class LLMProvider(ABC):
         
         code = self.send_prompt(prompt)
         
-        if code[0] == "`":
-            code = code[10:len(code)-3]
-        
         if code is None:
             print("[File Manager]: Não é possível criar o arquivo")
             return False
+        
+        if code[0] == "`":
+            code = code[10:len(code)-3]
+        
         
         title = f"/*\nCódigo criado pelo {model_name}\n"
         title += "Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)\n*/\n"

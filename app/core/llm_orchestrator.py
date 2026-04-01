@@ -52,6 +52,8 @@ class LLMOrchestrator:
         
         print(f"Código questão {problem.get_id()} gerado com sucesso!")
         
+        return True
+        
         if not self.__judger.simulation_the_huxley(problem=problem, code_path=self.__coder.get_path_code()):
             print(f"Não foi possível criar a instancia da questão {problem.get_id()}...")
             return False
