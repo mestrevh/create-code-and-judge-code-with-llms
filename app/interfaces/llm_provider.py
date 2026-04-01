@@ -60,7 +60,9 @@ class LLMProvider(ABC):
         
         if response is None:
             print("[File Manager]: Não é possível criar o arquivo")
-            return False
+            model = path.split('/')[3]
+            content = f"# Modelo do judge: {model}\n\nNão possui janela de contexto grande para esse caso\n"
+            return file_manager.create_file(f"judge{problem.get_id()}.md", path, content=content)
         
         if file_manager.create_dir(path):
             print(f"[File Manager]: {path} criado com sucesso")
@@ -72,6 +74,7 @@ class LLMProvider(ABC):
         if not file_manager.create_file(f"judge{problem.get_id()}.md", path, response):
             print("[File Manager]: Não foi possível criar o arquivo")
             return False
+        
         
         return True
     

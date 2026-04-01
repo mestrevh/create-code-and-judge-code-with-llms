@@ -94,7 +94,7 @@ class GPTService(LLMProvider):
                     "Sua tarefa é avaliar um código com base em um problema e seus casos de teste.\n\n"
 
                     "========== PROBLEMA ==========\n"
-                    f"{problem.get_format_question_prompt()}\n"
+                    f"{problem.get_format_question_prompt_simulation()}\n"
                     "========== FIM DO PROBLEMA ==========\n\n"
 
                     "========== CÓDIGO ==========\n"
@@ -142,7 +142,7 @@ class GPTService(LLMProvider):
                     "5) Compare com a saída esperada.\n\n"
 
                     "========== CASOS DE TESTES ==========\n"
-                    f"{problem.get_format_question_prompt()}\n"
+                    f"{problem.get_cases_test_of_problem()}\n"
                     "========== FIM CASOS DE TESTES ==========\n\n"
 
                     "========== CÓDIGO ==========\n"

@@ -1,0 +1,5 @@
+# Modelo do judge: models/gemini-3.1-pro-preview
+
+VEREDITO: APROVADO
+COMPLEXIDADE: O(1) tempo, O(1) espaço
+FEEDBACK: O código soluciona o problema de forma correta, inteligente e eficiente. A condição matemática para que um retângulo possa ser dividido em 4 áreas com duas retas perpendiculares e paralelas aos lados é que o produto das áreas diagonalmente opostas seja igual (A * D == B * C). O uso da função `next_permutation` iterando sobre um array de índices `p` (inicializado de forma ordenada: 0, 1, 2, 3) é uma excelente prática, pois garante que todas as 24 combinações possíveis sejam testadas independentemente da ordenação dos valores na entrada. A complexidade de tempo é constante O(1), visto que há no máximo 24 iterações. A complexidade de espaço também é O(1), alocando apenas vetores de tamanho fixo. O uso de `long long` previne com folga qualquer possibilidade de overflow na multiplicação, muito embora os limites do problema (10^4) resultem em produtos de no máximo 10^8, o que caberia com segurança em um inteiro normal de 32 bits. O código passou de forma impecável na simulação mental de todos os casos de teste.

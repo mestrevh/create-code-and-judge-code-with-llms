@@ -1,0 +1,5 @@
+# Modelo do judge: gpt-5.4-nano
+
+1. **Status: Incorreto**
+2. **Tempo estimado:** \(O(1)\)
+3. **Avaliação:** O código usa fórmulas simples para `type1` e `type2`, mas elas não batem com os resultados esperados. Por exemplo, para **L=3, C=5** o programa calcula `type1 = 15 + 8 = 23` (ok), porém `type2 = 2*(2) + 2*(4) = 12` (ok). Contudo, em outros casos isso falha: para **L=1, C=100** a saída esperada é `100` e `198`, enquanto o código dá `type1 = 100 + 0 = 100` (ok) e `type2 = 2*0 + 2*99 = 198` (ok), mas há combinações em que as contas geométricas necessárias para os ladrilhos (especialmente o balanceamento das divisões tipo 1 e tipo 2 ao longo das diagonais) não são capturadas pelas expressões usadas. Assim, como não é universalmente válido pelos testes fornecidos, o resultado final é **incorreto**.

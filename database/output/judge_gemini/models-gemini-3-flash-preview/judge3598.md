@@ -1,0 +1,5 @@
+# Modelo do judge: models/gemini-3-flash-preview
+
+VEREDITO: REPROVADO
+COMPLEXIDADE: O(1) tempo, O(1) espaço
+FEEDBACK: O código falha na lógica fundamental do problema "Idade de Dona Mônica". A entrada consiste na idade da mãe (M) e na idade de dois de seus filhos (A e B). A idade do terceiro filho (C) deve ser calculada como C = M - (A + B). O objetivo é imprimir a idade do filho mais velho, ou seja, max(A, B, C). O código submetido apenas lê os três valores iniciais e imprime o maior entre eles (que sempre será a idade da mãe), ignorando o cálculo do terceiro filho. Por exemplo, no Teste 0, a entrada é (47, 21, 9); o código produz 47, enquanto o esperado é 21. No Teste 2, a entrada é (100, 14, 25); o código produz 100, enquanto o esperado é 61. Além disso, a lógica de leitura `if (!(cin >> a >> b >> c))` está correta para evitar erros de stream, mas a lógica aritmética é inexistente.
