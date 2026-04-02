@@ -16,6 +16,9 @@ class ProblemRepository (ProblemInterface):
     def problem_is_exist(self) -> bool:
         return self.__problem is not None
     
+    def size_test_cases(self) -> int:
+        return len(self.__problem.cases_test)
+    
     def set_problem(self, id: int):
         
         path = f"database/questions/question{id}"

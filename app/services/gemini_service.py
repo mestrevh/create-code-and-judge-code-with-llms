@@ -149,7 +149,7 @@ class GeminiService(LLMProvider):
                     f"{code}\n\n"
                     
                     "--- TESTES ---\n"
-                    f"{problem.get_cases_test_of_problem()}\n\n"
+                    f"{problem.get_cases_test_of_problem(problem.size_test_cases())}\n\n"
                     
                     "INSTRUÇÕES DE AVALIAÇÃO (Simule mentalmente os seguintes passos):\n"
                     "1. COMPILAÇÃO: Verifique se há erros de sintaxe (COMPILATION_ERROR).\n"

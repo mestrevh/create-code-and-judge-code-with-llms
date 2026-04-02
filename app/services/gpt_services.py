@@ -142,7 +142,7 @@ class GPTService(LLMProvider):
                     "5) Compare com a saída esperada.\n\n"
 
                     "========== CASOS DE TESTES ==========\n"
-                    f"{problem.get_cases_test_of_problem()}\n"
+                    f"{problem.get_cases_test_of_problem(problem.size_test_cases())}\n"
                     "========== FIM CASOS DE TESTES ==========\n\n"
 
                     "========== CÓDIGO ==========\n"
