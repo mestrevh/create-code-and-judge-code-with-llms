@@ -111,19 +111,19 @@ class LLMProvider(ABC):
             
             submission_the_huxley = request_web.get_last_submission_the_huxley(problem.get_id())
             
-            response_submission['status_the_huxley']            = None
-            response_submission['tempo_the_huxley']             = None
-            response_submission['total_acertos_the_huxley']     = None
-            response_submission['total_erros_the_huxley']       = None
-            response_submission['total_casos_teste_the_huxley'] = None
+            response_submission['status_the_huxley']            = "WAITING"
+            response_submission['tempo_the_huxley']             = 0.0
+            response_submission['total_acertos_the_huxley']     = 0
+            response_submission['total_erros_the_huxley']       = 0
+            response_submission['total_casos_teste_the_huxley'] = 0
             
-            if submission_the_huxley['evaluation'] is not None:
+            if submission_the_huxley and submission_the_huxley.get('evaluation') is not None:
                 response_submission['status_the_huxley'] = submission_the_huxley['evaluation']
             
-            if submission_the_huxley['time'] is not None:
+            if submission_the_huxley and submission_the_huxley['time'] is not None:
                 response_submission['tempo_the_huxley'] = submission_the_huxley['time']
             
-            if submission_the_huxley['testCaseEvaluations'] is not None:
+            if submission_the_huxley and submission_the_huxley['testCaseEvaluations'] is not None:
                 response_submission['total_casos_teste_the_huxley'] = len(submission_the_huxley['testCaseEvaluations'])
                 
                 count_correct = 0
@@ -154,7 +154,13 @@ class LLMProvider(ABC):
         
         if response_prompt is None:
             print("[LLM SERVICE]: Não produziu resposta!")
-            return False
+            response_prompt = """{
+                                    "tempo_juder": "0.0",
+                                    "status_judger": "NO JUDGE",
+                                    "total_acertos_judger": 0,
+                                    "total_erros_judger": 0,
+                                    "total_testes_judger": 0
+                                }"""
         
         if response_prompt[0] != '{':
             response_prompt = response_prompt[8: len(response_prompt) - 3]
