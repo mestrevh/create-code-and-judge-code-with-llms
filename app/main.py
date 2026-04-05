@@ -206,6 +206,7 @@ def main ():
                 judger = GPTService()
                 
                 for id in problems_id:
+                    print("id: ", id)
                     problem = database_service.get_problem(id)
                     orchestrator = LLMOrchestrator(coder=coder, judger=judger)
                     print(f"Questão id: {id}")
