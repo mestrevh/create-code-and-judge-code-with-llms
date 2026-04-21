@@ -22,7 +22,7 @@ def main ():
         print("4 - Dinâmica: fazer Dinâmica 3 em comparação com the huxley;")
         print("5 - Converter output/file.csv para output/file.json (vice-versa);")
         print("6 - Testar todas as questões usando a Dinâmica 4;")
-        print("7 - Escolher as questões e fazer Dinâmica 4.")
+        print("7 - Escolher as questões e fazer Dinâmica 3.")
         print("8 - Construir website das questões (com base em database/questions).")
         print("Para sair digite qualquer coisa que não está no menu.")
         
@@ -206,12 +206,12 @@ def main ():
                 judger = GPTService()
                 
                 for id in problems_id:
+                    print("id: ", id)
                     problem = database_service.get_problem(id)
                     orchestrator = LLMOrchestrator(coder=coder, judger=judger)
+                    print(f"Questão id: {id}")
                     if not orchestrator.simulation_the_huxley_with_llm(problem=problem):
                         print("Erro na execução da dinâmica!")
-                                
-                        print("=" * 10 + "Voltando ao menu" + "=" * 10)
                         
             elif struct == "2":
                 coder = GPTService()
@@ -220,10 +220,9 @@ def main ():
                 for id in problems_id:
                     problem = database_service.get_problem(id)
                     orchestrator = LLMOrchestrator(coder=coder, judger=judger)
+                    print(f"Questão id: {id}")
                     if not orchestrator.simulation_the_huxley_with_llm(problem=problem):
                         print("Erro na execução da dinâmica!")
-                                
-                        print("=" * 10 + "Voltando ao menu" + "=" * 10)
             else:
                 print("=" * 10 + "Voltando ao menu" + "=" * 10)
         
@@ -267,7 +266,7 @@ def main ():
                 for id in problems_id:
                     problem = database_service.get_problem(id)
                     orchestrator = LLMOrchestrator(coder=coder, judger=judger)
-                    if not orchestrator.simulation_the_huxley_with_llm(problem=problem):
+                    if not orchestrator.create_and_judge_code(problem=problem):
                         print("Erro na execução da dinâmica!")
                                 
                         print("=" * 10 + "Voltando ao menu" + "=" * 10)
@@ -279,7 +278,7 @@ def main ():
                 for id in problems_id:
                     problem = database_service.get_problem(id)
                     orchestrator = LLMOrchestrator(coder=coder, judger=judger)
-                    if not orchestrator.simulation_the_huxley_with_llm(problem=problem):
+                    if not orchestrator.create_and_judge_code(problem=problem):
                         print("Erro na execução da dinâmica!")
                                 
                         print("=" * 10 + "Voltando ao menu" + "=" * 10)

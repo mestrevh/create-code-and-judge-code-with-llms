@@ -2,7 +2,7 @@
 
 ---
 
-Dependencias:
+Dependências:
 
 ``` bash
 pip install -r requirements.txt

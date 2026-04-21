@@ -4,7 +4,7 @@ from dataclasses import dataclass
 class ProblemModel:
     id: int
     title: str
-    description: str
+    descrition: str
     topics: list[str]
     time_limit: str
     input_format: str

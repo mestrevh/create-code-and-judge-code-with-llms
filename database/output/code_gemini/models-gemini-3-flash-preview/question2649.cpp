@@ -1,0 +1,19 @@
+/*
+Código criado pelo models/gemini-3-flash-preview
+Estudo para TCC (Victor Hugo Silva Ângelo - UFAL)
+*/
+#include <iostream>
+
+int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    int a, b;
+    if (std::cin >> a >> b) {
+        for (int i = a; i <= b; i += 3) {
+            std::cout << i << "\n";
+        }
+    }
+
+    return 0;
+}

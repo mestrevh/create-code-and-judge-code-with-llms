@@ -11,7 +11,7 @@ class GeminiService(LLMProvider):
     def __init__(self):
         genai.configure(api_key=config.GEMINI_API_KEY)
         
-        models = ['models/gemini-2.5-flash', 'models/gemini-2.5-pro', 'models/gemini-3.1-pro-preview', 'models/gemini-3-flash-preview']
+        models = ['models/gemini-2.5-flash', 'models/gemini-3.1-pro-preview', 'models/gemini-3-flash-preview']
         
         while True:
             print("Modelos:" + str(models))
@@ -126,7 +126,7 @@ class GeminiService(LLMProvider):
                         "FEEDBACK: [Justifique sua avaliação. Se REPROVADO, explique qual teste falhou ou qual erro de sintaxe/lógica ocorreu. Se APROVADO, comente sobre a eficiência da implementação.]\n\n"
                         
                         "--- DADOS DO PROBLEMA E CASOS DE TESTE ---\n"
-                        f"{problem.get_format_question_prompt()}\n\n"
+                        f"{problem.get_format_question_prompt_simulation()}\n\n"
                         
                         "--- CÓDIGO SUBMETIDO PARA AVALIAÇÃO ---\n"
                         f"{code}\n"
@@ -149,7 +149,7 @@ class GeminiService(LLMProvider):
                     f"{code}\n\n"
                     
                     "--- TESTES ---\n"
-                    f"{problem.get_cases_test_of_problem()}\n\n"
+                    f"{problem.get_cases_test_of_problem(problem.size_test_cases())}\n\n"
                     
                     "INSTRUÇÕES DE AVALIAÇÃO (Simule mentalmente os seguintes passos):\n"
                     "1. COMPILAÇÃO: Verifique se há erros de sintaxe (COMPILATION_ERROR).\n"

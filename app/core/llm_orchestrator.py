@@ -1,6 +1,7 @@
 from repositories.problem_repository import ProblemRepository
 from interfaces.llm_provider import LLMProvider
 from utils.file_manager import file_manager
+from utils.request_web import request_web
 
 class LLMOrchestrator:
     
@@ -36,6 +37,10 @@ class LLMOrchestrator:
         return True
     
     def simulation_the_huxley_with_llm(self, problem: ProblemRepository) -> bool:
+        
+        if request_web.get(link=f"https://www.thehuxley.com/api/v1/problems/{problem.get_id()}") is None:
+            return False
+        
         path = "database"
         file_manager.create_dir(path)
         path += "/output"

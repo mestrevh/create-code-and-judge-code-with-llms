@@ -112,17 +112,17 @@ class DatabaseRepository(DatabaseInterface):
                           agent: GeminiService) -> bool:
         
         if len(data['choices']) == 0 and data['baseLanguage'] == None:
-            problem = f"Título: {data["name"]}\n"
+            problem = f"Título: {data['name']}\n"
             
             problem += "Topicos do problema: "
             for value in data['topics']:
                 problem += value["name"] + "; "
             problem += "\n"
             
-            problem += f"Tempo limite de execução: {data["timeLimit"]} segundo(s)\n"
-            problem += f"Descrição: {data["description"]}\n"
-            problem += f"Formato da entrada: {data["inputFormat"]}\n"
-            problem += f"Formato da saída: {data["outputFormat"]}\n"
+            problem += f"Tempo limite de execução: {data['timeLimit']} segundo(s)\n"
+            problem += f"Descrição: {data['description']}\n"
+            problem += f"Formato da entrada: {data['inputFormat']}\n"
+            problem += f"Formato da saída: {data['outputFormat']}\n"
 
             # criando o arquivo
             path = path + f"/question{id}"

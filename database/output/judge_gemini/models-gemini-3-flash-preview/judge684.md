@@ -1,0 +1,5 @@
+# Modelo do judge: models/gemini-3-flash-preview
+
+VEREDITO: APROVADO
+COMPLEXIDADE: O(N + M) tempo médio, O(N + M) espaço
+FEEDBACK: O código implementa a solução de forma eficiente, utilizando uma tabela de dispersão (`std::unordered_map`) para mapear os números das casas aos seus respectivos índices em tempo constante médio O(1). Como os números das casas são fornecidos em ordem estritamente crescente, a busca por `lower_bound` (O(log N)) também seria uma alternativa viável, mas o uso do mapa com `reserve` e `max_load_factor` demonstra uma preocupação correta com a performance. O cálculo do tempo total utilizando `long long` previne eventuais transbordamentos (overflow) de inteiros de 32 bits, embora, para os limites dados (45.000 * 45.000), o resultado ainda caberia no limite superior de um `int` de 31 bits. A simulação manual confirmou que o código produz a saída exata para os casos de teste fornecidos.
