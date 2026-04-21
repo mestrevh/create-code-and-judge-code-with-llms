@@ -1,0 +1,205 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 3827 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3827</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Joguinho da aprovação</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<h6>Você chegou a última fase do jogo que se chama &#34;Programação I&#34;. Nessa fase você deve encontrar a saída do  tabuleiro (metáfora para o 1º período) e assim você poderá dizer &#34;EU PASSEI EM P1&#34;, caso contrário você dirá &#34;AINDA TENHO CHANCE NA REAV&#34;.</h6><h6>Nesse jogo você estará do lado esquerdo superior do tabuleiro, (linha 0, coluna 0), e de acordo com o valor e a direção obtida no dado, você seguirá o caminho no tabuleiro até que chegue ao lado inferior direito (linha n - 1, coluna n - 1), onde encontrará o fim dos seus pesadelos com recursão (ou não, a continuação dessa franquia se chama Programação II).</h6><h6>O tabuleiro contém casas com valores 0 e 1, o 0 corresponde as paredes que não podem ser atravessadas e o 1 é o caminho por onde você deve seguir.</h6><h6><br/></h6><h6><b>Você sempre iniciará o jogo na casa da primeira linha e da primeira coluna.</b></h6><h6><b>Se o valor para andar for maior que o permitido você deve andar o máximo possível.</b></h6><h6><b>Caso a direção não possa ser seguida por causa das paredes você deve continuar no mesmo lugar.</b></h6><h6><b><br/></b></h6><h6><b>DICA EXTRA: sempre que você andar para a direita você pode incrementar +1 numa variável j, sempre que andar para a esquerda pode decrementar -1 nessa mesma variável. Se você andar para baixo, incremente +1 numa variável i, se andar para cima decremente -1 na variável i.<br/></b></h6><h6><br/></h6><p>Tu ainda não entendeu? Quer que eu desenhe? Na hora...</p><p><img src="https://www.thehuxley.com/api/v1/problems/image/5b3632615870f8140ba8811c78d3fa731864a3021.png"/><br/></p><p><br/></p><h6>Viu que a questão nem é difícil? E você aí com medo porque ela é nível 5.</h6><h6><b><br/></b></h6><h6>Que os jogos comecem...</h6></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h6><b>A matriz que representa o tabuleiro sempre será quadrada, ou seja, contém o mesmo número de linhas e colunas.</b></h6><h6><b>A quantidade de casas do tabuleiro pode variar de 9 a 100.</b></h6><p><br/></p><h6>- Na primeira linha você vai receber um inteiro que corresponde ao total de casas no tabuleiro. ATEÇÃO: VOCÊ RECEBERÁ O TOTAL DE CASAS! Sendo assim você deve usar esse inteiro para descobrir o n que é a quantidade de linhas e colunas. (recomendo usar a função sqrt que obtém a raiz quadrada de um número).</h6><h6>- A matriz com 0 e 1 que corresponde ao tabuleiro a ser atravessado.</h6><h6>- As faces do dado com as possíveis direções a ser seguida. Cada face contém um letra que corresponde a uma direção C(cima), B(baixo), D(direita), E(esquerda).</h6><h6><br/></h6><h6>Por fim:</h6><h6>- Será informada a quantidade de jogadas disponíveis.</h6><h6>- Em seguida será informada a quantidade de casas e a face do dado que informa a direção para seguir.</h6></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h6>Se você conseguiu chegar a última casa da matriz (linha n - 1, coluna n - 1) você deve imprimir a mensagem &#34;EU PASSEI EM P1&#34; e já pode parar de odiar os monitores. Se você ainda não conseguiu fugir dessa matéria deve imprimir a mensagem &#34;AINDA TENHO CHANCE NA REAV&#34; e pode rezar para um ser divino tocar o coração dos próximos que elaborarem as questões da REAV.</h6></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in10.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out10.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in11.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out11.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out2.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out3.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out4.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out5.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out6.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out7.txt">
+                Exemplo 10
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out8.txt">
+                Exemplo 11
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3827/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question3827/outputs/out9.txt">
+                Exemplo 12
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

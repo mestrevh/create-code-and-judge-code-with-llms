@@ -1,0 +1,201 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 3293 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3293</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Estatísticas sobre consumos</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Escreva um programa que permita calcular estatísticas do consumo de combustível de um carro. Considere que você dispõe de uma planilha de anotações coletadas a cada vez que o carro é abastecido e que, a cada abastecimento o tanque é enchido completamente. As anotações são as seguintes: o odômetro do veículo e o volume abastecido. No exemplo abaixo, que contém três anotações, é possível calcular o consumo em dois momentos, pois só é possível calcular o consumo entre dois abastecimentos consecutivos. Neste exemplo, pode-se perceber que o veículo andou 300km com 30 litros, entre os 3000km e 3300km marcados pelo odômetro, logo, seu consumo foi de 10km/l neste percurso. Também pode-se perceber que o veículo em seguida andou 600 km com 40 litros, assim, seu consumo foi de 15km/l. Portanto a média das anotações de consumo foi de 12,5km/l. Isto é 12,5 = (10 + 15) / 2.</p><table><thead><tr><th style="text-align: center;"><strong>Odômetro</strong></th><th style="text-align: center;"><strong>Volume</strong></th></tr></thead><tbody><tr><td style="text-align: center;">3000</td><td style="text-align: center;">50.9</td></tr><tr><td style="text-align: center;">3300</td><td style="text-align: center;">30.0</td></tr><tr><td style="text-align: center;">3900</td><td style="text-align: center;">40.9</td></tr></tbody></table><p><br/></p><p>Além da média, você também deve calcular o desvio padrão, que é uma estatística que mede a dispersão, ou espalhamento de um conjunto. O desvio padrão é calculado com base na seguinte expressão:</p><div><span class="katex"><span class="katex-mathml"><br/></span></span></div><img src="https://www.thehuxley.com/api/v1/problems/image/6464e593095e3149e40828050a09464e0122b8f97.png"/><div><span class="katex"><span class="katex-mathml"><br/></span></span></div><div><span class="katex"><span class="katex-mathml">Suponha que tenhamos dois conjuntos, um formado pelos elementos 5,10 e 15 e outro formado pelos elementos 0,10,20. No primeiro caso, a média é igual a 10 e o desvio padrão é dado por DP = (((5-10)^2 + (10-10)^2 + (15-10)^2)/3)^(1/2), isto é DP = (((-5)^2 + 0^2 + 5^2)/3)^(1/2)=((25+25)/3) ^(1/2) que é aproximadamente igual a 4.08. No outro conjunto, a média também é igual a 10 mas podemos perceber que a dispersão é maior já que os valores mínimo e máximo estão mais distantes dela. O desvio padrão neste segundo é dado por DP=((-100+0+100)/3)^(1/2) que é aproximadamente igual a 8.16.</span></span></div><div><span class="katex"><span class="katex-mathml"><br/></span></span></div><div><span class="katex"><span class="katex-mathml">Sua solução deve conter o uso de uma função para efetuar o cálculo da média e desvio padrão.<br/></span></span></div><span class="katex"><span class="katex-mathml"></span></span><p><span class="katex"><span class="katex-html"><span class="base"><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 1.3425035em;"><span><span class="hide-tail" style="height: 1.8800000000000001em;"><svg width="400em" height="1.8800000000000001em"></svg></span></span></span></span></span></span></span></span></span></p><span class="katex"><span class="katex-html"><span class="base"><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist-s"></span></span></span></span></span></span></span><p><br/></p><p><br/></p><p><br/></p><table><thead><tr><th style="text-align: center;"><strong></strong><br/></th><th style="text-align: center;"><br/></th></tr></thead><tbody><tr><td style="text-align: center;"><br/></td><td style="text-align: center;"><br/></td></tr><tr><td style="text-align: center;"><br/></td><td style="text-align: center;"><br/></td></tr><tr><td style="text-align: center;"><br/></td><td style="text-align: center;"><br/></td></tr></tbody></table></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada é formada por várias linhas, finalizada pela palavra 'FIM'. Cada linha contém duas colunas, uma correspondente ao odômetro (inteiro) e outra correspondente ao consumo em litros (real).<br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A saída corresponde a uma mensagem com indicação da média e desvio padrão do consumo, ambos valores reais apresentados com precisão de duas casas decimais. Na primeira linha, o programa deve imprimir a <em>string</em> MEDIA seguido de um espaço e do valor da média com precisão de duas casas decimais. Na linha seguinte o programa deve imprimir a <em>string</em> DP, seguido de um espaço e do desvio padrão com precisão de duas casas decimais, conforme o modelo apresentado abaixo.</p><table><thead><tr><th style="text-align: left;"><strong></strong></th></tr></thead><br/></table><table><thead><tr><th style="text-align: left;"><strong>Entrada</strong></th><th style="text-align: left;"><strong>Saída</strong></th></tr></thead><tbody><tr><td style="text-align: left;">3000 50.9       <br/></td><td style="text-align: left;">MEDIA 12.50</td></tr><tr><td style="text-align: left;">3300 30.0</td><td style="text-align: left;">DP 2.50</td></tr><tr><td style="text-align: left;">3900 40.0</td><td style="text-align: left;"></td></tr><tr><td style="text-align: left;">FIM</td><td style="text-align: left;"></td></tr></tbody></table><table><br/><br/><br/></table><p><br/></p><p><br/></p><p><br/></p><p><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in10.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out10.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out2.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out3.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out4.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out5.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out6.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out7.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out8.txt">
+                Exemplo 10
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3293/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question3293/outputs/out9.txt">
+                Exemplo 11
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

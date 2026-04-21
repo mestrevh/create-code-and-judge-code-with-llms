@@ -1,0 +1,181 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 4639 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4639</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">acumulador</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Guerras de código</h2>
+<p><strong>Tempo limite:</strong> 5 segundo(s)</p>
+<b id="docs-internal-guid-7fadfdcb-7fff-c9ac-135d-811b3cff44a9"></b><p dir="ltr"><span style="background-color: transparent;color: rgb(0, 0, 0);">Em um jogo de RPG por turnos, temos um campo de batalha representado por uma matriz 8×8, onde cada posição contém uma string de dois caracteres que identifica uma unidade, composta por seu tipo e seu clã, ou está vazia (representada por </span><span style="background-color: transparent;color: rgb(24, 128, 56);">'--'</span><span style="background-color: transparent;color: rgb(0, 0, 0);">). Cada tipo de unidade possui um valor de poder base, e além de calcular o total de pontos de poder dos clãs (Equipe Azul e Equipe Vermelha), o programa deverá aplicar modificadores de poder com base em sua posição e nas unidades adjacentes.</span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;">Tipos de Unidades e Poderes Base:</span><span style="color: #000000;background-color: transparent;"> Cada tipo de unidade possui um valor de poder base:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">'g'</span><span style="color: #000000;background-color: transparent;">: Guerreiro, com 5 pontos de poder.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">'m'</span><span style="color: #000000;background-color: transparent;">: Mago, com 8 pontos de poder.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">'a'</span><span style="color: #000000;background-color: transparent;">: Arqueiro, com 6 pontos de poder.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">'c'</span><span style="color: #000000;background-color: transparent;">: Cavaleiro, com 10 pontos de poder.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">'d'</span><span style="color: #000000;background-color: transparent;">: Dragão, com 15 pontos de poder.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">'k'</span><span style="color: #000000;background-color: transparent;">: Rei, com 0 pontos de poder (mas influencia unidades próximas).</span></p></li></ul><p dir="ltr"><span style="color: #000000;background-color: transparent;">O clã de cada unidade é indicada pelo segundo caractere:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">'a'</span><span style="color: #000000;background-color: transparent;">: Unidade da  Equipe Azul.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">'v'</span><span style="color: #000000;background-color: transparent;">: Unidade da Equipe Vermelha.</span></p></li></ul><p dir="ltr"><span style="color: #000000;background-color: transparent;">Modificadores de Poder:</span><span style="color: #000000;background-color: transparent;"> O poder base de cada unidade pode ser modificado de acordo com sua posição no campo de batalha e as unidades adjacentes, aplicando-se as seguintes regras:</span></p><ol><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Posição Estratégica (Centro)</span><span style="color: #000000;background-color: transparent;">: Unidades localizadas nas posições centrais do campo (linhas 3 e 4 e colunas 3 e 4) recebem um bônus de 3 pontos adicionais devido à vantagem estratégica.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Proximidade com o Rei</span><span style="color: #000000;background-color: transparent;">: Se uma unidade estiver adjacente ao Rei do mesmo clã (na linha ou coluna ao lado), ela recebe um bônus de 2 pontos de poder, inspirada pela presença do líder.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Isolamento</span><span style="color: #000000;background-color: transparent;">: Se uma unidade não tiver nenhuma unidade aliada adjacente (horizontal ou verticalmente), ela perde 1 ponto de poder.</span></p></li></ol><p dir="ltr"><span style="color: #000000;background-color: transparent;">Objetivo:</span><span style="color: #000000;background-color: transparent;"> Escreva um programa que leia a configuração do campo de batalha, calcule o poder total de cada clã, aplique os modificadores de poder e determine qual clã possui o maior poder. O programa deve exibir:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">&#34;Equipe Azul&#34;</span><span style="color: #000000;background-color: transparent;"> se o poder total das unidades da Equipe Azul for maior,</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #188038;background-color: transparent;">&#34;Equipe Vermelha&#34;</span><span style="color: #000000;background-color: transparent;"> se o poder total das unidades da Equipe Vermelha for maior,</span></p></li><li><span style="color: #188038;background-color: transparent;">&#34;Empate&#34;</span><span style="color: #000000;background-color: transparent;"> se ambos os poderes totais forem iguais.</span></li><li><span style="color: #000000;background-color: transparent;"><span id="docs-internal-guid-8812ccf6-7fff-cabf-d8a0-921b92a30ad0"></span></span><p></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"></span></p><p></p></li></ul><span id="docs-internal-guid-77619cb1-7fff-85d9-6f89-a26bd3d550dc"></span><p><span style="color: #000000;background-color: transparent;">Observações:</span></p><ul><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">Considere as posições adjacentes para aplicar os bônus e penalidades.</span></p></li><li dir="ltr" style="color: #000000;background-color: transparent;"><p dir="ltr"><span style="color: #000000;background-color: transparent;">A pontuação final de cada equipe deverá ser o somatório dos poderes base, mais os bônus ou penalidades calculados conforme as regras de modificadores.</span></p></li></ul><br/><span style="color: #000000;background-color: transparent;"><span id="selectionBoundary_1730329432800_49872790922338184" class="rangySelectionBoundary">&#65279;</span></span></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span id="docs-internal-guid-fbf0418c-7fff-03dd-f8a8-57bca14dfbc0"><span style="color: rgb(0, 0, 0);background-color: transparent;">O programa deve ler uma matriz 8×8 de strings, onde cada posição contém uma string de dois caracteres que representa uma unidade ou o valor </span><span style="color: rgb(24, 128, 56);background-color: transparent;">'--'</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> para indicar que está vazia.</span></span><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span id="docs-internal-guid-54315568-7fff-8f5e-8705-6698ddcd6208"><span style="color: rgb(24, 128, 56);background-color: transparent;">&#34;Equipe Azul&#34;</span><span style="color: rgb(0, 0, 0);background-color: transparent;">, </span><span style="color: rgb(24, 128, 56);background-color: transparent;">&#34;Equipe Vermelha&#34;</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> ou </span><span style="color: rgb(24, 128, 56);background-color: transparent;">&#34;Empate&#34;</span><span style="color: rgb(0, 0, 0);background-color: transparent;"> conforme o resultado final da comparação dos poderes ajustados.</span></span><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4639/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question4639/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4639/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question4639/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4639/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question4639/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4639/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question4639/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4639/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question4639/outputs/out4.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4639/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question4639/outputs/out5.txt">
+                Exemplo 6
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

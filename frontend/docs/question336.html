@@ -1,0 +1,183 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 336 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 336</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Prevendo bacterias</h2>
+<p><strong>Tempo limite:</strong> 10 segundo(s)</p>
+<p>Dada uma tabela que cont&eacute;m o n&uacute;mero de bact&eacute;rias, por unidade de volume, existente em uma cultura ap&oacute;s t horas, fa&ccedil;a:</p>
+
+<p>Obs. As medidas s&atilde;o determinadas em intervalos de tempo constantes (dt)</p>
+
+<p>a) verifique qual das seguintes fun&ccedil;&otilde;es ajustam melhor o diagrama de dispers&atilde;o (tempo vs. bact&eacute;rias): linear (y=a+b*t), exponencial (y=a*b^t) ou geom&eacute;trica (y=a*t^b);</p>
+
+<p>b) considerando que os valores de t est&atilde;o igualmente espa&ccedil;ados (dt), calcule a melhor estimativa do valor de y(t) para a pr&oacute;xima leitura ainda n&atilde;o realizada (&uacute;ltimo t + dt).</p>
+
+<p>Na sa&iacute;da dessa quest&atilde;o voc&ecirc; deve imprimir a matriz de coeficientes e o vetor de constantes de cada ajuste, seguido dos valores das constantes obtidas para cada fun&ccedil;&atilde;o ajustada e do respectivo res&iacute;duo. Ao final, imprima o nome da fun&ccedil;&atilde;o que teve menor res&iacute;duo e a sua melhor estimativa de x + dt. Todos os valores devem sem impressos com 2 casas decimais.</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Você vai receber uma matriz com 2 linhas. Na primeira linha encontra-se o número de horas decorridas até cada uma das medições. Na segunda linha encontra-se o número de bactéricas registrado em cada medida.</p>&#13;<p>A tabela a seguir apresenta um exemplo onde temos na primeira linha 7 colunas, cada uma com o tempo decorrido até cada medição. Na segunda linha vemos o número de bactérias encontrada na cultura em cada medição.</p>&#13;<p>Verifique o formato de entrada dado no exemplo. Os colchetes são obrigatórios.</p>&#13;<p><a href="https://thehuxley.com/api/v1/problems/image/85d9634be97994d797deb9f4ae09ebe2.jpg" target="_blank"><img src="https://thehuxley.com/api/v1/problems/image/85d9634be97994d797deb9f4ae09ebe2.jpg" border="0" width="610" height="342"/></a></p>&#13;<p> </p>&#13;<p> </p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Devem ser impressas as seguintes informa&ccedil;&otilde;es.</p>
+
+<p>Para cada tipo de fun&ccedil;&atilde;o (linear, exponencial e geom&eacute;trica), imprime-se:</p>
+
+<p>Matriz dos coeficientes calculada para o ajuste pelo M&eacute;todo dos M&iacute;nimos Quadrados, em seguida (na pr&oacute;xima linha), o vetor de coeficientes do sistema linear gerado. Nas tr&ecirc;s linhas seguintes, o par&acirc;metro "a" e o par&acirc;metro "b" calculados para dada fun&ccedil;&atilde;o de ajuste, seguidos do valor do res&iacute;duo (soma dos quadrados definida pelo m&eacute;todo).</p>
+
+<p>Deixa-se uma linha em branco e imprime-se novamente essas mesmas informa&ccedil;&otilde;es para as fun&ccedil;&otilde;es de ajuste que seguem.</p>
+
+<p>Depois de imprimir as informa&ccedil;&otilde;es das tr&ecirc;s fun&ccedil;&otilde;es solicitadas, deixa-se uma linha em branco e imprime-se o nome da fun&ccedil;&atilde;o que apresentar menor res&iacute;duo: Linear, Exponencial ou Geometrica.</p>
+
+<p>Por &uacute;ltimo, deixa-se uma linha em branco e imprime-se o valor da estimativa para o valor futuro solicitado na quest&atilde;o.</p>
+
+<p>Deixa-se uma linha em branco no final do aquivo.</p>
+
+<p>&Eacute; importante observar o formato dos n&uacute;meros impressos (veja no arquivo de sa&iacute;da modelo). Na maioria dos n&uacute;meros, utilizam-se duas casas decimais (9.41). No caso do valor do res&iacute;duo, utiliza-se a nota&ccedil;&atilde;o de engenharia (1.66e-01).</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question336/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question336/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

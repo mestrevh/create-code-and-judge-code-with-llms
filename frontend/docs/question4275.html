@@ -1,0 +1,957 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 4275 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4275</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">recursão</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Menu de entretenimento</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Tio Ayalla gosta muito de aproveitar seu tempo de almoço vendo programas esportivos, por isso, ele tem uma tabela com os programas que começam no mesmo horário que seu almoço. Como gosta de terminar as tarefas do trabalho cedo pra folgar a sexta, o almoço de Ayalla nunca tem o mesmo tempo. Sabendo que tio Ayalla leva 1 segundo para mudar do canal i para o canal i+1 e que sempre que ele chega no canal i o programa inicia, ajude Tio Ayalla a descobrir o canal que ele vai conseguir assistir dentro do tempo de almoço de forma que ele tenha o maior entretenimento dentro do seu tempo de almoço, assistindo 1 único programa.</p><h5><b>obs: Sempre que o maior valor de entretenimento for encontrado, é garantido que ele será único.</b></h5></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Na primeira linha de entrada vão ter 2 inteiros n (1 &lt;= n &lt;= 1000) e t, sendo n a quantidade de programas e t o tempo de almoço do tio Ayalla naquele dia;</p><p>Na segunda linha vão ter n inteiros determinando a duração em segundos dos programas de televisão.</p><p>Na terceira linha vão ter n inteiros determinando os pontos de entretenimento daquele programa. <span>De forma que as posições da duração e do entretenimento se relacionam diretamente, ou seja, a primeira duração vai ter o valor de entretenimento do primeiro lido e assim por diante.</span></p><p><br style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/>&#13;</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Na saída você deve mostrar o índice do canal que tenha o maior entretenimento e cabe no tempo de almoço do tio Ayalla, caso não seja possível assistir nenhum programa exiba -1.<br/></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b>obs: o índice que vai ser exibido é contado a partir do 1 e não do 0.</b></p><p style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"><b><img src="https://www.thehuxley.com/api/v1/problems/image/2710070f1bb19be57c8b27f17f3eee242dc4cd76).png" style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);"/></b></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in10.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out10.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in100.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out100.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in101.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out101.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in102.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out102.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in103.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out103.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in104.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out104.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in105.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out105.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in106.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out106.txt">
+                Exemplo 10
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in107.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out107.txt">
+                Exemplo 11
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in108.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out108.txt">
+                Exemplo 12
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in109.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out109.txt">
+                Exemplo 13
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in11.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out11.txt">
+                Exemplo 14
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in110.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out110.txt">
+                Exemplo 15
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in111.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out111.txt">
+                Exemplo 16
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in112.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out112.txt">
+                Exemplo 17
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in113.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out113.txt">
+                Exemplo 18
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in114.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out114.txt">
+                Exemplo 19
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in115.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out115.txt">
+                Exemplo 20
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in116.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out116.txt">
+                Exemplo 21
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in117.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out117.txt">
+                Exemplo 22
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in118.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out118.txt">
+                Exemplo 23
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in119.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out119.txt">
+                Exemplo 24
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in12.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out12.txt">
+                Exemplo 25
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in120.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out120.txt">
+                Exemplo 26
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in121.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out121.txt">
+                Exemplo 27
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in122.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out122.txt">
+                Exemplo 28
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in123.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out123.txt">
+                Exemplo 29
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in124.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out124.txt">
+                Exemplo 30
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in125.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out125.txt">
+                Exemplo 31
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in126.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out126.txt">
+                Exemplo 32
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in127.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out127.txt">
+                Exemplo 33
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in128.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out128.txt">
+                Exemplo 34
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in129.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out129.txt">
+                Exemplo 35
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in13.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out13.txt">
+                Exemplo 36
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in130.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out130.txt">
+                Exemplo 37
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in131.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out131.txt">
+                Exemplo 38
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in132.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out132.txt">
+                Exemplo 39
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in133.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out133.txt">
+                Exemplo 40
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in134.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out134.txt">
+                Exemplo 41
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in135.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out135.txt">
+                Exemplo 42
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in136.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out136.txt">
+                Exemplo 43
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in137.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out137.txt">
+                Exemplo 44
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in138.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out138.txt">
+                Exemplo 45
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in139.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out139.txt">
+                Exemplo 46
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in14.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out14.txt">
+                Exemplo 47
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in140.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out140.txt">
+                Exemplo 48
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in141.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out141.txt">
+                Exemplo 49
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in142.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out142.txt">
+                Exemplo 50
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in143.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out143.txt">
+                Exemplo 51
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in144.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out144.txt">
+                Exemplo 52
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in145.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out145.txt">
+                Exemplo 53
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in146.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out146.txt">
+                Exemplo 54
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in147.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out147.txt">
+                Exemplo 55
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in148.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out148.txt">
+                Exemplo 56
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in149.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out149.txt">
+                Exemplo 57
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in15.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out15.txt">
+                Exemplo 58
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in150.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out150.txt">
+                Exemplo 59
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in151.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out151.txt">
+                Exemplo 60
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in152.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out152.txt">
+                Exemplo 61
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in153.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out153.txt">
+                Exemplo 62
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in154.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out154.txt">
+                Exemplo 63
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in155.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out155.txt">
+                Exemplo 64
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in156.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out156.txt">
+                Exemplo 65
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in157.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out157.txt">
+                Exemplo 66
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in158.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out158.txt">
+                Exemplo 67
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in159.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out159.txt">
+                Exemplo 68
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in16.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out16.txt">
+                Exemplo 69
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in160.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out160.txt">
+                Exemplo 70
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in161.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out161.txt">
+                Exemplo 71
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in162.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out162.txt">
+                Exemplo 72
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in163.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out163.txt">
+                Exemplo 73
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in164.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out164.txt">
+                Exemplo 74
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in165.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out165.txt">
+                Exemplo 75
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in166.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out166.txt">
+                Exemplo 76
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in167.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out167.txt">
+                Exemplo 77
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in168.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out168.txt">
+                Exemplo 78
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in169.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out169.txt">
+                Exemplo 79
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in17.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out17.txt">
+                Exemplo 80
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in170.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out170.txt">
+                Exemplo 81
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in171.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out171.txt">
+                Exemplo 82
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in172.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out172.txt">
+                Exemplo 83
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in173.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out173.txt">
+                Exemplo 84
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in174.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out174.txt">
+                Exemplo 85
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in175.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out175.txt">
+                Exemplo 86
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in176.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out176.txt">
+                Exemplo 87
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in177.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out177.txt">
+                Exemplo 88
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in178.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out178.txt">
+                Exemplo 89
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in179.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out179.txt">
+                Exemplo 90
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in18.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out18.txt">
+                Exemplo 91
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in180.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out180.txt">
+                Exemplo 92
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in181.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out181.txt">
+                Exemplo 93
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in182.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out182.txt">
+                Exemplo 94
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in183.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out183.txt">
+                Exemplo 95
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in184.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out184.txt">
+                Exemplo 96
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in185.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out185.txt">
+                Exemplo 97
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in186.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out186.txt">
+                Exemplo 98
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in187.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out187.txt">
+                Exemplo 99
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in188.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out188.txt">
+                Exemplo 100
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in189.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out189.txt">
+                Exemplo 101
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in19.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out19.txt">
+                Exemplo 102
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in190.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out190.txt">
+                Exemplo 103
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in191.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out191.txt">
+                Exemplo 104
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in192.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out192.txt">
+                Exemplo 105
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in193.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out193.txt">
+                Exemplo 106
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in194.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out194.txt">
+                Exemplo 107
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in195.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out195.txt">
+                Exemplo 108
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in196.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out196.txt">
+                Exemplo 109
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in197.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out197.txt">
+                Exemplo 110
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in198.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out198.txt">
+                Exemplo 111
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in199.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out199.txt">
+                Exemplo 112
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out2.txt">
+                Exemplo 113
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in20.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out20.txt">
+                Exemplo 114
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in21.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out21.txt">
+                Exemplo 115
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in22.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out22.txt">
+                Exemplo 116
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in23.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out23.txt">
+                Exemplo 117
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in24.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out24.txt">
+                Exemplo 118
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in25.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out25.txt">
+                Exemplo 119
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in26.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out26.txt">
+                Exemplo 120
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in27.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out27.txt">
+                Exemplo 121
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in28.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out28.txt">
+                Exemplo 122
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in29.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out29.txt">
+                Exemplo 123
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out3.txt">
+                Exemplo 124
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in30.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out30.txt">
+                Exemplo 125
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in31.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out31.txt">
+                Exemplo 126
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in32.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out32.txt">
+                Exemplo 127
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in33.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out33.txt">
+                Exemplo 128
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in34.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out34.txt">
+                Exemplo 129
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in35.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out35.txt">
+                Exemplo 130
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in36.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out36.txt">
+                Exemplo 131
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in37.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out37.txt">
+                Exemplo 132
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in38.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out38.txt">
+                Exemplo 133
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in39.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out39.txt">
+                Exemplo 134
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out4.txt">
+                Exemplo 135
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in40.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out40.txt">
+                Exemplo 136
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in41.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out41.txt">
+                Exemplo 137
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in42.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out42.txt">
+                Exemplo 138
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in43.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out43.txt">
+                Exemplo 139
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in44.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out44.txt">
+                Exemplo 140
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in45.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out45.txt">
+                Exemplo 141
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in46.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out46.txt">
+                Exemplo 142
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in47.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out47.txt">
+                Exemplo 143
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in48.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out48.txt">
+                Exemplo 144
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in49.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out49.txt">
+                Exemplo 145
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out5.txt">
+                Exemplo 146
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in50.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out50.txt">
+                Exemplo 147
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in51.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out51.txt">
+                Exemplo 148
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in52.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out52.txt">
+                Exemplo 149
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in53.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out53.txt">
+                Exemplo 150
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in54.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out54.txt">
+                Exemplo 151
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in55.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out55.txt">
+                Exemplo 152
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in56.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out56.txt">
+                Exemplo 153
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in57.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out57.txt">
+                Exemplo 154
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in58.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out58.txt">
+                Exemplo 155
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in59.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out59.txt">
+                Exemplo 156
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out6.txt">
+                Exemplo 157
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in60.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out60.txt">
+                Exemplo 158
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in61.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out61.txt">
+                Exemplo 159
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in62.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out62.txt">
+                Exemplo 160
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in63.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out63.txt">
+                Exemplo 161
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in64.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out64.txt">
+                Exemplo 162
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in65.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out65.txt">
+                Exemplo 163
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in66.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out66.txt">
+                Exemplo 164
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in67.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out67.txt">
+                Exemplo 165
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in68.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out68.txt">
+                Exemplo 166
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in69.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out69.txt">
+                Exemplo 167
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out7.txt">
+                Exemplo 168
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in70.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out70.txt">
+                Exemplo 169
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in71.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out71.txt">
+                Exemplo 170
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in72.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out72.txt">
+                Exemplo 171
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in73.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out73.txt">
+                Exemplo 172
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in74.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out74.txt">
+                Exemplo 173
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in75.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out75.txt">
+                Exemplo 174
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in76.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out76.txt">
+                Exemplo 175
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in77.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out77.txt">
+                Exemplo 176
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in78.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out78.txt">
+                Exemplo 177
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in79.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out79.txt">
+                Exemplo 178
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out8.txt">
+                Exemplo 179
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in80.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out80.txt">
+                Exemplo 180
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in81.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out81.txt">
+                Exemplo 181
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in82.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out82.txt">
+                Exemplo 182
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in83.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out83.txt">
+                Exemplo 183
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in84.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out84.txt">
+                Exemplo 184
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in85.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out85.txt">
+                Exemplo 185
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in86.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out86.txt">
+                Exemplo 186
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in87.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out87.txt">
+                Exemplo 187
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in88.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out88.txt">
+                Exemplo 188
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in89.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out89.txt">
+                Exemplo 189
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out9.txt">
+                Exemplo 190
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in90.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out90.txt">
+                Exemplo 191
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in91.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out91.txt">
+                Exemplo 192
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in92.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out92.txt">
+                Exemplo 193
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in93.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out93.txt">
+                Exemplo 194
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in94.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out94.txt">
+                Exemplo 195
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in95.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out95.txt">
+                Exemplo 196
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in96.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out96.txt">
+                Exemplo 197
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in97.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out97.txt">
+                Exemplo 198
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in98.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out98.txt">
+                Exemplo 199
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4275/inputs/in99.txt;/create-code-and-judge-code-with-llms/database/questions/question4275/outputs/out99.txt">
+                Exemplo 200
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    
