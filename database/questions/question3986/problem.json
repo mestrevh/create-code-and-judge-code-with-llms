@@ -1,0 +1,10 @@
+{
+    "title": "Média das Medianas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que dadas várias listas de valores, obtenha a mediana de cada uma das listas e depois obtenha a média dessas medianas. Dica: Supondo que os valores estão em ordem crescente, a mediana é o valor do meio, caso a quantidade de valores na lista seja ímpar. Caso seja par, será a média dos dois valores que estão no meio da lista. Por exemplo, dados os valores abaixo: 6,4,5,2,1,3 Colocando-os em ordem, teríamos: 1,2,3,4,5,6 E a mediana seria calculada como a média entre 3 e 4, isto é, seria o valor em ponto flutuante 3.5. Observação: É necessária a utilização de função (mais de uma se achar necessário) definida pelo programador(a) para a solução da questão.",
+    "format_input": "Uma sequência de listas de valores reais separados entre si por vírgulas e delimitados no início por [ e no final por ]. A sequência de listas acaba quando há um caractere * no lugar de uma lista de valores reais.",
+    "format_output": "Deve ser impressa uma lista de valores (separados entre si por um espaço em branco) contendo as medianas (com 2 casas decimais) de cada uma das listas da entrada. Na linha seguinte, devem ser impressos estes mesmos valores, mas em ordem crescente. Por último, deve ser informado o valor da média dessas medianas, com 2 casas decimais.",
+    "topics": [
+        "array"
+    ]
+}

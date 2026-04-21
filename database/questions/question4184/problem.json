@@ -1,0 +1,10 @@
+{
+    "title": "Do meio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dadas as datas de nascimento de três pessoas, calcular quem é a do meio com relação às idades.",
+    "format_input": "Três linhas, cada uma contendo o nome de uma pessoa, um string só com letras, seguido de três inteiros correspondentes ao dia, mes e ano de nascimento da pessoa. Pode assumir que tanto os nomes como as datas de nascimento são diferentes entre si.",
+    "format_output": "A saída deve ser o nome da pessoa do meio com relação às idades.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

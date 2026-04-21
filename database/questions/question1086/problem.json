@@ -1,0 +1,10 @@
+{
+    "title": "Aluguel de carro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A locadora de carros SAI DA FRENTE está fazendo uma promoção e está alugando carros no período junino por R$ 30,00 a diária. Além disso, a locadora cobra R$ 0,01 por quilômetro rodado. Como é período de São João, a locadora quer fidelizar os clientes e está dando 10% de desconto no valor total do aluguel de qualquer carro.",
+    "format_input": "Quantos dias a pessoa ficou com o carro: [1; 30]. Quantos kilômetros ela rodou [1; 1000]",
+    "format_output": "O valor total que a pessoa deve pagar pelo aluguel do carro arredondado para duas casas decimais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

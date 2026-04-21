@@ -1,0 +1,14 @@
+{
+    "title": "Raizes da equacao",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 ou raiz de numero negativo. Observação 1: Utilize uma função para calcular o delta cujo cabeçalho é float calculaDelta(float a, float b, float c) Observação 2: Utilize uma função para calcular as raízes cujo cabeçalho é void calculaRaizes(float a, float b, float c, float *x1, float *x2) sendo que x1 e x2 são os ponteiros para as variáveis que irão guardar os valores das raízes da equação.",
+    "format_input": "Três valores de ponto flutuante, todos na mesma linha e separados por um espaço em branco Os coeficientes correspondem aos termos de grau 2, 1 e 0, respectivamente.",
+    "format_output": "Se não houver possibilidade de calcular as raízes, apresente a mensagem \"Impossivel calcular\". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, imprimindo na tela os valores abaixo: Digite os coeficientes da equacao: X1 = n X2 = n",
+    "topics": [
+        "ponto flutuante",
+        "decisão",
+        "lógica matemática",
+        "função",
+        "ponteiro"
+    ]
+}

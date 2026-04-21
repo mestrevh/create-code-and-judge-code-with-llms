@@ -1,0 +1,11 @@
+{
+    "title": "Inverte array",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva uma função que receba um vetor de números inteiros de tamanho n e inverta a ordem dos elementos desse vetor.",
+    "format_input": "4 8 6 2 9",
+    "format_output": "9 2 6 8 4",
+    "topics": [
+        "array",
+        "função"
+    ]
+}

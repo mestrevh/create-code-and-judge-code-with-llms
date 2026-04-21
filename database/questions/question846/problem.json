@@ -1,0 +1,8 @@
+{
+    "title": "ICC 012 - Peso ideal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: peso_ideal = (72.7*altura) - 58",
+    "format_input": "Um número real com a altura da pessoa.",
+    "format_output": "Um número real com duas casas decimais informando o peso ideal.",
+    "topics": []
+}

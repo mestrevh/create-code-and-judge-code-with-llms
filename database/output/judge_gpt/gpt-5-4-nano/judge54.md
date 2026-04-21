@@ -1,0 +1,5 @@
+# Modelo do judge: gpt-5.4-nano
+
+1. **Status: Incorreto**
+2. **Tempo estimado:** \(O(N^3)\) por caso (itera todos os trios) com \(N<100\) ⇒ no pior caso ~161.700 trios.
+3. **Avaliação:** O código calcula corretamente a pontuação de todo trio, mas **falha no critério de desempate lexicográfico**: quando há empates de soma, ele **não verifica** qual trio aparece primeiro na ordem lexicográfica (ele só atualiza quando `>`). Assim, em empates ele retorna o primeiro trio encontrado na varredura, o que **não necessariamente coincide** com o “primeiro na ordem lexicográfica” exigido pelo enunciado para casos onde a melhor pontuação se repete por diferentes trios. Além disso, o código não trata corretamente entradas com \(X\) e \(Y\) que possam ser zero (embora o problema limite \(1..N\), ainda assim o filtro é desnecessário). Portanto, há cenários (e o próprio conjunto apresentado sugere isso em geral) em que a saída esperada não é garantida.

@@ -1,0 +1,12 @@
+{
+    "title": "Kaori, Asuna e Kirito",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Depois de lutarem muito, Kirito e Asuna estavam cansados, então eles decidiram tirar umas férias. Mas, seu chefe Heathcliff não gostou muito da ideia, então ele decidiu passar várias tarefas para Kirito e Asuna, e caso eles consigam executar todas perfeitamente, Heathcliff vai deixá-los descansar. Eles pensaram em pedir ajuda para a sua grande amiga Kaori, mas infelizmente ela viajou para tocar violino, então eles decidiram pedir a sua ajuda para criar um programa que consiga executar todas as tarefas de Heathcliff. Heathcliff dará inicialmente para o casal uma árvore de n vértices (n <= 10^5), cuja raiz é o vértice 1, e em cada vértice está escrito um número inteiro positivo Ti (Ti <= 2^30). Depois, ele dará um inteiro q (q <= 10^5) que representa o número de tarefas. Existem 2 tipos de tarefas: 1 V K: Heathcliff dará 2 inteiros V e K(1 <= V <= n, 1 <= K <= 10^5), e em todos os vértices U que pertencem a subárvore do vértice V, o casal terá trocar o número escrito nesse vértice U para valor(U) ^ K, sendo valor(U) o número que está escrito no vértice de U logo antes da operação, e '^' a operação de XOR. 2 V: Heathcliff dará 1 inteiro V (1 <= V <= n), e o casal terá que encontrar a soma dos valores dos vértices U que pertencem a subárvore do vértice V. A subárvore de um vértice V é o conjunto de vértices U tal que o menor caminho de U até a raiz passa por V. Em particular, V pertence a subárvore de V.",
+    "format_input": "A primeira linha da entrada contém o número n de vértices. As próximas n-1 linhas contém dois números X Y (X diferente de Y), descrevendo uma aresta que liga o vértice X ao vértice Y; Depois, seguem n números Ti, representando o número escrito no i-ésimo vértice. Na próxima linha, é dado um inteiro q, o número de tarefas. As próximas Q linhas podem conter tarefas dentre os dois tipos: 1 V K, 2 V (ler descrição do problema para mais informações sobre as tarefas) Limites: n <= 10^5 X, Y <= 10^5 Ti <= 2^30 q <= 10^5 1 <= V <= n 1 <= K <= 10^5",
+    "format_output": "Para cada query do tipo 2, um número inteiro, representando a soma dos valores escritos em cada vértice da subárvore do vértice dado. (exemplo: se a entrada for 2 5, o programa deverá ter como saída a soma dos valores contidos em todos vértices que fazem parte da subárvore do vértice 5)",
+    "topics": [
+        "segment tree",
+        "Árvore",
+        "grafo"
+    ]
+}

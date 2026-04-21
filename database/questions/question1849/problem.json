@@ -1,0 +1,12 @@
+{
+    "title": "Labirinto para P2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um grupo de alunos sonhava chegar em Programação 2, porém eles acabaram se perdendo num desafiador labirinto. Agora tudo depende de você, construa um mapa para solucionar esse labirinto e assim garanta que esses alunos cheguem em Programação 2. Para facilitar a saída deste labirinto, exiba também os comandos que devem ser seguidos para chegar na saída: 'U' - Up (Cima), 'R' - Right (Direita), 'D' - Down (Baixo), 'L' - Esquerda.",
+    "format_input": "A primeira linha da entrada terá dois inteiros N e M (0 <= N, M <= 501), representando a quantidade de linhas e a quantidade de colunas. As próximas N linhas terão M caracteres representando o labirinto.",
+    "format_output": "A saída deve ter o labirinto com o caminho para a saída, e em outra linha, os comandos que devem ser seguidos para chegar na saída. (Sempre existirá uma única solução)",
+    "topics": [
+        "array bidimensional",
+        "backtracking",
+        "recursão"
+    ]
+}

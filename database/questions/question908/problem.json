@@ -1,0 +1,13 @@
+{
+    "title": "Quadrado da posição.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que gere um array de 20 posições, onde cada elemento do array corresponde ao quadrado da sua posição. Imprima o array resultante.",
+    "format_input": "None",
+    "format_output": "O array resultante de cada posição.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "repetição"
+    ]
+}

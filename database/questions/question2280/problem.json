@@ -1,0 +1,11 @@
+{
+    "title": "Quantidade de caracteres (função recursiva)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha uma única função, além da principal, que receberá como parâmetro uma string não vazia s (com no máximo 50 caracteres de conteúdo) e devolverá a quantidade de caracteres de s. Observações: (a) sem laços de repetição; (b) sem matrizes auxiliares; (c) não usar funções prontas; (d) a função terá apenas um parâmetro, que será a string; (e) função recursiva.",
+    "format_input": "Uma string com no máximo 50 caracteres, podendo conter letras alfabéticas maiúsculas, minúsculas e espaços.",
+    "format_output": "A quantidade de caracteres lidos.",
+    "topics": [
+        "função",
+        "recursão"
+    ]
+}

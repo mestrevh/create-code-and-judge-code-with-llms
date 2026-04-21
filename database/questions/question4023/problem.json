@@ -1,0 +1,10 @@
+{
+    "title": "Elemento da posição k do vetor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "São dados o valor de k e os elementos de um vetor. Seu programa deve imprimir o valor do elemento da posição k.",
+    "format_input": "Número inteiro k (indicador da posição desejada), na linha de baixo, o número inteiro n (quantidade de elementos do vetor), nas linhas seguintes os valores dos elementos do vetor (um em cada linha)",
+    "format_output": "Valor do elemento k (valor real com duas casas decimais)",
+    "topics": [
+        "array"
+    ]
+}

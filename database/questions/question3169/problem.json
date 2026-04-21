@@ -1,0 +1,11 @@
+{
+    "title": "Salário",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função que recebe as horas que um funcionário trabalhou (float) e o valor de sua hora-trabalho (float). O retorno deverá ser o salário a ser recebido e, se as horas trabalhadas excederem 180, haverá o pagamento de um bônus de 50% sobre o valor de cada hora excedida.",
+    "format_input": "150 10",
+    "format_output": "1500",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

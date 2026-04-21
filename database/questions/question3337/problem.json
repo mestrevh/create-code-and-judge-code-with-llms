@@ -1,0 +1,10 @@
+{
+    "title": "Ajude o Mateus",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mateus vai para a Rua da Concórdia no centro do Recife para comprar equipamentos para a sua guitarra. Ele tem n reais e vai comprar exatamente uma palheta, um conjunto de cordas e um pedal. Você receberá x0,x1,y0,y1,z0,z1 que representarão os invervalos de preço dos equipamentos que ele quer encontrar, respectivamente. Para todos os inteiros dentro do invervalo, sempre existirá um equipamento com esse preço (incluindo os extremos). Mateus quer gastar todo o dinheiro que tem, nada mais, nada menos. O seu trabalho é dizer qual o preço da palheta, cordas e do pedal que Mateus vai comprar. Se houver mais de uma combinação possível, Mateus quer a combinação que gaste o mínimo possível na palheta e se mesmo assim houver mais de uma combinação, ele quer dentro das que gastam o mínimo possível na palheta, a que gaste o mínimo possível no pedal. Caso não haja nenhuma combinação possível você deve printar \"N\"",
+    "format_input": "Duas linhas: a primeira linha diz quantos reais mateus tem e segunda tem 6 inteiros, onde x0 < x1, y0 < y1, z0 < z1. Os preços de x representam o o intervalo de preços da palhetas, y das cordas e z dos pedais.",
+    "format_output": "Caso haja uma combinação possível, uma linha com \"S\" e a próxima linha com o valor da palheta, corda e pedal respectivamente. Caso contrário, uma linha com \"N\"",
+    "topics": [
+        "busca"
+    ]
+}

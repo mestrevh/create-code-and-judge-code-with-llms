@@ -1,0 +1,10 @@
+{
+    "title": "Q04 - Maior entre dois numeros V2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Cria uma função chamada \"maior_numero\" que receba como parâmetro dois números reais e diga qual é o maior número se forem iguais, diga que são iguais Adicione a funcionalidade que o resultado, casa seja um número inteiro, seja exibido sem nenhuma casa decimal",
+    "format_input": "dois numeros reais",
+    "format_output": "o maior numero entre os 2. Caso seja inteiro, exiba sem casas decimais. Caso sejam iguais, digaq que são iguais",
+    "topics": [
+        "função"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Área de figuras geométricas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcule e mostre a área de várias figuras geométricas. A primeira informação fornecida pelo usuário será o nome da figura geométrica que ele quer calcular a área e em seguida deve receber os argumentos necessários para o cálculo. Para cada figura há um conjunto de argumentos diferentes. Retângulo -> A = base . altura Triângulo -> A = (base . altura) / 2 Trapézio -> A = [ (basemaior + basemenor) . altura ] / 2 Círculo - > A = pi . raio^2 Use pi = 3.1415",
+    "format_input": "Um string que indica qual a figura geométrica para a qual a área deve ser calculada Os argumentos (números reais) de cada figura: 2 para retângulo e triângulo, 3 para trapézio e 1 para círculo",
+    "format_output": "Um valor que indica a área da figura selecionada formatada com duas casas decimais. Caso a figura não seja válida, mostrar a mensagem \"Figura invalida.\".",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

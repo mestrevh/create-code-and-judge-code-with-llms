@@ -1,0 +1,10 @@
+{
+    "title": "Pontuação da Gincana Escolar",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A escola está organizando uma gincana com três atividades principais. Cada atividade concede uma pontuação específica para o aluno que a realiza. Os alunos são identificados por um ID numérico. Precisamos de um programa para calcular o total de pontos obtidos em cada atividade e identificar o ID do último aluno a pontuar em cada uma delas. Atividades e Pontuações: 1: \"Acerte o Alvo\" - Vale 5 pontos. 2: \"Corrida do Saco\" - Vale 10 pontos. 3: \"Quiz Cultural\" - Vale 7 pontos. Observação: Os IDs dos alunos são números inteiros positivos.",
+    "format_input": "Um inteiro Q, representando a quantidade total de pontuações registradas. Para cada uma das Q pontuações, serão lidos: O ID do aluno (inteiro, > 0). O ID da atividade realizada (inteiro: 1, 2 ou 3).",
+    "format_output": "O programa deve imprimir três linhas, uma para cada atividade, no seguinte formato: Alvo <total de pontos em Acerte o Alvo>, <ID do último aluno que pontuou em Acerte o Alvo> Saco <total de pontos em Corrida do Saco>, <ID do último aluno que pontuou em Corrida do Saco> Quiz <total de pontos em Quiz Cultural>, <ID do último aluno que pontuou em Quiz Cultural> Caso uma atividade não tenha nenhuma pontuação registrada, o total de pontos deve ser 0 e o ID do último aluno deve ser 0.",
+    "topics": [
+        "array"
+    ]
+}

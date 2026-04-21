@@ -1,0 +1,10 @@
+{
+    "title": "Tokoyame, o ladrão de ração",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kir é dono de uma renomada loja de artigos para pássaros, e os negócios iam de vento em popa. Entre os produtos vendidos, estavam pacotes de ração em três tamanhos: Pequeno (200 g), Médio (500 g) e Grande (775 g). Certa noite, a loja foi deixada aberta por engano. Um corvo travesso chamado Tokoyame aproveitou a oportunidade e roubou diversos pacotes de ração! Porém, Tokoyame é um ladrão meticuloso e com “bom gosto”: ele levou apenas pacotes de um único tipo. Kir conseguiu registrar quantos pacotes foram roubados e qual era o tipo levado. Agora, ele quer calcular quantos por cento do estoque total (em gramas) foi perdido e, com base nisso, determinar qual faixa de prejuízo segundo a tabela abaixo:",
+    "format_input": "A primeira linha contém 3 números em ordem (pequeno, médio, grande), quantos pacotes de cada tipo Kir possuía; A segunda linha contém uma letra [P/M/G] indicando qual tipo de pacote Tokoyame roubou, seguido do número de pacotes roubados.",
+    "format_output": "A saída consiste de 2 linhas, a primeira com a porcentagem de ração roubada com precisão de 2 casas decimais, e a segunda com a mensagem correspondente, por exemplo: 15.25% Vai ter que pegar dobrado essa semana!",
+    "topics": [
+        "decisão"
+    ]
+}

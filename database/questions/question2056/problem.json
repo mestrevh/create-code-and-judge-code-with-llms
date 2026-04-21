@@ -1,0 +1,11 @@
+{
+    "title": "Pares e Ímpares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considerando a entrada de valores inteiros não negativos, ordene estes valores segundo o seguinte critério: Primeiro os Pares; Depois os Ímpares. Sendo que deverão ser apresentados os pares em ordem crescente e depois os ímpares em ordem decrescente.",
+    "format_input": "A primeira linha de entrada contém um único inteiro positivo N (1 < N < 100000) Este é o número de linhas de entrada que vem logo a seguir. As próximas N linhas conterão, cada uma delas, um valor inteiro não negativo.",
+    "format_output": "Apresente todos os valores lidos na entrada segundo a ordem apresentada acima. Cada número deve ser impresso em uma linha, conforme exemplo abaixo.",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

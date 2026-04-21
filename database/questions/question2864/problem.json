@@ -1,0 +1,11 @@
+{
+    "title": "Exame Chunin",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para se tornar um Chūnin, um genin participa de um exame em larga escala, conhecido como os Exames de Seleção Chūnin, com a sua equipe.",
+    "format_input": "P A entrada é composta por um único número inteiro P, 2 ≤ P ≤ 1000, representando o número de participantes da prova.",
+    "format_output": "D A saída deverá conter um único inteiro positivo D. Ele deverá corresponder ao número de maneiras distintas com que Iruka poderia dividir os N genins, respeitando-se as condições exigidas.",
+    "topics": [
+        "repetição",
+        "números primos"
+    ]
+}

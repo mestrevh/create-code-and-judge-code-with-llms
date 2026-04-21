@@ -1,0 +1,11 @@
+{
+    "title": "Calculadora de Expressões",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Uma calculadora de expressões é capaz de receber uma expressão aritmética. O procedimento recebe uma string contendo uma expressão aritmética com todos os parênteses corretamente colocados e produz o resultado da expressão. Por exemplo, ao receber a entrada ((2+2)*(2+3)), o algoritmo deve produzir a saída 20. Ao passo que se a entrada for (1+((2+3)*(4*5)), o procedimento deve retornar 101.",
+    "format_input": "Uma string contendo a expressão aritmética, a expressão pode conter quaisquer uma das 4 operações básicas ( +, -, *, / ) e tem todos os parênteses corretamente posicionados. Os números envolvidos nas expressões são todos positivos. Cada número, operação ou parêntesis é separado dos demais por um espaço. Por exemplo: ( ( 4 + 1 ) * ( 4 / 2 ) ). Outro exemplo seria : ( ( 2 * 6 ) - ( 6 + 3 ) )",
+    "format_output": "Um número real com dois dígitos após a vírgula. O número deve ser o valor numérico da expressão.",
+    "topics": [
+        "estrutura de dados",
+        "pilha"
+    ]
+}

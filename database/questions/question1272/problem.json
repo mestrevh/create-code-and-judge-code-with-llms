@@ -1,0 +1,10 @@
+{
+    "title": "Persistência multiplicativa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Persistência multiplicativa de um número natural é a quantidade de etapas necessárias para que se atinja um número de um só dígito através do processo iterativo de multiplicação dos dígitos que compõem o número. Ex: 83 tem uma persistência dois pois requer duas etapas para chegar-se a um único dígito: 83->8x3=24->2X4=8. Faça um programa que liste os menores números com persistência multiplicativa menor ou igual a um limite dado.",
+    "format_input": "Um número natural 0<= N <= 9",
+    "format_output": "Uma lista dos menores números com persistência multiplicativa menor que N. Dado N=6, exibirá O menor número com persistência 0 é 0. O menor número com persistência 1 é 10. O menor número com persistência 2 é 25. O menor número com persistência 3 é 39. O menor número com persistência 4 é 77. O menor número com persistência 5 é 679.",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "L2Q2 - Só quer vrau",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pepeu estava ouvindo sua playlist de funk até que começou a tocar o hino atemporal SÓ QUER VRAU. Neste mesmo instante ele precisava fazer uma chamada. Quando ele clicava num número N do teclado, acontecia algum tipo de bug e a palavra \"vrau\" era repetida N vezes. Sua tarefa é, dada a entrada N, escreva como a música foi tocada.",
+    "format_input": "N: N - Número natural. 1 <= N",
+    "format_output": "U: U - String. O único valor de saída é composto pela frase \"Essas malandra, assanhadinha, que so quer \" seguindo por N \"vrau\"",
+    "topics": [
+        "repetição"
+    ]
+}

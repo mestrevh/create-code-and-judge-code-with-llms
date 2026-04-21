@@ -1,0 +1,11 @@
+{
+    "title": "Array",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Abraão está estudando Teoria dos Jogos para as competições de programação. Ele encontrou um jogo e precisa da sua ajuda. Nesse jogo, o participante recebe um array com números inteiros. Acada rodada, o participante poderá realizar a seguinte operação: • O participante poderá adicionar um mesmo número (pode ser negativo ou positivo) a todos os elementos do array, que não sejam 0. O jogo acabará quando todos os números do array forem iguais a 0. Sua tarefa é ajudar Abraão a encontrar o número mínimo de rodadas que serão necessários para que todos os elementos do array se transformem em 0. Por exemplo, considere o seguinte array 2 2 0 2. Se adicionarmos na 1a rodada -2 a todos os elementos, o array se transformará em 0 0 0 0. Com isso, só precisaremos de 1 rodada para transformar todos os elementos em 0. Considere um outro exemplo com o array 2 0 -1. Na 1a rodada poderemos adicionar -2 resultando no array 0 0 -1. Na 2a rodada poderemos adicionar 1, resultando no array 0 0 0. Com isso, precisaremos de 2 rodadas para transformar todos os elementos do array em 0.",
+    "format_input": "A primeira linha de cada caso de teste indica um número inteiro n (1 ≤ n ≤ 105) indicando o tamanho do array. A segunda linha do caso de teste contém n números inteiros ai (-105 ≤ ai ≤ 105, 1≤ i ≤ n) indicando os elementos do array.",
+    "format_output": "Para cada caso de teste, imprima o número mínimo de rodadas que serão necessárias para transformar todos os elementos do array em 0.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

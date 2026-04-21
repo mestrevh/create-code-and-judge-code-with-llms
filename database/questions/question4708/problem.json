@@ -1,0 +1,10 @@
+{
+    "title": "Q02 - Amado e eterno professor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um procedimento chamado \"amadoProfessor\" que exiba na tela \"Eu amo o professor Marcos Vinícius, de Algoritmos e Lógica de Programação do IFPB - CG\"",
+    "format_input": "Sem entrada",
+    "format_output": "A mensagem \" Eu adoro o professor Marcos Vinícius, de Algoritmos e Lógica de Programação do IFPB - CG\"",
+    "topics": [
+        "função"
+    ]
+}

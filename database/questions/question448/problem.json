@@ -1,0 +1,11 @@
+{
+    "title": "Quantos caminhos simples existem?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Aldo Huxley é um rapaz que gosta muito de viajar e sempre planeja suas viagens com antecedência. Geralmente ele estuda os mapas para saber quantos caminhos existem entre a lugar em que ele se encontra e o lugar que ele quer chegar. Aldo, também não gosta de passar no mesmo lugar mais de uma vez. Sua missão é ajudar Aldo a contar quantos caminhos simples (ou seja, caminhos em que o mesmo lugar não aparece mais de uma vez naquele caminho) existem entre o lugar em que Aldo se encontra e o lugar de destino. Seu algoritmo deve ser linear: O (A + V) , onde A= Arestas e V=Vértices. Caso contrário, provavelmente você receberá como resposta: \"tempo limite excedido\".",
+    "format_input": "A primeira linha contém um inteiro n indicando a quantidade de lugares. ( 1 <= n <= 4000) Em cada uma das n linhas seguintes você receberá uma lista de strings. Cada string representa um lugar. As linhas representam quais são os lugares que você consegue chegar a partir de um determinado lugar. Por exemplo, a linha a seguir significa que existe um caminho direcionado de rohan para gondor e de rohan para mordor: rohan gondor mordor Perceba que se trata de um caminho direcionado, ou seja, não existe um caminho de gondor para rohan, por exemplo. O seu mapa também não conterá ciclos. Ou seja, se você partir de rohan para qualquer lugar, será impossível achar um caminho de volta para rohan. Para quem gosta de estudar grafos, trata-se de um grafo direcionado acíclico. Na linha n+1, você receberá duas strings, correspondendo ao lugar de origem do Aldo Huxley a ao lugar de destino.",
+    "format_output": "Você deve imprimir um número inteiro seguido de um final de linha correspondendo à quantidade de caminhos simples entre o lugar de origem e o lugar de destino. Por exemplo, A entrada: 14 m x q r n q u o o r s v p o s z q t r u y s r t u t v x w w z x y v z p v Contém os 14 lugares e a última linha indica que o Aldo Huxley está no lugar p e deseja ir para v. Nesse caso, existem 4 caminhos simples: pov, poryv, posryv e psryv. Logo, a sua saída deve ser: 4 Veja que não é necessário imprimir os caminhos, somente a quantidade. A entrada de exemplo, corresponde ao seguinte mapa:",
+    "topics": [
+        "grafo",
+        "requer solução eficiente"
+    ]
+}

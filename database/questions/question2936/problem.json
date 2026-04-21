@@ -1,0 +1,10 @@
+{
+    "title": "O apelido de Aninha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Aninha possui um apelido secreto, é seu dever descobrir qual é?",
+    "format_input": "O numero 1.",
+    "format_output": "Um printf com o apelido de aninha",
+    "topics": [
+        "array"
+    ]
+}

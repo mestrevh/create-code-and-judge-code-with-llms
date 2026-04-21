@@ -1,0 +1,12 @@
+{
+    "title": "Yoshi, o Melhor Amigo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lembrando-se de um Yoshi Verde que já teve e o ajudou muito em suas viagens, nosso herói resolve comprar um Yoshi na loja de dinossauros. Ele ficou maravilhado com a infinidade de especies e resolveu fazer uma pesquisa para saber qual delas possui o melhor custo benefício dentro do valor que ele pode pagar com suas moedas. Os Yoshis disponíveis na loja na ordem de preferência de Mário são : 1. Verde 2. Vermelho 3. Azul 4. Amarelo Cada espécie com um preço e uma velocidade máxima que podem atingir. Seu trabalho é escrever um programa para calcular o Yoshi com melhor custo beneficio que Mário pode pagar e dizer qual é a melhor opção para sua viagem pensando em sua ordem de preferência. Só que Mário já teve um Yoshi verde antigamente que lhe ajudou muito em suas viagens, então se a espécie verde estiver com até 1 ponto de diferença da que tem melhor custo benefício ele irá preferir relembrar os velhos tempos e comprar um Yoshi Verde. Se Mário não tiver dinheiro para comprar nenhum Yoshi a resposta deve ser \"Acho que vou a pé :( \" .",
+    "format_input": "M - número natural M corresponde ao número de moedas que Mário possui. P - número natural P é o Preço da espécie. V - número natural V é a Velocidade da espécie. As características das espécies se repetem 4 vezes ( número de espécies disponíveis na loja) na ordem da descrição. Obs: O custo benefício é medido pela razão da velocidade pelo preço ( V/P ) .",
+    "format_output": "S - String S é a cor do Yoshi que Mário irá comprar para sua viagem.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "string"
+    ]
+}

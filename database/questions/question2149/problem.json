@@ -1,0 +1,10 @@
+{
+    "title": "SIG@ em frente, olhe para o lado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Parte importante de qualquer curso na UFPE é o SIG@ e o CIn não fica de fora, antes de cada período os alunos devem escolher as cadeiras que irão cursar. Durante a primeira semana de aula existe o período de modificação, onde os alunos podem atualizar as suas matriculas removendo aquelas que não pretendem mais cursar ou adicionando outras. Seu trabalho é criar um programa para o SIG@ que conte quantas pessoas estão matriculadas em cada cadeira do segundo período apos o período de modificação. As cadeirão são: Algoritmo SD Fisica Logica Estatistica OBS: Você pode considerar que na primeira etapa do SIG@ só existem matriculas e na segunda apenas cancelamento de matriculas. OBS2: A resolução dessa questão deve usar os conceitos de lista encadeada",
+    "format_input": "A entrada é dividida em duas partes, representando as duas etapas do SIG@. Primeira: N Strings do formato: cadeira + nome Segunda: N Strings do formato: cadeira + nome OBS: As duas etapas são separadas por uma linha em branco.",
+    "format_output": "A saída deverá seguir o seguinte modelo cobrindo todas as disciplinas na ordem que foram apresentadas na descrição. Estao matriculados na turma de [CADEIRA] [NUMERO DE ALUNOS] aluno(os)",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

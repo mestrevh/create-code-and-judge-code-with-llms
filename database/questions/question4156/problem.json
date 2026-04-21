@@ -1,0 +1,13 @@
+{
+    "title": "Xadrez no IC",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pedro e Vinícius estavam jogando Xadrez. Vinícius, com as peças pretas, já tinha perdido suas chances de ganhar, pois possuía apenas seu rei. Enquanto isso, Pedro, com as peças brancas, possuía 2 torres e seu rei. Torres num jogo de xadrez se movem horizontalmente e verticalmente quantas casas quiser: Enquando reis movem apenas para as casas imediatamente ao seu lado ou às diagonais próximas: Vinícius quer saber se a situação atual é de xeque-mate, se seu rei está afogado, ou se não ocorreu xeque-mate ainda. Será dado o tabuleiro e as posições das peças para ser analisado. Para cada casa, podemos ter: 0: casa vazia 1: casa ocupada por uma torre do Pedro 2: casa ocupada pelo rei do Pedro 3: casa ocupada pelo rei do Vinícius OBS: Um tabuleiro de Xadrez é sempre 8x8. OBS: Um xeque-mate ocorre quando a casa do rei está sendo atacada e as casas ao seu redor também. OBS: Um afogamento ocorre quando a casa do rei não está sendo atacada mas suas casas ao redor estão.",
+    "format_input": "Será dado o tabuleiro 8x8. Para cada casa, podemos ter: 0: casa vazia 1: casa ocupada por uma torre do Pedro 2: casa ocupada pelo rei do Pedro 3: casa ocupada pelo rei do Vinícius",
+    "format_output": "\"Xeque-mate\" caso haja xeque-mate; \"Afogado\" aso haja afogamento do rei; \"Nao ocorreu ainda\" caso não tenha ocorrido o xeque-mate ainda (note que não há acento).",
+    "topics": [
+        "array",
+        "repetição",
+        "array bidimensional",
+        "função"
+    ]
+}

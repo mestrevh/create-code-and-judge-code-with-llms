@@ -1,0 +1,10 @@
+{
+    "title": "Maior valor entre inteiros lidos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que encontre o maior valor entre vários inteiros lidos e a sua posição. Admita que o primeiro valor lido especifica o número de valores de entrada.",
+    "format_input": "N - Quantidade de numeros a ser lido. Xn - Números Lidos, para encontrar, entre eles o maior valor.",
+    "format_output": "Maior valor e sua posição.",
+    "topics": [
+        "repetição"
+    ]
+}

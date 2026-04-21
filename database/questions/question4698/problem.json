@@ -1,0 +1,11 @@
+{
+    "title": "Q02 - Soma de dois numeros V2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função chamada \"somar\" que recebe dois números como entrada e retorne a soma deles, assim como o anterior. Adicione a funcionalidade de que, se a soma for um número inteiro, exiba o número inteiro. Isso é, sem casas decimais",
+    "format_input": "dois números reais",
+    "format_output": "A mensagem \"O resultado de a + b eh c\" onde c é a soma dos dois números. OBS.: se a soma for um número inteiro, como por exemplo 2 + 3 que dá 5, mostre \"O resultado de 2.0 + 3.0 é 5\" e caso o contrário, mostre a mesma mensagem com o resultado com apenas uma casa decimal.",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

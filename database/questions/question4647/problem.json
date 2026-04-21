@@ -1,0 +1,12 @@
+{
+    "title": "Q02 - Palavra existe na frase?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sua missão é simples, dada uma palavra x, onde x representa a palavra, informe se ela existe numa frase y, onde y é a frase. Exemplo: Assis Machado de Assis se existir, mostre \"existe!\". Caso contrário, mostre \"nao existe\".",
+    "format_input": "uma palavra pra buscarmos na frase a frase em qual vamos buscar a palavra",
+    "format_output": "\"existe\" se existir a palavra na frase e \"nao existe\" caso contrario",
+    "topics": [
+        "decisão",
+        "string",
+        "busca"
+    ]
+}

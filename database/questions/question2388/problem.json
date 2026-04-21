@@ -1,0 +1,11 @@
+{
+    "title": "Bruna e os quadrados",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Bruna é uma sublime matemática, por isso seus amigos geralmente tentam lhe propor desafios, esperando que alguma hora ela não consiga responder. Um de seus colegas, Zelda, a desafiou da seguinte forma: Dada uma matriz NxN (1 <= N <= 100), conseguir achar a área do maior quadrado formado por ‘1’ na matriz fornecida. Como ela é esperta, para que pudesse poupar seu precioso tempo dedicado a assistir séries, jogar e estudar, pediu para que você criasse um algoritmo para ela que, fornecida a matriz binária, resolva o problema dado por Zelda.",
+    "format_input": "Será fornecido um número N, e logo após uma matriz binária NxN, ou seja, formada apenas por '0' e '1' em suas células.",
+    "format_output": "A saída será um inteiro M, que conterá a área do maior quadrado formado por '1' na matriz binária.",
+    "topics": [
+        "repetição",
+        "array bidimensional"
+    ]
+}

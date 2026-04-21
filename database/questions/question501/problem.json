@@ -1,0 +1,12 @@
+{
+    "title": "Plano de Saúde",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sheila é cliente de um plano de saúde com coparticipação. Isso significa que além da mensalidade paga todos os meses, ela pode precisar pagar uma taxa extra pelos procedimentos que fizer. O plano que ela escolheu dá direito a 2 exames e 3 consultas por ano. Passando disso, cobre 40% do valor de cada exame e 70% de cada consulta. Escreva um programa que receba como entrada os dados (tipo e valor) de 8 procedimentos feitos por ela esse ano, e exiba o valor total que ela teve que desembolsar para completar o que foi pago pelo plano.",
+    "format_input": "Para cada procedimento, um String (exame ou consulta) e um valor real",
+    "format_output": "Um valor real com duas casas decimais",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

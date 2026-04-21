@@ -1,0 +1,13 @@
+{
+    "title": "Projeção Ortogonal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ah, Álgebra Linear! Uma maravilhosa área da matemática, não é mesmo? Pedrinho acha difícil encontrar alguém que não goste de AL. Então, sabendo que você além de compartilhar desse sentimento, sabe programar em C, ele te pediu para fazer um programa simples, para calcular a projeção ortogonal entre dois vetores.",
+    "format_input": "Um inteiro para a dimensão dos dois vetores (que devem ter mesmo tamanho), seguido da leitura dos valores que compõem esses vetores (que devem armazenar valores do tipo float).",
+    "format_output": "Após calcular a projeção ortogonal, você deve imprimir o resultado no seguinte formato: \"A projecao ortogonal de v na direcao de u eh:\" | valor1 | | valor2 | | valor3 | Obs.: os valores que compõem as coordenadas do vetor resultado, devem ter 3 casas decimais de precisão. Lembre-se!!! A projeção ortogonal de um vetor na direção dele mesmo, resulta nele mesmo. Quando isso ocorrer imprima a mensagem: \"Os vetores sao iguais, logo, a projecao de v na direcao de u, eh o proprio u.\"",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "L2Q6 - A Fórmula Perfeita",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para atrair o público, Pepeu decidiu que a festa seria open de Gummy, e por sorte ele tinha a fórmula para calcular a quantidade perfeita de Vodka a ser usada. A fórmula era dada da seguinta forma: V = X - ((X^2)/(3!)) + ((X^4)/(5!)) - ((X^6)/(7!)) + ((X^8)/(9!)) ... Sendo, V a quantidade de Vodka em litros e X a quantidade de Tang em litros. A sequência segue sempre o mesmo formato, alternando entre somas e subtrações pelos termos. Quanto mais termos forem utilizados, melhor será o Gummy. Calcule a quantidade de Vodka que será usada",
+    "format_input": "X - número natural: Quantidade de Tang que será usada, em litros. T - número natural: Quantidade de termos que devem ser considerados no cálculo",
+    "format_output": "V - ponto flutuante: Quantidade, em litros, de Vodka a ser usada. O valor deve ser aproximado em 3 casas decimais e impresso em sua forma absoluta (|V|)",
+    "topics": [
+        "repetição",
+        "função"
+    ]
+}

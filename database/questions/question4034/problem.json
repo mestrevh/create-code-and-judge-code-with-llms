@@ -1,0 +1,12 @@
+{
+    "title": "Buscando o tesouro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um certo dia uma criança conhecida como JVJ encontrou um mapa do tesouro, onde essa mapa tinha algumas informações para ganhar o grande tesouro. Informações do mapa: - O mapa é uma matriz 2xN - A posição inicial sempre será a (0,0) - A posição final sempre será (1, n-1) - São números 0 e 1, onde só se pode andar pelos 0 - A ordem de tentativa para andar é: 1 - direita 2 - baixo 3 - cima Obs: Note que você só vai para baixo, caso não consiga ir para a direita, e você só vai para cima, caso não consiga ir para a direita e não consiga ir para baixo. Obs: A posição INICIAL nunca será 1. Depois de percorrer, caso JVJ tenha conseguido chegar ao tesouro, diga quantos movimentos foram necessários para ele chegar ao tesouro.",
+    "format_input": "Um inteiro N, que será a quantidade de colunas do mapa. Em seguida virá 2*N inteiros, compostos por 0 e 1, representando os dados do mapa.",
+    "format_output": "Caso ele consiga chegar na posição desejada, imprima a quantidade mínima de movimentos que ele usou para chegar no tesouro, da seguinte forma: \"precisamos de X movimentos\", onde X é a quantidade mínima de movimentos. Caso não consiga chegar lá, imprima \"existe um bloqueio!\"",
+    "topics": [
+        "decisão",
+        "repetição",
+        "recursão"
+    ]
+}

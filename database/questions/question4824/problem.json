@@ -1,0 +1,10 @@
+{
+    "title": "Gerador de Códigos em Base N",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente um programa que gere todas as sequências possíveis de tamanho n, onde cada posição pode assumir valores de 0 até b - 1, sendo b a base fornecida. As combinações devem ser impressas em ordem crescente, como em uma contagem na base b. Use backtracking para gerar as combinações.",
+    "format_input": "Dois inteiros: n b. n: comprimento da sequência (1 ≤ n ≤ 10). b: base (2 ≤ b ≤ 10).",
+    "format_output": "Todas as combinações possíveis de comprimento n na base b, uma por linha.",
+    "topics": [
+        "backtracking"
+    ]
+}

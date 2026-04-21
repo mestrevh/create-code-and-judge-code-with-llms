@@ -1,0 +1,15 @@
+{
+    "title": "Calculando a nota final da disciplina",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu professor de programação gostou do seu programa que calcula a nota final de um módulo da disciplina (calculada a partir da média ponderada de duas outras notas: a nota da avaliação, com um peso de 70%; e a média simples das notas das listas de exercícios - cuja quantidade varia por módulo e é informada pelo usuário -, com um peso de 30%). Ele solicitou algumas mudanças para que ele mesmo use seu programa para calcular nota final de cada aluno na disciplina: Ao invés de calcular as notas apenas para você, é necessário que seu programa calcule a nota do módulo para cada um dos alunos da turma. Para isso você terá que receber o número de alunos e obter as notas para cada um deles; Ao invés de calcular as notas apenas para um módulo, é necessário que seu programa calcule a nota de todos os módulos. Para isso você terá que receber o número de módulos da disciplina. Para cada aluno, o programa deverá informar sua situação na disciplina seguindo a seguinte regra: Se 0 <= média < 3: REPROVADO Se 3 <= média < 5: TA DIFICIL Se 5 <= média < 7: FOI POR POUCO Se 7 <= média < 9: PASSOU Se média >= 9: PASSOU FACIL",
+    "format_input": "Dessa forma, seu programa passará a receber as seguintes entradas: M: inteiro (M > 0) indicando a quantidade de módulos; A: inteiro (A > 0) indicando a quantidade de alunos; Para cada aluno, uma string contendo o nome do aluno; Para cada módulo (Mi) em M: Li: inteiro (L > 0) indicando a quantidade de listas de exercícios do módulo Mi; Para cada Aj em A: N: float (0 <= N <= 10) indicando a nota da avaliação do aluno Aj no módulo Mi; L vezes NLk (se Li for 4, você lerá NL1 a NL4): um float (0 <= NLi <= 10) que indica a nota da k-ésima lista de exercícios do aluno no módulo.",
+    "format_output": "Ao término seu programa deve passar a apresentar (em linhas separadas): Para cada módulo Mi: Uma linha com um inteiro Mi (número do módulo) e a média simples (duas casas decimais) das notas finais desse módulo, separados por espaço em branco. Ex: “1 7.56” indica que no módulo 1 a média das notas finais dos alunos foi 7.56. Para cada aluno Aj (na mesma ordem em que aparecem na entrada): Uma linha contendo o nome do Aluno, a média (duas casas decimais) das notas finais desse aluno na disciplina, e a situação na disciplina. Ex: “Ricardo 9.00 PASSOU FACIL” indica que o aluno Ricardo está com média 9.00 na disciplina e passou fácil. Para cada módulo Mi: Uma linha com o número do módulo Mi e a nota final (NFj), com duas casas decimais, do aluno Aj no módulo Mi , separados por espaço em branco. Ex: “1 9.50” indica que o aluno em questão ficou nota final 9.50 no módulo 1.",
+    "topics": [
+        "ponto flutuante",
+        "array",
+        "acumulador",
+        "decisão",
+        "repetição",
+        "dicionário"
+    ]
+}

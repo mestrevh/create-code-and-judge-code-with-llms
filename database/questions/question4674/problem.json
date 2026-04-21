@@ -1,0 +1,10 @@
+{
+    "title": "Fuga de Oileh",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oileh precisa atravessar sua fazenda para chegar ao final, mas está sendo atacado por um monstro! O monstro joga lacaios na fazenda, bloqueando os blocos de caminho aonde eles caem. O aplicativo de celular de Oileh representa a fazenda como uma matriz 10x10. Cada lacaio bloqueia o bloco onde cai e todos os blocos ao redor dele. Oileh sempre começa na posição (0, 0), e precisa chegar à posição (9, 9), o último bloco inferior direito da matriz. Ele só pode se mover para baixo ou para a direita, sempre preferindo ir para baixo primeiro. A matriz é preenchida com: 1: caminho livre; 0: caminho bloqueado. Se a coordenada (0, 0) for bloqueada por um lacaio no início, ignore. Cheque se ao redor tem caminho livre e continue.",
+    "format_input": "Uma matriz 10x10 representando a fazenda. Um número inteiro N, indicando o número de lacaios jogados pelo monstro. As N coordenadas das posições onde os lacaios caíram, na forma: a1 b1 ... an bn Onde a,b são inteiros.",
+    "format_output": "A matriz modificada, após os ataques. Imprima \"SAIU\" se Oileh conseguiu sair da fazenda. Imprima \"PRESO\" se ele ficou preso.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

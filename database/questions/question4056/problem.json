@@ -1,0 +1,10 @@
+{
+    "title": "Colesterol total",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio fez um exame de sangue e está ansioso por saber o resultado. Você deseja ajudá-lo escrevendo um programa que leia o valor obtido no exame e, de acordo com a tabela abaixo contendo as faixas de valores, informe o resultado do exame. Faixa: Menor que 150 mg/dl - Resultado: DESEJAVEL; Faixa: De 150 mg/dl a 170 mg/dl - Resultado: LIMITROFE; Faixa: Maior que 170 mg/dl - Resultado: ALTO.",
+    "format_input": "Uma linha contendo o valor do colesterol total (ponto flutuante) em mg/dl.",
+    "format_output": "O programa deve imprimir uma linha contendo mensagem no formato exemplificado abaixo (sem acentos). Considerando como exemplo o valor de 120 mg/dl, teríamos a mensagem: Colesterol total 120.0 mg/dl (DESEJAVEL)",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Entidade e os grupos de cores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade é fascinada por cores. Em sua última viagem, ela encontrou uma construção cheia de ladrilhos com diversas cores. Ela gosta muito de imaginar que ladrilho pertence a um grupo, esse grupo é formado pelos ladrilhos adjacentes (nas 8 direções) que possuem a mesma cor. Ela está ficando tonta de tanto imaginar, mas pediu que você contasse quantos grupos existem, e qual a quantidade de ladrilhos do maior grupo.",
+    "format_input": "A primeira linha da entrada terá dois inteiros n e m, indicando a quantidade de linhas e colunas, respectivamente. Em seguida, virão n linhas, com m colunas de inteiros l_i_j, indicando a cor do ladrilho da linha i e coluna j. Limites: 1 <= n, m <= 1000 0 <= l_i_j <= 9",
+    "format_output": "A entrada deverá ter dois inteiros, indicando a quantidade de grupos existentes e a quatidade de ladrilhos do maior grupo, respectivamente.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "P3-Q2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para encontrar os números inteiros que são divisíveis por 7 e múltiplos de 5, entre 1500 e 2700 (ambos incluídos).",
+    "format_input": "Não há entradas.",
+    "format_output": "A lista de todos os números inteiros encontrados, separados por vírgula.",
+    "topics": [
+        "repetição"
+    ]
+}

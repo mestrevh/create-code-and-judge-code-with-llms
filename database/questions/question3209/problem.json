@@ -1,0 +1,10 @@
+{
+    "title": "Restos dos Produtos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado dois números a e b (1 <= a, b <= 10^18) e um número m (1 <= m <= 10^9), encontre o resultado da seguinte relação: (a * b) mod m onde \"mod\" é a operação de resto da divisão. obs: Você deverá responder T (1 <= T <= 10^5) queries independentes.",
+    "format_input": "Virá um inteiro T correspondente a quantidade de consultas. Para cada consulta virá três números: a, b e m (1 <= a, b <= 10^18) (1 <= m <= 10^9)",
+    "format_output": "Para cada consulta imprima o resultado de (a * b) mod m",
+    "topics": [
+        "lógica matemática"
+    ]
+}

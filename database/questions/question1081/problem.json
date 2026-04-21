@@ -1,0 +1,10 @@
+{
+    "title": "Ordenação Inusitada",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Rita recebeu de Onofre um pedido inusitado: escrever um programa que leia três números inteiros e positivos e exiba na saída padrão de maneira ORDENADA da seguinte forma: se o primeiro número lido for ímpar, a ordem será crescente. Caso contrário, será decrescente. No entanto, se qualquer um dos valores for negativo, será exibida uma mensagem de erro.",
+    "format_input": "Três números inteiros lidos separadamente.",
+    "format_output": "Números ordenados ou Mensagem de erro.",
+    "topics": [
+        "decisão"
+    ]
+}

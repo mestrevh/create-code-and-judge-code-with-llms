@@ -1,0 +1,10 @@
+{
+    "title": "Índice de Massa Corpórea",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que calcule o IMC de uma pessoa e classifique a pessoa de acordo com seu IMC: Formula: IMC = P/A*A, onde P é o peso e A é a altura.",
+    "format_input": "Dois inteiros, um representando o peso (primeiro parâmetro), e o outro a altura (segundo parâmetro).",
+    "format_output": "Uma mensagem descrevendo a classificação a partir do resultado do IMC. IMC abaixo de 17, a saída deve ser: “muito abaixo do peso”; IMC entre 17 e 18,49, a saída deve ser: “abaixo do peso”; IMC entre 18,5 e 24,99, a saída deve ser: “peso normal”; IMC entre 25 e 29,99, a saída deve ser: “acima do peso”; IMC entre 30 e 34,99, a saída deve ser: “obesidade”; IMC entre 35 e 39,99, a saída deve ser: “obesidade severa”; IMC a partir de 40, a saída deve ser: “obesidade morbida\" :",
+    "topics": [
+        "decisão"
+    ]
+}

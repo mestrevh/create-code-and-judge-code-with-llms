@@ -1,0 +1,12 @@
+{
+    "title": "Display de 7 segmentos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um display de 7 segmentos é um dispositivo barato que pode ser utilizado para exibir números e algumas letras. Como o nome já sugere, ele possui 7 elementos luminosos diferentes e a combinação deles, ligados ou desligados, é o que torna isso possível (ver foto abaixo). Considerando que você recebe uma sequência de arrays de 7 posições, onde cada uma armazena o estado de um segmento do display como 1 ou 0 (ligado ou desligado), sua missão é exibir qual número inteiro o display está exibindo (este exemplo não exibirá letras). Fonte da imagem: https://pt.wikipedia.org/wiki/Ficheiro:7_segment_display_labeled.svg Array[0] = A; Array[1] = B; Array[2] = C; . . . Array[6] = G.",
+    "format_input": "Primeiramente, você receberá um inteiro N, informando quantos arrays de 7 posições serão passados na entrada. Em seguida, você receberá N arrays de 7 posições.",
+    "format_output": "A saída deverá ser o inteiro formado pelos dígitos exibidos no display. Considere que o primeiro dígito passado na entrada, deverá ser o dígito mais à esquerda do inteiro de saída, que o segundo dígito da entrada é o segundo dígito à esquerda do inteiro de saída, e assim sucessivamente.",
+    "topics": [
+        "array",
+        "repetição",
+        "array bidimensional"
+    ]
+}

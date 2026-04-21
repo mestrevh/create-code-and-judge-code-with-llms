@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 3568 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3568</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Doe sangue, doe vida!</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p style="color: rgb(0, 0, 0);"><span>Doar sangue é um processo fácil, rápido, seguro e solidário. A doação de sangue </span><span>ocorre quando uma pessoa voluntariamente vai a um centro especializado e disponibiliza seu sangue para ser usado em transfusões ou outras situações clínicas.</span><br/></p><p style="color: rgb(0, 0, 0);"><b><font face="inherit">Uma </font>única doação é possível salvar até quatro vidas</b>, uma vez que o material é separado em diferentes hemocomponentes.</p><p style="color: rgb(0, 0, 0);">No entanto, a fim de proteger tanto o doador como a pessoa que vai receber a doação, existem critérios estabelecidos por normas técnicas do Ministério da Saúde. </p><p style="color: rgb(0, 0, 0);">O doador tem que atender, além de ter os critérios de impedimento definitivos e temporários verificados,  aos seguintes requisitos básicos:</p><ul style="color: rgb(0, 0, 0);"><li>Ter idade entre 16 e 69 anos, inclusive, desde que a primeira doação tenha sido feita até 60 anos;<br/></li><li>Pesar no mínimo 50 kg;<br/></li><li>A frequência máxima é de quatro doações anuais para o homem e de três doações anuais para a mulher. O intervalo mínimo deve ser de dois meses para os homens e de três meses para as mulheres.</li></ul><p style="color: rgb(0, 0, 0);"></p><p style="background-color: transparent;color: rgb(0, 0, 0);"><font color="#000000"><font face="Arial, sans-serif"><font size="3">Você deve fazer um programa que verifique se um possível doador atende aos requisitos básicos acima com base em dados lidos. Existem as mensagens possíveis no item saída e nos exemplos.</font></font></font></p><p></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(0, 0, 0);"></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: left;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">O programa deve ler um valor inteiro para o mês do ano corrente.</font></font></font></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: left;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">Além disso, ler os dados do possível doador:</font></font></font></p><ul style="color: rgb(0, 0, 0);"><li><p style="background-color: transparent;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">Idade</font></font></font></p></li><li><p style="background-color: transparent;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">Sexo (F para feminino e M para masculino)</font></font></font></p></li><li><p style="background-color: transparent;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">peso (float)</font></font></font></p></li><li><p style="background-color: transparent;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">informação se já doou sangue antes (s ou S para sim, n ou N para não)</font></font></font></p></li></ul><p style="background-color: transparent;color: rgb(0, 0, 0);"><font color="#000000"><font face="Arial, sans-serif"><font size="3">Caso o usuário já tenha doado sangue antes, deve-se ler também:</font></font></font></p><ul style="color: rgb(0, 0, 0);"><li><p style="background-color: transparent;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">Ano da primeira doação<span class="Apple-converted-space"> </span></font></font></font></p></li><li><p style="background-color: transparent;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">Quantas doações já fez no <b>ano corrente (2021)</b></font></font></font></p></li><li><p style="background-color: transparent;"><font color="#000000"><font face="Arial, sans-serif"><font size="3">Mês da última doação no ano corrente (use um inteiro para representar o mês) - digite 0 se não fez doação. </font></font></font></p></li></ul><p style="background-color: transparent;color: rgb(0, 0, 0);"><font color="#000000"><font face="Arial, sans-serif"><font size="3"><span style="background-color: rgb(255, 255, 255);">Na solução do problema considere o ano atual (2021).</span></font></font></font></p><p style="background-color: transparent;color: rgb(0, 0, 0);"><font color="#000000"><font face="Arial, sans-serif"><font size="3"><span style="background-color: rgb(255, 255, 255);">Considerando que o último mês de doação pode ter sido no ano anterior, você pode usar a função abs para calcular o valor absoluto de uma expressão. Por exemplo, abs(2-8) = 6. </span></font></font></font></p><div><font color="#000000"><span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);float: none;"></span><br/></span></font></div></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(0, 0, 0);"></p><p><font color="#000000"><font face="Arial, sans-serif"><font size="3">O resultado esperado na saída é uma mensagem indicando se o doador pode ou não doar sangue.</font></font></font></p><p><font color="#000000"><font face="Arial, sans-serif"><font size="3">Quando os requisitos básicos forem atendidos, deve ser apresentada a mensagem <font color="#939598"><span style="background-color: rgb(255, 255, 255);">&#34;Pode ser doador.&#34;, se a pessoa for do sexo masculino e, &#34;Pode ser doadora.&#34;, para a pessoa do sexo feminino.<span class="Apple-converted-space"> </span></span></font></font></font></font></p><p><font color="#939598"><font face="Arial, sans-serif"><font size="3"><span style="background-color: rgb(255, 255, 255);">Para o caso negativo, deve ser apresentada a mensagem &#34;Nao pode doar sangue!&#34;.</span></font></font></font></p><p><font color="#939598"><font face="Arial, sans-serif"><font size="3"><span style="background-color: rgb(255, 255, 255);">Se for por possível doar e for a primeira vez, a mensagem deve ser: “Parabens! Que bom que veio doar pela primeira vez!“.</span></font></font></font></p><p><span>Caso o usuário digite uma letra diferente de s ou n para a informação de já ter doado sangue, a mensagem deve ser </span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: left;"><font face="Times New Roman, serif"><font size="3">&#34;Erro! Era para ter digitado s ou n!&#34;.</font></font></p><p><span></span></p><p style="color: rgb(0, 0, 0);"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;"></span></span></span></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3568/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question3568/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3568/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question3568/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3568/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question3568/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3568/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question3568/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3568/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question3568/outputs/out4.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3568/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question3568/outputs/out5.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3568/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question3568/outputs/out6.txt">
+                Exemplo 7
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

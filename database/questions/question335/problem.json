@@ -1,0 +1,8 @@
+{
+    "title": "Condutor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Todos que fazem traduções de Inglês para Russo sabe que a frase em Inglês \"Naked conductor runs along the bus\" tem dois significados muito diferentes. Cada ônibus na cidade Ekaterinburg tem um homem especial (ou mulher) chamado condutor. Quando você andar de ônibus, você tem que dar dinheiro para o condutor. Sabemos que existem mais de P% condutores e menos de Q% condutores de todos os cidadãos de Ekaterinburg. Sua tarefa é determinar um número mínimo possível de cidadãos Ekaterinburg. Pela porcentagem, sabemos que existem mais de P % condutores e menos de Q % condutores de todos os cidadãos russos na cidade",
+    "format_input": "Dois números de P , Q tal que 0,01 ≤ P , Q ≤ 99,99. Os números são dados com dois dígitos de precisão e são separados por espaço.",
+    "format_output": "O número mínimo de cidadãos Ekaterinburg, seguidos de uma quebra de linha. OBS: Se existem 15 cidadãos e 2 condutores entre eles, em Ekaterinburg, há 2 condutores, 13,33% de todos os cidadãos.",
+    "topics": []
+}

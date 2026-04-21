@@ -1,0 +1,10 @@
+{
+    "title": "EEPAR",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Vamos definir números pares e ímpares de acordo com a concepção pitagórica: Par é o número que pode ser dividido em duas partes iguais, sem que uma unidade fique no meio, e ímpar é aquele que não pode ser dividido em duas partes iguais, porque sempre há uma unidade no meio (http://www.matematica.br/historia/parimpar.html). Construa uma função que recebe como parâmetro um número inteiro (N) e devolve como saída 1 se (N) for par e -1 se (N) for ímpar. Restrições: 0 < N < 1000.",
+    "format_input": "2",
+    "format_output": "1",
+    "topics": [
+        "obi"
+    ]
+}

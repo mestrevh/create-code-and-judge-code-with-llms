@@ -1,0 +1,12 @@
+{
+    "title": "Clones",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Maceió, a capital de Alagoas, foi atacada por alienígenas. Eles sequestraram alguns dos moradores e os levaram para uma nave espacial em órbita em torno da Terra. Após algumas experiências (muito desagradáveis) com os sequestrados, os aliens clonaram as vítimas e enviaram os clones de volta para Maceió. Então, agora, pode acontecer de existirem 06 Martas (a jogadora de futebol): a pessoa original e suas 5 cópias. O Escritório Federal de Clonagem Não Autorizada (EFCNA) incumbiu-lhe a tarefa de determinar quantas cópias foram feitas a partir de cada pessoa. Para ajudá-lo na sua tarefa, EFCNA coletou uma amostra de DNA de cada pessoa. Todas as cópias de uma mesma pessoa tem a mesma sequência de DNA, e diferentes pessoas têm diferentes sequências (sabemos que não existem gêmeos idênticos na cidade, este não é um problema).",
+    "format_input": "A entrada contém vários blocos de casos de testes. Cada caso começa com uma linha contendo dois inteiros: O número 1<=n<=20000 pessoas. O tamanho 1<=m<=20 de sequências de DNAs. As próximas n linhas contêm as sequencias de DNAs. Cada linha contem uma sequencia de m caracteres onde cada caractere é A, C, G ou T. A entrada termina por um bloco onde n=m=0.",
+    "format_output": "Para cada caso de teste, você deve imprimir n linhas de saída. Cada linha contém um único inteiro. A primeira linha contém o número de pessoas diferentes que não foram copiadas. A segunda linha contem o número de pessoas que foram copiadas somente uma vez. A terceira linha contem o numero de pessoas que estiveram presentes em 3 cópias idênticas e assim por diante: a i-ésima linha contem o número de pessoas que possuem i cópias idênticas.",
+    "topics": [
+        "array",
+        "array bidimensional",
+        "dicionário"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Cálculo do salário.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia do usuário quanto ele ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.",
+    "format_input": "Valor ganho por hora. Quantidade de horas trabalhadas no mês.",
+    "format_output": "Salário ganho no mês.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

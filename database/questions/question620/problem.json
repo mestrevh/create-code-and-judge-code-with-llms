@@ -1,0 +1,10 @@
+{
+    "title": "Rotacionar um ponto em relação à origem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Muitos jogos fazem o uso intenso de transformações de matrizes para provocar efeitos como rotação, translação, espelhamento ou mesmo escala. As figuras abaixo mostram 4 etapas de uma rotação de un polígono côncavo representado por 6 pontos. Perceba que a rotação foi realizada em relação à origem (0,0). Nesse problema, você terá um desafio um pouco mais simples para resolver. Dado um ponto e um ângulo de rotação, indique a nova coordenada desse ponto, depois de realizada a rotação no sentido anti-horário.",
+    "format_input": "Você receberá vários casos de teste. Cada linha representa um caso de teste. Cada linha contém 2 inteiros x e y (-5000 <= x, y <= 5000) representando as coordenadas de um ponto e un número real t correspondendo à rotação desejada à ser aplicada no ponto. A rotação é dada em graus (0 <= t <= 360).",
+    "format_output": "Para cada caso de teste imprima uma única linha contendo as coordenadas do novo ponto. Os valores devem ser separados por espaço e devem ser impressos com 2 casas decimais.",
+    "topics": [
+        "geometria computacional"
+    ]
+}

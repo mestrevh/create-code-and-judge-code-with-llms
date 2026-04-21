@@ -1,0 +1,11 @@
+{
+    "title": "Pangram",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Emerson está estudando um novo idioma e precisa da sua ajuda para saber se uma determinada sentença utiliza todos os caracteres do nosso alfabeto, que contém 26 letras (incluindo k, w, y). Quando isso ocorre, a sentença é chamada de pangram. Por exemplo, considere a sentença ‘toosmallword’. Nesse caso não é um pangram já que não usa todas as letras do nosso alfabeto. Considere uma outra sentença ‘TheQuickBrownFoxJumpsOverTheLazyDog’. Nesse caso é um pangram já que usa pelo menos uma vez todas as 26 letras do nosso alfabeto.",
+    "format_input": "Cada caso de teste contém uma sentença sempre usando letras minúsculas e sem espaços em branco. A sentença terá no mínimo 1 caractere e no máximo 100 caracteres.",
+    "format_output": "Para cada caso de teste, imprima SIM se a sentença for um pangram, ou NÃO caso contrário.",
+    "topics": [
+        "array",
+        "decisão"
+    ]
+}

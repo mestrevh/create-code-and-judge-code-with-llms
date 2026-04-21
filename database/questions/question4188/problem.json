@@ -1,0 +1,14 @@
+{
+    "title": "MDC ou MDC?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você já deve ter ouvido falar no ChatGPT, da OpenAI, pois surgiu uma oportunidade de trabalho num problema envolvendo linguagem C e matemática, para isso, os gerentes da OpenAI convidaram você para solucionar o problema. O desafio trata-se de receber uma string e, pelo que ela deseja, retornar o valor do MDC ou do MMC.",
+    "format_input": "Dois números inteiros. Uma string que comporte 3 caracteres.",
+    "format_output": "Caso algum dos números seja não positivo, retorne na tela \"digite numeros inteiros positivos!\" Caso a string não diga MDC ou MMC (em letras maiúsculas ou minúsculas), retorne \"nao compreendi, tente outra vez\" Caso todas as condições sejam obedecidas, retorne \"o XXX eh: %d\" (sendo XXX, mdc ou mmc, a depender do caso)",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "ciclos",
+        "função",
+        "string"
+    ]
+}

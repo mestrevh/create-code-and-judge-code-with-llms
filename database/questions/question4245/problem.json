@@ -1,0 +1,11 @@
+{
+    "title": "Transporte de Caixas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gustavinho está transportando algumas caixas por um túnel, onde cada caixa é um paralelepípedo, que tem as três dimensões de largura, profundidade e altura. A altura do túnel é de 10 metros e sua largura pode ser considerada infinita. Ele pediu sua ajuda para que conseguisse encontrar o volume de cada caixa que pode ser transportada para o final desse túnel, sendo que a caixa não pode ser rotacionada. Uma caixa só pode ser transportada pelo túnel se sua altura for menor que a altura do túnel. OBS: Use structs para a solução deste problema.",
+    "format_input": "uma variável inteira n , que diz o número de caixas; n linhas com três inteiros separados por espaços: largura, profundidade e altura, que são de cada caixa;",
+    "format_output": "Para cada caixa que a altura for menor ou igual a 10 metros, imprima seu volume em uma linha separada. Se nenhuma caixa passar pelo túnel, imprimir a seguinte frase: \" Nenhuma caixa passa pelo tunel! \"",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

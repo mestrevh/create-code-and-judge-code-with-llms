@@ -1,0 +1,10 @@
+{
+    "title": "Teste de probabilidade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sorteando dois números inteiros A e B entre 1 e N inclusive, qual é a chance de que o número B seja menor ou igual ao resto de N dividido por A? Por exemplo, para N=5, há 25 escolhas possíveis para (A,B), porém os únicos pares que satisfazem o enunciado são (2,1), (3,1), (3,2) e (4,1). Portanto para N=5, a probabilidade é igual a 4/25.",
+    "format_input": "A entrada é composta por vários casos de teste. Cada caso de teste é composto por uma linha contendo um inteiro N (1 ≤ N ≤ 10³).",
+    "format_output": "Para cada teste, a saída é composta por uma linha contendo a fração irredutível que responde o enunciado.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

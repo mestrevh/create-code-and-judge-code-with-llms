@@ -1,0 +1,12 @@
+{
+    "title": "Pesquisa P1T2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que receba a idade, a altura e o peso de várias pessoas, e calcule e imprima: • a quantidade de pessoas com idade superior ou igual a 50 anos • a média das alturas das pessoas com idade entre 10 e 20 anos, incluindo esses limites (utilize duas casas decimais) • a porcentagem de pessoas com peso inferior a 40 quilos entre todas as pessoas analisadas. (utilize uma decimal) A entrada de dados é interrompida quando for digitada uma idade negativa.",
+    "format_input": "A entrada consiste de um valor inteiro para a idade, um valor real para a altura e um valor real para peso. A entrada de dados é interrompida quando for digitada uma idade negativa.",
+    "format_output": "O programa deve exibir o que foi pedido na descrição, imprimindo na tela: Digite sua idade: Digite sua altura em metros: Digite seu peso em kg: Digite sua idade: Digite sua altura em metros: Digite seu peso em kg: Quantidade de pessoas com idade superior a 50 anos: n Media das alturas das pessoas com idade entre 10 e 20 anos: n Porcentagem de pessoas com peso inferior a 40 quilos: n %",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Descriptografia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado uma mensagem S criptografada somente com { '*' , '-' }. Você tem que descriptografar a mensagem, você percebeu o padrão e agora vai desenvolver um algoritmo para desvendar a mensagem. Definições: S-1, indica a remoção do primeiro carácter da string. +, concatenação de string. Pi, a posição do carácter na mensagem inicial. |S|, o tamanho da string restante A função está descrita assim: D ( S ) = Se |S| = 0 , D( S ) = \"\"; Se o primeiro elemento for '*', D( S ) = (Pi+D(S-1)); Se o primeiro elemento for '-', D( S ) = Pi+D(S-1).",
+    "format_input": "Uma string S somente com { '*' , '-' } 1 <= |S| <= 100",
+    "format_output": "Uma linha com a mensagem descriptografada.",
+    "topics": [
+        "recursão",
+        "string"
+    ]
+}

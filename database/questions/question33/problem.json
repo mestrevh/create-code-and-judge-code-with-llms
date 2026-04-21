@@ -1,0 +1,11 @@
+{
+    "title": "Soma Frações",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcule a soma de duas frações, fornecendo o resultado em forma de fração, seu programa deve verificar se as frações são válidas.",
+    "format_input": "Consiste de quatro números inteiros da forma a/b + c/d",
+    "format_output": "Consiste de uma fração no formato a/b seguida por um fim de linha. Deve imprimr \"entrada invalida!\" caso uma das frações tenha denominador 0. A saída deve ser simplificada. Por exemplo, se o resultado for 9/6, você deve imprimir 3/2. Entretanto, se o resultado for 2/1, o resultado deve continuar sendo 2/1 e não 2. obs:Imprimir sem as aspas.",
+    "topics": [
+        "entrada formatada",
+        "lógica matemática"
+    ]
+}

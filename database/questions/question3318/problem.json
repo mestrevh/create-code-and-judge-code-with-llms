@@ -1,0 +1,10 @@
+{
+    "title": "UACSA - Raiz quarta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcule e mostre na tela a raiz quarta de 256",
+    "format_input": "256",
+    "format_output": "4.0",
+    "topics": [
+        "lógica matemática"
+    ]
+}

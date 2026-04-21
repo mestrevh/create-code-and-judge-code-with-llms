@@ -1,0 +1,11 @@
+{
+    "title": "TikTok Toe",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Todo mundo certamente já jogou o jogo conhecido no Brasil como jogo da velha (conhecido em inglês como tic tac toe). Você está querendo desenvolver uma versão mais desafiadora do jogo em que ao invés de ter 9 (3 x 3) casas para marcar um X ou O, teremos n x n casas para um número n tal que 3 < n < 100. No seu plano de desenvolvimento, a primeira tarefa que você estabeleceu foi: dado um tabuleiro n x n totalmente preenchido com X e O, determinar se o X venceu, se o O venceu ou se \"deu velha\" (quem sabe você não coloca até um vídeo de alguma dancinha ridícula na versão final do jogo...). Os critérios para pontuar são os mesmos do jogo original, ou seja, uma linha ou coluna inteira contém o mesmo símbolo, ou a diagonal principal ou secundária contém o mesmo símbolo. Contudo, ao contrário do jogo original que termina assim que uma linha ou coluna ou diagonal é preenchida com um mesmo símbolo, este jogo só acaba quando o tabuleiro é completamente preenchido e o vencedor é aquele que possui mais linhas, colunas ou diagonais completamente preenchidas com seu símbolo.",
+    "format_input": "A primeira linha da entrada contém um número inteiro n (3 < n < 100). As n linhas seguintes são preenchidas com n caracteres dentre X ou O. Como os jogadores se alternam nas jogadas, você pode assumir que a diferença entre a quantidade de símbolos X e a quantidade de símbolos O é de no máximo uma unidade.",
+    "format_output": "A saída é composta de uma única linha contendo uma das três frases a seguir: \"X vence\" (sem as aspas) caso o X vença. \"O vence\" (sem as aspas) caso o O vença. \"TikTok\" (sem as aspas) em caso de empate.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

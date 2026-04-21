@@ -1,0 +1,12 @@
+{
+    "title": "Aquele da partida de totó",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Joey e Chandler moram juntos há anos, mas Joey resolve que está na hora de enfrentar a vida adulta e que deveria morar só, eles não conseguem decidir quem ficará com a mesa de totó e decidem jogar uma partida para resolver o problema. Joey decide então criar regras novas para deixar justo para Chandler (que sempre perde quando eles jogam), as regras são: O jogo irá ate P pontos (e sempre haverá um vencedor); O vencedor será aquele que somar P primeiro com sua pontuação; A maneira que os pontos de cada um é contado será dada em uma entrada com X inteiros (sempre positivos e maiores que 0) que devera ser armazenada em um array, esses inteiros determinam quanto vale o gol que foi feito; Cada gol feito individualmente equivale a sua posição do array, por exemplo (num array com (2, 4, 3, 5)); o 2º gol vale +4 para a pontuação. o 4º gol vale +5 para a pontuação. o 7º gol vale +3 para a pontuação (pois apos a ultima posição, deve recomeçar na primeira.",
+    "format_input": "P Indicando a quantidade necessária de pontos para vencer; X Indicando o tamanho dos array da pontuação; arrayJ arrayC e para indicar os gols feitos: uma linha G com \"J\" indicando um gol para joey e \"C\" indicando um gol para Chandler.",
+    "format_output": "Caso a soma total dos índices de algum dos arrays, seja >= P: \"joey, essas regras estao piores que as do Fireball\". Caso Joey vença: \"Well, you suck! But at least you suck at a man's game now Joey: pontos (gols) Chandler: pontos (gols)\". Caso Chandler vença: \"Good game, good game, good game Chandler: pontos (gols) Joey: pontos (gols)\". Pontos sendo a pontuação de cada um após o termino da partida. gols sendo a quantidade de gols marcados que geraram aquela pontuação.",
+    "topics": [
+        "array",
+        "array circular",
+        "formatação"
+    ]
+}

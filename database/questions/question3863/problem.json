@@ -1,0 +1,13 @@
+{
+    "title": "Dudinha's password",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um dia, a dudinha esqueceu sua senha. Preocupada, lembrou-se de um teste que fez para tentar guardar sua senha seguramente em um documento que consiste no seguinte: Primeiro, ela reproduziu N círculos de strings de 12 letras. Depois, ela dividiu cada círculo em duas metades, lado esquerdo e lado direito e definiu por qual lado cada círculo seria lido. Para ler pelo lado esquerdo, ela leria da última letra até o fim dessa metade da string e depois passaria para o próximo círculo. Para o lado direito ela leria começando da primeira letra até o fim dessa metade e passaria para o próximo círculo. Isso até chegar no círculo de n N. A cada leitura, ela foi concatenando tudo num grande círculo de string, onde procuraria uma certa palavra que poderia estar no sentido horário ou no sentido anti-horário. A senha seria dada por essa palavra e a quantidade de vezes que essa palavra apareceria. Por exemplo, ela usou 3 palavras: tringstghijq, gabigolgnirt e hahahastring. Percorrendo-as (respectivamente direita, esquerda, esquerda), ela obteve: tringstringlgnirts. Procurando a palavra string, ela obteve a senha: string3. Agora, resta a você encontrar as outras senhas da dudinha.",
+    "format_input": "A entrada consiste respectivamente em: um inteiro N, depois para cada N, um char D (\"e\" para esquerda, ou \"d\" para direita) e uma string de 12 letras S seguido por uma quebra de linha; e por último, a string P que será a palavra procurada. 2<=N<=20",
+    "format_output": "A saída será a senha da dudinha: a string P seguido pela quantidade de vezes que ela aparece no círculo.",
+    "topics": [
+        "array",
+        "repetição",
+        "array circular",
+        "string"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Movimento espelhado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considere uma matriz quadrada de lado L, onde L > 1, onde as linhas são numeradas de cima para baixo a partir de 1 e as colunas são numeradas da esquerda para a direita a partir de 1. As coordenadas nessa matriz são compostas pelo número da linha e da coluna. Por exemplo, a coordenada (3,5) é localizada na 3ª linha e 5ª coluna. Agora, considere uma sequência de coordenadas nessa matriz. Sua tarefa é imprimir a sequência espelhada dessas coordenadas, como se houvesse um espelho no lado direito dessa matriz, usando as seguintes regras: Movimentos para cima e para baixo não se alteram na matriz espelhada. Movimentos para os lados direito e esquerdo se invertem na matriz espelhada. O formato da entrada é o tamanho do de um dos lados da matriz quadrada em uma linha e a sequência de coordenadas na linha seguinte, onde cada coordenada é informada entre parênteses (veja o exemplo da entrada). A saída deve ser a sequência de coordenadas espelhadas.",
+    "format_input": "Um valor inteiro na primeira linha representando a quantidade de linhas ou colunas da matriz quadrada de lado L, onde L > 1, e uma sequência de coordenadas (mínimo de 1 coordenada).",
+    "format_output": "Sequência de coordenadas espelhadas.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

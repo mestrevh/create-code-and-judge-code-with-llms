@@ -1,0 +1,10 @@
+{
+    "title": "A grande estreia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Zelda e Ambrósio estavam ansiosos para o acontecimento mais esperado do ano: O filme dos Expendables. Eles estavam tão entusiasmados que foram convidados por Zaon, o diretor do filme, para a pré-estreia exclusiva em sua residência. No caminho para o local, eles tinham que caminhar ao longo de uma rua de N metros, com calçadas do lado esquerdo e direito. Entretanto, na noite da pré-estreia do filme, começou a chover. Como Zelda e Ambrósio estavam honrados em serem convidados, querem chegar se molhando o menos possível. Para isso, eles devem decidir por qual lado da rua devem andar. Na verdade, eles podem até cruzar a rua, mas como é perigoso, devem fazer isso no máximo uma vez (possivelmente zero). Então, eles pediram sua ajuda para saber quantos metros, no máximo, terão de andar na chuva. Obs.: Note que a rua em si não é coberta, logo, caso decidam cruzar, estarão andando na chuva. Explicação do exemplo: Zelda e Ambrósio poderão andar os dois primeiros metros do lado 1, cruzar a rua (e se molhar), depois continuar no lado 2, sem se molhar.",
+    "format_input": "Um inteiro N (1 <= N <= 100000) seguido de duas linhas com N inteiros, 0 ou 1, onde 1 indica que aquele metro é coberto e 0 indica que não é.",
+    "format_output": "Um inteiro M, o menor número de metros que Ambrósio e Zelda devem andar na chuva para chegarem ao fim da rua.",
+    "topics": [
+        "array"
+    ]
+}

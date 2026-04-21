@@ -1,0 +1,11 @@
+{
+    "title": "Ambrósio Number",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio acaba de inventar uma nova sequência de números a qual ele decidiu dar seu próprio nome a ela, um número é um Ambrósio Number se todos os seus algarismos são 0, 1, 2, 3, 4 ou 5. Ambrósio está fascinado com sua nova sequência de números e não quer perder tempo para saber mais sobre ela, então ele confiou a você a tarefa de ajuda-lo com isso. Dado um número N o seu programa deve retornar o N-ésimo Ambrósio Number. Números que são Ambrósio Number: 0, 1, 2, 3, 4, 5, 10, 11, 12, 13...",
+    "format_input": "Uma linha com um inteiro T representando quantos casos de teste a entrada possui. Seguida por T linhas cada uma com um inteiro N. 1 <= T <= 100. 1 <= N <= 100000",
+    "format_output": "T linhas cada uma possuindo o N-ésimo Ambrósio Number",
+    "topics": [
+        "multiplas entradas",
+        "lógica matemática"
+    ]
+}

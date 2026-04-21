@@ -1,0 +1,10 @@
+{
+    "title": "Xupenio Bordões",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Xupenio é um grande matemático e adora passar dias fazendo contas. Um belo dia, ao conversar com Ícaro tiro certo, notou ele não precisa fazer tantas contas para avançar na sua pesquisa acadêmica, então ele contratou um programador para escrever um simples programa que dado três naturais N, A e B realiza a soma de todos os numeros pertencentes ao intervalo [1, N] e exclui os multiplos de A e de B nesta soma, caso a soma resultar num número par é porque algo de errado não está certo! - Restrições: 1 <= N, A, B <= 10000000 | A e B são primos. A solução NÃO deve apresentar nenhuma estrutura de repetição(LAÇOS)!",
+    "format_input": "A primeira linha contém o inteiro N e a segunda linha contêm os inteiros A e B",
+    "format_output": "Um inteiro indicando a resposta da soma. Caso a soma apresente um número par deve ser impresso na saída a mensagem \"Lá ele!!!\", caso for ímpar imprima \"Opa xupenio AULAS...\".",
+    "topics": [
+        "ad-hoc"
+    ]
+}

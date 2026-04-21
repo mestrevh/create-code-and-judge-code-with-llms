@@ -1,0 +1,11 @@
+{
+    "title": "Peso Ideal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que receba a altura e o sexo de uma pessoa e calcule e mostre seu peso ideal, utilizando as seguintes equações (onde h corresponde a altura): Homens (0): (72.7 x h) - 58 Mulheres (1): (62,1 x h) - 44,7 Caso o usuário informe um sexo diferente de \"0-M\" ou \"1-F\", emita uma mensagem de erro (\"O sexo informado e invalido.\"). Caso o usuário informe uma altura 0 ou negativa, emita uma mensagem de erro (\"Altura invalida.\")",
+    "format_input": "O usuário deve digitar um valor que representa o sexo de uma pessoa (0 para sexo masculino e 1 para sexo feminino), e em seguida digitar a altura de uma pessoa em metros (ponto flutuante (double)).",
+    "format_output": "O programa deve exibir peso ideal da pessoa (com uma casa decimal de precisão), imprimindo na tela os valores abaixo: Digite o sexo: (0 - M e 1 - F) Digite a altura em metros: Peso ideal: n kg / Altura invalida / O sexo informado e invalido",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

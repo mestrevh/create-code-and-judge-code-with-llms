@@ -1,0 +1,10 @@
+{
+    "title": "Exponenciação rápida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considere o algoritmo abaixo para calcular a exponenciação de maneira mais rápida: a^n = 1, se n = 0; (a^[n/2])^2, se n > 0 e n é par; a (a^[(n-1)/2])^2, se n > 0 e n é ímpar. Escreva um método (fastExp) recursivo que implementa o algoritmo acima e recebe dois inteiros (a e n) como parâmetros. LEMBRE-SE: o método deve ser recursivo. Atenção: 1. você não pode usar os comandos for ou while para implementar o método fastExp; 2. sua solução obrigatoriamente deverá utilizar o seguinte método main: public static void main(String[] args) { Scanner in = new Scanner(System.in); int a = in.nextInt(); int n = in.nextInt(); System.out.println(fastExp(a, n)); }",
+    "format_input": "Duas linhas com as informações dos valores de \"a\" e \"n\" (inteiros).",
+    "format_output": "O valor final do cálculo de a^n.",
+    "topics": [
+        "recursão"
+    ]
+}

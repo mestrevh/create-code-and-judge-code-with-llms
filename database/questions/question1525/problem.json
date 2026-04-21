@@ -1,0 +1,14 @@
+{
+    "title": "Dieta da farofa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Diana descobriu que se realmente deseja emagrecer, deve reduzir a quantidade de farofa que consome no almoço. Para isso, ela decidiu anotar quantos gramas consomiu por dia e no final da semana calcular a média diária. Seu objetivo é atingir um consumo diário médio de farofa abaixo de 30 gramas. O seu programa deve calcular o consumo médio diário por um período de uma semana. Caso o consumo médio diário tenha ficado abaixo de 30 g, seu programa deve imprimir uma mensagem \"Meta atingida\". Observação: é obrigatória a utilização de um único laço e exclusivamente do tipo While na leitura dos dados.",
+    "format_input": "Uma sequência de 7 números inteiros, sendo um por linha, representando o consumo de farofa em gramas.",
+    "format_output": "Na primeira linha, deve-se imprimir o consumo médio diário de farofa (ponto flutuante com 2 casas decimais). Na segunda linha, deve ser impressa a mensagem Meta atingida caso o consumo médio tenha sido inferior a 30 gramas/dia.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "entrada formatada",
+        "lógica matemática",
+        "repetição"
+    ]
+}

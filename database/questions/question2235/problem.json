@@ -1,0 +1,11 @@
+{
+    "title": "Last Level",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio está jogando um RPG chamado Shinobu's Saga e está prestes a enfrentar Leviathan, o chefe final do jogo. Porém, para chegar em Leviathan, Ambrósio precisa passar por várias masmorras. Nem sempre é possível chegar ao fim da masmorra, o que significa que essa masmorra não tem saída. As masmorras são compostas por n salas numeradas de 0 a n-1. Cada sala têm passagens que levam a outras salas. As salas também podem ter tesouros ou não. Ambrósio quer explorar toda a masmorra para pegar o máximo de tesouros. Então ele deseja saber se, dada uma masmorra, existe algum caminho partindo da entrada que chegue à saída e se é possível percorrer todas as salas dessa masmorra. Obs: A entrada de uma masmorra de n salas é sempre na sala 0 e a saída é sempre na sala n-1. As passagens de uma sala para outra são de mão única.",
+    "format_input": "A primeira linha da entrada consiste de dois inteiros S e P, separados por um espaço, onde S é o número de salas e P o número de passagens total da masmorra. Depois seguem S linhas, cada uma delas com mais dois inteiros A e B separados por um espaço, onde A representa a sala de origem e B a sala de destino. Esse par (A,B) representa uma passagem da sala A para a sala B. (0 < S <= 100 e 0 <= P < 9900)",
+    "format_output": "A saída consiste de umas linhas. A primeira linha deve conter a mensagem \"EXISTE CAMINHO\" se existir caminho da entrada até a saída da masmorra e \"NAO EXISTE CAMINHO\" caso contrário. A segunda linha deve conter a mensagem \"EH POSSIVEL PASSAR POR TODAS AS SALAS\" se for possível percorrer todas as salas da masmorra e \"NAO EH POSSIVEL PASSAR POR TODAS AS SALAS\" caso contrário. Cada uma das mensagens deve terminar com uma quebra de linha.",
+    "topics": [
+        "estrutura de dados",
+        "grafo"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Dor de cabeça com fila",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sempre que uma Copa do Mundo está perto de começar, o fluxo de pessoas nas filas para a compra de ingressos aumenta consideravelmente. Como as filas ficam cada vez maiores, pessoas menos pacientes tendem a desistir da compra de ingressos e acabam deixando as filas, liberando, assim, vaga para outras pessoas. Quando uma pessoa deixa a fila, todas as pessoas que estavam atrás dela dão um passo a frente, sendo assim nunca existe um espaço vago entre duas pessoas. A sua missão é escrever um programa que resolva o problema de Joãozinho. A fila inicialmente contém N pessoas, cada uma com um identificador diferente. Joãozinho sabe o estado inicial dela e os identificadores em ordem das pessoas que deixaram a fila. Sabendo que após o estado inicial nenhuma pessoa entrou mais na fila, Joãozinho deseja saber o estado final da fila.",
+    "format_input": "A primeira linha contém N inteiros representando os identificadores das pessoas na fila. O primeiro identificador corresponde ao identificador da primeira pessoa na fila. É garantido que duas pessoas diferentes não possuem o mesmo identificador. A segunda linha contém M inteiros representando os identificadores das pessoas que deixaram a fila (cada identificador está entre 1 e 100000), na ordem em que elas saíram. É garantido que um mesmo identificador não aparece duas vezes nessa lista. Lembrando que não é possível que saiam mais pessoas do que as existentes na fila inicial.",
+    "format_output": "Seu programa deve imprimir uma linha contendo N − M inteiros com os identificadores das pessoas que permaneceram na fila, em ordem de chegada. Algumas situações de erro podem ocorrer e mensagens devem ser exibidas: 1. Caso a fila de entrada esteja vazia (provavelmente a copa acabou): \"Fila de entrada vazia\" 2. Houve um erro e mais pessoas querem deixar a fila: \"Fila de saída maior que a de entrada\" 3. Houve um erro de digitação na fila de saída, logo, não existe a pessoa na fila de entrada: \"Impossivel tirar pessoa inexistente da fila\"",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "função"
+    ]
+}

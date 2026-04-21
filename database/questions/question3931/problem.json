@@ -1,0 +1,10 @@
+{
+    "title": "CountingSort",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Ordenação por contagem. Implemente o algoritmo de ordenação por contagem (counting sort). O seu programa deve imprimir na tela o array de contagem que é utilizado para ordenar os números na saída. Além disso deve ser impresso na tela o resultado final com o array já ordenado.",
+    "format_input": "A primeira linha tem um inteiro N que indica a quantidade de números a ser ordenados, a segunda linha possui os N inteiros enumerado a ser ordenado. 1 <= N <= 1000 A = {A1, A2, A3, ..., An}",
+    "format_output": "Lista de números representando o status do Array de contagem C, considerando que i é o maior número dentro do array A C1, C2, C3, ..., Ci A1, A2, A3, ... , An => tal que A1 > A2 > A3 > ... > An",
+    "topics": [
+        "ordenação"
+    ]
+}

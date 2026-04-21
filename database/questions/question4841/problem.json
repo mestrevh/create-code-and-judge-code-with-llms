@@ -1,0 +1,11 @@
+{
+    "title": "Estações do Ano (Hemisfério Sul)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As quatro estações do ano no hemisfério Sul variam de acordo com as datas: Primavera: 21 setembro até 20 dezembro Verão: 21 dezembro até 20 março Outono: 21 março até 20 junho Inverno: 21 junho até 20 setembro Escreva uma função chamada EstacaoAno que receba como parâmetros o número do dia e do mês e retorne o nome da estação correspondente.",
+    "format_input": "Na primeira linha deve ser lido o número do dia (1 a 31) Na segunda linha, deve ser lido o número do mês (1 a 12).",
+    "format_output": "Uma String em letras maiúsculas podendo ser um dos seguintes valores: PRIMAVERA, VERAO, OUTONO e INVERNO.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

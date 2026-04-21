@@ -1,0 +1,13 @@
+{
+    "title": "Idioma Alien",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Após anos de estudo, cientistas do Google Labs descobriram uma linguagem alienígena transmitida de um planeta distante. A língua alienígena é única, pois cada palavra consiste exatamente em L letras minúsculas. Além disso, existem exatamente D palavras neste idioma. Depois que o dicionário de todas as palavras da língua alienígena foi construído, o próximo avanço foi descobrir que os alienígenas têm transmitido mensagens para a Terra na última década. Infelizmente, esses sinais são enfraquecidos devido à distância entre nossos dois planetas e algumas das palavras podem ser mal interpretadas. Para ajudá-los a decifrar essas mensagens, os cientistas pediram que você criasse um algoritmo que determinaria o número de interpretações possíveis para um determinado padrão. Um padrão consiste em exatamente L tokens. Cada token é uma única letra minúscula (os cientistas têm certeza de que esta é a letra) ou um grupo de letras minúsculas únicas cercadas por parênteses ( e ). Por exemplo: (ab)d(dc) significa que a primeira letra é a ou b, a segunda letra é definitivamente d e a última letra é d ou c. Portanto, o padrão (ab)d(dc) pode representar qualquer uma destas 4 possibilidades: add, adc, bdd, bdc.",
+    "format_input": "A primeira linha de entrada contém 3 inteiros, L, D e N separados por um espaço. Seguem-se as linhas D, cada uma contendo uma palavra de comprimento L. Essas são as palavras conhecidas na língua alienígena. N casos de teste seguem, cada um em sua própria linha e cada um consistindo em um padrão conforme descrito acima. Você pode presumir que todas as palavras conhecidas fornecidas são únicas.",
+    "format_output": "Para cada caso de teste, a saída Caso # X: K onde X é o número do caso de teste, começando em 1, e K indica quantas palavras na língua estrangeira correspondem ao padrão.",
+    "topics": [
+        "array",
+        "array bidimensional",
+        "requer solução eficiente",
+        "string"
+    ]
+}

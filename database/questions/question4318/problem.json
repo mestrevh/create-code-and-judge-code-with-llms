@@ -1,0 +1,10 @@
+{
+    "title": "Lulu está Adotando!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lulu é sempre quem manda no grupo, e por isso decidiu que já está pronta para ser mãe! Entretanto, ela tem preferências um pouco...estranhas. E você a ajudará a decidir quem serão seus filhos! Será dada uma lista de n opções, um número m de filhos que ela irá adotar, e um número mágico X. Logo em seguida, n linhas, com nome, idade e altura. Ela adotará aqueles em que a multiplicação da altura vezes a idade vezes a quantidade de letras do nome for mais próxima de x. Mostre o nome dos que serão adotados (dos em que a multiplicação da mais perto de x para os que dão menos perto).",
+    "format_input": "4\n2\n600\nDanilo 8 1.99\nArthur 19 2.88\nAline 22 9.99\nAlice 12 4.44",
+    "format_output": "Arthur\nAlice",
+    "topics": [
+        "array"
+    ]
+}

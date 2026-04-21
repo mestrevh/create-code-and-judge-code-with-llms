@@ -1,0 +1,10 @@
+{
+    "title": "Funções 1 - Subtração",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Complete o código para que ele faça a subtração entre dois números e retorne o resultado.\n\ndef subtrair(a, b):    \n_________  # Complete aqui\n\n# Recebendo input\na = int(input())\nb = int(input())\n\nresultado = subtrair(a, b)\nprint(resultado)",
+    "format_input": "Dois inteiros a e b, cada um em uma linha.",
+    "format_output": "Um único inteiro N, representando o resultado da subtração",
+    "topics": [
+        "função"
+    ]
+}

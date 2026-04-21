@@ -1,0 +1,10 @@
+{
+    "title": "Prime Holes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A entedidade estava brincando com números, até que ela percebeu que certos números continham buracos, por exemplo: 4 tem 1 buraco, 8 tem 2 buracos, 10 tem 1 buraco e etc. Ela acredita que a quantidade de buracos pode ter alguma ligação com o número ser primo ou não. Ajude-a à confirmar sua hipótese, faça um programa que dado um número N, imprima 'S' se a quantidade de buracos desse número for prima, e 'N' caso não for.",
+    "format_input": "A entrada conterá um inteiro N (0 <= N <= 9223372036854775807)",
+    "format_output": "A saída deverá conter 'S' se a quantidade de buracos de N for prima, e 'N' caso não for.",
+    "topics": [
+        "repetição"
+    ]
+}

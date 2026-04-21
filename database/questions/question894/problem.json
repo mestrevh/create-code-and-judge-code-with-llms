@@ -1,0 +1,10 @@
+{
+    "title": "Cara ou coroa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um dos motivos para aprender recursão é gerar todas as combinações. E você recebeu a missão de gerar todas as combinações entre N moedas e saber quantas dessas têm uma diferença D, a diferença é calculada como o modulo de | quantidade de Caras - quantidade de Coroas |. Por exemplo, queremos encontrar com duas moedas e a diferença igual a 0, considerando C - cara e K - coroa. Todas as possibilidades são (C,C) , (C,K) , (K,C) e (K,K), no qual as duas possibilidades que se adequam são (C,K) e (K,C), então a resposta é 2. Outro exemplo, queremos encontrar com três moedas e a diferença igual a 1. Todas as possibilidades são (C,C,C), (C,C,K), (C,K,C), (C,K,K), (K,C,C), (K,C,K), (K,K,C) e (K,K,K) , no qual as duas possibilidades que se adequam são (C,C,K), (C,K,C), (C,K,K), (K,C,C), (K,C,K) e (K,K,C) então a resposta é 6.",
+    "format_input": "Dois inteiros N e D , representando quantidade de moedas e a diferença desejada. 0 < N <= 15 0 <= D <= N",
+    "format_output": "Um inteiro indicando a quantidade de possibilidades.",
+    "topics": [
+        "recursão"
+    ]
+}

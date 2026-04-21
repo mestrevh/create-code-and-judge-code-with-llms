@@ -1,0 +1,11 @@
+{
+    "title": "8 rainhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No xadrez é possível colocar 8 rainhas no tabuleiro de tal forma que nenhuma rainha possa atacar a outra. Escreva um programa que determine todos os possíveis arranjos para 8 rainhas dada a posição inicial de uma das rainhas.",
+    "format_input": "A primeira linha da entrada contém o número de casos de teste e é seguida de uma linha em branco. Cada caso de teste conterá dois números separados por um espaço. Os números representam o quadrado no qual uma das oito rainhas está posicionada. Para padronizar a nossa notação, assuma que o canto superior esquerdo do tabuleiro é a posição (1,1). As linhas crescem horizontalmente e a primeira linha (mais acima) é 1. As colunas são verticais e a primeira coluna (mais a esquerda) é 1. Qualquer referência a uma posição é dada por linha e então por coluna. Por exemplo, a posição (4,6) representa a linha 4, coluna 6.",
+    "format_output": "Para cada caso de teste a saída consiste de uma representação que mostra uma solução em uma única linha. Cada solução será numerada sequencialmente de 1 a n. Cada solução consiste de 8 números, onde cada número representa a linha da rainha naquela coluna (o primeiro número para a coluna 1, o segundo para a coluna 2, e assim por diante). A saída deve incluir um cabeçalho com as linhas 'SOLN COLUMN' e '# 1 2 3 4 5 6 7 8'. As soluções devem ser impressas em ordem lexicográfica, com uma linha em branco entre casos de teste. Quando existirem 10 ou mais soluções, o alinhamento da numeração deve ser ajustado à esquerda. O número máximo de soluções é menor que 100.",
+    "topics": [
+        "busca completa",
+        "backtracking"
+    ]
+}

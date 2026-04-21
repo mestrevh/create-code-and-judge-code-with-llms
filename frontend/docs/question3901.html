@@ -1,0 +1,201 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 3901 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3901</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">recursão</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Armague 2</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Devido ao grande sucesso de <b>Armague, </b>a empresa lançou o <b>Armague 2 </b>com  intuito de deixar o jogo mais dinâmico e divertido. Este novo jogo está completamente diferente do anterior (<b>Armague</b>), desta vez os jogadores entram em acordo e decidem uma quantidade de rodadas <b>X</b> , depois eles mostram uma carta cada por rodada. A batalha acontecerá entre essas duas cartas. Will e Gabriel decidem testar esse novo jogo, os jogadores podem escolher uma habilidade única que ficará do início ao fim da rodada.</p><p><br/></p><p><b>Habilidade:</b></p><p><b>1 - Se for um round primo, poderá atacar 2 vezes.</b></p><p><b>2 - Se a vida for coprimo da vida inimiga, aumenta o ataque em 25.</b></p><p><b>3 - Se a vida ou ataque for um número primo, aumenta o ataque em 10.</b></p><p><br/></p><p><br/></p><p>Após a escolha da habilidade,  cada jogador mostra sua carta contendo Ataque e vida. Perde a rodada aquele que morrer primeiro. </p><p><b>Obs: round não é a mesma coisa de rodadas.</b></p><p><b>Obs: Rounds são as batalhas dentro de cada rodada.</b></p><p><b><b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">Obs: o round começa em 1.</b><br/></b></p><p><b>Obs: a habilidade só será ativada no momento que a carta for atacar.</b></p><p><b>Obs: os buff's das habilidades são acumulados durante a rodada.</b></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Primeiro será recebido um<b> X </b>equivalente ao numero de rodadas.</p><p>Em seguida será lido X vezes:</p><p>um inteiro<b> i</b>, correspondente a quem vai começar atacando  na rodada; <b>1</b> (Will) e <b>2</b>(Gabriel)</p><p>Três inteiros <b>HABILIDADE</b>, <b>ATAQUE</b> e <b>VIDA,</b> correspondente a habilidade, ataque e vida da carta do Will</p><p>Três inteiros <b>HABILIDADE</b>, <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">ATAQUE</b> e <b style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);">VIDA,</b> correspondente a habilidade, ataque e vida da carta do Gabriel<br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span>&#34;Will ganhou W rodadas&#34; , onde W é o número de rodadas que Will ganhou.</span><br/></p><p>&#34;Gabriel ganhou G rodadas&#34; , onde G é o número de rodadas que Gabriel ganhou.</p><p><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in10.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out10.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out2.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out3.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out4.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out5.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out6.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out7.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out8.txt">
+                Exemplo 10
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3901/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question3901/outputs/out9.txt">
+                Exemplo 11
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

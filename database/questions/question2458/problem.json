@@ -1,0 +1,12 @@
+{
+    "title": "O desejo de Kinho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Enquanto estava estudando Hardware, o jovem Kinho continuava a pensar em possíveis algoritmos e constantemente questionamentos a cerca deles corriam por sua mente, de certa forma causando-lhe uma distração e fazendo com que eventualmente parasse de estudar para tirar conclusões e suprir seu desejo por conhecimento. Em um certo dia, ele estava trabalhando em um projeto com sua equipe e acabou sendo consumido por uma grande dúvida: \"Como posso fazer para calcular a quantidade exata de divisores que um número possui?\". Mesmo estando tentado por isso, ele não podia abandonar sua equipe para que eles não ficassem com raiva, então pediu para que você, jovem programador, criasse um código que, dado uma lista com n números (1 <= n <= 100), calculasse para cada número a sua quantidade de divisores. P.S.: Observe que esse número n não é dado na entrada, logo você tem que descobrir uma maneira de realizar essa leitura =)",
+    "format_input": "Uma lista com n números (1 <= n <= 100), onde cada número p está no intervalo fechado [1, 1000000000000]",
+    "format_output": "A quantidade de divisóres do n-ésimo número da lista",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Os primos de Fibonacci",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A sequência de Fibonacci é composta por uma sucessão de números descrita pelo famoso matemático italiano Leonardo de Pisa (1170-1250), mais conhecido como Fibonacci, no final do século 12. Ele, que logo depois voltaria à vida para votar no paredão que Karol Conká sairia com 99% de rejeicão, também se questionou sobre como a sequência que ele havia descoberto se relacionaria com um outro fenômeno matemático, os números primos. Leonardo precisa de um programa que, lendo um número N (N>1), descobre o último número da sua sequência (i-ésimo termo) antes de N (contando o próprio N) e calcula o último primo antes do i-esimo termo (contando o i-esimo termo).",
+    "format_input": "A entrada consiste de um único número N, sendo N>1 e N<=10000.",
+    "format_output": "A saída deve conter um número positivo que representa o último número primo antes do último número da sequência de Fibonacci antes de N.",
+    "topics": [
+        "lógica matemática",
+        "repetição",
+        "números primos"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "How Much Galaxies",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Ambrósio está viajando pelo Universo e ficou curioso com a quantidade de galáxias que existem e em como elas estão conectadas internamente. Existem rotas espaciais entre planetas. Se, partindo do planeta X é possível chegar até o planeta Y, diretamente ou não, então estes dois planetas pertencem à mesma galáxia. Ambrósio recebeu um mapa indicando todas as rotas entre um planeta X e um planeta Y, só que este mapa conta com todos os planetas do universo e no mapa não estão separados por galaxias. Ajude Ambrósio a descobrir qual a maior galáxia e quantas galáxias diferentes existem no universo. Você receberá o número de rotas dadas no mapa, um inteiro indicando o maior índice dos planetas e então as rotas. Terá que dizer quantas galáxias existem e qual a maior. Se duas galaxias tiverem tamanhos iguais, imprima a primeira que ambrósio visitar. Dica: Ambrósio prefere, ao chegar em um planeta, visitar o primeiro vizinho deste primeiro planeta, depois visitar o primeiro vizinho deste segundo planeta. Depois voltar e visitar o segundo vizinho do segundo planeta. Depois voltar e visitar o segundo vizinho do primeiro planeta. Até ter visitado todos os planetas da galáxia. A maior galáxias deverá ser impressa de acordo com os planetas que Ambrósio visita, sabendo que ele sempre começa do planeta 1 e que ele visita os planetas em ordem crescente do seu índice. Exemplo: 6 8 1 2 2 3 3 4 5 6 6 8 7 8 Galáxias: 1-2-3-4 5-6-8-7 Saída: 2 1 2 3 4",
+    "format_input": "A entrada será composta por um inteiro N, indicando o número de rotas que o mapa contém. Um espaço e um inteiro P indicando quantos planetas existem no universo. (os planetas são representados de 1 a P). Após isso serão apresentadas N rotas, contendo dois inteiros, X Y, indicando que há um caminho entre X e Y e um caminho entre Y e X. 1 <= N <= 100 2 <= P <= 100 1 <= X < Y <= P",
+    "format_output": "A saída deverá conter um inteiro Q indicando a quantidade de galáxias. Uma quebra de linha. E depois os planetas da maior galáxia, na ordem que Ambrósio visita. Atenção, após o último planeta, não há espaço.",
+    "topics": [
+        "estrutura de dados",
+        "simulação de jogos",
+        "grafo",
+        "vertices/arestas de corte"
+    ]
+}

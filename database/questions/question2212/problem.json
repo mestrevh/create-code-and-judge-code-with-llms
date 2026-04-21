@@ -1,0 +1,12 @@
+{
+    "title": "Série de Ambrósio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio está impressionado com várias séries matemáticas, e resolveu criar a sua própria série. A série de Ambrósio funciona da seguinte maneira: Inicia com 0; 1 - Soma 1 ao valor anterior e vai para o passo 2; 2 - Soma o resto da divisão do valor anterior por 2 ao valor anterior e vai para o passo 3; 3 - Soma o resto da divisão do valor anterior por 5 ao valor anterior e volta para o passo 1; Por exemplo: 0, 1 (passo 1), 2 (passo 2), 4 (passo 3), 5 (passo 1) ...",
+    "format_input": "Será dado um inteiro 'k', em seguida para cada inteiro k, será dado um inteiro 'n', representando o n-ésimo termo da sequencia a ser impresso (0 é o termo 0 da sequência) ou seja se n = 0, a saída será = 0. 3 1 2 3",
+    "format_output": "k inteiros seguidos por uma quebra de linha, correspondendo ao n-ésimo termo da sequencia. 1 2 4",
+    "topics": [
+        "multiplas entradas",
+        "repetição",
+        "recursão"
+    ]
+}

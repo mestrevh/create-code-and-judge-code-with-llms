@@ -1,0 +1,12 @@
+{
+    "title": "Equação do segundo grau",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fulaninho tem preguiça de resolver equações do segundo grau e queria criar um programa queria fizesse isso por ele. Para resolvermos uma equação do segundo grau usamos os coeficientes da equação na fórmula de Bhaskara. Faça um programa com a função int raizes(float A, float B, float C, float * x1,float * x2) que receba os coeficiente A, B e C e retorne a quantidade de soluções que a equação tem. No fim o programa deve imprimir as raízes e quantidade de raízes.",
+    "format_input": "O seu programa deve receber os três coeficientes A, B e C nessa ordem, separados por espaços. Lembrando que a equação é escrita no seguinte formato: Ax² + Bx + C = 0",
+    "format_output": "Na saída devem estar presentes as raízes existentes, escritas com 2 dígitos, e a quantidade de soluções (em linhas diferentes). Se não houver raízes reais, imprimir apenas o número de soluções, no caso 0.",
+    "topics": [
+        "ponto flutuante",
+        "lógica matemática",
+        "ponteiro"
+    ]
+}

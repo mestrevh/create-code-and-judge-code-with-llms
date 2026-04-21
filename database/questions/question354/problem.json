@@ -1,0 +1,11 @@
+{
+    "title": "Sequência de inteiros pares (crescente) recursivo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça uma função recursiva que receba um número inteiro positivo par N e imprima todos os números pares de 0 até N em ordem crescente.",
+    "format_input": "Um inteiro positivo N.",
+    "format_output": "Uma sequência de números de 0 à N linha à linha.",
+    "topics": [
+        "função",
+        "recursão"
+    ]
+}

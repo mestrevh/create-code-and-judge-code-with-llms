@@ -1,0 +1,11 @@
+{
+    "title": "Lulupalooza 2.0",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Após o sucesso do primeiro lulupalooza, Lulu Patty vai lançar a nova edição desse grande evento!!! Como ela é um ícone acessível, a festa vai ser organizada pelos próprios convidados. O que Lulu precisa saber para montar a festa é quantos agregados cada pessoa pode levar, a comida, a bebida e quem será a atração principal do evento: Comidas: 1. coxinha 2. brigadeiro 3. risoto 4. picanha 5. pizza Bebidas: 1. agua 2. cafe 3. suco 4. monster 5. pitu Artistas: 1. Gustavo Mioto 2. Billie Eilish 3. Pericles 4. Shevchenko e Elloco 5. Joao Gomes Cada pessoa que votar coloca seu nome e as opções que ela prefere. Ao final, o lulupalooza vai ocorrer apenas com as opções mais votadas. Como sempre, Lulu também criou um sistema de convidados VIP, que são aqueles que votaram em pelo menos duas categorias vencedoras. Se duas categorias receberem a mesma quantidade de votos, o vencedor é dado pelo que vem primeiro na ordem alfabética. No caso das quantidade de agregados, o menor número dentre os mais votados vence. Seu programa deve printar os convidados VIP em ordem alfabética. Ajude Lulu a organizar esse grande evento!!",
+    "format_input": "Um número inteiro n que representa a quantidade de pessoas que vão votar. Nas n linhas seguintes, o programa vai receber uma string para o nome da pessoa (sem espaço no nome), um inteiro para a quantidade de agregados, uma string representando a comida, outra representando bebida e a última representando a atração do show (lembre-se que essa string pode possuir o caractere espaço no meio).",
+    "format_output": "O valor de agregados, a comida, a bebida e a atração principal todos seguidos de uma quebra de linha. Ao final, \"convidados vip:\" e os nomes dos convidados VIP também separados por quebra de linha",
+    "topics": [
+        "string",
+        "estruturas"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Médias entre 3 notas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que recebe 3 notas de prova e calcula: - A média delas - A média ponderada delas, considerando pesos 2, 2 e 3 - A média ponderada delas, considerando pesos 1, 2 e 2",
+    "format_input": "3 notas decimais: Nota 1 Nota 2 Nota 3",
+    "format_output": "Médias com 2 casas decimais: Média Média ponderada, considerando pesos 2, 2 e 3 Média ponderada, considerando pesos 1, 2 e 2",
+    "topics": [
+        "lógica matemática"
+    ]
+}

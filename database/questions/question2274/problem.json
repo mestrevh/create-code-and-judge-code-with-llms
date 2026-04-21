@@ -1,0 +1,11 @@
+{
+    "title": "P1Q2 - Corrida da Peach",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Muito feliz por ter sido resgatada das mãos do Bowser, Peach decide organizar um Baile Funk para comemorar e lança um desafio. Trata-se de uma corrida de kart em que o primeiro a chegar na festa, teria a entrada VIP e poderia receber mordomias durante todo o evento. Sabe-se que: D é a distância (em metros) de todo o percurso; A corrida terá C competidores. E, para CADA competidor, eram conhecidas as seguintes informações: TL é o tempo (em minutos) que cada competidor completaria o percurso, livre dos obstáculos; DO o intervalo (em metros) nos quais obstáculos aparecem para o competidor, começando da distância DO metros (Exemplo: Se DO = 5 e D = 15, terão obstáculos em: 5, 10 e 15 metros); TO é o tempo (em segundos) que cada obstáculo acrescenta ao tempo livre do competidor. Sua tarefa é escrever o programa que diga quem será o vencedor e qual será o tempo obtido pelo mesmo, considerando o atraso causado pelos obstáculos. IMPORTANTE: É garantido que sempre haverá um ganhador. É obrigatório fazer uma simulação da corrida através de laços de repetição.",
+    "format_input": "C D\nNome1 TL1 DO1 TO1\nNome2 TL2 DO2 TO2\nNome3 TL3 DO3 TO3\n...\nNomeN TLN DON TON\nOBS: NomeX sempre será uma String sem espaços; D, C, TL, DO e TO são inteiros.",
+    "format_output": "NOME venceu a corrida em T segundos!\nNa qual a String NOME é o nome do vencedor da corrida e T é o tempo em segundos.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Biblioteca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "faça um programa que receba n nomes de livros, depois receba mais um nome e diga se ele já foi citado anteriormente",
+    "format_input": "um inteiro n seguido de n nomes de livro mais um nome de livro no final 3 O pequeno príncipe O Código Da Vince Calculo II O pequeno príncipe",
+    "format_output": "Sim ou Não se o livro estiver na lista Sim",
+    "topics": [
+        "array",
+        "busca"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "P1Q1 - Catch 'Em All!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após o aparecimento de pokémons nas terras de Westeros, os lordes perceberam o potencial que as criaturas tinham em ajudar na dominação das terras e estavam estudando formas de conseguir dominá-los. Mas Ash não iria permitir que os pokémons fossem usados para fins tão cruéis e, após uma viagem turbulenta, chegou a Westeros com intenção de capturar e levar todos os pokémons para longe de Westeros. Para isso, Ash precisa capturar os pokémons com suas pokébolas. Porém, infelizmente, ele dispõe de um número limitado de pokébolas. Cada pokémon pode ser capturado com o lançamento de um número de pokébolas. É impossível recuperar uma pokebola lançada. Cada tipo de pokémon aparece um número limitado de vezes. Portanto, só é possível capturar cada pokémon esta quantidade de vezes.. Visando maximizar a quantidade de pokémons salvos, Ash sempre vai começar pelo pokémon que precisa de menos pokébolas para a captura e tentar capturar o máximo possível do mesmo, antes de tentar ir para o próximo. Sua tarefa é dizer quantos e quais pokémons poderão ser capturados, dada a quantidade de pokébolas que Ash dispõe e a disponibilidade de cada tipo de pokémon. A seguir a tabela de quantas pokébolas precisam ser lançadas para capturar cada tipo de pokémon: Pokémon Pokébolas: Rattata 1, Eevee 5, Pikachu 10, Bulbasaur 25, Squirtle 50, Charmander 100.",
+    "format_input": "A primeira linha da entrada é composta por um inteiro P, referente a quantidade de pokébolas que Ash dispõe. As próximas 6 linhas são compostas por um inteiro em cada, correspondente a quantidade de cada pokémon, na ordem da tabela acima.",
+    "format_output": "A primeira linha da saída é composta pela quantidade de pokébolas restantes. Cada uma das próximas 6 linhas deve conter o nome do pokémon e a quantidade de cada que conseguiu ser capturada (separados por espaço), na ordem da tabela acima, de forma que a quantidade total de pokémons capturados seja a maior possível.",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "formatação"
+    ]
+}

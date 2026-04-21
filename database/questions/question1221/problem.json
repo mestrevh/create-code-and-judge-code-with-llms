@@ -1,0 +1,11 @@
+{
+    "title": "Classificando Triângulos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que determine o tipo dos triângulos. Os valores das dimensões dos 3 lados de cada triângulo serão informados em uma mesma linha, separados por espaço. O programa deve encerrar quando no lugar de três dimensões for encontrada a string FIM. Defina e use uma função chamada tipo_triangulo para retornar o tipo de um triângulo. As dimensões dos 3 lados são passadas como parâmetro. Com os 3 valores, a função deve verificar se é possível formar um triângulo e, se for, verificar qual seria o tipo do triângulo. A função deve retornar uma string contendo um dos seguintes valores: INVALIDO, EQUILATERO, ISOSCELES ou ESCALENO. Considere que: a) O comprimento de cada lado de um triângulo é menor que a soma dos outros dois lados b) Chama-se equilátero o triângulo que tem os 3 lados iguais c) Denomina-se isósceles, o triângulo que tem o comprimento de dois lados iguais d) Recebe o nome de escaleno o triângulo que tem os 3 lados diferentes",
+    "format_input": "A entrada consiste de linhas contendo 3 números inteiros separador por espaço ou a string FIM.",
+    "format_output": "A saída consiste de uma sequência de linhas, na qual cada linha corresponde ao tipo do triângulo ou INVALIDO quando não for um triângulo.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

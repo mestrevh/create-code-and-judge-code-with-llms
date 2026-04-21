@@ -1,0 +1,10 @@
+{
+    "title": "L1Q3 - Ramen Artesanal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Amantes da culinária japonesa, os alunos do Cin, ainda famintos depois de terem ido ao rodízio de sushi, resolveram ir a um restaurante com o melhor Ramen de todo japão, que é preparado na hora e você pode escolher os acompanhamentos do seu macarrão durante a produção. O dono do restaurante que já está bastante ocupado, pediu sua ajuda para criar um programa que gere o nome e valor de cada prato de acordo com o conjunto de acompanhamentos abaixo: Naruto - Carne, Bamboo, Sal, e Ovo - ¥500 (pode vir com macarrão duro às vezes) Luffy - Carne, Bamboo, Shoyu, e Ovo - ¥475 Kirito - Carne, Bamboo, Nori e Ovo - ¥450 Misty - Carne, Cebolinha, Kimushi e Nori - ¥600",
+    "format_input": "A entrada é composta por quatro linhas, cada uma com um ingrediente: S1 S2 S3 S4 S1, S2, S3 e S4 são strings",
+    "format_output": "A saída deve ser uma única linha composta com o nome e valor do prato: Nome - Valor Nome - String Valor - Double Caso foi informado um ingrediente diferente ou na ordem errada: Está tentando inventar um novo prato? O chef aqui sou eu!",
+    "topics": [
+        "decisão"
+    ]
+}

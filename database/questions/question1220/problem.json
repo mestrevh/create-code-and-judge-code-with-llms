@@ -1,0 +1,11 @@
+{
+    "title": "L2Q6 - Night is dark, and full of terrors.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em seu caminho de volta à Cidadela, você se depara com a Irmandade sem Bandeiras e vê que eles estão num impasse, pois estão precisando de apenas uma equipe de mercenários, mas existem 3 equipes se apresentando a eles. Depois de muita conversa, Thoros de Myr, o Sacerdote Vermelho da Irmandade sem Bandeiras, decide que, independentemente da quantidade de cada equipe, receberá para a Irmandade a que possuir a maior média aritmética de poder dos seus membros. Assim que cada mercenário começa a gritar de qual equipe pertence e qual é a sua quantidade de poder, você decide organizar a confusão e criar uma ferramenta que, ouvindo cada grito, possa calcular a média de cada equipe e apresentar a que possui maior valor.",
+    "format_input": "A entrada consistirá de um inteiro N, indicando quantos soldados haviam ali, e N linhas, contendo uma letra (A, B ou C), referente à equipe a qual pertence, seguida de um número ponto flutuante, correspondente ao seu poder. Caso duas ou mais equipes possuam a mesma média de poder, a ordem de escolha segue a ordem alfabética, sendo A escolhido antes de B e B escolhido antes de C. Exemplo: 6 A 3 B 2 C 5 A 7 B 6 C 3",
+    "format_output": "A saída mostrará qual equipe possui a maior média aritmética de poder e qual é essa média, em duas casas decimais. Você deve utilizar o seguinte formato: A equipe escolhida foi a A, com media de: 5.00 (saída conforme o exemplo de entrada).",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

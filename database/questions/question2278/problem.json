@@ -1,0 +1,10 @@
+{
+    "title": "Palíndromo - pyhton",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que verifique se um número é palíndromo. Um número é palíndromo se continua o mesmo caso seus dígitos sejam invertidos. Exemplos: 232, 50805.",
+    "format_input": "45654",
+    "format_output": "Digite o numero a verificar, sem espacos: 44565 Posicao do ultimo caractere: 4 e palindromo",
+    "topics": [
+        "palíndromos"
+    ]
+}

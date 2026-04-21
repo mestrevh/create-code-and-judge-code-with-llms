@@ -1,0 +1,11 @@
+{
+    "title": "Equação reduzida da elipse",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As elipses são muito aplicáveis às diversas áreas da matemática e da física. A trajetória que o planeta Terra faz em torno do Sol é elíptica, sendo o Sol um dos focos dessa trajetória. A lua e outros elementos espaciais (como satélites e cometas) também descrevem percursos onde forma-se uma elipse. Na construção civil, arcos em formato de semi-elipses são muito empregados. Um estudante de computação eletrônica resolveu fazer um programa que dados os focos e a excentricidade, imprima em qual eixo os mesmo se encontram e qual sua equação reduzida por meio da função void equacaoredx (int c, float e), se os focos estiveram no eixo x, e void equacaoredy (int c, float e), caso os focos estejam no eixo y.",
+    "format_input": "Quatro números inteiros representando os focos da elipse (na ordem de pares ordenados) e um número real e (0<e<1), sendo a excentricidade da cônica.",
+    "format_output": "A frase “FOCOS EM Y”, caso os focos estejam no eixo y, ou “FOCOS EM X”, caso os focos estejam no eixo x. Equação reduzida no modelo x^2/a2+ y^2/b2= 1 (com os focos em x) ou x^2/b2 +y^2/a2 = 1 (com os focos em y). a2e b2 representam os parâmetros a e b ao quadrado.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Intervalo entre números.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia dois números inteiros e escreva os números inteiros que estão no intervalo compreendido entre eles.",
+    "format_input": "Todos os números digitados.",
+    "format_output": "Os números inteiros que estão no intervalo.",
+    "topics": [
+        "multiplas entradas",
+        "repetição"
+    ]
+}

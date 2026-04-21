@@ -1,0 +1,10 @@
+{
+    "title": "02 - 3 meses de férias que passam depressa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Phineas e Ferb são meio irmãos que vivem na cidade de Danvile e adoram criar coisas e se divertir com seus amigos, dessa vez eles decidiram que iriam construir a maior montanha-russa do mundo em seu quintal. Depois de muitas conversas e de pessoas perguntando se eles não eram muito novos para fazer algo desse tipo (e sim, eles são sim) os irmãos conseguiram todos os materiais necessários para a criação do seu novo brinquedo, mas eles tiveram um pequeno problema para definir qual massa o carrinho deles deve ter de modo que não seja muito pesado para não forçar muito a estrutura da montanha-russa e nem leve demais para não atingir uma velocidade acima da permitida para esse tipo de brinquedo em toda a área dos 3 estados. Depois de muito pensar o Ferb desenvolveu algumas equações meio estranhas para definir qual seria a massa ideal, e são as que se seguem: MassaDoCarrinho = 1080/(20*AlturaMáxima - 40*RaioDoLooping - VelocidadeMáximaPermitida^2); MassaTotal = (MassaDoCarrinho + MassaDoPhineas + MassaDoFerb). Sabendo disso, e com todas as informações necessárias na mão, você imediatamente se prontifica a criar um programa para definir qual o peso ideal para o carrinho. Seu programa deve receber todos os dados necessários para o cálculo da Massa do Carrinho e da Massa Total e retorná-la. Caso depois do cálculo a Massa Total for um valor acima de 150 ele deve imprimir apenas a mensagem \"Essa montanha-russa nao pode ser construida de acordo com a lei dos 3 estados\".",
+    "format_input": "MP MF A V R. Onde: MP (Double) - Massa do Phineas; MF (Double) - Massa do Ferb; A (Double) - Altura Máxima da montanha-russa; V (Double) - Velocidade máxima permitida nos 3 estados; R (Double) - Raio do loop.",
+    "format_output": "M. A saída deve constar apenas de uma linha contendo a massa do carrinho, com 2 casas decimais.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

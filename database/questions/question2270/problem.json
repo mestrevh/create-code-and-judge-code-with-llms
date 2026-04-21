@@ -1,0 +1,13 @@
+{
+    "title": "Saltos numa matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade estava analisando propriedades de matrizes circulares, e percebeu algo interessante. Ela percebeu que começando de qualquer célula da matriz circular e movendo-se sempre numa mesma direção: sempre voltaremos para a célula que começamos. Imediatamente, ela desejou visualizar essa propriedade, mas ela não quer fazer manualmente, pois ela pode iniciar o movimento de qualquer posição da matriz, e variar a direção também, então, ajude a entidade à visualizar essa bela propriedade. Uma matriz circular é uma matriz onde a última coluna está conectada à primeira coluna, e a última linha está conectada à primeira linha. Uma direção é representado por dois inteiros di e dj. Que representam, respectivamente, a quantidade de movimento das linhas e das colunas. Mover-se numa direção significa adicionar di à i (linha atual) e adicionar dj à j (coluna atual). (Lembre-se que a matriz é circular) A visualização desejada pela Entidade é a seguinte: inicialmente a matriz será preenchida com 0, em seguida, dada a posição inicial, a entidade vai marcar a posição inicial com 1, mover para próxima posição, marcar com 2, mover para próxima posição, ..., até que chegue na posição inicial novamente. Ela também quer que o número seja impresso com um espaçamento de tamanho 4, então use \"printf(\\\"%4d\\\", number)\" para cada número (ainda assim, deverá ter espaço entre os números). Exemplo:",
+    "format_input": "A entrada consistirá de 6 inteiros: N, M, i, j, di, dj, representando a quantidade de linhas, a quantidade de colunas, a linha inicial, a coluna inicial, a variação na direção das linhas e a variação na direção das colunas, respectivamente.",
+    "format_output": "A saída deverá conter a matriz que a Entidade deseja visualizar. Lembre-se que cada número deve ter uma tabulação de tamanho 4 (%4d), e deve ter um espaço entre os números.",
+    "topics": [
+        "repetição",
+        "array bidimensional",
+        "array circular",
+        "recursão"
+    ]
+}

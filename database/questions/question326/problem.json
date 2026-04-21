@@ -1,0 +1,11 @@
+{
+    "title": "Sequencia Lógica II",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que lê dois números X e Y (X < Y). A seguir mostra uma seqüência de 1 a Y, passando para a próxima linha a cada X números.",
+    "format_input": "A entrada contém dois números inteiros (X 1 < X < 20) e Y (X < Y < 100000).",
+    "format_output": "Cada seqüência deverá ser impresso em uma linha, com um espaço em branco entre cada número, como o examplo de saida.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Triângulos iguais?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio estudando geometria analítica se deparou com o seguinte problema verificar se dois triângulos são iguais. Porém, ele só tem os vértices dos triângulos. Dois triângulos são dito iguais se e somente se os lados do triângulo dois a dois forem iguais.",
+    "format_input": "Receberá duas linhas cada uma contendo 6 inteiros X1 Y1 X2 Y2 X3 Y3 indicando os vértices do triângulo.",
+    "format_output": "Caso os triângulos sejam iguais imprima \"SIM\", caso contrário \"NAO\".",
+    "topics": [
+        "geometria computacional",
+        "decisão"
+    ]
+}

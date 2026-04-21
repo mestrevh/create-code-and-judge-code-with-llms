@@ -1,0 +1,10 @@
+{
+    "title": "Duas Bases",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após ver o meme \"ALL YOUR BASE BELONG TO US\" pela primeira vez, os números X e Y perceberam que tem bases diferentes, o que complica sua relação. Você receberá um inteiro X em base bx e um inteiro Y em base by e compare esses dois números.",
+    "format_input": "A primeira linha contém dois inteiros n e bx (1 ≤ n ≤ 10, 2 ≤ bx ≤ 40), onde n indica a quantidade de dígitos de X que pertence a base bx. A segunda linha contém os n dígitos de x: x1, x2, ..., xn (0 ≤ xi < bx). A terceira linha contém m e by da mesma forma (1 ≤ m ≤ 10, 2 ≤ by ≤ 40, bx ≠ by), onde m é a quantidade de dígitos de y na base by. A quarta linha contém os m dígitos de y: y1, y2, ..., ym (0 ≤ yi < by). X e Y sempre serão positivos, não possuem 0 na frente (ex: '01') e os dígitos serão sempre dados em base decimal (ex: 15 = F na base 16).",
+    "format_output": "Imprima um único caractere: < se (X < Y), = se (X = Y), ou > se (X > Y).",
+    "topics": [
+        "lógica matemática"
+    ]
+}

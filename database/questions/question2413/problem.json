@@ -1,0 +1,11 @@
+{
+    "title": "Eu quero ser o cara",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Existe um jogo chamado \"I Wanna Be The Guy\", que consiste de n níveis. Como o jogo é muito desafiador, a Entidade gostou bastante, e chamou f amigos para jogar. Todos querem terminar o jogo, mas por ser muito difícil, cada pessoa só consegue passar de a_i níveis. A Entidade logo percebeu que se eles se juntassem: provavelmente poderiam terminar o jogo múltiplas vezes. Ajude a entidade a descobrir quantas k vezes os f amigos juntos podem terminar o jogo. Observação: A Entidade não vai jogar, ela vai apenas observar e rir, bastante.",
+    "format_input": "A primeira linha da entrada tem dois inteiros n e f, representando a quantidade de níveis e amigos, respectivamente. Em seguida, virão f linhas, e em cada uma delas: terá um inteiro a_i, representando a quantidade de níveis que o amigo i consegue passar; e logo ao lado, terá a_i inteiros, indicando quais níveis o amigo i consegue passar. 2 <= n <= 1000 2 <= f <= 1000 1 <= a_i <= n",
+    "format_output": "A saída deverá ser uma string no seguinte formato: \"The f friends could finish the game k times\", onde k é a quantidade de vezes que os f amigos juntos conseguem finalizar o jogo.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

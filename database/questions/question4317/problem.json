@@ -1,0 +1,11 @@
+{
+    "title": "Sorteio de CDs",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ivy é apaixonada por música e por isso tem uma coleção de CDs de diversos álbuns de diversos artistas que gosta muito. Ela gosta de classificar cada álbum de 0 a 5 estrelinhas. Todo dia ela coloca para tocar 3 deles, mas sempre perde muito tempo escolhendo os CDs. Por isso, ela pediu sua ajuda para criar um programa que sorteie os CDs a partir de uma numeração, considerando uma ordem alfabética apenas dos artistas. O único problema é que Ivy também tem costume de emprestar alguns CDs e nem sempre possui todos no momento.",
+    "format_input": "Quantidade N de artistas que Ivy possui CD Para cada artista, uma string com o seu nome + quantidade M de álbuns que possui do artista Para cada M álbum, uma string com o título(nome único) + um inteiro que representa o estado do CD(0 = não emprestado/1 = emprestado) + uma string com a sua classificação em estrelinhas Por útlimo, 3 inteiros que representam os CDs sorteados obs: todas as strings do problema podem ter até 19 caracteres",
+    "format_output": "Os o nome dos 3 CDs selecionados no formato {nome do artista - nome do álbum} em ordem decrescente da quantidade de estrelinhas Caso algum deles esteja emprestado, imprima \"Infelizmente {nome do álbum} tá emprestado:(\" obs: caso os CDs tenham a mesma quantidade de estrelinhas, a ordem anterior deles permanece",
+    "topics": [
+        "array",
+        "estruturas"
+    ]
+}

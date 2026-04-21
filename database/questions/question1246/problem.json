@@ -1,0 +1,12 @@
+{
+    "title": "Os triângulos de Izabella",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Certo dia, Izabella estava brincando com triângulos, como forma de aprimorar seus conhecimentos em geometria, e teve a ideia de tentar escrever sequências em cada linha deles, de modo que o triângulo formado, como um todo, tivesse um certo padrão que rege seu formato. Após alguns testes, ela se deparou com a seguinte estrutura: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 …. Curiosa, decidiu ir além neste triângulo específico, e terminou por descobrir uma propriedade muito legal, e, com isso, lhe propôs um desafio: dado o número da linha do triângulo por ela criado, Bella quer que você calcule a soma de todos elementos desta linha.",
+    "format_input": "A entrada consiste de vários casos de teste. Na primeira linha, é dado um inteiro N, que é a quantidade de casos de teste. Nas N linhas seguintes, é dado um inteiro K, representando a linha do triângulo de Izabella da qual você deve calcular a soma de todos seus elementos. Restrições: 1 <= N <= 10^3 1 <= K <= 10^6",
+    "format_output": "Para cada caso de teste, um inteiro (a soma dos elementos da linha especificada do triângulo).",
+    "topics": [
+        "multiplas entradas",
+        "lógica matemática",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Problemas na Pokedex",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Biu ganhou sua pokedéx e ela tem várias funções. Uma delas é apresentar a listagem dos pokémons em Kanto. No entanto, ao ver a lista dos pokémons, percebeu que o número de identificação dos doze primeiros estão errados. Sabendo que você sabe de programação, Biu pediu sua ajuda para consertar sua pokedéx. Sua tarefa será escrever um programa que diga qual o pokémon é representado por aquele código. Caso seja digitado um número fora do intervalo, você deve imprimir \"Pokémon inválido no momento\" Para lista dos pokémons, acesse: https://pt.wikipedia.org/wiki/Lista_de_Pok%C3%A9mon",
+    "format_input": "P - número natural. A linha de entrada única é composta por um número natural, referente ao código escolhido.",
+    "format_output": "R - String. A linha de saída única é composta por uma string, representada pelo nome do pokémon que possui o código.",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

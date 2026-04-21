@@ -1,0 +1,10 @@
+{
+    "title": "L5Q1 - Quantos disparos?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O professor é extremamente calculista, logo, previu corretamente que seus reféns se rebelariam eventualmente. A instrução que o professor deu foi: A cada duas pessoas tentando fugir sem sucesso, um dos criminosos alunos deverá atirar 3 vezes para cima. O professor pode ser super cauteloso, mas, os assaltantes não tanto, e, as vezes, as fugas são bem sucedidas. Quando isso ocorre, eles perdem a paciência e disparam 6 tiros para cima ao invés de 3. Com medo que as coisas saiam do controle, o professor pede sua ajuda para fazer um programa que diga, baseado nas tentativas de fuga, a quantidade de tiros disparados. Obs: É obrigatório o uso de recursão!",
+    "format_input": "A primeira linha será composta pela quantidade de tentativas de fuga: N. N = Int. As N seguintes linhas serão da forma: Int X String Y. X = Quantas pessoas nessa tentativa; Y = \"Conseguiu\" ou \"Falhou\".",
+    "format_output": "Você deverá printar quantos tiros foram disparados no seguinte formato: \"Foram disparados: X tiros \". Caso o número de tiros seja superior a 50, deve-se printar também: \"Meus alunos estão estragando tudo! Preciso intervir!\". Caso contrário: \"Esta tudo sobre controle, posso passar mais tempo com Raquel...\"",
+    "topics": [
+        "recursão"
+    ]
+}

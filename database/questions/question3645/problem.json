@@ -1,0 +1,16 @@
+{
+    "title": "Inimigos infiltrados 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você trabalha para o governo de um certo país que não admite que pessoas trabalhem para o governo e pensem diferente do presidente. Por isso, você foi encarregado de criar um programa que identifique possíveis inimigos infiltrados. Para auxiliar nessa identificação, foi definida uma tabela com palavras de atenção e seus pesos. Qualquer texto que contenha palavras cuja soma dos pesos seja maior que um determinado índice (threshold) identifica um potencial inimigo infiltrado.",
+    "format_input": "O seu programa receberá: N: inteiro indicando a quantidade de palavras de atenção; N linhas contendo uma palavra de atenção e seu peso associado (float). Ex: “comunismo 10”; K: um threshold (float) Um texto a ser analisado (uma única linha)",
+    "format_output": "No final do programa, deve ser impresso um relatório contendo as palavras de atenção encontradas no texto (em CAIXA ALTA), na ordem em que elas foram informadas na entrada, com a quantidade de vezes que cada uma apareceu, além de um diagnóstico (SIM ou NAO) informando se o texto é de um potencial inimigo infiltrado, ou seja, se a soma dos pesos das palavras é superior ao threshold. Lembre-se, para fazer a correta identificação de palavras corretamente você precisará ignorar os caracteres “.” e “,”.",
+    "topics": [
+        "array",
+        "decisão",
+        "entrada formatada",
+        "substrings",
+        "repetição",
+        "string",
+        "dicionário"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Planejar para faturar",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Uma empresa prestadora de serviços, desfrutando do sucesso obtido devido à excelência dos seus procedimentos, recebeu uma série de propostas de trabalho. Cada proposta possui um dia de início, um dia de fim e um orçamento associado. Ocorre que a empresa só tem possibilidades materiais (mão-de-obra e equipamento) para atender um serviço de cada vez com o padrão de qualidade exigido, ou seja, não pode haver sobreposição de datas entre dois serviços a serem realizados. Sendo assim, a empresa precisa decidir que propostas atender de forma a maximizar o faturamento. Por exemplo, se o calendário de propostas para os próximos 30 dias for como no diagrama a seguir, o faturamento máximo possível será de $233, obtido ao atender (por ordem cronológica) os serviços 1, 4 e 2 de valores $77, $90 e $66, respectivamente. DIA 000000000111111111122222222223 123456789012345678901234567890 serviço 1: - 77 serviço 2: --------- 66 serviço 3: ------ 62 serviço 4: -------- 90 serviço 5: - 66 serviço 6: ---------- 61 serviço 7: -- 58",
+    "format_input": "A entrada é constituída de K casos, cada um na forma N S1 E1 V1 S2 E2 V2 ... SN EN VN onde N = quantidade de propostas de serviço recebidas Sj = dia de início do serviço j Ej = dia do término do serviço j VN = valor a ser recebido pelo serviço prestado j Após cada caso há uma linha em branco. IMPORTANTE: - Os dias de início e término são representados como inteiros >0 - Temos sempre 1<=Sj<=Ej<=3650 (a empresa já tem uma lista de encomendas a partir de amanhã e que se estendem pelos próximos 10 anos) - Cada serviço j só pode ser realizado de maneira integral, ocupando todos os dias de Sj até Ej (inclusive)",
+    "format_output": "Para cada caso c=1,..,K no arquivo de entrada imprimir uma linha caso c: Tc onde c = número do caso, contado a partir de 1 Tc = faturamento máximo possível para os serviços do caso c Após cada caso deve ser impressa uma linha em branco",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

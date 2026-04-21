@@ -1,0 +1,14 @@
+{
+    "title": "Sonho de Vigenère",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Yru estava na aula de Criptografia no CIn e teve uma brilhante ideia de aplicar os conceitos aprendidos de cifra, chave e transmissão de mensagem. ele constrói uma máquina do tempo como um bom estudante de engenharia, volta ao passado e pergunta a Blaise de Vigenère a melhor forma de aplicar sua cifra em um código: -Fatore o número inteiro positivo e crie uma lista com seus primos -Use o tamanho dessa lista como chave para implementar a Cifra de Vigenère, mas como nada é fácil nessa vida, o deslocamento vai seguir uma progressão aritmética de razão 1. -Por fim o código deve retornar o tamanho da lista dos primos fatorados do número dado e a mensagem cifrada. obs: <ctype.h> (com isalpha) lida com caracteres fora do padrão ASCII de 7 bits (como 'ç' e 'ã'). Tipicamente, eles não são considerados letras e são impressos como estão, sem serem cifrados. Se a string não contém letras, a saída deve ser idêntica à entrada. O incremento_pa nunca deve ser ativado. A entrada de uma string vazia não deve quebrar o programa. O laço for de criptografia não deve executar. Considere a repetição dos números primos, exemplo: 12=2x2x3 então sua lista é [2,2,3] com tamanho 3.",
+    "format_input": "12 Ataque ao amanhecer!",
+    "format_output": "3 Dxfwbm jy lynbwutwk!",
+    "topics": [
+        "array",
+        "entrada formatada",
+        "caractere",
+        "string",
+        "números primos"
+    ]
+}

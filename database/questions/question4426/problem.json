@@ -1,0 +1,11 @@
+{
+    "title": "Aposta duvidosa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Zé Mateus e seu professor quase preferido de Matemática Indiscreta, durante um certo dia de aula, resolveram fazer uma aposta amigável entre professor e aluno para ver se Zé Mateus estava realmente entendendo o conteúdo da cadeira, essa simples aposta envolvia: dadas K matrizes quadradas NxN, Mateus deveria verificar se elas configuravam \"Quadrados Mágicos\", que são quadrados onde a soma de cada linha, coluna e diagonal são iguais, como mostra o exemplo na imagem abaixo (desconsidere a característica de que não pode haver repetição de número). Caso ele ganhasse a aposta seria aprovado imediatamente em Matemática Indiscreta, e caso perdesse, seria imediatamente reprovado. Mas não era o fim do mundo para Mateus (sem H), como é de conhecimento geral, o círculo social de Mateus é considerado \"extenso\" e para se mostrar um verdadeiro amigo de Mateus, você irá ajudá-lo a não reprovar fazendo um programa que facilite sua vida na verificação dos \"Quadrados Mágicos\". DICA: A única característica que vai determinar se é quadrado mágico ou não será se as somas de cada linha, coluna e diagonal forem iguais!!",
+    "format_input": "Seu programa inicialmente receberá um inteiro K positivo, que indica a quantidade de matrizes quadradas a serem lidas. Abaixo, receberá K inteiros N (que representam o lado de cada matriz quadrada) acompanhados das respectivas matrizes.",
+    "format_output": "O programa deve imprimir, individualmente para cada matriz, e na ordem em que são dadas, separadas por \"\\n\", a mensagem \"Eh quadrado magico!!!\", caso a matriz verificada seja um quadrado mágico, ou a mensagem \"Nao eh!!!\", para caso não seja.",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

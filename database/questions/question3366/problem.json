@@ -1,0 +1,12 @@
+{
+    "title": "CRUD CREDO",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Gabriel, vulgo Japa, um programador muito experiente, estava estudando sobre o protocolo HTTP, então teve uma ideia de simular um serviço HTTP em C para que ele pudesse ver na pratica um pouco de como funcionaria o sistema. Porém ele está muito ocupado com seu trabalho, então passou essa tarefa para você. Seu objetivo nessa questão é fazer um código que dados alguns comandos na entrada, faça as alterações em um \"banco de dados\" local e no final mostre os elementos desse banco. Um ponto é, seu banco é limitado, por questões de recursos financeiros, então o limite máximo dele é 100 elementos.",
+    "format_input": "Cinco possíveis comandos: POST: Após esse comando, será enviado um inteiro representando o id e uma string representando o dado na próxima linha. PUT: Após esse comando, será enviado um inteiro representando o id e uma string representando o dado para mudar na próxima linha. DELETE: Após esse comando, será enviado um inteiro representando o id na próxima linha. GET: Após esse comando, será enviado um inteiro representando o id na próxima linha. CLOSE: Encerra a leitura de comandos. obs: O ID pode variar entre 0 e 10000; obs2: O tamanho das strings de dados são no máximo 15 caracteres.",
+    "format_output": "Para cada comando: POST: Você deve salvar o dado no seu banco de dados e printar \"Adicionado: id dado\". Caso o banco já esteja cheio, você deve printar \"Banco cheio!\" no lugar. PUT: Você deve procurar o dado com o id recebido, e alterar a string anterior pela nova string e printar \"Atualizado: id dado\" (lembrando que a string deve ser o novo valor). Caso o id não exista no banco, você deve printar \"ID não encontrado!\" no lugar. DELETE: Você deve procurar o dado com o id recebido, printar \"Excluido: id dado\" e depois excluir o dado do banco de dados. Caso o id não exista no banco, você deve printar \"ID não encontrado!\" no lugar. GET: Você deve procurar o dado com o id recebido e printar \"Enviado: id dado\". Caso o id não exista no banco, você deve printar \"ID não encontrado!\" no lugar. CLOSE: Você deve parar de ler novos dados, printar em uma linha \"Dados no banco:\" e printar embaixo todos os dados que estão salvos no seu banco de dados, ordenados pelo ID.",
+    "topics": [
+        "array bidimensional",
+        "string",
+        "ordenação"
+    ]
+}

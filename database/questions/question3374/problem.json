@@ -1,0 +1,10 @@
+{
+    "title": "Média de 3 Números Reais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este programa deve calcular a média de 3 números reais",
+    "format_input": "3 números reais",
+    "format_output": "1 número real",
+    "topics": [
+        "lógica matemática"
+    ]
+}

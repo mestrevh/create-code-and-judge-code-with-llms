@@ -1,0 +1,12 @@
+{
+    "title": "Intervalo de números.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Escrever um algoritmo que leia uma quantidade desconhecida de números e conte quantos deles estão nos seguintes intervalos: [0..25], [26..50], [51..75], 76..100]. A entrada de dados deve terminar quando for lido um número negativo.",
+    "format_input": "Os números digitados.",
+    "format_output": "A quantidade de valores respectivos a cada intervalo.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Sequência Secreta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "",
+    "format_input": "5 1 1 1 2 1",
+    "format_output": "3",
+    "topics": [
+        "obi"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Conjunto perfeito [A]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade gosta muito de números, principalmente números pares. Ela estava brincando com três números e se perguntou: \"Quantos subconjuntos tem soma par?\". Infelizmente ela precisa dormir agora e pediu para que você fizesse um programa para resolver esse problema. Observação: conjuntos vazios possuem soma 0.",
+    "format_input": "Você receberá três inteiros a, b e c separados por espaço. Limites: 1 <= a, b e c <= 10^5.",
+    "format_output": "Imprima a quantidade de subconjuntos que possuem soma par.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

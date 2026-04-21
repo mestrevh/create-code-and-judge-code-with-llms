@@ -1,0 +1,11 @@
+{
+    "title": "Decrescente 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia 3 números inteiros e os imprima em ordem decrescente. Desafio: tente utilizar apenas 4 comandos if.",
+    "format_input": "Consiste de 3 números inteiros.",
+    "format_output": "Consiste dos 3 números de entrada ordenados do maior para o menor.",
+    "topics": [
+        "decisão",
+        "ordenação"
+    ]
+}

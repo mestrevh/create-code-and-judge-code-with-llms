@@ -1,0 +1,11 @@
+{
+    "title": "Reunião de amigos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um grupo de amigos da escola resolveu se encontrar para relembrar dos bons tempos. Porém, estão sem conseguir decidir onde e quando irão se encontrar. Por isso, decidiram votar em cada uma dessas opções e a mais votada seria a escolhida. Você ficou responsável por fazer um programa para computar os votos.",
+    "format_input": "A primeira linha da entrada contém a quantidade de amigos votando (N). A entrada será uma sequência de N linhas contendo o local, que pode ser clube ou praia e o dia, que pode ser sabado ou domingo, separados entre si por vírgula. A entrada se encerra ao serem lidos os N votos. Observação: Todas as entradas podem ser escritas com qualquer combinação de letras maiúscula e minúsculas.",
+    "format_output": "A saída deve informar o dia e o local mais votados, com as respectivas quantidades de votos entre parênteses. Caso haja empate em alguma opção, devem ser colocados ambos os valores separados pela palavra 'ou', como, por exemplo, 'Praia(3) ou Clube(3)', que indica que houve 3 votos para o praia e 3 para a clube. Da mesma forma, 'Sabado(1) ou Domingo(1)' indica que houve um empate com 1 voto para cada opção de dia.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Inversão de número (3 algarismos)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Gere o invertido de um número com três algarismos (exemplo: o invertido de 498 é 894).",
+    "format_input": "498",
+    "format_output": "894",
+    "topics": [
+        "ponto flutuante"
+    ]
+}

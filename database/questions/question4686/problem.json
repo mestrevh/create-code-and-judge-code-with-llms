@@ -1,0 +1,10 @@
+{
+    "title": "Fila de números",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Crie um programa que recebe e armazena as números inteiros em uma fila. Esse programa deve ter as funcionalidades: push: Insere um valor na lista. pop: Remove o valor mais antigo da lista. sum: Exibe a soma de todos os elementos da lista. print: exibe os valores contidos na lista em ordem de inserção. exit: encerra o programa",
+    "format_input": "Cada linha contém um comando e no caso do push o valor a ser inserido.",
+    "format_output": "Cada linha da saída deve resultado ou do comando print ou do comando sum.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Converta um número Romano para Arábico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio resolveu fazer turismo na Itália e foi conhecer Roma antiga. Ao chegar lá, sua filha Ambrosinita, viu uma série de números em inscrições nas rochas: - Pai, X equivale qual número? - Equivale ao 10 Ambrosinita. - E o CX? - Equivale a 110 Ambrosinita. Depois de umas cinco perguntas, ele resolveu sentar e fazer um pequeno programa para que Ambrosinita pudesse saber o número Arábico equivalente ao número Romano diretamente de seu tablet. Sua missão é ajudar Ambrósio a fazer esse programa. Curiosidade:: foto tirada por Ambrosinita:",
+    "format_input": "Você receberá um número em algarismos romanos, com todos os caracteres em maiúsculo. Considere somente números entre I e MMMCMXCIX",
+    "format_output": "Você deve imprimir o número equivalente em Arábico.",
+    "topics": [
+        "números romanos"
+    ]
+}

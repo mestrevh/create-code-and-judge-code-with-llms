@@ -1,0 +1,11 @@
+{
+    "title": "Vendendo Jogos Educativos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Catarina trabalha na empresa Kids Play e vende jogos educativos de porta em porta. Cada jogo custa R$ 19.90 e ela recebe como salário 50% do valor total de suas vendas no mês. Além disso, a cada 15 jogos vendidos, ela recebe um bônus de 8% do total de vendas. Escreva um programa que receba como entrada a quantidade de jogos vendidos esse mês por Catarina e exiba três valores: o valor total arrecadado em vendas, o valor ganho como bônus, e o valor total que Catarina receberá no mês.",
+    "format_input": "Um valor inteiro",
+    "format_output": "Três números reais, cada um com duas casas decimais. Os valores devem ser separados por quebras de linha (ou seja, cada valor deve ser exibido em uma linha diferente)",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

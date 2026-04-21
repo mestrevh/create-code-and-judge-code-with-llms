@@ -1,0 +1,14 @@
+{
+    "title": "Brincando com tampinhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Certo dia, para ensinar matemática aos seus filhos, Ambrósio resolveu lhe ensinar um jogo. Basicamente o jogo consiste de uma sequencia de inserções e remoções de tampas. Existem tampas nas cores VERDE, VERMELHO E AZUL com valores i, j e k, respectivamente. O Jogador informa dois inteiros m e n. Então, o jogador dirá as cores de cada uma das m tampinhas que serão adicionadas, e dirá n números, referentes as posições das tampinhas que serão removidas. A medida que as tampas são dadas elas vão sendo adicionadas em ordem, entretanto a tampa de qualquer posição pode ser removida. O jogo para quando m e n são iguais a zero.",
+    "format_input": "Uma linha contendo 3 inteiros i, j e k; Uma linha contendo dois inteiros m e n; Enquanto m for diferente de zero e n for diferente de zero; Uma linha contendo m cores; Uma linha contendo n posições li. OBS: -> Considere i, j, k != 0; -> As únicas cores válidas são VERDE, VERMELHO e AZUL, qualquer cor diferente disso, desconsidere a adição e faça uma nova; -> Considere valores de li tal que l1 < l2 < ... < ln; -> Considere li > 0 e lo < Q, onde Q se refere a quantidade atual de tampinhas; -> Para efeitos de simplificação de código, se a quantidade n de remoções for maior ou igual a quantidade Q de tampas atuais, remova todas as tampas.",
+    "format_output": "Quando m e n são iguais a 0, o programa para imprimindo o valor da soma da quantidade de tampas, multiplicada por seus respectivos valores i, j e k.",
+    "topics": [
+        "estrutura de dados",
+        "multiplas entradas",
+        "entrada formatada",
+        "alocação dinâmica",
+        "string"
+    ]
+}

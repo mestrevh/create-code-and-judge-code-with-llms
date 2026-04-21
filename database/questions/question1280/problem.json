@@ -1,0 +1,12 @@
+{
+    "title": "L4Q5 - Construa a Matriz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para ter certeza que você compreendeu os componentes das matrizes, Silvio quer que você calcule a multiplicação dos elementos da diagonal principal de qualquer matriz. Para isso, ele irá passar o número de linhas e colunas, e a fórmula de construção da matriz. Lembre-se que cada elemento a da matriz está em uma linha i e coluna j, sendo indicado por: aij (onde i e j > 0) Sua tarefa é escrever um código que construa a matriz e imprima a multiplicação dos elementos da diagonal principal.",
+    "format_input": "M x N. M - número natural não nulo representando o número de linhas da matriz. N - número natural não nulo representando o número de colunas da matriz. F. F - fórmula de construção da matriz, seguindo o formato Xi + Yj ou Xi - Yj (sendo X e Y números naturais).",
+    "format_output": "P. P - número inteiro representando o produto entre os elementos da diagonal principal da matriz.",
+    "topics": [
+        "array",
+        "entrada formatada",
+        "array bidimensional"
+    ]
+}

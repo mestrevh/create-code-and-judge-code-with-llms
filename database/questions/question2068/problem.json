@@ -1,0 +1,10 @@
+{
+    "title": "Factsoma",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma certa existência gosta muito de brincar com números, recentemente ela tem bricando com a fatoriais e variações de fatoriais. Uma variação interessante é fazer somas no lugar de multiplicações. Ela pensou numa outra variação do fatorial com somas: No lugar de calcular n * fatorial(n - 1), por que não calcular n + FactSoma(n - k)? Obviamente, ela não quer fazer as contas na mão, e pediu para que você implementasse isso para ela. FactSoma(n , k) = n + FactSoma(n - k, k), se n > 0 0, se n ≤ 0 Observação: note que quando n - k for ≤ 0, o resultado é 0. Exemplo: 7 3. 7 + (7 - 3) + (7 - 6) + (7 - 9) = 12 (Note que (7 - 9) será 0, pois é assim que a FactSoma é definido)",
+    "format_input": "A entrada consistirá de dois inteiros: n (0 <= n <= 100000) e k (1 <= n <= 100).",
+    "format_output": "A saída deverá conter o resultado co cálculo do fatorial de somas com decremento k.",
+    "topics": [
+        "repetição"
+    ]
+}

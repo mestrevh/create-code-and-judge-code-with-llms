@@ -1,0 +1,10 @@
+{
+    "title": "O Festival",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Na ilha mágica de Circúlia, onde a vida dos moradores gira em torno de tradições ancestrais, acontece anualmente o aguardado Festival do Círculo Perfeito. No coração do festival, uma misteriosa fogueira mágica surge no centro de um círculo com comprimento L, onde os L moradores da ilha estão dispostos igualmente ao longo da circunferência, numerados de 0 a L - 1 no sentido horário. Este ano, a fogueira trouxe um desafio peculiar. Ela propôs que os moradores formassem grupos de N pessoas. Mas não é tão simples: cada grupo deve lidar com um custo, que é calculado da seguinte forma: Para cada par de pessoas dentro do grupo, determina-se a menor distância circular entre suas posições. O custo do grupo é o maior valor entre essas distâncias mínimas. A fogueira mágica quer saber um cálculo muito especial: a soma total dos custos de todos os grupos possíveis de N pessoas, considerando todas as combinações possíveis de N entre os L moradores. Como a magia da fogueira tem dificuldade com números muito grandes, o resultado deve ser fornecido como o resto da divisão por 998244353. Restrições: 1 <= L <= 100000, 1 <= N <= L.",
+    "format_input": "A entrada consiste em dois inteiros L e N: L: o número total de moradores no círculo. N: o número de pessoas em cada grupo.",
+    "format_output": "Imprima a soma dos desconfortos de todos os grupos possíveis de N pessoas, módulo 998244353.",
+    "topics": [
+        "maratona"
+    ]
+}

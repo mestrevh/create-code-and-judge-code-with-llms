@@ -1,0 +1,11 @@
+{
+    "title": "Quantidade de ocorrências (função recursiva)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha uma única função, além da principal, que receberá como parâmetros um natural n (0<=n<=2^30) e um dígito x (0<=x<=9) e devolverá a quantidade de ocorrências de x em n. O programa exibirá o retorno da função. Observações: (a) sem laços de repetição; (b) sem matrizes; (c) função recursiva.",
+    "format_input": "Um número natural e um dígito.",
+    "format_output": "Um número natural indicando a quantidade de ocorrências do dígito no número.",
+    "topics": [
+        "função",
+        "recursão"
+    ]
+}

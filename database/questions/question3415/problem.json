@@ -1,0 +1,11 @@
+{
+    "title": "Arithmetic Debt",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sofia atrasou um pagamento e está desesperada, o sistema de multa por atraso é estranho! Felizmente os finais de semana não são contabilizados. Sofia tem R reais, o pagamento era pra ter sido feito no dia de semana W, ela ja atrasou D dias e o valor do pagamento sem multa seria de V reais. obs: o valor de entrada D, conta com os finais de semana, ou seja se o pagamento era pra ter ser sido feito numa quinta e ela atrasou até segunda. a entrada seria D = 4, mas somente 2 serão contabilizados para calculo de multa, sexta e segunda. obs2: não da pra pagar no sabado ou no domingo o pagamento tem que ser feito na segunda, caso o dia que ela notou o atraso foi um desses dois. A multa é calculada da seguinte forma, dado um valor base B, o primeiro dia de atraso tem multa de B, o segundo de 2*B, o terceiro de 3*B e assim por diante. Sofia não quer pedir um empréstimo, só se realmente não tiver jeito, caso ela não tenha dinheiro pra pagar ela está cogitando em esperar seu salário S chegar na sexta-feira da proxima semana. Faça um programa que caso ela consiga pagar informe se precisa esperar o salário e quanto de dinheiro vai sobrar, caso não consiga pagar informe o valor que ela vai ter que pedir de empréstimo.",
+    "format_input": "A entrada consiste de R dinheiro disponivel da sofia W dia da semana que deveria ser feito o pagamento, sendo w = 1 para segunda, w = 2 para terça e assim por diante até w = 5 para sexta D Quantidade de dias que está de atraso V Valor do pagamento antes da multa ser aplicada B Valor base da multa S Sálario",
+    "format_output": "\"Nao precisa esperar e nem pedir emprestimo pague agora e ainda vai sobrar R$ xx.xx no final de tudo\" , caso consiga pagar na hora \"Nao da pra pagar agora mas se esperar o dinheiro chegar ao inves de adquirir uma nova divida, vai sobrar R$ xx.xx no final de tudo\", caso consiga pagar ao esperar o salario. \"Nao da pra pagar nem quando o salario chegar, vai ter que pedir um emprestimo de R$ yy.yy\", caso so consiga pagar pedindo emprestimo. xx.xx indicando o valor que sobrará depois de pagar, yy.yy indicando o valor que falta para pagar.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

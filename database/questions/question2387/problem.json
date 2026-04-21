@@ -1,0 +1,10 @@
+{
+    "title": "Meias do Preguiçoso Estiloso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um Preguiçoso Estiloso tem várias meias azuis e vermelhas, ela gosta muito de vestir as meias de forma estilosa: pé direito com azul e o esquerdo com vermelho. Mas ele não gosta de lavá-las, então, ele veste no começo do dia e joga fora no final do dia. Ele precisa saber durante quanto tempo ele vai poder vestir as meias de formas estilosa e depois quantos dias mais ele vai ter meias suficientes para vestir de qualquer forma.",
+    "format_input": "A única linha da entrada terá dois inteiros b e r, representando a quantidade de meias azuis e vermelhas, respectivamente.",
+    "format_output": "A única linha da saída deve ter dois inteiros e e o, representando quantos dias ele vai poder vestir as meias de forma estilosa e quantos dias mais ele terá meias suficientes para vestir de qualquer forma.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

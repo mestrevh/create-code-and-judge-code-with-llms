@@ -1,0 +1,10 @@
+{
+    "title": "L5Q4 - Pickle Rick!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rick se transformou em um picles novamente e desta vez o antidoto foi perdido. Rick disse a Morty que a concentração da mistura devia ser igual ao n-ésimo termo da série de Fibonacci em mg/L, sendo n a quantidade de tempo que Rick estava como Pickle Rick. Construa um algoritmo que calcula, recursivamente, a concentração desejada para a mistura com base no tempo n passado. OBS: A série da Fibonacci é definida pela seguinte sequência: 0 1 1 2 3 5 8 13 21 ... Em cada termo da sequência é obtido somando os dois termos anteriores. OBS 1. A contagem de horas deve começar com 0, sendo nesse caso a concentração 0 mg/L. OBS 2. Considere a entrada amigável (apenas números inteiros não negativos).",
+    "format_input": "N - Quantidade de horas que o Rick permaneceu como Pickle Rick.",
+    "format_output": "C - Concentração do Antidoto mg/L, ou \"O antidoto nao e necessario\", caso a concentração seja 0 mg/L.",
+    "topics": [
+        "recursão"
+    ]
+}

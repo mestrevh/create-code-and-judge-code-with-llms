@@ -1,0 +1,11 @@
+{
+    "title": "Rede de telecomunicações",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma empresa de TELECOM está expandindo sua rede de cabos óticos. Eles estão conectando vários lugares numerados de 1 a N. Não existem lugares diferentes com o mesmo número. As linhas são bidirecionais e sempre conectam dois lugares. Em cada local existe uma central de roteamento. Existe apenas uma central de roteamento em cada lugar. A partir de um lugar é possível alcançar qualquer outro lugar. Não é preciso haver uma conexão direta entre dois lugares para que seja possível a comunicação entre eles, a comunicação será estabelecida através de um caminho entre eles. De vez em quando, falta energia em algum lugar e a central de roteamento não funciona. Quando isso ocorre, além de deixar o lugar onde faltou energia inacessível, pode ocorrer de outros lugares também ficarem inacessíveis. Neste caso, dizemos que o lugar é crítico. Sua missão é encontrar a quantidade de lugares críticos da rede da empresa.",
+    "format_input": "Serão dados vários blocos. Cada bloco descreve uma rede. Na primeira linha de cada bloco é dado o número N de lugares (N <= 50000). Seguirão no máximo N linhas (perceba que podem ser menos que N linhas). Cada uma das linhas consiste de um número indicando um lugar S e uma sequência de números indicando os lugares que estão diretamente conctados a S. Esses números são separados por um espaço. Cada bloco termina quando S=0 A entrada como um todo, termina quando N=0",
+    "format_output": "Para cada bloco, imprima o número de lugares críticos encontrados na rede seguido de um final de linha.",
+    "topics": [
+        "grafo",
+        "vertices/arestas de corte"
+    ]
+}

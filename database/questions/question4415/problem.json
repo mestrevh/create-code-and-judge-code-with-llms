@@ -1,0 +1,10 @@
+{
+    "title": "Octante mais proximo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um espaço tridimensional pode ser definido através de três retas x, y e z, como mostrado nessa imagem (https://i.imgur.com/9w5Wvv7.png), um ponto (x, y, z) estará sempre dentro de um dos 8 octantes determinados pelas retas. Dado uma posição (x, y, z) qualquer, o objetivo do seu programa é, movendo-se apenas em um dos eixos, achar o octante mais próximo daquele pertencente à posição informada.",
+    "format_input": "Uma linha de três inteiros contendo a coordenada do ponto (x, y, z). Dado que: -100 < x, y, z < 100 e |x| != |y| != |z|.",
+    "format_output": "Um inteiro indicando o octante mais próximo.",
+    "topics": [
+        "decisão"
+    ]
+}

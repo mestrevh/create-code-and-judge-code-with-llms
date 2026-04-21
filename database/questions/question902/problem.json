@@ -1,0 +1,12 @@
+{
+    "title": "Base e expoente.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Utiliza estruturas de repetição para resolver o problema.",
+    "format_input": "Base e expoente.",
+    "format_output": "Resultado do cálculo.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Conversor de bases genérico (nem tão genérico assim)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sua missão é converter um número inteiro na base 10 para qualquer base entre 2 e 16. Por exemplo, o número 42 na base 10 corresponde aos números: 101010 na base 2, 52 na base 8, 2A na base 16, 46 na base 9 e assim por diante.",
+    "format_input": "Na primeira linha, você irá receber um número inteiro n indicando quantos números você precisará converter. Depois seguirão n pares de linhas, correspondendo a uma linha contendo o número inteiro x a ser convertido e outra linha contendo um número inteiro b indicando a base no qual o número x deve ser convertido.",
+    "format_output": "Imprima cada número convertido, um por linha.",
+    "topics": [
+        "números binários",
+        "pilha"
+    ]
+}

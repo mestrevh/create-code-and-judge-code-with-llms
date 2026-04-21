@@ -1,0 +1,12 @@
+{
+    "title": "Matriz Fórmula",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para ter certeza que você compreendeu os componentes das matrizes, Silvio quer que você calcule a multiplicação dos elementos da diagonal principal de qualquer matriz. Ele irá passar o número de linhas, colunas e a fórmula de construção da matriz. Lembre-se que cada elemento a da matriz está em uma linha i e coluna j, sendo indicado por: aij Sua tarefa é escrever um código que monte a matriz e imprima a multiplicação dos elementos da diagonal principal.",
+    "format_input": "M x N M - número natural, representando o número de linhas N - número natural, representando o número de colunas F F - fórmula de construção da matriz, seguindo o formato: Xi + Yj (onde X e Y são inteiros).",
+    "format_output": "P P - número inteiro que representa a multiplicação da diagonal principal da matriz.",
+    "topics": [
+        "array",
+        "caractere",
+        "array bidimensional"
+    ]
+}

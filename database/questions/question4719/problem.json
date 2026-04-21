@@ -1,0 +1,10 @@
+{
+    "title": "Listas 1 - Lista de Cores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Complete o código para que ele crie uma lista com as cores \"azul\", \"amarelo\" e \"vermelho\", e exiba a segunda cor.\n\n# Crie uma lista com três cores\ncores = ___________\n\n# Exiba a segunda cor da lista\nprint(_________)",
+    "format_input": "nenhuma",
+    "format_output": "Uma string representando a segunda cor da lista.",
+    "topics": [
+        "string"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Investimento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma pessoa aplicou seu capital a juros e deseja saber, trimestralmente, a posição de seu investimento C inicial. Chamando de i a taxa de juros do trimestre, escreva uma tabela que, para cada trimestre, dê o rendimento auferido e o saldo acumulado durante um período de X anos, supondo-se que nenhuma retirada tenha sido feita.",
+    "format_input": "Dois números de ponto flutuante separados por espaço contendo o investimento inicial, a taxa de juros trimestral e um inteiro indicando o período em anos.",
+    "format_output": "Uma tabela, cada linha é escrita na forma: Rendimento: R Montante: M onde R e M são números de ponto flutuante formatado com duas casas decimais.",
+    "topics": [
+        "ponto flutuante",
+        "acumulador",
+        "lógica matemática",
+        "repetição"
+    ]
+}

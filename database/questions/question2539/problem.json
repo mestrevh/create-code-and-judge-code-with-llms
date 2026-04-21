@@ -1,0 +1,12 @@
+{
+    "title": "Poligonos Octave - T1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para ler o número de lados de um polígono regular e a medida do lado (em cm). Calcular e imprimir o seguinte: - Se o número de lados for igual a 3 escrever TRIANGULO e o valor da área - Se o número de lados for igual a 4 escrever QUADRADO e o valor da área - Se o número de lados for igual a 5 escrever PENTAGONO. - Caso o número de lados seja inferior a 3 escrever NAO E UM POLIGONO. - Caso o número de lados seja superior a 5 escrever POLIGONO NAO IDENTIFICADO.",
+    "format_input": "O usuario deve digitar o número de lados do polígono e a medida do lado em cm",
+    "format_output": "O programa deve exibir nome do polígono e sua área, caso seja triângulo ou quadrado, imprimindo na tela os valores abaixo: Digite o numero de lados: (impresso pela funcao input) Digite a medida do lado em cm: (impresso pela funcao input) TRIANGULO/QUADRADO/PENTAGONO/NAO E UM POLIGONO/POLIGONO NAO IDENTIFICADA A area do poligono e: n cm2",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "lógica matemática"
+    ]
+}

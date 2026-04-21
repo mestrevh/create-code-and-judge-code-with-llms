@@ -1,0 +1,13 @@
+{
+    "title": "Matrículas Duplas",
+    "time_limit": "2 segundo(s)",
+    "descrition": "A coordenação do curso de Ciência da Computação da UFAL deseja saber quantos alunos estão cursando ao mesmo tempo as cadeiras de Programação II e Programação III. Faça um programa que leia os códigos de matrícula dos alunos de ambos os cursos e imprima os códigos de matrículas dos alunos que estão cursando ambas as disciplinas. Sabe-se que a disciplina de Programação II conta com 45 alunos e a disciplina de Programação III conta com 30 alunos.",
+    "format_input": "Uma sequência de 45 inteiros representando as matrículas dos alunos cursando a disciplina de Programação II, seguida de uma sequência de 30 inteiros representando as matrículas dos alunos que cursam a disciplina de Programação III.",
+    "format_output": "Uma lista de inteiros correspondendo aos alunos que estão matriculados em ambas as disciplinas. Cada inteiro deve ser separado por um espaço. Após o último inteiro, deve existir um espaço seguido de um final de linha. As matrículas devem ser impressas de acordo com a ordem dada na entrada da disciplina de Programação II.",
+    "topics": [
+        "array",
+        "acumulador",
+        "repetição",
+        "dicionário"
+    ]
+}

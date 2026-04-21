@@ -1,0 +1,11 @@
+{
+    "title": "Maior elemento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore uma função em Python para calcular o maior elemento de uma lista de inteiros passada por parâmetro. A lista não necessariamente está ordenada.",
+    "format_input": "[1, 4, -9, 0, 6]",
+    "format_output": "6",
+    "topics": [
+        "array",
+        "função"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Ajude a dudinha!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ajude a dudinha! Dado um número N, descobriremos o primeiro número maior ou igual que N e menor que K que possui exatamente P fatores primos ímpares e distintos (Se ele tiver fatores primos ímpares que se repetem, o número não é válido.). Por exemplo, 30 = 2 * 3 * 5, ou seja, tem 2 fatores primos ímpares distintos. 9 = 3 * 3, não é válido, pois possui fatores primos não-distintos. A dudinha, apaixonada por matemática, quer descobrir não só número maior ou igual a N, mas também a quantidade de Q números que vêm depois do N e antes do K, que possuem a mesma quantidade de fatores primos ímpares distintos. Por estar estar com os olhos vermelhos de enxaqueca (não sabemos se é enxaqueca mesmo), ela pediu sua ajuda para fazer um programa que fizesse esse cálculo por ela.",
+    "format_input": "A entra consiste em N, K, P, respectivamente, que são números inteiros que podem ser armazenados em 32 bits de memória. 0 ≤ N ≤ 100000; 0 ≤ K ≤ 100000; 0 ≤ P ≤ 100",
+    "format_output": "Caso exista, a saída mostra o primeiro número e depois, seguido de espaço, Q. Caso não exista, mostre na tela: Poxa dudinha, me desculpa, nao achei os numeros mas vou te mandar uma foto de um gatinho fofo.",
+    "topics": [
+        "repetição"
+    ]
+}

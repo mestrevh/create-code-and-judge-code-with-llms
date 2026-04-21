@@ -1,0 +1,10 @@
+{
+    "title": "[C3] LAB - 8",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A fábrica de refrigerantes Meia-Cola vende seu produto em três formatos: lata de 350 ml,garrafa de 600 ml e garrafa de 2 litros. Se um comerciante compra uma determinada quantidade de cada formato, faça um algoritmo para calcular quantos litros de refrigerante ele comprou. Não imprimir mensagens na entrada e na saída.",
+    "format_input": "Quantidade de garrafas 2L Quantidade de garrafas 600ml Quantidade de latas 350ml",
+    "format_output": "Quantidade de litros de refrigerante",
+    "topics": [
+        "estruturas"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Mercearia do Ambrósio 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio é bem desorganizado na contabilidade de sua mercearia. Por isso ele lhe pediu ajuda para registrar as vendas e gerar um relatório. Como você sabe programar, preferiu fazer um programa de computador. O problema é que Ambrósio é tão bagunçado que lhe passa as vendas anotadas da forma que ele quer.",
+    "format_input": "A entrada de dados tem os nomes dos produtos, com maiúsculas e minúsculas, e com a quantidade logo após o nome do produto, separado pelo caractere : (dois pontos). Cada par produto:quantidade é separado dos demais por uma vírgula. A entrada se encerra com uma linha contendo a palavra FIM, como mostrado abaixo: Manteiga:3,SORVETE kiotimo:5,PASTA DE DENTE:1 queijo:2,creme de leite:1 sorvete kiotimo:3 QUEIJO:3 FIM",
+    "format_output": "A saída consiste na lista de produtos, cada um com sua respectiva quantidade e nome, ordenados de forma crescente pela nome do produto, que deve estar em letras minúsculas. Também deve ser informado o produto mais vendido (considere que não haverá empate). 1 creme de leite 3 manteiga 1 pasta de dente 5 queijo 8 sorvete kiotimo O mais vendido foi sorvete kiotimo com 8 unidades Observações: É obrigatório definir e chamar uma função para ler os produtos vendidos e armazenar em uma estrutura adequada para a solução e outra função para obter o produto mais vendido.",
+    "topics": [
+        "entrada formatada",
+        "ordenação",
+        "dicionário"
+    ]
+}

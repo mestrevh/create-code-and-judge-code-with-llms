@@ -1,0 +1,17 @@
+{
+    "title": "Inimigos infiltrados",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você trabalha para o governo de um certo país que não admite que pessoas trabalhem para o governo e pensem diferente do presidente. Por isso, você foi encarregado de criar um programa que identifique possíveis inimigos do infiltrados no governo.O seu programa receberá uma lista de palavras proibidas, seguidas do texto a ser analisado. No final do programa, deve ser impresso um relatório contendo as palavras proibidas encontradas no texto e a quantidade de vezes que cada uma apareceu.",
+    "format_input": "A primeira linha contém as palavras proibidas separadas por espaços em branco. As palavras podem estar em maiúsculas e minúsculas e isto não deve fazer diferença na comparação com as contidas no texto. As linhas seguintes contêm o texto a ser analisado, sendo que o texto termina quando for encontrada uma linha contendo apenas a string FIM.",
+    "format_output": "Consiste nas palavras proibidas encontradas (ordenadas alfabeticamente e em letras maiúscula) e seu número de ocorrências. Cada palavra será impressa em uma linha e separada por um espaço do seu número de ocorrências. ATENÇÃO: Cuidado com a pontuação (ponto e vírgula) que vem junto às palavras para não desconsiderar palavras no seu cálculo. Os textos não contêm outros sinais de pontuação além de ponto (.) e vírgula (,). OBSERVAÇÃO: Qualquer semelhança com a realidade é mera coincidência.",
+    "topics": [
+        "array",
+        "decisão",
+        "entrada formatada",
+        "substrings",
+        "repetição",
+        "string",
+        "ordenação",
+        "dicionário"
+    ]
+}

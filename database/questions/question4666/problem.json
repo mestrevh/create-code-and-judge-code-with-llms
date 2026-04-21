@@ -1,0 +1,12 @@
+{
+    "title": "Patrício e sua Obsessão por Palíndromos",
+    "time_limit": "4 segundo(s)",
+    "descrition": "Patrício Montegrini, um famoso linguista e entusiasta de desafios linguísticos, está organizando um campeonato chamado \"Corrida de Palíndromos\". Nele, os participantes competem para identificar palavras palíndromas em uma lista fornecida por Patrício. Um palíndromo é uma palavra que pode ser lida da mesma forma de trás para frente, como \"radar\" ou \"arara\". Patrício, cansado de verificar manualmente os resultados, pediu sua ajuda para desenvolver um programa que automatize essa tarefa. Sua missão é criar um sistema que receba a lista de palavras fornecida por Patrício e determine: Quais palavras são palíndromas. O total de palavras palíndromas na lista. Patrício enfatizou que, caso nenhuma palavra palíndroma seja encontrada, o programa deve exibir uma mensagem apropriada, pois ele precisa informar os resultados aos participantes com precisão.",
+    "format_input": "Um número inteiro n, representando o número de palavras na lista que Patrício preparou. n palavras separadas por espaço, cada uma com no máximo 50 caracteres e consistindo apenas de letras minúsculas.",
+    "format_output": "As palavras palíndromas, cada uma em uma linha. O número total de palíndromas na lista. Caso nenhuma palavra seja um palíndromo, exiba a mensagem: \"Nenhuma palavra palíndroma encontrada\"",
+    "topics": [
+        "array",
+        "palíndromos",
+        "string"
+    ]
+}

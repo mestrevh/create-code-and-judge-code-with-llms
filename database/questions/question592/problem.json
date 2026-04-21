@@ -1,0 +1,11 @@
+{
+    "title": "A Loja Mágica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Existe uma Loja mágica pertencente a o monge , que contém poções mágicas. No primeiro dia existem A poções na loja. seja poções[I] a quantidade de porções que existem na loja no iésimo dia, então ( poções[I] = poções[I-1] * poções[I-1]). Você deve encontrar o número de poções que você terá no final, já que o número pode ser muito grande imprima a resposta Módulo B. Você é o estudante favorito do monge e adora manipular poções e praticar feitiços , então sempre que você vai até a loja você compra todas as poções disponíveis , porém o monge permite que você entre na loja apenas em dias específicos. Observação: Digamos que no primeiro dia existem 5 poções e você comprou todas, no segundo dia vão existir 25 poções pois mesmo você comprando todas do dia anterior a quantidade é restaurada magicamente.",
+    "format_input": "A entrada consiste em 2 linhas, a primeira contém A e B, que são O número de poções existentes no primeiro dia e o Módulo a ser considerado respectivamente. A segunda linha consiste em uma String que contém apenas \"0\" e \"1\", Cada digito da string representa se o monge autorizou você a entrar na loja no iésimo dia , ex: string = \"101\" você foi autorizado a entrar na loja no 1 e no 3 dia. 1 <= A, B <= 10^9 1 <= tamanho da string <= 10^5",
+    "format_output": "Imprima o número de poções que você vai ter no final, como esse número pode ser muito grande imprima Módulo B.",
+    "topics": [
+        "números binários",
+        "acumulador"
+    ]
+}

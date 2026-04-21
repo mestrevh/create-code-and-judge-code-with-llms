@@ -1,0 +1,10 @@
+{
+    "title": "Triagem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi contratado para desenvolver um programa que determine o nível de risco de um paciente com base em sua idade, temperatura corporal e sintomas apresentados. O programa deve ler a idade do paciente, a temperatura corporal e um código de sintoma e imprimir o nível de risco. Os níveis de risco são determinados da seguinte forma: Baixo: Se a idade é menor que 12 anos e a temperatura é menor que 37.5 graus Celsius e não há sintomas graves. Médio: Se a idade é entre 12 e 60 anos e a temperatura está entre 37.5 e 39 graus Celsius ou há sintomas moderados. Alto: Se a idade é maior que 60 anos ou a temperatura é maior que 39 graus Celsius ou há sintomas graves. Caso haja algum sintoma grave, o nível de risco é alto, independentemente das regras anteriores. Claro, que se não há sintoma nenhum, o risco é baixo. Se nenhuma regra anterior for aplicada, o risco é médio. Os códigos de sintomas são os seguintes: 0: Sem sintomas 1: Sintomas leves 2: Sintomas moderados 3: Sintomas graves",
+    "format_input": "A entrada consiste de um número inteiro, um número decimal e um número inteiro, separados por espaço: I: idade do paciente. T: temperatura corporal em graus Celsius. S: código do sintoma.",
+    "format_output": "A saída deve ser uma única palavra: \"Baixo\" se o risco é baixo. \"Medio\" se o risco é médio. (sem o acento) \"Alto\" se o risco é alto.",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Prateek e seus amigos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Prateek quer dar fazer uma festa para N amigos em seu aniversário, porém seus amigos propuseram que ele dê presentes a cada amigo, e não o contrário. Ou seja, cada amigo deve receber um presente para ir à festa do Prateek. Além disso, os amigos são exigentes. Eles disseram que só vão pra festa se puderem escolher os próprios presentes. Então foi criada uma lista com os preços dos presentes dos N amigos, de tal forma que o custo do presente do amigo ith é a posição ith na lista. Porém, Prateek tem somente uma quantia X de dinheiro para gastar com os presentes e ele quer convidar seus amigos que estão em uma faixa contínua na lista de tal forma que a soma dos presentes seja exatamente X. Se ele puder convidar seus amigos satisfazendo as condições acima imprima YES, caso contrário NO.",
+    "format_input": "A primeira linha contém um inteiro T, indicando o número de casos de teste. Para cada caso de teste seguirá uma linha contendo 2 inteiros N e X, onde N representa quantidade de amigos e X representa a quantia para adquirir presentes. As próximas N linhas contém um inteiro onde ith linha indica o custo do presente do amigo ith.",
+    "format_output": "Exatamente T linhas, cada uma contém a resposta do caso de teste.",
+    "topics": [
+        "array",
+        "acumulador"
+    ]
+}

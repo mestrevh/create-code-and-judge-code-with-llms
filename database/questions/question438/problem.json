@@ -1,0 +1,8 @@
+{
+    "title": "Enchendo o tanque",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Max vai viajar nesse feriado e precisa abastecer seu carro. Sabendo que cada litro de gasolina custa R$ 2.78, e que a capacidade máxima de combustível do veículo é 50 litros, escreva um programa que receba como entrada a quantidade de gasolina atual no tanque (em litros), e calcule e exiba o valor que ele vai gastar para enchê-lo.",
+    "format_input": "Um valor real Dica: lembre-se de não colocar mensagens no input",
+    "format_output": "Um valor real com duas casas decimais de precisão Dica: lembre-se de não colocar mensagens no print",
+    "topics": []
+}

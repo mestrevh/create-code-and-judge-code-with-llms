@@ -1,0 +1,8 @@
+{
+    "title": "Média de um Conjunto de Inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considere uma lista de valores inteiros não negativos, separados por espaço, em uma única linha. Escreva um programa que calcule a média dos valores lidos. A média deve ser impressa com uma casa decimal.",
+    "format_input": "Uma lista de valores inteiros não negativos, separados por espaço, em uma única linha.",
+    "format_output": "Como saída, espera-se a impressão do nome da medida (Media) seguida por um espaço, o sinal de igualdade, outro espaço e o valor calculado com uma casa decimal.",
+    "topics": []
+}

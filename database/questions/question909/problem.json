@@ -1,0 +1,8 @@
+{
+    "title": "valor do array",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia um array de 500 posições de números reais e divida todos os seus elementos pelo maior valor do array. Imprima os valores do array após os cálculos.",
+    "format_input": "500 valores informados",
+    "format_output": "valor do array",
+    "topics": []
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Numerologia de Monalisa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Monalisa é uma pessoa supersticiosa e cética ao mesmo tempo, ao ponto de inventar a sua própria forma mística de ver os números. De acordo com a data de nascimento e a atual, ela decide a previsão do dia dividida em: Amor, Sorte, Trabalho e Cor. Para o Amor, some todos os números das datas, multiplique por 7 e obtenha o resto da divisão por 101. Para a Sorte, some os dias e os meses multiplicados por 9 com a diferença positiva entre os anos e obtenha o resto da divisão por 101. Para o Trabalho, some os anos e subtraia os dias e meses multiplicados por 8, obtendo o resto da divisão por 101. Para a Cor, some o quadrado dos dias, meses e anos e obtenha o resto da divisão por 11. Cada categoria possui faixas de porcentagem ou índices que determinam mensagens específicas na saída.",
+    "format_input": "Duas datas no formato: XX/XX/XX",
+    "format_output": "Quatro linhas representando as previsões do dia (Amor, Sorte, Trabalho e Cor), contendo a porcentagem obtida e a frase descritiva correspondente.",
+    "topics": [
+        "decisão"
+    ]
+}

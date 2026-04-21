@@ -1,0 +1,13 @@
+{
+    "title": "Média do produto.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa para ler o preço de um produto em cada um dos meses do ano e depois imprimir a média do valor do produto no ano. Utilize o conceito de arrays.",
+    "format_input": "Preços do produto durante o ano.",
+    "format_output": "Média do valor do produto.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "repetição"
+    ]
+}

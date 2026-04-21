@@ -1,0 +1,11 @@
+{
+    "title": "O dobro dos elementos, só que invertido!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você receberá uma sequência de números inteiros. Você deve imprimir o dobro desses números, do último número recebido para o primeiro. Você também receberá a quantidade de números. Por exemplo, a entrada: 4 3 5 8 9 Você deve imprimir: 18 16 10 6 Ou seja, o primeiro número é a quantidade de números que virão. Depois, na resposta veja que imprimimos o dobro dos números dados, de trás pra frente.",
+    "format_input": "Na primeira linha você receberá um inteiro n. Depois você receberá n linhas, cada um com um número inteiro. Considere n<=50",
+    "format_output": "Imprima n linhas, cada linha contendo o dobro dos números digitados. De último número digitado para o primeiro.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Vozes de Apspsps",
+    "time_limit": "5 segundo(s)",
+    "descrition": "A senhorita Apspsps é um pouco estranha e escuta vozes na cabeça dela. Um belo dia, as vozes começaram a falar sobre dois vetores, um de caractere e outro de inteiros. Imaginando que as vozes buscavam mandar algum sinal, Apspsps pediu a sua ajuda para decodificar a mensagem. Seu código terá que somar as letras aos números correspondentes, seguindo a ordem alfabética, por exemplo, se receber dois vetores: [1,2,3] e [a,b,c], o resultado será [b,d,f], já que b está a 1 posição de a na ordem alfabética, d está a 2 posições de b, e f está a 3 posições de c. Caso o vetor de números seja maior do que o de caracteres, os números sem letras correspondentes vão decodificar as letras da seguinte maneira: 0->a, 1->b, 2->c e assim por diante. Já se o vetor de caracteres for maior que o vetor de números, as letras sem números correspondentes serão apenas repetidas na mensagem final. As vozes apenas usam letras minúsculas e, caso a letra codificada seja maior que z ou menor que a, o caractere final será um ‘.’.",
+    "format_input": "Um inteiro n seguido de n caracteres correspondentes ao primeiro vetor. Um inteiro m seguido de m inteiros correspondentes ao segundo vetor.",
+    "format_output": "Vetor de caracteres com a mensagem codificada",
+    "topics": [
+        "array"
+    ]
+}

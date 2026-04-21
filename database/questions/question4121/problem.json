@@ -1,0 +1,12 @@
+{
+    "title": "Alocação Dinâmica de Vetores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em C que receba um valor n de entrada e, em seguida: • aloque espaço dinamicamente na memória para criar um vetor de char de n elementos e verifique se o espaço foi alocado com sucesso; • preencha o vetor criado com n caracteres digitados pelo usuario (string); ´ • imprima o vetor preenchido na tela; e • libere o espaço de memória alocado.",
+    "format_input": "N - Quantidade de caracteres de uma string (inteiro) uma sequencia de caracteres de uma palavra (ler como string)",
+    "format_output": "A sequencia de caracteres O tamanho da alocado com o comando malloc",
+    "topics": [
+        "array",
+        "função",
+        "ponteiro"
+    ]
+}

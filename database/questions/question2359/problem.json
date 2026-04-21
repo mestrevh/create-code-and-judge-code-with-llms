@@ -1,0 +1,12 @@
+{
+    "title": "Exigência do corpo de bombeiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Corpo de Bombeiros tem feito perícias em vários edifícios da cidade o que tem deixado, especificamente, o síndico do prédio Villemus bem preocupado. A regra exigida pelos bombeiros é simples. Os bombeiros apenas querem saber quantos moradores existem no edifício do andar 1 até um certo andar n, inclusive, indicado por eles. O problema é o fato de que no edifício Villemus sempre tem gente chegando ou saindo, isto é, muitas mudanças nos apartamentos. Para isso, o síndico precisa manter suas informações sempre atualizadas com base em duas situações: No caso de Mudança: alterar o número de pessoas que moram num determinado andar; Chegada do bombeiro: informar o total de pessoas que moram do andar 1 até um determinado andar, inclusive. A sua tarefa é ajudar o síndico nesse problema. Dados o número de pessoas que moram em cada andar do Villemus inicialmente, e uma sequência de eventos (do tipo Mudança ou Chegada), seu programa deve imprimir, para cada evento do tipo Chegada, o total de pessoas exigido, no momento do evento! Para isso você deve implementar no programa duas funções equivalentes aos eventos. Observação: são permitidas APENAS o uso das funções append() e split().",
+    "format_input": "A primeira linha da entrada contém dois inteiros A e E, representando, respectivamente, o número de andares e o número de eventos. A segunda linha contém n inteiros ni, 1 ≤ i ≤ A, indicando o número de pessoas que moram no i-ésimo andar inicialmente. Cada uma das E linhas seguintes representa um evento e pode ter uma de duas formas abaixo: • “0 K P” - evento Mudança. Nesse caso, deve-se alterar o número de pessoas que moram no K-ésimo andar para P pessoas; • “1 K” - evento Chegada do bombeiro. Nesse caso, deve-se informar o total de pessoas que moram do andar 1 até o andar K, inclusive. Lembrar que o valor do andar informado nos eventos deve ser menor ou igual ao número de andares do prédio.",
+    "format_output": "Para cada evento do tipo Chegada do bombeiro, seu programa deve imprimir uma linha contendo um inteiro representando o total de pessoas correspondente ao evento. No caso do andar informado no evento não existir no prédio escrever a mensagem \"nao existe esse andar no predio\".",
+    "topics": [
+        "array",
+        "repetição",
+        "função"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Traquinagens do Saci",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Certo dia, o Saci, planejando mais uma de suas traquinagens, teve a brilhante ideia de bagunçar o banco de dados de uma escola Para efetuar o seu plano ele queria uma código que faria isso por ele. O código irá receber uma lista com o nome, a nota e a idade do aluno, e trocar as notas para que fiquem na ordem crescente de acordo com o que foi inserido na entrada. (Serão usados apenas números simples). No código crie uma função que troque os valores de duas variáveis, sendo elas passadas por referência.",
+    "format_input": "Deverá ser digitado o nome na primeira linha e logo abaixo a nota seguida da idade. Serão colocados 5 alunos com nomes de até 20 caracteres. As notas serão números reais maiores que zero. E a idade será um número inteiro também acima de 0.",
+    "format_output": "Na saída será digitado o nome, a nota (com 2 algarismos) e a idade, todos na mesma linha.",
+    "topics": [
+        "função",
+        "string",
+        "ponteiro"
+    ]
+}

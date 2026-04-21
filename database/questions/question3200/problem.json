@@ -1,0 +1,10 @@
+{
+    "title": "[C3] LAB - 4",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Calcule e apresente o volume de uma lata de óleo, dados seu raio e sua altura: Fórmula: volume = (PI) * (raio ao quadrado) * altura Use o pi do módulo matemático. Não imprima nada na entrada/saída",
+    "format_input": "Raio Altura",
+    "format_output": "Volume",
+    "topics": [
+        "estruturas"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Soma dos Múltiplos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ache a soma de todos números naturais múltiplos de 3 ou 5 menores que n.",
+    "format_input": "Um número inteiro n.",
+    "format_output": "A soma de todos os números naturais múltiplos de 3 e 5 menores que n, com uma quebra de linha.",
+    "topics": [
+        "acumulador",
+        "decisão"
+    ]
+}

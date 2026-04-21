@@ -1,0 +1,10 @@
+{
+    "title": "3o ângulo do triângulo adap. p/a autismo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que: Leia dois ângulos de um triângulo. Mostre na tela o terceiro ângulo. Fórmula: terceiro_ângulo = 180 - (primeiro_ângulo + segundo_ângulo)",
+    "format_input": "um número float (número com casas decimais) um número float (número com casas decimais)",
+    "format_output": "Um número float (número com casas decimais)",
+    "topics": [
+        "lógica matemática"
+    ]
+}

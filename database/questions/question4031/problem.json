@@ -1,0 +1,13 @@
+{
+    "title": "Duelo das Diagonais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este duelo consiste em receber um N, onde o N será a quantidade de Duelos, e após isso será lido N vezes, dois personagens, onde será dado o nome dos personagens e uma matriz 5x5 para cada personagem. O objetivo é saber qual dos dois personagens tem a soma da diagonal principal e secundaria maior. exemplo: Harry: diagonal principal = 1 + 2 + 3 + 4 + 6 = 16 diagonal secundária = 1 + 2 + 3 + 4 + 5 = 15 soma das diagonais de Harry = 31 Ron: diagonal principal = 1 + 2 + 3 + 4 + 5 = 16 diagonal secundária = 1 + 2 + 3 + 4 + 5 = 15 soma das diagonais de Ron = 30 Como podemos observar, Harry teve a soma igual 31 e Ron teve a soma igual 30, logo Harry ganhou. OBS: o tamanho do nome terá no máximo 20 letras.",
+    "format_input": "um inteiro N, representando quantos duelos haverá em seguida serão lidos N vezes: Nome do primeiro personagem Matriz do primeiro personagem Nome do segundo personagem Matriz do segundo personagem",
+    "format_output": "Para cada duelo, caso tenha um vencedor,deve imprimir: \"Nome_do_vencedor venceu com valor soma\", onde soma é a soma das diagonais, e Nome_do_vencedor, o ganhador. caso seja empate, deve imprimir: \"Empataram com o valor soma\", onde soma é a soma das diagonais",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional",
+        "recursão"
+    ]
+}

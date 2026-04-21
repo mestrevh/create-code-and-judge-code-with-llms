@@ -1,0 +1,12 @@
+{
+    "title": "Digitação Amigável de Inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que seja capaz de fazer a leitura de números inteiros não negativos de forma flexível. O programa deve ler uma sequência de números com formato flexível até encontrar a palavra FIM, que indica o final do programa. Para isso seu programa deve aplicar as regras de flexibilização descritas abaixo: a) O valor zero (0) pode ser representado pela letra 'o' ou 'O'. b) O valor um (1) pode ser representado pela letra 'l' O programa deve imprimir os números inteiros, sendo um em cada linha. Quando houver algum caractere que não seja permitido em um número, o programa deve imprimir ERRO.",
+    "format_input": "Uma sequência de linhas contendo números escritos de forma flexível, sendo que a última deve sempre conter FIM. Por exemplo, alguns números flexíveis são mostrados abaixo: 4O5 (corresponde a 405) ll12Oo (corresponde a 111200) 8PO (não pode ser convertido para um número, logo gera como resultado ERRO)",
+    "format_output": "Para cada número flexível, deve ser impresso o número inteiro correspondente em uma linha. Quando a flexibilização der como resultado um erro, será impresso ERRO no lugar de um número.",
+    "topics": [
+        "entrada formatada",
+        "string",
+        "formatação"
+    ]
+}

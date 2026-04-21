@@ -1,0 +1,10 @@
+{
+    "title": "C - IPFL",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Temos uma string S de comprimento 2N. São dadas Q consultas a serem executadas nessa string. Na consulta i, dados três inteiros Ti, Ai, e Bi, faça o seguinte: Se Ti=1: troque os caracteres Ai and Bi de S; Se Ti=2: troque os primeiros N caracteres e os últimos N caracteres de S (os valores Ai e Bi não serão utilizados). Por exemplo, se S is FLIP, essa consulta o transformará em IPFL. Imprima a string S após processar as Q consultas na mesma ordem em que são dadas. Restrições: 1 ≤ N ≤ 2×10⁵. S é uma string de largura 2N consistindo de letras do alfabeto inglês em caixa alta. 1 ≤ Q ≤ 3×10⁵. Ti é 1 or 2. Se Ti=1, 1 ≤ Ai < Bi ≤ 2N. Se Ti=2, Ai=Bi=0.",
+    "format_input": "N\nS\nQ\nT1 A1 B1\nT2 A2 B2\nT3 A3 B3\n⋮\nTQ AQ BQ",
+    "format_output": "Imprima a string S depois de processar as consultas",
+    "topics": [
+        "string"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Os retângulos estão nos cercando",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você vai receber uma lista limites de retângulos. Esses limites de retângulo são definidos por pontos em coordenadas inteiras. Os retângulos cercam quadrados no grid de coordenadas. Faça um programa que determine o total de quadrados do grid que são cercados por algum retângulo.",
+    "format_input": "A entrada terá entre 1 e 10 casos de teste. Cada caso de teste inicial com um número n, indicando o número retângulos. Em seguida, virão n linhas com 4 inteiros a, b, c e d, onde (a, b) é ponto inferior esquerdo e (c, d) é o ponto superior direito do retângulo. A entrada para quando n for 0. 0 < n <= 50 a < c, b < d 0 <= a, b, c e d <= 500",
+    "format_output": "Para cada caso de teste, imprima o total de quadrados do grid que são cercados por algum retângulo.",
+    "topics": [
+        "ad-hoc",
+        "repetição",
+        "maratona"
+    ]
+}

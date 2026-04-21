@@ -1,0 +1,10 @@
+{
+    "title": "Pai do avô do pai",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pesquisas arqueológicas encontraram uma misteriosa árvore genealógica da Terra. Todos na terra estão muito curiosos para saber quem são seus ancestrais. Você foi convidado para escrever um programa para responder as perguntas das pessoas de toda a Terra! Cada pessoa quer saber saber quem é seu k-ésimo ancestral. Explicação do caso de teste de exemplo: Primeira pergunta (u = 3, k = 2): 0 (0 é avô de 3) Segunda pergunta (u = 5, k = 1): 2 (2 é pai de 5) Terceira pergunta (u = 4, k = 2): -1 (4 não possui avô)",
+    "format_input": "A primeira linha da entrada terá um inteirno n, indicando quantas pessoas fazem parte dessa árvore genealógica. Na próxima linha tera n - 1 inteiros indicando quem é o pai da (i + 1)-th pessoa. Em seguida, terá um inteiro q, indicando quantas perguntas serão feitas. Depois, virão q linhas com dois inteiros u e k: indicando que a quer saber quem é o k-ésimo ancestral da pessoa u. Limites: 1 <= n, q, k <= 10^3 0 <= u < 10^3",
+    "format_output": "Para cada pergunta, imprima quem é o k-ésimo ancestral da pessoa u. Caso u não possua um k-ésimo ancestral: imprima -1.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

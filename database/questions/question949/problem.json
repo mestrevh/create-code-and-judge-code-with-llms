@@ -1,0 +1,10 @@
+{
+    "title": "Em cada nível da árvore",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrosinho está com dificuldades em construir um algoritmo para encontrar o menor valor e o maior valor dos nós de uma árvore binária, você como colega vai ajudá-lo a construir o algoritmo. Cada nó tem três informações, o valor do nó, o filho a esquerda e o filho a direita. Dado uma árvore binária encontre o menor e maior valor em cada nível da árvore. Sempre iniciamos no nó 0. Nível de um nó é a altura dele.",
+    "format_input": "A entrada consiste em um número N, seguido de N linhas, cada linha Ni contém 3 inteiros, o valor do nó, o filho da esquerda e o filho da direita do i-ésimo nó. - Caso o nó não possua em um ramo filho esse inteiro será -1. Exemplo: 6 10 2 1 14 -1 5 19 3 4 5 -1 -1 23 -1 -1 51 -1 -1 Os nós que estão no nível 1: { 0 }; Os nós que estão no nível 2: { 1, 2 }; Os nós que estão no nível 3: { 3, 4, 5 };",
+    "format_output": "A saída terá a altura da árvore linhas, em cada linha terá a mensagem: Nivel i: Maior = X, Menor = Y.",
+    "topics": [
+        "Árvore"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Ordenação da Rita",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rita recebeu de Onofre um pedido inusitado: escrever um programa que leia três números inteiros e positivos e exibi-los na saída padrão de maneira ORDENADA da seguinte forma: Se o primeiro número lido for ímpar a ordem será crescente. Caso contrário será decrescente. No entanto, se qualquer um dos valores for negativo, será exibida uma mensagem de erro.",
+    "format_input": "Uma sequência de números que devem ser ordenados de acordo com os critérios de Rita.",
+    "format_output": "Os números ordenados ou uma mensagem de erro, caso haja algum número negativo.",
+    "topics": [
+        "decisão",
+        "ordenação"
+    ]
+}

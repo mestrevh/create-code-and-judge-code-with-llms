@@ -1,0 +1,10 @@
+{
+    "title": "Contar imagens",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade adora apreciar imagens. Recentemente, ela encontrou duas imagens que despertaram sua curiosidade, pois era possível encontrar uma imagem dentro da outra. Ela rapidamente descobriu que esse fenômeno acontecia apenas 3 vezes para essas duas imagens. Para sua surpresa, isso acontecia em vários pares de imagem da sua coleção. Dadas duas imagens, ajude a Entidade a contar quantas vezes uma aparece dentro da outra. Exemplo:",
+    "format_input": "A primeira linha da entrada terá dois inteiros n e m, indicando a quantidade de linhas e colunas, respectivamente. Em seguida, virão n linhas com m inteiros p1_i_j separados por espaço, indicando o valor do píxel da primeira imagem na linha i, coluna j . Novamente, virão dois inteiros r, s, indicando a quantidade de linhas e colunas, respectivamente. E então, r linhas de s inteiros p2_i_j separados por espaço, indicando o valor do píxel da segunda imagem na linha i, coluna j. Limites: 1 <= n, m, r, s <= 50 0 <= p1_i_j, p2_i_j <= 255",
+    "format_output": "Um inteiro, representando a quantidade de vezes que foi possível encontrar a segunda imagem na primeira imagem.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Eu vejo tudo",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Os Illuminatis finalmente decidiram dominar o mundo, e o primeiro passo para isso é observar todas as pessoas do planeta. Mas existe uma certa pessoa, chamada Jobscleison, que sempre está fora do campo de visão deles, e por isso eles estão chamando você programador(a) para encontrar em que casa o Jobs está. Para isso serão dados duas cordenadas X e Y da qual você terá que mostrar visualmente onde o Jobscleison se encontra, de forma que o eixo X significa as colunas e Y as linhas em uma tabela 9x9. Será marcando um \"x\" em uma tabela no qual cada cada célula mostrará \"o\". Caso o Jobscleison tiver alguma das coordenadas além de 9 ou abaixo de 1, irá mostrar na tela: Ele esta fugindo Para realizar tal tarefa você pode usar um laço aninhado (um for dentro de outro for ou while dentro de outro while) ou outros meios. Talvez o parâmetro end da função print possa ajudar, cuidado com espaços no fim de cada linha. Por padrão o print é sempre dar um pulo de linha pois: print(\"string\", end = \"\\n\")",
+    "format_input": "As entradas serão seguidas por: X Y Sendo X é o número da coluna onde o Jobscleison se encontra e o Y o número da linha. A entrada não é amigável, podendo haver entradas acima de 9 e abaixo de 1!",
+    "format_output": "A saída se dará por uma tabela no qual x é o local onde o Jobscleison se encontra e o o as células comuns. Se x for 1 e y for 2:\no o o o o o o o o\nx o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\nCaso x ou y forem menores que 1 ou maiores que 9, então no começo do programa deverá ser mostrado:\nPor exemplo se x for -1 e y = 10\nEle esta fugindo!\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\no o o o o o o o o\nx o o o o o o o o",
+    "topics": [
+        "repetição",
+        "string"
+    ]
+}

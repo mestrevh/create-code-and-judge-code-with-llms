@@ -1,0 +1,10 @@
+{
+    "title": "L2Q1 - Winter is Coming",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você é um aprendiz de Meistre, que está viajando por Westeros com o objetivo de ajudar pessoas e trazer um pouco de paz e bons conselhos para essa terra em caos. Quando você chega em Winterfell, descobre que a Lady de Winterfell está estocando grãos para o inverno. Porém, por causa do fluxo de grãos, ela está precisando de ajuda para controlar quantos grãos tem em cada momento e se tem grãos suficientes. Você então se oferece para criar um programa que, dado a quantidade inicial de grãos armazenados e uma sequencia de operações, determina a quantidade final de grãos.",
+    "format_input": "A primeira linha é dada por: I onde I é um inteiro positivo, representando quantidade inicial de grãos uma sequencia de linhas encerradas por fim de arquivo, onde cada linha é dada por uma palavra e um inteiro: O N tal que, O pode ser \"GUARDAR\" ou \"RETIRAR\" e N é um numero inteiro positivo, representando a quantidade de grãos para adicionar ao armazém (caso O seja \"GUARDAR)\" ou retirar do armazém (caso O seja \"RETIRAR\"). Dica: Procure na documentação sobre o método hasNext",
+    "format_output": "Você deve imprimir uma única linha contendo: Winter is here caso, em algum momento, tenha-se tentado retirar mais grãos do que havia armazenado. Caso contrário, imprime F sendo F igual à quantidade de grãos restantes após todas as operações.",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Cilada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Cilada é um puzzle bastante interessante. O objetivo é encaixar todas as p peças no tabuleiro. O tabuleiro tem tamanho n x m e cada célula apresenta um símbolo (representado aqui por um número entre 1 e 4). Existem 2 tipos de peças: retangulares (tipo 1) e em forma de L (tipoe 2); as peças também possuem células com símbolos e só vão encaixar no tabuleiro se todos os símbolos combinarem. É possível rotacionar as peças de todas as formas possíveis. As peças de tipo 1 possuem mapeamento direto, exemplo: . Cada peça do tipo 1 pode ser rotacionada da seguinte forma: . Enquanto as peças do tipo 2 apresentam o seguinte mapeamento: . Cada peça do tipo 2 pode ser rotacionada da seguinte forma: . Dado o tabuleiro e as peças, de quantas formas é possível vencer? Observação: metade dos casos de teste não possuem peças do tipo 2.",
+    "format_input": "A primeira linha da entrada possui dois inteiros, n e m, indicando, respectivamente, a quantidade de linhas e colunas do tabuleiro. Em seguida, virão n linhas, cada uma com m inteiros, indicando os símbolos do tabuleiro. Após isso, virá um inteiro p, indicando a quantidade de peças do puzzle. E então, virão p linhas, cada linha segue o seguinte formado: <tipo da peça> <valores> (se a peça for do tipo 1, virão 2 valores; e se a peça for do tipo 2, virão 3 valores). Limites: 1 <= n, m <= 4 <tipo da peça> 1 ou 2 1 <= <valores> <= 4",
+    "format_output": "A saída deverá conter um inteiro, indicando a quantidade de forma que é possível vencer o puzzle.",
+    "topics": [
+        "busca completa"
+    ]
+}

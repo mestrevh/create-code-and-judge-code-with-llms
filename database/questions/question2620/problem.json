@@ -1,0 +1,10 @@
+{
+    "title": "O Forte de Joey",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Joey estava jogando seu jogo favorito, Skyrim, quando, animou-se e decidiu construir um castelo de verdade. Para isso ele precisava controlar os materiais que serão usados na construção. Como podem ser muitos tipos de materiais, ele pediu a você para criar um programa fazer esse controle de estoque. Após registrar cada material que Joey possui, o programa vai atualizar a quantidade de materiais sempre que Joey desejar retirar algum material do estoque. O programa também deve avisar quando Joey tentar retirar uma quantidade de materiais superior a que ele possui em estoque. Obviamente, nesse caso, o estoque não sofrerá mudanças, pois a retirada não será concretizada. Obs: o uso de arrays é obrigatório na resolução desta questão.",
+    "format_input": "Uma linha com o número N de materiais que serão usados na construção do castelo. Seguido de N linhas no formato: NOME X. Sendo: NOME - nome do material. X - a quantidade inicial dele no estoque. Uma linha no formato com o número M de vezes que ele irá retirar materiais do estoque. Seguido de M linhas no formato: NOME Y. Sendo: NOME - o nome do item que está sendo retirado. Y - a quantidade de itens retirados.",
+    "format_output": "Para cada retirada deve ser informada a quantidade restante dele em estoque do material retirado, através da frase: “Tem K NOME no estoque”. Sendo: K - a quantidade de materiais que sobrou no estoque após realizar a retirada. NOME - o nome do material que está sendo retirado. OU, caso não possua a quantidade suficiente do material no estoque: “Nao tem NOME suficiente no estoque”. Sendo: NOME - o nome do material que se deseja retirar em quantidade superior ao que o estoque possui. Nenhuma mensagem é dada quando Joe digita o nome de um material não cadastrado no estoque.",
+    "topics": [
+        "array"
+    ]
+}

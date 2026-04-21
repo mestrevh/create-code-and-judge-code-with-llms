@@ -1,0 +1,12 @@
+{
+    "title": "Quantos zeros e quantos dígitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O que fazer? Dado um número inteiro decimal (N), positivo, descobrir quantos zeros o fatorial de N conterá em um determinado sistema de numeração e, Encontrar quantos dígitos terá este fatorial no mesmo sistema de numeração. Você pode assumir que num sistema numérico baseado em B, há B diferentes símbolos para identificar valores indo de 0 até B-1. Além disso, 1 < B <= 10 ou B= 16. A sua solução deve conter no mínimo 3 funções. Sugestão: função para calcular fatorial, função para calcular número de zeros, função para converter da base decimal para outra. Dica: Conversão de um número decimal para qualquer base é realizada através de divisões consecutivas. Como? Divide-se o número da base decimal pelo valor da base (B) até que não seja mais divisível, ao final, o número desejado é o resultado da última divisão ajuntado dos restos das demais divisões \"de baixo para cima\". Veja o exemplo abaixo, onde o número 2834 da base decimal é convertido para a base octal.",
+    "format_input": "Há diversas linhas de entrada. Cada linha forma um bloco. Cada linha conterá um valor decimal N e um número inteiro B (1 < B ≤ 800), que é a base do sistema de números que você vai considerar. O programa deve encerrar a linha de entrada for igual a FIM (ou qualquer variação tipográfica da mesma).",
+    "format_output": "Para cada linha de entrada, imprima uma única linha informando: O fatorial do número no sistema decimal O fatorial do número no sistema indicado na entrada quantos zeros terá o fatorial desse número no sistema de numeração solicitado. quantos dígitos terá o fatorial desse número no sistema de numeração solicitado. Explicando a saída: considerando a entrada 5 16, por exemplo, 5! = 120 (em decimal) mas é 78 no sistema de numeração hexadecimal (base desejada). Portanto, no sistema hexadecimal 5! não tem zeros no final. Possíveis mensagens: \"Numero negativo\", quando o número da entrada não for positivo. \"Base invalida\", quando o critério 1 < B <= 16 não for obedecido. Separe esses números com um único espaço. Você pode ter certeza que o número de zeros à direita ou o número de dígitos não será maior do que 2^31-1",
+    "topics": [
+        "decisão",
+        "repetição",
+        "função"
+    ]
+}

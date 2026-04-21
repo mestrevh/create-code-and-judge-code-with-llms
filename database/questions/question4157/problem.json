@@ -1,0 +1,10 @@
+{
+    "title": "Índice de Aprendizado Federal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após cursar o primeiro período do curso de Engenharia da Computação no CIn, um grupo de ex-calouros encontrou uma forma de expressar o aprendizado obtido nesse período através de uma função de duas variáveis: x -> Quantidade de submissões feitas no TheHuxley. y -> Horas-aula assistidas de MD. O índice pode ser encontrado aplicando as informações acima na seguinte fórmula: Em que í é o valor batizado como Índice de Aprendizado Federal (IAF). Além de quantificar, a equipe conseguiu, também, classificar os valores entre diferentes níveis, mostrados na seguinte tabela: Dito isso, você deve criar um programa que, ao receber os dados de três alunos diferentes, deve classificá-los através do IAF e imprimir suas descrições.",
+    "format_input": "Trẽs linhas, tal que cada linha contém os valores para x e y de cada aluno, e um índice de identificação K. x, y, K x', y', K' x\", y\", K\" Dado que: -10⁹ <= x, y <= 10⁹. OBS: Utilize o valor e com uma precisão de dois algarismos após a vírgula.",
+    "format_output": "Trẽs linhas, contendo o índice de identificação, valor do IAF de cada aluno e sua descrição, no seguinte formato: \"O aluno de índice <K> possui o valor IAF igual a <valor_IAF> e a descrição de <descrição>.\"",
+    "topics": [
+        "decisão"
+    ]
+}

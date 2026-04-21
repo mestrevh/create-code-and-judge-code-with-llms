@@ -1,0 +1,12 @@
+{
+    "title": "Converta as Expressões",
+    "time_limit": "1 segundo(s)",
+    "descrition": "As linguagens de programação desempenham um papel fundamental no desenvolvimento de software e na construção de sistemas computacionais. Cada linguagem possui características específicas que a tornam mais adequada para determinados tipos de aplicação, nestas características podemos mencionar os paradigmas de programação. Muitos são bem conhecidos: Imperativo, Funcional, Orientado a objetos, ou uma combinação destes. Mas um não tão conhecido é o paradigma baseado em Pilha, onde a estrutura de controle e a manipulação de dados ocorrem por meio de uma pilha (stack), na qual valores são empilhados (push) e desempilhados (pop) conforme necessário para a execução das operações. Uma convenção neste tipo de paradigma é o uso da Notação Polonesa Reversa (RPN - Reverse Polish Notation), no qual em vez da notação infixa tradicional: (1 + 2 ) * 3; A RPN posiciona os operadores após os operandos, eliminando a necessidade de parênteses para definir a precedência das operações: 1 2 + 3 *. Sua missão, portanto, é converter uma expressão matemática tradicional para a RPN, de forma que esta possa ser utilizada em qualquer linguagem orientada a Pilha. - Os operadores que podem ser encontrados são: +, -, *, / e ^ (exponenciação). - Os operandos são letras minúsculas: aa e abc, por exemplo, são operandos inválidos. - Expressões inválidas devem ser identificadas e reportadas!",
+    "format_input": "t [ número de expressões <= 100] expressão [ 1 <= tamanho <= 400] [ t-1 expressões ]",
+    "format_output": "As expressões na notação RPN, uma por linha",
+    "topics": [
+        "estrutura de dados",
+        "Árvore",
+        "recursão"
+    ]
+}

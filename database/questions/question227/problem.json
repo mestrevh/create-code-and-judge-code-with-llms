@@ -1,0 +1,12 @@
+{
+    "title": "Paciência em linha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O problema consiste em simular uma modalidade diferente do jogo de cartas \"Paciência\", as regras são as seguintes: \" As cartas são distribuidas uma a uma em uma linha da esquerda para a direita, não sobrepostas. Sempre que um cartão combina com o seu vizinho à esquerda, ou com o terceiro à esquerda, ele pode ser movido sobre o outro. Cartas combinam se elas possuem o mesmo naipe ou a mesma classe. Após fazer um movimento, observe se mais movimentos podem ser realizados. Somente o cartão do topo de cada pilha pode ser movido a qualquer momento. Espaços entre as pilhas(pilhas são compostas de uma ou mais cartas) devem ser ocupados pela pilha mais próxima à direita. Combine o máximo de cartas possíveis, o jogador ganha se apenas uma pilha permanece.\" Podem surgir situações onde mais de um movimento é possível. Quando duas cartas puderem ser movidas, você deve adotar a estratégia de sempre mover a carta mais à esquerda possível. Sempre que um cartão puder ser movido de duas maneiras, mova-o três posições para a esquerda. Demostração de um movimento em um jogo real dividida em duas etapas: A carta movida é a rainha de paus (QC), ela pode ser movida de duas maneiras possíveis, segundo a estratégia adotada ela é movida 3 posições para a esquerda, logo após, os espaços vazios são ocupados pelas pilhas vizinhas à direita.",
+    "format_input": "Os dados de entrada especificam a ordem em que as cartas serão distribuidas no bloco A entrada contém pares de linhas, cada uma com 26 cartas separadas por um caractere de espaço. A última linha de entrada contém o caractere '#' como primeiro caractere. Cartas são representadas por dois caracteres. O primeiro caractere representa a classe da carta (A = Ás , 2-9, T = 10, J = Valete, Q = Rainha , K = Rei ) e o segundo caractere representa o naipe (C = Paus , D = Ouros , H = Copas , S = Espadas).",
+    "format_output": "Uma linha de saída deve ser produzida para cada par de linhas(cada par com 52 cartas). Cada linha contém o número de pilhas, assim como o número de cartas de cada pilha remanescente após um jogo, conforme o exemplo de saída.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "pilha"
+    ]
+}

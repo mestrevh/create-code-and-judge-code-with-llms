@@ -1,0 +1,13 @@
+{
+    "title": "Organizando provas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lorense é um estudante de programação muito requisitado, e foi convidado por um dos organizadores da prova, do concurso, da ESA (que seleciona estudantes no Brasil todo para que, em dois anos, se qualificarem como terceiros sargentos do Exército Brasileiro), para organizar as questões da prova, pois, de alguma forma, os bancos de dados foram hackeados por um tal de Zeca. De modo que, quase todas as alternativas da prova estão com a ordem incorreta. Lorense precisa que você ajude-o pois ele está totalmente sem tempo para fazer esse simples código em C, que recebe o número da ordem (“a” é 1, “b” é 2 e assim por diante) e as alternativas e as adapta para o formato que a prova exige (com as opções de “a” até “d”, sendo que “a” e “c”, “b” e “d” devem estar na mesma linha e separados por um espaço).",
+    "format_input": "Você recebe um número inteiro e uma string (de até 20 caracteres) 4 vezes, separados em linhas, até que seja digitado o número “0”.",
+    "format_output": "Deve ser impresso primeiro um inteiro que simbolize o número da questão na ordem crescente (de 1 até ∞), cinco caracteres e cinco strings na ordem desejada. obs. Muito cuidado com os espaços e \"\\n\"",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

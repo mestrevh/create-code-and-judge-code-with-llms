@@ -1,0 +1,11 @@
+{
+    "title": "High-primes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lucas estava estudando matemática quando se deparou com as seguintes definições: Um número X é chamado de quadrado-perfeito quando sua raiz é um número inteiro. Um número Y é dito primo quando possui dois divisores positivos distintos e eles são 1 e Y. Um número Z é chamado de high-prime quando ele é um quadrado-perfeito e a sua raiz é um número primo. Ao ler isso, Lucas ficou se perguntando com que frequência ele poderia encontrar números high-primes caso considerasse apenas números em um dado intervalo [A,B]. Lucas está bastante ocupado no momento, você pode ajudá-lo?",
+    "format_input": "A primeira linha da entrada contém T (1 ≤ T ≤ 10000), o número de casos de teste. As próximas T linhas descrevem os casos de teste, cada caso de teste é composto por uma linha contendo dois inteiros: A e B (1 ≤ A ≤ B ≤ 10^12), que significam que Lucas só se interessa nos números do intervalo [A,B].",
+    "format_output": "Para cada caso de teste imprima uma linha contendo um único inteiro, indicando quantos números high-primes existem no intervalo [A,B].",
+    "topics": [
+        "requer solução eficiente",
+        "números primos"
+    ]
+}

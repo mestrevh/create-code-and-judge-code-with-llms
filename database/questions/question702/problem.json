@@ -1,0 +1,10 @@
+{
+    "title": "Hipotenusa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A hipotenusa é lado mais longo de um triângulo retângulo, por ser oposto ao ângulo reto, que define este tipo de triângulo. \"A soma dos quadrados dos catetos é igual ao quadrado da hipotenusa.\" Faça um programa para, dado o tamanho de dois lados de um triângulo (catetos), retornar o comprimento do terceiro lado (hipotenusa) de modo a formar um triângulo retângulo.",
+    "format_input": "Dois números reais (um por linha), maior que zero.",
+    "format_output": "Um número real com duas casa decimais.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

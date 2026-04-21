@@ -1,0 +1,10 @@
+{
+    "title": "Q1 - P1B",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Fazer um programa que solicite 2 números e informe: a) A soma dos números; b) O produto do primeiro número pelo quadrado do segundo; c) O quadrado do primeiro número; d) A media dos numeros",
+    "format_input": "O usuario deve digitar dois numeros",
+    "format_output": "O programa deve exibir o que foi pedido na descrição, imprimindo na tela os valores abaixo: Digite o primeiro numero: Digite o segundo numero: Soma dos numeros: n Produto do primeiro numero pelo quadrado do segundo: n Quadrado do primeiro numero: n Media dos numeros: n",
+    "topics": [
+        "lógica matemática"
+    ]
+}

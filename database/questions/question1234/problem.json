@@ -1,0 +1,14 @@
+{
+    "title": "Balanceando números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Balanceamento de parênteses é algo fundamental na computação e na matemática. Mas, e se no lugar de parênteses, tivéssmos números? Faça um programa que avalie se uma sequência de números está balanceada ou não. Sendo '(' representado por 0 e ')' representado por 1, a sequência: 0 0 1 1 está balanceada, assim como: 0 1 0 1 está balanceada.",
+    "format_input": "A primeira linha da entrada contém A, F e T, indicando respectivamente: O número que representa um '(', o número que representa ')' e o tamanho da sequência de números. Em seguida, seguirá uma sequência de T números que devem ser avaliados.",
+    "format_output": "\"Balanceada!\" caso a sequência esteja balanceada. \"Desbalanceada!\" caso a sequência esteja desbalanceada.",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "repetição",
+        "pilha"
+    ]
+}

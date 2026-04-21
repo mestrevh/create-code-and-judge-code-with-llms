@@ -1,0 +1,12 @@
+{
+    "title": "Reverso e soma",
+    "time_limit": "3 segundo(s)",
+    "descrition": "\"Reverso e soma\" é um método simples: escolha um número, inverta os digitos e some o resultado ao original. Se a soma não é um palíndromo (o que significa que não é o mesmo número se visto da direita pra esquerda ou da esquerda pra direita) repita o processo. Por exemplo: 195 (número inicial) 591 (inverso) --- 786 (soma) 687 (inverso) --- 1473 (soma) 3741 (inverso) --- 5214 (soma) 4125 (inverso) --- 9339 (soma) -> resulta num palíndromo. Neste caso particular o palíndromo 9339 apareceu depois da 4ª adição. Este método leva à palíndromos em poucos passos para quase todos os inteiros. Mas existem excessões interessantes. 196 é o primeiro número cujo palíndromo não foi encontrado. No entanto não está provado que não existe tal palíndromo. Você deve escrever um programa que dê o palíndromo resultante e o número de interações(adições) para computar o palíndromo. Você pode assumir que todos os testes no problema terão uma resposta, serão computados em menos de 1000 iterações (adições), não existirá um palíndromo maior que 2 elevado a 100",
+    "format_input": "A primeira linha terá um número N que é o número de casos de teste. Nas próximas N linhas serão fornecidos números inteiros.",
+    "format_output": "Para cada um dos n inteiros fornecidos você deverá escrever uma linha contendo: o número mínimo de iterações (adições) para chegar ao palíndromo e o palíndromo resultante em si, separados por um espaço.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "palíndromos"
+    ]
+}

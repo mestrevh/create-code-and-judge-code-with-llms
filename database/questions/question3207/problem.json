@@ -1,0 +1,10 @@
+{
+    "title": "inversao dos digitos de um numero inteiro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "receba um numero inteiro com 3 dígitos e inverta a ordem de seus algarismos.",
+    "format_input": "345",
+    "format_output": "543",
+    "topics": [
+        "ordenação"
+    ]
+}

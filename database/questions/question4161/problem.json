@@ -1,0 +1,14 @@
+{
+    "title": "Soma da área dos retângulos na função X^2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um viajante do tempo passado chamado Taylor, estava estudando séries, ele aprendeu a calcular áreas sobre uma curva quando estava estudando a Soma de Riemann e gostaria de comparar os resultados com seus estudos anteriores, ajude-o a criar um programa que calcule a área sobre a curva X^2 (X ao quadrado) utilizando retângulos, e compare o resultado com o número de Taylor. O método utilizado foi a Soma de Riemman à direita. É utilizado um somatório, no qual soma a área de N retângulos sobre a curva f(x) = X^2, onde X é A + Base. Observe o seguinte exemplo:",
+    "format_input": "A entrada consiste em 2 linhas. 1. Três números (float) A, B, N no qual A < B e N é o número de iterações da soma. 2. Um número C (float) que é resultado dos estudos de Taylor. Obs: B, C, N > 0 A >= 0",
+    "format_output": "A saída consiste em 3 condições: 1. Se o resultado da soma for maior que C imprima \"Maior\". 2. Caso os resultados forem iguais, imprima \"Igual\". 3. Caso resultado da soma for menor que C imprima \"Menor\".",
+    "topics": [
+        "ponto flutuante",
+        "decisão",
+        "lógica matemática",
+        "repetição",
+        "recursão"
+    ]
+}

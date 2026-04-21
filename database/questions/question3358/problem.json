@@ -1,0 +1,10 @@
+{
+    "title": "Apagador [GEMA PC 3.0 E]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade vai participar de uma competição matemática. Nessa competição, existirá vários números de três dígitos e o objetivo é apagar exatamente um dígito de forma que o número resultante seja o maior possível. A Entidade quer treinar para a competição, mas precisa de um programa que sempre faça a melhor escolha para poder comparar seu desempenho. Faça um programa que receba um número n de três dígitos e informe o maior número x que pode ser formado apagando exatamente um único dígito.",
+    "format_input": "A entrada terá múltiplos casos de teste, e a primeira linha da entrada terá um inteiro (t), indicando quantos casos de testes. Em seguida virão t casos de teste seguindo o padrão abaixo de entrada: Virá um inteiro n com exatamente três dígitos. t <= 1000 100 <= n <= 999",
+    "format_output": "Imprima uma única linha contendo o inteiro x que representa o maior número que pode ser formado ao apagar exatamente um único dígito de n.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

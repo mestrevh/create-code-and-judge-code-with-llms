@@ -1,0 +1,12 @@
+{
+    "title": "Árvore geradora máxima",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Encontre o peso total da árvora geradora máxima.",
+    "format_input": "A primeira linha contém um inteiro T denotando o número de casos de testes. Cada caso de teste você vai receber 2 inteiros N e M. Seguidos de M linhas descrevendo uma aresta: sendo 3 inteiros A, B e C. Sendo A diferente de B que será entre 1 a N denotando os vértices conectados e o C o qual é peso da aresta. 1 <= T <= 20 1 <= N <= 5000 1 <= M <= 100 000 1 <= C <= 10 000",
+    "format_output": "Para cada caso de teste imprima um inteiro - total dos pesos da árvore geradora máxima.",
+    "topics": [
+        "Árvore",
+        "grafo",
+        "conjuntos disjuntos"
+    ]
+}

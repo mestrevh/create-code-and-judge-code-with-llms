@@ -1,0 +1,12 @@
+{
+    "title": "Troca de presentes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Augusto casou recentemente e recebeu vários presentes repetidos. Sua intenção é trocar esses extras para poder adquirir um ar condicionado split que custa R$ 800. Escreva um programa que receba como entrada o valor e a quantidade de unidades ganhas de cada um dos 6 presentes que ele separou, e exiba quantos itens serão trocados e uma mensagem informando se ele conseguirá adquirir o ar condicionado ou não. Dica: Se ele ganhar apenas uma unidade de um presente, não fará troca dele. Porém, caso ganhe mais de um, ficará apenas com um e trocará os demais.",
+    "format_input": "Um valor real e um valor inteiro para cada presente",
+    "format_output": "Um valor inteiro, e uma mensagem SIM ou NAO (sem acento) indicando se o ar condicionado poderá ser adquirido com as trocas",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

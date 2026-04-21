@@ -1,0 +1,10 @@
+{
+    "title": "L6Q1 - Muitos Anos de Vida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O doctor já presenciou muitos acontecimentos em locais e tempos completamente distintos, o que acabou deixando a sua história confusa demais para ser explicada para o seu próximo companion, ele então pede para que você crie um sistema para a TARDIS, que impressionantemente é capaz de rodar programas feitos em java, para que dada uma lista de acontecimentos e datas, ela liste todos esses acontecimentos em ordem cronológica. Atualmente ele possui 2 sistemas criados por alguns alunos de Ciência da Computação que foram feitos usando arrays, um deles é utilizando um método chamado BubbleSort, o qual o Doctor acha muito ineficiente, enquanto o outro é utilizando uma tal de heap, que é mais eficiente mas na cabeça do Doctor não passa de \"Wibbly Wobbly Timey Wimey... Stuff\", que ele não entende muito bem. Ele pede então que o seu sistema não possua nenhum array, pois ele já está de saco cheio disso, e que seja feito usando uma nova estrutura de dados chamada Lista Encadeada. O seu sistema deverá receber uma lista de acontecimentos e seus respectivos anos e então imprimir na tela esses acontecimentos em ordem cronológica. OBS.: Todas as leituras e impressões deverão ser realizadas no método main da classe principal. OBS 2: Em caso de empate, deverá ser impresso primeiro o acontecimento lexicograficamente menor. OBS3: Para identificar o acontecimento lexicograficamente menor, use o comando this.nome1.compareTo(nome2), que retorna: um numero menor que 0 se nome1 for menor que nome2, um numero igual a 0 se nome1 for igual a nome2 um numero maior que 0 se nome1 for maior que nome2 OBS 4: O uso de Arrays é proibido.",
+    "format_input": "A entrada será uma sequência de várias linhas representando os acontecimentos e os seus respectivos anos: N A N - string A - inteiro",
+    "format_output": "A saída deverá ser composta por uma linha para cada acontecimento, colocando primeiramente o ano, seguindo do nome do acontecimento, separados por um -. N - A",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

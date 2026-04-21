@@ -1,0 +1,10 @@
+{
+    "title": "Multiplicação de Matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dadas duas matrizes A e B, é possível determinar a matriz C = A*B usando a definição padrão de multiplicação de matrizes: Como pode ser visto no exemplo abaixo: Neste caso temos: Note que só podemos multiplicar matrizes se o número de colunas da primeira for igual ao número de linhas segunda. E que a nova matriz terá o tamanho de linhas da primeira e de colunas da segunda. Dado duas matrizes realize a multiplicação entre elas e imprima a nova matriz.",
+    "format_input": "A primeira linha terá 3 inteiros N, M, O : - N representa a quantidade de linhas da matriz A. - M representa a quantidade de colunas da matriz A e a quantidade de linhas da matriz B. - O indica a quantidade de colunas da matriz B. Sendo seguido de N linhas com M números inteiros representando a matriz A, logo em seguida mias M linhas com O números indicando a matriz B. As matrizes A e B são compatíveis na multiplicação.",
+    "format_output": "Imprimir a matriz C.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Teste",
+    "time_limit": "1 segundo(s)",
+    "descrition": "a",
+    "format_input": "a",
+    "format_output": "asdfas",
+    "topics": [
+        "árvore geradora mínima"
+    ]
+}

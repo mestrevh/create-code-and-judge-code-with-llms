@@ -1,0 +1,12 @@
+{
+    "title": "Média dos elementos pares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um vetor de números reais, calcule a média dos elementos pares positivos.",
+    "format_input": "Uma linha contendo uma sequência de números reais.",
+    "format_output": "Um valor real com duas casas decimais (incluir um final de linha após o valor) Se não houver elementos pares positivos, imprimir o inteiro -1",
+    "topics": [
+        "array",
+        "acumulador",
+        "repetição"
+    ]
+}

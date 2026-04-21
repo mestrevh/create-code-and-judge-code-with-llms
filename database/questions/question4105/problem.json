@@ -1,0 +1,12 @@
+{
+    "title": "Produção de leite",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Kcaj e Ordep são grandes fazendeiros e vizinhos, certo dia eles decidiram iniciar uma competição para saber qual fazenda é a maior produtora de leite. Antes do inicio da competição eles registraram os valores inteiros P1 e P2, representando quanto cada um produz diariamente. A competição vai durar X dias, onde a competição iniciará no dia 1. Eles concordaram com seguintes as regras: Regras para Kcaj: 1. Quando o dia é primo, a produção de Kcaj terá um aumento de 5% em relação a sua produção diaria. 2. Quando o somatório dos dígitos resultantes do fatorial do dia for um número primo, Kcaj vai roubar 10% da coleta de Ordep até aquele momento. Regras para Ordep: 1. A partir do fatorial do dia, faça o somatório dos dígitos resultantes do fatorial, caso o somatório seja divisor da produção diária de Ordep, adicione 30 litros de leite na coleta de Ordep. 2. Quando a coleta diária de Ordep for coprimo do dia, Ordep vai roubar 10% da coleta de Kcaj até aquele momento. Cada fazenda tem sua própria produção diária por competição, que será informado juntamente a quantidade de dias que a competição vai acontecer. O objetivo é dizer qual fazenda ganhou a competição e qual foi sua coleta de leite. OBS.1: As regras somente serão utilizadas no final do dia, ou seja, após ambas as fazendas terem produzido sua quantidade diária. OBS.2: Os fazendeiros entraram em um acordo e decidiram que primeiro é feito as duas verificações das regras de Kcaj, após isso será feitas as duas verificações das regras de Ordep. OBS.3: Dois números são coprimos quando o MDC deles é 1. NÃO HAVERÁ EMPATE.",
+    "format_input": "Um inteiro X, representando a quantidade de dias que a competição vai acontecer. Um inteiro P1, para a produção diária de Kcaj. Um inteiro P2, para a produção diária de Ordep.",
+    "format_output": "O nome do fazendeiro que ganhou, da seguinte forma: \"Kcaj Ganhou!\" ou \"Ordep Ganhou!\" seguido de uma quebra de linha com a quantidade de leite que o ganhador produziu nos X dias, com duas casas decimais.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "recursão"
+    ]
+}

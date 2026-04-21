@@ -1,0 +1,12 @@
+{
+    "title": "Treino de saltos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um treino de salto em altura, cada atleta tem direito a dar quantos saltos quiser como parte de uma atividade prática. Faça um programa que recebe a altura dos saltos de cada atleta enquanto ele quiser saltar. Para informar que o atleta não quer mais saltar é informado um valor de salto negativo. Seu programa deve receber o nome de cada atleta e informar qual a média de altura dos saltos para cada um. Devem ser recebidos novos atletas até que seja digitado \"sair\" no nome do atleta.",
+    "format_input": "Para cada atleta: Seu nome; Vários valores de saltos (float), até que seja informado um salto negativo",
+    "format_output": "Para cada atleta: O nome do atleta e a média de saltos (com uma casa decimal de precisão).",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

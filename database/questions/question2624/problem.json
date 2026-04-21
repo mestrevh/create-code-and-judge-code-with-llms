@@ -1,0 +1,15 @@
+{
+    "title": "Operação diferente com matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Acabamos de reinventar as operações com matrizes! Agora você precisa implementar um programa que execute essas operações! Elas funcionam assim: você deve fornecer um inteiro que indica a dimensão de duas matrizes quadradas; na sequência você deve fornecer as duas matrizes; por último você deve informar a operação usando dois caracteres que podem ser: +- ou -+\nSe a sequência de caracteres for +- você deve executar a soma nas linhas ímpares e a subtração nas linhas pares\nSe a sequência de caracteres for -+ você deve executar a soma nas linhas pares e a subtração nas linhas ímpares\nVeja o exemplo:\n3\n1 2 3\n4 5 6\n7 8 9\n11 12 13\n14 15 16\n17 18 19\n+-\nNeste caso, soma-se as linhas 1 e 3 e subtrai-se a linha 2. O resultado é:\n12.00 14.00 16.00\n-10.00 -10.00 -10.00\n24.00 26.00 28.00",
+    "format_input": "A entrada é dada pela seguinte sequência:\nn: número de linhas e colunas das matrizes quadradas\n3\nM1: matriz quadrada 1\n1 2 3\n4 5 6\n7 8 9\nM2: matriz quadrada 2\n11 12 13\n14 15 16\n17 18 19\ns: dupla de caracteres que pode ser +- ou -+\n+-",
+    "format_output": "Matriz quadrada resultado da operação descrita no problema:\n12.00 14.00 16.00\n-10.00 -10.00 -10.00\n24.00 26.00 28.00\nUse duas casas decimais.",
+    "topics": [
+        "estrutura de dados",
+        "multiplas entradas",
+        "array",
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

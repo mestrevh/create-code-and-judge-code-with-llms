@@ -1,0 +1,10 @@
+{
+    "title": "Ajuda Vendedores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa de ajuda para vendedores. A partir do valor do produto digitado pelo usuário, mostre: • o total a pagar com desconto de 10% • o valor de cada parcela, no parcelamento de 3× sem juros; • a comissão do vendedor, no caso da venda ser a vista (5% sobre o valor com desconto) • a comissão do vendedor, no caso da venda ser parcelada (5% sobre o valor total)",
+    "format_input": "O usuario deve digitar o valor total do produto",
+    "format_output": "O programa deve exibir os valores do produto com desconto, o valor de cada parcela em 3x sem juros, a comissao do vendedor a vista e a prazo, imprimindo na tela os valores abaixo: Digite o valor total do produto: (impresso pela funcao input) A vista com desconto de 10%: n Valor da parcela em 3x sem juros: n Comissão do vendedor a vista: n Comissão do vendedor a prazo:",
+    "topics": [
+        "lógica matemática"
+    ]
+}

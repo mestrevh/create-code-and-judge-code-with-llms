@@ -1,0 +1,11 @@
+{
+    "title": "Sede de Shake no Puro Hell",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em uma noite no vilarejo Puro Hell, Lamalias Kebrest e Nati Natini Nia estavam assistindo a série ‘Bizarras Coisas’ na TV quando uma sede avassaladora de shake lhes caiu. Elas decidiram ligar para Háizes Ice Cream para ver as ofertas de shake do dia. A moça da Háizes lhes disse as seguintes informações: “Há 3 shakes em oferta hoje: [1] Shake Crausk [2] Shake Extravaganza [3] Shake Calamidade O desconto é dado a partir da quantidade de mL que você queira: Shake Crausk: Até 500 mL: desconto de 5% por 100 mL Acima de 500 mL: desconto de 10% por 100 mL Shake Extravaganza: Até 500 mL: desconto de 3% por 100 mL Acima de 500 mL: desconto de 6% por 100 mL Shake Calamidade: Até 500 mL: desconto de 4% por 100 mL Acima de 500 mL: desconto de 8% por 100 mL Sendo que cada 100 mL valem R$2,00 para o Crausk R$3,00 para o Extravaganza e R$4,00 para o Calamidade.” Lamalias e Nia estão interessadas em todos, mas como elas não sabem o que pedir, nem quanto de cada pedir, então elas irão fazer um sorteio para ver qual vão pegar e quanto de cada vão comprar e depois do sorteio é que irão abrir a carteira para ver se tem dinheiro para pagar (elas gostam de impor auto sabotagens em seus caminhos). Seu programa deve fazer a seguinte tarefa:",
+    "format_input": "ler os dois números indicativos de cada shake que serão pedidos; ler as duas quantidades de mL correspondente a cada shake pedido respectivamente; ler a quantidade ‘R’ de dinheiro que elas têm. (*todas as entradas são inteiros, não haverá valores float nessa questão*)",
+    "format_output": "Deve se calcular e ver se dá para comprar os shakes, se der tem de verificar se dá para pegar a mais do que elas sortearam (dobro, triplo, etc). se der \"Yeah! Shake %d vezes mais.\\n\"; se não der para aumentar, mas der para comprar os sorteados \"De qualquer forma matamos nossa sede de shake.\\n\"; se elas não tiverem dinheiro suficiente \"Carambolas! O shake JA ERA.\\n\".",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

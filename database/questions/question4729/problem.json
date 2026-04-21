@@ -1,0 +1,12 @@
+{
+    "title": "BALL BLASTERS 2.0",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em preparação para o ultimo projeto da disciplina você decidiu fazer um mini jogo, numa tarde de contemplação e brainstorm você decidiu fazer uma mini versão de um jogo que jogava no celular da sua tia quando era novo, ball blasters 2.0:",
+    "format_input": "O jogo consistem em destruir uma fila de bolas com bolas iguais lançadas pelo jogador, no começo da partida você recebe um inteiro n dizendo quantas bolas estarão na lista e em sequencia n inteiros que representam as bolas e seus numeros, ex: 11 1 2 3 2 2 2 3 2 2 2 2 Em seguida você recebe um inteiro m representando quantos tiros vão ser dados, seguidos de m pares de inteiros que dizem respectivamente a posição do tiro e o valor da bola atirada: 2 3 2 3 3 Coisas a considerar: -A primeira bola da lista é contada a partir do valor 1, na lista supracitada a bola 1 é a primeira, a 2 a segunda, a 3 a terceira a 2 a quarta e assim por diante -Se o tiro for dado na bola x a bola atirada ficará após a bola x e antes da bola x + 1 -Se uma das bolas a direita ou a esquerda da bola lançada for de mesmo valor, toda a sequencia daquele valor é destruída, se nenhuma for, a bola é inserida naquela posição e o próximo tiro é dado -A lista restante não é destruída, ela continua como estava esperando o próximo tiro sem as bolas destruídas, ex: uma lista 1 2 2 2 1 1 1 que recebe um tiro do tipo 2 2 vira 1 1 1 1 e espera o próximo tiro",
+    "format_output": "A saída é a lista restante após todos os tiros, no exemplo acima: 1 2 2 2 2 2",
+    "topics": [
+        "estrutura de dados",
+        "simulação de jogos",
+        "ponteiro"
+    ]
+}

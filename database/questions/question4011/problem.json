@@ -1,0 +1,11 @@
+{
+    "title": "Pesquisa Eleitoral",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que recebe como entrada a quantidade de votos (alcançados na pesquisa) de 3 candidatos e a quantidade de votos nulos. O programa deverá imprimir a porcentagem de votos dos 3 candidatos e de votos nulos.",
+    "format_input": "O usuario deve digitar o número de votos de cada candidato e o numero de votos nulos.",
+    "format_output": "O programa deve exibir o percentual de votos de cada candidato e o percentual de votos nulos, com 3 casas decimais, imprimindo na tela os valores abaixo: Digite a quantidade de votos do candidato A: Digite a quantidade de votos do candidato B: Digite a quantidade de votos do candidato C: Digite a quantidade de votos nulos: Candidato A: n % Candidato B: n % Candidato C: n % Votos Nulos: n %",
+    "topics": [
+        "multiplas entradas",
+        "lógica matemática"
+    ]
+}

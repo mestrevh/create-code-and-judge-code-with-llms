@@ -1,0 +1,10 @@
+{
+    "title": "Hello World",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que exiba na tela 'Hello World\".",
+    "format_input": "Não há entradas",
+    "format_output": "Hello World",
+    "topics": [
+        "ad-hoc"
+    ]
+}

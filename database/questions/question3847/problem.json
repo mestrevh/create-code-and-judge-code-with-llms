@@ -1,0 +1,12 @@
+{
+    "title": "Referência bibliográfica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia o nome de uma pessoa e retorne como ficaria esse nome em uma referência bibliográfica. Exemplo: Carlos Drumound de Andrade referência: ANDRADE, Carlos Drumound de. Lembre-se da vírgula, do ponto final e não esqueça dos nomes que tenham de, do, da, das, dos, e. obs.: Utilize função para fazer a referência. O nome da função deve ser referencia",
+    "format_input": "Nome completo de uma pessoa",
+    "format_output": "Nome da entrada em formato de referência bibliográfica",
+    "topics": [
+        "array",
+        "função",
+        "string"
+    ]
+}

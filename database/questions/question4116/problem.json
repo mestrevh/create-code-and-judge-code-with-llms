@@ -1,0 +1,11 @@
+{
+    "title": "O Professor Ordenado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O professor pythonildo é viciado em ordenação e tem o desejo de ordenar tudo que encontrar logo faz isso com as notas de seus alunos, todo fim de semana ele corrige as provas passadas e as coloca em ordem, entretanto sua mania de ordenação tem uma necessidade de ordenar de ambas maneiras, crescente e decrescente. OBS.1: O número da turma inicia em 1 OBS.2: Todos os números são inteiros OBS.3: Na saída não tem espaço antes da quebra de linha",
+    "format_input": "um N onde N é um inteiro com a quantidade de turmas que varia entre 1 até 20. Em seguida serão lidas N turmas onde cada turma tem 10 notas.",
+    "format_output": "o número da turma o array em ordem crescente , uma quebra de linha o array em ordem decrescente, seguido por uma quebra de linha",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

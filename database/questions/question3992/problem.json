@@ -1,0 +1,13 @@
+{
+    "title": "Concurso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um determinado concurso as provas são objetivas, de múltipla escolha, onde cada questão possui cinco alterna-tivas e somente uma correta. Para agilizar a correção e publicação do resultado a coordenação do concurso solicitou à equipe de TI um programa para permitir a leitura do quantitativo de vagas, do gabarito, do nome de cada um dos participantes e das respostas em cada uma das dez questões da prova. Após a leitura destas informações, o programa deve imprimir, usando a formatação do exemplo: a) A lista de candidatos, em ordem decrescente das notas (em caso de notas iguais, utilizar ordem alfabética dos nomes para desempatar), suas respectivas notas (cada questão certa vale 1 ponto) e se o candidato foi aprovado ou não. Observações: • Cada questão possui 5 opções de resposta (A, B, C, D e E); • Utilize os conceitos de dicionário e função para resolver a questão.",
+    "format_input": "Primeira linha contendo o quantitativo de vagas; Segunda linha contendo valores representando o gabarito da prova; Demais linhas contendo o nome do candidato (considere que não existem nomes repetidos) e mais 10 caracteres representando as respostas do candidato; A última linha contendo * informa o fim da leitura dos dados.",
+    "format_output": "A lista de candidatos, em ordem decrescente das notas, suas respectivas notas e se o candidato foi aprovado ou não.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "ordenação",
+        "dicionário"
+    ]
+}

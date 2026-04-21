@@ -1,0 +1,11 @@
+{
+    "title": "Classificação de fotografias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Henrique gosta de fotografar a natureza, em especial aves. Henrique fez um programa para extrair características de fotos automaticamente, mas ele precisa de um second programa para classificar essas fotos de acordo com essas características. As fotos serão classificadas em 4 categorias: Para imprimir (Quando a foto ficou tão boa que deve ser feita uma cópia física dela), Boa, Marromeno, Lixo. As características que serão analisadas para determinar a categoria, são: A relação sinal-ruído de pico da imagem (ou PSNR) que é uma medida objetiva da qualidade da foto, que pode variar de 0 à 100; Enquadramento (pode ser ruim, bom ou excelente); Exposição (subexposto, bem exposto ou superexposto). Se o PSNR estiver entre 80 e 90, a foto pode ser considerada \"marromeno\", \"boa\" ou \"para imprimir\". Se o enquadramento estiver bom ou excelente e a exposição estiver bem exposta, ela será considerada \"Para imprimir\". Se o enquadramento estiver bom ou excelente mas a foto estiver subexposta ou superexposta, ela será considerada \"boa\". Em qualquer outro caso, ela será considerada \"marromeno\". Se o PSNR estiver entre 50 e 80, a foto será \"boa\" se estiver com enquadramento excelente e bem exposta. Caso contrário será \"marromeno\". Se o PSNR estiver abaixo de 50, a foto só será \"marromeno\" se estiver com enquadramento excelente e bem exposta. Caso contrário será \"lixo\".",
+    "format_input": "3 características para a foto: PSNR, entre 0 e 100; Análise de enquadramento: ruim, bom ou excelente; Exposição: subexposto, bem exposto ou superexposto",
+    "format_output": "A categoria da foto: para imprimir, boa, marromeno, lixo",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

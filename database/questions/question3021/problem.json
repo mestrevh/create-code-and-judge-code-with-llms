@@ -1,0 +1,13 @@
+{
+    "title": "Quantidade de ônibus",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A cidade Terrolândia tem uma característica peculiar. Os dias possuem 2 elevado a 100 minutos. Na rodoviária da cidade, partem ônibus para Campina Grande após 1 minutos, 4 minutos, 16 minutos, e assim por diante. Ou seja, a cada 4 elevado a k minutos, um ônibus sai da rodoviária em direção a Campina Grande, onde k é um número inteiro maior ou igual a 0. James chegou na rodoviária no tempo t minutos e ficou curioso para saber quantos ônibus já saíram da rodoviária em direção a Campina Grande estritamente antes do tempo t minutos. Por exemplo, se t for 20 minutos (que em binário é 10100), James deixou de pegar 3 ônibus: 1, 4 e 16 minutos. Seu objetivo é ajudar James. Por simplicidade, o número de entrada t é dado em na representação binária, sem números 0s à esquerda. A sua solução deve ser elaborada utilizando o conceito de modularização (função). Obs.: Usar apenas as funções básicas. Em caso de dúvida, consultar o professor formador.",
+    "format_input": "A entrada consiste de um número binário t (0 < t < 2 elevado a 100) sem números 0s à esquerda.",
+    "format_output": "A quantidade de ônibus que saíram da rodoviária em direção a Campina Grande antes do momento da chegada de James no tempo t. Em caso de t iniciar com 0, uma mensagem deve ser exibida (\"Numero Invalido\").",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "função"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Rede em uma fibra ótica",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Você é responsável por criar um novo sistema de redes de fibra ótica no país. Esse sistema tem como meta interligar todos os nós da rede com o menor custo possível. Considere que a rede possui V nós e E possíveis conexões. Essas conexões descrevem os nós interligados (F,T) e a distância de interligá-los W. Sabe-se que o custo é proporcional a quantidade de fibra utilizada. Sabe-se também que sempre será possível criar uma rede mínima de apenas uma única maneira, ou seja, não existirão 2 ou mais soluções ótimas. O sistema necessita de três informações: O custo dessa rede (mínima), as conexões ordenadas (crescentemente) dessa rede e a latência dessa rede. (Latência: Considere que a latência é calculada como sendo a distância percorrida do nó inicial até o nó destino (e a volta) dividida pela velocidade R da rede.)",
+    "format_input": "A primeira linha possui três inteiros, V, E e R. Onde V indica a quantidade de nós na rede, E indica a quantidade de possíveis interligações na rede e R a velocidade da rede. Assim, existirão mais E linhas descrevendo cada interligação. Cada uma dessas linhas possui três inteiros: F, T e W. Onde F e T são os nós da ligação e W a distância entre os nós.",
+    "format_output": "O exemplo de saída explica o formato pedido, primeiro imprima o menor custo, em seguida as conexões para ter o menor custo em ordem crescente, ou seja, arestas do nó 0, arestas do nó 1 ... e a latência do nó 0 aos demais, ou seja, ao nó 1, nó 2, ... .",
+    "topics": [
+        "grafo"
+    ]
+}

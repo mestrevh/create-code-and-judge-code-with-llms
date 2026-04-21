@@ -1,0 +1,11 @@
+{
+    "title": "Locadora Rodabem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você trabalha na Locadora Rodabem e desistiu de fazer os cálculos dos valores a serem cobrados dos clientes de cabeça. Então, resolveu fazer um programa que calcula o valor exato a ser pago pelo cliente, o qual depende da categoria do veículo (econômico, sedan compacto, executivo ou utilitário), da quilometragem rodada, do número de diárias e do nível de fidelidade do cliente (Gold, Platinum ou Infinity). Os valores das diárias dos veículos conforme as categorias são: - Econômico: R$ 100 - Sedan Compacto: R$ 150 - Executivo: R$ 200 - Utilitário: R$ 300 O custo por quilômetro percorrido depende da categoria do veículo. Para os veículos das categoria Econômico, cada km custa R$ 0,50. Já para os da categoria Sedan Compacto o custo é de R$ 0,80 por km. Finalmente, para os das categorias Executivo e Utilitário é de R$ 1,00 por km. Há um desconto para clientes conforme seu nível de fidelidade. Clientes Gold têm 5% de desconto, Platinum têm 10% de desconto e Infinity têm 15% de desconto. Todos os descontos são calculados sobre o valor das diárias da locação. O cliente Infinity tem direito a quilometragem ilimitada, ou seja, não paga por quilometragem percorrida nas suas locações. Observação: É obrigatória a definição de uma função chamada calcular_tarifa que receba como parâmetros a categoria, a quilometragem rodada, o número de diárias e o nível de fidelidade do cliente, retornando como resultado um valor em ponto flutuante que indique o custo da locação.",
+    "format_input": "Consiste de 4 linhas contendo, respectivamente: Linha 1: Uma letra maiúscula que representa a categoria, podendo ser E (econômico), S (sedan compacto), X (executivo) ou U (utilitário). Linha 2: Um número inteiro não negativo que indica o número de quilômetros percorridos. Linha 3: Um número inteiro positivo que indica o número de diárias da locação. Linha 4: Uma string com caracteres minúsculos indicando o nível de fidelidade: gold, platinum ou infinity",
+    "format_output": "O valor da locação em ponto flutuante, apresentado com 2 casas decimais.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}

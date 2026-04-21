@@ -1,0 +1,10 @@
+{
+    "title": "zzzzzz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mirage criou um problema interessante e solicitou que você resolvesse. Dado um conjunto de inteiros A = {a1, a2, ..., an} ela quer saber se existe algum subconjunto B do conjunto A que segue as seguintes condições: - B é um subconjunto não vazio - Não existe inteiros x(x > 1) que divide todos os elementos de B - Não existem elementos em B que são iguais",
+    "format_input": "A primeira linha da entrada contém um inteiro T (1 <= T <= 10), que representa a quantidade de casos de teste. Então seguem T casos de teste. Cada caso de teste consiste de duas linhas. A primeira contém um inteiro N (1 <= N <= 10000), que representa o tamanho do Conjunto A. A segunda contém N inteiros separados por espaço, a1, a2, ... , an (1<=ai<=10^5).",
+    "format_output": "Imprima \"YES\" caso o subconjunto exista, e \"NO\" caso contrário, sem as aspas.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

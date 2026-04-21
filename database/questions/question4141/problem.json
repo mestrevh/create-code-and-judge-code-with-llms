@@ -1,0 +1,12 @@
+{
+    "title": "Classificando as raízes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Beto acaba de voltar da aula de matemática, na qual aprendeu sobre as Equações de Segundo Grau. Ele tem que responder várias questões que seu professor passou acerca da análise do delta dessas equações, mas para garantir que seus cálculos estão corretos, ele pede a você que crie um programa que verifique o delta de uma equação de segundo grau e o relacione às raízes, além de exibi-las (caso existam).",
+    "format_input": "Recebe os 3 coeficientes a, b e c, respectivamente, (com a != 0) da equação de segundo grau a qual Beto deseja conferir sua resposta. A variável que armazenar o delta, deve ser do tipo double.",
+    "format_output": "A saída deve ser com a seguinte estruturação: Para o a = 0, exiba: \"Se a = 0, nao temos uma equacao do segundo grau.\" Caso contrário: \"Para os seguintes coeficientes: a, b e c. O delta eh: \" (o delta deve ter 2 casas decimais) Seguido de uma quebra de linha e para cada caso do delta, as saídas devem ser: \"A equacao possui duas raizes reais distintas.\" \"A equacao possui duas raizes reais iguais.\" \"A equacao nao possui raizes reais.\" Seguido das raízes: \"As raizes sao: Raiz 1 e Raiz 2\"",
+    "topics": [
+        "ponto flutuante",
+        "decisão",
+        "lógica matemática"
+    ]
+}

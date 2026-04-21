@@ -1,0 +1,10 @@
+{
+    "title": "L2Q6 - O novato",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Saiki aproveitou bem (ou não) suas férias livre de idiotas. Para não perder o costume de sempre ter raiva, ele descobre que um novo aluno irá entrar na sua turma. Então decide descobrir se o aluno será mais um bobão ou não. Você sabe que ele não tem poderes de prever o futuro tão bem assim, porém você consegue ajudá-lo nesse problema. Sua missão é fazer um programa que recebe características do novato, as características dos atuais alunos e as compara a fim de descobrir se ele é ou não só mais um bobão. Além disso, como um bom programador, você se propõe a retornar o nome do aluno que mais se parece com o novato. Eis o que você sabe para ajudar Saiki: As características serão dadas na forma de pontos em um plano cartesiano; Para saber se ele é parecido com os outros, basta calcular a distância do ponto correspondente às características do novato para os demais pontos; O ponto mais próximo corresponde ao aluno mais parecido com o novato; Se a distância for maior ou igual a 10, ele não se parece com ninguém da turma. Obs.: Não haverão casos onde as distâncias serão iguais.",
+    "format_input": "Dois números que correspondem às coordenadas do aluno novo no plano cartesiano: X Y Uma série de pontos e nomes dos alunos que já estão na turma: A B S A e B são números inteiros S é uma string que representa o nome do aluno",
+    "format_output": "Se a distância para o mais próximo for menor que 10: \"O aluno novo é mais parecido com NOME\" Se não: \"Aparentemente ele não é tão chato assim\"",
+    "topics": [
+        "repetição"
+    ]
+}

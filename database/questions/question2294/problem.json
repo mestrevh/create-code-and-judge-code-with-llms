@@ -1,0 +1,12 @@
+{
+    "title": "Remoção de caracteres repetidos (usando fila)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Usando o tipo TFilha visto em aula e as funções básicas de fila, construa um programa que leia uma string s e passe como parâmetro para a função void removeRepetidosSeguidos(char s[]) que deverá remover os caracteres repetidos em sequência de s. Depois da execução da função, o programa principal deverá exibir s já modificado. Obs.: (1) Deve ser usada uma filha na função; (2) Cuidado com o '\\0'; (3) Além das funções básicas de fila, criar somente a removeRepetidosSeguidos(s); (4) não usar recursão.",
+    "format_input": "Uma string s (1 <= tamanho(s) <= 50).",
+    "format_output": "A string da entrada sem caracteres repetidos em sequência. Finalize com uma quebra de linha.",
+    "topics": [
+        "estrutura de dados",
+        "repetição",
+        "função"
+    ]
+}

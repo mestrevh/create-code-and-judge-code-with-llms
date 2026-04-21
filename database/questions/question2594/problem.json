@@ -1,0 +1,10 @@
+{
+    "title": "Implementando Algoritmos de ordenação #1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente o algoritmo de ordenação que possua as seguintes propriedades: Usa a estratégia dividir e conquistar; Algoritmo estável; Algoritmo “not in place”; Complexidade de tempo O(nlogn); Complexidade de espaço O(n); Comumente conhecido pela sua eficácia para ordenar listas encadeadas.",
+    "format_input": "A primeira linha deve conter a lista a ser ordenada.",
+    "format_output": "A saída deve retornar a lista ordenada.",
+    "topics": [
+        "ordenação"
+    ]
+}

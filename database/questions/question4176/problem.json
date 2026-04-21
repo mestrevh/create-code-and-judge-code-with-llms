@@ -1,0 +1,10 @@
+{
+    "title": "Quantos dias para o aniversário",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Joãozinho deseja saber quantos dias faltam para seu aniversário. Dados o dia e o mês do seu aniversário, assim como também a data atual (dia, mês, ano), calcular quantos dias faltam para Joãozinho aniversariar. Tenha cuidado com anos bissextos. Na sua solução, utilize a seguinte função que, sem considerar anos bissextos, calcula quantos dias se passaram desde o início do ano até o primeiro dia do mês: def diasAteInicioDoMes(mes): if mes == 1 : return 0 elif mes == 2 : return 31 elif mes == 3 : return 59 elif mes == 4 : return 90 elif mes == 5 : return 120 elif mes == 6 : return 151 elif mes == 7 : return 181 elif mes == 8 : return 212 elif mes == 9 : return 243 elif mes == 10 : return 273 elif mes == 11 : return 304 else : # mes == 12 return 334",
+    "format_input": "O dia e o mês do aniversário, em uma mesma linha. O dia, mês e ano atuais, em uma mesma linha.",
+    "format_output": "Se Joãzinho estiver aniversariando, o programa deverá imprimir \"Parabens, Joazinho\". Caso contrário, o programa imprimirá \"Faltam n dias para seu aniversario chegar\" onde n é a quantidade de dias que faltam para Joãzinho aniversariar.",
+    "topics": [
+        "decisão"
+    ]
+}

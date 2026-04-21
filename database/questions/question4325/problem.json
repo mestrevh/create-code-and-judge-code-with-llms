@@ -1,0 +1,11 @@
+{
+    "title": "Teclado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Quando utilizamos um software editor de textos, é comum pressionar algumas teclas um número maior de vezes que o necessário, e, para sanar este problema existe a tecla <backspace> que apaga o último caractere digitado. Por exemplo, se digitarmos o texto “IFSSP” e pressionarmos a tecla <backspace> duas vezes ficaríamos com o texto “IFS”. Por outro lado, na pressa, podemos pressionar a tecla <backspace> mais vezes que o necessário. Por exemplo: se digitarmos o texto “IFSSP” e pressionarmos a tecla <backspace> quatro vezes ficaríamos com o texto “I”, e, para corrigir este problema criaram um atalho de teclas, o <ctrl>+<z>, que retorna o último caracter apagado. No exemplo anterior, com o texto “I”, se pressionarmos <ctrl>+<z> duas vezes, ficaríamos com o texto “IFS” e bastaríamos digitar a letra “P” para completar a sigla de nossa instituição: “IFSP”. Um outro exemplo. Se digitarmos o texto “IFPS” e pressionarmos a tecla <backspace> duas vezes, depois a letra “S” e depois o <ctrl>+<z>, teríamos o texto desejado: “IFSP”. Seu papel será criar um editor de textos que implemente esta lógica.",
+    "format_input": "Seu programa deverá receber um texto com até 1000 caracteres contendo as teclas para correção backspace, representado por <B> ou <b> e as teclas de atalho control mais Z representado por <Z> ou <z>.",
+    "format_output": "O texto corrigido deverá ser mostrado seguido de uma quebra de linha.",
+    "topics": [
+        "pilha",
+        "alocação dinâmica"
+    ]
+}

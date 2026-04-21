@@ -1,0 +1,15 @@
+{
+    "title": "Operação diferente com vetores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Estamos reinventando as operações com vetores! Implemente um programa que execute essas novas operações: Dados v1 e v2 e a operação, imprima o vetor resultado. As operações podem ser: < ou > Se você fizer v1<v2 o resultado é calculado subtraindo-se 10 de cada elemento de v1 e na sequencia soma-se os elementos de v2 Se você fizer v1>v2 o resultado é calculado somando-se 10 a cada elemento de v1 e na sequencia subtrai-se os elementos de v2",
+    "format_input": "n: dimensão do vetor v1: valores separados por espaço v2: valores separados por espaço op: caractere indicando a operação 3 1 2 3 4 5 6 <",
+    "format_output": "Vetor de resultado, apresentando os valores com 2 casas decimais, separados por espaço. -5.00 -3.00 -1.00",
+    "topics": [
+        "estrutura de dados",
+        "multiplas entradas",
+        "array",
+        "decisão",
+        "entrada formatada",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "L6Q2 - Gavião Arqueiro e suas flechas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Gavião Arqueiro estava interessado em simular suas lutas para ter uma melhor noção de economia de suas flechas durante o combate. Para isso, ele pediu que você escrevesse um programa que, dado os tipos das flechas que o arqueiro carrega em sua aljava e as flechas utilizadas pelo arqueiro na batalha, imprima certas frases que o orientem sobre o uso das flechas. É obrigatório o uso de lista encadeada na resolução.",
+    "format_input": "Primeiramente, há a entrada, em várias linhas, dos tipos das flechas que o Guardião Arqueiro possui, até ser lido \"Recarga feita\". T - string. Depois, há a entrada, em várias linhas, dos tipos das flechas que o Guardião Arqueiro utilizou no combate, até ser lido \"Fim da simulacao\". F - string.",
+    "format_output": "A cada flecha utilizada pelo Guardião Arqueiro, o programa deve imprimir: \"Flecha disparada\" caso a flecha exista na aljava do herói e foi disparada. \"Flecha nao encontrada\" caso não exista flechas do tipo que foi inserido. No fim da simulação, o programa deve imprimir \"Flechas que sobraram: \" e logo após os tipos das flechas que sobraram na aljava, separados por espaço, na ordem de entrada.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Ordem das vilas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O jogo Minecraft é conhecido por sua característica de blocos cúbicos, os quais (em distância real) medem 1 metro cúbico. No jogo, é utilizado um sistema de coordenadas XYZ, no qual o X representa a longitude, Z a latitude e Y a elevação em blocos. Desta forma, localidades podem ser endereçadas através de triplas (X, Y, Z). Steve (o personagem controlado pelo jogador) está em um mundo no qual existem 3 vilas (entre parênteses, encontram-se as coordenadas do centro de cada vila): Solitude (X: 140, Y: 200, Z: 456); Kakariko (X: 0, Y: 64, Z: 10); Hogsmeade (X: 34, Y: 110, Z: 220). Steve está interessado em obter diferentes recursos, porém, para organizar melhor suas tarefas, ele quer que cada tipo de recurso seja gerenciado em uma vila diferente. Ele precisa ter uma fazenda para criação de animais, uma plantação e também uma base de mineração, todos em vilas diferentes. Visando maximizar o rendimento de suas atividades, ele precisa decidir qual vila escolher para gerenciar cada tipo de recurso. Considerando que ele precisa escolher a vila mais próxima para a fazenda, a segunda mais próxima para a plantação e a mais distante para a base de mineração. Sua tarefa é fazer um programa que ajude Steve a descobrir qual a vila utilizar para cada recurso, considerando suas distâncias.",
+    "format_input": "X Y Z. X - número inteiro; Y - número natural; Z - número inteiro. A linha única da entrada é composta por uma tripla de números inteiros X, Y e Z, separados por espaço, que indica a coordenada atual de Steve. obs: Você deve considerar que a entrada é amigável, ou seja, sempre estará dentro do formato descrito.",
+    "format_output": "V1 V2 V3. V1 - string; V2 - string; V3 - string. A linha única da saída deve conter os nomes das vilas (apenas a inicial em maiúsculo), separadas por espaço, na ordem em que devem ser escolhidas para ser fazenda, plantação e base de mineração, respectivamente. obs: Em casos de distâncias iguais, você deve priorizar na seguinte ordem: Solitude -> Kakariko -> Hogsmeade; Não deve haver espaço ao final da linha.",
+    "topics": [
+        "decisão",
+        "ordenação"
+    ]
+}

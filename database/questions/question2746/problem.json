@@ -1,0 +1,11 @@
+{
+    "title": "A Entidade e o Boneco",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No dia das crianças, a Entidade ganhou um boneco interessante de seu pai. Ela ficou muito intrigada com o boneco, e decidiu desmontá-lo para ver seu interior. A boneco, consiste de n peças e m cordas. Cada corda une duas peças, e todo par de peça é unido por no máximo uma corda. Para desmontar o boneco, a Entidade deve remover todas as peças. Ela pode remover apenas uma peça por vez, e cada remoção gasta tempo. Cada peça i tem um tempo t_i. A Entidade gasta t_f_1 + t_f_2 + ... + t_f_k tempos para remover a peça i, onde f_1, f_2, ..., f_k são as peças conectadas diretamente a i-ésima peça e ainda não removidas. A Entidade não quer demorar para desmontar o boneco, ajude-a a descobrir o tempo mínimo para desmontar o boneco.",
+    "format_input": "A primeira linha da entrada terá dois inteiros n, m (1 <= n <= 1000, 0 <= m <= 2000). Na linha seguinte, virão n inteiros: t_1, t_2, ..., t_n (0 <= t_i <= 10^5). Cada uma das próximas m linhas, terão dois inteiros u_i e v_i (1 <= u_i, v_i <= n, u_i != v_i), indicando as peças u e v que as i-ésima corda une. Considere que as peças são enumeradas de 1 até n.",
+    "format_output": "Imprima um inteiro representando o tempo mínimo que a Entidade pode levar para desmontar o boneco completamente.",
+    "topics": [
+        "grafo",
+        "algoritmo guloso"
+    ]
+}

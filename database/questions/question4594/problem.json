@@ -1,0 +1,10 @@
+{
+    "title": "operações em conta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Implemente um sistema de conta corrente onde é possível atualizar o saldo da conta através de duas funções: void creditar(Conta *conta, float x) = a função incrementa o saldo da conta em x void debitar(Conta *conta, float x) = a função decrementa o saldo da conta em x Obs: A struct conta deve conter o número da conta e seu saldo",
+    "format_input": "Uma string e um float representando o número da conta e o saldo da conta atualmente, respectivamente. Um inteiro N representando a quantidade de operações que serão feitas na conta. N linha com as operações a serem feitas, cada um formada pela string \"CREDITAR\" ou \"DEBITAR\" + um float com o valor a ser creditado ou debitado.",
+    "format_output": "Um float com 2 casas decimais representando o saldo da conta após as operações serem feitas.",
+    "topics": [
+        "ponteiro"
+    ]
+}

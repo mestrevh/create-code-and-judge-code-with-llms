@@ -1,0 +1,10 @@
+{
+    "title": "teste",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia um número inteiro e imprima o seu antecedente (inteiro anterior) e o seu sucessor (inteiro posterior).dsd",
+    "format_input": "requer solução eficiente",
+    "format_output": "O inteiro anterior e o sucessor, separados por um espaço",
+    "topics": [
+        "array"
+    ]
+}

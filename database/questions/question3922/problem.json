@@ -1,0 +1,12 @@
+{
+    "title": "Soma de Primos é um Primo?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para determinar se 2 números primos (X e Y) somados resultam em outro número primo. Seu programa deve receber 2 números, verificar se os 2 são primos e, caso eles sejam primos, verificar se a soma deles é primo. Se seu programa identificar que algum número recebido não é primo, ele deve imprimir a seguinte mensagem: \"O numero N nao eh primo.\" Lembrando que N deve ser substituído pelo valor de X ou Y, sempre respeitando a sequência da entrada de dados Crie uma função chamada ePrimo que recebe um número qualquer como parâmetro e retorne True se for um número primo e False caso contrário. Utilize esta função sempre que for testar se um número é primo. Se a soma dos 2 números (X e Y) for um primo, emita a seguinte mensagem: \"A soma de X e Y eh um primo.\" Caso contrário, escreva a mensagem: \"A soma de X e Y nao eh um primo.\" Lembre de que X e Y devem ser substituídos na mensagem por seus respectivos valores.",
+    "format_input": "Dois valores inteiros X e Y, dispostos um em cada linha, nesta ordem.",
+    "format_output": "A saída deve ser uma das seguintes: Caso 1: Quando X não é primo: \"O numero X nao eh primo\" Caso 2: Quando Y não é primo: \"O numero Y nao eh primo\" Caso 3: Quando X e Y são primos, mas a soma deles não. \"A soma de X e Y nao eh um primo\" Caso 4: Quando X, Y e a soma deles são números primos: \"A soma de X e Y eh um primo\"",
+    "topics": [
+        "decisão",
+        "função",
+        "números primos"
+    ]
+}

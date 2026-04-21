@@ -1,0 +1,12 @@
+{
+    "title": "Dicionário da Sofia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sofia descobriu um dicionário antigo de uma língua estrangeira no porão da sua casa. O idioma era totalmente diferente de qualquer coisa que ela já tinha visto, entretanto o dicionário tinha uma seção de ajuda explicando como uma frase pertence aquele idioma. A sorte da Sofia era que essa seção de ajuda estava escrita em português e possuía as seguintes regras: -As palavras possuem apenas letras; -As palavras não podem ter mais de 10 letras; -As palavras são separadas por exatamente 1 espaço entre elas; -Não pode existir nenhum sinal de pontuação, acento ou caractere especial. Lendo essas regras, a Sofia ficou muito curiosa e pediu para que você, de acordo com uma frase dada pela Sofia, mostrasse se a frase dada pertence aquele idioma ou não. OBS: Você deverá ignorar '\\n' e '\\0' na junção das linhas para formar a frase.",
+    "format_input": "A entrada é composta por inúmeras linhas (a junção das linhas formam a frase).",
+    "format_output": "Você deverá informar se a frase pertence ao idioma ou não. Caso pertença, você também deverá mostrar a maior palavra daquela frase.",
+    "topics": [
+        "array",
+        "repetição",
+        "recursão"
+    ]
+}

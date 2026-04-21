@@ -1,0 +1,12 @@
+{
+    "title": "Números de Envelopes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A SBC (Super Balas e Caramelos) está fazendo uma nova promoção, e, como era de se esperar, Ambrósio quer participar. Para participar da promoção é preciso enviar um envelope contendo um rótulo de cada tipo de bala que a SBC produz. Por exemplo, se a SBC produz 3 tipos de balas, A, B, C, e uma pessoa tem 3 rótulos de A, 3 de B e 2 de C, ela pode enviar no máximo 2 envelopes, já que falta um rótulo de C para compor o terceiro envelope. Não há limite para o número de envelopes que uma pessoa pode enviar. Balas são a segunda coisa de que Ambrósio mais gosta (a primeira como você sabe são promoções). Por causa disso a quantidade de rótulos de balas que ele tem é muito grande, e ele não está conseguindo determinar a quantidade máxima de envelopes que ele pode enviar. Como você é o melhor amigo de Ambrósio ele pediu sua ajuda para fazer o cálculo, de modo que ele compre o número exato de envelopes. Você deve escrever um programa que, a partir da lista de rótulos de Ambrósio, calcula o número máximo de envelopes válidos que ele pode enviar.",
+    "format_input": "A primeira linha da entrada contém um número inteiro N representando o número de tipos diferentes de balas que a SBC produz. A segunda linha da entrada contém N números inteiros, cada um representando uma quantidade de rótulos de balas que Ambrósio tem. O primeiro número nessa linha representa a quantidade de rótulos do tipo 1 que Ambrósio possui, o segundo número representa a quantidade de rótulos do tipo 2, e assim por diante, até o último número, que representa a quantidade de rótulos de tipo N que Ambrósio possui. 1 ≤ N ≤ 1000",
+    "format_output": "O número de envelopes que Ambrósio pode enviar seguido por uma quebra de linha.",
+    "topics": [
+        "obi",
+        "decisão",
+        "repetição"
+    ]
+}

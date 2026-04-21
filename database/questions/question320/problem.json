@@ -1,0 +1,13 @@
+{
+    "title": "Futebol",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu time de futebol favorito é jogar um torneio de caridade, que é parte de um esforço de angariação de fundos em todo o mundo para ajudar as crianças com deficiência. Como em um torneio normal, 3 pontos são concedidos para a equipe ganhar uma partida, 0 pontos para a equipe perdedora. Se a partida acaba empatada, cada equipe recebe 1 ponto. Seu time jogou N partidas durante a primeira fase do torneio, que acabou de terminar. Apenas algumas equipes, as únicos com mais pontos acumulados, vão avançar para a segunda fase do torneio. No entanto, como o principal objetivo do torneio é arrecadar dinheiro, antes dos jogo das equipes que passarão para a segunda fase serem determinados, para cada equipe é permitido comprar gols adicionais. Esses novos gols contarão como gols normalmente marcados, e podem ser usados para alterar o resultado de qualquer um dos jogos o time jogou. Orçamento da sua equipe é suficiente para comprar até L gols. Você pode dizer o número máximo total de pontos de sua equipe pode obter depois de comprar os gols, supondo que os outros times não vão comprar gols?",
+    "format_input": "A primeira linha contém dois inteiros N (1 <= N <= 100) e G (0 <= G <= 100), representando, respectivamente, o número de jogos que seu time jogou e o número de gols que sua equipe pode comprar. Cada uma das próximas N linhas descreve um resultado da partida com dois inteiros S e R (0 <= S, R, <= 100), indicando, respectivamente, os gols que sua equipe marcou, e os gols que sua equipe levou em cada jogo.",
+    "format_output": "Uma linha contendo um inteiro que representa o número total máximo de pontos de sua equipe pode obter depois de comprar os gols, depois uma quebra de linha.",
+    "topics": [
+        "array",
+        "acumulador",
+        "array bidimensional",
+        "ordenação"
+    ]
+}

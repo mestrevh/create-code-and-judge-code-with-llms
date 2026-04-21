@@ -1,0 +1,10 @@
+{
+    "title": "Área de um trapézio.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que calcule e mostre a área de um trapézio. Sabendo-se que:",
+    "format_input": "Os valores (inteiros) da base menor, da base maior e da altura.",
+    "format_output": "A área do trapézio com aproximação de 1 casa decimal.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

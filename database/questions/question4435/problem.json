@@ -1,0 +1,12 @@
+{
+    "title": "Sapo no Parque",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sapo sopa chegou no parque de diversão atrasado e descobriu que alguns brinquedos estavam com defeitos, sendo permitido andar só em 3 brinquedos diferentes, e devido sua demora para chegar ao parque só teria tempo de brincar 3 vezes. Sabendo que cada brinquedo tem um nível de diversão (d) e um nível de aborrecimento (a) que diminui a diversão do brinquedo quando repetido t vezes (t = 0, 1, 2), ele decidiu fazer um programa para garantir seu maior diversão e dizer em quais brinquedos ele deve andar. OBS: A diversão é dado pela função f(x) = d[x] - (t^2)*a[x], onde x é o brinquedo; OBS2: Caso o nível de aborrecimento e diversão sejam iguais, a prioridade é de quem vem primeiro na ordem do input",
+    "format_input": "Uma linha com um string s < 30 com o nome do brinquedo; Um linha com dois inteiros d > 0 (nível de divertimento) e a >= 0 (nível de aborrecimento);",
+    "format_output": "Uma linha com um inteiro representando a quantidade de diversão e na linha abaixo os nomes de quais brinquedos ele deve andar (caso tenha andando mais de uma vez no mesmo brinquedo a ordem dos nomes deve ser dada primeiro pelo qual mais andou, seguido pelo que menos andou, caso tenha andando nos 3 brinquedos, a saída devera ser na ordem do input)",
+    "topics": [
+        "repetição",
+        "string",
+        "estruturas"
+    ]
+}

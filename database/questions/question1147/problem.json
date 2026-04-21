@@ -1,0 +1,11 @@
+{
+    "title": "Pesquisa na loja",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Manoel está tentando organizar a sua livraria e conhecer melhor seus clientes. Para isso ele vai fazer perguntas a cada cliente que realiza uma compra e ao final vai emitir um relatório. A leitura será feita enquanto o usuário digitar uma idade maior do que zero. Quando for lida uma idade negativa ou igual a zero, o resultado será exibido. ENTRADA: - o sexo (M ou F) - a idade - o valor total de compras realizadas - o estilo preferido (F – ficção; T – terror; P – política; R – romance) * Assuma que os usuários irão digitar apenas valores válidos SAIDA: - Quantidade de mulheres que compram até R$ 100,00 - Idade da pessoa mais jovem - O valor médio das compras - Quantidade de homens que lêem ficção ou terror",
+    "format_input": "- o sexo (M ou F) - a idade - o valor total de compras realizadas - o estilo preferido (F – ficção; T – terror; P – política; R – romance)",
+    "format_output": "- Quantidade de mulheres que compram até R$ 100,00 - Idade da pessoa mais jovem - O valor médio das compras - Quantidade de homens que lêem ficção ou terror",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

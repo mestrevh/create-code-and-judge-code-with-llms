@@ -1,0 +1,11 @@
+{
+    "title": "Calcule a série",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcule os N termos da série S abaixo: S = (1/3) + (2/6) + (3/9) + (4/12) + … O seu programa deve imprimir na saída padrão tanto os termos da série quanto o valor da soma com precisão de 2 casas decimais.",
+    "format_input": "Um valor N que representa a quantidade de termos da série.",
+    "format_output": "Os termos da série e o valor da soma com precisão de 2 casas decimais.",
+    "topics": [
+        "repetição",
+        "formatação"
+    ]
+}

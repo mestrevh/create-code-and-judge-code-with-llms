@@ -1,0 +1,10 @@
+{
+    "title": "Triângulo de Pascal",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrosinho teve aula de combinatória no colégio e ficou fantasiado pelo triângulo de pascal, e você decidiu ajudá-lo.",
+    "format_input": "Um número N ( 0 <= N <= 25 ) que será o limite do triângulo.",
+    "format_output": "Terá N+1 linhas que cada linha será os valores do triângulo.",
+    "topics": [
+        "requer solução eficiente"
+    ]
+}

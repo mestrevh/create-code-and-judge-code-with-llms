@@ -1,0 +1,12 @@
+{
+    "title": "Image Points",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tio Keke é um homem apaixonado por Geometria e Inteligência Artificial. Recentemente ele começou a estudar a área de Processamento de Imagens e o primeiro desafio encontrado foi o seguinte: Dado uma imagem com dimensão quadrada N x N encontrar todas as coordenadas dos vértices que cercam essa imagem num formato circular. Para isso será informada a quantidade de vértices desejada. A figura a seguir ilustra melhor o problema : Nesse caso existem 4 pontos destacados, porém nesse problema podemos ter mais que isso (atenção às restrições da entrada). Tio Keke está sem ideias para resolver o problema, então pediu sua ajuda. OBS: Caso seja necessário, use o valor de Pi como 3.141593",
+    "format_input": "Dois inteiros N(2 <= N <= 10^6) e V(1 <= V <= 360), que correspondem a dimensão da imagem e a quantidade de vértices desejados, respectivamente.",
+    "format_output": "Para cada vértices deverá ser impresso dois números reais com 6 casas decimais de precisão (X e Y), correspondentes as coordenadas do vértice V na imagem.",
+    "topics": [
+        "geometria computacional",
+        "métodos numéricos",
+        "busca completa"
+    ]
+}

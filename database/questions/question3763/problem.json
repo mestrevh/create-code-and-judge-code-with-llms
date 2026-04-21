@@ -1,0 +1,10 @@
+{
+    "title": "Matrix Ninja",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O ninja do fruit ninja cansou de cortar frutas e agora está cortando matrizes. O matrix ninja (como agora gosta de ser chamado) é muito metódico com os seus cortes, ele sempre corta a matriz no meio (horizontalmente ou verticalmente) inverte a parte da direita (para um corte vertical) ou a parte de baixo (para um corte horizontal) e cola de volta no outro pedaço que sobrou da matriz. O seu trabalho é desfazer a bagunça que o fruit ninja fez! OBS: Em caso de dúvidas quanto a entrada/saída olhe os casos de teste de exemplo",
+    "format_input": "Uma linha com a direção do corte ('H' ou 'V') e dois inteiros com o número de linhas e colunas da matriz. Logo depois segue a matriz OBS: O número de linhas sempre será par e o número de colunas também",
+    "format_output": "A saída deve a matriz originalmente como era antes do fruit ninja a cortar. OBS: Os elementos da matriz devem ser printados sempre com dois dígitos, caso o número não tenha dois dígitos, preencha com zeros. OBS: Para printar nesse formato utilizando o printf do C use o %02d",
+    "topics": [
+        "array bidimensional"
+    ]
+}

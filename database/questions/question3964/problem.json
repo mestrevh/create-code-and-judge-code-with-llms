@@ -1,0 +1,10 @@
+{
+    "title": "Pi aproximado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A seguinte série infinita pode ser utilizada para calcular o valor de pi. Desenvolva um programa que calcule o valor de pi através de uma aproximação desta série usando termos até que o valor absoluto do último destes seja menor ou igual a um valor ínfimo dado.",
+    "format_input": "O valor ínfimo.",
+    "format_output": "O valor aproximado de pi com 12 casas decimais.",
+    "topics": [
+        "repetição"
+    ]
+}

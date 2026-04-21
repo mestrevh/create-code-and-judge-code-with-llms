@@ -1,0 +1,10 @@
+{
+    "title": "L5Q5 - O Produto Perdido",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rick e Morty, em uma de suas aventuras acabam por destruir seu universo, e são obrigados a procurar outro. Acontece que o melhor universo que eles conseguem encontrar tem uma limitação: O asterisco não existe, e por isso a operação de multiplicação em java não pode ser implementada de forma usual. Como a multiplicação é fundamental para os cálculos do cientista, deve-se criar uma forma de contornar esse problema. Sua tarefa é ajudar Rick a criar um programa, utilizando recursão, que realize o produto de dois números inteiros (sem utilizar o operador *, obviamente).",
+    "format_input": "A entrada é composta de várias linhas (até o fim de arquivo), no formato: A B. A - número inteiro, B - número inteiro. As linhas da entrada são composta por A e B, respectivamente, que deverão ser multiplicados através de somas.",
+    "format_output": "A saída é composta por várias linhas no formato: N. N - número inteiro. As linhas da saída são compostas por um número N, representando o produto de A e B.",
+    "topics": [
+        "recursão"
+    ]
+}

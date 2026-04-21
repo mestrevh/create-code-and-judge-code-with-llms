@@ -1,0 +1,12 @@
+{
+    "title": "O elevador tridimensional do Yee",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Yee investiu milhares de dólares para criar um elevador que andasse nas 3 dimensões: X, Y e Z. Nas fases de testes, ele te contratou pra fazer um programa que testasse o quanto o elevador rodaria e se ele conseguiria entregar todas as pessoas antes do combustível acabar. O elevador segue regras simples: Sempre entram nele N conjuntos de quatro pessoas. Só entra um novo conjunto pessoas se todas as quatro passadas foram entregues. Ele entrega cada pessoa por ordem de entrada. Na entrega, ele procurará o apartamento de número XYZ da pessoa designada, primeiramente ele procura o andar X (Direita e Esquerda), depois o andar Y (Cima e Baixo) e depois o andar Z (Frente e Trás), nesta ordem, até encontrar onde aquela pessoa mora. O elevador tem um limite de M movimentos em todas as direções devido ao combustível (É apenas um teste, o yee jamais arriscaria prender pessoas em um elevador). Caso o combustível acabe, existe uma quantidade de combustível extra para entregar a última pessoa seguramente. Mas caso isso aconteça, após entregar a última pessoa, ele para. Seu trabalho é realizar esses testes seguindo estas regras.",
+    "format_input": "A entrada receberá N e M e depois onde mora as 4*N pessoas na ordem de entrada.",
+    "format_output": "Para cada pessoa entregue, imprima: Uma sequência de movimentos feitos (d para direita, e para esquerda, c para cima, b para baixo, f para frente e t para trás). Movimento feito + quebra de linha. Entregue P no quarto XYZ com M movimentos. Caso consiga entregar todas as pessoas imprima: Todas as pessoas foram entregues. Caso não: Faltou combustível e foram entregues K pessoas. Onde P é o número da pessoa (Na ordem de entrada), XYZ é o quarto, M é o número de movimentos realizados até o momento e K o número de pessoas entregues. e no FIM agradeça o Yee: Fim do teste. Obrigado Kanye West!",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "ciclos"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Posicionamento de números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma lista de n números inteiros distintos e uma sequência de n caixas com símbolos de comparação de desigualdade (< ou >) inseridos entre elas, projete um algoritmo que coloque os números nas caixas de tal forma que todas as comparações sejam satisfeitas. For exemplo, os números 4, 6, 3, 1, 8 podem ser colocadas nas cinco caixas como mostrado a seguir:",
+    "format_input": "Na primeira linha, a sequência de comparadores como um único string. Assim, para o exemplo da descrição a entrada será \"<><<\". Na segunda linha, todos os elementos da sequência separados por um espaço. Pode assumir que a entrada conterá no máximo 100000 números.",
+    "format_output": "A sequência de números intercalados com os correspondentes símbolos de comparação como apesentado no exemplo.",
+    "topics": [
+        "ordenação"
+    ]
+}

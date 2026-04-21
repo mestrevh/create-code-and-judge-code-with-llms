@@ -1,0 +1,11 @@
+{
+    "title": "Leite Fresco",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os produtores de leite da região decidiram se juntar para formar uma cooperativa e, com isso, diminuir os custos com logística para o processameto e venda do leite produzido. Acontece que nem todo leite é igual, eles são categorizados como leite tipo A, tipo B ou tipo C. O leite tipo A é o mais valioso, ele tem um valor de venda de R$4,80 por litro enquanto o tipo B tem um valor de venda de R$3,60 por litro, já o tipo C é vendido por R$2,75 por litro. Como o objetivo da cooperativa é diminuir os custos com logística, ela utiliza um caminhão tanque que sai recolhendo o leite produzido nas diversas fazendas da região e, assim, leites de diferentes tipos podem acabar sendo misturados. Contudo, eles nunca misturam mais que dois tipos de leite. Obviamente, quando um leite tipo A é misturado com uma grande quantidade de leite tipo B ou tipo C, não é mais possível dizer que esse leite é tipo A. Após terminar sua rota o caminhão terá leite de um único tipo, a questão é: que tipo é esse? Caso a mistura contenha leite tipo A e leite tipo B, ela resulta em leite tipo A caso contenha pelo menos 90% deste último tipo. Esta mesma mistura resulta em tipo B caso tenha mais de 50% e menos de 90% de leite tipo A. Por outro lado, esta mesma mistura resulta em leite tipo C caso possua pelo menos 50% de leite tipo B. Já a mistura de leite tipo A com leite tipo C resulta em leite tipo A caso possua pelo menos 95% de leite tipo A e resulta em leite tipo C caso contrário. Finalmente, a mistura do leite tipo B com leite tipo C resulta em leite tipo B caso possua pelo menos 75% de leite tipo B e resulta em leite tipo C caso contrário.",
+    "format_input": "A entrada é dada por três números reais indicando quantos litros de leite do tipo A, tipo B e tipo C, respectivamente estão presentes no tanque do caminhão.",
+    "format_output": "A saída é dada por um número real com duas casas decimais indicando qual o valor total de venda do leite contido no tanque.",
+    "topics": [
+        "decisão",
+        "entrada formatada"
+    ]
+}

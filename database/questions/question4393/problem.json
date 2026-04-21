@@ -1,0 +1,14 @@
+{
+    "title": "Análise de Provas Objetivas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que leia os nomes e respostas de alunos de uma turma, depois leia o gabarito e finalmente produza uma relação dos alunos ordenados pela nota e nome juntamente ao percentual de reprovação da turma, considerando que a média mínima para aprovação é 5.",
+    "format_input": "A entrada de dados é composta por uma sequência de dados de alunos, sendo um aluno por linha. A sequência se encerra quando uma linha contém apenas um caractere asterisco (*). Cada uma dessas linhas contém o nome completo do aluno, seguido da resposta do aluno na prova entre parênteses. A última linha da entrada conterá o gabarito, que tem 10 letras com as respostas corretas para a prova.",
+    "format_output": "A saída consiste da relação de alunos ordenada pelas notas e, havendo empate, pelo nome, sendo um aluno por linha e contendo a nota (0 a 10) e seu nome completo (em letras maiúsculas), separados entre si por um espaço em branco. Depois disso, o programa deve imprimir o percentual de reprovação da turma com 2 casas decimais seguido do caractere %.",
+    "topics": [
+        "array",
+        "decisão",
+        "entrada formatada",
+        "repetição",
+        "ordenação"
+    ]
+}

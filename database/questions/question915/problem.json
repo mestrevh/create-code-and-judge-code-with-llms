@@ -1,0 +1,10 @@
+{
+    "title": "Média de um aluno.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia do usuário as 4 notas de um aluno e calcule a média.",
+    "format_input": "As 4 notas do aluno.",
+    "format_output": "Média do aluno.",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

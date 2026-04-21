@@ -1,0 +1,8 @@
+{
+    "title": "Alô Mundo",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um Programa que mostre a mensagem \"Alô mundo!\" na tela.",
+    "format_input": "None",
+    "format_output": "Alô mundo!",
+    "topics": []
+}

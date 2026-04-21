@@ -1,0 +1,12 @@
+{
+    "title": "Risada Digital",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em salas de bate-papo (chats) ou em aplicativos de mensagens instantâneas, é muito comum entre jovens e adolescentes utilizar sequências de letras, que parecem muitas vezes aleatórias, para representar risadas. Alguns exemplos comuns são: huaauhahhuahau hehehehe ahahahaha jaisjjkasjksjjskjakijs huehuehue Melina é uma jovem programadora que ficou intrigada pela sonoridade das “risadas digitais”. Algumas delas ela nem mesmo consegue pronunciar! Mas ela percebeu que algumas delas parecem transmitir melhor o sentimento da risada que outras. A primeira coisa que ela percebeu é que as consoantes não interferem no quanto as risadas digitais influenciam na transmissão do sentimento. A segunda coisa que ela percebeu é que as risadas digitais mais engraçadas são aquelas em que as sequências de vogais são iguais quando lidas na ordem natural (da esquerda para a direita) ou na ordem inversa (da direita para a esquerda), ignorando as consoantes. Por exemplo, “hahaha” e “huaauhahhuahau” estão entre as risadas mais engraçadas, enquanto “riajkjdhhihhjak” e “huehuehue” não estão entre as mais engraçadas, que vamos considerar sem graça. Melina está muito atarefada com a análise estatística das risadas digitais e pediu sua ajuda para escrever um programa que determine, para uma risada digital, se ela é das mais engraçadas ou não. Para isso, crie uma função que receba como parâmetro o texto da risada e retorne True caso seja uma risada engraçada e False caso contrário. Caso necessário, crie outra(s) função(ões) de suporte. Não é permitido o uso de funções prontas do Python para manipulação de strings (exceto a função lower).",
+    "format_input": "A primeira linha de entrada contém um inteiro N que indica a quantidade de casos de teste que vem a seguir. Em seguida, cada linha contém uma sequência de no máximo 50 caracteres, formada apenas por letras minúsculas sem acentuação. Vamos considerar que o usuário digitará sem acentuação e com pelo menos um caractere. A sequência que não conter pelo menos uma vogal, será considerada inválida.",
+    "format_output": "Seu programa deve produzir a mensagem “ENGRACADA” caso a risada seja das mais engraçadas, ou “SEM GRACA” caso contrário. Caso a risada ultrapasse 50 caracteres ou só contenha consoantes, exiba a mensagem \"INVALIDA\".",
+    "topics": [
+        "array",
+        "função",
+        "string"
+    ]
+}

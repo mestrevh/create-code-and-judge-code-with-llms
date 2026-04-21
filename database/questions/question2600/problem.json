@@ -1,0 +1,16 @@
+{
+    "title": "L4Q4 - Frost Dragon Quest",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Com a invasão de Frost Dragons em Okolnir, vem também o congelamento da ilha. Contudo, com o perigo aumentado, seu espírito aventureiro floresce. Tendo isso em mente, agora que essas criaturas dominaram Okolnir, seu Royal Paladin terá novas aventuras pela frente, começando pela Frost Dragon Quest. Esta missão se trata de invadir uma dungeon repleta de criaturas e reivindicar o tesouro nela escondido. Sua missão é criar um programa que ajude seu paladin a ler o mapa da quest a fim de que ele chegue à recompensa, enfrentando diversos Dragons pelo caminho. Note que, cada Dragon tem um força X que equivale ao quanto de vida seu paladin precisará para enfrentar o dragão. Perceba, também, que o mapa pode ser lido como uma matriz e que, por ser muito corajoso, o seu personagem nunca anda para trás. Vale salientar que: O personagem pode ou não chegar ao bau. É garantido que sempre haverá um '@' e um '$'. A vida inicial é sempre maior que 0 e qualquer valor abaixo disso, ele morre. O mapa será sempre 5x5. O mapa é arrodeado de uma parede invisível. Símbolos do mapa: * - representa um espaço em que o personagem ja passou no mapa. # - representa uma parede. @ - representa o jogador. $ - representa o tesouro. (int) - representa a força da criatura nesta posição. Direções no mapa: D - o personagem deve andar uma casa à direita. E - o personagem deve andar uma casa à esquerda. C - o personagem deve andar uma casa pra cima.",
+    "format_input": "X é um inteiro contendo a vida do personagem. M[5x5] serão 5 linhas com 5 elementos em cada, separados por espaços, representando o mapa da dungeon. D é um inteiro contendo a quantidade de direções. A[D] será uma linha contendo D elementos, separados por espaços, indicando a direção que o personagem deve seguir.",
+    "format_output": "A saída deve informar cada etapa do programa, ou seja, a cada direção deve ser informado o que aconteceu, acompanhado de uma quebra de linha. Com exceção de quando achar o tesouro. Uma magic wall aqui? druid desgraçado (Caso tente ir a uma posição que possua uma parede). Minha Royal Spear deita qualquer Dragon (Quando consegue derrotar a criatura). Minhas HPs acabaram, esse Frost Dragon me deitou (Quando não consegue derrotar o mob). Após os movimentos, deve ser informado o estado atual do mapa: M[5x5]. E, por fim, se o personagem conseguiu encontrar o tesouro ou não. Caso encontre: Finalmente acabei a quest. Caso não encontre: Quem foi o newba que escreveu essas coordenadas.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "simulação de jogos",
+        "decisão",
+        "lógica matemática",
+        "array bidimensional",
+        "formatação"
+    ]
+}

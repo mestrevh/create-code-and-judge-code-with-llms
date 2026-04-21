@@ -1,0 +1,11 @@
+{
+    "title": "L4Q? - Grad 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Como um bom monitor, você deve cumprir a tarefa de maximizar o tempo de estudo dos alunos durante as aulas de IP. Para garantir o máximo de eficiência no grad, você decidiu criar um programa que encontra o computador mais conveniente para alunos que chegam atrasados. A conveniência é o tempo (em segundos), que vai ser calculado da seguinte forma: Tempo = Distância * 20. Distância = √(X+Y). Caso o computador em questão esteja desligado, adiciona-se 40 segundos ao tempo. X e Y são coordenadas no mapa de computadores, funcionam da seguinte maneira. Obs: A entrada da sala está localizada em (0,0)",
+    "format_input": "A entrada é composta de uma matriz de dimensões 5 x 10 que representa um mapa de disponibilidade de computadores com a seguinte legenda: * - Computador indisponível, 0 - Computador desligado e livre, 1 - Computador ligado e livre",
+    "format_output": "Se não houver computadores disponíveis: \"Tristemente voce vai ter que aturar os PCs do grad 4\". Se houver, deverá ser impresso o que leva menos tempo, e caso o tempo seja igual, o mais próximo do topo do mapa no seguinte formato: \"Vai la pro computador X da fileira Y\"",
+    "topics": [
+        "array bidimensional",
+        "busca"
+    ]
+}

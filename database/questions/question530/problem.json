@@ -1,0 +1,12 @@
+{
+    "title": "Piui-Piui",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O objetivo deste problema é implementar uma busca binária sobre um vetor de palavras. A busca binária deverá ser realizada sobre um array de N palavras numeradas de 0 a N-1. Conforme visto em aula, a posição intermédia deve ser calculada como m = (l+r)/2 ---> divisão inteira onde l e r são, respectivamente os limites inferior e superior do intervalo de busca considerado. Dadas duas palavras X = x[1]x[2]...x[s] e Y = y[1]y[2]..y[t], com respectivamente, s e t letras, a comparação deve ser feita letra por letra, da esquerda para a direita, até que a primeira diferença seja encontrada ou até o final de uma (ou as duas) palavras. Por exemplo, a comparação entre X = \"algoritmo\" e Y = \"algarismo\" requer 4 (quatro) comparações para concluir que X > Y pois 'o' > 'a' com respeito à ordem alfabética.",
+    "format_input": "O arquivo de entrada possui a forma N M W[1] W[2] ... W[N] Q[1] Q[2] ... Q[M] onde: 1 <= N <= 2^15: quantidade de palavras no vetor 1 <= M <= 2^15: quantidade de palavras a serem pesquisadas W[1],...,W[N]: palavras do vetor de busca em ordem alfabética (W[i]!=W[j] para i!=j) Q[1],...,Q[M]: palavras a serem pesquisadas As palavras estão todas em letras minúsculas, sem acentos, e com, no máximo 10 letras.",
+    "format_output": "O arquivo de saída deve estar no formato: R[1] C[1] R[2] C[2] ... R[M] C[M] onde R[j] = \"SIM\", se a palavra Q[j] pertence ao vetor, ou \"NAO\" caso contrário C[j] = número total de comparações de letras necessários para se chegar à resposta",
+    "topics": [
+        "pilha",
+        "deque",
+        "busca binária"
+    ]
+}

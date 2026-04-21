@@ -1,0 +1,10 @@
+{
+    "title": "Cofre automático",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Um empresário, cansado de abrir o cofre de seu escritório girando o disco da chave todos os dias, pediu para um engenheiro de mecatrônica criar um pequeno dispositivo e acoplou à fechadura do cofre, a idéia é que o dispositivo reconheça uma lista de comandos com a senha e gire o cofre por si só. No entanto, o engenheiro quer terminar o mais rápido possível, por isso pediu para que você escrevesse o programa enquanto ele monta o hardware. Seu programa deve receber como dados inicias os valores da roleta e a posição inicial: Com esses dados o seu programa deve executar comandos do tipo: D 2, girar 2 vezes no sentido horário E 1, girar 1 vez no sentido anti-horário Ao final de cada comando, seu programa deve mostrar em uma linha os valores da roleta no sentido horário a partir do valor atualmente apontado.",
+    "format_input": "A entrada começa com um inteiro N > 0 indicando o número de elementos na roleta. Os próximos N números são os valores contidos nos slots da roleta. Onde o primeiro valor é o atualmente apontado pela roleta. As próximas linhas possuem um caractere C e um valor inteiro positivo V separados por espaço indicando respectivamente o comando e o número de vezes que o comando é executado Onde os valores de C podem ser: D - Girar para Direita (sentido horário) E - Girar para esquerda (sentido anti-horário) S - Sair O caso de teste termina ao receber o comando S independentemente do número que vier a seguir.",
+    "format_output": "A saída deve conter uma linha por comando (exceto o último) contendo os números da roleta separados por espaço a partir da posição inicial, há um espaço e uma quebra de linha ('\\n') no final de cada linha de saída",
+    "topics": [
+        "array circular"
+    ]
+}

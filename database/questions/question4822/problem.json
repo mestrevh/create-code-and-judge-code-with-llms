@@ -1,0 +1,15 @@
+{
+    "title": "Refinamento de Macrodados",
+    "time_limit": "1 segundo(s)",
+    "descrition": "“Bem-vindo de volta, empregado da Lumon Industries. Sua tarefa, como refinador de dados, é identificar e neutralizar padrões perturbadores que emergem espontaneamente nos conjuntos numéricos da empresa. Lembre-se: você não precisa entender o que os números significam. Apenas refine.” Você deve desenvolver um programa que analisa uma matriz N x N de inteiros (entre 0 e 9), representando o conjunto de dados coletados pelo Setor Macrodata. A Lumon define um bloco perturbador como uma sequência de três ou mais números iguais consecutivos, seja na horizontal ou na vertical. Sempre que um bloco perturbador for encontrado, todas as células pertencentes a ele devem ser zeradas (substituídas por 0). OBS.: Caso o bloco perturbador encontrado for de 0s, nada precisa ser feito.",
+    "format_input": "Um número inteiro N (1 ≤ N ≤ 20), representando a dimensão da matriz. Uma matriz N x N com valores inteiros de 0 a 9.",
+    "format_output": "A matriz refinada, já com os blocos perturbadores neutralizados (zerados). Caso nenhum bloco perturbador seja identificado, apenas imprimir: \"Os dados estão estáveis. Continue refinando.\"",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "decisão",
+        "repetição",
+        "array bidimensional",
+        "busca"
+    ]
+}

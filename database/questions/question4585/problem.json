@@ -1,0 +1,10 @@
+{
+    "title": "Contando ovelhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A ovelha Bleatrix Trotter desenvolveu uma estratégia que a ajuda a adormecer mais rápido. Primeiro, ela escolhe um número N. Depois começa a nomear N, 2 × N, 3 × N e assim por diante. Sempre que ela nomeia um número, ela pensa em todos os dígitos desse número. Ela controla quais dígitos (0, 1, 2, 3, 4, 5, 6, 7, 8 e 9) ela viu pelo menos uma vez até agora como parte de qualquer número que ela nomeou. Depois de ver cada um dos dez dígitos pelo menos uma vez, ela adormecerá. Bleatrix deve começar com N e sempre nomear (i + 1) × N diretamente após i × N. Por exemplo, suponha que Bleatrix escolha N = 1692. Ela contaria da seguinte forma: N = 1692. Agora ela viu os dígitos 1, 2, 6 e 9. 2N = 3384. Agora ela viu os dígitos 1, 2, 3, 4, 6, 8 e 9. 3N = 5076. Agora ela viu todos os dez dígitos e adormece. Qual é o último número que ela nomeará antes de adormecer? Se ela contar para sempre, imprima INSOMNIA.",
+    "format_input": "A primeira linha da entrada fornece o número de casos de teste, T. Seguem-se T casos de teste. Cada um consiste em uma linha com um único inteiro N, o número que Bleatrix escolheu.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo Case #x: y, onde x é o número do caso de teste (começando em 1) e y é o último número que Bleatrix nomeará antes de adormecer, de acordo com as regras descritas na instrução.",
+    "topics": [
+        "array"
+    ]
+}

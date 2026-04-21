@@ -1,0 +1,11 @@
+{
+    "title": "Máximo e Mínimo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A aluna de Programação 1 Sofia estava com muita dificuldade para verificar o maior número e o menor número dada uma sequência de inteiros. A sua tarefa é criar um programa que mostre o maior e o menor número dessa sequência e a quantidade de vezes que eles aparecem nessa sequência.",
+    "format_input": "Um inteiro n e logo em seguida uma sequência de n inteiros positivos menores ou iguais a 1000.",
+    "format_output": "A saída deverá conter o maior e o menor número dessa sequência, seguidos da quantidade de vezes que eles repetem.",
+    "topics": [
+        "array",
+        "busca"
+    ]
+}

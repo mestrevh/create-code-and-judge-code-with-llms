@@ -1,0 +1,10 @@
+{
+    "title": "Fazenda do João",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu João comprou uma fazenda com um grande terreno e decidiu que ira começar a praticar agricultura. O problema é que seu João não tem conhecimento quanto as épocas adequadas para plantar ou colher. Crie um programa onde seu João coloque a data e receba a instrução do que fazer no dia através de uma função chamada \"Plantar_e_Colher\". Usando como base a tabela a seguir :",
+    "format_input": "dois inteiros, representando a data e o mês respectivamente",
+    "format_output": "\"Hora de plantar ...\" \"Hora de colher ...\"",
+    "topics": [
+        "função"
+    ]
+}

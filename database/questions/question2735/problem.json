@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Passagem de Parâmetros - G",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que use uma função, criada por você, que recebe como parâmetro a referência de uma variável do tipo struct cliente, conforme declarado a seguir, e faça a atualização dos campos a partir da entrada de dados do usuário, ou seja, deverá preencher o parâmetro struct dentro da função de modo a alterar a variável original. O programa deverá exibir a struct depois do preenchimento da função. struct cliente { int codigo; char nome [ 30 ]; float credito; };",
+    "format_input": "Na primeira linha um inteiro representando o código do cliente; na linha seguinte uma string sem espaços representando o nome do cliente; na linha seguinte um valor real indicando o valor do crédito que o cliente possui.",
+    "format_output": "Na primeira linha o código do cliente; na linha seguinte o nome do cliente; na linha seguinte o crédito do cliente com duas casas decimais.",
+    "topics": [
+        "função"
+    ]
+}

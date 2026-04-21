@@ -1,0 +1,10 @@
+{
+    "title": "A Entidade e o Brilho das Estrelas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade foi convidada para um evento num sistema solar muito, muito perto. Para aproveitar sua primeira viagem intergaláctica, ela calculou o brilho de cada estrela e o anotou. O brilho de cada estrela é categorizado por um número de 1 até 9. Mesmo sendo próximo, no caminho que ela tomou, foi possível observar várias estrelas. Como ela gosta muito de números ela resolveu juntar os brilhos e formar um número só. Muito em breve ela vai fazer muitas dessas viagens, ela quer catalogar os brilhos de estrela de cada caminho. Então, faça um programa para ajudar a entidade a contar quantas estrelas de cada nível de brilho existe em cada caminho.",
+    "format_input": "A primeira linha da entrada terá um inteiro N representando a quantidade de caminhos que a Entidade vai solicitar. Em seguida, N linhas virão, cada linha terá um inteiro X contendo o brilho de cada estrela existente nesse caminho. Limites: 1 <= N <= 1000 0 <= X <= 10^18 (Será necessário utilizar \"long long int\" para armazenar um número deste tamanho)",
+    "format_output": "Para cada caminho, a saída deverá conter o identificador do caminho, seguido por 10 linhas, onde cada linha contém, o nível do brilho e quantas estrelas tinham aquele brilho; seguindo a seguinte formatação: Path p_1: Brightness 1: b_1 Brightness 2: b_2 ... Brightness 9: b_9 Path p_2: Brightness 1: b_1 Brightness 2: b_2 ... Brightness 9: b_9 ...",
+    "topics": [
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Rocsoro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pedro, Anderson e Hugo estavam estudando para prova de Cálculo 3 e decidiram descansar um pouco jogando um jogo chamado Rocsoro. Nesse jogo, os jogadores decidem uma quantia de rodadas antes de começar a jogar e então passam a escolher os números. Cada um escolhe um número, se a soma dos números for ímpar, eles multiplicam os números e depois dividem por 2. Se a soma for par eles farão o somatório dos dígitos dos números e então irão multiplicá-los. Com isso eles terão um novo número dependendo se a soma for ímpar ou par. Se o final desse novo número for 1, 2 ou 3 então esse número será somado na pontuação de Pedro. Caso o final do número seja 4, 5 ou 6, então o número será somado na pontuação de Anderson. Caso o final do número seja 7, 8 ou 9, o número será somado na pontuação de Hugo. Se o último dígito for 0, então ocorreu um empate. Faça um código que calcula e exibe a pontuação de cada um, a quantidade de empates e o vencedor final. Obs: A divisão por 2 deve pegar apenas a parte inteira.",
+    "format_input": "Um inteiro N representando a quantia de rodadas. N linhas contendo três inteiros representando o número de Pedro, o número de Anderson e o número de Hugo. Exemplo: 3 16 73 24 44 15 15 30 42 99",
+    "format_output": "\"Pontuacao Pedro: X\" \"Pontuacao Anderson: Y\" \"Pontuacao Hugo: Z\" \"Empates: K\" \"S ganhou\" X, Y e Z seriam os pontos de Pedro, Anderson e Hugo respectivamente. S seria o nome da pessoa que ganhou (\"Pedro\", \"Anderson\" ou \"Hugo\") Exemplo: Pontuacao Pedro: 0 Pontuacao Anderson: 14016 Pontuacao Hugo: 288 Empates: 1 Anderson ganhou",
+    "topics": [
+        "decisão",
+        "recursão"
+    ]
+}

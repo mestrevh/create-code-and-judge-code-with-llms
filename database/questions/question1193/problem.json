@@ -1,0 +1,12 @@
+{
+    "title": "L2Q7 - Oh, my sweet summer child",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No seu retorno para a Cidadela, você encontra seu colega aprendiz, Samwell Tarly, que durante suas pesquisas nas bibliotecas, percebeu que a duração dos invernos em Westeros tem uma relação direta com a duração dos verões. Com essa informação ele resolveu estimar quanto tempo duraria o próximo inverno. Para tanto, ele utilizou a data de início e fim do último. Para ajudar o trabalho do Jovem Sam, faça um sistema que calcule o número de dias entre duas datas. OBS: Em Westeros também existem anos bissextos.",
+    "format_input": "A entrada consiste de 6 valores inteiros separados: D1 - O dia da primeira data. M1 - O mês da primeira data. A1 - O ano da primeira data. D2 - O dia da segunda data. M2 - O mês da segunda data. A2 - O ano da segunda data.",
+    "format_output": "A quantidade de dias que passaram entre as duas datas.",
+    "topics": [
+        "acumulador",
+        "datas/horas",
+        "repetição"
+    ]
+}

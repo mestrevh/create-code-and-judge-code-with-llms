@@ -1,0 +1,14 @@
+{
+    "title": "Ordenação de DNA",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma medida de \"desordem\" em uma sequência é o número de pares de entradas que estão fora de ordem com relação ao outro. Por exemplo, na sequência \"DAABEC\", esta medida é de 5, uma vez que D é maior que quatro letras à sua direita e E é maior que uma letra à sua direita. Esta medida é chamado o número de inversões na sequência. A sequência \"AACEDGG\" só tem uma inversão (o par E e D que está fora de ordem) , enquanto a sequência \"ZWQM\" tem 6 inversões. Você é responsável pela catalogação de uma sequência de sequências de DNA (sequências contendo apenas as quatro letras A, C, G e T. No entanto, você deve catalogá-las, não em ordem alfabética, mas sim por ordem de desordem, das \"mais ordenadas\" para as \"menos ordenadas\". Todas as strings possuem o mesmo tamanho.",
+    "format_input": "A primeira linha da entrada é um inteiro M, seguido de uma linha em branco e depois um conjunto de M datasets. Existe uma linha em branco entre os datasets. A primeira linha de cada dataset contém 02 inteiros: um inteiro positivo j (0 < j <= 50) indicando o tamanho da strings; e um inteiro k (0 < k <= 100) indicando o número de strings. Seguem-se k linhas, cada uma contendo uma string de tamanho j.",
+    "format_output": "Para cada dataset, deve-se imprimir a lista das strings de entrada ordenadas da \"mais ordenada\" para a \"menos ordenada\". Se duas ou mais strings possuírem o mesmo nível de desordem, elas devem ser impressas na mesma ordem da entrada. Imprima uma linha em branco entre dois casos de testes consecutivos.",
+    "topics": [
+        "array",
+        "caractere",
+        "array bidimensional",
+        "string",
+        "ordenação"
+    ]
+}

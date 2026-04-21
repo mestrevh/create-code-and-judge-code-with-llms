@@ -1,0 +1,12 @@
+{
+    "title": "Clima Frio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O inverno na Europa tem sido bastante severo e nos últimos três dias várias cidades registraram temperaturas abaixo de zero. Escreva um programa que receba como entrada a temperatura registrada em três capitais européias nesse período, e exiba a média das temperaturas negativas e a menor temperatura alcançada. Dica: suponha a menor temperatura inicial sendo zero",
+    "format_input": "Cinco valores reais para cada dia",
+    "format_output": "Dois valores reais com duas casas decimais cada um",
+    "topics": [
+        "eof",
+        "decisão",
+        "função"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Feed de notícias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi contratado para melhorar o seu feed de notícias do facebook. No sua feed de notícias deve aparecer as atualizações dos seus amigos. Porém, você deve escolher quais delas deve mostrar. Você vai mostrar primeiro as atualizações mais recentes e dos amigos mais próximos a você. Então, você resolveu usar uma fórmula para ponderar esses dois aspectos: 0.8 * grau de proximidade do seu amigo + 0.2 * tempo que a atualização foi realizada. O grau de proximidade do seu amigo é calculado por outro algoritmo e tem sempre o valor entre 0 e 1. O tempo de atualização também é calculado por um outro algoritmo e tem sempre o valor entre 0 e 1. Nesse caso, 1 significa que acabou de ser postado e 0 que faz muito tempo. Você irá receber, uma lista de atualizações de cada amigo e deve montar a sua feed de notícias.",
+    "format_input": "Você irá receber: linha 1: um inteiro n indicando o tamanho do seu feed de notícias. Considere 1 <= n <= 10000000 linha 2: um inteiro m indicando a quantidade de amigos que você possui. Considere 1 <= m <= 10000000 próximas m linhas: o identificador do amigo e o grau de proximidade próxima linha: um inteiro x indicando a quantidade de atualizações que você receberá próximas x linhas: um inteiro i indicando qual é o amigo que fez a atualização, um número real indicando o tempo que a atualização foi realizada e uma frase representando a atualização",
+    "format_output": "Você deve imprimir o feed de notícias contendo exatamente as n notícias ordenadas de acordo com a fórmula dada na descrição. Cada linha deve conter o identificador do amigo, seguido de um espaço em branco, e depois a frase da atualização.",
+    "topics": [
+        "estrutura de dados",
+        "ordenação"
+    ]
+}

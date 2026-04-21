@@ -1,0 +1,11 @@
+{
+    "title": "Zeca (não) quer trabalhar",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após dias e dias sem fazer absolutamente nada além de assistir TV, Zeca Urubu chegou a conclusão que ele precisava se levantar e fazer alguma coisa. Sim, ele precisava comprar uma TV nova. Porém tinha apenas um pequeno problema, ele não tem dinheiro nenhum na conta. Zeca, disposto a não trabalhar, decidiu que iria checar a lista de pessoas a quem ele emprestou dinheiro recentemente e cobrar a grana, porém em uma tentativa de não ser tão preguiçoso, ele estabeleceu algumas condições bem específicas: - Ele irá visitar EXATAMENTE 3 amigos - Ele quer APENAS o valor da TV, nenhum real a mais ou menos - Ele não pode cobrar um mesmo amigo mais do que uma vez - Caso ele não consiga cumprir com todas as condições, ele irá trabalhar Faça um programa para ajudar Zeca a descobrir se ele vai realmente precisar trabalhar ou se ele vai conseguir escapar de suas responsabilidades mais uma vez.",
+    "format_input": "O seu programa receberá duas linhas. A primeira linha vai possuir dois valores inteiros positivos, V e N, representando o valor da TV e a quantidade de amigos a quem Zeca emprestou dinheiro, respectivamente. A segunda linha vai possuir uma quantidade N de valores inteiros positivos, representando o valor que Zeca emprestou a cada amigo. Os valores da entrada irão variar dentro dos seguintes intervalos: - 0 < V <= 5000 - 3 < N <= 20 - 0 < X <= 2000 (Valores que Zeca pode ter emprestado)",
+    "format_output": "Seu programa terá que printar na tela uma das duas seguintes frases: - “Zeca nao vai ter que trabalhar!” - “Zeca vai ter que trabalhar.” Ambas sem aspas e sem quebra de linha no final. A primeira será printada caso Zeca seja capaz de cumprir as condições, e a segunda será printada caso não seja possível.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

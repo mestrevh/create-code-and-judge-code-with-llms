@@ -1,0 +1,8 @@
+{
+    "title": "Calçada da Fama",
+    "time_limit": "1 segundo(s)",
+    "descrition": "None",
+    "format_input": "2 10 3 1 3 1 4 7 8 3 2 5 8 2 1 1 2 3 1 1 2",
+    "format_output": "Caso #1: 2 Caso #2: 3",
+    "topics": []
+}

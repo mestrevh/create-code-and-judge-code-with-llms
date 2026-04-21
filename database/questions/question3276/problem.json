@@ -1,0 +1,11 @@
+{
+    "title": "Par ou Impar",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que faça a litura de um número inteiro e classifica-o como par ou ímpar (Não use acentos no código).",
+    "format_input": "2",
+    "format_output": "par",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

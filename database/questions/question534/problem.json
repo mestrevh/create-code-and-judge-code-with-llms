@@ -1,0 +1,12 @@
+{
+    "title": "CPF do Zé",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Zé quer acessar seu sig@ UFPE, porém ele não lembra dos dois últimos dígitos de seus CPF, mas ele se recorda que todo número de CPF é composto de 11 dígitos, dos quais os nove primeiros são únicos e os dois últimos são de confirmação, graças a uma programa feito na monitoria de programação. Faça um programa que dada os nove primeiros dígitos, separados por um espaço, retorne os dois dígitos de confirmação, sabendo que: O primeiro dígito de confirmação é calculado dada divisão (somatório de Nj*i)/11, com j variando de 1 até 9, onde i = (11 - j) e Nj o número “j” dos nove fornecidos. Se o resto for menor que dois então o ultimo digito será 0 (zero), caso contrário seu resto deverá ser subtraido de 11, gerando assim o primeiro dígito. O segundo dígito de confirmação é calculado dada a divisão (somatório de Nj*i)/11, com j variando de 1 até 10, onde i = (12 - j) e Nj o número “j” dos nove fornecidos mais o novo dígito. Se o resto for menor que dois então o ultimo digito será 0 (zero), caso contrário seu resto deverá ser subtraído de 11, gerando assim o primeiro dígito.",
+    "format_input": "A entrada consiste em um número T de casos onde cada caso tem 9 números separados por espaços, que são os dígitos iniciais do CPF (sem o verificador). Exemplo: 1 3 8 4 7 2 7 8 5 2",
+    "format_output": "A saída, para cada caso de teste, consistem no número do caso atual seguido do CPF correto com o devido dígito verificador. Exemplo: Caso 1: 384727852-54",
+    "topics": [
+        "lógica matemática",
+        "repetição",
+        "formatação"
+    ]
+}

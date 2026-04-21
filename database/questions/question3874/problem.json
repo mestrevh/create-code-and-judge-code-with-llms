@@ -1,0 +1,12 @@
+{
+    "title": "A Guerra dos CinCabeças",
+    "time_limit": "4 segundo(s)",
+    "descrition": "Você tá com medo de 3 Tom Holland no filme do Miranha? Bem, eu também. Mas fica tranquilo que na CInWars não terão pessoas repetidas. Recentemente, um grupo de alunos enloqueceram e sofreram mutações e começaram a batalhar entre si pois o período ta fritando com as cabeças, a guerra ficou conhecida como \"A Guerra dos CinCabeças\". Você irá receber dois CinCabeças e sua tarefa é determinar quem ganhou a batalha segundo as regras: O de nome maior alfabeticamente ganha 2 pontos; O com a idade sendo um numero primo ganha 4 pontos; O com id sendo um quadrado perfeito ganha 3 pontos. OBS: Pode haver empate entre os CinCabeças!",
+    "format_input": "Use as struct para armazenar os dados de cada herói, a entrada será do seguinte modo: idade1 id1 \"nome1\" idade2 id2 \"nome2\" OBS: os nomes terão até 20 caracteres",
+    "format_output": "Exibir o nome de quem venceu da seguinte mandeira \"[NAME] WINS\" Se hove empate, exibir \"CInCABECAS EMPATADOS\"",
+    "topics": [
+        "acumulador",
+        "ciclos",
+        "string"
+    ]
+}

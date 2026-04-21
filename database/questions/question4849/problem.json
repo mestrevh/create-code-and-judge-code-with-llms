@@ -1,0 +1,11 @@
+{
+    "title": "Ana e os anagramas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ana é uma estudante de Engenharia da Computação e é apaixonada por anagramas. Após aprender sobre vetores e strings em C, ela decidiu testar seus conhecimentos desenvolvendo um programa capaz de processar anagramas a partir de uma string. Agora, Ana precisa da sua ajuda para implementar esse programa. Faça um programa em C que: 1. Leia uma string de até 100 caracteres (desconsiderando o caractere ‘\\0’); 2. Identifique quais pares de palavras da string são anagramas entre si; 3. Exiba cada par de palavras encontrado; 4. Exiba a quantidade total de pares de anagramas. Observações: A string pode conter letras, espaços e sinais de pontuação. As palavras não se repetem e são formadas apenas por letras. Letras maiúsculas e minúsculas devem ser tratadas como equivalentes. Duas palavras são anagramas quando possuem as mesmas letras na mesma quantidade, independentemente da ordem. Uma palavra não deve ser comparada com ela mesma. Não repita pares (ex.: amor e roma e roma e amor).",
+    "format_input": "Uma string s contendo as palavras a serem processadas.",
+    "format_output": "Caso existam pares de anagramas, exiba: Pares de anagramas encontrados: p1 e p2 ... Total de pares: x. Onde p1 e p2 representam cada par de anagramas e x é a quantidade de pares encontrados. Caso não exista nenhum par de anagramas, exiba: Nao existem anagramas na frase.",
+    "topics": [
+        "array",
+        "string"
+    ]
+}

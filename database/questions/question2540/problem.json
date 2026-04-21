@@ -1,0 +1,12 @@
+{
+    "title": "Função POP - sua versão",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Quando se usa estrutura de dados homogêneas ( também conhecidas como array, vetores, arranjos) algumas manipulações são necessárias. Dentre elas está a necessidade de remover um elemento da estrutura. Em Python existe uma função denominada POP cujo objetivo é remover o item de uma variável do lista na posição dada e o devolver, isto é, é possível guardar o valor do item removido. Se nenhum índice é especificado, a função remove e devolve o último item na lista. O objetivo dessa atividade é implementar uma versão adaptada da função POP, isto é, apenas as funções básicas (append e len) podem ser utilizadas na sua solução. A sua solução deve receber um número (N) que corresponde ao número de elementos da sua lista e, em seguida, serão lidos N números inteiros. Após isso, deve ser lida a posição do item que se deseja remover da lista criada anteriormente. Na saída devem ser apresentados, na seguinte ordem: a lista criada, o item removido, a lista sem o item removido.",
+    "format_input": "Os dados da entrada são: número de elementos que se deseja colocar na lista (N); N números inteiros (elementos da lista); A posição do item a ser removido",
+    "format_output": "A saída deve ter: A lista com seus elementos; O item a ser removido; A nova lista sem o item removido. Caso não seja possível remover elemento da lista porque a lista está vazia, apresentar a mensagem: \"A lista estah vazia - nao eh possivel remover elementos\". Em outro caso, apresentar a mensagem: \"Nao eh possivel remover o elemento\".",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

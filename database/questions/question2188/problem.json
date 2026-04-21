@@ -1,0 +1,14 @@
+{
+    "title": "Vetores (GA)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio começou a cursar exatas, e se deparou com a temida matéria de Geometria Analítica. Seu Professor começou a ensinar vetores, e ele precisa conferir se as respostas dos seus exercícios estão corretas. Sabendo que você sabe programar, Ambrósio solicitou que faça um programa onde serão dados vários pares de vetores ( Os vetores fornecidos por Ambrósio poderão ter duas ou três componentes ). Para cada par de vetores, você deve calcular a soma, o produto escalar e indicar se o ângulo entre eles é Agudo, Obtuso, ou Reto. O Ângulo é Agudo quando the produto escalar u.v é > 0, é Obtuso quando o escalar é < 0 e é Reto quando o seu escalar é = 0. O vetor com duas componentes será dado da seguinte maneira: u-> = xi + yj com três componentes será: u-> = xi + yj + zk",
+    "format_input": "Será dado um inteiro C, representando as componentes do vetor, seguidos pelo par de vetores u e v, a entrada para quando C for diferente de 2, e diferente de 3. Se o par de vetores tem duas componentes (i, j) a entrada será: 2 u-> = 1i + 3j v-> = 7i + -2j e se o par tem três componentes (i, j, k): 3 u-> = 2i + 4j + -3k v-> = 9i + 6j + 4k Onde -1000 < C, x, y, z < 1000 (x, y, z são as componentes do vetor).",
+    "format_output": "Usando o exemplo de entrada, a saída para vetores com duas componentes deverá ser apresentada da seguinte maneira: u-> + v-> = 8i + 1j u->.v-> = 1 Agudo Para três componentes: u-> + v-> = 11i + 10j + 1k u->.v-> = 30 Agudo Onde a primeira linha é o vetor resultante da soma, a segunda linha é o resultado do produto escalar e a terceira linha representa o ângulo (Agudo, Obtuso ou Reto).",
+    "topics": [
+        "multiplas entradas",
+        "entrada formatada",
+        "lógica matemática",
+        "repetição",
+        "recursão"
+    ]
+}

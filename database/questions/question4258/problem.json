@@ -1,0 +1,11 @@
+{
+    "title": "Lista de Strings",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia uma String de numeros e mostre a sua ordem inversa, separando os números com uma virgula e um espaço em branco. Obs: não pode usar o end='' e nem o método .reverse()",
+    "format_input": "Uma String de inteiros",
+    "format_output": "Uma lista de inteiros",
+    "topics": [
+        "array",
+        "string"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "L4Q3 - Você tem sorte?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Campo minado foi muito jogado antigamente, principalmente no Windows XP. Para relembrar os velhos tempos é necessário que você crie um pequeno campo minado. Para identificar se em uma determinada coordenada tem bomba é necessário fazer a soma de todos os elementos a direita do valor da coordenada(incluindo o próprio valor), fazer a soma de todos os valores abaixo do valor da coordenada(incluindo o próprio valor) e fazer a soma de todos os valores da diagonal inferior direita a partir da coordenada indicada(incluindo o próprio valor) e depois verificar se as três somas são iguais, caso sejam, isso quer dizer que tem uma bomba nessa coordenada. OBS: Quando for verificado que em uma coordenada não contém bomba, é necessário substituir o valor da coordenada por -1; Esse -1 não deve ser computado na soma de outras coordenadas; É garantido que nenhuma matriz vai ser informada com algum -1 entre seus elementos;",
+    "format_input": "M Sendo M um inteiro; N Sendo N o número de de jogadas; A Sendo A uma matriz MxM; Em seguida, é informado N coordenadas da forma: X Sendo X um inteiro representando a coordenada da linha da matriz(que vai de 0 a M-1); Y Sendo Y um inteiro representando a coordenada da coluna da matriz(que vai de 0 a M-1);",
+    "format_output": "Após cada escolha bem sucedida(ou seja uma coordenada sem bomba), deve ser impresso: \"Boa jogada, a casa (x,y) nao tinha bomba.\" Caso seja informada uma coordenada (x,y) que já tenha sido informada antes, deve ser impresso: \"Essa casa ja foi selecionada.\" Se uma bomba for encontrada o programa para imediatamente e deve ser impresso: \"Bomba encontrada.\" \"Voce perdeu.\" Ao final de tudo, caso nenhuma bomba seja encontrada, deve ser impresso: \"Voce e uma pessoa de sorte.\"",
+    "topics": [
+        "array bidimensional"
+    ]
+}

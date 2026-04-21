@@ -1,0 +1,10 @@
+{
+    "title": "Meia Entrada Cinema",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Programa que determina o preço com desconto para entradas de cinema. Estudantes recebem 50% de desconto, aposentados, 30%. Os demais clientes pagam o valor integral.",
+    "format_input": "Preço do Ingresso Categoria de Cliente (Estudante (E), Aposentado (A), Normal(N))",
+    "format_output": "Categoria do Cliente Preco final para o cliente Ou Categoria inválida",
+    "topics": [
+        "decisão"
+    ]
+}

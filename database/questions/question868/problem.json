@@ -1,0 +1,10 @@
+{
+    "title": "5 maiores do sorteio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um quantidade de números N, um dígito sorteado D e N números, sua tarefa é informar os 5 maiores números sorteados que possuem o ultimo dígito igual a D, caso não exista números suficientes você deve substitui-los por -1. Os números devem ser impressos em ordem crescente.",
+    "format_input": "Dois inteiros N e D, seguidos de N números não negativos. 5 <= N <= 1000. 0 <= D <= 9.",
+    "format_output": "Os 5 maiores números sorteados , 1 por linha, ou -1 quando necessário.",
+    "topics": [
+        "ordenação"
+    ]
+}

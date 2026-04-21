@@ -1,0 +1,11 @@
+{
+    "title": "Roupa alugada",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Carlitos trabalha em uma loja que aluga trajes de festa para homens. Os preços cobrados são os seguintes: Tipo de terno: Simples (120.40), Completo (150.35), Fraque (180.70). Acessório: Gravata (R$ 30.00), Sapato (R$ 80.00), Cinto (R$ 15.00). Escreva um programa que receba como entrada o tipo de item alugado (terno ou acessório) e sua descrição, e exiba o valor a ser pago, sabendo que todos os ternos ganham desconto de 7%.",
+    "format_input": "Dois valores String, sendo o primeiro referente ao tipo de item alugado, e o segundo à sua descrição. Dica: lembre-se que o usuário poderá combinar maiúsculas e minúsculas em suas entradas e seu programa deverá estar preparado para tratar esses dados.",
+    "format_output": "Um valor real com duas casas decimais.",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

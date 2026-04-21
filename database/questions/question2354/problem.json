@@ -1,0 +1,13 @@
+{
+    "title": "Soma de primos dá um primo?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa para determinar se 2 números primos (X e Y) somados resultam em outro número primo. Seu programa deve receber 2 números, verificar se os 2 são primos e, caso eles sejam primos, verificar se a soma deles é primo. Se seu programa identificar que algum número recebido não é primo, ele deve imprimir a seguinte mensagem: \"O número N não é primo.\" Use uma função para fazer a impressão dessa mensagem passando o número como parâmetro. Se a soma dos 2 números for um primo, emita a seguinte mensagem: \"A soma de X e Y é um primo.\" Caso contrário, escreva a mensagem: \"A soma de X e Y não é um primo.\"",
+    "format_input": "Dois números inteiros X e Y.",
+    "format_output": "Uma mensagem de erro: \"O número N não é primo.\" Ou, se a soma dos 2 números for um primo, emita a seguinte mensagem: \"A soma de X e Y é um primo.\" Caso contrário, escreva a mensagem: \"A soma de X e Y não é um primo.\"",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição",
+        "função"
+    ]
+}

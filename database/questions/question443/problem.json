@@ -1,0 +1,12 @@
+{
+    "title": "Lanche para os escoteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No próximo domingo, os escoteiros vão realizar uma atividade beneficente e Ronaldo ficou responsável por organizar um lanche para eles. Pesquisando na mercearia mais próxima, ele descobriu que um pacote de pão integral com 23 fatias custa R$ 4.15, e que um pacote com 8 fatias de queijo processado custa R$ 3.89. Entretanto, as fatias de pão e as fatias de queijo também podem ser compradas individualmente sem custo adicional. Escreva um programa que receba como entrada a quantidade de escoteiros e exiba o valor total necessário para fazer um sanduíche para cada um deles. Dica: um sanduíche é feito com duas fatias de pão e uma fatia de queijo",
+    "format_input": "Um valor inteiro",
+    "format_output": "Um valor real com duas casas decimais",
+    "topics": [
+        "Matemática",
+        "Cálculo de Custo",
+        "Lógica de Programação"
+    ]
+}

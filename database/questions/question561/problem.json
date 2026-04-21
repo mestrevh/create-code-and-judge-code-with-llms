@@ -1,0 +1,10 @@
+{
+    "title": "Vania e os livros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Vânia tem uma tarefa inportante, ela deve enumerar os livros da biblioteca e etiquetá-los com seus respectivos números. Cada um dos n livros devem ser etiquetados com um número de 1 a n. Naturalmente, livros diferentes devem ser eriquetados com números diferentes. Vânia quer saber quantos dígitos no total ela terá que escrever nos rótulos dos livros.",
+    "format_input": "A entrada conterá um inteiro n(1<=n<=10⁹) - o número de livros na biblioteca.",
+    "format_output": "A saída será o número de dígitos necessários para enumerar todos os livros.",
+    "topics": [
+        "maratona"
+    ]
+}

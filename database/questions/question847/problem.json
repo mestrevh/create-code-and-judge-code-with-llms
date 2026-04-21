@@ -1,0 +1,8 @@
+{
+    "title": "Contar palavras de texto inglês",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este problema é similar com o problema 843 - Contar palavras. O objetivo é contar o número de palavras num texto escrito em inglês. Considera-se que uma palavra é qualquer sequência de letras do alfabeto inglês. Em particular, caracteres com acentos não são considerados letras.",
+    "format_input": "Uma string contendo um texto de no máximo 500 caracteres.",
+    "format_output": "O número de palavras no texto.",
+    "topics": []
+}

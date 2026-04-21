@@ -1,0 +1,11 @@
+{
+    "title": "Mutante multiplicando matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mutante acaba de encontrar outro problema do Universo F. Um problema pertence ao Universo F se ele possui complexidade de tempo polinomial em qualquer outro universo, mas pode ser resolvido em tempo polinomialmente menor no Universo F por satisfazer alguma propriedade. Dada uma matriz A (de dimensão n x m) e outra matriz B (de dimensão m x h), mutante quer saber a soma de todos os elementos da matriz C (de dimensão n x h) = A x B. Você, grande amigo de Mutante, não deixará de ajudá-lo nesta tarefa facílima, certo? Ambas as matrizes obedecem a seguinte propriedade: a(i,j) = i*O+j*M+G, onde O, M, G são constantes não negativas. A notação a(i,j) significa o elemento da í-ésima linha na j-ésima coluna, com ambos os índices indexados em zero.",
+    "format_input": "A primeira linha da contém três inteiros n, m, h (1 <= n,m,h <= 10^10). os números que definem as dimensões das matrizes A e B. A segunda linha da contém três inteiros X, Y, Z (0 <= X, Y, Z <= 10^10), as constantes que definem os elementos da matriz A. A terceira linha da contém três inteiros P, Q, R (0 <= P, Q, R <= 10^10), as constantes que definem os elementos da matriz B.",
+    "format_output": "Imprima uma única linha contendo um inteiro que representa a soma de todos os elementos da matriz C. Como a resposta pode ser muito grande, imprima o resto de sua divisão por 10^9+7.",
+    "topics": [
+        "maratona",
+        "requer solução eficiente"
+    ]
+}

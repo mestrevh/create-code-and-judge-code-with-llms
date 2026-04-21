@@ -1,0 +1,12 @@
+{
+    "title": "Brincando com matrizes II",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva umprograma que leia uma matriz 3 x 3 de inteiros da entrada padrão e calcule a média de todos seus valores positivos, o menor valor lido, o valor delta e a soma de todos os elementos que não estão na diagonal principal. O delta é igual a 1 se o menor valor for par e 0 se for ímpar.",
+    "format_input": "9 valores inteiros referentes aos elementos da matriz.",
+    "format_output": "4 valores numéricos: o primeiro é um número em ponto flutuante de duas casas decimais e os outros três inteiros.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

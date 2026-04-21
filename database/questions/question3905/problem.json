@@ -1,0 +1,10 @@
+{
+    "title": "P3-Q3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa para determinar o número de algarismos de um número inteiro positivo lido a partir do usuário.",
+    "format_input": "Um número inteiro positivo.",
+    "format_output": "Um número inteiro positivo representando o número de algarismos do valor de entrada.",
+    "topics": [
+        "repetição"
+    ]
+}

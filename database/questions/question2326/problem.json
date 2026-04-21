@@ -1,0 +1,10 @@
+{
+    "title": "Subtrações (função com retorno de valor)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "[ENUNCIADO] Crie um programa que possua uma única função além do programa principal. A função deverá receber como parâmetros dois números naturais X e Y (X, Y >= 1) e devolver um valor natural indicando quantas vezes é possível subtrair Y de X. [RESTRIÇÕES] a) A leitura dos valores de entrada deverá ser feita no programa principal, ou seja, não haverá interação com o usuário na função; b) O programa principal deverá imprimir um natural com o máximo de subtrações de Y em X de acordo com o retorno da função.",
+    "format_input": "10 5",
+    "format_output": "2",
+    "topics": [
+        "função"
+    ]
+}

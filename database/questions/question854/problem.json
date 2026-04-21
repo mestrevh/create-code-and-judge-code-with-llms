@@ -1,0 +1,8 @@
+{
+    "title": "Par ou ímpar?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que dado um valor inteiro positivo, verifique se ele é par ou ímpar.",
+    "format_input": "A entrada deverá ser um número inteiro positivo.",
+    "format_output": "A saída deverá ser \"IMPAR\" (sem acento) para números ímpares e \"PAR\" para números pares.",
+    "topics": []
+}

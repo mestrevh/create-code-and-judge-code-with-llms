@@ -1,0 +1,10 @@
+{
+    "title": "Frequência de um número",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um número Y, imprima quantas vezes Y aparece em uma sequência.",
+    "format_input": "2 números X,Y onde X indica a quantidade de números da sequência e Y o número procurado. uma sequência de X números.",
+    "format_output": "O valor correspondente a quantidade de vezes que Y apareceu na sequência.",
+    "topics": [
+        "repetição"
+    ]
+}

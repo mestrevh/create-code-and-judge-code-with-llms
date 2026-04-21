@@ -1,0 +1,11 @@
+{
+    "title": "L2Q8 - 18+",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Valentina curtia escutar músicas internacionais, até que em um certo dia andando pela rua, escutou um carro de som tocando funk e simpatizou com a sua batida. Chegando em casa ela decidiu escutar mais músicas de funk e percebeu que em várias delas tinham palavras estranhas que não faziam sentido nenhum para ela, como, \"Cebruthius\", \"Se pá\", \"Plaquê de cem\" e muitas outras. Diante disso, ela decidiu mostrar ao seu irmão mais velho Enzo para ver se ele poderia ajuda-la. Ele quando viu as letras das músicas, achou que não era adequado para sua irmã, como ele era estudante de Ciência da computação, a primeira coisa que veio em sua cabeça foi criptografia, então decidiu criar um programa para criptografar frases e assim poder filtrar um pouco da letra da música. Sua tarefa é ajudá-lo nesse desafio. Suas ordens foram: Qualquer espaço deverá ser removido, assim como qualquer símbolo; As linhas devem ser invertidas de baixo para cima; Letras maiúsculas devem ser substituidas por números de 1 a 26 (A=1, B=2, ..., Z=26); Uma letra minúscula deve ficar: Minúscula, se a quantidade de símbolos a esquerda da letra for ímpar, ou Maiúscula, se a quantidade de símbolos a esquerda da letra for par; Digitos devem ser substituidos por símbolos: 0=*, 1=), 2=$, 3=!, 4=+, 5=@, 6=-, 7=/, 8=(, 9=%. Obs: Cada regra só será aplicada uma vez, isto é, se um character maiúsculo for substituído por um dígito, por exemplo, esse dígito não será substituído por um símbolo. O conjunto de símbolos usado é: * ) $ ! + @ - / ( % , . ? Mesmo que você já saiba utilizar, não serão aceitas respostas que façam uso de arrays",
+    "format_input": "A entrada é composta por várias linhas no seguinte formato: S (string). Cada linha da entrada é composta por caracteres que podem ser: Letras, Dígitos e Espaços.",
+    "format_output": "A saída é composta por várias linhas no formato: X (string). Cada linha de saída é composta por caracteres seguindo as restrições informadas na descrição.",
+    "topics": [
+        "repetição",
+        "caractere"
+    ]
+}

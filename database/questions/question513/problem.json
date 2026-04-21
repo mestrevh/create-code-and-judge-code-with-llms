@@ -1,0 +1,10 @@
+{
+    "title": "Quem sou eu?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bob implementou uma estrutura de dados, mas ele não sabe o nome dessa estrutura. Bob implementou duas operações: i) Inserir - Essa operação recebe um número inteiro X e o insere na estrutura. ii) Remover - Essa operação remove, e retorna, um número inteiro Y da estrutura. Sua tarefa nesta questão é descobrir que estrutura de dados Bob implementou.",
+    "format_input": "A primeira linha da entrada contém T, o número de casos de teste. Cada caso de teste será no seguinte formato: N, O1 X1, O2 X2, ..., ON XN. Onde N indica a quantidade de operações que Bob executou na estrutura. Oi indica a operação executada (1 <= i <= N): caso seja 1, a operação de Inserir foi executada; caso seja 2, a operação de Remover foi executada. Xi indica qual o número que foi inserido/removido da estrutura (1 <= i <= N). Exemplo: 5 operações (1 5, 1 7, 2 7, 2 5, 1 -5) indicam inserção de 5, inserção de 7, remoção retornando 7, remoção retornando 5 e inserção de -5. Limites: 1 <= T <= 100; 1 <= N <= 10000; 1 <= Oi <= 2; -10^9 <= Xi <= 10^9. A operação de Remover só ocorre se a estrutura não estiver vazia.",
+    "format_output": "Para cada caso de teste imprima 'caso C: S', onde C é o número do caso (iniciando em 1) e S é uma das 4 strings por prioridade: 'ambas' (se puder ser fila e pilha), 'pilha' (se puder ser pilha), 'fila' (se puder ser fila) ou 'nenhuma' (se não puder ser nenhuma das duas).",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

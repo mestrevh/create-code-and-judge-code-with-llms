@@ -1,0 +1,11 @@
+{
+    "title": "Quociente de uma divisão inteira",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que determine o quociente de uma divisão inteira. Por exemplo, se a entrada for os valores inteiros 30 e 7, o programa deve fornecer como saída o valor iteiro 4. obs: não é permitido utilizar comandos diretos para o cálculo desse quociente, a exemplo do comando // do python.",
+    "format_input": "Dois números inteiros representando o dividendo e divisor, respectivamente, da divisão inteira.",
+    "format_output": "O número inteiro representando o quociente da divisão inteira.",
+    "topics": [
+        "multiplas entradas",
+        "lógica matemática"
+    ]
+}

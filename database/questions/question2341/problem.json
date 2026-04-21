@@ -1,0 +1,11 @@
+{
+    "title": "Decrementa 3 ou 4 (função recursiva)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha apenas uma função, além da principal, que receberá como parâmetro um natural n (0<=n<=999999) e que devolverá n-3 se o dígito mais a esquerda de n for ímpar ou n-4 se o dígito mais a esquerda for par. O programa deverá exibir o valor final de n, como no exemplo de saída. Observações: (a) função recursiva; (b) não deverá usar vetores e/ou ponteiros; (c) não usar variáveis globais; (d) usar apenas recursos vistos em aula.",
+    "format_input": "123456",
+    "format_output": "123453",
+    "topics": [
+        "função",
+        "recursão"
+    ]
+}

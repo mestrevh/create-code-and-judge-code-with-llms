@@ -1,0 +1,12 @@
+{
+    "title": "Quimera de letras",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Você deve implementar um programa que, dada uma string e um número q de operações, execute substituições de caracteres, conte quantas vezes um caractere específico aparece na string após cada modificação e a imprima modificada. O programa inicialmente recebe uma string e uma série de operações a ela relacionadas. Para cada uma dessas operações, o programa deve substituir o caractere na posição p por outro caractere c e, em seguida, contar quantas vezes um caractere x aparece na string modificada. Ao final de cada operação, o programa deve imprimir a contagem do caractere x seguido pela string modificada.",
+    "format_input": "Um número inteiro n, o tamanho da string (1 <= n <= 100). Uma string s de tamanho n (contendo apenas letras minúsculas). Um número inteiro q (1 <= q <= 100), representando o número de operações. Para cada uma das q operações: Um número inteiro p (0 <= p <= n), a posição onde o caractere será substituído. Um caractere c (letra minúscula) que substituirá o caractere na posição p da string. Um caractere x (letra minúscula) cuja quantidade deve ser contada na string após a modificação.",
+    "format_output": "Para cada operação, o programa deve imprimir um número inteiro representando a quantidade de vezes que o caractere x aparece na string s após a modificação, seguido pela string modificada.",
+    "topics": [
+        "array",
+        "acumulador",
+        "string"
+    ]
+}

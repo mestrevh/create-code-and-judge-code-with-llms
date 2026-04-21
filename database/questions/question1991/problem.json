@@ -1,0 +1,10 @@
+{
+    "title": "Conta de luz",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Sabe-se que o Kwh de uma residência custa R$ 1,50. Faça um programa em Python que receba a quantidade de KWh consumidos, calcule e mostre: a) O valor a ser pago pela residência b) O valor a ser pago com desconto de 15%",
+    "format_input": "A entrada consiste de uma linha contendo um valor real em KWh consumido por uma residência.",
+    "format_output": "A saída consiste de 2 linhas contendo o valor a ser pago pela residência e o valor a ser pago com desconto de 15%. Osvalores numéricos de cada uma das linhas devem ter 2 casas decimais.",
+    "topics": [
+        "formatação"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Matrizes da internet do Zeca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Zeca está revoltadissimo!!!!! E dessa vez ele não quer mais montar redes de computadores... Zeca andou vendo um filme estranho por ai, onde um cara alto, sem cabelo e que anda de óculos escuro a noite oferece pilulas vermelhas e azuis para as pessoas. Zeca, muito encucado com aquele lance de Matrix, resolveu aprender um pouquinho de matrizes mas simplificou a própria vida e resolveu criar um programa que multiplica matrizes!! Ou melhor, ele te pediu pra fazer isso. Um danado esse Zeca Urubu...",
+    "format_input": "A entrada será composta por 6 linhas contendo as duas matrizes 3x3 a serem usadas para resolver a questão: 48 0 0 0 13 0 0 0 22 103 24 0 350 0 9 147 10 0",
+    "format_output": "A saída deve conter uma matriz que é o resultado das multiplicações das duas matrizes anteriores: 4944 1152 0 4550 0 117 3234 220 0",
+    "topics": [
+        "acumulador",
+        "array bidimensional"
+    ]
+}

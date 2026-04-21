@@ -1,0 +1,13 @@
+{
+    "title": "Seleção de nomes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você acabou de ser selecionado para um teste de uma empresa de Banco de Dados, eles pediram para você fazer uma função de busca no Banco como prova que você entende do assunto, Mas como você não está muito familiarizado com Bancos de Dados, e não quer perder a vaga, recorre para a sua especialidade, a linguagem C! Dada uma lista de 10 nomes, você deve encontrar aqueles que possuem uma determinada letra na composição de seu nome.",
+    "format_input": "10 nomes, de até 10 caracteres, um em cada linha. 1 caractere, representando a letra que você deve buscar nos nomes. PS: Se a pesquisa for da letra 'a' e o nome tiver a letra 'A' ele deve reconhecer como a mesma letra.",
+    "format_output": "Os nomes que possuem a determinada letra, na ordem em que foram dados de entrada, um por linha, com uma quebra de linha no fim do programa.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "função"
+    ]
+}

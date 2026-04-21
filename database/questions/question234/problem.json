@@ -1,0 +1,11 @@
+{
+    "title": "Resto entre números",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa leia 2 valores X e Y e que imprima todos os valores entre eles cujo resto da divisão dele por 5 for igual a 2 ou igual a 3.",
+    "format_input": "Contém 2 valores inteiros quaisquer, não necessariamente em ordem crescente.",
+    "format_output": "Todos os inteiros entre x e y, um por linha, em ordem crescente, que satisfazem o enunciado deste problema.",
+    "topics": [
+        "lógica matemática",
+        "ordenação"
+    ]
+}

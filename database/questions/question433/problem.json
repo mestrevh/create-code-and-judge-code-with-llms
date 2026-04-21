@@ -1,0 +1,12 @@
+{
+    "title": "Pagamento IPVA",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Todos os anos, os motoristas devem pagar ao Detran o IPVA (Imposto sobre a Propriedade de Veículos Automotores) e uma taxa de trânsito. Caso paguem o IPVA com antecedência, recebem um desconto de 5% apenas no valor desse imposto. Escreva um programa que receba como entrada o valor do IPVA e o valor da taxa de trânsito, e exiba o total a ser pago por um motorista que deseja quitar sua dívida cinco dias antes do prazo.",
+    "format_input": "Dois valores reais, sendo o primeiro correspondente ao IPVA e o segundo correspondente à taxa de trânsito",
+    "format_output": "Um valor real com apenas duas casas decimais",
+    "topics": [
+        "Matemática",
+        "Cálculo de Porcentagem",
+        "Programação Básica"
+    ]
+}

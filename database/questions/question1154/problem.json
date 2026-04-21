@@ -1,0 +1,10 @@
+{
+    "title": "Primeira Batalha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ao continuar sua jornada, Biu se depara com seu primeiro oponente: um incrível Rattata. Como Biu é bastante calculista, ele pede ajuda a você para descobrir se a sequência de ataques que ele pretende utilizar contra o seu oponente irá derrotá-lo, considerando que seu pokémon não morra antes. No jogo, Biu utilizará apenas três ataques e cada ataque corresponde a um número. Para o Rattata ser derrotado, dos três ataques selecionados por Biu, deve existir: Um número maior que dez. Um número par. Caso essas duas condições não forem satisfeitas, o Rattata não será derrotado. Outra observação é que se Biu escolher o ataque de número 0, independente se as condições de vitória forem satisfeitas, o Rattata também não será derrotado.",
+    "format_input": "P S T. P - número natural; S - número natural; T - número natural. A linha única de entrada é composta pelos três ataques escolhidos por Sérgio, separados por espaço.",
+    "format_output": "R. R - String. A linha única da saída é composta por uma String, que pode ser: \"Sim\", caso o Rattata ter sido derrotado; \"Não\", caso o Rattata não ter sido derrotado com os três ataques de Sérgio.",
+    "topics": [
+        "decisão"
+    ]
+}

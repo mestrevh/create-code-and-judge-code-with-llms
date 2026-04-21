@@ -1,0 +1,12 @@
+{
+    "title": "zzzzz (erro)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "",
+    "format_input": "S - String. A única linha é composta de uma String de 10 caracteres.",
+    "format_output": "P - String. A linha única da saída é composta por uma String, que pode ser o nome do Pokémon identificado, sendo: Bulbassauro, caso o caractere falho seja 'b'. Charmander, caso o caractere falho seja 'c'. Squirtle, caso o caractere falho seja 's'. Caso não seja um código válido, é preciso que seu programa apresente a mensagem \"Codigo Invalido\".",
+    "topics": [
+        "decisão",
+        "caractere",
+        "string"
+    ]
+}

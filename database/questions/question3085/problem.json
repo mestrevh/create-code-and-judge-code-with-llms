@@ -1,0 +1,10 @@
+{
+    "title": "Another Meme Problem",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tente adivinhar a afirmação desta imagem: Dados dois números inteiros A e B calcule o número de pares (i , j) tal que 1 <= i <= A e 1 <= j <= B nos quais a equação (i ⋅ j) + (i + j) = conc(i , j) é verdadeira. Obs: conc (i , j) é a concatenação de dois inteiros por exemplo, conc (12 , 23) = 1223.",
+    "format_input": "A primeira linha contém um inteiro t (1 <= t <= 100) indicando a quantidade de casos teste. Cada caso de teste contém dois números inteiros A e B (1 <= A, B <= 1000000000).",
+    "format_output": "Deverá ser exibido um inteiro indicando a quantidade de pares (i , j) nos quais a equação (i ⋅ j) + (i + j) = conc(i , j) é verdadeira.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

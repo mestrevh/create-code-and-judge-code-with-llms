@@ -1,0 +1,11 @@
+{
+    "title": "Notas em ordem crescente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia as notas de três pessoas pessoas em uma prova e as exiba na saída padrão de forma crescente.",
+    "format_input": "As notas (inteiras) de 3 pessoas com valores entre 0 e 100",
+    "format_output": "As notas dessas 3 pessoas ordenadas de forma crescente",
+    "topics": [
+        "decisão",
+        "ordenação"
+    ]
+}

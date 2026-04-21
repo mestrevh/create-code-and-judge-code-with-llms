@@ -1,0 +1,10 @@
+{
+    "title": "AC2 - Ex. 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que recebe 3 notas de prova e calcula:\n\n- A média delas\n- A média ponderada delas, considerando pesos 2, 2 e 3\n- A média ponderada delas, considerando pesos 1, 2 e 2",
+    "format_input": "Nota 1\nNota 2\nNota 3",
+    "format_output": "Média\nMédia ponderada, considerando pesos 2, 2 e 3\nMédia ponderada, considerando pesos 1, 2 e 2",
+    "topics": [
+        "lógica matemática"
+    ]
+}

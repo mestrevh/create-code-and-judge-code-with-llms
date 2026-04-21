@@ -26,9 +26,9 @@ class BuildWebsite:
         print("Iniciando a geração do site...")
         try:
             self._build_site()
-            print("✅ Site criado com sucesso!")
+            print("[Builder Site]: Site criado com sucesso!")
         except Exception as e:
-            print(f"❌ Erro crítico ao criar o site: {e}")
+            print(f"[Builder Site]Erro crítico ao criar o site: {e}")
 
     def _build_site(self) -> None:
         """Orquestra o processo principal de construção do site."""

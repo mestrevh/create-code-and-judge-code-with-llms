@@ -1,0 +1,10 @@
+{
+    "title": "Os diamantes são para sempre.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você já tem o seu próprio diamante? Aproveite esta oportunidade e construa o seu próprio brilhante. Faça um programa que, dado um inteiro, exiba um diamante de asteriscos conforme o modelo dado.",
+    "format_input": "A única entrada é um inteiro 1 <= N que determinará o \"tamanho\" do diamante.",
+    "format_output": "Dado o valor de N=5 a saída produzida será:\n.....*\n....***\n...*****\n..*******\n.*********\n.*********\n..*******\n...*****\n....***\n.....*",
+    "topics": [
+        "repetição"
+    ]
+}

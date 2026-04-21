@@ -1,0 +1,10 @@
+{
+    "title": "PROGCOMP - Funções - F",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que use uma função, criada por você, que recebe como parâmetros quatro números reais distintos e retorne o maior. O programa deverá exibir o valor devolvido pela função.",
+    "format_input": "Quatro números reais, um por linha.",
+    "format_output": "O maior número dado como entrada, com duas casas decimais.",
+    "topics": [
+        "função"
+    ]
+}

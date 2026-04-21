@@ -1,0 +1,11 @@
+{
+    "title": "Batalha De Áreas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ordep, Leirbag, Omsare e Reblaw em uma certa tarde estavam muito entediados aguardando na fila gigantesca do RU. Para fugir da monotonia de esperar, Omsare propõe a criação de um jogo. Após pensarem bastante, os 4 criaram um jogo peculiar: Batalha de Áreas. O jogo consiste em batalhas 1v1, onde cada jogador escolhe uma das seguintes figuras geométricas: triângulo retângulo, retângulo e quadrado. Em seguida, os jogadores escolhem as dimensões da figura de forma aleatória. Por fim, calculam a área da figura geométrica, o jogador que escolheu a figura geométrica com a maior área ganha a partida, caso ambas as figuras tenham a mesma área será considerado empate. Crie um programa que faça o papel de juiz do jogo e retorne o vencedor da partida, ou o empate.",
+    "format_input": "Dois números inteiros P1 e P2, tal que 1 <= P1 <= 3 e 1 <= P2 <= 3, onde: 1 - Triângulo retângulo 2 - Retângulo 3 - Quadrado Seguido de dois N reais a depender da figura escolhida: Se for triângulo N = 2 (base e altura), Se for retângulo N = 2 (base e altura), Se for quadrado N = 1 (lado)",
+    "format_output": "A saída deve fornecer o vencedor da partida. Caso P1 seja o vencedor, o programa deverá imprimir na tela “P1 venceu!”, “P2 venceu!” caso contrário e “Empate” caso empatem.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

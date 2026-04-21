@@ -1,0 +1,11 @@
+{
+    "title": "Estoque da Epilef",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você foi designado para desenvolver um sistema de gestão de estoque para a empresa Epilef. O estoque é representado por um array bidimensional de posições, onde cada posição pode estar vazia ou conter uma struct que armazena informações sobre um produto específico. Cada struct contém dados essenciais, como nome do produto, quantidade em estoque e preço do produto. Operações Disponíveis: CREATE: Adiciona um novo produto ao estoque na posição especificada, se e somente se a posição estiver vazia. READ: Busca e exibe as informações de um produto com base no nome. UPDATE: Atualiza as informações de um produto existente. DELETE: Remove um produto do estoque com base no nome. PRINT: Exibe todas as informações dos produtos presentes no estoque. EXIT: Sai do sistema de estoque.",
+    "format_input": "A primeira linha da entrada contém um inteiro tamanho do estoque, representando o tamanho da matriz de posições. Nas linhas seguintes, são fornecidas operações a serem realizadas no estoque, onde cada linha contém uma operação seguida de argumentos adicionais, se necessário. Quando for digitado \"EXIT\" o progama deve encerrar. OPERAÇÕES: CREATE linha coluna nome quantidade preco READ nome UPDATE nome quantidade, preco DELETE: nome PRINT EXIT",
+    "format_output": "OPERAÇÕES: CREATE: sucess ? \"Produto adicionado no estoque!\" : \"ERRO: espaço ja ocupado\" READ: \"LINHA: COLUNA: QTD: PREÇO: \" UPDATE: sucess ? \"Produto atualizado!\" : \"Produto nao encontrado!\" DELETE: sucess ? \"Produto removido!\" : \"Produto nao encontrado!\" PRINT: \"LINHA: COLUNA: NOME: QTD: PRECO: \" EXIT: \"Saindo...\"",
+    "topics": [
+        "multiplas entradas",
+        "estruturas"
+    ]
+}

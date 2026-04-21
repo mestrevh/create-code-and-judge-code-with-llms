@@ -1,0 +1,11 @@
+{
+    "title": "Troca de valores (usando funções e ponteiros)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que tenha apenas uma função, além da principal, que receberá como parâmetros dois endereços de inteiros a e b e que deverá trocar os valores das variáveis originais com base nos endereços passados como parâmetros. O programa deverá exibir o valor das variáveis antes e depois da troca, como no exemplo de saída.",
+    "format_input": "10 20",
+    "format_output": "a: 10 b: 20\na: 20 b: 10",
+    "topics": [
+        "função",
+        "ponteiro"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "L2Q1 - Baile Funk",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Como Pepeu é um grande admirador do funk e ama o CIn, ele quer muito promover um grande baile funk em dezembro, no Dia CIn. Para isso, ele fez uma pesquisa de campo num grande evento do estilo musical, que contava com vários artistas. Ele gostaria de saber qual artista era a preferência das pessoas para poder trazer o artista mais querido ao CIn. No entanto, como o funk é um ritmo muito popular, muitas pessoas apareceriam no evento e Pepeu temia perder o controle, para isto pediu sua ajuda. Sua tarefa é fazer um programa que conte qual o artista preferido das pessoas.",
+    "format_input": "I - Número natural que representa o número de pessoas que irão comparecer ao show seguido de I linhas contendo S - string que pode ser \"Anitta\", \"Ludmilla\", \"Jojo\", \"Kevinho\", \"Livinho\" ou qualquer outro artista.",
+    "format_output": "U - string no formato: \"As pessoas estao esperando por NOME.\" ou \"As pessoas querem ver outra pessoa\" caso não seja um artista da lista. Obs: pode haver um caso de empate entre duas pessoas, neste caso deve ser impresso, com os nomes em ordem alfabética: \"Houve um empate entre: nome1, nome2\" Ex: Houve um empate entre: Anitta, Kevinho",
+    "topics": [
+        "repetição"
+    ]
+}

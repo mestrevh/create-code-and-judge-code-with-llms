@@ -1,0 +1,10 @@
+{
+    "title": "Rodrigo e seus estagiários",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rodrigo é um professor rigoroso. Ele sempre dá muitos afazeres aos seus estagiários. Então seus estagiários decidiram matar ele. Vai haver uma festa de comemoração na sede do huxley sábado à noite , e seus estagiários decidiram matar ele no mesmo dia. Na festa existem N garrafas de coca-cola. Cada garrafa contém um X escrito nela, os estagiários decidiram misturar veneno em algumas delas. Eles fizeram um plano para adicionar veneno somente nas garrafas que contém um inteiro tal que esse inteiro tenha o número de divisores estritamente menor que 4. De alguma forma o professor rodrigo descobriu o plano e pediu a sua ajuda para saber de quais garrafas ele pode beber.",
+    "format_input": "A primeira linha contém um inteiro N indicando a quantidade de testes. Cada teste contém um número X indicando o inteiro escrito na garrafa. 1 <= N <= 10^5 1 <= X <= 10^7",
+    "format_output": "Para cada garrafa imprima YES caso rodrigo possa beber a garrafa e NO caso ela esteja envenenada.",
+    "topics": [
+        "requer solução eficiente"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Máquina [SECOMP 2 PC G]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Internet Computer Parts Company (ICPC) é uma loja on-line que vende peças de computador. Pares de conectores elétricos em linha estão entre as peças mais populares que a ICPC vende. Porém, também é uma das peças que mais são devolvidas por clientes insatisfeitos, pois por erros de embalagem os conectores enviados aos clientes podem não ser compatíveis . Um conector em linha é composto por cinco pontos de conexão, rotulados de 1 a 5. Cada ponto de conexão de um conector pode ser um plugue ou uma tomada. Dizemos que dois conectores são compatíveis se, para cada etiqueta, um ponto de conexão for um plugue e o outro ponto de conexão for uma tomada (em outras palavras, dois conectores são compatíveis se, para cada ponto de conexão com a mesma etiqueta, um plugue e um tomada se encontram quando os dois conectores estão conectados). A figura abaixo mostra exemplos de dois conectores que são compatíveis e dois conectores que não são compatíveis. A ICPC está lançando uma Máquina de Verificação Automatizada (ACM) de última geração, com verificador ótico, que irá verificar se os dois conectores embalados para um cliente são realmente compatíveis. O hardware complexo e caro do ACM está pronto, mas eles precisam da sua ajuda para finalizar o software. Dadas as descrições de um par de conectores em linha, sua tarefa é determinar se os conectores são compatíveis.",
+    "format_input": "A primeira linha contém cinco inteiros X i (0 ≤ X i ≤ 1 para i = 1, 2,..., 5), representando os pontos de conexão do primeiro conector do par. A segunda linha contém cinco inteiros Y i (0 ≤ Y i ≤ 1 para i = 1, 2,..., 5), representando os pontos de conexão do segundo conector. Na entrada, um 0 representa uma saída e um 1 representa um plugue.",
+    "format_output": "Produza uma linha com um caractere que representa se os conectores são compatíveis ou não. Se forem compatíveis escreva a letra maiúscula “Y”; caso contrário, escreva a letra maiúscula “N”.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

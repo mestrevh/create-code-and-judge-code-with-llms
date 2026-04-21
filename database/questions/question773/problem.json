@@ -1,0 +1,11 @@
+{
+    "title": "Lista Ordenada",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Defina uma classe (HuxleyCode) que implementa uma lista de inteiros e possui dois atributos: 1. dado - do tipo int; 2. proximo - do tipo HuxleyCode. A classe tem ainda três métodos: 1. inserir - método recursivo que recebe um valor inteiro e insere o mesmo mantendo a lista ordenada em ordem crescente. Ou seja, quando inserir um valor inteiro na lista, ele deve obrigatoriamente ser armazenado em ordem crescente, com relação aos valores já armazenados na lista; 2. imprimir - método recursivo que imprime os valores inseridos na lista a partir da cabeça da lista, ou seja, em ordem crescente; 3. main - lê um valor inteiro do teclado, informando quantos números serão informados a seguir. Em seguida, é feita a leitura dos valores inteiros que devem ser inseridos na lista (através do método inserir). Por fim o método main deve chamar o método imprimir da lista.",
+    "format_input": "1a Linha - um valor inteiro, representando o tamanho da lista; 2a Linha - o primeiro valor a ser inserido na lista; ... n-ésima Linha - o último valor a ser inserido na lista",
+    "format_output": "Os valores armazenados na lista, na ordem em que foram armazenados, sendo um valor por linha",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Média dos elementos ímpares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça uma função para calcular a média aritmética dos elementos ímpares de uma lista em Python, passada por parâmetro.",
+    "format_input": "Uma lista",
+    "format_output": "A média dos elementos ímpares da lista apresentados com duas casas decimais",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

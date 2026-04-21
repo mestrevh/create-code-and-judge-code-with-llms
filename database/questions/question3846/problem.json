@@ -1,0 +1,12 @@
+{
+    "title": "Calcular média de 1 lista s/ funções internas",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Faça um programa que receba um número n e um vetor de tamanho n. Em seguida calcula via função que retorna o valor da média desse vetor. No final do corpo principal do programa deve ser impresso a média desse vetor. obs.: Não utilize funções internas da linguagem para calcular média, soma, ou algo do gênero, faça isso manualmente.",
+    "format_input": "número n vetor de n elementos",
+    "format_output": "a média do vetor",
+    "topics": [
+        "array",
+        "repetição",
+        "função"
+    ]
+}

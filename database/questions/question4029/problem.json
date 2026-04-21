@@ -1,0 +1,13 @@
+{
+    "title": "Maze Runner",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Thomas precisa encontrar um objeto escondido num labirinto. Para isso, Teresa irá guiá-lo com as direções que Thomas deve seguir a fim de chegar numa coordenada específica do labirinto. - O labirinto será dado por valores inteiros, onde os valores 0 são paredes do labirinto, e 1 são locais que Thomas pode percorrer. - Em caso do comando dado por Teresa for um comando inválido (se Thomas sai do labirinto ou vai para dentro de uma parede), Thomas não executa o comando. Dada uma coordenada dentro do labirinto, Thomas deve informar se passou por ela alguma vez. OBS: Thomas sempre começa na coordenada (0, 0).",
+    "format_input": "A primeira linha será composta de 2 números inteiros, um número X indicando o número de linhas no labirinto e um número Y indicando o número de colunas, respectivamente. Então, serão dados os X*Y valores do labirinto. Depois, será dado o número N de direções que Teresa dará para Thomas. E, então, serão dadas as N direções: - 'C' significa que Thomas deve ir para cima. - 'D' significa que Thomas deve ir para direita. - 'B' significa que Thomas deve ir para baixo. - 'E' significa que Thomas deve ir para esquerda. Então, serão dadas as coordenadas que Thomas deve procurar.",
+    "format_output": "Se Thomas passou pelo menos uma vez na coordenada dada, deve ser printado \"ACHEI!\". Caso contrário, deve ser printado \"NAO ACHEI!\".",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Estatisticas de um jogador de basquete",
+    "time_limit": "1 segundo(s)",
+    "descrition": "É muito comum no basquete os jogadores serem analisados com base em suas estatísticas pessoais. Faça um programa que colha as estatísticas de um jogador ao longo de um número N de partidas. As estatísticas primárias que serão analisadas são: Média de pontos por jogo; Média de rebotes por jogo (ofensivos + defensivos); Média de assistências por jogo. As estatísticas secundárias que serão analisadas são: Média de pontos por minuto jogado; Média de rebotes ofensivos por jogo; Média de rebotes defensivos por jogo. No final o jogador será classificado de acordo com seu desempenho nos atributos primários: Se ele tiver alto desempenho em 2 das 3 estatísticas primárias será considerado \"All-star\"; Se ele tiver alto desempenho em 1 das 3 estatísticas primárias e em alguma das estatísticas secundárias será considerado \"Jogador titular\"; Se ele tiver alto desempenho em 1 das 3 estatísticas primárias será considerado \"Jogador de rotação\"; Se ele tiver alto desempenho em 1 das 3 estatísticas secundárias será considerado \"Jogador de banco\"; Se ele NÃO tiver alto desempenho em nenhuma das estatísticas será considerado \"Jogador em processo de dispensa\"; Se o jogador jogou menos de 3 jogos, o jogador será considerado \"Jogador em avaliação\". O que é considerado como alto desempenho em uma estatística: Média de pontos por jogo > 20; Média de rebotes por jogo >= 10; Média de assistências por jogo >= 10; Média de pontos por minuto jogado >= 1; Média de rebotes ofensivos por jogo >= 5; Média de rebotes defensivos por jogo >= 7.",
+    "format_input": "Nessa ordem: Número de jogos do jogador; Para cada jogo: Minutos jogados, Quantidade de pontos feitos, Quantidade de rebotes ofensivos, Quantidade de rebotes defensivos, Quantidade de assistências.",
+    "format_output": "As estatísticas primárias e secundárias do jogador e sua classificação: Média de pontos por jogo; Média de rebotes por jogo; Média de assistências por jogo; Média de pontos por minuto jogado; Média de rebotes ofensivos por jogo; Média de rebotes defensivos por jogo.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

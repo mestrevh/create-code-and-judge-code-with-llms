@@ -1,0 +1,11 @@
+{
+    "title": "Produto dos Digitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para um número inteiro N dado, não-negativo, encontrar o mínimo Q natural tal que o produto de todos os dígitos de Q é igual N.",
+    "format_input": "A entrada contém um número inteiro positivo N, tal que 9 < N < 100000.",
+    "format_output": "O menor número, o qual o produto dos seus dígitos é igual a N, e \"-1\", se não existir, seguido de uma quebra de linha. Obs: Para alguns casos o valor fica demasiado grande, use long int;",
+    "topics": [
+        "busca completa",
+        "função"
+    ]
+}

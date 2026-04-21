@@ -1,0 +1,11 @@
+{
+    "title": "Plano de Saude P1T2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A tabela a seguir mostra a meta de vendas mensal e a quantidade de vendas mensais realizadas para um vendedor de planos de saúde: Utilizando a linguagem do Octave, plote em uma mesma janela o gráfico de barras verticais das metas de vendas mensais e o gráfico em linha contínua das vendas realizadas mensais. Insira um título e uma legenda no gráfico.",
+    "format_input": "O próprio programador deve definir os valores da tabela dentro do programa, de forma que não haverá entrada de dados pelo usuário.",
+    "format_output": "Não tem",
+    "topics": [
+        "array",
+        "lógica matemática"
+    ]
+}

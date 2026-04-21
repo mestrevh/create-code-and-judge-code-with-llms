@@ -1,0 +1,201 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 4730 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4730</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Aim, a Guardiã do Parque</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Aim é uma pequena e destemida cadelinha que trabalha protegendo o parque. Sua energia para patrulhar depende de sua alimentação e do quanto descansou na noite anterior. Porém, fatores como o clima do dia anterior e o tamanho da área a ser vigiada afetam sua disposição.</p><p>Seu trabalho não é fácil! Se a área for muito grande, Aim se cansa mais rápido. Se o clima do dia anterior foi ruim, ela pode estar mais cansada. Além disso, se trabalhou demais no dia anterior, ela pode começar o dia com menos energia.</p><p>Você deve ler os seguintes valores, nessa ordem:</p><ol><li>A quantidade de <strong>ração</strong> consumida por Aim (em gramas).</li><li>O tempo de <strong>sono</strong> de Aim (em minutos).</li><li>As <strong>dimensões da área</strong> que Aim deve patrulhar:<ul><li><strong>Largura</strong> (em metros).</li><li><strong>Altura</strong> (em metros).</li><li>Uma <strong>letra</strong> que indica o formato da região:<ul><li>'t' para triângulo.</li><li>'r' para retângulo.</li><li>'c' para círculo (nesse caso, a largura será o raio do círculo).</li></ul></li></ul></li><li>O <strong>clima</strong> do dia anterior, representado por uma letra:<ul><li>'c' para Chuva.</li><li>'s' para Sol forte.</li><li>'n' para Neve.</li></ul></li><li>O <strong>impacto do clima</strong> no parque (porcentagem de 0 a 100).</li><li>O tempo (em horas) que Aim <strong>trabalhou no dia anterior.</strong></li></ol><h3><b>Formulas: </b></h3><div><li>A disposição inicial de Aim é calculada como:<pre class="!overflow-visible"><div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950"><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre"><span>disposição = ração * (sono / 60)&#10;</span></code></div></div></pre></li><li>Se Aim trabalhou <strong>mais de 6 horas no dia anterior</strong>, sua disposição inicial será reduzida em 20%.</li><li>Se a área for <strong>maior que 500 m²</strong>, Aim se cansa mais rápido e sua disposição será reduzida em 15%.</li><li>O clima do dia anterior também influencia sua energia:<ul><li><strong>Chuva</strong>: reduz 30% da disposição baseada no impacto climático.</li><li><strong>Sol forte</strong>: aumenta 47% da disposição baseada no impacto climático.</li><li><strong>Neve</strong>: reduz 67% da disposição baseada no impacto climático.</li></ul></li><li>O tempo de patrulha de Aim é calculado como:<pre class="!overflow-visible"><div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950"><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre"><span><span class="hljs-attr">total</span> = disposição / área&#10;</span></code></div></div></pre><b>OBS1:</b> Lembrando que mesma cansada Aim nunca trabalha menos que <strong>1 hora.<br/>OBS2: </strong>Considere pi como 3.14.</li><br/></div></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A disposição de entrada será: </p><p><b>Ração Tempo(min)<br/><span>Largura Altura Formato<br/></span></b><span><b>Clima impacto<br/>DiaAnterior(horas)</b></span></p><p>exemplo:<br/></p><blockquote><p><span>500 480<br/>20 30 r<br/>c 50<br/>5</span></p></blockquote></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>O programa deve imprimir a quantidade de horas trabalhadas por Aim e seu pagamento, considerando que ela recebe <strong>R$70,00 por hora</strong>:</p><blockquote><p>Aim trabalhou X.XX horas e recebeu: Y.YY Reais</p></blockquote></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in10.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out10.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out2.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out3.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out4.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out5.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out6.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out7.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out8.txt">
+                Exemplo 10
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4730/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question4730/outputs/out9.txt">
+                Exemplo 11
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

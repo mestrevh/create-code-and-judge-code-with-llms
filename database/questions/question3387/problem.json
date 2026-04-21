@@ -1,0 +1,10 @@
+{
+    "title": "Carteira Habilitacao",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que verifique se o usuário pode tirar a carteira de habilitação. Caso não possa, o programa deve informar quantos anos faltam para que ele possa tirá-la.",
+    "format_input": "Um número inteiro que representa a idade do usuário em anos.",
+    "format_output": "O programa deve exibir uma das seguintes saídas quando: O usuário está habilitado: \"Voce ja pode tirar habilitacao!\" \"Voce tem direito a habilitacao ha x ano(s)\" Quando o usuário não está habilitado: \"Você precisa esperar mais x ano(s)!\"",
+    "topics": [
+        "decisão"
+    ]
+}

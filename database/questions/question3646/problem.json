@@ -1,0 +1,12 @@
+{
+    "title": "Calculando a nota final do módulo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O professor de programação não está divulgando as notas finais dos módulos da disciplina, mas ele informou que a nota final pode ser calculada a partir da média ponderada de duas outras notas: a nota da avaliação, com um peso de 70%; e a média simples das notas das listas de exercícios, com um peso de 30%. Porém, a quantidade de listas de exercícios varia por módulo. Como um bom aluno de programação, ao invés de calcular sua média manualmente, você preferiu criar um programa que calcule sua nota final no módulo.",
+    "format_input": "Crie um programa que receba: N: float (0 <= N <= 10) indicando a nota da avaliação; L: inteiro (L > 0) indicando a quantidade de listas de exercícios; L vezes NLi (se L for 4, você lerá NL1 a NL4): um float (0 <= NLi <= 10) que indica a nota da i-ésima lista de exercícios.",
+    "format_output": "Ao término seu programa deve apresentar (em linhas separadas): A nota final (NF) do módulo, com duas casas decimais; Uma string indicando o seu desempenho no módulo, seguindo a seguinte regra: Se 0 <= NF < 3: RED ZONE! Se 3 <= NF < 5: DA PARA RECUPERAR! Se 5 <= NF < 7: QUASE LA! Se 7 <= NF < 9: TA FAVORAVEL! Se 9 <= NF: EXCELENTE!",
+    "topics": [
+        "ponto flutuante",
+        "array",
+        "decisão"
+    ]
+}

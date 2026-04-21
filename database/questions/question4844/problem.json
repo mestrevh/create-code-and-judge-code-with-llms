@@ -1,0 +1,10 @@
+{
+    "title": "Ordenando Alunos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você deve implementar um sistema simples para cadastro e ordenação de alunos, utilizando algoritmos clássicos de ordenação. Cada aluno possui quatro atributos: nome, matrícula, idade e nota final. O sistema deve permitir a inserção de alunos e a ordenação do vetor de alunos por diferentes critérios, sendo que cada critério de ordenação deve obrigatoriamente utilizar um algoritmo específico. Os algoritmos de ordenação que devem ser utilizados são: Bubble Sort para ordenar por idade, Selection Sort para ordenar por nota e Insertion Sort para ordenar por matrícula. O programa deve processar comandos até que seja informado o comando de encerramento.",
+    "format_input": "A entrada é composta por uma sequência de comandos. Os comandos possíveis são: 1 – Cadastrar aluno: Após esse comando, serão fornecidos quatro valores: uma string representando o nome do aluno, um inteiro representando a matricula do aluno, um inteiro representando a idade do aluno e um número real representando a nota final do aluno; 2 – Ordenar por idade: Ordena os alunos em ordem crescente de idade utilizando Bubble Sort; 3 – Ordenar por nota: Ordena os alunos em ordem crescente de nota utilizando Selection Sort; 4 – Ordenar por matrícula: Ordena os alunos em ordem crescente de matrícula utilizando Insertion Sort; 0 – Encerrar o programa.",
+    "format_output": "Após cada comando de ordenação (2, 3 ou 4), o programa deve imprimir a lista completa de alunos, um por linha, no seguinte formato: ordenado por (idade/nota/matricula): nome matricula idade nota ... A nota deve ser impressa com duas casas decimais. Nenhuma saída deve ser impressa para os comandos de cadastro ou encerramento.",
+    "topics": [
+        "ordenação"
+    ]
+}

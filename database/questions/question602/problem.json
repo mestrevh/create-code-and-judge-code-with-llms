@@ -1,0 +1,10 @@
+{
+    "title": "Adega de Vinhos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você possui uma coleção de n vinhos especiais em uma prateleira da sua adega. Os vinhos estão enumerados de 1 a n, em sequência. O preço o i-ésimo vinho é pi. Esses vinhos são do tipo que se tornam melhores a cada ano. Por isso, suponha que hoje é o ano 1 e o preço do i-ésimo vinho é pi * y, onde y representa o ano. Você quer vender todas as garrafas que possui, mas só vai vender 1 única garrafa por ano. E tem mais. A cada ano, você só pode vender ou a garrafa mais à esquerda ou a mais a direita da sua prateleira. Além disso, você não pode reordenar as garrafas. Qual o máximo de dinheiro que você irá arrecadar com a venda das garrafas?",
+    "format_input": "A entrada consiste de vários casos de teste. Cada caso de teste começa com uma linha contendo o inteiro n (0<=n<=300), indicando a quantidade de garrafas. Seguirão n linhas. Cada linha contém o preço da i-ésima garrafa. A entrada termina quando não existirem mais casos de teste.",
+    "format_output": "Para cada caso de teste, imprima uma única linha contendo um inteiro representando o valor máximo obtido com a venda das garrafas.",
+    "topics": [
+        "programação dinâmica"
+    ]
+}

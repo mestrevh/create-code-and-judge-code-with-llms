@@ -1,0 +1,10 @@
+{
+    "title": "Sequencial_1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada a expressão abaixo , escreva um programa que leia um valor inicial do tipo inteiro e coloque o resultado da expressão na variável y. Observe os casos de teste. https://www.thehuxley.com/api/v1/problems/image/883b137624c1bcb5e7baee7e9d4fad4d536209d47.png",
+    "format_input": "Um número inteiro.",
+    "format_output": "A saída deve ser: Y= <valor_de_y>.",
+    "topics": [
+        "lógica matemática"
+    ]
+}

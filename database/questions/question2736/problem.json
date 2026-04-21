@@ -1,0 +1,12 @@
+{
+    "title": "Corrida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um grafo não ponderado G, as posições iniciais de 2 pessoas (A e B) e um vértice de destino, diga quem passará pela menor quantidade de vértices primeiro ao destino dado ou quem chegou mais próximo do destino.",
+    "format_input": "A entrada é composta por um único caso de teste. Será fornecido: N - o número de vértices; E - o número de arestas; M - a posição inicial de A; C - a posição inicial de B; F - o local de destino; Após isso, seguirão E linhas, que indicarão quais ligações (Ei) se ligam por uma aresta (0 <= Ri <= N - 1).",
+    "format_output": "A saída irá conter uma única string: \"A\", caso a pessoa A chegue antes ou mais próximo do que B ao destino; \"B\", caso B chegue antes ou mais próximo do que A ao shopping; \"Empate\", caso eles cheguem no destino ao mesmo tempo, caso eles não consigam chegar no destino e andaram a mesma quantidade de vértices.",
+    "topics": [
+        "estrutura de dados",
+        "grafo",
+        "estruturas"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Maior sequência decrescente",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um vetor de inteiro de tamanho N você deve dizer qual a maior sequência decrescente presente nesse vetor. A entrada será contemplada de múltiplos casos testes.",
+    "format_input": "número de casos teste T; O tamanho da sequência N | 1 <= N < 100; x números que representam a sequência.",
+    "format_output": "O tamanho da sequência e uma linha abaixo, caso exista sequencia, os valores que representam a maior sequência decrescente do vetor. obs: se existir mais de uma sequência com mesmo tamanho imprima a primeira.",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

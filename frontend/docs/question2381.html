@@ -1,0 +1,177 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 2381 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2381</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">estrutura de dados</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">Árvore</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Bourne-Again SHell</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p></p><p></p><p></p><p>Ambrósio não gosta de como o a estrutura de diretórios é exibida no bash.</p><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/8158523bfcae2bfe2e9071f0e710027d51493be38.png"/><br/></p><p>Como você, amigo de Ambrósio, foi um bom aluno na disciplina de <b>Estrutura de Dados</b>, ele pediu sua ajuda para implementar esse novo módulo do bash (batizado de <b>Nubash</b>) que reconhece os comandos de <b>criar</b> e <b>remover</b> pastas e, além disso, consegue<b> listar</b> os diretórios na <b>forma hierárquica</b>.</p><p>O <b>Nubash</b> reconhece quatro comandos: <b>mkdir</b>, <b>rm</b>, <b>ls</b> e <b>quit</b>. A sintaxe de cada comando é como se segue:</p><ul><li><b>mkdir &lt;pasta_destino&gt; &lt;nova_pasta&gt;</b>: cria uma nova pasta dentro de uma que já existe. Ex.: <b>mkdir videos filmes</b> cria a pasta <b>&#34;filmes&#34;</b> dentro da pasta <b>&#34;videos&#34;</b>.</li><li><b>rm &lt;pasta_a_ser_deletada&gt;</b>: apaga a pasta e todas as suas subpastas. Ex.: <b>rm videos</b> remove a pasta<b> &#34;videos&#34;</b> e todas as pastas que estão dentro dela.</li><li><b>quit</b>: encerra o <b>Nubash</b>.</li><li><b>ls</b>: mostra a estrutura de pastas no formato de hierarquia. Ex.: se dentro do diretório raíz (<b>root</b>) tivéssemos as pastas <b>&#34;videos&#34;</b> e <b>&#34;musicas&#34;</b>, dentro da pasta <b>&#34;videos&#34;</b> tivéssemos as pastas <b>&#34;filmes&#34;</b> e <b>&#34;series&#34;</b> e dentro da pasta <b>&#34;musicas&#34;</b> tivéssemos a pasta <b>&#34;rock&#34;</b>, o comando<b> ls</b> exibiria o seguinte:</li></ul><div style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/ef0401fb7c540a7cd396cf69c17246c70f9b11055.png"/></div><b>Obs:</b><ul><li>O Nubash deve ser implementado usando a estrutura de dados <b><u>árvore</u></b>;</li><li>A pasta raíz sempre será a pasta <b><u>root</u></b>;</li><li>Cada pasta pode conter, no máximo, <b><u>três</u></b> subpastas;</li><li>A<b> inserção</b> de novas pastas deve ser feita preenchendo os espaços <b><u>da esquerda para a direita</u></b>.</li></ul><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/dd67477ac2300bc5e652a8401edc53f9506bc335e.jpg"/><br/></p><ul><li>É garantido que não existirão pastas com o mesmo nome em toda a estrutura de pastas.</li></ul></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A entrada consiste de várias linhas com o seguinte formato:</p><p>Comando <b>mkdir</b>:</p><ul><li><b>mkdir D N</b>, onde <b>D</b> é uma string que representa o nome da pasta onde deve ser criada a pasta <b>N</b>, em que <b>N</b> é uma string representando o nome da nova pasta.</li></ul>Comando <b>rm</b>:<ul><li><b>rm R</b>, onde <b>R</b> é uma string que representa o nome da pasta a ser excluída.</li></ul>Comando <b>ls</b>:<ul><li><b>ls</b>, lista a estrutura de pastas no formato de hierarquia.</li></ul>Comando <b>quit</b>:<ul><li><b>quit</b>, encerra o Nubash.</li></ul></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Cada comando deve exibir uma das seguintes mensagens:</p><p>Comando <b>mkdir</b>:</p><ul><li>A mensagem <b>&#34;Pasta 'P' criada&#34;</b>, em caso de sucesso ao criar a pasta <b>P</b>;</li><li>A mensagem <b>&#34;Erro ao criar a pasta 'P'&#34;</b>, em caso de fracasso ao criar a pasta <b>P</b>;</li><li>A mensagem <b>&#34;A pasta 'P' esta cheia!\nErro ao criar a pasta 'N'&#34;</b>, caso a pasta <b>P</b> já contenha 3 pastas.<b> N</b> é o nome da nova pasta que seria criada.</li></ul><p>Comando <b>rm</b>:</p><ul><li>A mensagem <b>&#34;A pasta 'P' foi removida&#34;</b>, em caso de sucesso ao remover a pasta <b>P</b>;</li><li>A mensagem <b>&#34;Erro ao remover a pasta 'P'&#34;</b>, em caso de fracasso ao remover a pasta <b>P</b>;</li></ul><p>Comando <b>ls</b>:</p><ul><li>Observe que a cada nível abaixo na estrutura de pastas, deve-se inserir um recuo de 4 caracteres de espaço em branco. Desta forma, seguindo o exemplo da figura abaixo, se dentro da pasta filmes existisse uma pasta, esta deverá ser impressa com um recuo de 8 espaços em branco por estar no segundo nível na árvore.</li></ul><p style="text-align: center;"><img src="https://www.thehuxley.com/api/v1/problems/image/a5c9cb57a31352d2cd57913a217af02bbd33ff13).png"/><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question2381/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question2381/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question2381/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question2381/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question2381/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question2381/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question2381/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question2381/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question2381/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question2381/outputs/out4.txt">
+                Exemplo 5
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

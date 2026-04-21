@@ -1,0 +1,10 @@
+{
+    "title": "Inserir Dígito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lucas Brenner está trabalhando em um projeto no laboratório Brain na UFCG, que desenvolve vários tipos de aplicações para parceiros do mundo todo. Um desses parceiros é da área de logística, que envia muitos pacotes pelos correios para os seus clientes. Lucas notou que o sistema da empresa está com um problema. As etiquetas contendo o código de barras, que deve ser colado em cada pacote, está com defeito. A etiqueta possui um número n mas tem um dígito d faltando. Lucas sabe que o código de barras correto deve ser o maior número possível que possa ser derivado da inclusão do dígito d que está faltando no número n. Por exemplo, considere o número do código de barras com defeito n for 76543 e o dígito faltante d seja 4. O código de barras correto é 765443, que representa o maior número que podemos criar a partir da inserção do dígito d no número n. Podemos inserir o dígito em qualquer local. Sua tarefa é ajudar Lucas a desenvolver um algoritmo que corrija o código de barras.",
+    "format_input": "A primeira linha de cada caso de teste indica um número inteiro n (1 ≤ n < 106) representando o código de barras com defeito. A segunda linha contém um número inteiro d (0 ≤ d ≤ 9) indicando o dígito que está faltando e deve ser inserido.",
+    "format_output": "A primeira linha de cada caso de teste indica um número inteiro n (1 ≤ n < 106) representando o código de barras com defeito. A segunda linha contém um número inteiro d (0 ≤ d ≤ 9) indicando o dígito que está faltando e deve ser inserido.",
+    "topics": [
+        "repetição"
+    ]
+}

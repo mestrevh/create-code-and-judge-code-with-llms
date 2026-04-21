@@ -1,0 +1,10 @@
+{
+    "title": "Ganhando Chocolates por Assiduidade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tia Elaine é uma professora que tem vários alunos. Em sua última aula antes das férias, ela prometeu que iria dar uma caixa de chocolate para o aluno que tivesse menos faltas na disciplina de Programação 01. Dados os nomes dos alunos da Tia Elaine e sua respectiva quantidade de faltas, determine o nome do aluno ganhador da caixa de chocolate. Obrigatoriamente deve-se usar listas para resolver esta questão e não é permitido o uso das funções max ou min. A entrada será um inteiro representando o tamanho da turma T e uma sequência de T alunos com o nome de cada aluno e sua respectiva quantidade de faltas. Obs. Em caso de empate, a tia terá que dar caixa de chocolates a todos os alunos empatados com menos faltas.",
+    "format_input": "um inteiro representando o tamanho da turma T e uma sequência de T alunos com o nome de cada aluno e sua respectiva quantidade de faltas",
+    "format_output": "Ganhador(es) da(s) caixa(s) de chocolate",
+    "topics": [
+        "array"
+    ]
+}

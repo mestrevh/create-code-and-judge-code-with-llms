@@ -1,0 +1,11 @@
+{
+    "title": "Troca",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie uma função que recebe dois argumentos inteiros(A e B) e troca o conteúdo de A por B somente se A for maior que B. Obs.: Esta função deve ser void, onde a passagem dos parâmetros é por referência, pesquise!",
+    "format_input": "5 2",
+    "format_output": "2 5",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

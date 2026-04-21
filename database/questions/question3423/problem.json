@@ -1,0 +1,11 @@
+{
+    "title": "Raiz quadrada de um número",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma das maneiras de se conseguir a raiz quadrada de um número é subtrair do número os ímpares consecutivos a partir de 1, até que o resultado da subtração seja menor ou igual a zero. O número de vezes que se conseguir fazer a subtração é a raiz quadrada exata (resultado 0) ou aproximada do número (resultado negativo). Faça um programa para calcular a raiz quadrada de um número inteiro dado.",
+    "format_input": "Um número natural representando o número que se deseja calcular a raiz quadrada.",
+    "format_output": "Um número inteiro representando a raiz quadrada calculada.",
+    "topics": [
+        "lógica matemática",
+        "repetição"
+    ]
+}

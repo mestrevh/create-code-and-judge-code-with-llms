@@ -1,0 +1,11 @@
+{
+    "title": "Ordenação com ponteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que utilize ponteiros para ordenar em ordem crescente um array de inteiros de tamanho N.",
+    "format_input": "Você receberá um inteiro N (2 <= N <= 1000), representando a quantidade de elementos do array. Uma linha com N inteiros, representando os elementos do array.",
+    "format_output": "A saída deverá conter os elementos do array, ordenados de forma crescente, separados por um espaço.",
+    "topics": [
+        "ordenação",
+        "ponteiro"
+    ]
+}

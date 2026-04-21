@@ -1,0 +1,10 @@
+{
+    "title": "BST",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Neste exercício devem ser implementadas as seguintes operações sobre Árvores de Busca Binária (BST) simples, sem rotações.\n\n1) Inserir X\n  Se X já existe na árvore, retorna o nível em que X está, sem inseri-lo novamente.\n  Se X não existe na árvore, insere X e retorna em qual nível ele ficou.\n\n2) Remover X\n  Se X estiver na árvore, remove X e retorna o nível em que X estava.\n  Se X não estiver na árvore, retorna -1.\n\n3) Maiores X\n  Retorna a quantidade de valores que estão na árvore e que são maiores do que X.\n\n4) Kth K\n  Retorna o K-ésimo valor que se encontra na árvore, em ordem crescente.\n\nOBS1: Quando X for removido, e possuir DOIS filhos, deve ser colocado o menor valor maior do que X em seu lugar. (O sucessor de X).\nOBS2: A raiz está no nível 0, os filhos da raiz no nível 1, os netos no nível 2, etc.",
+    "format_input": "A primeira linha da entrada possui T, o número de casos de teste.\nSeguem-se T casos de teste. Cada caso tem a seguinte forma:\n\nN\nC1 X1\nC2 X2\n...\nCN XN\n\nonde\nN é o número de operações executadas\nCi (i=1,..,N) é o Código da operação:\n  -> Ci == 1:\n    Deve ser executado \"Inserir Xi\"\n  -> Ci == 2:\n    Deve ser executado \"Remover Xi\"\n  -> Ci == 3:\n    Deve ser executado \"Maiores Xi\"\n  -> Ci == 4:\n    Deve ser executado \"Kth Xi\"\nXi é o argumento (operando) da operação i.\n\nLimites:\n1 <= T <= 100\n1 <= N <= 200000\n1 <= Ci <= 4, (i=1,...,N)\nSe Ci=1,2 ou 3:\n  -10^9 <= Xi <= 10^9,\nSe Ci == 4:\n  1 <= Xi <= no. de elementos na BST.\n\nOBS: Em cada caso, a BST está inicialmente vazia.",
+    "format_output": "Para cada caso imprima:\n\nR1\nR2\n...\nRN\n\nonde\nRi é o retorno quando se executa \"Ci Xi\".\n\nImprima uma linha em branco após cada caso.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Mineirin e as Permutações",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma string e seu tamanho, que formam uma árvore binária de caracteres, diga se é possível encontrar uma substring s nessa árvore tal que s é a permutação da concatenação dos caracteres da raíz até um caminho qualquer de tal forma que s seja igual a um anagrama a dado. Exemplo: - String s: \"abcd\"; - Anagrama a que deve ser encontrado na árvore: \"bda\"; - Todos os caminhos possíveis nessa árvore: 1. a 2. ab 3. abd 4. ac - Possíveis permutações das substrings a partir dessa árvore: 1. a 2. ab 3. ba 4. ac 5. ca 6. abd 7. adb 8. bad 9. bda 10. dab 11. dba - Resposta: Sim, pois \"bda\" é uma das substrings feitas a partir dessa árvore!",
+    "format_input": "Um inteiro N1 que será a quantidade de caracteres da string S1, (1 <= N1 <= 100); Uma string s de tamanho N que será composta somente por letras do alfabeto; Um inteiro N2 que será a quantidade de caracteres da string a, (N2 <= N1); Uma string a que será o anagrama a ser encontrado na Estrutura de Dados falada por eles, que será composta somente por letras do alfabeto.",
+    "format_output": "\"Sim\" no caso da substring conseguir ser formada a partir da oermutação da concatenação dos caracteres de um caminho da raíz até um nó; \"Nao\" caso contrário.",
+    "topics": [
+        "heap",
+        "Árvore",
+        "backtracking",
+        "string"
+    ]
+}

@@ -1,0 +1,201 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 4041 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4041</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">acumulador</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">repetição</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">recursão</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Campeonato Maluco</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Ordep e seus amigos amam futebol, eles decidiram criar um jogo de futebol onde temos N times, que se enfrentaram apenas 1 vez, ou seja se n = 3, teremos esses jogos:</p><p><b id="docs-internal-guid-f86ca6d5-7fff-b7aa-8222-8a426cfa2d36"><span style="color: #000000;background-color: transparent;"><span style="width: 200px;height: 108px;"><img src="https://lh4.googleusercontent.com/Ws_vicJI8VNLp7WvICsLQmDc1SezG_ktvs0O7TcwGMYQHcnvNTc2NXYPUyAjLVreAr6EtldJunnKH5yDr7GDifejxi_zQZXj_CtJmVKbKZ5FnkrEUG5Wa3EsjgSx5PFYxmXRFNhIk1KxFZSnyNW2wWg" width="200" height="108"/></span></span></b><br/></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">Note que todos os times se enfrentam apenas 1 vez.</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;"><br/></span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">Cada time vai ter:</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">- Um nome, com no máximo 20 caracteres</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">- Quantidade de torcedores, o número de torcedores será o mesmo em todos os jogos</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">- Quantidade de jogadores titular que vão jogar essa temporada</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">- Quantidade de pontos na liga</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;"><br/></span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;"><br/></span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">Neste campeonato, o time que ganhar a partida acrescenta 1 ponto, o que perder não acrescenta nada.</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;"><br/></span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;"><b>OBS: Não existirá nenhuma partida com empate.</b></span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;"><br/></span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">Neste campeonato, o que define a vitória não é a habilidade dos jogadores, e sim a quantidade de torcedores e a quantidade de jogadores titulares.</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">Para cada 1 torcedor, o time tem 0.001% de chance a mais de ganhar.</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">Para cada 1 jogador titular jogando no campeonato, o time tem 3.75% de chance a mais de ganhar.</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;"><br/></span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;">Os times inicialmente tem 0% de chance de vitória. Após os cálculos citados anteriormente, o time que tiver a maior chance de vitória, ganha.</span></span></p><p><span style="color: rgb(0, 0, 0);background-color: transparent;"><span style="width: 200px;height: 108px;"><br/></span></span></p><p>No final, imprima o time com a maior pontuação.</p><p><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Um inteiro N, representando a quantidade de times</p><p>em seguida vão vir N times, com as seguintes informações de cada time:</p><p>- Nome, string de no máximo 20 caracteres</p><p>- Inteiro t, representando a quantidade de torcedores</p><p>- Inteiro j, representando a quantidade de jogadores</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>A saída deve conter a seguinte frase:</p><p>&#34;O grande vencedor foi X&#34;, onde X é o nome do time com a maior pontuação</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in10.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out10.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out2.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out3.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out4.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out5.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out6.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out7.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out8.txt">
+                Exemplo 10
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4041/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question4041/outputs/out9.txt">
+                Exemplo 11
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

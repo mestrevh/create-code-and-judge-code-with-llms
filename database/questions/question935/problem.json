@@ -1,0 +1,11 @@
+{
+    "title": "Aprovação.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "A partir de 3 notas fornecidas de um aluno, informe se ele foi aprovado, ficou de recuperação ou foi reprovado. Média de aprovação: >= 7.0; Média de recuperação: >= 5.0 e < 7.0; Média de reprovação: < 5.0;",
+    "format_input": "As notas do aluno.",
+    "format_output": "Situação do aluno com a mensagem. (Observação: a nota deve ser impressa com uma casa decimal)",
+    "topics": [
+        "multiplas entradas",
+        "decisão"
+    ]
+}

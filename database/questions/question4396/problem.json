@@ -1,0 +1,12 @@
+{
+    "title": "Ekul e o Labirinto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ekul é um pequeno e corajoso cachorro que decidiu partir em aventuras pelo mundo. Na mais recente aventura de Ekul ele decidiu se aventurar na nação do Íavah, onde haviam lendas sobre um labirinto antigo com uma tigela mágica de Poke guardada no final. Entretanto, ao chegar lá, percebeu que o labirinto era protegido por uma dragoa dorminhoca, que não abriria mão da tigela de poke por nada. Percebendo que algumas paredes do labirinto tinham frestas com tamanho suficiente para um cachorro atravessar, Ekul decidiu procurar um caminho em que não se deparasse com a dragoa. A dragoa tem um faro aguçado, e mesmo dormindo era capaz de sentir o cheiro de Ekul a uma certa distância. Sabendo que Ekul só é capaz de se movimentar para baixo e para a direita, dada uma matriz NxN, em que 0 indica a existência de uma parede que não pode ser atravessada, 1 indica a existência de uma parede com fresta (que pode ser atravessada) e 2 indica a localização da dragoa, determine se Ekul consegue de alguma maneria chegar até o final do labirinto. OBS1: A posição inicial de Ekul é sempre na coordenada (0,0) e o final do labirinto é sempre na coordenada (N-1, N-1). OBS2: A dragoa é capaz de sentir o cheiro de Eluk vindo de UMA CASA DE DISTÂNCIA, de todas as direções, INCLUINDO DIAGONAIS. OBS3: N >= 3",
+    "format_input": "Um inteiro N, representando o tamanho do labirinto, seguido por 0's, 1's e um 2, representando a composição do labirinto.",
+    "format_output": "\"Ekul conseguiu ludibriar a dragoa!\", caso exista pelo menos um caminho em que ele chegue até o fim do labirinto, ou \"Ekul tomou o nhac da dragoa :(\", caso não exista nenhum caminho que atenda às condições.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

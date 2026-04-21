@@ -1,0 +1,11 @@
+{
+    "title": "idades perfeitas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "lulu ama desafios, sua irmã lala lançou um desafio para ela. O desafio era o seguinte: Ela tem que buscar por N idades, e no final, lembrar da menor idade lida e da maior idade lida, após ter esses dois valores, ela tem que descobrir se são idades perfeitas, segundo lala, as idades são perfeitas se a maior idade menos a menor idade resultar em um número primo.",
+    "format_input": "um inteiro N. Em seguida serão lidos N idades, todas as idades são inteiras",
+    "format_output": "caso sejam idades perfeitas: \"As idades <menor> <maior> sao perfeitas\". caso contrário: \"As idades <menor> <maior> nao sao perfeitas\"",
+    "topics": [
+        "decisão",
+        "recursão"
+    ]
+}

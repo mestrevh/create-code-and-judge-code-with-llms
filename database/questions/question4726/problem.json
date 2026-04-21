@@ -1,0 +1,10 @@
+{
+    "title": "Condicionais - Par ou Ímpar?",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Complete o código abaixo para verificar se um número é par ou ímpar\n\nN = int(input())\nif N % 2 == ___: #Complete aqui\n  print(\"PAR\")\nelse:\n  print(____) #Complete aqui",
+    "format_input": "Um número inteiro N.",
+    "format_output": "\"PAR\" se N for par\n\"IMPAR\" se N for ímpar",
+    "topics": [
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "O cruzamento",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Para chegar do outro lado da muralha, Eren e seus amigos se deparam com vários obstáculos: vários titãs de vários tamanhos à sua frente. Levi, calculoso como sempre, pede que você o ajude. Para ajudá-lo você deve criar um programa que dado o HP de Levi, a quantidade de inimigos para enfrentar e as regiões do corpo onde ele acertou o titã, vai devolver como resposta se ele conseguiu sobreviver ou não ao cruzamento da muralha e se há algum titã restante no caminho. Então ele lhe fornece as seguintes informações: acerto na nuca dá 100% de dano e o Levi não se machuca; acerto na cabeça dá 50% de dano e Levi perde 30 de HP; por fim, acerto em qualquer outra região do corpo do titã não causa dano e levi perde 50 de HP.",
+    "format_input": "A primeira entrada é um número inteiro correspondente ao HP de Levi: N. A segunda é a quantidade de titãs no meio do caminho: X. Então seguem X linhas com strings que indicam os locais de acerto: S. S é uma string.",
+    "format_output": "Caso ele tenha sobrevivido e ainda sobrarem inimigos: \"Levi sobreviveu com X de HP e sobraram N inimigos\". Caso ele tenha sobrevivido e não sobrarem inimigos: \"Levi sobreviveu com X de HP e nao sobraram inimigos\". Caso ele não tenha sobrevivido: \"Infelizmente o Levi nao sobreviveu...\"",
+    "topics": [
+        "repetição"
+    ]
+}

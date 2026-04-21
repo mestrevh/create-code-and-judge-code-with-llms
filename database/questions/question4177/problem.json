@@ -1,0 +1,10 @@
+{
+    "title": "Números de Ícaro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Durante uma de suas passeadas na UFPE, Ícaro resolveu anotar todos os números que via em seu caminho, até encontrar o número 420, e por algum motivo, parava nesse momento. Ele repetiu esse processo 3 vezes, obtendo 3 listas. Ajude Ícaro colocando as listas em ordem crescente e informando quantos números existem em cada uma.",
+    "format_input": "1 2 3 420 7 420 2 5 2 420",
+    "format_output": "4 1 2 3 420 2 7 420 4 2 2 5 420",
+    "topics": [
+        "array"
+    ]
+}

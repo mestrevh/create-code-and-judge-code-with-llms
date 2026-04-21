@@ -1,0 +1,10 @@
+{
+    "title": "Promoção de energético",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Coragem conseguiu um emprego em um supermercado para ajudar nas despesas de casa. No fatídico dia, o mercado colocou uma promoção do energético \"Monster Energy\", além do desconto, o cliente que comprasse a quinquagésima lata do energético no dia ganharia um cesta básica. Acontece que coragem ficou nervoso ao ver a fila e não anotou qual o cliente que ganhou. (Primeiro, segundo, etc...) Coragem atendeu N clientes. Sabe-se que todos os clientes múltiplos de X compraram ao menos uma lata. O sistema registrou o horário e o número de latas dos clientes que compraram mais de 1 lata. Y clientes constam nesse sistema. Coragem atende um cliente em 3 minutos. E às 07:00 quando ele abriu o caixa já começou a trabalhar. Ps: Se X for 0 ninguém comprou apenas uma lata. Os horários registrados no sistema não apresentam incongruências.",
+    "format_input": "N: Clientes atendidos no dia. X: Clientes múltiplos de X compraram 1 lata. Y: Número de clientes que constam no sistema com mais de 1 lata comprada. W e Z: são respectivamente o horário no formato HH:MM e o número de latas compradas.",
+    "format_output": "Se não houver um vencedor escreva: \"Ainda nao foram vendidas latas suficientes. Faltam N latas.\" Caso contrário: \"Quem levou a cesta basica foi o N* cliente atendido por coragem, as HH:MM. Que comprou M latas.\" Se liga no plural!",
+    "topics": [
+        "array"
+    ]
+}

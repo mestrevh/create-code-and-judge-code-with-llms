@@ -1,0 +1,10 @@
+{
+    "title": "Teh Adventujrs of Meme Man: Confiança",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Embora tenha cochilado durante a aula de Física Experimental I, nosso grandioso protagonista lembra-se do que seu professor disse, enquanto sonhava com mais um tchunfly. \"O valor verdadeiro de uma grandeza de medida jamais pode ser atribuído em uma medição, já que tal feito implicaria em uma precisão infinita da ferramenta utilizada. Por isso, devemos sempre fornecer, além do resultado obtido para a grandeza, sua incerteza e unidade de medida.\" Pensando nisso, Meme Man resolveu medir a extensão de sua face usando diversos instrumentos, dois por vez, para testar suas precisões. Dado duas medições de sua formosa e constante expressão, ele pediu para que você computasse se tais medidas são compatíveis, averiguando se ele foi medido correta e fabulosamente. Duas medidas são compatíveis quando seus intervalos de confiança se sobrepõem. Por exemplo: l1 = 3.5 ± 0.3 m e l2 = 3.4 ± 0.2 m são compatíveis já que há sobreposição no intervalo (3.2, 3.6).",
+    "format_input": "Duas linhas, cada uma contendo dois floats a, b (0 < a, b < 1000) e um caractere x ('m' para metro, 'd' para decímetro ou 'c' para centímetro), onde a é o resultado obtido na medida, b é sua incerteza e x indica a unidade de medida usada naquela medição. A incerteza sempre está na mesma unidade de medida do resultado que ela acompanha.",
+    "format_output": "\"forte.\", seguido de uma quebra de linha, caso as medidas sejam compatíveis. \"isso tem cara de desencadear um evento de distorcao espacial na proxima questao do meme man...\", seguido de uma quebra de linha, caso contrário.",
+    "topics": [
+        "decisão"
+    ]
+}

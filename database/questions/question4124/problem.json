@@ -1,0 +1,13 @@
+{
+    "title": "Fila de Prioridade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Criar uma função atendimento que consome duas filas (prioridade e normal). A função atendimento deve atender a cada 2 pessoas da fila de prioridade, 1 pessoa da fila normal. Você deve criar e preencher inicialmente as duas filas com no mínimo 15 elementos cada.",
+    "format_input": "15 elementos da fila comum 15 elementos da fila de prioridade",
+    "format_output": "imprimir a fila final",
+    "topics": [
+        "estrutura de dados",
+        "função",
+        "alocação dinâmica",
+        "estruturas"
+    ]
+}

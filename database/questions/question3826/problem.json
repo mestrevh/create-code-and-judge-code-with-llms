@@ -1,0 +1,10 @@
+{
+    "title": "Teste",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Imprima o próximo número. Imprima o próximo número. Imprima o próximo número.",
+    "format_input": "1",
+    "format_output": "2",
+    "topics": [
+        "entrada formatada"
+    ]
+}

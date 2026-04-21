@@ -1,0 +1,12 @@
+{
+    "title": "Inverte nomes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreve um programa que lê dois nomes (String), um por linha, inverta a ordem dos caracteres dos mesmos, e imprima os strings resultantes na ordem inversa em que foram lidos (em uma única linha). DICA - Como acessar informações de String em Java: String s = \"Testar\"; s.charAt(0); // retorna o char 'T' s.charAt(5); // retorna o char 'r' s.length(); // retorna o int 6",
+    "format_input": "Dois valores do tipo String (A e B), um por linha.",
+    "format_output": "Os valores String A e B, com a ordem dos seus caracteres invertidos e impressos na ordem inversa que foram lidos, numa única linha: B A",
+    "topics": [
+        "String",
+        "Manipulação de Strings",
+        "Java"
+    ]
+}

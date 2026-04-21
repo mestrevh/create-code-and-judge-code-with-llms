@@ -1,0 +1,13 @@
+{
+    "title": "Tancredo e suas pizzas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Tancredo é um aluno do CIn que gosta muito de pizza. Ele gosta de pizza de todos os tipos(até mesmo pizza de brigadeiro). O único problema é que sua melhor amiga, Gabi, não pode comer derivados de lactose. Mas, para o bem de todos, ele aprendeu várias receitas de pizza perfeitas para ele e sua amiga comerem. No CIn, uma receita é dada por um sequência de letras minúsculas e maiúsculas, onde cada letra é um ingrediente e, para que a receita seja feita, é preciso de cada letra da receita(em suas dadas quantidades). Por exemplo, para fazer a receita Muzzarela é preciso de: 1 M 1 u 2 z 2 a 1 r 1 e 1 l OBS: letras maiúsculas e letras minúsculas são consideradas diferentes. Tancredo aprendeu N receitas novas, e gostaria de fazê-las para comemorar com Gabi. Mas, ele esqueceu de comprar os ingredientes, e gostaria de saber qual o maior número de pizzas ele pode fazer para cada receita, dada a uma lista com as receitas (numeradas de 1 à N) e os ingredientes que ele tem em casa. Sabe-se também que a lista de receitas está ordenada por sua preferência, e que ele fará o máximo da sua receita mais preferida, para só então ir para a próxima receita. Ou seja: Seja N = 2, a lista: 1. Muzzarela 2. CalAbresA e MMuuzzzzssaaaaarrreeellllCCCAAAAbbb os ingredientes que Tancredo tem em casa. Sabendo que ele vai fazer 2 Muzzarela’s, sobram, após o cozimento, os seguintes ingredientes: ssareellCCCAAAAbbb Com os quais ele pode fazer apenas uma CalAbresA.",
+    "format_input": "Um inteiro T(1 <= T <= 100) indicando o número de casos de teste. Para cada caso, um inteiro N(1 <= N <= 1000) indicando o número de receitas que Tancredo aprendeu, e, em cada uma das próximas N linhas i, uma string Si(1 <= |Si| <= 40), indicando a i-ésima receita na ordem de preferência de Tancredo. Bem como, na (N+1)-ésima linha, aparecerá uma string T (1 <= |T| <= 10000) contendo os ingredientes que Tancredo tem em casa. OBS: as strings dadas na entrada contém apenas letras maiúsculas e minúsculas.",
+    "format_output": "Para cada caso de teste, N inteiros, um em cada linha. Que representam o número máximo de pizzas que Tancredo vai fazer de cada receita, seguindo a ordem da entrada. Ao final de cada caso existe uma linha em branco.",
+    "topics": [
+        "multiplas entradas",
+        "repetição",
+        "caractere",
+        "string"
+    ]
+}

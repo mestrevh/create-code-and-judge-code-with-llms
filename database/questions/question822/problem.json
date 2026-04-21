@@ -1,0 +1,11 @@
+{
+    "title": "Exame",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Ufal está com carência de professores, então foi proposto a realização de concurso para professores. Neste concurso o exame classificatório foi composto por apenas duas questões. Foi divulgado a quantidade de pessoas que acertaram as duas questões, somente a primeira questão, apenas uma das questões e erraram as duas questões. Porém, você acha que ainda falta informação de quantas pessoas realizaram o exame. E decidiu fazer um programa que dado essas informações, calcule a quantidade de pessoas que foi submetida ao teste.",
+    "format_input": "Receberá 4 inteiros não negativos: D , P , U e N. D - Quantidade de pessoas que acertaram duas questões. P - Quantidade de pessoas que acertaram a primeira questão. U - Quantidade de pessoas que acertaram apenas uma questão. N - Quantidade de pessoas que não acertaram nenhuma questões.",
+    "format_output": "A quantidade de pessoas que fez o exame.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

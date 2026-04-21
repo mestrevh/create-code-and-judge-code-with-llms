@@ -1,0 +1,10 @@
+{
+    "title": "Números de Armstrong",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Os monitores de “Introdução a C e suas peculiaridades” desejam testar seu conhecimento em laços de repetição. Para isso eles pedem que você faça o seguinte: Dado um intervalo fechado entre dois números naturais, identifique quais e quantos números nesse intervalo são Números de Armstrong (ou Números Narcisistas); Números de Armstrong são aqueles números cuja soma de seus dígitos elevados ao número de dígitos é igual a ele mesmo. Por exemplo, 153 é um número narcisista, pois 13 + 53 + 33 = 1 + 125 + 27 = 153. (Adendo - não utilize a biblioteca math.h) Dica: Teste seu código para o intervalo 1 a 1000;",
+    "format_input": "Sua entrada deverá conter uma linha indicando o menor número no intervalo e então uma outra linha contendo o maior número do intervalo.",
+    "format_output": "Sua saída deve conter uma linha contendo todos os números de Armstrong no intervalo, e então uma segunda linha contendo a quantidade de números naquele intervalo, para facilitar a leitura, imprima “X numeros de Armstrong” onde X é a quantidade de números;",
+    "topics": [
+        "repetição"
+    ]
+}

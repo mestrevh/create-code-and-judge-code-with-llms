@@ -1,0 +1,12 @@
+{
+    "title": "Petris",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O jogo de Petris é uma variação do jogo Tetris na qual temos N colunas de pedras coloridas, numeradas de 1 a N. A cada instante, uma nova pedra vem de cima e o jogador pode movimentá-la de forma que ela caia no topo de uma das N colunas, ou então inicie uma nova coluna à esquerda ou à direita das demais. Cada vez que uma pedra de cor C é adicionada ao topo da coluna sobre outra pedra de cor idêntica, todas a pedras de mesma cor C são removidas do topo dessa coluna. Quando uma coluna se torna vazia, ela é removida e as colunas à direita são todas deslocadas uma posição à esquerda para preencher o espaço deixado. O objetivo é manter o número total de pedras e colunas o menor possível. Por exemplo, suponha que a configuração atual do jogo seja a seguinte, sendo cada cor representada por um número. 2 1 2 1 0 2 0 1 2 2 1 1 ----------- <-- base 1 2 3 4 5 6 <-- número da coluna. Se uma pedra de cor 2 for adicionada à coluna 2, teremos 2 2 1 2 1 0 2 0 1 2 2 1 1 ----------- 1 2 3 4 5 6. E então 2 1 1 0 2 0 1 2 2 1 1 ----------- 1 2 3 4 5 6. Se, em seguida, uma pedra de cor 1 for adicionada à mesma coluna, ficaremos com 2 1 1 1 0 2 0 1 2 2 1 1 ----------- 1 2 3 4 5 6 e logo 2 1 1 0 2 0 2 2 1 1 ----------- 1 2 3 4 5 6 fazendo com que a coluna 2 desapareça, terminando finalmente com 2 1 1 0 2 0 2 2 1 1 --------- 1 2 3 4 5",
+    "format_input": "A primeira linha da entrada consiste num inteiro P correspondente ao número de casos, cada um deles representando uma partida do jogo. Cada partida é representada por uma sequência de jogadas, cada uma delas correspondente à adição de uma nova pedra, na forma a seguir. S[0] C[0] S[1] C[1] ... S[M] C[M] END onde - 0 <= S[i] <= N+1: indica a coluna sobre a qual a pedra é adicionada, sendo N o número corrente de colunas. Se S[i]=0, uma nova coluna deve ser iniciada à esquerda. Se S[i]=N+1, uma nova coluna deve ser iniciada à direita. - C[i] indica a cor da pedra a ser adicionada. O final de cada partida/caso é indicado por uma linha \"END\" seguida por uma linha em branco.",
+    "format_output": "Para cada caso/partida k=0,...,P-1 na entrada, deve ser impressa uma linha na forma caso k: T[1] T[2] ... T[N] onde - N é o número total de colunas ao final da partida e - T[j] é a cor da pedra no topo da coluna j, para j=1,...,N",
+    "topics": [
+        "estrutura de dados",
+        "simulação de jogos",
+        "pilha"
+    ]
+}

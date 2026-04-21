@@ -1,0 +1,13 @@
+{
+    "title": "Seis Strings",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma string x, um valor de distância k e 5 outras strings, encontre a string com o menor valor de distância de edição (diferença) com relação a x. Se o valor da menor distância de edição encontrada for maior do que k, imprima -1 para indicar que não foi encontrada uma string suficientemente próxima de x.",
+    "format_input": "A primeira linha contém uma string x (1 ≤ len(x) ≤ 100). A próxima linha contém um inteiro k (1 ≤ k ≤ 100). Cada uma das próximas 5 linhas contém uma string y (len(x) = len(y)).",
+    "format_output": "Imprima o índice da string mais próxima da primeira linha (de 1 a 5) ou -1 se a distância de edição foi maior que k. Se este valor for diferente de -1, imprima o valor de distância de edição da segunda linha. Observação: É obrigatório definir e utilizar uma função chamada diferenca(x,y), onde x é a string da primeira linha e y é a string cuja distância de edição (diferença) se deseja calcular. A função deve retornar um valor inteiro. Veja alguns exemplos abaixo: diferenca(‘ABC’, ‘ABC’) # retorna 0 diferenca(‘ABC’, ‘ABB’) # retorna 1 diferenca(‘ABC’, ‘AAA’) # retorna 2 diferenca(‘ABC’, ‘DDD’) # retorna 3",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

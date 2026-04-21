@@ -1,0 +1,11 @@
+{
+    "title": "Exercício de Busca - BFS",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Este exercício requer os conhecimentos de Busca em largura (BFS) vistos em sala. A primeira linha da entrada consiste no nó inicial. A última linha da entrada consiste no nó objetivo. O resto da entrada consiste num grafo representado da seguinte forma: X->Y D tal que: X e Y são nós representados por caracteres (char) e D é uma distância em número inteiro não-negativo (int). Note que este grafo é direcionado, (ou seja, se A->S está no input, então S->A não estará necessariamente). A entrada termina com uma linha em branco. A saída deve ser impressa a cada alteração realizada na fila, ao fim deverá ser impresso o trajeto feito. Para fins ilustrativos, a questão foi inspirada nesse grafo: https://bit.ly/3iRJQcc",
+    "format_input": "S\nG\nS->A 3\nS->B 5\nS->C 2\nA->D 3\nB->D 4\nB->E 2\nB->G 9\nC->E 1\nD->F 5\nE->F 6\nE->H 5\nF->G 5\nH->G 8",
+    "format_output": "S\nA B C\nB C D\nC D E G\nD E G\nE G F\nG F H\nF H\nH\n\nS B G",
+    "topics": [
+        "grafo",
+        "busca"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Perímetro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu objetivo é determinar o perímetro de um polígono regular inscrito numa circunferência, dados o número de lados do polígono e o raio da circunferência.",
+    "format_input": "Um inteiro N indicando o número de lados do polígono regular inscrito. E um número de ponto flutuante R indicando o raio do círculo.",
+    "format_output": "A saída consiste de um número real com duas casas decimais representando o perímetro do polígono de N lados inscrito na circunferência de raio R.",
+    "topics": [
+        "geometria computacional",
+        "lógica matemática"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Bitmap",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O bitmap é uma estrutura de dados que é utilizada em muitas áreas da computação. Na Computação Gráfica, por exemplo, um bitmap pode representar uma imagem, onde 1 seria um pixel preto e 0 um pixel branco. Mas as formas de representar um bitmap podem ser bem variadas. Neste problema, o objetivo é transformar de uma forma para outra. A primeira forma é simplesmente um array bidimensional composto de 0s e 1s. Já a segunda forma é gerada a partir de uma decomposição dessa matriz. Primeiro, o bitmap inteiro é considerado. Se todos os bits forem 1, então 1 é a saída. Se todos forem 0, então 0 é a saída. Caso contrário, a saída deve ser D e o bitmap deve ser dividido em até 4 partes. Cada uma das partes deve ser processada da mesma maneira que o bitmap original. Os 4 quadrantes são processados na seguinte ordem: superior esquerdo, superior direito, inferior esquerdo, inferior direito. Quando um bitmap possui um número par de linhas e também de colunas, então todos os quadrantes possuirão as mesmas dimensões. Quando o número de colunas é ímpar, os quadrantes da esquerda devem ter uma coluna a mais do que os quadrantes da direita. Quando o número de linhas é ímpar, os quadrantes superiores devem possuir uma linha a mais do que os quadrantes inferiores. Seu objetivo é ler um bitmap no formato de matriz e transformá-lo na forma descrita.",
+    "format_input": "A entrada consiste de um número n indicando a quantidade de casos de teste. Cada caso de teste consiste de uma linha com os números L e C, indicando o número de linhas e colunas do bitmap. (1<= L, C <= 200) Na sequência seguirão N linhas, cada uma com C colunas de caracteres 0 ou 1.",
+    "format_output": "A saída consiste nos bitmaps transformados. Sendo um bitmap para cada caso de teste. Cada linha do bitmap deve ter 50 colunas, exceto a última linha, que pode conter menos.",
+    "topics": [
+        "array bidimensional",
+        "recursão",
+        "dividir e conquistar"
+    ]
+}

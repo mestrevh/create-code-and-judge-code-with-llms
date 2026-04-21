@@ -1,0 +1,11 @@
+{
+    "title": "problema 2",
+    "time_limit": "3 segundo(s)",
+    "descrition": "testando texto da descricao digitando mais coisas para passar o texto",
+    "format_input": "entrada",
+    "format_output": "saida",
+    "topics": [
+        "acumulador",
+        "intercalação"
+    ]
+}

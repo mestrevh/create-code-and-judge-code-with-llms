@@ -1,0 +1,11 @@
+{
+    "title": "Senhas - Validador de Senhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Seu programa deve receber uma senha do usuário e validar se esta segue os seguinte critérios: A senha será uma string em uma única linha, que será inserida pela entrada padrão. - Ter 10 ou mais caracteres - Ter pelo menos uma letra maiúscula - Ter pelo menos uma letra minúscula - Ter pelo menos um dígito - Não conter símbolos - Não iniciar ou terminar nas seguinte sequências: - 123 - 321 - 000 - abc  Ignore os espaços em branco no início e no final da senha. Caso a senha seja válida, imprima uma mensagem de \"sucesso\", caso contrário imprima uma mensagem de \"fracasso\".",
+    "format_input": "Seu programa deve receber uma string S; 0 > S <= 10³",
+    "format_output": "Seu programa deve imprimir \"fracasso\" caso a senha não seja válida e \"sucesso\" caso seja válida",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

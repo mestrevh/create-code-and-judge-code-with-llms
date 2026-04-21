@@ -1,0 +1,10 @@
+{
+    "title": "Idade em anos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que calcule idade. O programa deverá receber como entrada a data de nascimento e a data atual e calcular a idade em anos completos.",
+    "format_input": "Na primeira linha será ingressada a data de nascimento, três inteiros separados por branco correspondentes ao dia, mes e ano. Similarmente, na segunda linha, será ingressada a data autal. Suponha que sempre a data de nascimento é anterior ou igual à data atual.",
+    "format_output": "A idade em anos completos.",
+    "topics": [
+        "decisão"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Quais os números que estão faltando?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado dois arrays de números inteiros imprima os númeors do primeiro array que não estão presentes no segundo array.",
+    "format_input": "Serão dadas duas linhas, correspondendo aos dois arrays. Nos números de cada linha são separados por espaços.",
+    "format_output": "Imprima em ordem decrescente os números do primeiro array que não estão presentes no segundo array. Os números devem ser impressos todos em uma única linha e separados por um espaço. Depois do último número não deve existir um espaço.",
+    "topics": [
+        "array"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Operações com números complexos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um número complexo é um número z que pode ser escrito na forma z=a+ bi, sendo a e b números reais e i denota a unidade imaginária. Esta tem a propriedade i²=-1 ou i=√-1, sendo que a e b são chamados respectivamente parte real e parte imaginária de z. Assim, implemente uma TAD para manipular números complexos, conforme especificado acima, criando um estrutura para armazenar as informações do número complexo, parte real e parte imaginária. Escreva as seguintes funções para manipular os dados presentes nessa estrutura: Imprimir: Função que imprime um número complexo, na forma a + bi. Soma: Função que calcula a soma de dois números complexos, considere: Se z1 = a + bi e z2= a + bi, então z1 + z2 = z1.a + z2.a + (z1.b + z2.b)i Função que calcula a multiplicação de dois números complexos, considere: Se z1 = a + bi e z2= a + bi, então z1*z2 = (z1.a*z2.a – z1.b*z2.b) + (z1.a*z2.b +z2.a*z1.b)i. Ao final, desenvolva um programa que leia dois números complexos e em seguida, apresente a soma e a multiplicação desses números. Atenção para o formato de saída.",
+    "format_input": "2 5\n1 -2",
+    "format_output": "Soma: 3+3i\nMulti: 12+1i",
+    "topics": [
+        "estruturas"
+    ]
+}

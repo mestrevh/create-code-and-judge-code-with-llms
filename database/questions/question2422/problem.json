@@ -1,0 +1,12 @@
+{
+    "title": "L1Q5 - O dinheiro do Hackathon",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após vencerem um hackaton, nossos alunos estão usando o dinheiro do prêmio que ganharam para pagar pela vigem. Para conseguir acabar a viagem sem gastar tudo eles estabeleceram um limite de quanto podem gastar e devem ser bastante cautelosos. Eles desejam comprar especificamente 4 itens, entretanto os valores podem estar em diferentes moedas e precisarão fazer a conversão primeiro. Seu trabalho é elaborar um programa que analise, dado o dinheiro que eles possuem e o valor de cada item, se será possível comprar os 4 itens ou não, tome cuidado pois pode ser que as moedas sejam diferentes. Obs.: Considere 1 iene equivalente a 0.03 reais.",
+    "format_input": "A entrada é composta por 7 linhas. As duas primeiras linhas são compostas pelo valor limite que eles podem gastar e em que moeda esse valor se encontra: ValorMax Moeda1. ValorMax - Int; Moeda - String. As próximas quatro linhas serão composta do que querem gastar e seu valor: Objeto1 Valor1, Objeto2 Valor2, Objeto3 Valor3, Objeto4 Valor 4. Objeto - String; Valor - Int. A última linha será composta pela moeda em que está o valor dos objetos desejados: Moeda2. Moeda - String.",
+    "format_output": "Caso alguma das moedas não seja nem em real nem em iene, a saída deverá ser: Nao conheco essa moeda, vamos comprar outra coisa... Caso eles possam comprar os 4 itens, a saída deverá ser: UHU, todo trabalho valeu a pena! Caso eles não possam comprar os 4 itens, a saída deverá ser: Nao podemos comprar tudo, precisamos codar mais.",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "string"
+    ]
+}

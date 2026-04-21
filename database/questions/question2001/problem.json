@@ -1,0 +1,12 @@
+{
+    "title": "Troca de letras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O cérebro humano é capaz de entender frases mesmo com algumas falhas e identificar os padrões destas falhas fazendo com que a leitura seja cada vez mais rápida ao se deparar com as mesmas falhas. Por exemplo, dada a palavra 'C3RTO', você seria capaz de associar à palavra 'CERTO'. Da próxima vez que encontrar outra palavra com o mesmo erro, fica mais fácil de descobrir que 'S3T3' corresponde a 'SETE'. Seu objetivo é escrever um programa que, dado um conjunto de palavras com falhas, consiga produzir como saída as palavras corretas. Para corrigir as falhas, seu programa deve substituir um ou mais caracteres e imprimir as palavras correspondentes. As falhas que devem ser tratadas pelo seu programa são: a) Caractere '3' no lugar de 'E' b) Caractere '4' no lugar de 'A' c) Caractere '1' no lugar de 'I' d) Caractere '5' no lugar de 'S'",
+    "format_input": "Uma sequência de várias linhas, sendo que pode haver várias palavras em cada linha. O programa se encerra quando encontra uma linha contendo apenas a palavra 'FIM' ou 'SAIR'. Observe que até mesmo esta última linha pode conter as falhas e seu programa deve lidar com isso.",
+    "format_output": "Para cada linha da entrada o programa deve produzir a saída correspondente em letra maiúsculas e com as falhas corrigidas. A exceção é a última linha que indica o final, que não deve ser impressa.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "string"
+    ]
+}

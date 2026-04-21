@@ -1,0 +1,10 @@
+{
+    "title": "Palavras mais longas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um texto escrito em portugês, se deseja saber quais são as palavras mais longas. Considere que cada palavra é formada com letras do alfabeto portugês incluindo caracteres acentuados.",
+    "format_input": "Um texto escrito numa única linha.",
+    "format_output": "As palavras mais longas, todas numa única linha, separadas por um espaço, escritas tal qual aparecem no texto de entrada e obedecendo a ordem inversa de como aparecem no texto de entrada.",
+    "topics": [
+        "string"
+    ]
+}

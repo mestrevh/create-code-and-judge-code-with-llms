@@ -1,0 +1,13 @@
+{
+    "title": "Suprimento de Comida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "No planeta Alpha vive a criatura Blobs, que comem apenas metade do seu suprimento de comida disponível todo dia. Escrever um algoritmo que lê a capacidade inicial da oferta de alimentos (em Kg), e calcule quantos dias passarão antes de Blobs coma todo esse suprimento até sobre 1 kg ou menos.",
+    "format_input": "A primeira linha da entrada contém um inteiro N (1 ≤ N ≤ 1000), indicando o número de casos de teste. Cada caso de teste contém um único número de ponto flutuante X (1 ≤ X ≤ 1,000), indicando a quantidade de alimentos disponíveis para os Blobs.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo o número de dias que blobs vai demorar para comer toda a sua oferta de alimentos, até que sobre 1kg ou menos, seguidos da palavra \"dias\".",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

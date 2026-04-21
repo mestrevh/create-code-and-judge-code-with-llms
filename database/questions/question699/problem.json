@@ -1,0 +1,10 @@
+{
+    "title": "Vacinação Infantil",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Periodicamente as crianças brasileiras devem tomar vacinas que as protegem de diversas doenças. Escrever um programa para ler o ano em que a criança toma a 1ª dose e a periodicidade (intervalo em anos) da vacina e exibir em que outros anos a criança deve tomar as próximas doses desta vacina, sabendo que são 4 (quatro) doses ao total. A tabela abaixo traz exemplos de entrada e saída esperadas.",
+    "format_input": "O ano em que a criança toma a 1ª dose e a periodicidade (intervalo em anos) da vacina.",
+    "format_output": "Os anos em que a criança deve tomar as próximas doses desta vacina.",
+    "topics": [
+        "repetição"
+    ]
+}

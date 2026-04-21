@@ -1,0 +1,11 @@
+{
+    "title": "Fortaleza digital",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Inspirado no mundialmente famoso livro Fortaleza Digital, um professor de Ciência da Computação decidiu solicitar a seus alunos o desenvolvimento de um algoritmo capaz de decifrar um dado texto cifrado passado por ele. Para tal, o professor solicitou que seus alunos desenvolvessem um programa que receberia uma sequência de caracteres cifrados e exibiria as respectivas sequências decifradas. Um exemplo de texto cifrado seria: MNPMPSAARARER OCO'ADGAG1TEROB60 A A. A saída para esse texto seria: MARATONA DE PROGRAMACAO PROGBASE'16. Para este problema foram utilizados C = 36 caracteres no texto cifrado: MNPMPSAARARER OCO'ADGAG1TEROB60 A A. Para decifrar o texto, o professor orientou que os alunos organizassem o texto cifrado em uma matriz N x N, onde N = raiz_quadrada(C) (neste exemplo, deveria ser construída uma matriz 6 x 6). Para disposição dos caracteres, foi orientado que a matriz fosse preenchida linha a linha (o primeiro caractere ocupa a primeira coluna da primeira linha, o segundo caractere ocupa a segunda coluna da primeira linha, etc.). Ao final da linha, passa-se a linha subsequente. Exemplo: Para extrair o texto decifrado, lê-se a matriz coluna à coluna (todos os caracteres da primeira linha, todos da segunda linha e assim por diante).",
+    "format_input": "A entrada inicia com uma linha consistindo de apenas um número T, indicando o número de casos de testes informados. Cada caso de teste consiste de apenas uma linha. Esta linha descreve o texto cifrado que pode conter caracteres ASCII maiúsculos (sem ç e acentos), o caractere de espaço em branco e os caracteres '.' (ponto final), '?' (interrogação) e ''' (apóstrofo).",
+    "format_output": "Para cada caso de teste deverá ser apresentado o respectivo texto decifrado. Para o caso onde a sequência de entrada não atenda à restrição imposta, deverá ser impressa a palavra INVALIDO.",
+    "topics": [
+        "ad-hoc",
+        "array bidimensional"
+    ]
+}

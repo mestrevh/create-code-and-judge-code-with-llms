@@ -1,0 +1,10 @@
+{
+    "title": "L4Q3 - Matriz Inversa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Zé aluno do CIn está estudando matriz inversas para a álgebra linear. Para se certificar que aprendeu bem o procedimento, ele inverteu milhares de matrizes e pediu ajuda para seu amigo, você, para corrigir suas contas. Como você está ocupado com a lista de IP, resolve fazer um programa para automatizar a correção das questões e ajudar Zé. Tendo em mente que a multiplicação de uma matriz por sua inversa da a matriz identidade como visto na fórmula abaixo, B é a inversa de A: AB = I. Que a matriz identidade é da forma: Escreva um programa que dado o tamanho de uma matriz quadrada, a matriz e a inversa obtida por Zé imprima o resultado da multiplicação das matrizes e diga se Zé acertou ou errou suas contas.",
+    "format_input": "N - Onde N é um inteiro indicando o tamanho da matriz quadrada. [A] [B] - Duas matrizes onde cada elemento da matriz é um inteiro, separados por espaço e quebras de linhas ao fim de cada linha.",
+    "format_output": "[A] - A matriz que é o resultado da multiplicação das duas matrizes, com espaços separando os elementos da mesma linha e uma quebra de linha no último elemento de cada linha. Seguido por: R - string que diz se Zé acertou as contas ou não, sendo: \"Acertou\" - caso seja inversa, \"Errou\" - caso contrário.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

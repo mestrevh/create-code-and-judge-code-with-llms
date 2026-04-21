@@ -1,0 +1,13 @@
+{
+    "title": "L1Q10 - Qual assento?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Nossos alunos se encantaram tanto com o japão que esqueceram de comprar suas passagens de volta com antecedência e agora pode ser que não sentem juntos no avião. Os alunos 1 e 2 já compraram suas passagens, mas o 3 está na dúvida de qual lugar escolher dentre as últimas 2 opções disponíveis. Ele tem medo de avião e deseja ficar o mais próximo de um amigo o quanto possível, preferencialmente o que fez um curso de primeiro socorros. Sua tarefa é ajudá-lo a fazer essa escolha levando em consideração a distância entre as filas e, caso igual, o aluno que fez o curso de primeiros socorros. O modelo dos assentos do avião é o seguinte: Atenção: Você deve levar em consideração somente o primeiro caractere do assento, que se refere à linha.",
+    "format_input": "A entrada é composta por 5 linhas. As duas primeiras indicam os assentos dos alunos 1 e 2: String1 e String2. A linha seguinte indica qual aluno fez o curso de primeiros socorros: Aluno (int 1 ou 2). As duas próximas linhas indicam os assentos disponíveis para o aluno 3: String1 e String2.",
+    "format_output": "Caso a primeira opção de assento seja melhor, a saída deverá ser: A opcao 1 e a mais segura. Caso a segunda opção de assento seja melhor, a saída deverá ser: A opcao 2 e a mais segura. Caso ambas opções resultem numa mesma menor distancia do mesmo aluno, a saída deverá ser: Vou fechar os olhos e decidir.",
+    "topics": [
+        "multiplas entradas",
+        "decisão",
+        "string",
+        "ordenação"
+    ]
+}

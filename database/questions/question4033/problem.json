@@ -1,0 +1,11 @@
+{
+    "title": "As notas de cálculo I",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Chegando ao fim do semestre, o professor de cálculo I deseja extrair algumas informações das notas dos seus alunos. Como analisar todas as notas manualmente seria muito demorado e ele sabe que dá aula para diversos alunos de Engenharia da Computação, foi proposto o seguinte: o primeiro aluno que escrevesse um programa capaz de receber todas as notas e calcular a maior média da turma e sexo de quem tirou essa média, a média geral da turma, a quantidade de alunos aprovados por média, a quantidade de alunos que podem fazer o exame final, a quantidade de alunos reprovados direto (sem direito a final), a média das notas das mulheres e a média das notas dos homens receberá um ponto na média. OBS: média >= 7 (aprovado), média >= 3 (final), média < 3 (reprovado). OBS: Em caso de médias iguais como a maior média, o gênero exibido deve ser o do aluno digitado por último.",
+    "format_input": "Uma sequência de linhas contendo 3 números reais e uma letra no formato: “x x x a”. Onde os 3 números são as notas obtidas em cada prova e a letra ‘H’ significa homem e a letra ‘M’ significa mulher. Obs: Utilize EOF para finalizar a leitura de novas linhas.",
+    "format_output": "7 linhas contendo as informações pedidas no formato: A maior média da turma foi X e pertence a uma/um mulher/homem. A media geral foi de X. X alunos foram aprovados por media. X alunos podem fazer o exame final. X alunos foram reprovados. A media das mulheres foi de X A media dos homens foi de X OBS: Utilize apenas uma casa decimal de aproximação.",
+    "topics": [
+        "eof",
+        "repetição"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Aquele com a lista de desejos da Phoebe",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após seus 31 anos, Phoebe decidiu que precisava de uma forma melhor de organizar sua lista de desejos para cada idade. Sabendo que você é um ótimo programador, ela pediu para você escrever um programa que, dado os objetivos do ano e quais ela já completou, diga o que ela ainda precisa fazer.",
+    "format_input": "A entrada consiste de é composta por: Inteiro N (0 <= N < 10), que corresponde a quantidade de coisas que a Phoebe quer fazer. N strings, uma por linha, na qual cada uma corresponde a uma coisa a ser feita. Inteiro M (0 <= M < 10), que corresponde a quantidade de coisas que a Phoebe já fez. M strings, uma por linha, na qual cada uma corresponde a uma coisa já feita. Conhecendo a Phoebe, sabe-se que ela pode acabar tentando registrar coisas que não estavam na lista, neste caso, o registro é ignorado. É garantido que nunca haverão objetivos repetidos na lista do que Phoebe quer fazer.",
+    "format_output": "A saída deve seguir o formato, caso Phoebe não consiga atingir todos os objetivos: Ainda falta(m) K objetivo(s)! Seguido pelos K objetivos restantes, um por linha, na ordem em que aparecem na entrada. Caso Phoebe tenha completado todos os objetivos, a seguinte mensagem deve ser impressa: Smelly Cat, Smelly Cat, what are they feeding you?",
+    "topics": [
+        "array",
+        "busca"
+    ]
+}

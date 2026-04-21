@@ -1,0 +1,13 @@
+{
+    "title": "C mais ou menos 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ultimamente, diversas pessoas estão indo à Dra. Cláudia Café com Leite para saber se estão consumindo a quantidade recomendada diária de vitamina C. Isso a tem deixado exausta, e por isso ela lhe pediu para escrever um programa que, dado o consumo diário de alimentos ricos em vitamina C por uma pessoa, indique o quanto essa pessoa deve consumir a mais ou a menos para atingir o recomendado. Considere que o consumo diário recomendado de vitamina C está entre 110 mg e 130 mg, inclusive. Para tornar o programa flexível, a quantidade de vitamina C (em mg) contida em cada alimento deverá ser lida no início do programa e utilizada para analisar o consumo de todas as pessoas.",
+    "format_input": "A entrada se inicia com a leitura do nome do alimento (totalmente em caixa baixa e sem acentuações) e da quantidade (em mg) de vitamina C em uma mesma linha e separados por uma vírgula. A entrada dos alimentos termina quando for digitada uma linha contendo um asterisco (*). Em seguida, virão os casos de teste para avaliar o consumo diário de cada pessoa. Um caso de teste é composto um inteiro T (1 ≤ T ≤ 100) indicando que a pessoa consome diariamente T alimentos entre os alimentos informados. Em seguida, haverá T linhas com um inteiro N e um alimento (totalmente em caixa baixa e sem acentuações), indicando que a pessoa consome uma quantidade N daquele alimento. A entrada termina com T = 0.",
+    "format_output": "Para cada caso de teste (T), se o consumo ultrapassou o limite recomendado, imprima \"Menos X mg\", em que X representa a quantidade a menos a ser consumida para atingir o limite recomendado; se o consumo não atingiu o recomendado, imprima \"Mais X mg\", em que X representa a quantidade a mais para atingir o recomendado; se o consumo está dentro do intervalo recomendado, imprima \"X mg\", em que X representa a quantidade consumida diariamente pela pessoa.",
+    "topics": [
+        "decisão",
+        "entrada formatada",
+        "substrings",
+        "repetição"
+    ]
+}

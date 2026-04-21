@@ -1,0 +1,10 @@
+{
+    "title": "Enésima raiz",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Dado um número a real e um inteiro n, encontre o valor de b.",
+    "format_input": "A primeira linha terá um inteiro Q que indica a quantidade de consultas. Em seguida teremos Q linhas com dois valores a e n, onde x é um valor real e n é inteiro indicando o índice da raiz. Restrições: 1 <= Q <= 100.000; 0 <= a <= 100.000; 1 <= n <= 100. Dica: Você deve parar quando a sua resposta tiver uma precisão maior que 10^(-6) , ou seja, se a raiz de um número for 3.456789223546 você pode parar se encontrar 3.456789, independentemente do que vier depois do algarismo nove da sua resposta. Lembrando que a impressão deve ser apenas 3.4",
+    "format_output": "Para cada consulta imprima o valor de b com uma casa decimal.",
+    "topics": [
+        "dividir e conquistar"
+    ]
+}

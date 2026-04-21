@@ -1,0 +1,12 @@
+{
+    "title": "Anagramas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um anagrama de uma palavra é outra palavra formada com exatamente as mesmas letras. Assim, por exemplo \"amor\" é um anagrama de \"roma\" (e viceversa), pois ambas palavras contem as mesmas letras nas mesmas quantidades. Como outro exemplo, \"alice\" é um anagrama de \"celia\".Escreva um programa que, dado um sequência de palavras diferentes, encontre todos os conjuntos de anagramas existentes. Por simplicidade, assuma que todas as palavras usam o alfabeto Inglês (ou seja, sem acentos) e que todas as letras são minúsculas.",
+    "format_input": "1. O número total de palavras, em uma linha. Este número não ultrapassará 100000. 2. Todas as palavras, uma por linha. Qualquer palavra terá no máximo 20 caracteres.",
+    "format_output": "Os conjuntos de anagramas. Cada conjunto listado em uma única linha com seus elementos ordenados lexicograficamente. A ordem da listagem destes conjuntos segue a ordem lexicográfica da primeira palavra de cada conjunto.",
+    "topics": [
+        "requer solução eficiente",
+        "string",
+        "ordenação"
+    ]
+}

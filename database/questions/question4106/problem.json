@@ -1,0 +1,12 @@
+{
+    "title": "Calculando a série S",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcule os N termos da série S abaixo: S= 1+ 1/3 + 2 + 4/6 + 3 + 9/9 + 4 + 16/12 + 5 + 25/15… O seu programa deve apresentar na saída padrão tanto os termos da série quanto o valor da soma com precisão de 2 casas decimais. Se o usuário colocar 0 na entrada, deve ser exibida a mensagem \"Sem termos para somar\".",
+    "format_input": "Um valor N que representa a quantidade de termos da série.",
+    "format_output": "Os termos da série e o valor da soma com precisão de 2 casas decimais.",
+    "topics": [
+        "decisão",
+        "lógica matemática",
+        "repetição"
+    ]
+}

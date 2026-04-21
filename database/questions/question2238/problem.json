@@ -1,0 +1,8 @@
+{
+    "title": "01-Média e Situação do Aluno",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa em C, que receba duas notas de um aluno, informe a sua média final e a situação (Notas maiores ou igual a 7 APROVADO). Para este problema favor considerar as seguintes variáveis: N1, N2, MEDIA",
+    "format_input": "7.5 8.5",
+    "format_output": "MEDIA = 8.0 APROVADO",
+    "topics": []
+}

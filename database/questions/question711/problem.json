@@ -1,0 +1,10 @@
+{
+    "title": "Lista de divisores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa em Python para ler um número inteiro positivo e imprimir seus divisores em ordem crescente.",
+    "format_input": "30",
+    "format_output": "1\n2\n3\n5\n6\n10\n15\n30",
+    "topics": [
+        "lógica matemática"
+    ]
+}

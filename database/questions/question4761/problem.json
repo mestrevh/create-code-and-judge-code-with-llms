@@ -1,0 +1,11 @@
+{
+    "title": "Sequência de figuras",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Observe a sequência de figuras a seguir. Pense: Qual a configuração da figura 4? Existe uma quinta figura diferente das 4 anteriores? Joãozinho quer que você o ajude a escrever um programa que dado um número inteiro (n) que corresponda à posição de uma figura, apresente a configuração da figura. Por exemplo, se n for 3, significa que a figura resultante é a 3. Se n for 5, significa que a figura resultante é a figura 1.",
+    "format_input": "n, um número inteiro >= 1",
+    "format_output": "4 mensagens, se o n for válido, indicando a cor em cada uma das posições: esquerda superior, direita superior, esquerda inferior e direita inferior. Caso o n seja inválido, a mensagem: O numero informado eh menor que 1.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

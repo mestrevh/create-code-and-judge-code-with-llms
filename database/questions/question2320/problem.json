@@ -1,0 +1,11 @@
+{
+    "title": "L5Q2 - WildCats",
+    "time_limit": "3 segundo(s)",
+    "descrition": "É, finalmente, o início do ano escolar e todos os estudantes de East High estão muito animados! Um dos principais motivos é o time de Basquete do colégio, os Wildcats. Troy Bolton, o capitão do time, está determinado a dar seu melhor e garantir o sucesso do seu time, visando a grande vitória no campeonato anual. Para isso, ele decide que treinará seus arremessos todos os dias. Porém, por não ser muito bom em matemática, e com vergonha de pedir ajuda aos amigos dele, pede a sua ajuda para fazer um programa que calcule quantos arremessos ele deve fazer por treino. Para calcular tal resultado, Troy decidiu que iria realizar N arremessos que serão calculados pelo fatorial da quantidade de voltas que o técnico, também conhecido como pai dele, pediu que eles corressem antes do treino. Note que a quantidade de arremessos que Troy vai realizar pode ser muito grande. (Você deve usar recursão na solução da questão) Porém, existem duas exceções: Se o técnico mandar o time correr mais que 100 voltas somando todos os dias, uma linha extra deve ser impressa, contendo: \"WildCats, get the head in the game!\". Se o resultado da função for menor do que 50, Troy ficará irritado com você, imaginando que você quer sabotá-los no campeonato, e fará o dobro do seu resultado. OBS: Sua solução precisa, obrigatoriamente, utilizar recursão para calcular o fatorial.",
+    "format_input": "Várias linhas (até o fim do arquivo), que deverão ser lidas até o final da entrada, no formato: Y Sendo Y a quantidade de voltas que o time terá que correr.",
+    "format_output": "Uma linha para cada resultado, no formato: N Sendo N a quantidade de arremessos que Troy deve acertar Caso eles efetuem mais de 100 voltas na quadra, deverá ser impressa uma linha extra ao final do código, contendo: \"WildCats, get the head in the game!\".",
+    "topics": [
+        "repetição",
+        "recursão"
+    ]
+}

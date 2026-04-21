@@ -1,0 +1,12 @@
+{
+    "title": "Acessando notas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Existe um array de tamanho = 5 com as notas da monitoria de programação. É preciso declarar um ponteiro e fazê-lo apontar para este array. Em seguida, usando o ponteiro, deve-se imprimir o valor que está na posição tamanho/2.",
+    "format_input": "Inicialmente deve-se ler as 5 notas e depois é preciso mostrar na tela a nota[5/2] usando aritimética de ponteiros. entrada: 1 2 3 4 5",
+    "format_output": "3",
+    "topics": [
+        "Ponteiros",
+        "Aritmética de ponteiros",
+        "Arrays"
+    ]
+}

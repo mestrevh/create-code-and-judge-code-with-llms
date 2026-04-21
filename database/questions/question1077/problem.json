@@ -1,0 +1,10 @@
+{
+    "title": "Gêmeos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Imagine que você tem um irmão ou irmã gêmea. Ter uma outra pessoa que aparenta exatamente como você deve ser um pouco estranho. Mas se você é um gêmeo, então deve saber como é! :-) Num belo dia de manhã, a mãe de dois irmãos gêmeos acordou atrasadíssima e quase que esquece de deixar dinheiro para os gêmeos lancharem comidas orgânicas e saudáveis na escola. Ela meteu a mão na bolsa e pegou um punhado de moedas, colocou na mesa, mas não dividiu entre os dois. Ela deixou apenas um bilhete: \"Dividam igualmente\" Um dos gêmeos acordou primeiro, leu o bilhete e pensou: \"Vou ficar com a maior parte\". Mas depois achou que o seu irmão poderia desconfiar e ele iria se dar mal. Então decidiu fazer o seguinte: pegar a menor quantidade de moedas possível de tal forma que ele ainda tenha a uma soma de valores maior do que a do seu irmão.",
+    "format_input": "A primeira linha da entrada contém um inteiro n (1 <= n <= 1000000) indicando o número de moedas. A segunda linha contém uma sequência de n inteiros a1, a2, ... , an ( 1 <= ai <= 100) indicando os valores das moedas. Todos os números são separados por espaços.",
+    "format_output": "Uma única linha contendo o número mínimo de moedas que são necessárias.",
+    "topics": [
+        "algoritmo guloso"
+    ]
+}

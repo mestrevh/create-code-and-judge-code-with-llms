@@ -1,0 +1,12 @@
+{
+    "title": "Matrizes",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Isquesildo é um rapaz muito criativo e inventou um novo jogo para ensinar matemática aos seus filhos. Ele desenha em uma folha de papel um tabuleiro de dimensões N X M. Depois numera cada um das células do tabuleiro da esquerda para a direita, de cima para baixo, começando com o valor 1. Então ele pede ao seus filhos que executem as seguintes operações: Some todos os valores de todas as células do tabuleiro, chame esse valor de t; Some todos os valores da diagonal principal a partir da célula 1, incluindo a própria célula, chame esse valor de x; Some os valores da primeira e da última coluna do tabuleiro e chame-os de a e b, respectivamente; Some todos os valores da primeira e da última linha e chame-os de c e d, respectivamente; Faça um programa que calcule o resultado da expressão ( t - x + (a *b) - (c*d) ) / (N*M).",
+    "format_input": "A entrada consiste de 02 números inteiros n e m (n>=0, m>=0) representando, respectivamente, o número de linhas e colunas do tabuleiro. O usuário deve continuar digitando as entradas até que n=0 e m =0, finalizando as entradas.",
+    "format_output": "O programa deve exibir um número real, com 2 casas decimais, que é o resultado da expressão destacada na descrição, imprimindo na tela os valores abaixo: Insira o numero de linhas da matriz: Insira o numero de colunas da matriz: Valor da expressao: n.nn Insira o numero de linhas da matriz: Insira o numero de colunas da matriz: Valor da expressao: n.nn ...",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Cifra de César - Criptografia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Cifra de César Consiste em um sistema de criptografia rotacional, o qual depende de uma cifra - um número inteiro - e que é capaz de transformar um texto em outro através desta cifra. A codificação funciona da seguinte maneira: para cada caractere do texto que está sendo codificado, se ele for um caractere alfabético, ou seja estiver compreendido de 'A' até 'Z' e de 'a' ate 'z', deve transformar este caractere em um caractere que tem a posição alfabética relativa à soma da posição do caractere antigo mais a cifra. Por exemplo: Cifra = 1 \"A\" -> \"B\" \"B\" -> \"C\" \"J\" -> \"K\" \"Z\" -> \"A\" Perceba que o quando a cifra for 1, o novo caractere será o sucessor imediato, porém se a cifra for 2 ocorrerá da seguinte maneira: Cifra = 2 \"A\" -> \"C\" \"B\" -> \"D\" \"J\" -> \"L\" \"Z\" -> \"B\" Perceba também que este sistema é rotacional, ou seja, quando se chega ao último valor do alfabeto se retorna para o primeiro, então a posição relativa à Z + 1 será a mesma posição de A. Os caracteres que não forem alfabéticos, por exemplo, números, símbolos, etc, deverão ser simplesmente repetidos. Aqui está um exemplo do texto \"bom dia!\" sendo cifrado com cifra = 1. Para simplificar o nosso programa, imprima todas as letras em maiúsculo, sendo elas anteriormente maiúsculas ou não. b -> C o -> P m -> N \" \" -> \" \" d -> E i -> J a -> B ! -> ! \"bom dia!\" -> \"CPN EJB!\"",
+    "format_input": "Sua entrada consiste em uma string S e uma cifra C. É garantido que não há caracteres acentuados ou 'ç' em S, S consiste apenas de algarismos do alfabeto latino-americano não acentuados de [a-z] e de [A-Z], números e símbolos. -1000 => C <= 1000 0 > S <= 1000",
+    "format_output": "Imprima a string S, codificada em cifra de césar por C, com todos os caracteres que foram possíveis de cifrar em maiúsculo.",
+    "topics": [
+        "array",
+        "string"
+    ]
+}

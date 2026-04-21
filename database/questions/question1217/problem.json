@@ -1,0 +1,13 @@
+{
+    "title": "Shinobu's Saga II",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A grande vampira imortal Shinobu-san, também conhecida como Kiss-shot Acerola-orion Heart-under-blade, finalmente conseguiu decodificar as coordenadas informadas no bilhete encontrado previamente, graças à sua ajuda. Ela tratou de rapidamente se dirigir até o local indicado. Por lá ela encontrou uma carta, que está integralmente reproduzida a seguir: Transcrevemos a carta a seguir para facilitar: \"Carta à Shinobu-chan **************************************************************e**.m* *P*rg**se*ta** e**ta**ne**acsn**,o**m **ni*h** a*l*o**ac**ile*zm a*a **ac** or*a*t*u*a*l**e **a **R **auac* if** 8**od* i**ec*nd*t**oroc* *de*a**c d**di**da u*e** .*M*ai*su* **pa*r*e**ss**-e**esges*,n**t o**ne**et* c**hc*e e*guq*a*r* mo*ob**m **ia** s **are**ip**od* **op**ss*i*vu**leq **a **uq,na*i** ,hc*d-** o*c*ou**tn**ar**ir*ob* *s*e*r*ao* *tni*ahS*r*d ** eal*d**me**ia*s**..O** . Dicas: 1. Para decodificar essa carta, você deve interpretar a mensagem acima como uma árvore em notação pós-ordem e em seguida escrevê-la em notação em ordem, ignorando os caracteres '*'. 2. Utilize o seu conhecimento de estruturas de dados (lista, árvores binárias, pilhas) para decodificar a mensagem.\" Shinobu infelizmente não lembrava exatamente como realizar esse tipo de conversão, então pediu ajuda para você. Como várias cartas com diferentes informações foram encontradas, você deve criar um algoritmo que automatize o processo de decodificação. É importante saber que todos os nós filhos da árvore são obrigatoriamente caracteres *, assim como nós não-filhos nunca são *. Você consegue ajudar Shinobu a decodificar todas as cartas que ela encontrou?",
+    "format_input": "A entrada consiste de uma string representando a árvore em notação pós-ordem.",
+    "format_output": "Você deve imprimir tanto a mensagem decodificada quanto a árvore obtida através da string de entrada, conforme formatação a seguir: Mensagem decodificada: xxxxxxxxx Arvore construida: a  b   c    *    *   *  d   *   * Observe que você deve imprimir a árvore sempre visitando os nós da esquerda primeiramente. O nível do nó corresponde ao número de espaços que devem ser impressos antes do caractere. Convencionamos aqui que a raiz é o nível 0.",
+    "topics": [
+        "estrutura de dados",
+        "Árvore",
+        "pilha",
+        "string"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "L3Q4 - Seleção das casas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ao chegar em Hogwarts, e entrar pela primeira vez em seu iluminado Salão Principal, você encontra o temido chapéu seletor. Com as pernas tremendo, você decide conversar com seus amigos e adivinhar em qual casa eles vão entrar. Para isso, você fez perguntas a todos os outros alunos visando definir as suas características marcantes. Sabendo que pessoas com características marcantes de: coragem e determinação pertecem à Grifinória, astúcia e ambição à Sonserina, inteligência e força de vontade à Corvinal, lealdade e companheirismo à Lufa-lufa. Sua tarefa é, dado os nomes e sua característica mais marcante, fazer uma lista com os integrantes de cada casa, sabendo que o número máximo de alunos que entraram em Hogwarts nesse ano é 100.",
+    "format_input": "A primeira linha é dada por: N. Onde N é número de alunos entrevistados. Em seguida, N linhas: Nome Característica. Onde o nome e a característica são Strings. E as características podem ser {coragem, determinacao, astucia, ambicao, inteligencia, forca de vontade, lealdade, companheirismo}",
+    "format_output": "Grifinoria: G1 ... Gn. G - string, representando os nomes dos alunos da lista de Grifinória, na ordem que a entrevista foi feita. Sonserina: S1 ... Sn. S - string, representando os nomes dos alunos da lista de Sonserina, na ordem que a entrevista foi feita. Corvinal: C1 ... Cn. C - string, representando os nomes dos alunos da lista de Corvinal, na ordem que a entrevista foi feita. Lufa-lufa: L1 ... Ln. L - string, representando os nomes dos alunos da lista de Lufa-lufa, na ordem que a entrevista foi feita.",
+    "topics": [
+        "array"
+    ]
+}

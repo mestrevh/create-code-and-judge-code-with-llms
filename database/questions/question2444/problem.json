@@ -1,0 +1,10 @@
+{
+    "title": "L2Q1 - A luta de Tarzan",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Enquanto Tarzan estava descansando no altos das árvores, ele ouviu um barulho de passos no meio do mato. Desconfiado, ele quer saber quem está ali. Com a descoberta de ser um invasor em sua floresta, Tarzan cai do topo de sua árvore, e a única alternativa restante é lutar para se defender. Seu objetivo é escrever um programa que, recebendo a vida de seu inimigo, a estamina de Tarzan para sua luta e qual o tipo de arma utilizada, podendo ser \"pedra\" ou \"graveto\" (a pedra tira 15 pontos da vida do inimigo e 13 da estamina de Tarzan, o graveto tira 10 pontos da vida do inimigo e 8 da estamina de Tarzan. Se ele não tiver uma arma, Tarzan não conseguirá lutar), informe se Tarzan se saiu vitorioso em sua batalha ou não.",
+    "format_input": "A entrada é composta por 3 linhas, onde a primeira é a vida de seu oponente: V. V - número inteiro. A segunda linha é a estamina de Tarzan: E. E - número inteiro. A terceira linha é o tipo de arma que o Tarzan usará: A. A - string.",
+    "format_output": "Caso Tarzan ganhe sua batalha e zere a vida de seu oponente, a seguinte frase deve ser impressa: \"Tarzan venceu o invasor e o expulsou de sua floresta\". Caso Tarzan perca sua batalha e tenha sua estamina zerada, em qualquer ocasião, deve ser impressa a seguinte frase: \"Tarzan nao foi capaz de derrotar o invasor... Ele foi capturado\". Caso Tarzan não tenha nenhuma arma para lutar, a seguinte frase deve ser impressa: \"Tarzan nao consegue lutar sem armas... Ele foi capturado\"",
+    "topics": [
+        "repetição"
+    ]
+}

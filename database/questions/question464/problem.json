@@ -1,0 +1,13 @@
+{
+    "title": "Natal Solidário",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Neste Natal, a ONG Ajuda Mais vai realizar um almoço para moradores de rua e está precisando de doações. Sabendo que cada refeição custa R$ 14, escreva um programa que receba como entrada a quantidade de familiares de vários moradores de rua, até que não haja mais nenhum, e exiba a quantidade total de pessoas atendidas e o orçamento da festa.",
+    "format_input": "Valores inteiros representando a quantidade de familiares de cada morador. Após cada entrada, o usuário informará também se deseja continuar informando valores ou não. Quando desejar parar, ele informará a palavra SAIR escrita de qualquer maneira",
+    "format_output": "Um valor inteiro, e depois um valor real com duas casas decimais",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "repetição",
+        "string"
+    ]
+}

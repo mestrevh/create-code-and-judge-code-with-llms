@@ -1,0 +1,11 @@
+{
+    "title": "A Saga do Protagonista: Parte 1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Com um nome muito criativo, o Protagonista está em seu primeiro episódio de sua incrível saga! Em uma tarde qualquer Z, o melhor amigo do Protagonista, desafiou o mesmo para um desafio super divertido. Z escreve dois números inteiros A e B em um quadro branco e pergunta se o Protagonista pode fazer com que os dois inteiros se tornem iguais usando o número mínimo de movimentos. Em um movimento, o Protagonista pode fazer uma das seguintes ações: 1- Escolher um dos números e adicionar 3 a ele (x = x + 3). 2- Escolher um dos números e adicionar 2 a ele (x = x + 2). Sabendo disso, como o Protagonista sabe que você é muito bom ele pediu para que você ajudasse ele nessa missão e o dissesse qual a quantidade minima de movimentos que ele precisa para fazer com que os dois números se tornem iguais.",
+    "format_input": "Você recebe dois inteiros (1 <= A, B <= 10^5).",
+    "format_output": "Deve ser impresso um único inteiro N, equivalente a quantidade minima de movimentos que o Protagonista precisa para fazer.",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

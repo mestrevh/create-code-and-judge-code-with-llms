@@ -1,0 +1,11 @@
+{
+    "title": "Xadrez de Ambrolândia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O xadrez jogado em Ambrolândia é um pouco diferente, o jogo tem apenas uma peça e um movimento: escolher o melhor lugar para colocar sua rainha. Funciona da seguinte forma: Dado um tabuleiro quadrado, são colocados obstáculos em casas aleatórias e sua pontuação é calculada com base na quantidade de movimentos que sua rainha pode fazer na casa que você escolher. A rainha pode se mover em todas as direções mas é impedida pelos obstáculos. Ambrósio quer sua ajuda para fazer um programa que calcule a melhor jogada que pode ser feita, para nunca mais perder uma partida.",
+    "format_input": "Um inteiro N representando o tabuleiro NxN. Seguem N linhas contendo N inteiros que podem ser 1, representando um obstáculo ou 0, uma casa livre.",
+    "format_output": "Um inteiro representando a pontuação da melhor jogada possível.",
+    "topics": [
+        "repetição",
+        "array bidimensional"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Maior, menor ou igual",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados dois números inteiros A e B, exibir: - 'A eh maior', se A for maior do que B; - 'B eh maior', se B for maior do que A; - 'iguais', se os números forem iguais.",
+    "format_input": "Na primeira linha o número inteiro correspondente ao A; na segunda linha o número inteiro correspondente ao B.",
+    "format_output": "A frase 'A eh maior' (sem aspas) ou 'B eh maior' (sem aspas) ou 'iguais' (sem aspas), de acordo com o caso.",
+    "topics": [
+        "decisão"
+    ]
+}

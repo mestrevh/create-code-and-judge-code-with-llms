@@ -1,0 +1,11 @@
+{
+    "title": "Cadeiras na coluna",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você é responsável por arrumar as cadeiras de um auditório. Com isso, usando suas habilidades em programação, você resolveu desenvolver um programa para te mostrar os números das cadeiras da coluna. Por exemplo, se o total de cadeiras é 12, e a quantidade de cadeiras por linha é 4, as cadeiras da coluna 2 serão: 2, 6, 10.",
+    "format_input": "Você vai receber três inteiros, que correspondem ao total de cadeiras, a quantidade de cadeiras por linha e o número da coluna a ser impressa.",
+    "format_output": "Os números das respectivas cadeiras na coluna, um número em cada linha.",
+    "topics": [
+        "decisão",
+        "recursão"
+    ]
+}

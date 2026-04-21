@@ -1,0 +1,10 @@
+{
+    "title": "Letra Maiuscula",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um professor de Português estava corrigindo resumos de textos que seus alunos fizeram, porém, encontrou uma falha grave em todos os textos. No início das frases e após os pontos finais, a primeira letra estava escrita em letra minúscula. Ao questionar seus alunos, descobriu que era um erro do editor de texto que todos usaram. Como ele é muito seu amigo, e você ficou sabendo desse problema que ele enfrentava então se ofecereu para criar um algoritmo para corrigir esse erro. Crie um programa que troque os caracteres de inicio de frase e após ponto final em minúsculo para maiúsculo.",
+    "format_input": "Você receberá um inteiro, indicando quantas linha terá o texto, e o texto, em forma de array de caracteres bidimensional.",
+    "format_output": "O texto, na mesma ordem que veio na entrada, corrigido de acordo com a regra de letra maiúscula no inicio de frase e após ponto final. Com uma quebra de linha ao fim.",
+    "topics": [
+        "string"
+    ]
+}

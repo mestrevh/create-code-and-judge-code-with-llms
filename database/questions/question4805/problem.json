@@ -1,0 +1,14 @@
+{
+    "title": "Missão Crítica: Binário",
+    "time_limit": "2 segundo(s)",
+    "descrition": "[ Frequência 140.85 — Conexão Estabelecida ] Campbell: Snake, aqui é o coronel. Nossas equipes Alpha, Bravo, Charlie e Delta estão enviando mensagens codificadas em binário para manter a comunicação segura. Naomi: Cada caractere está escondido em 7 bits ASCII. Mas cuidado, Snake: se a mensagem cair em mãos erradas, pode comprometer toda a operação. Você precisa decodificar a transmissão e confirmar que a equipe recebeu a mensagem. O futuro da missão depende disso. Snake: Entendido! Sua missão é criar um programa capaz de decodificar as mensagens e confirmar qual equipe foi a destinatária. Qualquer falha pode comprometer toda a operação! Segue abaixo uma tabela ASCII como guia:",
+    "format_input": "A primeira linha contém uma letra maiúscula (A, B, C ou D), indicando a equipe que recebeu a mensagem (A = Alpha, B = Bravo, C = Charlie, D = Delta). A segunda linha contém um número N (1 <= N <= 100), o qual indica a quantidade de letras da mensagem. As demais N linhas contêm 7 números inteiros separados por espaços, ou seja, 7 x N números. Cada número representa um bit e pode ser 0 ou 1. Os bits chegam na ordem do mais significativo (MSB) para o menos significativo (LSB).",
+    "format_output": "Para cada caractere decodificado, imprimir uma linha no formato: 'Letra decodificada: X', onde X é o caractere correspondente ao número binário na Tabela ASCII. Ao final, deve-se imprimir uma mensagem indicando a equipe que recebeu o texto, no formato: 'Equipe Alpha recebeu a mensagem!' (ou Bravo, Charlie, Delta, conforme o caso).",
+    "topics": [
+        "números binários",
+        "multiplas entradas",
+        "decisão",
+        "caractere",
+        "recursão"
+    ]
+}

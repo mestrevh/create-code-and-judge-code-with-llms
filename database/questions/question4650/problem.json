@@ -1,0 +1,10 @@
+{
+    "title": "Q12 - Manipulando Verbos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A professora de português do 1º Ano de Informática passou uma atividade na qual os aluno deveriam verificar algumas palavras e verem se elas estão no infinitivo, e, caso estejam mostrar sua forma no gerúndio. O professor de algoritmos aproveitou, e pediu para os alunos fazerem, também, um programa que faça isso. Faça um programa que leia algumas palavras, diga quantas estão no infinitivo e mostre suas formas no gerúndio. (Palavra no infinitivo -> terminadas em \"ar\", \"er\", \"ir\" ou \"or\") (Para transformar um verbo do infinitivo para o gerúndio, retire o \"r\" e inclua o \"ndo\". Ex.: rir -> rindo, morrer -> morrendo)",
+    "format_input": "Várias palavras separadas por vírgulas",
+    "format_output": "A quantidade de palavras no infinitivo e suas respectivas formas no gerúndio, uma abaixo da outra.",
+    "topics": [
+        "string"
+    ]
+}

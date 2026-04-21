@@ -1,0 +1,12 @@
+{
+    "title": "Cifra de Bonxai",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Bonxai está preocupado desde que escapou da forca, e agora precisa se comunicar através de mensagens criptografadas. Entretanto, ele só conhece a Cifra de Júlio César, que usará para codificar suas mensagens.",
+    "format_input": "N -> Tamanho do vetor de caracteres N caracteres (Todos minúsculos e sem espaço) X -> Deslocamento",
+    "format_output": "O vetor de caracteres codificado.",
+    "topics": [
+        "array",
+        "ciclos",
+        "caractere"
+    ]
+}

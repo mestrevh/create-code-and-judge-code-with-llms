@@ -1,0 +1,10 @@
+{
+    "title": "Impressão de ímpares",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um número natural n (n > 1), exiba os n primeiros números ímpares.",
+    "format_input": "5",
+    "format_output": "1 3 5 7 9",
+    "topics": [
+        "decisão"
+    ]
+}

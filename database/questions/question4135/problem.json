@@ -1,0 +1,13 @@
+{
+    "title": "Lulu e o xadrez",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lulu é um prodígio do xadrez brasileiro, ela gosta muito de estudar partidas clássicas para melhorar seu jogo, seu professor Tio Willy costuma passar para ela uma posição e pede para que ela faça a analise de qual jogador está melhor, entre as formas de analisar uma partida uma delas é a analise de material que consiste em ver qual jogador tem as melhores peças no tabuleiro. Tio Wiilly é muito ocupado e Lulu resolve problemas mais rápido do que ele consegue conferir então ele pediu sua ajuda para criar um programa que dado a posição no tabuleiro determine qual jogador está melhor depois da analise material. Para fazer a analise cada peça tem uma pontuação diferente sendo: - Peão: 1 ponto - Bispo: 3 pontos - Cavalo: 3 Pontos - Torre: 8 pontos - Dama: 9 Pontos - Rei: 0 pontos Para representar as peças usaremos a notação em português, então: - Peão: p - Bispo: b - Cavalo: c - Torre: t - Dama: d - Rei: r para casas vazias, ou seja, que não tem nenhuma peça, usaremos o caractere 'L' Para representar a cor das peças usaremos a inicial da cor, ou seja, 'b' para as brancas e 'p' para as pretas, para o caso da casa estar sem peças também usaremos o caractere 'L' Está melhor na posição aquele que tem a maior soma.",
+    "format_input": "Você receberá um tabuleiro 8 x 8 onde cada casa será representada por dois caracteres um representando a peça outro representando a cor da peça (quando não houver nenhuma peça usaremos LL)",
+    "format_output": "Como Tio Willy não quer influenciar Lulu de quem deve estar vencendo ele ocultou o nome dos jogadores, então você deve mostrar apenas a cor das peças que estão vencendo depois da analise material.",
+    "topics": [
+        "ad-hoc",
+        "acumulador",
+        "array bidimensional",
+        "string"
+    ]
+}

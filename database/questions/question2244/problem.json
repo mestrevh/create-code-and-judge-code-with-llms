@@ -1,0 +1,10 @@
+{
+    "title": "L2Q3 - Sorteio",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pepeu estava muito animado com o show que aconteceria no Dia CIn. Como se um baile funk já não fosse suficiente, ele ainda decidiu sortear um prêmio entre aqueles que vieram para o evento. Ele pensou num método diferente para fazer o sorteio: cada ingresso era numerado de 1 até um determinado número X (1 < X < 1000) e o vencedor seria escolhido de uma forma bem simples: Se o número de ordem que a pessoa chegou na festa for igual ao número do seu ingresso, ela seria a sorteada. Sua tarefa é fazer um programa que descubra quem é o ganhador. É garantido que sempre haverá um ganhador único.",
+    "format_input": "N - Número natural indicando o número de ingressos. I - Número natural, N linhas contendo o número do ingresso.",
+    "format_output": "U - string contendo o número do bilhete vencedor",
+    "topics": [
+        "repetição"
+    ]
+}

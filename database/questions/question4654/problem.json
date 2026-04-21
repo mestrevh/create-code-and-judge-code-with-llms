@@ -1,0 +1,11 @@
+{
+    "title": "Q09 - Números Invasores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mateus é uma pessoa que gosta muito de números. Dessa maneira, ele ama escrever as coisas trocando as letras parecidas com os números por esses números... Assim, uma frase \"Algoritmos eh muito bom\" seria escrito por Mateus assim: \"4lg0r1tm0s 3h mu1t0 b0m\" Mas como essa maneira de escrever não respeita a gramática, você deve converter as frases que Mateus escreve para a forma correta. Use essa tabela para auxiliar: 0 equivale a \"o\" 1 equivale a \"i\" 3 equivale a \"e\" 4 equivale a \"a\" 5 equivale a \"s\"",
+    "format_input": "Uma frase bagunçada por Mateus que você dever converter",
+    "format_output": "A frase corrigida para respeitar a gramática",
+    "topics": [
+        "string",
+        "busca"
+    ]
+}

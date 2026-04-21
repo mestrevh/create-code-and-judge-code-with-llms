@@ -1,0 +1,10 @@
+{
+    "title": "PIT03 - Ordem Inversa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Faça um programa que leia dois números inteiros e depois imprima na ordem inversa em que eles foram lidos",
+    "format_input": "1 2",
+    "format_output": "2 1",
+    "topics": [
+        "lógica matemática"
+    ]
+}

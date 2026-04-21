@@ -1,0 +1,10 @@
+{
+    "title": "Latas de Tinta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Construa um programa que calcule a quantidade de latas de tinta necessárias e o custo para pintar tanques cilíndricos de combustível, onde são fornecidos a altura e o raio desse cilindro. Sabendo que: - a lata de tinta custa R$20,00 - cada lata contém 5 litros - cada litro de tinta pinta 3 metros quadrados. e que raio e altura são dados de entrada.",
+    "format_input": "Altura Raio",
+    "format_output": "Quantidade de latas de tinta Custo total",
+    "topics": [
+        "lógica matemática"
+    ]
+}

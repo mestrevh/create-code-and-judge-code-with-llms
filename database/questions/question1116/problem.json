@@ -1,0 +1,10 @@
+{
+    "title": "Data por extenso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dados três inteiros d, m e a representando, respectivamente, o dia, mês e ano de uma data, queremos a escrever a data por extenso. Assim, por exemplo, para os números 4, 5 e 2018 a data por extenso é \"quatro de maio de dois mil e dezoito\". Escreva um programa para este propósito. Datas inválidas deverão ser rejeitadas escrevendo \"data invalida\" (sem acentos). As datas começam em 1/1/1900 e terminam em 31/12/2100, inclusive.",
+    "format_input": "Três inteiros d, m e a que representam o dia, mes e ano, respectivamente.",
+    "format_output": "A data por extenso",
+    "topics": [
+        "datas/horas"
+    ]
+}

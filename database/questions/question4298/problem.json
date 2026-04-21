@@ -1,0 +1,11 @@
+{
+    "title": "Horários de trem",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Uma linha de trem tem duas estações, A e B. Os trens podem fazer viagens de A para B ou de B para A várias vezes durante o dia. Quando um trem chega em B de A (ou chega em A de B), ele precisa de um certo tempo antes de estar pronto para fazer a viagem de volta - este é o tempo de retorno. Por exemplo, se um trem chega às 12h e o tempo de retorno é 0 minutos, ele pode sair imediatamente, às 12h. Um horário de trem especifica o horário de partida e chegada de todas as viagens entre A e B. A companhia ferroviária precisa saber quantos trens devem começar o dia em A e B para fazer o horário funcionar: sempre que um trem deve sair de A ou B, deve haver realmente um pronto para ir. Existem seções de passagem na pista, então os trens não chegam necessariamente na mesma ordem em que partem. Os trens não podem viajar em viagens que não constem da programação.",
+    "format_input": "A primeira linha de entrada fornece o número de casos, N. N casos de teste a seguir. Cada caso contém um número de linhas. A primeira linha é o tempo de resposta, T, em minutos. A próxima linha tem dois números, NA e NB. NA é o número de viagens de A para B e NB é o número de viagens de B para A. Depois, há as linhas NA que fornecem os detalhes das viagens de A para B. Cada linha contém dois campos, fornecendo o horário HH:MM de partida e chegada para aquela viagem. O horário de partida de cada viagem será anterior ao horário de chegada. Todas as chegadas e partidas ocorrem no mesmo dia. As viagens podem aparecer em qualquer ordem - elas não são necessariamente classificadas por tempo. Os valores de hora e minuto são dois dígitos, preenchidos com zeros e estão em um relógio de 24 horas (00:00 até 23:59). Após estas linhas NA, existem linhas NB que indicam os horários de partida e chegada para as viagens de B para A.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo \"Case #x: \" seguido pelo número de trens que devem começar em A e o número de trens que devem começar em B.",
+    "topics": [
+        "datas/horas",
+        "ordenação"
+    ]
+}

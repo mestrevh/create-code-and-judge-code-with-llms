@@ -1,0 +1,11 @@
+{
+    "title": "Lucro no produto Octave - T1",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um comerciante comprou um produto e quer vendê-lo com um lucro de 45% se o valor da compra for menor que R$ 20,00; caso contrário, o lucro será de 30%. Elabore um programa que leia o valor do produto e imprima o valor de venda para o produto.",
+    "format_input": "O usuario deve digitar o valor de compra do produto",
+    "format_output": "O programa deve exibir o o valor pelo qual o produto deve ser vendido, imprimindo na tela os valores abaixo: Digite o valor de compra do produto: (impresso pela funcao input) O produto deve ser vendido a R$ n",
+    "topics": [
+        "decisão",
+        "lógica matemática"
+    ]
+}

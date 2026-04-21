@@ -1,0 +1,14 @@
+{
+    "title": "Gol contra no Fantástico",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Existe uma brincadeira nos gols do fantástico, quando era apresentado por Tadeu, que era colocar o nome de uma pessoa que fez um gol contra na ordem inversa, ou seja, do fim para o início. Um exemplo dessa brincadeira é que o próprio TADEU fizesse esse gol contra deveria ser impresso na tela Uedat. Vamos ampliar a brincadeira. Caso o gol seja contra deve ser escrito na tela em ordem inversa, caso seja um gol no adversário o nome deve ser escrito normal, caso o gol (a favor) seja um golaço, deve mostrar o nome dele com 5x a última letra impressa. Faça esse programa para o Tadeu, leia na seguinte ordem: Onde foi o gol (\"c\" para contra e \"a\" para gol no adversário) Tipo de gol (\"0\" para gol normal e \"1\" para golaço) Nome do Jogador (pode ser composto e escrito de qualquer forma) Por exemplo: Quando a entrada for: c 0 Marcos A saída deve ser: Socram Obs: Esse programa deve ser feito com 2 funções, uma chamada tratramento que receberá 3 parâmetros (o local o tipo e o jogador), a segunda deve chamar inverter e deve receber 1 parâmetro (o nome do jogador para inverter).",
+    "format_input": "onde foi o gol, seguido pelo tipo de gol, seguido pelo nome do jogador que fez o gol.",
+    "format_output": "O nome do jogador que fez o gol no formado indicado pelo tipo e local do gol.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "função",
+        "string"
+    ]
+}

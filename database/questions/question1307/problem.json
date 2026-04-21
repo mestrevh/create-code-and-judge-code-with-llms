@@ -1,0 +1,13 @@
+{
+    "title": "Labirinto quebrado",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um programador está desenvolvendo um jogo que se passa num labirinto, porém, o seu gerador de labirintos parece estar com algum problema, e por isso, alguns labirintos estão sem solução. Ele precisa separar os labirintos impossíveis, e para isso ele pediu a sua ajuda. Dado um labirinto N x M descubra se é possível resolvê-lo ou não. (Observação: O objetivo do labirinto é chegar no canto inferior direito, partindo do canto superior esquerdo; e você só pode se mover para cima, baixo, esquerda ou direita)",
+    "format_input": "A primeira linha do caso de teste é composta de dois inteiros N e M, representando a quantidade de linhas e a quantidade de colunas respectivamente. As N linhas seguintes são compostas de M caracteres '.' ou '#', representando um caminho livre e uma parede, respectivamente.",
+    "format_output": "A saída deve conter \"Yes\", se o labirinto tiver solução ou \"No\", se o labirinto não tiver solução.",
+    "topics": [
+        "simulação de jogos",
+        "array bidimensional",
+        "backtracking",
+        "recursão"
+    ]
+}

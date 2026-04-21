@@ -1,0 +1,15 @@
+{
+    "title": "Letra na Frase",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Crie um programa que leia um texto e depois leia um caractere. O objetivo do programa é fazer a contagem de quantas vezes a letra se repete no texto. Após isso, imprima a quantidade de vezes que a letra se repete e a porcentagem que aquela letra representa em relação a quantidade total de letras. DICA: Utilize a biblioteca string.h e ctype.h.",
+    "format_input": "Uma string de até 200 caracteres. Uma letra (caractere). Ex.: Vou almocar agora a",
+    "format_output": "A quantidade total de vezes que a letra se repete. A porcentagem que representa a letra escolhida em relação ao número total de letras, com duas casas decimais de precisão. Ex.: 4 26.67%",
+    "topics": [
+        "ponto flutuante",
+        "decisão",
+        "ciclos",
+        "caractere",
+        "string",
+        "busca"
+    ]
+}

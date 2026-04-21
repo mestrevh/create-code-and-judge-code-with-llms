@@ -1,0 +1,13 @@
+{
+    "title": "Teste",
+    "time_limit": "1 segundo(s)",
+    "descrition": "sdfdsdfsdfsdfds sdf sdfsd fsdf dsfsd fsdf sddsfdf sd sdf dsf sdf sdf sd",
+    "format_input": "fsdfsdfsdfsdfsd",
+    "format_output": "sdfsdfsdfsd",
+    "topics": [
+        "obi",
+        "grafo bipartido",
+        "alocação dinâmica",
+        "deque"
+    ]
+}

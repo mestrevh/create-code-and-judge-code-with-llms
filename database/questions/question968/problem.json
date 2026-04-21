@@ -1,0 +1,13 @@
+{
+    "title": "Da raiz até uma folha",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado uma árvore binária, verifique se tem pelo menos um caminho que saindo da raiz até uma folha que a soma seja exatamente S. Cada nó tem três informações, o valor do nó, o filho a esquerda e o filho a direita. Sempre iniciamos no nó 0.",
+    "format_input": "A entrada consiste em um número N, seguido de N linhas, cada linha Ni contém 3 inteiros, o valor do nó, o filho da esquerda e o filho da direita do i-ésimo nó. Após receberá um valor que indica a soma requisitada. - Caso o nó não possua em um ramo filho esse inteiro será -1.",
+    "format_output": "Imprima \"SIM\" se existir a soma, caso contrário imprima \"NAO\".",
+    "topics": [
+        "árvore binária",
+        "estruturas de dados",
+        "recursão",
+        "soma de caminhos"
+    ]
+}

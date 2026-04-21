@@ -1,0 +1,10 @@
+{
+    "title": "A different tree",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Pensando em novas alterações para o projeto final dos próximos períodos, o professor Márcio decidiu alterar a forma como a árvore de Huffman é salva no arquivo. Ajude-o a implementar o novo algoritmo que gera a representação da árvore de Huffman, substituindo a impressão em pre-order por in order, realizando também a impressão da codificação dos caracteres. Ao implementar fila de prioridade, utilize uma lista. Se houver caracteres com a mesma frequência considere os valores da tabela ascii, caracteres de menor valor tem maior prioridade. A string lida não possui o caractere '*'.",
+    "format_input": "Uma string com até 256 caracteres.",
+    "format_output": "Na primeira linha a palavra Tree seguida por '\\t'-'\\t' e a árvore printada em in order. Em seguida, nas N próximas linhas os i-ésimos caracteres contidos na string impressos pela ordem da tabela ASCII seguida por '\\t'-'\\t' e a codificação dos mesmos segundo a árvore de Huffman.",
+    "topics": [
+        "estrutura de dados"
+    ]
+}

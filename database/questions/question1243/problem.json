@@ -1,0 +1,12 @@
+{
+    "title": "A conjectura de Serra",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após sua aula de matemática discreta, um jovem estudante do CIn, cujo sobrenome é Serra e o nome todos desconhecem, refletindo sobre a fatoração prima dos números inteiros positivos, resolveu analisar o que aconteceria se dado um número natural X com fatoração prima Πp𝑖^𝛼𝑖 (i de 1 até 𝑁, onde N é o número de fatores primos de X), ele computasse a soma S dos seus fatores multiplicados pelos seus respectivos expoentes, ou seja, S = Σα𝑖.p𝑖 (i de 1 até 𝑁). Ele em seu rascunho computou vários exemplos: .Com X = 210 = 2.3.5.7, ele chegou no resultado S = 2+3+5+7 = 17 .Com X = 200 = 2^3.5^2, ele chegou no resultado S = 3.2 + 2.5 = 16. Ele notou também uma propriedade interessante dos números primos, pois é trivial verificar que S = X dado X primo. Além dos primos, Serra só encontrou mais um número com essa propriedade, o número 4. Diante disso, Serra conjecturou que dado X > 4, X = S se e somente se X é primo. Sua tarefa é ajudar Serra a verificar a conjectura.",
+    "format_input": "Você receberá vários números inteiros 1 < X < 1000000000, que devem ser lidos até o numero 0 ser informado.",
+    "format_output": "A sua resposta deve conter varias linhas contendo apenas os respectivos números S em cada uma delas.",
+    "topics": [
+        "repetição",
+        "requer solução eficiente",
+        "números primos"
+    ]
+}

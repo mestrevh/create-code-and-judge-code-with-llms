@@ -1,0 +1,10 @@
+{
+    "title": "Idade em anos e meses",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Elabore um programa que calcule idade. O programa receberá como entrada a data de nascimento e a data atual e calculará a idade em anos e meses completos.",
+    "format_input": "Na primeira linha será ingressada a data de nascimento, três inteiros separados por branco correspondentes ao dia, mes e ano. Similarmente, na segunda linha, será ingressada a data autal. Suponha que sempre a data de nascimento é anterior ou igual à data atual.",
+    "format_output": "A idade em anos e meses completos tal como aparece nos exemplos.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

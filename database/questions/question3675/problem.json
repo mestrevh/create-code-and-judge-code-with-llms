@@ -1,0 +1,11 @@
+{
+    "title": "Fibonacci invertido",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A série de Fibonacci é construida da seguinte forma: 0 e 1 são os dois primeiros números de Fibonacci; Cada um dos seguintes números na série é calculado somando os dois imediatamente anteriores. Assim, por exemplo, os 10 primeiros números da série são: 0 1 1 2 3 5 8 13 21 34. Imprima os n números de Fibonacci na ordem inversa. Restrição: a solução deve definir ao menos uma função recursiva.",
+    "format_input": "Um inteiro positivo n.",
+    "format_output": "Os n primeiros números de Fibonacci impressos na ordem inversa. Cada número é separado por um espaço em branco.",
+    "topics": [
+        "array",
+        "recursão"
+    ]
+}

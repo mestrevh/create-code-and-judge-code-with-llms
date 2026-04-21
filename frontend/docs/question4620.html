@@ -1,0 +1,197 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 4620 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4620</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Um simples jogo de tabuleiro.</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p></p><p>Humberto chega para seus amigos Tenório, Davi e Vitor <span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">com um novo jogo de tabuleiro.</span><span> Este jogo tem uma característica única: sempre que é retirado da caixa o tabuleiro muda o número e a ordem de suas casas, criando uma infinidade de possibilidades. Uma coisa é certa: o número de casas é sempre um número primo, e algumas delas possuem efeitos especiais.</span></p><p><strong>Efeitos das casas especiais:</strong></p><ul><li>Casa 1: +10 pontos.</li><li>Casa 2: +15 pontos.</li><li>Casa 5: -5 pontos.</li><li>Casa 7: Soma o valor do dado ao jogador.</li><li>Casa 9: -20 pontos.</li></ul><p><strong>Regras do jogo:</strong></p><ul><li>O tabuleiro é representado por um array de tamanho <span class="katex"><span class="katex-mathml"><b>N</b></span></span>, onde <span class="katex"><span class="katex-mathml"><b>N</b></span></span> é sempre um número primo.</li><li>As casas não estão ordenadas e podem conter números repetidos ou ausentes.<br/>Exemplo de tabuleiro:<br/><b>4 1 3 7 9 2 1 0 6 9 5 6 7</b> <br/></li><li>O tabuleiro é cíclico: após a última casa, os jogadores voltam para a primeira.</li><li>Todos os jogadores começam na casa de número &#34;0&#34;(array[0]).</li><li>Não existe pontos negativos.</li><li>A ordem de jogo é a seguinte:<ol><li>Tenório.</li><li>Davi.</li><li>Vitor.</li><li>Humberto.</li></ol></li></ul><p>Agora, eles estão prontos para testar o jogo e descobrir quem será o vencedor!</p><div><span></span></div><p></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p></p><p>A entrada do programa será composta pelos seguintes elementos:</p><ol><li><strong>N</strong>: Um número inteiro representando o tamanho do tabuleiro (sempre será primo).</li><li><strong>array[]</strong>: Um conjunto de N números inteiros que compõem as casas do tabuleiro.</li><li><strong>Rodadas</strong>: Um número inteiro representando quantas rodadas o jogo teve.</li><li><strong>T D V H</strong>: Para cada rodada, quatro números representando as rolagens de dados dos jogadores, na ordem:<ul><li><strong>T</strong>: Rolagem de Tenório</li><li><strong>D</strong>: Rolagem de Davi</li><li><strong>V</strong>: Rolagem de Vitor</li><li><strong>H</strong>: Rolagem de Humberto</li></ul></li></ol><pre>N&#10;Array[]&#10;Rodadas&#10;T D V H</pre><p>Exemplo de entrada:</p><pre>13&#10;0 1 3 7 9 2 1 0 6 9 5 6 7&#10;1&#10;2 2 4 2<br/></pre></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><b>A saída deve exibir:</b></p><ol><li><strong>Se houver um vencedor</strong>: O nome do jogador com mais pontos seguido da mensagem &#34;venceu!&#34;.<ul><li>Exemplo: &#34;Tenorio venceu!&#34;</li></ul></li><li><strong>Se houver empate</strong>: A mensagem &#34;Houve um empate!&#34;.</li></ol><p><strong>Regras:</strong></p><ul><li>O jogador com a maior pontuação ao final das rodadas será declarado vencedor.</li><li>Se dois ou mais jogadores terminarem com o mesmo número de pontos, deve ser declarado um empate.</li></ul></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out4.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out5.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out6.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out7.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out8.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4620/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question4620/outputs/out9.txt">
+                Exemplo 10
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

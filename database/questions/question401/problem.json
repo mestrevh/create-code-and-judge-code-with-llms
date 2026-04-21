@@ -1,0 +1,12 @@
+{
+    "title": "Soma dos Dígitos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva uma função chamada SomaDigitos que receba como entrada um número inteiro e retorne a soma de seus dígitos. Ex: Se a entrada for 521, a saída será 8 (5 + 2 + 1)",
+    "format_input": "Um número inteiro",
+    "format_output": "Um número inteiro",
+    "topics": [
+        "acumulador",
+        "repetição",
+        "função"
+    ]
+}

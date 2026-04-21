@@ -1,0 +1,10 @@
+{
+    "title": "L2Q - O controlador de dados",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Marcos Luxembergue, criador de uma das maiores redes sociais do mundo, é confundido muitas vezes com um lagarto. Porém, não um lagarto qualquer : um MANÍACO, LOUCO por informações de seus usuários. Ele precisa de sua ajuda para calcular a quantidade de informação coletada em relação a quantidade de usuários que se cadastram por dia, sabendo que a quantidade de um dia mantém o dia anterior. O cálculo do tamanho dos dados é guardado em TB (terabyte), a quantidade de usuários é dada em milhão e é computada da seguinte maneira, em um dia: D = N! - (N-1)! Onde D é a diferença dos fatoriais e N a quantidade de usuários em milhão Se a diferença for maior que 900000, a quantidade de kilobytes é calculada da seguinte forma: B = ⌊(300*D + D^(1.125))⌋ Senão: B = 30*(D^2) + 900000 Dicas importantes: Use a biblioteca math pra usar a função de arredondamento devida; É proibido do uso de função de cálculo de fatorial pré-pronta. 1 TB = 10^9 kilobytes",
+    "format_input": "A entrada é composta por uma linha indicando a quantidade de dias, seguidas de D linhas de quantidades de usuários dado em milhão respectivas a cada dia. D Quantidade de dias Q_1 Q_2 ... Q_D Quantidade de usuários",
+    "format_output": "A saída é composta por D linhas nesse formato: Ate o dia 1: x TB Ate o dia 2: x TB ... Ate o dia D: x TB Sendo x um valor flutuante com 2 casas decimais Caso x passe de 10^9, Luxembergue consegue toda a informação necessária para dominar a humanidade, e imprima: Humanidade controlada",
+    "topics": [
+        "multiplas entradas"
+    ]
+}

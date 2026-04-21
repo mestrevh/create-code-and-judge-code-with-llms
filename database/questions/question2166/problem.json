@@ -1,0 +1,11 @@
+{
+    "title": "Equalizando Torres",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio está se divertindo muito com seu novo jogo, o Equalizador de Torres. O jogo consiste de várias rodadas. Em cada rodada são dadas várias torres de tamanhos variados onde cada uma tem um custo especifico para ser alterada (aumentada ou diminuída em 1) e o objetivo do jogo é que no fim todas as torres tenham a mesma altura. Ambrósio deseja ser melhor nesse jogo e então ele pediu que você o ajudasse. Para isso, você deve construir um programa que responda, para cada rodada, do jogo qual o menor custo total para que todas as torres acabem com a mesma altura. Exemplo: Numa rodada com 3 torres, com alturas: {1, 3, 4} e custos respectivos: {10, 1000, 100}. O menor custo total é 120, onde você deve adicionar 2 na primeira torre (gastando 20) e reduzir 1 na terceira torre (gastando 100) de forma que todas as torres acabam com 3 de altura.",
+    "format_input": "Uma linha contendo um inteiro N representando o número de casos de teste a entrada possui, seguida pelos N casos de teste. Cada caso de teste começa com uma linha com um inteiro T representando o número de Torres dessa rodada. Seguida por uma linha com T inteiros representando as alturas de cada uma das respectivas torres. Seguida por uma linha com T inteiros representando os custos para alterar cada uma das respectivas torres. 1 <= N <= 100, 3 <= T <= 20, 1 <= Alturas <= 100, 1 <= Custos <= 1000",
+    "format_output": "N linhas cada uma contendo o menor custo para equalizar as torres da N-ésima rodada.",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

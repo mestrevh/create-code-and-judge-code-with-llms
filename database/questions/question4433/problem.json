@@ -1,0 +1,11 @@
+{
+    "title": "Ajude a CBF",
+    "time_limit": "2 segundo(s)",
+    "descrition": "O atual técnico do Palmeiras, Abel Ferreira, insatisfeito com a situação de seu time na tabela do brasileirão, usufruiu de métodos sobrenaturais para corromper o sistema da CBF que gera a tabela do campeonato. Você, como um bom programador recém-contratado pela CBF, deve reparar os problemas causados por esse ser maligno. Você deve receber os dados de N jogos de uma rodada (como é uma única rodada, não haverá repetição de times), sendo cada resultado no formato (nome_time_casa) (gols_time_casa) x (gols_time_visitante) (nome_time_visitante) , por exemplo: Flamengo 2 x 1 Vasco e imprimir a tabela com base nesses resultados. Considere os seguintes dados para criação da tabela: - Nome do time - Quantidade de pontos - Quantidade de vitórias - Quantidade de empates - Quantidade de derrotas - Gols pró (quantidade de gols marcados) - Gols contra (quantidade de gols sofridos) - Saldo de gols (gols pró - gols contra) OBS: Vitória = +3 pts, empate = +1 pts, derrota = +0 pts OBS2: Considere os seguintes critérios de desempate: Pts -> Vit -> SG -> GP -> Ordem lexicográfica OBS3: Considere os casos teste sem nome com espaço (Ex: Sao Paulo) e sem números (Ex:4 de julho)",
+    "format_input": "Seu programa receberá um inteiro N (1<=N<=20) que indicará a quantidade de jogos a serem lidos. Logo abaixo, receberá os dados dos respectivos N jogos no mesmo formato explicado na descrição.",
+    "format_output": "Na saída, seu programa imprimirá a tabela organizada conforme os critérios explicados na descrição, no seguinte formato: 1. NOME PTS VIT E DER GP GC SG 2. NOME PTS VIT E DER GP GC SG 3. NOME PTS VIT E DER GP GC SG . . .",
+    "topics": [
+        "ordenação",
+        "estruturas"
+    ]
+}

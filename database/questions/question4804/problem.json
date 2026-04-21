@@ -1,0 +1,11 @@
+{
+    "title": "Compras da dona Fofa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dona fofa é uma senhora muito gentil que gosta de frutas, para fazer umas compras ela vai a feira, entretanto ela precisa de sua ajuda para calcular o valor total que ela precisará desembolsar. Faça um programa que calcule o valor total de uma compra. O programa deve receber um inteiro N representando quantas frutas serão compradas, seguido de N números inteiros representando o código de cada produto, o código indicará seu preço: 1.Banana -> 1.22 Maçã -> 1.43 Pêra -> 2.04 Uva -> 3.25 Mamão -> 5.76 Melancia -> 10.6 Ao final você deve retornar o valor total da compra. Obs: o valor atribuído aos produtos tem que ser do tipo real(double).",
+    "format_input": "Um inteiro 1<=N<=1000 representando a quantidade de frutas, seguido de N's números inteiros representando os códigos das frutas.",
+    "format_output": "Um número real representando o valor total da compra.",
+    "topics": [
+        "acumulador",
+        "recursão"
+    ]
+}

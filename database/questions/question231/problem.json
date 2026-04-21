@@ -1,0 +1,15 @@
+{
+    "title": "Somando Árvores",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Lisp é uma das primeiras linguagens de programação de alto nível e, juntamente com FORTRAM, é uma das mais antigas linguagens que continuam sendo usadas. Listas, que são as estruturas fundamentais em LISP, podem ser facilmente adaptadas para representar outras importantes estruturas como as Árvores. O problema consiste em determiner quando uma árvore binária representada pela expressão no formato LISP possui uma certa propriedade. Dada uma árvore binária com inteiros, você deve escrever um programa que determine se existe uma soma dos nós de uma raiz até uma folha que seja igual ao valor inteiro especificado. Por exemplo, na árvore abaixo há exatamente quatro caminhos de raiz para folha. A soma dos caminhos são 27,22,26 e 18. Árvores binárias são representadas no formato das expressões de LISP tendo a seguinte forma. árvore vazia ::= () árvore ::= árvore vazia | ( inteiro árvore árvore ) O diagrama da árvore acima é representado pela expressão (5 (4 (11 (7 () ()) (2 () ()) ) ()) (8 (13 () ()) (4 () (1 () ()) ) ) ) Note que com essa formulação todas as folhas da árvore são da forma ( inteiro () () ) Se uma árvore vazia não possui nenhum caminho de raiz para folha, qualquer consulta para saber se existe um caminho com a soma igual ao inteiro especificado deve ser respondida negativamente.",
+    "format_input": "A entrada contém vários casos de teste. Cada caso de teste consiste de um inteiro(o valor da soma a ser procurada) seguido por possíveis espaços e quebras de linha, seguido por uma árvore binária no formato da expressão descrita acima. Todas as árvores binárias são expressões válidas, mas as expressões podem conter vários espaços e quebras de linhas. A entrada termina quando o inteiro representando a soma for -1000.",
+    "format_output": "A saída deve conter uma linha para cada caso de teste. Cada uma contendo a string \"sim\" se há uma soma de um caminho raiz para folha que satisfaça o valor especificado, \"nao\" se não há.",
+    "topics": [
+        "multiplas entradas",
+        "Árvore",
+        "pilha",
+        "recursão",
+        "ponteiro",
+        "estruturas"
+    ]
+}

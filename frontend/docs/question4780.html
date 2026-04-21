@@ -1,0 +1,197 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 4780 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4780</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Detetive de Índices na Memória</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Você é um detetive investigando um &#34;vazamento de dados&#34; em uma memória simulada, representada por uma matriz 5x5 de inteiros, tratada como um array linear de 25 elementos. A conversão de coordenadas <code>(linha, coluna)</code> para o índice linear é <code>indice = linha * 5 + coluna</code> (índices de 0 a 24).</p><p>Sua missão é seguir uma trilha de indicadores a partir de uma posição inicial (<code>L_inicial</code>, <code>C_inicial</code>) para determinar o resultado da investigação.</p><p><strong>Valores das Células e Consequências:</strong></p><p>Cada célula na memória contém um valor numérico (<code>V</code>) que determina a ação:</p><ul><li><code>V</code> entre <code>0</code> e <code>24</code> (inclusive): Indica o <code>índice da próxima célula</code> a ser visitada.</li><li><code>V = -1</code>: Resulta em &#34;<strong>DADO SECRETO ENCONTRADO!</strong>&#34;. A investigação termina.</li><li><code>V = -2</code>: Resulta em &#34;<strong>TRILHA BLOQUEADA</strong>&#34;. A investigação termina.</li><li>Qualquer outro valor <code>V</code>: Resulta em &#34;<strong>ENDEREÇO CORROMPIDO</strong>&#34;. A investigação termina.</li></ul><p><strong>Processo de Rastreamento da Trilha:</strong></p><ol><li><p><strong>Configuração Inicial:</strong></p><ul><li><strong>Ponto de Partida:</strong> Calcule o <code>indice_atual</code> a partir de <code>L_inicial</code> e <code>C_inicial</code>.</li><li><strong>Controle de Visitas:</strong> Utilize um mecanismo (ex: array <code>visitados[25]</code>) para registrar células visitadas e detectar loops.</li><li><strong>Limite de Passos:</strong> Defina um máximo de 25 passos para a investigação.</li></ul></li><li><p><strong>Execução Iterativa da Trilha (Loop):</strong>Repita os seguintes passos, no máximo, o limite de passos definido:</p><ul><li><strong>Verificação de Loop por Revisita:</strong> Se o <code>indice_atual</code> já foi visitado, o resultado é &#34;<strong>LOOP DETECTADO</strong>&#34;. A investigação termina.</li><li><strong>Marcar Visita:</strong> Registre o <code>indice_atual</code> como visitado.</li><li><strong>Ler Célula:</strong> Obtenha o valor <code>V</code> da célula no <code>indice_atual</code>.</li><li><strong>Tomar Decisão com Base em <code>V</code>:</strong><ul><li>Se <code>V = -1</code>, <code>V = -2</code>, ou <code>V</code> for um endereço inválido (não entre 0-24, -1, ou -2), determine o resultado correspondente (conforme &#34;Valores das Células e Consequências&#34;) e termine a investigação.</li><li>Se <code>V</code> estiver entre <code>0</code> e <code>24</code>, atualize <code>indice_atual = V</code> e continue para a próxima iteração do loop.</li></ul></li></ul></li><li><p><strong>Conclusão por Limite de Passos:</strong></p><ul><li>Se o loop atingir o limite máximo de passos sem outra condição de término, o resultado é &#34;<strong>LOOP DETECTADO</strong>&#34;. A investigação termina.</li></ul></li></ol></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><li>Dois inteiros <code>L_inicial C_inicial</code> (0 ≤ <code>L_inicial</code>, <code>C_inicial</code> ≤ 4), representando a linha e coluna inicial na matriz.</li><li>Uma matriz 5x5 de inteiros, fornecida linha por linha.</li><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>Imprima uma das seguintes mensagens, conforme o resultado da trilha:</p><ul><li><code>&#34;DADO SECRETO ENCONTRADO!&#34;</code></li><li><code>&#34;TRILHA BLOQUEADA&#34;</code></li><li><code>&#34;ENDERECO CORROMPIDO&#34;</code></li><li><code>&#34;LOOP DETECTADO&#34;</code></li></ul></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out4.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out5.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out6.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out7.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out8.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4780/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question4780/outputs/out9.txt">
+                Exemplo 10
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

@@ -1,0 +1,12 @@
+{
+    "title": "Pilhas com Listas",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Implemente uma pilha na qual cada item seja um número variável de inteiros. Escolha uma estrutura de dados em C para essa pilha e elabore rotinas push e pop para ela.",
+    "format_input": "Uma sequência de comandos POP ou PUSH. Seguida de uma lista de inteiros na linha seguinte, caso o comando seja PUSH.",
+    "format_output": "A cada comando POP, imprimir a lista de inteiros que estava no topo da pilha. Se a pilha estiver vazia, imprima: EMPTY STACK Verifique o exemplo de entrada-saida.",
+    "topics": [
+        "estrutura de dados",
+        "pilha",
+        "alocação dinâmica"
+    ]
+}

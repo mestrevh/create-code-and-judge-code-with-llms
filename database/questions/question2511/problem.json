@@ -1,0 +1,11 @@
+{
+    "title": "Aquele com as Compras de Rachel",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Chandler e Joey apostam com Rachel e Monica que podem adivinhar todos os items que tem dentro da sacola de compras da Rachel. Para isso, chandler tem 6 tentativas para adivinhar o todos os 5 items que estão na sacola de compras. Seu objetivo é escrever um programa que dado o conjunto de Items da sacola, diz se a tentativa de Chandler foi bem sucedida ou não. obs: Não haverão items repetidos na sacola de compras",
+    "format_input": "A entrada consiste de 5 strings, uma em casa linha, indicando os items presentes na sacola; Uma linha em branco; E então 6 string, uma em cada linha, indicando os palpites de Joey e Chandler sobre o que exista na sacola de compras de Rachel.",
+    "format_output": "O programa deve imprimir: Could I be more happy? Caso todos os items da sacola estejam presentes nos palpites de Joey e Chandler, ou: It is all just a moo point Caso algum dos items da sacola de Rachel não esteja entre os palpites de Joey e Chandler.",
+    "topics": [
+        "array",
+        "busca"
+    ]
+}

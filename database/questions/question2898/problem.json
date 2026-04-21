@@ -1,0 +1,10 @@
+{
+    "title": "L2Q1 - Alimentem o capitão!",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após Luffy e sua tripulação salvar um país inteiro e derrotar o rei do deserto, a princesa de Alabasta decide realizar um jantar. Contudo, como já é de conhecimento da princesa Vivi, esses piratas comem bastante, principalmente o capitão Luffy. Com intuito de realizar o melhor banquete que a tripulação ja desfrutou, Vivi precisa de sua ajuda para contabilizar o quanto de comida eles precisam! Bem, o seu trabalho é criar um programa que dado o nível da fome e a quantidade de pratos disponíveis no palácio, ele ira informar se o banquete vai ser um sucesso ou não. Felizmente, a equipe da princesa tem um ótimo nutricionista e ele lhe proveu de uma lista com o valor calórico (medido em unidades fome) de todas as comidas no universo de One Piece. Segue a lista abaixo: Arroz: 25 fomes Churrasco de Animal do Mar: 100 fomes Paella Vestido de Camarao: 70 fomes Massa de Tinta de Lula Rosa: 55 fomes Mizu Mizu Doces: 15 fomes",
+    "format_input": "A entrada é composta por uma linha indicando o nível de fome da tripulação e a quantidade de pratos servidos, seguida de n linhas, cada uma contendo o tipo do prato. N_Fome N_Pratos Prato_1 Prato_2 ... Prato_N. N_fome: Inteiro N_Pratos: Inteiro Prato_N: String",
+    "format_output": "Se o nível de fome da tripulação for maior que 0 ao final do banquete: Pell, voe e traga mais comida ou a festa sera arruinada! Se não: Sucesso, vamos todos celebrar.",
+    "topics": [
+        "repetição"
+    ]
+}

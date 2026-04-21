@@ -1,0 +1,10 @@
+{
+    "title": "Idades",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escrever um algoritmo para ler um número indeterminado de dados, cada um contendo a idade de um indivíduo. O último número dado não deverá entrar nos cálculos e contém o valor de uma idade negativa. Calcule e imprima a idade média deste grupo de indivíduos.",
+    "format_input": "A entrada contém um número indeterminado de números inteiros. A entrada irá parar quando um valor negativo é lido.",
+    "format_output": "A saída contém um valor correspondente para a idade média dos indivíduos. A média deve ser impresso com duas casas decimais, seguido de uma quebra de linha.",
+    "topics": [
+        "acumulador"
+    ]
+}

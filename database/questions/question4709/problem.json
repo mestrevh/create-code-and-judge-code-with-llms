@@ -1,0 +1,11 @@
+{
+    "title": "Q03 - Tabuada de um Número",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desenvolva um procedimento chamado \"amadoProfessor\" que recebe um número e imprime sua tabuada do 1 ao 10.",
+    "format_input": "Um número inteiro",
+    "format_output": "A tabuada do número digitado do 1 ao 10",
+    "topics": [
+        "lógica matemática",
+        "função"
+    ]
+}

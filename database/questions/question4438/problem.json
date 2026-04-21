@@ -1,0 +1,10 @@
+{
+    "title": "Celebridade por força bruta",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma celebridade dentre um grupo de n pessoas é uma pessoa que não conhece a ninguém mas é conhecida por todos. A tarefa é identificar uma celebridade realizando somente questões do tipo \"Você conhece ele/ela?\". Projete um algoritmo força bruta para identificar uma celebridade ou determinar que no grupo não há celebridade. Assuma que as pessoas são numeradas de 0 até n-1. Como complemento à submissão da sua solução, responda quantas perguntas seu algoritmo precisa fazer no pior caso.",
+    "format_input": "Em uma linha, o número inteiro n, para o total de pessoas do grupo. Uma matriz n x n de zeros e uns. O elemento (i,j) da matriz é 1 quando i conhece j, caso contrário é 0. Cada fileira da matriz vêm em uma linha separada.",
+    "format_output": "Se há celebridade, o número dela. Senão, a string \"NAO HA CELEBRIDADE\".",
+    "topics": [
+        "ad-hoc"
+    ]
+}

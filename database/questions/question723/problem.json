@@ -1,0 +1,8 @@
+{
+    "title": "Formação de Robôs",
+    "time_limit": "1 segundo(s)",
+    "descrition": "None",
+    "format_input": "4\n1\n50\n2\n10 10\n3\n2 2 5\n3\n2 3 3",
+    "format_output": "Caso #1: Challenge Accepted!\nCaso #2: Challenge Accepted!\nCaso #3: Challenge Accepted!\nCaso #4: Run for your life!",
+    "topics": []
+}

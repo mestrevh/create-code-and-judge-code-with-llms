@@ -1,0 +1,12 @@
+{
+    "title": "Resultados Triglicerídeos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio está suspeitando que houve um aumento do número de pessoas com triglicerídeos ALTO. Para confirmar, resolveu fazer um programa que lê os valores de todos os exames e traz, ao final, uma totalização com os respectivos percentuais. Para classificar os resultados, Ambrósio utilizou a tabela abaixo:",
+    "format_input": "Uma sequência de resultados, sendo um resultado por linha contendo um número inteiro (não negativo). Ao encontrar um caractere asterisco *, a entrada de dados está encerrada, conforme exemplo abaixo: 160 210 230 *",
+    "format_output": "Devem ser fornecidas as quantidades e os respectivos percentuais por tipo de resultado (DESEJAVEL, LIMITROFE ou ALTO). Além disso, caso o sejam obtidos 50% ou mais de resultados ALTO, deve ser impressa um mensagem de alerta (Quantidade de ALTO acima do normal). A saída deve seguir o formato contido nos exemplos.",
+    "topics": [
+        "decisão",
+        "repetição",
+        "formatação"
+    ]
+}

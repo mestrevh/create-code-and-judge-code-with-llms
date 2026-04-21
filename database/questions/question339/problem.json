@@ -1,0 +1,10 @@
+{
+    "title": "Números no meio da frase",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Você irá receber 02 números inteiros e deve imprimir o resultado da soma entre eles.",
+    "format_input": "Você irá receber dois números inteiros 'a' e 'b', um em cada linha.",
+    "format_output": "Você deve imprimir: O resultado da soma entre 'a' e 'b' = 'resultado' Por exemplo, se os números dados forem 5 e 3, você deve imprimir: O resultado da soma entre 5 e 3 = 8",
+    "topics": [
+        "formatação"
+    ]
+}

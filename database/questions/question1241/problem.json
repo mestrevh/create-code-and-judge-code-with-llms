@@ -1,0 +1,11 @@
+{
+    "title": "Os iguais não têm vez",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um conjunto de números, exclua os repetidos e imprima o conjunto em ordem crescente.",
+    "format_input": "Um valor N, tal que N<50. Um array com N números.",
+    "format_output": "O conjunto de números sem números repetidos, em ordem crescente, separados por espaço e com uma quebra de linha no último valor.",
+    "topics": [
+        "array",
+        "ordenação"
+    ]
+}

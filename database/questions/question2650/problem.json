@@ -1,0 +1,10 @@
+{
+    "title": "Frequência",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considere uma lista L (1 <= L <=10) com N números inteiros (0 <= N <= 100). Mostre a frequência de cada elemento da lista L ordenada de forma crescente.",
+    "format_input": "10\n10 8 7 8 5 6 6 4 10 5",
+    "format_output": "4 1\n5 2\n6 2\n7 1\n8 2\n10 2",
+    "topics": [
+        "obi"
+    ]
+}

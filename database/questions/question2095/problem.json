@@ -1,0 +1,11 @@
+{
+    "title": "P1Q2 - The Citadel",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após capturar todos os pokémons possíveis, Ash se viu perdido em Westeros e sem meios de conseguir retornar para sua terra. Porém, com a companhia de seus amigos pokémons, Ash conseguiu ir até a cidade de Vilavelha, na qual teve acesso a uma quantidade muito grande de livros, após entrar escondido na biblioteca. Porém, Ash está com dificuldades de encontrar livros apropriados que possam ajudá-lo a encontrar informações sobre como escapar de Westeros. Ao longo de sua pesquisa, ele encontrou várias formas que poderiam ajudá-lo a escapar. Cada uma em um livro. Porém, devido à sua dificuldade de interpretar essa língua estranha, Ash só consegue analisar um livro por dia e, ao final da análise, ele consegue definir qual o nível de periculosidade e de dificuldade necessária para executar aquela ideia. Ash precisa encontrar alguma saída rapidamente, pois o Arquimeistre suspeita que alguém esteja roubando livros da biblioteca. Ao acabar de analisar um livro, se a soma da dificuldade e da periculosidade da forma de escape for menor que a quantidade restante de livros a analisar (desconsiderando o que está analisando), Ash decide não arriscar mais e utilizar esta forma de escape. Caso Ash não encontre uma forma que o permita parar de procurar, utilizando a regra acima, ele irá escolher a forma que seja menos perigosa. Sua tarefa é escrever um programa que ajude Ash a decidir qual forma de escape utilizar. OBS: Se houver duas formas com a mesma periculosidade, Ash irá utilizar a forma com a menor dificuldade e, se a dificuldade também for igual, irá utilizar a primeira encontrada, pois terá mais tempo para estudá-la.",
+    "format_input": "A primeira linha da entrada é composta por um inteiro N, que corresponde ao número de formas de escape que Ash deseja investigar (ele gasta um dia para investigar cada forma de escape). Cada uma das próximas N linhas tem 2 inteiros separados por espaço, que correspondem a dificuldade e a periculosidade, respectivamente, de cada forma de escape.",
+    "format_output": "A saída é composta por apenas dois inteiros separados por espaço, que correspondem a dificuldade e a periculosidade, respectivamente, da forma de escape escolhida por Ash.",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Dividindo café inteirinho [E]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Jackson gosta muito de café, tanto que ele trouxe L litros de café para dividir com seus n amigos. Ele também gosta de números inteiros, então ele gostaria de preencher os copos dos amigos com a maior altura h (inteira) possível. Cada amigo i possui um copo no formato de um paralelepípedo, com largura a_i, profundidade b_i e altura c_i (para faciltar as contas, a unidade das três será decímetros, já que 1 dm^3 = 1 litro). Ajude Jackson a encontrar a maior altura inteira h de forma que todos os copos serão preenchidos com essa altura, ele também gostaria de saber quantos litros r de café ele vai trazer de volta para casa.",
+    "format_input": "A primeira linha da entrada terá um inteiro t indicando a quantidade de casos de teste. Em seguida, virão t casos de teste seguindo este padrão: A primeira linha do caso de teste terá dois inteiros L e n, indicando, respectivamente, a quantidade de litros disponíveis e a quantidade de amigos/copos. Em seguida, virão n linhas, onde a i-ésima linha terá 3 inteiros a_i, b_i e c_i (largura, profundidade e altura, respectivamente). Limites: 1 <= t <= 10^3 1 <= n <= 10^5 0 <= L <= 10^18 0 <= a_i * b_i * c_i <= 10^13 A soma de n de todos os casos de teste será no máximo 10^5",
+    "format_output": "Para cada caso de teste, imprima a maior altura h possível para preencher todos os copos, e a quantidade de litros r que Jackson trará de volta para casa (separados por espaço).",
+    "topics": [
+        "ad-hoc"
+    ]
+}

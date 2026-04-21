@@ -1,0 +1,10 @@
+{
+    "title": "Maior idade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Marianna tem dois irmãos, um mais velho (Felipe) e um mais novo do que ele (Fabrício). As idades dos três irmãos formam uma progressão aritmética: a diferença de idade dos dois irmãos mais novos (Marianna e Fabrício) é igual à diferença de idade dos dois irmãos mais velhos (Felipe e Marianna). Dadas as idades de Marianna e de seu irmão mais novo, escreva um programa para determinar a idade do irmão mais velho.",
+    "format_input": "A primeira linha da entrada contém um inteiro N (1 <= N <= 40) , a idade do irmão mais novo de Marianna. A segunda linha contém um inteiro M (N <= M <= 40), a idade de Marianna.",
+    "format_output": "Seu programa deve produzir na saída uma única linha, contendo um único número inteiro, a idade do irmão mais velho de Marianna. No caso de pelo menos uma das restrições forem violadas, deve-se apresentar a mensagem \"Restricoes violadas\".",
+    "topics": [
+        "decisão"
+    ]
+}

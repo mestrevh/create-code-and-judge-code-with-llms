@@ -1,0 +1,10 @@
+{
+    "title": "L5Q2 - A Dúvida de Mike",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Após o RPG, Will sumiu. O que deixou Mike, Lucas e Justin preocupados e fez com que eles resolvessem ir atrás dele na floresta. Como eles sabiam que lá é perigoso e fácil de se perder, decidiram ir comprar corda para que todos pudessem segurar uma ponta e se acharem facilmente. Lucas dá a ideia de comprarem várias cordas, visando suas próximas aventuras. Eles então vão na cidade, chegam até a loja que você estagia e no caixa, Mike quer saber se conseguirão comprar o número de cordas que desejam com a quantidade de moedas que possuem. Contudo, os botões de ‘/’ e ‘*’ do computador quebraram. E você, para surpreender seus superiores, decide fazer um programa resolver a dúvida de Mike, sem utilizar os operadores de divisão ‘/’, multiplicação ‘*’ e com recursão ao invés de tradicionais while/for. (este problema deve ser resolvido utilizando recursão)",
+    "format_input": "Composta por 3 números: C M P Sendo: C - a quantidade de cordas que os meninos querem. M - a quantidade de moedas que eles têm. P - a quantidade de moedas que uma corda custa.",
+    "format_output": "Linha única: \"Sim\" ou \"Nao\" De acordo com a resposta para a dúvida de Mike.",
+    "topics": [
+        "recursão"
+    ]
+}

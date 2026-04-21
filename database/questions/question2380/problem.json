@@ -1,0 +1,10 @@
+{
+    "title": "Busca em profundidade",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A busca em profundidade é um algoritmo utilizado para percorrer ou buscar itens dentro das estruturas de dados grafos. Como característica temos que a busca sempre ocorre vértices mais distantes ao vértice pelo qual a busca foi iniciada. Desenvolva um programa para percorrer um grafo a partir de um vértice inicial e apresentar a ordem em que os vértices foram visitados, considerando a lógica do algoritmo de busca em profundidade.",
+    "format_input": "Os dados de entrada do problema serão dados da seguinte maneira: A primeira linha está a quantidade de vértices do grafo (inteiro). A segunda linha está o vértice de origem da busca (inteiro). As demais linhas representam as arestas do grafo. Considere que em cada linha, tem-se dois vértices para identificar cada aresta do grafo. Por exemplo: 6 0 0 1 0 4 1 0 1 2 1 4 2 1 2 3 3 2 3 4 3 5 4 0 4 1 4 3 5 3",
+    "format_output": "Ao final o seu programa deve apresentar a saída no seguinte formato: A saída deve mostrar a sequência em que os vértices foram visitados. Cada vértice deve ser apresentado em uma linha diferente. Por exemplo: 5 1 2 3 4 0",
+    "topics": [
+        "grafo"
+    ]
+}

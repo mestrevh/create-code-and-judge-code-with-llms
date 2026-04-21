@@ -1,0 +1,12 @@
+{
+    "title": "Pacote de Telefonia",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Juarez contratou um pacote de telefonia por R$ 10,00 que permite que ele utilize 40 minutos ou faça 10 ligações, o que acontecer primeiro. Depois desse limite, cada minuto custa R$ 0,20. Escreva um programa que receba como entrada a duração de várias ligações de Juarez, até que seja informada uma duração zero, e exiba o valor total que ele deverá pagar. Obs: O valor do pacote tem que ser pago mesmo que ele não gaste todos os minutos ou não faça todas as ligações incluídas.",
+    "format_input": "Valores inteiros representando a duração das ligações em minutos",
+    "format_output": "Um valor real com duas casas decimais",
+    "topics": [
+        "acumulador",
+        "decisão",
+        "repetição"
+    ]
+}

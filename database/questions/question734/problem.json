@@ -1,0 +1,11 @@
+{
+    "title": "Dados",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ana e Bob estão sem nada pra fazer e resolveram pegar dois dados para brincar. A ideia do jogo é bem simples, cada um começa com 0 moedas e o jogo consiste de várias rodadas, em cada rodada, cada um dos jogadores pega um dado e joga. Quem fizer mais pontos ganha todas as moedas do oponente, ou seja, o oponente fica com 0 moedas. Caso seja empate, ambos ganham 1 moeda do amigo deles Tito (Tito é muito legal e possui um milhão de moedas). Para eles não precisarem ficar contando com quantas moedas cada um está em um momento, seria bem legal um programa que fizesse isso. Eles vão jogar os dados N vezes, na iésima vez Ana consegue o valor A e Bob consegue o valor B. Com essas informações, você consegue fazer um programa que diga quantas moedas Ana e Bob possuem ao final das N rodadas?",
+    "format_input": "A primeira linha da entrada contém T (1 ≤ T ≤ 50), o número de casos de teste. A primeira linha de cada caso de teste contém N (1 ≤ N ≤ 104), o número de rodadas. Cada uma das N linhas seguintes contém dois inteiros A (1 ≤ A ≤ 6) e B (1 ≤ B ≤ 6), representando o valor obtido por Ana e por Bob, respectivamente, naquela rodada.",
+    "format_output": "Para cada caso de teste imprima “Caso #T: X Y”, onde T é o número do caso de teste, começando em 1, X é a quantidade de moedas de Ana e Y é a quantidade de moedas de Bob, após as N rodadas.",
+    "topics": [
+        "ad-hoc",
+        "simulação de jogos"
+    ]
+}

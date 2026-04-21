@@ -1,0 +1,11 @@
+{
+    "title": "Controle de combustível",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que permita calcular qual é o consumo médio de combustível de um carro. Considere que você dispõe de uma planilha de anotações coletadas a cada vez que o carro é abastecido e que, a cada abastecimento o tanque é enchido completamente. As anotações são as seguintes: o odômetro do veículo, o volume e o nome do posto. No exemplo abaixo, que contém três anotações, é possível calcular o consumo em dois momentos, pois só é possível calcular o consumo entre dois abastecimentos consecutivos. Neste exemplo, pode-se perceber que o veículo andou 300km com 30 litros do posto BR-Nova-Saneamento, logo, seu consumo foi de 10km/l. Também pode-se perceber que o veículo andou 600 km com 40 litros do posto Shell-T-Neves, logo, seu consumo foi de 15km/l.\n600 25.3 BR-Nova-Saneamento\n900 30.0 Shell-T-Neves\n1500 40.0 BR-Nova-Saneamento\nSeu programa deve calcular quanto o carro consome, em média, quando é abastecido em cada posto, pois há diferença na qualidade do combustível fornecido por eles. Para isto, use um dicionário que empregue como chave uma string com o nome do posto e como valor uma lista com as medições do consumo a cada abastecimento. No exemplo acima,o dicionário teria o seguinte conteúdo:\n{'BR-Nova-Saneamento':[10.0], 'Shell-T-Neves':[15.0]}",
+    "format_input": "Cada linha da entrada contém três valores separados por espaço em branco, sendo eles: um valor inteiro referente ao odômetro em quilomômetros, um valor em ponto flutuante referente ao volume abastecido em litros e uma string referente ao nome do posto. A última linha contém a string FIM.",
+    "format_output": "Uma mensagem indicando o consumo médio do carro por posto, sendo que os postos estão em ordem alfabética pelonome do posto. Utilize duas casas decimais na apresentação dos valores numéricos.",
+    "topics": [
+        "array",
+        "dicionário"
+    ]
+}

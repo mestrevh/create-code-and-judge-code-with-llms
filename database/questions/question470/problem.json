@@ -1,0 +1,13 @@
+{
+    "title": "Maior Primo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que receba como entrada vários números, até que seja informado o número 404, e exiba o maior número primo lido. Caso não seja lido nenhum número primo, deverá ser exibida uma mensagem indicando isso. Dica: o número 1 não é primo, pois ele deveria ter pelo menos dois divisores para ser considerado assim",
+    "format_input": "Vários números inteiros",
+    "format_output": "Um número inteiro, ou a mensagem SEM PRIMOS (deve estar escrita em maiúsculas)",
+    "topics": [
+        "decisão",
+        "repetição",
+        "função",
+        "números primos"
+    ]
+}

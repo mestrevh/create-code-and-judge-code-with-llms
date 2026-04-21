@@ -1,0 +1,11 @@
+{
+    "title": "Vizinhos Na Travessia da Árvore",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dada uma árvore binária, sua tarefa é identificar para cada nó da árvore quais são os outros nós que vem antes e depois desse nó de acordo com o tipo de travessia na árvore(pre order, in order , pos order) ou -1 caso não exista.",
+    "format_input": "A entrada consiste em um inteiro 3 <= N <= 100 determinando a quantidade de nós da árvore. Os nós da árvore são enumerados de 0 até N-1. Seguem N linhas contendo 2 inteiros Li e Ri. Onde Li é o nó filho esquerdo do i-ésimo nó da árvore e Ri é o nó filho direito do i-ésimo nó da árvore. Por fim uma linha contendo o nó raiz da árvore. Para a entrada abaixo temos a seguinte árvore: 7 1 2 3 4 5 6 -1 -1 -1 -1 -1 -1 -1 -1 0",
+    "format_output": "Para cada tipo de travessia você deverá imprimir quem são os nós que aparecem antes e depois de cada nó nesse tipo de travessia no formato abaixo ( e mais detalhadamente no exemplo de saída), onde Pi e Ni são os nós anteriores e posteriores de i nessa travessia. Pre Order: Node i: previous = Pi next = Ni In Order: Node i: previous = Pi next = Ni Post Order: Node i: previous = Pi next = Ni",
+    "topics": [
+        "Árvore",
+        "recursão"
+    ]
+}

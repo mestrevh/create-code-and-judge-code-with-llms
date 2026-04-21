@@ -1,0 +1,11 @@
+{
+    "title": "Caminhos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um grafo bi-direcionado e ponderado G, e sabendo que as listas de adjacência de um grafo são compostas por vértices adicionados ao final de cada uma delas, encontre os menores caminhos do vértice 1 até os outros N vértices.",
+    "format_input": "Serão fornecidos na entrada: O número de vértices N (N <= 1000), enumerados de 1 até N; O número de arestas E (E <= 5000); Seguirão E linhas, cada uma contendo: u, v e d, com u <= N, v <= N e d < 30; Sendo {u, v} a representação de uma aresta que tem uma distância d entre elas.",
+    "format_output": "A saída deverá ser da seguinte maneira: Para cada um dos N vértices deverá ser impresso: \"Path to vertex ni: \" seguido do caminho, separado por vírgulas, seguido por \"and distance\" e a distância de chegada no n-ésimo vértice. Caso o vértice seja o 1 ou não possua caminho, deverá ser printado um caractere de hífen no lugar do caminho e da distância.",
+    "topics": [
+        "grafo",
+        "dijkstra"
+    ]
+}

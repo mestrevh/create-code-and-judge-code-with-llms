@@ -1,0 +1,12 @@
+{
+    "title": "figurinha repetida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em uma feira de troca de figurinhas de álbuns colecionáveis, várias pessoas se reúnem para trocar suas repetidas e completar suas coleções. Para facilitar esse processo, você decidiu desenvolver um programa em C que ajuda os participantes, dois a dois, a identificar as figurinhas que possuem em comum ou todas as figurinhas que possuem juntos.",
+    "format_input": "Um número o que representa a operação a ser feita: 1 para mostrar todas as figurinhas que os dois participantes têm juntos e 2 para mostrar as que eles têm em comum. Um número n que representa a quantidade de figurinhas do participante 1. n números inteiros que representam as figurinhas do participante 1. Um número m que representa a quantidade de figurinhas do participante 2. m números inteiros que representam as figurinhas do participante 2. obs: Considere que cada participante só terá no máximo 1 única cópia de cada figurinha possível",
+    "format_output": "As figurinhas resultantes em ordem crescente de acordo com a operação desejada. Obs: Caso não haja elementos a serem imprimidos, imprima \"empty\"",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

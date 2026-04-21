@@ -1,0 +1,13 @@
+{
+    "title": "Mediana de um Conjunto de Inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que calcule a mediana dos valores lidos. A mediana é o valor numérico que separa a metade superior de um conjunto de dados, ou seja, uma vez que os dados lidos estejam ordenados, a mediana seria o valor central no caso de um conjunto com número ímpar de elementos e seria a média dos dois valores centrais no caso de um conjunto com número par de elementos.",
+    "format_input": "Uma lista de valores inteiros não negativos, separados por espaço, em uma única linha.",
+    "format_output": "Como saída, espera-se a impressão do nome da medida (Mediana) seguida por um espaço, o sinal de igualdade, outro espaço e o valor calculado. Quando o tamanho do conjunto de inteiros for ímpar, a mediana deve ser impressa como um inteiro. Quando for par, a mediana deve ser impressa com uma casa decimal.",
+    "topics": [
+        "decisão",
+        "entrada formatada",
+        "ordenação",
+        "formatação"
+    ]
+}

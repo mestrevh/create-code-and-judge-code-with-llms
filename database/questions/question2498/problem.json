@@ -1,0 +1,10 @@
+{
+    "title": "Ticket da sorte",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Números de ticket normalmente consistem em números com uma quantidade par de dígitos. Um ticket é considerado \"da sorte\" if a soma da primeira metade dos dígitos é igual à soma da segunda metade dos dígitos. Dado um número de ticket fornecido pelo usuário, determine se o ticket é \"da sorte\" ou não.",
+    "format_input": "O usuário deve fornecer uma única entrada com o número do ticket.",
+    "format_output": "A resposta do programa deve ser True para tickets da sorte e False para os tickets não considerados da sorte.",
+    "topics": [
+        "array"
+    ]
+}

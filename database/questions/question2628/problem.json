@@ -1,0 +1,11 @@
+{
+    "title": "Ordenar 4 numeros Octave",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Escreva um programa para ler 4 números (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.",
+    "format_input": "O usuario deve digitar quatro números",
+    "format_output": "O programa deve exibir a sequência ordenada de maneira crescente, imprimindo na tela os valores abaixo: Digite o primeiro valor: (impresso pela funcao input) Digite o segundo valor: (impresso pela funcao input) Digite o terceiro valor: (impresso pela funcao input) Digite o quarto valor: (impresso pela funcao input) Sequencia ordenada: n n n n",
+    "topics": [
+        "lógica matemática",
+        "ordenação"
+    ]
+}

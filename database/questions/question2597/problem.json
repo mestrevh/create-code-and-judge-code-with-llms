@@ -1,0 +1,10 @@
+{
+    "title": "Preenchimento bonito",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Como sabemos, a Entidade gosta muito de matrizes e pensou numa forma interessante de preencher matrizes. A matriz inicia cheia de zeros; ela começa de uma célula (si, sj), preenche um o número 1, move-se de acordo com a \"velocidade\" (di, dj), preenche a próxima posição com o número 2, e assim por diante; até que chegue numa posição já preenchida. Além de interessante, ela percebeu que preencher dessa forma gera padrões muito bonitos. Ela pretende criar vários papeis de parede, mas precisa da sua ajuda para automatizar o processo de preenchimento. Observação: note que se a matriz é circular, então se o deslocamento levar a uma posição fora da matriz, deve-se corrigir a posição de forma circular.",
+    "format_input": "A primeira linha da entrada terá 6 inteiros: n, m, si, sj, di, dj; representando a quantidade de linhas, a quantidade de colunas, a linha inicial, a coluna inicial, o deslocamento de linhas e o deslocamento de colunas.",
+    "format_output": "A saída deverá apresentar a matriz após aplicar o processo interessante da Entidade. Observação: Como a Entidade preza muito pela beleza, coloque um pipe '|' no começo e no final de cada linha, e imprima os números com um tamanho fixo igual a 1 + tamanho do maior número. Exemplo: printf(\"%*d\", 1 + tamanhoDoMaior, numero).",
+    "topics": [
+        "array bidimensional"
+    ]
+}

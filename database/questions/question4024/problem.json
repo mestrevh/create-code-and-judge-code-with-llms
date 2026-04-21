@@ -1,0 +1,11 @@
+{
+    "title": "Cifra de César",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Cifra de César é um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, C se tornaria F, ..., Y se tornaria B e Z se tornaria C. Para mais detalhes, veja o pequeno informativo: https://www.youtube.com/watch?v=2ZIpFytCSVc Faça um programa que traduza um texto criptografado por uma Cifra de César.",
+    "format_input": "A entrada será composta por duas strings. A primeira é o remetente da mensagem criptografada, que SEMPRE SERÁ boole, euler ou gauss. O nome do remetente também estará criptografado. A segunda string é a mensagem a ser decodificada.",
+    "format_output": "A saída se dará da seguinte forma: remetente diz: string traduzida Lembre-se de ignorar os caracteres: ' '; ','; '.'; e '?' na tradução.",
+    "topics": [
+        "caractere",
+        "string"
+    ]
+}

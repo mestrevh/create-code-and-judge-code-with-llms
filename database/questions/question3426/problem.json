@@ -1,0 +1,12 @@
+{
+    "title": "Vetor de fatoriais",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fazer um programa para ler um vetor V com n elementos e obter um vetor W cujos elementos são os fatoriais dos respectivos elementos de V.",
+    "format_input": "n + 1 números naturais em coluna, onde o primeiro corresponde ao número de elementos seguido dos próprios elementos do vetor V.",
+    "format_output": "n números naturais na primeira linha, separados por 1 espaço, correspondentes aos elementos do vetor V. n números naturais na segunda linha, separados por 1 espaço, correspondentes aos elementos do vetor W.",
+    "topics": [
+        "array",
+        "repetição",
+        "formatação"
+    ]
+}

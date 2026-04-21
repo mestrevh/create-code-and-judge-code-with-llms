@@ -1,0 +1,10 @@
+{
+    "title": "Pedindo um galeto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio estava ocioso e resolveu fazer um rango no Galeto São Luiz do Santo Eduardo (telefone 82-3021-4609). Porém seu funcionário mais dedicado, Ícaro Galetinho, estava muito confuso ao tratar da lista de pedidos. Cada pedido corresponde a um inteiro. Os pedidos também podem ser cancelados. Além disso, o gerente do Ícaro Galetinho quer saber de tempos em tempos como está a fila de pedidos. Sua missão é ajudar o Ícaro Galetinho a gerenciar os pedidos.",
+    "format_input": "Considere que PEDIDO é um número inteiro (1 <= PEDIDO <= 10000). A entrada consiste de várias linhas, sendo que cada linha pode ser: a PEDIDO - significa que o PEDIDO deve ser adicionado na fila; r PEDIDO - significa que o PEDIDO deve ser removido da fila. Não existem PEDIDOS duplicados na fila. Se o PEDIDO existir, você deve imprimir \"removido\", caso contrário imprima \"falha\". p - significa que você deve imprimir a fila. Nesse caso, imprima todos os números na mesma linha separados por espaços. Depois do último número não existe espaço.",
+    "format_output": "A saída deve ser impressa de acordo com as entradas dadas. Veja os exemplos para ficar mais claro.",
+    "topics": [
+        "array"
+    ]
+}

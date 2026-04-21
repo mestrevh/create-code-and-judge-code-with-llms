@@ -1,0 +1,12 @@
+{
+    "title": "Carrossel",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Rodrigo levou seu filho para um parque de diversões, ele e seu filho brincaram em vários brinquedos. Sendo que o carrossel chamou a atenção do Rodrigo, pois cada veículo tem uma numeração, então ele escolheu um e a partir dele anotou em sequência a numeração de cada veículo. Com essa informação ele quer a maior sequência continua em ordem crescente.",
+    "format_input": "A primeira linha tem um inteiro Q o qual indica a quantidade de veículos no carrossel, a linha seguinte terá Q números que indica a numeração dos veículos em sequência. 1 <= Q <= 1000 1 <= Vi <= 1000",
+    "format_output": "Um inteiro que indica o tamanho da maior sequência continua e crescente.",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição"
+    ]
+}

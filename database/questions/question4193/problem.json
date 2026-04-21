@@ -1,0 +1,10 @@
+{
+    "title": "Alugando um veículo 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Acabou a promoção da Locadora de Veículos Eudora e os preços voltaram ao normal. A diária de um veículo é de R$ 100. Adicionalmente, é cobrada a quilometragem aplicando um cálculo regressivo. Até 500 quilômetros, o valor por quilômetro rodado é R$1. A partir dos 501 quilômetros e até 1000 quilômetros, o valor por quilômetro rodado é R$0,5. Excedendo os 1000 quilômetros, não se cobra mais pelos quilômetros excedidos. Escreva um programa que receba como entrada a quantidade de dias e a quilometragem total rodada por um cliente dessa locadora e exiba o valor total a ser pago com duas casas decimais.",
+    "format_input": "Dois valores inteiros, separados por uma quebra de linha",
+    "format_output": "Um valor real com duas casas decimais",
+    "topics": [
+        "ad-hoc"
+    ]
+}

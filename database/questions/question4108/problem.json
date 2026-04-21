@@ -1,0 +1,13 @@
+{
+    "title": "Lanche Mais Famoso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Uma lanchonete decidiu saber qual o seu lanche mais famoso para, assim, repor o seu estoque de forma mais rápida. Dessa forma, decidiu contar os pedidos realizados em um único dia para fazer essa contagem.",
+    "format_input": "N pedidos separados por linha. Os pedidos se encerram quando a última linha lida for igual à palavra FIM",
+    "format_output": "O lanche com mais pedidos, acompanhado de sua quantidade",
+    "topics": [
+        "acumulador",
+        "ordenação",
+        "dicionário",
+        "formatação"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Monitoria especial",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Esoj, monitor da turma de Introdução à Computação, decidiu aplicar uma prova surpresa para avaliar seus alunos. Após a prova, ele precisa organizar os resultados para inserir em sua planilha pessoal. Sua tarefa é ajudar Esoj a organizar a planilha com base nos dados fornecidos. Você receberá a quantidade N de alunos que fizeram a prova, seguida pelas informações de cada aluno no formato: NOME IDADE NOTA. Ex.: 3 MacReady 25 9.50 Childs 22 7.00 Palmer 27 5.00 Organize as informações em ordem crescente, primeiro pelas notas e depois pelas idades, e calcule a média e mediana para ambos os atributos. Ex.: --- Notas --- Palmer 5.00 Childs 7.00 MacReady 9.50 --------- Média Nota: 7.17 Mediana Nota: 7.00 --- Idade --- Childs 22 MacReady 25 Palmer 27 --------- Média Idade: 24 Mediana Idade: 25",
+    "format_input": "A primeira linha da entrada contém um número inteiro N, representando a quantidade de alunos que realizaram a prova. Em seguida, há N linhas, cada uma contendo três valores: Uma String correspondente ao nome do aluno. Um Inteiro correspondente à idade do aluno. Um Double correspondente à nota do aluno. N NOME IDADE NOTA NOME IDADE NOTA ...",
+    "format_output": "--- Notas --- NOME NOTA NOME NOTA ... --------- Media Nota: double Mediana Nota: double --- Idade --- NOME IDADE NOME IDADE ... --------- Media Idade: double Mediana Idade: double",
+    "topics": [
+        "array",
+        "ordenação",
+        "estruturas"
+    ]
+}

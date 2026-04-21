@@ -1,0 +1,12 @@
+{
+    "title": "Q10 - Pirâmide Numérica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Desenvolva um procedimento chamado \"piramideNumerica\" que recebe um número n e imprime uma pirâmide numérica com n linhas, onde a primeira linha tem \"1\" a segunda tem \"2 2\", a terceira tem \"3 3 3\", e assim por diante.",
+    "format_input": "um número inteiro",
+    "format_output": "uma pirâmide de 1 até o número digitado",
+    "topics": [
+        "função",
+        "string",
+        "formatação"
+    ]
+}

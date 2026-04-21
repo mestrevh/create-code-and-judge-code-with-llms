@@ -1,0 +1,11 @@
+{
+    "title": "Hipercubo",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em geometria um hipercubo é um elemento geométrico análogo ao quadrado (n=2) e ao cubo (n=3). Ele consiste em grupos de segmentos de linha paralelos alinhados às dimensões do espaço, com ângulos retos entre si e de mesmo tamanho. Um hipercubo n-dimensional também é chamado de n-cubo. Em computação paralela, os vértices são processadores e as arestas representam conexões entre dois processadores. Uma arquitetura n-cubo apresenta as seguintes propriedades: Cada nó possui n conexões com diferentes processadores. Cada processador possui um identificador único, entre 0 e 2^(n-1). Dois processadores estão diretamente conextados se, e apenas se, seus identificadores diferem em apenas um bit. Por exemplo, em um 3-cubo, os processadores 3 (011 em binário) e 7 (111 em binário) são diretamente conectados. O número de processadores é 2^n. Uma nova empresa, WEFAIL, está projetando hipercubos. Todavia, ela está sempre contratando novas pessoas que não conhecem todas as propriedades dos hipercubos e, algumas vezes, falham em projetar o cubo. Neste sentido, dado um grafo arbitrário, sua tarefa é escrever um programa que determine se um grafo representa ou não um hipercubo.",
+    "format_input": "A entrada consiste de diversos problemas. Cada problema contém um grafo, que é iniciado com uma linha com dois inteiros positivos: k e m, representando o número de vértices ( 0 < k <= 1024) e o número de arestas ( 0 <= m <= 5130), respectivamente. A seguir, são apresentadas m linhas, representando as arestas. Cada aresta é dada por dois inteiros de 32 bits representando os processadores conectados à aresta. O fim da entrada é indicado por um caso de teste com k=0.",
+    "format_output": "Para cada problema, a saída é uma única linha, contendo a palavra 'SIM' se o grafo correspondente é um hipercubo e 'NAO', caso contrário.",
+    "topics": [
+        "grafo",
+        "busca completa"
+    ]
+}

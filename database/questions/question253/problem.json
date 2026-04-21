@@ -1,0 +1,10 @@
+{
+    "title": "As duas strings são iguais?",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Leia duas strings e imprima \"IGUAIS\" caso elas sejam iguais e \"DIFERENTES\" caso sejam diferentes.",
+    "format_input": "Você receberá duas linhas, cada uma contendo uma string com no máximo 50 caracteres.",
+    "format_output": "Você deve imprimir uma linha contendo a string \"IGUAIS\" ou \"DIFERENTES\".",
+    "topics": [
+        "string"
+    ]
+}

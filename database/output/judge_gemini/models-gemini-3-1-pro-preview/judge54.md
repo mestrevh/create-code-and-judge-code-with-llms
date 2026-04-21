@@ -1,0 +1,5 @@
+# Modelo do judge: models/gemini-3.1-pro-preview
+
+VEREDITO: APROVADO
+COMPLEXIDADE: O(N^3) tempo, O(N^2) espaço
+FEEDBACK: O código implementa corretamente a solução em busca completa (brute-force), iterando sobre todos os trios de músicos possíveis para encontrar a soma máxima dos níveis de entrosamento. A complexidade de tempo O(N^3) por caso de teste é muito eficiente para o limite de N = 100, resultando em no máximo ~166.666 iterações no loop mais interno, executando com muita margem de sobra para o tempo limite de 5 segundos. A complexidade de espaço O(N^2) devido à matriz de adjacência ocupa poucos kilobytes na memória, sendo plenamente aceitável. O uso do tipo `long long` previne problemas teóricos de overflow na soma (mesmo que neste problema a soma não passe de 300) e a garantia do primeiro trio em ordem lexicográfica funciona perfeitamente graças à ordem crescente em que os laços `i`, `j` e `k` são dispostos. O código lidou de forma segura com múltiplos casos de teste, grafos esparsos e desconexos. Excelente uso de C++ moderno e otimização das entradas de dados.

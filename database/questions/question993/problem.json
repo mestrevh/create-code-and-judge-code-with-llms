@@ -1,0 +1,10 @@
+{
+    "title": "Melhor venda",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio está com uma empresa de venda de barras de ferro chamada Febrósio. Febrósio vende para duas cidades, Ambrolândia e Ambro City, cada uma tem uma tabela o qual indica o preço que compra as barras de ferro pelo seu comprimento. Cada cidade vai fornecer sua tabela de valores. Com isso a Febrósio contratou você para desenvolver o software de gerenciamento e um dos requisitos do software é cada o comprimento de uma barra feita na Febrósio ela pode ser divida em até dois pedaços. Febrósio quer que seu programa garanta que toda a barra seja vendida. Restrições: 1 <= T <= 100. 1 <= N <= 2*T.",
+    "format_input": "Dado dois inteiros N e T, N é o comprimento da barra em metros e a T o tamanho da tabela das cidades. Serão recebidas duas linhas com T valores cada, primeira refente a Ambrolândia e logo em seguinda da Ambro City. A posição Ti na lista indica quanto a cidade vai pagar por i metros.",
+    "format_output": "Duas linhas, a primeira um inteiro indicando de quantas maneiras diferentes é possível achar o valor maximizante e na segunda o valor máximo com duas casas decimais.",
+    "topics": [
+        "array"
+    ]
+}

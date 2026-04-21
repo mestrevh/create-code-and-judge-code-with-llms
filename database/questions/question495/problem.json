@@ -1,0 +1,11 @@
+{
+    "title": "Grampos",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Berenice é professora de 7 turmas do Ensino Médio. Em cada turma, ela realiza 4 provas por ano. Ela resolveu fazer uns cálculos de quantos grampos ela vai gastar para grampear todas as provas do ano que vem. Escreva um programa que receba como entrada a quantidade de alunos de cada turma de Berenice, e exiba o total de grampos que serão usados e a quantidade de caixas que ela precisará adquirir (cada caixa contém 30 grampos). Obs: Considere que todos os alunos farão todas as provas, e que todas as provas precisam ser grampeadas, sem exceções",
+    "format_input": "Vários valores inteiros",
+    "format_output": "Dois valores inteiros",
+    "topics": [
+        "multiplas entradas",
+        "acumulador"
+    ]
+}

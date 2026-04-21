@@ -1,0 +1,11 @@
+{
+    "title": "Coleta Seletiva",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrolândia vem crescendo e como toda cidade grande ela está começando a se preocupar com o meio ambiente, o prefeito, Sr. Ambrósio, decidiu começar a coleta seletiva na cidade e encontrou alguns problemas no caminho. O sr. Ambrósio tem uma verba limitada, o que torna a quantidade de caminhões limitada com cada caminhão levando somente 3 metros cubicos, ele procurou você para ajuda-lo na organização do seu sistema de coleta seletiva.",
+    "format_input": "Um inteiro C, um inteiro N que representam respectivamente a quantidade de caminhões, o números de prédios a serem visitados. Em seguida o programa recebe N inteiros representando a quantidade de apartamentos de cada prédio e seus consumos médios diário de lixo reciclável(separadamente, Vidro(L), Papel(m³), Plástico(L) e Metal(mL)), observação se a quantidade de apartamentos do prédio for igual ou menos que 0, então não precisa receber o consumo médio desse predio.",
+    "format_output": "Um único inteiro representando a quantidade de viagens que precisarão ser dadas em média por cada caminhão com um final de linha. Caso não tem caminhões disponíveis imprima \"Nao possuem caminhoes para fazer a coleta!\", sem as aspas e com um final de linha.",
+    "topics": [
+        "acumulador",
+        "repetição"
+    ]
+}

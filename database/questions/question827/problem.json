@@ -1,0 +1,12 @@
+{
+    "title": "Dobro da área do quadrado.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que calcule a área de um quadrado e em seguida escreva o dobro desta área.",
+    "format_input": "Medida de um dos lados do quadrado (já que todos os lados são iguais).",
+    "format_output": "Cálculo da área do quadrado. Cálculo do dobro da área do quadrado.",
+    "topics": [
+        "Java",
+        "Geometria",
+        "Matemática"
+    ]
+}

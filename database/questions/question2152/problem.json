@@ -1,0 +1,13 @@
+{
+    "title": "Classificação na Corrida",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Vários participantes se inscreveram para uma corrida de rua. Cada inscrição foi feita com o nome e a idade do participante. Não houve nenhum par de inscritos com o mesmo nome. Cada corredor inscrito recebeu um número de identificação impresso que foi gerado seguindo a ordem das inscrições. Portanto, o primeiro a se inscrever recebeu o número 1, o segundo o número 2 e assim por diante. No dia da corrida os números de identificação dos competidores foram registrados sequencialmente, à medida que cada corredor chegava na meta. Todos os inscritos terminaram a prova e não houve nenhuma chegada simultânea. Queremos saber: • Os nomes dos dez primeiros colocados na classificação geral. • A classificação pelas categorias: A. Até 39 anos B. De 40 a 59 anos C. De 60 ou mais anos",
+    "format_input": "Uma sequência de inscrições, terminada ao se fornecer o valor 0, seguida imediatamente pela sequência de números de identificação que indicam a ordem de chegada durante a corrida, sendo um por linha e na mesma quantidade de inscritos. Cada inscrição deve ser digitada em uma linha contendo o nome e a idade do participante, separados por vírgula. O nome é um string com até 40 caracteres e a idade é um número inteiro maior que zero.",
+    "format_output": "Iniciada por uma linha contendo um string \"Dez primeiros\", seguida pelos dez primeiros colocados, por ordem de chegada. Deve-se informar em cada linha do resultado a posição (1 a 10), seguida do nome, número de inscrição e idade, separados por espaços em branco. Logo após deve ser impresso um string \"Classificação Geral\" e nas linhas seguintes uma listagem de todos os participantes, ordenada alfabeticamente pelo nome. Para cada participante será impressa uma linha com o nome, a categoria (A, B ou C) e a classificação dentro da respectiva categoria, separados por vírgula.",
+    "topics": [
+        "array",
+        "acumulador",
+        "decisão",
+        "ordenação"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Maior número.",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa em Java que leia 50 números e informe o maior número.",
+    "format_input": "Os 50 valores digitados.",
+    "format_output": "O maior valor.",
+    "topics": [
+        "multiplas entradas",
+        "acumulador",
+        "repetição"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "DFS: imprimindo as folhas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado um grafo direcionado acíclico, você deve: imprimir todas as folhas em ordem lexicográfica; remover as folhas da árvore; repetir o procedimento até que não existam mais nós.",
+    "format_input": "Consiste de vários casos de teste. Cada caso de teste começa com uma linha contendo o inteiro n indicando o número linhas. Cada linha possui duas strings A e B, indicando que existe uma aresta do nó A para o nó B. A e B possuem no máximo 15 caracteres formados pelas letras maiúsculas A..Z; O número máximo de nós é 100.",
+    "format_output": "Para cada caso de teste imprima uma linha contendo cada um dos nós folhas, de acordo com a descrição do problema.",
+    "topics": [
+        "grafo"
+    ]
+}

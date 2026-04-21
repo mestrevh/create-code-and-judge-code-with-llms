@@ -1,0 +1,10 @@
+{
+    "title": "Subtração de inteiros",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Dado dois números inteiros x e y, sua tarefa é calcular o valor absoluto da subtração entre esses números.",
+    "format_input": "A entrada é composta por dois inteiros x e y (0 < x, y < 10⁹).",
+    "format_output": "Você deve imprimir o valor absoluto da subtração dos dois inteiros da entrada. Lembre-se da quebra de linha ao final da saída.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

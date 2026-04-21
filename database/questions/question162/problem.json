@@ -1,0 +1,12 @@
+{
+    "title": "Hotel da Senhora Ambrosina",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Feriadão chegando e o hotel da Ambrosina precisa acomodar todos os inúmeros hóspedes que o procuram. Os hóspedes fazem a reserva com antecedência. Cada reserva consiste da hora de chegada e de partida. O hotel contratou você para calcular o número máximo de hóspedes que estarão no hotel ao mesmo de maneira simultânea. Note que se um hóspede chegar no hotel ao mesmo tempo que outro sai, não se considera que eles estão simultaneamente no hotel.",
+    "format_input": "A entrada começa com um inteiro T representando o número de casos de teste. Cada caso de teste começa com um inteiro N, identificando o número de hóspedes. As linhas a seguir contêm exatamente N inteiros positivos. O i-ésimo inteiro da primeira linha representa a hora de chegada do i-ésimo hóspede. O i-ésimo inteiro da segunda linha representa a hora de partida do i-ésimo hóspede (que será sempre maior que o horário de chegada desse hóspede). Considere: T <= 100, N <= 100, Todos os horários de entrada e saída serão >= 1 e <= 1000.",
+    "format_output": "Para cada caso de teste, imprima o número máximo de hóspedes que ficarão simultaneamente no hotel.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "acumulador"
+    ]
+}

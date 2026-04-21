@@ -1,0 +1,10 @@
+{
+    "title": "O Salto do Amor",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Oileh, um príncipe encantado que foi transformado em sapo pela Bruxa Má, precisa atravessar um rio para encontrar sua amada princesa. O caminho é formado por troncos enumerados de 0 a 10000, mas ele precisa ter cuidado: alguns troncos são, na verdade, jacarés disfarçados. Para ajudá-lo, sua amada identificou quais troncos são seguros de acordo com a escolha de um dos sapatos mágicos feitos sob medida pela Rainha do Pântano. Cada sapato possui uma regra diferente para os saltos: 1. Sapato 1: Oileh só pode pular sobre troncos cujos números fazem parte da sequência de Fibonacci. 2. Sapato 2: Oileh só pode pular sobre troncos cujos números são números primos. 3. Sapato 3: Oileh só pode pular sobre troncos cuja soma dos dígitos é par. Se ele escolher um número de sapato inválido, será atacado pelo Jacaré do Mal imediatamente.",
+    "format_input": "Um número de 1 a 3, indicando qual sapato mágico Oileh escolheu. Um número inteiro X, indicando quantos troncos ele precisa atravessar para chegar ao outro lado do rio. Uma sequência de X números (entre 0 e 10000), representando os troncos enumerados pela princesa.",
+    "format_output": "Se Oileh conseguiu atravessar o rio pulando apenas nos troncos válidos, imprima: Muack! Se Oileh pisar em um tronco inválido (jacaré disfarçado), imprima: Nhac!",
+    "topics": [
+        "recursão"
+    ]
+}

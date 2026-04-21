@@ -1,0 +1,11 @@
+{
+    "title": "Comércio Eletrônico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Escambo Livre, market place gigante do comércio eletrônico nacional, recentemente começou a construir centros de distribuição para baratear os custos de envio dos produtos. Apesar da maior parte dos custos ser paga pelos próprios vendedores, o Escambo Livre paga uma parte desses custos e barateá-los poderia aumentar sua margem de lucro. Para determinar quantos centros de distribuição precisa construir, o Escambo livre utiliza um cálculo que leva em consideração a capacidade de distribuição total de seus centros, o número de encomendas que precisa enviar e a diferença de custo de envio quando terceiriza o serviço. Para o Escambo Livre só vale a pena abrir um novo centro de distribuição se esse custo ultrapassar R$100.000,00.",
+    "format_input": "A entrada é formada por dois números inteiros e um número real indicando, respectivamente, a capacidade total de seus centros de distribuição (número máximo de encomendas que consegue enviar), o número de encomendas que precisa enviar e o custo adicional que precisa pagar por cada encomenda enviada usando uma empresa de logística terceirizada.",
+    "format_output": "A saída deve conter duas linhas onde a primeira deve conter: Custo de terceirizacao: R$xxxx.xx Onde xxxxx.xx indica o custo do Escambo Livre com terceirização, com duas casas decimais. A segunda linha deve conter uma frase indicando se um novo centro deve ser aberto ou não: ABRA UM NOVO CENTRO ou NAO ABRA UM NOVO CENTRO",
+    "topics": [
+        "decisão",
+        "entrada formatada"
+    ]
+}

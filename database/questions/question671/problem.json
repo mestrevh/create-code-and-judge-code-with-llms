@@ -1,0 +1,10 @@
+{
+    "title": "Bom Amigo Secreto",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Está perto do Natal, e o time de Eventos da empresa Koobecaf resolveu criar um evento para o amigo secreto. Porém, o amigo secreto que eles jogam é um pouco diferente. Você sempre compra dois presentes. Depois que o sorteio é feito, a brincadeira original é realizada, mas com um detalhe: depois que alguém lhe dá um presente, você dá de volta um dos dois presentes que você comprou. Assim, se há três pessoas A, B e C, e A tira B, B tira C e C tira A, então: A dará um presente a B; B dará um presente de agradecimento a A, e dará outro presente a C; C dará um presente de agradecimento a B, e dará outro presente a A; A dará um presente de agradecimento a C. O time se estressa com o sorteio quando um ciclo se fecha que não inclua todo mundo. Eles só gostam da brincadeira quando, a partir do momento que a primeira pessoa é escolhida para dar seu presente, a sequência se segue até que ela seja a última a receber, sem que nenhuma outra pessoa fique de fora. Como eles estão bastante ocupados com a preparação do evento, chamaram você para dizer de quantas formas cada pessoa pode ter recebido presentes no final, dado que o sorteio é feito de forma que não estresse o time. Dizemos que duas formas são diferentes quando há duas pessoas, A e B, que trocam presentes em uma delas e na outra não. Por exemplo, a configuração em que A tira B, B tira C e C tira A é igual a C tira B, B tira A e A tira C.",
+    "format_input": "A entrada é composta por vários casos de teste. A primeira linha contém o número T de casos de teste (1 ≤ T ≤ 10^3). A seguir, para cada caso de teste, haverá um inteiro N (2 ≤ N ≤ 10^3), representando o número de pessoas que jogarão o bom amigo secreto esse ano.",
+    "format_output": "Para cada caso de teste, imprima uma única linha contendo o número de configurações distintas. A resposta deve ser dada módulo 10^9 + 7 (1000000007).",
+    "topics": [
+        "lógica matemática"
+    ]
+}

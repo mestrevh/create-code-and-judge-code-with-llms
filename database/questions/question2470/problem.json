@@ -1,0 +1,14 @@
+{
+    "title": "Aquele dos CDs do Chandler (Extra)",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Mônica acabou de descobrir que um dos CDs de Chandler está na capa errada e ao questiona-lo, ele disse que se não consegue encontrar a capa certa, ele coloca na mais próxima que encontrar, nesse momento Mônica, que é só um pouco fissurada em organização, percebeu que teria que colocar todos os CDs nas suas devidas capas. O seu objetivo é ajudar mônica colocar os CDs em suas respectivas capas, depois organizar os mesmos alfabeticamente. Podem haver CDs sem capa e capa sem CD.",
+    "format_input": "Um inteiro I que representa a quantidade de CDs que Mônica terá que organizar. I Seguido de I linhas com os nomes dos cantores/bandas e gêneros de cada CD encontrado no seguinte formato: Cantor-Gênero Seguido de I linhas com os nomes dos cantores/bandas e gêneros de cada Capa encontrada no seguinte formato: Cantor-Gênero Obs: o nome dos cantores sempre terão somente letras.",
+    "format_output": "A saída deve conter todos os CDs que Mônica encontrou a Capa e em ordem alfabética. No seguinte formato: Abba Pop AC/DC Rock Bee Gees Pop Cher Pop Por fim deve ser impressa todas as Capas e CDs que Mônica não encontrou seus pares, no formato: Chandler, você vai ter que comprar a capa para os CDs Beatles, Rolling Stones. E os CDs para as capas Aerosmith, Queen. Atente-se a separar os nomes de cantor/banda, por virgula.",
+    "topics": [
+        "array",
+        "decisão",
+        "ordenação",
+        "busca",
+        "formatação"
+    ]
+}

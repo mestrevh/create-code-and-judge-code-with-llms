@@ -1,0 +1,12 @@
+{
+    "title": "O Duelo dos Clãs",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Um campo de batalha de RPG é representado por uma matriz 8×8. Cada posição contém uma unidade ou está vazia (\"--\"). As unidades têm um tipo e pertencem a um clã: Equipe Azul ou Equipe Vermelha. Cada tipo de unidade tem um poder base: Guerreiro (\"g\") = 5, Mago (\"m\") = 8, Arqueiro (\"a\") = 6, Cavaleiro (\"c\") = 10, Dragão (\"d\") = 15, Rei (\"k\") = 0 (inspira outras unidades). As unidades recebem modificadores de poder baseados nas regras abaixo: 1. Posição Estratégica (Centro): +3 pontos se a unidade estiver no centro (linhas 3 e 4, colunas 3 e 4). 2. Proximidade com o Rei: +2 pontos se a unidade estiver ao lado (linha ou coluna adjacente) de um Rei do mesmo clã. 3. Isolamento: -1 ponto se a unidade não tiver aliados adjacentes (horizontal ou verticalmente). Objetivo 1. Calcule o poder total de cada equipe somando os poderes base e os modificadores. 2. Compare os totais para determinar o vencedor: Imprima \"Equipe Azul\" se o total da Equipe Azul for maior. Imprima \"Equipe Vermelha\" se o total da Equipe Vermelha for maior. Imprima \"Empate\" se os totais forem iguais.",
+    "format_input": "Uma matriz 8×8, onde cada posição contém uma string (\"ta\" ou \"tv\") ou \"--\".",
+    "format_output": "Resultado do confronto: \"Equipe Azul\", \"Equipe Vermelha\", ou \"Empate\".",
+    "topics": [
+        "acumulador",
+        "array bidimensional",
+        "estruturas"
+    ]
+}

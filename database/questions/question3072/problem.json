@@ -1,0 +1,10 @@
+{
+    "title": "Verificando Sudoku",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade é fascinada por puzzles, recentemente ela vem ser maravilhando com Sudokus cada vez mais difíceis. Ela gerou vários Sudokus de vários tamanhos e está pensando em emoldurar, mas ela não quer emoldurar nenhum Sudoku inválido. Ajude a Entidade a descobrir se o Sudoku gerado por ela é valido ou não. As regras de um Sudoku n x n são as seguintes (https://pt.wikipedia.org/wiki/Sudoku): É preciso preencher todas as linhas do tabuleiro os números de 1 até n, sem repetir; É preciso preencher todas as colunas do tabuleiro os números de 1 até n, sem repetir; É preciso preencher cada quadrado raíz(n) x raíz(n) com números de 1 até n, sem repetir (o primeiro quadrado começa do canto superior esquero, e nenhum quadrado se intercepta).",
+    "format_input": "A primeira linha da entrada possui um inteiro n indicando o tamanho do Sudoku. Em seguida virão n linhas, a i-ésima linha terá n inteiros e o j-ésimo inteiro da linha i representa o valor da célula c_i_j do Sudoku. Limites: 1 <= n <= 1000 1 <= c_i_j <= n",
+    "format_output": "Imprima \"YES\", caso o Sudoku seja válido e \"NO\" caso seja inválido.",
+    "topics": [
+        "array bidimensional"
+    ]
+}

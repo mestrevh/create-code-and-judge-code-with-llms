@@ -1,0 +1,12 @@
+{
+    "title": "Incendio",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Um grupo de amigos está trabalhando em um sistema de sprinklers (Chuveiro automático para extinção de incêndios ) que evite falsos alarmes. O programa tem acesso à detectores de fumaça e termômetros para identificar possíveis focos de incêndio. Nesse sistema um ambiente é considerado livre de incêndio se todas as seguintes condições forem atendidas: - não há fumaça; - a temperatura no local varia até 15% em relação à média e sempre para mais do que a média; - a temperatura está abaixo de 40º. Sua tarefa é escrever um programa que dada as temperaturas e a identificação de fumaça ative os sprinklers que detectaram um incêndio.",
+    "format_input": "A primeira linha indica o número de casos de teste. Para cada caso de teste: - a primeira linha representa o número N de sprinklers, cada uma das N linhas seguintes apresentam: um número inteiro, representando o ID do sprinkler. um número de ponto flutuante expressando a temperatura no local. um carácter que pode ser 'S' ou 'N', onde 'S' significa que detectou fumaça e 'N' que não",
+    "format_output": "Para cada caso de teste seu programa deve escrever TESTE i. Onde i representa o número do caso de teste(começando a partir de 1). Em seguida escreva quais sprinklers deste caso devem ser ativados dadas as especificações na descrição.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "estruturas"
+    ]
+}

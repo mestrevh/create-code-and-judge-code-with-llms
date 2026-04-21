@@ -1,0 +1,181 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 3573 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3573</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Entrega de trabalho no prazo</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Os alunos de Engenharia sempre se engajam em muitas atividades acadêmicas. No final de cada semestre sempre há prazos para as entregas de trabalhos. Nerdinho quer saber se conseguirá realizar a apresentação<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>de uma dada disciplina</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>que depende do aval da professora, isto é, ele precisa que a professora leia antes o trabalho.<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Logo, ele não pode entregar o trabalho no dia da apresentação.</span></span></span></font></font></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>O seu objetivo é fazer um programa que<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Informe a Nerdinho qual a situação dele em função da data de entrega do trabalho e a data final de<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>entrega</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>.</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Mais detalhes na seção de Formato de Saída.</span></span></span></font></font></font></span></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><font color="#454545"><font face="Arial, sans-serif"><font size="3">A entrada é composta por:</font></font></font></p><ul style="color: rgb(0, 0, 0);"><li><p style="background-color: transparent;text-align: justify;"><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>um valor<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>I</span></span></span></font></font></font></span><strong><b><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>(0 &lt;<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span></b></strong><strong><b><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>I</span></span></span></font></font></font></span></b></strong><strong><b><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>&lt; 25)<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span></b></strong><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>representando o dia que foi entregue o<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>trabalho</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>p</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>ar</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>a verificação.<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span></p></li><li><p style="background-color: transparent;text-align: justify;"><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Um valor<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>F</span></span></span></font></font></font></span><strong><b><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>(0 &lt;<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span></b></strong><strong><b><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>F</span></span></span></font></font></font></span></b></strong><strong><b><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>&lt; 25)<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span></b></strong><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>que representa a data final p</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>a</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>ra</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>apresent</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>ação.</span></span></span></font></font></font></span></p></li></ul></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Mostre, para cada caso de teste, se<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Nerdinho conseguirá </span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>apresenta</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>r </span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>ou não<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>o seu trabalho</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>. </span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Quando não for possível a professora ler o trabalho (a data final é anterior a data de entrega), apresente a mensagem<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>&#34;Eu odeio a professora!&#34;. Caso seja entregue em até 3 dias antes do prazo final,<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>apresente a mensagem<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>&#34;Muito bem!<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>N</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>o prazo</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>!&#34;, caso contrário, sendo muito próximo da data limite<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>apresente a mensagem </span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>&#34;Parece o trabalho do meu filho!&#34;, nesse ultimo caso, é adicionado mais dois dias para correções, e caso a data final seja menor que<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>24</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>, el</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>e </span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>poderá apresentar, sendo<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>apresentada a mensagem<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>&#34;</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Trabalho </span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Apresentado!&#34;, caso contrário, &#34;</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>Voc</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>e </span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>falhou</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>! </span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>At</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>e </span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>a proxima</span></span></span></font></font></font></span><span><font color="#454545"><font face="Arial, sans-serif"><font size="3"><span><span><span>!&#34;</span></span></span></font></font></font></span></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3573/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question3573/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3573/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question3573/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3573/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question3573/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3573/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question3573/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3573/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question3573/outputs/out4.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3573/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question3573/outputs/out5.txt">
+                Exemplo 6
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

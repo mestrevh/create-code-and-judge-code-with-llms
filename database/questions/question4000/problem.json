@@ -1,0 +1,10 @@
+{
+    "title": "Quantos entre 5 e 10",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Defina duas funções recursivas, uma que verifique se uma lista de inteiros está formada somente por inteiros positivos e outra que, dada uma lista de inteiros, retorne a quantidade de inteiros na lista que estão entre 5 e 10, inclusive. Utilize ambas funções para retornar a saída especificada abaixo. A sua solução não pode utilizar nenhuma função pré-definida da linguagem de programação que você esteja empregando.",
+    "format_input": "Uma lista de inteiros, todos em uma única linha.",
+    "format_output": "Se a lista contiver algum número negativo, deverá ser impresso “ha nao positivo”, caso contrário deverá ser impressa a quantidade de inteiros na lista que estão entre 5 e 10, inclusive.",
+    "topics": [
+        "recursão"
+    ]
+}

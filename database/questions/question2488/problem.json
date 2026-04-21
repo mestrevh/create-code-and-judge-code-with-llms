@@ -1,0 +1,10 @@
+{
+    "title": "Árvore Binária",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Nessa questão você deve Implemente a estrutura de dados “Árvore Binária” com os métodos citados a seguir. Sinta-se livre para criar qualquer método extra, você provavelmente vai precisar implementar métodos privados para auxiliar os métodos públicos. Sua classe também deve tratar todos os possíveis erros de forma específica para a classe (https://docs.python.org/3.6/tutorial/errors.html). __len__ Nesse método você deve retornar quantos Nó existem na sua árvore __str__ Aqui, você precisa implementar um método str para exibir na tela a sua árvore em pre-ordem inserir método inserir, aqui você deve implementar uma função que insira elementos(chave,valor) a sua árvore. buscar Nesse método passando como parâmetro uma chave você deve ser capaz de retornar seu valor, caso exista essa chave. Se essa chave não existir você deve retornar um erro (Raise KeyError) remover método remoção, aqui você deve implementar uma função que remove um elemento(chave,valor) a sua árvore",
+    "format_input": "Você deve implementar o seguinte sequencia de números - 15, 66, 1, 50, 11 - A chave deve ser o número inteiro e seu valor o número por extenso - (15,'quinze') - Os seguintes comandos devem ser seguidos para chamar os métodos da sua classe \"P\" = Imprime em sequencia cada nó da árvore em pre-ordem \"L\" = Imprime o tamanho da árvore \"R\" = Dado uma chave, remove sua chave e valor da árvore e retorna seu valor. - Após esse comando, informe o número a ser removido - \"B\" = Busca o valor da chave, se encontrado, retorna seu valor. - Após esse comando, informe o número a ser procurado -",
+    "format_output": "O print deve seguir essa arquitetura CHAVE DOIS PONTOS + VALOR + SINAL DE MENOS + SINAL DE MAIOR QUE Lembre-se que a chave vai ser um inteiro e o valor uma string.",
+    "topics": [
+        "Árvore"
+    ]
+}

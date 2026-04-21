@@ -1,0 +1,11 @@
+{
+    "title": "Menor, maior, percentual de pares e média",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Fazer um programa que leia n elementos e armazene-os em um vetor. Imprimir o menor, o maior, o percentual de números pares e a média dos elementos do vetor.",
+    "format_input": "Um número inteiro representando o número de elementos do vetor na primeira linha. N números reais em coluna, que são os elementos do vetor.",
+    "format_output": "4 números reais em coluna: menor elemento, maior elemento, percentual de pares (formatado com 2 casas decimais) e média dos elementos (formatado com 2 casas decimais).",
+    "topics": [
+        "array",
+        "repetição"
+    ]
+}

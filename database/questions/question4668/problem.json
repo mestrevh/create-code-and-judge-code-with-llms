@@ -1,0 +1,10 @@
+{
+    "title": "Davi e a maratona de inverno",
+    "time_limit": "3 segundo(s)",
+    "descrition": "Davi Romão, reconhecido por sua genialidade e paixão por maratonas de programação, foi convidado pela Sociedade Brasileira de Computação (SBC) para organizar a Maratona de Inverno. O objetivo era reunir os 2 ^ N melhores times para um torneio de eliminação direta. Davi queria que a maratona durasse 10 ^ 9 dias. Para o sucesso do evento, ele precisava garantir que: 1. Todas as partidas fossem realizadas nos dias corretos: na primeira rodada, 2 ^ N - 1 partidas entre pares consecutivos (Time 1 vs. Time 2, Time 3 vs. Time 4, etc.); nas rodadas seguintes, os vencedores avançam até a final. 2. As partidas só ocorrem se os dois times estiverem disponíveis no mesmo dia. 3. Caso um time não esteja disponível, sua agenda deve ser ajustada com um custo calculado como |li - li'| + |ri - ri'|, onde li' e ri' são os novos intervalos. Restrições: Cada time tem uma agenda inicial [li, ri] com 1 <= li <= ri. O custo total de ajustes não pode ultrapassar 10 ^ 9. O objetivo é calcular o menor custo que garante o funcionamento correto do evento até a partida final.",
+    "format_input": "Um número inteiro N (1 <= N <= 18) e 2 ^ N pares de inteiros representando as agendas de cada time. Exemplo: Entrada 3, 1 4, 1 3, 3 4, 2 2, 3 4, 4 4, 2 3, 3 4. Saída 1. Explicação: Com N = 3 (8 times), os intervalos iniciais são fornecidos. Ajustando a agenda do Time 4 para [2,3], o custo é |2 - 2| + |2 - 3| = 1. Nenhuma outra agenda precisa ser alterada.",
+    "format_output": "Imprima o custo total mínimo necessário para ajustar as agendas dos times de forma que todas as partidas possam ser realizadas.",
+    "topics": [
+        "maratona"
+    ]
+}

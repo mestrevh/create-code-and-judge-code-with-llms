@@ -1,0 +1,11 @@
+{
+    "title": "Imprensadinho",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Ambrósio convidou seus amigos para assistirem o jogo da final da Copa do Mundo de Futebol. Entre uma cerveja e outra eles decidiram brincar de Imprensadinho. Ambrósio vai escolher um número inteiro aleatório entre 0 e 100. O objetivo dos outros jogadores é imprensar o número escolhido por Ambrósio. Caso alguém escolha o número digitado por Ambrósio, ele irá beber um copo de cerveja. Caso os amigos de Ambrósio imprensem o número escolhido por ele, Ambrósio beberá um copo de cerveja. Imprensar um número é escolher o antecessor e o sucessor deste número. A cada número dito pelos amigos de Ambrósio, ele deverá dizer entre quais números já ditos anteriormente o número de Ambrósio se encontra, exceto quando o número é imprensado ou é dito o próprio número escolhido por ele. Enquanto não houver um número para Ambrósio dar o intervalo, considere 0 como menor e 100 como maior. Ex1.: Ambrósio escolheu o número 34. Um amigo de Ambrósio escolheu 33 e outro amigo, 35. Ambrósio foi imprensado e bebe. Ex2.: Ambrósio escolheu o número 34. Se um amigo escolher 34, ele bebe pois escolheu o mesmo número que Ambrósio digitou.",
+    "format_input": "Um número inteiro entre 0 a 100, que é o número escolhido por Ambrósio, seguido por vários números inteiros escolhidos pelos amigos de Ambrósio. A entrada só termina quando o número é imprensado ou o próprio é escolhido.",
+    "format_output": "Para cada número escolhidos pelos amigos de Ambrósio você deve imprimir na tela uma mensagem: Se o número for o escolhido por Ambrósio, imprima na tela: \"Voce bebe!\"; (sem aspas) Se o número for maior ou menor que o escolhido por Ambrósio, imprima na tela: \"Escolha um numero entre x e y!\"; Se o número de Ambrósio for imprensado, imprima na tela: \"Ambrosio bebe!\"; Com x representando o menor e mais próximo número digitado e y o maior e mais próximo do número digitado.",
+    "topics": [
+        "decisão",
+        "busca"
+    ]
+}

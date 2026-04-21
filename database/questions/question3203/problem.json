@@ -1,0 +1,10 @@
+{
+    "title": "[C3] LAB - 9",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um hotel deseja fazer uma promoção especial de final de semana, concedendo um desconto de 25% na diária. Sendo informados, o número de apartamentos do hotel e o valor da diária por apartamento, elabore um algoritmo para calcular: a) o valor promocional da diária b) o valor total a ser arrecadado caso a ocupação neste final de semana atinja 100% c) o valor total a ser arrecadado caso a ocupação neste final de semana atinja 70% d) o valor que o hotel deixará de arrecadar em virtude da promoção, caso a ocupação atinja 100% DICA: Quando lidarmos com dinheiro, use a função round(valor, 2) Não imprima nada na entrada/saída.",
+    "format_input": "Número de apartamentos do hotel Valor normal da diária",
+    "format_output": "Valor promocional da diária Valor total a ser arrecadado caso a ocupação neste final de semana atinja 100% Valor total a ser arrecadado caso a ocupação neste final de semana atinja 70% Valor que o hotel deixará de arrecadar em virtude da promoção, caso a ocupação atinja 100%",
+    "topics": [
+        "estruturas"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Vença os Ninjas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em um arcade de sua cidade, foi lançado um novo jogo que precisa de muita velocidade e raciocínio, perfeito para ninjas! O jogo consiste em atravessar uma matriz de números positivos, acumulando o máximo de pontos possível (valores dentro das células da matriz), dado que você começa no canto esquerdo superior e precisa terminar no canto inferior direito. A pontuação do jogo é definida pela soma dos pontos obtidos, dividido pelo tempo gasto no percurso em segundos.. Sua tarefa é dizer qual seria a pontuação da partida que você observou Naruto jogar, dados os valores da matriz, as células visitadas pelo mesmo e o tempo gasto em segundos.",
+    "format_input": "N M - tamanho da matriz\nEm seguida, N linhas, cada uma com M inteiros:\nM1,1 M1,2 M1,3 … M1,M\nM2,1 M2,2 M2,3 … M2,M\nM3,1 M3,2 M3,3 … M3,M\n….\nMN,1 MN,2 MN,3 … MN,M\nSegue um inteiro P, representando a quantidade de posições visitadas e P linhas, que representam as posições visitadas por Naruto, no formato:\nX1 Y1\nX2 Y2\nX3 Y3\n…\nXn*m Yn*m\nNa última linha segue um inteiro T que representa o tempo gasto em segundos, no percurso.\nOBS:\nNa matriz de posições visitadas são armazenados o número da linha e coluna, iniciando por 1 (e não por 0). Assim, a primeira posição visitada será sempre a (1,1) e a última sempre a (n, m).\nÉ garantido que após visitar uma posição qualquer, a próxima posição visitada é uma posição vizinha abaixo ou a direita.\nOs valores presentes nas células iniciais e finais devem ser contados na pontuação.",
+    "format_output": "Deve ser impresso um número real K, aproximado em 2 casas decimais, representando a pontuação obtida.",
+    "topics": [
+        "acumulador"
+    ]
+}

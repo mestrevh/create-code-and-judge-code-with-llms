@@ -1,0 +1,11 @@
+{
+    "title": "Foco nas Fotografias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Daniel está fazendo um curso de Visão Computacional e decidiu reproduzir um trabalho interessante que ele viu na aula: ele tirou algumas fotos de uma mesma cena, variando apenas o foco, para depois combiná-las em apenas uma foto, em que todos os objetos cena fiquem focados juntos. Para isso, ele necessita que cada objeto apareça focado em pelo menos uma fotografia. Por exemplo, no quadro a seguir, (i), (ii) e (iii) são 3 fotos da mesma cena, cada uma tirada com um foco diferente, (iv) é a imagem combinada gerada por Daniel. Perceba nessas fotos, que a pessoa está em um plano focal, a árvore e a casa estão em outro plano e as montanhas estão em outro plano, ou seja, foram 3 planos focais no total. Mas Daniel sabe que, para cada objeto, há um intervalo fechado dos planos focais em que esse objeto fica claramente visível. Ou seja, o objeto ficará claramente visível em um intervalo de planos e não apenas em um plano. Como o cartão de memória da câmera de Daniel tem uma pequena capacidade, ele pediu a sua ajuda. Tendo em conta os intervalos de foco de todos os objetos na cena que pretende fotografar, determinar o número mínimo de fotos que ele deve tomar para que cada objeto fique focado em pelo menos uma das fotos.",
+    "format_input": "A entrada consiste em vários testes de casos. A primeira linha de cada caso de teste contém um inteiro N (1 ≤ N ≤ 50) que indica o número de objetos na cena. Cada uma das N linhas seguintes contém dois números inteiros, A e B (1 ≤ A ≤ B ≤ 50), que indica os extremos do intervalo de foco de cada objeto.",
+    "format_output": "Para cada caso de teste, você deve imprimir uma linha com um número inteiro que indica o número mínimo de fotos que Daniel tem que realizar, seguida de uma quebra de linha.",
+    "topics": [
+        "array",
+        "acumulador"
+    ]
+}

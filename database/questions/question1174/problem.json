@@ -1,0 +1,11 @@
+{
+    "title": "L1Q2 - Problemas na Pokedex",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Biu ganhou sua pokedéx e ela tem várias funções. Uma delas é apresentar a listagem dos pokémons em Kanto. No entanto, ao ver a lista dos pokémons, percebeu que o número de identificação dos doze primeiros estão errados. Ciente de que você sabe de programação, Biu pediu sua ajuda para consertar sua pokedéx. Sabendo que os códigos dos Pokémons seguem a tabela abaixo: 1 Bulbassauro 2 Ivyssauro 3 Venossauro 4 Charmander 5 Charmeleon 6 Charizard 7 Squirtle 8 Wartortle 9 Blastoise 10 Caterpie 11 Metapod 12 Butterfree. Sua tarefa será escrever um programa que diga qual o pokémon é representado por aquele código.",
+    "format_input": "P - número natural. A linha de entrada única é composta por um número natural, referente ao código escolhido.",
+    "format_output": "R - string. A linha de saída única é composta pelo nome do pokémon que possui o código. Caso seja digitado um número fora do intervalo, você deve imprimir \"Pokemon invalido no momento\"",
+    "topics": [
+        "decisão",
+        "string"
+    ]
+}

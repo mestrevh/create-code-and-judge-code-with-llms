@@ -1,0 +1,11 @@
+{
+    "title": "Divisível por 3",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O problema envolve achar a quantidade de divisores de um número que são divisíveis por 3.",
+    "format_input": "Um inteiro N.",
+    "format_output": "Um inteiro R seguido de um final de linha, sendo R o número de divisores de N que são divisiveis por 3. Caso não tenha nenhum imprima \"O numero nao possui divisores multiplos de 3!\" sem as aspas e com um final de linha.",
+    "topics": [
+        "decisão",
+        "repetição"
+    ]
+}

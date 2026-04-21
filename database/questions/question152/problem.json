@@ -1,0 +1,12 @@
+{
+    "title": "Brincando com Arrays",
+    "time_limit": "4 segundo(s)",
+    "descrition": "Faça um programa que leia n números inteiros dados em um array e os imprime: a) na ordem inversa dos números dados b) com um deslocamento para a esquerda c) ordenado em ordem decrescente",
+    "format_input": "Consiste de um número n indicando a quantidade de números a serem passados na entrada, seguido de n números separados por um espaço em branco. Suponha que o maior n dado é 10000.",
+    "format_output": "Consiste de 3 sequências de números, separados por um espaço em branco. Após cada sequência, existe um final de linha. A primeira sequência contém os números na ordem inversa, a segunda com o deslocamento para a esquerda e a terceira contém os números ordenados em ordem decrescente. Lembre-se que depois do último número de cada sequência não existe espaço.",
+    "topics": [
+        "array",
+        "array circular",
+        "ordenação"
+    ]
+}

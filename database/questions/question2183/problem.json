@@ -1,0 +1,10 @@
+{
+    "title": "Calculadora do TheHuxley",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Eu tentei resolver hoje D (D > 0) problemas do TheHuxley. Cada tentativa de resolver um problema do TheHuxley pode terminar de duas maneiras: eu acerto ou eu erro. Eu venho tentando resolver problemas no TheHuxley há muitos anos e até agora eu tentei resolver G problemas no total (obviamente, G ≥ D). No final do dia, eu olho para as estatísticas do TheHuxley para ver o quão bom estou. Acontece que eu acertei dos problemas que tentei resolver hoje exatamente PD por cento de D e exatamente PG por cento do total de problemas que já tentei resolver G. Milagrosamente, não há nenhum arredondamento necessário - ambos os percentuais são exatos! Infelizmente, não me lembro do número exato de problemas que tentei resolver hoje (D), nem do número exato de problemas que tentei resolver no total (G). Eu sei que eu não poderia ter tentando resolver mais de N problemas hoje (D ≤ N). As porcentagens são possíveis ou a calculadora de estatísticas do TheHuxley está bugada? Observe que, no Caso 3 do exemplo de entrada, eu poderia ter tentado resolver 5 problemas hoje (D = 5) e ter resolvido 25 problemas no total (G = 25), e acertei 4 problemas hoje (80% de 5) e 14 problemas no total (56% de 25).",
+    "format_input": "A primeira linha da entrada fornece o número de casos de teste. Cada linha subsequente contém 3 inteiros - N, PD e PG.",
+    "format_output": "Para cada caso de teste, imprima uma linha contendo o resultado \"Possivel\" (sem acento) ou \"Bugada\".",
+    "topics": [
+        "repetição"
+    ]
+}

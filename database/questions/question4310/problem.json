@@ -1,0 +1,11 @@
+{
+    "title": "Primos de Alice",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Alice é uma menina com vários probleminhas, dentre eles está o sei fascínio por números primos. Enquanto estava passeando no uninho de Aline, ela viu várias matrizes quadradas (não me pergunte como), sua tarefa vai ser pegar todos os primos em determinada matriz e ordena-los em forma crescente. Entrada: número n, que representará o número de linhas e colunas da matriz e os números da matriz",
+    "format_input": "3 8 53 5 6 7 13 9 10 11",
+    "format_output": "5 7 11 13 53",
+    "topics": [
+        "array",
+        "array bidimensional"
+    ]
+}

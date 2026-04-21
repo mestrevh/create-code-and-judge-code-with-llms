@@ -1,0 +1,10 @@
+{
+    "title": "Equação bit-a-bit [J]",
+    "time_limit": "1 segundo(s)",
+    "descrition": "A Entidade estava brincando com números binários e esbarrou em duas equações: 1. a ^ b = c & x 2. a ^ b = c | y Note que ^ se refere a operação xor bit-a-bit, & a operação and bit-a-bit, e | a operação or bit-a-bit. Operações bit-a-bit: https://en.wikipedia.org/wiki/Bitwise_operation Agora a Entidade está curiosa para saber a quantidade de valores de x que satisfazem a primeira equação, e a quantidade de valores de y que satisfazem a segunda equação.",
+    "format_input": "A primeira linha da entrada terá um inteiro t indicando a quantidade de casos de teste. Em seguida, virão t casos de teste seguindo este padrão: Virão t linhas, onde cada linha terá três inteiros a, b e c. Limites: 0 <= a, b, c <= 2^60",
+    "format_output": "Para cada caso de teste, imprima a quantidade de valores de x que satisfazem a primeira equação, e a quantidade de valores y que satisfazem a segunda equação.",
+    "topics": [
+        "ad-hoc"
+    ]
+}

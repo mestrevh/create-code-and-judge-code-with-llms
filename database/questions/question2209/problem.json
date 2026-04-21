@@ -1,0 +1,13 @@
+{
+    "title": "Madd Code",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Um belo dia, a República Federativa da Ambrolândia resolve entrar em guerra contra a nação de Ambrosínia. O Capitão Ambrósio, comandante do setor de inteligência do exército ambrolano, tem a missão de quebrar a criptografia das mensagens do exército ambrosíneo afim de conseguir informações e se antecipar com relação aos ataques das tropas inimigas. Sabe-se que as mensagens ambrosíneas obedecem a um código conhecido como Madd Code e que a chave para decifrar esse código está em construir a árvore de busca binária com a \"String Geradora\". Essa String Geradora é uma sequência de caracteres que geram a árvore do Madd Code. O caminho percorrido na árvore até um caractere é a codificação desse caractere em Madd Code. Por Exemplo: Neste caso de árvore, o código \"-|\" equivale ao caractere 'C' assim como \"--\" equivale ao caractere 'A'. Para a sorte de ambrolândia, o pelotão do capitão Ambrósio conhece a String Geradora: MGTCKQWAEILORUY BDFHJNPSVXZ O capitão Ambrósio determinou que você, soldado da seção de informática, implementasse um algoritmo que, com base na String Geradora, decifre as mensagens codificadas do exército Ambrosíneo.",
+    "format_input": "A entrada consiste de uma string contendo os caracteres '-', '|', '@' e '*'. O caractere '*' delimita as letras. Por exemplo, o código \"---*|-|*\" significa que \"---\" equivale a uma letra e \"|-|\" equivale a outra letra; O caractere '@' simboliza a letra que está na raiz da árvore de busca binária; Note que o caractere de espaço em branco ' ' está presente na String Geradora;",
+    "format_output": "A saída deve ser uma String com a mensagem decifrada com um caractere de quebra de linha ao final.",
+    "topics": [
+        "Árvore",
+        "caractere",
+        "busca binária",
+        "estruturas"
+    ]
+}

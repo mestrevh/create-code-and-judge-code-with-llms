@@ -1,0 +1,10 @@
+{
+    "title": "Estatistica das notas",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Luisa, a grandiosa monitora e promotora do lulupalooza, a pedido do professor psgmn, precisou que a partir de hoje tirasse a média, moda e mediana das notas dos alunos da futura falecida cadeira de AVLC. Para otimizar seu tempo de entrega desses dados as cercas das futuras EE's, Luisa decidiu fazer um código que lhe entregasse esses dados.",
+    "format_input": "A entrada consta inicialmente por um número inteiro tal que 0 < N <= 50, seguido por N números inteiros (tal que 0 <= x <= 10)",
+    "format_output": "A saída dever ser dada a seguinte maneira, as duas primeiras linhas: Media: (valor) *\\n* Mediana: (valor) *\\n* a ultima variar de acordo com a Moda. se houver, Moda: (valor) *\\n* Se não houver, Nao tem moda *\\n*",
+    "topics": [
+        "array"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Estiagem",
+    "time_limit": "2 segundo(s)",
+    "descrition": "Devido às constantes estiagens que aconteceram nos últimos tempos em algumas regiões do Brasil, o governo federal criou um órgão para a avaliação do consumo destas regiões com finalidade de verificar o comportamento da população na época de racionamento. Este órgão responsável irá pegar algumas cidades (por amostragem) e verificará como está sendo o consumo de cada uma das pessoas da cidade e o consumo médio de cada cidade por habitante.",
+    "format_input": "A entrada contém vários casos de teste. A primeira linha de cada caso de teste contém um inteiro N (1 ≤ N ≤ 1*(10^6)), indicando a quantidade de imóveis. As N linhas contêm um par de valores X (1 ≤ X ≤ 10) e Y (1 ≤ Y ≤ 20000), indicando a quantidade de moradores de cada imóvel e o respectivo consumo total de cada imóvel (em m3). Com certeza, nenhuma residência consome mais do que 20000 m3 por mês. O final da entrada é representado pelo número zero.",
+    "format_output": "Para cada entrada, deve-se apresentar a mensagem “Cidade# n:”, onde n é o número da cidade seguindo a sequência (1, 2, 3, ...) e em seguida deve-se listar, por ordem crescente de consumo, a quantidade de pessoas seguido de um hífen e o consumo destas pessoas, arredondando o valor para baixo. Lembre-se que o objetivo é identificar quantas pessoas estão consumindo aquela quantidade de água. Sendo assim, a sua listagem deve agrupar a quantidade de pessoas de acordo com suas médias de consumo. Para ilustrar, considere a segunda cidade do exemplo de entrada e saída. Nela existem 05 residências: 5 1 25 2 20 3 31 2 40 6 70, ou seja, na primeira casa mora um \"gastador\" que consome em média 25. Na segunda moram duas pessoas, logo a média de consumo é de 10. Na terceira moram 03 pessoas e a média de consumo arredondada para baixo é de 10 por pessoa. Na quarta, 2 pessoas com média de 20 e na quinta, 6 pessoas com média de 11. Sendo assim, teríamos: 1-25 2-10 3-10 2-20 e 6-11 Como o objetivo é agrupar por consumo, existem duas casas em que a média por pessoas é de 10, ou seja, existem 5 pessoas que consomem em média 10. Logo, ordenando pelo consumo, você deverá imprimir: 5-10 6-11 2-20 1-25 Finalmente, na terceira linha da saída deve-se mostrar o consumo médio por pessoa da cidade, com 2 casas decimais sem arredondamento, considerando o consumo real total. Imprimir uma linha em branco entre dois casos de teste consecutivos. No fim da saída lembre-se da quebra de linha. DICA: use o tipo com precisão dupla (double na maioria das linguagens) para evitar erros com o ponto flutuante.",
+    "topics": [
+        "multiplas entradas",
+        "array",
+        "acumulador",
+        "alocação dinâmica",
+        "estruturas"
+    ]
+}

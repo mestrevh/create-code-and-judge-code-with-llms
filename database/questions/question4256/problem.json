@@ -1,0 +1,10 @@
+{
+    "title": "Oi ! Adp.",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva um programa que leia o nome de uma pessoa e exiba a mensagem “Olá, FULANO” (onde FULANO é o nome da pessoa lida da entrada padrão).",
+    "format_input": "O nome de uma pessoa.",
+    "format_output": "Um cumprimento à pessoa no seguinte formato: Olá, Fulano! Onde \"Fulano\" é o nome informado na entrada.",
+    "topics": [
+        "string"
+    ]
+}

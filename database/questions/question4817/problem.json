@@ -1,0 +1,13 @@
+{
+    "title": "Código de acesso",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O setor de segurança do CIn desenvolveu um sistema de geração de códigos de acesso. Para validar cada usuário, o sistema usa uma sequência de dígitos e uma palavra-base, aplicando regras específicas para criar o código final. Requisitos de implementação: O seu programa deve ser modularizado, dividindo a lógica em diferentes funções: 1. Uma função para calcular o valor C. 2. Uma função para calcular o valor R. 3. Uma função para gerar a palavra-base. 4. A função main deve orquestrar a chamada para as outras funções e imprimir o resultado final. Não é permitido o uso explícito de ponteiros (ou seja, declarar variáveis do tipo * ou usar o operador & para passar o endereço de variáveis simples para as funções). O seu programa deve: 1. Ler um número inteiro N (tamanho da sequência), seguido de N dígitos (0–9), que devem ser armazenados em um array. 2. Calcular o valor C como: C = ( (soma dos dígitos em índices pares) * 3 + (soma dos dígitos em índices ímpares) ) % 10. 3. Calcular o valor R, que é o tamanho do maior bloco contíguo, de dígitos iguais na sequência. 4. Ler uma palavra e transformar a palavra recebida em uma palavra-base (string sem espaços, até 100 caracteres): Remover todas as vogais (a, e, i, o, u, maiúsculas ou minúsculas); Transformar as letras restantes em maiúsculas; Caso não restar nada, em vez de deixar vazio, usar \"VOID\" como a palavra-base. 5. Imprimir na saída: Na primeira linha: C R (separados por espaço). Na segunda linha: \"codigo: <BASE><C><R>\". OBS: exemplo com array 1223334: o bloco 333 é contíguo porque os três 3 estão juntos na sequência; se fosse 313, não é contíguo, mesmo que apareçam vários 3.",
+    "format_input": "Um inteiro N (1 ≤ N ≤ 100). Uma linha com N dígitos (entre 0 e 9). Uma palavra (sem espaços, até 100 caracteres).",
+    "format_output": "O programa deve imprimir: Uma linha com C R. Uma linha com \"codigo: <BASE><C><R>\".",
+    "topics": [
+        "array",
+        "caractere",
+        "função",
+        "string"
+    ]
+}

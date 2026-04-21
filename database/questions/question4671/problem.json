@@ -1,0 +1,11 @@
+{
+    "title": "Compromisso com a verdade",
+    "time_limit": "5 segundo(s)",
+    "descrition": "Você é um jovem aluno de Engenharia da Computação com uma sede por estar atualizado com as histórias que acontecem pelo seu centro. E em um dia você decide fazer um programa que te ajude a calcular se as histórias que você ouve pela Rádio Corredor são verídicas ou inverdades, para que assim você possa atualizar seu fiel amigo Anão Paulo. Durante a rádio, é anunciado um número N de fofocas que serão contadas naquela sessão e para cada N um número M que representa a quantidade de pessoas que estão espalhando aquela notícia. Em seguida, será transmitida uma sequência de números com a confiabilidade de cada pessoa que está espalhando aquele fato noticiado. Entretanto, existe um segredo nesse número: caso o módulo do número seja um número primo, ele tem confiabilidade dobrada e, se não for um número primo, a confiabilidade dele é a metade do valor escutado multiplicado pelo número de divisores (sem considerar 1 e ele mesmo). E conforme a confiabilidade total da fofoca escutada, o programa vai retornar uma mensagem que deve ser enviada para o seu amigo para cada fofoca analisada.",
+    "format_input": "Um Número N de casos sendo 0 ≤ N ≤ 100 Para cada caso um número M sendo 0 ≤ M ≤ 100 Uma sequência de M números i sendo -2048 ≤ i ≤ 2048",
+    "format_output": "Você deve retornar uma das quatro frases abaixo sendo os critérios de confiabilidade Confiabilidade > 2^11 Anão Paulo. babado. Confiabilidade > 2^9 Para pow. Confiabilidade > 0 Se isso não é mentira eu sou uma brastemp 4 portas Caso não se encaixe em nenhum desses caso que mentirada",
+    "topics": [
+        "lógica matemática",
+        "números primos"
+    ]
+}

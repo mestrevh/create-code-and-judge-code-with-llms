@@ -1,0 +1,10 @@
+{
+    "title": "Lab 7 - Exercício 2",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Escreva uma função chamada imprimePotencias que recebe três parâmetros: você irá fornecer o valor limitante inicial, o valor limitante final e qual será o expoente (nesta ordem). Por exemplo, ao receber os números 2, 5 e 2, serão impressos 4, 9, 16 e 25.",
+    "format_input": "2 5 2",
+    "format_output": "4 9 16 25",
+    "topics": [
+        "função"
+    ]
+}

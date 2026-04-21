@@ -1,0 +1,8 @@
+{
+    "title": "Férias na Europa",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Manoel pretende viajar para a Europa e, pesquisando em vários blogs, descobriu que um turista gasta em média € 20 (euros) por dia. Sabendo que na cotação de hoje € 1 custa R$ 3,20, crie um programa que receba como entrada a quantidadede de dias que ele pretende passar viajando, e calcule e exiba quantos reais ele precisará economizar para curtir suas férias despreocupado.",
+    "format_input": "Um número inteiro maior ou igual a zero. Dica: Não use mensagens no input.",
+    "format_output": "Um número real com duas casas decimais. Dica: Não use mensagens no print e lembre-se de formatar o número. Exemplo: print(\"%.2f\" %variavel) vai exibir a variável com duas casas decimais.",
+    "topics": []
+}

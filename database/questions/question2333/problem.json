@@ -1,0 +1,12 @@
+{
+    "title": "Calculadora Rústica",
+    "time_limit": "20 segundo(s)",
+    "descrition": "Faça um programa que receba dois números(float) e, depois, uma palavra. A palavra indicará a operação matemática a ser realizada (soma, multiplicacao, divisao ou subtracao) sobre os dois números inseridos anteriormente. Seu programa deve mostrar o resultado da operação. O resultado deve ser imprimido com dois numeros decimais depois do ponto",
+    "format_input": "3.1\n99.5\nmultiplicacao",
+    "format_output": "resultado = 308.45",
+    "topics": [
+        "ponto flutuante",
+        "lógica matemática",
+        "string"
+    ]
+}

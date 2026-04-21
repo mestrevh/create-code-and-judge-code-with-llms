@@ -1,0 +1,10 @@
+{
+    "title": "Os suspeitos",
+    "time_limit": "10 segundo(s)",
+    "descrition": "A síndrome respiratória aguda grave (SARS em inglês), é uma pneumonia atípica de origem desconhecide e foi reconhecida como uma ameaça global em meados de março de 2003. Para minimizar a transmissão entre as pessoas, a melhor estratégia é separar os suspeitos do contato com outras pessoas. Na Universidade Federal de Doenças Contagiosas (UFDC) existem muitos grupos de estudantes. Os estudantes em um mesmo grupo se comunicam entre si com muita frequência. Um estudante também pode participar de vários grupos. Para prevenir a possível transmissão de SARS, a UFDC coletou a lista de todos os membros de todos os grupos e propôs a seguinte operação: Se um membro do grupo é suspeito, todos os membros do grupo se tornam suspeitos também. Entretanto, eles descobriram que não é tão simples identificar todos os suspeitos a partir de um estudante suspeito. Seu trabalho é escrever um programa que encontre todos os suspeitos.",
+    "format_input": "O arquivo de entrada contém vários casos de teste. Cada caso de teste começa com dois inteiros n e m em uma linha, separados por um espaço. n é o número de estudantes e m é o número de grupos. Cada estudante é identificado por um inteiro entre 0 e n-1. Inicialmente o estudante 0 é reconhecido como suspeito. As próximas linhas da entrada contém m listas de membros de grupos, sendo uma linha por grupo. Cada linha de cada grupo, começa com um inteiro k representando o número de membros daquele grupo. Depois seguem na mesma linha e separados por espaços, k inteiros correspondendo aos estudantes daquele grupo. A entrada termina quando n e m forem igual a 0. Assuma: 0 < n <= 30000 0 <= m <= 500",
+    "format_output": "Para cada caso, imprima o número de suspeitos seguido de um final de linha.",
+    "topics": [
+        "grafo"
+    ]
+}

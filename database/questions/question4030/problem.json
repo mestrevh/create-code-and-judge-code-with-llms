@@ -1,0 +1,13 @@
+{
+    "title": "Peça no Tabuleiro",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Num tabuleiro NxM, uma peça é colocada na posição (0, 0). Tal peça só pode mover-se para cima (C), baixo (B), esquerda (E), e direita (D). Cada casa do tabuleiro tem um valor inteiro. A peça só pode mover-se para uma casa adjacente se essa casa tiver valor 0. Senão, a casa para onde a peça tentou se mover terá seu valor decrementado por 1. Por exemplo, se a casa à esquerda da peça tiver valor 5 e a peça tentar mover-se para a esquerda, a casa à esquerda ficará com valor 4 e a peça não se move. - Se a peça tentar mover-se para uma casa com valor 0, ela consegue (o 0 não é decrementado). - A peça não consegue ir para fora dos limites do tabuleiro. Serão dados os movimentos da peça. Será também dada uma coordenada no tabuleiro. Se a peça conseguiu chegar nessa coordenada, seu código deve printar \"Cheguei com N movimentos\", sendo N o número de movimentos que foram feitos para chegar na coordenada. Se a peça não conseguiu chegar na coordenada, deve-se printar \"Nao cheguei\". OBS: Pode ser que a peça não necessite usar todos os movimentos dados para chegar na coordenada dada.",
+    "format_input": "Primeiro, serão dadas as dimensões do tabuleiro. (Dois inteiros N e M) Depois, os valores das casas do tabuleiro. (N*M inteiros) Então, será dado o número de movimentos que a peça pode fazer. (Um inteiro K) Logo em seguida, serão dados os movimentos da peça. (K movimentos): - 'C' movimenta a peça para cima. - 'D' movimenta a peça para a direita. - 'B' movimenta a peça para baixo. - 'E' movimenta a peça para a esquerda. Finalmente, serão dadas as coordenadas que a peça vai tentar chegar. (Dois inteiros).",
+    "format_output": "Caso a peça chegue na coordenada dada: - O programa deve printar \"Cheguei com N movimentos\", sendo N o número de movimentos que a peça utilizou. Caso a peça não chegue na coordenada dada: - O programa deve printar \"Nao cheguei\".",
+    "topics": [
+        "array",
+        "decisão",
+        "repetição",
+        "array bidimensional"
+    ]
+}

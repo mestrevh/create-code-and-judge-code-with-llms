@@ -1,0 +1,11 @@
+{
+    "title": "Willy Ecológico",
+    "time_limit": "1 segundo(s)",
+    "descrition": "O Willy resolveu comprar uma casa no campo pra plantar eucaliptos. Ele comprou uma super-serra que corta árvores em alturas bem altas, ao invés de cortar perto do chão. Além disso, essa super-serra corta várias árvores ao mesmo tempo. Por exemplo, se existirem árvores com alturas de 20, 15, 10 e 17 metros e ele configurar a serra para cortar na altura de 15 metros, então as árvores ficarão com alturas: 15, 15, 10, e 15. Desta forma, o Willy consegue colher a parte que caiu de cada árvore, ou seja, 5 + 0 + 0 + 2 = 7 metros. Mas apesar de não parecer, o Willy é ecologicamente consciente e ele não quer cortar mais do que o necessário. Qual a altura máxima para configurar a super-serra de forma que ele consiga pelo menos M metros de madeira.",
+    "format_input": "Na primeira linha você receberá 2 inteiros separados por espaço: n: indicando o número de árvores; m: indicando a quantidade de madeira necessária. A segunda linha contém n inteiros separados por espaços correspondendo a altura de cada árvore. Considere: 1 <= n <= 1 000 000 1 <= m <= 2 000 000 000",
+    "format_output": "Um único número correspondendo a altura da configuração da super-serra. Atenção: a super-serra só pode ser configurada usando uma das alturas das árvores existentes. Ou seja, você não pode configurar a super-serra para uma altura de uma árvore que não exista.",
+    "topics": [
+        "ordenação",
+        "busca binária"
+    ]
+}

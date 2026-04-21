@@ -1,0 +1,10 @@
+{
+    "title": "Nota Olímpica",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Em algumas modalidades de esportes olímpicos as colocações dos atletas são definidas através de notas. Em uma dessas modalidades, as notas são dadas por três juízes, porém, a maior e a menor notas são descartadas valendo apenas a nota intermediária. Seu trabalho é escrever um programa que receba como entrada três números reais correspondentes às notas e dê como saída a nota considerada.",
+    "format_input": "A entrada consiste em uma única linha contendo as três notas separadas por espaços.",
+    "format_output": "A saída consiste em um único número real com duas casas decimais indicando a nota que foi considerada.",
+    "topics": [
+        "decisão"
+    ]
+}

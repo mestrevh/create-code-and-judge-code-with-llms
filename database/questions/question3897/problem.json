@@ -1,0 +1,11 @@
+{
+    "title": "Médias",
+    "time_limit": "1 segundo(s)",
+    "descrition": "Considere as expressões abaixo para cálculo das médias aritmética (A), harmônica (H) e geométrica (G). Elabore um programa que contenha uma função que receba como parâmetros: o tipo de média a calcular e três números inteiros, e retorne um número real correspondente à média calculada.",
+    "format_input": "Um caracter representando o tipo de média (A - aritmética, H - harmônica, G - geométrica) e três números inteiros.",
+    "format_output": "A média calculada com três casas decimais.",
+    "topics": [
+        "decisão",
+        "função"
+    ]
+}
