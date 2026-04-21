@@ -1,0 +1,157 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 2861 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 2861</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ad-hoc</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>06 - Best of both worlds</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p style="text-align: left;"><strong style="color: rgb(0, 0, 0);text-align: justify;background-color: rgb(255, 255, 255);"></strong></p><div><font color="#333333">Miley Cirus é uma jovem adolescente que possui um grande segredo, ela divide a sua vida entre ser uma adolescente comum que mora em Malibu e ser uma cantora mundialmente famosa com o nome de Hannah Montana. E para manter esse segredo, quando ela se &#34;transforma&#34; na Hannah Montana ela costuma utilizar roupas mais brilhantes e chamativas e a sua característica peruca loira.</font></div><div><font color="#333333"><br/></font></div><div><font color="#333333">A Miley também é uma pessoa muito bondosa e costuma sempre doar várias de suas roupas quando percebe que não está mais usando-as muito, mas com toda a correria de administrar suas duas vidas ela acaba perdendo completamente a noção de quais roupas ela ainda possui, você então tem o dever de auxiliá-la informando se ela será capaz de utilizar o look desejado em seu próximo show.</font></div><div><font color="#333333"><br/><br/></font><div style="text-align: center;"><img src="https://media2.giphy.com/media/fDqGThpuG6vS/giphy.gif" alt="Resultado de imagem para Hannah Montana gif" style="color: rgb(147, 149, 152);text-align: center;background-color: rgb(255, 255, 255);"/><br/></div><div style="text-align: right;"><br/></div>Você sabe que a Miley é uma garota muito supersticiosa e ela <b>SEMPRE</b> escolhe exatamente 3 de suas peças principais para compor o seu look, e é o seu trabalho informá-la se ela ainda possui as peças necessárias para criação desse look. Você tem também a lista de peças principais que a Miley Possui atualmente, que é a lista a seguir:</div><div><font color="#333333"><br/></font></div><div><font color="#333333">- vestido florido</font></div><div><font color="#333333">- casaco rosa choque</font></div><div><font color="#333333">- saia rosa</font></div><div><font color="#333333">- peruca loira</font></div><div><font color="#333333">- blusa amarela</font></div><div><font color="#333333">- bota marrom</font></div><div><font color="#333333"><br/></font></div><div><font color="#333333">Caso a Miley ainda possua todas as 3 peças escolhidas para o seu próximo show o seu programa deverá imprimir &#34;A Hannah vai arrasar com esse visual&#34;, caso contrário, deverá imprimir &#34;A miley vai ter que pensar em outro look&#34;.</font></div></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p></p><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><div class="ng-binding"><blockquote><p>P1</p><p><span>P2</span></p><p><span>P3</span></p></blockquote><ul><li>P1 - <span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">String</span></li><li>P2 - <span style="color: rgb(0, 0, 0);text-align: left;background-color: rgb(255, 255, 255);float: none;">String</span></li><li>P3 - String</li></ul><p><br/></p><p>Onde cada linha representa uma das peças principais escolhidas pela Miley para o próximo show<br/></p></div></div><div class="problem-description-header-container ng-scope" style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">&#13;</div><p></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>S</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

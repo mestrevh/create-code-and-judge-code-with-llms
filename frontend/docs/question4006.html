@@ -1,0 +1,197 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 4006 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4006</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Combustíveis nas alturas</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font color="#262626"><font face="Open Sans"><font size="2"><span><span><span><span style="background-color: transparent;"><span></span></span></span></span></span></font></font></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font size="3"><span><font color="#262626"><span><span><span><span style="background-color: transparent;"><font face="Times New Roman, serif">O país Brinquedolândia tem passado por maus momentos. São vários os problemas que tem atingido o país, desde pandemia até a volta do monstro da inflação. Semana após semana, a população percebe o aumento dos preços em vários produtos e o preço do combustível não escapou, o que tem preocupado bastante a população.<span class="Apple-converted-space"> </span></font></span></span></span></span></font></span><font color="#262626"><span><font color="#262626"><span><span><span><span style="background-color: transparent;">Afinal, todas as pessoas utilizam estes combustíveis diariamente em suas atividades de subsistência. Para a segunda semana de maio de 2022, mais uma vez o preço da gasolina atingiu recorde histórico, segundo a Agência Nacional do Petróleo, Gás Natural e Biocombustíveis – ANP.</span></span></span></span></font></span></font></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font size="3"><font color="#262626"><span><font color="#262626"><span><span><span></span></span></span></font></span></font></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font size="3"><span><font color="#262626"><span><span><span><span style="background-color: transparent;"><font face="Times New Roman, serif">Neste cenário, Paizão está ficando doido de tanto fazer conta. Mais do que nunca é preciso equilibrar o orçamento doméstico. Por isso, saber com antecedência quanto será o gasto com combustível e a melhor forma de pagamento é muito importante. Sua tarefa é ajudar o Paizão nessa missão.<span class="Apple-converted-space"> </span></font></span></span></span></span></font></span></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font size="3"><span><font color="#262626"><span><span><span><span style="background-color: transparent;"><font face="Times New Roman, serif"></font></span></span></span></span></font></span></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font size="3"><span><font color="#262626"><span><span><span><span style="background-color: transparent;"><font face="Times New Roman, serif">O Paizão deve te informar o tipo do combustível<span class="Apple-converted-space"> </span></font></span></span></span></span></font></span><font color="#262626"><span><font color="#262626"><span><span><span><span style="background-color: transparent;"></span></span></span></span></font></span><span><font color="#262626"><span><span><span><span style="background-color: transparent;">do automóvel dele e você deve fornecer as informações para a tomada de decisão.</span></span></span></span></font></span></font></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font size="3"><font color="#262626"><span><font color="#262626"><span><span><span></span></span></span></font></span></font></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font face="Times New Roman, serif"><font size="3"><span style="background-color: transparent;"><font color="#262626">Considere a tabela de preço abaixo para o cálculo do valor total.</font></span></font></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><font color="#262626"><font face="Open Sans"><font size="2"><span><span><span><span style="background-color: transparent;"></span></span></span></span></font></font></font></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font color="#262626"><font face="Open Sans"><font size="2"><span><span><span><span style="background-color: transparent;"><span></span></span></span></span></span></font></font></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><font color="#262626"><font face="Open Sans"><font size="2"><span><span><span><span style="background-color: transparent;"></span></span></span></span></font></font></font></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font face="Open Sans"><font size="2"><span style="background-color: transparent;"><font color="#262626"></font></span></font></font></span></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font face="Open Sans"><font size="2"><span style="background-color: transparent;"></span></font></font></span><dl style="color: rgb(0, 0, 0);"><dl><dl><dd><table width="351" cellpadding="2" cellspacing="0"><colgroup><col width="175"/><col width="166"/></colgroup><tbody><tr><td width="175"><p style="background-color: transparent;text-align: center;"><font face="Open Sans"><font size="2"><b>Combustível</b></font></font></p></td><td width="166"><p style="background-color: transparent;text-align: center;"><font face="Open Sans"><font size="2"><b>Valor do litro (R$)</b></font></font></p></td></tr><tr><td width="175" height="16"><p style="background-color: transparent;text-align: center;"><font face="Open Sans"><font size="2">Gasolina</font></font></p></td><td width="166"><p style="background-color: transparent;text-align: center;"><font face="Open Sans"><font size="2">7,30</font></font></p></td></tr><tr><td width="175"><p style="background-color: transparent;text-align: center;"><font face="Open Sans"><font size="2">Etanol</font></font></p></td><td width="166"><p style="background-color: transparent;text-align: center;"><font face="Open Sans"><font size="2">5,60</font></font></p></td></tr><tr><td width="175"><p style="background-color: transparent;text-align: center;"><font face="Open Sans"><font size="2">Diesel</font></font></p></td><td width="166"><p style="background-color: transparent;text-align: center;"><font face="Open Sans"><font size="2">6,60</font></font></p></td></tr></tbody></table><br/></dd><p>Vamos ao trabalho.</p></dl></dl></dl></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><font face="Times New Roman, serif"><font size="3">A entrada consiste em receber a quantidade de litros de combustível que o Paizão precisa colocar no automóvel e tipo do combustível. Além disso, como será a forma de pagamento. Veja as opções a seguir.</font></font></p><ul style="color: rgb(0, 0, 0);"><li><p style="background-color: transparent;text-align: justify;"><font face="Times New Roman, serif"><font size="3">Litros, um inteiro<span class="Apple-converted-space"> </span><b>l (0 &lt; l &lt;= 100)<span class="Apple-converted-space"> </span></b>que indica a quantidade de litros que deve ser colocado no automóvel.</font></font></p></li><li><p style="background-color: transparent;text-align: justify;"><font face="Times New Roman, serif"><font size="3">Combustível, string de 1 caractere, que pode ser:<span class="Apple-converted-space"> </span><b>g</b>para gasolina,<span class="Apple-converted-space"> </span><b>d</b><span>para</span><b></b>diesel,<span class="Apple-converted-space"> </span><b>e</b>para etanol e<span class="Apple-converted-space"> </span><b>f<span class="Apple-converted-space"> </span></b>para carro do tipo flex que pode ser abastecido com gasolina ou etanol.</font></font></p></li><li><p style="background-color: transparent;text-align: justify;"><font face="Times New Roman, serif"><font size="3">pagamento, string de 1 caractere, que pode ser:<span class="Apple-converted-space"> </span><b>c</b>para pagamento no cartão e,<span class="Apple-converted-space"> </span><b>d</b><b></b>para pagamento em dinheiro ou através de pix. Quando o pagamento é realizado em dinheiro ou pix, o cliente ganha um desconto de 5% no total a ser pago.</font></font></p></li></ul><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><font face="Times New Roman, serif"><font size="3">Observação: considere que todas as entradas estarão em letras minúsculas.</font></font></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><span><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span><span><span>O valor a ser pago pelo cliente com duas casas decimais<span class="Apple-converted-space"> </span></span></span></span></font></font></font></span><span><font color="#000000"><font face="Times New Roman, serif"><font size="3"><span><span><span>e o</span></span></span></font></font></font></span><font face="Times New Roman, serif"><font size="3"></font></font><font face="Times New Roman, serif"><font size="3">valor do<span class="Apple-converted-space"> </span></font></font><font face="Times New Roman, serif"><font size="3">desconto.</font></font></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><font face="Times New Roman, serif"><font size="3">Se o carro for do tipo Flex, informar ao cliente os valores para os dois tipos de combustíveis possíveis.</font></font></p><p style="background-color: transparent;color: rgb(0, 0, 0);text-align: justify;"><font face="Times New Roman, serif"><font size="3">Caso haja algum erro na entrada dos dados, é preciso apresentar uma mensagem de erro ‘</font></font><font face="Times New Roman, serif"><font size="3">Entrada invalida’</font></font><font face="Times New Roman, serif"><font size="3">.</font></font></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out4.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out5.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out6.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out7.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out8.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4006/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question4006/outputs/out9.txt">
+                Exemplo 10
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

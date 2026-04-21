@@ -1,0 +1,173 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 927 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 927</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">maratona</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Torre</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p style="text-align: justify;color: rgb(51, 51, 51);">Dada uma matriz quadrada<span class="Apple-converted-space"> </span><b>M</b><span class="Apple-converted-space"> </span>de números naturais, o índice<span class="Apple-converted-space"> </span><b>i</b><span class="Apple-converted-space"> </span>de uma certa linha e o índice<span class="Apple-converted-space"> </span><b>j</b><span class="Apple-converted-space"> </span>de uma certa coluna, vamos definir o peso do cruzamento da linha<span class="Apple-converted-space"> </span><b>i</b>com a coluna<span class="Apple-converted-space"> </span><b>j</b>, como sendo a soma de todos os elementos que estejam na linha<span class="Apple-converted-space"> </span><b>i</b><span class="Apple-converted-space"> </span>ou na coluna<span class="Apple-converted-space"> </span><b>j</b>, mas não nas duas. Quer dizer, excluindo o elemento que está exatamente no cruzamento! Neste problema, você deve descobrir qual é o peso mínimo entre todos os possíveis cruzamentos da matriz!</p><p style="text-align: justify;color: rgb(51, 51, 51);">No jogo de xadrez, a torre é uma peça que pode se mover para qualquer outra posição do tabuleiro na linha ou na coluna da posição que ela ocupa. O professor Paulo está tentando inventar um novo tipo de jogo de xadrez onde todas as peças são torres, o tabuleiro também é quadrado mas pode ter qualquer dimensão e cada posição do tabuleiro é anotada com um número inteiro positivo, como na figura abaixo.</p><p style="text-align: justify;color: rgb(51, 51, 51);"><img src="http://www.codcad.com/static/judge/36/2015f2p1_torre.png" style="color: rgb(147, 149, 152);text-align: center;"/></p><p style="text-align: justify;color: rgb(51, 51, 51);"><br/></p><p style="text-align: justify;color: rgb(51, 51, 51);">Ele definiu o peso de uma posição<span class="Apple-converted-space"> </span><b>(i,j)</b><span class="Apple-converted-space"> </span>como sendo a soma de todos os números que estejam na linha<span class="Apple-converted-space"> </span><b>i</b><span class="Apple-converted-space"> </span>com todos os números da coluna<span class="Apple-converted-space"> </span><b>j</b>, mas sem somar o número que está exatamente na posição<span class="Apple-converted-space"> </span><b>(i,j)</b>. Quer dizer, se uma torre estiver na posição<span class="Apple-converted-space"> </span><b>(i,j)</b>, o peso da posição é a soma de todas as posições que essa torre poderia atacar.</p><p style="text-align: justify;color: rgb(51, 51, 51);">O professor Paulo está solicitando a sua ajuda para implementar um programa que determine qual é o peso máximo entre todas as posições do tabuleiro.</p><p style="text-align: justify;color: rgb(51, 51, 51);">No exemplo da figura acima, com um tabuleiro de dimensão seis (ou seja, seis linhas por seis colunas), o peso máximo é 67, referente à posição (4,4).</p><p style="text-align: justify;color: rgb(51, 51, 51);"><br/></p><p style="text-align: justify;color: rgb(51, 51, 51);"><b>RESTRIÇÕES :</b></p><p style="text-align: justify;color: rgb(51, 51, 51);"><ul style="color: rgb(51, 51, 51);"><li>3<span class="Apple-converted-space"> </span><span class="MathJax_Preview" style="color: inherit;"></span><span id="MathJax-Element-2-Frame" class="mjx-chtml MathJax_CHTML" style="text-align: left;float: none;direction: ltr;"><span id="MJXc-Node-6" class="mjx-math"><span id="MJXc-Node-7" class="mjx-mrow" style="text-align: left;"><span id="MJXc-Node-8" class="mjx-mo" style="text-align: left;"><span class="mjx-char MJXc-TeX-main-R" style="text-align: left;">≤</span></span></span></span><span class="MJX_Assistive_MathML" style="height: 1px !important;width: 1px !important;">≤</span></span><span class="Apple-converted-space"> </span><b>N</b><span class="Apple-converted-space"> </span><span class="MathJax_Preview" style="color: inherit;"></span><span id="MathJax-Element-3-Frame" class="mjx-chtml MathJax_CHTML" style="text-align: left;float: none;direction: ltr;"><span id="MJXc-Node-9" class="mjx-math"><span id="MJXc-Node-10" class="mjx-mrow" style="text-align: left;"><span id="MJXc-Node-11" class="mjx-mo" style="text-align: left;"><span class="mjx-char MJXc-TeX-main-R" style="text-align: left;">≤</span></span></span></span><span class="MJX_Assistive_MathML" style="height: 1px !important;width: 1px !important;">≤</span></span><span class="Apple-converted-space"> </span>1000</li><li>0<span class="Apple-converted-space"> </span><span class="MathJax_Preview" style="color: inherit;"></span><span id="MathJax-Element-4-Frame" class="mjx-chtml MathJax_CHTML" style="text-align: left;float: none;direction: ltr;"><span id="MJXc-Node-12" class="mjx-math"><span id="MJXc-Node-13" class="mjx-mrow" style="text-align: left;"><span id="MJXc-Node-14" class="mjx-mo" style="text-align: left;"><span class="mjx-char MJXc-TeX-main-R" style="text-align: left;">≤</span></span></span></span><span class="MJX_Assistive_MathML" style="height: 1px !important;width: 1px !important;">≤</span></span><span class="Apple-converted-space"> </span><span class="MathJax_Preview" style="color: inherit;"></span><span id="MathJax-Element-5-Frame" class="mjx-chtml MathJax_CHTML" style="text-align: left;float: none;direction: ltr;"><span id="MJXc-Node-15" class="mjx-math"><span id="MJXc-Node-16" class="mjx-mrow" style="text-align: left;"><span id="MJXc-Node-17" class="mjx-msubsup" style="text-align: left;"><span class="mjx-base" style="text-align: left;"><span id="MJXc-Node-18" class="mjx-mi" style="text-align: left;"><span class="mjx-char MJXc-TeX-math-I" style="text-align: left;">X</span></span></span><span class="mjx-sub" style="text-align: left;"><span id="MJXc-Node-19" class="mjx-mi" style="text-align: left;"><span class="mjx-char MJXc-TeX-math-I" style="text-align: left;">i</span></span></span></span></span></span><span class="MJX_Assistive_MathML" style="height: 1px !important;width: 1px !important;">Xi</span></span><span class="Apple-converted-space"> </span><span class="MathJax_Preview" style="color: inherit;"></span><span id="MathJax-Element-6-Frame" class="mjx-chtml MathJax_CHTML" style="text-align: left;float: none;direction: ltr;"><span id="MJXc-Node-20" class="mjx-math"><span id="MJXc-Node-21" class="mjx-mrow" style="text-align: left;"><span id="MJXc-Node-22" class="mjx-mo" style="text-align: left;"><span class="mjx-char MJXc-TeX-main-R" style="text-align: left;">≤</span></span></span></span><span class="MJX_Assistive_MathML" style="height: 1px !important;width: 1px !important;">≤</span></span><span class="Apple-converted-space"> </span>100</li></ul></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="text-align: justify;color: rgb(51, 51, 51);">A primeira linha da entrada contém um inteiro<span class="Apple-converted-space"> </span><b>N</b>, representando a dimensão do tabuleiro.</p><p style="text-align: justify;color: rgb(51, 51, 51);">Cada uma das<span class="Apple-converted-space"> </span><b>N</b><span class="Apple-converted-space"> </span>linhas seguintes contém<span class="Apple-converted-space"> </span><b>N</b><span class="Apple-converted-space"> </span>inteiros positivos<span class="Apple-converted-space"> </span><span class="MathJax_Preview" style="color: inherit;"></span><span id="MathJax-Element-1-Frame" class="mjx-chtml MathJax_CHTML" style="text-align: left;float: none;direction: ltr;"><span id="MJXc-Node-1" class="mjx-math"><span id="MJXc-Node-2" class="mjx-mrow" style="text-align: left;"><span id="MJXc-Node-3" class="mjx-msubsup" style="text-align: left;"><span class="mjx-base" style="text-align: left;"><span id="MJXc-Node-4" class="mjx-mi" style="text-align: left;"><span class="mjx-char MJXc-TeX-math-I" style="text-align: left;">X</span></span></span><span class="mjx-sub" style="text-align: left;"><span id="MJXc-Node-5" class="mjx-mi" style="text-align: left;"><span class="mjx-char MJXc-TeX-math-I" style="text-align: left;">i</span></span></span></span></span></span><span class="MJX_Assistive_MathML" style="height: 1px !important;width: 1px !important;">Xi</span></span>, definindo os números em cada posição do tabuleiro.</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span style="color: rgb(51, 51, 51);text-align: justify;background-color: rgb(255, 255, 255);float: none;">Seu programa deve produzir uma única linha, contendo um único inteiro, o peso máximo entre todas as posições do tabuleiro.</span><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question927/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question927/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question927/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question927/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question927/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question927/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question927/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question927/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

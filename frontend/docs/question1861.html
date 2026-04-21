@@ -1,0 +1,281 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 1861 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 1861</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">fluxo máximo</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">grafo</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">grafo bipartido</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Nomeando Problemas</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p><b id="docs-internal-guid-321b10d0-f2d5-0a99-6b06-966e72fc14a5"></b></p><p dir="ltr" style="text-align: justify;background-color: #ffffff;"><span style="color: #000000;background-color: #ffffff;">Piton está organizando uma maratona de programação que contém </span><span style="color: #000000;background-color: #ffffff;"><b>N</b></span><span style="color: #000000;background-color: #ffffff;"> problemas, nomeados A, B, C, etc. Ele quer nomear o primeiro problema começando com a letra A, o segundo começando com a letra B, e etc. Porém, ele não pode simplesmente escolher palavras aleatórias para os títulos do problemas; isso não faria sentido. Para cada problema, ele pensou numa lista de nomes aceitáveis. Ajude Piton a ordenar os problemas e escolher os nomes aceitáveis para cada problema, de forma que cada problema comece com a letra correta do alfabeto.</span></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span id="docs-internal-guid-321b10d0-f2d5-d2e6-e0c4-a1b546751b08"><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">A primeira linha da entrada dá o número de casos de teste, </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>T</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">. </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>T</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"> casos de teste seguirão. Cada um inicia com um </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>N</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">, com a quantidade de problemas. As próximas </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>N</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"> linhas terão a lista de nomes possíveis para cada um dos </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>N</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"> problemas. Cada linha começa com </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>K</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>i</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">; o número de nomes aceitáveis para o problema </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>i</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">, seguida da lista de nomes, separadas por espaços. Cada nome é uma string não vazia de letras. Não vão ter dois nomes iguais, e não vão ter dois nomes começando com a mesma letra para o mesmo problema.</span></span></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span id="docs-internal-guid-321b10d0-f2d7-33c8-58ae-67c84ea8e386"><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">Para cada caso de teste, primeiro imprima 'Case #x:', onde </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);">x</span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"> é o número do caso de teste. Depois disso, imprima </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>N</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"> linhas, listando o nome dos </span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"><b>N</b></span><span style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);"> problemas, cada com apenas a primeira letra maiúscula. É garantido que existirá exatamente uma solução.</span></span></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in10.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out10.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in11.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out11.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in12.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out12.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in13.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out13.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in14.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out14.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in15.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out15.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in16.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out16.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in17.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out17.txt">
+                Exemplo 10
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in18.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out18.txt">
+                Exemplo 11
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in19.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out19.txt">
+                Exemplo 12
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out2.txt">
+                Exemplo 13
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in20.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out20.txt">
+                Exemplo 14
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in21.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out21.txt">
+                Exemplo 15
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in22.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out22.txt">
+                Exemplo 16
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in23.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out23.txt">
+                Exemplo 17
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in24.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out24.txt">
+                Exemplo 18
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in25.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out25.txt">
+                Exemplo 19
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in26.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out26.txt">
+                Exemplo 20
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in27.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out27.txt">
+                Exemplo 21
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in28.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out28.txt">
+                Exemplo 22
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in29.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out29.txt">
+                Exemplo 23
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out3.txt">
+                Exemplo 24
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in30.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out30.txt">
+                Exemplo 25
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out4.txt">
+                Exemplo 26
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out5.txt">
+                Exemplo 27
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out6.txt">
+                Exemplo 28
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out7.txt">
+                Exemplo 29
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out8.txt">
+                Exemplo 30
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question1861/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question1861/outputs/out9.txt">
+                Exemplo 31
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

@@ -1,0 +1,185 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 4831 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4831</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">pilha</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">alocação dinâmica</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">ponteiro</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Pilhados</h2>
+<p><strong>Tempo limite:</strong> 10 segundo(s)</p>
+<p style="color: rgb(30, 30, 30);">Pilhonaldo é um empacotador muito suspeito. Durante o dia trabalha em um armazém, empilhando caixas da Amazon, mas sonha em ser professor de matemática no ensino fundamental.</p><p style="color: rgb(30, 30, 30);">Para isso, ele teve um ideia de atividade enquanto empilhava as caixas. Pilhonaldo percebeu que poderia trabalhar com seus alunos a subtração e a paridade de números com um jogo.</p><p style="color: rgb(30, 30, 30);">Cada rodada do jogo consiste em empilhar as caixas uma em cima da outra, na ordem em que vierem. Mas existe uma complicação: cada vez que uma caixa é empilhada em cima de uma que tem número com paridade igual (ambas ímpares ou ambas pares), as duas são substituídas por uma única caixa com número igual à diferença (em absoluto) entre as duas.</p><h3 style="color: rgb(30, 30, 30);">Exemplo:</h3><p style="color: rgb(30, 30, 30);">Dada uma pilha em que foram empilhadas caixas com 3,2 e 1 pacotes, nessa ordem (sendo 1 o topo):</p><pre style="background-color: rgba(220, 220, 220, 0.4);color: rgb(30, 30, 30);"><code style="color: rgb(30, 30, 30);">1 &#10;2 &#10;3 &#10;</code></pre><p style="color: rgb(30, 30, 30);">Ao adicionar uma caixa com 7 pacotes em cima de uma de número 1, a operação de subtração deve ser realizada:</p><pre style="background-color: rgba(220, 220, 220, 0.4);color: rgb(30, 30, 30);"><code style="color: rgb(30, 30, 30);">7    &#10;1    6&#10;2 -&gt; 2 -&gt; 4&#10;3    3    3&#10;</code></pre><p style="color: rgb(30, 30, 30);"><strong>Observações:</strong></p><ul style="color: rgb(30, 30, 30);"><li>Note que, no caso de ter sido adicionada uma caixa de número 1 em cima de uma de número 7, ambas as caixas também seria substituídas por uma caixa contendo<span> </span><code style="color: rgb(163, 21, 21);">|7-1| = 6</code><span> </span>pacotes. Assim, a subtração é dada em absoluto, não importando a ordem das caixas.</li><li>A operação de subtração é sucessiva, e continuará acontecendo entre a caixa no topo e a caixa imediatamente adjacente ao topo até que a paridade delas seja diferente, como pode ser visto no exemplo.</li></ul></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(30, 30, 30);">Inicialmente, uma linha contendo um número<span> </span><code style="color: rgb(163, 21, 21);">t</code><span> </span>de casos é dada:</p><pre style="background-color: rgba(220, 220, 220, 0.4);color: rgb(30, 30, 30);"><code style="color: rgb(30, 30, 30);">t&#10;</code></pre><p style="color: rgb(30, 30, 30);">Implicando que<span> </span><code style="color: rgb(163, 21, 21);">t</code><span> </span>rodadas do jogo serão jogadas, com pilhas numeradas de 1 a<span> </span><code style="color: rgb(163, 21, 21);">t</code>.</p><p style="color: rgb(30, 30, 30);">Em seguida,<span> </span><code style="color: rgb(163, 21, 21);">t</code><span> </span>casos são dados. Cada caso é imediatamente precedido por uma<span> </span><strong>linha vazia</strong>, em seguida são dadas várias linhas da forma:</p><pre style="background-color: rgba(220, 220, 220, 0.4);color: rgb(30, 30, 30);"><code style="color: rgb(30, 30, 30);">n&#10;</code></pre><p style="color: rgb(30, 30, 30);">onde<span> </span><code style="color: rgb(163, 21, 21);">n</code><span> </span>representa um número (não nulo) de pacotes dentro da caixa a ser adicionada na pilha. (O número com o qual deverão ser feitas as operações do jogo). A última caixa, com valor<span> </span><code style="color: rgb(163, 21, 21);">0</code>, marcará o<span> </span><strong>fim da partida</strong>, quando uma pilha atinge seu estado final. A caixa vazia<span> </span><strong>não</strong><span> </span>é adicionada à pilha</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p style="color: rgb(30, 30, 30);">Para cada caso, deverá ser impressa uma linha da forma:</p><pre style="background-color: rgba(220, 220, 220, 0.4);color: rgb(30, 30, 30);"><code style="color: rgb(30, 30, 30);">Pilha i: tamanho topo&#10;</code></pre><p style="color: rgb(30, 30, 30);">Onde:</p><ul style="color: rgb(30, 30, 30);"><li><code style="color: rgb(163, 21, 21);">i</code><span> </span>é o número da Pilha em questão (valor de 1 a<span> </span><code style="color: rgb(163, 21, 21);">t</code>)<br/><br/></li><li><code style="color: rgb(163, 21, 21);">tamanho</code><span> </span>indica o número de caixas na Pilha (ou seja, a<span> </span><strong>quantidade</strong><span> </span>de elementos empilhados, não o valor deles)<br/><br/></li><li><code style="color: rgb(163, 21, 21);">topo</code><span> </span>indica o<span> </span><strong>valor</strong><span> </span>da caixa no topo ao final do jogo, presumindo que as operações de subtração foram feitas de acordo com as regras do jogo</li></ul><p style="color: rgb(30, 30, 30);">No caso em que não haja caixas ao final do jogo, o valor de<span> </span><code style="color: rgb(163, 21, 21);">topo</code><span> </span>deve ser substituído por<span> </span><code style="color: rgb(163, 21, 21);">-1</code>.</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4831/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question4831/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4831/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question4831/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4831/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question4831/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4831/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question4831/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4831/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question4831/outputs/out4.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4831/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question4831/outputs/out5.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4831/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question4831/outputs/out6.txt">
+                Exemplo 7
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

@@ -1,0 +1,201 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 3887 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 3887</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">decisão</span><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">lógica matemática</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>Casa de Show</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<b id="docs-internal-guid-d3612536-7fff-0fc9-5974-922980932ab1"></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Pedro tem uma banda com mais 6 amigos. Todos os dias da semana tem um ensaio na casa de uma pessoa diferente, ou seja, não terá dois ensaios na casa da mesma pessoa, na mesma semana. Todos os integrantes da banda, tem uma limitação de metros que conseguem andar em uma semana, caso essa limitação seja ultrapassada, o integrante que ultrapassou o limite não irá se apresentar no show. No último dia da semana, ou seja, sábado, além do ensaio, Pedro e seus amigos farão uma apresentação na casa de show onde terá o maior pagamento acumulado. Pedro não é muito bom com números, então ele pediu para você fazer um programa que calculasse qual a casa de show que pagará o maior valor, qual o valor que essa casa de show pagará e quantos integrantes vão se apresentar.</span></p><p dir="ltr" style="text-align: justify;"><img src="https://www.thehuxley.com/api/v1/problems/image/652bb5b7d011d2f50783539fb78b03ba3025e7910.png"/><span style="color: #000000;background-color: transparent;"><br/></span></p><b id="docs-internal-guid-21759c84-7fff-4c1f-81bf-3073670cda2b"></b><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>Obs: CASA 1 pagará 10 reais por integrante;</b></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>Obs: CASA 2 pagará 20 reais por integrante;</b></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>Obs: CASA 3 pagará 30 reais por integrante;</b></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>Obs: Sempre será feito o menor caminho;</b></span></p><p dir="ltr"><span style="color: #000000;background-color: transparent;"><b>Obs: No caso de ter casas de show's diferentes pagando o mesmo valor, o critério de desempate será a quantidade de integrantes que irão se apresentar, ou seja, deverá ser pego a casa de show onde irá mais integrantes.</b></span></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p><span id="docs-internal-guid-75009358-7fff-e937-6511-6f5c456fddc9"><span style="color: rgb(0, 0, 0);background-color: transparent;">A entrada será composta por 7 inteiros, representando a limitação em metros de Pedro, Túlio, Gabriel, Yanka, Paloma, Vinicius e Elias, respectivamente.</span></span><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><b id="docs-internal-guid-8c12ee68-7fff-fad5-ae67-c61208befb32"></b><p dir="ltr" style="text-align: justify;"><span style="color: #000000;background-color: transparent;">Deverá ser impresso a casa de show onde a banda foi se apresentar, o valor acumulado que os integrantes receberam  e a quantidade de integrantes que irão participar do show, todos separados por uma quebra de linha.</span></p><span style="color: #000000;background-color: transparent;"><b>Obs:</b> caso nenhum integrante consiga se apresentar, deverá ser impresso a seguinte frase: </span><span style="color: #000000;background-color: transparent;"><b>NAO TERA SHOW!</b></span></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in10.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out10.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out2.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out3.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out4.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out5.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out6.txt">
+                Exemplo 8
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out7.txt">
+                Exemplo 9
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in8.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out8.txt">
+                Exemplo 10
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question3887/inputs/in9.txt;/create-code-and-judge-code-with-llms/database/questions/question3887/outputs/out9.txt">
+                Exemplo 11
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    

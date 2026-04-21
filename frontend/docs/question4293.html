@@ -1,0 +1,189 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questão 4293 - TCC</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+        <style>
+            body { font-family: 'Inter', sans-serif; }
+            pre {
+                white-space: pre-wrap;   
+                word-wrap: break-word;   
+            }
+            .copy-container {
+                position: relative;
+            }
+            .copy-btn {
+                position: absolute;
+                top: 0.5rem;
+                right: 0.5rem;
+                background-color: #4B5563; 
+                color: white;
+                padding: 0.25rem 0.5rem;
+                border-radius: 0.375rem; 
+                font-size: 0.75rem; 
+                font-weight: 500; 
+                opacity: 0;
+                cursor: pointer;
+                transition: opacity 0.2s;
+            }
+            .copy-container:hover .copy-btn {
+                opacity: 1;
+            }
+            .copy-btn:active {
+                background-color: #1F2937; 
+            }
+        </style>
+    </head>
+    <body class="bg-gray-100">
+        <div class="container mx-auto max-w-4xl p-4 sm:p-8">
+            <header class="mb-6 flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-800">Detalhes da questão 4293</h1>
+                <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline">&larr; Voltar para a lista</a>
+            </header>
+            
+            <main class="space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex flex-wrap justify-between items-center mb-4 gap-2">
+                        <h2 class="text-xl font-semibold text-gray-700">Tópicos do problema</h2>
+                        <div class="flex flex-wrap justify-end gap-2"><span class="ml-2 bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs font-medium">array bidimensional</span></div>
+                    </div>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><h2>matriz transposta</h2>
+<p><strong>Tempo limite:</strong> 1 segundo(s)</p>
+<p>Dois amigos decidiram fazer uma brincadeira na qual ambos escolhem uma matriz NxN, e querem saber se uma é a transposta da outra. Exemplo:<br/><br/><b id="docs-internal-guid-db631308-7fff-bb59-8449-5ff064fbbdb6"><span style="color: #000000;background-color: transparent;"><span style="width: 352px;height: 141px;"><img src="data:image/png;base64,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" width="352" height="141"/></span></span></b><br/></p><p><font color="#000000">Neste exemplo, uma matriz é a transposição da outra.</font></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Entrada</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>um inteiro N, 1 &lt;= N &lt;= 10</p><p><br/></p><p>serão lidos n*n inteiros, que são os valores da matriz 1</p><p><span style="color: rgb(147, 149, 152);background-color: rgb(255, 255, 255);float: none;">serão lidos n*n inteiros, que são os valores da matriz 2</span><br/></p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Formato da Saída</h2>
+                    <div class="prose max-w-none p-4 border border-gray-200 rounded-lg bg-gray-50"><p>caso uma matriz seja a transposta da outra, imprima <b>verdadeiro</b>, caso contrário imprima <b>falso</b>.</p></div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Exemplos de Entrada e Saída</h2>
+                    
+                    <div class="mb-4 flex items-center gap-4">
+                        <label for="example-select" class="text-sm font-medium text-gray-700 whitespace-nowrap">Selecione um exemplo:</label>
+                        <select 
+                            id="example-select" 
+                            onchange="handleSelectChange(this.value)"
+                            class="block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                            <option value="">Selecione um exemplo...</option>
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4293/inputs/in0.txt;/create-code-and-judge-code-with-llms/database/questions/question4293/outputs/out0.txt">
+                Exemplo 1
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4293/inputs/in1.txt;/create-code-and-judge-code-with-llms/database/questions/question4293/outputs/out1.txt">
+                Exemplo 2
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4293/inputs/in2.txt;/create-code-and-judge-code-with-llms/database/questions/question4293/outputs/out2.txt">
+                Exemplo 3
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4293/inputs/in3.txt;/create-code-and-judge-code-with-llms/database/questions/question4293/outputs/out3.txt">
+                Exemplo 4
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4293/inputs/in4.txt;/create-code-and-judge-code-with-llms/database/questions/question4293/outputs/out4.txt">
+                Exemplo 5
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4293/inputs/in5.txt;/create-code-and-judge-code-with-llms/database/questions/question4293/outputs/out5.txt">
+                Exemplo 6
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4293/inputs/in6.txt;/create-code-and-judge-code-with-llms/database/questions/question4293/outputs/out6.txt">
+                Exemplo 7
+            </option>
+            
+            <option value="/create-code-and-judge-code-with-llms/database/questions/question4293/inputs/in7.txt;/create-code-and-judge-code-with-llms/database/questions/question4293/outputs/out7.txt">
+                Exemplo 8
+            </option>
+            
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Entrada (Input)</h3>
+                            <div class="copy-container">
+                                <pre id="input-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a entrada.</pre>
+                                <button id="copy-input-btn" onclick="copyToClipboard('input-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-700 mb-2">Saída (Output)</h3>
+                            <div class="copy-container">
+                                <pre id="output-content" class="h-48 p-3 border border-gray-300 rounded-md bg-gray-50 overflow-auto">Clique em um exemplo para carregar a saída.</pre>
+                                <button id="copy-output-btn" onclick="copyToClipboard('output-content')" class="copy-btn">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center text-gray-500 mt-12">
+                <p>Gerado automaticamente.</p>
+            </footer>
+        </div>
+        
+        <script>
+            function handleSelectChange(selectedValue) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                if (!selectedValue) {
+                    inputDiv.textContent = 'Clique em um exemplo para carregar a entrada.';
+                    outputDiv.textContent = 'Clique em um exemplo para carregar a saída.';
+                    return;
+                }
+                
+                const [inputPath, outputPath] = selectedValue.split(';');
+                loadExample(inputPath, outputPath);
+            }
+
+            async function loadExample(inputPath, outputPath) {
+                const inputDiv = document.getElementById('input-content');
+                const outputDiv = document.getElementById('output-content');
+                
+                inputDiv.textContent = 'Carregando...';
+                outputDiv.textContent = 'Carregando...';
+
+                try {
+                    const inputResponse = await fetch(inputPath);
+                    if (!inputResponse.ok) throw new Error('Arquivo de input não encontrado.');
+                    const inputText = await inputResponse.text();
+                    inputDiv.textContent = inputText;
+
+                    const outputResponse = await fetch(outputPath);
+                    if (!outputResponse.ok) throw new Error('Arquivo de output não encontrado.');
+                    const outputText = await outputResponse.text();
+                    outputDiv.textContent = outputText;
+
+                } catch (error) {
+                    console.error('Erro ao carregar o exemplo:', error);
+                    inputDiv.textContent = 'Erro ao carregar arquivo.';
+                    outputDiv.textContent = 'Erro ao carregar arquivo.';
+                }
+            }
+
+            function copyToClipboard(elementId) {
+                const content = document.getElementById(elementId).textContent;
+                navigator.clipboard.writeText(content).then(() => {
+                    alert('Conteúdo copiado!');
+                }).catch(err => {
+                    console.error('Falha ao copiar:', err);
+                });
+            }
+        </script>
+    </body>
+    </html>
+    
