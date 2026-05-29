@@ -77,10 +77,17 @@ gpt.addEventListener("click", () => {
     gpt.classList.contains("text-gray-700")
   ) {
     gpt.classList.remove("bg-gray-200", "text-gray-700");
-    gpt.classList.add("bg-blue-600", "text-white");
-    gemini.classList.remove("bg-blue-600", "text-white");
+    gpt.classList.add("bg-blue-600", "text-white", "font-bold");
+    gemini.classList.remove("bg-blue-600", "text-white", "font-bold");
     gemini.classList.add("bg-gray-200", "text-gray-700");
-    console.log("Sou gpt");
+    
+    const urlData =
+      "/create-code-and-judge-code-with-llms/database/output/json/simulation_the_huxley_gpt_5_4_nano.json";
+    
+    graphicBuild(
+      urlData,
+      "Gemini 3 Flash Preview no The Huxley e o GPT 5.4 Nano simulando o The Huxley",
+    );
   }
 });
 
@@ -90,17 +97,24 @@ gemini.addEventListener("click", () => {
     gemini.classList.contains("text-gray-700")
   ) {
     gemini.classList.remove("bg-gray-200", "text-gray-700");
-    gemini.classList.add("bg-blue-600", "text-white");
-    gpt.classList.remove("bg-blue-600", "text-white");
+    gemini.classList.add("bg-blue-600", "text-white", "font-bold");
+    gpt.classList.remove("bg-blue-600", "text-white", "font-bold");
     gpt.classList.add("bg-gray-200", "text-gray-700");
-    console.log("Sou gemini");
+    
+    const urlData =
+      "/create-code-and-judge-code-with-llms/database/output/json/simulation_the_huxley_models_gemini_3_flash_preview.json";
+    
+    graphicBuild(
+      urlData,
+      "GPT 5.4 Nano no The Huxley e o Gemini 3 Flash Preview simulando o The Huxley",
+    );
   }
 });
 
 const urlData =
-  "/create-code-and-judge-code-with-llms/database/output/json/simulation_the_huxley_gpt_5_4_nano.json";
-
-graphicBuild(
-  urlData,
-  "Gemini 3 Flash Preview no The Huxley e o GPT 5.4 Nano simulando o The Huxley",
-);
+      "/create-code-and-judge-code-with-llms/database/output/json/simulation_the_huxley_gpt_5_4_nano.json";
+    
+    graphicBuild(
+      urlData,
+      "Gemini 3 Flash Preview no The Huxley e o GPT 5.4 Nano simulando o The Huxley",
+    );
